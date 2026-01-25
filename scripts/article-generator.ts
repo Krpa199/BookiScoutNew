@@ -1,8 +1,8 @@
 import fs from 'fs';
 import path from 'path';
 import { generateArticle, translateArticle, ArticleData } from './gemini';
-import { LANGUAGES, LanguageCode, DEFAULT_LANGUAGE } from '@/config/languages';
-import { Destination, Theme, DESTINATIONS, THEMES } from '@/config/destinations';
+import { LANGUAGES, LanguageCode } from '../src/config/languages';
+import { Destination, Theme, DESTINATIONS, THEMES } from '../src/config/destinations';
 
 const CONTENT_DIR = path.join(process.cwd(), 'src', 'content', 'articles');
 const TRACKING_FILE = path.join(process.cwd(), 'src', 'content', 'generated.json');

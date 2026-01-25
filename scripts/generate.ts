@@ -1,4 +1,4 @@
-import { generateDailyArticles, getGenerationStats } from '../src/lib/article-generator';
+import { generateDailyArticles, getGenerationStats } from './article-generator';
 
 async function main() {
   console.log('\n🚀 BookiScout Article Generator\n');

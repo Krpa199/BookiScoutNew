@@ -1,6 +1,6 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
-import { LANGUAGES, LanguageCode } from '@/config/languages';
-import { Destination, Theme } from '@/config/destinations';
+import { LANGUAGES, LanguageCode } from '../src/config/languages';
+import { Destination, Theme } from '../src/config/destinations';
 
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || '');
 
