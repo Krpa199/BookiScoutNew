@@ -162,7 +162,7 @@ export default function HomePage() {
               <p className="text-gray-600">Expert tips for your perfect Croatian vacation</p>
             </div>
             <Link
-              href="/blog"
+              href="/guides"
               className="hidden md:flex items-center gap-2 text-blue-600 hover:text-blue-700 font-medium transition-colors"
             >
               View all

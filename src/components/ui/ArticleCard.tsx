@@ -22,7 +22,7 @@ export default function ArticleCard({
   image,
   readTime = 5,
 }: ArticleCardProps) {
-  const href = `/blog/${language}/${destination}-${theme}`;
+  const href = `/guides/${language}/${destination}-${theme}`;
 
   // Theme colors and icons
   const themeStyles: Record<string, { bg: string; text: string; label: string }> = {

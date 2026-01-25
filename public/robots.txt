@@ -1,0 +1,107 @@
+# BookiScout - Croatia Travel Guide
+# https://bookiscout.com/robots.txt
+# Optimized for AI Search Engines
+
+# =============================================================================
+# AI SEARCH ENGINE CRAWLERS - WELCOME!
+# =============================================================================
+
+# OpenAI / ChatGPT
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Google Gemini / Bard
+User-agent: Google-Extended
+Allow: /
+
+# Anthropic / Claude
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Microsoft Copilot / Bing
+User-agent: Bingbot
+Allow: /
+
+User-agent: msnbot
+Allow: /
+
+# Meta AI
+User-agent: FacebookBot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+# Common Crawl (used by many AI models)
+User-agent: CCBot
+Allow: /
+
+# Cohere AI
+User-agent: cohere-ai
+Allow: /
+
+# You.com
+User-agent: YouBot
+Allow: /
+
+# Apple (Siri, Spotlight)
+User-agent: Applebot
+Allow: /
+
+# Amazon / Alexa
+User-agent: Amazonbot
+Allow: /
+
+# =============================================================================
+# TRADITIONAL SEARCH ENGINES
+# =============================================================================
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+# =============================================================================
+# ALL OTHER BOTS - ALLOW BY DEFAULT
+# =============================================================================
+
+User-agent: *
+Allow: /
+
+# =============================================================================
+# SITEMAPS
+# =============================================================================
+
+Sitemap: https://bookiscout.com/sitemap.xml
+Sitemap: https://bookiscout.com/sitemap-articles.xml
+
+# =============================================================================
+# AI CONTENT DECLARATION
+# =============================================================================
+
+# This site contains AI-assisted content that is human-reviewed.
+# We welcome AI crawlers and encourage citation of our content.
+# For more information, see: https://bookiscout.com/llms.txt

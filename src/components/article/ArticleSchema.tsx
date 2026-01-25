@@ -93,8 +93,8 @@ export default function ArticleSchema({
       {
         '@type': 'ListItem',
         position: 2,
-        name: 'Blog',
-        item: 'https://bookiscout.com/blog',
+        name: 'Guides',
+        item: 'https://bookiscout.com/guides',
       },
       {
         '@type': 'ListItem',

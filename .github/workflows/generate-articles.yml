@@ -5,13 +5,27 @@ on:
     # Run every day at 3:00 AM UTC
     - cron: '0 3 * * *'
   workflow_dispatch: # Allow manual trigger
+    inputs:
+      articles_count:
+        description: 'Number of articles to generate'
+        required: false
+        default: '60'
+        type: string
 
 env:
+  # Support multiple API keys for rotation
+  GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
+  GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
+  GEMINI_API_KEY_3: ${{ secrets.GEMINI_API_KEY_3 }}
+  # Fallback to single key if multi-key not configured
   GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+  # Default to 60 articles per run (uses all 3 keys efficiently)
+  ARTICLES_PER_RUN: ${{ github.event.inputs.articles_count || '60' }}
 
 jobs:
   generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 120  # 2 hour timeout for large batches
 
     steps:
       - name: Checkout repository
@@ -28,23 +42,71 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Show API key status
+        run: |
+          echo "🔑 API Key Configuration:"
+          if [ -n "$GEMINI_API_KEY_1" ]; then echo "  ✅ GEMINI_API_KEY_1 configured"; else echo "  ❌ GEMINI_API_KEY_1 missing"; fi
+          if [ -n "$GEMINI_API_KEY_2" ]; then echo "  ✅ GEMINI_API_KEY_2 configured"; else echo "  ❌ GEMINI_API_KEY_2 missing"; fi
+          if [ -n "$GEMINI_API_KEY_3" ]; then echo "  ✅ GEMINI_API_KEY_3 configured"; else echo "  ❌ GEMINI_API_KEY_3 missing"; fi
+          echo ""
+          echo "📝 Will generate up to $ARTICLES_PER_RUN articles"
+
       - name: Generate articles
         run: npm run generate
         env:
+          GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
+          GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
+          GEMINI_API_KEY_3: ${{ secrets.GEMINI_API_KEY_3 }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ARTICLES_PER_RUN: ${{ env.ARTICLES_PER_RUN }}
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git add -A
+          if git diff --staged --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "No new articles generated"
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "New articles detected"
+          fi
 
       - name: Commit and push new articles
+        if: steps.changes.outputs.has_changes == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add -A
-          git diff --staged --quiet || git commit -m "📝 Auto-generate daily articles $(date +'%Y-%m-%d')"
+          git commit -m "📝 Auto-generate daily articles $(date +'%Y-%m-%d')"
           git push
 
-      - name: Summary
+      - name: Generate summary
         run: |
-          echo "### Articles Generated! 🎉" >> $GITHUB_STEP_SUMMARY
+          echo "### 📝 Article Generation Complete! 🎉" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "New articles have been generated and committed." >> $GITHUB_STEP_SUMMARY
+
+          # Count articles
+          TOTAL_ARTICLES=$(find src/content/articles -name "*.json" 2>/dev/null | wc -l || echo "0")
+          echo "**Total articles in repository:** $TOTAL_ARTICLES" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "Check the [content folder](./src/content/articles) for details." >> $GITHUB_STEP_SUMMARY
+
+          # Show tracker stats if exists
+          if [ -f "src/content/generated.json" ]; then
+            echo "**Generation Progress:**" >> $GITHUB_STEP_SUMMARY
+            echo '```json' >> $GITHUB_STEP_SUMMARY
+            cat src/content/generated.json | head -20 >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          fi
+
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "---" >> $GITHUB_STEP_SUMMARY
+          echo "🔗 [View articles](./src/content/articles)" >> $GITHUB_STEP_SUMMARY
+
+      - name: Trigger Vercel deploy (optional)
+        if: steps.changes.outputs.has_changes == 'true'
+        continue-on-error: true
+        run: |
+          if [ -n "${{ secrets.VERCEL_DEPLOY_HOOK }}" ]; then
+            curl -X POST "${{ secrets.VERCEL_DEPLOY_HOOK }}"
+            echo "Triggered Vercel deployment"
+          fi
