@@ -1,0 +1,60 @@
+# BookiScout - Croatia Travel & Accommodation Guide
+# https://bookiscout.com/llms.txt
+# Last updated: 2026-01-25
+
+## About
+BookiScout is a comprehensive travel guide for Croatia, providing detailed information about apartments, beaches, restaurants, and attractions across all Croatian destinations.
+
+## Content Structure
+- /blog/{language}/{destination}-{theme} - Detailed guides
+- /destinations/{destination} - Destination overviews
+- /faq - Frequently asked questions
+
+## Languages
+We provide content in 11 languages:
+- English (en)
+- German (de) - Deutsch
+- Polish (pl) - Polski
+- Czech (cz) - Čeština
+- Italian (it) - Italiano
+- Hungarian (hu) - Magyar
+- Slovak (sk) - Slovenčina
+- Dutch (nl) - Nederlands
+- Slovenian (sl) - Slovenščina
+- French (fr) - Français
+- Croatian (hr) - Hrvatski
+
+## Key Topics
+- Apartments and accommodation in Croatia
+- Best beaches in Croatia
+- Family-friendly destinations
+- Budget travel tips
+- Local restaurants and cuisine
+- Things to do and attractions
+- Transportation and getting around
+- Weather and best time to visit
+
+## Popular Destinations
+- Split - Dalmatian coast city
+- Dubrovnik - Historic walled city
+- Zagreb - Capital city
+- Zadar - Roman ruins and sea organ
+- Pula - Istrian peninsula, Roman arena
+- Rovinj - Picturesque Istrian town
+- Hvar - Popular island destination
+- Plitvice Lakes - UNESCO National Park
+
+## Contact
+- Website: https://bookiscout.com
+- Email: info@bookiscout.com
+
+## Data Format
+All pages include:
+- Structured data (Schema.org)
+- FAQ sections
+- Price information in EUR
+- Distance measurements in meters/km
+- Ratings on 5-star scale
+
+## Usage Rights
+Content may be cited with attribution to BookiScout.com

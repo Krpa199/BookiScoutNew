@@ -1,0 +1,33 @@
+// 11 languages covering 85%+ of Croatian tourists
+export const LANGUAGES = {
+  en: { name: 'English', flag: '🇬🇧', locale: 'en-US' },
+  de: { name: 'Deutsch', flag: '🇩🇪', locale: 'de-DE' },
+  pl: { name: 'Polski', flag: '🇵🇱', locale: 'pl-PL' },
+  cz: { name: 'Čeština', flag: '🇨🇿', locale: 'cs-CZ' },
+  it: { name: 'Italiano', flag: '🇮🇹', locale: 'it-IT' },
+  hu: { name: 'Magyar', flag: '🇭🇺', locale: 'hu-HU' },
+  sk: { name: 'Slovenčina', flag: '🇸🇰', locale: 'sk-SK' },
+  nl: { name: 'Nederlands', flag: '🇳🇱', locale: 'nl-NL' },
+  sl: { name: 'Slovenščina', flag: '🇸🇮', locale: 'sl-SI' },
+  fr: { name: 'Français', flag: '🇫🇷', locale: 'fr-FR' },
+  hr: { name: 'Hrvatski', flag: '🇭🇷', locale: 'hr-HR' },
+} as const;
+
+export type LanguageCode = keyof typeof LANGUAGES;
+
+export const DEFAULT_LANGUAGE: LanguageCode = 'en';
+
+// Tourist percentage by country (2024 data)
+export const TOURIST_SHARE = {
+  de: 27.4, // Germany + Austria
+  sl: 9.8,
+  pl: 8.3,
+  cz: 5.7,
+  it: 4.6,
+  hu: 4.6,
+  sk: 4.0,
+  en: 4.0, // UK
+  nl: 3.4,
+  fr: 2.5,
+  hr: 10.0, // Domestic
+} as const;
