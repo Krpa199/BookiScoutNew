@@ -515,13 +515,13 @@ export default async function GuidePage({ params }: PageProps) {
                     {guide.summary}
                   </p>
                 </div>
-                {guide.bestForFamilies.length > 0 && (
+                {(guide.recommendations || guide.bestForFamilies || []).length > 0 && (
                   <div className="flex items-start gap-3 bg-white/90 p-5 rounded-2xl border border-sand-100">
                     <div className="w-6 h-6 bg-seafoam-500 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
                       <span className="text-white text-xs font-bold">2</span>
                     </div>
                     <p className="text-slate-800 font-medium leading-relaxed">
-                      {guide.bestForFamilies[0]}
+                      {(guide.recommendations || guide.bestForFamilies || [])[0]}
                     </p>
                   </div>
                 )}
