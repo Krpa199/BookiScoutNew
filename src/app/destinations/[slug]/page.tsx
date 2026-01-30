@@ -147,7 +147,7 @@ export default async function DestinationPage({ params }: PageProps) {
         </div>
 
         {/* Content - Bottom */}
-        <div className="container pb-12 md:pb-20 relative z-10 w-full">
+        <div className="container pb-24 md:pb-28 relative z-10 w-full">
           <div className="max-w-4xl animate-slide-up">
             <div className="flex items-center gap-2.5 mb-4 md:mb-6">
               <div className="w-10 h-10 bg-black/30 backdrop-blur-sm rounded-xl flex items-center justify-center border border-white/20">
