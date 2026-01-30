@@ -191,9 +191,9 @@ export default async function DestinationPage({ params }: PageProps) {
 
       {/* Main Content */}
       <div className="bg-gradient-ocean-subtle">
-        <div className="container py-16 md:py-24">
+        <div className="container pt-12 pb-16 md:pt-16 md:pb-24">
           {/* Quick Facts - AI Optimization */}
-          <div className="mb-16">
+          <div className="mb-16 mt-8 md:mt-0">
             <QuickFactsCard
               title={`${destination.name} at a Glance`}
               facts={[
