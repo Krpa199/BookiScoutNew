@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
-import { Menu, X, Globe, ChevronDown, Compass, Map, BookOpen } from 'lucide-react';
+import { Menu, X, Globe, ChevronDown, Compass, Map, HelpCircle } from 'lucide-react';
 import { LANGUAGES, LanguageCode } from '@/config/languages';
 
 interface HeaderProps {
@@ -25,7 +25,7 @@ export default function Header({ currentLang = 'en' }: HeaderProps) {
 
   const navigation = [
     { name: 'Destinations', href: '/destinations', icon: Map },
-    { name: 'Travel Guides', href: '/guides', icon: BookOpen },
+    { name: 'Decision Guides', href: '/guides', icon: HelpCircle },
   ];
 
   return (
@@ -47,7 +47,7 @@ export default function Header({ currentLang = 'en' }: HeaderProps) {
             <span className="font-bold text-xl text-slate-900 leading-none">
               Booki<span className="text-gradient-ocean">Scout</span>
             </span>
-            <span className="text-xs text-slate-500 font-medium leading-none mt-0.5">Croatia Travel Guide</span>
+            <span className="text-xs text-slate-500 font-medium leading-none mt-0.5">Croatia Decision Guides</span>
           </div>
         </Link>
 
@@ -115,8 +115,8 @@ export default function Header({ currentLang = 'en' }: HeaderProps) {
             href="/guides"
             className="btn-primary text-sm shadow-soft hover:shadow-medium"
           >
-            <BookOpen className="w-4 h-4" />
-            Explore Guides
+            <HelpCircle className="w-4 h-4" />
+            Decision Guides
           </Link>
         </div>
 
@@ -179,8 +179,8 @@ export default function Header({ currentLang = 'en' }: HeaderProps) {
               className="flex items-center justify-center gap-2 py-3.5 px-4 bg-gradient-ocean text-white text-center font-semibold rounded-xl hover:shadow-ocean transition-all shadow-soft"
               onClick={() => setMobileMenuOpen(false)}
             >
-              <BookOpen className="w-5 h-5" />
-              Explore Guides
+              <HelpCircle className="w-5 h-5" />
+              Browse Decision Guides
             </Link>
           </div>
         </div>

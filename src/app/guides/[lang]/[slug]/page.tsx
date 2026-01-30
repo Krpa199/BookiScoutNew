@@ -12,7 +12,7 @@ import QuickFactsCard from '@/components/ui/QuickFactsCard';
 import ProConList from '@/components/ui/ProConList';
 import ComparisonTable from '@/components/ui/ComparisonTable';
 
-// AI Decision Article type (from MASTER SPEC)
+// AI Decision Article type (from MASTER SPEC) - Extended for all audience types
 interface AIDecisionArticle {
   type: 'ai_decision';
   lang: string;
@@ -22,7 +22,9 @@ interface AIDecisionArticle {
   summary: string;
   avoidSummary?: string;
   comparisonNote?: string;
-  bestForFamilies: string[];
+  // Generic recommendations (replaces bestForFamilies for flexibility)
+  recommendations?: string[];
+  bestForFamilies?: string[]; // Legacy support
   avoid: string[];
   practicalNotes: string[];
   qa: { q: string; a: string }[];
@@ -33,7 +35,37 @@ interface AIDecisionArticle {
     audience: string;
     intent: 'decision';
     seedQuery: string;
+    theme?: string; // Added for theme-specific rendering
   };
+}
+
+// Dynamic section titles based on audience/theme
+function getRecommendationTitle(audience: string): string {
+  const titles: Record<string, string> = {
+    'families_kids_3_10': 'Best for Families',
+    'families-with-toddlers': 'Best for Families with Toddlers',
+    'families-with-teens': 'Best for Families with Teens',
+    'solo-travel': 'Best for Solo Travelers',
+    'seniors': 'Best for Seniors',
+    'digital-nomads': 'Best for Digital Nomads',
+    'lgbt-friendly': 'Best for LGBT+ Travelers',
+    'first-time-visitors': 'Best for First-Time Visitors',
+    'couples': 'Best for Couples',
+    'budget': 'Best Budget Options',
+    'luxury': 'Best Luxury Options',
+  };
+  return titles[audience] || 'Recommendations';
+}
+
+function getAvoidTitle(audience: string, theme?: string): string {
+  // Customize avoid section based on context
+  if (theme?.includes('walkability') || theme?.includes('stroller')) {
+    return 'Areas to Avoid (Accessibility)';
+  }
+  if (theme?.includes('parking') || theme?.includes('car')) {
+    return 'Parking Challenges';
+  }
+  return 'Areas to Avoid';
 }
 
 interface PageProps {
@@ -286,10 +318,10 @@ export default async function GuidePage({ params }: PageProps) {
                   <CheckCircle className="w-4 h-4 text-ocean-500" />
                   <span className="text-sm font-semibold text-slate-700 group-hover:text-ocean-600">Pros & Cons</span>
                 </a>
-                {guide.bestForFamilies.length > 0 && (
-                  <a href="#best-for-families" className="flex items-center gap-2 px-4 py-3 bg-slate-50 hover:bg-ocean-50 rounded-xl transition-colors group">
+                {(guide.recommendations || guide.bestForFamilies || []).length > 0 && (
+                  <a href="#recommendations" className="flex items-center gap-2 px-4 py-3 bg-slate-50 hover:bg-ocean-50 rounded-xl transition-colors group">
                     <CheckCircle className="w-4 h-4 text-ocean-500" />
-                    <span className="text-sm font-semibold text-slate-700 group-hover:text-ocean-600">Best for Families</span>
+                    <span className="text-sm font-semibold text-slate-700 group-hover:text-ocean-600">{getRecommendationTitle(guide.topicMeta.audience)}</span>
                   </a>
                 )}
                 <a href="#area-comparison" className="flex items-center gap-2 px-4 py-3 bg-slate-50 hover:bg-ocean-50 rounded-xl transition-colors group">
@@ -345,27 +377,29 @@ export default async function GuidePage({ params }: PageProps) {
             </div>
 
             {/* Pro/Con List - AI loves clear pros/cons */}
-            {(guide.bestForFamilies.length > 0 || guide.avoid.length > 0) && (
+            {((guide.recommendations || guide.bestForFamilies || []).length > 0 || guide.avoid.length > 0) && (
               <div id="pros-cons">
                 <ProConList
                   title="Pros & Cons"
-                  pros={guide.bestForFamilies.slice(0, 5)}
+                  pros={(guide.recommendations || guide.bestForFamilies || []).slice(0, 5)}
                   cons={guide.avoid.slice(0, 5)}
                 />
               </div>
             )}
 
-            {/* Best For Families */}
-            {guide.bestForFamilies.length > 0 && (
-              <section id="best-for-families">
+            {/* Recommendations Section - Dynamic title based on audience */}
+            {(guide.recommendations || guide.bestForFamilies || []).length > 0 && (
+              <section id="recommendations">
                 <div className="flex items-center gap-3 mb-6">
                   <div className="w-10 h-10 bg-seafoam-500 rounded-xl flex items-center justify-center shadow-soft">
                     <CheckCircle className="w-6 h-6 text-white" />
                   </div>
-                  <h2 className="text-3xl font-bold text-slate-900">Best for Families</h2>
+                  <h2 className="text-3xl font-bold text-slate-900">
+                    {getRecommendationTitle(guide.topicMeta.audience)}
+                  </h2>
                 </div>
                 <ul className="space-y-4">
-                  {guide.bestForFamilies.map((item, index) => (
+                  {(guide.recommendations || guide.bestForFamilies || []).map((item, index) => (
                     <li key={index} className="flex items-start gap-4 bg-seafoam-50 p-5 rounded-2xl border-2 border-seafoam-100 hover:border-seafoam-300 transition-colors">
                       <CheckCircle className="w-5 h-5 text-seafoam-600 flex-shrink-0 mt-0.5" />
                       <span className="text-slate-800 leading-relaxed">{item}</span>
@@ -375,14 +409,16 @@ export default async function GuidePage({ params }: PageProps) {
               </section>
             )}
 
-            {/* Areas to Avoid */}
+            {/* Areas to Avoid - Dynamic title */}
             {guide.avoid.length > 0 && (
               <section>
                 <div className="flex items-center gap-3 mb-6">
                   <div className="w-10 h-10 bg-coral-500 rounded-xl flex items-center justify-center shadow-soft">
                     <AlertTriangle className="w-6 h-6 text-white" />
                   </div>
-                  <h2 className="text-3xl font-bold text-slate-900">Areas to Avoid</h2>
+                  <h2 className="text-3xl font-bold text-slate-900">
+                    {getAvoidTitle(guide.topicMeta.audience, guide.topicMeta.theme)}
+                  </h2>
                 </div>
                 {guide.avoidSummary && (
                   <p className="text-slate-600 mb-5 text-lg italic">{guide.avoidSummary}</p>

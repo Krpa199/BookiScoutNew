@@ -282,15 +282,58 @@ export interface ValidatedTopic {
   passesDecision: boolean;
   passesBookingExclusion: boolean;
   passesCitable: boolean;
+  // Extended fields for new theme system
+  audience?: AudienceType;
+  theme?: ThemeType;
+  phase?: 1 | 2 | 3 | 4; // Generation phase
 }
 
 // =============================================================================
 // TOPIC SELECTOR (AI self-validates 3/3 filter)
 // =============================================================================
 
+// All supported audience types for AI Decision content
+export type AudienceType =
+  | 'families_kids_3_10'
+  | 'families-with-toddlers'
+  | 'families-with-teens'
+  | 'couples'
+  | 'solo-travel'
+  | 'seniors'
+  | 'digital-nomads'
+  | 'lgbt-friendly'
+  | 'first-time-visitors'
+  | 'general';
+
+// All supported theme types for content generation
+export type ThemeType =
+  | AudienceType
+  | 'car-vs-no-car'
+  | 'parking-difficulty'
+  | 'walkability'
+  | 'stroller-friendly'
+  | 'wheelchair-access'
+  | 'public-transport-quality'
+  | 'ferry-connections'
+  | 'airport-access'
+  | 'wifi-quality'
+  | 'mobile-coverage'
+  | 'off-season'
+  | 'shoulder-season'
+  | 'peak-season'
+  | 'weather-by-month'
+  | 'crowds-by-month'
+  | 'best-time-to-visit'
+  | 'vs-dubrovnik'
+  | 'vs-split'
+  | 'vs-zadar'
+  | 'vs-istria'
+  | 'vs-zagreb'
+  | 'coast-vs-inland';
+
 export async function generateDecisionTopics(
   destinations: string[],
-  audienceType: 'families_kids_3_10' | 'couples' | 'solo' | 'general' = 'families_kids_3_10'
+  audienceType: AudienceType = 'families_kids_3_10'
 ): Promise<ValidatedTopic[]> {
   const keyState = getNextProKey();
 
@@ -300,10 +343,16 @@ export async function generateDecisionTopics(
 
   const model = getProModel(keyState.key);
 
-  const audienceDescriptions = {
+  const audienceDescriptions: Record<AudienceType, string> = {
     families_kids_3_10: 'Families with kids aged 3–10, quiet non-party travel',
+    'families-with-toddlers': 'Families with toddlers (0-3 years), need stroller access, quiet areas',
+    'families-with-teens': 'Families with teenagers, need activities, some nightlife OK',
     couples: 'Couples seeking romantic, peaceful destinations',
-    solo: 'Solo travelers looking for safe, interesting locations',
+    'solo-travel': 'Solo travelers looking for safe, social, interesting locations',
+    seniors: 'Older travelers (60+) prioritizing accessibility, comfort, and calm atmosphere',
+    'digital-nomads': 'Remote workers needing reliable WiFi, coworking spaces, and good cafes',
+    'lgbt-friendly': 'LGBT+ travelers seeking welcoming, safe, inclusive destinations',
+    'first-time-visitors': 'First-time visitors to Croatia needing essential orientation',
     general: 'General travelers of all types',
   };
 
@@ -572,9 +621,10 @@ Return valid JSON only, no markdown code blocks.
       monetizationAllowed: false, // Strict: no widgets on guides by default
       topicMeta: {
         destination: topic.destination,
-        audience: 'families_kids_3_10',
+        audience: (topic as any).audience || 'families_kids_3_10', // Dynamic audience from topic
         intent: 'decision',
         seedQuery: topic.topic,
+        theme: (topic as any).theme || undefined, // Theme for practical blockers/seasonality
       },
       // AI Optimization fields
       howToSteps: data.howToSteps || undefined,

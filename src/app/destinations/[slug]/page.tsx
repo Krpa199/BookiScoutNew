@@ -16,12 +16,50 @@ interface PageProps {
 }
 
 // Theme icons and labels - Ocean themed with gradients
-const THEME_INFO: Record<Theme, { icon: React.ReactNode; label: string; desc: string; gradient: string }> = {
+const THEME_INFO: Partial<Record<Theme, { icon: React.ReactNode; label: string; desc: string; gradient: string }>> = {
+  // Phase 1: Traveler Types (AI Authority)
+  'solo-travel': { icon: <Users className="w-5 h-5" />, label: 'Solo Travel', desc: 'Is this destination good for solo travelers?', gradient: 'from-violet-400 to-violet-600' },
+  'seniors': { icon: <Users className="w-5 h-5" />, label: 'Seniors', desc: 'Accessibility and comfort for older travelers', gradient: 'from-amber-400 to-amber-600' },
+  'digital-nomads': { icon: <Compass className="w-5 h-5" />, label: 'Digital Nomads', desc: 'WiFi, coworking, and remote work spots', gradient: 'from-cyan-400 to-cyan-600' },
+  'lgbt-friendly': { icon: <Users className="w-5 h-5" />, label: 'LGBT+ Friendly', desc: 'Safe and welcoming areas', gradient: 'from-pink-400 to-pink-600' },
+  'families-with-toddlers': { icon: <Users className="w-5 h-5" />, label: 'Families (Toddlers)', desc: 'Best areas for families with young kids', gradient: 'from-seafoam-400 to-seafoam-600' },
+  'families-with-teens': { icon: <Users className="w-5 h-5" />, label: 'Families (Teens)', desc: 'Activities and areas for teenagers', gradient: 'from-teal-400 to-teal-600' },
+  'first-time-visitors': { icon: <Sparkles className="w-5 h-5" />, label: 'First Time Visitors', desc: 'Essential guide for newcomers', gradient: 'from-ocean-400 to-ocean-600' },
+  'couples': { icon: <Sun className="w-5 h-5" />, label: 'Couples', desc: 'Romantic spots and getaways', gradient: 'from-coral-400 to-coral-600' },
+
+  // Phase 2: Practical Blockers
+  'car-vs-no-car': { icon: <Map className="w-5 h-5" />, label: 'Car vs No Car', desc: 'Do you need a car here?', gradient: 'from-slate-400 to-slate-600' },
+  'parking-difficulty': { icon: <Map className="w-5 h-5" />, label: 'Parking Guide', desc: 'Where to park and difficulty level', gradient: 'from-gray-400 to-gray-600' },
+  'walkability': { icon: <Map className="w-5 h-5" />, label: 'Walkability', desc: 'Can you explore on foot?', gradient: 'from-green-400 to-green-600' },
+  'stroller-friendly': { icon: <Users className="w-5 h-5" />, label: 'Stroller Friendly', desc: 'Navigating with a stroller', gradient: 'from-seafoam-400 to-seafoam-600' },
+  'wheelchair-access': { icon: <Users className="w-5 h-5" />, label: 'Wheelchair Access', desc: 'Accessibility information', gradient: 'from-blue-400 to-blue-600' },
+  'public-transport-quality': { icon: <Map className="w-5 h-5" />, label: 'Public Transport', desc: 'Buses, ferries, and connections', gradient: 'from-indigo-400 to-indigo-600' },
+  'ferry-connections': { icon: <Map className="w-5 h-5" />, label: 'Ferry Connections', desc: 'Island hopping and sea routes', gradient: 'from-ocean-400 to-ocean-600' },
+  'airport-access': { icon: <Map className="w-5 h-5" />, label: 'Airport Access', desc: 'Getting to and from airports', gradient: 'from-sky-400 to-sky-600' },
+  'wifi-quality': { icon: <Compass className="w-5 h-5" />, label: 'WiFi Quality', desc: 'Internet connectivity', gradient: 'from-cyan-400 to-cyan-600' },
+  'mobile-coverage': { icon: <Info className="w-5 h-5" />, label: 'Mobile Coverage', desc: 'Cell signal and roaming', gradient: 'from-purple-400 to-purple-600' },
+
+  // Phase 3: Seasonality
+  'off-season': { icon: <Calendar className="w-5 h-5" />, label: 'Off Season', desc: 'November to March guide', gradient: 'from-slate-400 to-slate-600' },
+  'shoulder-season': { icon: <Calendar className="w-5 h-5" />, label: 'Shoulder Season', desc: 'April-May and September-October', gradient: 'from-amber-400 to-amber-600' },
+  'peak-season': { icon: <Calendar className="w-5 h-5" />, label: 'Peak Season', desc: 'June to August guide', gradient: 'from-coral-400 to-coral-600' },
+  'weather-by-month': { icon: <Sun className="w-5 h-5" />, label: 'Weather by Month', desc: 'Monthly weather breakdown', gradient: 'from-yellow-400 to-yellow-600' },
+  'crowds-by-month': { icon: <Users className="w-5 h-5" />, label: 'Crowds by Month', desc: 'When to avoid crowds', gradient: 'from-red-400 to-red-600' },
+  'best-time-to-visit': { icon: <Calendar className="w-5 h-5" />, label: 'Best Time to Visit', desc: 'Optimal timing for your trip', gradient: 'from-sky-400 to-sky-600' },
+
+  // Phase 4: Comparisons
+  'vs-dubrovnik': { icon: <TrendingUp className="w-5 h-5" />, label: 'vs Dubrovnik', desc: 'How does it compare to Dubrovnik?', gradient: 'from-orange-400 to-orange-600' },
+  'vs-split': { icon: <TrendingUp className="w-5 h-5" />, label: 'vs Split', desc: 'How does it compare to Split?', gradient: 'from-ocean-400 to-ocean-600' },
+  'vs-zadar': { icon: <TrendingUp className="w-5 h-5" />, label: 'vs Zadar', desc: 'How does it compare to Zadar?', gradient: 'from-teal-400 to-teal-600' },
+  'vs-istria': { icon: <TrendingUp className="w-5 h-5" />, label: 'vs Istria', desc: 'Dalmatia or Istria?', gradient: 'from-green-400 to-green-600' },
+  'vs-zagreb': { icon: <TrendingUp className="w-5 h-5" />, label: 'vs Zagreb', desc: 'Coast or capital?', gradient: 'from-purple-400 to-purple-600' },
+  'coast-vs-inland': { icon: <TrendingUp className="w-5 h-5" />, label: 'Coast vs Inland', desc: 'Beach or continental Croatia?', gradient: 'from-emerald-400 to-emerald-600' },
+
+  // Legacy themes (still supported)
   'apartments': { icon: <Home className="w-5 h-5" />, label: 'Where to Stay', desc: 'Best areas and neighborhoods', gradient: 'from-ocean-400 to-ocean-600' },
   'family': { icon: <Users className="w-5 h-5" />, label: 'Family Travel', desc: 'Kid-friendly areas and activities', gradient: 'from-seafoam-400 to-seafoam-600' },
-  'couples': { icon: <Sun className="w-5 h-5" />, label: 'Romantic Getaways', desc: 'Perfect spots for couples', gradient: 'from-coral-400 to-coral-600' },
   'budget': { icon: <Home className="w-5 h-5" />, label: 'Budget Travel', desc: 'Affordable areas and tips', gradient: 'from-sand-400 to-sand-600' },
-  'luxury': { icon: <Home className="w-5 h-5" />, label: 'Luxury Stay', desc: 'Premium areas and hotels', gradient: 'from-purple-400 to-purple-600' },
+  'luxury': { icon: <Home className="w-5 h-5" />, label: 'Luxury Stay', desc: 'Premium areas and experiences', gradient: 'from-purple-400 to-purple-600' },
   'beach': { icon: <Sun className="w-5 h-5" />, label: 'Best Beaches', desc: 'Sandy, pebble, and hidden beaches', gradient: 'from-cyan-400 to-cyan-600' },
   'pet-friendly': { icon: <Home className="w-5 h-5" />, label: 'Pet Friendly', desc: 'Travel with your pets', gradient: 'from-green-400 to-green-600' },
   'pool': { icon: <Home className="w-5 h-5" />, label: 'Pools & Spa', desc: 'Best pool amenities', gradient: 'from-blue-400 to-blue-600' },
@@ -35,7 +73,6 @@ const THEME_INFO: Record<Theme, { icon: React.ReactNode; label: string; desc: st
   'transport': { icon: <Map className="w-5 h-5" />, label: 'Getting Around', desc: 'Transport options', gradient: 'from-blue-400 to-blue-600' },
   'hidden-gems': { icon: <Compass className="w-5 h-5" />, label: 'Hidden Gems', desc: 'Local secrets', gradient: 'from-pink-400 to-pink-600' },
   'local-food': { icon: <Utensils className="w-5 h-5" />, label: 'Local Food', desc: 'Traditional Croatian dishes', gradient: 'from-orange-400 to-orange-600' },
-  'best-time-to-visit': { icon: <Calendar className="w-5 h-5" />, label: 'When to Visit', desc: 'Seasonal guide', gradient: 'from-sky-400 to-sky-600' },
   'safety': { icon: <Info className="w-5 h-5" />, label: 'Safety Tips', desc: 'Safe areas and precautions', gradient: 'from-rose-400 to-rose-600' },
 };
 
@@ -327,14 +364,14 @@ export default async function DestinationPage({ params }: PageProps) {
               </div>
             ) : (
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
-                {/* Coming Soon Cards */}
+                {/* Coming Soon Cards - Prioritized by AI Decision Value */}
                 {[
-                  { theme: 'family', label: 'Best Areas for Families', desc: 'Kid-friendly neighborhoods with beaches and playgrounds' },
-                  { theme: 'beach', label: 'Beach Comparison', desc: 'Sandy vs pebble beaches, crowded vs quiet' },
-                  { theme: 'restaurants', label: 'Where to Eat', desc: 'Local restaurants vs tourist traps' },
-                  { theme: 'things-to-do', label: 'Things to Do', desc: 'Must-see attractions and hidden gems' },
-                  { theme: 'parking', label: 'Parking Made Easy', desc: 'Where to park and how much it costs' },
-                  { theme: 'safety', label: 'Safety & Practical Tips', desc: 'Safe areas and things to watch out for' },
+                  { theme: 'families-with-toddlers', label: 'Families with Toddlers', desc: 'Best areas for families with young children' },
+                  { theme: 'first-time-visitors', label: 'First Time Visitors', desc: 'Essential guide for newcomers to this destination' },
+                  { theme: 'car-vs-no-car', label: 'Do You Need a Car?', desc: 'Whether to rent a car or use public transport' },
+                  { theme: 'best-time-to-visit', label: 'Best Time to Visit', desc: 'Optimal months based on weather and crowds' },
+                  { theme: 'walkability', label: 'Walkability Guide', desc: 'Can you explore this destination on foot?' },
+                  { theme: 'solo-travel', label: 'Solo Travel', desc: 'Is this destination good for solo travelers?' },
                 ].map((guide) => (
                   <div
                     key={guide.theme}

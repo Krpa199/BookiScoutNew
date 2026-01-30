@@ -89,31 +89,100 @@ export const DESTINATIONS: Destination[] = [
   { slug: 'samobor', name: 'Samobor', region: 'zagreb', type: 'town', popular: false, lat: 45.8017, lng: 15.7108 },
 ];
 
-// Article themes/topics
-export const THEMES = [
-  'apartments',
-  'family',
+// =============================================================================
+// THEMES - Organized by AI Decision Priority
+// =============================================================================
+
+// Phase 1: Traveler Types (AI Authority - highest priority)
+export const TRAVELER_TYPES = [
+  'solo-travel',
+  'seniors',
+  'digital-nomads',
+  'lgbt-friendly',
+  'families-with-toddlers',
+  'families-with-teens',
+  'first-time-visitors',
   'couples',
-  'budget',
-  'luxury',
-  'beach',
-  'pet-friendly',
-  'pool',
-  'parking',
-  'restaurants',
-  'nightlife',
-  'things-to-do',
-  'day-trips',
-  'weather',
-  'prices',
-  'transport',
-  'hidden-gems',
-  'local-food',
-  'best-time-to-visit',
-  'safety',
 ] as const;
 
+// Phase 2: Practical Blockers (Decision killers)
+export const PRACTICAL_BLOCKERS = [
+  'car-vs-no-car',
+  'parking-difficulty',
+  'walkability',
+  'stroller-friendly',
+  'wheelchair-access',
+  'public-transport-quality',
+  'ferry-connections',
+  'airport-access',
+  'wifi-quality',
+  'mobile-coverage',
+] as const;
+
+// Phase 3: Seasonality (When to go)
+export const SEASONALITY = [
+  'off-season',
+  'shoulder-season',
+  'peak-season',
+  'weather-by-month',
+  'crowds-by-month',
+  'best-time-to-visit',
+] as const;
+
+// Phase 4: Comparisons (for top destinations only)
+export const COMPARISONS = [
+  'vs-dubrovnik',
+  'vs-split',
+  'vs-zadar',
+  'vs-istria',
+  'vs-zagreb',
+  'coast-vs-inland',
+] as const;
+
+// Legacy themes (still valid, lower priority)
+export const LEGACY_THEMES = [
+  'beach',
+  'things-to-do',
+  'day-trips',
+  'safety',
+  'nightlife',
+  'restaurants',
+  'budget',
+  'luxury',
+  'pet-friendly',
+  'hidden-gems',
+  'local-food',
+  'family', // legacy - use families-with-toddlers or families-with-teens instead
+  'apartments', // legacy - may repurpose for accommodation articles
+  'pool',
+  'parking', // legacy - use parking-difficulty instead
+  'weather', // legacy - use weather-by-month instead
+  'prices',
+  'transport', // legacy - use public-transport-quality instead
+] as const;
+
+// All themes combined
+export const THEMES = [
+  ...TRAVELER_TYPES,
+  ...PRACTICAL_BLOCKERS,
+  ...SEASONALITY,
+  ...COMPARISONS,
+  ...LEGACY_THEMES,
+] as const;
+
+export type TravelerType = typeof TRAVELER_TYPES[number];
+export type PracticalBlocker = typeof PRACTICAL_BLOCKERS[number];
+export type Seasonality = typeof SEASONALITY[number];
+export type Comparison = typeof COMPARISONS[number];
+export type LegacyTheme = typeof LEGACY_THEMES[number];
 export type Theme = typeof THEMES[number];
+
+// Top destinations for comparisons
+export const TOP_DESTINATIONS = ['split', 'dubrovnik', 'zadar', 'rovinj', 'porec', 'zagreb'] as const;
+
+// =============================================================================
+// HELPER FUNCTIONS
+// =============================================================================
 
 // Generate all possible topic combinations
 export function generateTopics(): { destination: Destination; theme: Theme }[] {
@@ -121,6 +190,14 @@ export function generateTopics(): { destination: Destination; theme: Theme }[] {
 
   for (const destination of DESTINATIONS) {
     for (const theme of THEMES) {
+      // Skip comparisons for non-top destinations
+      if (COMPARISONS.includes(theme as Comparison) && !TOP_DESTINATIONS.includes(destination.slug as typeof TOP_DESTINATIONS[number])) {
+        continue;
+      }
+      // Skip self-comparisons (e.g., Split vs-split)
+      if (theme === `vs-${destination.slug}`) {
+        continue;
+      }
       topics.push({ destination, theme });
     }
   }
@@ -128,15 +205,39 @@ export function generateTopics(): { destination: Destination; theme: Theme }[] {
   return topics;
 }
 
-// Priority order for generation
+// Priority order for AI decision content generation
 export function getPriorityTopics(): { destination: Destination; theme: Theme }[] {
-  const priorityThemes: Theme[] = ['apartments', 'family', 'beach', 'budget', 'things-to-do'];
   const popularDestinations = DESTINATIONS.filter(d => d.popular);
-
   const topics: { destination: Destination; theme: Theme }[] = [];
 
+  // Phase 1: Traveler types for all popular destinations
   for (const destination of popularDestinations) {
-    for (const theme of priorityThemes) {
+    for (const theme of TRAVELER_TYPES) {
+      topics.push({ destination, theme });
+    }
+  }
+
+  // Phase 2: Practical blockers for top 20 destinations
+  const top20 = DESTINATIONS.slice(0, 20);
+  for (const destination of top20) {
+    for (const theme of PRACTICAL_BLOCKERS) {
+      topics.push({ destination, theme });
+    }
+  }
+
+  // Phase 3: Seasonality for top 20 destinations
+  for (const destination of top20) {
+    for (const theme of SEASONALITY) {
+      topics.push({ destination, theme });
+    }
+  }
+
+  // Phase 4: Comparisons for top 6 only
+  const top6 = DESTINATIONS.filter(d => TOP_DESTINATIONS.includes(d.slug as typeof TOP_DESTINATIONS[number]));
+  for (const destination of top6) {
+    for (const theme of COMPARISONS) {
+      // Skip self-comparisons
+      if (theme === `vs-${destination.slug}`) continue;
       topics.push({ destination, theme });
     }
   }

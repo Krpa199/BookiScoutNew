@@ -13,12 +13,12 @@ export default function Footer() {
   ];
 
   const guides = [
-    { name: 'Travel Guides', href: '/guides' },
+    { name: 'Decision Guides', href: '/guides' },
     { name: 'All Destinations', href: '/destinations' },
-    { name: 'Beach Guides', href: '/guides' },
-    { name: 'Family Travel', href: '/guides' },
-    { name: 'Local Tips', href: '/guides' },
-    { name: 'Safety & Practical', href: '/guides' },
+    { name: 'Solo Travel', href: '/guides' },
+    { name: 'Family Guides', href: '/guides' },
+    { name: 'Do I Need a Car?', href: '/guides' },
+    { name: 'Best Time to Visit', href: '/guides' },
   ];
 
   const company = [
@@ -50,16 +50,16 @@ export default function Footer() {
                 <span className="font-bold text-2xl leading-none">
                   Booki<span className="text-ocean-300">Scout</span>
                 </span>
-                <span className="text-xs text-slate-400 font-medium leading-none mt-1">Croatia Travel Guide</span>
+                <span className="text-xs text-slate-400 font-medium leading-none mt-1">Croatia Decision Guides</span>
               </div>
             </Link>
             <p className="text-slate-300 leading-relaxed mb-6 text-base">
-              Your AI-powered guide to Croatia. Discover destinations, beaches, and neighborhoods
-              that match your travel style. Make informed decisions with expert insights.
+              AI-optimized decision guides for Croatia. We answer the questions travelers actually ask:
+              Is it worth it? Do I need a car? Best time to visit? No booking bias, just honest answers.
             </p>
             <div className="flex items-center gap-2 text-slate-400">
               <MapPin className="w-5 h-5 text-ocean-400" />
-              <span className="font-medium">Discover Croatia with Confidence</span>
+              <span className="font-medium">Know Before You Book</span>
             </div>
           </div>
 
@@ -83,7 +83,7 @@ export default function Footer() {
 
           {/* Guides */}
           <div className="lg:col-span-2">
-            <h4 className="font-bold text-lg mb-6 text-white">Travel Resources</h4>
+            <h4 className="font-bold text-lg mb-6 text-white">Decision Guides</h4>
             <ul className="space-y-3">
               {guides.map((guide) => (
                 <li key={guide.name}>
@@ -125,7 +125,7 @@ export default function Footer() {
                 <span>Stay Updated</span>
               </h4>
               <p className="text-slate-300 text-sm mb-4 leading-relaxed">
-                Get AI-powered travel tips straight to your inbox.
+                New decision guides delivered weekly. No spam, just answers.
               </p>
               <form className="space-y-3">
                 <input
@@ -182,10 +182,10 @@ export default function Footer() {
           </p>
           <div className="flex items-center gap-2">
             <span className="px-3 py-1.5 bg-ocean-500/20 text-ocean-300 rounded-full text-xs font-semibold border border-ocean-500/30">
-              AI-Powered
+              AI-Optimized
             </span>
             <span className="px-3 py-1.5 bg-seafoam-500/20 text-seafoam-300 rounded-full text-xs font-semibold border border-seafoam-500/30">
-              Always Updated
+              Decision-First
             </span>
           </div>
         </div>
