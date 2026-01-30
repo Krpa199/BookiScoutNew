@@ -150,19 +150,19 @@ export default async function DestinationPage({ params }: PageProps) {
         <div className="container pb-12 md:pb-20 relative z-10 w-full">
           <div className="max-w-4xl animate-slide-up">
             <div className="flex items-center gap-2.5 mb-4 md:mb-6">
-              <div className="w-10 h-10 bg-white/15 backdrop-blur-sm rounded-xl flex items-center justify-center">
+              <div className="w-10 h-10 bg-black/30 backdrop-blur-sm rounded-xl flex items-center justify-center border border-white/20">
                 <MapPin className="w-5 h-5" />
               </div>
-              <span className="text-base md:text-lg text-white/95 capitalize font-medium">
+              <span className="text-base md:text-lg text-white capitalize font-semibold [text-shadow:_0_2px_8px_rgba(0,0,0,0.8)]">
                 {destination.region.replace('-', ' ')} • {destination.type.replace('-', ' ')}
               </span>
             </div>
 
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-5 md:mb-7 leading-tight tracking-tight text-white drop-shadow-lg [text-shadow:_2px_2px_8px_rgb(0_0_0_/_80%)]">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-5 md:mb-7 leading-tight tracking-tight text-white [text-shadow:_0_2px_10px_rgba(0,0,0,0.9),_0_4px_20px_rgba(0,0,0,0.7),_0_0_40px_rgba(0,0,0,0.5)]">
               {destination.name}
             </h1>
 
-            <p className="text-xl md:text-2xl text-white/95 max-w-3xl mb-8 md:mb-10 leading-relaxed">
+            <p className="text-xl md:text-2xl text-white max-w-3xl mb-8 md:mb-10 leading-relaxed [text-shadow:_0_2px_8px_rgba(0,0,0,0.7)]">
               Which area in {destination.name} matches your travel style? Compare neighborhoods, beaches, and local insights before you book.
             </p>
 
@@ -185,8 +185,8 @@ export default async function DestinationPage({ params }: PageProps) {
           </div>
         </div>
 
-        {/* Gradient Overlay - Mobile optimization */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent pointer-events-none" />
+        {/* Gradient Overlay - Ensures text visibility on all backgrounds */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/10 pointer-events-none" />
       </section>
 
       {/* Main Content */}
