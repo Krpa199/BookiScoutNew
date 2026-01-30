@@ -20,6 +20,8 @@ interface AIDecisionArticle {
   title: string;
   h1: string;
   summary: string;
+  avoidSummary?: string;
+  comparisonNote?: string;
   bestForFamilies: string[];
   avoid: string[];
   practicalNotes: string[];
