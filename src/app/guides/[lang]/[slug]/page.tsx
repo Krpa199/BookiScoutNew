@@ -184,7 +184,7 @@ export default async function GuidePage({ params }: PageProps) {
 
   // Calculate reading time (rough estimate)
   const wordCount = guide.summary.split(/\s+/).length +
-    guide.bestForFamilies.join(' ').split(/\s+/).length +
+    (guide.recommendations || guide.bestForFamilies || []).join(' ').split(/\s+/).length +
     guide.practicalNotes.join(' ').split(/\s+/).length;
   const readingTime = Math.max(2, Math.ceil(wordCount / 200));
 
