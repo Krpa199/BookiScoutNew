@@ -158,7 +158,7 @@ export default async function DestinationPage({ params }: PageProps) {
               </span>
             </div>
 
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-5 md:mb-7 leading-tight tracking-tight">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-5 md:mb-7 leading-tight tracking-tight text-white drop-shadow-lg [text-shadow:_2px_2px_8px_rgb(0_0_0_/_80%)]">
               {destination.name}
             </h1>
 
@@ -166,19 +166,19 @@ export default async function DestinationPage({ params }: PageProps) {
               Which area in {destination.name} matches your travel style? Compare neighborhoods, beaches, and local insights before you book.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
               <Link
                 href="#guides"
-                className="px-8 py-4 bg-white text-ocean-600 font-bold rounded-2xl hover:bg-ocean-50 transition-all shadow-large hover:shadow-xl hover:scale-105 flex items-center justify-center gap-2"
+                className="w-full sm:w-auto px-8 py-4 bg-white text-ocean-600 font-bold rounded-2xl hover:bg-ocean-50 transition-all shadow-large hover:shadow-xl hover:scale-105 flex items-center justify-center gap-2 whitespace-nowrap"
               >
-                <Sparkles className="w-5 h-5" />
+                <Sparkles className="w-5 h-5 flex-shrink-0" />
                 <span>Explore Guides</span>
               </Link>
               <Link
                 href="#guides"
-                className="px-8 py-4 bg-white/10 backdrop-blur-md border-2 border-white/30 text-white font-bold rounded-2xl hover:bg-white/20 hover:border-white/50 transition-all flex items-center justify-center gap-2"
+                className="w-full sm:w-auto px-8 py-4 bg-white/10 backdrop-blur-md border-2 border-white/30 text-white font-bold rounded-2xl hover:bg-white/20 hover:border-white/50 transition-all flex items-center justify-center gap-2 whitespace-nowrap"
               >
-                <ArrowDown className="w-5 h-5" />
+                <ArrowDown className="w-5 h-5 flex-shrink-0" />
                 <span>Compare Areas</span>
               </Link>
             </div>
