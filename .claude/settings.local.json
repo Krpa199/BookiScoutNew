@@ -28,7 +28,8 @@
       "Bash(bash:*)",
       "Bash(ls:*)",
       "WebFetch(domain:tripset.framer.website)",
-      "Bash(tee:*)"
+      "Bash(tee:*)",
+      "Bash(npm ls:*)"
     ]
   }
 }
