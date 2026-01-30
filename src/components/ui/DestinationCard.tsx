@@ -1,6 +1,7 @@
 import Link from 'next/link';
-import { MapPin, Sun, Waves, Mountain, Building } from 'lucide-react';
+import { MapPin, Sun, Waves, Mountain, Building, TrendingUp, Sparkles } from 'lucide-react';
 import { Destination } from '@/config/destinations';
+import { getDestinationImage } from '@/config/images';
 
 interface DestinationCardProps {
   destination: Destination;
@@ -16,68 +17,99 @@ export default function DestinationCard({ destination, articleCount = 0 }: Desti
   };
 
   const regionColors = {
-    istria: 'from-green-400 to-emerald-500',
-    kvarner: 'from-blue-400 to-cyan-500',
-    dalmatia: 'from-cyan-400 to-blue-500',
-    'split-dalmatia': 'from-blue-500 to-indigo-500',
-    dubrovnik: 'from-amber-400 to-orange-500',
-    continental: 'from-lime-400 to-green-500',
-    zagreb: 'from-red-400 to-pink-500',
+    istria: { gradient: 'from-emerald-500 to-teal-600', badge: 'bg-emerald-500' },
+    kvarner: { gradient: 'from-blue-500 to-cyan-600', badge: 'bg-blue-500' },
+    dalmatia: { gradient: 'from-cyan-500 to-blue-600', badge: 'bg-cyan-500' },
+    'split-dalmatia': { gradient: 'from-blue-600 to-indigo-600', badge: 'bg-blue-600' },
+    dubrovnik: { gradient: 'from-amber-500 to-orange-600', badge: 'bg-amber-500' },
+    continental: { gradient: 'from-lime-500 to-green-600', badge: 'bg-lime-500' },
+    zagreb: { gradient: 'from-rose-500 to-pink-600', badge: 'bg-rose-500' },
   };
 
   const Icon = typeIcons[destination.type];
-  const gradient = regionColors[destination.region];
+  const colors = regionColors[destination.region];
+  const image = getDestinationImage(destination.slug);
 
   return (
     <Link href={`/destinations/${destination.slug}`} className="group block">
-      <article className="relative h-64 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300">
-        {/* Background Gradient */}
-        <div className={`absolute inset-0 bg-gradient-to-br ${gradient}`} />
+      <article className="relative h-80 rounded-3xl overflow-hidden shadow-soft hover:shadow-ocean transition-all duration-500 hover:-translate-y-2">
+        {/* Background Image */}
+        <div className="absolute inset-0">
+          <img
+            src={image.url}
+            alt={image.alt}
+            className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+            loading="lazy"
+          />
+          {/* Overlay with gradient */}
+          <div className={`absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/40 to-transparent opacity-90 group-hover:opacity-95 transition-opacity`} />
+          {/* Subtle color overlay based on region */}
+          <div className={`absolute inset-0 bg-gradient-to-br ${colors.gradient} opacity-0 group-hover:opacity-20 transition-opacity duration-500 mix-blend-overlay`} />
+        </div>
 
-        {/* Pattern Overlay */}
-        <div
-          className="absolute inset-0 opacity-10"
-          style={{
-            backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
-          }}
-        />
+        {/* Shine effect on hover */}
+        <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+          <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent transform -skew-x-12 translate-x-full group-hover:translate-x-[-200%] transition-transform duration-1000" />
+        </div>
 
         {/* Content */}
         <div className="relative h-full p-6 flex flex-col justify-between">
-          {/* Top */}
+          {/* Top Row - Icon & Badge */}
           <div className="flex items-start justify-between">
-            <div className="p-3 bg-white/20 backdrop-blur-sm rounded-xl">
+            {/* Type Icon */}
+            <div className="p-3 bg-white/15 backdrop-blur-md rounded-2xl shadow-soft group-hover:bg-white/25 transition-all group-hover:scale-110 group-hover:rotate-6">
               <Icon className="w-6 h-6 text-white" />
             </div>
+
+            {/* Popular Badge */}
             {destination.popular && (
-              <span className="px-3 py-1 bg-white/20 backdrop-blur-sm rounded-full text-white text-xs font-medium flex items-center gap-1">
-                <Sun className="w-3 h-3" />
-                Popular
-              </span>
+              <div className="px-3 py-1.5 bg-sand-400 backdrop-blur-sm rounded-full text-white text-xs font-bold flex items-center gap-1.5 shadow-soft group-hover:scale-105 transition-transform">
+                <TrendingUp className="w-3.5 h-3.5" />
+                <span>Popular</span>
+              </div>
             )}
           </div>
 
-          {/* Bottom */}
-          <div>
-            <h3 className="text-2xl font-bold text-white mb-2 group-hover:translate-x-1 transition-transform">
-              {destination.name}
-            </h3>
-            <div className="flex items-center justify-between">
-              <div className="flex items-center gap-1.5 text-white/80 text-sm">
-                <MapPin className="w-4 h-4" />
-                <span className="capitalize">{destination.region.replace('-', ' ')}</span>
+          {/* Bottom Content */}
+          <div className="space-y-3">
+            {/* Title */}
+            <div>
+              <h3 className="text-3xl font-bold text-white mb-2 group-hover:translate-x-1 transition-transform duration-300 drop-shadow-lg">
+                {destination.name}
+              </h3>
+
+              {/* Region & Article Count */}
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-2 text-white/90">
+                  <MapPin className="w-4 h-4" />
+                  <span className="text-sm font-medium capitalize">
+                    {destination.region.replace('-', ' ')}
+                  </span>
+                </div>
+
+                {articleCount > 0 && (
+                  <div className="flex items-center gap-1.5 px-3 py-1 bg-white/10 backdrop-blur-sm rounded-full">
+                    <Sparkles className="w-3.5 h-3.5 text-white" />
+                    <span className="text-white text-sm font-semibold">
+                      {articleCount} guides
+                    </span>
+                  </div>
+                )}
               </div>
-              {articleCount > 0 && (
-                <span className="text-white/80 text-sm">
-                  {articleCount} guides
-                </span>
-              )}
+            </div>
+
+            {/* Hover CTA */}
+            <div className="flex items-center gap-2 text-white font-semibold opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-300">
+              <span className="text-sm">Explore destination</span>
+              <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
             </div>
           </div>
         </div>
 
-        {/* Hover Effect */}
-        <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors" />
+        {/* Border glow on hover */}
+        <div className="absolute inset-0 rounded-3xl border-2 border-white/0 group-hover:border-white/20 transition-colors duration-500" />
       </article>
     </Link>
   );

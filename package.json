@@ -8,7 +8,10 @@
     "start": "next start",
     "lint": "next lint",
     "generate": "npx tsx scripts/generate.ts",
-    "generate:single": "npx tsx scripts/generate-single.ts"
+    "generate:single": "npx tsx scripts/generate-single.ts",
+    "generate:topics": "npx tsx scripts/generate-topics.ts",
+    "generate:guides": "npx tsx scripts/guide-generator.ts",
+    "fetch-images": "npx tsx scripts/fetch-wikimedia-images.ts"
   },
   "dependencies": {
     "@google/generative-ai": "^0.21.0",

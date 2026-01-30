@@ -8,6 +8,8 @@ interface ArticleSchemaProps {
   image?: string;
   destination?: string;
   faq?: { question: string; answer: string }[];
+  howToSteps?: { name: string; text: string }[];
+  topList?: { name: string; description: string; position: number }[];
 }
 
 export default function ArticleSchema({
@@ -20,6 +22,8 @@ export default function ArticleSchema({
   image,
   destination,
   faq,
+  howToSteps,
+  topList,
 }: ArticleSchemaProps) {
   const articleSchema = {
     '@context': 'https://schema.org',
@@ -105,6 +109,38 @@ export default function ArticleSchema({
     ],
   };
 
+  // HowTo schema - AI engines love step-by-step guides
+  const howToSchema = howToSteps?.length
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'HowTo',
+        name: title,
+        description: description,
+        step: howToSteps.map((step, index) => ({
+          '@type': 'HowToStep',
+          position: index + 1,
+          name: step.name,
+          text: step.text,
+        })),
+      }
+    : null;
+
+  // ItemList schema - AI engines love ranked lists
+  const itemListSchema = topList?.length
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'ItemList',
+        name: title,
+        description: description,
+        itemListElement: topList.map((item) => ({
+          '@type': 'ListItem',
+          position: item.position,
+          name: item.name,
+          description: item.description,
+        })),
+      }
+    : null;
+
   return (
     <>
       <script
@@ -125,6 +161,18 @@ export default function ArticleSchema({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
+      {howToSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+        />
+      )}
+      {itemListSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
         />
       )}
     </>

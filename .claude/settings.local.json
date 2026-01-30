@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run build:*)",
+      "Bash(npx tsc:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push)",
+      "Bash(npm run dev:*)",
+      "WebFetch(domain:unsplash.com)",
+      "Bash(npx next build)",
+      "Bash(grep:*)",
+      "Bash(npm run generate:topics:*)",
+      "Bash(node -e:*)",
+      "Bash(npm install:*)",
+      "Bash(npx tsx:*)",
+      "Bash(curl:*)",
+      "Bash(node:*)",
+      "Bash(findstr:*)",
+      "WebFetch(domain:www.bookit.hr)",
+      "Bash(npm run fetch-images:*)",
+      "WebFetch(domain:images.pexels.com)",
+      "WebFetch(domain:www.pexels.com)",
+      "Bash(timeout /t 10)",
+      "Bash(if not exist \"public\\\\images\\\\destinations\" mkdir \"public\\\\images\\\\destinations\")",
+      "Bash(chmod:*)",
+      "Bash(bash scripts/download-all.sh:*)",
+      "Bash(bash:*)",
+      "Bash(ls:*)",
+      "WebFetch(domain:tripset.framer.website)",
+      "Bash(tee:*)"
+    ]
+  }
+}
