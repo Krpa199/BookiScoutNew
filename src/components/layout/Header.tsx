@@ -179,8 +179,8 @@ export default function Header() {
             {/* Language selector mobile */}
             <div className="px-4 py-2">
               <p className="text-xs font-semibold text-slate-500 uppercase tracking-wide mb-3">{t('language')}</p>
-              <div className="grid grid-cols-2 gap-2">
-                {locales.slice(0, 6).map((code) => (
+              <div className="grid grid-cols-2 gap-2 max-h-64 overflow-y-auto">
+                {locales.map((code) => (
                   <button
                     key={code}
                     onClick={() => handleLanguageChange(code)}
@@ -195,14 +195,6 @@ export default function Header() {
                   </button>
                 ))}
               </div>
-              {locales.length > 6 && (
-                <button
-                  onClick={() => setLangMenuOpen(true)}
-                  className="w-full mt-2 py-2 text-sm text-ocean-600 hover:text-ocean-700 font-medium"
-                >
-                  + {locales.length - 6} more languages
-                </button>
-              )}
             </div>
 
             <hr className="my-4 border-gray-100" />
