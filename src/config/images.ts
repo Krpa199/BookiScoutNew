@@ -192,6 +192,16 @@ const DESTINATION_IMAGES: Record<string, DestinationImage> = {
     alt: 'Vodice beach resort town',
     credit: 'Unsplash',
   },
+  'primosten': {
+    url: 'https://images.unsplash.com/photo-1553773077-91673524aafa?w=1920&auto=format&fit=crop&q=80',
+    alt: 'Primošten peninsula town',
+    credit: 'Unsplash',
+  },
+  'nin': {
+    url: 'https://images.unsplash.com/photo-1739088771544-3bc8c5216733?w=1920&auto=format&fit=crop&q=80',
+    alt: 'Nin historic royal Croatian town',
+    credit: 'Unsplash',
+  },
 
   // Islands
   'hvar': {
@@ -219,12 +229,52 @@ const DESTINATION_IMAGES: Record<string, DestinationImage> = {
     alt: 'Bol Golden Horn beach from above',
     credit: 'Unsplash',
   },
+  'mljet': {
+    url: 'https://images.unsplash.com/photo-1632154613912-db7c10789160?w=1920&auto=format&fit=crop&q=80',
+    alt: 'Mljet island national park',
+    credit: 'Unsplash',
+  },
+  'supetar': {
+    url: '/images/destinations/supetar.jpg',
+    alt: 'Supetar town on Brač island',
+    credit: 'Local',
+  },
+  'stari-grad': {
+    url: '/images/destinations/stari-grad.jpg',
+    alt: 'Stari Grad on Hvar island',
+    credit: 'Local',
+  },
+  'jelsa': {
+    url: 'https://images.unsplash.com/photo-1502542210750-7c978b400449?w=1920&auto=format&fit=crop&q=80',
+    alt: 'Jelsa town on Hvar island',
+    credit: 'Unsplash',
+  },
+  'lopud': {
+    url: 'https://images.unsplash.com/photo-1715401894632-9254a0ff0e3a?w=1920&auto=format&fit=crop&q=80',
+    alt: 'Lopud island near Dubrovnik',
+    credit: 'Unsplash',
+  },
 
   // Dubrovnik Region
   'cavtat': {
     url: 'https://images.unsplash.com/photo-1436638844003-fc74b29810d5?w=1920&auto=format&fit=crop&q=80',
     alt: 'Cavtat peaceful harbor and promenade',
     credit: 'Unsplash',
+  },
+  'orebic': {
+    url: '/images/destinations/orebic.jpg',
+    alt: 'Orebić town on Pelješac peninsula',
+    credit: 'Local',
+  },
+  'ston': {
+    url: '/images/destinations/ston.jpg',
+    alt: 'Ston walls and salt pans',
+    credit: 'Local',
+  },
+  'slano': {
+    url: '/images/destinations/slano.jpg',
+    alt: 'Slano bay near Dubrovnik',
+    credit: 'Local',
   },
 
   // National Parks
@@ -247,6 +297,33 @@ const DESTINATION_IMAGES: Record<string, DestinationImage> = {
     url: 'https://images.unsplash.com/photo-1635760802693-48283b1cebb2?w=1920&auto=format&fit=crop&q=80',
     alt: 'Brijuni National Park coastal nature',
     credit: 'Unsplash',
+  },
+  'paklenica': {
+    url: '/images/destinations/paklenica.jpg',
+    alt: 'Paklenica National Park canyon',
+    credit: 'Local',
+  },
+
+  // Continental
+  'osijek': {
+    url: 'https://plus.unsplash.com/premium_photo-1677340932064-d1c120e8285b?w=1920&auto=format&fit=crop&q=80',
+    alt: 'Osijek city center and cathedral',
+    credit: 'Unsplash',
+  },
+  'varazdin': {
+    url: 'https://images.unsplash.com/photo-1648364395206-84a8e8b92e85?w=1920&auto=format&fit=crop&q=80',
+    alt: 'Varaždin baroque city',
+    credit: 'Unsplash',
+  },
+  'karlovac': {
+    url: '/images/destinations/karlovac.jpg',
+    alt: 'Karlovac star-shaped city',
+    credit: 'Local',
+  },
+  'samobor': {
+    url: '/images/destinations/samobor.jpg',
+    alt: 'Samobor historic town near Zagreb',
+    credit: 'Local',
   },
 };
 

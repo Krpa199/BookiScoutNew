@@ -161,9 +161,8 @@ export default async function DestinationPage({ params }: PageProps) {
             alt={destinationImage.alt}
             className="w-full h-full object-cover"
           />
-          {/* Multi-layer gradient overlay */}
-          <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/60 to-transparent" />
-          <div className="absolute inset-0 bg-gradient-to-br from-ocean-900/30 via-transparent to-seafoam-900/20" />
+          {/* Gradient overlay - only dark at bottom where text is */}
+          <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/30 to-transparent" />
         </div>
 
         {/* Animated floating elements */}
@@ -222,8 +221,8 @@ export default async function DestinationPage({ params }: PageProps) {
           </div>
         </div>
 
-        {/* Gradient Overlay - Ensures text visibility on all backgrounds */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/10 pointer-events-none" />
+        {/* Gradient Overlay - Only at bottom for text visibility */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
       </section>
 
       {/* Main Content */}
