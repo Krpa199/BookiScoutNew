@@ -36,7 +36,15 @@
       "Bash(npx --yes next build)",
       "Bash(npx next lint:*)",
       "Bash(npx eslint:*)",
-      "Bash(if not exist \"c:\\\\Users\\\\mario\\\\Desktop\\\\BookiScout\\\\public\\\\images\\\\destinations\" mkdir \"c:\\\\Users\\\\mario\\\\Desktop\\\\BookiScout\\\\public\\\\images\\\\destinations\")"
+      "Bash(if not exist \"c:\\\\Users\\\\mario\\\\Desktop\\\\BookiScout\\\\public\\\\images\\\\destinations\" mkdir \"c:\\\\Users\\\\mario\\\\Desktop\\\\BookiScout\\\\public\\\\images\\\\destinations\")",
+      "Bash(copy \"C:\\\\Users\\\\mario\\\\Downloads\\\\Ikona Bookiscout.png\" \"c:\\\\Users\\\\mario\\\\Desktop\\\\BookiScout\\\\public\\\\icon.png\")",
+      "Bash(pkill:*)",
+      "Bash(taskkill:*)",
+      "Bash(gh run list:*)",
+      "Bash(npm run generate:*)",
+      "Bash(dir:*)",
+      "Bash(git mv:*)",
+      "Bash(gh run view:*)"
     ]
   }
 }
