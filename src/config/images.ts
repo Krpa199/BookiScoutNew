@@ -7,161 +7,246 @@ export interface DestinationImage {
   credit?: string;
 }
 
-// Free high-quality images from Pexels
-// VERIFIED photo IDs from real Croatian destination photos
+// Free high-quality images from Unsplash
+// Croatian destination photos
 const DESTINATION_IMAGES: Record<string, DestinationImage> = {
   // Major Cities
   'split': {
-    url: 'https://images.pexels.com/photos/18759978/pexels-photo-18759978.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    url: 'https://plus.unsplash.com/premium_photo-1661885874118-09b795064a3c?w=1920&auto=format&fit=crop&q=80',
     alt: 'Split, Croatia - Coastal view with harbor and mountains',
-    credit: 'Pexels',
+    credit: 'Unsplash',
   },
   'dubrovnik': {
-    url: 'https://images.pexels.com/photos/30238170/pexels-photo-30238170.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    url: 'https://images.unsplash.com/photo-1626699848008-7e419bc4e237?w=1920&auto=format&fit=crop&q=80',
     alt: 'Dubrovnik Old Town - Aerial view of historic old town and Adriatic Sea',
-    credit: 'Pexels',
+    credit: 'Unsplash',
   },
   'zagreb': {
-    url: 'https://images.pexels.com/photos/6627904/pexels-photo-6627904.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    url: 'https://plus.unsplash.com/premium_photo-1661962786120-eecfb7a94778?w=1920&auto=format&fit=crop&q=80',
     alt: 'Zagreb Cathedral and historic center',
-    credit: 'Pexels',
+    credit: 'Unsplash',
   },
   'zadar': {
-    url: 'https://images.pexels.com/photos/3566194/pexels-photo-3566194.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    url: 'https://images.unsplash.com/photo-1689693661258-4240f272a473?w=1920&auto=format&fit=crop&q=80',
     alt: 'Zadar Sea Organ sunset',
-    credit: 'Pexels',
+    credit: 'Unsplash',
   },
   'rijeka': {
-    url: 'https://images.pexels.com/photos/3566192/pexels-photo-3566192.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    url: 'https://images.unsplash.com/photo-1654969936668-e8a5532aa1c7?w=1920&auto=format&fit=crop&q=80',
     alt: 'Rijeka harbor and city center',
-    credit: 'Pexels',
+    credit: 'Unsplash',
   },
   'pula': {
-    url: 'https://images.pexels.com/photos/3566195/pexels-photo-3566195.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    url: 'https://images.unsplash.com/photo-1681500669814-ca219efa0514?w=1920&auto=format&fit=crop&q=80',
     alt: 'Pula Roman Arena amphitheater',
-    credit: 'Pexels',
+    credit: 'Unsplash',
   },
 
   // Istria
   'rovinj': {
-    url: 'https://images.pexels.com/photos/546942/pexels-photo-546942.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    url: 'https://plus.unsplash.com/premium_photo-1661887265795-919eb4cc1882?w=1920&auto=format&fit=crop&q=80',
     alt: 'Rovinj - Coastal Croatian town with colorful buildings',
-    credit: 'Pexels',
+    credit: 'Unsplash',
+  },
+  'labin': {
+    url: 'https://plus.unsplash.com/premium_photo-1661887454307-432f4f394791?w=1920&auto=format&fit=crop&q=80',
+    alt: 'Labin historic hilltop town in Istria',
+    credit: 'Unsplash',
   },
   'porec': {
-    url: 'https://images.pexels.com/photos/3566196/pexels-photo-3566196.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    url: 'https://images.unsplash.com/photo-1691226203872-0837903332c8?w=1920&auto=format&fit=crop&q=80',
     alt: 'Poreč historic center and basilica',
-    credit: 'Pexels',
+    credit: 'Unsplash',
   },
   'umag': {
-    url: 'https://images.pexels.com/photos/3566197/pexels-photo-3566197.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    url: '/images/destinations/umag.jpg',
     alt: 'Umag Istrian coastline and beaches',
-    credit: 'Pexels',
+    credit: 'Local',
   },
   'motovun': {
-    url: 'https://images.pexels.com/photos/3566198/pexels-photo-3566198.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    url: 'https://images.unsplash.com/photo-1636144545669-49f6d58833fb?w=1920&auto=format&fit=crop&q=80',
     alt: 'Motovun hilltop medieval town',
-    credit: 'Pexels',
+    credit: 'Unsplash',
+  },
+  'novigrad': {
+    url: 'https://images.unsplash.com/photo-1542571539-183913214de8?w=1920&auto=format&fit=crop&q=80',
+    alt: 'Novigrad historic coastal town',
+    credit: 'Unsplash',
+  },
+  'vrsar': {
+    url: '/images/destinations/vrsar.jpg',
+    alt: 'Vrsar picturesque Istrian town',
+    credit: 'Local',
+  },
+  'fazana': {
+    url: '/images/destinations/fazana.jpg',
+    alt: 'Fažana fishing village near Brijuni',
+    credit: 'Local',
+  },
+  'medulin': {
+    url: '/images/destinations/medulin.jpg',
+    alt: 'Medulin beaches and coastline',
+    credit: 'Local',
+  },
+  'rabac': {
+    url: '/images/destinations/rabac.jpg',
+    alt: 'Rabac pearl of Kvarner Bay',
+    credit: 'Local',
+  },
+  'groznjan': {
+    url: '/images/destinations/groznjan.jpg',
+    alt: 'Grožnjan artists town in Istria',
+    credit: 'Local',
   },
 
   // Kvarner
   'opatija': {
-    url: 'https://images.pexels.com/photos/3566199/pexels-photo-3566199.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    url: 'https://images.unsplash.com/photo-1654901679289-2782bd59dd52?w=1920&auto=format&fit=crop&q=80',
     alt: 'Opatija riviera and Lungomare promenade',
-    credit: 'Pexels',
+    credit: 'Unsplash',
   },
   'krk': {
-    url: 'https://images.pexels.com/photos/3566200/pexels-photo-3566200.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    url: 'https://images.unsplash.com/photo-1626094905396-9cea81cc81a2?w=1920&auto=format&fit=crop&q=80',
     alt: 'Krk Island old town and beaches',
-    credit: 'Pexels',
+    credit: 'Unsplash',
   },
   'rab': {
-    url: 'https://images.pexels.com/photos/3566201/pexels-photo-3566201.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    url: 'https://images.unsplash.com/photo-1539601591461-2a5e0edb6915?w=1920&auto=format&fit=crop&q=80',
     alt: 'Rab Island medieval bell towers',
-    credit: 'Pexels',
+    credit: 'Unsplash',
   },
   'losinj': {
-    url: 'https://images.pexels.com/photos/3566202/pexels-photo-3566202.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    url: 'https://images.unsplash.com/photo-1594239330158-2e0042ff9766?w=1920&auto=format&fit=crop&q=80',
     alt: 'Lošinj Island harbor and nature',
-    credit: 'Pexels',
+    credit: 'Unsplash',
+  },
+  'crikvenica': {
+    url: 'https://images.unsplash.com/photo-1698972654886-3f809666afc7?w=1920&auto=format&fit=crop&q=80',
+    alt: 'Crikvenica beach resort town',
+    credit: 'Unsplash',
+  },
+  'novi-vinodolski': {
+    url: 'https://images.unsplash.com/photo-1745311634909-6d1d288b7f2f?w=1920&auto=format&fit=crop&q=80',
+    alt: 'Novi Vinodolski coastal town',
+    credit: 'Unsplash',
+  },
+  'lovran': {
+    url: 'https://images.unsplash.com/photo-1621412524294-d5608a29160e?w=1920&auto=format&fit=crop&q=80',
+    alt: 'Lovran historic town on Opatija riviera',
+    credit: 'Unsplash',
+  },
+  'cres': {
+    url: '/images/destinations/cres.jpg',
+    alt: 'Cres Island nature and town',
+    credit: 'Local',
   },
 
   // Dalmatia
   'sibenik': {
-    url: 'https://images.pexels.com/photos/3566203/pexels-photo-3566203.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    url: 'https://plus.unsplash.com/premium_photo-1661963145574-d20ef3324451?w=1920&auto=format&fit=crop&q=80',
     alt: 'Šibenik Cathedral of St. James',
-    credit: 'Pexels',
+    credit: 'Unsplash',
   },
   'trogir': {
-    url: 'https://images.pexels.com/photos/3566204/pexels-photo-3566204.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    url: 'https://images.unsplash.com/photo-1621848064451-efdb9232fb38?w=1920&auto=format&fit=crop&q=80',
     alt: 'Trogir UNESCO old town waterfront',
-    credit: 'Pexels',
+    credit: 'Unsplash',
   },
   'makarska': {
-    url: 'https://images.pexels.com/photos/3566205/pexels-photo-3566205.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    url: 'https://images.unsplash.com/photo-1630521553027-c57d0793c4c7?w=1920&auto=format&fit=crop&q=80',
     alt: 'Makarska Riviera and Biokovo mountain',
-    credit: 'Pexels',
+    credit: 'Unsplash',
   },
   'brela': {
-    url: 'https://images.pexels.com/photos/3566206/pexels-photo-3566206.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    url: 'https://images.unsplash.com/photo-1757002370559-897a82d96912?w=1920&auto=format&fit=crop&q=80',
     alt: 'Brela Punta Rata beach with pine trees',
-    credit: 'Pexels',
+    credit: 'Unsplash',
+  },
+  'omis': {
+    url: 'https://images.unsplash.com/photo-1685291431649-6778b46b923f?w=1920&auto=format&fit=crop&q=80',
+    alt: 'Omiš town at Cetina river canyon',
+    credit: 'Unsplash',
+  },
+  'baska-voda': {
+    url: '/images/destinations/baska-voda.jpg',
+    alt: 'Baška Voda beach and promenade',
+    credit: 'Local',
+  },
+  'tucepi': {
+    url: '/images/destinations/tucepi.jpg',
+    alt: 'Tučepi beach under Biokovo mountain',
+    credit: 'Local',
+  },
+  'podgora': {
+    url: '/images/destinations/podgora.jpg',
+    alt: 'Podgora coastal town on Makarska Riviera',
+    credit: 'Local',
+  },
+  'biograd': {
+    url: 'https://images.unsplash.com/photo-1646434171915-2fd324ec9650?w=1920&auto=format&fit=crop&q=80',
+    alt: 'Biograd na Moru historic coastal town',
+    credit: 'Unsplash',
+  },
+  'vodice': {
+    url: 'https://images.unsplash.com/photo-1686991440039-40029484fc07?w=1920&auto=format&fit=crop&q=80',
+    alt: 'Vodice beach resort town',
+    credit: 'Unsplash',
   },
 
   // Islands
   'hvar': {
-    url: 'https://images.pexels.com/photos/2265876/pexels-photo-2265876.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    url: 'https://plus.unsplash.com/premium_photo-1661887156382-edf8a21e4c28?w=1920&auto=format&fit=crop&q=80',
     alt: 'Hvar - White boats on turquoise Adriatic waters',
-    credit: 'Pexels',
+    credit: 'Unsplash',
   },
   'brac': {
-    url: 'https://images.pexels.com/photos/3566207/pexels-photo-3566207.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    url: 'https://images.unsplash.com/photo-1614543116033-c4197bea2ec1?w=1920&auto=format&fit=crop&q=80',
     alt: 'Brač Island Zlatni Rat golden beach',
-    credit: 'Pexels',
+    credit: 'Unsplash',
   },
   'korcula': {
-    url: 'https://images.pexels.com/photos/3566208/pexels-photo-3566208.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    url: 'https://images.unsplash.com/photo-1483652336121-476f6270c7d3?w=1920&auto=format&fit=crop&q=80',
     alt: 'Korčula medieval town and towers',
-    credit: 'Pexels',
+    credit: 'Unsplash',
   },
   'vis': {
-    url: 'https://images.pexels.com/photos/3566209/pexels-photo-3566209.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    url: 'https://images.unsplash.com/photo-1631897886669-21e552363c34?w=1920&auto=format&fit=crop&q=80',
     alt: 'Vis Island unspoiled nature and coves',
-    credit: 'Pexels',
+    credit: 'Unsplash',
   },
   'bol': {
-    url: 'https://images.pexels.com/photos/3566210/pexels-photo-3566210.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    url: 'https://plus.unsplash.com/premium_photo-1754272806188-aeeecff4d490?w=1920&auto=format&fit=crop&q=80',
     alt: 'Bol Golden Horn beach from above',
-    credit: 'Pexels',
+    credit: 'Unsplash',
   },
 
   // Dubrovnik Region
   'cavtat': {
-    url: 'https://images.pexels.com/photos/3566211/pexels-photo-3566211.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    url: 'https://images.unsplash.com/photo-1436638844003-fc74b29810d5?w=1920&auto=format&fit=crop&q=80',
     alt: 'Cavtat peaceful harbor and promenade',
-    credit: 'Pexels',
+    credit: 'Unsplash',
   },
 
   // National Parks
   'plitvice': {
-    url: 'https://images.pexels.com/photos/19818816/pexels-photo-19818816.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    url: 'https://plus.unsplash.com/premium_photo-1661887188245-416a527406b7?w=1920&auto=format&fit=crop&q=80',
     alt: 'Plitvice Lakes National Park - Scenic view with waterfalls and turquoise lakes',
-    credit: 'Pexels',
+    credit: 'Unsplash',
   },
   'krka': {
-    url: 'https://images.pexels.com/photos/3566212/pexels-photo-3566212.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    url: 'https://images.unsplash.com/photo-1554585343-acd99e31977b?w=1920&auto=format&fit=crop&q=80',
     alt: 'Krka National Park Skradinski Buk waterfall',
-    credit: 'Pexels',
+    credit: 'Unsplash',
   },
   'kornati': {
-    url: 'https://images.pexels.com/photos/3566213/pexels-photo-3566213.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    url: 'https://images.unsplash.com/photo-1744144081946-7b2125836a69?w=1920&auto=format&fit=crop&q=80',
     alt: 'Kornati archipelago islands from above',
-    credit: 'Pexels',
+    credit: 'Unsplash',
   },
   'brijuni': {
-    url: 'https://images.pexels.com/photos/3566214/pexels-photo-3566214.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    url: 'https://images.unsplash.com/photo-1635760802693-48283b1cebb2?w=1920&auto=format&fit=crop&q=80',
     alt: 'Brijuni National Park coastal nature',
-    credit: 'Pexels',
+    credit: 'Unsplash',
   },
 };
 

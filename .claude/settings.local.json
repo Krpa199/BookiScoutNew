@@ -29,7 +29,14 @@
       "Bash(ls:*)",
       "WebFetch(domain:tripset.framer.website)",
       "Bash(tee:*)",
-      "Bash(npm ls:*)"
+      "Bash(npm ls:*)",
+      "WebFetch(domain:booki-scout-new.vercel.app)",
+      "Bash(git push:*)",
+      "Bash(npm view:*)",
+      "Bash(npx --yes next build)",
+      "Bash(npx next lint:*)",
+      "Bash(npx eslint:*)",
+      "Bash(if not exist \"c:\\\\Users\\\\mario\\\\Desktop\\\\BookiScout\\\\public\\\\images\\\\destinations\" mkdir \"c:\\\\Users\\\\mario\\\\Desktop\\\\BookiScout\\\\public\\\\images\\\\destinations\")"
     ]
   }
 }

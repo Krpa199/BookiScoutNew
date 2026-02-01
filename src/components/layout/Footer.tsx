@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { MapPin, Mail, Globe, Compass, Heart, ExternalLink } from 'lucide-react';
+import { MapPin, Globe, Compass, Heart } from 'lucide-react';
 import { LANGUAGES } from '@/config/languages';
 
 export default function Footer() {
@@ -38,7 +38,7 @@ export default function Footer() {
       </div>
 
       {/* Main Footer */}
-      <div className="container py-20 relative">
+      <div className="container pt-24 pb-20 relative">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 mb-16">
           {/* Brand - Larger section */}
           <div className="lg:col-span-4">
@@ -117,57 +117,12 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Newsletter */}
-          <div className="lg:col-span-2">
-            <div className="bg-gradient-to-br from-ocean-600/20 to-seafoam-600/20 backdrop-blur-sm border border-ocean-500/30 rounded-3xl p-6 shadow-soft">
-              <h4 className="font-bold text-lg mb-3 flex items-center gap-2">
-                <Mail className="w-5 h-5 text-ocean-300" />
-                <span>Stay Updated</span>
-              </h4>
-              <p className="text-slate-300 text-sm mb-4 leading-relaxed">
-                New decision guides delivered weekly. No spam, just answers.
-              </p>
-              <form className="space-y-3">
-                <input
-                  type="email"
-                  placeholder="your@email.com"
-                  className="w-full px-4 py-3 bg-slate-800/70 border border-slate-700/50 rounded-xl text-white placeholder-slate-400 focus:outline-none focus:border-ocean-500 focus:ring-2 focus:ring-ocean-500/30 transition-all"
-                />
-                <button
-                  type="submit"
-                  className="w-full px-4 py-3 bg-gradient-ocean hover:shadow-ocean text-white font-semibold rounded-xl transition-all shadow-soft"
-                >
-                  Subscribe
-                </button>
-              </form>
-              <p className="text-xs text-slate-400 mt-3 leading-relaxed">
-                Join 10,000+ travelers. Unsubscribe anytime.
-              </p>
-            </div>
-          </div>
         </div>
 
-        {/* Divider */}
-        <div className="h-px bg-gradient-to-r from-transparent via-slate-700 to-transparent mb-12" />
-
-        {/* Languages Section */}
-        <div className="mb-12">
-          <div className="flex items-center gap-3 mb-6">
-            <Globe className="w-5 h-5 text-ocean-400" />
-            <span className="text-slate-400 font-semibold">Available in {Object.keys(LANGUAGES).length} languages:</span>
-          </div>
-          <div className="flex flex-wrap gap-3">
-            {Object.entries(LANGUAGES).map(([code, lang]) => (
-              <button
-                key={code}
-                className="px-4 py-2 bg-slate-800/50 hover:bg-slate-700/50 border border-slate-700/50 hover:border-ocean-500/50 rounded-xl text-sm text-slate-300 hover:text-ocean-300 transition-all cursor-not-allowed opacity-60"
-                title="Multi-language support coming soon"
-              >
-                <span className="mr-2">{lang.flag}</span>
-                {lang.name}
-              </button>
-            ))}
-          </div>
+        {/* Languages info */}
+        <div className="flex items-center gap-3 mb-8">
+          <Globe className="w-5 h-5 text-ocean-400" />
+          <span className="text-slate-400 font-semibold">Available in {Object.keys(LANGUAGES).length} languages</span>
         </div>
 
         {/* Divider */}
