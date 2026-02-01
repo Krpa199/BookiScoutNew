@@ -1,0 +1,324 @@
+{
+  "metadata": {
+    "siteName": "BookiScout",
+    "siteTagline": "Przewodniki decyzyjne po Chorwacji",
+    "homeTitle": "BookiScout - Przewodniki podróżnicze po Chorwacji",
+    "homeDescription": "Zoptymalizowane przez AI przewodniki decyzyjne po Chorwacji. Uzyskaj odpowiedzi na prawdziwe pytania podróżnicze: Czy warto? Czy potrzebuję samochodu? Najlepszy czas na wizytę?",
+    "guidesTitle": "Przewodniki turystyczne po Chorwacji",
+    "guidesDescription": "Eksperckie przewodniki turystyczne do wszystkich chorwackich destynacji. Znajdź porady dotyczące zakwaterowania, plaż, restauracji i atrakcji.",
+    "destinationsTitle": "Wszystkie destynacje w Chorwacji",
+    "destinationsDescription": "Odkryj 60+ destynacji w całej Chorwacji - od Splitu i Dubrownika po ukryte perełki Istrii, Dalmacji i wysp."
+  },
+  "nav": {
+    "destinations": "Destynacje",
+    "decisionGuides": "Przewodniki decyzyjne",
+    "chooseLanguage": "Wybierz język",
+    "language": "Język",
+    "browseGuides": "Przeglądaj przewodniki"
+  },
+  "home": {
+    "hero": {
+      "badge": "Zoptymalizowane przez AI decyzje podróżnicze",
+      "headline": "Wiedz gdzie, kiedy",
+      "headlinePart2": "i dlaczego przed rezerwacją",
+      "subheadline": "Przewodniki decyzyjne po Chorwacji dla prawdziwych podróżników. Czy warto? Czy potrzebujesz samochodu? Najlepszy czas na wizytę? Odpowiadamy na ważne pytania.",
+      "browseGuides": "Przeglądaj przewodniki",
+      "exploreDestinations": "Odkryj destynacje",
+      "statDestinations": "60+ destynacji",
+      "statGuides": "500+ przewodników",
+      "statLanguages": "11 języków"
+    },
+    "quickAnswers": {
+      "badge": "Szybkie odpowiedzi",
+      "title": "Częste pytania o podróż do Chorwacji",
+      "subtitle": "Bezpośrednie odpowiedzi, które asystenci AI mogą cytować. Bez lania wody, tylko fakty.",
+      "seeAll": "Zobacz wszystkie przewodniki",
+      "q1": {
+        "question": "Czy Chorwacja jest bezpieczna dla samotnie podróżujących kobiet?",
+        "answer": "Tak. Chorwacja należy do najbezpieczniejszych europejskich destynacji z niskim wskaźnikiem przestępczości. Główne obszary turystyczne są dobrze oświetlone i bezpieczne do spacerów nocą."
+      },
+      "q2": {
+        "question": "Czy potrzebuję samochodu do zwiedzania Chorwacji?",
+        "answer": "Dla miast nadmorskich (Split, Dubrownik, Zadar): Nie. Dla wysp i parków narodowych: Zalecane, ale nie niezbędne."
+      },
+      "q3": {
+        "question": "Najlepszy miesiąc na wizytę na chorwackim wybrzeżu?",
+        "answer": "Wrzesień oferuje idealną równowagę: ciepłe morze (24°C), mniejsze tłumy niż w sierpniu i 20-30% niższe ceny."
+      }
+    },
+    "features": {
+      "title": "Dlaczego BookiScout?",
+      "subtitle": "Treści skupione na decyzjach, zaprojektowane dla sposobu, w jaki naprawdę planujesz podróże",
+      "decisionFirst": {
+        "title": "Treści decyzyjne",
+        "description": "Odpowiadamy na pytania, które naprawdę zadajesz: \"Czy warto?\", \"Czy potrzebuję samochodu?\", \"Najlepsze dla rodzin?\""
+      },
+      "aiVerified": {
+        "title": "Fakty zweryfikowane przez AI",
+        "description": "Każde twierdzenie jest sprawdzone i cytowalne. Idealne dla asystentów AI do bezpośredniego cytowania."
+      },
+      "travelerFocused": {
+        "title": "Skupienie na typie podróżnika",
+        "description": "Przewodniki dostosowane do samotnych podróżników, rodzin, seniorów, cyfrowych nomadów i innych."
+      },
+      "noBias": {
+        "title": "Bez stronniczości rezerwacyjnej",
+        "description": "Czyste decyzje podróżnicze. Bez presji afiliacyjnej. Tylko szczere, praktyczne odpowiedzi."
+      }
+    },
+    "destinations": {
+      "badge": "Odkrywaj według lokalizacji",
+      "title": "Najlepsze destynacje",
+      "subtitle": "Przewodniki decyzyjne do najczęściej odwiedzanych miejsc w Chorwacji",
+      "viewAll": "Zobacz wszystkie destynacje"
+    },
+    "guides": {
+      "badge": "Przewodniki decyzyjne",
+      "title": "Odpowiedzi na popularne pytania",
+      "subtitle": "Praktyczne odpowiedzi pomagające zdecydować gdzie, kiedy i jak odwiedzić",
+      "viewAll": "Zobacz wszystkie przewodniki",
+      "viewAllMobile": "Zobacz wszystkie przewodniki decyzyjne"
+    },
+    "newsletter": {
+      "badge": "Bądź na bieżąco",
+      "title": "Otrzymuj nowe przewodniki",
+      "subtitle": "Cotygodniowe aktualizacje o decyzjach podróżniczych do Chorwacji. Bez spamu, tylko przydatne odpowiedzi na częste pytania.",
+      "placeholder": "Twój adres e-mail",
+      "subscribe": "Subskrybuj",
+      "privacy": "Dołącz do 10 000+ podróżników. Wypisz się w dowolnym momencie."
+    }
+  },
+  "footer": {
+    "tagline": "Przewodniki decyzyjne po Chorwacji",
+    "description": "Zoptymalizowane przez AI przewodniki po Chorwacji. Odpowiadamy na pytania, które podróżnicy naprawdę zadają: Czy warto? Czy potrzebuję samochodu? Najlepszy czas na wizytę? Bez stronniczości, tylko szczere odpowiedzi.",
+    "cta": "Wiedz przed rezerwacją",
+    "topDestinations": "Najlepsze destynacje",
+    "decisionGuides": "Przewodniki decyzyjne",
+    "company": "Firma",
+    "aboutUs": "O nas",
+    "contact": "Kontakt",
+    "privacy": "Polityka prywatności",
+    "terms": "Regulamin",
+    "allDestinations": "Wszystkie destynacje",
+    "soloTravel": "Podróże solo",
+    "familyGuides": "Przewodniki rodzinne",
+    "doINeedCar": "Czy potrzebuję samochodu?",
+    "bestTime": "Najlepszy czas na wizytę",
+    "availableIn": "Dostępne w {count} językach",
+    "copyright": "© {year} BookiScout. Stworzone z",
+    "forTravelers": "dla podróżników do Chorwacji.",
+    "aiOptimized": "Zoptymalizowane przez AI",
+    "decisionFirst": "Decyzje na pierwszym miejscu"
+  },
+  "destinations": {
+    "hero": {
+      "badge": "{count}+ destynacji",
+      "title": "Odkryj Chorwację",
+      "subtitle": "Odkryj zapierające dech destynacje wzdłuż wybrzeża Adriatyku, starożytne miasta i niesamowite parki narodowe. Znajdź swój idealny chorwacki urlop.",
+      "statCities": "Miasta i miasteczka",
+      "statIslands": "Wyspy",
+      "statParks": "Parki narodowe"
+    },
+    "popular": {
+      "badge": "Najpopularniejsze",
+      "title": "Najlepsze destynacje",
+      "subtitle": "Najczęściej odwiedzane miejsca w Chorwacji"
+    },
+    "byRegion": {
+      "badge": "Przeglądaj według regionu",
+      "title": "Odkrywaj według regionów",
+      "subtitle": "Odkryj destynacje uporządkowane według chorwackich regionów",
+      "count": "{count} destynacja",
+      "countPlural": "{count} destynacji"
+    },
+    "byType": {
+      "title": "Przeglądaj według typu",
+      "subtitle": "Znajdź destynacje według tego, czego szukasz",
+      "cities": "Miasta",
+      "coastalTowns": "Nadmorskie miasteczka",
+      "islands": "Wyspy",
+      "nationalParks": "Parki narodowe"
+    },
+    "card": {
+      "popular": "Popularne",
+      "guides": "{count} przewodników",
+      "explore": "Odkryj destynację"
+    }
+  },
+  "destinationDetail": {
+    "breadcrumb": {
+      "home": "Strona główna",
+      "destinations": "Destynacje"
+    },
+    "atAGlance": "{destination} w skrócie",
+    "facts": {
+      "region": "Region",
+      "type": "Typ",
+      "bestSeason": "Najlepsza pora",
+      "maySeptember": "Maj - Wrzesień",
+      "idealFor": "Idealne dla",
+      "allTravelers": "Wszystkich podróżników",
+      "explorers": "Odkrywców",
+      "priceLevel": "Poziom cen",
+      "mediumHigh": "Średnio-wysoki",
+      "medium": "Średni",
+      "popularity": "Popularność",
+      "topDestination": "Top destynacja",
+      "hiddenGem": "Ukryta perełka"
+    },
+    "whyVisit": {
+      "title": "Dlaczego odwiedzić {destination}?",
+      "authentic": {
+        "title": "Autentyczne doświadczenie",
+        "description": "Odkryj prawdziwą chorwacką kulturę i gościnność"
+      },
+      "waters": {
+        "title": "Krystalicznie czysta woda",
+        "description": "Pływaj w jednym z najczystszych mórz Morza Śródziemnego"
+      },
+      "history": {
+        "title": "Bogata historia",
+        "description": "Odkrywaj wieki śródziemnomorskiej historii i architektury"
+      },
+      "value": {
+        "title": "Świetna wartość",
+        "description": "Jakościowe doświadczenie w przystępniejszych cenach niż w Europie Zachodniej"
+      }
+    },
+    "guides": {
+      "badge": "Przewodniki AI",
+      "title": "Przewodniki po {destination}",
+      "subtitle": "Porównaj dzielnice, znajdź obszary przyjazne rodzinom, odkryj ukryte plaże i podejmij właściwą decyzję dla swojej podróży.",
+      "comingSoon": "Wkrótce"
+    },
+    "nearby": {
+      "title": "Odkryj okolice",
+      "subtitle": "Więcej destynacji w regionie {region}"
+    },
+    "booking": {
+      "title": "Gotowy na rezerwację?",
+      "subtitle": "Jeśli już zdecydowałeś, który obszar ci odpowiada, sprawdź dostępność poniżej."
+    },
+    "cta": {
+      "exploreGuides": "Odkryj przewodniki",
+      "compareAreas": "Porównaj obszary"
+    }
+  },
+  "guides": {
+    "hero": {
+      "badge": "Wglądy podróżnicze wspierane przez AI",
+      "title": "Przewodniki turystyczne po Chorwacji",
+      "subtitle": "{count} eksperckich przewodników po chorwackich destynacjach w {langCount} językach. Odkryj swój idealny urlop z rekomendacjami AI.",
+      "subtitleEmpty": "Eksperckie przewodniki po chorwackich destynacjach wkrótce. Wglądy AI, które pomogą ci zaplanować idealną podróż.",
+      "statGuides": "Przewodniki",
+      "statDestinations": "60+ destynacji",
+      "statUpdated": "Zawsze aktualne"
+    },
+    "listing": {
+      "title": "Najnowsze przewodniki",
+      "subtitle": "{count} kompleksowych przewodników po polsku",
+      "filterByTopic": "Filtruj według tematu"
+    },
+    "byDestination": {
+      "title": "Przeglądaj według destynacji",
+      "subtitle": "Znajdź przewodniki do swoich ulubionych chorwackich destynacji",
+      "viewAll": "Zobacz wszystkie {count} destynacji"
+    },
+    "empty": {
+      "title": "Przewodniki wkrótce",
+      "subtitle": "Tworzymy kompleksowe przewodniki AI dla wszystkich chorwackich destynacji. Wróć wkrótce!",
+      "cta": "Przeglądaj destynacje"
+    },
+    "themes": {
+      "apartments": "Apartamenty",
+      "family": "Rodzina",
+      "beach": "Plaże",
+      "budget": "Budżet",
+      "luxury": "Luksus",
+      "restaurants": "Jedzenie",
+      "thingsToDo": "Atrakcje",
+      "hiddenGems": "Ukryte perełki",
+      "couples": "Pary",
+      "nightlife": "Życie nocne",
+      "dayTrips": "Jednodniowe wycieczki",
+      "weather": "Pogoda",
+      "localFood": "Lokalna kuchnia"
+    },
+    "detail": {
+      "breadcrumb": {
+        "home": "Strona główna",
+        "guides": "Przewodniki"
+      },
+      "badge": "Przewodnik decyzyjny",
+      "quickAnswer": "Szybka odpowiedź",
+      "tableOfContents": "Co jest w tym przewodniku",
+      "atAGlance": "W skrócie",
+      "minRead": "{count} min czytania",
+      "rating": "4.8",
+      "sections": {
+        "quickFacts": "Szybkie fakty",
+        "prosCons": "Zalety i wady",
+        "areaComparison": "Porównanie obszarów",
+        "practicalTips": "Praktyczne wskazówki",
+        "faq": "FAQ"
+      },
+      "recommendations": {
+        "bestForFamilies": "Najlepsze dla rodzin",
+        "bestForSolo": "Najlepsze dla samotnych podróżników",
+        "bestForSeniors": "Najlepsze dla seniorów",
+        "bestForNomads": "Najlepsze dla cyfrowych nomadów",
+        "bestForLgbt": "Najlepsze dla podróżników LGBT+",
+        "bestForFirstTime": "Najlepsze dla pierwszych odwiedzających",
+        "bestForCouples": "Najlepsze dla par",
+        "bestBudget": "Najlepsze opcje budżetowe",
+        "bestLuxury": "Najlepsze opcje luksusowe",
+        "generic": "Rekomendacje"
+      },
+      "avoid": {
+        "title": "Obszary do unikania",
+        "accessibility": "Obszary do unikania (dostępność)",
+        "parking": "Wyzwania parkingowe"
+      },
+      "practicalNotes": "Praktyczne uwagi",
+      "keyTakeaways": "Kluczowe wnioski",
+      "faq": {
+        "title": "Często zadawane pytania",
+        "subtitle": "Wszystko, co musisz wiedzieć o {destination}"
+      },
+      "sidebar": {
+        "otherLanguages": "Inne języki",
+        "trustedGuide": "Zaufany przewodnik",
+        "aiPowered": "Analiza wspierana przez AI",
+        "humanReviewed": "Sprawdzone przez ludzi",
+        "regularlyUpdated": "Regularnie aktualizowane",
+        "moreAbout": "Więcej o {destination}",
+        "exploreOther": "Odkryj inne przewodniki decyzyjne dla {destination}.",
+        "viewAllGuides": "Zobacz wszystkie przewodniki"
+      },
+      "prosCons": {
+        "title": "Zalety i wady",
+        "advantages": "Zalety",
+        "disadvantages": "Wady"
+      }
+    }
+  },
+  "regions": {
+    "istria": "Istria",
+    "kvarner": "Kvarner",
+    "dalmatia": "Dalmacja",
+    "splitDalmatia": "Split-Dalmacja",
+    "dubrovnik": "Region Dubrownika",
+    "continental": "Chorwacja kontynentalna",
+    "zagreb": "Region Zagrzebia"
+  },
+  "common": {
+    "readMore": "Czytaj więcej",
+    "learnMore": "Dowiedz się więcej",
+    "viewAll": "Zobacz wszystko",
+    "home": "Strona główna",
+    "back": "Wstecz",
+    "loading": "Ładowanie...",
+    "error": "Błąd",
+    "notFound": "Nie znaleziono"
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "metadata": {
+    "siteName": "BookiScout",
+    "siteTagline": "Průvodci pro rozhodování o Chorvatsku",
+    "homeTitle": "BookiScout - Cestovní průvodci po Chorvatsku",
+    "homeDescription": "AI-optimalizované průvodce pro rozhodování o Chorvatsku. Získejte odpovědi na skutečné cestovní otázky: Vyplatí se to? Potřebuji auto? Nejlepší doba pro návštěvu?",
+    "guidesTitle": "Turistické průvodce po Chorvatsku",
+    "guidesDescription": "Odborné turistické průvodce pro všechny chorvatské destinace. Najděte tipy na ubytování, pláže, restaurace a aktivity.",
+    "destinationsTitle": "Všechny destinace v Chorvatsku",
+    "destinationsDescription": "Prozkoumejte 60+ destinací po celém Chorvatsku - od Splitu a Dubrovníku po skryté perly Istrie, Dalmácie a ostrovů."
+  },
+  "nav": {
+    "destinations": "Destinace",
+    "decisionGuides": "Průvodci pro rozhodování",
+    "chooseLanguage": "Vyberte jazyk",
+    "language": "Jazyk",
+    "browseGuides": "Prohlížet průvodce"
+  },
+  "home": {
+    "hero": {
+      "badge": "AI-optimalizovaná cestovní rozhodnutí",
+      "headline": "Vědět kde, kdy",
+      "headlinePart2": "a proč před rezervací",
+      "subheadline": "Průvodce pro rozhodování o Chorvatsku pro skutečné cestovatele. Vyplatí se to? Potřebujete auto? Nejlepší doba pro návštěvu? Odpovídáme na otázky, které jsou důležité.",
+      "browseGuides": "Prohlížet průvodce",
+      "exploreDestinations": "Prozkoumat destinace",
+      "statDestinations": "60+ destinací",
+      "statGuides": "500+ průvodců",
+      "statLanguages": "11 jazyků"
+    },
+    "quickAnswers": {
+      "badge": "Rychlé odpovědi",
+      "title": "Časté otázky o cestování do Chorvatska",
+      "subtitle": "Přímé odpovědi, které AI asistenti mohou citovat. Bez keců, jen fakta.",
+      "seeAll": "Zobrazit všechny průvodce",
+      "q1": {
+        "question": "Je Chorvatsko bezpečné pro ženy cestující samy?",
+        "answer": "Ano. Chorvatsko patří k nejbezpečnějším evropským destinacím s nízkou mírou kriminality. Hlavní turistické oblasti jsou dobře osvětlené a bezpečné pro procházky v noci."
+      },
+      "q2": {
+        "question": "Potřebuji auto k prozkoumání Chorvatska?",
+        "answer": "Pro pobřežní města (Split, Dubrovník, Zadar): Ne. Pro ostrovy a národní parky: Doporučeno, ale není nezbytné."
+      },
+      "q3": {
+        "question": "Nejlepší měsíc pro návštěvu chorvatského pobřeží?",
+        "answer": "Září nabízí ideální rovnováhu: teplé moře (24°C), méně davů než v srpnu a o 20-30% nižší ceny."
+      }
+    },
+    "features": {
+      "title": "Proč BookiScout?",
+      "subtitle": "Obsah zaměřený na rozhodování, navržený pro způsob, jakým skutečně plánujete cesty",
+      "decisionFirst": {
+        "title": "Obsah pro rozhodování",
+        "description": "Odpovídáme na otázky, které skutečně pokládáte: \"Vyplatí se to?\", \"Potřebuji auto?\", \"Nejlepší pro rodiny?\""
+      },
+      "aiVerified": {
+        "title": "AI-ověřená fakta",
+        "description": "Každé tvrzení je ověřeno a citovatelné. Perfektní pro AI asistenty k přímému citování."
+      },
+      "travelerFocused": {
+        "title": "Zaměření na typ cestovatele",
+        "description": "Průvodce přizpůsobené sólo cestovatelům, rodinám, seniorům, digitálním nomádům a dalším."
+      },
+      "noBias": {
+        "title": "Bez zaujatosti k rezervacím",
+        "description": "Čistá cestovní rozhodnutí. Bez tlaku od partnerů. Jen upřímné, praktické odpovědi."
+      }
+    },
+    "destinations": {
+      "badge": "Prozkoumat podle místa",
+      "title": "Top destinace",
+      "subtitle": "Průvodci pro rozhodování o nejnavštěvovanějších místech Chorvatska",
+      "viewAll": "Zobrazit všechny destinace"
+    },
+    "guides": {
+      "badge": "Průvodci pro rozhodování",
+      "title": "Odpovědi na populární otázky",
+      "subtitle": "Praktické odpovědi, které vám pomohou rozhodnout kde, kdy a jak navštívit",
+      "viewAll": "Zobrazit všechny průvodce",
+      "viewAllMobile": "Zobrazit všechny průvodce pro rozhodování"
+    },
+    "newsletter": {
+      "badge": "Buďte informováni",
+      "title": "Dostávejte nové průvodce",
+      "subtitle": "Týdenní aktualizace o cestovních rozhodnutích pro Chorvatsko. Žádný spam, jen užitečné odpovědi na časté otázky.",
+      "placeholder": "Vaše e-mailová adresa",
+      "subscribe": "Přihlásit se",
+      "privacy": "Připojte se k 10 000+ cestovatelům. Odhlášení kdykoliv."
+    }
+  },
+  "footer": {
+    "tagline": "Průvodci pro rozhodování o Chorvatsku",
+    "description": "AI-optimalizované průvodce pro Chorvatsko. Odpovídáme na otázky, které cestovatelé skutečně pokládají: Vyplatí se to? Potřebuji auto? Nejlepší doba pro návštěvu? Bez zaujatosti, jen upřímné odpovědi.",
+    "cta": "Vědět před rezervací",
+    "topDestinations": "Top destinace",
+    "decisionGuides": "Průvodci pro rozhodování",
+    "company": "Společnost",
+    "aboutUs": "O nás",
+    "contact": "Kontakt",
+    "privacy": "Zásady ochrany soukromí",
+    "terms": "Podmínky služby",
+    "allDestinations": "Všechny destinace",
+    "soloTravel": "Sólo cestování",
+    "familyGuides": "Průvodce pro rodiny",
+    "doINeedCar": "Potřebuji auto?",
+    "bestTime": "Nejlepší doba pro návštěvu",
+    "availableIn": "Dostupné v {count} jazycích",
+    "copyright": "© {year} BookiScout. Vytvořeno s",
+    "forTravelers": "pro cestovatele do Chorvatska.",
+    "aiOptimized": "AI-optimalizované",
+    "decisionFirst": "Rozhodování nejdříve"
+  },
+  "destinations": {
+    "hero": {
+      "badge": "{count}+ destinací",
+      "title": "Prozkoumejte Chorvatsko",
+      "subtitle": "Objevte úchvatné destinace podél Jaderského pobřeží, starobylá města a dechberoucí národní parky. Najděte svou perfektní chorvatskou dovolenou.",
+      "statCities": "Města a městečka",
+      "statIslands": "Ostrovy",
+      "statParks": "Národní parky"
+    },
+    "popular": {
+      "badge": "Nejoblíbenější",
+      "title": "Top destinace",
+      "subtitle": "Nejnavštěvovanější místa v Chorvatsku"
+    },
+    "byRegion": {
+      "badge": "Prohlížet podle regionu",
+      "title": "Prozkoumat podle regionů",
+      "subtitle": "Objevte destinace organizované podle chorvatských regionů",
+      "count": "{count} destinace",
+      "countPlural": "{count} destinací"
+    },
+    "byType": {
+      "title": "Prohlížet podle typu",
+      "subtitle": "Najděte destinace podle toho, co hledáte",
+      "cities": "Města",
+      "coastalTowns": "Pobřežní městečka",
+      "islands": "Ostrovy",
+      "nationalParks": "Národní parky"
+    },
+    "card": {
+      "popular": "Populární",
+      "guides": "{count} průvodců",
+      "explore": "Prozkoumat destinaci"
+    }
+  },
+  "destinationDetail": {
+    "breadcrumb": {
+      "home": "Domů",
+      "destinations": "Destinace"
+    },
+    "atAGlance": "{destination} v kostce",
+    "facts": {
+      "region": "Region",
+      "type": "Typ",
+      "bestSeason": "Nejlepší sezóna",
+      "maySeptember": "Květen - Září",
+      "idealFor": "Ideální pro",
+      "allTravelers": "Všechny cestovatele",
+      "explorers": "Objevitele",
+      "priceLevel": "Cenová úroveň",
+      "mediumHigh": "Střední-vysoká",
+      "medium": "Střední",
+      "popularity": "Popularita",
+      "topDestination": "Top destinace",
+      "hiddenGem": "Skrytý klenot"
+    },
+    "whyVisit": {
+      "title": "Proč navštívit {destination}?",
+      "authentic": {
+        "title": "Autentický zážitek",
+        "description": "Objevte pravou chorvatskou kulturu a pohostinnost"
+      },
+      "waters": {
+        "title": "Křišťálově čisté vody",
+        "description": "Plavte v jednom z nejčistších moří Středozemí"
+      },
+      "history": {
+        "title": "Bohatá historie",
+        "description": "Prozkoumejte staletí středomořské historie a architektury"
+      },
+      "value": {
+        "title": "Skvělá hodnota",
+        "description": "Kvalitní zážitek za dostupnější ceny než v západní Evropě"
+      }
+    },
+    "guides": {
+      "badge": "AI průvodce",
+      "title": "Průvodce pro {destination}",
+      "subtitle": "Porovnejte čtvrti, najděte oblasti vhodné pro rodiny, objevte skryté pláže a udělejte správné rozhodnutí pro svou cestu.",
+      "comingSoon": "Brzy"
+    },
+    "nearby": {
+      "title": "Prozkoumat okolí",
+      "subtitle": "Více destinací v regionu {region}"
+    },
+    "booking": {
+      "title": "Připraveni rezervovat?",
+      "subtitle": "Pokud jste již rozhodli, která oblast vám vyhovuje, zkontrolujte dostupnost níže."
+    },
+    "cta": {
+      "exploreGuides": "Prozkoumat průvodce",
+      "compareAreas": "Porovnat oblasti"
+    }
+  },
+  "guides": {
+    "hero": {
+      "badge": "AI-poháněné cestovní vhledy",
+      "title": "Turistické průvodce po Chorvatsku",
+      "subtitle": "{count} odborných průvodců pro chorvatské destinace v {langCount} jazycích. Objevte svou perfektní dovolenou s AI doporučeními.",
+      "subtitleEmpty": "Odborné průvodce pro chorvatské destinace brzy přijdou. AI vhledy, které vám pomohou naplánovat perfektní cestu.",
+      "statGuides": "Průvodce",
+      "statDestinations": "60+ destinací",
+      "statUpdated": "Vždy aktuální"
+    },
+    "listing": {
+      "title": "Nejnovější průvodce",
+      "subtitle": "{count} komplexních průvodců v češtině",
+      "filterByTopic": "Filtrovat podle tématu"
+    },
+    "byDestination": {
+      "title": "Prohlížet podle destinace",
+      "subtitle": "Najděte průvodce pro vaše oblíbené chorvatské destinace",
+      "viewAll": "Zobrazit všech {count} destinací"
+    },
+    "empty": {
+      "title": "Průvodce brzy",
+      "subtitle": "Vytváříme komplexní AI průvodce pro všechny chorvatské destinace. Vraťte se brzy!",
+      "cta": "Prohlížet destinace"
+    },
+    "themes": {
+      "apartments": "Apartmány",
+      "family": "Rodina",
+      "beach": "Pláže",
+      "budget": "Rozpočet",
+      "luxury": "Luxus",
+      "restaurants": "Jídlo",
+      "thingsToDo": "Aktivity",
+      "hiddenGems": "Skryté klenoty",
+      "couples": "Páry",
+      "nightlife": "Noční život",
+      "dayTrips": "Jednodenní výlety",
+      "weather": "Počasí",
+      "localFood": "Místní kuchyně"
+    },
+    "detail": {
+      "breadcrumb": {
+        "home": "Domů",
+        "guides": "Průvodce"
+      },
+      "badge": "Průvodce pro rozhodování",
+      "quickAnswer": "Rychlá odpověď",
+      "tableOfContents": "Co je v tomto průvodci",
+      "atAGlance": "V kostce",
+      "minRead": "{count} min čtení",
+      "rating": "4.8",
+      "sections": {
+        "quickFacts": "Rychlá fakta",
+        "prosCons": "Klady a zápory",
+        "areaComparison": "Porovnání oblastí",
+        "practicalTips": "Praktické tipy",
+        "faq": "FAQ"
+      },
+      "recommendations": {
+        "bestForFamilies": "Nejlepší pro rodiny",
+        "bestForSolo": "Nejlepší pro sólo cestovatele",
+        "bestForSeniors": "Nejlepší pro seniory",
+        "bestForNomads": "Nejlepší pro digitální nomády",
+        "bestForLgbt": "Nejlepší pro LGBT+ cestovatele",
+        "bestForFirstTime": "Nejlepší pro první návštěvníky",
+        "bestForCouples": "Nejlepší pro páry",
+        "bestBudget": "Nejlepší rozpočtové možnosti",
+        "bestLuxury": "Nejlepší luxusní možnosti",
+        "generic": "Doporučení"
+      },
+      "avoid": {
+        "title": "Oblasti k vyhnutí",
+        "accessibility": "Oblasti k vyhnutí (přístupnost)",
+        "parking": "Parkovací výzvy"
+      },
+      "practicalNotes": "Praktické poznámky",
+      "keyTakeaways": "Klíčové poznatky",
+      "faq": {
+        "title": "Často kladené otázky",
+        "subtitle": "Vše, co potřebujete vědět o {destination}"
+      },
+      "sidebar": {
+        "otherLanguages": "Další jazyky",
+        "trustedGuide": "Důvěryhodný průvodce",
+        "aiPowered": "AI-poháněná analýza",
+        "humanReviewed": "Kontrolováno lidmi",
+        "regularlyUpdated": "Pravidelně aktualizováno",
+        "moreAbout": "Více o {destination}",
+        "exploreOther": "Prozkoumejte další průvodce pro rozhodování o {destination}.",
+        "viewAllGuides": "Zobrazit všechny průvodce"
+      },
+      "prosCons": {
+        "title": "Klady a zápory",
+        "advantages": "Výhody",
+        "disadvantages": "Nevýhody"
+      }
+    }
+  },
+  "regions": {
+    "istria": "Istrie",
+    "kvarner": "Kvarner",
+    "dalmatia": "Dalmácie",
+    "splitDalmatia": "Splitsko-dalmatská",
+    "dubrovnik": "Dubrovnický region",
+    "continental": "Kontinentální Chorvatsko",
+    "zagreb": "Záhřebský region"
+  },
+  "common": {
+    "readMore": "Číst více",
+    "learnMore": "Dozvědět se více",
+    "viewAll": "Zobrazit vše",
+    "home": "Domů",
+    "back": "Zpět",
+    "loading": "Načítání...",
+    "error": "Chyba",
+    "notFound": "Nenalezeno"
+  }
+}

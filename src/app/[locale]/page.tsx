@@ -1,13 +1,23 @@
-import Link from 'next/link';
-import { Search, MapPin, Sparkles, TrendingUp, Star, ArrowRight, Waves, Sun, Compass, Award, Users, Shield, CheckCircle, HelpCircle, Clock, Car, Baby, Accessibility } from 'lucide-react';
+import { Sparkles, MapPin, ArrowRight, Waves, Award, Users, Shield, CheckCircle, HelpCircle, Clock, Car } from 'lucide-react';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { Link } from '@/i18n/navigation';
 import DestinationCard from '@/components/ui/DestinationCard';
 import ArticleCard from '@/components/ui/ArticleCard';
 import { DESTINATIONS } from '@/config/destinations';
 
-export default function HomePage() {
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+export default async function HomePage({ params }: Props) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+
+  const t = await getTranslations('home');
+
   const popularDestinations = DESTINATIONS.filter(d => d.popular).slice(0, 6);
 
-  // AI Decision-focused featured guides (no booking/apartments intent)
+  // AI Decision-focused featured guides
   const featuredArticles = [
     {
       title: 'Is Split Good for Solo Travelers?',
@@ -15,7 +25,7 @@ export default function HomePage() {
       destination: 'split',
       destinationName: 'Split',
       theme: 'solo-travel',
-      language: 'en',
+      language: locale,
     },
     {
       title: 'Do You Need a Car in Dubrovnik?',
@@ -23,7 +33,7 @@ export default function HomePage() {
       destination: 'dubrovnik',
       destinationName: 'Dubrovnik',
       theme: 'car-vs-no-car',
-      language: 'en',
+      language: locale,
     },
     {
       title: 'Best Time to Visit Hvar',
@@ -31,25 +41,25 @@ export default function HomePage() {
       destination: 'hvar',
       destinationName: 'Hvar',
       theme: 'best-time-to-visit',
-      language: 'en',
+      language: locale,
     },
   ];
 
-  // AI Decision Quick Answers - citabilni snippets
+  // AI Decision Quick Answers
   const quickAnswers = [
     {
-      question: 'Is Croatia safe for solo female travelers?',
-      answer: 'Yes. Croatia ranks among Europe\'s safest destinations with low crime rates. Main tourist areas are well-lit and walkable at night.',
+      question: t('quickAnswers.q1.question'),
+      answer: t('quickAnswers.q1.answer'),
       icon: Shield,
     },
     {
-      question: 'Do I need a car to explore Croatia?',
-      answer: 'For coastal cities (Split, Dubrovnik, Zadar): No. For islands and national parks: Recommended but not essential.',
+      question: t('quickAnswers.q2.question'),
+      answer: t('quickAnswers.q2.answer'),
       icon: Car,
     },
     {
-      question: 'Best month to visit Croatian coast?',
-      answer: 'September offers the ideal balance: warm seas (24°C), fewer crowds than August, and 20-30% lower prices.',
+      question: t('quickAnswers.q3.question'),
+      answer: t('quickAnswers.q3.answer'),
       icon: Clock,
     },
   ];
@@ -57,26 +67,26 @@ export default function HomePage() {
   const features = [
     {
       icon: HelpCircle,
-      title: 'Decision-First Content',
-      description: 'We answer the questions you actually ask: "Is it worth it?", "Do I need a car?", "Best for families?"',
+      title: t('features.decisionFirst.title'),
+      description: t('features.decisionFirst.description'),
       color: 'ocean',
     },
     {
       icon: CheckCircle,
-      title: 'AI-Verified Facts',
-      description: 'Every claim is fact-checked and citable. Perfect for AI assistants to quote directly.',
+      title: t('features.aiVerified.title'),
+      description: t('features.aiVerified.description'),
       color: 'seafoam',
     },
     {
       icon: Users,
-      title: 'Traveler-Type Focused',
-      description: 'Guides tailored for solo travelers, families, seniors, digital nomads, and more.',
+      title: t('features.travelerFocused.title'),
+      description: t('features.travelerFocused.description'),
       color: 'coral',
     },
     {
       icon: Award,
-      title: 'No Booking Bias',
-      description: 'Pure travel decisions. No affiliate pressure. Just honest, practical answers.',
+      title: t('features.noBias.title'),
+      description: t('features.noBias.description'),
       color: 'sand',
     },
   ];
@@ -110,59 +120,59 @@ export default function HomePage() {
             {/* Badge - AI Authority Signal */}
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/15 backdrop-blur-md rounded-full mb-6 shadow-soft animate-slide-down">
               <CheckCircle className="w-4 h-4 text-seafoam-200" />
-              <span className="text-sm font-semibold">AI-Optimized Travel Decisions</span>
+              <span className="text-sm font-semibold">{t('hero.badge')}</span>
             </div>
 
             {/* Headline - Decision Focus */}
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 md:mb-6 leading-tight tracking-tight animate-fade-in">
-              Know Where, When
+              {t('hero.headline')}
               <span className="block mt-1 md:mt-2 text-transparent bg-clip-text bg-gradient-to-r from-white via-seafoam-100 to-white">
-                & Why Before You Book
+                {t('hero.headlinePart2')}
               </span>
             </h1>
 
-            {/* Subheadline - Citabilni snippet */}
+            {/* Subheadline */}
             <p className="text-lg sm:text-xl md:text-2xl text-ocean-50 mb-8 md:mb-10 leading-relaxed max-w-3xl mx-auto px-4 animate-slide-up">
-              Croatia decision guides for real travelers. Is it worth it? Do you need a car? Best time to visit? We answer the questions that matter.
+              {t('hero.subheadline')}
             </p>
 
-            {/* CTA Buttons - Mobile First */}
+            {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3 md:gap-4 mb-10 md:mb-12 px-4 animate-slide-up" style={{ animationDelay: '0.1s' }}>
               <Link
                 href="/guides"
                 className="w-full sm:w-auto px-6 md:px-8 py-3.5 md:py-4 bg-white text-ocean-600 font-bold text-base md:text-lg rounded-2xl hover:bg-ocean-50 transition-all shadow-large hover:shadow-xl hover:scale-105 flex items-center justify-center gap-2"
               >
                 <HelpCircle className="w-5 h-5" />
-                <span>Browse Decision Guides</span>
+                <span>{t('hero.browseGuides')}</span>
               </Link>
               <Link
                 href="/destinations"
                 className="w-full sm:w-auto px-6 md:px-8 py-3.5 md:py-4 bg-white/10 backdrop-blur-sm text-white font-bold text-base md:text-lg rounded-2xl hover:bg-white/20 transition-all border-2 border-white/30 hover:border-white/50 flex items-center justify-center gap-2"
               >
                 <MapPin className="w-5 h-5" />
-                <span>Explore Destinations</span>
+                <span>{t('hero.exploreDestinations')}</span>
               </Link>
             </div>
 
-            {/* Quick Stats - Mobile Optimized */}
+            {/* Quick Stats */}
             <div className="flex flex-wrap items-center justify-center gap-4 md:gap-8 text-sm px-4 animate-fade-in" style={{ animationDelay: '0.2s' }}>
               <div className="flex items-center gap-2">
                 <div className="w-8 h-8 md:w-10 md:h-10 bg-white/15 backdrop-blur-sm rounded-xl flex items-center justify-center">
                   <MapPin className="w-4 h-4 md:w-5 md:h-5" />
                 </div>
-                <span className="font-semibold text-xs md:text-sm">60+ Destinations</span>
+                <span className="font-semibold text-xs md:text-sm">{t('hero.statDestinations')}</span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-8 h-8 md:w-10 md:h-10 bg-white/15 backdrop-blur-sm rounded-xl flex items-center justify-center">
                   <HelpCircle className="w-4 h-4 md:w-5 md:h-5" />
                 </div>
-                <span className="font-semibold text-xs md:text-sm">500+ Decision Guides</span>
+                <span className="font-semibold text-xs md:text-sm">{t('hero.statGuides')}</span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-8 h-8 md:w-10 md:h-10 bg-white/15 backdrop-blur-sm rounded-xl flex items-center justify-center">
                   <Users className="w-4 h-4 md:w-5 md:h-5" />
                 </div>
-                <span className="font-semibold text-xs md:text-sm">11 Languages</span>
+                <span className="font-semibold text-xs md:text-sm">{t('hero.statLanguages')}</span>
               </div>
             </div>
           </div>
@@ -179,19 +189,19 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* AI Quick Answers - Citabilni Snippets */}
+      {/* AI Quick Answers */}
       <section className="py-12 md:py-16 bg-white">
         <div className="container">
           <div className="text-center mb-8 md:mb-12">
             <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-ocean-100 text-ocean-700 rounded-full text-sm font-semibold mb-4">
               <Sparkles className="w-4 h-4" />
-              <span>Quick Answers</span>
+              <span>{t('quickAnswers.badge')}</span>
             </div>
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-3">
-              Common Croatia Travel Questions
+              {t('quickAnswers.title')}
             </h2>
             <p className="text-base md:text-lg text-slate-600 max-w-2xl mx-auto px-4">
-              Direct answers AI assistants can cite. No fluff, just facts.
+              {t('quickAnswers.subtitle')}
             </p>
           </div>
 
@@ -211,9 +221,8 @@ export default function HomePage() {
                       {qa.question}
                     </h3>
                   </div>
-                  {/* Citabilni snippet - quotable by AI */}
                   <blockquote className="pl-4 border-l-4 border-ocean-300 text-slate-700 text-sm md:text-base leading-relaxed italic">
-                    "{qa.answer}"
+                    &ldquo;{qa.answer}&rdquo;
                   </blockquote>
                 </div>
               );
@@ -225,22 +234,22 @@ export default function HomePage() {
               href="/guides"
               className="inline-flex items-center gap-2 text-ocean-600 hover:text-ocean-700 font-semibold transition-colors group"
             >
-              See all decision guides
+              {t('quickAnswers.seeAll')}
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Why Choose Us - AI Authority Features */}
+      {/* Why Choose Us */}
       <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 to-white">
         <div className="container">
           <div className="text-center mb-10 md:mb-14">
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-3">
-              Why BookiScout?
+              {t('features.title')}
             </h2>
             <p className="text-base md:text-lg text-slate-600 max-w-2xl mx-auto px-4">
-              Decision-first travel content designed for how you actually plan trips
+              {t('features.subtitle')}
             </p>
           </div>
 
@@ -278,20 +287,20 @@ export default function HomePage() {
             <div>
               <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-ocean-100 text-ocean-700 rounded-full text-sm font-semibold mb-3 md:mb-4">
                 <MapPin className="w-4 h-4" />
-                <span>Explore by Location</span>
+                <span>{t('destinations.badge')}</span>
               </div>
               <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-2 md:mb-3">
-                Top Destinations
+                {t('destinations.title')}
               </h2>
               <p className="text-base md:text-lg text-slate-600">
-                Decision guides for Croatia's most visited places
+                {t('destinations.subtitle')}
               </p>
             </div>
             <Link
               href="/destinations"
               className="hidden md:flex items-center gap-2 text-ocean-600 hover:text-ocean-700 font-semibold transition-colors group"
             >
-              View all destinations
+              {t('destinations.viewAll')}
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>
@@ -310,7 +319,7 @@ export default function HomePage() {
             href="/destinations"
             className="md:hidden flex items-center justify-center gap-2 text-ocean-600 hover:text-ocean-700 font-semibold transition-colors"
           >
-            View all destinations
+            {t('destinations.viewAll')}
             <ArrowRight className="w-5 h-5" />
           </Link>
         </div>
@@ -323,20 +332,20 @@ export default function HomePage() {
             <div>
               <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-coral-100 text-coral-700 rounded-full text-sm font-semibold mb-3 md:mb-4">
                 <HelpCircle className="w-4 h-4" />
-                <span>Decision Guides</span>
+                <span>{t('guides.badge')}</span>
               </div>
               <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-2 md:mb-3">
-                Popular Questions Answered
+                {t('guides.title')}
               </h2>
               <p className="text-base md:text-lg text-slate-600">
-                Practical answers to help you decide where, when, and how to visit
+                {t('guides.subtitle')}
               </p>
             </div>
             <Link
               href="/guides"
               className="hidden md:flex items-center gap-2 text-ocean-600 hover:text-ocean-700 font-semibold transition-colors group"
             >
-              View all guides
+              {t('guides.viewAll')}
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>
@@ -351,15 +360,14 @@ export default function HomePage() {
             href="/guides"
             className="md:hidden flex items-center justify-center gap-2 mt-6 text-ocean-600 hover:text-ocean-700 font-semibold transition-colors"
           >
-            View all decision guides
+            {t('guides.viewAllMobile')}
             <ArrowRight className="w-5 h-5" />
           </Link>
         </div>
       </section>
 
-      {/* Newsletter CTA - Mobile Optimized */}
+      {/* Newsletter CTA */}
       <section className="py-16 md:py-20 lg:py-24 bg-gradient-to-br from-ocean-500 via-ocean-600 to-seafoam-600 relative overflow-hidden">
-        {/* Background decoration - hidden on mobile */}
         <div className="hidden md:block absolute inset-0 opacity-10">
           <Waves className="absolute top-10 right-10 w-64 h-64" />
           <Waves className="absolute bottom-10 left-10 w-48 h-48" />
@@ -371,33 +379,33 @@ export default function HomePage() {
           <div className="max-w-3xl mx-auto text-center text-white">
             <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-white/15 backdrop-blur-sm rounded-full mb-4 md:mb-6">
               <Sparkles className="w-4 h-4" />
-              <span className="text-sm font-semibold">Stay Informed</span>
+              <span className="text-sm font-semibold">{t('newsletter.badge')}</span>
             </div>
 
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-5">
-              Get New Decision Guides
+              {t('newsletter.title')}
             </h2>
             <p className="text-base md:text-lg lg:text-xl text-ocean-50 mb-8 md:mb-10 leading-relaxed px-2">
-              Weekly updates on Croatia travel decisions. No spam, just useful answers to common questions.
+              {t('newsletter.subtitle')}
             </p>
 
             <form className="flex flex-col sm:flex-row gap-3 md:gap-4 max-w-xl mx-auto mb-5 md:mb-6">
               <input
                 type="email"
-                placeholder="Your email address"
+                placeholder={t('newsletter.placeholder')}
                 className="flex-1 px-5 md:px-6 py-3.5 md:py-4 rounded-2xl bg-white text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-4 focus:ring-white/30 shadow-soft text-base md:text-lg"
               />
               <button
                 type="submit"
                 className="px-6 md:px-8 py-3.5 md:py-4 bg-slate-900 hover:bg-slate-800 text-white font-bold rounded-2xl transition-all shadow-soft hover:shadow-medium hover:scale-105"
               >
-                Subscribe
+                {t('newsletter.subscribe')}
               </button>
             </form>
 
             <p className="text-xs md:text-sm text-ocean-100 flex items-center justify-center gap-2">
               <Shield className="w-4 h-4" />
-              <span>Join 10,000+ travelers. Unsubscribe anytime.</span>
+              <span>{t('newsletter.privacy')}</span>
             </p>
           </div>
         </div>

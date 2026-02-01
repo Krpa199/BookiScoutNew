@@ -4,9 +4,11 @@ interface ProConListProps {
   title?: string;
   pros?: string[];
   cons?: string[];
+  prosLabel?: string;
+  consLabel?: string;
 }
 
-export default function ProConList({ title, pros = [], cons = [] }: ProConListProps) {
+export default function ProConList({ title, pros = [], cons = [], prosLabel = 'Advantages', consLabel = 'Disadvantages' }: ProConListProps) {
   return (
     <div className="bg-white rounded-3xl border-2 border-slate-100 p-6 md:p-8 shadow-soft">
       {title && (
@@ -21,7 +23,7 @@ export default function ProConList({ title, pros = [], cons = [] }: ProConListPr
               <div className="w-10 h-10 bg-seafoam-500 rounded-xl flex items-center justify-center shadow-soft">
                 <ThumbsUp className="w-5 h-5 text-white" />
               </div>
-              <h4 className="text-lg font-bold text-slate-900">Advantages</h4>
+              <h4 className="text-lg font-bold text-slate-900">{prosLabel}</h4>
             </div>
             <ul className="space-y-3">
               {pros.map((pro, index) => (
@@ -43,7 +45,7 @@ export default function ProConList({ title, pros = [], cons = [] }: ProConListPr
               <div className="w-10 h-10 bg-coral-500 rounded-xl flex items-center justify-center shadow-soft">
                 <ThumbsDown className="w-5 h-5 text-white" />
               </div>
-              <h4 className="text-lg font-bold text-slate-900">Disadvantages</h4>
+              <h4 className="text-lg font-bold text-slate-900">{consLabel}</h4>
             </div>
             <ul className="space-y-3">
               {cons.map((con, index) => (

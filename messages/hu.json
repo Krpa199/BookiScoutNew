@@ -1,0 +1,324 @@
+{
+  "metadata": {
+    "siteName": "BookiScout",
+    "siteTagline": "Horvátországi döntési útmutatók",
+    "homeTitle": "BookiScout - Horvátországi utazási útmutatók",
+    "homeDescription": "AI-optimalizált döntési útmutatók Horvátországhoz. Kapj válaszokat a valódi utazási kérdésekre: Megéri? Kell autó? Mikor a legjobb meglátogatni?",
+    "guidesTitle": "Turisztikai útmutatók Horvátországhoz",
+    "guidesDescription": "Szakértő turisztikai útmutatók minden horvát desztinációhoz. Találj tippeket szállásról, strandokról, éttermekről és látnivalókról.",
+    "destinationsTitle": "Minden desztináció Horvátországban",
+    "destinationsDescription": "Fedezz fel 60+ desztinációt Horvátország szerte - Splittől és Dubrovniktól az Isztria, Dalmácia és a szigetek rejtett gyöngyszemeiig."
+  },
+  "nav": {
+    "destinations": "Desztinációk",
+    "decisionGuides": "Döntési útmutatók",
+    "chooseLanguage": "Nyelv választása",
+    "language": "Nyelv",
+    "browseGuides": "Útmutatók böngészése"
+  },
+  "home": {
+    "hero": {
+      "badge": "AI-optimalizált utazási döntések",
+      "headline": "Tudd hol, mikor",
+      "headlinePart2": "és miért foglalás előtt",
+      "subheadline": "Horvátországi döntési útmutatók igazi utazóknak. Megéri? Kell autó? Mikor a legjobb? Megválaszoljuk a fontos kérdéseket.",
+      "browseGuides": "Útmutatók böngészése",
+      "exploreDestinations": "Desztinációk felfedezése",
+      "statDestinations": "60+ desztináció",
+      "statGuides": "500+ útmutató",
+      "statLanguages": "11 nyelv"
+    },
+    "quickAnswers": {
+      "badge": "Gyors válaszok",
+      "title": "Gyakori kérdések a horvátországi utazásról",
+      "subtitle": "Közvetlen válaszok, amelyeket az AI asszisztensek idézhetnek. Semmi felesleg, csak tények.",
+      "seeAll": "Minden útmutató megtekintése",
+      "q1": {
+        "question": "Biztonságos Horvátország egyedül utazó nőknek?",
+        "answer": "Igen. Horvátország Európa legbiztonságosabb desztinációi közé tartozik alacsony bűnözési rátával. A fő turisztikai területek jól megvilágítottak és éjszaka is biztonságosak."
+      },
+      "q2": {
+        "question": "Szükségem van autóra Horvátország felfedezéséhez?",
+        "answer": "Tengerparti városokhoz (Split, Dubrovnik, Zadar): Nem. Szigetekhez és nemzeti parkokhoz: Ajánlott, de nem elengedhetetlen."
+      },
+      "q3": {
+        "question": "Melyik a legjobb hónap a horvát tengerpart meglátogatására?",
+        "answer": "Szeptember kínálja az ideális egyensúlyt: meleg tenger (24°C), kevesebb tömeg mint augusztusban, és 20-30%-kal alacsonyabb árak."
+      }
+    },
+    "features": {
+      "title": "Miért BookiScout?",
+      "subtitle": "Döntésközpontú utazási tartalom, úgy tervezve, ahogy valójában tervezed az utazásaidat",
+      "decisionFirst": {
+        "title": "Döntésközpontú tartalom",
+        "description": "Megválaszoljuk a kérdéseket, amelyeket valójában felteszel: \"Megéri?\", \"Kell autó?\", \"Legjobb családoknak?\""
+      },
+      "aiVerified": {
+        "title": "AI-ellenőrzött tények",
+        "description": "Minden állítás ellenőrzött és idézhető. Tökéletes AI asszisztenseknek közvetlen idézéshez."
+      },
+      "travelerFocused": {
+        "title": "Utazótípusra fókuszált",
+        "description": "Útmutatók egyedül utazóknak, családoknak, időseknek, digitális nomádoknak és másoknak."
+      },
+      "noBias": {
+        "title": "Elfogultság nélkül",
+        "description": "Tiszta utazási döntések. Nincs affiliate nyomás. Csak őszinte, praktikus válaszok."
+      }
+    },
+    "destinations": {
+      "badge": "Felfedezés hely szerint",
+      "title": "Top desztinációk",
+      "subtitle": "Döntési útmutatók Horvátország leglátogatottabb helyeihez",
+      "viewAll": "Minden desztináció megtekintése"
+    },
+    "guides": {
+      "badge": "Döntési útmutatók",
+      "title": "Válaszok népszerű kérdésekre",
+      "subtitle": "Praktikus válaszok, amelyek segítenek eldönteni hol, mikor és hogyan látogass",
+      "viewAll": "Minden útmutató megtekintése",
+      "viewAllMobile": "Minden döntési útmutató megtekintése"
+    },
+    "newsletter": {
+      "badge": "Maradj informált",
+      "title": "Kapj új útmutatókat",
+      "subtitle": "Heti frissítések a horvátországi utazási döntésekről. Nincs spam, csak hasznos válaszok gyakori kérdésekre.",
+      "placeholder": "E-mail címed",
+      "subscribe": "Feliratkozás",
+      "privacy": "Csatlakozz 10.000+ utazóhoz. Bármikor leiratkozhatsz."
+    }
+  },
+  "footer": {
+    "tagline": "Horvátországi döntési útmutatók",
+    "description": "AI-optimalizált útmutatók Horvátországhoz. Megválaszoljuk a kérdéseket, amelyeket az utazók valójában feltesznek: Megéri? Kell autó? Mikor a legjobb? Elfogultság nélkül, csak őszinte válaszok.",
+    "cta": "Tudd foglalás előtt",
+    "topDestinations": "Top desztinációk",
+    "decisionGuides": "Döntési útmutatók",
+    "company": "Cég",
+    "aboutUs": "Rólunk",
+    "contact": "Kapcsolat",
+    "privacy": "Adatvédelmi irányelvek",
+    "terms": "Felhasználási feltételek",
+    "allDestinations": "Minden desztináció",
+    "soloTravel": "Egyedül utazás",
+    "familyGuides": "Családi útmutatók",
+    "doINeedCar": "Kell autó?",
+    "bestTime": "Legjobb időpont",
+    "availableIn": "Elérhető {count} nyelven",
+    "copyright": "© {year} BookiScout. Készítve",
+    "forTravelers": "horvátországi utazóknak.",
+    "aiOptimized": "AI-optimalizált",
+    "decisionFirst": "Döntés először"
+  },
+  "destinations": {
+    "hero": {
+      "badge": "{count}+ desztináció",
+      "title": "Fedezd fel Horvátországot",
+      "subtitle": "Fedezz fel lenyűgöző desztinációkat az Adriai-tenger partján, ősi városokat és lélegzetelállító nemzeti parkokat. Találd meg tökéletes horvát nyaralásodat.",
+      "statCities": "Városok és települések",
+      "statIslands": "Szigetek",
+      "statParks": "Nemzeti parkok"
+    },
+    "popular": {
+      "badge": "Legnépszerűbb",
+      "title": "Top desztinációk",
+      "subtitle": "A leglátogatottabb helyek Horvátországban"
+    },
+    "byRegion": {
+      "badge": "Böngészés régió szerint",
+      "title": "Felfedezés régiók szerint",
+      "subtitle": "Fedezd fel a desztinációkat horvát régiók szerint rendezve",
+      "count": "{count} desztináció",
+      "countPlural": "{count} desztináció"
+    },
+    "byType": {
+      "title": "Böngészés típus szerint",
+      "subtitle": "Találj desztinációkat aszerint, amit keresel",
+      "cities": "Városok",
+      "coastalTowns": "Tengerparti települések",
+      "islands": "Szigetek",
+      "nationalParks": "Nemzeti parkok"
+    },
+    "card": {
+      "popular": "Népszerű",
+      "guides": "{count} útmutató",
+      "explore": "Desztináció felfedezése"
+    }
+  },
+  "destinationDetail": {
+    "breadcrumb": {
+      "home": "Kezdőlap",
+      "destinations": "Desztinációk"
+    },
+    "atAGlance": "{destination} egy pillantásra",
+    "facts": {
+      "region": "Régió",
+      "type": "Típus",
+      "bestSeason": "Legjobb szezon",
+      "maySeptember": "Május - Szeptember",
+      "idealFor": "Ideális",
+      "allTravelers": "Minden utazónak",
+      "explorers": "Felfedezőknek",
+      "priceLevel": "Árszint",
+      "mediumHigh": "Közepes-magas",
+      "medium": "Közepes",
+      "popularity": "Népszerűség",
+      "topDestination": "Top desztináció",
+      "hiddenGem": "Rejtett gyöngyszem"
+    },
+    "whyVisit": {
+      "title": "Miért látogasd meg {destination}?",
+      "authentic": {
+        "title": "Autentikus élmény",
+        "description": "Fedezd fel a valódi horvát kultúrát és vendégszeretetet"
+      },
+      "waters": {
+        "title": "Kristálytiszta vizek",
+        "description": "Ússz a Földközi-tenger egyik legtisztább tengerében"
+      },
+      "history": {
+        "title": "Gazdag történelem",
+        "description": "Fedezd fel a mediterrán történelem és építészet évszázadait"
+      },
+      "value": {
+        "title": "Kiváló érték",
+        "description": "Minőségi élmény kedvezőbb áron mint Nyugat-Európában"
+      }
+    },
+    "guides": {
+      "badge": "AI útmutatók",
+      "title": "Útmutatók {destination} számára",
+      "subtitle": "Hasonlítsd össze a negyedeket, találj családbarát területeket, fedezz fel rejtett strandokat és hozd meg a helyes döntést utazásodhoz.",
+      "comingSoon": "Hamarosan"
+    },
+    "nearby": {
+      "title": "Környék felfedezése",
+      "subtitle": "További desztinációk {region} régióban"
+    },
+    "booking": {
+      "title": "Készen állsz foglalni?",
+      "subtitle": "Ha már eldöntötted, melyik terület neked való, ellenőrizd az elérhetőséget lent."
+    },
+    "cta": {
+      "exploreGuides": "Útmutatók felfedezése",
+      "compareAreas": "Területek összehasonlítása"
+    }
+  },
+  "guides": {
+    "hero": {
+      "badge": "AI-alapú utazási betekintések",
+      "title": "Turisztikai útmutatók Horvátországhoz",
+      "subtitle": "{count} szakértő útmutató horvát desztinációkhoz {langCount} nyelven. Fedezd fel tökéletes nyaralásodat AI ajánlásokkal.",
+      "subtitleEmpty": "Szakértő útmutatók horvát desztinációkhoz hamarosan. AI betekintések, amelyek segítenek megtervezni a tökéletes utazást.",
+      "statGuides": "Útmutatók",
+      "statDestinations": "60+ desztináció",
+      "statUpdated": "Mindig naprakész"
+    },
+    "listing": {
+      "title": "Legújabb útmutatók",
+      "subtitle": "{count} átfogó útmutató magyarul",
+      "filterByTopic": "Szűrés téma szerint"
+    },
+    "byDestination": {
+      "title": "Böngészés desztináció szerint",
+      "subtitle": "Találj útmutatókat kedvenc horvát desztinációidhoz",
+      "viewAll": "Mind a {count} desztináció megtekintése"
+    },
+    "empty": {
+      "title": "Útmutatók hamarosan",
+      "subtitle": "Átfogó AI útmutatókat készítünk minden horvát desztinációhoz. Nézz vissza hamarosan!",
+      "cta": "Desztinációk böngészése"
+    },
+    "themes": {
+      "apartments": "Apartmanok",
+      "family": "Család",
+      "beach": "Strandok",
+      "budget": "Költségvetés",
+      "luxury": "Luxus",
+      "restaurants": "Ételek",
+      "thingsToDo": "Látnivalók",
+      "hiddenGems": "Rejtett gyöngyszemek",
+      "couples": "Párok",
+      "nightlife": "Éjszakai élet",
+      "dayTrips": "Egynapos kirándulások",
+      "weather": "Időjárás",
+      "localFood": "Helyi konyha"
+    },
+    "detail": {
+      "breadcrumb": {
+        "home": "Kezdőlap",
+        "guides": "Útmutatók"
+      },
+      "badge": "Döntési útmutató",
+      "quickAnswer": "Gyors válasz",
+      "tableOfContents": "Mi van ebben az útmutatóban",
+      "atAGlance": "Egy pillantásra",
+      "minRead": "{count} perc olvasás",
+      "rating": "4.8",
+      "sections": {
+        "quickFacts": "Gyors tények",
+        "prosCons": "Előnyök és hátrányok",
+        "areaComparison": "Területek összehasonlítása",
+        "practicalTips": "Praktikus tippek",
+        "faq": "GYIK"
+      },
+      "recommendations": {
+        "bestForFamilies": "Legjobb családoknak",
+        "bestForSolo": "Legjobb egyedül utazóknak",
+        "bestForSeniors": "Legjobb időseknek",
+        "bestForNomads": "Legjobb digitális nomádoknak",
+        "bestForLgbt": "Legjobb LGBT+ utazóknak",
+        "bestForFirstTime": "Legjobb első látogatóknak",
+        "bestForCouples": "Legjobb pároknak",
+        "bestBudget": "Legjobb költséghatékony lehetőségek",
+        "bestLuxury": "Legjobb luxus lehetőségek",
+        "generic": "Ajánlások"
+      },
+      "avoid": {
+        "title": "Kerülendő területek",
+        "accessibility": "Kerülendő területek (akadálymentesség)",
+        "parking": "Parkolási kihívások"
+      },
+      "practicalNotes": "Praktikus megjegyzések",
+      "keyTakeaways": "Kulcsfontosságú tanulságok",
+      "faq": {
+        "title": "Gyakran ismételt kérdések",
+        "subtitle": "Minden, amit tudnod kell {destination} kapcsán"
+      },
+      "sidebar": {
+        "otherLanguages": "Más nyelvek",
+        "trustedGuide": "Megbízható útmutató",
+        "aiPowered": "AI-alapú elemzés",
+        "humanReviewed": "Emberek által ellenőrzött",
+        "regularlyUpdated": "Rendszeresen frissítve",
+        "moreAbout": "Több {destination} kapcsán",
+        "exploreOther": "Fedezz fel más döntési útmutatókat {destination} számára.",
+        "viewAllGuides": "Minden útmutató megtekintése"
+      },
+      "prosCons": {
+        "title": "Előnyök és hátrányok",
+        "advantages": "Előnyök",
+        "disadvantages": "Hátrányok"
+      }
+    }
+  },
+  "regions": {
+    "istria": "Isztria",
+    "kvarner": "Kvarner",
+    "dalmatia": "Dalmácia",
+    "splitDalmatia": "Split-Dalmácia",
+    "dubrovnik": "Dubrovniki régió",
+    "continental": "Kontinentális Horvátország",
+    "zagreb": "Zágrábi régió"
+  },
+  "common": {
+    "readMore": "Tovább olvasom",
+    "learnMore": "Tudj meg többet",
+    "viewAll": "Összes megtekintése",
+    "home": "Kezdőlap",
+    "back": "Vissza",
+    "loading": "Betöltés...",
+    "error": "Hiba",
+    "notFound": "Nem található"
+  }
+}

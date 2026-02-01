@@ -1,0 +1,324 @@
+{
+  "metadata": {
+    "siteName": "BookiScout",
+    "siteTagline": "Guías de decisión para Croacia",
+    "homeTitle": "BookiScout - Guías de viaje para Croacia",
+    "homeDescription": "Guías de decisión optimizadas por IA para Croacia. Obtén respuestas a preguntas reales de viaje: ¿Vale la pena? ¿Necesito coche? ¿Mejor época para visitar?",
+    "guidesTitle": "Guías turísticas para Croacia",
+    "guidesDescription": "Guías turísticas expertas para todos los destinos croatas. Encuentra consejos sobre alojamiento, playas, restaurantes y actividades.",
+    "destinationsTitle": "Todos los destinos en Croacia",
+    "destinationsDescription": "Explora más de 60 destinos en toda Croacia - desde Split y Dubrovnik hasta joyas ocultas de Istria, Dalmacia y las islas."
+  },
+  "nav": {
+    "destinations": "Destinos",
+    "decisionGuides": "Guías de decisión",
+    "chooseLanguage": "Elegir idioma",
+    "language": "Idioma",
+    "browseGuides": "Explorar guías"
+  },
+  "home": {
+    "hero": {
+      "badge": "Decisiones de viaje optimizadas por IA",
+      "headline": "Sabe dónde, cuándo",
+      "headlinePart2": "y por qué antes de reservar",
+      "subheadline": "Guías de decisión para Croacia para viajeros reales. ¿Vale la pena? ¿Necesitas coche? ¿Mejor época para visitar? Respondemos las preguntas que importan.",
+      "browseGuides": "Explorar guías",
+      "exploreDestinations": "Explorar destinos",
+      "statDestinations": "60+ destinos",
+      "statGuides": "500+ guías",
+      "statLanguages": "11 idiomas"
+    },
+    "quickAnswers": {
+      "badge": "Respuestas rápidas",
+      "title": "Preguntas frecuentes sobre viajar a Croacia",
+      "subtitle": "Respuestas directas que los asistentes de IA pueden citar. Sin rodeos, solo hechos.",
+      "seeAll": "Ver todas las guías",
+      "q1": {
+        "question": "¿Es Croacia segura para mujeres que viajan solas?",
+        "answer": "Sí. Croacia está entre los destinos europeos más seguros con bajas tasas de criminalidad. Las principales áreas turísticas están bien iluminadas y son seguras para caminar de noche."
+      },
+      "q2": {
+        "question": "¿Necesito coche para explorar Croacia?",
+        "answer": "Para ciudades costeras (Split, Dubrovnik, Zadar): No. Para islas y parques nacionales: Recomendado pero no esencial."
+      },
+      "q3": {
+        "question": "¿Mejor mes para visitar la costa croata?",
+        "answer": "Septiembre ofrece el equilibrio ideal: mar cálido (24°C), menos multitudes que en agosto y precios 20-30% más bajos."
+      }
+    },
+    "features": {
+      "title": "¿Por qué BookiScout?",
+      "subtitle": "Contenido de viaje centrado en decisiones, diseñado para cómo realmente planificas tus viajes",
+      "decisionFirst": {
+        "title": "Contenido centrado en decisiones",
+        "description": "Respondemos las preguntas que realmente haces: \"¿Vale la pena?\", \"¿Necesito coche?\", \"¿Mejor para familias?\""
+      },
+      "aiVerified": {
+        "title": "Hechos verificados por IA",
+        "description": "Cada afirmación está verificada y es citable. Perfecto para que los asistentes de IA citen directamente."
+      },
+      "travelerFocused": {
+        "title": "Enfocado en el tipo de viajero",
+        "description": "Guías adaptadas para viajeros solitarios, familias, mayores, nómadas digitales y más."
+      },
+      "noBias": {
+        "title": "Sin sesgo de reservas",
+        "description": "Decisiones de viaje puras. Sin presión de afiliados. Solo respuestas honestas y prácticas."
+      }
+    },
+    "destinations": {
+      "badge": "Explorar por ubicación",
+      "title": "Principales destinos",
+      "subtitle": "Guías de decisión para los lugares más visitados de Croacia",
+      "viewAll": "Ver todos los destinos"
+    },
+    "guides": {
+      "badge": "Guías de decisión",
+      "title": "Respuestas a preguntas populares",
+      "subtitle": "Respuestas prácticas para ayudarte a decidir dónde, cuándo y cómo visitar",
+      "viewAll": "Ver todas las guías",
+      "viewAllMobile": "Ver todas las guías de decisión"
+    },
+    "newsletter": {
+      "badge": "Mantente informado",
+      "title": "Recibe nuevas guías",
+      "subtitle": "Actualizaciones semanales sobre decisiones de viaje a Croacia. Sin spam, solo respuestas útiles a preguntas frecuentes.",
+      "placeholder": "Tu dirección de email",
+      "subscribe": "Suscribirse",
+      "privacy": "Únete a 10.000+ viajeros. Cancela en cualquier momento."
+    }
+  },
+  "footer": {
+    "tagline": "Guías de decisión para Croacia",
+    "description": "Guías optimizadas por IA para Croacia. Respondemos las preguntas que los viajeros realmente hacen: ¿Vale la pena? ¿Necesito coche? ¿Mejor época para visitar? Sin sesgo, solo respuestas honestas.",
+    "cta": "Sabe antes de reservar",
+    "topDestinations": "Principales destinos",
+    "decisionGuides": "Guías de decisión",
+    "company": "Empresa",
+    "aboutUs": "Sobre nosotros",
+    "contact": "Contacto",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "allDestinations": "Todos los destinos",
+    "soloTravel": "Viaje en solitario",
+    "familyGuides": "Guías familiares",
+    "doINeedCar": "¿Necesito coche?",
+    "bestTime": "Mejor época para visitar",
+    "availableIn": "Disponible en {count} idiomas",
+    "copyright": "© {year} BookiScout. Hecho con",
+    "forTravelers": "para viajeros a Croacia.",
+    "aiOptimized": "Optimizado por IA",
+    "decisionFirst": "Decisiones primero"
+  },
+  "destinations": {
+    "hero": {
+      "badge": "{count}+ destinos",
+      "title": "Explora Croacia",
+      "subtitle": "Descubre destinos impresionantes a lo largo de la costa adriática, ciudades antiguas y parques nacionales espectaculares. Encuentra tus vacaciones croatas perfectas.",
+      "statCities": "Ciudades y pueblos",
+      "statIslands": "Islas",
+      "statParks": "Parques nacionales"
+    },
+    "popular": {
+      "badge": "Más populares",
+      "title": "Principales destinos",
+      "subtitle": "Los lugares más visitados en Croacia"
+    },
+    "byRegion": {
+      "badge": "Explorar por región",
+      "title": "Explorar por regiones",
+      "subtitle": "Descubre destinos organizados por regiones croatas",
+      "count": "{count} destino",
+      "countPlural": "{count} destinos"
+    },
+    "byType": {
+      "title": "Explorar por tipo",
+      "subtitle": "Encuentra destinos según lo que buscas",
+      "cities": "Ciudades",
+      "coastalTowns": "Pueblos costeros",
+      "islands": "Islas",
+      "nationalParks": "Parques nacionales"
+    },
+    "card": {
+      "popular": "Popular",
+      "guides": "{count} guías",
+      "explore": "Explorar destino"
+    }
+  },
+  "destinationDetail": {
+    "breadcrumb": {
+      "home": "Inicio",
+      "destinations": "Destinos"
+    },
+    "atAGlance": "{destination} en resumen",
+    "facts": {
+      "region": "Región",
+      "type": "Tipo",
+      "bestSeason": "Mejor temporada",
+      "maySeptember": "Mayo - Septiembre",
+      "idealFor": "Ideal para",
+      "allTravelers": "Todos los viajeros",
+      "explorers": "Exploradores",
+      "priceLevel": "Nivel de precios",
+      "mediumHigh": "Medio-alto",
+      "medium": "Medio",
+      "popularity": "Popularidad",
+      "topDestination": "Destino principal",
+      "hiddenGem": "Joya oculta"
+    },
+    "whyVisit": {
+      "title": "¿Por qué visitar {destination}?",
+      "authentic": {
+        "title": "Experiencia auténtica",
+        "description": "Descubre la verdadera cultura y hospitalidad croata"
+      },
+      "waters": {
+        "title": "Aguas cristalinas",
+        "description": "Nada en uno de los mares más claros del Mediterráneo"
+      },
+      "history": {
+        "title": "Historia rica",
+        "description": "Explora siglos de historia y arquitectura mediterránea"
+      },
+      "value": {
+        "title": "Gran valor",
+        "description": "Experiencia de calidad a precios más accesibles que en Europa occidental"
+      }
+    },
+    "guides": {
+      "badge": "Guías IA",
+      "title": "Guías para {destination}",
+      "subtitle": "Compara barrios, encuentra zonas familiares, descubre playas ocultas y toma la decisión correcta para tu viaje.",
+      "comingSoon": "Próximamente"
+    },
+    "nearby": {
+      "title": "Explorar alrededores",
+      "subtitle": "Más destinos en la región {region}"
+    },
+    "booking": {
+      "title": "¿Listo para reservar?",
+      "subtitle": "Si ya has decidido qué zona te conviene, comprueba la disponibilidad abajo."
+    },
+    "cta": {
+      "exploreGuides": "Explorar guías",
+      "compareAreas": "Comparar zonas"
+    }
+  },
+  "guides": {
+    "hero": {
+      "badge": "Información de viaje impulsada por IA",
+      "title": "Guías turísticas para Croacia",
+      "subtitle": "{count} guías expertas para destinos croatas en {langCount} idiomas. Descubre tus vacaciones perfectas con recomendaciones de IA.",
+      "subtitleEmpty": "Guías expertas para destinos croatas próximamente. Información de IA para ayudarte a planificar el viaje perfecto.",
+      "statGuides": "Guías",
+      "statDestinations": "60+ destinos",
+      "statUpdated": "Siempre actualizado"
+    },
+    "listing": {
+      "title": "Últimas guías",
+      "subtitle": "{count} guías completas en español",
+      "filterByTopic": "Filtrar por tema"
+    },
+    "byDestination": {
+      "title": "Explorar por destino",
+      "subtitle": "Encuentra guías para tus destinos croatas favoritos",
+      "viewAll": "Ver los {count} destinos"
+    },
+    "empty": {
+      "title": "Guías próximamente",
+      "subtitle": "Estamos creando guías completas de IA para todos los destinos croatas. ¡Vuelve pronto!",
+      "cta": "Explorar destinos"
+    },
+    "themes": {
+      "apartments": "Apartamentos",
+      "family": "Familia",
+      "beach": "Playas",
+      "budget": "Presupuesto",
+      "luxury": "Lujo",
+      "restaurants": "Comida",
+      "thingsToDo": "Actividades",
+      "hiddenGems": "Joyas ocultas",
+      "couples": "Parejas",
+      "nightlife": "Vida nocturna",
+      "dayTrips": "Excursiones",
+      "weather": "Clima",
+      "localFood": "Cocina local"
+    },
+    "detail": {
+      "breadcrumb": {
+        "home": "Inicio",
+        "guides": "Guías"
+      },
+      "badge": "Guía de decisión",
+      "quickAnswer": "Respuesta rápida",
+      "tableOfContents": "Contenido de esta guía",
+      "atAGlance": "En resumen",
+      "minRead": "{count} min de lectura",
+      "rating": "4.8",
+      "sections": {
+        "quickFacts": "Datos rápidos",
+        "prosCons": "Pros y contras",
+        "areaComparison": "Comparación de zonas",
+        "practicalTips": "Consejos prácticos",
+        "faq": "FAQ"
+      },
+      "recommendations": {
+        "bestForFamilies": "Mejor para familias",
+        "bestForSolo": "Mejor para viajeros solitarios",
+        "bestForSeniors": "Mejor para mayores",
+        "bestForNomads": "Mejor para nómadas digitales",
+        "bestForLgbt": "Mejor para viajeros LGBT+",
+        "bestForFirstTime": "Mejor para primeros visitantes",
+        "bestForCouples": "Mejor para parejas",
+        "bestBudget": "Mejores opciones económicas",
+        "bestLuxury": "Mejores opciones de lujo",
+        "generic": "Recomendaciones"
+      },
+      "avoid": {
+        "title": "Zonas a evitar",
+        "accessibility": "Zonas a evitar (accesibilidad)",
+        "parking": "Desafíos de aparcamiento"
+      },
+      "practicalNotes": "Notas prácticas",
+      "keyTakeaways": "Puntos clave",
+      "faq": {
+        "title": "Preguntas frecuentes",
+        "subtitle": "Todo lo que necesitas saber sobre {destination}"
+      },
+      "sidebar": {
+        "otherLanguages": "Otros idiomas",
+        "trustedGuide": "Guía de confianza",
+        "aiPowered": "Análisis impulsado por IA",
+        "humanReviewed": "Revisado por humanos",
+        "regularlyUpdated": "Actualizado regularmente",
+        "moreAbout": "Más sobre {destination}",
+        "exploreOther": "Explora otras guías de decisión para {destination}.",
+        "viewAllGuides": "Ver todas las guías"
+      },
+      "prosCons": {
+        "title": "Pros y contras",
+        "advantages": "Ventajas",
+        "disadvantages": "Desventajas"
+      }
+    }
+  },
+  "regions": {
+    "istria": "Istria",
+    "kvarner": "Kvarner",
+    "dalmatia": "Dalmacia",
+    "splitDalmatia": "Split-Dalmacia",
+    "dubrovnik": "Región de Dubrovnik",
+    "continental": "Croacia continental",
+    "zagreb": "Región de Zagreb"
+  },
+  "common": {
+    "readMore": "Leer más",
+    "learnMore": "Saber más",
+    "viewAll": "Ver todo",
+    "home": "Inicio",
+    "back": "Atrás",
+    "loading": "Cargando...",
+    "error": "Error",
+    "notFound": "No encontrado"
+  }
+}

@@ -1,15 +1,18 @@
 'use client';
 
-import Link from 'next/link';
+import Image from 'next/image';
 import { useState, useEffect } from 'react';
-import { Menu, X, Globe, ChevronDown, Compass, Map, HelpCircle } from 'lucide-react';
-import { LANGUAGES, LanguageCode } from '@/config/languages';
+import { Menu, X, Globe, ChevronDown, Map, HelpCircle } from 'lucide-react';
+import { useTranslations, useLocale } from 'next-intl';
+import { Link, usePathname, useRouter } from '@/i18n/navigation';
+import { locales, localeNames, localeFlags, type Locale } from '@/i18n/config';
 
-interface HeaderProps {
-  currentLang?: LanguageCode;
-}
+export default function Header() {
+  const t = useTranslations('nav');
+  const locale = useLocale() as Locale;
+  const pathname = usePathname();
+  const router = useRouter();
 
-export default function Header({ currentLang = 'en' }: HeaderProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [langMenuOpen, setLangMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -24,9 +27,15 @@ export default function Header({ currentLang = 'en' }: HeaderProps) {
   }, []);
 
   const navigation = [
-    { name: 'Destinations', href: '/destinations', icon: Map },
-    { name: 'Decision Guides', href: '/guides', icon: HelpCircle },
+    { name: t('destinations'), href: '/destinations', icon: Map },
+    { name: t('decisionGuides'), href: '/guides', icon: HelpCircle },
   ];
+
+  const handleLanguageChange = (newLocale: Locale) => {
+    router.replace(pathname, { locale: newLocale });
+    setLangMenuOpen(false);
+    setMobileMenuOpen(false);
+  };
 
   return (
     <header
@@ -39,9 +48,15 @@ export default function Header({ currentLang = 'en' }: HeaderProps) {
       <nav className="container flex items-center justify-between h-20">
         {/* Logo - Ocean themed */}
         <Link href="/" className="flex items-center gap-3 group">
-          <div className="relative w-12 h-12 bg-gradient-ocean rounded-2xl flex items-center justify-center shadow-ocean transition-all duration-300 group-hover:scale-105 group-hover:rotate-3">
-            <Compass className="w-7 h-7 text-white" />
-            <div className="absolute inset-0 bg-white/20 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity" />
+          <div className="relative w-12 h-12 transition-all duration-300 group-hover:scale-105">
+            <Image
+              src="/icon.png"
+              alt="BookiScout"
+              width={48}
+              height={48}
+              className="w-full h-full object-contain"
+              priority
+            />
           </div>
           <div className="flex flex-col">
             <span className="font-bold text-xl text-slate-900 leading-none">
@@ -77,7 +92,7 @@ export default function Header({ currentLang = 'en' }: HeaderProps) {
               className="flex items-center gap-2 px-4 py-2.5 text-slate-600 hover:text-slate-900 rounded-xl hover:bg-slate-50 transition-all"
             >
               <Globe className="w-4 h-4" />
-              <span className="text-lg">{LANGUAGES[currentLang].flag}</span>
+              <span className="text-lg">{localeFlags[locale]}</span>
               <ChevronDown className={`w-4 h-4 transition-transform ${langMenuOpen ? 'rotate-180' : ''}`} />
             </button>
 
@@ -89,21 +104,28 @@ export default function Header({ currentLang = 'en' }: HeaderProps) {
                 />
                 <div className="absolute right-0 mt-2 w-64 bg-white rounded-2xl shadow-large border border-gray-100 py-2 max-h-96 overflow-y-auto z-50 animate-scale-in">
                   <div className="px-4 py-2 border-b border-gray-100">
-                    <p className="text-xs font-semibold text-slate-500 uppercase tracking-wide">Choose Language</p>
+                    <p className="text-xs font-semibold text-slate-500 uppercase tracking-wide">{t('chooseLanguage')}</p>
                   </div>
-                  {Object.entries(LANGUAGES).map(([code, lang]) => (
-                    <Link
+                  {locales.map((code) => (
+                    <button
                       key={code}
-                      href={`/guides`}
-                      className="flex items-center gap-3 px-4 py-3 hover:bg-ocean-50 transition-colors group"
-                      onClick={() => setLangMenuOpen(false)}
+                      onClick={() => handleLanguageChange(code)}
+                      className={`w-full flex items-center gap-3 px-4 py-3 hover:bg-ocean-50 transition-colors group text-left ${
+                        code === locale ? 'bg-ocean-50' : ''
+                      }`}
                     >
-                      <span className="text-2xl">{lang.flag}</span>
+                      <span className="text-2xl">{localeFlags[code]}</span>
                       <div className="flex-1">
-                        <span className="text-slate-700 font-medium group-hover:text-ocean-600">{lang.name}</span>
+                        <span className={`font-medium ${code === locale ? 'text-ocean-600' : 'text-slate-700 group-hover:text-ocean-600'}`}>
+                          {localeNames[code]}
+                        </span>
                       </div>
-                      <span className="text-xs text-slate-400 bg-slate-100 px-2 py-1 rounded-full">Soon</span>
-                    </Link>
+                      {code === locale && (
+                        <span className="text-xs text-ocean-600 bg-ocean-100 px-2 py-1 rounded-full">
+                          ✓
+                        </span>
+                      )}
+                    </button>
                   ))}
                 </div>
               </>
@@ -116,7 +138,7 @@ export default function Header({ currentLang = 'en' }: HeaderProps) {
             className="btn-primary text-sm shadow-soft hover:shadow-medium"
           >
             <HelpCircle className="w-4 h-4" />
-            Decision Guides
+            {t('decisionGuides')}
           </Link>
         </div>
 
@@ -156,20 +178,31 @@ export default function Header({ currentLang = 'en' }: HeaderProps) {
 
             {/* Language selector mobile */}
             <div className="px-4 py-2">
-              <p className="text-xs font-semibold text-slate-500 uppercase tracking-wide mb-3">Language</p>
+              <p className="text-xs font-semibold text-slate-500 uppercase tracking-wide mb-3">{t('language')}</p>
               <div className="grid grid-cols-2 gap-2">
-                {Object.entries(LANGUAGES).slice(0, 6).map(([code, lang]) => (
-                  <Link
+                {locales.slice(0, 6).map((code) => (
+                  <button
                     key={code}
-                    href="/guides"
-                    className="flex items-center gap-2 px-3 py-2 bg-slate-50 hover:bg-ocean-50 rounded-lg text-sm transition-all"
-                    onClick={() => setMobileMenuOpen(false)}
+                    onClick={() => handleLanguageChange(code)}
+                    className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm transition-all ${
+                      code === locale
+                        ? 'bg-ocean-100 text-ocean-700'
+                        : 'bg-slate-50 hover:bg-ocean-50 text-slate-700'
+                    }`}
                   >
-                    <span className="text-lg">{lang.flag}</span>
-                    <span className="text-slate-700 font-medium truncate">{lang.name}</span>
-                  </Link>
+                    <span className="text-lg">{localeFlags[code]}</span>
+                    <span className="font-medium truncate">{localeNames[code]}</span>
+                  </button>
                 ))}
               </div>
+              {locales.length > 6 && (
+                <button
+                  onClick={() => setLangMenuOpen(true)}
+                  className="w-full mt-2 py-2 text-sm text-ocean-600 hover:text-ocean-700 font-medium"
+                >
+                  + {locales.length - 6} more languages
+                </button>
+              )}
             </div>
 
             <hr className="my-4 border-gray-100" />
@@ -180,7 +213,7 @@ export default function Header({ currentLang = 'en' }: HeaderProps) {
               onClick={() => setMobileMenuOpen(false)}
             >
               <HelpCircle className="w-5 h-5" />
-              Browse Decision Guides
+              {t('browseGuides')}
             </Link>
           </div>
         </div>

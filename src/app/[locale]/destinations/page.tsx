@@ -1,17 +1,23 @@
 import { Metadata } from 'next';
-import Link from 'next/link';
 import { MapPin, ChevronRight, Sparkles, TrendingUp, Building, Waves, Mountain } from 'lucide-react';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { Link } from '@/i18n/navigation';
 import { DESTINATIONS, Destination } from '@/config/destinations';
 import DestinationCard from '@/components/ui/DestinationCard';
 
-export const metadata: Metadata = {
-  title: 'All Destinations in Croatia',
-  description: 'Explore 60+ destinations across Croatia - from Split and Dubrovnik to hidden gems in Istria, Dalmatia, and the islands.',
-  openGraph: {
-    title: 'All Destinations in Croatia | BookiScout',
-    description: 'Explore 60+ destinations across Croatia - from Split and Dubrovnik to hidden gems.',
-  },
+type Props = {
+  params: Promise<{ locale: string }>;
 };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'metadata' });
+
+  return {
+    title: t('destinationsTitle'),
+    description: t('destinationsDescription'),
+  };
+}
 
 // Group destinations by region
 function groupByRegion(destinations: Destination[]): Record<string, Destination[]> {
@@ -25,45 +31,44 @@ function groupByRegion(destinations: Destination[]): Record<string, Destination[
 }
 
 // Region display names and ocean-themed colors
-const REGIONS: Record<string, { name: string; gradient: string; badge: string }> = {
+const REGIONS: Record<string, { gradient: string; badge: string }> = {
   'istria': {
-    name: 'Istria',
     gradient: 'from-emerald-500 to-teal-600',
     badge: 'bg-emerald-100 text-emerald-700 border-emerald-200'
   },
   'kvarner': {
-    name: 'Kvarner',
     gradient: 'from-blue-500 to-cyan-600',
     badge: 'bg-blue-100 text-blue-700 border-blue-200'
   },
   'dalmatia': {
-    name: 'Dalmatia',
     gradient: 'from-cyan-500 to-ocean-600',
     badge: 'bg-cyan-100 text-cyan-700 border-cyan-200'
   },
   'split-dalmatia': {
-    name: 'Split-Dalmatia',
     gradient: 'from-ocean-500 to-indigo-600',
     badge: 'bg-ocean-100 text-ocean-700 border-ocean-200'
   },
   'dubrovnik': {
-    name: 'Dubrovnik Region',
     gradient: 'from-sand-500 to-coral-600',
     badge: 'bg-sand-100 text-sand-700 border-sand-200'
   },
   'continental': {
-    name: 'Continental Croatia',
     gradient: 'from-lime-500 to-seafoam-600',
     badge: 'bg-lime-100 text-lime-700 border-lime-200'
   },
   'zagreb': {
-    name: 'Zagreb Region',
     gradient: 'from-rose-500 to-pink-600',
     badge: 'bg-rose-100 text-rose-700 border-rose-200'
   },
 };
 
-export default function DestinationsPage() {
+export default async function DestinationsPage({ params }: Props) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+
+  const t = await getTranslations('destinations');
+  const tRegions = await getTranslations('regions');
+
   const grouped = groupByRegion(DESTINATIONS);
   const popularDestinations = DESTINATIONS.filter(d => d.popular);
 
@@ -79,22 +84,22 @@ export default function DestinationsPage() {
 
         <div className="container relative">
           <nav className="flex items-center gap-2 text-sm text-ocean-100 mb-8">
-            <Link href="/" className="hover:text-white transition-colors">Home</Link>
+            <Link href="/" className="hover:text-white transition-colors">{t('hero.statCities').split(' ')[0] === 'Cities' ? 'Home' : t('hero.statCities').split(' ')[0]}</Link>
             <ChevronRight className="w-4 h-4" />
-            <span className="text-white font-semibold">Destinations</span>
+            <span className="text-white font-semibold">{t('hero.title').split(' ')[0]}</span>
           </nav>
 
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/15 backdrop-blur-sm rounded-full mb-6">
               <MapPin className="w-4 h-4" />
-              <span className="text-sm font-semibold">{DESTINATIONS.length}+ Destinations</span>
+              <span className="text-sm font-semibold">{t('hero.badge', { count: DESTINATIONS.length })}</span>
             </div>
 
             <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-              Explore Croatia
+              {t('hero.title')}
             </h1>
             <p className="text-xl text-ocean-50 leading-relaxed">
-              Discover stunning destinations across the Adriatic coast, ancient cities, and breathtaking national parks. Find your perfect Croatian getaway.
+              {t('hero.subtitle')}
             </p>
 
             <div className="flex flex-wrap items-center gap-6 mt-8">
@@ -102,19 +107,19 @@ export default function DestinationsPage() {
                 <div className="w-10 h-10 bg-white/15 backdrop-blur-sm rounded-xl flex items-center justify-center">
                   <Building className="w-5 h-5" />
                 </div>
-                <span className="font-semibold">Cities & Towns</span>
+                <span className="font-semibold">{t('hero.statCities')}</span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-10 h-10 bg-white/15 backdrop-blur-sm rounded-xl flex items-center justify-center">
                   <Waves className="w-5 h-5" />
                 </div>
-                <span className="font-semibold">Islands</span>
+                <span className="font-semibold">{t('hero.statIslands')}</span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-10 h-10 bg-white/15 backdrop-blur-sm rounded-xl flex items-center justify-center">
                   <Mountain className="w-5 h-5" />
                 </div>
-                <span className="font-semibold">National Parks</span>
+                <span className="font-semibold">{t('hero.statParks')}</span>
               </div>
             </div>
           </div>
@@ -138,13 +143,13 @@ export default function DestinationsPage() {
             <div>
               <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-sand-100 text-sand-700 rounded-full text-sm font-semibold mb-4">
                 <TrendingUp className="w-4 h-4" />
-                <span>Most Popular</span>
+                <span>{t('popular.badge')}</span>
               </div>
               <h2 className="text-4xl font-bold text-slate-900 mb-3">
-                Top Destinations
+                {t('popular.title')}
               </h2>
               <p className="text-lg text-slate-600">
-                Most visited places in Croatia
+                {t('popular.subtitle')}
               </p>
             </div>
           </div>
@@ -167,56 +172,73 @@ export default function DestinationsPage() {
           <div className="text-center mb-12">
             <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-ocean-100 text-ocean-700 rounded-full text-sm font-semibold mb-4">
               <Sparkles className="w-4 h-4" />
-              <span>Browse by Region</span>
+              <span>{t('byRegion.badge')}</span>
             </div>
             <h2 className="text-4xl font-bold text-slate-900 mb-3">
-              Explore by Region
+              {t('byRegion.title')}
             </h2>
             <p className="text-lg text-slate-600">
-              Discover destinations organized by Croatian regions
+              {t('byRegion.subtitle')}
             </p>
           </div>
 
           <div className="space-y-10">
-            {Object.entries(grouped).map(([region, destinations]) => (
-              <div key={region} className="bg-white rounded-3xl p-8 shadow-soft border border-slate-100">
-                <div className="flex items-center gap-3 mb-6">
-                  <div className={`w-12 h-12 rounded-2xl bg-gradient-to-br ${REGIONS[region]?.gradient || 'from-slate-400 to-slate-600'} shadow-soft flex items-center justify-center`}>
-                    <MapPin className="w-6 h-6 text-white" />
-                  </div>
-                  <div>
-                    <h3 className="text-2xl font-bold text-slate-900">
-                      {REGIONS[region]?.name || region}
-                    </h3>
-                    <p className="text-sm text-slate-500 font-medium">
-                      {destinations.length} destination{destinations.length !== 1 ? 's' : ''}
-                    </p>
-                  </div>
-                </div>
+            {Object.entries(grouped).map(([region, destinations]) => {
+              const regionStyleKey = region as keyof typeof REGIONS;
+              // Convert region key to camelCase for translation lookup
+              // "split-dalmatia" -> "splitDalmatia"
+              const regionTranslationKey = region.replace(/-([a-z])/g, (_, c) => c.toUpperCase());
+              const regionName = (() => {
+                try {
+                  return tRegions(regionTranslationKey as any);
+                } catch {
+                  return region;
+                }
+              })();
 
-                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
-                  {destinations.map(dest => (
-                    <Link
-                      key={dest.slug}
-                      href={`/destinations/${dest.slug}`}
-                      className="group flex flex-col items-center gap-2 px-3 py-4 bg-slate-50 hover:bg-white rounded-xl border-2 border-slate-100 hover:border-ocean-300 hover:shadow-soft transition-all"
-                    >
-                      <div className="w-10 h-10 bg-white rounded-xl shadow-xs flex items-center justify-center group-hover:scale-110 transition-transform">
-                        <MapPin className="w-5 h-5 text-ocean-500" />
-                      </div>
-                      <span className="text-sm font-bold text-slate-700 group-hover:text-ocean-600 transition-colors text-center">
-                        {dest.name}
-                      </span>
-                      {dest.popular && (
-                        <span className="px-2 py-0.5 bg-sand-100 text-sand-700 rounded-full text-xs font-bold">
-                          Popular
+              return (
+                <div key={region} className="bg-white rounded-3xl p-8 shadow-soft border border-slate-100">
+                  <div className="flex items-center gap-3 mb-6">
+                    <div className={`w-12 h-12 rounded-2xl bg-gradient-to-br ${REGIONS[regionStyleKey]?.gradient || 'from-slate-400 to-slate-600'} shadow-soft flex items-center justify-center`}>
+                      <MapPin className="w-6 h-6 text-white" />
+                    </div>
+                    <div>
+                      <h3 className="text-2xl font-bold text-slate-900">
+                        {regionName}
+                      </h3>
+                      <p className="text-sm text-slate-500 font-medium">
+                        {destinations.length === 1
+                          ? t('byRegion.count', { count: destinations.length })
+                          : t('byRegion.countPlural', { count: destinations.length })
+                        }
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
+                    {destinations.map(dest => (
+                      <Link
+                        key={dest.slug}
+                        href={`/destinations/${dest.slug}`}
+                        className="group flex flex-col items-center gap-2 px-3 py-4 bg-slate-50 hover:bg-white rounded-xl border-2 border-slate-100 hover:border-ocean-300 hover:shadow-soft transition-all"
+                      >
+                        <div className="w-10 h-10 bg-white rounded-xl shadow-xs flex items-center justify-center group-hover:scale-110 transition-transform">
+                          <MapPin className="w-5 h-5 text-ocean-500" />
+                        </div>
+                        <span className="text-sm font-bold text-slate-700 group-hover:text-ocean-600 transition-colors text-center">
+                          {dest.name}
                         </span>
-                      )}
-                    </Link>
-                  ))}
+                        {dest.popular && (
+                          <span className="px-2 py-0.5 bg-sand-100 text-sand-700 rounded-full text-xs font-bold">
+                            {t('card.popular')}
+                          </span>
+                        )}
+                      </Link>
+                    ))}
+                  </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>
@@ -226,10 +248,10 @@ export default function DestinationsPage() {
         <div className="container">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-slate-900 mb-3">
-              Browse by Type
+              {t('byType.title')}
             </h2>
             <p className="text-lg text-slate-600">
-              Find destinations based on what you're looking for
+              {t('byType.subtitle')}
             </p>
           </div>
 
@@ -239,7 +261,7 @@ export default function DestinationsPage() {
               <div className="w-14 h-14 bg-gradient-to-br from-ocean-400 to-ocean-600 rounded-2xl flex items-center justify-center mb-5 shadow-soft">
                 <Building className="w-7 h-7 text-white" />
               </div>
-              <h3 className="font-bold text-xl text-slate-900 mb-5">Cities</h3>
+              <h3 className="font-bold text-xl text-slate-900 mb-5">{t('byType.cities')}</h3>
               <div className="space-y-3">
                 {DESTINATIONS.filter(d => d.type === 'city').slice(0, 8).map(dest => (
                   <Link
@@ -259,7 +281,7 @@ export default function DestinationsPage() {
               <div className="w-14 h-14 bg-gradient-to-br from-seafoam-400 to-seafoam-600 rounded-2xl flex items-center justify-center mb-5 shadow-soft">
                 <Building className="w-7 h-7 text-white" />
               </div>
-              <h3 className="font-bold text-xl text-slate-900 mb-5">Coastal Towns</h3>
+              <h3 className="font-bold text-xl text-slate-900 mb-5">{t('byType.coastalTowns')}</h3>
               <div className="space-y-3">
                 {DESTINATIONS.filter(d => d.type === 'town').slice(0, 8).map(dest => (
                   <Link
@@ -279,7 +301,7 @@ export default function DestinationsPage() {
               <div className="w-14 h-14 bg-gradient-to-br from-cyan-400 to-cyan-600 rounded-2xl flex items-center justify-center mb-5 shadow-soft">
                 <Waves className="w-7 h-7 text-white" />
               </div>
-              <h3 className="font-bold text-xl text-slate-900 mb-5">Islands</h3>
+              <h3 className="font-bold text-xl text-slate-900 mb-5">{t('byType.islands')}</h3>
               <div className="space-y-3">
                 {DESTINATIONS.filter(d => d.type === 'island').map(dest => (
                   <Link
@@ -299,7 +321,7 @@ export default function DestinationsPage() {
               <div className="w-14 h-14 bg-gradient-to-br from-emerald-400 to-emerald-600 rounded-2xl flex items-center justify-center mb-5 shadow-soft">
                 <Mountain className="w-7 h-7 text-white" />
               </div>
-              <h3 className="font-bold text-xl text-slate-900 mb-5">National Parks</h3>
+              <h3 className="font-bold text-xl text-slate-900 mb-5">{t('byType.nationalParks')}</h3>
               <div className="space-y-3">
                 {DESTINATIONS.filter(d => d.type === 'national-park').map(dest => (
                   <Link

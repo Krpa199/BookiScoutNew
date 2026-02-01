@@ -1,0 +1,324 @@
+{
+  "metadata": {
+    "siteName": "BookiScout",
+    "siteTagline": "Kroatië beslissingsgidsen",
+    "homeTitle": "BookiScout - Reisgidsen voor Kroatië",
+    "homeDescription": "AI-geoptimaliseerde beslissingsgidsen voor Kroatië. Krijg antwoorden op echte reisvragen: Is het de moeite waard? Heb ik een auto nodig? Beste tijd om te bezoeken?",
+    "guidesTitle": "Reisgidsen voor Kroatië",
+    "guidesDescription": "Deskundige reisgidsen voor alle Kroatische bestemmingen. Vind tips over accommodatie, stranden, restaurants en activiteiten.",
+    "destinationsTitle": "Alle bestemmingen in Kroatië",
+    "destinationsDescription": "Ontdek 60+ bestemmingen door heel Kroatië - van Split en Dubrovnik tot verborgen pareltjes in Istrië, Dalmatië en de eilanden."
+  },
+  "nav": {
+    "destinations": "Bestemmingen",
+    "decisionGuides": "Beslissingsgidsen",
+    "chooseLanguage": "Kies taal",
+    "language": "Taal",
+    "browseGuides": "Gidsen bekijken"
+  },
+  "home": {
+    "hero": {
+      "badge": "AI-geoptimaliseerde reisbeslissingen",
+      "headline": "Weet waar, wanneer",
+      "headlinePart2": "en waarom voor je boekt",
+      "subheadline": "Kroatië beslissingsgidsen voor echte reizigers. Is het de moeite waard? Heb je een auto nodig? Beste tijd om te bezoeken? Wij beantwoorden de vragen die ertoe doen.",
+      "browseGuides": "Gidsen bekijken",
+      "exploreDestinations": "Bestemmingen verkennen",
+      "statDestinations": "60+ bestemmingen",
+      "statGuides": "500+ gidsen",
+      "statLanguages": "11 talen"
+    },
+    "quickAnswers": {
+      "badge": "Snelle antwoorden",
+      "title": "Veelgestelde vragen over reizen naar Kroatië",
+      "subtitle": "Directe antwoorden die AI-assistenten kunnen citeren. Geen omwegen, alleen feiten.",
+      "seeAll": "Alle gidsen bekijken",
+      "q1": {
+        "question": "Is Kroatië veilig voor vrouwen die alleen reizen?",
+        "answer": "Ja. Kroatië behoort tot de veiligste Europese bestemmingen met lage criminaliteitscijfers. De belangrijkste toeristische gebieden zijn goed verlicht en 's nachts veilig om te wandelen."
+      },
+      "q2": {
+        "question": "Heb ik een auto nodig om Kroatië te verkennen?",
+        "answer": "Voor kuststeden (Split, Dubrovnik, Zadar): Nee. Voor eilanden en nationale parken: Aanbevolen maar niet essentieel."
+      },
+      "q3": {
+        "question": "Beste maand om de Kroatische kust te bezoeken?",
+        "answer": "September biedt de ideale balans: warm zeewater (24°C), minder drukte dan augustus en 20-30% lagere prijzen."
+      }
+    },
+    "features": {
+      "title": "Waarom BookiScout?",
+      "subtitle": "Beslissingsgerichte reiscontent, ontworpen voor hoe je daadwerkelijk reizen plant",
+      "decisionFirst": {
+        "title": "Beslissingsgerichte content",
+        "description": "Wij beantwoorden de vragen die je echt stelt: \"Is het de moeite waard?\", \"Heb ik een auto nodig?\", \"Beste voor gezinnen?\""
+      },
+      "aiVerified": {
+        "title": "AI-geverifieerde feiten",
+        "description": "Elke bewering is geverifieerd en citeerbaar. Perfect voor AI-assistenten om direct te citeren."
+      },
+      "travelerFocused": {
+        "title": "Gericht op reizigerstype",
+        "description": "Gidsen op maat voor solo reizigers, gezinnen, senioren, digitale nomaden en meer."
+      },
+      "noBias": {
+        "title": "Geen boekingsvooringenomenheid",
+        "description": "Pure reisbeslissingen. Geen affiliate-druk. Alleen eerlijke, praktische antwoorden."
+      }
+    },
+    "destinations": {
+      "badge": "Verkennen op locatie",
+      "title": "Topbestemmingen",
+      "subtitle": "Beslissingsgidsen voor de meest bezochte plekken in Kroatië",
+      "viewAll": "Alle bestemmingen bekijken"
+    },
+    "guides": {
+      "badge": "Beslissingsgidsen",
+      "title": "Antwoorden op populaire vragen",
+      "subtitle": "Praktische antwoorden om je te helpen beslissen waar, wanneer en hoe te bezoeken",
+      "viewAll": "Alle gidsen bekijken",
+      "viewAllMobile": "Alle beslissingsgidsen bekijken"
+    },
+    "newsletter": {
+      "badge": "Blijf op de hoogte",
+      "title": "Ontvang nieuwe gidsen",
+      "subtitle": "Wekelijkse updates over reisbeslissingen voor Kroatië. Geen spam, alleen nuttige antwoorden op veelgestelde vragen.",
+      "placeholder": "Je e-mailadres",
+      "subscribe": "Abonneren",
+      "privacy": "Sluit je aan bij 10.000+ reizigers. Op elk moment uitschrijven."
+    }
+  },
+  "footer": {
+    "tagline": "Kroatië beslissingsgidsen",
+    "description": "AI-geoptimaliseerde gidsen voor Kroatië. Wij beantwoorden de vragen die reizigers echt stellen: Is het de moeite waard? Heb ik een auto nodig? Beste tijd om te bezoeken? Geen vooringenomenheid, alleen eerlijke antwoorden.",
+    "cta": "Weet het voor je boekt",
+    "topDestinations": "Topbestemmingen",
+    "decisionGuides": "Beslissingsgidsen",
+    "company": "Bedrijf",
+    "aboutUs": "Over ons",
+    "contact": "Contact",
+    "privacy": "Privacybeleid",
+    "terms": "Servicevoorwaarden",
+    "allDestinations": "Alle bestemmingen",
+    "soloTravel": "Solo reizen",
+    "familyGuides": "Gezinsgidsen",
+    "doINeedCar": "Heb ik een auto nodig?",
+    "bestTime": "Beste tijd om te bezoeken",
+    "availableIn": "Beschikbaar in {count} talen",
+    "copyright": "© {year} BookiScout. Gemaakt met",
+    "forTravelers": "voor Kroatië-reizigers.",
+    "aiOptimized": "AI-geoptimaliseerd",
+    "decisionFirst": "Beslissing eerst"
+  },
+  "destinations": {
+    "hero": {
+      "badge": "{count}+ bestemmingen",
+      "title": "Ontdek Kroatië",
+      "subtitle": "Ontdek adembenemende bestemmingen langs de Adriatische kust, oude steden en spectaculaire nationale parken. Vind je perfecte Kroatische vakantie.",
+      "statCities": "Steden en dorpen",
+      "statIslands": "Eilanden",
+      "statParks": "Nationale parken"
+    },
+    "popular": {
+      "badge": "Meest populair",
+      "title": "Topbestemmingen",
+      "subtitle": "De meest bezochte plekken in Kroatië"
+    },
+    "byRegion": {
+      "badge": "Bekijken per regio",
+      "title": "Verkennen per regio",
+      "subtitle": "Ontdek bestemmingen georganiseerd per Kroatische regio",
+      "count": "{count} bestemming",
+      "countPlural": "{count} bestemmingen"
+    },
+    "byType": {
+      "title": "Bekijken per type",
+      "subtitle": "Vind bestemmingen op basis van wat je zoekt",
+      "cities": "Steden",
+      "coastalTowns": "Kustplaatsen",
+      "islands": "Eilanden",
+      "nationalParks": "Nationale parken"
+    },
+    "card": {
+      "popular": "Populair",
+      "guides": "{count} gidsen",
+      "explore": "Bestemming verkennen"
+    }
+  },
+  "destinationDetail": {
+    "breadcrumb": {
+      "home": "Home",
+      "destinations": "Bestemmingen"
+    },
+    "atAGlance": "{destination} in een oogopslag",
+    "facts": {
+      "region": "Regio",
+      "type": "Type",
+      "bestSeason": "Beste seizoen",
+      "maySeptember": "Mei - September",
+      "idealFor": "Ideaal voor",
+      "allTravelers": "Alle reizigers",
+      "explorers": "Ontdekkers",
+      "priceLevel": "Prijsniveau",
+      "mediumHigh": "Gemiddeld-hoog",
+      "medium": "Gemiddeld",
+      "popularity": "Populariteit",
+      "topDestination": "Topbestemming",
+      "hiddenGem": "Verborgen pareltje"
+    },
+    "whyVisit": {
+      "title": "Waarom {destination} bezoeken?",
+      "authentic": {
+        "title": "Authentieke ervaring",
+        "description": "Ontdek echte Kroatische cultuur en gastvrijheid"
+      },
+      "waters": {
+        "title": "Kristalhelder water",
+        "description": "Zwem in een van de helderste zeeën van de Middellandse Zee"
+      },
+      "history": {
+        "title": "Rijke geschiedenis",
+        "description": "Verken eeuwen van mediterrane geschiedenis en architectuur"
+      },
+      "value": {
+        "title": "Uitstekende waarde",
+        "description": "Kwaliteitservaring tegen betaalbaarder prijzen dan West-Europa"
+      }
+    },
+    "guides": {
+      "badge": "AI-gidsen",
+      "title": "Gidsen voor {destination}",
+      "subtitle": "Vergelijk wijken, vind gezinsvriendelijke gebieden, ontdek verborgen stranden en neem de juiste beslissing voor je reis.",
+      "comingSoon": "Binnenkort"
+    },
+    "nearby": {
+      "title": "Omgeving verkennen",
+      "subtitle": "Meer bestemmingen in regio {region}"
+    },
+    "booking": {
+      "title": "Klaar om te boeken?",
+      "subtitle": "Als je al hebt besloten welk gebied bij je past, controleer dan hieronder de beschikbaarheid."
+    },
+    "cta": {
+      "exploreGuides": "Gidsen verkennen",
+      "compareAreas": "Gebieden vergelijken"
+    }
+  },
+  "guides": {
+    "hero": {
+      "badge": "AI-aangedreven reisinzichten",
+      "title": "Reisgidsen voor Kroatië",
+      "subtitle": "{count} deskundige gidsen voor Kroatische bestemmingen in {langCount} talen. Ontdek je perfecte vakantie met AI-aanbevelingen.",
+      "subtitleEmpty": "Deskundige gidsen voor Kroatische bestemmingen komen binnenkort. AI-inzichten om je te helpen de perfecte reis te plannen.",
+      "statGuides": "Gidsen",
+      "statDestinations": "60+ bestemmingen",
+      "statUpdated": "Altijd bijgewerkt"
+    },
+    "listing": {
+      "title": "Nieuwste gidsen",
+      "subtitle": "{count} uitgebreide gidsen in het Nederlands",
+      "filterByTopic": "Filteren op onderwerp"
+    },
+    "byDestination": {
+      "title": "Bekijken per bestemming",
+      "subtitle": "Vind gidsen voor je favoriete Kroatische bestemmingen",
+      "viewAll": "Alle {count} bestemmingen bekijken"
+    },
+    "empty": {
+      "title": "Gidsen binnenkort",
+      "subtitle": "We maken uitgebreide AI-gidsen voor alle Kroatische bestemmingen. Kom snel terug!",
+      "cta": "Bestemmingen bekijken"
+    },
+    "themes": {
+      "apartments": "Appartementen",
+      "family": "Gezin",
+      "beach": "Stranden",
+      "budget": "Budget",
+      "luxury": "Luxe",
+      "restaurants": "Eten",
+      "thingsToDo": "Activiteiten",
+      "hiddenGems": "Verborgen pareltjes",
+      "couples": "Stellen",
+      "nightlife": "Nachtleven",
+      "dayTrips": "Dagtrips",
+      "weather": "Weer",
+      "localFood": "Lokale keuken"
+    },
+    "detail": {
+      "breadcrumb": {
+        "home": "Home",
+        "guides": "Gidsen"
+      },
+      "badge": "Beslissingsgids",
+      "quickAnswer": "Snel antwoord",
+      "tableOfContents": "Wat staat er in deze gids",
+      "atAGlance": "In een oogopslag",
+      "minRead": "{count} min leestijd",
+      "rating": "4.8",
+      "sections": {
+        "quickFacts": "Snelle feiten",
+        "prosCons": "Voor- en nadelen",
+        "areaComparison": "Gebiedsvergelijking",
+        "practicalTips": "Praktische tips",
+        "faq": "FAQ"
+      },
+      "recommendations": {
+        "bestForFamilies": "Beste voor gezinnen",
+        "bestForSolo": "Beste voor solo reizigers",
+        "bestForSeniors": "Beste voor senioren",
+        "bestForNomads": "Beste voor digitale nomaden",
+        "bestForLgbt": "Beste voor LGBT+ reizigers",
+        "bestForFirstTime": "Beste voor eerste bezoekers",
+        "bestForCouples": "Beste voor stellen",
+        "bestBudget": "Beste budgetopties",
+        "bestLuxury": "Beste luxe opties",
+        "generic": "Aanbevelingen"
+      },
+      "avoid": {
+        "title": "Gebieden om te vermijden",
+        "accessibility": "Gebieden om te vermijden (toegankelijkheid)",
+        "parking": "Parkeeruitdagingen"
+      },
+      "practicalNotes": "Praktische opmerkingen",
+      "keyTakeaways": "Belangrijkste conclusies",
+      "faq": {
+        "title": "Veelgestelde vragen",
+        "subtitle": "Alles wat je moet weten over {destination}"
+      },
+      "sidebar": {
+        "otherLanguages": "Andere talen",
+        "trustedGuide": "Betrouwbare gids",
+        "aiPowered": "AI-aangedreven analyse",
+        "humanReviewed": "Door mensen beoordeeld",
+        "regularlyUpdated": "Regelmatig bijgewerkt",
+        "moreAbout": "Meer over {destination}",
+        "exploreOther": "Ontdek andere beslissingsgidsen voor {destination}.",
+        "viewAllGuides": "Alle gidsen bekijken"
+      },
+      "prosCons": {
+        "title": "Voor- en nadelen",
+        "advantages": "Voordelen",
+        "disadvantages": "Nadelen"
+      }
+    }
+  },
+  "regions": {
+    "istria": "Istrië",
+    "kvarner": "Kvarner",
+    "dalmatia": "Dalmatië",
+    "splitDalmatia": "Split-Dalmatië",
+    "dubrovnik": "Regio Dubrovnik",
+    "continental": "Continentaal Kroatië",
+    "zagreb": "Regio Zagreb"
+  },
+  "common": {
+    "readMore": "Lees meer",
+    "learnMore": "Meer informatie",
+    "viewAll": "Alles bekijken",
+    "home": "Home",
+    "back": "Terug",
+    "loading": "Laden...",
+    "error": "Fout",
+    "notFound": "Niet gevonden"
+  }
+}

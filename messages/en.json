@@ -1,0 +1,324 @@
+{
+  "metadata": {
+    "siteName": "BookiScout",
+    "siteTagline": "Croatia Decision Guides",
+    "homeTitle": "BookiScout - Croatia Travel Decision Guides",
+    "homeDescription": "AI-optimized decision guides for Croatia. Get answers to real travel questions: Is it worth it? Do I need a car? Best time to visit?",
+    "guidesTitle": "Travel Guides for Croatia",
+    "guidesDescription": "Expert travel guides for all Croatian destinations. Find tips on apartments, beaches, restaurants, and things to do.",
+    "destinationsTitle": "All Destinations in Croatia",
+    "destinationsDescription": "Explore 60+ destinations across Croatia - from Split and Dubrovnik to hidden gems in Istria, Dalmatia, and the islands."
+  },
+  "nav": {
+    "destinations": "Destinations",
+    "decisionGuides": "Decision Guides",
+    "chooseLanguage": "Choose Language",
+    "language": "Language",
+    "browseGuides": "Browse Decision Guides"
+  },
+  "home": {
+    "hero": {
+      "badge": "AI-Optimized Travel Decisions",
+      "headline": "Know Where, When",
+      "headlinePart2": "& Why Before You Book",
+      "subheadline": "Croatia decision guides for real travelers. Is it worth it? Do you need a car? Best time to visit? We answer the questions that matter.",
+      "browseGuides": "Browse Decision Guides",
+      "exploreDestinations": "Explore Destinations",
+      "statDestinations": "60+ Destinations",
+      "statGuides": "500+ Decision Guides",
+      "statLanguages": "11 Languages"
+    },
+    "quickAnswers": {
+      "badge": "Quick Answers",
+      "title": "Common Croatia Travel Questions",
+      "subtitle": "Direct answers AI assistants can cite. No fluff, just facts.",
+      "seeAll": "See all decision guides",
+      "q1": {
+        "question": "Is Croatia safe for solo female travelers?",
+        "answer": "Yes. Croatia ranks among Europe's safest destinations with low crime rates. Main tourist areas are well-lit and walkable at night."
+      },
+      "q2": {
+        "question": "Do I need a car to explore Croatia?",
+        "answer": "For coastal cities (Split, Dubrovnik, Zadar): No. For islands and national parks: Recommended but not essential."
+      },
+      "q3": {
+        "question": "Best month to visit Croatian coast?",
+        "answer": "September offers the ideal balance: warm seas (24°C), fewer crowds than August, and 20-30% lower prices."
+      }
+    },
+    "features": {
+      "title": "Why BookiScout?",
+      "subtitle": "Decision-first travel content designed for how you actually plan trips",
+      "decisionFirst": {
+        "title": "Decision-First Content",
+        "description": "We answer the questions you actually ask: \"Is it worth it?\", \"Do I need a car?\", \"Best for families?\""
+      },
+      "aiVerified": {
+        "title": "AI-Verified Facts",
+        "description": "Every claim is fact-checked and citable. Perfect for AI assistants to quote directly."
+      },
+      "travelerFocused": {
+        "title": "Traveler-Type Focused",
+        "description": "Guides tailored for solo travelers, families, seniors, digital nomads, and more."
+      },
+      "noBias": {
+        "title": "No Booking Bias",
+        "description": "Pure travel decisions. No affiliate pressure. Just honest, practical answers."
+      }
+    },
+    "destinations": {
+      "badge": "Explore by Location",
+      "title": "Top Destinations",
+      "subtitle": "Decision guides for Croatia's most visited places",
+      "viewAll": "View all destinations"
+    },
+    "guides": {
+      "badge": "Decision Guides",
+      "title": "Popular Questions Answered",
+      "subtitle": "Practical answers to help you decide where, when, and how to visit",
+      "viewAll": "View all guides",
+      "viewAllMobile": "View all decision guides"
+    },
+    "newsletter": {
+      "badge": "Stay Informed",
+      "title": "Get New Decision Guides",
+      "subtitle": "Weekly updates on Croatia travel decisions. No spam, just useful answers to common questions.",
+      "placeholder": "Your email address",
+      "subscribe": "Subscribe",
+      "privacy": "Join 10,000+ travelers. Unsubscribe anytime."
+    }
+  },
+  "footer": {
+    "tagline": "Croatia Decision Guides",
+    "description": "AI-optimized decision guides for Croatia. We answer the questions travelers actually ask: Is it worth it? Do I need a car? Best time to visit? No booking bias, just honest answers.",
+    "cta": "Know Before You Book",
+    "topDestinations": "Top Destinations",
+    "decisionGuides": "Decision Guides",
+    "company": "Company",
+    "aboutUs": "About Us",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "allDestinations": "All Destinations",
+    "soloTravel": "Solo Travel",
+    "familyGuides": "Family Guides",
+    "doINeedCar": "Do I Need a Car?",
+    "bestTime": "Best Time to Visit",
+    "availableIn": "Available in {count} languages",
+    "copyright": "© {year} BookiScout. Made with",
+    "forTravelers": "for Croatia travelers.",
+    "aiOptimized": "AI-Optimized",
+    "decisionFirst": "Decision-First"
+  },
+  "destinations": {
+    "hero": {
+      "badge": "{count}+ Destinations",
+      "title": "Explore Croatia",
+      "subtitle": "Discover stunning destinations across the Adriatic coast, ancient cities, and breathtaking national parks. Find your perfect Croatian getaway.",
+      "statCities": "Cities & Towns",
+      "statIslands": "Islands",
+      "statParks": "National Parks"
+    },
+    "popular": {
+      "badge": "Most Popular",
+      "title": "Top Destinations",
+      "subtitle": "Most visited places in Croatia"
+    },
+    "byRegion": {
+      "badge": "Browse by Region",
+      "title": "Explore by Region",
+      "subtitle": "Discover destinations organized by Croatian regions",
+      "count": "{count} destination",
+      "countPlural": "{count} destinations"
+    },
+    "byType": {
+      "title": "Browse by Type",
+      "subtitle": "Find destinations based on what you're looking for",
+      "cities": "Cities",
+      "coastalTowns": "Coastal Towns",
+      "islands": "Islands",
+      "nationalParks": "National Parks"
+    },
+    "card": {
+      "popular": "Popular",
+      "guides": "{count} guides",
+      "explore": "Explore destination"
+    }
+  },
+  "destinationDetail": {
+    "breadcrumb": {
+      "home": "Home",
+      "destinations": "Destinations"
+    },
+    "atAGlance": "{destination} at a Glance",
+    "facts": {
+      "region": "Region",
+      "type": "Type",
+      "bestSeason": "Best Season",
+      "maySeptember": "May - September",
+      "idealFor": "Ideal For",
+      "allTravelers": "All Travelers",
+      "explorers": "Explorers",
+      "priceLevel": "Price Level",
+      "mediumHigh": "Medium-High",
+      "medium": "Medium",
+      "popularity": "Popularity",
+      "topDestination": "Top Destination",
+      "hiddenGem": "Hidden Gem"
+    },
+    "whyVisit": {
+      "title": "Why Visit {destination}?",
+      "authentic": {
+        "title": "Authentic Experience",
+        "description": "Discover genuine Croatian culture and hospitality"
+      },
+      "waters": {
+        "title": "Crystal Clear Waters",
+        "description": "Swim in some of the clearest seas in the Mediterranean"
+      },
+      "history": {
+        "title": "Rich History",
+        "description": "Explore centuries of Mediterranean history and architecture"
+      },
+      "value": {
+        "title": "Great Value",
+        "description": "Quality experience at more affordable prices than Western Europe"
+      }
+    },
+    "guides": {
+      "badge": "AI-Powered Guides",
+      "title": "Travel Guides for {destination}",
+      "subtitle": "Compare neighborhoods, find family-friendly areas, discover hidden beaches, and make the right decision for your trip.",
+      "comingSoon": "Coming Soon"
+    },
+    "nearby": {
+      "title": "Explore Nearby",
+      "subtitle": "More destinations in {region}"
+    },
+    "booking": {
+      "title": "Ready to Book?",
+      "subtitle": "If you've already decided which area suits you, check availability below."
+    },
+    "cta": {
+      "exploreGuides": "Explore Guides",
+      "compareAreas": "Compare Areas"
+    }
+  },
+  "guides": {
+    "hero": {
+      "badge": "AI-Powered Travel Insights",
+      "title": "Croatia Travel Guides",
+      "subtitle": "{count} expert guides for Croatian destinations in {langCount} languages. Discover your perfect vacation with AI-powered recommendations.",
+      "subtitleEmpty": "Expert guides for Croatian destinations coming soon. AI-powered insights to help you plan your perfect trip.",
+      "statGuides": "Guides",
+      "statDestinations": "60+ Destinations",
+      "statUpdated": "Always Updated"
+    },
+    "listing": {
+      "title": "Latest Guides",
+      "subtitle": "{count} comprehensive guides in English",
+      "filterByTopic": "Filter by topic"
+    },
+    "byDestination": {
+      "title": "Browse by Destination",
+      "subtitle": "Find guides for your favorite Croatian destinations",
+      "viewAll": "View all {count} destinations"
+    },
+    "empty": {
+      "title": "Guides Coming Soon",
+      "subtitle": "We're creating comprehensive AI-powered travel guides for all Croatian destinations. Check back soon!",
+      "cta": "Browse Destinations"
+    },
+    "themes": {
+      "apartments": "Apartments",
+      "family": "Family",
+      "beach": "Beaches",
+      "budget": "Budget",
+      "luxury": "Luxury",
+      "restaurants": "Food",
+      "thingsToDo": "Activities",
+      "hiddenGems": "Hidden Gems",
+      "couples": "Couples",
+      "nightlife": "Nightlife",
+      "dayTrips": "Day Trips",
+      "weather": "Weather",
+      "localFood": "Local Food"
+    },
+    "detail": {
+      "breadcrumb": {
+        "home": "Home",
+        "guides": "Guides"
+      },
+      "badge": "Decision Guide",
+      "quickAnswer": "Quick Answer",
+      "tableOfContents": "What's in This Guide",
+      "atAGlance": "At a Glance",
+      "minRead": "{count} min read",
+      "rating": "4.8",
+      "sections": {
+        "quickFacts": "Quick Facts",
+        "prosCons": "Pros & Cons",
+        "areaComparison": "Area Comparison",
+        "practicalTips": "Practical Tips",
+        "faq": "FAQ"
+      },
+      "recommendations": {
+        "bestForFamilies": "Best for Families",
+        "bestForSolo": "Best for Solo Travelers",
+        "bestForSeniors": "Best for Seniors",
+        "bestForNomads": "Best for Digital Nomads",
+        "bestForLgbt": "Best for LGBT+ Travelers",
+        "bestForFirstTime": "Best for First-Time Visitors",
+        "bestForCouples": "Best for Couples",
+        "bestBudget": "Best Budget Options",
+        "bestLuxury": "Best Luxury Options",
+        "generic": "Recommendations"
+      },
+      "avoid": {
+        "title": "Areas to Avoid",
+        "accessibility": "Areas to Avoid (Accessibility)",
+        "parking": "Parking Challenges"
+      },
+      "practicalNotes": "Practical Notes",
+      "keyTakeaways": "Key Takeaways",
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "subtitle": "Everything you need to know about {destination}"
+      },
+      "sidebar": {
+        "otherLanguages": "Other Languages",
+        "trustedGuide": "Trusted Guide",
+        "aiPowered": "AI-Powered Analysis",
+        "humanReviewed": "Human Reviewed",
+        "regularlyUpdated": "Regularly Updated",
+        "moreAbout": "More about {destination}",
+        "exploreOther": "Explore other decision guides for {destination}.",
+        "viewAllGuides": "View All Guides"
+      },
+      "prosCons": {
+        "title": "Pros & Cons",
+        "advantages": "Advantages",
+        "disadvantages": "Disadvantages"
+      }
+    }
+  },
+  "regions": {
+    "istria": "Istria",
+    "kvarner": "Kvarner",
+    "dalmatia": "Dalmatia",
+    "splitDalmatia": "Split-Dalmatia",
+    "dubrovnik": "Dubrovnik Region",
+    "continental": "Continental Croatia",
+    "zagreb": "Zagreb Region"
+  },
+  "common": {
+    "readMore": "Read more",
+    "learnMore": "Learn more",
+    "viewAll": "View all",
+    "home": "Home",
+    "back": "Back",
+    "loading": "Loading...",
+    "error": "Error",
+    "notFound": "Not Found"
+  }
+}

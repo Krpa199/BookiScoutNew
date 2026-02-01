@@ -1,0 +1,324 @@
+{
+  "metadata": {
+    "siteName": "BookiScout",
+    "siteTagline": "Kroatien Entscheidungsführer",
+    "homeTitle": "BookiScout - Kroatien Reiseentscheidungsführer",
+    "homeDescription": "KI-optimierte Entscheidungsführer für Kroatien. Erhalten Sie Antworten auf echte Reisefragen: Lohnt es sich? Brauche ich ein Auto? Beste Reisezeit?",
+    "guidesTitle": "Reiseführer für Kroatien",
+    "guidesDescription": "Experten-Reiseführer für alle kroatischen Reiseziele. Finden Sie Tipps zu Unterkünften, Stränden, Restaurants und Aktivitäten.",
+    "destinationsTitle": "Alle Reiseziele in Kroatien",
+    "destinationsDescription": "Entdecken Sie 60+ Reiseziele in Kroatien - von Split und Dubrovnik bis zu versteckten Juwelen in Istrien, Dalmatien und auf den Inseln."
+  },
+  "nav": {
+    "destinations": "Reiseziele",
+    "decisionGuides": "Entscheidungsführer",
+    "chooseLanguage": "Sprache wählen",
+    "language": "Sprache",
+    "browseGuides": "Reiseführer durchsuchen"
+  },
+  "home": {
+    "hero": {
+      "badge": "KI-optimierte Reiseentscheidungen",
+      "headline": "Wissen Sie wo, wann",
+      "headlinePart2": "& warum vor der Buchung",
+      "subheadline": "Kroatien-Entscheidungsführer für echte Reisende. Lohnt es sich? Brauchen Sie ein Auto? Beste Reisezeit? Wir beantworten die wichtigen Fragen.",
+      "browseGuides": "Reiseführer durchsuchen",
+      "exploreDestinations": "Reiseziele erkunden",
+      "statDestinations": "60+ Reiseziele",
+      "statGuides": "500+ Entscheidungsführer",
+      "statLanguages": "11 Sprachen"
+    },
+    "quickAnswers": {
+      "badge": "Schnelle Antworten",
+      "title": "Häufige Fragen zur Kroatien-Reise",
+      "subtitle": "Direkte Antworten, die KI-Assistenten zitieren können. Kein Geschwafel, nur Fakten.",
+      "seeAll": "Alle Entscheidungsführer ansehen",
+      "q1": {
+        "question": "Ist Kroatien sicher für alleinreisende Frauen?",
+        "answer": "Ja. Kroatien gehört zu Europas sichersten Reisezielen mit niedriger Kriminalitätsrate. Haupttouristengebiete sind gut beleuchtet und nachts sicher begehbar."
+      },
+      "q2": {
+        "question": "Brauche ich ein Auto, um Kroatien zu erkunden?",
+        "answer": "Für Küstenstädte (Split, Dubrovnik, Zadar): Nein. Für Inseln und Nationalparks: Empfohlen, aber nicht unbedingt notwendig."
+      },
+      "q3": {
+        "question": "Bester Monat für die kroatische Küste?",
+        "answer": "September bietet die ideale Balance: warmes Meer (24°C), weniger Menschenmassen als im August und 20-30% niedrigere Preise."
+      }
+    },
+    "features": {
+      "title": "Warum BookiScout?",
+      "subtitle": "Entscheidungsorientierte Reiseinhalte, konzipiert für Ihre tatsächliche Reiseplanung",
+      "decisionFirst": {
+        "title": "Entscheidungsorientierte Inhalte",
+        "description": "Wir beantworten die Fragen, die Sie wirklich stellen: \"Lohnt es sich?\", \"Brauche ich ein Auto?\", \"Am besten für Familien?\""
+      },
+      "aiVerified": {
+        "title": "KI-verifizierte Fakten",
+        "description": "Jede Aussage ist faktengeprüft und zitierbar. Perfekt für KI-Assistenten zum direkten Zitieren."
+      },
+      "travelerFocused": {
+        "title": "Reisender-Typ fokussiert",
+        "description": "Reiseführer zugeschnitten auf Alleinreisende, Familien, Senioren, digitale Nomaden und mehr."
+      },
+      "noBias": {
+        "title": "Keine Buchungs-Voreingenommenheit",
+        "description": "Reine Reiseentscheidungen. Kein Affiliate-Druck. Nur ehrliche, praktische Antworten."
+      }
+    },
+    "destinations": {
+      "badge": "Nach Ort erkunden",
+      "title": "Top Reiseziele",
+      "subtitle": "Entscheidungsführer für Kroatiens meistbesuchte Orte",
+      "viewAll": "Alle Reiseziele ansehen"
+    },
+    "guides": {
+      "badge": "Entscheidungsführer",
+      "title": "Beliebte Fragen beantwortet",
+      "subtitle": "Praktische Antworten, die Ihnen bei der Entscheidung helfen, wo, wann und wie Sie besuchen",
+      "viewAll": "Alle Reiseführer ansehen",
+      "viewAllMobile": "Alle Entscheidungsführer ansehen"
+    },
+    "newsletter": {
+      "badge": "Bleiben Sie informiert",
+      "title": "Neue Entscheidungsführer erhalten",
+      "subtitle": "Wöchentliche Updates zu Kroatien-Reiseentscheidungen. Kein Spam, nur nützliche Antworten auf häufige Fragen.",
+      "placeholder": "Ihre E-Mail-Adresse",
+      "subscribe": "Abonnieren",
+      "privacy": "Schließen Sie sich 10.000+ Reisenden an. Jederzeit abbestellen."
+    }
+  },
+  "footer": {
+    "tagline": "Kroatien Entscheidungsführer",
+    "description": "KI-optimierte Entscheidungsführer für Kroatien. Wir beantworten die Fragen, die Reisende wirklich stellen: Lohnt es sich? Brauche ich ein Auto? Beste Reisezeit? Keine Voreingenommenheit, nur ehrliche Antworten.",
+    "cta": "Wissen vor der Buchung",
+    "topDestinations": "Top Reiseziele",
+    "decisionGuides": "Entscheidungsführer",
+    "company": "Unternehmen",
+    "aboutUs": "Über uns",
+    "contact": "Kontakt",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen",
+    "allDestinations": "Alle Reiseziele",
+    "soloTravel": "Alleinreisen",
+    "familyGuides": "Familienführer",
+    "doINeedCar": "Brauche ich ein Auto?",
+    "bestTime": "Beste Reisezeit",
+    "availableIn": "Verfügbar in {count} Sprachen",
+    "copyright": "© {year} BookiScout. Mit",
+    "forTravelers": "für Kroatien-Reisende gemacht.",
+    "aiOptimized": "KI-optimiert",
+    "decisionFirst": "Entscheidung zuerst"
+  },
+  "destinations": {
+    "hero": {
+      "badge": "{count}+ Reiseziele",
+      "title": "Kroatien erkunden",
+      "subtitle": "Entdecken Sie atemberaubende Reiseziele entlang der Adriaküste, antike Städte und beeindruckende Nationalparks. Finden Sie Ihren perfekten kroatischen Urlaub.",
+      "statCities": "Städte & Orte",
+      "statIslands": "Inseln",
+      "statParks": "Nationalparks"
+    },
+    "popular": {
+      "badge": "Am beliebtesten",
+      "title": "Top Reiseziele",
+      "subtitle": "Meistbesuchte Orte in Kroatien"
+    },
+    "byRegion": {
+      "badge": "Nach Region durchsuchen",
+      "title": "Nach Region erkunden",
+      "subtitle": "Entdecken Sie Reiseziele nach kroatischen Regionen",
+      "count": "{count} Reiseziel",
+      "countPlural": "{count} Reiseziele"
+    },
+    "byType": {
+      "title": "Nach Typ durchsuchen",
+      "subtitle": "Finden Sie Reiseziele nach Ihren Wünschen",
+      "cities": "Städte",
+      "coastalTowns": "Küstenorte",
+      "islands": "Inseln",
+      "nationalParks": "Nationalparks"
+    },
+    "card": {
+      "popular": "Beliebt",
+      "guides": "{count} Reiseführer",
+      "explore": "Reiseziel erkunden"
+    }
+  },
+  "destinationDetail": {
+    "breadcrumb": {
+      "home": "Startseite",
+      "destinations": "Reiseziele"
+    },
+    "atAGlance": "{destination} auf einen Blick",
+    "facts": {
+      "region": "Region",
+      "type": "Typ",
+      "bestSeason": "Beste Saison",
+      "maySeptember": "Mai - September",
+      "idealFor": "Ideal für",
+      "allTravelers": "Alle Reisenden",
+      "explorers": "Entdecker",
+      "priceLevel": "Preisniveau",
+      "mediumHigh": "Mittel-Hoch",
+      "medium": "Mittel",
+      "popularity": "Beliebtheit",
+      "topDestination": "Top Reiseziel",
+      "hiddenGem": "Geheimtipp"
+    },
+    "whyVisit": {
+      "title": "Warum {destination} besuchen?",
+      "authentic": {
+        "title": "Authentisches Erlebnis",
+        "description": "Entdecken Sie echte kroatische Kultur und Gastfreundschaft"
+      },
+      "waters": {
+        "title": "Kristallklares Wasser",
+        "description": "Schwimmen Sie in einem der klarsten Meere des Mittelmeers"
+      },
+      "history": {
+        "title": "Reiche Geschichte",
+        "description": "Erkunden Sie Jahrhunderte mediterraner Geschichte und Architektur"
+      },
+      "value": {
+        "title": "Gutes Preis-Leistungs-Verhältnis",
+        "description": "Qualitätserlebnis zu günstigeren Preisen als in Westeuropa"
+      }
+    },
+    "guides": {
+      "badge": "KI-gestützte Reiseführer",
+      "title": "Reiseführer für {destination}",
+      "subtitle": "Vergleichen Sie Viertel, finden Sie familienfreundliche Gebiete, entdecken Sie versteckte Strände und treffen Sie die richtige Entscheidung für Ihre Reise.",
+      "comingSoon": "Demnächst"
+    },
+    "nearby": {
+      "title": "In der Nähe erkunden",
+      "subtitle": "Weitere Reiseziele in {region}"
+    },
+    "booking": {
+      "title": "Bereit zu buchen?",
+      "subtitle": "Wenn Sie bereits entschieden haben, welches Gebiet zu Ihnen passt, prüfen Sie die Verfügbarkeit unten."
+    },
+    "cta": {
+      "exploreGuides": "Reiseführer erkunden",
+      "compareAreas": "Gebiete vergleichen"
+    }
+  },
+  "guides": {
+    "hero": {
+      "badge": "KI-gestützte Reise-Einblicke",
+      "title": "Kroatien Reiseführer",
+      "subtitle": "{count} Experten-Reiseführer für kroatische Reiseziele in {langCount} Sprachen. Entdecken Sie Ihren perfekten Urlaub mit KI-Empfehlungen.",
+      "subtitleEmpty": "Experten-Reiseführer für kroatische Reiseziele kommen bald. KI-Einblicke, die Ihnen bei der Planung Ihrer perfekten Reise helfen.",
+      "statGuides": "Reiseführer",
+      "statDestinations": "60+ Reiseziele",
+      "statUpdated": "Immer aktuell"
+    },
+    "listing": {
+      "title": "Neueste Reiseführer",
+      "subtitle": "{count} umfassende Reiseführer auf Deutsch",
+      "filterByTopic": "Nach Thema filtern"
+    },
+    "byDestination": {
+      "title": "Nach Reiseziel durchsuchen",
+      "subtitle": "Finden Sie Reiseführer für Ihre Lieblings-Reiseziele in Kroatien",
+      "viewAll": "Alle {count} Reiseziele ansehen"
+    },
+    "empty": {
+      "title": "Reiseführer kommen bald",
+      "subtitle": "Wir erstellen umfassende KI-Reiseführer für alle kroatischen Reiseziele. Schauen Sie bald wieder vorbei!",
+      "cta": "Reiseziele durchsuchen"
+    },
+    "themes": {
+      "apartments": "Unterkünfte",
+      "family": "Familie",
+      "beach": "Strände",
+      "budget": "Budget",
+      "luxury": "Luxus",
+      "restaurants": "Essen",
+      "thingsToDo": "Aktivitäten",
+      "hiddenGems": "Geheimtipps",
+      "couples": "Paare",
+      "nightlife": "Nachtleben",
+      "dayTrips": "Tagesausflüge",
+      "weather": "Wetter",
+      "localFood": "Lokale Küche"
+    },
+    "detail": {
+      "breadcrumb": {
+        "home": "Startseite",
+        "guides": "Reiseführer"
+      },
+      "badge": "Entscheidungsführer",
+      "quickAnswer": "Schnelle Antwort",
+      "tableOfContents": "Was ist in diesem Reiseführer",
+      "atAGlance": "Auf einen Blick",
+      "minRead": "{count} Min. Lesezeit",
+      "rating": "4.8",
+      "sections": {
+        "quickFacts": "Schnelle Fakten",
+        "prosCons": "Vor- & Nachteile",
+        "areaComparison": "Gebietsvergleich",
+        "practicalTips": "Praktische Tipps",
+        "faq": "FAQ"
+      },
+      "recommendations": {
+        "bestForFamilies": "Am besten für Familien",
+        "bestForSolo": "Am besten für Alleinreisende",
+        "bestForSeniors": "Am besten für Senioren",
+        "bestForNomads": "Am besten für digitale Nomaden",
+        "bestForLgbt": "Am besten für LGBT+ Reisende",
+        "bestForFirstTime": "Am besten für Erstbesucher",
+        "bestForCouples": "Am besten für Paare",
+        "bestBudget": "Beste Budget-Optionen",
+        "bestLuxury": "Beste Luxus-Optionen",
+        "generic": "Empfehlungen"
+      },
+      "avoid": {
+        "title": "Zu vermeidende Gebiete",
+        "accessibility": "Zu vermeidende Gebiete (Barrierefreiheit)",
+        "parking": "Parkherausforderungen"
+      },
+      "practicalNotes": "Praktische Hinweise",
+      "keyTakeaways": "Wichtige Erkenntnisse",
+      "faq": {
+        "title": "Häufig gestellte Fragen",
+        "subtitle": "Alles, was Sie über {destination} wissen müssen"
+      },
+      "sidebar": {
+        "otherLanguages": "Andere Sprachen",
+        "trustedGuide": "Vertrauenswürdiger Reiseführer",
+        "aiPowered": "KI-gestützte Analyse",
+        "humanReviewed": "Von Menschen geprüft",
+        "regularlyUpdated": "Regelmäßig aktualisiert",
+        "moreAbout": "Mehr über {destination}",
+        "exploreOther": "Entdecken Sie andere Entscheidungsführer für {destination}.",
+        "viewAllGuides": "Alle Reiseführer ansehen"
+      },
+      "prosCons": {
+        "title": "Vor- & Nachteile",
+        "advantages": "Vorteile",
+        "disadvantages": "Nachteile"
+      }
+    }
+  },
+  "regions": {
+    "istria": "Istrien",
+    "kvarner": "Kvarner",
+    "dalmatia": "Dalmatien",
+    "splitDalmatia": "Split-Dalmatien",
+    "dubrovnik": "Region Dubrovnik",
+    "continental": "Kontinental-Kroatien",
+    "zagreb": "Region Zagreb"
+  },
+  "common": {
+    "readMore": "Mehr lesen",
+    "learnMore": "Mehr erfahren",
+    "viewAll": "Alle ansehen",
+    "home": "Startseite",
+    "back": "Zurück",
+    "loading": "Wird geladen...",
+    "error": "Fehler",
+    "notFound": "Nicht gefunden"
+  }
+}

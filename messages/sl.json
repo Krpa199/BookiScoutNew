@@ -1,0 +1,324 @@
+{
+  "metadata": {
+    "siteName": "BookiScout",
+    "siteTagline": "Vodniki za odločitve o Hrvaški",
+    "homeTitle": "BookiScout - Vodniki za potovanja na Hrvaško",
+    "homeDescription": "AI-optimizirani vodniki za odločitve o Hrvaški. Dobite odgovore na prava vprašanja: Se splača? Potrebujem avto? Najboljši čas za obisk?",
+    "guidesTitle": "Turistični vodniki za Hrvaško",
+    "guidesDescription": "Strokovni turistični vodniki za vse hrvaške destinacije. Poiščite nasvete o nastanitvah, plažah, restavracijah in aktivnostih.",
+    "destinationsTitle": "Vse destinacije na Hrvaškem",
+    "destinationsDescription": "Raziščite 60+ destinacij po vsej Hrvaški - od Splita in Dubrovnika do skritih biserov Istre, Dalmacije in otokov."
+  },
+  "nav": {
+    "destinations": "Destinacije",
+    "decisionGuides": "Vodniki za odločitve",
+    "chooseLanguage": "Izberite jezik",
+    "language": "Jezik",
+    "browseGuides": "Prebrskaj vodnike"
+  },
+  "home": {
+    "hero": {
+      "badge": "AI-optimizirane potovalne odločitve",
+      "headline": "Vedite kje, kdaj",
+      "headlinePart2": "in zakaj pred rezervacijo",
+      "subheadline": "Vodniki za odločitve o Hrvaški za prave popotnike. Se splača? Potrebujete avto? Najboljši čas za obisk? Odgovarjamo na vprašanja, ki so pomembna.",
+      "browseGuides": "Prebrskaj vodnike",
+      "exploreDestinations": "Razišči destinacije",
+      "statDestinations": "60+ destinacij",
+      "statGuides": "500+ vodnikov",
+      "statLanguages": "11 jezikov"
+    },
+    "quickAnswers": {
+      "badge": "Hitri odgovori",
+      "title": "Pogosta vprašanja o potovanju na Hrvaško",
+      "subtitle": "Neposredni odgovori, ki jih AI asistenti lahko citirajo. Brez odvečnega, samo dejstva.",
+      "seeAll": "Poglej vse vodnike",
+      "q1": {
+        "question": "Je Hrvaška varna za solo popotnice?",
+        "answer": "Da. Hrvaška je med najvarnejšimi evropskimi destinacijami z nizko stopnjo kriminala. Glavna turistična območja so dobro osvetljena in varna za sprehode ponoči."
+      },
+      "q2": {
+        "question": "Potrebujem avto za raziskovanje Hrvaške?",
+        "answer": "Za obalna mesta (Split, Dubrovnik, Zadar): Ne. Za otoke in nacionalne parke: Priporočljivo, vendar ne nujno."
+      },
+      "q3": {
+        "question": "Najboljši mesec za obisk hrvaške obale?",
+        "answer": "September ponuja idealno ravnovesje: toplo morje (24°C), manj gneče kot avgusta in 20-30% nižje cene."
+      }
+    },
+    "features": {
+      "title": "Zakaj BookiScout?",
+      "subtitle": "Vsebina osredotočena na odločitve, zasnovana za način, kako dejansko načrtujete potovanja",
+      "decisionFirst": {
+        "title": "Vsebina za odločitve",
+        "description": "Odgovarjamo na vprašanja, ki jih dejansko postavljate: \"Se splača?\", \"Potrebujem avto?\", \"Najboljše za družine?\""
+      },
+      "aiVerified": {
+        "title": "AI-preverjana dejstva",
+        "description": "Vsaka trditev je preverjena in citatna. Popolno za AI asistente za neposredno citiranje."
+      },
+      "travelerFocused": {
+        "title": "Osredotočenost na tip popotnika",
+        "description": "Vodniki prilagojeni solo popotnikom, družinam, seniorjem, digitalnim nomadom in drugim."
+      },
+      "noBias": {
+        "title": "Brez pristranskosti",
+        "description": "Čiste potovalne odločitve. Brez pritiska partnerskih programov. Samo iskreni, praktični odgovori."
+      }
+    },
+    "destinations": {
+      "badge": "Razišči po lokaciji",
+      "title": "Top destinacije",
+      "subtitle": "Vodniki za odločitve o najbolj obiskanih krajih Hrvaške",
+      "viewAll": "Poglej vse destinacije"
+    },
+    "guides": {
+      "badge": "Vodniki za odločitve",
+      "title": "Odgovori na priljubljena vprašanja",
+      "subtitle": "Praktični odgovori, ki vam pomagajo odločiti, kje, kdaj in kako obiskati",
+      "viewAll": "Poglej vse vodnike",
+      "viewAllMobile": "Poglej vse vodnike za odločitve"
+    },
+    "newsletter": {
+      "badge": "Bodite obveščeni",
+      "title": "Prejemajte nove vodnike",
+      "subtitle": "Tedenske posodobitve o potovalnih odločitvah za Hrvaško. Brez neželene pošte, samo uporabni odgovori na pogosta vprašanja.",
+      "placeholder": "Vaš e-poštni naslov",
+      "subscribe": "Naroči se",
+      "privacy": "Pridružite se 10.000+ popotnikom. Odjava kadarkoli."
+    }
+  },
+  "footer": {
+    "tagline": "Vodniki za odločitve o Hrvaški",
+    "description": "AI-optimizirani vodniki za Hrvaško. Odgovarjamo na vprašanja, ki jih popotniki dejansko postavljajo: Se splača? Potrebujem avto? Najboljši čas za obisk? Brez pristranskosti, samo iskreni odgovori.",
+    "cta": "Vedite pred rezervacijo",
+    "topDestinations": "Top destinacije",
+    "decisionGuides": "Vodniki za odločitve",
+    "company": "Podjetje",
+    "aboutUs": "O nas",
+    "contact": "Kontakt",
+    "privacy": "Politika zasebnosti",
+    "terms": "Pogoji uporabe",
+    "allDestinations": "Vse destinacije",
+    "soloTravel": "Solo potovanja",
+    "familyGuides": "Vodniki za družine",
+    "doINeedCar": "Potrebujem avto?",
+    "bestTime": "Najboljši čas za obisk",
+    "availableIn": "Na voljo v {count} jezikih",
+    "copyright": "© {year} BookiScout. Narejeno z",
+    "forTravelers": "za popotnike na Hrvaškem.",
+    "aiOptimized": "AI-optimizirano",
+    "decisionFirst": "Odločitve najprej"
+  },
+  "destinations": {
+    "hero": {
+      "badge": "{count}+ destinacij",
+      "title": "Raziščite Hrvaško",
+      "subtitle": "Odkrijte osupljive destinacije vzdolž jadranske obale, starodavna mesta in osupljive nacionalne parke. Poiščite svoj popoln hrvaški oddih.",
+      "statCities": "Mesta in kraji",
+      "statIslands": "Otoki",
+      "statParks": "Nacionalni parki"
+    },
+    "popular": {
+      "badge": "Najbolj priljubljeno",
+      "title": "Top destinacije",
+      "subtitle": "Najbolj obiskani kraji na Hrvaškem"
+    },
+    "byRegion": {
+      "badge": "Prebrskaj po regiji",
+      "title": "Razišči po regijah",
+      "subtitle": "Odkrijte destinacije, organizirane po hrvaških regijah",
+      "count": "{count} destinacija",
+      "countPlural": "{count} destinacij"
+    },
+    "byType": {
+      "title": "Prebrskaj po tipu",
+      "subtitle": "Poiščite destinacije glede na to, kar iščete",
+      "cities": "Mesta",
+      "coastalTowns": "Obalna mesta",
+      "islands": "Otoki",
+      "nationalParks": "Nacionalni parki"
+    },
+    "card": {
+      "popular": "Priljubljeno",
+      "guides": "{count} vodnikov",
+      "explore": "Razišči destinacijo"
+    }
+  },
+  "destinationDetail": {
+    "breadcrumb": {
+      "home": "Domov",
+      "destinations": "Destinacije"
+    },
+    "atAGlance": "{destination} na kratko",
+    "facts": {
+      "region": "Regija",
+      "type": "Tip",
+      "bestSeason": "Najboljša sezona",
+      "maySeptember": "Maj - September",
+      "idealFor": "Idealno za",
+      "allTravelers": "Vse popotnike",
+      "explorers": "Raziskovalce",
+      "priceLevel": "Cenovni razred",
+      "mediumHigh": "Srednje-visok",
+      "medium": "Srednji",
+      "popularity": "Priljubljenost",
+      "topDestination": "Top destinacija",
+      "hiddenGem": "Skriti biser"
+    },
+    "whyVisit": {
+      "title": "Zakaj obiskati {destination}?",
+      "authentic": {
+        "title": "Avtentična izkušnja",
+        "description": "Odkrijte pravo hrvaško kulturo in gostoljubnost"
+      },
+      "waters": {
+        "title": "Kristalno čisto morje",
+        "description": "Plavajte v enem najčistejših morij Sredozemlja"
+      },
+      "history": {
+        "title": "Bogata zgodovina",
+        "description": "Raziščite stoletja sredozemske zgodovine in arhitekture"
+      },
+      "value": {
+        "title": "Odlična vrednost",
+        "description": "Kakovostna izkušnja po dostopnejših cenah kot v zahodni Evropi"
+      }
+    },
+    "guides": {
+      "badge": "AI vodniki",
+      "title": "Vodniki za {destination}",
+      "subtitle": "Primerjajte soseske, poiščite družinam prijazna območja, odkrijte skrite plaže in sprejmite pravo odločitev za svoje potovanje.",
+      "comingSoon": "Kmalu"
+    },
+    "nearby": {
+      "title": "Razišči bližino",
+      "subtitle": "Več destinacij v regiji {region}"
+    },
+    "booking": {
+      "title": "Pripravljeni na rezervacijo?",
+      "subtitle": "Če ste že odločili, katero območje vam ustreza, preverite razpoložljivost spodaj."
+    },
+    "cta": {
+      "exploreGuides": "Razišči vodnike",
+      "compareAreas": "Primerjaj območja"
+    }
+  },
+  "guides": {
+    "hero": {
+      "badge": "AI-podprti potovalni vpogledi",
+      "title": "Turistični vodniki za Hrvaško",
+      "subtitle": "{count} strokovnih vodnikov za hrvaške destinacije v {langCount} jezikih. Odkrijte svoj popoln oddih z AI priporočili.",
+      "subtitleEmpty": "Strokovni vodniki za hrvaške destinacije kmalu prihajajo. AI vpogledi, ki vam pomagajo načrtovati popolno potovanje.",
+      "statGuides": "Vodniki",
+      "statDestinations": "60+ destinacij",
+      "statUpdated": "Vedno posodobljeno"
+    },
+    "listing": {
+      "title": "Najnovejši vodniki",
+      "subtitle": "{count} celovitih vodnikov v slovenščini",
+      "filterByTopic": "Filtriraj po temi"
+    },
+    "byDestination": {
+      "title": "Prebrskaj po destinaciji",
+      "subtitle": "Poiščite vodnike za vaše najljubše hrvaške destinacije",
+      "viewAll": "Poglej vseh {count} destinacij"
+    },
+    "empty": {
+      "title": "Vodniki kmalu",
+      "subtitle": "Ustvarjamo celovite AI vodnike za vse hrvaške destinacije. Vrnite se kmalu!",
+      "cta": "Prebrskaj destinacije"
+    },
+    "themes": {
+      "apartments": "Apartmaji",
+      "family": "Družina",
+      "beach": "Plaže",
+      "budget": "Proračun",
+      "luxury": "Luksuz",
+      "restaurants": "Hrana",
+      "thingsToDo": "Aktivnosti",
+      "hiddenGems": "Skriti biseri",
+      "couples": "Pari",
+      "nightlife": "Nočno življenje",
+      "dayTrips": "Enodnevni izleti",
+      "weather": "Vreme",
+      "localFood": "Lokalna hrana"
+    },
+    "detail": {
+      "breadcrumb": {
+        "home": "Domov",
+        "guides": "Vodniki"
+      },
+      "badge": "Vodnik za odločitve",
+      "quickAnswer": "Hiter odgovor",
+      "tableOfContents": "Kaj je v tem vodniku",
+      "atAGlance": "Na kratko",
+      "minRead": "{count} min branja",
+      "rating": "4.8",
+      "sections": {
+        "quickFacts": "Hitra dejstva",
+        "prosCons": "Prednosti in slabosti",
+        "areaComparison": "Primerjava območij",
+        "practicalTips": "Praktični nasveti",
+        "faq": "Pogosta vprašanja"
+      },
+      "recommendations": {
+        "bestForFamilies": "Najboljše za družine",
+        "bestForSolo": "Najboljše za solo popotnike",
+        "bestForSeniors": "Najboljše za seniorje",
+        "bestForNomads": "Najboljše za digitalne nomade",
+        "bestForLgbt": "Najboljše za LGBT+ popotnike",
+        "bestForFirstTime": "Najboljše za prvič obiskovalce",
+        "bestForCouples": "Najboljše za pare",
+        "bestBudget": "Najboljše proračunske možnosti",
+        "bestLuxury": "Najboljše luksuzne možnosti",
+        "generic": "Priporočila"
+      },
+      "avoid": {
+        "title": "Območja za izogibanje",
+        "accessibility": "Območja za izogibanje (dostopnost)",
+        "parking": "Parkirni izzivi"
+      },
+      "practicalNotes": "Praktične opombe",
+      "keyTakeaways": "Ključne ugotovitve",
+      "faq": {
+        "title": "Pogosto zastavljena vprašanja",
+        "subtitle": "Vse, kar morate vedeti o {destination}"
+      },
+      "sidebar": {
+        "otherLanguages": "Drugi jeziki",
+        "trustedGuide": "Zaupanja vreden vodnik",
+        "aiPowered": "AI-podprta analiza",
+        "humanReviewed": "Pregledano s strani ljudi",
+        "regularlyUpdated": "Redno posodobljeno",
+        "moreAbout": "Več o {destination}",
+        "exploreOther": "Raziščite druge vodnike za {destination}.",
+        "viewAllGuides": "Poglej vse vodnike"
+      },
+      "prosCons": {
+        "title": "Prednosti in slabosti",
+        "advantages": "Prednosti",
+        "disadvantages": "Slabosti"
+      }
+    }
+  },
+  "regions": {
+    "istria": "Istra",
+    "kvarner": "Kvarner",
+    "dalmatia": "Dalmacija",
+    "splitDalmatia": "Splitsko-dalmatinska",
+    "dubrovnik": "Dubrovniška regija",
+    "continental": "Kontinentalna Hrvaška",
+    "zagreb": "Zagrebška regija"
+  },
+  "common": {
+    "readMore": "Preberi več",
+    "learnMore": "Izvedi več",
+    "viewAll": "Poglej vse",
+    "home": "Domov",
+    "back": "Nazaj",
+    "loading": "Nalaganje...",
+    "error": "Napaka",
+    "notFound": "Ni najdeno"
+  }
+}

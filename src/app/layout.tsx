@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/layout/Header";
-import Footer from "@/components/layout/Footer";
+import OrganizationSchema from "@/components/schema/OrganizationSchema";
 
 const inter = Inter({
-  subsets: ["latin"],
+  subsets: ["latin", "latin-ext"],
   display: "swap",
   variable: "--font-inter",
 });
@@ -15,6 +14,14 @@ export const metadata: Metadata = {
   title: {
     default: "BookiScout - Croatia Travel Guide | Apartments, Beaches & More",
     template: "%s | BookiScout",
+  },
+  icons: {
+    icon: [
+      { url: "/icon.png", type: "image/png" },
+    ],
+    apple: [
+      { url: "/apple-icon.png", type: "image/png" },
+    ],
   },
   description:
     "Discover the best apartments, beaches, restaurants, and hidden gems in Croatia. Your ultimate travel guide for Split, Dubrovnik, Zagreb, and more.",
@@ -71,16 +78,6 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  alternates: {
-    canonical: "https://bookiscout.com",
-    languages: {
-      "en-US": "https://bookiscout.com/en",
-      "de-DE": "https://bookiscout.com/de",
-      "it-IT": "https://bookiscout.com/it",
-      "pl-PL": "https://bookiscout.com/pl",
-      "hr-HR": "https://bookiscout.com/hr",
-    },
-  },
 };
 
 export default function RootLayout({
@@ -89,16 +86,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={inter.variable}>
+    <html className={inter.variable}>
       <head>
         {/* AI Search Engine Tags */}
         <meta name="ai-content-declaration" content="human-edited" />
         <link rel="llms" href="/llms.txt" />
       </head>
       <body className="min-h-screen flex flex-col">
-        <Header />
-        <main className="flex-1">{children}</main>
-        <Footer />
+        <OrganizationSchema />
+        {children}
       </body>
     </html>
   );

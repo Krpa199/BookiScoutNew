@@ -1,5 +1,8 @@
-import Link from 'next/link';
-import { MapPin, Sun, Waves, Mountain, Building, TrendingUp, Sparkles } from 'lucide-react';
+'use client';
+
+import { MapPin, Waves, Mountain, Building, TrendingUp, Sparkles } from 'lucide-react';
+import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
 import { Destination } from '@/config/destinations';
 import { getDestinationImage } from '@/config/images';
 
@@ -9,6 +12,9 @@ interface DestinationCardProps {
 }
 
 export default function DestinationCard({ destination, articleCount = 0 }: DestinationCardProps) {
+  const t = useTranslations('destinations.card');
+  const tRegions = useTranslations('regions');
+
   const typeIcons = {
     city: Building,
     town: Building,
@@ -29,6 +35,16 @@ export default function DestinationCard({ destination, articleCount = 0 }: Desti
   const Icon = typeIcons[destination.type];
   const colors = regionColors[destination.region];
   const image = getDestinationImage(destination.slug);
+
+  // Get translated region name
+  const regionTranslationKey = destination.region.replace(/-([a-z])/g, (_, c) => c.toUpperCase());
+  const regionName = (() => {
+    try {
+      return tRegions(regionTranslationKey as any);
+    } catch {
+      return destination.region.replace('-', ' ');
+    }
+  })();
 
   return (
     <Link href={`/destinations/${destination.slug}`} className="group block">
@@ -65,7 +81,7 @@ export default function DestinationCard({ destination, articleCount = 0 }: Desti
             {destination.popular && (
               <div className="px-3 py-1.5 bg-sand-400 backdrop-blur-sm rounded-full text-white text-xs font-bold flex items-center gap-1.5 shadow-soft group-hover:scale-105 transition-transform">
                 <TrendingUp className="w-3.5 h-3.5" />
-                <span>Popular</span>
+                <span>{t('popular')}</span>
               </div>
             )}
           </div>
@@ -83,7 +99,7 @@ export default function DestinationCard({ destination, articleCount = 0 }: Desti
                 <div className="flex items-center gap-2 text-white/90">
                   <MapPin className="w-4 h-4" />
                   <span className="text-sm font-medium capitalize">
-                    {destination.region.replace('-', ' ')}
+                    {regionName}
                   </span>
                 </div>
 
@@ -91,7 +107,7 @@ export default function DestinationCard({ destination, articleCount = 0 }: Desti
                   <div className="flex items-center gap-1.5 px-3 py-1 bg-white/10 backdrop-blur-sm rounded-full">
                     <Sparkles className="w-3.5 h-3.5 text-white" />
                     <span className="text-white text-sm font-semibold">
-                      {articleCount} guides
+                      {t('guides', { count: articleCount })}
                     </span>
                   </div>
                 )}
@@ -100,7 +116,7 @@ export default function DestinationCard({ destination, articleCount = 0 }: Desti
 
             {/* Hover CTA */}
             <div className="flex items-center gap-2 text-white font-semibold opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-300">
-              <span className="text-sm">Explore destination</span>
+              <span className="text-sm">{t('explore')}</span>
               <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>

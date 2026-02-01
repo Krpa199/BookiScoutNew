@@ -1,4 +1,7 @@
 import type { NextConfig } from "next";
+import createNextIntlPlugin from 'next-intl/plugin';
+
+const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
 
 const nextConfig: NextConfig = {
   // Image optimization
@@ -30,9 +33,15 @@ const nextConfig: NextConfig = {
     ];
   },
 
-  // Redirects for language routing
+  // Redirects for backwards compatibility
   async redirects() {
     return [
+      // Old guide URLs redirect to new structure
+      {
+        source: '/guides/:lang/:slug',
+        destination: '/:lang/guides/:slug',
+        permanent: true,
+      },
       {
         source: '/blog/:slug',
         destination: '/blog/en/:slug',
@@ -42,4 +51,4 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default nextConfig;
+export default withNextIntl(nextConfig);
