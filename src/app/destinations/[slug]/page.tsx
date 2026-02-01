@@ -202,7 +202,7 @@ export default async function DestinationPage({ params }: PageProps) {
               Which area in {destination.name} matches your travel style? Compare neighborhoods, beaches, and local insights before you book.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
+            <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto mb-8 sm:mb-0">
               <Link
                 href="#guides"
                 className="w-full sm:w-auto px-8 py-4 bg-white text-ocean-600 font-bold rounded-2xl hover:bg-ocean-50 transition-all shadow-large hover:shadow-xl hover:scale-105 flex items-center justify-center gap-2 whitespace-nowrap"
