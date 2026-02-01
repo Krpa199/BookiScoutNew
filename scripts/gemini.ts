@@ -1,3 +1,6 @@
+import { config } from 'dotenv';
+config({ path: '.env.local' });
+
 import { GoogleGenerativeAI, GenerativeModel } from '@google/generative-ai';
 import { LANGUAGES, LanguageCode } from '../src/config/languages';
 import { Destination, Theme } from '../src/config/destinations';
