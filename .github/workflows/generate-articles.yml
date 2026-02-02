@@ -9,7 +9,7 @@ on:
       articles_count:
         description: 'Number of articles to generate'
         required: false
-        default: '60'
+        default: '75'
         type: string
 
 env:
@@ -19,13 +19,13 @@ env:
   GEMINI_API_KEY_3: ${{ secrets.GEMINI_API_KEY_3 }}
   # Fallback to single key if multi-key not configured
   GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-  # Default to 60 articles per run (uses all 3 keys efficiently)
-  ARTICLES_PER_RUN: ${{ github.event.inputs.articles_count || '60' }}
+  # Default to 75 articles per run (3 keys × 25 Pro calls each)
+  ARTICLES_PER_RUN: ${{ github.event.inputs.articles_count || '75' }}
 
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 240  # 4 hour timeout for large batches
+    timeout-minutes: 360  # 6 hour timeout for large batches
 
     steps:
       - name: Checkout repository
