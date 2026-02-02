@@ -25,7 +25,7 @@ interface ApiKeyManager {
 
 const API_LIMITS = {
   PRO_DAILY: 25,      // Gemini 2.5 Pro free tier limit per key
-  FLASH_DAILY: 1500,  // Gemini 2.0 Flash Lite free tier limit per key
+  FLASH_DAILY: 1000,  // Gemini 2.5 Flash Lite free tier limit per key
   PRO_DELAY_MS: 15000,    // 15 seconds between Pro calls (5 RPM = 12s min)
   FLASH_DELAY_MS: 3000,   // 3 seconds between Flash calls (30 RPM)
   RETRY_DELAY_MS: 60000,  // 1 minute wait on rate limit error
@@ -160,7 +160,7 @@ function getProModel(apiKey: string): GenerativeModel {
 
 function getFlashModel(apiKey: string): GenerativeModel {
   const genAI = new GoogleGenerativeAI(apiKey);
-  return genAI.getGenerativeModel({ model: 'gemini-2.0-flash-lite' });
+  return genAI.getGenerativeModel({ model: 'gemini-2.5-flash-lite-preview-09-2025' });
 }
 
 // =============================================================================
