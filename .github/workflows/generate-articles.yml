@@ -25,7 +25,7 @@ env:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 120  # 2 hour timeout for large batches
+    timeout-minutes: 240  # 4 hour timeout for large batches
 
     steps:
       - name: Checkout repository
