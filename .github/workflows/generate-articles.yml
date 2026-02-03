@@ -2,8 +2,8 @@ name: Generate Daily Articles
 
 on:
   schedule:
-    # Run every day at 9:00 AM UTC (after Google quota reset at 8:00 UTC)
-    - cron: '0 9 * * *'
+    # Run every day at 8:05 AM UTC (9:05 Zagreb time, right after Google quota reset at 8:00 UTC)
+    - cron: '5 8 * * *'
   workflow_dispatch: # Allow manual trigger
     inputs:
       articles_count:
