@@ -192,10 +192,16 @@ export default async function DestinationPage({ params }: Props) {
       try {
         return tThemes(key as any);
       } catch {
-        return theme.replace(/-/g, ' ');
+        return theme.split('-').map(word => {
+          if (word === 'vs') return 'vs';
+          return word.charAt(0).toUpperCase() + word.slice(1);
+        }).join(' ');
       }
     }
-    return theme.replace(/-/g, ' ');
+    return theme.split('-').map(word => {
+      if (word === 'vs') return 'vs';
+      return word.charAt(0).toUpperCase() + word.slice(1);
+    }).join(' ');
   };
 
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://bookiscout.com';
