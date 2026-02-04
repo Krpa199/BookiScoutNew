@@ -10,10 +10,14 @@
 
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
-const PEXELS_API_KEY = process.env.PEXELS_API_KEY || '';
+// Read API keys lazily to allow dotenv to load first
+function getPexelsApiKey(): string {
+  return process.env.PEXELS_API_KEY || '';
+}
 
-// Dedicated Gemini API key for image validation (separate quota from article generation)
-const GEMINI_API_KEY_IMAGE = process.env.GEMINI_API_KEY_IMAGE || '';
+function getGeminiImageApiKey(): string {
+  return process.env.GEMINI_API_KEY_IMAGE || '';
+}
 
 // Enable/disable AI validation (can be toggled for testing)
 const ENABLE_AI_VALIDATION = true;
@@ -184,13 +188,14 @@ function getThemeDescription(theme: string): string {
  * Returns true if image is appropriate for the theme
  */
 async function validateImageWithAI(imageUrl: string, theme: string): Promise<{ valid: boolean; reason: string }> {
-  if (!GEMINI_API_KEY_IMAGE) {
+  const apiKey = getGeminiImageApiKey();
+  if (!apiKey) {
     console.log('    ⚠️ GEMINI_API_KEY_IMAGE not set, skipping AI validation');
     return { valid: true, reason: 'No API key for validation' };
   }
 
   try {
-    const genAI = new GoogleGenerativeAI(GEMINI_API_KEY_IMAGE);
+    const genAI = new GoogleGenerativeAI(apiKey);
     const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' });
 
     // Fetch the image as base64
@@ -262,7 +267,8 @@ ACCEPT images with:
  * Fetch multiple images from Pexels and return all candidates
  */
 async function fetchPexelsImages(theme: string): Promise<PexelsPhoto[]> {
-  if (!PEXELS_API_KEY) {
+  const apiKey = getPexelsApiKey();
+  if (!apiKey) {
     console.warn('⚠️ PEXELS_API_KEY not set, skipping image fetch');
     return [];
   }
@@ -277,7 +283,7 @@ async function fetchPexelsImages(theme: string): Promise<PexelsPhoto[]> {
         `https://api.pexels.com/v1/search?query=${encodeURIComponent(query)}&per_page=15&orientation=landscape`,
         {
           headers: {
-            'Authorization': PEXELS_API_KEY,
+            'Authorization': apiKey,
           },
         }
       );
@@ -318,7 +324,7 @@ export async function fetchPexelsImage(theme: string): Promise<{
   }
 
   // If AI validation is disabled, just return random image
-  if (!ENABLE_AI_VALIDATION || !GEMINI_API_KEY_IMAGE) {
+  if (!ENABLE_AI_VALIDATION || !getGeminiImageApiKey()) {
     const photo = photos[0];
     return {
       url: photo.src.large,

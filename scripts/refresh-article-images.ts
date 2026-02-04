@@ -1,8 +1,12 @@
 /**
  * Refresh all article images with better Croatia-focused queries
  *
- * Run with: PEXELS_API_KEY=xxx npx tsx scripts/refresh-article-images.ts
+ * Run with: npx tsx scripts/refresh-article-images.ts
  */
+
+// Load environment variables BEFORE importing pexels module
+import dotenv from 'dotenv';
+dotenv.config({ path: '.env.local' });
 
 import fs from 'fs';
 import path from 'path';
