@@ -9,7 +9,7 @@ on:
       articles_count:
         description: 'Number of articles to generate'
         required: false
-        default: '75'
+        default: '70'
         type: string
 
 env:
@@ -19,8 +19,8 @@ env:
   GEMINI_API_KEY_3: ${{ secrets.GEMINI_API_KEY_3 }}
   # Fallback to single key if multi-key not configured
   GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-  # Default to 75 articles per run (3 keys × 25 Pro calls each)
-  ARTICLES_PER_RUN: ${{ github.event.inputs.articles_count || '75' }}
+  # Default to 70 articles per run (safer limit to ensure all translations complete)
+  ARTICLES_PER_RUN: ${{ github.event.inputs.articles_count || '70' }}
 
 jobs:
   generate:
