@@ -62,13 +62,13 @@ export default async function HomePage({ params }: Props) {
       image: getArticleImage(locale, 'dubrovnik', 'car-vs-no-car'),
     },
     {
-      title: 'Best Time to Visit Hvar',
-      description: 'Month-by-month guide: crowds, weather, prices, and what each season offers for different traveler types.',
-      destination: 'hvar',
-      destinationName: 'Hvar',
-      theme: 'best-time-to-visit',
+      title: 'Dubrovnik First-Timer\'s Guide',
+      description: 'Essential tips for your first visit: top attractions, costs, where to stay, and insider knowledge for an amazing trip.',
+      destination: 'dubrovnik',
+      destinationName: 'Dubrovnik',
+      theme: 'first-time-visitors',
       language: locale,
-      image: getArticleImage(locale, 'hvar', 'best-time-to-visit'),
+      image: getArticleImage(locale, 'dubrovnik', 'first-time-visitors'),
     },
   ];
 
