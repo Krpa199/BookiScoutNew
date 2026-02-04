@@ -73,5 +73,9 @@
   "language": "hr",
   "generatedAt": "2026-02-04T11:12:20.542Z",
   "lat": 43.5081,
-  "lng": 16.4402
+  "lng": 16.4402,
+  "imageUrl": "https://images.pexels.com/photos/9119786/pexels-photo-9119786.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+  "imageAlt": "A serene nighttime scene of a luxury hotel poolside with empty loungers and a beautifully lit dome.",
+  "imageCredit": "Pavel Danilyuk",
+  "imageCreditUrl": "https://www.pexels.com/@pavel-danilyuk"
 }

@@ -73,5 +73,9 @@
   "language": "it",
   "generatedAt": "2026-02-04T11:34:45.699Z",
   "lat": 43.5081,
-  "lng": 16.4402
+  "lng": 16.4402,
+  "imageUrl": "https://images.pexels.com/photos/9661412/pexels-photo-9661412.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+  "imageAlt": "A sleek car parked in a dimly lit underground parking garage at night.",
+  "imageCredit": "Erik Mclean",
+  "imageCreditUrl": "https://www.pexels.com/@introspectivedsgn"
 }
