@@ -27,6 +27,11 @@ interface GeneratedArticle {
   generatedAt: string;
   lat: number;
   lng: number;
+  // Pexels image fields
+  imageUrl?: string;
+  imageAlt?: string;
+  imageCredit?: string;
+  imageCreditUrl?: string;
 }
 
 type Props = {
@@ -289,6 +294,32 @@ export default async function GuidePage({ params }: Props) {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           {/* Article Content */}
           <article className="lg:col-span-2 space-y-10">
+            {/* Featured Image */}
+            {article.imageUrl && (
+              <figure className="relative rounded-3xl overflow-hidden shadow-soft">
+                <img
+                  src={article.imageUrl}
+                  alt={article.imageAlt || article.title}
+                  className="w-full h-auto object-cover aspect-[16/9]"
+                  loading="eager"
+                />
+                {article.imageCredit && (
+                  <figcaption className="absolute bottom-0 right-0 bg-black/60 text-white text-xs px-3 py-1.5 rounded-tl-lg">
+                    Photo by{' '}
+                    <a
+                      href={article.imageCreditUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="underline hover:text-ocean-200"
+                    >
+                      {article.imageCredit}
+                    </a>
+                    {' '}on Pexels
+                  </figcaption>
+                )}
+              </figure>
+            )}
+
             {/* Quick Answer Box - Important for AI crawlers */}
             <section className="relative bg-gradient-to-br from-ocean-50 to-cyan-50 border-2 border-ocean-200 p-8 rounded-3xl shadow-soft overflow-hidden" aria-labelledby="quick-answer-heading">
               <div className="absolute top-0 right-0 w-32 h-32 bg-ocean-100 rounded-full blur-3xl opacity-50" aria-hidden="true" />

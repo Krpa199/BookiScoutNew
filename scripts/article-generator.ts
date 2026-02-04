@@ -3,6 +3,7 @@ import path from 'path';
 import { generateArticle, translateArticle, ArticleData, getRemainingCalls } from './gemini';
 import { LANGUAGES, LanguageCode } from '../src/config/languages';
 import { Destination, Theme, DESTINATIONS, THEMES } from '../src/config/destinations';
+import { getArticleImage } from './pexels';
 
 const CONTENT_DIR = path.join(process.cwd(), 'src', 'content', 'articles');
 const TRACKING_FILE = path.join(process.cwd(), 'src', 'content', 'generated.json');
@@ -145,10 +146,22 @@ export async function generateDailyArticles(count: number = 10) {
       console.log(`\n🌍 ${destination.name} - ${theme}`);
       console.log(`   Remaining: Pro=${currentRemaining.pro}, Flash=${currentRemaining.flash}`);
 
+      // Fetch image for this theme from Pexels
+      console.log(`  ├─ Fetching image from Pexels...`);
+      const imageData = await getArticleImage(theme);
+      if (imageData) {
+        console.log(`  │  ✅ Image found: ${imageData.imageCredit}`);
+      } else {
+        console.log(`  │  ⚠️ No image found, continuing without`);
+      }
+
       // Generate in English first (uses Pro model)
       console.log(`  ├─ Generating EN (Gemini 2.5 Pro)...`);
       const enArticle = await generateArticle(destination, theme, 'en');
-      saveArticle(enArticle, 'en', destination, theme);
+
+      // Add image data to article
+      const enArticleWithImage = imageData ? { ...enArticle, ...imageData } : enArticle;
+      saveArticle(enArticleWithImage, 'en', destination, theme);
       articlesGenerated++;
 
       // Translate to other languages (uses Flash model)
@@ -168,7 +181,9 @@ export async function generateDailyArticles(count: number = 10) {
         console.log(`  ├─ Translating to ${LANGUAGES[lang].name} (Flash Lite)...`);
         try {
           const translated = await translateArticle(enArticle, lang);
-          saveArticle(translated, lang, destination, theme);
+          // Add image data to translated article (same image for all languages)
+          const translatedWithImage = imageData ? { ...translated, ...imageData } : translated;
+          saveArticle(translatedWithImage, lang, destination, theme);
           translationsGenerated++;
         } catch (error: unknown) {
           const errorMessage = (error as Error).message || '';
@@ -259,10 +274,20 @@ export async function generateSingleArticle(
     throw new Error('No Pro API calls remaining for today');
   }
 
+  // Fetch image for this theme from Pexels
+  console.log(`  ├─ Fetching image from Pexels...`);
+  const imageData = await getArticleImage(theme);
+  if (imageData) {
+    console.log(`  │  ✅ Image found: ${imageData.imageCredit}`);
+  } else {
+    console.log(`  │  ⚠️ No image found, continuing without`);
+  }
+
   // Generate in English first
   console.log(`  ├─ Generating EN (Gemini 2.5 Pro)...`);
   const enArticle = await generateArticle(destination, theme, 'en');
-  saveArticle(enArticle, 'en', destination, theme);
+  const enArticleWithImage = imageData ? { ...enArticle, ...imageData } : enArticle;
+  saveArticle(enArticleWithImage, 'en', destination, theme);
 
   // Translate to other languages
   let translatedCount = 0;
@@ -278,7 +303,8 @@ export async function generateSingleArticle(
     console.log(`  ├─ Translating to ${LANGUAGES[lang].name}...`);
     try {
       const translated = await translateArticle(enArticle, lang);
-      saveArticle(translated, lang, destination, theme);
+      const translatedWithImage = imageData ? { ...translated, ...imageData } : translated;
+      saveArticle(translatedWithImage, lang, destination, theme);
       translatedCount++;
     } catch (error) {
       console.log(`  ⚠️ Translation failed for ${lang}`);
