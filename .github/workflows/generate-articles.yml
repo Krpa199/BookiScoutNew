@@ -19,6 +19,8 @@ env:
   GEMINI_API_KEY_3: ${{ secrets.GEMINI_API_KEY_3 }}
   # Fallback to single key if multi-key not configured
   GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+  # Dedicated key for image validation (separate quota)
+  GEMINI_API_KEY_IMAGE: ${{ secrets.GEMINI_API_KEY_IMAGE }}
   # Pexels API for article images
   PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
   # Default to 70 articles per run (safer limit to ensure all translations complete)
@@ -50,6 +52,7 @@ jobs:
           if [ -n "$GEMINI_API_KEY_1" ]; then echo "  ✅ GEMINI_API_KEY_1 configured"; else echo "  ❌ GEMINI_API_KEY_1 missing"; fi
           if [ -n "$GEMINI_API_KEY_2" ]; then echo "  ✅ GEMINI_API_KEY_2 configured"; else echo "  ❌ GEMINI_API_KEY_2 missing"; fi
           if [ -n "$GEMINI_API_KEY_3" ]; then echo "  ✅ GEMINI_API_KEY_3 configured"; else echo "  ❌ GEMINI_API_KEY_3 missing"; fi
+          if [ -n "$GEMINI_API_KEY_IMAGE" ]; then echo "  ✅ GEMINI_API_KEY_IMAGE configured (image validation)"; else echo "  ⚠️ GEMINI_API_KEY_IMAGE missing (no AI image validation)"; fi
           if [ -n "$PEXELS_API_KEY" ]; then echo "  ✅ PEXELS_API_KEY configured"; else echo "  ❌ PEXELS_API_KEY missing"; fi
           echo ""
           echo "📝 Will generate up to $ARTICLES_PER_RUN articles"
@@ -61,6 +64,7 @@ jobs:
           GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
           GEMINI_API_KEY_3: ${{ secrets.GEMINI_API_KEY_3 }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY_IMAGE: ${{ secrets.GEMINI_API_KEY_IMAGE }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           ARTICLES_PER_RUN: ${{ env.ARTICLES_PER_RUN }}
 

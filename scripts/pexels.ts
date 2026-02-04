@@ -4,9 +4,20 @@
  * Fetches relevant images based on article theme.
  * Prioritizes Croatia-related images, falls back to generic travel images.
  * Rate limit: 200 requests/hour
+ *
+ * Includes AI image validation using Gemini Vision to ensure relevance.
  */
 
+import { GoogleGenerativeAI } from '@google/generative-ai';
+
 const PEXELS_API_KEY = process.env.PEXELS_API_KEY || '';
+
+// Dedicated Gemini API key for image validation (separate quota from article generation)
+const GEMINI_API_KEY_IMAGE = process.env.GEMINI_API_KEY_IMAGE || '';
+
+// Enable/disable AI validation (can be toggled for testing)
+const ENABLE_AI_VALIDATION = true;
+const MAX_VALIDATION_ATTEMPTS = 5; // Try up to 5 images before giving up
 
 interface PexelsPhoto {
   id: number;
@@ -27,6 +38,67 @@ interface PexelsResponse {
   photos: PexelsPhoto[];
   total_results: number;
 }
+
+// Theme descriptions for AI validation
+const THEME_DESCRIPTIONS: Record<string, string> = {
+  // Traveler Types
+  'solo-travel': 'solo traveler, backpacker, single person traveling',
+  'seniors': 'elderly people, senior tourists, retired couple traveling',
+  'digital-nomads': 'person working on laptop, remote work, cafe with computer',
+  'lgbt-friendly': 'LGBT pride, rainbow flag, inclusive travel',
+  'families-with-toddlers': 'family with small children, toddlers, young kids on vacation',
+  'families-with-teens': 'family with teenagers, teens traveling',
+  'first-time-visitors': 'tourists sightseeing, first time visitors, tour group',
+  'couples': 'romantic couple, two people in love, honeymoon',
+
+  // Practical Blockers
+  'car-vs-no-car': 'car driving, road trip, coastal road',
+  'parking-difficulty': 'parking lot, parked cars, street parking',
+  'walkability': 'walking in old town, pedestrian street, cobblestone',
+  'stroller-friendly': 'family with stroller, baby carriage, parents with young children',
+  'wheelchair-access': 'wheelchair accessible, disability access, accessible tourism',
+  'public-transport-quality': 'bus, public transport, city transit',
+  'ferry-connections': 'ferry boat, passenger ship, boat terminal',
+  'airport-access': 'airport, airplane, airport terminal',
+  'wifi-quality': 'laptop in cafe, wifi, working with computer',
+  'mobile-coverage': 'smartphone, mobile phone, tourist using phone',
+
+  // Seasonality
+  'off-season': 'empty streets, quiet town, winter tourism, low season',
+  'shoulder-season': 'spring flowers, autumn colors, pleasant weather',
+  'peak-season': 'crowded streets, many tourists, summer crowds, busy',
+  'weather-by-month': 'sunny weather, blue sky, good weather',
+  'crowds-by-month': 'crowded tourist area, many people, busy streets',
+  'best-time-to-visit': 'perfect weather, beautiful day, ideal conditions',
+
+  // Comparisons - Croatian cities
+  'vs-dubrovnik': 'Dubrovnik city walls, old town Dubrovnik, Croatian coast',
+  'vs-split': 'Split Croatia, Diocletian Palace, Riva promenade',
+  'vs-zadar': 'Zadar Croatia, sea organ, Zadar old town',
+  'vs-istria': 'Istria Croatia, Rovinj, Pula Arena, hilltop village',
+  'vs-zagreb': 'Zagreb Croatia, cathedral, Ban Jelacic square',
+  'coast-vs-inland': 'Croatian coast, Adriatic sea, Plitvice lakes',
+
+  // Legacy Themes
+  'beach': 'beach, sea, swimming, sand or pebbles',
+  'things-to-do': 'tourist activities, sightseeing, attractions',
+  'day-trips': 'excursion, day trip, tour bus, boat trip',
+  'safety': 'safe streets, peaceful town, friendly atmosphere',
+  'nightlife': 'nightclub, bar, evening entertainment, nightlife',
+  'restaurants': 'restaurant, outdoor dining, food, terrace',
+  'budget': 'budget travel, backpacker, affordable',
+  'luxury': 'luxury hotel, premium resort, five star',
+  'pet-friendly': 'dog on beach, pet travel, dog friendly',
+  'hidden-gems': 'secret beach, hidden cove, undiscovered place',
+  'local-food': 'local cuisine, traditional food, seafood platter',
+  'family': 'family vacation, parents with children',
+  'apartments': 'apartment, vacation rental, accommodation',
+  'pool': 'swimming pool, hotel pool, infinity pool',
+  'parking': 'parking lot, car parked',
+  'weather': 'sunny weather, blue sky',
+  'prices': 'money, budget, euro',
+  'transport': 'bus, ferry, transport',
+};
 
 // Theme to search query mapping
 // Queries are specific to Croatia/Mediterranean/Europe to get relevant images
@@ -101,22 +173,101 @@ function getSearchQueries(theme: string): string[] {
 }
 
 /**
- * Fetch image from Pexels API
+ * Get theme description for AI validation
  */
-export async function fetchPexelsImage(theme: string): Promise<{
-  url: string;
-  photographer: string;
-  photographerUrl: string;
-  alt: string;
-} | null> {
+function getThemeDescription(theme: string): string {
+  return THEME_DESCRIPTIONS[theme] || theme.replace(/-/g, ' ');
+}
+
+/**
+ * Validate image using Gemini Vision API
+ * Returns true if image is appropriate for the theme
+ */
+async function validateImageWithAI(imageUrl: string, theme: string): Promise<{ valid: boolean; reason: string }> {
+  if (!GEMINI_API_KEY_IMAGE) {
+    console.log('    ⚠️ GEMINI_API_KEY_IMAGE not set, skipping AI validation');
+    return { valid: true, reason: 'No API key for validation' };
+  }
+
+  try {
+    const genAI = new GoogleGenerativeAI(GEMINI_API_KEY_IMAGE);
+    const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' });
+
+    // Fetch the image as base64
+    const imageResponse = await fetch(imageUrl);
+    const imageBuffer = await imageResponse.arrayBuffer();
+    const base64Image = Buffer.from(imageBuffer).toString('base64');
+    const mimeType = imageResponse.headers.get('content-type') || 'image/jpeg';
+
+    const themeDesc = getThemeDescription(theme);
+
+    const prompt = `You are an image validator for a Croatia travel website.
+
+Analyze this image and determine if it's appropriate for an article about: "${themeDesc}"
+
+The image should:
+1. Be related to travel, tourism, or the specific theme
+2. Look like it could be from Europe/Mediterranean (NOT Middle East, Asia, Africa, or clearly non-European locations)
+3. Be appropriate and professional (no inappropriate content)
+4. Match the theme reasonably well
+
+IMPORTANT: The image does NOT need to be specifically from Croatia - general European/Mediterranean travel images are fine.
+
+Respond with ONLY a JSON object (no markdown):
+{"valid": true/false, "reason": "brief explanation"}
+
+Examples of INVALID images:
+- Arabic/Middle Eastern architecture for a European travel article
+- Asian temples for Croatia tourism
+- Completely unrelated subjects (e.g., food photo for "parking" theme)
+- Inappropriate or offensive content
+
+Examples of VALID images:
+- European old town for any tourism theme
+- Mediterranean coastline for beach/travel themes
+- Generic couple/family photos for respective themes
+- Any professional travel-related image that fits the theme`;
+
+    const result = await model.generateContent([
+      prompt,
+      {
+        inlineData: {
+          mimeType,
+          data: base64Image,
+        },
+      },
+    ]);
+
+    const responseText = result.response.text().trim();
+
+    // Parse JSON response
+    let cleanText = responseText;
+    if (cleanText.startsWith('```json')) cleanText = cleanText.slice(7);
+    if (cleanText.startsWith('```')) cleanText = cleanText.slice(3);
+    if (cleanText.endsWith('```')) cleanText = cleanText.slice(0, -3);
+
+    const validation = JSON.parse(cleanText.trim());
+    return { valid: validation.valid, reason: validation.reason || 'Unknown' };
+  } catch (error) {
+    console.log(`    ⚠️ AI validation error: ${(error as Error).message}`);
+    // On error, accept the image (fail open)
+    return { valid: true, reason: 'Validation error, accepting image' };
+  }
+}
+
+/**
+ * Fetch multiple images from Pexels and return all candidates
+ */
+async function fetchPexelsImages(theme: string): Promise<PexelsPhoto[]> {
   if (!PEXELS_API_KEY) {
     console.warn('⚠️ PEXELS_API_KEY not set, skipping image fetch');
-    return null;
+    return [];
   }
 
   const queries = getSearchQueries(theme);
+  const allPhotos: PexelsPhoto[] = [];
 
-  // Try each query until we find an image
+  // Fetch from multiple queries to have more candidates
   for (const query of queries) {
     try {
       const response = await fetch(
@@ -136,28 +287,82 @@ export async function fetchPexelsImage(theme: string): Promise<{
       const data: PexelsResponse = await response.json();
 
       if (data.photos && data.photos.length > 0) {
-        // Pick a random photo from results for variety
-        const randomIndex = Math.floor(Math.random() * Math.min(data.photos.length, 10));
-        const photo = data.photos[randomIndex];
-
-        return {
-          url: photo.src.large, // Good size for web (940x627)
-          photographer: photo.photographer,
-          photographerUrl: photo.photographer_url,
-          alt: photo.alt || `${theme.replace(/-/g, ' ')} travel photo`,
-        };
+        allPhotos.push(...data.photos);
       }
     } catch (error) {
       console.error(`Error fetching from Pexels for query "${query}":`, error);
     }
   }
 
-  console.warn(`No Pexels image found for theme: ${theme}`);
-  return null;
+  // Shuffle to get variety
+  return allPhotos.sort(() => Math.random() - 0.5);
 }
 
 /**
- * Get image for article (with caching consideration)
+ * Fetch image from Pexels API with AI validation
+ */
+export async function fetchPexelsImage(theme: string): Promise<{
+  url: string;
+  photographer: string;
+  photographerUrl: string;
+  alt: string;
+} | null> {
+  const photos = await fetchPexelsImages(theme);
+
+  if (photos.length === 0) {
+    console.warn(`No Pexels images found for theme: ${theme}`);
+    return null;
+  }
+
+  // If AI validation is disabled, just return random image
+  if (!ENABLE_AI_VALIDATION || !GEMINI_API_KEY_IMAGE) {
+    const photo = photos[0];
+    return {
+      url: photo.src.large,
+      photographer: photo.photographer,
+      photographerUrl: photo.photographer_url,
+      alt: photo.alt || `${theme.replace(/-/g, ' ')} travel photo`,
+    };
+  }
+
+  // Try images until we find a valid one
+  const maxAttempts = Math.min(MAX_VALIDATION_ATTEMPTS, photos.length);
+
+  for (let i = 0; i < maxAttempts; i++) {
+    const photo = photos[i];
+    console.log(`    🔍 Validating image ${i + 1}/${maxAttempts}...`);
+
+    const validation = await validateImageWithAI(photo.src.large, theme);
+
+    if (validation.valid) {
+      console.log(`    ✅ Image approved: ${validation.reason}`);
+      return {
+        url: photo.src.large,
+        photographer: photo.photographer,
+        photographerUrl: photo.photographer_url,
+        alt: photo.alt || `${theme.replace(/-/g, ' ')} travel photo`,
+      };
+    } else {
+      console.log(`    ❌ Image rejected: ${validation.reason}`);
+    }
+
+    // Small delay between validation attempts
+    await new Promise(resolve => setTimeout(resolve, 500));
+  }
+
+  // If no valid image found, return the first one anyway (better than nothing)
+  console.log(`    ⚠️ No validated image found, using first result`);
+  const fallbackPhoto = photos[0];
+  return {
+    url: fallbackPhoto.src.large,
+    photographer: fallbackPhoto.photographer,
+    photographerUrl: fallbackPhoto.photographer_url,
+    alt: fallbackPhoto.alt || `${theme.replace(/-/g, ' ')} travel photo`,
+  };
+}
+
+/**
+ * Get image for article (with AI validation)
  */
 export async function getArticleImage(theme: string): Promise<{
   imageUrl: string;
