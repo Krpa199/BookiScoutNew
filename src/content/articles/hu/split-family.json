@@ -74,8 +74,9 @@
   "generatedAt": "2026-02-04T11:24:50.247Z",
   "lat": 43.5081,
   "lng": 16.4402,
-  "imageUrl": "https://images.pexels.com/photos/33350152/pexels-photo-33350152.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-  "imageAlt": "Hotel Zora in Primošten, Croatia, featuring palm trees and parked cars, under a bright summer sky.",
-  "imageCredit": "Vladimir Srajber",
-  "imageCreditUrl": "https://www.pexels.com/@vladimirsrajber"
+  "imageUrl": "https://images.unsplash.com/photo-1716757430799-1a89cdd7b3ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njg0MTh8MHwxfHNlYXJjaHwyfHxTcGxpdCUyMGZhbWlseXxlbnwwfDB8fHwxNzcwMjQyMDM1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+  "imageAlt": "a family of swans swimming in a pond",
+  "imageCredit": "Erik Karits",
+  "imageCreditUrl": "https://unsplash.com/@erik_karits",
+  "imageSource": "unsplash"
 }

@@ -21,8 +21,10 @@ env:
   GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
   # Dedicated key for image validation (separate quota)
   GEMINI_API_KEY_IMAGE: ${{ secrets.GEMINI_API_KEY_IMAGE }}
-  # Pexels API for article images
+  # Image providers (Pexels, Unsplash, Pixabay)
   PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+  UNSPLASH_API_KEY: ${{ secrets.UNSPLASH_API_KEY }}
+  PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
   # Default to 70 articles per run (safer limit to ensure all translations complete)
   ARTICLES_PER_RUN: ${{ github.event.inputs.articles_count || '70' }}
 
@@ -53,7 +55,9 @@ jobs:
           if [ -n "$GEMINI_API_KEY_2" ]; then echo "  ✅ GEMINI_API_KEY_2 configured"; else echo "  ❌ GEMINI_API_KEY_2 missing"; fi
           if [ -n "$GEMINI_API_KEY_3" ]; then echo "  ✅ GEMINI_API_KEY_3 configured"; else echo "  ❌ GEMINI_API_KEY_3 missing"; fi
           if [ -n "$GEMINI_API_KEY_IMAGE" ]; then echo "  ✅ GEMINI_API_KEY_IMAGE configured (image validation)"; else echo "  ⚠️ GEMINI_API_KEY_IMAGE missing (no AI image validation)"; fi
-          if [ -n "$PEXELS_API_KEY" ]; then echo "  ✅ PEXELS_API_KEY configured"; else echo "  ❌ PEXELS_API_KEY missing"; fi
+          if [ -n "$PEXELS_API_KEY" ]; then echo "  ✅ PEXELS_API_KEY configured"; else echo "  ⚠️ PEXELS_API_KEY missing"; fi
+          if [ -n "$UNSPLASH_API_KEY" ]; then echo "  ✅ UNSPLASH_API_KEY configured"; else echo "  ⚠️ UNSPLASH_API_KEY missing"; fi
+          if [ -n "$PIXABAY_API_KEY" ]; then echo "  ✅ PIXABAY_API_KEY configured"; else echo "  ⚠️ PIXABAY_API_KEY missing"; fi
           echo ""
           echo "📝 Will generate up to $ARTICLES_PER_RUN articles"
 
@@ -66,6 +70,8 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_API_KEY_IMAGE: ${{ secrets.GEMINI_API_KEY_IMAGE }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          UNSPLASH_API_KEY: ${{ secrets.UNSPLASH_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
           ARTICLES_PER_RUN: ${{ env.ARTICLES_PER_RUN }}
 
       - name: Check for changes

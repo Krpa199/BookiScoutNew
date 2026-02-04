@@ -3,7 +3,7 @@ import path from 'path';
 import { generateArticle, translateArticle, ArticleData, getRemainingCalls } from './gemini';
 import { LANGUAGES, LanguageCode } from '../src/config/languages';
 import { Destination, Theme, DESTINATIONS, THEMES } from '../src/config/destinations';
-import { getArticleImage } from './pexels';
+import { getArticleImage } from './image-service';
 
 const CONTENT_DIR = path.join(process.cwd(), 'src', 'content', 'articles');
 const TRACKING_FILE = path.join(process.cwd(), 'src', 'content', 'generated.json');
@@ -146,11 +146,11 @@ export async function generateDailyArticles(count: number = 10) {
       console.log(`\n🌍 ${destination.name} - ${theme}`);
       console.log(`   Remaining: Pro=${currentRemaining.pro}, Flash=${currentRemaining.flash}`);
 
-      // Fetch image for this theme from Pexels
-      console.log(`  ├─ Fetching image from Pexels...`);
-      const imageData = await getArticleImage(theme);
+      // Fetch image for this theme from multiple providers
+      console.log(`  ├─ Fetching image...`);
+      const imageData = await getArticleImage(theme, destination.id);
       if (imageData) {
-        console.log(`  │  ✅ Image found: ${imageData.imageCredit}`);
+        console.log(`  │  ✅ Image found (${imageData.imageSource}): ${imageData.imageCredit}`);
       } else {
         console.log(`  │  ⚠️ No image found, continuing without`);
       }
