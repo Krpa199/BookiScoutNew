@@ -950,6 +950,29 @@ Return only valid JSON, no markdown code blocks.
     if (cleanText.endsWith('```')) cleanText = cleanText.slice(0, -3);
 
     const translated = JSON.parse(cleanText);
+
+    // Validate that content is not JSON (Gemini sometimes returns nested JSON)
+    if (translated.content && typeof translated.content === 'string') {
+      const contentTrimmed = translated.content.trim();
+      // Check if content looks like JSON (starts with { or ```)
+      if (contentTrimmed.startsWith('```json') || contentTrimmed.startsWith('{"')) {
+        console.log(`  ⚠️ Translation returned nested JSON in content field, using original`);
+        return article;
+      }
+    }
+
+    // Validate that quickAnswer is not empty when original has it
+    if (article.quickAnswer && (!translated.quickAnswer || translated.quickAnswer.trim() === '')) {
+      console.log(`  ⚠️ Translation lost quickAnswer field, using original`);
+      return article;
+    }
+
+    // Validate that faq is preserved
+    if (article.faq && article.faq.length > 0 && (!translated.faq || translated.faq.length === 0)) {
+      console.log(`  ⚠️ Translation lost faq field, using original`);
+      return article;
+    }
+
     return {
       ...article,
       ...translated,
@@ -1041,7 +1064,28 @@ function parseArticleResponse(
       cleanText = cleanText.slice(0, -3);
     }
 
-    const data = JSON.parse(cleanText);
+    let data = JSON.parse(cleanText);
+
+    // Check if content field contains nested JSON (Gemini bug)
+    if (data.content && typeof data.content === 'string') {
+      const contentTrimmed = data.content.trim();
+      if (contentTrimmed.startsWith('```json') || contentTrimmed.startsWith('{"')) {
+        // Content is nested JSON - parse it and use the inner data
+        console.log(`  ⚠️ Detected nested JSON in content, extracting inner data...`);
+        let innerJson = contentTrimmed;
+        if (innerJson.startsWith('```json')) innerJson = innerJson.slice(7);
+        if (innerJson.startsWith('```')) innerJson = innerJson.slice(3);
+        if (innerJson.endsWith('```')) innerJson = innerJson.slice(0, -3);
+
+        try {
+          const innerData = JSON.parse(innerJson);
+          // Use the inner data instead
+          data = innerData;
+        } catch {
+          console.log(`  ⚠️ Failed to parse inner JSON, using as content`);
+        }
+      }
+    }
 
     return {
       title: data.title || `${theme} in ${destination.name} 2026`,
