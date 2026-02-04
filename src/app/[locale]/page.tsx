@@ -4,6 +4,30 @@ import { Link } from '@/i18n/navigation';
 import DestinationCard from '@/components/ui/DestinationCard';
 import ArticleCard from '@/components/ui/ArticleCard';
 import { DESTINATIONS } from '@/config/destinations';
+import fs from 'fs';
+import path from 'path';
+
+// Helper to get article image from JSON file
+function getArticleImage(locale: string, destination: string, theme: string): string | undefined {
+  try {
+    const filePath = path.join(process.cwd(), 'src', 'content', 'articles', locale, `${destination}-${theme}.json`);
+    if (fs.existsSync(filePath)) {
+      const content = fs.readFileSync(filePath, 'utf-8');
+      const article = JSON.parse(content);
+      return article.imageUrl;
+    }
+    // Fallback to English if locale version doesn't exist
+    const enPath = path.join(process.cwd(), 'src', 'content', 'articles', 'en', `${destination}-${theme}.json`);
+    if (fs.existsSync(enPath)) {
+      const content = fs.readFileSync(enPath, 'utf-8');
+      const article = JSON.parse(content);
+      return article.imageUrl;
+    }
+  } catch {
+    // Ignore errors
+  }
+  return undefined;
+}
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -26,6 +50,7 @@ export default async function HomePage({ params }: Props) {
       destinationName: 'Split',
       theme: 'solo-travel',
       language: locale,
+      image: getArticleImage(locale, 'split', 'solo-travel'),
     },
     {
       title: 'Do You Need a Car in Dubrovnik?',
@@ -34,6 +59,7 @@ export default async function HomePage({ params }: Props) {
       destinationName: 'Dubrovnik',
       theme: 'car-vs-no-car',
       language: locale,
+      image: getArticleImage(locale, 'dubrovnik', 'car-vs-no-car'),
     },
     {
       title: 'Best Time to Visit Hvar',
@@ -42,6 +68,7 @@ export default async function HomePage({ params }: Props) {
       destinationName: 'Hvar',
       theme: 'best-time-to-visit',
       language: locale,
+      image: getArticleImage(locale, 'hvar', 'best-time-to-visit'),
     },
   ];
 

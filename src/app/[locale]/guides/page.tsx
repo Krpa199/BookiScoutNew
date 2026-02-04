@@ -29,6 +29,7 @@ interface ArticlePreview {
   theme: string;
   slug: string;
   generatedAt: string;
+  imageUrl?: string;
 }
 
 // Get all available articles
@@ -51,6 +52,7 @@ function getAllArticles(locale: string): ArticlePreview[] {
             theme: data.theme,
             slug: file.replace('.json', ''),
             generatedAt: data.generatedAt,
+            imageUrl: data.imageUrl,
           });
         }
       }
@@ -250,25 +252,36 @@ export default async function GuidesPage({ params }: Props) {
                     >
                       <article className="bg-white rounded-3xl overflow-hidden shadow-soft hover:shadow-ocean transition-all duration-500 border border-slate-100 hover:border-ocean-200 h-full flex flex-col hover:-translate-y-1">
                         <div className="relative h-52 overflow-hidden">
-                          <div className={`absolute inset-0 bg-gradient-to-br ${style.gradient}`}>
-                            <div className="absolute inset-0 flex items-center justify-center">
-                              <Sparkles className="w-16 h-16 text-white/30" />
+                          {article.imageUrl ? (
+                            <img
+                              src={article.imageUrl}
+                              alt={article.title}
+                              className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                            />
+                          ) : (
+                            <div className={`absolute inset-0 bg-gradient-to-br ${style.gradient}`}>
+                              <div className="absolute inset-0 flex items-center justify-center">
+                                <Sparkles className="w-16 h-16 text-white/30" />
+                              </div>
+                              <div className="absolute inset-0 opacity-10">
+                                <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+                                  <defs>
+                                    <pattern id={`pattern-${article.slug}`} x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+                                      <circle cx="10" cy="10" r="1.5" fill="white" />
+                                      <circle cx="30" cy="30" r="1" fill="white" />
+                                    </pattern>
+                                  </defs>
+                                  <rect width="100%" height="100%" fill={`url(#pattern-${article.slug})`} />
+                                </svg>
+                              </div>
                             </div>
-                            <div className="absolute inset-0 opacity-10">
-                              <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
-                                <defs>
-                                  <pattern id={`pattern-${article.slug}`} x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
-                                    <circle cx="10" cy="10" r="1.5" fill="white" />
-                                    <circle cx="30" cy="30" r="1" fill="white" />
-                                  </pattern>
-                                </defs>
-                                <rect width="100%" height="100%" fill={`url(#pattern-${article.slug})`} />
-                              </svg>
-                            </div>
-                          </div>
+                          )}
+
+                          {/* Gradient overlay for better text readability */}
+                          <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
 
                           <div className="absolute top-4 left-4">
-                            <span className={`px-3 py-1.5 rounded-xl text-xs font-bold ${style.bg} ${style.text} shadow-soft`}>
+                            <span className={`px-3 py-1.5 rounded-xl text-xs font-bold ${style.bg} ${style.text} shadow-soft backdrop-blur-sm`}>
                               {getThemeLabel(article.theme)}
                             </span>
                           </div>
