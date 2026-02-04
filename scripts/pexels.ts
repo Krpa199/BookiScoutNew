@@ -201,32 +201,35 @@ async function validateImageWithAI(imageUrl: string, theme: string): Promise<{ v
 
     const themeDesc = getThemeDescription(theme);
 
-    const prompt = `You are an image validator for a Croatia travel website.
+    const prompt = `You are an image validator for a Croatia travel website. Croatia is a European country with Catholic/Christian heritage.
 
 Analyze this image and determine if it's appropriate for an article about: "${themeDesc}"
 
-The image should:
-1. Be related to travel, tourism, or the specific theme
-2. Look like it could be from Europe/Mediterranean (NOT Middle East, Asia, Africa, or clearly non-European locations)
-3. Be appropriate and professional (no inappropriate content)
-4. Match the theme reasonably well
-
-IMPORTANT: The image does NOT need to be specifically from Croatia - general European/Mediterranean travel images are fine.
+STRICT REQUIREMENTS - The image must:
+1. Look European/Mediterranean (architecture, landscape, style)
+2. Feature people who appear European/Caucasian (if people are visible)
+3. NOT contain any Islamic/Middle Eastern elements (mosques, minarets, Arabic text, hijabs)
+4. NOT contain Asian, African, or other non-European architectural styles
+5. Match the article theme reasonably well
+6. Be professional and appropriate
 
 Respond with ONLY a JSON object (no markdown):
 {"valid": true/false, "reason": "brief explanation"}
 
-Examples of INVALID images:
-- Arabic/Middle Eastern architecture for a European travel article
-- Asian temples for Croatia tourism
-- Completely unrelated subjects (e.g., food photo for "parking" theme)
-- Inappropriate or offensive content
+REJECT images with:
+- Mosques, minarets, or Islamic architecture
+- Arabic/Middle Eastern cityscapes or buildings
+- Asian temples, pagodas, or Asian architecture
+- People in religious Islamic clothing (hijab, niqab)
+- African architecture or landscapes
+- Any non-European cultural elements
 
-Examples of VALID images:
-- European old town for any tourism theme
-- Mediterranean coastline for beach/travel themes
-- Generic couple/family photos for respective themes
-- Any professional travel-related image that fits the theme`;
+ACCEPT images with:
+- European old towns, churches, cathedrals
+- Mediterranean coastlines, beaches
+- European-looking people (tourists, families, couples)
+- Croatian/European architecture and landscapes
+- Generic travel scenes that look European`;
 
     const result = await model.generateContent([
       prompt,
