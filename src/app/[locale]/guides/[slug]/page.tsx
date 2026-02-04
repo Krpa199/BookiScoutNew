@@ -111,22 +111,47 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 // Simple markdown to HTML converter
 function renderMarkdown(content: string): string {
-  return content
-    // Headers
-    .replace(/^### (.*$)/gim, '<h3 class="text-xl font-bold text-slate-900 mt-8 mb-4">$1</h3>')
-    .replace(/^## (.*$)/gim, '<h2 class="text-2xl font-bold text-slate-900 mt-10 mb-5">$1</h2>')
-    // Bold
-    .replace(/\*\*(.*?)\*\*/g, '<strong class="font-semibold text-slate-900">$1</strong>')
-    // Italic
-    .replace(/\*(.*?)\*/g, '<em>$1</em>')
-    // Unordered lists
-    .replace(/^\*   (.*$)/gim, '<li class="flex items-start gap-3 mb-2"><span class="w-2 h-2 bg-ocean-500 rounded-full mt-2 flex-shrink-0"></span><span>$1</span></li>')
-    // Paragraphs (double newlines)
-    .replace(/\n\n/g, '</p><p class="text-slate-700 leading-relaxed mb-4">')
-    // Single newlines in lists context
-    .replace(/\n(?=<li)/g, '')
-    // Wrap lists
-    .replace(/(<li.*?<\/li>)+/g, '<ul class="space-y-2 my-6">$&</ul>');
+  // Split content into lines for proper header detection
+  const lines = content.split('\n');
+  const processedLines: string[] = [];
+
+  for (let i = 0; i < lines.length; i++) {
+    let line = lines[i];
+
+    // Headers - must be at start of line
+    if (line.startsWith('#### ')) {
+      line = `<h4 class="text-lg font-bold text-slate-900 mt-6 mb-3">${line.slice(5)}</h4>`;
+    } else if (line.startsWith('### ')) {
+      line = `<h3 class="text-xl font-bold text-slate-900 mt-8 mb-4">${line.slice(4)}</h3>`;
+    } else if (line.startsWith('## ')) {
+      line = `<h2 class="text-2xl font-bold text-slate-900 mt-10 mb-5">${line.slice(3)}</h2>`;
+    } else if (line.startsWith('# ')) {
+      line = `<h1 class="text-3xl font-bold text-slate-900 mt-12 mb-6">${line.slice(2)}</h1>`;
+    } else if (line.startsWith('*   ')) {
+      // List item
+      line = `<li class="flex items-start gap-3 mb-2"><span class="w-2 h-2 bg-ocean-500 rounded-full mt-2 flex-shrink-0"></span><span>${line.slice(4)}</span></li>`;
+    }
+
+    processedLines.push(line);
+  }
+
+  let html = processedLines.join('\n');
+
+  // Bold text
+  html = html.replace(/\*\*(.*?)\*\*/g, '<strong class="font-semibold text-slate-900">$1</strong>');
+  // Italic text (but not list items)
+  html = html.replace(/(?<!\*)\*([^*]+)\*(?!\*)/g, '<em>$1</em>');
+
+  // Wrap consecutive list items in ul
+  html = html.replace(/(<li[^>]*>.*?<\/li>\n?)+/g, '<ul class="space-y-2 my-6">$&</ul>');
+
+  // Convert double newlines to paragraph breaks
+  html = html.replace(/\n\n+/g, '</p><p class="text-slate-700 leading-relaxed mb-4">');
+
+  // Remove single newlines within paragraphs (but preserve those after block elements)
+  html = html.replace(/(?<!>)\n(?!<)/g, ' ');
+
+  return html;
 }
 
 export default async function GuidePage({ params }: Props) {
