@@ -1,7 +1,8 @@
 /**
  * Pexels API Service for Article Images
  *
- * Fetches relevant images based on article theme (not destination).
+ * Fetches relevant images based on article theme.
+ * Prioritizes Croatia-related images, falls back to generic travel images.
  * Rate limit: 200 requests/hour
  */
 
@@ -27,69 +28,70 @@ interface PexelsResponse {
   total_results: number;
 }
 
-// Theme to search query mapping - focused on theme, NOT destination
+// Theme to search query mapping
+// First query includes Croatia, fallback queries are generic but relevant
 const THEME_SEARCH_QUERIES: Record<string, string[]> = {
   // Traveler Types
-  'solo-travel': ['solo traveler backpack', 'person traveling alone', 'solo adventure'],
-  'seniors': ['senior couple vacation', 'elderly tourists', 'retired travelers'],
-  'digital-nomads': ['laptop cafe travel', 'remote work beach', 'digital nomad'],
-  'lgbt-friendly': ['pride travel', 'rainbow flag vacation', 'diverse couples travel'],
-  'families-with-toddlers': ['family vacation kids', 'toddler beach', 'family travel children'],
-  'families-with-teens': ['family teenagers vacation', 'teen travel adventure', 'family holiday teens'],
-  'first-time-visitors': ['tourist sightseeing', 'first trip europe', 'tourist map'],
-  'couples': ['romantic couple travel', 'couple vacation sunset', 'honeymoon romantic'],
+  'solo-travel': ['solo traveler europe', 'woman traveling alone city', 'backpacker exploring old town'],
+  'seniors': ['senior couple mediterranean vacation', 'elderly tourists europe', 'retired couple travel'],
+  'digital-nomads': ['laptop cafe seaside', 'remote work mediterranean', 'freelancer working travel'],
+  'lgbt-friendly': ['pride parade europe', 'diverse couples vacation', 'lgbt travel'],
+  'families-with-toddlers': ['family toddler beach vacation', 'parents children mediterranean', 'family holiday seaside'],
+  'families-with-teens': ['family teenagers vacation europe', 'teen travel adventure', 'family sightseeing city'],
+  'first-time-visitors': ['tourists old town europe', 'sightseeing mediterranean city', 'first time traveler'],
+  'couples': ['romantic couple mediterranean', 'couple sunset sea', 'romantic vacation europe'],
 
   // Practical Blockers
-  'car-vs-no-car': ['car road trip', 'driving vacation', 'rental car scenic'],
-  'parking-difficulty': ['parking lot city', 'street parking', 'car parked city'],
-  'walkability': ['walking city tour', 'pedestrian street', 'walking cobblestone'],
-  'stroller-friendly': ['stroller travel', 'baby carriage city', 'family stroller walk'],
-  'wheelchair-access': ['wheelchair travel', 'accessible tourism', 'wheelchair ramp'],
-  'public-transport-quality': ['city bus', 'public transport', 'bus stop city'],
-  'ferry-connections': ['ferry boat sea', 'passenger ferry', 'boat harbor'],
-  'airport-access': ['airport terminal', 'airplane travel', 'airport departure'],
-  'wifi-quality': ['wifi cafe laptop', 'internet connection', 'mobile phone travel'],
-  'mobile-coverage': ['smartphone travel', 'mobile phone vacation', 'phone signal'],
+  'car-vs-no-car': ['driving coastal road', 'car road trip mediterranean', 'scenic drive coast'],
+  'parking-difficulty': ['parking old town europe', 'street parking mediterranean', 'parking city center'],
+  'walkability': ['walking cobblestone street europe', 'pedestrian old town', 'tourists walking city'],
+  'stroller-friendly': ['family stroller european city', 'parents baby carriage old town', 'family walk city'],
+  'wheelchair-access': ['wheelchair accessible travel', 'accessible tourism europe', 'wheelchair ramp city'],
+  'public-transport-quality': ['bus mediterranean city', 'public transport europe', 'city bus tourists'],
+  'ferry-connections': ['ferry adriatic sea', 'passenger ferry mediterranean', 'boat harbor croatia'],
+  'airport-access': ['airport europe', 'airplane landing coast', 'airport terminal travel'],
+  'wifi-quality': ['wifi cafe europe', 'laptop coffee shop', 'internet cafe travel'],
+  'mobile-coverage': ['smartphone travel europe', 'tourist using phone', 'mobile phone vacation'],
 
   // Seasonality
-  'off-season': ['quiet beach winter', 'empty tourist place', 'low season travel'],
-  'shoulder-season': ['spring travel europe', 'autumn vacation', 'mild weather travel'],
-  'peak-season': ['crowded beach summer', 'busy tourist season', 'summer vacation crowd'],
-  'weather-by-month': ['sunny weather travel', 'weather forecast', 'blue sky vacation'],
-  'crowds-by-month': ['tourist crowd', 'busy street tourists', 'popular destination'],
-  'best-time-to-visit': ['perfect weather vacation', 'ideal travel time', 'sunny destination'],
+  'off-season': ['empty beach winter', 'quiet old town europe', 'low season mediterranean'],
+  'shoulder-season': ['spring mediterranean', 'autumn europe travel', 'pleasant weather coast'],
+  'peak-season': ['crowded old town summer', 'tourists summer europe', 'busy mediterranean street'],
+  'weather-by-month': ['sunny mediterranean', 'blue sky coast', 'perfect weather sea'],
+  'crowds-by-month': ['tourist crowd old town', 'busy street europe summer', 'crowded landmark'],
+  'best-time-to-visit': ['beautiful weather mediterranean', 'perfect day seaside', 'sunny coast europe'],
 
-  // Comparisons
-  'vs-dubrovnik': ['old town walls', 'medieval city coast', 'historic fortress sea'],
-  'vs-split': ['ancient palace ruins', 'roman architecture', 'historic waterfront'],
-  'vs-zadar': ['sea organ sunset', 'coastal city', 'waterfront promenade'],
-  'vs-istria': ['hilltop village', 'vineyard coast', 'mediterranean town'],
-  'vs-zagreb': ['european capital city', 'city square cathedral', 'urban architecture'],
-  'coast-vs-inland': ['coast versus mountains', 'beach vs hills', 'seaside landscape'],
+  // Comparisons - focus on cityscapes and architecture
+  'vs-dubrovnik': ['dubrovnik croatia walls', 'old town walls sea', 'medieval fortress coast'],
+  'vs-split': ['split croatia palace', 'roman ruins coast', 'ancient palace mediterranean'],
+  'vs-zadar': ['zadar croatia sunset', 'sea organ croatia', 'waterfront promenade adriatic'],
+  'vs-istria': ['istria croatia hilltop', 'istrian village vineyard', 'mediterranean hilltop town'],
+  'vs-zagreb': ['zagreb croatia cathedral', 'european capital square', 'central europe city'],
+  'coast-vs-inland': ['coast mountains croatia', 'adriatic sea hills', 'seaside landscape'],
 
   // Legacy Themes
-  'beach': ['beach mediterranean', 'sandy beach turquoise', 'beach umbrella sun'],
-  'things-to-do': ['tourist activities', 'sightseeing tour', 'vacation activities'],
-  'day-trips': ['day trip excursion', 'scenic drive', 'tour bus destination'],
-  'safety': ['safe travel', 'tourist police', 'secure vacation'],
-  'nightlife': ['nightclub party', 'bar nightlife', 'evening entertainment'],
-  'restaurants': ['restaurant dining', 'outdoor cafe', 'food table restaurant'],
-  'budget': ['backpacker hostel', 'budget travel', 'cheap accommodation'],
-  'luxury': ['luxury hotel pool', 'five star resort', 'premium vacation'],
-  'pet-friendly': ['dog travel vacation', 'pet friendly hotel', 'traveling with dog'],
-  'hidden-gems': ['secret beach', 'hidden village', 'off beaten path'],
-  'local-food': ['local cuisine dish', 'traditional food', 'street food market'],
-  'family': ['family vacation beach', 'family holiday', 'parents kids travel'],
-  'apartments': ['vacation apartment', 'holiday rental', 'apartment balcony view'],
-  'pool': ['swimming pool hotel', 'resort pool', 'pool vacation'],
-  'parking': ['parking garage', 'car park', 'parking space'],
-  'weather': ['sunny weather', 'blue sky clouds', 'perfect weather day'],
-  'prices': ['money travel budget', 'wallet vacation', 'travel expenses'],
-  'transport': ['transportation travel', 'bus train', 'public transit'],
+  'beach': ['beach croatia adriatic', 'turquoise water mediterranean', 'pebble beach coast'],
+  'things-to-do': ['tourists sightseeing europe', 'activities mediterranean', 'vacation activities coast'],
+  'day-trips': ['scenic drive coast', 'excursion boat mediterranean', 'day trip destination'],
+  'safety': ['safe european city', 'tourist friendly town', 'peaceful old town'],
+  'nightlife': ['nightlife mediterranean', 'bar street europe', 'evening entertainment coast'],
+  'restaurants': ['outdoor restaurant mediterranean', 'seafood restaurant coast', 'dining terrace sea view'],
+  'budget': ['backpacker europe', 'budget travel mediterranean', 'hostel accommodation'],
+  'luxury': ['luxury hotel mediterranean', 'five star resort coast', 'premium sea view'],
+  'pet-friendly': ['dog friendly beach', 'pet travel europe', 'dog vacation coast'],
+  'hidden-gems': ['secret beach croatia', 'hidden cove mediterranean', 'off beaten path'],
+  'local-food': ['croatian food traditional', 'mediterranean cuisine seafood', 'local dish restaurant'],
+  'family': ['family vacation mediterranean', 'parents children beach', 'family holiday europe'],
+  'apartments': ['apartment sea view balcony', 'vacation rental mediterranean', 'holiday apartment coast'],
+  'pool': ['swimming pool hotel sea', 'infinity pool coast', 'resort pool mediterranean'],
+  'parking': ['parking city europe', 'car parked old town', 'parking garage'],
+  'weather': ['sunny mediterranean weather', 'blue sky sea', 'beautiful day coast'],
+  'prices': ['euro money travel', 'budget planning vacation', 'travel expenses'],
+  'transport': ['bus train europe', 'public transportation city', 'ferry boat coast'],
 };
 
 // Fallback queries if theme not found
-const FALLBACK_QUERIES = ['travel vacation', 'mediterranean coast', 'tourism holiday'];
+const FALLBACK_QUERIES = ['croatia adriatic', 'mediterranean coast travel', 'european vacation'];
 
 /**
  * Get search queries for a theme
