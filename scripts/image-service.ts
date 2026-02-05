@@ -37,7 +37,7 @@ function getGeminiImageApiKey(): string {
 // ============================================================================
 
 const ENABLE_AI_VALIDATION = true;
-const MAX_VALIDATION_ATTEMPTS = 4; // Reduced from 8 to save API costs
+const MAX_VALIDATION_ATTEMPTS = 8; // 8 attempts per article, 50 articles × 8 = 400 (under 1500 limit)
 const MAX_DAILY_VALIDATIONS = 1400; // Stay under 1500 free tier limit (buffer for safety)
 
 // Track daily validation count
@@ -701,7 +701,6 @@ async function validateImageWithAI(
 
     const themeRequirement = THEME_REQUIREMENTS[theme] || `should relate to ${theme.replace(/-/g, ' ')}`;
     const isCoastal = isCoastalDestination(destination);
-    const destContext = destination ? `for ${destination}, Croatia` : 'for Croatia';
 
     // Generic themes don't need location-specific requirements
     const genericThemes = ['wifi-quality', 'mobile-coverage', 'wheelchair-access', 'stroller-friendly', 'digital-nomads', 'parking-difficulty', 'car-vs-no-car'];
@@ -728,29 +727,54 @@ async function validateImageWithAI(
 6. NO Asian/African architecture`;
     }
 
-    const prompt = `You are validating images for a Croatia travel website. Be STRICT.
+    const prompt = `You are a STRICT image validator for a Croatia travel website. Your job is to REJECT bad images.
 
-ARTICLE CONTEXT: This image is ${destContext}, about "${theme.replace(/-/g, ' ')}".
-DESTINATION TYPE: ${isCoastal ? 'COASTAL (sea is OK)' : 'CONTINENTAL/INLAND (NO sea allowed!)'}
+CONTEXT:
+- Article destination: ${destination || 'Croatia'}
+- Article theme: "${theme.replace(/-/g, ' ')}"
+- Destination type: ${isCoastal ? 'COASTAL (Adriatic sea is OK)' : 'CONTINENTAL/INLAND (NO sea, NO beach!)'}
 
-THEME REQUIREMENT: The image ${themeRequirement}
+THEME REQUIREMENT: ${themeRequirement}
 
-STRICT RULES:
-1. Image MUST match the theme requirement above - this is the MOST important check
+VALIDATION CHECKLIST (check ALL):
+
+1. THEME MATCH (MOST IMPORTANT - 50% weight):
+   - Does the image CLEARLY show what the theme requires?
+   - "${theme}" theme MUST show: ${themeRequirement}
+   - If theme is "parking" → must show cars/parking lot
+   - If theme is "crowds" → must show many people
+   - If theme is "nightlife" → must show evening/night scene
+   - If theme is "beach" → must show actual beach
+   - If theme is "restaurants" → must show food/restaurant
+   - REJECT if image doesn't clearly match the theme!
+
+2. LOCATION MATCH (25% weight):
 ${locationRules}
 
-CRITICAL REJECTION EXAMPLES:
-- Theme is "crowds" but image shows empty streets → REJECT
-- Theme is "nightlife" but image shows daytime beach → REJECT
-- Theme is "parking" but image shows landscape → REJECT
-- Destination is Zagreb but image shows sea/beach → REJECT
-- Destination is Plitvice but image shows coastal town → REJECT
-- Theme is "ferry-connections" but no ferry/boat visible → REJECT
+3. IMAGE QUALITY (15% weight):
+   - No blurry or low-resolution images
+   - No watermarks or text overlays
+   - No obvious stock photo staging (fake smiles, empty scenes)
+   - Professional travel-worthy quality
 
-Be STRICT. When in doubt, REJECT.
+4. CULTURAL FIT (10% weight):
+   - Must look European/Mediterranean
+   - NO Islamic architecture (mosques, minarets)
+   - NO Asian/Middle Eastern/African scenery
+   - NO people in religious clothing (hijabs, etc.)
+   - Architecture should match Croatian/European style
 
-Respond ONLY with JSON (no markdown):
-{"valid": true/false, "reason": "brief explanation"}`;
+AUTOMATIC REJECTION:
+- Theme mismatch (e.g., "parking" shows landscape) → REJECT
+- Wrong location type (inland destination shows sea) → REJECT
+- Non-European appearance → REJECT
+- Low quality or watermarked → REJECT
+- Generic/irrelevant stock photo → REJECT
+
+Be STRICT. A mediocre image is worse than no image. When in doubt, REJECT.
+
+Respond ONLY with valid JSON (no markdown, no code blocks):
+{"valid": true/false, "reason": "specific explanation why accepted or rejected"}`;
 
     const result = await model.generateContent([
       prompt,
