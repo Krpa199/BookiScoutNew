@@ -409,7 +409,7 @@ p {
 /* Mobile destination hero fix - extra space below buttons */
 @media (max-width: 639px) {
   .destination-hero-content {
-    padding-bottom: 7rem !important;
+    padding-bottom: 3.5rem !important;
   }
 }
 
