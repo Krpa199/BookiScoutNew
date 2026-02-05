@@ -101,25 +101,58 @@ jobs:
           RETRY_COUNT=0
 
           while [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
+            echo "════════════════════════════════════════"
             echo "Attempt $((RETRY_COUNT + 1)) of $MAX_RETRIES..."
+            echo "════════════════════════════════════════"
 
-            # Fetch latest
+            # Fetch latest from remote
             git fetch origin main
 
-            # Try rebase, abort if conflicts
-            if ! git rebase origin/main; then
-              echo "⚠️ Rebase conflict detected, aborting and trying merge instead..."
-              git rebase --abort || true
+            # Check if we're behind remote
+            LOCAL=$(git rev-parse HEAD)
+            REMOTE=$(git rev-parse origin/main)
+            BASE=$(git merge-base HEAD origin/main)
 
-              # Try merge instead
-              if ! git merge origin/main -m "Merge remote changes"; then
-                echo "⚠️ Merge also failed, trying to continue anyway..."
-                git merge --abort || true
+            if [ "$LOCAL" = "$REMOTE" ]; then
+              echo "✅ Already up to date with remote"
+            elif [ "$LOCAL" = "$BASE" ]; then
+              echo "📥 We are behind remote, need to rebase/merge"
+            else
+              echo "📤 We have diverged from remote, need to rebase/merge"
+            fi
+
+            # Only try rebase/merge if we're not up to date
+            if [ "$LOCAL" != "$REMOTE" ]; then
+              # Try rebase first (cleaner history)
+              echo "Trying rebase..."
+              if git rebase origin/main; then
+                echo "✅ Rebase successful"
+              else
+                echo "⚠️ Rebase failed, aborting..."
+                git rebase --abort 2>/dev/null || true
+
+                # Try merge as fallback
+                echo "Trying merge instead..."
+                if git merge origin/main -m "Merge remote changes" --no-edit; then
+                  echo "✅ Merge successful"
+                else
+                  echo "⚠️ Merge failed, aborting..."
+                  git merge --abort 2>/dev/null || true
+
+                  # Last resort: reset and re-apply our changes
+                  echo "🔄 Last resort: stash, reset, and re-apply..."
+                  git stash || true
+                  git reset --hard origin/main
+                  git stash pop || true
+                  git add -A
+                  git commit -m "📝 Auto-generate daily articles $(date +'%Y-%m-%d') (recovered)" || true
+                fi
               fi
             fi
 
             # Try to push
-            if git push; then
+            echo "Pushing to remote..."
+            if git push origin main; then
               echo "✅ Push successful!"
               echo "push_success=true" >> $GITHUB_OUTPUT
               exit 0
