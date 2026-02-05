@@ -168,8 +168,145 @@ function getSearchQueries(theme: string, destination?: string): string[] {
   const queries: string[] = [];
   const dest = destination || 'croatia';
   const destCapitalized = dest.charAt(0).toUpperCase() + dest.slice(1);
+  const isCoastal = isCoastalDestination(destination);
 
-  // Theme-specific queries
+  // For continental destinations, use different queries
+  if (!isCoastal) {
+    // Continental-specific queries (no sea/beach!)
+    const continentalQueries: Record<string, string[]> = {
+      'crowds-by-month': [
+        `crowded ${destCapitalized} tourists`,
+        'crowded european city square tourists',
+        'busy old town central europe',
+        'tourists crowd prague vienna',
+      ],
+      'peak-season': [
+        `${destCapitalized} summer tourists`,
+        'busy european city summer',
+        'summer crowd central europe city',
+      ],
+      'off-season': [
+        `empty ${destCapitalized} winter`,
+        'quiet european city winter',
+        'empty streets central europe snow',
+      ],
+      'shoulder-season': [
+        `${destCapitalized} spring flowers`,
+        'spring central europe flowers',
+        'autumn european city park',
+      ],
+      'best-time-to-visit': [
+        `beautiful ${destCapitalized} sunny`,
+        'sunny european city',
+        'perfect weather central europe',
+      ],
+      'weather-by-month': [
+        `sunny ${destCapitalized}`,
+        'blue sky european city',
+        'sunny central europe',
+      ],
+      'solo-travel': [
+        'woman backpacker european city',
+        'solo traveler old town europe',
+        'backpacker central europe',
+      ],
+      'seniors': [
+        'senior couple european city vacation',
+        'elderly tourists european capital',
+        'retired couple europe travel',
+      ],
+      'digital-nomads': [
+        'laptop cafe city',
+        'digital nomad working laptop cafe',
+        'remote work cafe laptop europe',
+        'freelancer laptop coffee urban',
+      ],
+      'families-with-toddlers': [
+        'family toddler european city',
+        'parents children park vacation',
+        'family small kids playground',
+      ],
+      'families-with-teens': [
+        'family teenagers vacation europe city',
+        'teens sightseeing european capital',
+        'family adventure city',
+      ],
+      'first-time-visitors': [
+        `tourists ${destCapitalized} sightseeing`,
+        'tourists european city square',
+        'sightseeing tour group europe',
+      ],
+      'couples': [
+        'romantic couple european city',
+        'couple europe vacation city',
+        'romantic dinner europe',
+      ],
+      'beach': [
+        // For continental destinations, beach theme should show lakes/rivers
+        `${destCapitalized} lake swimming`,
+        'lake beach central europe',
+        'river swimming europe',
+        'plitvice lakes croatia',
+      ],
+      'things-to-do': [
+        `${destCapitalized} attractions`,
+        'european city sightseeing',
+        'central europe tourism',
+      ],
+      'restaurants': [
+        'restaurant terrace european city',
+        'outdoor dining central europe',
+        'traditional restaurant croatia',
+      ],
+      'local-food': [
+        'croatian food traditional',
+        'central european cuisine',
+        'traditional food europe',
+      ],
+      'hidden-gems': [
+        'hidden gem european city',
+        'secret spot central europe',
+        'scenic view city europe',
+      ],
+      'apartments': [
+        'apartment city view europe',
+        'vacation rental urban',
+        'holiday apartment city',
+      ],
+      'nightlife': [
+        'bar nightlife european city',
+        'nightclub europe',
+        'evening entertainment city',
+      ],
+      'transport': [
+        'tram european city',
+        'public transport europe',
+        'city bus central europe',
+      ],
+      'safety': [
+        'peaceful european city street',
+        'safe streets europe',
+        'friendly atmosphere city',
+      ],
+    };
+
+    if (continentalQueries[theme]) {
+      queries.push(...continentalQueries[theme]);
+    }
+
+    // Add destination-specific query first
+    const baseTheme = theme.replace(/-/g, ' ');
+    queries.unshift(`${destCapitalized} ${baseTheme}`);
+
+    // Fallback for continental
+    if (queries.length === 0) {
+      queries.push(`${destCapitalized} city`, 'european city travel', 'central europe tourism');
+    }
+
+    return queries;
+  }
+
+  // COASTAL destinations - original queries
   const themeQueries: Record<string, string[]> = {
     'crowds-by-month': [
       `crowded ${destCapitalized} tourists`,
@@ -530,6 +667,17 @@ async function fetchFromPixabay(query: string): Promise<ImageCandidate[]> {
 // AI Validation
 // ============================================================================
 
+// Continental destinations that should NOT have sea/beach images
+const CONTINENTAL_DESTINATIONS = [
+  'zagreb', 'varazdin', 'osijek', 'karlovac', 'samobor', 'plitvice',
+  'slavonski-brod', 'vukovar', 'sisak', 'cakovec', 'koprivnica', 'bjelovar'
+];
+
+function isCoastalDestination(destination?: string): boolean {
+  if (!destination) return true; // Default to coastal
+  return !CONTINENTAL_DESTINATIONS.includes(destination.toLowerCase());
+}
+
 async function validateImageWithAI(
   imageUrl: string,
   theme: string,
@@ -538,7 +686,7 @@ async function validateImageWithAI(
   const apiKey = getGeminiImageApiKey();
   if (!apiKey) {
     console.log('    ⚠️ No AI validation key, skipping validation');
-    return { valid: true, reason: 'No API key' };
+    return { valid: false, reason: 'No API key - rejecting to be safe' };
   }
 
   try {
@@ -552,23 +700,38 @@ async function validateImageWithAI(
     const mimeType = imageResponse.headers.get('content-type') || 'image/jpeg';
 
     const themeRequirement = THEME_REQUIREMENTS[theme] || `should relate to ${theme.replace(/-/g, ' ')}`;
+    const isCoastal = isCoastalDestination(destination);
     const destContext = destination ? `for ${destination}, Croatia` : 'for Croatia';
 
-    // Generic themes don't need European location requirement
-    const genericThemes = ['wifi-quality', 'mobile-coverage', 'wheelchair-access', 'stroller-friendly', 'digital-nomads'];
+    // Generic themes don't need location-specific requirements
+    const genericThemes = ['wifi-quality', 'mobile-coverage', 'wheelchair-access', 'stroller-friendly', 'digital-nomads', 'parking-difficulty', 'car-vs-no-car'];
     const isGenericTheme = genericThemes.includes(theme);
 
-    const locationRules = isGenericTheme
-      ? `2. Location doesn't matter - focus only on the theme content
-3. NO explicit non-European text/signs (if visible)`
-      : `2. Must look European/Mediterranean (architecture, landscape)
-3. People must appear European/Caucasian (if visible)
-4. NO Islamic elements (mosques, minarets, hijabs)
-5. NO Asian/African architecture`;
+    // Build location rules based on destination type
+    let locationRules: string;
+    if (isGenericTheme) {
+      locationRules = `2. Location doesn't matter - focus only on the theme content
+3. NO explicit non-European text/signs (if visible)`;
+    } else if (!isCoastal) {
+      // Continental destinations (Zagreb, Plitvice, etc.)
+      locationRules = `2. This is for a CONTINENTAL/INLAND destination - NO sea, NO beach, NO coastal scenes!
+3. Should show: city architecture, parks, lakes, mountains, urban scenes, inland landscapes
+4. REJECT if image shows: sea, beach, boats, harbor, coastal town, Mediterranean scenery
+5. Must look European (Central European architecture preferred)
+6. NO Islamic elements (mosques, minarets, hijabs)`;
+    } else {
+      // Coastal destinations
+      locationRules = `2. Must look European/Mediterranean (architecture, landscape)
+3. Coastal/sea imagery is acceptable for this destination
+4. People must appear European/Caucasian (if visible)
+5. NO Islamic elements (mosques, minarets, hijabs)
+6. NO Asian/African architecture`;
+    }
 
-    const prompt = `You are validating images for a Croatia travel website.
+    const prompt = `You are validating images for a Croatia travel website. Be STRICT.
 
 ARTICLE CONTEXT: This image is ${destContext}, about "${theme.replace(/-/g, ' ')}".
+DESTINATION TYPE: ${isCoastal ? 'COASTAL (sea is OK)' : 'CONTINENTAL/INLAND (NO sea allowed!)'}
 
 THEME REQUIREMENT: The image ${themeRequirement}
 
@@ -576,12 +739,15 @@ STRICT RULES:
 1. Image MUST match the theme requirement above - this is the MOST important check
 ${locationRules}
 
-EXAMPLES OF REJECTION:
+CRITICAL REJECTION EXAMPLES:
 - Theme is "crowds" but image shows empty streets → REJECT
 - Theme is "nightlife" but image shows daytime beach → REJECT
 - Theme is "parking" but image shows landscape → REJECT
-- Theme is "wifi-quality" but shows completely unrelated content (nature, food) → REJECT
-- Theme is "wheelchair-access" but no wheelchair or accessibility symbol visible → REJECT
+- Destination is Zagreb but image shows sea/beach → REJECT
+- Destination is Plitvice but image shows coastal town → REJECT
+- Theme is "ferry-connections" but no ferry/boat visible → REJECT
+
+Be STRICT. When in doubt, REJECT.
 
 Respond ONLY with JSON (no markdown):
 {"valid": true/false, "reason": "brief explanation"}`;
@@ -598,10 +764,11 @@ Respond ONLY with JSON (no markdown):
     if (cleanText.endsWith('```')) cleanText = cleanText.slice(0, -3);
 
     const validation = JSON.parse(cleanText.trim());
-    return { valid: validation.valid, reason: validation.reason || 'Unknown' };
+    return { valid: validation.valid === true, reason: validation.reason || 'Unknown' };
   } catch (error) {
     console.log(`    ⚠️ Validation error: ${(error as Error).message}`);
-    return { valid: true, reason: 'Validation error' };
+    // On error, REJECT to be safe (don't allow potentially bad images)
+    return { valid: false, reason: 'Validation error - rejecting to be safe' };
   }
 }
 
