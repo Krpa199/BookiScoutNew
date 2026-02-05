@@ -7,9 +7,9 @@ on:
   workflow_dispatch: # Allow manual trigger
     inputs:
       articles_count:
-        description: 'Number of articles to generate'
+        description: 'Number of articles to generate (max 50 to stay in free tier)'
         required: false
-        default: '70'
+        default: '50'
         type: string
       force_run:
         description: 'Force run even if already ran today (WARNING: may exceed free tier!)'
@@ -33,8 +33,8 @@ env:
   PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
   UNSPLASH_API_KEY: ${{ secrets.UNSPLASH_API_KEY }}
   PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
-  # Default to 70 articles per run (safer limit to ensure all translations complete)
-  ARTICLES_PER_RUN: ${{ github.event.inputs.articles_count || '70' }}
+  # Default to 50 articles per run (stays within free tier: ~17 per key × 3 keys, under 25 limit)
+  ARTICLES_PER_RUN: ${{ github.event.inputs.articles_count || '50' }}
 
 jobs:
   # First job: Check if we should run

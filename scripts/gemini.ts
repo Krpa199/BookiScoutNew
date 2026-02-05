@@ -24,36 +24,47 @@ interface ApiKeyManager {
 }
 
 const API_LIMITS = {
-  PRO_DAILY: 25,      // Gemini 2.5 Pro free tier limit per key
-  FLASH_DAILY: 1000,  // Gemini 2.5 Flash Lite free tier limit per key
+  // FREE TIER LIMITS (per key per day):
+  // - Gemini 2.5 Pro: 25 requests/day
+  // - Gemini 2.5 Flash: 1500 requests/day (we use Flash Lite which may differ)
+  //
+  // With 3 keys and 50 articles/day:
+  // - Pro: 50 articles = ~17 per key (under 25 limit, with buffer for retries)
+  // - Flash: 50 × 12 translations = 600 total = 200 per key (well under 1500 limit)
+  //
+  // Setting limits to stay within free tier:
+  PRO_DAILY: 17,       // 17 per key × 3 keys = 51 articles max (safe under 25×3=75)
+  FLASH_DAILY: 250,    // 250 per key × 3 keys = 750 translations max (safe under 1500×3=4500)
   PRO_DELAY_MS: 15000,    // 15 seconds between Pro calls (5 RPM = 12s min)
   FLASH_DELAY_MS: 3000,   // 3 seconds between Flash calls (30 RPM)
   RETRY_DELAY_MS: 60000,  // 1 minute wait on rate limit error
   MAX_RETRIES: 3,
 };
 
-// Load all API keys from environment
+// Load API keys for article generation (keys 1-3 ONLY)
+// Key 4 (GEMINI_API_KEY_IMAGE) is reserved for image validation - DO NOT use here!
 function loadApiKeys(): string[] {
   const keys: string[] = [];
 
-  // Support both old single key and new multi-key format
-  if (process.env.GEMINI_API_KEY) {
-    keys.push(process.env.GEMINI_API_KEY);
-  }
-
-  // Load numbered keys (GEMINI_API_KEY_1, GEMINI_API_KEY_2, etc.)
-  for (let i = 1; i <= 10; i++) {
+  // Load ONLY keys 1-3 for article generation
+  // This ensures we stay within free tier and don't mix with image validation key
+  for (let i = 1; i <= 3; i++) {
     const key = process.env[`GEMINI_API_KEY_${i}`];
     if (key && !keys.includes(key)) {
       keys.push(key);
     }
   }
 
-  if (keys.length === 0) {
-    throw new Error('No GEMINI_API_KEY found in environment variables');
+  // Fallback to single key if multi-key not configured
+  if (keys.length === 0 && process.env.GEMINI_API_KEY) {
+    keys.push(process.env.GEMINI_API_KEY);
   }
 
-  console.log(`🔑 Loaded ${keys.length} API key(s)`);
+  if (keys.length === 0) {
+    throw new Error('No GEMINI_API_KEY_1/2/3 found in environment variables');
+  }
+
+  console.log(`🔑 Loaded ${keys.length} API key(s) for articles (keys 1-3 only, key 4 reserved for images)`);
   return keys;
 }
 
