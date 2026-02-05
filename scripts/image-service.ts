@@ -37,7 +37,50 @@ function getGeminiImageApiKey(): string {
 // ============================================================================
 
 const ENABLE_AI_VALIDATION = true;
-const MAX_VALIDATION_ATTEMPTS = 8; // More attempts since we have 3 providers
+const MAX_VALIDATION_ATTEMPTS = 4; // Reduced from 8 to save API costs
+const MAX_DAILY_VALIDATIONS = 1400; // Stay under 1500 free tier limit (buffer for safety)
+
+// Track daily validation count
+let dailyValidationCount = 0;
+let lastResetTime = 0;
+
+/**
+ * Check if we can validate - respects Google's daily quota reset at 9:00 UTC
+ * Google resets quotas at midnight Pacific Time (8:00 UTC winter / 7:00 UTC summer)
+ * We use 8:00 UTC to be safe
+ */
+function canValidate(): boolean {
+  const now = Date.now();
+  const resetHourUTC = 8; // Google quota resets around 8:00 UTC
+
+  // Calculate last reset time (8:00 UTC today or yesterday)
+  const nowDate = new Date(now);
+  const todayReset = new Date(Date.UTC(
+    nowDate.getUTCFullYear(),
+    nowDate.getUTCMonth(),
+    nowDate.getUTCDate(),
+    resetHourUTC, 0, 0, 0
+  )).getTime();
+
+  const currentResetTime = now >= todayReset ? todayReset : todayReset - 24 * 60 * 60 * 1000;
+
+  // Reset counter if we've passed a new reset time
+  if (currentResetTime > lastResetTime) {
+    dailyValidationCount = 0;
+    lastResetTime = currentResetTime;
+    console.log(`  🔄 Validation counter reset (Google quota reset at 8:00 UTC)`);
+  }
+
+  return dailyValidationCount < MAX_DAILY_VALIDATIONS;
+}
+
+function incrementValidationCount(): void {
+  dailyValidationCount++;
+}
+
+function getRemainingValidations(): number {
+  return MAX_DAILY_VALIDATIONS - dailyValidationCount;
+}
 
 // ============================================================================
 // Types
@@ -616,8 +659,11 @@ export async function getArticleImage(
   // Shuffle for variety
   const shuffled = allCandidates.sort(() => Math.random() - 0.5);
 
-  // If no AI validation, return first result
-  if (!ENABLE_AI_VALIDATION || !getGeminiImageApiKey()) {
+  // If no AI validation or daily limit reached, return first result
+  if (!ENABLE_AI_VALIDATION || !getGeminiImageApiKey() || !canValidate()) {
+    if (!canValidate()) {
+      console.log(`    ⚠️ Daily validation limit reached (${MAX_DAILY_VALIDATIONS}), skipping AI validation`);
+    }
     const img = shuffled[0];
     return {
       imageUrl: img.url,
@@ -632,9 +678,23 @@ export async function getArticleImage(
   const maxAttempts = Math.min(MAX_VALIDATION_ATTEMPTS, shuffled.length);
 
   for (let i = 0; i < maxAttempts; i++) {
-    const candidate = shuffled[i];
-    console.log(`    🔍 [${i + 1}/${maxAttempts}] Validating (${candidate.source})...`);
+    // Check daily limit before each validation
+    if (!canValidate()) {
+      console.log(`    ⚠️ Daily validation limit reached, using current candidate`);
+      const img = shuffled[i];
+      return {
+        imageUrl: img.url,
+        imageAlt: img.alt,
+        imageCredit: img.photographer,
+        imageCreditUrl: img.photographerUrl,
+        imageSource: img.source,
+      };
+    }
 
+    const candidate = shuffled[i];
+    console.log(`    🔍 [${i + 1}/${maxAttempts}] Validating (${candidate.source})... [${dailyValidationCount + 1}/${MAX_DAILY_VALIDATIONS} today]`);
+
+    incrementValidationCount(); // Count BEFORE the call
     const validation = await validateImageWithAI(candidate.url, theme, destination);
 
     if (validation.valid) {

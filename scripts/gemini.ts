@@ -627,7 +627,6 @@ Return valid JSON only, no markdown code blocks.
         audience: (topic as any).audience || 'families_kids_3_10', // Dynamic audience from topic
         intent: 'decision',
         seedQuery: topic.topic,
-        theme: (topic as any).theme || undefined, // Theme for practical blockers/seasonality
       },
       // AI Optimization fields
       howToSteps: data.howToSteps || undefined,
@@ -984,8 +983,77 @@ Return only valid JSON, no markdown code blocks.
   }
 }
 
+// =============================================================================
+// ARTICLE FORMAT ROTATION SYSTEM
+// =============================================================================
+
+type ArticleFormat = 'full' | 'brief' | 'myth-buster';
+
+// Human voice phrases to add authenticity (anti-LLM signals)
+const HUMAN_VOICE_PHRASES = [
+  "This sounds convenient, but in practice it often causes problems.",
+  "Most travelers overestimate this part.",
+  "Skip this unless you specifically need it.",
+  "This is usually not worth the extra cost.",
+  "Locals rarely do this, and for good reason.",
+  "The marketing makes it look better than it is.",
+  "This works well in theory, but reality is different.",
+  "Don't believe the hype—here's what actually matters.",
+  "This is one of those things that sounds great until you try it.",
+  "Save your money here and spend it on something better.",
+];
+
+// Select article format based on weighted random (70% full, 20% brief, 10% myth-buster)
+function selectArticleFormat(): ArticleFormat {
+  const rand = Math.random() * 100;
+  if (rand < 70) return 'full';
+  if (rand < 90) return 'brief';
+  return 'myth-buster';
+}
+
+// Get random human voice phrases (0, 1, or 2 based on weighted random)
+// 20% = 0 phrases, 60% = 1 phrase, 20% = 2 phrases
+function getHumanVoicePhrases(): string[] {
+  const rand = Math.random() * 100;
+
+  if (rand < 20) {
+    // 20% - no phrases (intentional inconsistency)
+    return [];
+  } else if (rand < 80) {
+    // 60% - one phrase (standard)
+    const phrase = HUMAN_VOICE_PHRASES[Math.floor(Math.random() * HUMAN_VOICE_PHRASES.length)];
+    return [phrase];
+  } else {
+    // 20% - two phrases (extra human voice)
+    const shuffled = [...HUMAN_VOICE_PHRASES].sort(() => Math.random() - 0.5);
+    return [shuffled[0], shuffled[1]];
+  }
+}
+
+// Format phrases for prompt injection
+function formatHumanVoiceInstruction(phrases: string[]): string {
+  if (phrases.length === 0) {
+    return ''; // No human voice requirement for this article
+  } else if (phrases.length === 1) {
+    return `
+HUMAN VOICE REQUIREMENT:
+Include ONE opinionated/decisive statement like this example:
+"${phrases[0]}"
+This adds authenticity.`;
+  } else {
+    return `
+HUMAN VOICE REQUIREMENT:
+Include TWO opinionated/decisive statements. Examples:
+- "${phrases[0]}"
+- "${phrases[1]}"
+Spread them naturally throughout the article.`;
+  }
+}
+
 function buildPrompt(destination: Destination, theme: Theme, language: string): string {
-  const themeDescriptions: Record<Theme, string> = {
+  // Dynamic theme description - covers all theme types
+  const themeDescriptions: Partial<Record<Theme, string>> = {
+    // Legacy themes
     'apartments': 'best apartments and accommodation options',
     'family': 'family-friendly apartments and activities for kids',
     'couples': 'romantic getaways and couple activities',
@@ -1006,12 +1074,131 @@ function buildPrompt(destination: Destination, theme: Theme, language: string): 
     'local-food': 'local food and traditional dishes',
     'best-time-to-visit': 'best time to visit and seasonal guide',
     'safety': 'safety tips and travel advice',
+    // Traveler types
+    'solo-travel': 'solo travel tips and safety for independent travelers',
+    'seniors': 'travel guide for seniors and accessibility considerations',
+    'digital-nomads': 'digital nomad guide with wifi, coworking, and remote work tips',
+    'lgbt-friendly': 'LGBT-friendly travel guide and inclusive venues',
+    'families-with-toddlers': 'family travel with toddlers and young children',
+    'families-with-teens': 'family travel with teenagers and activities for teens',
+    'first-time-visitors': 'first-time visitor guide and essential tips',
+    // Practical blockers
+    'car-vs-no-car': 'car rental vs public transport comparison',
+    'parking-difficulty': 'parking availability and difficulty guide',
+    'walkability': 'walkability score and getting around on foot',
+    'stroller-friendly': 'stroller accessibility and family-friendly paths',
+    'wheelchair-access': 'wheelchair accessibility and mobility guide',
+    'public-transport-quality': 'public transportation options and quality',
+    'ferry-connections': 'ferry routes and island connections',
+    'airport-access': 'airport transfers and transportation options',
+    'wifi-quality': 'wifi availability and internet quality',
+    'mobile-coverage': 'mobile network coverage and connectivity',
+    // Seasonality
+    'off-season': 'off-season travel guide and winter visits',
+    'shoulder-season': 'shoulder season travel guide (spring/autumn)',
+    'peak-season': 'peak season guide and summer travel tips',
+    'weather-by-month': 'monthly weather breakdown and what to expect',
+    'crowds-by-month': 'crowd levels by month and best times to avoid crowds',
+    // Comparisons
+    'vs-dubrovnik': 'comparison with Dubrovnik - which is better',
+    'vs-split': 'comparison with Split - which is better',
+    'vs-zadar': 'comparison with Zadar - which is better',
+    'vs-istria': 'comparison with Istria region - which is better',
+    'vs-zagreb': 'comparison with Zagreb - which is better',
+    'coast-vs-inland': 'coast vs inland Croatia comparison',
   };
 
-  return `
-You are a travel content expert. Write an article in ${language} about ${themeDescriptions[theme]} in ${destination.name}, Croatia.
+  // Fallback for any theme not explicitly defined
+  const themeDescription = themeDescriptions[theme] || theme.replace(/-/g, ' ');
+
+  const format = selectArticleFormat();
+  const humanPhrases = getHumanVoicePhrases();
+  const humanVoiceInstruction = formatHumanVoiceInstruction(humanPhrases);
+
+  console.log(`  📝 Format: ${format.toUpperCase()}, Human phrases: ${humanPhrases.length}`);
+
+  // Base instructions for all formats
+  const baseInstructions = `
+You are a travel content expert. Write an article in ${language} about ${themeDescription} in ${destination.name}, Croatia.
 
 IMPORTANT: The article must be optimized for AI search engines (ChatGPT, Perplexity, Claude, Google Gemini, Microsoft Copilot).
+${humanVoiceInstruction}
+`;
+
+  // Format-specific prompts
+  if (format === 'brief') {
+    return `${baseInstructions}
+
+ARTICLE FORMAT: BRIEF DIRECT ANSWER
+This is a SHORT, brutally direct article. No fluff, no padding.
+
+TONE: Sharp, efficient, almost curt. Write like a busy local giving quick advice. Short sentences. No hedging.
+
+REQUIREMENTS:
+1. Quick Answer: 30-50 words, THE definitive answer
+2. 5 bullet points maximum - each one a concrete fact or recommendation
+3. NO tables in this format
+4. NO long content sections
+5. 3 FAQ questions max, each answer 1-2 sentences only
+6. Total length: 300-500 words maximum
+7. Be decisive - don't hedge with "it depends" unless truly necessary
+
+OUTPUT FORMAT (JSON):
+{
+  "title": "Article title (60 chars max, include year 2026)",
+  "metaDescription": "Meta description (155 chars max)",
+  "quickAnswer": "30-50 word DIRECT answer - this is the main value",
+  "content": "Brief content with ## headings. 5 bullet points max. Include one opinionated statement.",
+  "faq": [
+    {"question": "Question?", "answer": "1-2 sentence direct answer"}
+  ]
+}
+
+Write only valid JSON, no markdown code blocks.
+`;
+  }
+
+  if (format === 'myth-buster') {
+    return `${baseInstructions}
+
+ARTICLE FORMAT: MYTH-BUSTER / OPINIONATED
+This article challenges common misconceptions. Be direct and slightly contrarian.
+
+TONE: Confident, slightly opinionated, helpful. NOT aggressive or dismissive.
+
+REQUIREMENTS:
+1. Quick Answer: Start with "Contrary to popular belief..." or "Most travelers get this wrong..."
+2. Structure content around 3-5 common myths/mistakes
+3. Each myth section: State the myth → Explain the reality → Give better alternative
+4. Include specific examples and numbers
+5. End with "What actually matters" section
+6. Include 1-2 "insider perspective" statements
+
+OUTPUT FORMAT (JSON):
+{
+  "title": "Article title - can use 'The Truth About...' or 'X Myths About...' (60 chars max)",
+  "metaDescription": "Meta description (155 chars max)",
+  "quickAnswer": "40-60 words starting with contrarian hook",
+  "tableData": [
+    {"name": "Myth", "price": "Reality", "rating": "Better Alternative", "distance": "Why It Matters"}
+  ],
+  "content": "Myth-buster content in Markdown. Use ## Myth 1: [statement] format. Be decisive.",
+  "faq": [
+    {"question": "But isn't [common belief] true?", "answer": "Direct correction with evidence"}
+  ]
+}
+
+Write only valid JSON, no markdown code blocks.
+`;
+  }
+
+  // Default: FULL format (70% of articles)
+  return `${baseInstructions}
+
+ARTICLE FORMAT: FULL COMPREHENSIVE
+This is the standard full article with all sections.
+
+TONE: Calm, authoritative, helpful. Like a knowledgeable friend who's been there. Balanced but not boring.
 
 AI SEARCH OPTIMIZATION REQUIREMENTS:
 1. Start with a "Quick Answer" section (40-60 words) that DIRECTLY answers the main question - this is what AI will cite
@@ -1019,6 +1206,7 @@ AI SEARCH OPTIMIZATION REQUIREMENTS:
 3. Include specific data: prices in EUR, distances in km/m, ratings, opening hours
 4. Structure content with semantic H2/H3 headings that match common search queries
 5. Write FAQ section with questions people actually ask AI assistants
+6. Include at least one opinionated/decisive statement (not everything should sound neutral)
 
 FORMAT REQUIREMENTS:
 1. Quick Answer: 40-60 words, direct answer to "${theme} in ${destination.name}"

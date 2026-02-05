@@ -11,6 +11,14 @@ on:
         required: false
         default: '70'
         type: string
+      force_run:
+        description: 'Force run even if already ran today (WARNING: may exceed free tier!)'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
 
 env:
   # Support multiple API keys for rotation
@@ -29,7 +37,52 @@ env:
   ARTICLES_PER_RUN: ${{ github.event.inputs.articles_count || '70' }}
 
 jobs:
+  # First job: Check if we should run
+  check-quota:
+    runs-on: ubuntu-latest
+    outputs:
+      should_run: ${{ steps.check.outputs.should_run }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check if already ran today (free tier protection)
+        id: check
+        run: |
+          # Get today's date in UTC (Google quota resets at ~8:00 UTC)
+          TODAY=$(date -u +'%Y-%m-%d')
+          FORCE_RUN="${{ github.event.inputs.force_run }}"
+
+          echo "Today's date (UTC): $TODAY"
+          echo "Force run: $FORCE_RUN"
+
+          # Check if generated.json has lastRun from today
+          if [ -f "src/content/generated.json" ]; then
+            LAST_RUN=$(cat src/content/generated.json | grep -o '"lastRun": "[^"]*"' | cut -d'"' -f4 | cut -d'T' -f1)
+            echo "Last run date: $LAST_RUN"
+
+            if [ "$LAST_RUN" = "$TODAY" ]; then
+              echo "⚠️ Already ran today ($LAST_RUN)"
+              if [ "$FORCE_RUN" = "true" ]; then
+                echo "⚠️ FORCE RUN enabled - proceeding anyway (may exceed free tier!)"
+                echo "should_run=true" >> $GITHUB_OUTPUT
+              else
+                echo "⛔ Skipping to protect free tier (1500 requests/day limit)"
+                echo "should_run=false" >> $GITHUB_OUTPUT
+              fi
+            else
+              echo "✅ Haven't run today yet - proceeding"
+              echo "should_run=true" >> $GITHUB_OUTPUT
+            fi
+          else
+            echo "✅ No previous run found - proceeding"
+            echo "should_run=true" >> $GITHUB_OUTPUT
+          fi
+
+  # Second job: Generate articles (only if should_run is true)
   generate:
+    needs: check-quota
+    if: needs.check-quota.outputs.should_run == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 600  # 10 hour timeout for large batches
 
@@ -77,6 +130,7 @@ jobs:
           if [ -n "$PIXABAY_API_KEY" ]; then echo "  ✅ PIXABAY_API_KEY configured"; else echo "  ⚠️ PIXABAY_API_KEY missing"; fi
           echo ""
           echo "📝 Will generate up to $ARTICLES_PER_RUN articles"
+          echo "🛡️ Image validation limit: 1400/day (free tier protection)"
 
       - name: Generate articles
         run: npm run generate
@@ -186,9 +240,9 @@ jobs:
           exit 1
 
       - name: Generate summary
-        if: steps.push.outputs.push_success == 'true' || steps.changes.outputs.has_changes == 'false'
+        if: always()
         run: |
-          echo "### 📝 Article Generation Complete! 🎉" >> $GITHUB_STEP_SUMMARY
+          echo "### 📝 Article Generation Summary" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
 
           # Count articles
@@ -206,7 +260,8 @@ jobs:
 
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "---" >> $GITHUB_STEP_SUMMARY
-          echo "🔗 [View articles](./src/content/articles)" >> $GITHUB_STEP_SUMMARY
+          echo "🛡️ **Free Tier Protection:** Max 1400 image validations/day" >> $GITHUB_STEP_SUMMARY
+          echo "⏰ **Next run:** Tomorrow at 8:05 UTC (after Google quota reset)" >> $GITHUB_STEP_SUMMARY
 
       - name: Trigger Vercel deploy (optional)
         if: steps.push.outputs.push_success == 'true'
@@ -216,3 +271,35 @@ jobs:
             curl -X POST "${{ secrets.VERCEL_DEPLOY_HOOK }}"
             echo "Triggered Vercel deployment"
           fi
+
+  # Third job: Show skip message if not running
+  skip-message:
+    needs: check-quota
+    if: needs.check-quota.outputs.should_run == 'false'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Show skip reason
+        run: |
+          echo "════════════════════════════════════════════════════════════"
+          echo "⛔ WORKFLOW SKIPPED"
+          echo ""
+          echo "Reason: Already ran today"
+          echo ""
+          echo "To protect the free tier (1500 requests/day), this workflow"
+          echo "only runs ONCE per day. The quota resets at 8:00 UTC."
+          echo ""
+          echo "Next automatic run: Tomorrow at 8:05 UTC"
+          echo ""
+          echo "To force a run (WARNING: may exceed free tier!):"
+          echo "  1. Go to Actions > Generate Daily Articles"
+          echo "  2. Click 'Run workflow'"
+          echo "  3. Set 'force_run' to 'true'"
+          echo "════════════════════════════════════════════════════════════"
+
+          echo "### ⛔ Workflow Skipped" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Reason:** Already ran today" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "To protect the free tier (1500 requests/day), this workflow only runs ONCE per day." >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Next run:** Tomorrow at 8:05 UTC (after Google quota reset)" >> $GITHUB_STEP_SUMMARY
