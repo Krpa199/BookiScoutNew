@@ -905,14 +905,15 @@ export async function getArticleImage(
     await new Promise((r) => setTimeout(r, 300));
   }
 
-  // Fallback: Search for generic Adriatic Sea image
-  console.log(`    ⚠️ No validated image found, searching for Adriatic Sea fallback...`);
+  // Fallback: Use universal vacation/travel images that work for any theme/destination
+  console.log(`    ⚠️ No validated image found, searching for universal vacation fallback...`);
 
   const fallbackQueries = [
-    'adriatic sea croatia',
-    'croatia coast blue sea',
-    'dalmatia sea view',
-    'mediterranean sea croatia',
+    'vacation travel suitcase',
+    'holiday travel europe',
+    'summer vacation beach',
+    'travel planning map passport',
+    'tourist sightseeing europe',
   ];
 
   for (const fallbackQuery of fallbackQueries) {
@@ -927,10 +928,11 @@ export async function getArticleImage(
     if (fallbackCandidates.length > 0) {
       // Pick a random one from fallback results
       const fallbackImg = fallbackCandidates[Math.floor(Math.random() * fallbackCandidates.length)];
-      console.log(`    🌊 Using Adriatic Sea fallback image from ${fallbackImg.source}`);
+      const fallbackAlt = 'Travel and vacation concept';
+      console.log(`    🧳 Using universal vacation fallback image from ${fallbackImg.source}`);
       return {
         imageUrl: fallbackImg.url,
-        imageAlt: 'Adriatic Sea, Croatia',
+        imageAlt: fallbackAlt,
         imageCredit: fallbackImg.photographer,
         imageCreditUrl: fallbackImg.photographerUrl,
         imageSource: fallbackImg.source,
