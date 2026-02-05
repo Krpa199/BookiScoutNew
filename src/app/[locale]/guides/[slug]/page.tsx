@@ -383,7 +383,7 @@ export default async function GuidePage({ params }: Props) {
               />
             </section>
 
-            {/* Table Data if available */}
+            {/* Table Data if available - Cards on mobile, table on desktop */}
             {article.tableData && article.tableData.length > 0 && (
               <section className="bg-white rounded-2xl md:rounded-3xl border-2 border-ocean-100 p-4 sm:p-6 md:p-8 shadow-soft overflow-hidden" aria-labelledby="recommendations-heading">
                 <h2 id="recommendations-heading" className="text-xl md:text-2xl font-bold text-slate-900 mb-4 md:mb-6 flex items-center gap-2 sm:gap-3">
@@ -392,27 +392,54 @@ export default async function GuidePage({ params }: Props) {
                   </div>
                   Top Recommendations
                 </h2>
-                <div className="overflow-x-auto -mx-4 sm:mx-0">
-                  <table className="w-full text-left min-w-[500px]">
+
+                {/* Mobile: Cards layout */}
+                <div className="md:hidden space-y-3">
+                  {article.tableData.map((row, index) => (
+                    <div key={index} className="bg-gradient-to-br from-slate-50 to-white p-4 rounded-xl border border-slate-100">
+                      <h3 className="font-bold text-slate-900 text-base mb-3">{row.name}</h3>
+                      <div className="grid grid-cols-3 gap-2 text-sm">
+                        <div>
+                          <p className="text-slate-500 text-xs mb-0.5">Price</p>
+                          <p className="font-semibold text-slate-700">{row.price}</p>
+                        </div>
+                        <div>
+                          <p className="text-slate-500 text-xs mb-0.5">Rating</p>
+                          <span className="inline-flex items-center px-2 py-0.5 bg-seafoam-100 text-seafoam-700 rounded-lg text-xs font-semibold">
+                            {row.rating}
+                          </span>
+                        </div>
+                        <div>
+                          <p className="text-slate-500 text-xs mb-0.5">Distance</p>
+                          <p className="font-medium text-slate-600">{row.distance}</p>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+
+                {/* Desktop: Table layout */}
+                <div className="hidden md:block">
+                  <table className="w-full text-left">
                     <thead>
                       <tr className="border-b-2 border-slate-100">
-                        <th className="py-2 sm:py-3 px-3 sm:px-4 font-bold text-slate-900 text-sm sm:text-base">Name</th>
-                        <th className="py-2 sm:py-3 px-3 sm:px-4 font-bold text-slate-900 text-sm sm:text-base">Price</th>
-                        <th className="py-2 sm:py-3 px-3 sm:px-4 font-bold text-slate-900 text-sm sm:text-base">Rating</th>
-                        <th className="py-2 sm:py-3 px-3 sm:px-4 font-bold text-slate-900 text-sm sm:text-base">Distance</th>
+                        <th className="py-3 px-4 font-bold text-slate-900">Name</th>
+                        <th className="py-3 px-4 font-bold text-slate-900">Price</th>
+                        <th className="py-3 px-4 font-bold text-slate-900">Rating</th>
+                        <th className="py-3 px-4 font-bold text-slate-900">Distance</th>
                       </tr>
                     </thead>
                     <tbody>
                       {article.tableData.map((row, index) => (
                         <tr key={index} className="border-b border-slate-50 hover:bg-ocean-50/50 transition-colors">
-                          <td className="py-3 sm:py-4 px-3 sm:px-4 font-semibold text-slate-900 text-sm sm:text-base">{row.name}</td>
-                          <td className="py-3 sm:py-4 px-3 sm:px-4 text-slate-700 text-sm sm:text-base">{row.price}</td>
-                          <td className="py-3 sm:py-4 px-3 sm:px-4">
-                            <span className="inline-flex items-center gap-1 px-2 py-1 bg-seafoam-100 text-seafoam-700 rounded-lg text-xs sm:text-sm font-semibold">
+                          <td className="py-4 px-4 font-semibold text-slate-900">{row.name}</td>
+                          <td className="py-4 px-4 text-slate-700">{row.price}</td>
+                          <td className="py-4 px-4">
+                            <span className="inline-flex items-center gap-1 px-2 py-1 bg-seafoam-100 text-seafoam-700 rounded-lg text-sm font-semibold">
                               {row.rating}
                             </span>
                           </td>
-                          <td className="py-3 sm:py-4 px-3 sm:px-4 text-slate-600 text-sm sm:text-base">{row.distance}</td>
+                          <td className="py-4 px-4 text-slate-600">{row.distance}</td>
                         </tr>
                       ))}
                     </tbody>
