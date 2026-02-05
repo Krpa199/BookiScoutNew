@@ -117,7 +117,7 @@ export default function ArticleCard({
     <Link href={href} className="group block">
       <article className="bg-white rounded-3xl overflow-hidden shadow-soft hover:shadow-ocean transition-all duration-500 border border-slate-100 hover:border-ocean-200 h-full flex flex-col hover:-translate-y-1">
         {/* Image */}
-        <div className="relative h-56 overflow-hidden">
+        <div className="relative h-44 sm:h-48 md:h-56 overflow-hidden">
           {image ? (
             <img
               src={image}
@@ -164,7 +164,7 @@ export default function ArticleCard({
         </div>
 
         {/* Content */}
-        <div className="p-6 flex-1 flex flex-col">
+        <div className="p-4 sm:p-5 md:p-6 flex-1 flex flex-col">
           {/* Location */}
           <div className="flex items-center gap-2 text-slate-500 text-sm mb-3">
             <div className="w-5 h-5 rounded-lg bg-slate-100 flex items-center justify-center">
@@ -174,17 +174,17 @@ export default function ArticleCard({
           </div>
 
           {/* Title */}
-          <h3 className="font-bold text-xl text-slate-900 mb-3 line-clamp-2 group-hover:text-ocean-600 transition-colors leading-snug">
+          <h3 className="font-bold text-lg sm:text-xl text-slate-900 mb-2 sm:mb-3 line-clamp-2 group-hover:text-ocean-600 transition-colors leading-snug">
             {title}
           </h3>
 
           {/* Description */}
-          <p className="text-slate-600 text-sm line-clamp-2 mb-5 leading-relaxed flex-1">
+          <p className="text-slate-600 text-sm line-clamp-2 mb-3 sm:mb-5 leading-relaxed flex-1">
             {description}
           </p>
 
           {/* Footer */}
-          <div className="flex items-center justify-between pt-5 border-t border-slate-100">
+          <div className="flex items-center justify-between pt-3 sm:pt-5 border-t border-slate-100">
             <div className="flex items-center gap-2 text-slate-400 text-sm">
               <Clock className="w-4 h-4" />
               <span className="font-medium">{readTime} min read</span>

@@ -48,7 +48,7 @@ export default function DestinationCard({ destination, articleCount = 0 }: Desti
 
   return (
     <Link href={`/destinations/${destination.slug}`} className="group block">
-      <article className="relative h-80 rounded-3xl overflow-hidden shadow-soft hover:shadow-ocean transition-all duration-500 hover:-translate-y-2">
+      <article className="relative h-64 sm:h-72 md:h-80 rounded-3xl overflow-hidden shadow-soft hover:shadow-ocean transition-all duration-500 hover:-translate-y-2">
         {/* Background Image */}
         <div className="absolute inset-0">
           <img
@@ -69,7 +69,7 @@ export default function DestinationCard({ destination, articleCount = 0 }: Desti
         </div>
 
         {/* Content */}
-        <div className="relative h-full p-6 flex flex-col justify-between">
+        <div className="relative h-full p-4 sm:p-5 md:p-6 flex flex-col justify-between">
           {/* Top Row - Icon & Badge */}
           <div className="flex items-start justify-between">
             {/* Type Icon */}
@@ -90,7 +90,7 @@ export default function DestinationCard({ destination, articleCount = 0 }: Desti
           <div className="space-y-3">
             {/* Title */}
             <div>
-              <h3 className="text-3xl font-bold text-white mb-2 group-hover:translate-x-1 transition-transform duration-300 drop-shadow-lg">
+              <h3 className="text-2xl sm:text-3xl font-bold text-white mb-2 group-hover:translate-x-1 transition-transform duration-300 drop-shadow-lg">
                 {destination.name}
               </h3>
 

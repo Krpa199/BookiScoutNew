@@ -75,15 +75,15 @@ export default async function DestinationsPage({ params }: Props) {
   return (
     <>
       {/* Hero - Ocean gradient */}
-      <section className="relative bg-gradient-to-br from-ocean-500 via-ocean-600 to-seafoam-600 text-white py-20 overflow-hidden">
+      <section className="relative bg-gradient-to-br from-ocean-500 via-ocean-600 to-seafoam-600 text-white py-12 md:py-20 overflow-hidden">
         {/* Background decoration */}
-        <div className="absolute inset-0 opacity-10">
+        <div className="absolute inset-0 opacity-10 hidden md:block">
           <div className="absolute top-0 right-0 w-96 h-96 bg-white rounded-full blur-3xl" />
           <div className="absolute bottom-0 left-0 w-96 h-96 bg-seafoam-300 rounded-full blur-3xl" />
         </div>
 
         <div className="container relative">
-          <nav className="flex items-center gap-2 text-sm text-ocean-100 mb-8">
+          <nav className="flex items-center gap-2 text-xs sm:text-sm text-ocean-100 mb-6 md:mb-8">
             <Link href="/" className="hover:text-white transition-colors">{t('hero.statCities').split(' ')[0] === 'Cities' ? 'Home' : t('hero.statCities').split(' ')[0]}</Link>
             <ChevronRight className="w-4 h-4" />
             <span className="text-white font-semibold">{t('hero.title').split(' ')[0]}</span>
@@ -95,31 +95,31 @@ export default async function DestinationsPage({ params }: Props) {
               <span className="text-sm font-semibold">{t('hero.badge', { count: DESTINATIONS.length })}</span>
             </div>
 
-            <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 leading-tight">
               {t('hero.title')}
             </h1>
-            <p className="text-xl text-ocean-50 leading-relaxed">
+            <p className="text-base sm:text-lg md:text-xl text-ocean-50 leading-relaxed">
               {t('hero.subtitle')}
             </p>
 
-            <div className="flex flex-wrap items-center gap-6 mt-8">
-              <div className="flex items-center gap-2">
-                <div className="w-10 h-10 bg-white/15 backdrop-blur-sm rounded-xl flex items-center justify-center">
-                  <Building className="w-5 h-5" />
+            <div className="grid grid-cols-3 gap-2 sm:flex sm:flex-wrap sm:items-center sm:gap-6 mt-6 md:mt-8">
+              <div className="flex flex-col sm:flex-row items-center gap-1 sm:gap-2">
+                <div className="w-8 h-8 sm:w-10 sm:h-10 bg-white/15 backdrop-blur-sm rounded-lg sm:rounded-xl flex items-center justify-center">
+                  <Building className="w-4 h-4 sm:w-5 sm:h-5" />
                 </div>
-                <span className="font-semibold">{t('hero.statCities')}</span>
+                <span className="text-xs sm:text-base font-semibold text-center">{t('hero.statCities')}</span>
               </div>
-              <div className="flex items-center gap-2">
-                <div className="w-10 h-10 bg-white/15 backdrop-blur-sm rounded-xl flex items-center justify-center">
-                  <Waves className="w-5 h-5" />
+              <div className="flex flex-col sm:flex-row items-center gap-1 sm:gap-2">
+                <div className="w-8 h-8 sm:w-10 sm:h-10 bg-white/15 backdrop-blur-sm rounded-lg sm:rounded-xl flex items-center justify-center">
+                  <Waves className="w-4 h-4 sm:w-5 sm:h-5" />
                 </div>
-                <span className="font-semibold">{t('hero.statIslands')}</span>
+                <span className="text-xs sm:text-base font-semibold text-center">{t('hero.statIslands')}</span>
               </div>
-              <div className="flex items-center gap-2">
-                <div className="w-10 h-10 bg-white/15 backdrop-blur-sm rounded-xl flex items-center justify-center">
-                  <Mountain className="w-5 h-5" />
+              <div className="flex flex-col sm:flex-row items-center gap-1 sm:gap-2">
+                <div className="w-8 h-8 sm:w-10 sm:h-10 bg-white/15 backdrop-blur-sm rounded-lg sm:rounded-xl flex items-center justify-center">
+                  <Mountain className="w-4 h-4 sm:w-5 sm:h-5" />
                 </div>
-                <span className="font-semibold">{t('hero.statParks')}</span>
+                <span className="text-xs sm:text-base font-semibold text-center">{t('hero.statParks')}</span>
               </div>
             </div>
           </div>
@@ -127,7 +127,7 @@ export default async function DestinationsPage({ params }: Props) {
 
         {/* Wave */}
         <div className="absolute bottom-0 left-0 right-0 text-white">
-          <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-auto">
+          <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-6 sm:h-auto" preserveAspectRatio="none">
             <path
               d="M0,48 C240,64 480,64 720,48 C960,32 1200,32 1440,48 L1440,80 L0,80 Z"
               fill="currentColor"
@@ -137,24 +137,24 @@ export default async function DestinationsPage({ params }: Props) {
       </section>
 
       {/* Popular Destinations */}
-      <section className="py-20 bg-white">
+      <section className="py-12 md:py-20 bg-white">
         <div className="container">
-          <div className="flex items-center justify-between mb-12">
+          <div className="flex items-center justify-between mb-8 md:mb-12">
             <div>
-              <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-sand-100 text-sand-700 rounded-full text-sm font-semibold mb-4">
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-sand-100 text-sand-700 rounded-full text-sm font-semibold mb-3 md:mb-4">
                 <TrendingUp className="w-4 h-4" />
                 <span>{t('popular.badge')}</span>
               </div>
-              <h2 className="text-4xl font-bold text-slate-900 mb-3">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 mb-2 md:mb-3">
                 {t('popular.title')}
               </h2>
-              <p className="text-lg text-slate-600">
+              <p className="text-base md:text-lg text-slate-600">
                 {t('popular.subtitle')}
               </p>
             </div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6">
             {popularDestinations.map(dest => (
               <DestinationCard
                 key={dest.slug}
@@ -167,22 +167,22 @@ export default async function DestinationsPage({ params }: Props) {
       </section>
 
       {/* By Region */}
-      <section className="py-20 bg-gradient-ocean-subtle">
+      <section className="py-12 md:py-20 bg-gradient-ocean-subtle">
         <div className="container">
-          <div className="text-center mb-12">
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-ocean-100 text-ocean-700 rounded-full text-sm font-semibold mb-4">
+          <div className="text-center mb-8 md:mb-12">
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-ocean-100 text-ocean-700 rounded-full text-sm font-semibold mb-3 md:mb-4">
               <Sparkles className="w-4 h-4" />
               <span>{t('byRegion.badge')}</span>
             </div>
-            <h2 className="text-4xl font-bold text-slate-900 mb-3">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 mb-2 md:mb-3">
               {t('byRegion.title')}
             </h2>
-            <p className="text-lg text-slate-600">
+            <p className="text-base md:text-lg text-slate-600">
               {t('byRegion.subtitle')}
             </p>
           </div>
 
-          <div className="space-y-10">
+          <div className="space-y-6 md:space-y-10">
             {Object.entries(grouped).map(([region, destinations]) => {
               const regionStyleKey = region as keyof typeof REGIONS;
               // Convert region key to camelCase for translation lookup
@@ -197,16 +197,16 @@ export default async function DestinationsPage({ params }: Props) {
               })();
 
               return (
-                <div key={region} className="bg-white rounded-3xl p-8 shadow-soft border border-slate-100">
-                  <div className="flex items-center gap-3 mb-6">
-                    <div className={`w-12 h-12 rounded-2xl bg-gradient-to-br ${REGIONS[regionStyleKey]?.gradient || 'from-slate-400 to-slate-600'} shadow-soft flex items-center justify-center`}>
-                      <MapPin className="w-6 h-6 text-white" />
+                <div key={region} className="bg-white rounded-2xl md:rounded-3xl p-5 sm:p-6 md:p-8 shadow-soft border border-slate-100">
+                  <div className="flex items-center gap-3 mb-4 md:mb-6">
+                    <div className={`w-10 h-10 md:w-12 md:h-12 rounded-xl md:rounded-2xl bg-gradient-to-br ${REGIONS[regionStyleKey]?.gradient || 'from-slate-400 to-slate-600'} shadow-soft flex items-center justify-center`}>
+                      <MapPin className="w-5 h-5 md:w-6 md:h-6 text-white" />
                     </div>
                     <div>
-                      <h3 className="text-2xl font-bold text-slate-900">
+                      <h3 className="text-xl md:text-2xl font-bold text-slate-900">
                         {regionName}
                       </h3>
-                      <p className="text-sm text-slate-500 font-medium">
+                      <p className="text-xs md:text-sm text-slate-500 font-medium">
                         {destinations.length === 1
                           ? t('byRegion.count', { count: destinations.length })
                           : t('byRegion.countPlural', { count: destinations.length })
@@ -215,21 +215,21 @@ export default async function DestinationsPage({ params }: Props) {
                     </div>
                   </div>
 
-                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
+                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2 sm:gap-3">
                     {destinations.map(dest => (
                       <Link
                         key={dest.slug}
                         href={`/destinations/${dest.slug}`}
-                        className="group flex flex-col items-center gap-2 px-3 py-4 bg-slate-50 hover:bg-white rounded-xl border-2 border-slate-100 hover:border-ocean-300 hover:shadow-soft transition-all"
+                        className="group flex flex-col items-center gap-1.5 sm:gap-2 px-2 sm:px-3 py-3 sm:py-4 bg-slate-50 hover:bg-white rounded-lg sm:rounded-xl border-2 border-slate-100 hover:border-ocean-300 hover:shadow-soft transition-all"
                       >
-                        <div className="w-10 h-10 bg-white rounded-xl shadow-xs flex items-center justify-center group-hover:scale-110 transition-transform">
-                          <MapPin className="w-5 h-5 text-ocean-500" />
+                        <div className="w-8 h-8 sm:w-10 sm:h-10 bg-white rounded-lg sm:rounded-xl shadow-xs flex items-center justify-center group-hover:scale-110 transition-transform">
+                          <MapPin className="w-4 h-4 sm:w-5 sm:h-5 text-ocean-500" />
                         </div>
-                        <span className="text-sm font-bold text-slate-700 group-hover:text-ocean-600 transition-colors text-center">
+                        <span className="text-xs sm:text-sm font-bold text-slate-700 group-hover:text-ocean-600 transition-colors text-center">
                           {dest.name}
                         </span>
                         {dest.popular && (
-                          <span className="px-2 py-0.5 bg-sand-100 text-sand-700 rounded-full text-xs font-bold">
+                          <span className="px-1.5 sm:px-2 py-0.5 bg-sand-100 text-sand-700 rounded-full text-[10px] sm:text-xs font-bold">
                             {t('card.popular')}
                           </span>
                         )}
@@ -244,25 +244,25 @@ export default async function DestinationsPage({ params }: Props) {
       </section>
 
       {/* By Type */}
-      <section className="py-20 bg-white">
+      <section className="py-12 md:py-20 bg-white">
         <div className="container">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-slate-900 mb-3">
+          <div className="text-center mb-8 md:mb-12">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 mb-2 md:mb-3">
               {t('byType.title')}
             </h2>
-            <p className="text-lg text-slate-600">
+            <p className="text-base md:text-lg text-slate-600">
               {t('byType.subtitle')}
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
             {/* Cities */}
-            <div className="bg-gradient-to-br from-slate-50 to-white rounded-3xl border-2 border-slate-100 p-8 hover:border-ocean-200 hover:shadow-soft transition-all">
-              <div className="w-14 h-14 bg-gradient-to-br from-ocean-400 to-ocean-600 rounded-2xl flex items-center justify-center mb-5 shadow-soft">
-                <Building className="w-7 h-7 text-white" />
+            <div className="bg-gradient-to-br from-slate-50 to-white rounded-2xl md:rounded-3xl border-2 border-slate-100 p-5 sm:p-6 md:p-8 hover:border-ocean-200 hover:shadow-soft transition-all">
+              <div className="w-12 h-12 md:w-14 md:h-14 bg-gradient-to-br from-ocean-400 to-ocean-600 rounded-xl md:rounded-2xl flex items-center justify-center mb-4 md:mb-5 shadow-soft">
+                <Building className="w-6 h-6 md:w-7 md:h-7 text-white" />
               </div>
-              <h3 className="font-bold text-xl text-slate-900 mb-5">{t('byType.cities')}</h3>
-              <div className="space-y-3">
+              <h3 className="font-bold text-lg md:text-xl text-slate-900 mb-4 md:mb-5">{t('byType.cities')}</h3>
+              <div className="space-y-2 sm:space-y-3">
                 {DESTINATIONS.filter(d => d.type === 'city').slice(0, 8).map(dest => (
                   <Link
                     key={dest.slug}
@@ -277,12 +277,12 @@ export default async function DestinationsPage({ params }: Props) {
             </div>
 
             {/* Towns */}
-            <div className="bg-gradient-to-br from-slate-50 to-white rounded-3xl border-2 border-slate-100 p-8 hover:border-ocean-200 hover:shadow-soft transition-all">
-              <div className="w-14 h-14 bg-gradient-to-br from-seafoam-400 to-seafoam-600 rounded-2xl flex items-center justify-center mb-5 shadow-soft">
-                <Building className="w-7 h-7 text-white" />
+            <div className="bg-gradient-to-br from-slate-50 to-white rounded-2xl md:rounded-3xl border-2 border-slate-100 p-5 sm:p-6 md:p-8 hover:border-ocean-200 hover:shadow-soft transition-all">
+              <div className="w-12 h-12 md:w-14 md:h-14 bg-gradient-to-br from-seafoam-400 to-seafoam-600 rounded-xl md:rounded-2xl flex items-center justify-center mb-4 md:mb-5 shadow-soft">
+                <Building className="w-6 h-6 md:w-7 md:h-7 text-white" />
               </div>
-              <h3 className="font-bold text-xl text-slate-900 mb-5">{t('byType.coastalTowns')}</h3>
-              <div className="space-y-3">
+              <h3 className="font-bold text-lg md:text-xl text-slate-900 mb-4 md:mb-5">{t('byType.coastalTowns')}</h3>
+              <div className="space-y-2 sm:space-y-3">
                 {DESTINATIONS.filter(d => d.type === 'town').slice(0, 8).map(dest => (
                   <Link
                     key={dest.slug}
@@ -297,12 +297,12 @@ export default async function DestinationsPage({ params }: Props) {
             </div>
 
             {/* Islands */}
-            <div className="bg-gradient-to-br from-slate-50 to-white rounded-3xl border-2 border-slate-100 p-8 hover:border-ocean-200 hover:shadow-soft transition-all">
-              <div className="w-14 h-14 bg-gradient-to-br from-cyan-400 to-cyan-600 rounded-2xl flex items-center justify-center mb-5 shadow-soft">
-                <Waves className="w-7 h-7 text-white" />
+            <div className="bg-gradient-to-br from-slate-50 to-white rounded-2xl md:rounded-3xl border-2 border-slate-100 p-5 sm:p-6 md:p-8 hover:border-ocean-200 hover:shadow-soft transition-all">
+              <div className="w-12 h-12 md:w-14 md:h-14 bg-gradient-to-br from-cyan-400 to-cyan-600 rounded-xl md:rounded-2xl flex items-center justify-center mb-4 md:mb-5 shadow-soft">
+                <Waves className="w-6 h-6 md:w-7 md:h-7 text-white" />
               </div>
-              <h3 className="font-bold text-xl text-slate-900 mb-5">{t('byType.islands')}</h3>
-              <div className="space-y-3">
+              <h3 className="font-bold text-lg md:text-xl text-slate-900 mb-4 md:mb-5">{t('byType.islands')}</h3>
+              <div className="space-y-2 sm:space-y-3">
                 {DESTINATIONS.filter(d => d.type === 'island').map(dest => (
                   <Link
                     key={dest.slug}
@@ -317,12 +317,12 @@ export default async function DestinationsPage({ params }: Props) {
             </div>
 
             {/* National Parks */}
-            <div className="bg-gradient-to-br from-slate-50 to-white rounded-3xl border-2 border-slate-100 p-8 hover:border-ocean-200 hover:shadow-soft transition-all">
-              <div className="w-14 h-14 bg-gradient-to-br from-emerald-400 to-emerald-600 rounded-2xl flex items-center justify-center mb-5 shadow-soft">
-                <Mountain className="w-7 h-7 text-white" />
+            <div className="bg-gradient-to-br from-slate-50 to-white rounded-2xl md:rounded-3xl border-2 border-slate-100 p-5 sm:p-6 md:p-8 hover:border-ocean-200 hover:shadow-soft transition-all">
+              <div className="w-12 h-12 md:w-14 md:h-14 bg-gradient-to-br from-emerald-400 to-emerald-600 rounded-xl md:rounded-2xl flex items-center justify-center mb-4 md:mb-5 shadow-soft">
+                <Mountain className="w-6 h-6 md:w-7 md:h-7 text-white" />
               </div>
-              <h3 className="font-bold text-xl text-slate-900 mb-5">{t('byType.nationalParks')}</h3>
-              <div className="space-y-3">
+              <h3 className="font-bold text-lg md:text-xl text-slate-900 mb-4 md:mb-5">{t('byType.nationalParks')}</h3>
+              <div className="space-y-2 sm:space-y-3">
                 {DESTINATIONS.filter(d => d.type === 'national-park').map(dest => (
                   <Link
                     key={dest.slug}

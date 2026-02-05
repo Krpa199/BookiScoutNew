@@ -44,12 +44,12 @@ export default function Footer() {
       </div>
 
       {/* Main Footer */}
-      <div className="container pt-16 md:pt-24 pb-20 relative">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 mb-16">
+      <div className="container pt-12 sm:pt-16 md:pt-24 pb-12 sm:pb-16 md:pb-20 relative">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 sm:gap-10 md:gap-12 mb-10 sm:mb-12 md:mb-16">
           {/* Brand - Larger section */}
           <div className="lg:col-span-4">
-            <Link href="/" className="flex items-center gap-3 mb-6 group">
-              <div className="w-12 h-12 group-hover:scale-105 transition-transform">
+            <Link href="/" className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6 group">
+              <div className="w-10 h-10 sm:w-12 sm:h-12 group-hover:scale-105 transition-transform">
                 <Image
                   src="/icon.png"
                   alt="BookiScout"
@@ -59,25 +59,25 @@ export default function Footer() {
                 />
               </div>
               <div className="flex flex-col">
-                <span className="font-bold text-2xl leading-none">
+                <span className="font-bold text-xl sm:text-2xl leading-none">
                   Booki<span className="text-ocean-300">Scout</span>
                 </span>
                 <span className="text-xs text-slate-400 font-medium leading-none mt-1">{t('tagline')}</span>
               </div>
             </Link>
-            <p className="text-slate-300 leading-relaxed mb-6 text-base">
+            <p className="text-sm sm:text-base text-slate-300 leading-relaxed mb-4 sm:mb-6">
               {t('description')}
             </p>
             <div className="flex items-center gap-2 text-slate-400">
-              <MapPin className="w-5 h-5 text-ocean-400" />
-              <span className="font-medium">{t('cta')}</span>
+              <MapPin className="w-4 h-4 sm:w-5 sm:h-5 text-ocean-400" />
+              <span className="text-sm sm:text-base font-medium">{t('cta')}</span>
             </div>
           </div>
 
           {/* Destinations */}
           <div className="lg:col-span-2">
-            <h4 className="font-bold text-lg mb-6 text-white">{t('topDestinations')}</h4>
-            <ul className="space-y-3">
+            <h4 className="font-bold text-base sm:text-lg mb-4 sm:mb-6 text-white">{t('topDestinations')}</h4>
+            <ul className="space-y-2 sm:space-y-3">
               {destinations.map((dest) => (
                 <li key={dest.name}>
                   <Link
@@ -94,8 +94,8 @@ export default function Footer() {
 
           {/* Guides */}
           <div className="lg:col-span-2">
-            <h4 className="font-bold text-lg mb-6 text-white">{t('decisionGuides')}</h4>
-            <ul className="space-y-3">
+            <h4 className="font-bold text-base sm:text-lg mb-4 sm:mb-6 text-white">{t('decisionGuides')}</h4>
+            <ul className="space-y-2 sm:space-y-3">
               {guides.map((guide, index) => (
                 <li key={index}>
                   <Link
@@ -112,8 +112,8 @@ export default function Footer() {
 
           {/* Company */}
           <div className="lg:col-span-2">
-            <h4 className="font-bold text-lg mb-6 text-white">{t('company')}</h4>
-            <ul className="space-y-3">
+            <h4 className="font-bold text-base sm:text-lg mb-4 sm:mb-6 text-white">{t('company')}</h4>
+            <ul className="space-y-2 sm:space-y-3">
               {company.map((item, index) => (
                 <li key={index}>
                   <Link
@@ -131,26 +131,26 @@ export default function Footer() {
         </div>
 
         {/* Languages info */}
-        <div className="flex items-center gap-3 mb-8">
-          <Globe className="w-5 h-5 text-ocean-400" />
-          <span className="text-slate-400 font-semibold">{t('availableIn', { count: locales.length })}</span>
+        <div className="flex items-center gap-2 sm:gap-3 mb-6 sm:mb-8">
+          <Globe className="w-4 h-4 sm:w-5 sm:h-5 text-ocean-400" />
+          <span className="text-sm sm:text-base text-slate-400 font-semibold">{t('availableIn', { count: locales.length })}</span>
         </div>
 
         {/* Divider */}
-        <div className="h-px bg-gradient-to-r from-transparent via-slate-700 to-transparent mb-8" />
+        <div className="h-px bg-gradient-to-r from-transparent via-slate-700 to-transparent mb-6 sm:mb-8" />
 
         {/* Bottom Bar */}
-        <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-          <p className="text-slate-400 text-sm flex items-center gap-2">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-4 sm:gap-6">
+          <p className="text-slate-400 text-xs sm:text-sm flex items-center gap-2 text-center md:text-left">
             {t('copyright', { year: new Date().getFullYear() })}
-            <Heart className="w-4 h-4 text-coral-400 fill-current" />
+            <Heart className="w-3 h-3 sm:w-4 sm:h-4 text-coral-400 fill-current flex-shrink-0" />
             {t('forTravelers')}
           </p>
-          <div className="flex items-center gap-2">
-            <span className="px-3 py-1.5 bg-ocean-500/20 text-ocean-300 rounded-full text-xs font-semibold border border-ocean-500/30">
+          <div className="flex items-center gap-2 flex-wrap justify-center">
+            <span className="px-2 sm:px-3 py-1 sm:py-1.5 bg-ocean-500/20 text-ocean-300 rounded-full text-[10px] sm:text-xs font-semibold border border-ocean-500/30">
               {t('aiOptimized')}
             </span>
-            <span className="px-3 py-1.5 bg-seafoam-500/20 text-seafoam-300 rounded-full text-xs font-semibold border border-seafoam-500/30">
+            <span className="px-2 sm:px-3 py-1 sm:py-1.5 bg-seafoam-500/20 text-seafoam-300 rounded-full text-[10px] sm:text-xs font-semibold border border-seafoam-500/30">
               {t('decisionFirst')}
             </span>
           </div>

@@ -29,22 +29,22 @@ export default async function TermsPage({ params }: Props) {
         </div>
 
         <div className="container relative">
-          <nav className="flex items-center gap-2 text-sm text-ocean-100 mb-8">
+          <nav className="flex items-center gap-2 text-xs sm:text-sm text-ocean-100 mb-6 md:mb-8">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
             <ChevronRight className="w-4 h-4" />
             <span className="text-white font-semibold">Terms of Service</span>
           </nav>
 
           <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/15 backdrop-blur-sm rounded-full mb-6">
+            <div className="inline-flex items-center gap-2 px-3 sm:px-4 py-1.5 sm:py-2 bg-white/15 backdrop-blur-sm rounded-full mb-4 md:mb-6">
               <FileText className="w-4 h-4" />
               <span className="text-sm font-semibold">Legal</span>
             </div>
 
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-3 sm:mb-4">
               Terms of Service
             </h1>
-            <p className="text-ocean-100">
+            <p className="text-sm sm:text-base text-ocean-100">
               Last updated: {lastUpdated}
             </p>
           </div>
@@ -52,9 +52,9 @@ export default async function TermsPage({ params }: Props) {
       </section>
 
       {/* Content */}
-      <section className="py-16 bg-white">
+      <section className="py-10 sm:py-12 md:py-16 bg-white">
         <div className="container">
-          <div className="max-w-3xl mx-auto prose prose-slate prose-lg">
+          <div className="max-w-3xl mx-auto prose prose-slate prose-sm sm:prose-base md:prose-lg">
 
             <h2>Agreement to Terms</h2>
             <p>
