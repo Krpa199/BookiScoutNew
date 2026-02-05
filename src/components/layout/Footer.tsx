@@ -44,7 +44,7 @@ export default function Footer() {
       </div>
 
       {/* Main Footer */}
-      <div className="container pt-12 sm:pt-16 md:pt-24 pb-12 sm:pb-16 md:pb-20 relative">
+      <div className="container pt-16 sm:pt-20 md:pt-24 pb-12 sm:pb-16 md:pb-20 relative">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 sm:gap-10 md:gap-12 mb-10 sm:mb-12 md:mb-16">
           {/* Brand - Larger section */}
           <div className="lg:col-span-4">

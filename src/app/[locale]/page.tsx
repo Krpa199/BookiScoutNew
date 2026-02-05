@@ -182,24 +182,24 @@ export default async function HomePage({ params }: Props) {
             </div>
 
             {/* Quick Stats */}
-            <div className="grid grid-cols-3 gap-2 sm:flex sm:flex-wrap sm:items-center sm:justify-center sm:gap-8 text-sm animate-fade-in" style={{ animationDelay: '0.2s' }}>
-              <div className="flex flex-col sm:flex-row items-center gap-1 sm:gap-2">
-                <div className="w-8 h-8 md:w-10 md:h-10 bg-white/15 backdrop-blur-sm rounded-xl flex items-center justify-center">
-                  <MapPin className="w-4 h-4 md:w-5 md:h-5" />
+            <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 md:gap-8 text-sm animate-fade-in" style={{ animationDelay: '0.2s' }}>
+              <div className="flex items-center gap-2">
+                <div className="w-9 h-9 sm:w-10 sm:h-10 bg-white/15 backdrop-blur-sm rounded-xl flex items-center justify-center">
+                  <MapPin className="w-4 h-4 sm:w-5 sm:h-5" />
                 </div>
-                <span className="font-semibold text-xs md:text-sm text-center">{t('hero.statDestinations')}</span>
+                <span className="font-semibold text-sm">{t('hero.statDestinations')}</span>
               </div>
-              <div className="flex flex-col sm:flex-row items-center gap-1 sm:gap-2">
-                <div className="w-8 h-8 md:w-10 md:h-10 bg-white/15 backdrop-blur-sm rounded-xl flex items-center justify-center">
-                  <HelpCircle className="w-4 h-4 md:w-5 md:h-5" />
+              <div className="flex items-center gap-2">
+                <div className="w-9 h-9 sm:w-10 sm:h-10 bg-white/15 backdrop-blur-sm rounded-xl flex items-center justify-center">
+                  <HelpCircle className="w-4 h-4 sm:w-5 sm:h-5" />
                 </div>
-                <span className="font-semibold text-xs md:text-sm text-center">{t('hero.statGuides')}</span>
+                <span className="font-semibold text-sm">{t('hero.statGuides')}</span>
               </div>
-              <div className="flex flex-col sm:flex-row items-center gap-1 sm:gap-2">
-                <div className="w-8 h-8 md:w-10 md:h-10 bg-white/15 backdrop-blur-sm rounded-xl flex items-center justify-center">
-                  <Users className="w-4 h-4 md:w-5 md:h-5" />
+              <div className="flex items-center gap-2">
+                <div className="w-9 h-9 sm:w-10 sm:h-10 bg-white/15 backdrop-blur-sm rounded-xl flex items-center justify-center">
+                  <Users className="w-4 h-4 sm:w-5 sm:h-5" />
                 </div>
-                <span className="font-semibold text-xs md:text-sm text-center">{t('hero.statLanguages')}</span>
+                <span className="font-semibold text-sm">{t('hero.statLanguages')}</span>
               </div>
             </div>
           </div>
