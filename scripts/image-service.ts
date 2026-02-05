@@ -654,8 +654,40 @@ export async function getArticleImage(
     await new Promise((r) => setTimeout(r, 300));
   }
 
-  // Strict mode: No fallback - return null if no image passes validation
-  console.log(`    ⚠️ No validated image found, article will have no image`);
+  // Fallback: Search for generic Adriatic Sea image
+  console.log(`    ⚠️ No validated image found, searching for Adriatic Sea fallback...`);
+
+  const fallbackQueries = [
+    'adriatic sea croatia',
+    'croatia coast blue sea',
+    'dalmatia sea view',
+    'mediterranean sea croatia',
+  ];
+
+  for (const fallbackQuery of fallbackQueries) {
+    const [pFallback, uFallback, xFallback] = await Promise.all([
+      fetchFromPexels(fallbackQuery),
+      fetchFromUnsplash(fallbackQuery),
+      fetchFromPixabay(fallbackQuery),
+    ]);
+
+    const fallbackCandidates = [...pFallback, ...uFallback, ...xFallback];
+
+    if (fallbackCandidates.length > 0) {
+      // Pick a random one from fallback results
+      const fallbackImg = fallbackCandidates[Math.floor(Math.random() * fallbackCandidates.length)];
+      console.log(`    🌊 Using Adriatic Sea fallback image from ${fallbackImg.source}`);
+      return {
+        imageUrl: fallbackImg.url,
+        imageAlt: 'Adriatic Sea, Croatia',
+        imageCredit: fallbackImg.photographer,
+        imageCreditUrl: fallbackImg.photographerUrl,
+        imageSource: fallbackImg.source,
+      };
+    }
+  }
+
+  console.log(`    ❌ No fallback image found either`);
   return null;
 }
 

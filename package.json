@@ -14,7 +14,10 @@
     "fetch-images": "npx tsx scripts/fetch-wikimedia-images.ts"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.72.1",
     "@google/generative-ai": "^0.21.0",
+    "@vercel/analytics": "^1.6.1",
+    "cloudinary": "^2.9.0",
     "date-fns": "^4.1.0",
     "dotenv": "^17.2.3",
     "gray-matter": "^4.0.3",

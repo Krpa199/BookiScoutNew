@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import OrganizationSchema from "@/components/schema/OrganizationSchema";
 
@@ -100,6 +101,7 @@ export default function RootLayout({
       <body className="min-h-screen flex flex-col">
         <OrganizationSchema />
         {children}
+        <Analytics />
       </body>
     </html>
   );
