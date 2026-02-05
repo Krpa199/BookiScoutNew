@@ -219,7 +219,7 @@ export default async function DestinationPage({ params }: Props) {
       />
 
       {/* Hero */}
-      <section className="relative text-white min-h-[75vh] sm:min-h-[80vh] md:min-h-[85vh] flex items-end overflow-hidden">
+      <section className="relative text-white min-h-[60vh] sm:min-h-[70vh] md:min-h-[85vh] flex items-end overflow-hidden mb-6 sm:mb-0">
         <div className="absolute inset-0">
           <img
             src={destinationImage.url}
@@ -247,7 +247,7 @@ export default async function DestinationPage({ params }: Props) {
         </div>
 
         {/* Content */}
-        <div className="container pb-28 sm:pb-28 md:pb-28 relative z-10 w-full">
+        <div className="container pb-16 sm:pb-20 md:pb-28 relative z-10 w-full">
           <div className="max-w-4xl animate-slide-up">
             <div className="flex items-center gap-2 sm:gap-2.5 mb-3 md:mb-6">
               <div className="w-8 h-8 sm:w-10 sm:h-10 bg-black/30 backdrop-blur-sm rounded-lg sm:rounded-xl flex items-center justify-center border border-white/20">
