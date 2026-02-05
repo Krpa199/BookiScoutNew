@@ -406,6 +406,13 @@ p {
   }
 }
 
+/* Mobile destination hero fix - extra space below buttons */
+@media (max-width: 639px) {
+  .destination-hero-content {
+    padding-bottom: 7rem !important;
+  }
+}
+
 /* Utility Classes - Ocean themed */
 .text-gradient-ocean {
   background: linear-gradient(135deg, var(--color-ocean) 0%, var(--color-ocean-light) 100%);
