@@ -100,54 +100,8 @@ export default async function GuidesPage({ params }: Props) {
 
   const t = await getTranslations('guides');
   const tCommon = await getTranslations('common');
-  const tThemes = await getTranslations('guides.themes');
-
   const articles = getAllArticles(locale);
   const totalGuides = articles.length * locales.length;
-
-  // Theme styles
-  const themeStyles: Record<string, { bg: string; text: string; gradient: string }> = {
-    apartments: { bg: 'bg-ocean-100', text: 'text-ocean-700', gradient: 'from-ocean-400 to-ocean-600' },
-    family: { bg: 'bg-seafoam-100', text: 'text-seafoam-700', gradient: 'from-seafoam-400 to-seafoam-600' },
-    beach: { bg: 'bg-cyan-100', text: 'text-cyan-700', gradient: 'from-cyan-400 to-cyan-600' },
-    budget: { bg: 'bg-sand-100', text: 'text-sand-700', gradient: 'from-sand-400 to-sand-600' },
-    luxury: { bg: 'bg-purple-100', text: 'text-purple-700', gradient: 'from-purple-400 to-purple-600' },
-    restaurants: { bg: 'bg-coral-100', text: 'text-coral-700', gradient: 'from-coral-400 to-coral-600' },
-    'things-to-do': { bg: 'bg-indigo-100', text: 'text-indigo-700', gradient: 'from-indigo-400 to-indigo-600' },
-    'hidden-gems': { bg: 'bg-pink-100', text: 'text-pink-700', gradient: 'from-pink-400 to-pink-600' },
-    couples: { bg: 'bg-rose-100', text: 'text-rose-700', gradient: 'from-rose-400 to-rose-600' },
-    nightlife: { bg: 'bg-violet-100', text: 'text-violet-700', gradient: 'from-violet-400 to-violet-600' },
-    'day-trips': { bg: 'bg-teal-100', text: 'text-teal-700', gradient: 'from-teal-400 to-teal-600' },
-    weather: { bg: 'bg-sky-100', text: 'text-sky-700', gradient: 'from-sky-400 to-sky-600' },
-    'local-food': { bg: 'bg-orange-100', text: 'text-orange-700', gradient: 'from-orange-400 to-orange-600' },
-  };
-
-  const getThemeLabel = (theme: string): string => {
-    const themeKeyMap: Record<string, string> = {
-      'apartments': 'apartments',
-      'family': 'family',
-      'beach': 'beach',
-      'budget': 'budget',
-      'luxury': 'luxury',
-      'restaurants': 'restaurants',
-      'things-to-do': 'thingsToDo',
-      'hidden-gems': 'hiddenGems',
-      'couples': 'couples',
-      'nightlife': 'nightlife',
-      'day-trips': 'dayTrips',
-      'weather': 'weather',
-      'local-food': 'localFood',
-    };
-    const key = themeKeyMap[theme];
-    if (key) {
-      try {
-        return tThemes(key as any);
-      } catch {
-        return theme;
-      }
-    }
-    return theme;
-  };
 
   return (
     <>
@@ -237,14 +191,7 @@ export default async function GuidesPage({ params }: Props) {
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8">
-                {articles.map((article) => {
-                  const style = themeStyles[article.theme] || {
-                    bg: 'bg-slate-100',
-                    text: 'text-slate-700',
-                    gradient: 'from-slate-400 to-slate-600',
-                  };
-
-                  return (
+                {articles.map((article) => (
                     <Link
                       key={article.slug}
                       href={`/guides/${article.slug}`}
@@ -259,7 +206,7 @@ export default async function GuidesPage({ params }: Props) {
                               className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                             />
                           ) : (
-                            <div className={`absolute inset-0 bg-gradient-to-br ${style.gradient}`}>
+                            <div className="absolute inset-0 bg-gradient-to-br from-ocean-400 to-ocean-600">
                               <div className="absolute inset-0 flex items-center justify-center">
                                 <Sparkles className="w-16 h-16 text-white/30" />
                               </div>
@@ -280,11 +227,6 @@ export default async function GuidesPage({ params }: Props) {
                           {/* Gradient overlay for better text readability */}
                           <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
 
-                          <div className="absolute top-4 left-4">
-                            <span className={`px-3 py-1.5 rounded-xl text-xs font-bold ${style.bg} ${style.text} shadow-soft backdrop-blur-sm`}>
-                              {getThemeLabel(article.theme)}
-                            </span>
-                          </div>
 
                           <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity">
                             <span className="px-3 py-1.5 bg-white/90 backdrop-blur-sm rounded-xl text-xs font-bold text-slate-700 shadow-soft flex items-center gap-1">
@@ -322,11 +264,10 @@ export default async function GuidesPage({ params }: Props) {
                           </div>
                         </div>
 
-                        <div className={`h-1 bg-gradient-to-r ${style.gradient} transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left`} />
+                        <div className="h-1 bg-gradient-to-r from-ocean-400 to-ocean-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left" />
                       </article>
                     </Link>
-                  );
-                })}
+                ))}
               </div>
             </>
           ) : (
