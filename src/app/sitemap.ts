@@ -99,6 +99,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
   });
 
   // ============================================
+  // STATIC PAGES - English only (legal/info pages)
+  // ============================================
+  const staticPages = ['about', 'contact', 'privacy', 'terms'];
+  for (const page of staticPages) {
+    entries.push({
+      url: `${BASE_URL}/${page}`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.5,
+    });
+  }
+
+  // ============================================
   // INDIVIDUAL DESTINATIONS - All languages
   // ============================================
   for (const dest of DESTINATIONS) {

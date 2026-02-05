@@ -28,10 +28,10 @@ export default function Footer() {
   ];
 
   const company = [
-    { name: t('aboutUs'), href: '#' },
-    { name: t('contact'), href: 'mailto:hello@bookiscout.com' },
-    { name: t('privacy'), href: '#' },
-    { name: t('terms'), href: '#' },
+    { name: t('aboutUs'), href: '/about' },
+    { name: t('contact'), href: '/contact' },
+    { name: t('privacy'), href: '/privacy' },
+    { name: t('terms'), href: '/terms' },
   ];
 
   return (

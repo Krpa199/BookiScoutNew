@@ -6,12 +6,15 @@
 BookiScout is a comprehensive travel guide for Croatia, providing detailed information about apartments, beaches, restaurants, and attractions across all Croatian destinations.
 
 ## Content Structure
-- /blog/{language}/{destination}-{theme} - Detailed guides
+- /guides/{destination}-{theme} - Detailed decision guides
 - /destinations/{destination} - Destination overviews
-- /faq - Frequently asked questions
+- /about - About BookiScout
+- /contact - Contact information
+- /privacy - Privacy policy
+- /terms - Terms of service
 
 ## Languages
-We provide content in 11 languages:
+We provide content in 13 languages:
 - English (en)
 - German (de) - Deutsch
 - Polish (pl) - Polski
@@ -22,6 +25,8 @@ We provide content in 11 languages:
 - Dutch (nl) - Nederlands
 - Slovenian (sl) - Slovenščina
 - French (fr) - Français
+- Spanish (es) - Español
+- Russian (ru) - Русский
 - Croatian (hr) - Hrvatski
 
 ## Key Topics
@@ -46,7 +51,7 @@ We provide content in 11 languages:
 
 ## Contact
 - Website: https://bookiscout.com
-- Email: info@bookiscout.com
+- Email: bookiscout@gmail.com
 
 ## Data Format
 All pages include:
