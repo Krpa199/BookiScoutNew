@@ -146,13 +146,18 @@ export async function generateDailyArticles(count: number = 10) {
       console.log(`\n🌍 ${destination.name} - ${theme}`);
       console.log(`   Remaining: Pro=${currentRemaining.pro}, Flash=${currentRemaining.flash}`);
 
-      // Fetch image for this theme from multiple providers
-      console.log(`  ├─ Fetching image...`);
-      const imageData = await getArticleImage(theme, destination.id);
-      if (imageData) {
-        console.log(`  │  ✅ Image found (${imageData.imageSource}): ${imageData.imageCredit}`);
-      } else {
-        console.log(`  │  ⚠️ No image found, continuing without`);
+      // Find stock image with AI validation (Pexels/Unsplash/Pixabay)
+      console.log(`  ├─ Finding stock image...`);
+      let imageData = null;
+      try {
+        imageData = await getArticleImage(theme, destination.slug);
+        if (imageData) {
+          console.log(`  │  ✅ Found validated image from ${imageData.imageSource}`);
+        } else {
+          console.log(`  │  ⚠️ No suitable image found, continuing without`);
+        }
+      } catch (error: any) {
+        console.log(`  │  ⚠️ Image search error: ${error.message}`);
       }
 
       // Generate in English first (uses Pro model)
@@ -160,8 +165,10 @@ export async function generateDailyArticles(count: number = 10) {
       const enArticle = await generateArticle(destination, theme, 'en');
 
       // Add image data to article
-      const enArticleWithImage = imageData ? { ...enArticle, ...imageData } : enArticle;
-      saveArticle(enArticleWithImage, 'en', destination, theme);
+      const enArticleWithImages = imageData
+        ? { ...enArticle, ...imageData }
+        : enArticle;
+      saveArticle(enArticleWithImages, 'en', destination, theme);
       articlesGenerated++;
 
       // Translate to other languages (uses Flash model)
@@ -181,9 +188,11 @@ export async function generateDailyArticles(count: number = 10) {
         console.log(`  ├─ Translating to ${LANGUAGES[lang].name} (Flash Lite)...`);
         try {
           const translated = await translateArticle(enArticle, lang);
-          // Add image data to translated article (same image for all languages)
-          const translatedWithImage = imageData ? { ...translated, ...imageData } : translated;
-          saveArticle(translatedWithImage, lang, destination, theme);
+          // Add same image data to translated article
+          const translatedWithImages = imageData
+            ? { ...translated, ...imageData }
+            : translated;
+          saveArticle(translatedWithImages, lang, destination, theme);
           translationsGenerated++;
         } catch (error: unknown) {
           const errorMessage = (error as Error).message || '';
@@ -274,20 +283,29 @@ export async function generateSingleArticle(
     throw new Error('No Pro API calls remaining for today');
   }
 
-  // Fetch image for this theme from Pexels
-  console.log(`  ├─ Fetching image from Pexels...`);
-  const imageData = await getArticleImage(theme);
-  if (imageData) {
-    console.log(`  │  ✅ Image found: ${imageData.imageCredit}`);
-  } else {
-    console.log(`  │  ⚠️ No image found, continuing without`);
+  // Find stock image with AI validation (Pexels/Unsplash/Pixabay)
+  console.log(`  ├─ Finding stock image...`);
+  let imageData = null;
+  try {
+    imageData = await getArticleImage(theme, destination.slug);
+    if (imageData) {
+      console.log(`  │  ✅ Found validated image from ${imageData.imageSource}`);
+    } else {
+      console.log(`  │  ⚠️ No suitable image found, continuing without`);
+    }
+  } catch (error: any) {
+    console.log(`  │  ⚠️ Image search error: ${error.message}`);
   }
 
   // Generate in English first
   console.log(`  ├─ Generating EN (Gemini 2.5 Pro)...`);
   const enArticle = await generateArticle(destination, theme, 'en');
-  const enArticleWithImage = imageData ? { ...enArticle, ...imageData } : enArticle;
-  saveArticle(enArticleWithImage, 'en', destination, theme);
+
+  // Add image data to article
+  const enArticleWithImages = imageData
+    ? { ...enArticle, ...imageData }
+    : enArticle;
+  saveArticle(enArticleWithImages, 'en', destination, theme);
 
   // Translate to other languages
   let translatedCount = 0;
@@ -303,8 +321,11 @@ export async function generateSingleArticle(
     console.log(`  ├─ Translating to ${LANGUAGES[lang].name}...`);
     try {
       const translated = await translateArticle(enArticle, lang);
-      const translatedWithImage = imageData ? { ...translated, ...imageData } : translated;
-      saveArticle(translatedWithImage, lang, destination, theme);
+      // Add same image data to translated article
+      const translatedWithImages = imageData
+        ? { ...translated, ...imageData }
+        : translated;
+      saveArticle(translatedWithImages, lang, destination, theme);
       translatedCount++;
     } catch (error) {
       console.log(`  ⚠️ Translation failed for ${lang}`);

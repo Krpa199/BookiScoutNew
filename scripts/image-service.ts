@@ -84,8 +84,8 @@ const THEME_REQUIREMENTS: Record<string, string> = {
   'public-transport-quality': 'should show bus, tram, or public transport',
   'ferry-connections': 'MUST show ferry boat or passenger ship',
   'airport-access': 'should show airport or airplane',
-  'wifi-quality': 'should show laptop in cafe or working environment',
-  'mobile-coverage': 'should show smartphone or person using phone',
+  'wifi-quality': 'should show wifi symbol, laptop, cafe, or any internet/connectivity related image',
+  'mobile-coverage': 'should show smartphone, phone, mobile device, or signal/network imagery',
 
   // Activities
   'beach': 'should show beach, sea, sand or pebbles',
@@ -219,14 +219,16 @@ function getSearchQueries(theme: string, destination?: string): string[] {
       'pedestrians european old town',
     ],
     'stroller-friendly': [
-      'family stroller europe',
-      'parents baby carriage travel',
-      'stroller cobblestone street',
+      'family baby stroller travel',
+      'parents pushing stroller city',
+      'baby carriage walk',
+      'mother stroller park',
     ],
     'wheelchair-access': [
-      'wheelchair accessible tourism',
-      'wheelchair ramp europe',
-      'disability access travel',
+      'wheelchair user traveling',
+      'wheelchair tourism sightseeing',
+      'person wheelchair city',
+      'wheelchair accessible ramp',
     ],
     'public-transport-quality': [
       'tram croatia city',
@@ -244,14 +246,18 @@ function getSearchQueries(theme: string, destination?: string): string[] {
       'airport terminal europe',
     ],
     'wifi-quality': [
-      'laptop cafe croatia',
-      'working laptop coffee',
-      'wifi cafe europe',
+      'wifi symbol icon',
+      'free wifi sign',
+      'laptop cafe working',
+      'wifi coffee shop',
+      'internet connection symbol',
     ],
     'mobile-coverage': [
-      'tourist smartphone europe',
-      'using phone travel',
-      'smartphone croatia vacation',
+      'smartphone signal bars',
+      'mobile phone network',
+      'person using smartphone',
+      'cell phone signal',
+      '5g network coverage',
     ],
     'beach': [
       `beach ${destCapitalized} adriatic`,
@@ -376,15 +382,19 @@ function getSearchQueries(theme: string, destination?: string): string[] {
     ],
   };
 
-  // Add specific destination query first if we have destination
-  if (destination && destination !== 'croatia') {
-    const baseTheme = theme.replace(/-/g, ' ');
-    queries.push(`${destCapitalized} ${baseTheme}`);
-  }
+  // Generic themes should skip destination-specific queries (they need generic images)
+  const genericThemes = ['wifi-quality', 'mobile-coverage', 'wheelchair-access', 'stroller-friendly', 'digital-nomads'];
+  const isGenericTheme = genericThemes.includes(theme);
 
-  // Add theme-specific queries
+  // Add theme-specific queries first for generic themes
   if (themeQueries[theme]) {
     queries.push(...themeQueries[theme]);
+  }
+
+  // Add specific destination query only for non-generic themes
+  if (!isGenericTheme && destination && destination !== 'croatia') {
+    const baseTheme = theme.replace(/-/g, ' ');
+    queries.unshift(`${destCapitalized} ${baseTheme}`);
   }
 
   // Fallback
@@ -501,6 +511,18 @@ async function validateImageWithAI(
     const themeRequirement = THEME_REQUIREMENTS[theme] || `should relate to ${theme.replace(/-/g, ' ')}`;
     const destContext = destination ? `for ${destination}, Croatia` : 'for Croatia';
 
+    // Generic themes don't need European location requirement
+    const genericThemes = ['wifi-quality', 'mobile-coverage', 'wheelchair-access', 'stroller-friendly', 'digital-nomads'];
+    const isGenericTheme = genericThemes.includes(theme);
+
+    const locationRules = isGenericTheme
+      ? `2. Location doesn't matter - focus only on the theme content
+3. NO explicit non-European text/signs (if visible)`
+      : `2. Must look European/Mediterranean (architecture, landscape)
+3. People must appear European/Caucasian (if visible)
+4. NO Islamic elements (mosques, minarets, hijabs)
+5. NO Asian/African architecture`;
+
     const prompt = `You are validating images for a Croatia travel website.
 
 ARTICLE CONTEXT: This image is ${destContext}, about "${theme.replace(/-/g, ' ')}".
@@ -509,16 +531,14 @@ THEME REQUIREMENT: The image ${themeRequirement}
 
 STRICT RULES:
 1. Image MUST match the theme requirement above - this is the MOST important check
-2. Must look European/Mediterranean (architecture, landscape)
-3. People must appear European/Caucasian (if visible)
-4. NO Islamic elements (mosques, minarets, hijabs)
-5. NO Asian/African architecture
+${locationRules}
 
 EXAMPLES OF REJECTION:
 - Theme is "crowds" but image shows empty streets → REJECT
 - Theme is "nightlife" but image shows daytime beach → REJECT
 - Theme is "parking" but image shows landscape → REJECT
-- Theme is "digital-nomads" but no laptop visible → REJECT
+- Theme is "wifi-quality" but shows completely unrelated content (nature, food) → REJECT
+- Theme is "wheelchair-access" but no wheelchair or accessibility symbol visible → REJECT
 
 Respond ONLY with JSON (no markdown):
 {"valid": true/false, "reason": "brief explanation"}`;
@@ -634,16 +654,9 @@ export async function getArticleImage(
     await new Promise((r) => setTimeout(r, 300));
   }
 
-  // Fallback to first result
-  console.log(`    ⚠️ No validated image, using first result`);
-  const fallback = shuffled[0];
-  return {
-    imageUrl: fallback.url,
-    imageAlt: fallback.alt,
-    imageCredit: fallback.photographer,
-    imageCreditUrl: fallback.photographerUrl,
-    imageSource: fallback.source,
-  };
+  // Strict mode: No fallback - return null if no image passes validation
+  console.log(`    ⚠️ No validated image found, article will have no image`);
+  return null;
 }
 
 // Keep backward compatibility with old pexels.ts export
