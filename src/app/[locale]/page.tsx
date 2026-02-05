@@ -142,7 +142,7 @@ export default async function HomePage({ params }: Props) {
         <div className="hidden md:block absolute top-40 right-20 w-32 h-32 bg-seafoam-300/20 rounded-full blur-2xl animate-float" style={{ animationDelay: '1s' }} />
         <div className="hidden md:block absolute bottom-20 left-1/4 w-24 h-24 bg-white/10 rounded-full blur-xl animate-float" style={{ animationDelay: '2s' }} />
 
-        <div className="container relative py-16 md:py-24 lg:py-32">
+        <div className="container relative py-12 pb-20 md:py-24 lg:py-32">
           <div className="max-w-4xl mx-auto text-center">
             {/* Badge - AI Authority Signal */}
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/15 backdrop-blur-md rounded-full mb-6 shadow-soft animate-slide-down">
@@ -182,7 +182,7 @@ export default async function HomePage({ params }: Props) {
             </div>
 
             {/* Quick Stats */}
-            <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 md:gap-8 text-sm animate-fade-in" style={{ animationDelay: '0.2s' }}>
+            <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 md:gap-8 text-sm animate-fade-in pb-4 md:pb-0" style={{ animationDelay: '0.2s' }}>
               <div className="flex items-center gap-2">
                 <div className="w-9 h-9 sm:w-10 sm:h-10 bg-white/15 backdrop-blur-sm rounded-xl flex items-center justify-center">
                   <MapPin className="w-4 h-4 sm:w-5 sm:h-5" />
