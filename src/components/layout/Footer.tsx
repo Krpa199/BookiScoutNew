@@ -120,15 +120,15 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Mobile: Guides as horizontal scroll */}
+        {/* Mobile: Guides as wrapping chips */}
         <div className="md:hidden mb-8">
           <h4 className="font-bold text-sm mb-3 text-white">{t('decisionGuides')}</h4>
-          <div className="flex gap-2 overflow-x-auto pb-2 -mx-4 px-4 scrollbar-hide">
+          <div className="flex flex-wrap gap-1.5">
             {guides.slice(0, 4).map((guide, index) => (
               <Link
                 key={index}
                 href={guide.href}
-                className="flex-shrink-0 px-3 py-1.5 bg-slate-800/50 text-slate-300 rounded-full text-xs font-medium border border-slate-700 hover:border-ocean-500 hover:text-ocean-300 transition-colors"
+                className="px-2.5 py-1 bg-slate-800/50 text-slate-300 rounded-full text-[11px] font-medium border border-slate-700 hover:border-ocean-500 hover:text-ocean-300 transition-colors"
               >
                 {guide.name}
               </Link>
