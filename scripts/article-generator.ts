@@ -42,7 +42,10 @@ function loadTracker(): GeneratedTracker {
 
 function saveTracker(tracker: GeneratedTracker) {
   ensureDirectoryExists(path.dirname(TRACKING_FILE));
-  fs.writeFileSync(TRACKING_FILE, JSON.stringify(tracker, null, 2));
+  // Atomic write: write to temp file first, then rename
+  const tempFile = TRACKING_FILE + '.tmp';
+  fs.writeFileSync(tempFile, JSON.stringify(tracker, null, 2));
+  fs.renameSync(tempFile, TRACKING_FILE);
 }
 
 function saveArticle(article: ArticleData, language: LanguageCode, destination: Destination, theme: Theme) {
@@ -172,6 +175,9 @@ export async function generateDailyArticles(count: number = 10) {
       articlesGenerated++;
 
       // Translate to other languages (uses Flash model)
+      // Track translations for this article separately
+      let thisArticleTranslations = 0;
+
       for (const lang of allLanguages) {
         if (lang === 'en') continue;
 
@@ -186,29 +192,55 @@ export async function generateDailyArticles(count: number = 10) {
         }
 
         console.log(`  ├─ Translating to ${LANGUAGES[lang].name} (Flash Lite)...`);
-        try {
-          const translated = await translateArticle(enArticle, lang);
-          // Add same image data to translated article
-          const translatedWithImages = imageData
-            ? { ...translated, ...imageData }
-            : translated;
-          saveArticle(translatedWithImages, lang, destination, theme);
-          translationsGenerated++;
-        } catch (error: unknown) {
-          const errorMessage = (error as Error).message || '';
-          console.log(`  ⚠️ Translation failed for ${lang}: ${errorMessage}`);
 
-          // If it's a rate limit error, stop translations for this article
-          if (errorMessage.includes('exhausted')) {
-            console.log(`  ⚠️ Skipping remaining translations for this article`);
-            break;
+        // Retry logic for translations
+        let translationSuccess = false;
+        for (let attempt = 1; attempt <= 3; attempt++) {
+          try {
+            const translated = await translateArticle(enArticle, lang);
+            // Add same image data to translated article
+            const translatedWithImages = imageData
+              ? { ...translated, ...imageData }
+              : translated;
+            saveArticle(translatedWithImages, lang, destination, theme);
+            thisArticleTranslations++;
+            translationsGenerated++;
+            translationSuccess = true;
+            break; // Success, exit retry loop
+          } catch (error: unknown) {
+            const errorMessage = (error as Error).message || '';
+
+            // If it's a rate limit error, wait and retry
+            if (errorMessage.includes('429') || errorMessage.includes('RESOURCE_EXHAUSTED')) {
+              if (attempt < 3) {
+                console.log(`  ⚠️ Rate limited for ${lang}, attempt ${attempt}/3, waiting 60s...`);
+                await new Promise(resolve => setTimeout(resolve, 60000));
+                continue;
+              }
+            }
+
+            // If it's exhausted error, stop
+            if (errorMessage.includes('exhausted')) {
+              console.log(`  ⚠️ API exhausted, skipping remaining translations`);
+              requestStop('All Flash API keys exhausted for today');
+              break;
+            }
+
+            // Other errors - log and continue to next language
+            console.log(`  ⚠️ Translation failed for ${lang} (attempt ${attempt}): ${errorMessage}`);
+            if (attempt === 3) {
+              console.log(`  ⚠️ Giving up on ${lang} after 3 attempts`);
+            }
           }
         }
+
+        // If we requested stop during translation, break
+        if (shouldStop) break;
       }
 
       // Mark as generated (even if some translations failed)
       tracker.generated.push(`${destination.slug}-${theme}`);
-      tracker.totalArticles += 1 + translationsGenerated;
+      tracker.totalArticles += 1 + thisArticleTranslations;
       tracker.lastRun = new Date().toISOString();
       tracker.lastSessionStats = {
         articlesGenerated,
@@ -217,17 +249,10 @@ export async function generateDailyArticles(count: number = 10) {
       };
       saveTracker(tracker);
 
-      console.log(`  └─ ✅ Done (EN + ${translationsGenerated} translations)`);
-
-      // Reset translation counter for next article
-      const thisArticleTranslations = translationsGenerated;
-      translationsGenerated = 0;
+      console.log(`  └─ ✅ Done (EN + ${thisArticleTranslations} translations)`);
 
       // If we stopped during translations, break the main loop too
       if (shouldStop) break;
-
-      // Add back the translations count for final stats
-      translationsGenerated = thisArticleTranslations;
 
     } catch (error: unknown) {
       const errorMessage = (error as Error).message || String(error);

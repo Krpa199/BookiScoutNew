@@ -47,7 +47,23 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: npm ci
+        run: |
+          # Retry npm ci up to 3 times in case of network issues
+          for i in 1 2 3; do
+            echo "npm ci attempt $i..."
+            if npm ci; then
+              echo "✅ npm ci successful"
+              break
+            else
+              if [ $i -lt 3 ]; then
+                echo "⚠️ npm ci failed, retrying in 30 seconds..."
+                sleep 30
+              else
+                echo "❌ npm ci failed after 3 attempts"
+                exit 1
+              fi
+            fi
+          done
 
       - name: Show API key status
         run: |
