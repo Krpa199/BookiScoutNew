@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import fs from 'fs';
 import path from 'path';
-import { ChevronRight, MapPin, Clock, Star, Sparkles, BookOpen, TrendingUp, Filter } from 'lucide-react';
+import { ChevronRight, MapPin, Clock, Sparkles, BookOpen, TrendingUp, Filter } from 'lucide-react';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { DESTINATIONS } from '@/config/destinations';
@@ -252,14 +252,10 @@ export default async function GuidesPage({ params }: Props) {
                             {article.metaDescription}
                           </p>
 
-                          <div className="flex items-center justify-between pt-3 sm:pt-5 border-t border-slate-100">
+                          <div className="flex items-center pt-3 sm:pt-5 border-t border-slate-100">
                             <div className="flex items-center gap-2 text-slate-400 text-sm">
                               <Clock className="w-4 h-4" />
                               <span className="font-medium">{t('detail.minRead', { count: 5 })}</span>
-                            </div>
-                            <div className="flex items-center gap-1 text-sand-500">
-                              <Star className="w-4 h-4 fill-current" />
-                              <span className="text-sm font-bold text-slate-700">{t('detail.rating')}</span>
                             </div>
                           </div>
                         </div>
