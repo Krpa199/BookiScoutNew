@@ -11,6 +11,20 @@ import BookingWidget from '@/components/ui/BookingWidget';
 import { MapPin, Clock, Calendar, ChevronRight, CheckCircle, Sparkles, Shield, Star, HelpCircle, ArrowRight } from 'lucide-react';
 
 // Article type matching the generated JSON structure
+// Standard table data (for recommendations)
+interface StandardTableRow {
+  name: string;
+  price: string;
+  rating: string;
+  distance: string;
+}
+
+// Comparison table data (for "vs" articles)
+interface ComparisonTableRow {
+  name: string;
+  [key: string]: string; // e.g., dubrovnik, zadar, winner
+}
+
 interface GeneratedArticle {
   title: string;
   metaDescription: string;
@@ -18,7 +32,7 @@ interface GeneratedArticle {
   content: string;
   faq: { question: string; answer: string }[];
   quickAnswer: string;
-  tableData?: { name: string; price: string; rating: string; distance: string }[];
+  tableData?: StandardTableRow[] | ComparisonTableRow[];
   destination: string;
   destinationName: string;
   region: string;
@@ -32,6 +46,7 @@ interface GeneratedArticle {
   imageAlt?: string;
   imageCredit?: string;
   imageCreditUrl?: string;
+  imageSource?: string;
 }
 
 type Props = {
@@ -384,69 +399,155 @@ export default async function GuidePage({ params }: Props) {
             </section>
 
             {/* Table Data if available - Cards on mobile, table on desktop */}
-            {article.tableData && article.tableData.length > 0 && (
-              <section className="bg-white rounded-2xl md:rounded-3xl border-2 border-ocean-100 p-4 sm:p-6 md:p-8 shadow-soft overflow-hidden" aria-labelledby="recommendations-heading">
-                <h2 id="recommendations-heading" className="text-xl md:text-2xl font-bold text-slate-900 mb-4 md:mb-6 flex items-center gap-2 sm:gap-3">
-                  <div className="w-8 h-8 sm:w-10 sm:h-10 bg-seafoam-500 rounded-lg sm:rounded-xl flex items-center justify-center shadow-soft">
-                    <Star className="w-4 h-4 sm:w-5 sm:h-5 text-white" aria-hidden="true" />
-                  </div>
-                  Top Recommendations
-                </h2>
+            {article.tableData && article.tableData.length > 0 && (() => {
+              // Detect if this is a comparison table (has "winner" field) or standard table
+              const isComparisonTable = 'winner' in article.tableData[0];
 
-                {/* Mobile: Cards layout */}
-                <div className="md:hidden space-y-3">
-                  {article.tableData.map((row, index) => (
-                    <div key={index} className="bg-gradient-to-br from-slate-50 to-white p-4 rounded-xl border border-slate-100">
-                      <h3 className="font-bold text-slate-900 text-base mb-3">{row.name}</h3>
-                      <div className="grid grid-cols-3 gap-2 text-sm">
-                        <div>
-                          <p className="text-slate-500 text-xs mb-0.5">Price</p>
-                          <p className="font-semibold text-slate-700">{row.price}</p>
-                        </div>
-                        <div>
-                          <p className="text-slate-500 text-xs mb-0.5">Rating</p>
-                          <span className="inline-flex items-center px-2 py-0.5 bg-seafoam-100 text-seafoam-700 rounded-lg text-xs font-semibold">
-                            {row.rating}
-                          </span>
-                        </div>
-                        <div>
-                          <p className="text-slate-500 text-xs mb-0.5">Distance</p>
-                          <p className="font-medium text-slate-600">{row.distance}</p>
-                        </div>
+              if (isComparisonTable) {
+                // Get comparison columns (all keys except 'name' and 'winner')
+                const firstRow = article.tableData[0] as ComparisonTableRow;
+                const comparisonColumns = Object.keys(firstRow).filter(k => k !== 'name' && k !== 'winner');
+
+                return (
+                  <section className="bg-white rounded-2xl md:rounded-3xl border-2 border-ocean-100 p-4 sm:p-6 md:p-8 shadow-soft overflow-hidden" aria-labelledby="comparison-heading">
+                    <h2 id="comparison-heading" className="text-xl md:text-2xl font-bold text-slate-900 mb-4 md:mb-6 flex items-center gap-2 sm:gap-3">
+                      <div className="w-8 h-8 sm:w-10 sm:h-10 bg-seafoam-500 rounded-lg sm:rounded-xl flex items-center justify-center shadow-soft">
+                        <Star className="w-4 h-4 sm:w-5 sm:h-5 text-white" aria-hidden="true" />
                       </div>
-                    </div>
-                  ))}
-                </div>
+                      Comparison
+                    </h2>
 
-                {/* Desktop: Table layout */}
-                <div className="hidden md:block">
-                  <table className="w-full text-left">
-                    <thead>
-                      <tr className="border-b-2 border-slate-100">
-                        <th className="py-3 px-4 font-bold text-slate-900">Name</th>
-                        <th className="py-3 px-4 font-bold text-slate-900">Price</th>
-                        <th className="py-3 px-4 font-bold text-slate-900">Rating</th>
-                        <th className="py-3 px-4 font-bold text-slate-900">Distance</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {article.tableData.map((row, index) => (
-                        <tr key={index} className="border-b border-slate-50 hover:bg-ocean-50/50 transition-colors">
-                          <td className="py-4 px-4 font-semibold text-slate-900">{row.name}</td>
-                          <td className="py-4 px-4 text-slate-700">{row.price}</td>
-                          <td className="py-4 px-4">
-                            <span className="inline-flex items-center gap-1 px-2 py-1 bg-seafoam-100 text-seafoam-700 rounded-lg text-sm font-semibold">
-                              {row.rating}
-                            </span>
-                          </td>
-                          <td className="py-4 px-4 text-slate-600">{row.distance}</td>
-                        </tr>
+                    {/* Mobile: Cards layout for comparison */}
+                    <div className="md:hidden space-y-3">
+                      {(article.tableData as ComparisonTableRow[]).map((row, index) => (
+                        <div key={index} className="bg-gradient-to-br from-slate-50 to-white p-4 rounded-xl border border-slate-100">
+                          <h3 className="font-bold text-slate-900 text-base mb-3">{row.name}</h3>
+                          <div className="space-y-2 text-sm">
+                            {comparisonColumns.map(col => (
+                              <div key={col} className="flex justify-between items-center">
+                                <span className="text-slate-500 capitalize">{col}</span>
+                                <span className="font-semibold text-slate-700">{row[col]}</span>
+                              </div>
+                            ))}
+                            {row.winner && (
+                              <div className="flex justify-between items-center pt-2 border-t border-slate-100">
+                                <span className="text-slate-500">Winner</span>
+                                <span className={`inline-flex items-center px-2 py-0.5 rounded-lg text-xs font-semibold ${
+                                  row.winner.toLowerCase() === 'tie' || row.winner.toLowerCase() === 'neriješeno'
+                                    ? 'bg-slate-100 text-slate-700'
+                                    : 'bg-seafoam-100 text-seafoam-700'
+                                }`}>
+                                  {row.winner}
+                                </span>
+                              </div>
+                            )}
+                          </div>
+                        </div>
                       ))}
-                    </tbody>
-                  </table>
-                </div>
-              </section>
-            )}
+                    </div>
+
+                    {/* Desktop: Table layout for comparison */}
+                    <div className="hidden md:block overflow-x-auto">
+                      <table className="w-full text-left">
+                        <thead>
+                          <tr className="border-b-2 border-slate-100">
+                            <th className="py-3 px-4 font-bold text-slate-900">Category</th>
+                            {comparisonColumns.map(col => (
+                              <th key={col} className="py-3 px-4 font-bold text-slate-900 capitalize">{col}</th>
+                            ))}
+                            <th className="py-3 px-4 font-bold text-slate-900">Winner</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {(article.tableData as ComparisonTableRow[]).map((row, index) => (
+                            <tr key={index} className="border-b border-slate-50 hover:bg-ocean-50/50 transition-colors">
+                              <td className="py-4 px-4 font-semibold text-slate-900">{row.name}</td>
+                              {comparisonColumns.map(col => (
+                                <td key={col} className="py-4 px-4 text-slate-700">{row[col]}</td>
+                              ))}
+                              <td className="py-4 px-4">
+                                <span className={`inline-flex items-center gap-1 px-2 py-1 rounded-lg text-sm font-semibold ${
+                                  row.winner?.toLowerCase() === 'tie' || row.winner?.toLowerCase() === 'neriješeno'
+                                    ? 'bg-slate-100 text-slate-700'
+                                    : 'bg-seafoam-100 text-seafoam-700'
+                                }`}>
+                                  {row.winner}
+                                </span>
+                              </td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  </section>
+                );
+              } else {
+                // Standard recommendations table
+                return (
+                  <section className="bg-white rounded-2xl md:rounded-3xl border-2 border-ocean-100 p-4 sm:p-6 md:p-8 shadow-soft overflow-hidden" aria-labelledby="recommendations-heading">
+                    <h2 id="recommendations-heading" className="text-xl md:text-2xl font-bold text-slate-900 mb-4 md:mb-6 flex items-center gap-2 sm:gap-3">
+                      <div className="w-8 h-8 sm:w-10 sm:h-10 bg-seafoam-500 rounded-lg sm:rounded-xl flex items-center justify-center shadow-soft">
+                        <Star className="w-4 h-4 sm:w-5 sm:h-5 text-white" aria-hidden="true" />
+                      </div>
+                      Top Recommendations
+                    </h2>
+
+                    {/* Mobile: Cards layout */}
+                    <div className="md:hidden space-y-3">
+                      {(article.tableData as StandardTableRow[]).map((row, index) => (
+                        <div key={index} className="bg-gradient-to-br from-slate-50 to-white p-4 rounded-xl border border-slate-100">
+                          <h3 className="font-bold text-slate-900 text-base mb-3">{row.name}</h3>
+                          <div className="grid grid-cols-3 gap-2 text-sm">
+                            <div>
+                              <p className="text-slate-500 text-xs mb-0.5">Price</p>
+                              <p className="font-semibold text-slate-700">{row.price}</p>
+                            </div>
+                            <div>
+                              <p className="text-slate-500 text-xs mb-0.5">Rating</p>
+                              <span className="inline-flex items-center px-2 py-0.5 bg-seafoam-100 text-seafoam-700 rounded-lg text-xs font-semibold">
+                                {row.rating}
+                              </span>
+                            </div>
+                            <div>
+                              <p className="text-slate-500 text-xs mb-0.5">Distance</p>
+                              <p className="font-medium text-slate-600">{row.distance}</p>
+                            </div>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+
+                    {/* Desktop: Table layout */}
+                    <div className="hidden md:block">
+                      <table className="w-full text-left">
+                        <thead>
+                          <tr className="border-b-2 border-slate-100">
+                            <th className="py-3 px-4 font-bold text-slate-900">Name</th>
+                            <th className="py-3 px-4 font-bold text-slate-900">Price</th>
+                            <th className="py-3 px-4 font-bold text-slate-900">Rating</th>
+                            <th className="py-3 px-4 font-bold text-slate-900">Distance</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {(article.tableData as StandardTableRow[]).map((row, index) => (
+                            <tr key={index} className="border-b border-slate-50 hover:bg-ocean-50/50 transition-colors">
+                              <td className="py-4 px-4 font-semibold text-slate-900">{row.name}</td>
+                              <td className="py-4 px-4 text-slate-700">{row.price}</td>
+                              <td className="py-4 px-4">
+                                <span className="inline-flex items-center gap-1 px-2 py-1 bg-seafoam-100 text-seafoam-700 rounded-lg text-sm font-semibold">
+                                  {row.rating}
+                                </span>
+                              </td>
+                              <td className="py-4 px-4 text-slate-600">{row.distance}</td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  </section>
+                );
+              }
+            })()}
 
             {/* FAQ Section - Critical for AI optimization */}
             {article.faq && article.faq.length > 0 && (
