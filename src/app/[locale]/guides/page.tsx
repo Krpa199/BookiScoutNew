@@ -30,6 +30,13 @@ interface ArticlePreview {
   slug: string;
   generatedAt: string;
   imageUrl?: string;
+  readingTime: number;
+}
+
+function calculateReadingTime(content: string): number {
+  const text = content.replace(/<[^>]*>/g, '').replace(/[#*_\[\]()]/g, '');
+  const wordCount = text.split(/\s+/).filter(Boolean).length;
+  return Math.max(3, Math.ceil(wordCount / 200));
 }
 
 // Get all available articles
@@ -53,6 +60,7 @@ function getAllArticles(locale: string): ArticlePreview[] {
             slug: file.replace('.json', ''),
             generatedAt: data.generatedAt,
             imageUrl: data.imageUrl,
+            readingTime: calculateReadingTime(data.content || ''),
           });
         }
       }
@@ -80,6 +88,7 @@ function getAllArticles(locale: string): ArticlePreview[] {
               theme: data.theme || data.topicMeta?.theme || '',
               slug: file.replace('.json', ''),
               generatedAt: data.generatedAt || new Date().toISOString(),
+              readingTime: calculateReadingTime(data.content || ''),
             });
           }
         }
@@ -255,7 +264,7 @@ export default async function GuidesPage({ params }: Props) {
                           <div className="flex items-center pt-3 sm:pt-5 border-t border-slate-100">
                             <div className="flex items-center gap-2 text-slate-400 text-sm">
                               <Clock className="w-4 h-4" />
-                              <span className="font-medium">{t('detail.minRead', { count: 5 })}</span>
+                              <span className="font-medium">{t('detail.minRead', { count: article.readingTime })}</span>
                             </div>
                           </div>
                         </div>
