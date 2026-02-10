@@ -25,18 +25,17 @@ interface ApiKeyManager {
 
 const API_LIMITS = {
   // FREE TIER LIMITS (per key per day):
-  // - Gemini 2.5 Pro: 25 requests/day
-  // - Gemini 2.5 Flash: 1500 requests/day (we use Flash Lite which may differ)
+  // - Gemini 2.5 Flash: 1500 requests/day (used for EN article generation)
+  // - Gemini 2.5 Flash Lite: 1500 requests/day (used for translations)
   //
   // With 3 keys and 50 articles/day:
-  // - Pro: 50 articles = ~17 per key (under 25 limit, with buffer for retries)
-  // - Flash: 50 × 12 translations = 600 total = 200 per key (well under 1500 limit)
+  // - Flash (articles): 50 articles = ~17 per key (well under 1500 limit)
+  // - Flash Lite (translations): 50 × 12 = 600 total = 200 per key (well under 1500 limit)
   //
-  // Setting limits to stay within free tier:
-  PRO_DAILY: 17,       // 17 per key × 3 keys = 51 articles max (safe under 25×3=75)
-  FLASH_DAILY: 250,    // 250 per key × 3 keys = 750 translations max (safe under 1500×3=4500)
-  PRO_DELAY_MS: 15000,    // 15 seconds between Pro calls (5 RPM = 12s min)
-  FLASH_DELAY_MS: 3000,   // 3 seconds between Flash calls (30 RPM)
+  PRO_DAILY: 500,         // 500 per key × 3 keys = 1500 articles max (Flash has 1500/day limit)
+  FLASH_DAILY: 500,       // 500 per key × 3 keys = 1500 translations max
+  PRO_DELAY_MS: 3000,     // 3 seconds between calls (Flash is faster, no need for 15s)
+  FLASH_DELAY_MS: 3000,   // 3 seconds between Flash Lite calls
   RETRY_DELAY_MS: 60000,  // 1 minute wait on rate limit error
   MAX_RETRIES: 3,
 };
@@ -166,7 +165,7 @@ export function getRemainingCalls(): { pro: number; flash: number } {
 
 function getProModel(apiKey: string): GenerativeModel {
   const genAI = new GoogleGenerativeAI(apiKey);
-  return genAI.getGenerativeModel({ model: 'gemini-2.5-pro' });
+  return genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
 }
 
 function getFlashModel(apiKey: string): GenerativeModel {
