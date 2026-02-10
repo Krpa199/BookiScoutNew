@@ -167,30 +167,116 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
+// Parse a markdown table row into cells
+function parseTableRow(line: string): string[] {
+  return line.split('|').slice(1, -1).map(cell => cell.trim());
+}
+
+// Check if a line is a markdown table separator (|---|---|)
+function isTableSeparator(line: string): boolean {
+  return /^\|[\s:]*-{2,}[\s:]*\|/.test(line.trim());
+}
+
+// Render a markdown table block as responsive HTML (cards on mobile, table on desktop)
+function renderMarkdownTable(tableLines: string[]): string {
+  if (tableLines.length < 2) return tableLines.join('\n');
+
+  const headerLine = tableLines[0];
+  const headers = parseTableRow(headerLine);
+
+  // Find separator line and data rows after it
+  let dataStartIndex = 1;
+  if (tableLines.length > 1 && isTableSeparator(tableLines[1])) {
+    dataStartIndex = 2;
+  }
+
+  const rows = tableLines.slice(dataStartIndex).map(line => parseTableRow(line));
+  if (rows.length === 0) return tableLines.join('\n');
+
+  // Apply bold/italic inline formatting to cell content
+  const formatCell = (text: string) => {
+    return text
+      .replace(/\*\*(.*?)\*\*/g, '<strong class="font-semibold text-slate-900">$1</strong>')
+      .replace(/(?<!\*)\*([^*]+)\*(?!\*)/g, '<em>$1</em>');
+  };
+
+  // Mobile: card layout
+  let mobileHtml = '<div class="md:hidden space-y-3 my-6">';
+  for (const row of rows) {
+    const title = formatCell(row[0] || '');
+    mobileHtml += `<div class="bg-gradient-to-br from-slate-50 to-white p-4 rounded-xl border border-slate-200/80 shadow-sm">`;
+    mobileHtml += `<div class="font-bold text-slate-900 text-base mb-3 pb-2 border-b border-slate-100">${title}</div>`;
+    mobileHtml += `<div class="space-y-2.5 text-sm">`;
+    for (let j = 1; j < headers.length; j++) {
+      const headerText = formatCell(headers[j]);
+      const cellText = formatCell(row[j] || '');
+      mobileHtml += `<div><span class="text-slate-500 text-xs uppercase tracking-wide font-medium">${headerText}</span>`;
+      mobileHtml += `<div class="text-slate-700 mt-0.5 leading-relaxed">${cellText}</div></div>`;
+    }
+    mobileHtml += `</div></div>`;
+  }
+  mobileHtml += '</div>';
+
+  // Desktop: table layout
+  let desktopHtml = '<div class="hidden md:block my-6 overflow-x-auto rounded-xl border border-slate-200/80 shadow-sm">';
+  desktopHtml += '<table class="w-full text-left text-sm">';
+  desktopHtml += '<thead><tr class="bg-gradient-to-r from-ocean-50 to-slate-50">';
+  for (const h of headers) {
+    desktopHtml += `<th class="py-3.5 px-5 font-bold text-slate-900 text-xs uppercase tracking-wide border-b-2 border-ocean-100">${formatCell(h)}</th>`;
+  }
+  desktopHtml += '</tr></thead><tbody>';
+  for (let i = 0; i < rows.length; i++) {
+    const stripe = i % 2 === 1 ? ' bg-slate-50/50' : '';
+    desktopHtml += `<tr class="border-b border-slate-100 hover:bg-ocean-50/30 transition-colors${stripe}">`;
+    for (let j = 0; j < headers.length; j++) {
+      const cls = j === 0 ? 'font-semibold text-slate-900' : 'text-slate-700';
+      desktopHtml += `<td class="py-3.5 px-5 ${cls} leading-relaxed">${formatCell(rows[i][j] || '')}</td>`;
+    }
+    desktopHtml += '</tr>';
+  }
+  desktopHtml += '</tbody></table></div>';
+
+  return mobileHtml + desktopHtml;
+}
+
 // Simple markdown to HTML converter
 function renderMarkdown(content: string): string {
-  // Split content into lines for proper header detection
   const lines = content.split('\n');
   const processedLines: string[] = [];
 
-  for (let i = 0; i < lines.length; i++) {
-    let line = lines[i];
+  let i = 0;
+  while (i < lines.length) {
+    const line = lines[i];
 
-    // Headers - must be at start of line
-    if (line.startsWith('#### ')) {
-      line = `<h4 class="text-lg font-bold text-slate-900 mt-6 mb-3">${line.slice(5)}</h4>`;
-    } else if (line.startsWith('### ')) {
-      line = `<h3 class="text-xl font-bold text-slate-900 mt-8 mb-4">${line.slice(4)}</h3>`;
-    } else if (line.startsWith('## ')) {
-      line = `<h2 class="text-2xl font-bold text-slate-900 mt-10 mb-5">${line.slice(3)}</h2>`;
-    } else if (line.startsWith('# ')) {
-      line = `<h1 class="text-3xl font-bold text-slate-900 mt-12 mb-6">${line.slice(2)}</h1>`;
-    } else if (line.startsWith('*   ')) {
-      // List item
-      line = `<li class="flex items-start gap-3 mb-2"><span class="w-2 h-2 bg-ocean-500 rounded-full mt-2 flex-shrink-0"></span><span>${line.slice(4)}</span></li>`;
+    // Detect markdown table: line starts with | and has at least 2 |
+    if (line.trimStart().startsWith('|') && (line.match(/\|/g) || []).length >= 3) {
+      // Collect all consecutive table lines
+      const tableLines: string[] = [];
+      while (i < lines.length && lines[i].trimStart().startsWith('|') && (lines[i].match(/\|/g) || []).length >= 3) {
+        tableLines.push(lines[i]);
+        i++;
+      }
+      processedLines.push(renderMarkdownTable(tableLines));
+      continue;
     }
 
-    processedLines.push(line);
+    // Headers - must be at start of line
+    let processed = line;
+    if (processed.startsWith('#### ')) {
+      processed = `<h4 class="text-lg font-bold text-slate-900 mt-6 mb-3">${processed.slice(5)}</h4>`;
+    } else if (processed.startsWith('### ')) {
+      processed = `<h3 class="text-xl font-bold text-slate-900 mt-8 mb-4">${processed.slice(4)}</h3>`;
+    } else if (processed.startsWith('## ')) {
+      processed = `<h2 class="text-2xl font-bold text-slate-900 mt-10 mb-5">${processed.slice(3)}</h2>`;
+    } else if (processed.startsWith('# ')) {
+      processed = `<h1 class="text-3xl font-bold text-slate-900 mt-12 mb-6">${processed.slice(2)}</h1>`;
+    } else if (processed.startsWith('*   ')) {
+      // List item
+      processed = `<li class="flex items-start gap-3 mb-2"><span class="w-2 h-2 bg-ocean-500 rounded-full mt-2 flex-shrink-0"></span><span>${processed.slice(4)}</span></li>`;
+    }
+
+    processedLines.push(processed);
+    i++;
   }
 
   let html = processedLines.join('\n');
