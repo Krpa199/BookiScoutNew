@@ -443,3 +443,115 @@ p {
     radial-gradient(at 100% 100%, rgba(16, 185, 129, 0.1) 0px, transparent 50%),
     radial-gradient(at 0% 100%, rgba(14, 165, 233, 0.1) 0px, transparent 50%);
 }
+
+/* ============================================
+   WOW Effects - Guide Article Pages
+   ============================================ */
+
+/* Glass morphism cards */
+.glass-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.glass-card-dark {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Gradient text for hero title */
+.text-gradient-hero {
+  background: linear-gradient(135deg, #ffffff 0%, #e0f2fe 40%, #bae6fd 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Section divider gradient line */
+.section-divider {
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(14, 165, 233, 0.3) 20%,
+    rgba(16, 185, 129, 0.3) 50%,
+    rgba(14, 165, 233, 0.3) 80%,
+    transparent 100%
+  );
+}
+
+/* Featured image hover effects */
+.featured-image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.featured-image-container img {
+  transition: transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.featured-image-container:hover img {
+  transform: scale(1.03);
+}
+
+/* Pulse glow for Quick Answer */
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(14, 165, 233, 0.15); }
+  50% { box-shadow: 0 0 0 8px rgba(14, 165, 233, 0); }
+}
+
+.pulse-glow {
+  animation: pulse-glow 3s ease-in-out infinite;
+}
+
+/* Shimmer effect */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.animate-shimmer {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.06) 50%,
+    transparent 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 4s ease-in-out infinite;
+}
+
+/* Floating orbs - slow ambient motion */
+@keyframes float-slow {
+  0%, 100% { transform: translate(0, 0); }
+  25% { transform: translate(10px, -15px); }
+  50% { transform: translate(-5px, -25px); }
+  75% { transform: translate(-15px, -10px); }
+}
+
+@keyframes float-slower {
+  0%, 100% { transform: translate(0, 0); }
+  33% { transform: translate(-20px, -10px); }
+  66% { transform: translate(15px, -20px); }
+}
+
+.animate-float-slow {
+  animation: float-slow 12s ease-in-out infinite;
+}
+
+.animate-float-slower {
+  animation: float-slower 16s ease-in-out infinite;
+}
+
+/* Mobile table card touch feedback */
+.table-card-mobile {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.table-card-mobile:active {
+  transform: scale(0.98);
+}

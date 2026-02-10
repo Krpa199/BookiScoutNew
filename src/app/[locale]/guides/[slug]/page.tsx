@@ -8,6 +8,9 @@ import { locales, localeFlags, type Locale } from '@/i18n/config';
 import { shouldShowBookingWidget } from '@/config/features';
 import ArticleSchema from '@/components/article/ArticleSchema';
 import BookingWidget from '@/components/ui/BookingWidget';
+import ScrollReveal from '@/components/ui/ScrollReveal';
+import ReadingProgress from '@/components/ui/ReadingProgress';
+import AnimatedFaq from '@/components/ui/AnimatedFaq';
 import { MapPin, Clock, Calendar, ChevronRight, CheckCircle, Sparkles, Shield, Star, HelpCircle, ArrowRight } from 'lucide-react';
 
 // Article type matching the generated JSON structure
@@ -200,18 +203,21 @@ function renderMarkdownTable(tableLines: string[]): string {
       .replace(/(?<!\*)\*([^*]+)\*(?!\*)/g, '<em>$1</em>');
   };
 
-  // Mobile: card layout
+  // Mobile: card layout with glass morphism
   let mobileHtml = '<div class="md:hidden space-y-3 my-6">';
   for (const row of rows) {
     const title = formatCell(row[0] || '');
-    mobileHtml += `<div class="bg-gradient-to-br from-slate-50 to-white p-4 rounded-xl border border-slate-200/80 shadow-sm">`;
-    mobileHtml += `<div class="font-bold text-slate-900 text-base mb-3 pb-2 border-b border-slate-100">${title}</div>`;
+    mobileHtml += `<div class="glass-card table-card-mobile p-4 rounded-xl border border-ocean-100/50 shadow-soft">`;
+    mobileHtml += `<div class="font-bold text-slate-900 text-base mb-3 pb-2 border-b border-ocean-100/50 flex items-center gap-2">`;
+    mobileHtml += `<span class="w-2 h-2 bg-gradient-to-br from-ocean-400 to-seafoam-400 rounded-full flex-shrink-0"></span>`;
+    mobileHtml += `${title}</div>`;
     mobileHtml += `<div class="space-y-2.5 text-sm">`;
     for (let j = 1; j < headers.length; j++) {
       const headerText = formatCell(headers[j]);
       const cellText = formatCell(row[j] || '');
-      mobileHtml += `<div><span class="text-slate-500 text-xs uppercase tracking-wide font-medium">${headerText}</span>`;
-      mobileHtml += `<div class="text-slate-700 mt-0.5 leading-relaxed">${cellText}</div></div>`;
+      mobileHtml += `<div class="flex items-start justify-between gap-2">`;
+      mobileHtml += `<span class="text-slate-500 text-xs uppercase tracking-wide font-medium bg-slate-50 px-2 py-0.5 rounded flex-shrink-0">${headerText}</span>`;
+      mobileHtml += `<span class="text-slate-800 text-right leading-relaxed">${cellText}</span></div>`;
     }
     mobileHtml += `</div></div>`;
   }
@@ -260,14 +266,14 @@ function renderMarkdown(content: string): string {
       continue;
     }
 
-    // Headers - must be at start of line
+    // Headers - must be at start of line, with accent bars
     let processed = line;
     if (processed.startsWith('#### ')) {
       processed = `<h4 class="text-lg font-bold text-slate-900 mt-6 mb-3">${processed.slice(5)}</h4>`;
     } else if (processed.startsWith('### ')) {
-      processed = `<h3 class="text-xl font-bold text-slate-900 mt-8 mb-4">${processed.slice(4)}</h3>`;
+      processed = `<h3 class="text-xl font-bold text-slate-900 mt-8 mb-4 flex items-center gap-2"><span class="w-1 h-6 bg-ocean-300 rounded-full flex-shrink-0"></span>${processed.slice(4)}</h3>`;
     } else if (processed.startsWith('## ')) {
-      processed = `<h2 class="text-2xl font-bold text-slate-900 mt-10 mb-5">${processed.slice(3)}</h2>`;
+      processed = `<div class="section-divider my-8"></div><h2 class="text-2xl font-bold text-slate-900 mt-2 mb-5 flex items-center gap-3"><span class="w-1 h-8 bg-gradient-to-b from-ocean-400 to-seafoam-400 rounded-full flex-shrink-0"></span>${processed.slice(3)}</h2>`;
     } else if (processed.startsWith('# ')) {
       processed = `<h1 class="text-3xl font-bold text-slate-900 mt-12 mb-6">${processed.slice(2)}</h1>`;
     } else if (processed.startsWith('*   ')) {
@@ -343,6 +349,9 @@ export default async function GuidePage({ params }: Props) {
         faq={article.faq}
       />
 
+      {/* Reading Progress Bar */}
+      <ReadingProgress />
+
       {/* Breadcrumb */}
       <nav className="bg-gradient-ocean-subtle border-b border-ocean-100" aria-label="Breadcrumb">
         <div className="container py-3 md:py-4">
@@ -377,22 +386,26 @@ export default async function GuidePage({ params }: Props) {
       </nav>
 
       {/* Article Header */}
-      <header className="relative bg-gradient-to-br from-ocean-500 via-ocean-600 to-seafoam-600 text-white py-10 md:py-16 lg:py-24 overflow-hidden">
-        <div className="hidden md:block absolute inset-0 opacity-10" aria-hidden="true">
-          <div className="absolute top-0 right-0 w-96 h-96 bg-white rounded-full blur-3xl" />
-          <div className="absolute bottom-0 left-0 w-96 h-96 bg-seafoam-300 rounded-full blur-3xl" />
+      <header className="relative bg-gradient-to-br from-ocean-500 via-ocean-600 to-seafoam-600 text-white py-12 md:py-20 lg:py-28 overflow-hidden">
+        {/* Animated floating orbs */}
+        <div className="absolute inset-0 overflow-hidden" aria-hidden="true">
+          <div className="absolute top-10 right-10 w-64 h-64 md:w-96 md:h-96 bg-white/[0.07] rounded-full blur-3xl animate-float-slow" />
+          <div className="absolute -bottom-20 -left-20 w-72 h-72 md:w-96 md:h-96 bg-seafoam-300/[0.08] rounded-full blur-3xl animate-float-slower" />
+          <div className="absolute top-1/2 left-1/3 w-48 h-48 bg-ocean-300/[0.05] rounded-full blur-2xl animate-float" />
         </div>
+        {/* Shimmer overlay */}
+        <div className="absolute inset-0 animate-shimmer pointer-events-none" aria-hidden="true" />
 
         <div className="container relative">
           <div className="max-w-4xl">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm font-semibold mb-6">
+            <div className="inline-flex items-center gap-2 px-4 py-2 glass-card-dark rounded-full text-sm font-semibold mb-6">
               <MapPin className="w-4 h-4" aria-hidden="true" />
               <span>{article.destinationName}</span>
               <span aria-hidden="true">•</span>
               <span>{formatTheme(article.theme)}</span>
             </div>
 
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 md:mb-6 leading-tight tracking-tight">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 md:mb-6 leading-tight tracking-tight text-gradient-hero">
               {article.title}
             </h1>
 
@@ -400,14 +413,12 @@ export default async function GuidePage({ params }: Props) {
               {article.metaDescription}
             </p>
 
-            <div className="flex flex-wrap items-center gap-2 sm:gap-4 md:gap-6 text-ocean-100 text-sm md:text-base">
-              <div className="flex items-center gap-2">
-                <div className="w-7 h-7 sm:w-8 sm:h-8 bg-white/15 backdrop-blur-sm rounded-lg flex items-center justify-center">
-                  <Clock className="w-3.5 h-3.5 sm:w-4 sm:h-4" aria-hidden="true" />
-                </div>
-                <span className="font-medium text-xs sm:text-sm">{readingTime} min read</span>
+            <div className="flex flex-wrap items-center gap-2 sm:gap-3 text-ocean-100 text-sm md:text-base">
+              <div className="glass-card-dark flex items-center gap-2 px-3 py-2 rounded-xl">
+                <Clock className="w-3.5 h-3.5 sm:w-4 sm:h-4" aria-hidden="true" />
+                <span className="font-bold text-xs sm:text-sm">{readingTime} min read</span>
               </div>
-              <div className="flex items-center gap-1.5 sm:gap-2 px-2 sm:px-3 py-1 sm:py-1.5 bg-seafoam-500/90 backdrop-blur-sm rounded-lg sm:rounded-xl">
+              <div className="glass-card-dark flex items-center gap-2 px-3 py-2 rounded-xl">
                 <Calendar className="w-3.5 h-3.5 sm:w-4 sm:h-4" aria-hidden="true" />
                 <time dateTime={article.generatedAt} className="font-bold text-xs sm:text-sm">
                   {new Date(article.generatedAt).toLocaleDateString('en-US', {
@@ -417,17 +428,19 @@ export default async function GuidePage({ params }: Props) {
                   })}
                 </time>
               </div>
-              <div className="hidden sm:flex items-center gap-2 px-3 py-1.5 bg-white/20 backdrop-blur-sm rounded-xl border border-white/30">
+              <div className="hidden sm:flex glass-card-dark items-center gap-2 px-3 py-2 rounded-xl">
                 <Sparkles className="w-4 h-4" aria-hidden="true" />
-                <span className="font-bold text-sm">{t('sidebar.aiPowered')}</span>
+                <span className="font-bold text-xs sm:text-sm">{t('sidebar.aiPowered')}</span>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="absolute bottom-0 left-0 right-0 text-white" aria-hidden="true">
-          <svg viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-6 sm:h-auto" preserveAspectRatio="none">
-            <path d="M0,32 C240,48 480,48 720,32 C960,16 1200,16 1440,32 L1440,60 L0,60 Z" fill="currentColor" />
+        {/* Dual-layer wave separator */}
+        <div className="absolute bottom-0 left-0 right-0" aria-hidden="true">
+          <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-8 sm:h-12 md:h-auto" preserveAspectRatio="none">
+            <path d="M0,40 C360,60 720,20 1080,50 C1260,60 1380,40 1440,44 L1440,80 L0,80 Z" fill="white" fillOpacity="0.3" />
+            <path d="M0,52 C240,68 480,48 720,52 C960,56 1200,36 1440,52 L1440,80 L0,80 Z" fill="white" />
           </svg>
         </div>
       </header>
@@ -439,50 +452,58 @@ export default async function GuidePage({ params }: Props) {
           <article className="lg:col-span-2 space-y-6 md:space-y-10">
             {/* Featured Image */}
             {article.imageUrl && (
-              <figure className="relative rounded-2xl md:rounded-3xl overflow-hidden shadow-soft">
-                <img
-                  src={article.imageUrl}
-                  alt={article.imageAlt || article.title}
-                  className="w-full h-auto object-cover aspect-[16/9]"
-                  loading="eager"
-                />
-                {article.imageCredit && (
-                  <figcaption className="absolute bottom-0 right-0 bg-black/60 text-white text-[10px] sm:text-xs px-2 sm:px-3 py-1 sm:py-1.5 rounded-tl-lg">
-                    Photo by{' '}
-                    <a
-                      href={article.imageCreditUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="underline hover:text-ocean-200"
-                    >
-                      {article.imageCredit}
-                    </a>
-                  </figcaption>
-                )}
-              </figure>
+              <ScrollReveal>
+                <figure className="featured-image-container relative rounded-2xl md:rounded-3xl overflow-hidden shadow-large group">
+                  <img
+                    src={article.imageUrl}
+                    alt={article.imageAlt || article.title}
+                    className="w-full h-auto object-cover aspect-[16/9]"
+                    loading="eager"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-ocean-900/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
+                  {article.imageCredit && (
+                    <figcaption className="absolute bottom-0 right-0 bg-black/60 backdrop-blur-sm text-white text-[10px] sm:text-xs px-2 sm:px-3 py-1 sm:py-1.5 rounded-tl-lg">
+                      Photo by{' '}
+                      <a
+                        href={article.imageCreditUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="underline hover:text-ocean-200"
+                      >
+                        {article.imageCredit}
+                      </a>
+                    </figcaption>
+                  )}
+                </figure>
+              </ScrollReveal>
             )}
 
             {/* Quick Answer Box - Important for AI crawlers */}
-            <section className="relative bg-gradient-to-br from-ocean-50 to-cyan-50 border-2 border-ocean-200 p-5 sm:p-6 md:p-8 rounded-2xl md:rounded-3xl shadow-soft overflow-hidden" aria-labelledby="quick-answer-heading">
-              <div className="hidden sm:block absolute top-0 right-0 w-32 h-32 bg-ocean-100 rounded-full blur-3xl opacity-50" aria-hidden="true" />
-              <div className="relative">
-                <div className="flex items-center gap-2 sm:gap-3 mb-3 md:mb-4">
-                  <div className="w-8 h-8 sm:w-10 sm:h-10 bg-ocean-500 rounded-lg sm:rounded-xl flex items-center justify-center shadow-soft">
-                    <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-white" aria-hidden="true" />
+            <ScrollReveal delay={100}>
+              <section className="relative bg-gradient-to-br from-ocean-50 via-cyan-50 to-seafoam-50 border-2 border-ocean-200 p-5 sm:p-6 md:p-8 rounded-2xl md:rounded-3xl shadow-soft overflow-hidden pulse-glow" aria-labelledby="quick-answer-heading">
+                <div className="absolute -top-10 -right-10 w-40 h-40 bg-ocean-200/30 rounded-full blur-3xl animate-float-slow" aria-hidden="true" />
+                <div className="absolute -bottom-10 -left-10 w-32 h-32 bg-seafoam-200/20 rounded-full blur-2xl animate-float-slower" aria-hidden="true" />
+                <div className="relative">
+                  <div className="flex items-center gap-2 sm:gap-3 mb-3 md:mb-4">
+                    <div className="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-br from-ocean-400 to-ocean-600 rounded-lg sm:rounded-xl flex items-center justify-center shadow-ocean">
+                      <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-white" aria-hidden="true" />
+                    </div>
+                    <h2 id="quick-answer-heading" className="text-lg sm:text-xl font-bold text-gradient-ocean">{t('quickAnswer')}</h2>
                   </div>
-                  <h2 id="quick-answer-heading" className="text-lg sm:text-xl font-bold text-ocean-900">{t('quickAnswer')}</h2>
+                  <p className="text-base sm:text-lg text-slate-800 leading-relaxed">{article.quickAnswer}</p>
                 </div>
-                <p className="text-base sm:text-lg text-slate-800 leading-relaxed">{article.quickAnswer}</p>
-              </div>
-            </section>
+              </section>
+            </ScrollReveal>
 
             {/* Main Article Content */}
-            <section className="prose prose-base sm:prose-lg prose-slate max-w-none prose-headings:text-slate-900 prose-p:text-slate-700 prose-p:leading-relaxed">
-              <div
-                className="text-sm sm:text-base text-slate-700 leading-relaxed"
-                dangerouslySetInnerHTML={{ __html: `<p class="text-slate-700 leading-relaxed mb-4">${renderMarkdown(article.content)}</p>` }}
-              />
-            </section>
+            <ScrollReveal delay={150}>
+              <section className="prose prose-base sm:prose-lg prose-slate max-w-none prose-headings:text-slate-900 prose-p:text-slate-700 prose-p:leading-relaxed">
+                <div
+                  className="text-sm sm:text-base text-slate-700 leading-relaxed"
+                  dangerouslySetInnerHTML={{ __html: `<p class="text-slate-700 leading-relaxed mb-4">${renderMarkdown(article.content)}</p>` }}
+                />
+              </section>
+            </ScrollReveal>
 
             {/* Table Data if available - Cards on mobile, table on desktop */}
             {article.tableData && article.tableData.length > 0 && (() => {
@@ -637,98 +658,79 @@ export default async function GuidePage({ params }: Props) {
 
             {/* FAQ Section - Critical for AI optimization */}
             {article.faq && article.faq.length > 0 && (
-              <section
-                className="bg-gradient-to-br from-slate-50 to-ocean-50 p-5 sm:p-6 md:p-8 lg:p-10 rounded-2xl md:rounded-3xl border-2 border-ocean-100"
-                aria-labelledby="faq-heading"
-                itemScope
-                itemType="https://schema.org/FAQPage"
-              >
-                <div className="flex items-center gap-2 sm:gap-3 mb-5 md:mb-8">
-                  <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-ocean rounded-xl sm:rounded-2xl flex items-center justify-center shadow-ocean">
-                    <HelpCircle className="w-5 h-5 sm:w-6 sm:h-6 text-white" aria-hidden="true" />
+              <ScrollReveal delay={200}>
+                <section
+                  className="bg-gradient-to-br from-slate-50 via-ocean-50/50 to-seafoam-50/30 p-5 sm:p-6 md:p-8 lg:p-10 rounded-2xl md:rounded-3xl border-2 border-ocean-100"
+                  aria-labelledby="faq-heading"
+                  itemScope
+                  itemType="https://schema.org/FAQPage"
+                >
+                  <div className="flex items-center gap-2 sm:gap-3 mb-5 md:mb-8">
+                    <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-ocean-400 to-ocean-600 rounded-xl sm:rounded-2xl flex items-center justify-center shadow-ocean">
+                      <HelpCircle className="w-5 h-5 sm:w-6 sm:h-6 text-white" aria-hidden="true" />
+                    </div>
+                    <div>
+                      <h2 id="faq-heading" className="text-xl sm:text-2xl md:text-3xl font-bold text-gradient-ocean">Frequently Asked Questions</h2>
+                      <p className="text-xs sm:text-sm text-slate-600 mt-0.5 sm:mt-1">Common questions about {article.destinationName}</p>
+                    </div>
                   </div>
-                  <div>
-                    <h2 id="faq-heading" className="text-xl sm:text-2xl md:text-3xl font-bold text-slate-900">Frequently Asked Questions</h2>
-                    <p className="text-xs sm:text-sm text-slate-600 mt-0.5 sm:mt-1">Common questions about {article.destinationName}</p>
-                  </div>
-                </div>
-                <div className="space-y-3 md:space-y-4">
-                  {article.faq.map((item, index) => (
-                    <details
-                      key={index}
-                      className="group bg-white border-2 border-slate-100 rounded-xl md:rounded-2xl overflow-hidden hover:border-ocean-300 hover:shadow-soft transition-all"
-                      itemScope
-                      itemProp="mainEntity"
-                      itemType="https://schema.org/Question"
-                    >
-                      <summary className="flex items-center justify-between px-4 sm:px-6 py-4 sm:py-5 cursor-pointer hover:bg-gradient-ocean-subtle transition-all">
-                        <span className="font-bold text-slate-900 pr-3 sm:pr-4 text-sm sm:text-base md:text-lg" itemProp="name">{item.question}</span>
-                        <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-ocean-100 group-hover:bg-ocean-500 flex items-center justify-center transition-all flex-shrink-0">
-                          <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5 text-ocean-600 group-hover:text-white transition-all group-open:rotate-90" aria-hidden="true" />
-                        </div>
-                      </summary>
-                      <div
-                        className="px-4 sm:px-6 pb-4 sm:pb-5 text-slate-700 leading-relaxed border-t-2 border-slate-100 bg-gradient-to-br from-white to-slate-50"
-                        itemScope
-                        itemProp="acceptedAnswer"
-                        itemType="https://schema.org/Answer"
-                      >
-                        <p className="pt-4 sm:pt-5 text-sm sm:text-base" itemProp="text">{item.answer}</p>
-                      </div>
-                    </details>
-                  ))}
-                </div>
-              </section>
+                  <AnimatedFaq items={article.faq} />
+                </section>
+              </ScrollReveal>
             )}
 
             {/* Related Guides - Good for AI and user engagement */}
             {relatedArticles.length > 0 && (
-              <section className="bg-white rounded-2xl md:rounded-3xl border-2 border-slate-100 p-5 sm:p-6 md:p-8 shadow-soft" aria-labelledby="related-heading">
-                <div className="flex items-center gap-2 sm:gap-3 mb-5 md:mb-6">
-                  <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-coral-400 to-coral-600 rounded-xl sm:rounded-2xl flex items-center justify-center shadow-soft">
-                    <Sparkles className="w-5 h-5 sm:w-6 sm:h-6 text-white" aria-hidden="true" />
+              <ScrollReveal delay={250}>
+                <section className="bg-white rounded-2xl md:rounded-3xl border-2 border-slate-100 p-5 sm:p-6 md:p-8 shadow-soft" aria-labelledby="related-heading">
+                  <div className="flex items-center gap-2 sm:gap-3 mb-5 md:mb-6">
+                    <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-coral-400 to-coral-600 rounded-xl sm:rounded-2xl flex items-center justify-center shadow-soft">
+                      <Sparkles className="w-5 h-5 sm:w-6 sm:h-6 text-white" aria-hidden="true" />
+                    </div>
+                    <div>
+                      <h2 id="related-heading" className="text-xl sm:text-2xl font-bold text-slate-900">Related Guides</h2>
+                      <p className="text-xs sm:text-sm text-slate-600">More helpful travel guides</p>
+                    </div>
                   </div>
-                  <div>
-                    <h2 id="related-heading" className="text-xl sm:text-2xl font-bold text-slate-900">Related Guides</h2>
-                    <p className="text-xs sm:text-sm text-slate-600">More helpful travel guides</p>
-                  </div>
-                </div>
-                <div className="space-y-3 sm:space-y-4">
-                  {relatedArticles.map((related) => (
-                    <Link
-                      key={related.slug}
-                      href={`/guides/${related.slug}`}
-                      className="group flex gap-3 sm:gap-4 p-3 sm:p-4 bg-slate-50 hover:bg-gradient-ocean-subtle rounded-xl sm:rounded-2xl border-2 border-slate-100 hover:border-ocean-200 transition-all"
-                    >
-                      {related.imageUrl ? (
-                        <img
-                          src={related.imageUrl}
-                          alt={related.title}
-                          className="w-16 h-16 sm:w-20 sm:h-20 object-cover rounded-lg sm:rounded-xl flex-shrink-0"
-                          loading="lazy"
-                        />
-                      ) : (
-                        <div className="w-16 h-16 sm:w-20 sm:h-20 bg-gradient-ocean rounded-lg sm:rounded-xl flex-shrink-0 flex items-center justify-center">
-                          <MapPin className="w-6 h-6 sm:w-8 sm:h-8 text-white" />
+                  <div className="space-y-3 sm:space-y-4">
+                    {relatedArticles.map((related) => (
+                      <Link
+                        key={related.slug}
+                        href={`/guides/${related.slug}`}
+                        className="group flex gap-3 sm:gap-4 p-3 sm:p-4 bg-slate-50 hover:bg-gradient-ocean-subtle rounded-xl sm:rounded-2xl border-2 border-slate-100 hover:border-ocean-200 transition-all hover:shadow-soft hover:-translate-y-0.5"
+                      >
+                        {related.imageUrl ? (
+                          <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-lg sm:rounded-xl flex-shrink-0 overflow-hidden">
+                            <img
+                              src={related.imageUrl}
+                              alt={related.title}
+                              className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                              loading="lazy"
+                            />
+                          </div>
+                        ) : (
+                          <div className="w-16 h-16 sm:w-20 sm:h-20 bg-gradient-ocean rounded-lg sm:rounded-xl flex-shrink-0 flex items-center justify-center">
+                            <MapPin className="w-6 h-6 sm:w-8 sm:h-8 text-white" />
+                          </div>
+                        )}
+                        <div className="flex-1 min-w-0">
+                          <p className="text-xs sm:text-sm text-slate-500 font-medium mb-1">{related.destinationName}</p>
+                          <h3 className="font-bold text-slate-900 text-sm sm:text-base line-clamp-2 group-hover:text-ocean-600 transition-colors">
+                            {related.title}
+                          </h3>
                         </div>
-                      )}
-                      <div className="flex-1 min-w-0">
-                        <p className="text-xs sm:text-sm text-slate-500 font-medium mb-1">{related.destinationName}</p>
-                        <h3 className="font-bold text-slate-900 text-sm sm:text-base line-clamp-2 group-hover:text-ocean-600 transition-colors">
-                          {related.title}
-                        </h3>
-                      </div>
-                      <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 text-slate-400 group-hover:text-ocean-600 group-hover:translate-x-1 transition-all flex-shrink-0 self-center" aria-hidden="true" />
-                    </Link>
-                  ))}
-                </div>
-              </section>
+                        <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 text-slate-400 group-hover:text-ocean-600 group-hover:translate-x-1 transition-all flex-shrink-0 self-center" aria-hidden="true" />
+                      </Link>
+                    ))}
+                  </div>
+                </section>
+              </ScrollReveal>
             )}
           </article>
 
           {/* Sidebar */}
           <aside className="lg:col-span-1 order-first lg:order-last">
-            <div className="lg:sticky lg:top-6 space-y-4 sm:space-y-6">
+            <div className="lg:sticky lg:top-20 space-y-4 sm:space-y-6">
               {/* Booking Widget */}
               {showBooking && (
                 <BookingWidget
