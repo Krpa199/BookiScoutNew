@@ -1,7 +1,7 @@
 /**
  * Multi-Provider Image Service for Article Images
  *
- * Searches across Pexels, Unsplash, and Pixabay to find the best image.
+ * Searches across Pexels and Unsplash to find the best image.
  * Uses AI validation to ensure images match the article theme and destination.
  *
  * Search Strategy:
@@ -22,10 +22,6 @@ function getPexelsApiKey(): string {
 
 function getUnsplashApiKey(): string {
   return process.env.UNSPLASH_API_KEY || '';
-}
-
-function getPixabayApiKey(): string {
-  return process.env.PIXABAY_API_KEY || '';
 }
 
 function getGeminiImageApiKey(): string {
@@ -91,7 +87,7 @@ interface ImageCandidate {
   photographer: string;
   photographerUrl: string;
   alt: string;
-  source: 'pexels' | 'unsplash' | 'pixabay';
+  source: 'pexels' | 'unsplash';
 }
 
 // ============================================================================
@@ -639,30 +635,6 @@ async function fetchFromUnsplash(query: string): Promise<ImageCandidate[]> {
   }
 }
 
-async function fetchFromPixabay(query: string): Promise<ImageCandidate[]> {
-  const apiKey = getPixabayApiKey();
-  if (!apiKey) return [];
-
-  try {
-    const response = await fetch(
-      `https://pixabay.com/api/?key=${apiKey}&q=${encodeURIComponent(query)}&per_page=10&orientation=horizontal&image_type=photo&category=travel&safesearch=true`
-    );
-
-    if (!response.ok) return [];
-
-    const data = await response.json();
-    return (data.hits || []).map((photo: any) => ({
-      url: photo.largeImageURL,
-      photographer: photo.user,
-      photographerUrl: `https://pixabay.com/users/${photo.user}-${photo.user_id}/`,
-      alt: photo.tags || query,
-      source: 'pixabay' as const,
-    }));
-  } catch {
-    return [];
-  }
-}
-
 // ============================================================================
 // AI Validation
 // ============================================================================
@@ -820,23 +792,21 @@ export async function getArticleImage(
 
   // Fetch from all providers in parallel for first query
   const firstQuery = queries[0];
-  const [pexelsResults, unsplashResults, pixabayResults] = await Promise.all([
+  const [pexelsResults, unsplashResults] = await Promise.all([
     fetchFromPexels(firstQuery),
     fetchFromUnsplash(firstQuery),
-    fetchFromPixabay(firstQuery),
   ]);
 
-  allCandidates.push(...pexelsResults, ...unsplashResults, ...pixabayResults);
+  allCandidates.push(...pexelsResults, ...unsplashResults);
 
   // If not enough results, try more queries
   if (allCandidates.length < 10 && queries.length > 1) {
     for (let i = 1; i < Math.min(queries.length, 3); i++) {
-      const [p, u, x] = await Promise.all([
+      const [p, u] = await Promise.all([
         fetchFromPexels(queries[i]),
         fetchFromUnsplash(queries[i]),
-        fetchFromPixabay(queries[i]),
       ]);
-      allCandidates.push(...p, ...u, ...x);
+      allCandidates.push(...p, ...u);
     }
   }
 
@@ -917,13 +887,12 @@ export async function getArticleImage(
   ];
 
   for (const fallbackQuery of fallbackQueries) {
-    const [pFallback, uFallback, xFallback] = await Promise.all([
+    const [pFallback, uFallback] = await Promise.all([
       fetchFromPexels(fallbackQuery),
       fetchFromUnsplash(fallbackQuery),
-      fetchFromPixabay(fallbackQuery),
     ]);
 
-    const fallbackCandidates = [...pFallback, ...uFallback, ...xFallback];
+    const fallbackCandidates = [...pFallback, ...uFallback];
 
     if (fallbackCandidates.length > 0) {
       // Pick a random one from fallback results
