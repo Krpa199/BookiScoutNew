@@ -739,8 +739,8 @@ export default async function GuidePage({ params }: Props) {
                 />
               )}
 
-              {/* Language Switcher */}
-              <div className="bg-white rounded-2xl border-2 border-slate-100 p-4 sm:p-6 shadow-soft">
+              {/* Language Switcher - hidden on mobile (auto-detected via middleware, also available in header) */}
+              <div className="hidden lg:block bg-white rounded-2xl border-2 border-slate-100 p-4 sm:p-6 shadow-soft">
                 <h3 className="font-bold text-slate-900 mb-3 sm:mb-4 flex items-center gap-2 text-sm sm:text-base">
                   <div className="w-7 h-7 sm:w-8 sm:h-8 bg-ocean-100 rounded-lg flex items-center justify-center">
                     <Sparkles className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-ocean-600" aria-hidden="true" />
