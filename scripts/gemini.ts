@@ -1282,13 +1282,25 @@ function extractRawJsonArray(raw: string, fieldName: string): string | null {
 
 /**
  * Unescape a JSON string value (one level of escaping).
+ * Uses character walking instead of regex to handle all escape sequences correctly.
  */
 function unescapeJsonString(s: string): string {
-  return s
-    .replace(/\\n/g, '\n')
-    .replace(/\\t/g, '\t')
-    .replace(/\\"/g, '"')
-    .replace(/\\\\/g, '\\');
+  let result = '';
+  let i = 0;
+  while (i < s.length) {
+    if (s[i] === '\\' && i + 1 < s.length) {
+      const next = s[i + 1];
+      if (next === 'n') { result += '\n'; i += 2; continue; }
+      if (next === 't') { result += '\t'; i += 2; continue; }
+      if (next === '"') { result += '"'; i += 2; continue; }
+      if (next === '\\') { result += '\\'; i += 2; continue; }
+      if (next === '/') { result += '/'; i += 2; continue; }
+      result += s[i]; i++;
+    } else {
+      result += s[i]; i++;
+    }
+  }
+  return result;
 }
 
 /**
