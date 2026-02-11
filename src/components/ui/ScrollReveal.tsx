@@ -13,18 +13,25 @@ export default function ScrollReveal({ children, className = '', delay = 0 }: Sc
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
+    // Fallback: show content after timeout in case IntersectionObserver doesn't trigger
+    const fallbackTimer = setTimeout(() => setIsVisible(true), 1200 + delay);
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
           setIsVisible(true);
+          clearTimeout(fallbackTimer);
           observer.disconnect();
         }
       },
-      { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
+      { threshold: 0.05, rootMargin: '50px 0px 0px 0px' }
     );
     if (ref.current) observer.observe(ref.current);
-    return () => observer.disconnect();
-  }, []);
+    return () => {
+      clearTimeout(fallbackTimer);
+      observer.disconnect();
+    };
+  }, [delay]);
 
   return (
     <div
