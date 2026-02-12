@@ -1321,6 +1321,23 @@ function isNestedJsonContent(content: string): boolean {
  * fields using string walking.
  */
 function fixNestedJsonFromRawText(rawText: string, data: Record<string, unknown>): Record<string, unknown> {
+  // Handle case where Gemini returned content as an object instead of a string
+  if (data.content && typeof data.content === 'object' && !Array.isArray(data.content)) {
+    const inner = data.content as Record<string, unknown>;
+    if (inner.content && typeof inner.content === 'string') {
+      console.log(`  ⚠️ Content field is an object, extracting inner fields...`);
+      const result = { ...data };
+      if (inner.title && typeof inner.title === 'string') result.title = inner.title;
+      if (inner.metaDescription && typeof inner.metaDescription === 'string') result.metaDescription = inner.metaDescription;
+      if (inner.quickAnswer && typeof inner.quickAnswer === 'string') result.quickAnswer = inner.quickAnswer;
+      if (Array.isArray(inner.tableData) && inner.tableData.length > 0) result.tableData = inner.tableData;
+      if (Array.isArray(inner.faq) && inner.faq.length > 0) result.faq = inner.faq;
+      result.content = inner.content;
+      console.log(`  ✅ Extracted object content (title: "${result.title}")`);
+      return result;
+    }
+  }
+
   if (!data.content || typeof data.content !== 'string') return data;
   if (!isNestedJsonContent(data.content as string)) return data;
 
