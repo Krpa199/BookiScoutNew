@@ -961,7 +961,7 @@ Return only valid JSON, no markdown code blocks.
     let translated = JSON.parse(cleanText);
 
     // Fix nested JSON in content field (Gemini sometimes returns JSON-in-JSON)
-    translated = fixNestedJsonFromRawText(cleanText, translated);
+    translated = fixNestedJson(cleanText, translated);
 
     // Validate that quickAnswer is not empty when original has it
     if (article.quickAnswer && (!translated.quickAnswer || translated.quickAnswer.trim() === '')) {
@@ -1313,15 +1313,18 @@ function isNestedJsonContent(content: string): boolean {
 }
 
 /**
- * Fix nested JSON in content field from the raw Gemini response text.
+ * Fix nested JSON in content field.
  *
- * When Gemini returns JSON-in-JSON, direct JSON.parse of the inner content fails
- * because quotes inside string values lose their escaping. Instead, we work with
- * the raw response text where everything is still properly escaped, and extract
- * fields using string walking.
+ * Gemini sometimes returns JSON-in-JSON where the content field contains
+ * the entire article as a JSON string (often wrapped in ```json markers).
+ * This function detects and fixes this using multiple strategies:
+ * 1. If content is an object (not string), extract inner fields directly
+ * 2. Try JSON.parse on the inner content string after stripping markers
+ * 3. Use raw text field extraction with string walking as fallback
+ * 4. Use the parsed content string directly for field extraction
  */
-function fixNestedJsonFromRawText(rawText: string, data: Record<string, unknown>): Record<string, unknown> {
-  // Handle case where Gemini returned content as an object instead of a string
+function fixNestedJson(rawText: string, data: Record<string, unknown>): Record<string, unknown> {
+  // Strategy 1: Handle case where Gemini returned content as an object instead of a string
   if (data.content && typeof data.content === 'object' && !Array.isArray(data.content)) {
     const inner = data.content as Record<string, unknown>;
     if (inner.content && typeof inner.content === 'string') {
@@ -1341,58 +1344,99 @@ function fixNestedJsonFromRawText(rawText: string, data: Record<string, unknown>
   if (!data.content || typeof data.content !== 'string') return data;
   if (!isNestedJsonContent(data.content as string)) return data;
 
-  console.log(`  ⚠️ Detected nested JSON in content field, extracting from raw text...`);
+  console.log(`  ⚠️ Detected nested JSON in content field, attempting fix...`);
 
-  // Find the raw content field value in the raw text (still properly escaped)
+  // Strip markdown code block markers from the content string
+  let innerJsonStr = (data.content as string).trim();
+  if (innerJsonStr.startsWith('```json')) innerJsonStr = innerJsonStr.slice(7);
+  else if (innerJsonStr.startsWith('```')) innerJsonStr = innerJsonStr.slice(3);
+  if (innerJsonStr.endsWith('```')) innerJsonStr = innerJsonStr.slice(0, -3);
+  innerJsonStr = innerJsonStr.trim();
+
+  // Strategy 2: Try direct JSON.parse on inner content (works when Gemini properly formats inner JSON)
+  try {
+    const innerParsed = JSON.parse(innerJsonStr);
+    if (innerParsed && typeof innerParsed === 'object' && innerParsed.content && typeof innerParsed.content === 'string') {
+      console.log(`  ✅ Strategy 2 (JSON.parse): Successfully parsed inner JSON`);
+      const result = { ...data };
+      if (innerParsed.title) result.title = innerParsed.title;
+      if (innerParsed.metaDescription) result.metaDescription = innerParsed.metaDescription;
+      if (innerParsed.quickAnswer) result.quickAnswer = innerParsed.quickAnswer;
+      if (Array.isArray(innerParsed.tableData) && innerParsed.tableData.length > 0) result.tableData = innerParsed.tableData;
+      if (Array.isArray(innerParsed.faq) && innerParsed.faq.length > 0) result.faq = innerParsed.faq;
+      result.content = innerParsed.content;
+      return result;
+    }
+  } catch {
+    // JSON.parse failed, try other strategies
+  }
+
+  // Strategy 3: Extract from raw response text (works when raw text preserves escaping)
   const contentRaw = extractRawJsonField(rawText, 'content');
-  if (!contentRaw) {
-    console.log(`  ⚠️ Could not extract raw content field, using as-is`);
-    return data;
+  if (contentRaw) {
+    let innerRaw = unescapeJsonString(contentRaw).trim();
+    if (innerRaw.startsWith('```json')) innerRaw = innerRaw.slice(7);
+    else if (innerRaw.startsWith('```')) innerRaw = innerRaw.slice(3);
+    if (innerRaw.endsWith('```')) innerRaw = innerRaw.slice(0, -3);
+    innerRaw = innerRaw.trim();
+
+    const innerContent = extractRawJsonField(innerRaw, 'content');
+    if (innerContent) {
+      const fixedContent = unescapeJsonString(innerContent);
+      if (!isNestedJsonContent(fixedContent)) {
+        console.log(`  ✅ Strategy 3 (raw text extraction): Successfully extracted inner content`);
+        const result = { ...data };
+        const innerTitle = extractRawJsonField(innerRaw, 'title');
+        const innerMeta = extractRawJsonField(innerRaw, 'metaDescription');
+        const innerQuickAnswer = extractRawJsonField(innerRaw, 'quickAnswer');
+        const innerTableData = extractRawJsonArray(innerRaw, 'tableData');
+        const innerFaq = extractRawJsonArray(innerRaw, 'faq');
+        if (innerTitle) result.title = unescapeJsonString(innerTitle);
+        if (innerMeta) result.metaDescription = unescapeJsonString(innerMeta);
+        if (innerQuickAnswer) result.quickAnswer = unescapeJsonString(innerQuickAnswer);
+        result.content = fixedContent;
+        if (innerTableData) { try { result.tableData = JSON.parse(innerTableData); } catch { /* keep original */ } }
+        if (innerFaq) { try { result.faq = JSON.parse(innerFaq); } catch { /* keep original */ } }
+        return result;
+      }
+    }
   }
 
-  // Unescape once to get the inner JSON text
-  let innerRaw = unescapeJsonString(contentRaw).trim();
-
-  // Strip markdown code block markers
-  if (innerRaw.startsWith('```json')) innerRaw = innerRaw.slice(7);
-  else if (innerRaw.startsWith('```')) innerRaw = innerRaw.slice(3);
-  if (innerRaw.endsWith('```')) innerRaw = innerRaw.slice(0, -3);
-  innerRaw = innerRaw.trim();
-
-  // Extract fields from the inner JSON (which still has its own proper escaping)
-  const innerTitle = extractRawJsonField(innerRaw, 'title');
-  const innerMeta = extractRawJsonField(innerRaw, 'metaDescription');
-  const innerQuickAnswer = extractRawJsonField(innerRaw, 'quickAnswer');
-  const innerContent = extractRawJsonField(innerRaw, 'content');
-  const innerTableData = extractRawJsonArray(innerRaw, 'tableData');
-  const innerFaq = extractRawJsonArray(innerRaw, 'faq');
-
-  if (!innerContent) {
-    console.log(`  ⚠️ Could not extract inner content, using as-is`);
-    return data;
+  // Strategy 4: Extract fields directly from the parsed content string
+  // After JSON.parse of outer JSON, inner JSON string has actual quotes and newlines
+  // but extractRawJsonField can still walk through it if we re-serialize first
+  try {
+    // Re-serialize the inner JSON to get proper escaping back
+    const reEscaped = JSON.stringify(JSON.parse(JSON.stringify(innerJsonStr)));
+    // Remove outer quotes from stringify
+    const reEscapedInner = reEscaped.slice(1, -1);
+    // This won't work if JSON.parse fails, so try a different approach:
+    // Use the content string directly with extractRawJsonField
+    const innerContent = extractRawJsonField(innerJsonStr, 'content');
+    if (innerContent) {
+      const fixedContent = unescapeJsonString(innerContent);
+      if (!isNestedJsonContent(fixedContent)) {
+        console.log(`  ✅ Strategy 4 (parsed string extraction): Successfully extracted inner content`);
+        const result = { ...data };
+        const innerTitle = extractRawJsonField(innerJsonStr, 'title');
+        const innerMeta = extractRawJsonField(innerJsonStr, 'metaDescription');
+        const innerQuickAnswer = extractRawJsonField(innerJsonStr, 'quickAnswer');
+        const innerTableData = extractRawJsonArray(innerJsonStr, 'tableData');
+        const innerFaq = extractRawJsonArray(innerJsonStr, 'faq');
+        if (innerTitle) result.title = unescapeJsonString(innerTitle);
+        if (innerMeta) result.metaDescription = unescapeJsonString(innerMeta);
+        if (innerQuickAnswer) result.quickAnswer = unescapeJsonString(innerQuickAnswer);
+        result.content = fixedContent;
+        if (innerTableData) { try { result.tableData = JSON.parse(innerTableData); } catch { /* keep original */ } }
+        if (innerFaq) { try { result.faq = JSON.parse(innerFaq); } catch { /* keep original */ } }
+        return result;
+      }
+    }
+  } catch {
+    // Strategy 4 failed
   }
 
-  const result = { ...data };
-  if (innerTitle) result.title = unescapeJsonString(innerTitle);
-  if (innerMeta) result.metaDescription = unescapeJsonString(innerMeta);
-  if (innerQuickAnswer) result.quickAnswer = unescapeJsonString(innerQuickAnswer);
-  result.content = unescapeJsonString(innerContent);
-
-  if (innerTableData) {
-    try { result.tableData = JSON.parse(innerTableData); } catch { /* keep original */ }
-  }
-  if (innerFaq) {
-    try { result.faq = JSON.parse(innerFaq); } catch { /* keep original */ }
-  }
-
-  // Validate the fix worked
-  const fixedContent = result.content as string;
-  if (fixedContent && !isNestedJsonContent(fixedContent)) {
-    console.log(`  ✅ Successfully extracted inner article data (title: "${result.title}")`);
-    return result;
-  }
-
-  console.log(`  ⚠️ Content still looks like JSON after fix, using as-is`);
+  console.log(`  ⚠️ All nested JSON fix strategies failed, content saved as-is`);
   return data;
 }
 
@@ -1417,7 +1461,7 @@ function parseArticleResponse(
     let data = JSON.parse(cleanText);
 
     // Fix nested JSON in content field (Gemini bug) using raw text for proper escaping
-    data = fixNestedJsonFromRawText(cleanText, data);
+    data = fixNestedJson(cleanText, data);
 
     return {
       title: data.title || `${theme} in ${destination.name} 2026`,
