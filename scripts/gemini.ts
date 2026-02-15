@@ -981,6 +981,48 @@ Return only valid JSON, no markdown code blocks.
       slug: article.slug,
     };
   } catch {
+    // JSON.parse failed — try raw text extraction
+    console.log(`  ⚠️ Translation JSON.parse failed, attempting raw text extraction...`);
+    let cleanRaw = result.trim();
+    if (cleanRaw.startsWith('```json')) cleanRaw = cleanRaw.slice(7);
+    if (cleanRaw.startsWith('```')) cleanRaw = cleanRaw.slice(3);
+    if (cleanRaw.endsWith('```')) cleanRaw = cleanRaw.slice(0, -3);
+    cleanRaw = cleanRaw.trim();
+
+    const rawContent = extractRawJsonField(cleanRaw, 'content');
+    if (rawContent) {
+      const rawTitle = extractRawJsonField(cleanRaw, 'title');
+      const rawMeta = extractRawJsonField(cleanRaw, 'metaDescription');
+      const rawQuickAnswer = extractRawJsonField(cleanRaw, 'quickAnswer');
+      const rawTableData = extractRawJsonArray(cleanRaw, 'tableData');
+      const rawFaq = extractRawJsonArray(cleanRaw, 'faq');
+
+      let tableData = article.tableData;
+      let faq = article.faq;
+      if (rawTableData) {
+        try { tableData = JSON.parse(rawTableData); } catch {
+          try { tableData = JSON.parse(unescapeJsonString(rawTableData)); } catch { /* keep original */ }
+        }
+      }
+      if (rawFaq) {
+        try { faq = JSON.parse(rawFaq); } catch {
+          try { faq = JSON.parse(unescapeJsonString(rawFaq)); } catch { /* keep original */ }
+        }
+      }
+
+      console.log(`  ✅ Recovered translation from raw text extraction`);
+      return {
+        ...article,
+        title: rawTitle ? unescapeJsonString(rawTitle) : article.title,
+        metaDescription: rawMeta ? unescapeJsonString(rawMeta) : article.metaDescription,
+        content: unescapeJsonString(rawContent),
+        faq: Array.isArray(faq) ? faq : article.faq,
+        quickAnswer: rawQuickAnswer ? unescapeJsonString(rawQuickAnswer) : article.quickAnswer,
+        tableData: Array.isArray(tableData) ? tableData : article.tableData,
+        slug: article.slug,
+      };
+    }
+
     console.log(`  ⚠️ Translation parse failed, using original`);
     return article;
   }
@@ -1242,17 +1284,39 @@ Write only valid JSON, no markdown code blocks.
  * Handles escaped characters by walking the string to find unescaped closing quote.
  */
 function extractRawJsonField(raw: string, fieldName: string): string | null {
-  const fieldPattern = `"${fieldName}": "`;
-  const startIdx = raw.indexOf(fieldPattern);
-  if (startIdx === -1) return null;
-
-  const valueStart = startIdx + fieldPattern.length;
-  let i = valueStart;
-  while (i < raw.length) {
-    if (raw[i] === '\\') { i += 2; continue; }
-    if (raw[i] === '"') return raw.substring(valueStart, i);
-    i++;
+  // Try unescaped pattern first: "fieldName": "
+  const pattern1 = `"${fieldName}": "`;
+  let startIdx = raw.indexOf(pattern1);
+  if (startIdx !== -1) {
+    const valueStart = startIdx + pattern1.length;
+    let i = valueStart;
+    while (i < raw.length) {
+      if (raw[i] === '\\') { i += 2; continue; }
+      if (raw[i] === '"') return raw.substring(valueStart, i);
+      i++;
+    }
+    return null;
   }
+
+  // Try escaped pattern: \"fieldName\": \"
+  const pattern2 = `\\"${fieldName}\\": \\"`;
+  startIdx = raw.indexOf(pattern2);
+  if (startIdx !== -1) {
+    const valueStart = startIdx + pattern2.length;
+    let i = valueStart;
+    while (i < raw.length) {
+      // In double-escaped context, \\\\ is escaped backslash, \\" is escaped quote (end of value)
+      if (raw[i] === '\\') {
+        if (raw[i + 1] === '\\') { i += 2; continue; } // escaped backslash
+        if (raw[i + 1] === '"') return raw.substring(valueStart, i); // end of value
+        if (raw[i + 1] === 'n' || raw[i + 1] === 't' || raw[i + 1] === '/') { i += 2; continue; } // escaped char
+        i += 2; continue;
+      }
+      i++;
+    }
+    return null;
+  }
+
   return null;
 }
 
@@ -1260,8 +1324,16 @@ function extractRawJsonField(raw: string, fieldName: string): string | null {
  * Extract a JSON array field from raw text, returning the raw array string.
  */
 function extractRawJsonArray(raw: string, fieldName: string): string | null {
-  const fieldPattern = `"${fieldName}": [`;
-  const startIdx = raw.indexOf(fieldPattern);
+  // Try unescaped pattern first: "fieldName": [
+  let fieldPattern = `"${fieldName}": [`;
+  let startIdx = raw.indexOf(fieldPattern);
+
+  // Try escaped pattern: \"fieldName\": [
+  if (startIdx === -1) {
+    fieldPattern = `\\"${fieldName}\\": [`;
+    startIdx = raw.indexOf(fieldPattern);
+  }
+
   if (startIdx === -1) return null;
 
   const arrayStart = startIdx + fieldPattern.length - 1;
@@ -1323,7 +1395,7 @@ function isNestedJsonContent(content: string): boolean {
  * 3. Use raw text field extraction with string walking as fallback
  * 4. Use the parsed content string directly for field extraction
  */
-function fixNestedJson(rawText: string, data: Record<string, unknown>): Record<string, unknown> {
+function fixNestedJson(_rawText: string, data: Record<string, unknown>): Record<string, unknown> {
   // Strategy 1: Handle case where Gemini returned content as an object instead of a string
   if (data.content && typeof data.content === 'object' && !Array.isArray(data.content)) {
     const inner = data.content as Record<string, unknown>;
@@ -1336,7 +1408,7 @@ function fixNestedJson(rawText: string, data: Record<string, unknown>): Record<s
       if (Array.isArray(inner.tableData) && inner.tableData.length > 0) result.tableData = inner.tableData;
       if (Array.isArray(inner.faq) && inner.faq.length > 0) result.faq = inner.faq;
       result.content = inner.content;
-      console.log(`  ✅ Extracted object content (title: "${result.title}")`);
+      console.log(`  ✅ Extracted nested object content`);
       return result;
     }
   }
@@ -1346,18 +1418,75 @@ function fixNestedJson(rawText: string, data: Record<string, unknown>): Record<s
 
   console.log(`  ⚠️ Detected nested JSON in content field, attempting fix...`);
 
-  // Strip markdown code block markers from the content string
-  let innerJsonStr = (data.content as string).trim();
-  if (innerJsonStr.startsWith('```json')) innerJsonStr = innerJsonStr.slice(7);
-  else if (innerJsonStr.startsWith('```')) innerJsonStr = innerJsonStr.slice(3);
-  if (innerJsonStr.endsWith('```')) innerJsonStr = innerJsonStr.slice(0, -3);
-  innerJsonStr = innerJsonStr.trim();
-
-  // Strategy 2: Try direct JSON.parse on inner content (works when Gemini properly formats inner JSON)
+  // Core strategy: Re-escape the parsed content string using JSON.stringify
+  // then extract fields using string walking on the properly escaped version.
+  //
+  // Why: After JSON.parse of the outer JSON, data.content has real quotes and
+  // newlines. extractRawJsonField can't work on that because " terminates
+  // immediately. JSON.stringify(data.content) re-escapes everything, making
+  // extractRawJsonField work correctly.
   try {
+    const reEscaped = JSON.stringify(data.content as string);
+    // Remove outer quotes added by JSON.stringify: "..." -> ...
+    let escaped = reEscaped.slice(1, -1);
+
+    // Strip markdown code block markers from the escaped string.
+    // In the escaped string, \n appears as literal backslash+n (2 chars).
+    // ```json\n = backtick(3) + json(4) + backslash(1) + n(1) = 9 chars
+    if (escaped.startsWith('```json\\n')) escaped = escaped.slice(9);
+    else if (escaped.startsWith('```json')) escaped = escaped.slice(7);
+    else if (escaped.startsWith('```\\n')) escaped = escaped.slice(5);
+    else if (escaped.startsWith('```')) escaped = escaped.slice(3);
+    if (escaped.endsWith('\\n```')) escaped = escaped.slice(0, -5);
+    else if (escaped.endsWith('```')) escaped = escaped.slice(0, -3);
+
+    // Trim leading/trailing escaped whitespace
+    while (escaped.startsWith('\\n') || escaped.startsWith('\\r') || escaped.startsWith('\\t')) {
+      escaped = escaped.slice(2);
+    }
+
+    const innerContent = extractRawJsonField(escaped, 'content');
+    if (innerContent) {
+      const fixedContent = unescapeJsonString(innerContent);
+      if (fixedContent && !isNestedJsonContent(fixedContent)) {
+        const result = { ...data };
+        const innerTitle = extractRawJsonField(escaped, 'title');
+        const innerMeta = extractRawJsonField(escaped, 'metaDescription');
+        const innerQuickAnswer = extractRawJsonField(escaped, 'quickAnswer');
+        const innerTableData = extractRawJsonArray(escaped, 'tableData');
+        const innerFaq = extractRawJsonArray(escaped, 'faq');
+        if (innerTitle) result.title = unescapeJsonString(innerTitle);
+        if (innerMeta) result.metaDescription = unescapeJsonString(innerMeta);
+        if (innerQuickAnswer) result.quickAnswer = unescapeJsonString(innerQuickAnswer);
+        result.content = fixedContent;
+        if (innerTableData) {
+          try { result.tableData = JSON.parse(innerTableData); } catch {
+            try { result.tableData = JSON.parse(unescapeJsonString(innerTableData)); } catch { /* keep original */ }
+          }
+        }
+        if (innerFaq) {
+          try { result.faq = JSON.parse(innerFaq); } catch {
+            try { result.faq = JSON.parse(unescapeJsonString(innerFaq)); } catch { /* keep original */ }
+          }
+        }
+        console.log(`  ✅ Fixed nested JSON (title: "${result.title}")`);
+        return result;
+      }
+    }
+  } catch (e) {
+    console.log(`  ⚠️ Re-escape strategy failed: ${e}`);
+  }
+
+  // Fallback: Try direct JSON.parse on inner content (rare case where inner JSON is fully valid)
+  try {
+    let innerJsonStr = (data.content as string).trim();
+    if (innerJsonStr.startsWith('```json')) innerJsonStr = innerJsonStr.slice(7);
+    else if (innerJsonStr.startsWith('```')) innerJsonStr = innerJsonStr.slice(3);
+    if (innerJsonStr.endsWith('```')) innerJsonStr = innerJsonStr.slice(0, -3);
+    innerJsonStr = innerJsonStr.trim();
+
     const innerParsed = JSON.parse(innerJsonStr);
-    if (innerParsed && typeof innerParsed === 'object' && innerParsed.content && typeof innerParsed.content === 'string') {
-      console.log(`  ✅ Strategy 2 (JSON.parse): Successfully parsed inner JSON`);
+    if (innerParsed?.content && typeof innerParsed.content === 'string') {
       const result = { ...data };
       if (innerParsed.title) result.title = innerParsed.title;
       if (innerParsed.metaDescription) result.metaDescription = innerParsed.metaDescription;
@@ -1365,75 +1494,11 @@ function fixNestedJson(rawText: string, data: Record<string, unknown>): Record<s
       if (Array.isArray(innerParsed.tableData) && innerParsed.tableData.length > 0) result.tableData = innerParsed.tableData;
       if (Array.isArray(innerParsed.faq) && innerParsed.faq.length > 0) result.faq = innerParsed.faq;
       result.content = innerParsed.content;
+      console.log(`  ✅ Fixed nested JSON via JSON.parse fallback`);
       return result;
     }
   } catch {
-    // JSON.parse failed, try other strategies
-  }
-
-  // Strategy 3: Extract from raw response text (works when raw text preserves escaping)
-  const contentRaw = extractRawJsonField(rawText, 'content');
-  if (contentRaw) {
-    let innerRaw = unescapeJsonString(contentRaw).trim();
-    if (innerRaw.startsWith('```json')) innerRaw = innerRaw.slice(7);
-    else if (innerRaw.startsWith('```')) innerRaw = innerRaw.slice(3);
-    if (innerRaw.endsWith('```')) innerRaw = innerRaw.slice(0, -3);
-    innerRaw = innerRaw.trim();
-
-    const innerContent = extractRawJsonField(innerRaw, 'content');
-    if (innerContent) {
-      const fixedContent = unescapeJsonString(innerContent);
-      if (!isNestedJsonContent(fixedContent)) {
-        console.log(`  ✅ Strategy 3 (raw text extraction): Successfully extracted inner content`);
-        const result = { ...data };
-        const innerTitle = extractRawJsonField(innerRaw, 'title');
-        const innerMeta = extractRawJsonField(innerRaw, 'metaDescription');
-        const innerQuickAnswer = extractRawJsonField(innerRaw, 'quickAnswer');
-        const innerTableData = extractRawJsonArray(innerRaw, 'tableData');
-        const innerFaq = extractRawJsonArray(innerRaw, 'faq');
-        if (innerTitle) result.title = unescapeJsonString(innerTitle);
-        if (innerMeta) result.metaDescription = unescapeJsonString(innerMeta);
-        if (innerQuickAnswer) result.quickAnswer = unescapeJsonString(innerQuickAnswer);
-        result.content = fixedContent;
-        if (innerTableData) { try { result.tableData = JSON.parse(innerTableData); } catch { /* keep original */ } }
-        if (innerFaq) { try { result.faq = JSON.parse(innerFaq); } catch { /* keep original */ } }
-        return result;
-      }
-    }
-  }
-
-  // Strategy 4: Extract fields directly from the parsed content string
-  // After JSON.parse of outer JSON, inner JSON string has actual quotes and newlines
-  // but extractRawJsonField can still walk through it if we re-serialize first
-  try {
-    // Re-serialize the inner JSON to get proper escaping back
-    const reEscaped = JSON.stringify(JSON.parse(JSON.stringify(innerJsonStr)));
-    // Remove outer quotes from stringify
-    const reEscapedInner = reEscaped.slice(1, -1);
-    // This won't work if JSON.parse fails, so try a different approach:
-    // Use the content string directly with extractRawJsonField
-    const innerContent = extractRawJsonField(innerJsonStr, 'content');
-    if (innerContent) {
-      const fixedContent = unescapeJsonString(innerContent);
-      if (!isNestedJsonContent(fixedContent)) {
-        console.log(`  ✅ Strategy 4 (parsed string extraction): Successfully extracted inner content`);
-        const result = { ...data };
-        const innerTitle = extractRawJsonField(innerJsonStr, 'title');
-        const innerMeta = extractRawJsonField(innerJsonStr, 'metaDescription');
-        const innerQuickAnswer = extractRawJsonField(innerJsonStr, 'quickAnswer');
-        const innerTableData = extractRawJsonArray(innerJsonStr, 'tableData');
-        const innerFaq = extractRawJsonArray(innerJsonStr, 'faq');
-        if (innerTitle) result.title = unescapeJsonString(innerTitle);
-        if (innerMeta) result.metaDescription = unescapeJsonString(innerMeta);
-        if (innerQuickAnswer) result.quickAnswer = unescapeJsonString(innerQuickAnswer);
-        result.content = fixedContent;
-        if (innerTableData) { try { result.tableData = JSON.parse(innerTableData); } catch { /* keep original */ } }
-        if (innerFaq) { try { result.faq = JSON.parse(innerFaq); } catch { /* keep original */ } }
-        return result;
-      }
-    }
-  } catch {
-    // Strategy 4 failed
+    // JSON.parse failed
   }
 
   console.log(`  ⚠️ All nested JSON fix strategies failed, content saved as-is`);
@@ -1473,6 +1538,48 @@ function parseArticleResponse(
       tableData: data.tableData || [],
     };
   } catch {
+    // JSON.parse failed (often due to unescaped newlines in content).
+    // Try to extract fields directly from the raw text using string walking.
+    console.log(`  ⚠️ JSON.parse failed on Gemini response, attempting raw text extraction...`);
+    let cleanRaw = text.trim();
+    if (cleanRaw.startsWith('```json')) cleanRaw = cleanRaw.slice(7);
+    if (cleanRaw.startsWith('```')) cleanRaw = cleanRaw.slice(3);
+    if (cleanRaw.endsWith('```')) cleanRaw = cleanRaw.slice(0, -3);
+    cleanRaw = cleanRaw.trim();
+
+    const rawTitle = extractRawJsonField(cleanRaw, 'title');
+    const rawContent = extractRawJsonField(cleanRaw, 'content');
+    const rawMeta = extractRawJsonField(cleanRaw, 'metaDescription');
+    const rawQuickAnswer = extractRawJsonField(cleanRaw, 'quickAnswer');
+    const rawTableData = extractRawJsonArray(cleanRaw, 'tableData');
+    const rawFaq = extractRawJsonArray(cleanRaw, 'faq');
+
+    if (rawContent) {
+      console.log(`  ✅ Recovered article from raw text extraction`);
+      let tableData: unknown[] = [];
+      let faq: unknown[] = [];
+      if (rawTableData) {
+        try { tableData = JSON.parse(rawTableData); } catch {
+          try { tableData = JSON.parse(unescapeJsonString(rawTableData)); } catch { /* keep empty */ }
+        }
+      }
+      if (rawFaq) {
+        try { faq = JSON.parse(rawFaq); } catch {
+          try { faq = JSON.parse(unescapeJsonString(rawFaq)); } catch { /* keep empty */ }
+        }
+      }
+      return {
+        title: rawTitle ? unescapeJsonString(rawTitle) : `${theme} in ${destination.name} 2026`,
+        metaDescription: rawMeta ? unescapeJsonString(rawMeta) : `Discover ${theme} in ${destination.name}, Croatia.`,
+        slug: `${destination.slug}-${theme}`,
+        content: unescapeJsonString(rawContent),
+        faq: Array.isArray(faq) ? faq : [],
+        quickAnswer: rawQuickAnswer ? unescapeJsonString(rawQuickAnswer) : '',
+        tableData: Array.isArray(tableData) ? tableData : [],
+      };
+    }
+
+    console.log(`  ⚠️ Raw text extraction also failed, saving as-is`);
     return {
       title: `${theme} in ${destination.name} 2026`,
       metaDescription: `Discover ${theme} in ${destination.name}, Croatia.`,
