@@ -1,0 +1,96 @@
+{
+  "title": "Vodič za trajekte na Lošinju 2026: Povezanost s otocima i kopnom",
+  "metaDescription": "Upravljajte trajektnim linijama i otocnim vezama Lošinja u 2026. godini. Otkrijte opcije katamarana, trajekata za automobile i lokalnih brodova za Cres, Rab, Susak, Unije i druge. Osnovni vodič za putovanja.",
+  "slug": "losinj-ferry-connections",
+  "content": "# Vodič za trajekte na Lošinju 2026: Navigacija otocnim vezama i pristupom kopnu\n\nDobrodošli na Lošinj, ",
+  "faq": [
+    {
+      "question": "Trebam li unaprijed rezervirati karte za trajekt s automobilom za Lošinj?",
+      "answer": "Da, osobito tijekom vrhunca ljeta (lipanj-kolovoz). Iako karte često možete kupiti na luci, topla se preporuka za trajekte s automobilima je unaprijed rezervirati online putem web stranice Jadrolinije kako biste osigurali svoje mjesto i izbjegli duge redove."
+    },
+    {
+      "question": "Mogu li doći na Lošinj bez automobila?",
+      "answer": "Apsolutno. Možete uzeti katamaran izravno za Mali Lošinj iz gradova poput Rijeke, Pule ili Zadra. Alternativno, možete autobusom doći do luke za trajekte na kopnu (Brestova ili Valbiska) i prijeći kao pješak, a zatim se na Lošinju osloniti na lokalne autobuse, taksije ili iznajmljene skutere."
+    },
+    {
+      "question": "Koliko traje vožnja trajektom do Cresa i koliko je Lošinj udaljen od tamo?",
+      "answer": "Trajekt za automobile iz Brestove do Porozine (Cres) traje oko 1 sat, dok vožnja od Valbiske do Meraga (Cres) traje oko 25 minuta. Od Porozine, vožnja do Malog Lošinja traje otprilike 1,5 sat, a od Meraga oko 1 sat i 15 minuta vožnje, prolazeći kroz Cres prije prelaska Osortskog mosta."
+    },
+    {
+      "question": "Postoje li izravni trajekti s Lošinja do drugih popularnih otoka poput Hvara ili Korčule?",
+      "answer": "Ne, ne postoje izravne trajektne linije s Lošinja do dalekih južnodalmatinskih otoka poput Hvara ili Korčule. Morali biste uzeti katamaran za Zadar ili Rijeku, a zatim se presjesti na drugi trajekt ili autobusnu liniju koja ide dalje na jug."
+    },
+    {
+      "question": "Koje je najbolje doba godine za posjet Lošinju radi otocnog spajanja?",
+      "answer": "Najbolje vrijeme za otocno spajanje su prijelazna razdoblja (svibanj-lipanj i rujan) kada je vrijeme ugodno, more toplo, a vozni redovi trajekata su česti, ali gužve su znatno manje nego u špici ljeta. Srpanj i kolovoz nude najčešće linije, ali i najveće gužve te najviše cijene."
+    },
+    {
+      "question": "Mogu li povesti kućnog ljubimca na Lošinjske trajekte?",
+      "answer": "Općenito da, ali uz ograničenja. Mali kućni ljubimci u nosiljkama često su dopušteni u određenim zatvorenim prostorima ili na palubi, dok veći psi moraju ostati na palubi, vezani i s brnjicom. Uvijek provjerite politiku prijevoznika kućnih ljubimaca unaprijed, jer se pravila i moguće naknade mogu razlikovati."
+    }
+  ],
+  "quickAnswer": "Trajektne veze Lošinja u 2026. su ključne za istraživanje otoka i pristup kopnu. Glavna čvorišta poput Malog Lošinja nude brze katamaranske veze za Rijeku, Pulu i Zadar, uz lokalne putničke brodove koji opslužuju manje otoke poput Suska, Unija i Ilovika. Trajekti za automobile povezuju Lošinj neizravno preko Cresa s kopnenim lukama Brestova i Valbiska, osiguravajući sveobuhvatne mogućnosti prijevoza za sve putnike.",
+  "tableData": [
+    {
+      "Route": "Brestova (kopno) - Porozina (Cres)",
+      "Operator": "Jadrolinija",
+      "Avg. Duration": "1 sat",
+      "Foot Passenger (Adult) Approx. Price (EUR)": "4,50 €",
+      "Car (standard) Approx. Price (EUR)": "25-30 €",
+      "Peak Season Frequency (Daily)": "10-14"
+    },
+    {
+      "Route": "Valbiska (Krk) - Merag (Cres)",
+      "Operator": "Jadrolinija",
+      "Avg. Duration": "25 minuta",
+      "Foot Passenger (Adult) Approx. Price (EUR)": "3,50 €",
+      "Car (standard) Approx. Price (EUR)": "20-25 €",
+      "Peak Season Frequency (Daily)": "12-18"
+    },
+    {
+      "Route": "Mali Lošinj - Rijeka (preko drugih otoka)",
+      "Operator": "Jadrolinija (Katamaran)",
+      "Avg. Duration": "3h 30m - 4h",
+      "Foot Passenger (Adult) Approx. Price (EUR)": "15-20 €",
+      "Car (standard) Approx. Price (EUR)": "Nije primjenjivo",
+      "Peak Season Frequency (Daily)": "1"
+    },
+    {
+      "Route": "Mali Lošinj - Susak",
+      "Operator": "Jadrolinija/Lokalna linija",
+      "Avg. Duration": "1h 30m - 2h",
+      "Foot Passenger (Adult) Approx. Price (EUR)": "4-6 €",
+      "Car (standard) Approx. Price (EUR)": "Nije primjenjivo",
+      "Peak Season Frequency (Daily)": "1-2"
+    },
+    {
+      "Route": "Mali Lošinj - Ilovik",
+      "Operator": "Jadrolinija/Lokalna linija",
+      "Avg. Duration": "30-45 minuta",
+      "Foot Passenger (Adult) Approx. Price (EUR)": "3-5 €",
+      "Car (standard) Approx. Price (EUR)": "Nije primjenjivo",
+      "Peak Season Frequency (Daily)": "1-2"
+    },
+    {
+      "Route": "Mali Lošinj - Pula (sezonski)",
+      "Operator": "Krilo Shipping (Katamaran)",
+      "Avg. Duration": "2 sata",
+      "Foot Passenger (Adult) Approx. Price (EUR)": "12-17 €",
+      "Car (standard) Approx. Price (EUR)": "Nije primjenjivo",
+      "Peak Season Frequency (Daily)": "1-2"
+    }
+  ],
+  "imageUrl": "https://images.pexels.com/photos/35554733/pexels-photo-35554733.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+  "imageAlt": "Travel and vacation concept",
+  "imageCredit": "Kimtek Meedia",
+  "imageCreditUrl": "https://www.pexels.com/@kimtek-meedia-2158711895",
+  "imageSource": "pexels",
+  "destination": "losinj",
+  "destinationName": "Lošinj",
+  "region": "kvarner",
+  "theme": "ferry-connections",
+  "language": "hr",
+  "generatedAt": "2026-02-17T12:11:47.100Z",
+  "lat": 44.5306,
+  "lng": 14.4694
+}
