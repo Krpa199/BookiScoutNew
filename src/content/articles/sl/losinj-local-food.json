@@ -1,0 +1,87 @@
+{
+  "title": "Lošinjske kulinarične dobrote: Vodnik po hrani za leto 2026",
+  "metaDescription": "Odkrijte avtentično lokalno hrano in tradicionalne jedi Lošinja. Naš vodnik za leto 2026 zajema sveže morske sadeže, aromatično jagnjetino, cene, najboljše restavracije in notranje nasvete za nepozabno kulinarično potovanje.",
+  "slug": "losinj-local-food",
+  "content": "## Uvod: Lošinjska kulinarična tapiserija za leto 2026\n\nDobrodošli na Lošinju, dišečem otoku-paradižu v Kvarnerju na Hrvaškem, kjer se morje sreča z zemljo v simfoniji okusov. Za popotnike, ki se leta 2026 odpravljajo na Lošinj, je kulinarično potovanje prav tako očarljivo kot njegove nedotaknjene plaže in aromatični borovi gozdovi. Ta obsežen vodnik vas bo popeljal skozi srce lošinjske gastronomske pokrajine, od tradicionalnih družinskih gostiln, znanih kot *konobe*, do sodobnih restavracij, kar vam bo zagotovilo, da boste poskusili vsak avtentičen grižljaj, ki ga otok ponuja.\n\nLošinjska kuhinja je globoko zakoreninjena v svoji sredozemski dediščini, s poudarkom na svežini, sezonskosti in preprostosti. Pod vplivom beneških, avstrijskih in srednjeevropskih tradicij, a hkrati ponosna na svojo edinstveno otoško identiteto, Lošinj ponuja kulinarično izkušnjo, ki je hkrati prijetna in vznemirljiva. Pričakujte bogato ponudbo morskih sadežev, sočno jagnjetino, robustna olivna olja in obilico aromatičnih zelišč, ki definirajo edinstven okus otoka.",
+  "faq": [
+    {
+      "question": "Katere jedi na Lošinju morate poskusiti?",
+      "answer": "Absolutno morate poskusiti sveže pečene ribe (kot sta *orada* ali *brancin*), *škampi na buzaru*, *jagnjetino pod peko* in *črni rižot*. Ne pozabite poskusiti izvrstnega lokalnega olivnega olja s hrustljavim kruhom."
+    },
+    {
+      "question": "Kje lahko najdem avtentično tradicionalno hrano na Lošinju?",
+      "answer": "Iščite družinske »konobe« v Malem Lošinju, Velom Lošinju ali manjših vaseh, kot so Nerezine. Te gostilne se pogosto specializirajo za tradicionalne recepte, uporabljajo lokalno pridelane sestavine in ponujajo resnično avtentično kulinarično izkušnjo."
+    },
+    {
+      "question": "Ali so v restavracijah na Lošinju na voljo vegetarijanske ali veganske možnosti?",
+      "answer": "Čeprav je tradicionalna kuhinja pogosto bogata z mesom ali ribami, večina restavracij ponuja vegetarijske možnosti, kot so pečena zelenjava, sveže solate, njoki s paradižnikovo omako ali *maneštra*. Za veganske možnosti bo morda potrebno posebno povpraševanje, vendar so vse pogostejše, zlasti v večjih krajih."
+    },
+    {
+      "question": "Kakšna je povprečna cena obroka na Lošinju?",
+      "answer": "Obrok srednjega cenovnega razreda v konobi, vključno z glavno jedjo in pijačo, običajno stane med 25 € in 40 € na osebo. Možnosti za manjše proračune, kot so pice ali sendviči, lahko najdete za 10 € – 15 €, medtem ko lahko fine dining preseže 50 € na osebo."
+    },
+    {
+      "question": "Ali lahko lokalne pridelke kupim neposredno od kmetov na Lošinju?",
+      "answer": "Da, dnevna tržnica v Malem Lošinju je odličen kraj za nakup svežih rib, sadja, zelenjave, lokalnega olivnega olja in včasih domačih sirov in medu neposredno od lokalnih pridelovalcev. Številne majhne družinske stojnice se pojavljajo tudi ob cestah, zlasti za sezonsko sadje."
+    },
+    {
+      "question": "Je Lošinj znan po kakšnih posebnih vinih ali pijačah?",
+      "answer": "Lošinj sam ni večje vinorodno območje, vendar boste našli odlična hrvaška vina, zlasti iz regije Kvarner (kot je Žlahtina s Krka) in Istre (Malvazija). Priljubljeni so tudi lokalni zeliščni likerji (*rakija*), pogosto namočeni z grmičjem ali orehi, in osvežilni sadni sokovi."
+    },
+    {
+      "question": "Kateri je najboljši čas v letu za kulinarično potovanje na Lošinj?",
+      "answer": "Konec pomladi (maj–junij) in zgodaj jeseni (september–oktober) sta idealna. Vreme je prijetno, morskih sadežev je v izobilju, sezonske specialitete, kot so šparglji ali sveže oljke, pa lahko uživate brez poletnih gneč, pogosto z boljšo razpoložljivostjo v restavracijah."
+    }
+  ],
+  "quickAnswer": "Lošinjska kulinarična scena je živahno praznovanje bogastva Jadrana in otoškega izročila, s poudarkom na hiper-svežih morskih sadežih, aromatični jagnjetini s sosednjega Cresa in jedeh, prepojenih z lokalnimi sredozemskimi zelišči. Tradicionalne »konobe« ponujajo rustikalen čar in strežejo klasike, kot so *brodet*, *škampi na buzaru* in *jagnjetina pod peko*, skupaj z izvrstnim olivnim oljem in dobrimi lokalnimi vini, kar vsak obrok spremeni v pristen okus Kvarnerja za obiskovalce v letu 2026.",
+  "tableData": [
+    {
+      "name": "Konoba Ribarska Priča",
+      "specialty": "Plata svežih rib (za 2)",
+      "price": "65 €",
+      "rating": "4.7★",
+      "distance": "150 m od pristanišča Mali Lošinj"
+    },
+    {
+      "name": "Restoran Oaza",
+      "specialty": "Jagnjetina pod peko (na osebo)",
+      "price": "32 €",
+      "rating": "4.5★",
+      "distance": "50 m od obale Veli Lošinj"
+    },
+    {
+      "name": "Bistro Lavanda",
+      "specialty": "Hobotnicova solata",
+      "price": "16 €",
+      "rating": "4.3★",
+      "distance": "200 m od zaliva Čikat"
+    },
+    {
+      "name": "Trattoria Mare",
+      "specialty": "Črni rižot (Crni Rižot)",
+      "price": "22 €",
+      "rating": "4.6★",
+      "distance": "80 m od pristanišča Nerezine"
+    },
+    {
+      "name": "Pekara Aroma",
+      "specialty": "Fritule (lokalne krofe)",
+      "price": "5 €/porcija",
+      "rating": "4.2★",
+      "distance": "100 m od glavnega trga Mali Lošinj"
+    }
+  ],
+  "imageUrl": "https://images.pexels.com/photos/7368191/pexels-photo-7368191.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+  "imageAlt": "Travel and vacation concept",
+  "imageCredit": "Vlada Karpovich",
+  "imageCreditUrl": "https://www.pexels.com/@vlada-karpovich",
+  "imageSource": "pexels",
+  "destination": "losinj",
+  "destinationName": "Lošinj",
+  "region": "kvarner",
+  "theme": "local-food",
+  "language": "sl",
+  "generatedAt": "2026-02-18T10:41:14.123Z",
+  "lat": 44.5306,
+  "lng": 14.4694
+}
