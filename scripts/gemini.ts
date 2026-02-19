@@ -1396,6 +1396,19 @@ function isNestedJsonContent(content: string): boolean {
  * 4. Use the parsed content string directly for field extraction
  */
 function fixNestedJson(_rawText: string, data: Record<string, unknown>): Record<string, unknown> {
+  // Strategy 0: Handle case where Gemini returned content as an array of strings
+  if (Array.isArray(data.content)) {
+    const arr = data.content as unknown[];
+    const strings = arr.filter((item): item is string => typeof item === 'string');
+    if (strings.length > 0) {
+      console.log(`  ⚠️ Content field is an array (${strings.length} items), joining into string...`);
+      const result = { ...data };
+      result.content = strings.join('\n\n');
+      console.log(`  ✅ Joined array content into single string`);
+      return result;
+    }
+  }
+
   // Strategy 1: Handle case where Gemini returned content as an object instead of a string
   if (data.content && typeof data.content === 'object' && !Array.isArray(data.content)) {
     const inner = data.content as Record<string, unknown>;
