@@ -385,40 +385,47 @@ export default async function GuidePage({ params }: Props) {
         </div>
       </nav>
 
-      {/* Article Header */}
-      <header className="relative bg-gradient-to-br from-ocean-500 via-ocean-600 to-seafoam-600 text-white py-12 md:py-20 lg:py-28 overflow-hidden">
-        {/* Animated floating orbs */}
-        <div className="absolute inset-0 overflow-hidden" aria-hidden="true">
-          <div className="absolute top-10 right-10 w-64 h-64 md:w-96 md:h-96 bg-white/[0.07] rounded-full blur-3xl animate-float-slow" />
-          <div className="absolute -bottom-20 -left-20 w-72 h-72 md:w-96 md:h-96 bg-seafoam-300/[0.08] rounded-full blur-3xl animate-float-slower" />
-          <div className="absolute top-1/2 left-1/3 w-48 h-48 bg-ocean-300/[0.05] rounded-full blur-2xl animate-float" />
+      {/* Hero with background image (like destinations) */}
+      <header className="relative text-white min-h-[85vh] sm:min-h-[70vh] md:min-h-[85vh] flex items-end overflow-hidden">
+        {/* Background image or gradient fallback */}
+        <div className="absolute inset-0">
+          {article.imageUrl ? (
+            <img
+              src={article.imageUrl}
+              alt={article.imageAlt || article.title}
+              className="w-full h-full object-cover"
+              loading="eager"
+            />
+          ) : (
+            <div className="w-full h-full bg-gradient-to-br from-ocean-500 via-ocean-600 to-seafoam-600" />
+          )}
+          <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/30 to-transparent" />
         </div>
-        {/* Shimmer overlay */}
-        <div className="absolute inset-0 animate-shimmer pointer-events-none" aria-hidden="true" />
 
-        <div className="container relative">
-          <div className="max-w-4xl">
-            <div className="inline-flex items-center gap-2 px-4 py-2 glass-card-dark rounded-full text-sm font-semibold mb-6">
+        {/* Content */}
+        <div className="container pb-16 sm:pb-20 md:pb-28 relative z-10 w-full">
+          <div className="max-w-4xl animate-slide-up">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-black/30 backdrop-blur-sm rounded-full text-sm font-semibold mb-6 border border-white/20">
               <MapPin className="w-4 h-4" aria-hidden="true" />
               <span>{article.destinationName}</span>
               <span aria-hidden="true">•</span>
               <span>{formatTheme(article.theme)}</span>
             </div>
 
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 md:mb-6 leading-tight tracking-tight text-gradient-hero">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 md:mb-6 leading-tight tracking-tight text-white [text-shadow:_0_2px_10px_rgba(0,0,0,0.9),_0_4px_20px_rgba(0,0,0,0.7),_0_0_40px_rgba(0,0,0,0.5)]">
               {article.title}
             </h1>
 
-            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-ocean-50 mb-6 md:mb-8 leading-relaxed">
+            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white max-w-3xl mb-6 md:mb-8 leading-relaxed [text-shadow:_0_2px_8px_rgba(0,0,0,0.7)]">
               {article.metaDescription}
             </p>
 
-            <div className="flex flex-wrap items-center gap-2 sm:gap-3 text-ocean-100 text-sm md:text-base">
-              <div className="glass-card-dark flex items-center gap-2 px-3 py-2 rounded-xl">
+            <div className="flex flex-wrap items-center gap-2 sm:gap-3 text-sm md:text-base">
+              <div className="flex items-center gap-2 px-3 py-2 bg-black/30 backdrop-blur-sm rounded-xl border border-white/20">
                 <Clock className="w-3.5 h-3.5 sm:w-4 sm:h-4" aria-hidden="true" />
                 <span className="font-bold text-xs sm:text-sm">{readingTime} min read</span>
               </div>
-              <div className="glass-card-dark flex items-center gap-2 px-3 py-2 rounded-xl">
+              <div className="flex items-center gap-2 px-3 py-2 bg-black/30 backdrop-blur-sm rounded-xl border border-white/20">
                 <Calendar className="w-3.5 h-3.5 sm:w-4 sm:h-4" aria-hidden="true" />
                 <time dateTime={article.generatedAt} className="font-bold text-xs sm:text-sm">
                   {new Date(article.generatedAt).toLocaleDateString('en-US', {
@@ -428,7 +435,7 @@ export default async function GuidePage({ params }: Props) {
                   })}
                 </time>
               </div>
-              <div className="hidden sm:flex glass-card-dark items-center gap-2 px-3 py-2 rounded-xl">
+              <div className="hidden sm:flex items-center gap-2 px-3 py-2 bg-black/30 backdrop-blur-sm rounded-xl border border-white/20">
                 <Sparkles className="w-4 h-4" aria-hidden="true" />
                 <span className="font-bold text-xs sm:text-sm">{t('sidebar.aiPowered')}</span>
               </div>
@@ -436,13 +443,17 @@ export default async function GuidePage({ params }: Props) {
           </div>
         </div>
 
-        {/* Dual-layer wave separator */}
-        <div className="absolute bottom-0 left-0 right-0" aria-hidden="true">
-          <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-8 sm:h-12 md:h-auto" preserveAspectRatio="none">
-            <path d="M0,40 C360,60 720,20 1080,50 C1260,60 1380,40 1440,44 L1440,80 L0,80 Z" fill="white" fillOpacity="0.3" />
-            <path d="M0,52 C240,68 480,48 720,52 C960,56 1200,36 1440,52 L1440,80 L0,80 Z" fill="white" />
-          </svg>
-        </div>
+        {/* Image credit */}
+        {article.imageUrl && article.imageCredit && (
+          <div className="absolute bottom-2 right-2 z-10 bg-black/50 backdrop-blur-sm text-white text-[10px] px-2 py-1 rounded">
+            Photo by{' '}
+            <a href={article.imageCreditUrl} target="_blank" rel="noopener noreferrer" className="underline hover:text-ocean-200">
+              {article.imageCredit}
+            </a>
+          </div>
+        )}
+
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
       </header>
 
       {/* Main Content */}
@@ -450,34 +461,6 @@ export default async function GuidePage({ params }: Props) {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12">
           {/* Article Content */}
           <article className="lg:col-span-2 space-y-6 md:space-y-10">
-            {/* Featured Image */}
-            {article.imageUrl && (
-              <ScrollReveal>
-                <figure className="featured-image-container relative rounded-2xl md:rounded-3xl overflow-hidden shadow-large group">
-                  <img
-                    src={article.imageUrl}
-                    alt={article.imageAlt || article.title}
-                    className="w-full h-auto object-cover aspect-[16/9]"
-                    loading="eager"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-ocean-900/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
-                  {article.imageCredit && (
-                    <figcaption className="absolute bottom-0 right-0 bg-black/60 backdrop-blur-sm text-white text-[10px] sm:text-xs px-2 sm:px-3 py-1 sm:py-1.5 rounded-tl-lg">
-                      Photo by{' '}
-                      <a
-                        href={article.imageCreditUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="underline hover:text-ocean-200"
-                      >
-                        {article.imageCredit}
-                      </a>
-                    </figcaption>
-                  )}
-                </figure>
-              </ScrollReveal>
-            )}
-
             {/* Quick Answer Box - Important for AI crawlers */}
             <ScrollReveal delay={100}>
               <section className="relative bg-gradient-to-br from-ocean-50 via-cyan-50 to-seafoam-50 border-2 border-ocean-200 p-5 sm:p-6 md:p-8 rounded-2xl md:rounded-3xl shadow-soft overflow-hidden pulse-glow" aria-labelledby="quick-answer-heading">
