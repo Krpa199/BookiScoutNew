@@ -1,0 +1,35 @@
+{
+  "title": "Guía de Ferry de Vis 2026: Rutas y Conexiones Insulares",
+  "metaDescription": "Navegue los ferris de Vis, Croacia y los saltos entre islas para 2026. Información directa esencial sobre rutas, horarios y conexiones desde Split y otras islas.",
+  "slug": "vis-ferry-connections",
+  "content": "## Rutas Clave de Ferry a Vis\n\nVis depende fundamentalmente de Split para su conectividad. Esto es ineludible.\n\n*   **Split a Vis Town (Ferry de coches):** Jadrolinija opera este servicio diario, durante todo el año. Es el salvavidas de Vis. Reserve los espacios para vehículos con mucha antelación, especialmente en temporada alta.\n*   **Split a Vis Town (Catamarán):** Solo para pasajeros, más rápido. Operadores como Krilo o Jadrolinija los gestionan, a menudo de forma estacional. Solo pasajeros a pie.\n\n## Navegando los Saltos entre Islas\n\nEspere conexiones directas limitadas entre islas; la ruta a través de Split es la norma. La gente asume que los saltos interinsulares son fluidos. En la práctica, esto a menudo provoca frustrantes retrasos y pérdida de tiempo de viaje.\n\n*   **Vis a Hvar (Hvar Town):** Existe un servicio de catamarán estacional. Consulte los horarios de Krilo o Jadrolinija para fechas específicas (normalmente de mayo a octubre). Es solo para pasajeros.\n*   **Vis a Brač (Milna):** También una conexión de catamarán estacional, solo para pasajeros. Menos frecuente que a Hvar. Confirme la disponibilidad.\n*   **No hay Ferry de Coche Directo a Otras Islas desde Vis:** Todo el tráfico de vehículos desde Vis a otras islas debe regresar primero a Split. Planifique en consecuencia.\n\n## Consejos Esenciales para 2026\n\n*   Reserve todos los billetes de ferry y catamarán en línea, especialmente para vehículos y durante el verano. La disponibilidad sin reserva previa es rara. Jadrolinija y Krilo son clave.\n*   Llegue al menos 60 minutos antes para los ferris de coche, 30 minutos para los catamaranes. Los ferris salen a tiempo.\n",
+  "faq": [
+    {
+      "question": "¿Puedo llevar mi coche a Vis desde Hvar?",
+      "answer": "No, no existen ferris de coche directos de Hvar a Vis. Debe regresar a Split y tomar el ferry de coche desde allí."
+    },
+    {
+      "question": "¿Cómo llego a Komiža desde el puerto de ferry de Vis?",
+      "answer": "Taxis y autobuses locales reciben a los ferris que llegan a Vis Town. Los autobuses son menos frecuentes; los taxis están fácilmente disponibles, pero son caros."
+    },
+    {
+      "question": "¿Se requieren billetes para todos los pasajeros, incluidos los bebés?",
+      "answer": "Sí. Todos los pasajeros, independientemente de su edad, deben tener un billete para los servicios de ferry y catamarán. Aún deben emitirse billetes de tarifa cero."
+    }
+  ],
+  "quickAnswer": "El principal centro de ferris de Vis es Vis Town, conectado directamente con Split diariamente por ferry de coche. Los catamaranes estacionales enlazan con Hvar y Brač. Las conexiones directas entre islas son escasas; normalmente, debe pasar por Split para un acceso más amplio. Planifique meticulosamente.",
+  "tableData": [],
+  "imageUrl": "https://images.unsplash.com/photo-1631991461342-e975d4d3d316?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njg0MTh8MHwxfHNlYXJjaHw0fHxWaXMlMjBmZXJyeSUyMGNvbm5lY3Rpb25zfGVufDB8MHx8fDE3NzIwMTcxNjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  "imageAlt": "a large yellow and white ferry boat on a body of water",
+  "imageCredit": "Raimond Klavins",
+  "imageCreditUrl": "https://unsplash.com/@raimondklavins",
+  "imageSource": "unsplash",
+  "destination": "vis",
+  "destinationName": "Vis",
+  "region": "split-dalmatia",
+  "theme": "ferry-connections",
+  "language": "es",
+  "generatedAt": "2026-02-25T11:02:07.808Z",
+  "lat": 43.0614,
+  "lng": 16.1836
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Vis Vodnik po trajektih 2026: Poti in Povezave z otoki",
+  "metaDescription": "Krmarite po trajektih in otokih pri Visu na Hrvaškem za leto 2026. Bistvene informacije o linijah, voznih redih in povezavah iz Splita in z drugih otokov.",
+  "slug": "vis-ferry-connections",
+  "content": "## Ključne trajektne linije za Vis\n\nVis je za povezljivost predvsem odvisen od Splita. To je nespremenljivo.\n\n*   **Split do Visa (avto-trajekt):** Jadrolinija upravlja to dnevno, celoletno linijo. To je žila klicotoka Visa. Rezervirajte mesta za vozila veliko vnaprej, še posebej v glavni sezoni.\n*   **Split do Visa (katamaran):** Hitrejši, samo za peš promet. Upravljajo ga podjetja, kot sta Krilo ali Jadrolinija, pogosto sezonsko. Samo za peš potnike.\n\n## Navigacija med otoki\n\nPovezave med otoki so omejene; običajna je pot preko Splita. Ljudje pričakujejo enostavno prehajanje med otoki. V praksi to pogosto povzroča frustrirajoče zamude in izgubo časa na poti.\n\n*   **Vis do Hvara (mesto Hvar):** Obstaja sezonska katamaranska povezava. Preverite vozne rede Krilo ali Jadrolinije za določene datume (običajno maj–oktober). To je samo za peš potnike.\n*   **Vis do Brača (Milna):** Prav tako sezonska katamaranska povezava samo za peš potnike. Redkejša kot Hvar. Potrdite razpoložljivost.\n*   **Brez neposrednega avto-trajekta z Visa na druge otoke:** Ves promet z vozili z Visa na druge otoke mora najprej nazaj v Split. Načrtujte temu primerno.\n\n## Bistveni nasveti za leto 2026\n\n*   Rezervirajte vse trajektne in katamaranske vozovnice prek spleta, še posebej za vozila in poleti. Nakup na licu mesta je redek. Jadrolinija in Krilo sta ključna.\n*   Za avto-trajekte prispete vsaj 60 minut prej, za katamarane 30 minut prej. Trajekti odplujejo točno po voznem redu.\n",
+  "faq": [
+    {
+      "question": "Ali lahko vzamem avto z Hvara na Vis?",
+      "answer": "Ne, ne obstajajo neposredni avto-trajekti s Hvara na Vis. Morate se vrniti v Split in od tam vzeti avto-trajekt."
+    },
+    {
+      "question": "Kako pridem iz pristanišča trajekta na Visu do Komiže?",
+      "answer": "Taksiji in lokalni avtobusi pričakajo prispeli trajekt v mestu Vis. Avtobusi so redkejši; taksiji so zlahka dostopni, a dragi."
+    },
+    {
+      "question": "Ali so vozovnice potrebne za vse potnike, tudi dojenčke?",
+      "answer": "Da. Vsi potniki, ne glede na starost, morajo imeti vozovnico za trajektne in katamaranske storitve. Tudi ničelne vozovnice je treba izdati."
+    }
+  ],
+  "quickAnswer": "Glavno trajektno pristanišče na Visu je mesto Vis, ki je dnevno povezano s Splitom z avto-trajektom. Sezonski katamarani povezujejo Hvar in Brač. Neposredne povezave med otoki so redke; običajno vozite preko Splita za širšo dostopnost. Načrtujte natančno.",
+  "tableData": [],
+  "imageUrl": "https://images.unsplash.com/photo-1631991461342-e975d4d3d316?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njg0MTh8MHwxfHNlYXJjaHw0fHxWaXMlMjBmZXJyeSUyMGNvbm5lY3Rpb25zfGVufDB8MHx8fDE3NzIwMTcxNjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  "imageAlt": "a large yellow and white ferry boat on a body of water",
+  "imageCredit": "Raimond Klavins",
+  "imageCreditUrl": "https://unsplash.com/@raimondklavins",
+  "imageSource": "unsplash",
+  "destination": "vis",
+  "destinationName": "Vis",
+  "region": "split-dalmatia",
+  "theme": "ferry-connections",
+  "language": "sk",
+  "generatedAt": "2026-02-25T11:01:05.446Z",
+  "lat": 43.0614,
+  "lng": 16.1836
+}

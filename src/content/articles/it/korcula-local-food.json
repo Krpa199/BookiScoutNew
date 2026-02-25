@@ -1,0 +1,83 @@
+{
+  "title": "Il Battito Culinario di Korčula: Guida per Amanti del Cibo (2026)",
+  "metaDescription": "Esplora il cibo locale autentico e i piatti tradizionali di Korčula. Scopri le imperdibili prelibatezze di pesce, la Peka, gli Žrnovski Makaruni e i migliori ristoranti. La tua guida definitiva per cenare su quest'isola croata nel 2026.",
+  "slug": "korcula-local-food",
+  "content": "## Il Battito Culinario di Korčula: Guida per Amanti del Cibo (2026)\n\nKorčula, spesso definita ",
+  "faq": [
+    {
+      "question": "Qual è il piatto tradizionale più famoso di Korčula?",
+      "answer": "Il piatto tradizionale più famoso è la Peka, una cottura lenta di carne (spesso agnello o polpo) e verdure preparate sotto una campana coperta di braci ardenti. Richiede una prenotazione anticipata a causa del lungo tempo di preparazione."
+    },
+    {
+      "question": "Ci sono opzioni vegetariane a Korčula?",
+      "answer": "Sì, sebbene carne e pesce siano predominanti, la maggior parte dei ristoranti offre opzioni vegetariane come verdure grigliate, pasta tradizionale al sugo di pomodoro (come gli Žrnovski Makaruni senza carne), insalate e spesso taglieri di formaggi locali. È sempre meglio informarsi sulle specialità vegetariane del giorno."
+    },
+    {
+      "question": "Quali vini locali dovrei provare a Korčula?",
+      "answer": "Dovete assolutamente provare i vini bianchi autoctoni: il Pošip, corposo e aromatico, e il Grk, un vino più secco e minerale coltivato esclusivamente vicino a Lumbarda. Molte cantine locali offrono esperienze di degustazione."
+    },
+    {
+      "question": "Quanto costa un pasto tipico a Korčula?",
+      "answer": "Un pasto informale può variare tra gli 8 e i 15 €. Un pasto di fascia media in una konoba tradizionale, inclusi un piatto principale e vino, potrebbe costare tra i 25 e i 40 € a persona. Le esperienze di alta cucina possono raggiungere i 50-80 €+ a persona, esclusi i vini pregiati."
+    },
+    {
+      "question": "Dove posso comprare olio d'oliva locale e altri souvenir gastronomici?",
+      "answer": "L'olio d'oliva locale, il miele, i formaggi e altre specialità possono essere acquistati nei mercati giornalieri della Città di Korčula, direttamente presso le uljara (produttori di olio d'oliva) a conduzione familiare o nelle fattorie agrituristiche sparse per l'isola. Anche le cantine vendono i loro vini unici."
+    },
+    {
+      "question": "È necessario prenotare i ristoranti a Korčula?",
+      "answer": "Per le konoba più popolari, i ristoranti di lusso e specialmente per i piatti Peka, le prenotazioni sono altamente consigliate, in particolare durante l'alta stagione estiva (luglio e agosto). Per la Peka, spesso è necessario prenotare con diverse ore di anticipo."
+    }
+  ],
+  "quickAnswer": "La scena culinaria di Korčula prospera grazie al pesce fresco dell'Adriatico, all'eccellente olio d'oliva e a vini locali unici come il Pošip e il Grk. I piatti tradizionali da non perdere includono la Peka cotta lentamente, la sostanziosa Pašticada e la pasta tipica dell'isola, gli Žrnovski Makaruni. Non perdete la torta stagionale Lumblija e i formaggi e salumi di produzione locale per un assaggio autentico della Dalmazia.",
+  "tableData": [
+    {
+      "name": "Konoba Maha",
+      "type": "Konoba Tradizionale (Peka)",
+      "avgPriceRange": "25-40 € a persona",
+      "rating": "4.8★",
+      "specialty": "Peka di agnello o polpo (riserva obbligatoria con circa 3h di anticipo)"
+    },
+    {
+      "name": "Filippi Restaurant",
+      "type": "Alta Cucina (Pesce)",
+      "avgPriceRange": "40-70 € a persona",
+      "rating": "4.7★",
+      "specialty": "Pesce dalmata rivisitato, ampia carta dei vini"
+    },
+    {
+      "name": "Konoba Mate",
+      "type": "Konoba Rustica (Ingredienti locali)",
+      "avgPriceRange": "20-35 € a persona",
+      "rating": "4.9★",
+      "specialty": "Pasta fatta in casa (Žrnovski Makaruni), piatti freschi dall'orto"
+    },
+    {
+      "name": "Adio Mare",
+      "type": "Taverna Storica (Piatti classici)",
+      "avgPriceRange": "20-45 € a persona",
+      "rating": "4.5★",
+      "specialty": "Pesce alla griglia, stufati tradizionali, posizione centrale"
+    },
+    {
+      "name": "Eko Škoj",
+      "type": "Agriturismo/Dal campo alla tavola",
+      "avgPriceRange": "30-50 € (menu degustazione)",
+      "rating": "4.8★",
+      "specialty": "Prodotti biologici dell'azienda agricola, formaggio di capra fatto in casa, olio d'oliva"
+    }
+  ],
+  "imageUrl": "https://images.unsplash.com/photo-1758640920711-8ad5dbcb5214?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njg0MTh8MHwxfHNlYXJjaHwxMHx8dmFjYXRpb24lMjB0cmF2ZWwlMjBzdWl0Y2FzZXxlbnwwfDB8fHwxNzcxOTIzNjc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+  "imageAlt": "Travel and vacation concept",
+  "imageCredit": "LOGAN WEAVER | @LGNWVR",
+  "imageCreditUrl": "https://unsplash.com/@lgnwvr",
+  "imageSource": "unsplash",
+  "destination": "korcula",
+  "destinationName": "Korčula",
+  "region": "dubrovnik",
+  "theme": "local-food",
+  "language": "it",
+  "generatedAt": "2026-02-25T09:29:51.979Z",
+  "lat": 42.9597,
+  "lng": 17.1358
+}

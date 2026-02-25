@@ -1,0 +1,35 @@
+{
+  "title": "Vis Kompközlekedési Útmutató 2026: Útvonalak és Szigetkapcsolatok",
+  "metaDescription": "Fedezze fel a horvátországi Vis-sziget kompjait és szigetközi utazásait 2026-ban. Közvetlen információk útvonalakról, menetrendekről és Splitből, valamint más szigetekről induló kapcsolatokról.",
+  "slug": "vis-ferry-connections",
+  "content": "## Főbb Vis Kompútvonalak\n\nVis összeköttetése elsősorban Splittel valósul meg. Ez elengedhetetlen.\n\n*   **Split – Vis Város (Autókomp):** A Jadrolinija üzemelteti ezt a napi, egész éves járatot. Ez Vis éltető vonala. Különösen a főszezonban foglaljon előre helyet járművének.\n*   **Split – Vis Város (Katamarána):** Csak személyszállításra szolgál, gyorsabb. Az olyan szolgáltatók, mint a Krilo vagy a Jadrolinija üzemeltetik, gyakran szezonálisan. Csak gyalogosok számára.\n\n## Szigetközi Utazás (Island Hops)\n\nSzámítson korlátozott számú közvetlen szigetközi kapcsolatra; a normális útvonal a Spliten keresztüli átkelés. Az emberek zökkenőmentes szigetközi ugrásokra számítanak. A gyakorlatban ez gyakran bosszantó késéseket és időpocsékolást okoz.\n\n*   **Vis – Hvar (Hvar Város):** Szezonális katamarán járat létezik. Ellenőrizze a Krilo vagy a Jadrolinija menetrendjét a konkrét dátumokra (általában májustól októberig). Csak személyszállításra szolgál.\n*   **Vis – Brač (Milna):** Szintén szezonális, csak személyszállításra szolgáló katamarán kapcsolat. Kevésbé gyakori, mint a Hvarra tartó. Ellenőrizze az elérhetőséget.\n*   **Nincs Közvetlen Autókomp Más Szigetekre Visről:** Minden járműforgalomnak, ami Visről más szigetekre megy, először vissza kell térnie Splitbe. Tervezzen ennek megfelelően.\n\n## Alapvető Tippek 2026-ra\n\n*   Foglaljon minden komp- és katamaránjegyet online, különösen járművek esetében és nyáron. A helyszínen vásárolt jegyek ritkák. A Jadrolinija és a Krilo a kulcsfontosságú szereplők.\n*   Érkezzen meg legalább 60 perccel korábban az autókompokhoz, 30 perccel a katamaránokhoz. A kompok pontosan indulnak.\n",
+  "faq": [
+    {
+      "question": "Mehetek autóval Hvarról Visre?",
+      "answer": "Nem, nincs közvetlen autókomp Hvarról Visre. Vissza kell térnie Splitbe, és onnan kell kompolnia autóval."
+    },
+    {
+      "question": "Hogyan jutok el Komižába a vis-i kompkikötőből?",
+      "answer": "Taxik és helyi buszok várják az érkező kompok utasait Vis városában. A buszok ritkábbak; taxik könnyen elérhetők, de drágák."
+    },
+    {
+      "question": "Minden utasnak kell jegyet venni, még a csecsemőknek is?",
+      "answer": "Igen. Minden utasnak, életkortól függetlenül, jeggyel kell rendelkeznie a kompjáratokhoz és katamaránokhoz. Az ingyenes jegyeket is ki kell váltani."
+    }
+  ],
+  "quickAnswer": "Vis fő kompközpontja Vis Város, amely naponta közvetlenül kapcsolódik Splithez autókomppal. Szezonális katamaránok kötik össze Hvarral és Bračcsal. A közvetlen szigetközi kapcsolatok ritkák; általában Spliten keresztül kell utaznia a szélesebb eléréshez. Tervezzen gondosan.",
+  "tableData": [],
+  "imageUrl": "https://images.unsplash.com/photo-1631991461342-e975d4d3d316?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njg0MTh8MHwxfHNlYXJjaHw0fHxWaXMlMjBmZXJyeSUyMGNvbm5lY3Rpb25zfGVufDB8MHx8fDE3NzIwMTcxNjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  "imageAlt": "a large yellow and white ferry boat on a body of water",
+  "imageCredit": "Raimond Klavins",
+  "imageCreditUrl": "https://unsplash.com/@raimondklavins",
+  "imageSource": "unsplash",
+  "destination": "vis",
+  "destinationName": "Vis",
+  "region": "split-dalmatia",
+  "theme": "ferry-connections",
+  "language": "hu",
+  "generatedAt": "2026-02-25T11:00:52.732Z",
+  "lat": 43.0614,
+  "lng": 16.1836
+}

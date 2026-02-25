@@ -1,0 +1,83 @@
+{
+  "title": "Kulinarično srce Korčule: Vodnik za ljubitelje hrane (2026)",
+  "metaDescription": "Raziščite avtentično lokalno hrano in tradicionalne jedi Korčule. Odkrijte obvezne morske jedi, Peko, Žrnovske Makarune in najboljše restavracije. Vaš ultimativni vodnik za prehranjevanje na tem hrvaškem otoku v letu 2026.",
+  "slug": "korcula-local-food",
+  "content": "## Kulinarično srce Korčule: Vodnik za ljubitelje hrane (2026)\n\nKorčula, pogosto imenovana ",
+  "faq": [
+    {
+      "question": "Kaj je najbolj znana tradicionalna jed na Korčuli?",
+      "answer": "Najbolj znana tradicionalna jed je Peka, počasno kuhana jed iz mesa (pogosto jagnjetine ali hobotnice) in zelenjave, pripravljena pod zvonastim pokrovom, prekrito z žarečimi oglji. Zaradi dolgega časa priprave zahteva predhodno rezervacijo."
+    },
+    {
+      "question": "Ali so na Korčuli na voljo vegetarijanske možnosti?",
+      "answer": "Da, čeprav prevladujejo meso in ribe, večina restavracij ponuja vegetarijanske možnosti, kot so žar zelenjava, tradicionalne testenine s paradižnikovo omako (kot so Žrnovski Makaruni brez mesa), solate in pogosto lokalne sirne plošče. Vedno je najbolje povprašati o dnevnih vegetarijanskih specialitetah."
+    },
+    {
+      "question": "Katera lokalna vina naj poskusim na Korčuli?",
+      "answer": "Obvezno morate poskusiti avtohtoni beli vini: Pošip, ki je polnega telesa in aromatičen, ter Grk, sušnejše vino z mineralnimi notami, ki uspeva izključno v bližini Lumbarde. Številne lokalne vinske kleti ponujajo degustacijske izkušnje."
+    },
+    {
+      "question": "Koliko stane tipičen obrok na Korčuli?",
+      "answer": "Neformalen obrok se lahko giblje med 8 in 15 €. Srednje drag obrok v tradicionalni konobi, vključno z glavno jedjo in vinom, bi lahko stal 25–40 € na osebo. Izkušnje v vrhunskih restavracijah se lahko gibljejo od 50 do 80 €+ na osebo, brez vrhunskih vin."
+    },
+    {
+      "question": "Kje lahko kupim lokalno olivno olje in druge kulinarične spominke?",
+      "answer": "Lokalno olivno olje, med, sire in druge specialitete lahko kupite na dnevnih tržnicah v mestu Korčula, neposredno pri družinskih oljarnah (proizvajalcih olivnega olja) ali na agroturističnih kmetijah po otoku. Vinske kleti prav tako prodajajo svoja edinstvena vina."
+    },
+    {
+      "question": "Ali je potrebna rezervacija za restavracije na Korčuli?",
+      "answer": "Za priljubljene konobe, restavracije visoke kuhinje in še posebej za jedi Peka so rezervacije zelo priporočljive, zlasti v vrhuncu poletnih mesecev (julij in avgust). Za Peko je pogosto treba rezervirati več ur vnaprej."
+    }
+  ],
+  "quickAnswer": "Kulinarično sceno Korčule poganjajo sveže jadranske morske sadeži, izvrstno olivno olje in edinstvena lokalna vina, kot sta Pošip in Grk. Med tradicionalne jedi, ki jih morate poskusiti, sodijo počasno kuhana Peka, krepka Pašticada in otoška testenina Žrnovski Makaruni. Ne smete zamuditi sezonske pite Lumblija ter lokalno pridelanih sirov in suhomesnatih izdelkov za pristen okus Dalmacije.",
+  "tableData": [
+    {
+      "name": "Konoba Maha",
+      "type": "Tradicionalna konoba (Peka)",
+      "avgPriceRange": "25-40 € na osebo",
+      "rating": "4.8★",
+      "specialty": "Jagnječja ali hobotničja Peka (obvezna rezervacija ~3 ure vnaprej)"
+    },
+    {
+      "name": "Filippi Restaurant",
+      "type": "Visoka kuhinja (Morski sadeži)",
+      "avgPriceRange": "40-70 € na osebo",
+      "rating": "4.7★",
+      "specialty": "Moderne dalmatinske morske jedi, obsežen izbor vin"
+    },
+    {
+      "name": "Konoba Mate",
+      "type": "Rustična konoba (Lokalne sestavine)",
+      "avgPriceRange": "20-35 € na osebo",
+      "rating": "4.9★",
+      "specialty": "Domače testenine (Žrnovski Makaruni), jedi s sveže nabrano zelenjavo"
+    },
+    {
+      "name": "Adio Mare",
+      "type": "Zgodovinska gostilna (Klasične jedi)",
+      "avgPriceRange": "20-45 € na osebo",
+      "rating": "4.5★",
+      "specialty": "Ribe z žara, tradicionalne enolončnice, osrednja lokacija"
+    },
+    {
+      "name": "Eko Škoj",
+      "type": "Agroturizem/Od kmetije do mize",
+      "avgPriceRange": "30-50 € (degustacijski meni)",
+      "rating": "4.8★",
+      "specialty": "Ekološki pridelki s kmetije, domač kozji sir, olivno olje"
+    }
+  ],
+  "imageUrl": "https://images.unsplash.com/photo-1758640920711-8ad5dbcb5214?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njg0MTh8MHwxfHNlYXJjaHwxMHx8dmFjYXRpb24lMjB0cmF2ZWwlMjBzdWl0Y2FzZXxlbnwwfDB8fHwxNzcxOTIzNjc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+  "imageAlt": "Travel and vacation concept",
+  "imageCredit": "LOGAN WEAVER | @LGNWVR",
+  "imageCreditUrl": "https://unsplash.com/@lgnwvr",
+  "imageSource": "unsplash",
+  "destination": "korcula",
+  "destinationName": "Korčula",
+  "region": "dubrovnik",
+  "theme": "local-food",
+  "language": "sl",
+  "generatedAt": "2026-02-25T09:30:48.724Z",
+  "lat": 42.9597,
+  "lng": 17.1358
+}
