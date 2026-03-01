@@ -4,6 +4,12 @@ import createNextIntlPlugin from 'next-intl/plugin';
 const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
 
 const nextConfig: NextConfig = {
+  // Exclude large content directories from serverless function bundles
+  // Articles are only needed at build time (SSG), not at runtime
+  outputFileTracingExcludes: {
+    '*': ['./src/content/articles/**', '.next/cache/**'],
+  },
+
   // Image optimization
   images: {
     remotePatterns: [
@@ -14,7 +20,7 @@ const nextConfig: NextConfig = {
     ],
   },
 
-  // Headers for AI crawlers
+  // Headers for AI crawlers and caching
   async headers() {
     return [
       {
@@ -27,6 +33,26 @@ const nextConfig: NextConfig = {
           {
             key: 'Cache-Control',
             value: 'public, max-age=86400',
+          },
+        ],
+      },
+      // Cache optimized images from Vercel Image Optimization API (1 year, immutable)
+      {
+        source: '/_next/image(.*)',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
+          },
+        ],
+      },
+      // Cache static public images (1 year, immutable)
+      {
+        source: '/images/(.*)',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
           },
         ],
       },
