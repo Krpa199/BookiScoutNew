@@ -1,0 +1,35 @@
+{
+  "title": "Průvodce trajektovými trasami a ostrovními spoji Vrsaru 2026",
+  "metaDescription": "Realita trajektů ve Vrsaru pro rok 2026. Objevte místní lodní výlety, spojení na ostrov Sveti Juraj a kde najít hlavní trajektové spoje do Benátek nebo na vzdálenější chorvatské ostrovy.",
+  "slug": "vrsar-ferry-connections",
+  "content": "## Omezená námořní spojení Vrsaru v roce 2026\n\nVrsar není trajektovým uzlem. Je třeba pochopit jeho specifické námořní možnosti.\n\n*   **Žádné trajekty pro auta:** Přístav ve Vrsaru nenabízí žádné trajektové služby pro automobily na žádné chorvatské ostrovy ani pevninu.\n*   **Místní exkurze:** Zaměřte se na místní lodní výlety. Denní plavby spojují Vrsar s nedalekým, neobydleným ostrovem Sveti Juraj pro koupání a opalování.\n*   **Vodní taxi:** K dispozici jsou soukromá vodní taxi pro krátké přesuny na odlehlé pláže nebo zátoky podél vrsarského pobřeží.\n*   **Přístup k hlavním přístavům:** Pro mezinárodní spoje (např. do Benátek, Terstu) nebo mezioblastní cesty na větší chorvatské ostrovy využijte přístavy v Poreči (10 km severně) nebo Rovinji (25 km jižně).\n*   **Doporučení:** Rezervace soukromé dopravy na dlouhé vzdálenosti přímo z Vrsaru na hlavní ostrovy je drahá a zbytečná; místní to takto dělají jen zřídka, a to z dobrého důvodu. Použijte raději pravidelné trajektové linky z větších přístavů.",
+  "faq": [
+    {
+      "question": "Mohu jet trajektem z Vrsaru do Benátek?",
+      "answer": "Ne. Cestujte do Poreče nebo Rovinje a nasedněte na přímé katamarány do Benátek."
+    },
+    {
+      "question": "Má Vrsar trajektové spojení pro automobily na jiné chorvatské ostrovy?",
+      "answer": "Ne. Vrsar neprovozuje trajektové služby pro automobily na jiné chorvatské ostrovy."
+    },
+    {
+      "question": "Jak se dostanu na ostrov Sveti Juraj z Vrsaru?",
+      "answer": "Využijte časté místní lodní exkurze odplouvající přímo z přístavu ve Vrsaru."
+    }
+  ],
+  "quickAnswer": "Vrsar nemá velký trajektový přístav pro automobily. Hlavní ostrovní spojení tvoří místní lodní exkurze na blízké ostrovy, jako je Sveti Juraj, nebo soukromé charterové lety. Pro významné mezioblastní nebo pevninské spoje musí cestující využít větší nedaleké přístavy v Poreči nebo Rovinji.",
+  "tableData": [],
+  "imageUrl": "https://images.pexels.com/photos/35485757/pexels-photo-35485757.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+  "imageAlt": "View of Isola di Procida ferry at a port in Naples, Italy with Mediterranean architecture.",
+  "imageCredit": "Magda Ehlers",
+  "imageCreditUrl": "https://www.pexels.com/@magda-ehlers-pexels",
+  "imageSource": "pexels",
+  "destination": "vrsar",
+  "destinationName": "Vrsar",
+  "region": "istria",
+  "theme": "ferry-connections",
+  "language": "cz",
+  "generatedAt": "2026-03-03T10:02:55.176Z",
+  "lat": 45.15,
+  "lng": 13.6
+}
