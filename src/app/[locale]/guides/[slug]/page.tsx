@@ -12,6 +12,9 @@ import ScrollReveal from '@/components/ui/ScrollReveal';
 import ReadingProgress from '@/components/ui/ReadingProgress';
 import AnimatedFaq from '@/components/ui/AnimatedFaq';
 import { MapPin, Clock, Calendar, ChevronRight, CheckCircle, Sparkles, Shield, Star, HelpCircle, ArrowRight } from 'lucide-react';
+import Image from 'next/image';
+
+export const revalidate = 86400; // 24h
 
 // Article type matching the generated JSON structure
 // Standard table data (for recommendations)
@@ -108,32 +111,10 @@ function getRelatedArticles(lang: string, currentSlug: string, destination: stri
     .slice(0, limit);
 }
 
-// Generate static params for all articles
-export async function generateStaticParams() {
-  const params: { slug: string }[] = [];
-  const articlesDir = path.join(process.cwd(), 'src', 'content', 'articles');
-
-  try {
-    for (const locale of locales) {
-      const langDir = path.join(articlesDir, locale);
-      if (fs.existsSync(langDir) && fs.statSync(langDir).isDirectory()) {
-        const files = fs.readdirSync(langDir);
-        for (const file of files) {
-          if (file.endsWith('.json')) {
-            const slug = file.replace('.json', '');
-            if (!params.find(p => p.slug === slug)) {
-              params.push({ slug });
-            }
-          }
-        }
-      }
-    }
-  } catch (error) {
-    // Directory doesn't exist yet
-  }
-
-  return params;
-}
+// ISR: pages are generated on first visit and cached for 24h (revalidate above)
+// No generateStaticParams — with 18,000+ articles, pre-building all pages
+// exceeds Vercel deployment limits. Pages render on-demand instead.
+export const dynamicParams = true;
 
 // Generate metadata
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -390,11 +371,13 @@ export default async function GuidePage({ params }: Props) {
         {/* Background image or gradient fallback */}
         <div className="absolute inset-0">
           {article.imageUrl ? (
-            <img
+            <Image
               src={article.imageUrl}
               alt={article.imageAlt || article.title}
-              className="w-full h-full object-cover"
-              loading="eager"
+              fill
+              priority
+              className="object-cover"
+              sizes="100vw"
             />
           ) : (
             <div className="w-full h-full bg-gradient-to-br from-ocean-500 via-ocean-600 to-seafoam-600" />
@@ -684,11 +667,12 @@ export default async function GuidePage({ params }: Props) {
                       >
                         {related.imageUrl ? (
                           <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-lg sm:rounded-xl flex-shrink-0 overflow-hidden">
-                            <img
+                            <Image
                               src={related.imageUrl}
                               alt={related.title}
-                              className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                              loading="lazy"
+                              fill
+                              className="object-cover group-hover:scale-110 transition-transform duration-500"
+                              sizes="80px"
                             />
                           </div>
                         ) : (

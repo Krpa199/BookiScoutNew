@@ -10,6 +10,9 @@ import BookingWidget from '@/components/ui/BookingWidget';
 import { getDestinationImage } from '@/config/images';
 import QuickFactsCard from '@/components/ui/QuickFactsCard';
 import DestinationSchema from '@/components/schema/DestinationSchema';
+import Image from 'next/image';
+
+export const revalidate = 86400; // 24h
 
 type Props = {
   params: Promise<{
@@ -91,14 +94,8 @@ function getAvailableGuides(destinationSlug: string): Theme[] {
   return available;
 }
 
-// Generate static params
-export async function generateStaticParams() {
-  const params: { slug: string }[] = [];
-  for (const dest of DESTINATIONS) {
-    params.push({ slug: dest.slug });
-  }
-  return params;
-}
+// ISR: pages are generated on first visit and cached for 24h (revalidate above)
+export const dynamicParams = true;
 
 // Generate metadata
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -221,10 +218,13 @@ export default async function DestinationPage({ params }: Props) {
       {/* Hero */}
       <section className="relative text-white min-h-[85vh] sm:min-h-[70vh] md:min-h-[85vh] flex items-end overflow-hidden">
         <div className="absolute inset-0">
-          <img
+          <Image
             src={destinationImage.url}
             alt={destinationImage.alt}
-            className="w-full h-full object-cover"
+            fill
+            priority
+            className="object-cover"
+            sizes="100vw"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/30 to-transparent" />
         </div>
