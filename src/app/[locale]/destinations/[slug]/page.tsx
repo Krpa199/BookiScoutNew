@@ -94,8 +94,14 @@ function getAvailableGuides(destinationSlug: string): Theme[] {
   return available;
 }
 
-// ISR: pages are generated on first visit and cached for 24h (revalidate above)
-export const dynamicParams = true;
+// Generate static params for all destinations
+export async function generateStaticParams() {
+  const params: { slug: string }[] = [];
+  for (const dest of DESTINATIONS) {
+    params.push({ slug: dest.slug });
+  }
+  return params;
+}
 
 // Generate metadata
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

@@ -111,10 +111,32 @@ function getRelatedArticles(lang: string, currentSlug: string, destination: stri
     .slice(0, limit);
 }
 
-// ISR: pages are generated on first visit and cached for 24h (revalidate above)
-// No generateStaticParams — with 18,000+ articles, pre-building all pages
-// exceeds Vercel deployment limits. Pages render on-demand instead.
-export const dynamicParams = true;
+// Generate static params for all articles
+export async function generateStaticParams() {
+  const params: { slug: string }[] = [];
+  const articlesDir = path.join(process.cwd(), 'src', 'content', 'articles');
+
+  try {
+    for (const locale of locales) {
+      const langDir = path.join(articlesDir, locale);
+      if (fs.existsSync(langDir) && fs.statSync(langDir).isDirectory()) {
+        const files = fs.readdirSync(langDir);
+        for (const file of files) {
+          if (file.endsWith('.json')) {
+            const slug = file.replace('.json', '');
+            if (!params.find(p => p.slug === slug)) {
+              params.push({ slug });
+            }
+          }
+        }
+      }
+    }
+  } catch (error) {
+    // Directory doesn't exist yet
+  }
+
+  return params;
+}
 
 // Generate metadata
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
