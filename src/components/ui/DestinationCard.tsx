@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { MapPin, Waves, Mountain, Building, TrendingUp, Sparkles } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
@@ -51,11 +52,12 @@ export default function DestinationCard({ destination, articleCount = 0 }: Desti
       <article className="relative h-64 sm:h-72 md:h-80 rounded-3xl overflow-hidden shadow-soft hover:shadow-ocean transition-all duration-500 hover:-translate-y-2">
         {/* Background Image */}
         <div className="absolute inset-0">
-          <img
+          <Image
             src={image.url}
             alt={image.alt}
-            className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-            loading="lazy"
+            fill
+            className="object-cover group-hover:scale-110 transition-transform duration-700"
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
           />
           {/* Overlay with gradient */}
           <div className={`absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/40 to-transparent opacity-90 group-hover:opacity-95 transition-opacity`} />

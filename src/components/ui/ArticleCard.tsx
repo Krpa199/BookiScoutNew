@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { MapPin, Clock, Star, ArrowRight, Sparkles } from 'lucide-react';
 
 interface ArticleCardProps {
@@ -119,10 +120,12 @@ export default function ArticleCard({
         {/* Image */}
         <div className="relative h-44 sm:h-48 md:h-56 overflow-hidden">
           {image ? (
-            <img
+            <Image
               src={image}
               alt={title}
-              className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+              fill
+              className="object-cover group-hover:scale-110 transition-transform duration-700"
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
             />
           ) : (
             <div className={`absolute inset-0 bg-gradient-to-br ${style.gradient}`}>

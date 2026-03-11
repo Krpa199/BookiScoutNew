@@ -3,6 +3,8 @@ import { ChevronRight, Target, Sparkles, Users, Globe, CheckCircle, Heart } from
 import { setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 
+export const revalidate = false; // potpuno statična stranica
+
 type Props = {
   params: Promise<{ locale: string }>;
 };

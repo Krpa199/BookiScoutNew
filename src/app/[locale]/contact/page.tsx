@@ -3,6 +3,8 @@ import { ChevronRight, Mail, MessageSquare, Clock, MapPin } from 'lucide-react';
 import { setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 
+export const revalidate = false; // potpuno statična stranica
+
 type Props = {
   params: Promise<{ locale: string }>;
 };
