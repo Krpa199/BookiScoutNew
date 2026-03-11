@@ -12,7 +12,8 @@ import QuickFactsCard from '@/components/ui/QuickFactsCard';
 import DestinationSchema from '@/components/schema/DestinationSchema';
 import Image from 'next/image';
 
-export const revalidate = 86400; // 24h
+export const revalidate = false; // fully static - rebuilt only via CI/CD
+export const dynamicParams = false; // return 404 for unknown slugs instead of triggering serverless
 
 type Props = {
   params: Promise<{

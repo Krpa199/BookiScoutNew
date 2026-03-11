@@ -5,6 +5,8 @@ import { Link } from '@/i18n/navigation';
 import { DESTINATIONS, Destination } from '@/config/destinations';
 import DestinationCard from '@/components/ui/DestinationCard';
 
+export const revalidate = false; // fully static - rebuilt only via CI/CD
+
 type Props = {
   params: Promise<{ locale: string }>;
 };

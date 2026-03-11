@@ -5,16 +5,17 @@ import path from 'path';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { locales, localeFlags, type Locale } from '@/i18n/config';
-import { shouldShowBookingWidget } from '@/config/features';
+
 import ArticleSchema from '@/components/article/ArticleSchema';
-import BookingWidget from '@/components/ui/BookingWidget';
+
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import ReadingProgress from '@/components/ui/ReadingProgress';
 import AnimatedFaq from '@/components/ui/AnimatedFaq';
 import { MapPin, Clock, Calendar, ChevronRight, CheckCircle, Sparkles, Shield, Star, HelpCircle, ArrowRight } from 'lucide-react';
 import Image from 'next/image';
 
-export const revalidate = 86400; // 24h
+export const revalidate = false; // fully static - rebuilt only via CI/CD
+export const dynamicParams = false; // return 404 for unknown slugs instead of triggering serverless
 
 // Article type matching the generated JSON structure
 // Standard table data (for recommendations)
@@ -328,7 +329,6 @@ export default async function GuidePage({ params }: Props) {
   const readingTime = Math.max(3, Math.ceil(wordCount / 200));
 
   // Should show booking widget?
-  const showBooking = shouldShowBookingWidget('guide');
 
   // Get related articles
   const relatedArticles = getRelatedArticles(locale, slug, article.destination, article.theme, 3);
@@ -720,13 +720,6 @@ export default async function GuidePage({ params }: Props) {
           {/* Sidebar */}
           <aside className="lg:col-span-1 order-first lg:order-last">
             <div className="lg:sticky lg:top-20 space-y-4 sm:space-y-6">
-              {/* Booking Widget */}
-              {showBooking && (
-                <BookingWidget
-                  destination={article.destinationName}
-                  destinationSlug={article.destination}
-                />
-              )}
 
               {/* Language Switcher - hidden on mobile (auto-detected via middleware, also available in header) */}
               <div className="hidden lg:block bg-white rounded-2xl border-2 border-slate-100 p-4 sm:p-6 shadow-soft">

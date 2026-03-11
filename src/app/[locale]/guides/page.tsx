@@ -1,11 +1,14 @@
 import { Metadata } from 'next';
 import fs from 'fs';
 import path from 'path';
+import Image from 'next/image';
 import { ChevronRight, MapPin, Clock, Sparkles, BookOpen, TrendingUp, Filter } from 'lucide-react';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { DESTINATIONS } from '@/config/destinations';
 import { locales } from '@/i18n/config';
+
+export const revalidate = false; // fully static - rebuilt only via CI/CD
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -209,10 +212,12 @@ export default async function GuidesPage({ params }: Props) {
                       <article className="bg-white rounded-3xl overflow-hidden shadow-soft hover:shadow-ocean transition-all duration-500 border border-slate-100 hover:border-ocean-200 h-full flex flex-col hover:-translate-y-1">
                         <div className="relative h-44 sm:h-48 md:h-52 overflow-hidden">
                           {article.imageUrl ? (
-                            <img
+                            <Image
                               src={article.imageUrl}
                               alt={article.title}
-                              className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                              fill
+                              className="object-cover group-hover:scale-110 transition-transform duration-700"
+                              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                             />
                           ) : (
                             <div className="absolute inset-0 bg-gradient-to-br from-ocean-400 to-ocean-600">

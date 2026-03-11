@@ -5,7 +5,7 @@ const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
 
 const nextConfig: NextConfig = {
   // Exclude large content directories from serverless function bundles
-  // Articles are only needed at build time (SSG), not at runtime
+  // Articles are read at build time; serverless functions serve pre-rendered HTML
   outputFileTracingExcludes: {
     '*': ['./src/content/articles/**', '.next/cache/**'],
   },
@@ -53,6 +53,16 @@ const nextConfig: NextConfig = {
           {
             key: 'Cache-Control',
             value: 'public, max-age=31536000, immutable',
+          },
+        ],
+      },
+      // Cache all HTML pages aggressively on CDN (stale-while-revalidate for seamless deploys)
+      {
+        source: '/(.*)',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, s-maxage=86400, stale-while-revalidate=604800',
           },
         ],
       },

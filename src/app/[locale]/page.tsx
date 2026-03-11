@@ -7,6 +7,8 @@ import { DESTINATIONS } from '@/config/destinations';
 import fs from 'fs';
 import path from 'path';
 
+export const revalidate = false; // fully static - rebuilt only via CI/CD
+
 // Helper to get article image from JSON file
 function getArticleImage(locale: string, destination: string, theme: string): string | undefined {
   try {
