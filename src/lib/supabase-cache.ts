@@ -7,11 +7,17 @@
 
 import { createClient } from '@supabase/supabase-js';
 
-// Use service_role key for server-side operations (bypasses RLS, never exposed to client)
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.SUPABASE_ANON_KEY!
-);
+// Lazy init — avoids crash during Next.js build when env vars aren't available
+let _supabase: ReturnType<typeof createClient> | null = null;
+function getSupabase() {
+  if (!_supabase) {
+    const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+    const key = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.SUPABASE_ANON_KEY;
+    if (!url || !key) throw new Error('Supabase credentials not configured');
+    _supabase = createClient(url, key);
+  }
+  return _supabase;
+}
 
 const CACHE_TTL_DAYS = 365;
 const DAILY_LIMIT = 3;
@@ -25,7 +31,7 @@ export interface CachedReport {
 
 export async function getCachedReport(key: string): Promise<CachedReport | null> {
   try {
-    const { data, error } = await supabase
+    const { data, error } = await getSupabase()
       .from('stay_check_cache')
       .select('locale, data, created_at')
       .eq('key', key)
@@ -37,7 +43,7 @@ export async function getCachedReport(key: string): Promise<CachedReport | null>
     const age = Date.now() - new Date(data.created_at).getTime();
     if (age > CACHE_TTL_DAYS * 24 * 60 * 60 * 1000) {
       // Expired — delete and return null
-      await supabase.from('stay_check_cache').delete().eq('key', key);
+      await getSupabase().from('stay_check_cache').delete().eq('key', key);
       return null;
     }
 
@@ -49,7 +55,7 @@ export async function getCachedReport(key: string): Promise<CachedReport | null>
 
 export async function setCachedReport(key: string, locale: string, data: Record<string, unknown>): Promise<void> {
   try {
-    await supabase.from('stay_check_cache').upsert({
+    await getSupabase().from('stay_check_cache').upsert({
       key,
       locale,
       data,
@@ -85,7 +91,7 @@ export function getRateLimitMessage(locale: string): string {
 export async function checkRateLimit(ip: string): Promise<boolean> {
   try {
     const today = new Date().toISOString().split('T')[0];
-    const { data } = await supabase
+    const { data } = await getSupabase()
       .from('stay_check_rate_limit')
       .select('count')
       .eq('ip', ip)
@@ -101,7 +107,7 @@ export async function checkRateLimit(ip: string): Promise<boolean> {
 export async function incrementRateLimit(ip: string): Promise<void> {
   try {
     const today = new Date().toISOString().split('T')[0];
-    const { data } = await supabase
+    const { data } = await getSupabase()
       .from('stay_check_rate_limit')
       .select('count')
       .eq('ip', ip)
@@ -109,13 +115,13 @@ export async function incrementRateLimit(ip: string): Promise<void> {
       .single();
 
     if (data) {
-      await supabase
+      await getSupabase()
         .from('stay_check_rate_limit')
         .update({ count: data.count + 1 })
         .eq('ip', ip)
         .eq('date', today);
     } else {
-      await supabase
+      await getSupabase()
         .from('stay_check_rate_limit')
         .insert({ ip, date: today, count: 1 });
     }
