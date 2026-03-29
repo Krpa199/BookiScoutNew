@@ -7,6 +7,8 @@
 
 import { createClient } from '@supabase/supabase-js';
 
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 // Lazy init — avoids crash during Next.js build when env vars aren't available
 let _supabase: ReturnType<typeof createClient> | null = null;
 function getSupabase() {
@@ -35,19 +37,18 @@ export async function getCachedReport(key: string): Promise<CachedReport | null>
       .from('stay_check_cache')
       .select('locale, data, created_at')
       .eq('key', key)
-      .single();
+      .single() as { data: { locale: string; data: Record<string, unknown>; created_at: string } | null; error: unknown };
 
     if (error || !data) return null;
 
     // Check TTL
     const age = Date.now() - new Date(data.created_at).getTime();
     if (age > CACHE_TTL_DAYS * 24 * 60 * 60 * 1000) {
-      // Expired — delete and return null
       await getSupabase().from('stay_check_cache').delete().eq('key', key);
       return null;
     }
 
-    return { locale: data.locale, data: data.data as Record<string, unknown> };
+    return { locale: data.locale, data: data.data };
   } catch {
     return null;
   }
@@ -55,7 +56,7 @@ export async function getCachedReport(key: string): Promise<CachedReport | null>
 
 export async function setCachedReport(key: string, locale: string, data: Record<string, unknown>): Promise<void> {
   try {
-    await getSupabase().from('stay_check_cache').upsert({
+    await (getSupabase().from('stay_check_cache') as any).upsert({
       key,
       locale,
       data,
@@ -96,7 +97,7 @@ export async function checkRateLimit(ip: string): Promise<boolean> {
       .select('count')
       .eq('ip', ip)
       .eq('date', today)
-      .single();
+      .single() as { data: { count: number } | null };
 
     return !data || data.count < DAILY_LIMIT;
   } catch {
@@ -112,17 +113,15 @@ export async function incrementRateLimit(ip: string): Promise<void> {
       .select('count')
       .eq('ip', ip)
       .eq('date', today)
-      .single();
+      .single() as { data: { count: number } | null };
 
     if (data) {
-      await getSupabase()
-        .from('stay_check_rate_limit')
+      await (getSupabase().from('stay_check_rate_limit') as any)
         .update({ count: data.count + 1 })
         .eq('ip', ip)
         .eq('date', today);
     } else {
-      await getSupabase()
-        .from('stay_check_rate_limit')
+      await (getSupabase().from('stay_check_rate_limit') as any)
         .insert({ ip, date: today, count: 1 });
     }
   } catch (err) {
