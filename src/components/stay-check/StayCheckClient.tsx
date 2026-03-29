@@ -21,6 +21,31 @@ const CLIENT_UI: Record<string, Record<string, string>> = {
   ru: { heroTitle1: 'Узнайте что фото', heroTitle2: 'Не показывают', heroDesc: 'Вставьте ссылку на жильё. Мы анализируем тысячи реальных отзывов гостей из ближайших мест, чтобы рассказать вам какой район', heroDescBold: 'на самом деле', heroDescEnd: '.', trust1: 'Только реальные отзывы', trust2: 'Анализ на основе данных', trust3: 'AI-аналитика', analyzing: 'Анализируем район...', analyzingSub: 'Собираем отзывы, рассчитываем оценки, генерируем выводы', patience: 'Это может занять 1–2 минуты. Пожалуйста, подождите.', howItWorks: 'Как это работает', step1Title: 'Вставьте ссылку', step1Desc: 'Вставьте ссылку Booking.com, Airbnb или Apartmanija. Или просто введите название и местоположение.', step2Title: 'Мы читаем отзывы', step2Desc: 'Мы анализируем реальные отзывы Google ресторанов, пляжей, кафе и парковок поблизости.', step3Title: 'Полная картина', step3Desc: 'Персонализированные плюсы, минусы, риски и альтернативы на основе ВАШЕГО стиля путешествия.', checkAnother: 'Проверить другое жильё', connectionError: 'Ошибка соединения. Проверьте интернет.' },
 };
 
+// FAQ items matching StayCheckSchema.tsx — must stay in sync
+const FAQ_ITEMS: Record<string, { q: string; a: string }[]> = {
+  en: [
+    { q: 'What is BookiScout Stay Check?', a: 'Stay Check is a free tool that analyzes the neighborhood around your booked accommodation in Croatia. It uses real Google Maps reviews from nearby restaurants, beaches, cafes, and other places to give you an honest picture of what the area is really like.' },
+    { q: 'How does Stay Check work?', a: 'Paste your accommodation link from Booking.com, Airbnb, or Apartmanija.hr. We geocode the location, find nearby places within 1km, analyze their Google reviews for patterns (noise, parking, crowds, prices), and generate a personalized report based on your traveler type.' },
+    { q: 'Is Stay Check free?', a: 'Yes, Stay Check is completely free. We analyze real public reviews from Google Maps and provide personalized insights at no cost.' },
+    { q: 'What platforms does Stay Check support?', a: 'Stay Check supports links from Booking.com, Airbnb, Apartmanija.hr, and Laganini.hr. You can also manually enter any accommodation name and location in Croatia.' },
+    { q: 'Where does the review data come from?', a: 'All review data comes from Google Maps via the official Google Places API. We analyze reviews from restaurants, cafes, beaches, parking, and other places near your accommodation. Every insight is backed by real guest experiences.' },
+  ],
+  hr: [
+    { q: 'Što je BookiScout Stay Check?', a: 'Stay Check je besplatan alat koji analizira okolinu vašeg smještaja u Hrvatskoj. Koristi stvarne recenzije s Google Mapsa obližnjih restorana, plaža, kafića i drugih mjesta kako bi vam dao iskrenu sliku o tome kakav je prostor zaista.' },
+    { q: 'Kako Stay Check funkcionira?', a: 'Zalijepite link smještaja s Booking.com, Airbnb ili Apartmanija.hr. Mi lociramo lokaciju, pronalazimo obližnja mjesta unutar 1km, analiziramo njihove Google recenzije i generiramo personalizirani izvještaj.' },
+    { q: 'Je li Stay Check besplatan?', a: 'Da, Stay Check je potpuno besplatan. Analiziramo javne recenzije s Google Mapsa i pružamo personalizirane uvide bez ikakve naknade.' },
+    { q: 'Koje platforme Stay Check podržava?', a: 'Stay Check podržava linkove s Booking.com, Airbnb, Apartmanija.hr i Laganini.hr. Također možete ručno unijeti ime smještaja i lokaciju u Hrvatskoj.' },
+    { q: 'Odakle dolaze podaci o recenzijama?', a: 'Svi podaci dolaze s Google Mapsa putem službenog Google Places API-ja. Analiziramo recenzije restorana, kafića, plaža, parkinga i drugih mjesta u blizini vašeg smještaja.' },
+  ],
+  de: [
+    { q: 'Was ist BookiScout Stay Check?', a: 'Stay Check ist ein kostenloses Tool, das die Umgebung Ihrer gebuchten Unterkunft in Kroatien analysiert. Es nutzt echte Google Maps Bewertungen von Restaurants, Stränden, Cafés und anderen Orten in der Nähe.' },
+    { q: 'Wie funktioniert Stay Check?', a: 'Fügen Sie Ihren Unterkunftslink von Booking.com, Airbnb oder Apartmanija.hr ein. Wir finden nahegelegene Orte im Umkreis von 1km, analysieren deren Google-Bewertungen und erstellen einen personalisierten Bericht.' },
+    { q: 'Ist Stay Check kostenlos?', a: 'Ja, Stay Check ist völlig kostenlos. Wir analysieren öffentliche Bewertungen von Google Maps und bieten personalisierte Einblicke ohne Kosten.' },
+    { q: 'Welche Plattformen unterstützt Stay Check?', a: 'Stay Check unterstützt Links von Booking.com, Airbnb, Apartmanija.hr und Laganini.hr. Sie können auch manuell einen Unterkunftsnamen und Standort in Kroatien eingeben.' },
+    { q: 'Woher stammen die Bewertungsdaten?', a: 'Alle Daten stammen von Google Maps über die offizielle Google Places API. Wir analysieren Bewertungen von Restaurants, Cafés, Stränden, Parkplätzen und anderen Orten in der Nähe Ihrer Unterkunft.' },
+  ],
+};
+
 export default function StayCheckClient({ locale = 'en' }: { locale?: string }) {
   const t = CLIENT_UI[locale] || CLIENT_UI.en;
   const [isLoading, setIsLoading] = useState(false);
@@ -81,6 +106,13 @@ export default function StayCheckClient({ locale = 'en' }: { locale?: string }) 
         </div>
 
         <div className="container relative py-12 md:py-16 lg:py-20">
+          {/* Breadcrumb */}
+          <nav className="text-sm text-ocean-100 mb-6 text-center" aria-label="Breadcrumb">
+            <a href={`/${locale === 'en' ? '' : locale}`} className="hover:text-white">BookiScout</a>
+            {' '}<span aria-hidden="true">&rarr;</span>{' '}
+            <span className="text-white font-medium">Stay Check</span>
+          </nav>
+
           <div className="max-w-3xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/15 backdrop-blur-md rounded-full mb-6 shadow-soft">
               <Search className="w-4 h-4" />
@@ -197,6 +229,26 @@ export default function StayCheckClient({ locale = 'en' }: { locale?: string }) 
                         </div>
                       );
                     })}
+                  </div>
+
+                  {/* FAQ Section - matches StayCheckSchema.tsx FAQ entries */}
+                  <div className="mt-16 md:mt-20">
+                    <h2 className="text-2xl font-bold text-slate-900 mb-8 text-center">
+                      {locale === 'hr' ? 'Često postavljena pitanja' : locale === 'de' ? 'Häufig gestellte Fragen' : 'Frequently Asked Questions'}
+                    </h2>
+                    <div className="space-y-4">
+                      {(FAQ_ITEMS[locale] || FAQ_ITEMS.en).map((faq: { q: string; a: string }, i: number) => (
+                        <details key={i} className="group bg-white rounded-2xl border border-slate-100 shadow-sm">
+                          <summary className="flex items-center justify-between p-5 cursor-pointer list-none font-semibold text-slate-800 hover:text-ocean-600 transition-colors">
+                            {faq.q}
+                            <svg className="w-5 h-5 text-slate-400 group-open:rotate-180 transition-transform flex-shrink-0 ml-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                              <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                            </svg>
+                          </summary>
+                          <div className="px-5 pb-5 text-sm text-slate-600 leading-relaxed">{faq.a}</div>
+                        </details>
+                      ))}
+                    </div>
                   </div>
                 </div>
               )}
