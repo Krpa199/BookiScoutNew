@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
-import { Menu, X, Globe, ChevronDown, Map, HelpCircle } from 'lucide-react';
+import { Menu, X, Globe, ChevronDown, Map, HelpCircle, Search } from 'lucide-react';
 import { useTranslations, useLocale } from 'next-intl';
 import { Link, usePathname, useRouter } from '@/i18n/navigation';
 import { locales, localeNames, localeFlags, type Locale } from '@/i18n/config';
@@ -27,6 +27,7 @@ export default function Header() {
   }, []);
 
   const navigation = [
+    { name: t('stayCheck'), href: '/stay-check', icon: Search, highlight: true },
     { name: t('destinations'), href: '/destinations', icon: Map },
     { name: t('decisionGuides'), href: '/guides', icon: HelpCircle },
   ];
@@ -74,7 +75,11 @@ export default function Header() {
               <Link
                 key={item.name}
                 href={item.href}
-                className="flex items-center gap-2 px-4 py-2.5 text-slate-700 hover:text-ocean-600 font-medium transition-all rounded-xl hover:bg-ocean-50/50 group"
+                className={`flex items-center gap-2 px-4 py-2.5 font-medium transition-all rounded-xl group ${
+                  'highlight' in item && item.highlight
+                    ? 'text-coral-600 hover:text-coral-700 bg-coral-50 hover:bg-coral-100'
+                    : 'text-slate-700 hover:text-ocean-600 hover:bg-ocean-50/50'
+                }`}
               >
                 <Icon className="w-4 h-4 transition-transform group-hover:scale-110" />
                 <span>{item.name}</span>

@@ -12,6 +12,12 @@ import QuickFactsCard from '@/components/ui/QuickFactsCard';
 import DestinationSchema from '@/components/schema/DestinationSchema';
 import Image from 'next/image';
 
+// Check if stay-check area data exists for this destination
+function hasStayCheckData(slug: string): boolean {
+  const filePath = path.join(process.cwd(), 'src', 'content', 'stay-check', 'en', `${slug}.json`);
+  return fs.existsSync(filePath);
+}
+
 export const revalidate = false; // fully static - rebuilt only via CI/CD
 export const dynamicParams = false; // return 404 for unknown slugs instead of triggering serverless
 
@@ -400,6 +406,28 @@ export default async function DestinationPage({ params }: Props) {
 
             {availableGuides.length > 0 ? (
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 md:gap-6 mb-10 md:mb-16">
+                {/* Stay Check Area Review - prominent card if data exists */}
+                {hasStayCheckData(slug) && (
+                  <Link
+                    href={`/stay-check/${slug}`}
+                    className="group bg-gradient-to-br from-ocean-50 to-seafoam-50 rounded-2xl md:rounded-3xl border-2 border-ocean-200 hover:border-ocean-400 hover:shadow-ocean transition-all p-4 sm:p-5 md:p-6 hover:-translate-y-1 sm:col-span-2 lg:col-span-3"
+                  >
+                    <div className="flex items-center gap-3 sm:gap-4">
+                      <div className="w-11 h-11 sm:w-12 sm:h-12 md:w-14 md:h-14 bg-gradient-to-br from-ocean-400 to-seafoam-500 rounded-xl sm:rounded-2xl flex items-center justify-center text-white shadow-soft group-hover:scale-110 transition-transform flex-shrink-0">
+                        <Shield className="w-6 h-6" />
+                      </div>
+                      <div className="flex-1 min-w-0">
+                        <h3 className="font-bold text-slate-900 mb-1 text-sm sm:text-base md:text-lg group-hover:text-ocean-600 transition-colors">
+                          {t('areaReview.title', { destination: destination.name })}
+                        </h3>
+                        <p className="text-xs sm:text-sm text-slate-500">
+                          {t('areaReview.subtitle')}
+                        </p>
+                      </div>
+                      <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5 text-ocean-400 group-hover:text-ocean-600 group-hover:translate-x-1 transition-all flex-shrink-0" />
+                    </div>
+                  </Link>
+                )}
                 {availableGuides.map(theme => (
                   <Link
                     key={theme}

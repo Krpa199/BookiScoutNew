@@ -92,13 +92,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html className={inter.variable}>
+    <html className={inter.variable} suppressHydrationWarning>
       <head>
         {/* AI Search Engine Tags */}
         <meta name="ai-content-declaration" content="human-edited" />
         <link rel="llms" href="/llms.txt" />
       </head>
-      <body className="min-h-screen flex flex-col">
+      <body className="min-h-screen flex flex-col" suppressHydrationWarning>
         <OrganizationSchema />
         {children}
         <Analytics />

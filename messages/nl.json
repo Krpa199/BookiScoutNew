@@ -14,14 +14,17 @@
     "decisionGuides": "Beslissingsgidsen",
     "chooseLanguage": "Kies taal",
     "language": "Taal",
-    "browseGuides": "Gidsen bekijken"
+    "browseGuides": "Gidsen bekijken",
+    "stayCheck": "Accommodatie check"
   },
   "home": {
     "hero": {
       "badge": "AI-geoptimaliseerde reisbeslissingen",
       "headline": "Weet waar, wanneer",
       "headlinePart2": "en waarom voor je boekt",
-      "subheadline": "Kroatië beslissingsgidsen voor echte reizigers. Is het de moeite waard? Heb je een auto nodig? Beste tijd om te bezoeken? Wij beantwoorden de vragen die ertoe doen.",
+      "subheadline": "Kroatië beslissingsgidsen voor echte reizigers. Controleer wat er rond je accommodatie is — restaurants, stranden, bars — op basis van echte reviews. Plus antwoorden op al je reisvragen.",
+      "stayCheckTitle": "Controleer je accommodatie",
+      "stayCheckSubtitle": "Plak een Booking.com link · Ontdek wat er echt in de buurt is",
       "browseGuides": "Gidsen bekijken",
       "exploreDestinations": "Bestemmingen verkennen",
       "statDestinations": "60+ bestemmingen",

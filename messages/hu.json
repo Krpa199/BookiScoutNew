@@ -14,14 +14,17 @@
     "decisionGuides": "Döntési útmutatók",
     "chooseLanguage": "Nyelv választása",
     "language": "Nyelv",
-    "browseGuides": "Útmutatók böngészése"
+    "browseGuides": "Útmutatók böngészése",
+    "stayCheck": "Szállás ellenőrzés"
   },
   "home": {
     "hero": {
       "badge": "AI-optimalizált utazási döntések",
       "headline": "Tudd hol, mikor",
       "headlinePart2": "és miért foglalás előtt",
-      "subheadline": "Horvátországi döntési útmutatók igazi utazóknak. Megéri? Kell autó? Mikor a legjobb? Megválaszoljuk a fontos kérdéseket.",
+      "subheadline": "Horvátországi döntési útmutatók igazi utazóknak. Ellenőrizd mi van a szállásod körül — éttermek, strandok, bárok — valós vélemények alapján. Plusz válaszok minden utazási kérdésedre.",
+      "stayCheckTitle": "Ellenőrizd a szállásodat",
+      "stayCheckSubtitle": "Illeszd be a Booking.com linket · Nézd meg mi van tényleg a közelben",
       "browseGuides": "Útmutatók böngészése",
       "exploreDestinations": "Desztinációk felfedezése",
       "statDestinations": "60+ desztináció",

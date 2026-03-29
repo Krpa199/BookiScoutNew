@@ -14,14 +14,17 @@
     "decisionGuides": "Guías de decisión",
     "chooseLanguage": "Elegir idioma",
     "language": "Idioma",
-    "browseGuides": "Explorar guías"
+    "browseGuides": "Explorar guías",
+    "stayCheck": "Verificar alojamiento"
   },
   "home": {
     "hero": {
       "badge": "Decisiones de viaje optimizadas por IA",
       "headline": "Sabe dónde, cuándo",
       "headlinePart2": "y por qué antes de reservar",
-      "subheadline": "Guías de decisión para Croacia para viajeros reales. ¿Vale la pena? ¿Necesitas coche? ¿Mejor época para visitar? Respondemos las preguntas que importan.",
+      "subheadline": "Guías de decisión para Croacia para viajeros reales. Comprueba qué hay alrededor de tu alojamiento — restaurantes, playas, bares — basado en reseñas reales. Además, respuestas a todas tus preguntas de viaje.",
+      "stayCheckTitle": "Comprueba tu alojamiento",
+      "stayCheckSubtitle": "Pega un enlace de Booking.com · Descubre qué hay realmente alrededor",
       "browseGuides": "Explorar guías",
       "exploreDestinations": "Explorar destinos",
       "statDestinations": "60+ destinos",

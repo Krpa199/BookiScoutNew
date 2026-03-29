@@ -14,14 +14,17 @@
     "decisionGuides": "Vodniki za odločitve",
     "chooseLanguage": "Izberite jezik",
     "language": "Jezik",
-    "browseGuides": "Prebrskaj vodnike"
+    "browseGuides": "Prebrskaj vodnike",
+    "stayCheck": "Preveri nastanitev"
   },
   "home": {
     "hero": {
       "badge": "AI-optimizirane potovalne odločitve",
       "headline": "Vedite kje, kdaj",
       "headlinePart2": "in zakaj pred rezervacijo",
-      "subheadline": "Vodniki za odločitve o Hrvaški za prave popotnike. Se splača? Potrebujete avto? Najboljši čas za obisk? Odgovarjamo na vprašanja, ki so pomembna.",
+      "subheadline": "Vodniki za odločitve o Hrvaški za prave popotnike. Preverite kaj je okoli vaše nastanitve — restavracije, plaže, bari — na podlagi dejanskih ocen. Plus odgovori na vsa vaša potovalna vprašanja.",
+      "stayCheckTitle": "Preverite svojo nastanitev",
+      "stayCheckSubtitle": "Prilepite povezavo z Booking.com · Odkrijte kaj je res v bližini",
       "browseGuides": "Prebrskaj vodnike",
       "exploreDestinations": "Razišči destinacije",
       "statDestinations": "60+ destinacij",

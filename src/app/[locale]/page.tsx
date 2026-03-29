@@ -1,4 +1,4 @@
-import { Sparkles, MapPin, ArrowRight, Award, Users, Shield, CheckCircle, HelpCircle, Clock, Car } from 'lucide-react';
+import { Sparkles, MapPin, ArrowRight, Award, Users, Shield, CheckCircle, HelpCircle, Clock, Car, Search } from 'lucide-react';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import DestinationCard from '@/components/ui/DestinationCard';
@@ -164,6 +164,23 @@ export default async function HomePage({ params }: Props) {
             <p className="text-lg sm:text-xl md:text-2xl text-ocean-50 mb-8 md:mb-10 leading-relaxed max-w-3xl mx-auto px-4 animate-slide-up">
               {t('hero.subheadline')}
             </p>
+
+            {/* Stay Check CTA - Main Feature */}
+            <div className="max-w-xl mx-auto mb-8 px-4 animate-slide-up" style={{ animationDelay: '0.05s' }}>
+              <Link
+                href="/stay-check"
+                className="w-full flex items-center gap-3 px-5 py-4 bg-white/95 backdrop-blur-sm rounded-2xl shadow-large hover:shadow-xl transition-all group hover:scale-[1.02]"
+              >
+                <div className="w-10 h-10 bg-gradient-to-br from-coral-400 to-coral-600 rounded-xl flex items-center justify-center flex-shrink-0 shadow-coral group-hover:scale-110 transition-transform">
+                  <Search className="w-5 h-5 text-white" />
+                </div>
+                <div className="flex-1 text-left">
+                  <p className="text-slate-900 font-bold text-sm md:text-base">{t('hero.stayCheckTitle')}</p>
+                  <p className="text-slate-400 text-xs">{t('hero.stayCheckSubtitle')}</p>
+                </div>
+                <ArrowRight className="w-5 h-5 text-slate-400 group-hover:text-ocean-600 group-hover:translate-x-1 transition-all flex-shrink-0" />
+              </Link>
+            </div>
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3 md:gap-4 mb-10 md:mb-12 px-4 animate-slide-up" style={{ animationDelay: '0.1s' }}>

@@ -14,14 +14,17 @@
     "decisionGuides": "Průvodci pro rozhodování",
     "chooseLanguage": "Vyberte jazyk",
     "language": "Jazyk",
-    "browseGuides": "Prohlížet průvodce"
+    "browseGuides": "Prohlížet průvodce",
+    "stayCheck": "Kontrola ubytování"
   },
   "home": {
     "hero": {
       "badge": "AI-optimalizovaná cestovní rozhodnutí",
       "headline": "Vědět kde, kdy",
       "headlinePart2": "a proč před rezervací",
-      "subheadline": "Průvodce pro rozhodování o Chorvatsku pro skutečné cestovatele. Vyplatí se to? Potřebujete auto? Nejlepší doba pro návštěvu? Odpovídáme na otázky, které jsou důležité.",
+      "subheadline": "Průvodce pro rozhodování o Chorvatsku pro skutečné cestovatele. Zkontrolujte co je kolem vašeho ubytování — restaurace, pláže, bary — na základě skutečných recenzí. Plus odpovědi na všechny vaše cestovatelské otázky.",
+      "stayCheckTitle": "Zkontrolujte své ubytování",
+      "stayCheckSubtitle": "Vložte odkaz z Booking.com · Zjistěte co je opravdu v okolí",
       "browseGuides": "Prohlížet průvodce",
       "exploreDestinations": "Prozkoumat destinace",
       "statDestinations": "60+ destinací",

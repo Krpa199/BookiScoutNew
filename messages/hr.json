@@ -14,14 +14,17 @@
     "decisionGuides": "Vodiči za odluke",
     "chooseLanguage": "Odaberite jezik",
     "language": "Jezik",
-    "browseGuides": "Pregledaj vodiče"
+    "browseGuides": "Pregledaj vodiče",
+    "stayCheck": "Provjera smještaja"
   },
   "home": {
     "hero": {
       "badge": "AI-optimizirane odluke za putovanje",
       "headline": "Saznajte gdje, kada",
       "headlinePart2": "i zašto prije rezervacije",
-      "subheadline": "Vodiči za odluke o Hrvatskoj za prave putnike. Isplati li se? Trebate li auto? Najbolje vrijeme za posjet? Odgovaramo na pitanja koja su važna.",
+      "subheadline": "Vodiči za odluke o Hrvatskoj za prave putnike. Provjerite što se nalazi oko vašeg smještaja — restorani, plaže, barovi — na temelju stvarnih recenzija. Plus odgovori na sva vaša pitanja o putovanju.",
+      "stayCheckTitle": "Provjerite svoj smještaj",
+      "stayCheckSubtitle": "Zalijepite Booking.com link · Saznajte što je stvarno oko njega",
       "browseGuides": "Pregledaj vodiče",
       "exploreDestinations": "Istraži destinacije",
       "statDestinations": "60+ destinacija",

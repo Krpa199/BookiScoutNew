@@ -14,14 +14,17 @@
     "decisionGuides": "Rozhodovacie sprievodcovia",
     "chooseLanguage": "Vyberte jazyk",
     "language": "Jazyk",
-    "browseGuides": "Prehliadať sprievodcov"
+    "browseGuides": "Prehliadať sprievodcov",
+    "stayCheck": "Kontrola ubytovania"
   },
   "home": {
     "hero": {
       "badge": "AI-optimalizované cestovné rozhodnutia",
       "headline": "Vedieť kde, kedy",
       "headlinePart2": "a prečo pred rezerváciou",
-      "subheadline": "Rozhodovacie sprievodcovia pre Chorvátsko pre skutočných cestovateľov. Oplatí sa to? Potrebujete auto? Najlepší čas na návštevu? Odpovedáme na dôležité otázky.",
+      "subheadline": "Rozhodovacie sprievodcovia pre Chorvátsko pre skutočných cestovateľov. Skontrolujte čo je okolo vášho ubytovania — reštaurácie, pláže, bary — na základe skutočných recenzií. Plus odpovede na všetky vaše cestovateľské otázky.",
+      "stayCheckTitle": "Skontrolujte svoje ubytovanie",
+      "stayCheckSubtitle": "Vložte odkaz z Booking.com · Zistite čo je naozaj v okolí",
       "browseGuides": "Prehliadať sprievodcov",
       "exploreDestinations": "Preskúmať destinácie",
       "statDestinations": "60+ destinácií",

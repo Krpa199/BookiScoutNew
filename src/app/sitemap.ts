@@ -53,6 +53,27 @@ function getGuideSlugs(): string[] {
   return slugs;
 }
 
+// Get all stay-check area page slugs
+function getStayCheckSlugs(): string[] {
+  const slugs: string[] = [];
+  const dir = path.join(process.cwd(), 'src', 'content', 'stay-check', 'en');
+
+  try {
+    if (fs.existsSync(dir) && fs.statSync(dir).isDirectory()) {
+      const files = fs.readdirSync(dir);
+      for (const file of files) {
+        if (file.endsWith('.json')) {
+          slugs.push(file.replace('.json', ''));
+        }
+      }
+    }
+  } catch {
+    // Directory doesn't exist yet
+  }
+
+  return slugs;
+}
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
   const guideSlugs = getGuideSlugs();
@@ -99,6 +120,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
   });
 
   // ============================================
+  // STAY CHECK - All languages (main product)
+  // ============================================
+  entries.push({
+    url: `${BASE_URL}/stay-check`,
+    lastModified: now,
+    changeFrequency: 'weekly',
+    priority: 0.95,
+    alternates: {
+      languages: createAlternates('/stay-check'),
+    },
+  });
+
+  // ============================================
   // STATIC PAGES - English only (legal/info pages)
   // ============================================
   const staticPages = ['about', 'contact', 'privacy', 'terms'];
@@ -137,6 +171,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
       alternates: {
         languages: createAlternates(`/guides/${slug}`),
+      },
+    });
+  }
+
+  // ============================================
+  // STAY CHECK AREA PAGES - All languages
+  // ============================================
+  const stayCheckSlugs = getStayCheckSlugs();
+  for (const slug of stayCheckSlugs) {
+    entries.push({
+      url: `${BASE_URL}/stay-check/${slug}`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.85,
+      alternates: {
+        languages: createAlternates(`/stay-check/${slug}`),
       },
     });
   }

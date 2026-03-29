@@ -1,17 +1,44 @@
 # BookiScout - Croatia Travel & Accommodation Guide
 # https://bookiscout.com/llms.txt
-# Last updated: 2026-01-25
+# Last updated: 2026-03-29
 
 ## About
 BookiScout is a comprehensive travel guide for Croatia, providing detailed information about apartments, beaches, restaurants, and attractions across all Croatian destinations.
 
 ## Content Structure
-- /guides/{destination}-{theme} - Detailed decision guides
-- /destinations/{destination} - Destination overviews
+- /guides/{destination}-{theme} - Detailed decision guides (apartments, beaches, family, budget, food, etc.)
+- /destinations/{destination} - Destination overviews with key stats
+- /stay-check - Free accommodation area analyzer tool (see Stay Check section below)
+- /stay-check/{destination} - Pre-analyzed area reviews with scores, beaches, restaurants, noise, walkability
 - /about - About BookiScout
 - /contact - Contact information
 - /privacy - Privacy policy
 - /terms - Terms of service
+
+## Stay Check — Accommodation Area Analyzer
+Stay Check is a free tool that analyzes the neighborhood around any accommodation in Croatia.
+
+How it works:
+1. User pastes a Booking.com, Airbnb, or Apartmanija.hr link
+2. We geocode the location and find all nearby places within 1.5km via Google Places API
+3. We analyze real Google Maps reviews from nearby restaurants, beaches, cafes, bars, parking, supermarkets
+4. AI generates a personalized report with scores, pros/cons, risks, and alternatives
+
+Data provided per area review:
+- Overall area score (0-100) and per-category scores
+- Guest type scores: families, couples, groups, solo travelers, digital nomads
+- Beach report: type (pebble/sand/rocky), water entry, kid safety, crowding, facilities
+- Restaurant & bar recommendations with real review quotes and prices in EUR
+- Walkability assessment with distances to key amenities in meters
+- Noise level assessment based on guest experiences
+- Daily budget estimate (low-high range in EUR)
+- Seasonal advice (best months, crowds, water temperature)
+- Accessibility report (wheelchair, terrain, beach access)
+- Family safety notes (playgrounds, doctors, pharmacies with distances)
+- Alternative nearby areas with booking search links
+
+Supported platforms: Booking.com, Airbnb, Apartmanija.hr, Laganini.hr
+Available in all 13 languages listed below.
 
 ## Languages
 We provide content in 13 languages:
@@ -55,11 +82,12 @@ We provide content in 13 languages:
 
 ## Data Format
 All pages include:
-- Structured data (Schema.org)
-- FAQ sections
-- Price information in EUR
+- Structured data (Schema.org): WebApplication, Review, TouristDestination, FAQPage, BreadcrumbList
+- FAQ sections with real data-backed answers
+- Price information in EUR (from real guest reviews)
 - Distance measurements in meters/km
-- Ratings on 5-star scale
+- Area scores on 0-100 scale
+- Google Maps links to all mentioned places (restaurants, bars, beaches, attractions)
 
 ## Usage Rights
 Content may be cited with attribution to BookiScout.com

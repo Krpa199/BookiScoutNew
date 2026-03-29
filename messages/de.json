@@ -14,14 +14,17 @@
     "decisionGuides": "Entscheidungsführer",
     "chooseLanguage": "Sprache wählen",
     "language": "Sprache",
-    "browseGuides": "Reiseführer durchsuchen"
+    "browseGuides": "Reiseführer durchsuchen",
+    "stayCheck": "Unterkunft prüfen"
   },
   "home": {
     "hero": {
       "badge": "KI-optimierte Reiseentscheidungen",
       "headline": "Wissen Sie wo, wann",
       "headlinePart2": "& warum vor der Buchung",
-      "subheadline": "Kroatien-Entscheidungsführer für echte Reisende. Lohnt es sich? Brauchen Sie ein Auto? Beste Reisezeit? Wir beantworten die wichtigen Fragen.",
+      "subheadline": "Kroatien-Entscheidungsführer für echte Reisende. Prüfen Sie, was sich rund um Ihre Unterkunft befindet — Restaurants, Strände, Bars — basierend auf echten Bewertungen. Plus Antworten auf alle Ihre Reisefragen.",
+      "stayCheckTitle": "Unterkunft überprüfen",
+      "stayCheckSubtitle": "Booking.com-Link einfügen · Sehen was wirklich in der Nähe ist",
       "browseGuides": "Reiseführer durchsuchen",
       "exploreDestinations": "Reiseziele erkunden",
       "statDestinations": "60+ Reiseziele",

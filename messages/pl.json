@@ -14,14 +14,17 @@
     "decisionGuides": "Przewodniki decyzyjne",
     "chooseLanguage": "Wybierz język",
     "language": "Język",
-    "browseGuides": "Przeglądaj przewodniki"
+    "browseGuides": "Przeglądaj przewodniki",
+    "stayCheck": "Sprawdź nocleg"
   },
   "home": {
     "hero": {
       "badge": "Zoptymalizowane przez AI decyzje podróżnicze",
       "headline": "Wiedz gdzie, kiedy",
       "headlinePart2": "i dlaczego przed rezerwacją",
-      "subheadline": "Przewodniki decyzyjne po Chorwacji dla prawdziwych podróżników. Czy warto? Czy potrzebujesz samochodu? Najlepszy czas na wizytę? Odpowiadamy na ważne pytania.",
+      "subheadline": "Przewodniki decyzyjne po Chorwacji dla prawdziwych podróżników. Sprawdź co jest wokół Twojego noclegu — restauracje, plaże, bary — na podstawie prawdziwych recenzji. Plus odpowiedzi na wszystkie pytania o podróży.",
+      "stayCheckTitle": "Sprawdź swój nocleg",
+      "stayCheckSubtitle": "Wklej link z Booking.com · Zobacz co jest naprawdę w okolicy",
       "browseGuides": "Przeglądaj przewodniki",
       "exploreDestinations": "Odkryj destynacje",
       "statDestinations": "60+ destynacji",
