@@ -84,7 +84,8 @@ export async function POST(request: NextRequest) {
       'http://localhost:3000', 'http://localhost:3001', 'http://localhost:3002',
       'https://bookiscout.com', 'https://www.bookiscout.com',
     ];
-    if (origin && !allowedOrigins.some(o => origin.startsWith(o))) {
+    const isVercelPreview = origin.endsWith('.vercel.app') && origin.includes('booki-scout');
+    if (origin && !isVercelPreview && !allowedOrigins.some(o => origin.startsWith(o))) {
       return NextResponse.json({ error: 'Forbidden' }, { status: 403 });
     }
 
