@@ -33,7 +33,7 @@ export const DESTINATIONS: Destination[] = [
 
   // Kvarner
   { slug: 'opatija', name: 'Opatija', region: 'kvarner', type: 'town', popular: true, lat: 45.3378, lng: 14.3053 },
-  { slug: 'crikvenica', name: 'Crikvenica', region: 'kvarner', type: 'town', popular: false, lat: 45.1769, lng: 14.6922 },
+  { slug: 'crikvenica', name: 'Crikvenica', region: 'kvarner', type: 'town', popular: true, lat: 45.1769, lng: 14.6922 },
   { slug: 'novi-vinodolski', name: 'Novi Vinodolski', region: 'kvarner', type: 'town', popular: false, lat: 45.1272, lng: 14.7892 },
   { slug: 'lovran', name: 'Lovran', region: 'kvarner', type: 'town', popular: false, lat: 45.2919, lng: 14.2706 },
 
@@ -47,14 +47,14 @@ export const DESTINATIONS: Destination[] = [
   { slug: 'sibenik', name: 'Šibenik', region: 'dalmatia', type: 'city', popular: true, lat: 43.7350, lng: 15.8952 },
   { slug: 'trogir', name: 'Trogir', region: 'split-dalmatia', type: 'town', popular: true, lat: 43.5167, lng: 16.2500 },
   { slug: 'makarska', name: 'Makarska', region: 'split-dalmatia', type: 'town', popular: true, lat: 43.2969, lng: 17.0200 },
-  { slug: 'omis', name: 'Omiš', region: 'split-dalmatia', type: 'town', popular: false, lat: 43.4447, lng: 16.6881 },
+  { slug: 'omis', name: 'Omiš', region: 'split-dalmatia', type: 'town', popular: true, lat: 43.4447, lng: 16.6881 },
   { slug: 'baska-voda', name: 'Baška Voda', region: 'split-dalmatia', type: 'town', popular: false, lat: 43.3553, lng: 16.9489 },
   { slug: 'brela', name: 'Brela', region: 'split-dalmatia', type: 'town', popular: true, lat: 43.3697, lng: 16.9306 },
   { slug: 'tucepi', name: 'Tučepi', region: 'split-dalmatia', type: 'town', popular: false, lat: 43.2706, lng: 17.0539 },
   { slug: 'podgora', name: 'Podgora', region: 'split-dalmatia', type: 'town', popular: false, lat: 43.2453, lng: 17.0744 },
-  { slug: 'biograd', name: 'Biograd na Moru', region: 'dalmatia', type: 'town', popular: false, lat: 43.9381, lng: 15.4453 },
-  { slug: 'vodice', name: 'Vodice', region: 'dalmatia', type: 'town', popular: false, lat: 43.7608, lng: 15.7828 },
-  { slug: 'primosten', name: 'Primošten', region: 'dalmatia', type: 'town', popular: false, lat: 43.5847, lng: 15.9256 },
+  { slug: 'biograd', name: 'Biograd na Moru', region: 'dalmatia', type: 'town', popular: true, lat: 43.9381, lng: 15.4453 },
+  { slug: 'vodice', name: 'Vodice', region: 'dalmatia', type: 'town', popular: true, lat: 43.7608, lng: 15.7828 },
+  { slug: 'primosten', name: 'Primošten', region: 'dalmatia', type: 'town', popular: true, lat: 43.5847, lng: 15.9256 },
   { slug: 'nin', name: 'Nin', region: 'dalmatia', type: 'town', popular: false, lat: 44.2389, lng: 15.1789 },
 
   // Dalmatian Islands
@@ -62,7 +62,7 @@ export const DESTINATIONS: Destination[] = [
   { slug: 'brac', name: 'Brač', region: 'split-dalmatia', type: 'island', popular: true, lat: 43.3069, lng: 16.6550 },
   { slug: 'korcula', name: 'Korčula', region: 'dubrovnik', type: 'island', popular: true, lat: 42.9597, lng: 17.1358 },
   { slug: 'vis', name: 'Vis', region: 'split-dalmatia', type: 'island', popular: true, lat: 43.0614, lng: 16.1836 },
-  { slug: 'mljet', name: 'Mljet', region: 'dubrovnik', type: 'island', popular: false, lat: 42.7431, lng: 17.5431 },
+  { slug: 'mljet', name: 'Mljet', region: 'dubrovnik', type: 'island', popular: true, lat: 42.7431, lng: 17.5431 },
   { slug: 'bol', name: 'Bol', region: 'split-dalmatia', type: 'town', popular: true, lat: 43.2617, lng: 16.6550 },
   { slug: 'supetar', name: 'Supetar', region: 'split-dalmatia', type: 'town', popular: false, lat: 43.3847, lng: 16.5531 },
   { slug: 'stari-grad', name: 'Stari Grad', region: 'split-dalmatia', type: 'town', popular: false, lat: 43.1842, lng: 16.5950 },
@@ -90,7 +90,7 @@ export const DESTINATIONS: Destination[] = [
 ];
 
 // =============================================================================
-// THEMES - Organized by AI Decision Priority
+// THEMES - Organized by AI Decision Priority (v2 - April 2026)
 // =============================================================================
 
 // Phase 1: Traveler Types (AI Authority - highest priority)
@@ -105,28 +105,23 @@ export const TRAVELER_TYPES = [
   'couples',
 ] as const;
 
-// Phase 2: Practical Blockers (Decision killers)
-export const PRACTICAL_BLOCKERS = [
+// Phase 2: Practical Decisions (trimmed - removed low-search-volume themes)
+export const PRACTICAL_DECISIONS = [
   'car-vs-no-car',
-  'parking-difficulty',
   'walkability',
   'stroller-friendly',
   'wheelchair-access',
   'public-transport-quality',
   'ferry-connections',
   'airport-access',
-  'wifi-quality',
-  'mobile-coverage',
+  'visa-and-entry',
 ] as const;
 
-// Phase 3: Seasonality (When to go)
+// Phase 3: Seasonality (trimmed - merged redundant themes into best-time-to-visit)
 export const SEASONALITY = [
-  'off-season',
-  'shoulder-season',
-  'peak-season',
-  'weather-by-month',
-  'crowds-by-month',
   'best-time-to-visit',
+  'weather-by-month',
+  'off-season',
 ] as const;
 
 // Phase 4: Comparisons (for top destinations only)
@@ -136,46 +131,96 @@ export const COMPARISONS = [
   'vs-zadar',
   'vs-istria',
   'vs-zagreb',
-  'coast-vs-inland',
 ] as const;
 
-// Legacy themes (still valid, lower priority)
-export const LEGACY_THEMES = [
+// Phase 5: Activities & Experiences (NEW - high search volume)
+export const ACTIVITIES = [
+  'island-hopping',
+  'sailing',
+  'hiking',
+  'food-and-wine',
+  'game-of-thrones',
+  'snorkeling-and-diving',
+  'camping-and-glamping',
+] as const;
+
+// Phase 6: Planning & Logistics (NEW - decision-making content)
+export const PLANNING = [
+  'itinerary',
+  'where-to-stay',
+  'cost-guide',
+  'road-trip',
+] as const;
+
+// Phase 7: Destination Character (cleaned legacy - removed redundant themes)
+export const DESTINATION_CHARACTER = [
   'beach',
   'things-to-do',
   'day-trips',
   'safety',
   'nightlife',
   'restaurants',
+  'hidden-gems',
+  'local-food',
+  'history-and-culture',
+  'photo-spots',
+] as const;
+
+// Phase 8: Travel Style
+export const TRAVEL_STYLE = [
   'budget',
   'luxury',
   'pet-friendly',
-  'hidden-gems',
-  'local-food',
-  'family', // legacy - use families-with-toddlers or families-with-teens instead
-  'apartments', // legacy - may repurpose for accommodation articles
-  'pool',
-  'parking', // legacy - use parking-difficulty instead
-  'weather', // legacy - use weather-by-month instead
-  'prices',
-  'transport', // legacy - use public-transport-quality instead
+  'sustainable-travel',
 ] as const;
 
-// All themes combined
+// Legacy themes - NOT generated for new destinations, but kept for type compatibility
+// (these already exist for completed destinations and remain indexed by Google)
+export const LEGACY_THEMES = [
+  'parking-difficulty',
+  'wifi-quality',
+  'mobile-coverage',
+  'shoulder-season',
+  'peak-season',
+  'crowds-by-month',
+  'coast-vs-inland',
+  'family',
+  'apartments',
+  'pool',
+  'parking',
+  'weather',
+  'prices',
+  'transport',
+] as const;
+
+// Active themes for new generation (51 themes)
 export const THEMES = [
   ...TRAVELER_TYPES,
-  ...PRACTICAL_BLOCKERS,
+  ...PRACTICAL_DECISIONS,
   ...SEASONALITY,
   ...COMPARISONS,
+  ...ACTIVITIES,
+  ...PLANNING,
+  ...DESTINATION_CHARACTER,
+  ...TRAVEL_STYLE,
+] as const;
+
+// All themes including legacy (for type compatibility with existing articles)
+export const ALL_THEMES = [
+  ...THEMES,
   ...LEGACY_THEMES,
 ] as const;
 
 export type TravelerType = typeof TRAVELER_TYPES[number];
-export type PracticalBlocker = typeof PRACTICAL_BLOCKERS[number];
+export type PracticalDecision = typeof PRACTICAL_DECISIONS[number];
 export type Seasonality = typeof SEASONALITY[number];
 export type Comparison = typeof COMPARISONS[number];
+export type Activity = typeof ACTIVITIES[number];
+export type Planning = typeof PLANNING[number];
+export type DestinationCharacter = typeof DESTINATION_CHARACTER[number];
+export type TravelStyle = typeof TRAVEL_STYLE[number];
 export type LegacyTheme = typeof LEGACY_THEMES[number];
-export type Theme = typeof THEMES[number];
+export type Theme = typeof ALL_THEMES[number];
 
 // Top destinations for comparisons
 export const TOP_DESTINATIONS = ['split', 'dubrovnik', 'zadar', 'rovinj', 'porec', 'zagreb'] as const;
@@ -217,10 +262,10 @@ export function getPriorityTopics(): { destination: Destination; theme: Theme }[
     }
   }
 
-  // Phase 2: Practical blockers for top 20 destinations
+  // Phase 2: Practical decisions for top 20 destinations
   const top20 = DESTINATIONS.slice(0, 20);
   for (const destination of top20) {
-    for (const theme of PRACTICAL_BLOCKERS) {
+    for (const theme of PRACTICAL_DECISIONS) {
       topics.push({ destination, theme });
     }
   }
@@ -238,6 +283,34 @@ export function getPriorityTopics(): { destination: Destination; theme: Theme }[
     for (const theme of COMPARISONS) {
       // Skip self-comparisons
       if (theme === `vs-${destination.slug}`) continue;
+      topics.push({ destination, theme });
+    }
+  }
+
+  // Phase 5: Activities & Experiences for all popular destinations
+  for (const destination of popularDestinations) {
+    for (const theme of ACTIVITIES) {
+      topics.push({ destination, theme });
+    }
+  }
+
+  // Phase 6: Planning & Logistics for all popular destinations
+  for (const destination of popularDestinations) {
+    for (const theme of PLANNING) {
+      topics.push({ destination, theme });
+    }
+  }
+
+  // Phase 7: Destination character for all popular destinations
+  for (const destination of popularDestinations) {
+    for (const theme of DESTINATION_CHARACTER) {
+      topics.push({ destination, theme });
+    }
+  }
+
+  // Phase 8: Travel style for all popular destinations
+  for (const destination of popularDestinations) {
+    for (const theme of TRAVEL_STYLE) {
       topics.push({ destination, theme });
     }
   }
