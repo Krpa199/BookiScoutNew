@@ -170,7 +170,7 @@ function getProModel(apiKey: string): GenerativeModel {
 
 function getFlashModel(apiKey: string): GenerativeModel {
   const genAI = new GoogleGenerativeAI(apiKey);
-  return genAI.getGenerativeModel({ model: 'gemini-2.5-flash-lite-preview-09-2025' });
+  return genAI.getGenerativeModel({ model: 'gemini-2.5-flash-lite' });
 }
 
 // =============================================================================
