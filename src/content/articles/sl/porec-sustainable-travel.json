@@ -1,0 +1,50 @@
+{
+  "title": "Resnica o trajnostnem turizmu v Poreču, Hrvaška",
+  "metaDescription": "Razbijamo pogoste mite o ekoturizmu v Poreču. Naučite se, kako resnično vplivati na lokalne skupnosti, zmanjšati svoj ekološki odtis in odgovorno raziskovati Istro.",
+  "slug": "porec-sustainable-travel",
+  "content": "## Mit 1: Trajnostno potovanje v Poreču pomeni izogibanje vsem priljubljenim krajem.\n\n**Resnica:** To je pogosta napaka. Čeprav se izogibanje gneči morda zdi trajnostno, pravi vpliv izvira iz tega, *kako* sodelujete, celo s priljubljenimi znamenitostmi. Eufrazijeva bazilika, Unescova dediščina, lahko privabi množice, vendar njeno vzdrževanje pogosto temelji na prihodkih od turizma. Popolno izogibanje nič ne reši; odgovorno sodelovanje z njo pa.",
+  "faq": [
+    {
+      "question": "Ampak ni bivanje v velikem resortu vedno slabo za trajnost?",
+      "answer": "Nujno ne. Medtem ko manjše nastanitve pogosto nudijo neposrednejši lokalni vpliv, številni večji resorti v Poreču (kot so podjetja Valamar) aktivno izvajajo obsežne programe trajnosti. Vlagajo v zmanjševanje količine odpadkov, varčevanje z vodo (npr. zbiranje deževnice, učinkovito namakanje), obnovljivo energijo in pobude za lokalno nabavo. Vaša izbira prevoza *do* resorta in vaše *aktivnosti* med bivanjem pogosto bolj vplivajo kot sama velikost resorta."
+    },
+    {
+      "question": "Ali je plastika za enkratno uporabo velik problem v Poreču in kaj lahko storim?",
+      "answer": "Kot številne priljubljene obalne destinacije, plastika za enkratno uporabo ostaja izziv. Vendar pa Hrvaška postopoma napreduje k boljšemu ravnanju z odpadki in zmanjševanju porabe plastike. Kot potnik lahko naredite pomembno razliko: vedno nosite steklenico za večkratno uporabo (voda iz pipe v Poreču je varna za pitje), zavrnite plastične vrečke v trgovinah, izberite izdelke z minimalno embalažo in se izogibajte nakupu pijač v plastenkah, kadar je le mogoče. Podpiranje lokalnih kavarn, ki ponujajo skodelice za večkratno uporabo za kavo, prav tako pomaga."
+    }
+  ],
+  "quickAnswer": "Večina popotnikov se zmoti: trajnostno potovanje v Poreču ne pomeni izogibanje priljubljenim krajem ali iskanje samo 'ekoresortov'. Nasprotno od splošnega prepričanja, gre za sprejemanje zavestnih odločitev *znotraj* obstoječega potovalnega načrta – podpiranje lokalnih gospodarstev, izbiro bolj zelene prevoza in spoštljivo sodelovanje s kulturo in okoljem.",
+  "tableData": [
+    {
+      "name": "Mit: Trajnostno potovanje pomeni izogibanje vsem priljubljenim krajem.",
+      "price": "Resnica: Gre za odgovorno sodelovanje, ne za izogibanje.",
+      "rating": "Boljša alternativa: Bivajte v družinskih nastanitvah, hodite/kolesarite po starem mestu, kupujte neposredno od lokalnih obrtnikov.",
+      "distance": "Zakaj je pomembno: Neposredno podpira lokalna podjetja, zmanjšuje emisije zaradi prevoza, zagotavlja pristno izkušnjo."
+    },
+    {
+      "name": "Mit: Za trajnostno prehranje je treba najti poseben 'ekorestavracijo'.",
+      "price": "Resnica: Istrska kulinarična tradicija je po naravi trajnostna – lokalna, sezonska, z minimalno količino odpadkov.",
+      "rating": "Boljša alternativa: Obiščite tradicionalne 'konobe', nakupujte na poreški Zelenoj tržnici, povprašajte o izvoru morskih sadežev.",
+      "distance": "Zakaj je pomembno: Podpira lokalne kmete/ribiče, zmanjšuje potovalne razdalje živil, ohranja kulinarično dediščino."
+    },
+    {
+      "name": "Mit: Vsi večji turistični izleti iz Poreča so enako veljavni.",
+      "price": "Resnica: Nekateri izleti imajo nesorazmerno visoke okoljske stroške za minljive izkušnje.",
+      "rating": "Boljša alternativa: Raziščite istrsko notranjost s kolesom na električni pogon ali lokalnim avtobusom, obiščite bližnje naravne parke ali manjša mesta, kot sta Motovun ali Grožnjan.",
+      "distance": "Zakaj je pomembno: Znatno zmanjša ogljični odtis, nudi globlje lokalno doživetje, podpira skupnosti v notranjosti."
+    }
+  ],
+  "imageUrl": "https://images.unsplash.com/photo-1763569799665-485826a970f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njg0MTh8MHwxfHNlYXJjaHw0fHx2YWNhdGlvbiUyMHRyYXZlbCUyMHN1aXRjYXNlfGVufDB8MHx8fDE3NzYwNzUzOTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  "imageAlt": "Travel and vacation concept",
+  "imageCredit": "Alexander Schimmeck",
+  "imageCreditUrl": "https://unsplash.com/@alschim",
+  "imageSource": "unsplash",
+  "destination": "porec",
+  "destinationName": "Poreč",
+  "region": "istria",
+  "theme": "sustainable-travel",
+  "language": "sl",
+  "generatedAt": "2026-04-14T11:18:07.910Z",
+  "lat": 45.2269,
+  "lng": 13.5958
+}
