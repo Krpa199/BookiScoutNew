@@ -77,6 +77,9 @@ export default async function AboutPage({ params }: Props) {
                 <p className="text-base sm:text-lg text-slate-600 leading-relaxed mt-3 sm:mt-4">
                   Unlike traditional travel blogs filled with vague descriptions, we provide direct, factual answers that help you decide where to go, when to visit, and what to expect.
                 </p>
+                <p className="text-base sm:text-lg text-slate-600 leading-relaxed mt-3 sm:mt-4">
+                  Our Stay Check tool goes a step further — it analyzes thousands of real guest reviews from Booking.com, Google, and TripAdvisor to show you what the neighborhood is actually like before you book.
+                </p>
               </div>
               <div className="bg-gradient-to-br from-slate-50 to-white rounded-2xl md:rounded-3xl p-5 sm:p-6 md:p-8 border border-slate-100">
                 <div className="space-y-4">
@@ -90,8 +93,8 @@ export default async function AboutPage({ params }: Props) {
                   <div className="flex items-start gap-3">
                     <CheckCircle className="w-6 h-6 text-seafoam-500 flex-shrink-0 mt-0.5" />
                     <div>
-                      <h4 className="font-semibold text-slate-900">AI-Verified Facts</h4>
-                      <p className="text-slate-600 text-sm">Every claim is fact-checked and citable</p>
+                      <h4 className="font-semibold text-slate-900">Review-Based Insights</h4>
+                      <p className="text-slate-600 text-sm">Our Stay Check tool analyzes real guest reviews from Booking, Google, and TripAdvisor</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">

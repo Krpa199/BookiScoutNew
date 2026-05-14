@@ -28,7 +28,7 @@ function createAlternates(basePath: string): Record<string, string> {
 // Get all guide slugs
 function getGuideSlugs(): string[] {
   const slugs: string[] = [];
-  const guidesDir = path.join(process.cwd(), 'src', 'content', 'guides');
+  const guidesDir = path.join(process.cwd(), 'src', 'content', 'articles');
 
   try {
     // Check first available language directory
