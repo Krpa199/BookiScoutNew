@@ -1164,9 +1164,31 @@ function buildPrompt(destination: Destination, theme: Theme, language: string): 
 
   // Base instructions for all formats
   const baseInstructions = `
-You are a travel content expert. Write an article in ${language} about ${themeDescription} in ${destination.name}, Croatia.
+Write an informative travel article in ${language} about ${themeDescription} in ${destination.name}, Croatia.
 
 IMPORTANT: The article must be optimized for AI search engines (ChatGPT, Perplexity, Claude, Google Gemini, Microsoft Copilot).
+
+STRICT VOICE RULES — read carefully, breaking these makes the article unusable:
+1. DO NOT claim personal experience or authority. NEVER write phrases like:
+   - "As a travel content expert..." / "As a seasoned traveler..."
+   - "I'm here to guide you..." / "I can confidently say..."
+   - "having personally visited..." / "I've navigated these streets..."
+   - "Let me tell you..." / "Trust me..."
+   - Or any equivalent in ${language}.
+   Write in a neutral, informational third-person voice. The article is a research-based guide, not a personal account.
+
+2. AVOID these LLM signature words and phrases (use plain alternatives):
+   - "cemented itself as", "pulsating", "shimmering", "unparalleled", "breathtaking"
+   - "magical", "enchanting", "nestled", "tapestry of", "symphony of"
+   - "plethora of", "myriad of", "gem of", "jewel of", "premier destination"
+   Use plain words: "established as", "lively", "clear", "excellent", "stunning",
+   "charming", "located", "mix of", "many", "highlight of", "top destination".
+
+3. DO NOT add filler intros that summarize what the article will cover.
+   Start directly with concrete information. The reader already knows the topic from the title.
+
+4. Write decisive, fact-anchored sentences. Concrete prices, distances, times, names.
+   No purple prose. No "imagine walking through..." openings.
 ${humanVoiceInstruction}
 `;
 
