@@ -868,7 +868,7 @@ export default async function GuidePage({ params }: Props) {
                         className="group flex gap-3 sm:gap-4 p-3 sm:p-4 bg-slate-50 hover:bg-gradient-ocean-subtle rounded-xl sm:rounded-2xl border-2 border-slate-100 hover:border-ocean-200 transition-all hover:shadow-soft hover:-translate-y-0.5"
                       >
                         {related.imageUrl ? (
-                          <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-lg sm:rounded-xl flex-shrink-0 overflow-hidden">
+                          <div className="relative w-16 h-16 sm:w-20 sm:h-20 rounded-lg sm:rounded-xl flex-shrink-0 overflow-hidden">
                             <Image
                               src={related.imageUrl}
                               alt={related.title}
