@@ -79,37 +79,180 @@ function getArticle(lang: string, slug: string): GeneratedArticle | null {
   return null;
 }
 
-// Get related articles (same destination or same theme)
-function getRelatedArticles(lang: string, currentSlug: string, destination: string, theme: string, limit: number = 3): GeneratedArticle[] {
-  const articlesDir = path.join(process.cwd(), 'src', 'content', 'articles', lang);
-  const related: GeneratedArticle[] = [];
+// Themes that naturally connect — pick clusters that answer "the next question users have".
+// When user reads X, they often want to know Y next. Keyed by the current article's theme.
+const THEME_AFFINITY: Record<string, string[]> = {
+  // Transport-related
+  'parking': ['parking-difficulty', 'car-vs-no-car', 'walkability', 'public-transport-quality'],
+  'parking-difficulty': ['parking', 'car-vs-no-car', 'walkability', 'transport'],
+  'car-vs-no-car': ['parking', 'public-transport-quality', 'walkability', 'transport'],
+  'transport': ['car-vs-no-car', 'public-transport-quality', 'airport-access', 'ferry-connections'],
+  'public-transport-quality': ['car-vs-no-car', 'walkability', 'transport', 'parking'],
+  'walkability': ['car-vs-no-car', 'public-transport-quality', 'things-to-do'],
+  'airport-access': ['transport', 'car-vs-no-car', 'first-time-visitors'],
+  'ferry-connections': ['island-hopping', 'day-trips', 'transport'],
 
+  // Accommodation / where to stay
+  'apartments': ['where-to-stay', 'family', 'couples', 'budget'],
+  'where-to-stay': ['apartments', 'family', 'budget', 'luxury'],
+
+  // Traveler types — connect to relevant practical topics
+  'family': ['families-with-toddlers', 'families-with-teens', 'beach', 'stroller-friendly'],
+  'families-with-toddlers': ['family', 'stroller-friendly', 'beach', 'safety'],
+  'families-with-teens': ['family', 'things-to-do', 'nightlife', 'day-trips'],
+  'couples': ['nightlife', 'restaurants', 'food-and-wine', 'luxury'],
+  'solo-travel': ['safety', 'walkability', 'nightlife', 'budget'],
+  'seniors': ['walkability', 'wheelchair-access', 'public-transport-quality', 'safety'],
+  'digital-nomads': ['wifi-quality', 'mobile-coverage', 'walkability', 'cost-guide'],
+  'lgbt-friendly': ['nightlife', 'safety', 'things-to-do'],
+  'first-time-visitors': ['things-to-do', 'best-time-to-visit', 'safety', 'transport'],
+
+  // Activities & sights
+  'beach': ['things-to-do', 'family', 'snorkeling-and-diving', 'best-time-to-visit'],
+  'things-to-do': ['hidden-gems', 'photo-spots', 'day-trips', 'history-and-culture'],
+  'day-trips': ['things-to-do', 'island-hopping', 'hidden-gems'],
+  'hidden-gems': ['things-to-do', 'photo-spots', 'local-food'],
+  'photo-spots': ['hidden-gems', 'things-to-do', 'history-and-culture'],
+  'nightlife': ['restaurants', 'couples', 'food-and-wine'],
+  'restaurants': ['local-food', 'food-and-wine', 'nightlife'],
+  'local-food': ['restaurants', 'food-and-wine', 'history-and-culture'],
+  'food-and-wine': ['restaurants', 'local-food', 'couples'],
+  'island-hopping': ['ferry-connections', 'day-trips', 'sailing'],
+  'sailing': ['island-hopping', 'ferry-connections'],
+  'hiking': ['things-to-do', 'hidden-gems', 'photo-spots'],
+  'snorkeling-and-diving': ['beach', 'things-to-do', 'day-trips'],
+  'history-and-culture': ['things-to-do', 'photo-spots', 'first-time-visitors'],
+
+  // Timing / weather
+  'best-time-to-visit': ['weather-by-month', 'crowds-by-month', 'peak-season', 'shoulder-season'],
+  'weather': ['weather-by-month', 'best-time-to-visit', 'peak-season'],
+  'weather-by-month': ['best-time-to-visit', 'crowds-by-month', 'peak-season'],
+  'crowds-by-month': ['peak-season', 'shoulder-season', 'off-season', 'best-time-to-visit'],
+  'peak-season': ['crowds-by-month', 'best-time-to-visit', 'shoulder-season'],
+  'shoulder-season': ['off-season', 'peak-season', 'best-time-to-visit'],
+  'off-season': ['shoulder-season', 'weather-by-month', 'best-time-to-visit'],
+
+  // Budget / cost
+  'budget': ['cost-guide', 'prices', 'where-to-stay'],
+  'cost-guide': ['budget', 'prices', 'where-to-stay'],
+  'prices': ['budget', 'cost-guide', 'where-to-stay'],
+  'luxury': ['where-to-stay', 'couples', 'restaurants'],
+
+  // Comparisons
+  'vs-dubrovnik': ['vs-split', 'vs-zadar', 'best-time-to-visit'],
+  'vs-split': ['vs-dubrovnik', 'vs-zadar', 'best-time-to-visit'],
+  'vs-zadar': ['vs-dubrovnik', 'vs-split', 'best-time-to-visit'],
+  'vs-zagreb': ['vs-split', 'vs-dubrovnik'],
+  'vs-istria': ['coast-vs-inland', 'vs-split'],
+  'coast-vs-inland': ['vs-istria', 'best-time-to-visit'],
+
+  // Practical
+  'safety': ['solo-travel', 'first-time-visitors'],
+  'visa-and-entry': ['first-time-visitors', 'safety'],
+  'wifi-quality': ['mobile-coverage', 'digital-nomads'],
+  'mobile-coverage': ['wifi-quality', 'digital-nomads'],
+  'stroller-friendly': ['families-with-toddlers', 'walkability', 'family'],
+  'wheelchair-access': ['walkability', 'seniors', 'public-transport-quality'],
+  'pet-friendly': ['walkability', 'beach'],
+  'pool': ['apartments', 'family', 'luxury'],
+  'camping-and-glamping': ['budget', 'things-to-do'],
+  'road-trip': ['car-vs-no-car', 'day-trips', 'things-to-do'],
+  'sustainable-travel': ['hidden-gems', 'off-season'],
+  'itinerary': ['things-to-do', 'first-time-visitors', 'day-trips'],
+};
+
+// Load all articles for a language into memory once
+function loadAllArticles(lang: string): GeneratedArticle[] {
+  const articlesDir = path.join(process.cwd(), 'src', 'content', 'articles', lang);
+  if (!fs.existsSync(articlesDir)) return [];
+  const articles: GeneratedArticle[] = [];
   try {
-    if (fs.existsSync(articlesDir)) {
-      const files = fs.readdirSync(articlesDir);
-      for (const file of files) {
-        if (file.endsWith('.json') && file !== `${currentSlug}.json`) {
-          const content = fs.readFileSync(path.join(articlesDir, file), 'utf-8');
-          const article = JSON.parse(content) as GeneratedArticle;
-          // Prioritize same destination, then same theme
-          if (article.destination === destination || article.theme === theme) {
-            related.push(article);
-          }
-        }
+    const files = fs.readdirSync(articlesDir);
+    for (const file of files) {
+      if (file.endsWith('.json')) {
+        const content = fs.readFileSync(path.join(articlesDir, file), 'utf-8');
+        articles.push(JSON.parse(content) as GeneratedArticle);
       }
     }
-  } catch (error) {
+  } catch {
     // Ignore errors
   }
+  return articles;
+}
 
-  // Sort: same destination first, then by date
-  return related
+// Score articles for relevance to the current page.
+// Higher score = better match. Used for both inline and bottom-of-page widgets.
+function scoreArticle(
+  candidate: GeneratedArticle,
+  currentDestination: string,
+  currentTheme: string
+): number {
+  let score = 0;
+  const isSameDestination = candidate.destination === currentDestination;
+  const isAffinityTheme = THEME_AFFINITY[currentTheme]?.includes(candidate.theme) ?? false;
+  const isSameTheme = candidate.theme === currentTheme;
+
+  // Strongest signal: same destination AND a theme the user is likely to want next.
+  if (isSameDestination && isAffinityTheme) score += 100;
+  // Same destination, related but not affinity-mapped
+  else if (isSameDestination) score += 50;
+  // Different destination but same affinity theme — useful for cross-destination comparisons
+  else if (isAffinityTheme) score += 30;
+  // Same theme on a different destination — last-resort fallback
+  else if (isSameTheme) score += 10;
+
+  return score;
+}
+
+// Get related articles (smart: contextual theme affinity + same destination priority)
+function getRelatedArticles(
+  lang: string,
+  currentSlug: string,
+  destination: string,
+  theme: string,
+  limit: number = 3
+): GeneratedArticle[] {
+  const all = loadAllArticles(lang);
+  const scored = all
+    .filter(a => a.slug !== currentSlug)
+    .map(a => ({ article: a, score: scoreArticle(a, destination, theme) }))
+    .filter(({ score }) => score > 0)
     .sort((a, b) => {
-      if (a.destination === destination && b.destination !== destination) return -1;
-      if (b.destination === destination && a.destination !== destination) return 1;
-      return new Date(b.generatedAt).getTime() - new Date(a.generatedAt).getTime();
-    })
-    .slice(0, limit);
+      if (b.score !== a.score) return b.score - a.score;
+      // Same score → prefer newer
+      return new Date(b.article.generatedAt).getTime() - new Date(a.article.generatedAt).getTime();
+    });
+
+  return scored.slice(0, limit).map(s => s.article);
+}
+
+// Get inline "you might also want to know" suggestions: PRIORITIZE same-destination
+// articles whose theme answers a question naturally adjacent to the current one.
+// We exclude any slugs already in the bottom related list to avoid duplication.
+function getInlineNextReads(
+  lang: string,
+  currentSlug: string,
+  destination: string,
+  theme: string,
+  excludeSlugs: Set<string>,
+  limit: number = 2
+): GeneratedArticle[] {
+  const affinityThemes = THEME_AFFINITY[theme] || [];
+  if (affinityThemes.length === 0) return [];
+
+  const all = loadAllArticles(lang);
+  // Strong filter: same destination AND theme is in affinity list
+  const candidates = all
+    .filter(a => a.slug !== currentSlug && !excludeSlugs.has(a.slug))
+    .filter(a => a.destination === destination && affinityThemes.includes(a.theme))
+    // Order by the affinity ranking (earlier in the affinity list = more relevant)
+    .sort((a, b) => {
+      const aRank = affinityThemes.indexOf(a.theme);
+      const bRank = affinityThemes.indexOf(b.theme);
+      return aRank - bRank;
+    });
+
+  return candidates.slice(0, limit);
 }
 
 // Generate static params for all articles
@@ -330,8 +473,19 @@ export default async function GuidePage({ params }: Props) {
 
   // Should show booking widget?
 
-  // Get related articles
+  // Get related articles (smart contextual scoring)
   const relatedArticles = getRelatedArticles(locale, slug, article.destination, article.theme, 3);
+
+  // Get inline "next reads" — same-destination + theme-affinity matches.
+  // Excludes anything already shown in the bottom Related Guides widget.
+  const inlineNextReads = getInlineNextReads(
+    locale,
+    slug,
+    article.destination,
+    article.theme,
+    new Set(relatedArticles.map(a => a.slug)),
+    2
+  );
 
   // Format theme for display
   const formatTheme = (theme: string) => {
@@ -482,6 +636,32 @@ export default async function GuidePage({ params }: Props) {
                 </div>
               </section>
             </ScrollReveal>
+
+            {/* Inline "Next reads" — appears right after Quick Answer to catch users early
+                and reduce bounce. Different visual style from bottom Related Guides so it
+                doesn't feel redundant. */}
+            {inlineNextReads.length > 0 && (
+              <ScrollReveal delay={120}>
+                <aside className="bg-slate-50/70 border-l-4 border-ocean-400 rounded-r-xl px-4 py-3 sm:px-5 sm:py-4" aria-labelledby="inline-next-heading">
+                  <p id="inline-next-heading" className="text-xs sm:text-sm font-semibold text-slate-500 uppercase tracking-wide mb-2">
+                    {t('alsoWantToKnow')}
+                  </p>
+                  <ul className="space-y-1.5 sm:space-y-2">
+                    {inlineNextReads.map((next) => (
+                      <li key={next.slug}>
+                        <Link
+                          href={`/guides/${next.slug}`}
+                          className="group inline-flex items-center gap-2 text-sm sm:text-base text-slate-700 hover:text-ocean-600 transition-colors"
+                        >
+                          <ArrowRight className="w-4 h-4 text-ocean-400 group-hover:translate-x-0.5 transition-transform flex-shrink-0" aria-hidden="true" />
+                          <span className="font-medium underline-offset-2 group-hover:underline">{next.title}</span>
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </aside>
+              </ScrollReveal>
+            )}
 
             {/* Main Article Content */}
             <ScrollReveal delay={150}>
