@@ -12,7 +12,29 @@ import {
   getCachedReport, setCachedReport,
   checkRateLimit, incrementRateLimit, getRateLimitMessage,
 } from '@/lib/supabase-cache';
-import { stripCitations } from '@/lib/gemini-analyzer';
+
+// Gemini Search Grounding leaks "[cite: 3, 4 (from previous search)]" markers
+// into JSON string values. Strip them recursively before returning to client.
+function stripCitations<T>(value: T): T {
+  if (typeof value === 'string') {
+    return value
+      .replace(/\[cite:[^\]]*\]/gi, '')
+      .replace(/\((?:from\s+)?(?:previous\s+)?search[^)]*\)/gi, '')
+      .replace(/\s{2,}/g, ' ')
+      .trim() as unknown as T;
+  }
+  if (Array.isArray(value)) {
+    return value.map(stripCitations) as unknown as T;
+  }
+  if (value && typeof value === 'object') {
+    const out: Record<string, unknown> = {};
+    for (const [k, v] of Object.entries(value as Record<string, unknown>)) {
+      out[k] = stripCitations(v);
+    }
+    return out as unknown as T;
+  }
+  return value;
+}
 
 export const maxDuration = 60;
 
