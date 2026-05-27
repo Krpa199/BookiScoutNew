@@ -7,9 +7,9 @@ on:
   workflow_dispatch: # Allow manual trigger
     inputs:
       articles_count:
-        description: 'Number of articles to generate (max 50 to stay in free tier)'
+        description: 'Number of articles to generate per run (default 20 — steady daily cadence)'
         required: false
-        default: '50'
+        default: '20'
         type: string
       force_run:
         description: 'Force run even if already ran today (WARNING: may exceed free tier!)'
@@ -33,8 +33,9 @@ env:
   PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
   UNSPLASH_API_KEY: ${{ secrets.UNSPLASH_API_KEY }}
   PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
-  # Default to 50 articles per run (stays within free tier: ~17 per key × 3 keys, under 25 limit)
-  ARTICLES_PER_RUN: ${{ github.event.inputs.articles_count || '50' }}
+  # 20 articles per run = steady daily cadence (~7 per key × 3 keys, well under free tier limit).
+  # Lower burst = better Googlebot crawl rhythm than 50-then-pause pattern.
+  ARTICLES_PER_RUN: ${{ github.event.inputs.articles_count || '20' }}
 
 jobs:
   # First job: Check if we should run

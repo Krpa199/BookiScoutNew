@@ -12,6 +12,7 @@ import {
   getCachedReport, setCachedReport,
   checkRateLimit, incrementRateLimit, getRateLimitMessage,
 } from '@/lib/supabase-cache';
+import { stripCitations } from '@/lib/gemini-analyzer';
 
 export const maxDuration = 60;
 
@@ -123,8 +124,9 @@ export async function POST(request: NextRequest) {
       console.log(`[StayCheck V2] Cache hit (${cached.locale}): ${cacheKey}`);
 
       if (cached.locale === locale) {
-        // Same language — return directly
-        return NextResponse.json(cached.data);
+        // Same language — return directly. Strip citation markers from any
+        // older cached entries that were saved before sanitization existed.
+        return NextResponse.json(stripCitations(cached.data));
       }
 
       // Different language — translate analysis part only
@@ -134,7 +136,7 @@ export async function POST(request: NextRequest) {
         cached.locale,
         locale
       );
-      return NextResponse.json({ ...cached.data, analysis: translated });
+      return NextResponse.json(stripCitations({ ...cached.data, analysis: translated }));
     }
 
     // ── Gemini Search Grounding ──────────────────────────────────────
@@ -245,13 +247,16 @@ Respond in this EXACT JSON format (no markdown, no code blocks):
     console.log(`[StayCheck V2] Gemini responded in ${elapsed}s`);
 
     const text = result.response.text();
-    const analysis = parseJSON(text);
+    const parsed = parseJSON(text);
 
-    if (!analysis) {
+    if (!parsed) {
       console.error('[StayCheck V2] Failed to parse:', text.substring(0, 500));
       throw new Error('Failed to parse AI response');
     }
 
+    // Gemini Search Grounding leaks "[cite: 3, 4 (from previous search)]" markers
+    // into the JSON string values. Strip them recursively before saving/returning.
+    const analysis = stripCitations(parsed);
     const a = analysis as Record<string, unknown>;
     const overallScore = parseInt(String(a.overallScore)) || 50;
 

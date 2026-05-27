@@ -44,7 +44,19 @@
       "Bash(npm run generate:*)",
       "Bash(dir:*)",
       "Bash(git mv:*)",
-      "Bash(gh run view:*)"
+      "Bash(gh run view:*)",
+      "Bash(git stash *)",
+      "WebFetch(domain:www.apartmanija.hr)",
+      "WebSearch",
+      "WebFetch(domain:support.travelpayouts.com)",
+      "WebFetch(domain:travelpayouts.github.io)",
+      "WebFetch(domain:www.travelpayouts.com)",
+      "Bash(ls c:/Users/mario/Desktop/ 2>&1 | grep -i book)",
+      "Read(//c/Users/mario/Desktop/**)",
+      "Bash(ls \"C:/Users/mario/.claude/projects/\" 2>&1 | grep -i book)",
+      "Read(//c/Users/mario/.claude/projects/**)",
+      "Bash(npx supabase *)",
+      "Bash(gh workflow *)"
     ]
   }
 }

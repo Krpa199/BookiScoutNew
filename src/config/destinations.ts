@@ -105,8 +105,13 @@ export const TRAVELER_TYPES = [
   'couples',
 ] as const;
 
-// Phase 2: Practical Decisions (trimmed - removed low-search-volume themes)
+// Phase 2: Practical Decisions
+// parking-difficulty / parking / transport restored from legacy — top traffic drivers
+// (1095 / 438 / 53 visitors in 30-day window, 2026-05)
 export const PRACTICAL_DECISIONS = [
+  'parking-difficulty',
+  'parking',
+  'transport',
   'car-vs-no-car',
   'walkability',
   'stroller-friendly',
@@ -115,12 +120,16 @@ export const PRACTICAL_DECISIONS = [
   'ferry-connections',
   'airport-access',
   'visa-and-entry',
+  'mobile-coverage',
 ] as const;
 
-// Phase 3: Seasonality (trimmed - merged redundant themes into best-time-to-visit)
+// Phase 3: Seasonality
+// crowds-by-month / peak-season restored from legacy — proven traffic
 export const SEASONALITY = [
   'best-time-to-visit',
   'weather-by-month',
+  'crowds-by-month',
+  'peak-season',
   'off-season',
 ] as const;
 
@@ -153,6 +162,7 @@ export const PLANNING = [
 ] as const;
 
 // Phase 7: Destination Character (cleaned legacy - removed redundant themes)
+// prices / family restored from legacy — proven traffic (245 / 58 visitors)
 export const DESTINATION_CHARACTER = [
   'beach',
   'things-to-do',
@@ -164,6 +174,8 @@ export const DESTINATION_CHARACTER = [
   'local-food',
   'history-and-culture',
   'photo-spots',
+  'prices',
+  'family',
 ] as const;
 
 // Phase 8: Travel Style
@@ -176,21 +188,15 @@ export const TRAVEL_STYLE = [
 
 // Legacy themes - NOT generated for new destinations, but kept for type compatibility
 // (these already exist for completed destinations and remain indexed by Google)
+// 2026-05: moved high-traffic themes back into active categories — see PRACTICAL_DECISIONS,
+// SEASONALITY, DESTINATION_CHARACTER above.
 export const LEGACY_THEMES = [
-  'parking-difficulty',
   'wifi-quality',
-  'mobile-coverage',
   'shoulder-season',
-  'peak-season',
-  'crowds-by-month',
   'coast-vs-inland',
-  'family',
   'apartments',
   'pool',
-  'parking',
   'weather',
-  'prices',
-  'transport',
 ] as const;
 
 // Active themes for new generation (51 themes)
