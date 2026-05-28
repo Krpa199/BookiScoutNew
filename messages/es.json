@@ -346,6 +346,8 @@
     "back": "Atrás",
     "loading": "Cargando...",
     "error": "Error",
-    "notFound": "No encontrado"
+    "notFound": "No encontrado",
+    "previous": "Anterior",
+    "next": "Siguiente"
   }
 }

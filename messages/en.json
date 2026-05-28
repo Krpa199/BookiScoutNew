@@ -400,6 +400,8 @@
     "back": "Back",
     "loading": "Loading...",
     "error": "Error",
-    "notFound": "Not Found"
+    "notFound": "Not Found",
+    "previous": "Previous",
+    "next": "Next"
   }
 }

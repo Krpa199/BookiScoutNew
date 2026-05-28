@@ -53,6 +53,22 @@ function getGuideSlugs(): string[] {
   return slugs;
 }
 
+// Articles per page must match _lib/get-articles.ts:ARTICLES_PER_PAGE.
+const GUIDES_PER_PAGE = 60;
+
+// Count article files in a locale's content dir.
+function getArticleCount(locale: string): number {
+  const dir = path.join(process.cwd(), 'src', 'content', 'articles', locale);
+  try {
+    if (fs.existsSync(dir) && fs.statSync(dir).isDirectory()) {
+      return fs.readdirSync(dir).filter(f => f.endsWith('.json')).length;
+    }
+  } catch {
+    /* missing */
+  }
+  return 0;
+}
+
 // Get all stay-check area page slugs
 function getStayCheckSlugs(): string[] {
   const slugs: string[] = [];
@@ -118,6 +134,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
       languages: createAlternates('/guides'),
     },
   });
+
+  // ============================================
+  // PAGINATED GUIDES LISTING - per-locale (counts differ per locale)
+  // ============================================
+  for (const locale of locales) {
+    const count = getArticleCount(locale);
+    const totalPages = Math.max(1, Math.ceil(count / GUIDES_PER_PAGE));
+    for (let n = 2; n <= totalPages; n++) {
+      const localePrefix = locale === defaultLocale ? '' : `/${locale}`;
+      entries.push({
+        url: `${BASE_URL}${localePrefix}/guides/page/${n}`,
+        lastModified: now,
+        changeFrequency: 'weekly',
+        priority: 0.6,
+      });
+    }
+  }
 
   // ============================================
   // STAY CHECK - All languages (main product)

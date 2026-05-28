@@ -346,6 +346,8 @@
     "back": "Zpět",
     "loading": "Načítání...",
     "error": "Chyba",
-    "notFound": "Nenalezeno"
+    "notFound": "Nenalezeno",
+    "previous": "Předchozí",
+    "next": "Další"
   }
 }
