@@ -1794,12 +1794,32 @@
     "biograd-history-and-culture",
     "biograd-photo-spots",
     "biograd-budget",
-    "biograd-luxury"
+    "biograd-luxury",
+    "crikvenica-parking-difficulty",
+    "crikvenica-parking",
+    "crikvenica-transport",
+    "crikvenica-mobile-coverage",
+    "crikvenica-crowds-by-month",
+    "crikvenica-peak-season",
+    "crikvenica-prices",
+    "crikvenica-family",
+    "omis-parking-difficulty",
+    "omis-parking",
+    "omis-transport",
+    "omis-mobile-coverage",
+    "omis-crowds-by-month",
+    "omis-peak-season",
+    "omis-prices",
+    "omis-family",
+    "biograd-parking-difficulty",
+    "biograd-parking",
+    "biograd-transport",
+    "biograd-mobile-coverage"
   ],
-  "lastRun": "2026-04-19T12:10:44.499Z",
-  "totalArticles": 84779,
+  "lastRun": "2026-05-28T13:20:16.508Z",
+  "totalArticles": 85039,
   "lastSessionStats": {
-    "articlesGenerated": 50,
-    "translationsGenerated": 600
+    "articlesGenerated": 20,
+    "translationsGenerated": 240
   }
 }
