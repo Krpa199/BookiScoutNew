@@ -58,9 +58,19 @@ export default function StayCheckClient({ locale = 'en' }: { locale?: string }) 
     setResults(null);
 
     try {
-      const response = await fetch('/api/stay-check/v2', {
+      // Stay Check runs as a Supabase Edge Function (migrated from Vercel API route 2026-05-30).
+      // NEXT_PUBLIC_STAY_CHECK_URL lets us switch between local dev and production endpoints.
+      const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+      const stayCheckUrl = process.env.NEXT_PUBLIC_STAY_CHECK_URL
+        || (supabaseUrl ? `${supabaseUrl}/functions/v1/stay-check` : '/api/stay-check/v2');
+      const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || '';
+
+      const response = await fetch(stayCheckUrl, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+          ...(supabaseAnonKey && { 'Authorization': `Bearer ${supabaseAnonKey}` }),
+        },
         body: JSON.stringify({
           accommodationName: formData.accommodationName,
           location: formData.location,

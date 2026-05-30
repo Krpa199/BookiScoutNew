@@ -1,0 +1,133 @@
+name: Deploy to DigitalOcean Droplet
+
+# Triggered by:
+#   1. Push to main (after article generation cron commits)
+#   2. Manual run from GitHub Actions UI
+#
+# Pipeline:
+#   1. Build Docker image in GitHub Actions runner (FREE for public repos)
+#   2. Push image to GitHub Container Registry (GHCR — free for public images)
+#   3. SSH to Droplet, pull new image, restart container (atomic swap)
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      # Don't redeploy on docs-only changes
+      - '**.md'
+      - 'docs/**'
+  workflow_dispatch:
+    inputs:
+      skip_build:
+        description: 'Skip build, just redeploy existing :latest image'
+        type: boolean
+        default: false
+
+# Cancel in-progress deploys when a new commit lands —
+# saves time on the daily cron when articles trickle in.
+concurrency:
+  group: deploy-droplet-production
+  cancel-in-progress: true
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository }}
+
+jobs:
+  # ───────────────────────────────────────────────────────
+  # Build & push Docker image to GHCR
+  # ───────────────────────────────────────────────────────
+  build:
+    if: github.event.inputs.skip_build != 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    permissions:
+      contents: read
+      packages: write
+    outputs:
+      image_tag: ${{ steps.meta.outputs.version }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Log in to GHCR
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Extract metadata
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          tags: |
+            type=raw,value=latest
+            type=sha,prefix=sha-,format=short
+            type=raw,value={{date 'YYYYMMDD-HHmmss'}}
+
+      - name: Build and push
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+          build-args: |
+            NEXT_PUBLIC_SITE_URL=https://bookiscout.com
+
+  # ───────────────────────────────────────────────────────
+  # Deploy to Droplet via SSH
+  # ───────────────────────────────────────────────────────
+  deploy:
+    needs: build
+    if: always() && (needs.build.result == 'success' || github.event.inputs.skip_build == 'true')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@v1
+        with:
+          host: ${{ secrets.DROPLET_HOST }}
+          username: deploy
+          key: ${{ secrets.DROPLET_SSH_KEY }}
+          script: |
+            set -euo pipefail
+            cd /opt/bookiscout
+
+            # Login to GHCR using a personal access token (stored on Droplet)
+            echo "${{ secrets.GHCR_PULL_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+
+            # Pull latest image
+            docker compose pull bookiscout
+
+            # Atomic restart — Caddy keeps serving cached responses during the ~3s swap
+            docker compose up -d --no-deps bookiscout
+
+            # Wait for healthcheck to pass before declaring success
+            for i in 1 2 3 4 5 6 7 8 9 10; do
+              if docker inspect --format='{{.State.Health.Status}}' bookiscout | grep -q healthy; then
+                echo "✅ Deploy successful — container healthy"
+                exit 0
+              fi
+              echo "⏳ Waiting for healthcheck... ($i/10)"
+              sleep 6
+            done
+
+            echo "❌ Container did not become healthy in 60s — rolling back"
+            docker compose logs --tail=50 bookiscout
+            exit 1
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "::error::Deploy failed. Check Droplet logs: ssh deploy@${{ secrets.DROPLET_HOST }} 'docker logs bookiscout --tail 100'"

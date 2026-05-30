@@ -1,0 +1,73 @@
+# Files & directories that should NEVER end up inside the Docker image.
+# Mirrors .gitignore but stricter — also excludes things git tracks but
+# we don't want bloating the build context (saves minutes per build).
+
+# Node
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Next.js build artifacts (we rebuild inside the container)
+.next
+out
+dist
+
+# Local env files — secrets go in via runtime env vars
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production.local
+
+# Editor / OS junk
+.vscode
+.idea
+.DS_Store
+Thumbs.db
+*.swp
+
+# Git
+.git
+.gitignore
+.gitattributes
+.github
+
+# CI / deployment
+.vercel
+.cache
+
+# Test & coverage
+coverage
+*.lcov
+.nyc_output
+
+# Logs
+logs
+*.log
+
+# Audit / scratch files (lots of these in your repo)
+.ai-image-usage.json
+broken-images.json
+english-titles-report.txt
+review-fixed/
+review-images/
+review-today/
+nul
+temp-*
+fix-*.json
+
+# Docs (not needed at runtime)
+*.md
+docs/
+
+# Scripts folder is build-time only (article generation runs in GitHub Actions,
+# never inside the production container)
+scripts/
+
+# Cloudinary / image processing test outputs
+test-image*.jpg
+test-image*.png

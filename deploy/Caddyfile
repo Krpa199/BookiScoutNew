@@ -1,0 +1,61 @@
+# Caddy reverse proxy config for BookiScout Droplet.
+# Auto-provisions Let's Encrypt SSL cert on first request.
+#
+# Place on Droplet at: /etc/caddy/Caddyfile  (or mount via docker-compose)
+# Reload after edit:    docker compose restart caddy
+
+# ─────────────────────────────────────────────────────────────
+# Production: bookiscout.com (and www)
+# ─────────────────────────────────────────────────────────────
+bookiscout.com, www.bookiscout.com {
+    # Forward all requests to the Next.js container on port 3000
+    reverse_proxy bookiscout:3000 {
+        # Pass real client IP so Next.js rate limiting sees it
+        header_up X-Real-IP {remote_host}
+        header_up X-Forwarded-For {remote_host}
+        header_up X-Forwarded-Proto {scheme}
+    }
+
+    # Compress responses (Cloudflare also does this, but defence in depth)
+    encode zstd gzip
+
+    # Security headers
+    header {
+        # Prevent clickjacking
+        X-Frame-Options "SAMEORIGIN"
+        # Prevent MIME type sniffing
+        X-Content-Type-Options "nosniff"
+        # Strict transport security (1 year)
+        Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+        # Referrer policy
+        Referrer-Policy "strict-origin-when-cross-origin"
+        # Remove Caddy version disclosure
+        -Server
+    }
+
+    # Logging — rotate daily, keep 14 days
+    log {
+        output file /var/log/caddy/bookiscout.log {
+            roll_size 50mb
+            roll_keep 14
+            roll_keep_for 720h
+        }
+        format console
+    }
+}
+
+# ─────────────────────────────────────────────────────────────
+# Staging: cf.bookiscout.com (for testing before DNS cutover)
+# Comment out after migration is complete.
+# ─────────────────────────────────────────────────────────────
+cf.bookiscout.com {
+    reverse_proxy bookiscout:3000 {
+        header_up X-Real-IP {remote_host}
+        header_up X-Forwarded-For {remote_host}
+        header_up X-Forwarded-Proto {scheme}
+    }
+    encode zstd gzip
+    header {
+        X-Robots-Tag "noindex, nofollow"  # Don't let Google index staging
+    }
+}
