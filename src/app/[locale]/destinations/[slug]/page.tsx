@@ -18,8 +18,10 @@ function hasStayCheckData(slug: string): boolean {
   return fs.existsSync(filePath);
 }
 
-export const revalidate = false; // fully static - rebuilt only via CI/CD
-export const dynamicParams = false; // return 404 for unknown slugs instead of triggering serverless
+// Destinations are a small fixed set (~30), so we still prerender them all at build time.
+// Keep ISR-style settings consistent with [[isr-refactor-todo]] anyway.
+export const revalidate = false;
+export const dynamicParams = true; // allow on-demand if a new destination is added
 
 type Props = {
   params: Promise<{

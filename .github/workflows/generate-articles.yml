@@ -273,6 +273,42 @@ jobs:
             echo "Triggered Vercel deployment"
           fi
 
+      - name: Revalidate new articles on Hetzner (ISR cache warm-up)
+        if: steps.push.outputs.push_success == 'true'
+        continue-on-error: true
+        run: |
+          # Find article JSON files added in this commit, extract slug from filename.
+          # /api/revalidate revalidates each slug across all 13 locales.
+          NEW_SLUGS=$(git diff --name-only --diff-filter=A HEAD~1 HEAD 2>/dev/null \
+            | grep -oE 'src/content/articles/[a-z]+/[a-z0-9-]+\.json' \
+            | sed -E 's|.*/([a-z0-9-]+)\.json|\1|' \
+            | sort -u)
+
+          if [ -z "$NEW_SLUGS" ]; then
+            echo "No new article slugs detected — skipping revalidation"
+            exit 0
+          fi
+
+          # Build JSON array of slugs
+          SLUGS_JSON=$(echo "$NEW_SLUGS" | jq -R . | jq -s -c .)
+          echo "Revalidating new slugs: $SLUGS_JSON"
+
+          # Retry up to 3 times — deploy-droplet workflow may still be restarting the container
+          for i in 1 2 3; do
+            HTTP_CODE=$(curl -s -o /tmp/revalidate.out -w "%{http_code}" \
+              -X POST https://bookiscout.com/api/revalidate \
+              -H "Authorization: Bearer ${{ secrets.REVALIDATE_SECRET }}" \
+              -H "Content-Type: application/json" \
+              -d "{\"slugs\":$SLUGS_JSON}")
+            if [ "$HTTP_CODE" = "200" ]; then
+              echo "✅ Revalidated: $(cat /tmp/revalidate.out)"
+              exit 0
+            fi
+            echo "⚠️ Attempt $i failed (HTTP $HTTP_CODE): $(cat /tmp/revalidate.out)"
+            sleep 30
+          done
+          echo "❌ Revalidation failed after 3 attempts — long-tail pages will be slow on first visit"
+
   # Third job: Show skip message if not running
   skip-message:
     needs: check-quota
