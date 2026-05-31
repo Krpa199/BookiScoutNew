@@ -7,6 +7,7 @@ import {
   Calendar, TrendingUp, ExternalLink, Accessibility, Search
 } from 'lucide-react';
 import { ScoreBar, ScoreBadge, ScoreColor } from './shared';
+import BookingLink from './BookingLink';
 
 // Inline type to avoid importing from scripts/ (which has Node.js deps)
 export interface StayCheckDestinationData {
@@ -606,14 +607,7 @@ export default function StayCheckAreaReport({ data }: StayCheckAreaReportProps) 
                     </ul>
                   </div>
                 </div>
-                <a
-                  href={`https://www.booking.com/searchresults.html?ss=${encodeURIComponent(alt.bookingSearchQuery)}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1 text-xs text-ocean-600 hover:text-ocean-700 font-medium"
-                >
-                  Search on Booking.com <ExternalLink className="w-3 h-3" />
-                </a>
+                <BookingLink query={alt.bookingSearchQuery} source="stay_check_area_report" />
               </div>
             ))}
           </div>
