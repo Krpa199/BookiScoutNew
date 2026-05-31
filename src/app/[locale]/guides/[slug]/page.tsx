@@ -14,12 +14,13 @@ import AnimatedFaq from '@/components/ui/AnimatedFaq';
 import { MapPin, Clock, Calendar, ChevronRight, CheckCircle, Sparkles, Shield, Star, HelpCircle, ArrowRight } from 'lucide-react';
 import Image from 'next/image';
 
-// ISR strategy (since 2026-05-31): pre-render only top-traffic articles at build time
-// (~500 pages instead of 25,000). Long-tail pages render on first request, then cache
-// forever via `revalidate = false`. Build time drops from 2.5h → ~10 min.
-// To revalidate after content changes, POST to /api/revalidate.
-export const revalidate = false; // once rendered, cache forever until revalidatePath()
-export const dynamicParams = true; // render unknown slugs on-demand (ISR), don't 404
+// EMERGENCY ROLLBACK (2026-05-31 21:15): ISR refactor caused 404s on long-tail pages
+// because outputFileTracingExcludes was stripping src/content/articles from the image.
+// Reverting to full SSG until next.config.mjs fix is built. This will make builds slow
+// again (2.5h) but at least nothing 404s.
+// TODO: After deploy works, re-enable ISR by setting dynamicParams=true + slim generateStaticParams.
+export const revalidate = false;
+export const dynamicParams = false;
 
 // Article type matching the generated JSON structure
 // Standard table data (for recommendations)
@@ -260,42 +261,28 @@ function getInlineNextReads(
 }
 
 // Generate static params for all articles
-// Top-traffic destinations and themes (from Vercel Analytics May 2026).
-// Cross-product = ~156 article slugs; pages outside this set render on-demand.
-const TOP_DESTINATIONS = [
-  'zadar', 'split', 'zagreb', 'dubrovnik', 'krka',
-  'rijeka', 'makarska', 'pula', 'trogir', 'cavtat',
-  'rovinj', 'sibenik', 'opatija', 'hvar', 'brac',
-];
-
-const TOP_THEMES = [
-  'parking-difficulty', 'parking', 'nightlife', 'prices',
-  'public-transport-quality', 'vs-dubrovnik', 'restaurants',
-  'families-with-toddlers', 'airport-access', 'vs-zadar',
-  'vs-split', 'crowds-by-month', 'weather-by-month',
-  'ferry-connections', 'family', 'transport',
-];
-
 export async function generateStaticParams() {
-  // Build only the slugs likely to drive most traffic — long tail uses ISR on-demand.
-  // To force-prerender additional pages (e.g. after publishing campaign), add the slug
-  // here OR call /api/revalidate to warm the cache.
-  const articlesDir = path.join(process.cwd(), 'src', 'content', 'articles', 'en');
-  const candidates = new Set<string>();
-
-  for (const destination of TOP_DESTINATIONS) {
-    for (const theme of TOP_THEMES) {
-      candidates.add(`${destination}-${theme}`);
-    }
-  }
-
-  // Keep only slugs that actually have an English article on disk
-  // (Next.js will 500 on prerender if the JSON is missing).
+  // EMERGENCY ROLLBACK: return ALL slugs (full SSG). Slow build but no 404s.
   const params: { slug: string }[] = [];
-  for (const slug of candidates) {
-    if (fs.existsSync(path.join(articlesDir, `${slug}.json`))) {
-      params.push({ slug });
+  const articlesDir = path.join(process.cwd(), 'src', 'content', 'articles');
+
+  try {
+    for (const locale of locales) {
+      const langDir = path.join(articlesDir, locale);
+      if (fs.existsSync(langDir) && fs.statSync(langDir).isDirectory()) {
+        const files = fs.readdirSync(langDir);
+        for (const file of files) {
+          if (file.endsWith('.json')) {
+            const slug = file.replace('.json', '');
+            if (!params.find(p => p.slug === slug)) {
+              params.push({ slug });
+            }
+          }
+        }
+      }
     }
+  } catch (error) {
+    // Directory doesn't exist yet
   }
 
   return params;
