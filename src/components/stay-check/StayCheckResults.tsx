@@ -8,6 +8,7 @@ import {
   Landmark, ShoppingBag, Sparkles, Coffee, TreePine,
   Accessibility, ChevronDown, Award, Eye, Wine, Music
 } from 'lucide-react';
+import { trackBookingClick } from '@/lib/analytics';
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
