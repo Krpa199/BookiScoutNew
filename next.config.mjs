@@ -8,10 +8,18 @@ const nextConfig = {
   // Vercel ignores this and uses its own build pipeline — safe to keep on both.
   output: 'standalone',
 
-  // Exclude large content directories from serverless function bundles
-  // Articles are read at build time; serverless functions serve pre-rendered HTML
+  // Tracing: keep `.next/cache` excluded but INCLUDE src/content/articles/ —
+  // ISR (since 2026-05-31) renders long-tail pages on-demand at runtime, which
+  // requires reading the JSON files in src/content/articles/. Excluding them
+  // breaks dynamicParams=true rendering with 404s.
   outputFileTracingExcludes: {
-    '*': ['./src/content/articles/**', '.next/cache/**'],
+    '*': ['.next/cache/**'],
+  },
+  // Force-include the article JSONs in the standalone output bundle so the
+  // running container can fs.readFileSync them for on-demand ISR.
+  outputFileTracingIncludes: {
+    '/[locale]/guides/[slug]': ['./src/content/articles/**'],
+    '/[locale]/destinations/[slug]': ['./src/content/articles/**'],
   },
 
   // Image optimization
