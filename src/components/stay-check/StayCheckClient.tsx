@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { Search, Sparkles, Shield, BarChart3, MessageCircle } from 'lucide-react';
 import StayCheckForm, { type FormData } from './StayCheckForm';
 import StayCheckResults from './StayCheckResults';
+import { trackStayCheckSubmit, trackStayCheckSuccess, trackStayCheckError } from '@/lib/analytics';
 
 const CLIENT_UI: Record<string, Record<string, string>> = {
   en: { heroTitle1: 'See What Photos', heroTitle2: "Don't Show You", heroDesc: 'Paste your accommodation link. We analyze thousands of real guest reviews from nearby places to tell you what the area is', heroDescBold: 'really', heroDescEnd: 'like.', trust1: 'Real reviews only', trust2: 'Data-backed analysis', trust3: 'AI-powered insights', analyzing: 'Analyzing area...', analyzingSub: 'Collecting reviews, calculating scores, generating insights', patience: 'This can take 1–2 minutes. Please be patient while we gather and analyze data.', howItWorks: 'How it works', step1Title: 'Paste your link', step1Desc: 'Drop a Booking.com, Airbnb, or Apartmanija link. Or just type the name and location.', step2Title: 'We read the reviews', step2Desc: 'We analyze real Google reviews from restaurants, beaches, cafes, and parking nearby.', step3Title: 'Get the full picture', step3Desc: 'Personalized pros, cons, risks, and alternatives based on YOUR travel style.', checkAnother: 'Check Another Stay', connectionError: 'Connection error. Please check your internet and try again.' },
@@ -56,6 +57,7 @@ export default function StayCheckClient({ locale = 'en' }: { locale?: string }) 
     setIsLoading(true);
     setError('');
     setResults(null);
+    trackStayCheckSubmit(formData.location);
 
     try {
       // Stay Check runs as a Supabase Edge Function (migrated from Vercel API route 2026-05-30).
@@ -83,12 +85,15 @@ export default function StayCheckClient({ locale = 'en' }: { locale?: string }) 
 
       if (!response.ok) {
         setError(data.error || 'Something went wrong. Please try again.');
+        trackStayCheckError(data.error || 'api_error');
         return;
       }
 
       setResults(data);
+      trackStayCheckSuccess(formData.location);
     } catch {
       setError(t.connectionError);
+      trackStayCheckError('connection_error');
     } finally {
       setIsLoading(false);
     }

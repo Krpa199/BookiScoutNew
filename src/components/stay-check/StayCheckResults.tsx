@@ -757,6 +757,7 @@ export default function StayCheckResults({ data, locale = 'en' }: Props) {
                   </div>
                   {alt.bookingSearchQuery && (
                     <a href={`https://www.booking.com/searchresults.html?ss=${encodeURIComponent(alt.bookingSearchQuery)}`} target="_blank" rel="noopener noreferrer"
+                      onClick={() => trackBookingClick('stay_check_results', alt.bookingSearchQuery)}
                       className="inline-flex items-center gap-2 text-sm bg-ocean-500 text-white px-4 py-2 rounded-xl hover:bg-ocean-600 transition-colors font-medium">
                       {t.searchBooking} <ExternalLink className="w-3.5 h-3.5" />
                     </a>
