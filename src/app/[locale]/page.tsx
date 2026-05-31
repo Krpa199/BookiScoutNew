@@ -11,19 +11,24 @@ export const revalidate = false; // fully static - rebuilt only via CI/CD
 
 // Helper to get article image from JSON file
 function getArticleImage(locale: string, destination: string, theme: string): string | undefined {
+  return getArticleData(locale, destination, theme)?.imageUrl;
+}
+
+// Load a translated article's title + meta + image directly from its JSON file,
+// falling back to English if the locale-specific file is missing.
+function getArticleData(
+  locale: string,
+  destination: string,
+  theme: string,
+): { title?: string; metaDescription?: string; imageUrl?: string } | undefined {
   try {
     const filePath = path.join(process.cwd(), 'src', 'content', 'articles', locale, `${destination}-${theme}.json`);
     if (fs.existsSync(filePath)) {
-      const content = fs.readFileSync(filePath, 'utf-8');
-      const article = JSON.parse(content);
-      return article.imageUrl;
+      return JSON.parse(fs.readFileSync(filePath, 'utf-8'));
     }
-    // Fallback to English if locale version doesn't exist
     const enPath = path.join(process.cwd(), 'src', 'content', 'articles', 'en', `${destination}-${theme}.json`);
     if (fs.existsSync(enPath)) {
-      const content = fs.readFileSync(enPath, 'utf-8');
-      const article = JSON.parse(content);
-      return article.imageUrl;
+      return JSON.parse(fs.readFileSync(enPath, 'utf-8'));
     }
   } catch {
     // Ignore errors
@@ -43,34 +48,40 @@ export default async function HomePage({ params }: Props) {
 
   const popularDestinations = DESTINATIONS.filter(d => d.popular).slice(0, 6);
 
-  // AI Decision-focused featured guides
+  // AI Decision-focused featured guides.
+  // Title + description come from the article's localized JSON so each locale
+  // sees its own language (previously hardcoded English on every locale).
+  const splitSolo = getArticleData(locale, 'split', 'solo-travel');
+  const dubrovnikCar = getArticleData(locale, 'dubrovnik', 'car-vs-no-car');
+  const dubrovnikFirst = getArticleData(locale, 'dubrovnik', 'first-time-visitors');
+
   const featuredArticles = [
     {
-      title: 'Is Split Good for Solo Travelers?',
-      description: 'Find out if Split is the right choice for independent travelers: safety, walkability, social scene, and practical tips.',
+      title: splitSolo?.title ?? 'Is Split Good for Solo Travelers?',
+      description: splitSolo?.metaDescription ?? 'Find out if Split is the right choice for independent travelers: safety, walkability, social scene, and practical tips.',
       destination: 'split',
       destinationName: 'Split',
       theme: 'solo-travel',
       language: locale,
-      image: getArticleImage(locale, 'split', 'solo-travel'),
+      image: splitSolo?.imageUrl,
     },
     {
-      title: 'Do You Need a Car in Dubrovnik?',
-      description: 'Complete breakdown of getting around Dubrovnik: when a car helps, when it\'s a burden, and the best alternatives.',
+      title: dubrovnikCar?.title ?? 'Do You Need a Car in Dubrovnik?',
+      description: dubrovnikCar?.metaDescription ?? 'Complete breakdown of getting around Dubrovnik: when a car helps, when it\'s a burden, and the best alternatives.',
       destination: 'dubrovnik',
       destinationName: 'Dubrovnik',
       theme: 'car-vs-no-car',
       language: locale,
-      image: getArticleImage(locale, 'dubrovnik', 'car-vs-no-car'),
+      image: dubrovnikCar?.imageUrl,
     },
     {
-      title: 'Dubrovnik First-Timer\'s Guide',
-      description: 'Essential tips for your first visit: top attractions, costs, where to stay, and insider knowledge for an amazing trip.',
+      title: dubrovnikFirst?.title ?? 'Dubrovnik First-Timer\'s Guide',
+      description: dubrovnikFirst?.metaDescription ?? 'Essential tips for your first visit: top attractions, costs, where to stay, and insider knowledge for an amazing trip.',
       destination: 'dubrovnik',
       destinationName: 'Dubrovnik',
       theme: 'first-time-visitors',
       language: locale,
-      image: getArticleImage(locale, 'dubrovnik', 'first-time-visitors'),
+      image: dubrovnikFirst?.imageUrl,
     },
   ];
 

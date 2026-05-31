@@ -1,133 +1,94 @@
-name: Deploy to DigitalOcean Droplet
+name: Deploy to Hetzner
 
 # Triggered by:
 #   1. Push to main (after article generation cron commits)
 #   2. Manual run from GitHub Actions UI
 #
-# Pipeline:
-#   1. Build Docker image in GitHub Actions runner (FREE for public repos)
-#   2. Push image to GitHub Container Registry (GHCR — free for public images)
-#   3. SSH to Droplet, pull new image, restart container (atomic swap)
+# Pipeline (build happens ON the Hetzner server, not on GitHub Actions runners):
+#   1. SSH to Hetzner
+#   2. git pull latest code
+#   3. docker compose build (uses Hetzner's CPU + disk, no GHCR push needed)
+#   4. docker compose up -d (atomic restart)
+#   5. Healthcheck verify
 
 on:
   push:
     branches:
       - main
     paths-ignore:
-      # Don't redeploy on docs-only changes
       - '**.md'
       - 'docs/**'
   workflow_dispatch:
-    inputs:
-      skip_build:
-        description: 'Skip build, just redeploy existing :latest image'
-        type: boolean
-        default: false
 
 # Cancel in-progress deploys when a new commit lands —
 # saves time on the daily cron when articles trickle in.
 concurrency:
-  group: deploy-droplet-production
+  group: deploy-hetzner-production
   cancel-in-progress: true
 
-env:
-  REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}
-
 jobs:
-  # ───────────────────────────────────────────────────────
-  # Build & push Docker image to GHCR
-  # ───────────────────────────────────────────────────────
-  build:
-    if: github.event.inputs.skip_build != 'true'
-    runs-on: ubuntu-latest
-    timeout-minutes: 90
-    permissions:
-      contents: read
-      packages: write
-    outputs:
-      image_tag: ${{ steps.meta.outputs.version }}
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v3
-
-      - name: Log in to GHCR
-        uses: docker/login-action@v3
-        with:
-          registry: ${{ env.REGISTRY }}
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Extract metadata
-        id: meta
-        uses: docker/metadata-action@v5
-        with:
-          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
-          tags: |
-            type=raw,value=latest
-            type=sha,prefix=sha-,format=short
-            type=raw,value={{date 'YYYYMMDD-HHmmss'}}
-
-      - name: Build and push
-        uses: docker/build-push-action@v6
-        with:
-          context: .
-          push: true
-          tags: ${{ steps.meta.outputs.tags }}
-          labels: ${{ steps.meta.outputs.labels }}
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
-          build-args: |
-            NEXT_PUBLIC_SITE_URL=https://bookiscout.com
-
-  # ───────────────────────────────────────────────────────
-  # Deploy to Droplet via SSH
-  # ───────────────────────────────────────────────────────
   deploy:
-    needs: build
-    if: always() && (needs.build.result == 'success' || github.event.inputs.skip_build == 'true')
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 120  # Build on Hetzner can take 45-90 min for 300k pages
 
     steps:
-      - name: Deploy via SSH
+      - name: Trigger build & deploy on Hetzner
         uses: appleboy/ssh-action@v1
         with:
           host: ${{ secrets.DROPLET_HOST }}
           username: deploy
           key: ${{ secrets.DROPLET_SSH_KEY }}
+          command_timeout: 120m
           script: |
             set -euo pipefail
+            cd /opt/bookiscout/repo
+
+            echo "════════════════════════════════════════"
+            echo "📥 Pulling latest code from main..."
+            echo "════════════════════════════════════════"
+            git fetch origin main
+            git reset --hard origin/main
+            COMMIT=$(git rev-parse --short HEAD)
+            echo "Commit: $COMMIT"
+            echo "$(git log -1 --format='%s')"
+
+            echo ""
+            echo "════════════════════════════════════════"
+            echo "🐳 Building Docker image on Hetzner..."
+            echo "════════════════════════════════════════"
+            # Use docker-compose.yml from the repo with env from /opt/bookiscout/.env.production
+            docker compose --env-file /opt/bookiscout/.env.production build bookiscout
+
+            echo ""
+            echo "════════════════════════════════════════"
+            echo "🚀 Restarting container (atomic swap)..."
+            echo "════════════════════════════════════════"
+            # Switch the production compose to the freshly-built local image
             cd /opt/bookiscout
+            docker compose --env-file .env.production up -d --no-deps bookiscout
 
-            # Login to GHCR using a personal access token (stored on Droplet)
-            echo "${{ secrets.GHCR_PULL_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
-
-            # Pull latest image
-            docker compose pull bookiscout
-
-            # Atomic restart — Caddy keeps serving cached responses during the ~3s swap
-            docker compose up -d --no-deps bookiscout
-
-            # Wait for healthcheck to pass before declaring success
+            echo ""
+            echo "════════════════════════════════════════"
+            echo "🏥 Waiting for healthcheck..."
+            echo "════════════════════════════════════════"
             for i in 1 2 3 4 5 6 7 8 9 10; do
-              if docker inspect --format='{{.State.Health.Status}}' bookiscout | grep -q healthy; then
+              if docker inspect --format='{{.State.Health.Status}}' bookiscout 2>/dev/null | grep -q healthy; then
                 echo "✅ Deploy successful — container healthy"
+                echo ""
+                echo "Active image: $(docker inspect --format='{{.Config.Image}}' bookiscout)"
+                echo "Container uptime: $(docker inspect --format='{{.State.StartedAt}}' bookiscout)"
                 exit 0
               fi
               echo "⏳ Waiting for healthcheck... ($i/10)"
               sleep 6
             done
 
-            echo "❌ Container did not become healthy in 60s — rolling back"
-            docker compose logs --tail=50 bookiscout
+            echo "❌ Container did not become healthy in 60s"
+            echo "=== Last 50 log lines ==="
+            docker logs --tail=50 bookiscout
             exit 1
 
       - name: Notify on failure
         if: failure()
         run: |
-          echo "::error::Deploy failed. Check Droplet logs: ssh deploy@${{ secrets.DROPLET_HOST }} 'docker logs bookiscout --tail 100'"
+          echo "::error::Deploy failed. SSH to Hetzner: ssh deploy@${{ secrets.DROPLET_HOST }} 'docker logs bookiscout --tail 100'"
