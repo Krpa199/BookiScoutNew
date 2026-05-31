@@ -35,7 +35,11 @@ ENV NEXT_PUBLIC_SITE_URL=$NEXT_PUBLIC_SITE_URL
 ENV NEXT_PUBLIC_SUPABASE_URL=$NEXT_PUBLIC_SUPABASE_URL
 ENV NEXT_PUBLIC_SUPABASE_ANON_KEY=$NEXT_PUBLIC_SUPABASE_ANON_KEY
 
-RUN npm run build
+# Mount BuildKit cache for .next/cache — persists between builds so unchanged
+# pages skip re-rendering. Daily cron (~20 new articles) builds in 5-10 min
+# instead of 35-50 min. Force a clean rebuild with `docker compose build --no-cache`.
+RUN --mount=type=cache,target=/app/.next/cache,id=next-build-cache \
+    npm run build
 
 # ─────────────────────────────────────────────────────────────
 # Stage 3: runner — minimal runtime image

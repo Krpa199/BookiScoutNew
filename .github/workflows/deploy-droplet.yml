@@ -19,6 +19,11 @@ on:
       - '**.md'
       - 'docs/**'
   workflow_dispatch:
+    inputs:
+      clean_build:
+        description: 'Force clean rebuild (ignore Next.js cache, ~45 min). Default: use cache (~10 min).'
+        type: boolean
+        default: false
 
 # Cancel in-progress deploys when a new commit lands —
 # saves time on the daily cron when articles trickle in.
@@ -29,16 +34,19 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 120  # Build on Hetzner can take 45-90 min for 300k pages
+    timeout-minutes: 120  # Build on Hetzner: ~10 min with cache, ~45 min clean
 
     steps:
       - name: Trigger build & deploy on Hetzner
         uses: appleboy/ssh-action@v1
+        env:
+          CLEAN_BUILD: ${{ inputs.clean_build || 'false' }}
         with:
           host: ${{ secrets.DROPLET_HOST }}
           username: deploy
           key: ${{ secrets.DROPLET_SSH_KEY }}
           command_timeout: 120m
+          envs: CLEAN_BUILD
           script: |
             set -euo pipefail
             cd /opt/bookiscout/repo
@@ -56,8 +64,13 @@ jobs:
             echo "════════════════════════════════════════"
             echo "🐳 Building Docker image on Hetzner..."
             echo "════════════════════════════════════════"
-            # Use docker-compose.yml from the repo with env from /opt/bookiscout/.env.production
-            docker compose --env-file /opt/bookiscout/.env.production build bookiscout
+            if [ "$CLEAN_BUILD" = "true" ]; then
+              echo "🧹 CLEAN BUILD — ignoring all caches"
+              docker compose --env-file /opt/bookiscout/.env.production build --no-cache bookiscout
+            else
+              echo "⚡ Cached build (use --no-cache flag to force clean)"
+              docker compose --env-file /opt/bookiscout/.env.production build bookiscout
+            fi
 
             echo ""
             echo "════════════════════════════════════════"
