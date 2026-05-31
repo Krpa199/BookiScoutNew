@@ -1,6 +1,7 @@
 'use client';
 
 import { Search, Calendar, Users } from 'lucide-react';
+import { trackBookingClick } from '@/lib/analytics';
 
 interface BookingWidgetProps {
   destination: string;
@@ -45,6 +46,9 @@ export default function BookingWidget({
     });
 
     const bookingUrl = `https://www.booking.com/searchresults.html?${searchParams.toString()}`;
+
+    // Track the click so we can see daily booking-search volume in GA
+    trackBookingClick('destination_widget', destination);
 
     // Open in new tab
     window.open(bookingUrl, '_blank', 'noopener,noreferrer');
