@@ -1874,12 +1874,32 @@
     "vodice-photo-spots",
     "vodice-prices",
     "vodice-family",
-    "vodice-budget"
+    "vodice-budget",
+    "vodice-luxury",
+    "vodice-pet-friendly",
+    "vodice-sustainable-travel",
+    "primosten-solo-travel",
+    "primosten-seniors",
+    "primosten-digital-nomads",
+    "primosten-lgbt-friendly",
+    "primosten-families-with-toddlers",
+    "primosten-families-with-teens",
+    "primosten-first-time-visitors",
+    "primosten-couples",
+    "primosten-parking-difficulty",
+    "primosten-parking",
+    "primosten-transport",
+    "primosten-car-vs-no-car",
+    "primosten-walkability",
+    "primosten-stroller-friendly",
+    "primosten-wheelchair-access",
+    "primosten-public-transport-quality",
+    "primosten-ferry-connections"
   ],
-  "lastRun": "2026-05-31T11:44:08.972Z",
-  "totalArticles": 85819,
+  "lastRun": "2026-06-01T15:19:46.031Z",
+  "totalArticles": 86077,
   "lastSessionStats": {
     "articlesGenerated": 20,
-    "translationsGenerated": 240
+    "translationsGenerated": 238
   }
 }
