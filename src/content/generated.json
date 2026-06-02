@@ -1894,12 +1894,24 @@
     "primosten-stroller-friendly",
     "primosten-wheelchair-access",
     "primosten-public-transport-quality",
-    "primosten-ferry-connections"
+    "primosten-ferry-connections",
+    "primosten-airport-access",
+    "primosten-mobile-coverage",
+    "primosten-best-time-to-visit",
+    "primosten-weather-by-month",
+    "primosten-peak-season",
+    "primosten-vs-dubrovnik",
+    "primosten-vs-split",
+    "primosten-sailing",
+    "primosten-food-and-wine",
+    "primosten-game-of-thrones",
+    "primosten-snorkeling-and-diving",
+    "primosten-camping-and-glamping"
   ],
-  "lastRun": "2026-06-01T15:19:46.031Z",
-  "totalArticles": 86077,
+  "lastRun": "2026-06-02T13:12:03.185Z",
+  "totalArticles": 86233,
   "lastSessionStats": {
-    "articlesGenerated": 20,
-    "translationsGenerated": 238
+    "articlesGenerated": 12,
+    "translationsGenerated": 144
   }
 }
