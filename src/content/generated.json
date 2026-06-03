@@ -1906,12 +1906,32 @@
     "primosten-food-and-wine",
     "primosten-game-of-thrones",
     "primosten-snorkeling-and-diving",
-    "primosten-camping-and-glamping"
+    "primosten-camping-and-glamping",
+    "primosten-visa-and-entry",
+    "primosten-crowds-by-month",
+    "primosten-off-season",
+    "primosten-vs-zadar",
+    "primosten-vs-istria",
+    "primosten-vs-zagreb",
+    "primosten-island-hopping",
+    "primosten-hiking",
+    "primosten-itinerary",
+    "primosten-where-to-stay",
+    "primosten-cost-guide",
+    "primosten-road-trip",
+    "primosten-beach",
+    "primosten-things-to-do",
+    "primosten-day-trips",
+    "primosten-safety",
+    "primosten-nightlife",
+    "primosten-restaurants",
+    "primosten-hidden-gems",
+    "primosten-local-food"
   ],
-  "lastRun": "2026-06-02T13:12:03.185Z",
-  "totalArticles": 86233,
+  "lastRun": "2026-06-03T14:26:02.525Z",
+  "totalArticles": 86493,
   "lastSessionStats": {
-    "articlesGenerated": 12,
-    "translationsGenerated": 144
+    "articlesGenerated": 20,
+    "translationsGenerated": 240
   }
 }
