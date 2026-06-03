@@ -264,14 +264,18 @@ jobs:
           echo "🛡️ **Free Tier Protection:** Max 1400 image validations/day" >> $GITHUB_STEP_SUMMARY
           echo "⏰ **Next run:** Tomorrow at 8:05 UTC (after Google quota reset)" >> $GITHUB_STEP_SUMMARY
 
-      - name: Trigger Vercel deploy (optional)
+      - name: Trigger Hetzner deploy
         if: steps.push.outputs.push_success == 'true'
-        continue-on-error: true
+        env:
+          # The default GITHUB_TOKEN can dispatch workflows explicitly even though
+          # it cannot trigger them via `push` (GitHub blocks push events from
+          # GITHUB_TOKEN to prevent infinite loops). gh workflow run uses the
+          # workflow_dispatch API, which IS allowed.
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          if [ -n "${{ secrets.VERCEL_DEPLOY_HOOK }}" ]; then
-            curl -X POST "${{ secrets.VERCEL_DEPLOY_HOOK }}"
-            echo "Triggered Vercel deployment"
-          fi
+          echo "🚀 Dispatching Deploy to Hetzner for the new articles commit..."
+          gh workflow run deploy-droplet.yml --ref main
+          echo "✅ Deploy workflow dispatched"
 
       - name: Revalidate new articles on Hetzner (ISR cache warm-up)
         if: steps.push.outputs.push_success == 'true'
