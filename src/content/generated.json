@@ -2006,12 +2006,32 @@
     "mljet-parking-difficulty",
     "mljet-parking",
     "mljet-transport",
-    "mljet-car-vs-no-car"
+    "mljet-car-vs-no-car",
+    "mljet-walkability",
+    "mljet-stroller-friendly",
+    "mljet-wheelchair-access",
+    "mljet-public-transport-quality",
+    "mljet-ferry-connections",
+    "mljet-airport-access",
+    "mljet-visa-and-entry",
+    "mljet-mobile-coverage",
+    "mljet-best-time-to-visit",
+    "mljet-weather-by-month",
+    "mljet-crowds-by-month",
+    "mljet-peak-season",
+    "mljet-off-season",
+    "mljet-vs-dubrovnik",
+    "mljet-vs-split",
+    "mljet-vs-zadar",
+    "mljet-vs-istria",
+    "mljet-vs-zagreb",
+    "mljet-island-hopping",
+    "mljet-sailing"
   ],
-  "lastRun": "2026-06-07T11:49:53.172Z",
-  "totalArticles": 87533,
+  "lastRun": "2026-06-08T13:59:32.461Z",
+  "totalArticles": 87792,
   "lastSessionStats": {
     "articlesGenerated": 20,
-    "translationsGenerated": 240
+    "translationsGenerated": 239
   }
 }
