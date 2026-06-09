@@ -2026,12 +2026,32 @@
     "mljet-vs-istria",
     "mljet-vs-zagreb",
     "mljet-island-hopping",
-    "mljet-sailing"
+    "mljet-sailing",
+    "mljet-hiking",
+    "mljet-food-and-wine",
+    "mljet-game-of-thrones",
+    "mljet-snorkeling-and-diving",
+    "mljet-camping-and-glamping",
+    "mljet-itinerary",
+    "mljet-where-to-stay",
+    "mljet-cost-guide",
+    "mljet-road-trip",
+    "mljet-beach",
+    "mljet-things-to-do",
+    "mljet-day-trips",
+    "mljet-safety",
+    "mljet-nightlife",
+    "mljet-restaurants",
+    "mljet-hidden-gems",
+    "mljet-local-food",
+    "mljet-history-and-culture",
+    "mljet-photo-spots",
+    "mljet-prices"
   ],
-  "lastRun": "2026-06-08T13:59:32.461Z",
-  "totalArticles": 87792,
+  "lastRun": "2026-06-09T12:56:00.402Z",
+  "totalArticles": 88052,
   "lastSessionStats": {
     "articlesGenerated": 20,
-    "translationsGenerated": 239
+    "translationsGenerated": 240
   }
 }
