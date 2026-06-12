@@ -1,0 +1,100 @@
+name: Re-fix Fallback Cover Images
+
+# Manual-only. Re-generates cover images for articles that fell back to the
+# generic "Travel and vacation concept" stock photo while the gemini-2.0-flash
+# validation model was dead (2026-06-02 → 2026-06-12). Safe to run repeatedly:
+# it only touches articles still on the fallback image.
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Max destination+theme combos to process (blank = all). Start small to test, e.g. 20.'
+        required: false
+        default: '20'
+        type: string
+      dry_run:
+        description: 'Dry run: fetch + log but do not write/commit anything'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
+
+env:
+  GEMINI_API_KEY_IMAGE: ${{ secrets.GEMINI_API_KEY_IMAGE }}
+  PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+  UNSPLASH_API_KEY: ${{ secrets.UNSPLASH_API_KEY }}
+
+jobs:
+  refix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 600
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Re-fix fallback images
+        run: npx tsx scripts/refix-fallback-images.ts
+        env:
+          GEMINI_API_KEY_IMAGE: ${{ secrets.GEMINI_API_KEY_IMAGE }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          UNSPLASH_API_KEY: ${{ secrets.UNSPLASH_API_KEY }}
+          LIMIT: ${{ github.event.inputs.limit }}
+          DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && '1' || '' }}
+
+      - name: Check for changes
+        id: changes
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          git add -A
+          if git diff --staged --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "No image changes"
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "Image changes detected"
+          fi
+
+      - name: Commit and push
+        id: push
+        if: github.event.inputs.dry_run != 'true' && steps.changes.outputs.has_changes == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -m "🖼️ Re-fix fallback cover images $(date +'%Y-%m-%d')"
+
+          for i in 1 2 3 4 5; do
+            git fetch origin main
+            if [ "$(git rev-parse HEAD)" != "$(git rev-parse origin/main)" ]; then
+              git rebase origin/main || { git rebase --abort 2>/dev/null || true; git merge origin/main --no-edit || true; }
+            fi
+            if git push origin main; then
+              echo "push_success=true" >> $GITHUB_OUTPUT
+              exit 0
+            fi
+            echo "Push failed, retry $i..."
+            sleep 15
+          done
+          echo "push_success=false" >> $GITHUB_OUTPUT
+          exit 1
+
+      - name: Trigger Hetzner deploy
+        if: steps.push.outputs.push_success == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy-droplet.yml --ref main
