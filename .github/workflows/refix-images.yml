@@ -13,6 +13,14 @@ on:
         required: false
         default: '20'
         type: string
+      order:
+        description: 'Which articles to process first. "newest" = most recently generated (recommended for a test run).'
+        required: false
+        default: 'newest'
+        type: choice
+        options:
+          - 'newest'
+          - 'alpha'
       dry_run:
         description: 'Dry run: fetch + log but do not write/commit anything'
         required: false
@@ -55,6 +63,7 @@ jobs:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           UNSPLASH_API_KEY: ${{ secrets.UNSPLASH_API_KEY }}
           LIMIT: ${{ github.event.inputs.limit }}
+          ORDER: ${{ github.event.inputs.order }}
           DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && '1' || '' }}
 
       - name: Check for changes

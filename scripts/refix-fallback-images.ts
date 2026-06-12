@@ -33,8 +33,13 @@ interface Article {
   theme?: string;
   imageUrl?: string;
   imageAlt?: string;
+  generatedAt?: string;
   [key: string]: unknown;
 }
+
+// ORDER=newest (default) processes the most recently generated articles first,
+// so LIMIT=20 fixes exactly the newest 20. ORDER=alpha keeps filename order.
+const ORDER = (process.env.ORDER || 'newest').toLowerCase();
 
 function readJson(file: string): Article | null {
   try {
@@ -55,17 +60,43 @@ async function main() {
   const enDir = path.join(CONTENT_DIR, 'en');
   const enFiles = fs.readdirSync(enDir).filter((f) => f.endsWith('.json'));
 
-  const combos = new Map<string, { destination: string; theme: string }>();
+  // Collect affected articles (still on the fallback image) with their slug and
+  // generation time, then order so LIMIT picks a meaningful, predictable subset.
+  const affected: { destination: string; theme: string; slug: string; generatedAt: string }[] = [];
   for (const f of enFiles) {
     const a = readJson(path.join(enDir, f));
     if (!a || a.imageAlt !== FALLBACK_ALT) continue;
     if (!a.destination || !a.theme) continue;
+    affected.push({
+      destination: a.destination,
+      theme: a.theme,
+      slug: f.replace('.json', ''),
+      generatedAt: a.generatedAt || '',
+    });
+  }
+
+  if (ORDER === 'newest') {
+    affected.sort((x, y) => y.generatedAt.localeCompare(x.generatedAt));
+  } else {
+    affected.sort((x, y) => x.slug.localeCompare(y.slug));
+  }
+
+  // Dedupe by destination+theme (image is shared per combo) while preserving order.
+  const combos = new Map<string, { destination: string; theme: string }>();
+  const slugsForCombo = new Map<string, string[]>();
+  for (const a of affected) {
     const key = `${a.destination}-${a.theme}`;
     if (!combos.has(key)) combos.set(key, { destination: a.destination, theme: a.theme });
+    (slugsForCombo.get(key) || slugsForCombo.set(key, []).get(key)!).push(a.slug);
   }
 
   const comboList = [...combos.values()].slice(0, LIMIT);
-  console.log(`📋 ${combos.size} affected destination+theme combos found; processing ${comboList.length}\n`);
+  console.log(`📋 ${combos.size} affected combos found (order=${ORDER}); processing ${comboList.length}`);
+  console.log(`🎯 Articles to be changed (EN slugs; same image applied to all 13 locales):`);
+  for (const c of comboList) {
+    console.log(`   - ${slugsForCombo.get(`${c.destination}-${c.theme}`)!.join(', ')}`);
+  }
+  console.log('');
 
   // 2) Fetch a fresh validated image for each combo.
   const imageByCombo = new Map<string, Awaited<ReturnType<typeof getArticleImage>>>();
