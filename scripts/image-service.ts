@@ -663,7 +663,12 @@ async function validateImageWithAI(
 
   try {
     const genAI = new GoogleGenerativeAI(apiKey);
-    const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' });
+    // Use the rolling "latest flash" alias: Google retired gemini-2.0-flash
+    // (404 "no longer available") around 2026-06-02, which silently made EVERY
+    // validation throw → every image rejected → every article fell back to a
+    // generic stock photo (cause of mass-duplicated cover images). The alias
+    // tracks the current flash model so it survives future retirements.
+    const model = genAI.getGenerativeModel({ model: 'gemini-flash-latest' });
 
     // Fetch image as base64
     const imageResponse = await fetch(imageUrl);
@@ -875,38 +880,60 @@ export async function getArticleImage(
     await new Promise((r) => setTimeout(r, 300));
   }
 
-  // Fallback: Use universal vacation/travel images that work for any theme/destination
-  console.log(`    ⚠️ No validated image found, searching for universal vacation fallback...`);
+  // Fallback: Use a DESTINATION-SPECIFIC scenic image instead of a generic
+  // "suitcase / passport" stock photo. The old generic fallback returned the
+  // same handful of Pexels images, so hundreds of unrelated articles ended up
+  // sharing one cover image — bad for Google Images and looks templated.
+  //
+  // Strategy:
+  //   1. Build queries from the actual destination ("Dubrovnik old town", etc.)
+  //      so each destination gets relevant scenery rather than a random suitcase.
+  //   2. Pool results from several queries, then pick a random one from the WHOLE
+  //      pool. A bigger pool + per-article randomness means sibling articles of
+  //      the same destination/theme get different covers, breaking up duplicates.
+  console.log(`    ⚠️ No validated image found, searching destination-specific scenic fallback...`);
 
-  const fallbackQueries = [
-    'vacation travel suitcase',
-    'holiday travel europe',
-    'summer vacation beach',
-    'travel planning map passport',
-    'tourist sightseeing europe',
-  ];
+  const isCoastal = isCoastalDestination(destination);
+  const fallbackQueries: string[] = [];
 
+  if (destination) {
+    const destCap = destination.charAt(0).toUpperCase() + destination.slice(1);
+    fallbackQueries.push(
+      `${destCap} Croatia`,
+      isCoastal ? `${destCap} old town coast` : `${destCap} old town`,
+      `${destCap} cityscape`,
+    );
+  }
+  // Generic Croatia scenery as a last resort — still far more varied/relevant
+  // than the old "suitcase" set, and only reached when there is no destination.
+  fallbackQueries.push(
+    isCoastal ? 'Croatia adriatic coast town' : 'Croatia old town europe',
+    'Croatia mediterranean architecture',
+    'Croatia historic town europe',
+  );
+
+  // Pool candidates across ALL fallback queries before picking, so the random
+  // choice is spread over a much larger, more varied set of photos.
+  const fallbackPool: ImageCandidate[] = [];
   for (const fallbackQuery of fallbackQueries) {
     const [pFallback, uFallback] = await Promise.all([
       fetchFromPexels(fallbackQuery),
       fetchFromUnsplash(fallbackQuery),
     ]);
+    fallbackPool.push(...pFallback, ...uFallback);
+  }
 
-    const fallbackCandidates = [...pFallback, ...uFallback];
-
-    if (fallbackCandidates.length > 0) {
-      // Pick a random one from fallback results
-      const fallbackImg = fallbackCandidates[Math.floor(Math.random() * fallbackCandidates.length)];
-      const fallbackAlt = 'Travel and vacation concept';
-      console.log(`    🧳 Using universal vacation fallback image from ${fallbackImg.source}`);
-      return {
-        imageUrl: fallbackImg.url,
-        imageAlt: fallbackAlt,
-        imageCredit: fallbackImg.photographer,
-        imageCreditUrl: fallbackImg.photographerUrl,
-        imageSource: fallbackImg.source,
-      };
-    }
+  if (fallbackPool.length > 0) {
+    const fallbackImg = fallbackPool[Math.floor(Math.random() * fallbackPool.length)];
+    const fallbackAlt = fallbackImg.alt || `${destination ? destination.charAt(0).toUpperCase() + destination.slice(1) + ', ' : ''}Croatia`;
+    console.log(`    🏛️ Using destination-specific scenic fallback from ${fallbackImg.source} (pool of ${fallbackPool.length})`);
+    return {
+      imageUrl: fallbackImg.url,
+      imageAlt: fallbackAlt,
+      imageCredit: fallbackImg.photographer,
+      imageCreditUrl: fallbackImg.photographerUrl,
+      imageSource: fallbackImg.source,
+    };
   }
 
   console.log(`    ❌ No fallback image found either`);
