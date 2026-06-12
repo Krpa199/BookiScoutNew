@@ -1,9 +1,11 @@
 name: Generate Daily Articles
 
 on:
-  schedule:
-    # Run every day at 8:05 AM UTC (9:05 Zagreb time, right after Google quota reset at 8:00 UTC)
-    - cron: '5 8 * * *'
+  # PAUSED 2026-06-12 by Mario — daily auto-generation disabled until further notice.
+  # To resume: uncomment the schedule block below.
+  # schedule:
+  #   # Run every day at 8:05 AM UTC (9:05 Zagreb time, right after Google quota reset at 8:00 UTC)
+  #   - cron: '5 8 * * *'
   workflow_dispatch: # Allow manual trigger
     inputs:
       articles_count:
