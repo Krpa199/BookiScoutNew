@@ -27,6 +27,13 @@ const CONTENT_DIR = path.join(process.cwd(), 'src', 'content', 'articles');
 const FALLBACK_ALT = 'Travel and vacation concept';
 const LIMIT = process.env.LIMIT ? parseInt(process.env.LIMIT, 10) : Infinity;
 const DRY_RUN = process.env.DRY_RUN === '1';
+// Which articles to re-do:
+//   MODE=fallback (default) — only the generic "suitcase" fallback articles.
+//   MODE=dupes — also re-do articles whose image is shared by more than
+//     DUPE_THRESHOLD different articles (default 5). Catches images taken
+//     without validation after the old daily cap was hit, and leftover repeats.
+const MODE = (process.env.MODE || 'fallback').toLowerCase();
+const DUPE_THRESHOLD = process.env.DUPE_THRESHOLD ? parseInt(process.env.DUPE_THRESHOLD, 10) : 5;
 
 interface Article {
   destination?: string;
@@ -60,20 +67,35 @@ async function main() {
   const enDir = path.join(CONTENT_DIR, 'en');
   const enFiles = fs.readdirSync(enDir).filter((f) => f.endsWith('.json'));
 
-  // Collect affected articles (still on the fallback image) with their slug and
-  // generation time, then order so LIMIT picks a meaningful, predictable subset.
-  const affected: { destination: string; theme: string; slug: string; generatedAt: string }[] = [];
+  // Read every EN article once: keep its key fields and tally image usage so we
+  // can target both fallback articles and over-shared (likely unvalidated) ones.
+  const all: { destination: string; theme: string; slug: string; generatedAt: string; alt: string; img: string }[] = [];
+  const imageCount = new Map<string, number>();
   for (const f of enFiles) {
     const a = readJson(path.join(enDir, f));
-    if (!a || a.imageAlt !== FALLBACK_ALT) continue;
-    if (!a.destination || !a.theme) continue;
-    affected.push({
+    if (!a || !a.destination || !a.theme) continue;
+    const img = (a.imageUrl || '').split('?')[0];
+    all.push({
       destination: a.destination,
       theme: a.theme,
       slug: f.replace('.json', ''),
       generatedAt: a.generatedAt || '',
+      alt: a.imageAlt || '',
+      img,
     });
+    if (img) imageCount.set(img, (imageCount.get(img) || 0) + 1);
   }
+
+  // Select which articles to re-do based on MODE.
+  const affected = all.filter((a) => {
+    const isFallback = a.alt === FALLBACK_ALT;
+    if (MODE === 'dupes') {
+      const overShared = a.img !== '' && (imageCount.get(a.img) || 0) > DUPE_THRESHOLD;
+      return isFallback || overShared;
+    }
+    return isFallback;
+  });
+  console.log(`🔎 MODE=${MODE}${MODE === 'dupes' ? ` (also re-doing images shared by >${DUPE_THRESHOLD} articles)` : ''}`);
 
   if (ORDER === 'newest') {
     affected.sort((x, y) => y.generatedAt.localeCompare(x.generatedAt));
@@ -122,6 +144,8 @@ async function main() {
   }
 
   // 3) Write the new image onto every locale's copy of each affected slug.
+  //    An article qualifies if it's on the fallback image, or (dupes mode) its
+  //    current image is over-shared. We only touch combos we actually re-fetched.
   let updated = 0;
   for (const lang of langs) {
     const langDir = path.join(CONTENT_DIR, lang);
@@ -132,8 +156,10 @@ async function main() {
       if (!a || !a.destination || !a.theme) continue;
       const img = imageByCombo.get(`${a.destination}-${a.theme}`);
       if (!img) continue;
-      // Only overwrite articles that are currently on the fallback image.
-      if (a.imageAlt !== FALLBACK_ALT) continue;
+      const curImg = (a.imageUrl || '').split('?')[0];
+      const isFallback = a.imageAlt === FALLBACK_ALT;
+      const overShared = MODE === 'dupes' && curImg !== '' && (imageCount.get(curImg) || 0) > DUPE_THRESHOLD;
+      if (!isFallback && !overShared) continue;
       const merged = { ...a, ...img };
       fs.writeFileSync(fp, JSON.stringify(merged, null, 2));
       updated++;

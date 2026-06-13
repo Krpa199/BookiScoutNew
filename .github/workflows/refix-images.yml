@@ -21,6 +21,19 @@ on:
         options:
           - 'newest'
           - 'alpha'
+      mode:
+        description: '"fallback" = only suitcase-fallback articles. "dupes" = also re-do over-shared images (recommended to finish cleanup).'
+        required: false
+        default: 'fallback'
+        type: choice
+        options:
+          - 'fallback'
+          - 'dupes'
+      dupe_threshold:
+        description: 'In dupes mode: re-do any image shared by MORE than this many articles.'
+        required: false
+        default: '5'
+        type: string
       dry_run:
         description: 'Dry run: fetch + log but do not write/commit anything'
         required: false
@@ -64,6 +77,8 @@ jobs:
           UNSPLASH_API_KEY: ${{ secrets.UNSPLASH_API_KEY }}
           LIMIT: ${{ github.event.inputs.limit }}
           ORDER: ${{ github.event.inputs.order }}
+          MODE: ${{ github.event.inputs.mode }}
+          DUPE_THRESHOLD: ${{ github.event.inputs.dupe_threshold }}
           DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && '1' || '' }}
 
       - name: Check for changes

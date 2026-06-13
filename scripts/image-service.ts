@@ -33,8 +33,15 @@ function getGeminiImageApiKey(): string {
 // ============================================================================
 
 const ENABLE_AI_VALIDATION = true;
-const MAX_VALIDATION_ATTEMPTS = 8; // 8 attempts per article, 50 articles × 8 = 400 (under 1500 limit)
-const MAX_DAILY_VALIDATIONS = 1400; // Stay under 1500 free tier limit (buffer for safety)
+const MAX_VALIDATION_ATTEMPTS = 8; // attempts per article before giving up and using fallback
+// Daily cap on AI validations. The old 1400 default was a FREE-TIER guard; the
+// Gemini image key is now on the PAID plan, so the cap mainly exists to avoid a
+// runaway. Override with MAX_DAILY_VALIDATIONS env var. Default is high enough
+// that normal daily generation and full refix batches never get throttled into
+// using unvalidated images.
+const MAX_DAILY_VALIDATIONS = process.env.MAX_DAILY_VALIDATIONS
+  ? parseInt(process.env.MAX_DAILY_VALIDATIONS, 10)
+  : 50000;
 
 // Track daily validation count
 let dailyValidationCount = 0;
