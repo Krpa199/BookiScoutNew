@@ -9,9 +9,9 @@ on:
   workflow_dispatch:
     inputs:
       limit:
-        description: 'Max destination+theme combos to process (blank = all). Start small to test, e.g. 20.'
+        description: 'Max destination+theme combos to process (blank = ALL). Set e.g. 20 for a small test run.'
         required: false
-        default: '20'
+        default: ''
         type: string
       order:
         description: 'Which articles to process first. "newest" = most recently generated (recommended for a test run).'
