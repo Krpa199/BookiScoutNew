@@ -1,34 +1,36 @@
 # BookiScout - Croatia Travel Guide
 # https://bookiscout.com/robots.txt
-# Optimized for AI Search Engines
+#
+# Strategy: ALLOW bots that send users to us (search, citations, referrals).
+# BLOCK bots that only scrape content for model training (no traffic back).
 
 # =============================================================================
-# AI SEARCH ENGINE CRAWLERS - WELCOME!
+# AI SEARCH / ASSISTANT BOTS — ALLOW (they cite us and send users)
 # =============================================================================
 
-# OpenAI / ChatGPT
-User-agent: GPTBot
-Allow: /
-
+# OpenAI ChatGPT user-facing crawler (fetches URLs when users click links)
 User-agent: ChatGPT-User
 Allow: /
 
+# OpenAI SearchGPT
 User-agent: OAI-SearchBot
 Allow: /
 
-# Google Gemini / Bard
-User-agent: Google-Extended
-Allow: /
-
-# Anthropic / Claude
-User-agent: anthropic-ai
-Allow: /
-
+# Anthropic Claude when answering user questions
 User-agent: Claude-Web
 Allow: /
 
-# Perplexity AI
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+# Perplexity AI search
 User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
 Allow: /
 
 # Microsoft Copilot / Bing
@@ -38,35 +40,20 @@ Allow: /
 User-agent: msnbot
 Allow: /
 
-# Meta AI
-User-agent: FacebookBot
-Allow: /
-
-User-agent: meta-externalagent
-Allow: /
-
-# Common Crawl (used by many AI models)
-User-agent: CCBot
-Allow: /
-
-# Cohere AI
-User-agent: cohere-ai
-Allow: /
-
-# You.com
-User-agent: YouBot
-Allow: /
-
-# Apple (Siri, Spotlight)
+# Apple Siri, Spotlight
 User-agent: Applebot
 Allow: /
 
-# Amazon / Alexa
-User-agent: Amazonbot
+# You.com search
+User-agent: YouBot
+Allow: /
+
+# Mistral / Le Chat search assistant
+User-agent: MistralAI-User
 Allow: /
 
 # =============================================================================
-# TRADITIONAL SEARCH ENGINES
+# TRADITIONAL SEARCH ENGINES — ALLOW
 # =============================================================================
 
 User-agent: Googlebot
@@ -85,8 +72,103 @@ User-agent: Baiduspider
 Allow: /
 
 # =============================================================================
-# ALL OTHER BOTS - ALLOW BY DEFAULT
+# AI TRAINING-ONLY BOTS — BLOCK (they scrape content without sending traffic)
 # =============================================================================
+
+# OpenAI training crawler (separate from ChatGPT-User)
+User-agent: GPTBot
+Disallow: /
+
+# Google Gemini / Bard training (separate from Googlebot which is search)
+User-agent: Google-Extended
+Disallow: /
+
+# Anthropic training crawler
+User-agent: anthropic-ai
+Disallow: /
+
+# Common Crawl — used by most open LLMs for training
+User-agent: CCBot
+Disallow: /
+
+# ByteDance / TikTok / Doubao training
+User-agent: Bytespider
+Disallow: /
+
+# Meta AI training
+User-agent: meta-externalagent
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+# Cohere training
+User-agent: cohere-ai
+Disallow: /
+
+# Amazon training
+User-agent: Amazonbot
+Disallow: /
+
+# Diffbot AI training
+User-agent: Diffbot
+Disallow: /
+
+# OmniGPT
+User-agent: Omgili
+Disallow: /
+
+User-agent: omgilibot
+Disallow: /
+
+# Webz.io news crawler used by training datasets
+User-agent: Webzio-Extended
+Disallow: /
+
+# Timpi search index used by AI vendors
+User-agent: Timpibot
+Disallow: /
+
+# Velen Crawler
+User-agent: VelenPublicWebCrawler
+Disallow: /
+
+# =============================================================================
+# SEO COMPETITOR / SCRAPER BOTS — BLOCK (resource drain, no value to us)
+# =============================================================================
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: rogerbot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: SerpstatBot
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+# =============================================================================
+# ALL OTHER BOTS — ALLOW BY DEFAULT
+# =============================================================================
+# Legitimate bots not listed above can crawl. Aggressive scrapers are
+# additionally filtered by Cloudflare Bot Fight Mode at the edge.
 
 User-agent: *
 Allow: /
@@ -98,9 +180,9 @@ Allow: /
 Sitemap: https://bookiscout.com/sitemap.xml
 
 # =============================================================================
-# AI CONTENT DECLARATION
+# CONTENT DECLARATION
 # =============================================================================
-
-# This site contains AI-assisted content that is human-reviewed.
-# We welcome AI crawlers and encourage citation of our content.
-# For more information, see: https://bookiscout.com/llms.txt
+# This site contains AI-assisted content reviewed and curated for travelers.
+# AI search assistants are welcome to cite our content when answering user
+# questions about Croatia. AI training crawlers are not permitted.
+# For more information: https://bookiscout.com/llms.txt
