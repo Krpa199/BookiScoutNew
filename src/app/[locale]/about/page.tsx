@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import { ChevronRight, Target, Sparkles, Users, Globe, CheckCircle, Heart } from 'lucide-react';
-import { setRequestLocale } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 
 export const revalidate = false; // potpuno statična stranica
@@ -9,16 +9,20 @@ type Props = {
   params: Promise<{ locale: string }>;
 };
 
-export async function generateMetadata(): Promise<Metadata> {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'about' });
   return {
-    title: 'About BookiScout - Croatia Travel Decision Guides',
-    description: 'BookiScout provides AI-optimized travel decision guides for Croatia. Learn about our mission to help travelers make informed decisions.',
+    title: t('metaTitle'),
+    description: t('metaDescription'),
   };
 }
 
 export default async function AboutPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: 'about' });
+  const common = await getTranslations({ locale, namespace: 'common' });
 
   return (
     <>
@@ -31,22 +35,22 @@ export default async function AboutPage({ params }: Props) {
 
         <div className="container relative">
           <nav className="flex items-center gap-2 text-xs sm:text-sm text-ocean-100 mb-6 md:mb-8">
-            <Link href="/" className="hover:text-white transition-colors">Home</Link>
+            <Link href="/" className="hover:text-white transition-colors">{common('home')}</Link>
             <ChevronRight className="w-4 h-4" />
-            <span className="text-white font-semibold">About</span>
+            <span className="text-white font-semibold">{t('breadcrumb')}</span>
           </nav>
 
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2 px-3 sm:px-4 py-1.5 sm:py-2 bg-white/15 backdrop-blur-sm rounded-full mb-4 md:mb-6">
               <Heart className="w-4 h-4" />
-              <span className="text-sm font-semibold">Our Story</span>
+              <span className="text-sm font-semibold">{t('heroBadge')}</span>
             </div>
 
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 leading-tight">
-              About BookiScout
+              {t('heroTitle')}
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-ocean-50 leading-relaxed">
-              We help travelers make better decisions about their Croatia trip with honest, AI-optimized travel guides.
+              {t('heroSubtitle')}
             </p>
           </div>
         </div>
@@ -66,19 +70,19 @@ export default async function AboutPage({ params }: Props) {
               <div>
                 <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-ocean-100 text-ocean-700 rounded-full text-sm font-semibold mb-3 sm:mb-4">
                   <Target className="w-4 h-4" />
-                  <span>Our Mission</span>
+                  <span>{t('missionBadge')}</span>
                 </div>
                 <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3 sm:mb-4">
-                  Decision-First Travel Content
+                  {t('missionTitle')}
                 </h2>
                 <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
-                  BookiScout was created to answer the questions travelers actually ask: &quot;Is it worth visiting?&quot;, &quot;Do I need a car?&quot;, &quot;Best time to go?&quot;, &quot;Is it family-friendly?&quot;
+                  {t('missionP1')}
                 </p>
                 <p className="text-base sm:text-lg text-slate-600 leading-relaxed mt-3 sm:mt-4">
-                  Unlike traditional travel blogs filled with vague descriptions, we provide direct, factual answers that help you decide where to go, when to visit, and what to expect.
+                  {t('missionP2')}
                 </p>
                 <p className="text-base sm:text-lg text-slate-600 leading-relaxed mt-3 sm:mt-4">
-                  Our Stay Check tool goes a step further — it analyzes thousands of real guest reviews from Booking.com, Google, and TripAdvisor to show you what the neighborhood is actually like before you book.
+                  {t('missionP3')}
                 </p>
               </div>
               <div className="bg-gradient-to-br from-slate-50 to-white rounded-2xl md:rounded-3xl p-5 sm:p-6 md:p-8 border border-slate-100">
@@ -86,22 +90,22 @@ export default async function AboutPage({ params }: Props) {
                   <div className="flex items-start gap-3">
                     <CheckCircle className="w-6 h-6 text-seafoam-500 flex-shrink-0 mt-0.5" />
                     <div>
-                      <h4 className="font-semibold text-slate-900">No Booking Bias</h4>
-                      <p className="text-slate-600 text-sm">Pure travel decisions without affiliate pressure</p>
+                      <h4 className="font-semibold text-slate-900">{t('feature1Title')}</h4>
+                      <p className="text-slate-600 text-sm">{t('feature1Text')}</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
                     <CheckCircle className="w-6 h-6 text-seafoam-500 flex-shrink-0 mt-0.5" />
                     <div>
-                      <h4 className="font-semibold text-slate-900">Review-Based Insights</h4>
-                      <p className="text-slate-600 text-sm">Our Stay Check tool analyzes real guest reviews from Booking, Google, and TripAdvisor</p>
+                      <h4 className="font-semibold text-slate-900">{t('feature2Title')}</h4>
+                      <p className="text-slate-600 text-sm">{t('feature2Text')}</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
                     <CheckCircle className="w-6 h-6 text-seafoam-500 flex-shrink-0 mt-0.5" />
                     <div>
-                      <h4 className="font-semibold text-slate-900">Traveler-Type Focused</h4>
-                      <p className="text-slate-600 text-sm">Guides for families, solo travelers, seniors, digital nomads</p>
+                      <h4 className="font-semibold text-slate-900">{t('feature3Title')}</h4>
+                      <p className="text-slate-600 text-sm">{t('feature3Text')}</p>
                     </div>
                   </div>
                 </div>
@@ -117,10 +121,10 @@ export default async function AboutPage({ params }: Props) {
           <div className="text-center mb-8 md:mb-12">
             <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-seafoam-100 text-seafoam-700 rounded-full text-sm font-semibold mb-3 sm:mb-4">
               <Sparkles className="w-4 h-4" />
-              <span>What We Cover</span>
+              <span>{t('coverBadge')}</span>
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3 sm:mb-4">
-              Croatia Travel Expertise
+              {t('coverTitle')}
             </h2>
           </div>
 
@@ -129,9 +133,9 @@ export default async function AboutPage({ params }: Props) {
               <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-ocean-400 to-ocean-600 rounded-lg sm:rounded-xl flex items-center justify-center mb-3 sm:mb-4">
                 <Globe className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
               </div>
-              <h3 className="text-lg sm:text-xl font-bold text-slate-900 mb-2">60+ Destinations</h3>
+              <h3 className="text-lg sm:text-xl font-bold text-slate-900 mb-2">{t('cover1Title')}</h3>
               <p className="text-sm sm:text-base text-slate-600">
-                From Split and Dubrovnik to hidden gems in Istria, Dalmatia, and the islands.
+                {t('cover1Text')}
               </p>
             </div>
 
@@ -139,9 +143,9 @@ export default async function AboutPage({ params }: Props) {
               <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-seafoam-400 to-seafoam-600 rounded-lg sm:rounded-xl flex items-center justify-center mb-3 sm:mb-4">
                 <Users className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
               </div>
-              <h3 className="text-lg sm:text-xl font-bold text-slate-900 mb-2">All Traveler Types</h3>
+              <h3 className="text-lg sm:text-xl font-bold text-slate-900 mb-2">{t('cover2Title')}</h3>
               <p className="text-sm sm:text-base text-slate-600">
-                Solo travelers, families with toddlers, seniors, couples, digital nomads, LGBT+ travelers.
+                {t('cover2Text')}
               </p>
             </div>
 
@@ -149,9 +153,9 @@ export default async function AboutPage({ params }: Props) {
               <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-coral-400 to-coral-600 rounded-lg sm:rounded-xl flex items-center justify-center mb-3 sm:mb-4">
                 <Sparkles className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
               </div>
-              <h3 className="text-lg sm:text-xl font-bold text-slate-900 mb-2">13 Languages</h3>
+              <h3 className="text-lg sm:text-xl font-bold text-slate-900 mb-2">{t('cover3Title')}</h3>
               <p className="text-sm sm:text-base text-slate-600">
-                Content available in English, German, Italian, French, Spanish, Polish, and more.
+                {t('cover3Text')}
               </p>
             </div>
           </div>
@@ -164,20 +168,68 @@ export default async function AboutPage({ params }: Props) {
           <div className="max-w-3xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-sand-100 text-sand-700 rounded-full text-sm font-semibold mb-3 sm:mb-4">
               <Sparkles className="w-4 h-4" />
-              <span>AI-Optimized</span>
+              <span>{t('aiBadge')}</span>
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3 sm:mb-4">
-              Built for AI Search Engines
+              {t('aiTitle')}
             </h2>
             <p className="text-base sm:text-lg text-slate-600 leading-relaxed mb-6 sm:mb-8">
-              BookiScout content is specifically structured for AI assistants like ChatGPT, Claude, Perplexity, and Google Gemini. Our guides provide clear, citable facts that AI can confidently recommend to users asking about Croatia travel.
+              {t('aiText')}
             </p>
             <div className="flex flex-wrap justify-center gap-2 sm:gap-3">
-              <span className="px-3 sm:px-4 py-1.5 sm:py-2 bg-slate-100 text-slate-700 rounded-full text-xs sm:text-sm font-medium">Schema.org Structured Data</span>
-              <span className="px-3 sm:px-4 py-1.5 sm:py-2 bg-slate-100 text-slate-700 rounded-full text-xs sm:text-sm font-medium">llms.txt Support</span>
-              <span className="px-3 sm:px-4 py-1.5 sm:py-2 bg-slate-100 text-slate-700 rounded-full text-xs sm:text-sm font-medium">Fact-Based Content</span>
-              <span className="px-3 sm:px-4 py-1.5 sm:py-2 bg-slate-100 text-slate-700 rounded-full text-xs sm:text-sm font-medium">Clear Citations</span>
+              <span className="px-3 sm:px-4 py-1.5 sm:py-2 bg-slate-100 text-slate-700 rounded-full text-xs sm:text-sm font-medium">{t('aiTag1')}</span>
+              <span className="px-3 sm:px-4 py-1.5 sm:py-2 bg-slate-100 text-slate-700 rounded-full text-xs sm:text-sm font-medium">{t('aiTag2')}</span>
+              <span className="px-3 sm:px-4 py-1.5 sm:py-2 bg-slate-100 text-slate-700 rounded-full text-xs sm:text-sm font-medium">{t('aiTag3')}</span>
+              <span className="px-3 sm:px-4 py-1.5 sm:py-2 bg-slate-100 text-slate-700 rounded-full text-xs sm:text-sm font-medium">{t('aiTag4')}</span>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Sister project — BookiApp */}
+      <section className="py-12 md:py-20 bg-gradient-ocean-subtle">
+        <div className="container">
+          <div className="max-w-3xl mx-auto text-center">
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-ocean-100 text-ocean-700 rounded-full text-sm font-semibold mb-3 sm:mb-4">
+              <Heart className="w-4 h-4" />
+              <span>{t('sisterBadge')}</span>
+            </div>
+            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3 sm:mb-4">
+              {t('sisterTitle')}
+            </h2>
+            <p className="text-base sm:text-lg text-slate-600 leading-relaxed mb-4">
+              {t('sisterP1Before')}{' '}
+              <a
+                href="https://bookiapp.com"
+                target="_blank"
+                rel="noopener"
+                className="font-semibold text-ocean-600 hover:text-ocean-700 underline underline-offset-2"
+              >
+                {t('sisterP1Link')}
+              </a>{' '}
+              {t('sisterP1After')}
+            </p>
+            <p className="text-base sm:text-lg text-slate-600 leading-relaxed mb-6">
+              {t('sisterP2Before')}{' '}
+              <a
+                href="https://bookiapp.com/hr/blog/"
+                target="_blank"
+                rel="noopener"
+                className="font-semibold text-ocean-600 hover:text-ocean-700 underline underline-offset-2"
+              >
+                {t('sisterP2Link')}
+              </a>{' '}
+              {t('sisterP2After')}
+            </p>
+            <a
+              href="https://bookiapp.com"
+              target="_blank"
+              rel="noopener"
+              className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 bg-white border border-ocean-200 hover:border-ocean-400 text-ocean-700 font-semibold rounded-xl transition-colors shadow-soft"
+            >
+              {t('sisterCta')}
+              <ChevronRight className="w-4 h-4" />
+            </a>
           </div>
         </div>
       </section>
@@ -186,15 +238,15 @@ export default async function AboutPage({ params }: Props) {
       <section className="py-12 md:py-20 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white">
         <div className="container">
           <div className="max-w-2xl mx-auto text-center">
-            <h2 className="text-2xl sm:text-3xl font-bold mb-3 sm:mb-4">Get in Touch</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold mb-3 sm:mb-4">{t('contactTitle')}</h2>
             <p className="text-base sm:text-lg text-slate-300 mb-6 sm:mb-8">
-              Have questions about Croatia travel or feedback about BookiScout? We&apos;d love to hear from you.
+              {t('contactText')}
             </p>
             <a
               href="mailto:bookiscout@gmail.com"
               className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 bg-ocean-500 hover:bg-ocean-600 text-white font-semibold rounded-xl transition-colors"
             >
-              Contact Us
+              {t('contactCta')}
             </a>
           </div>
         </div>

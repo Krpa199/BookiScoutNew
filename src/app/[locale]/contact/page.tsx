@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import { ChevronRight, Mail, MessageSquare, Clock, MapPin } from 'lucide-react';
-import { setRequestLocale } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 
 export const revalidate = false; // potpuno statična stranica
@@ -9,16 +9,20 @@ type Props = {
   params: Promise<{ locale: string }>;
 };
 
-export async function generateMetadata(): Promise<Metadata> {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'contact' });
   return {
-    title: 'Contact Us - BookiScout',
-    description: 'Get in touch with BookiScout. Questions about Croatia travel? Feedback about our guides? We\'d love to hear from you.',
+    title: t('metaTitle'),
+    description: t('metaDescription'),
   };
 }
 
 export default async function ContactPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: 'contact' });
+  const common = await getTranslations({ locale, namespace: 'common' });
 
   return (
     <>
@@ -31,22 +35,22 @@ export default async function ContactPage({ params }: Props) {
 
         <div className="container relative">
           <nav className="flex items-center gap-2 text-xs sm:text-sm text-ocean-100 mb-6 md:mb-8">
-            <Link href="/" className="hover:text-white transition-colors">Home</Link>
+            <Link href="/" className="hover:text-white transition-colors">{common('home')}</Link>
             <ChevronRight className="w-4 h-4" />
-            <span className="text-white font-semibold">Contact</span>
+            <span className="text-white font-semibold">{t('breadcrumb')}</span>
           </nav>
 
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2 px-3 sm:px-4 py-1.5 sm:py-2 bg-white/15 backdrop-blur-sm rounded-full mb-4 md:mb-6">
               <MessageSquare className="w-4 h-4" />
-              <span className="text-sm font-semibold">Get in Touch</span>
+              <span className="text-sm font-semibold">{t('heroBadge')}</span>
             </div>
 
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 leading-tight">
-              Contact Us
+              {t('heroTitle')}
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-ocean-50 leading-relaxed">
-              Have questions about Croatia travel or feedback about our guides? We&apos;d love to hear from you.
+              {t('heroSubtitle')}
             </p>
           </div>
         </div>
@@ -66,9 +70,9 @@ export default async function ContactPage({ params }: Props) {
 
               {/* Main Contact */}
               <div>
-                <h2 className="text-xl sm:text-2xl font-bold text-slate-900 mb-4 sm:mb-6">Send Us a Message</h2>
+                <h2 className="text-xl sm:text-2xl font-bold text-slate-900 mb-4 sm:mb-6">{t('sendTitle')}</h2>
                 <p className="text-sm sm:text-base text-slate-600 mb-6 sm:mb-8">
-                  The best way to reach us is via email. We try to respond to all inquiries within 48 hours.
+                  {t('sendText')}
                 </p>
 
                 <a
@@ -79,7 +83,7 @@ export default async function ContactPage({ params }: Props) {
                     <Mail className="w-6 h-6 sm:w-7 sm:h-7 text-white" />
                   </div>
                   <div className="min-w-0">
-                    <p className="text-xs sm:text-sm text-slate-500 font-medium">Email us at</p>
+                    <p className="text-xs sm:text-sm text-slate-500 font-medium">{t('emailLabel')}</p>
                     <p className="text-base sm:text-xl font-bold text-ocean-600 truncate">bookiscout@gmail.com</p>
                   </div>
                 </a>
@@ -87,7 +91,7 @@ export default async function ContactPage({ params }: Props) {
 
               {/* Additional Info */}
               <div>
-                <h2 className="text-xl sm:text-2xl font-bold text-slate-900 mb-4 sm:mb-6">What We Can Help With</h2>
+                <h2 className="text-xl sm:text-2xl font-bold text-slate-900 mb-4 sm:mb-6">{t('helpTitle')}</h2>
 
                 <div className="space-y-3 sm:space-y-4">
                   <div className="flex items-start gap-3 sm:gap-4 p-3 sm:p-4 bg-slate-50 rounded-lg sm:rounded-xl">
@@ -95,8 +99,8 @@ export default async function ContactPage({ params }: Props) {
                       <MessageSquare className="w-4 h-4 sm:w-5 sm:h-5 text-seafoam-600" />
                     </div>
                     <div>
-                      <h3 className="text-sm sm:text-base font-semibold text-slate-900">Travel Questions</h3>
-                      <p className="text-xs sm:text-sm text-slate-600">Questions about Croatia destinations, best times to visit, or travel planning</p>
+                      <h3 className="text-sm sm:text-base font-semibold text-slate-900">{t('help1Title')}</h3>
+                      <p className="text-xs sm:text-sm text-slate-600">{t('help1Text')}</p>
                     </div>
                   </div>
 
@@ -105,8 +109,8 @@ export default async function ContactPage({ params }: Props) {
                       <MessageSquare className="w-4 h-4 sm:w-5 sm:h-5 text-ocean-600" />
                     </div>
                     <div>
-                      <h3 className="text-sm sm:text-base font-semibold text-slate-900">Feedback & Suggestions</h3>
-                      <p className="text-xs sm:text-sm text-slate-600">Ideas for improving our guides or new content you&apos;d like to see</p>
+                      <h3 className="text-sm sm:text-base font-semibold text-slate-900">{t('help2Title')}</h3>
+                      <p className="text-xs sm:text-sm text-slate-600">{t('help2Text')}</p>
                     </div>
                   </div>
 
@@ -115,8 +119,8 @@ export default async function ContactPage({ params }: Props) {
                       <MessageSquare className="w-4 h-4 sm:w-5 sm:h-5 text-coral-600" />
                     </div>
                     <div>
-                      <h3 className="text-sm sm:text-base font-semibold text-slate-900">Content Corrections</h3>
-                      <p className="text-xs sm:text-sm text-slate-600">Spotted an error or outdated information? Let us know</p>
+                      <h3 className="text-sm sm:text-base font-semibold text-slate-900">{t('help3Title')}</h3>
+                      <p className="text-xs sm:text-sm text-slate-600">{t('help3Text')}</p>
                     </div>
                   </div>
                 </div>
@@ -130,9 +134,9 @@ export default async function ContactPage({ params }: Props) {
                   <Clock className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 text-white" />
                 </div>
                 <div>
-                  <h3 className="text-lg sm:text-xl font-bold text-slate-900 mb-1 sm:mb-2">Response Time</h3>
+                  <h3 className="text-lg sm:text-xl font-bold text-slate-900 mb-1 sm:mb-2">{t('responseTitle')}</h3>
                   <p className="text-sm sm:text-base text-slate-600">
-                    We typically respond within 24-48 hours. For urgent travel questions, please note that we&apos;re a small team and may not be able to provide immediate assistance.
+                    {t('responseText')}
                   </p>
                 </div>
               </div>
@@ -145,9 +149,9 @@ export default async function ContactPage({ params }: Props) {
                   <MapPin className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 text-white" />
                 </div>
                 <div>
-                  <h3 className="text-lg sm:text-xl font-bold text-slate-900 mb-1 sm:mb-2">Based in Croatia</h3>
+                  <h3 className="text-lg sm:text-xl font-bold text-slate-900 mb-1 sm:mb-2">{t('locationTitle')}</h3>
                   <p className="text-sm sm:text-base text-slate-600">
-                    BookiScout is proudly based in Croatia, giving us firsthand knowledge of the destinations we write about.
+                    {t('locationText')}
                   </p>
                 </div>
               </div>
