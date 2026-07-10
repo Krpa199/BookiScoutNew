@@ -307,6 +307,11 @@
       },
       "practicalNotes": "Note pratiche",
       "keyTakeaways": "Punti chiave",
+      "disclaimer": {
+        "title": "Informazioni su questa guida",
+        "body": "Questa guida è realizzata a partire da informazioni pubbliche, recensioni dei viaggiatori e ricerche sulla destinazione per aiutarti a pianificare. La teniamo aggiornata, ma prezzi, orari e condizioni cambiano spesso — verifica i dettagli importanti (tariffe, biglietti, requisiti di ingresso) presso fonti ufficiali prima di partire.",
+        "lastUpdated": "Ultimo aggiornamento {date}"
+      },
       "faq": {
         "title": "Domande frequenti",
         "subtitle": "Tutto quello che devi sapere su {destination}"

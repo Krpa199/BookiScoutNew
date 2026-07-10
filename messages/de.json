@@ -307,6 +307,11 @@
       },
       "practicalNotes": "Praktische Hinweise",
       "keyTakeaways": "Wichtige Erkenntnisse",
+      "disclaimer": {
+        "title": "Über diesen Leitfaden",
+        "body": "Dieser Leitfaden basiert auf öffentlichen Informationen, Reisebewertungen und Recherchen zum Reiseziel, um Ihre Planung zu erleichtern. Wir halten ihn aktuell, doch Preise, Öffnungszeiten und Bedingungen ändern sich oft — bitte überprüfen Sie wichtige Angaben (Fahrpreise, Tickets, Einreisebestimmungen) vor Ihrer Reise bei offiziellen Quellen.",
+        "lastUpdated": "Zuletzt aktualisiert am {date}"
+      },
       "faq": {
         "title": "Häufig gestellte Fragen",
         "subtitle": "Alles, was Sie über {destination} wissen müssen"

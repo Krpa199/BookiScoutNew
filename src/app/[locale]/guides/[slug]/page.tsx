@@ -11,7 +11,7 @@ import ArticleSchema from '@/components/article/ArticleSchema';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import ReadingProgress from '@/components/ui/ReadingProgress';
 import AnimatedFaq from '@/components/ui/AnimatedFaq';
-import { MapPin, Clock, Calendar, ChevronRight, CheckCircle, Sparkles, Shield, Star, HelpCircle, ArrowRight } from 'lucide-react';
+import { MapPin, Clock, Calendar, ChevronRight, CheckCircle, Sparkles, Shield, Star, HelpCircle, ArrowRight, Info } from 'lucide-react';
 import Image from 'next/image';
 
 // ISR strategy (since 2026-05-31): pre-render only top-traffic articles at build time
@@ -865,6 +865,24 @@ export default async function GuidePage({ params }: Props) {
                 </section>
               </ScrollReveal>
             )}
+
+            {/* Transparency disclaimer + freshness — E-E-A-T signal for Google/YMYL */}
+            <ScrollReveal delay={220}>
+              <section className="flex gap-3 sm:gap-4 bg-slate-50 border border-slate-200 rounded-xl sm:rounded-2xl p-4 sm:p-5" aria-labelledby="disclaimer-heading">
+                <Info className="w-5 h-5 text-slate-400 flex-shrink-0 mt-0.5" aria-hidden="true" />
+                <div>
+                  <h2 id="disclaimer-heading" className="text-sm font-semibold text-slate-700 mb-1">{t('disclaimer.title')}</h2>
+                  <p className="text-xs sm:text-sm text-slate-500 leading-relaxed mb-2">{t('disclaimer.body')}</p>
+                  <p className="text-xs text-slate-400">
+                    {t('disclaimer.lastUpdated', {
+                      date: new Date(article.generatedAt).toLocaleDateString(locale, {
+                        year: 'numeric', month: 'long', day: 'numeric',
+                      }),
+                    })}
+                  </p>
+                </div>
+              </section>
+            </ScrollReveal>
 
             {/* Related Guides - Good for AI and user engagement */}
             {relatedArticles.length > 0 && (

@@ -38,6 +38,10 @@ env:
   # 20 articles per run = steady daily cadence (~7 per key × 3 keys, well under free tier limit).
   # Lower burst = better Googlebot crawl rhythm than 50-then-pause pattern.
   ARTICLES_PER_RUN: ${{ github.event.inputs.articles_count || '20' }}
+  # Web-search grounding ON for generation. Applies ONLY to English generation of
+  # fact-sensitive themes (GROUNDING_THEMES: prices, schedules, entry rules — ~33% of
+  # themes). Stable topics (history, beaches) skip it. Billed ~$0.035/grounded call.
+  GEMINI_GROUNDING: 'on'
 
 jobs:
   # First job: Check if we should run

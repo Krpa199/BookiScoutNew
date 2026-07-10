@@ -311,6 +311,11 @@
       },
       "practicalNotes": "Practical Notes",
       "keyTakeaways": "Key Takeaways",
+      "disclaimer": {
+        "title": "About this guide",
+        "body": "This guide is compiled from public information, traveler reviews, and destination research to help you plan. We keep it up to date, but prices, opening hours, and conditions change often — please double-check critical details (fares, tickets, entry rules) with official sources before you travel.",
+        "lastUpdated": "Last updated {date}"
+      },
       "faq": {
         "title": "Frequently Asked Questions",
         "subtitle": "Everything you need to know about {destination}"

@@ -3,7 +3,7 @@ config({ path: '.env.local' });
 
 import { GoogleGenerativeAI, GenerativeModel } from '@google/generative-ai';
 import { LANGUAGES, LanguageCode } from '../src/config/languages';
-import { Destination, Theme } from '../src/config/destinations';
+import { Destination, Theme, GROUNDING_THEMES } from '../src/config/destinations';
 
 // =============================================================================
 // API KEY ROTATION SYSTEM
@@ -33,7 +33,8 @@ const API_LIMITS = {
   // - Flash Lite (translations): 50 × 12 = 600 total = 200 per key (well under 1500 limit)
   //
   PRO_DAILY: 500,         // 500 per key × 3 keys = 1500 articles max (Flash has 1500/day limit)
-  FLASH_DAILY: 500,       // 500 per key × 3 keys = 1500 translations max
+  FLASH_DAILY: 2000,      // Raised for paid plan (2026-07-10) to clear the ~605-translation backlog in one run
+
   PRO_DELAY_MS: 3000,     // 3 seconds between calls (Flash is faster, no need for 15s)
   FLASH_DELAY_MS: 3000,   // 3 seconds between Flash Lite calls
   RETRY_DELAY_MS: 60000,  // 1 minute wait on rate limit error
@@ -168,9 +169,39 @@ function getProModel(apiKey: string): GenerativeModel {
   return genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
 }
 
+// Google Search grounding. Two gates must BOTH pass for a call to be grounded:
+//   1. The GEMINI_GROUNDING env kill-switch is 'on' (default off — never bills unless set).
+//   2. The theme is in GROUNDING_THEMES — i.e. its accuracy depends on current facts
+//      (prices, schedules, entry rules). Stable topics (history, beaches, photo spots)
+//      are never grounded, which cuts ~60% of grounding spend for no quality loss.
+// Every grounded call is BILLED (~$0.035/call, $35 per 1000) — there is NO free tier
+// on this account. Grounding applies ONLY to English generation; translations reuse
+// the already-grounded text and never trigger a new search.
+export function isGroundingSwitchOn(): boolean {
+  return (process.env.GEMINI_GROUNDING || '').toLowerCase() === 'on';
+}
+
+export function isGroundingEnabled(theme?: Theme): boolean {
+  if (!isGroundingSwitchOn()) return false;
+  if (!theme) return false;
+  return GROUNDING_THEMES.has(theme);
+}
+
+function getGroundedProModel(apiKey: string): GenerativeModel {
+  const genAI = new GoogleGenerativeAI(apiKey);
+  return genAI.getGenerativeModel({
+    model: 'gemini-2.5-flash',
+    // @ts-expect-error — googleSearch is the Gemini 2.x grounding tool; SDK 0.21
+    // types still name the 1.5-era googleSearchRetrieval, but the runtime accepts this.
+    tools: [{ googleSearch: {} }],
+  });
+}
+
 function getFlashModel(apiKey: string): GenerativeModel {
   const genAI = new GoogleGenerativeAI(apiKey);
-  return genAI.getGenerativeModel({ model: 'gemini-2.5-flash-lite' });
+  // NOTE: gemini-2.5-flash-lite was retired for new callers (404). Fall back to
+  // gemini-2.5-flash, the same model getProModel uses successfully on this key.
+  return genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
 }
 
 // =============================================================================
@@ -895,11 +926,12 @@ export async function generateArticle(
     throw new Error(`All API keys exhausted for Pro model. Remaining: Pro=${remaining.pro}, Flash=${remaining.flash}`);
   }
 
-  const model = getProModel(keyState.key);
+  const grounding = isGroundingEnabled(theme);
+  const model = grounding ? getGroundedProModel(keyState.key) : getProModel(keyState.key);
   const langName = LANGUAGES[language].name;
   const prompt = buildPrompt(destination, theme, langName);
 
-  console.log(`  🔑 Using API key #${getKeyManager().keys.indexOf(keyState) + 1} (Pro calls today: ${keyState.proCallsToday}/${API_LIMITS.PRO_DAILY})`);
+  console.log(`  🔑 Using API key #${getKeyManager().keys.indexOf(keyState) + 1} (Pro calls today: ${keyState.proCallsToday}/${API_LIMITS.PRO_DAILY})${grounding ? ' 🔎 grounded' : ''}`);
 
   const result = await callWithRetry(
     async () => {
@@ -1095,6 +1127,79 @@ Spread them naturally throughout the article.`;
   }
 }
 
+// Themes that cover overlapping ground for the same destination tend to recycle
+// the same landmarks/restaurants/tips — which reads as duplicate content to Google
+// and wastes the reader's time. For each such theme we tell the model what the
+// SIBLING themes already cover, so it stays in its own lane and stays genuinely useful.
+const OVERLAP_GROUPS: Record<string, { focus: string; leaveTo: string }> = {
+  // "What to see/do" cluster
+  'things-to-do': {
+    focus: 'the main, must-see attractions and headline activities',
+    leaveTo: 'hidden/lesser-known spots, photo composition, and day trips out of town',
+  },
+  'hidden-gems': {
+    focus: 'lesser-known, local, off-the-beaten-path spots most tourists miss',
+    leaveTo: 'the famous headline attractions and standard sightseeing',
+  },
+  'photo-spots': {
+    focus: 'the best vantage points, light/timing for photos, and composition',
+    leaveTo: 'general sightseeing lists and activity descriptions',
+  },
+  'day-trips': {
+    focus: 'places reachable as an excursion OUTSIDE the destination itself',
+    leaveTo: 'attractions within the destination and in-town activities',
+  },
+  // Food cluster
+  'restaurants': {
+    focus: 'specific dining venues, types of restaurants, and where to eat',
+    leaveTo: 'traditional dishes and food culture (covered by local-food)',
+  },
+  'local-food': {
+    focus: 'traditional dishes, regional specialties, and food culture',
+    leaveTo: 'specific restaurant recommendations and venues',
+  },
+  'food-and-wine': {
+    focus: 'the wine/gastronomy experience, tastings, and pairings',
+    leaveTo: 'everyday restaurant picks and quick local dishes',
+  },
+  // Practical / connectivity cluster
+  'parking-difficulty': {
+    focus: 'how hard parking is, where it fills up, and realistic strategies',
+    leaveTo: 'general public transport and getting-around options',
+  },
+  'connectivity': {
+    focus: 'internet, wifi, and mobile coverage for staying connected',
+    leaveTo: 'coworking atmosphere and cafe recommendations (remote-work-cafes)',
+  },
+  'remote-work-cafes': {
+    focus: 'specific cafes/spots to work from, their atmosphere and power/wifi',
+    leaveTo: 'general connectivity and coverage facts (connectivity)',
+  },
+  // Seasonality cluster
+  'best-time-to-visit': {
+    focus: 'the overall verdict on when to go, balancing weather, crowds and price',
+    leaveTo: 'month-by-month weather detail and month-by-month crowd detail',
+  },
+  'weather-by-month': {
+    focus: 'a month-by-month breakdown of temperature, rain, and sea conditions',
+    leaveTo: 'the overall best-time recommendation and crowd levels',
+  },
+  'crowds-by-month': {
+    focus: 'how busy each month is and when to avoid the crowds',
+    leaveTo: 'weather specifics and the overall best-time verdict',
+  },
+};
+
+function buildAntiOverlapInstruction(theme: Theme): string {
+  const g = OVERLAP_GROUPS[theme];
+  if (!g) return '';
+  return `
+AVOID CONTENT OVERLAP — stay in this article's lane:
+- This article's job: focus on ${g.focus}.
+- Do NOT pad it with ${g.leaveTo} — those belong to separate articles.
+This keeps each guide genuinely distinct and useful, not a reshuffle of the same points.`;
+}
+
 function buildPrompt(destination: Destination, theme: Theme, language: string): string {
   // Dynamic theme description - covers all theme types
   const themeDescriptions: Partial<Record<Theme, string>> = {
@@ -1144,6 +1249,20 @@ function buildPrompt(destination: Destination, theme: Theme, language: string): 
     'peak-season': 'peak season guide and summer travel tips',
     'weather-by-month': 'monthly weather breakdown and what to expect',
     'crowds-by-month': 'crowd levels by month and best times to avoid crowds',
+    // Decision & opinion themes (2027) — give a balanced verdict with pros AND cons
+    'is-it-worth-it': 'an honest "is it worth visiting?" verdict weighing what is great against the downsides, crowds, and cost',
+    'overtourism-alternatives': 'quieter alternative destinations for travelers who want to avoid the crowds here',
+    'price-2027': 'how prices have changed recently and what a realistic 2027 budget looks like',
+    'scams-to-avoid': 'common tourist traps, overpricing, and scams to watch out for, with practical avoidance tips',
+    'worth-the-day-trip': 'an honest verdict on whether the day trip is worth the time and cost, and who should skip it',
+    // Modern practical themes (2027)
+    'connectivity': 'internet, wifi, mobile coverage and staying connected for work or travel',
+    'safety-for-women': 'solo female travel safety, practical tips, and areas to know about',
+    'remote-work-cafes': 'best cafes and spots to work from remotely, with wifi and atmosphere notes',
+    'ev-charging': 'electric vehicle charging stations and EV-friendly road trip planning',
+    'rainy-day': 'things to do on a rainy day and indoor activities',
+    'with-a-dog': 'traveling with a dog: dog-friendly beaches, ferries, and accommodation',
+    'local-etiquette': 'local etiquette, tipping norms, and cultural tips visitors should know',
     // Comparisons
     'vs-dubrovnik': 'comparison with Dubrovnik - which is better',
     'vs-split': 'comparison with Split - which is better',
@@ -1162,11 +1281,25 @@ function buildPrompt(destination: Destination, theme: Theme, language: string): 
 
   console.log(`  📝 Format: ${format.toUpperCase()}, Human phrases: ${humanPhrases.length}`);
 
+  const antiOverlap = buildAntiOverlapInstruction(theme);
+
+  // When grounding is on, the model tends to prepend commentary before the JSON
+  // (a search-result habit). This reinforces the "pure JSON only" contract so the
+  // parser doesn't fall back to lossy raw extraction.
+  const groundingNote = isGroundingEnabled(theme)
+    ? `
+GROUNDING: Use up-to-date facts from web search for prices, hours, and figures.
+Reflect what current sources say. Do NOT cite URLs or add source lists in the text.
+CRITICAL: Your entire response must be ONLY the JSON object — no preamble, no
+explanation, no "Here is...", nothing before "{" or after "}".`
+    : '';
+
   // Base instructions for all formats
   const baseInstructions = `
 Write an informative travel article in ${language} about ${themeDescription} in ${destination.name}, Croatia.
 
 IMPORTANT: The article must be optimized for AI search engines (ChatGPT, Perplexity, Claude, Google Gemini, Microsoft Copilot).
+${antiOverlap}${groundingNote}
 
 STRICT VOICE RULES — read carefully, breaking these makes the article unusable:
 1. DO NOT claim personal experience or authority. NEVER write phrases like:
@@ -1540,6 +1673,24 @@ function fixNestedJson(_rawText: string, data: Record<string, unknown>): Record<
   return data;
 }
 
+// Robustly isolate the JSON object from a model response. Handles markdown fences
+// (```json ... ```), leading preamble, and trailing commentary — all of which
+// grounded (web-search) responses add more often than plain generation.
+function extractJsonObject(text: string): string {
+  let s = text.trim();
+  // Strip a ```json / ``` fence if present (with or without a trailing newline).
+  const fence = s.match(/^```(?:json)?\s*([\s\S]*?)\s*```$/i);
+  if (fence) s = fence[1].trim();
+  // Fall back to slicing between the first { and the last } — tolerates any
+  // preamble ("Here is the article:") or trailing notes the model tacks on.
+  const first = s.indexOf('{');
+  const last = s.lastIndexOf('}');
+  if (first !== -1 && last !== -1 && last > first) {
+    s = s.slice(first, last + 1);
+  }
+  return s;
+}
+
 function parseArticleResponse(
   text: string,
   destination: Destination,
@@ -1547,16 +1698,7 @@ function parseArticleResponse(
   _language: LanguageCode
 ): ArticleData {
   try {
-    let cleanText = text.trim();
-    if (cleanText.startsWith('```json')) {
-      cleanText = cleanText.slice(7);
-    }
-    if (cleanText.startsWith('```')) {
-      cleanText = cleanText.slice(3);
-    }
-    if (cleanText.endsWith('```')) {
-      cleanText = cleanText.slice(0, -3);
-    }
+    const cleanText = extractJsonObject(text);
 
     let data = JSON.parse(cleanText);
 

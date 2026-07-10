@@ -307,6 +307,11 @@
       },
       "practicalNotes": "Praktične napomene",
       "keyTakeaways": "Ključne informacije",
+      "disclaimer": {
+        "title": "O ovom vodiču",
+        "body": "Ovaj je vodič sastavljen na temelju javnih informacija, recenzija putnika i istraživanja odredišta kako bismo vam pomogli u planiranju. Redovito ga ažuriramo, ali cijene, radno vrijeme i uvjeti često se mijenjaju — molimo provjerite ključne pojedinosti (cijene karata, ulaznice, uvjete ulaska) kod službenih izvora prije putovanja.",
+        "lastUpdated": "Zadnje ažurirano {date}"
+      },
       "faq": {
         "title": "Često postavljana pitanja",
         "subtitle": "Sve što trebate znati o {destination}"

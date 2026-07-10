@@ -90,24 +90,41 @@ export async function generateDailyArticles(count: number = 10) {
   let articlesGenerated = 0;
   let translationsGenerated = 0;
 
-  // Get priority destinations (popular ones first)
-  const priorityDestinations = DESTINATIONS.filter(d => d.popular);
-  const otherDestinations = DESTINATIONS.filter(d => !d.popular);
-  const sortedDestinations = [...priorityDestinations, ...otherDestinations];
-
-  // Find next topics to generate
-  const pendingTopics: { destination: Destination; theme: Theme }[] = [];
-
-  for (const destination of sortedDestinations) {
-    for (const theme of THEMES) {
-      const key = `${destination.slug}-${theme}`;
-      if (!tracker.generated.includes(key)) {
-        pendingTopics.push({ destination, theme });
+  // Build the FULL pending list, then shuffle within priority tiers.
+  //
+  // Why shuffle: generating destination-by-destination, theme-by-theme in a fixed
+  // order publishes dozens of near-adjacent articles about the same place in a row.
+  // Google reads that batch pattern as scaled/automated content. Interleaving the
+  // daily batch across many destinations and themes looks organic instead — the
+  // single biggest lever against a "scaled content abuse" penalty.
+  //
+  // We still respect SEO priority: popular destinations are drained before the rest.
+  // The shuffle only randomises order *within* each tier, so a day's output is a
+  // varied mix (Split parking, Hvar is-it-worth-it, Zadar rainy-day…) rather than
+  // "50 Zagreb articles".
+  const buildPending = (destinations: Destination[]) => {
+    const list: { destination: Destination; theme: Theme }[] = [];
+    for (const destination of destinations) {
+      for (const theme of THEMES) {
+        const key = `${destination.slug}-${theme}`;
+        if (!tracker.generated.includes(key)) {
+          list.push({ destination, theme });
+        }
       }
-      if (pendingTopics.length >= count) break;
     }
-    if (pendingTopics.length >= count) break;
-  }
+    // Fisher-Yates shuffle
+    for (let i = list.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [list[i], list[j]] = [list[j], list[i]];
+    }
+    return list;
+  };
+
+  const popularPending = buildPending(DESTINATIONS.filter(d => d.popular));
+  const otherPending = buildPending(DESTINATIONS.filter(d => !d.popular));
+
+  // Popular tier first (drained before the rest), each tier internally shuffled.
+  const pendingTopics = [...popularPending, ...otherPending].slice(0, count);
 
   if (pendingTopics.length === 0) {
     console.log('🎉 All topics have been generated!');

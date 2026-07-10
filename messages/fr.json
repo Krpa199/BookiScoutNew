@@ -307,6 +307,11 @@
       },
       "practicalNotes": "Notes pratiques",
       "keyTakeaways": "Points clés",
+      "disclaimer": {
+        "title": "À propos de ce guide",
+        "body": "Ce guide est constitué à partir d'informations publiques, d'avis de voyageurs et de recherches sur la destination pour vous aider à préparer votre voyage. Nous le tenons à jour, mais les prix, horaires et conditions changent souvent — vérifiez les détails importants (tarifs, billets, formalités d'entrée) auprès de sources officielles avant de partir.",
+        "lastUpdated": "Dernière mise à jour le {date}"
+      },
       "faq": {
         "title": "Questions fréquentes",
         "subtitle": "Tout ce que vous devez savoir sur {destination}"

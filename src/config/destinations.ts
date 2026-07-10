@@ -110,7 +110,6 @@ export const TRAVELER_TYPES = [
 // (1095 / 438 / 53 visitors in 30-day window, 2026-05)
 export const PRACTICAL_DECISIONS = [
   'parking-difficulty',
-  'parking',
   'transport',
   'car-vs-no-car',
   'walkability',
@@ -120,7 +119,6 @@ export const PRACTICAL_DECISIONS = [
   'ferry-connections',
   'airport-access',
   'visa-and-entry',
-  'mobile-coverage',
 ] as const;
 
 // Phase 3: Seasonality
@@ -143,12 +141,12 @@ export const COMPARISONS = [
 ] as const;
 
 // Phase 5: Activities & Experiences (NEW - high search volume)
+// 2026-07: game-of-thrones retired to legacy (interest peaked 2019-2022, now declining).
 export const ACTIVITIES = [
   'island-hopping',
   'sailing',
   'hiking',
   'food-and-wine',
-  'game-of-thrones',
   'snorkeling-and-diving',
   'camping-and-glamping',
 ] as const;
@@ -186,10 +184,36 @@ export const TRAVEL_STYLE = [
   'sustainable-travel',
 ] as const;
 
+// Phase 9: Decision & Opinion themes (NEW 2026-07 for 2027)
+// These answer a question with a verdict — exactly what AI search engines cite,
+// hard to plagiarise, and naturally unbiased (they weigh pros AND cons).
+export const DECISION_THEMES = [
+  'is-it-worth-it',            // "Is Hvar worth it in 2027?"
+  'overtourism-alternatives',  // "Skip Dubrovnik — quieter alternatives"
+  'price-2027',                // "How much more expensive has Split gotten?"
+  'scams-to-avoid',            // "Common tourist traps in Dubrovnik"
+  'worth-the-day-trip',        // "Is the Plitvice day trip worth it from Zadar?"
+] as const;
+
+// Phase 10: Modern practical themes (NEW 2026-07 for 2027)
+// Growing, under-covered searches that genuinely help visitors plan.
+export const MODERN_PRACTICAL = [
+  'connectivity',       // merges legacy wifi-quality + mobile-coverage
+  'safety-for-women',   // solo female travel angle
+  'remote-work-cafes',  // concrete digital-nomad sub-query
+  'ev-charging',        // EV road-trip planning
+  'rainy-day',          // "what to do when it rains"
+  'with-a-dog',         // dog beaches + ferries (deepens pet-friendly)
+  'local-etiquette',    // tipping & etiquette (trust-building)
+] as const;
+
 // Legacy themes - NOT generated for new destinations, but kept for type compatibility
 // (these already exist for completed destinations and remain indexed by Google)
 // 2026-05: moved high-traffic themes back into active categories — see PRACTICAL_DECISIONS,
 // SEASONALITY, DESTINATION_CHARACTER above.
+// 2026-07: added game-of-thrones (interest declined), parking (dup of parking-difficulty),
+// mobile-coverage (merged into new 'connectivity' theme). Existing articles stay indexed;
+// no NEW articles generated for these.
 export const LEGACY_THEMES = [
   'wifi-quality',
   'shoulder-season',
@@ -197,9 +221,12 @@ export const LEGACY_THEMES = [
   'apartments',
   'pool',
   'weather',
+  'game-of-thrones',
+  'parking',
+  'mobile-coverage',
 ] as const;
 
-// Active themes for new generation (51 themes)
+// Active themes for new generation
 export const THEMES = [
   ...TRAVELER_TYPES,
   ...PRACTICAL_DECISIONS,
@@ -209,6 +236,8 @@ export const THEMES = [
   ...PLANNING,
   ...DESTINATION_CHARACTER,
   ...TRAVEL_STYLE,
+  ...DECISION_THEMES,
+  ...MODERN_PRACTICAL,
 ] as const;
 
 // All themes including legacy (for type compatibility with existing articles)
@@ -216,6 +245,25 @@ export const ALL_THEMES = [
   ...THEMES,
   ...LEGACY_THEMES,
 ] as const;
+
+// Themes whose accuracy depends on CURRENT facts (prices, schedules, rules) and
+// therefore benefit from web-search grounding. Grounding is billed per call
+// (~$0.035 each), so we only pay for it where fresh accuracy actually matters —
+// NOT for stable topics like history, beaches, or photo spots (the model already
+// knows those well and they don't change). See isGroundingEnabled() in gemini.ts.
+export const GROUNDING_THEMES: ReadonlySet<string> = new Set([
+  // Money — changes constantly
+  'price-2027', 'cost-guide', 'budget', 'luxury', 'prices',
+  // Verdicts that hinge on current prices/crowds
+  'is-it-worth-it', 'worth-the-day-trip', 'overtourism-alternatives',
+  // Practical facts with schedules/coverage/rules that shift
+  'connectivity', 'ferry-connections', 'airport-access', 'public-transport-quality',
+  'visa-and-entry', 'ev-charging', 'parking-difficulty',
+  // Time-sensitive advisories
+  'scams-to-avoid', 'safety', 'safety-for-women',
+  // Seasonality figures worth checking against recent data
+  'best-time-to-visit', 'crowds-by-month', 'peak-season', 'off-season',
+]);
 
 export type TravelerType = typeof TRAVELER_TYPES[number];
 export type PracticalDecision = typeof PRACTICAL_DECISIONS[number];
@@ -225,6 +273,8 @@ export type Activity = typeof ACTIVITIES[number];
 export type Planning = typeof PLANNING[number];
 export type DestinationCharacter = typeof DESTINATION_CHARACTER[number];
 export type TravelStyle = typeof TRAVEL_STYLE[number];
+export type DecisionTheme = typeof DECISION_THEMES[number];
+export type ModernPractical = typeof MODERN_PRACTICAL[number];
 export type LegacyTheme = typeof LEGACY_THEMES[number];
 export type Theme = typeof ALL_THEMES[number];
 

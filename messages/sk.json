@@ -307,6 +307,11 @@
       },
       "practicalNotes": "Praktické poznámky",
       "keyTakeaways": "Kľúčové poznatky",
+      "disclaimer": {
+        "title": "O tomto sprievodcovi",
+        "body": "Tohto sprievodcu sme zostavili z verejných informácií, recenzií cestovateľov a prieskumu destinácie, aby sme vám pomohli s plánovaním. Priebežne ho aktualizujeme, ale ceny, otváracie hodiny a podmienky sa často menia — pred cestou si prosím overte dôležité údaje (cestovné, vstupenky, vstupné požiadavky) z oficiálnych zdrojov.",
+        "lastUpdated": "Naposledy aktualizované {date}"
+      },
       "faq": {
         "title": "Často kladené otázky",
         "subtitle": "Všetko, čo potrebujete vedieť o {destination}"

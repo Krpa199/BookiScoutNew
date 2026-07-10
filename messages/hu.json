@@ -307,6 +307,11 @@
       },
       "practicalNotes": "Praktikus megjegyzések",
       "keyTakeaways": "Kulcsfontosságú tanulságok",
+      "disclaimer": {
+        "title": "Erről az útmutatóról",
+        "body": "Ez az útmutató nyilvános információk, utazói vélemények és úti célra vonatkozó kutatás alapján készült, hogy segítsen a tervezésben. Folyamatosan frissítjük, de az árak, a nyitvatartás és a feltételek gyakran változnak — utazás előtt kérjük, ellenőrizze a fontos részleteket (viteldíjak, jegyek, beutazási feltételek) hivatalos forrásokból.",
+        "lastUpdated": "Utoljára frissítve: {date}"
+      },
       "faq": {
         "title": "Gyakran ismételt kérdések",
         "subtitle": "Minden, amit tudnod kell {destination} kapcsán"

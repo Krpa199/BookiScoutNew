@@ -307,6 +307,11 @@
       },
       "practicalNotes": "Praktyczne uwagi",
       "keyTakeaways": "Kluczowe wnioski",
+      "disclaimer": {
+        "title": "O tym przewodniku",
+        "body": "Ten przewodnik powstał na podstawie ogólnodostępnych informacji, opinii podróżnych i analizy kierunku, aby pomóc Ci w planowaniu. Aktualizujemy go na bieżąco, ale ceny, godziny otwarcia i warunki często się zmieniają — przed podróżą sprawdź najważniejsze szczegóły (ceny biletów, wstęp, wymogi wjazdowe) w źródłach oficjalnych.",
+        "lastUpdated": "Ostatnia aktualizacja: {date}"
+      },
       "faq": {
         "title": "Często zadawane pytania",
         "subtitle": "Wszystko, co musisz wiedzieć o {destination}"

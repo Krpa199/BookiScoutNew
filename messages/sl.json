@@ -307,6 +307,11 @@
       },
       "practicalNotes": "Praktične opombe",
       "keyTakeaways": "Ključne ugotovitve",
+      "disclaimer": {
+        "title": "O tem vodniku",
+        "body": "Ta vodnik je pripravljen na podlagi javnih informacij, mnenj popotnikov in raziskave destinacije, da vam pomaga pri načrtovanju. Redno ga posodabljamo, vendar se cene, delovni čas in pogoji pogosto spreminjajo — pred potovanjem preverite ključne podatke (vozovnice, vstopnice, pogoje za vstop) pri uradnih virih.",
+        "lastUpdated": "Nazadnje posodobljeno {date}"
+      },
       "faq": {
         "title": "Pogosto zastavljena vprašanja",
         "subtitle": "Vse, kar morate vedeti o {destination}"

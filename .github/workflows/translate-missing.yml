@@ -1,0 +1,103 @@
+name: Translate Missing Articles
+
+# Fills gaps where an English article has no counterpart in a language folder,
+# so every language ends up with the same set of guides. Safe to run repeatedly:
+# it only creates files that don't exist yet, and commits progress periodically
+# so an interrupted run never loses completed translations.
+#
+# Manual-only. Run from the Actions tab. Leave "limit" blank to do everything.
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Max translations to create this run (blank = ALL remaining). Use e.g. 20 for a test.'
+        required: false
+        default: ''
+        type: string
+      lang:
+        description: 'Only this language (e.g. hr). Blank = all languages.'
+        required: false
+        default: ''
+        type: string
+      dry_run:
+        description: 'Dry run: list gaps but write/commit nothing.'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
+
+env:
+  GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
+  GEMINI_API_KEY_IMAGE: ${{ secrets.GEMINI_API_KEY_IMAGE }}
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 600
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Configure git (for periodic progress commits)
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+      - name: Translate missing articles
+        run: npx tsx scripts/translate-missing-articles.ts
+        env:
+          GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
+          GEMINI_API_KEY_IMAGE: ${{ secrets.GEMINI_API_KEY_IMAGE }}
+          LIMIT: ${{ github.event.inputs.limit }}
+          LANG_FILTER: ${{ github.event.inputs.lang }}
+          DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && '1' || '' }}
+          # Commit + push progress every N translations so an interrupted run keeps its work.
+          COMMIT_EVERY: '25'
+
+      - name: Final commit and push
+        id: push
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No remaining changes to commit (progress already pushed)."
+            echo "push_success=true" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          git commit -m "🌍 Translate missing articles $(date +'%Y-%m-%d')"
+          for i in 1 2 3 4 5; do
+            git fetch origin main
+            if [ "$(git rev-parse HEAD)" != "$(git rev-parse origin/main)" ]; then
+              git rebase origin/main || { git rebase --abort 2>/dev/null || true; git merge origin/main --no-edit || true; }
+            fi
+            if git push origin main; then
+              echo "push_success=true" >> $GITHUB_OUTPUT
+              exit 0
+            fi
+            echo "Push failed, retry $i..."
+            sleep 15
+          done
+          echo "push_success=false" >> $GITHUB_OUTPUT
+          exit 1
+
+      - name: Trigger Hetzner deploy
+        if: steps.push.outputs.push_success == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy-droplet.yml --ref main

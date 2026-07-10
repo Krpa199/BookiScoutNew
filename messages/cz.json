@@ -307,6 +307,11 @@
       },
       "practicalNotes": "Praktické poznámky",
       "keyTakeaways": "Klíčové poznatky",
+      "disclaimer": {
+        "title": "O tomto průvodci",
+        "body": "Tento průvodce vychází z veřejných informací, recenzí cestovatelů a průzkumu destinace, aby vám pomohl s plánováním. Průběžně jej aktualizujeme, ale ceny, otevírací doba a podmínky se často mění — před cestou si prosím ověřte důležité údaje (jízdné, vstupenky, vstupní požadavky) z oficiálních zdrojů.",
+        "lastUpdated": "Naposledy aktualizováno {date}"
+      },
       "faq": {
         "title": "Často kladené otázky",
         "subtitle": "Vše, co potřebujete vědět o {destination}"

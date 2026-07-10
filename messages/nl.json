@@ -307,6 +307,11 @@
       },
       "practicalNotes": "Praktische opmerkingen",
       "keyTakeaways": "Belangrijkste conclusies",
+      "disclaimer": {
+        "title": "Over deze gids",
+        "body": "Deze gids is samengesteld op basis van openbare informatie, reizigersbeoordelingen en bestemmingsonderzoek om je te helpen plannen. We houden hem actueel, maar prijzen, openingstijden en voorwaarden veranderen vaak — controleer belangrijke gegevens (tarieven, tickets, toegangsregels) bij officiële bronnen voordat je op reis gaat.",
+        "lastUpdated": "Laatst bijgewerkt op {date}"
+      },
       "faq": {
         "title": "Veelgestelde vragen",
         "subtitle": "Alles wat je moet weten over {destination}"
