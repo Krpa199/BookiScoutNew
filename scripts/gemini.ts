@@ -201,14 +201,44 @@ function getGroundedProModel(apiKey: string): GenerativeModel {
   });
 }
 
-function getFlashModel(apiKey: string): GenerativeModel {
+// Translation model selection, cheapest-first with auto-fallback.
+//
+// gemini-2.5-flash-lite is the cheapest (output $0.40/M) but since Google's early
+// deprecation on 2026-07-09 it 404s ("no longer available") — reported by many devs,
+// official shutdown was supposed to be 2026-10-16, so this looks like a temporary
+// Google-side bug. gemini-flash-lite-latest currently resolves to gemini-3.1-flash-lite
+// (output $1.50/M — ~4x pricier). We prefer the cheap one and fall back automatically,
+// so the moment Google restores 2.5-flash-lite translations get cheap again with zero
+// code changes. FLASH_MODEL_OVERRIDE env can force a specific model if needed.
+const FLASH_CHEAP = 'gemini-2.5-flash-lite';
+const FLASH_FALLBACK = 'gemini-flash-lite-latest'; // resolves to 3.1-flash-lite today
+let flashModelResolved: string | null = null;
+
+async function resolveFlashModelName(apiKey: string): Promise<string> {
+  if (process.env.FLASH_MODEL_OVERRIDE) return process.env.FLASH_MODEL_OVERRIDE;
+  if (flashModelResolved) return flashModelResolved;
+  // Probe the cheap model once with a tiny call. If it works, use it; else fall back.
+  try {
+    const genAI = new GoogleGenerativeAI(apiKey);
+    const probe = genAI.getGenerativeModel({ model: FLASH_CHEAP });
+    await probe.generateContent('Hi');
+    flashModelResolved = FLASH_CHEAP;
+    console.log(`  💰 Translation model: ${FLASH_CHEAP} (cheap — restored)`);
+  } catch (e: any) {
+    if ((e.message || '').includes('404')) {
+      flashModelResolved = FLASH_FALLBACK;
+      console.log(`  ↩️ ${FLASH_CHEAP} still 404 — falling back to ${FLASH_FALLBACK}`);
+    } else {
+      // Non-404 (network/rate) — don't cache; retry cheap next time.
+      return FLASH_CHEAP;
+    }
+  }
+  return flashModelResolved!;
+}
+
+function getFlashModel(apiKey: string, modelName?: string): GenerativeModel {
   const genAI = new GoogleGenerativeAI(apiKey);
-  // Translations use the cheapest working model. Pinned names like gemini-2.5-flash-lite
-  // / gemini-2.0-flash-lite return 404 on this AQ. auth key, but the "-latest" alias
-  // always resolves to the live flash-lite (input $0.10/M, output $0.40/M — ~6x cheaper
-  // than gemini-2.5-flash) and never 404s. EN generation still uses Pro; only cheap
-  // translation runs here.
-  return genAI.getGenerativeModel({ model: 'gemini-flash-lite-latest' });
+  return genAI.getGenerativeModel({ model: modelName || FLASH_FALLBACK });
 }
 
 // =============================================================================
@@ -966,7 +996,8 @@ export async function translateArticle(
     throw new Error(`All API keys exhausted for Flash model. Remaining: Pro=${remaining.pro}, Flash=${remaining.flash}`);
   }
 
-  const model = getFlashModel(keyState.key);
+  const flashModelName = await resolveFlashModelName(keyState.key);
+  const model = getFlashModel(keyState.key, flashModelName);
   const langName = LANGUAGES[targetLanguage].name;
 
   const prompt = `
