@@ -166,7 +166,11 @@ export function getRemainingCalls(): { pro: number; flash: number } {
 
 function getProModel(apiKey: string): GenerativeModel {
   const genAI = new GoogleGenerativeAI(apiKey);
-  return genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
+  // English article generation uses Pro for quality (these are the source of truth
+  // that every translation is derived from). Pinned "gemini-2.5-pro" 404s on this
+  // AQ. auth key; the "gemini-pro-latest" alias resolves to the live Pro and never
+  // 404s. Pricier ($1.25/M in, $10/M out) but only 1 in 13 calls — translations use lite.
+  return genAI.getGenerativeModel({ model: 'gemini-pro-latest' });
 }
 
 // Google Search grounding. Two gates must BOTH pass for a call to be grounded:
@@ -190,7 +194,7 @@ export function isGroundingEnabled(theme?: Theme): boolean {
 function getGroundedProModel(apiKey: string): GenerativeModel {
   const genAI = new GoogleGenerativeAI(apiKey);
   return genAI.getGenerativeModel({
-    model: 'gemini-2.5-flash',
+    model: 'gemini-pro-latest',
     // @ts-expect-error — googleSearch is the Gemini 2.x grounding tool; SDK 0.21
     // types still name the 1.5-era googleSearchRetrieval, but the runtime accepts this.
     tools: [{ googleSearch: {} }],
@@ -199,9 +203,12 @@ function getGroundedProModel(apiKey: string): GenerativeModel {
 
 function getFlashModel(apiKey: string): GenerativeModel {
   const genAI = new GoogleGenerativeAI(apiKey);
-  // NOTE: gemini-2.5-flash-lite was retired for new callers (404). Fall back to
-  // gemini-2.5-flash, the same model getProModel uses successfully on this key.
-  return genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
+  // Translations use the cheapest working model. Pinned names like gemini-2.5-flash-lite
+  // / gemini-2.0-flash-lite return 404 on this AQ. auth key, but the "-latest" alias
+  // always resolves to the live flash-lite (input $0.10/M, output $0.40/M — ~6x cheaper
+  // than gemini-2.5-flash) and never 404s. EN generation still uses Pro; only cheap
+  // translation runs here.
+  return genAI.getGenerativeModel({ model: 'gemini-flash-lite-latest' });
 }
 
 // =============================================================================
