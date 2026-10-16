@@ -89,6 +89,11 @@
       "placeholder": "Your email address",
       "subscribe": "Subscribe",
       "privacy": "Join 10,000+ travelers. Unsubscribe anytime."
+    },
+    "advent": {
+      "badge": "Advent 2026",
+      "title": "Advent in Croatia",
+      "subtitle": "Christmas market dates, prices, parking and where to stay in 12 Croatian towns."
     }
   },
   "footer": {
@@ -335,7 +340,8 @@
         "advantages": "Advantages",
         "disadvantages": "Disadvantages"
       },
-      "alsoWantToKnow": "You might also want to know"
+      "alsoWantToKnow": "You might also want to know",
+      "adventCallout": "Visiting in winter?"
     }
   },
   "regions": {

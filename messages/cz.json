@@ -89,6 +89,11 @@
       "placeholder": "Vaše e-mailová adresa",
       "subscribe": "Přihlásit se",
       "privacy": "Připojte se k 10 000+ cestovatelům. Odhlášení kdykoliv."
+    },
+    "advent": {
+      "badge": "Advent 2026",
+      "title": "Advent v Chorvatsku",
+      "subtitle": "Termíny vánočních trhů, ceny, parkování a ubytování ve 12 chorvatských městech."
     }
   },
   "footer": {
@@ -331,7 +336,8 @@
         "advantages": "Výhody",
         "disadvantages": "Nevýhody"
       },
-      "alsoWantToKnow": "Možná vás bude zajímat"
+      "alsoWantToKnow": "Možná vás bude zajímat",
+      "adventCallout": "Cestujete v zimě?"
     }
   },
   "regions": {

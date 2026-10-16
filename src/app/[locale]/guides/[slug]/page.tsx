@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import { ADVENT_DESTINATIONS, isAdventSeason } from '@/lib/seasonal';
 import { notFound } from 'next/navigation';
 import fs from 'fs';
 import path from 'path';
@@ -506,6 +507,14 @@ export default async function GuidePage({ params }: Props) {
     2
   );
 
+  // Seasonal cross-link: during Advent season every guide for an Advent town
+  // points to its Advent guide (helps Google discover/rank them before late Nov).
+  const adventGuide = article.theme !== 'advent'
+    && isAdventSeason()
+    && ADVENT_DESTINATIONS.includes(article.destination)
+    ? getArticle(locale, `${article.destination}-advent`)
+    : null;
+
   // Format theme for display
   const formatTheme = (theme: string) => {
     return theme.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
@@ -655,6 +664,22 @@ export default async function GuidePage({ params }: Props) {
                 </div>
               </section>
             </ScrollReveal>
+
+            {adventGuide && (
+              <ScrollReveal delay={110}>
+                <Link
+                  href={`/guides/${article.destination}-advent`}
+                  className="group flex items-center gap-3 sm:gap-4 bg-gradient-to-r from-red-50 to-amber-50 border-2 border-red-200 hover:border-red-300 rounded-2xl px-4 py-3 sm:px-5 sm:py-4 transition-colors"
+                >
+                  <span className="text-2xl sm:text-3xl flex-shrink-0" aria-hidden="true">🎄</span>
+                  <span className="min-w-0">
+                    <span className="block text-xs sm:text-sm font-semibold text-red-700 uppercase tracking-wide">{t('adventCallout')}</span>
+                    <span className="block text-sm sm:text-base font-semibold text-slate-800 group-hover:underline underline-offset-2">{adventGuide.title}</span>
+                  </span>
+                  <ArrowRight className="w-5 h-5 text-red-400 ml-auto flex-shrink-0 group-hover:translate-x-0.5 transition-transform" aria-hidden="true" />
+                </Link>
+              </ScrollReveal>
+            )}
 
             {/* Inline "Next reads" — appears right after Quick Answer to catch users early
                 and reduce bounce. Different visual style from bottom Related Guides so it

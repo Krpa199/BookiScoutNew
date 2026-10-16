@@ -6,6 +6,8 @@ import ArticleCard from '@/components/ui/ArticleCard';
 import { DESTINATIONS } from '@/config/destinations';
 import fs from 'fs';
 import path from 'path';
+import Image from 'next/image';
+import { ADVENT_DESTINATIONS, isAdventSeason } from '@/lib/seasonal';
 
 export const revalidate = false; // fully static - rebuilt only via CI/CD
 
@@ -84,6 +86,16 @@ export default async function HomePage({ params }: Props) {
       image: dubrovnikFirst?.imageUrl,
     },
   ];
+
+  // Seasonal Advent block (Oct–early Jan): one card per Advent guide that exists
+  // in this locale. Gives the new guides a homepage link for fast crawling.
+  const adventGuides = isAdventSeason()
+    ? ADVENT_DESTINATIONS.flatMap(slug => {
+        const data = getArticleData(locale, slug, 'advent');
+        const name = DESTINATIONS.find(d => d.slug === slug)?.name ?? slug;
+        return data?.title ? [{ slug, name, title: data.title, image: data.imageUrl }] : [];
+      })
+    : [];
 
   // AI Decision Quick Answers
   const quickAnswers = [
@@ -245,6 +257,53 @@ export default async function HomePage({ params }: Props) {
           </svg>
         </div>
       </section>
+
+      {/* Seasonal: Advent in Croatia */}
+      {adventGuides.length > 0 && (
+        <section className="py-12 md:py-16 bg-gradient-to-b from-red-50/60 to-white">
+          <div className="container">
+            <div className="text-center mb-8 md:mb-10">
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-red-100 text-red-700 rounded-full text-sm font-semibold mb-4">
+                <span aria-hidden="true">🎄</span>
+                <span>{t('advent.badge')}</span>
+              </div>
+              <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-3">
+                {t('advent.title')}
+              </h2>
+              <p className="text-base md:text-lg text-slate-600 max-w-2xl mx-auto">
+                {t('advent.subtitle')}
+              </p>
+            </div>
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-5">
+              {adventGuides.map(guide => (
+                <Link
+                  key={guide.slug}
+                  href={`/guides/${guide.slug}-advent`}
+                  className="group block rounded-2xl overflow-hidden bg-white border border-slate-100 hover:shadow-medium transition-shadow"
+                >
+                  <div className="relative aspect-[4/3] bg-red-100">
+                    {guide.image && (
+                      <Image
+                        src={guide.image}
+                        alt={guide.title}
+                        fill
+                        className="object-cover group-hover:scale-105 transition-transform duration-500"
+                        sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+                      />
+                    )}
+                  </div>
+                  <div className="p-3 md:p-4">
+                    <p className="text-xs font-semibold text-red-600 uppercase tracking-wide mb-1">{guide.name}</p>
+                    <h3 className="text-sm md:text-base font-semibold text-slate-800 leading-snug line-clamp-2 group-hover:underline underline-offset-2">
+                      {guide.title}
+                    </h3>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* AI Quick Answers */}
       <section className="py-12 md:py-16 bg-white">
