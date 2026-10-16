@@ -12,6 +12,11 @@ on:
         required: false
         default: ''
         type: string
+      round:
+        description: 'Self-continuation round (set automatically; stops after 5)'
+        required: false
+        default: '1'
+        type: string
 
 concurrency:
   group: gemini-generation
@@ -23,7 +28,7 @@ env:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 360
+    timeout-minutes: 340  # stay under GitHub's 6h job cap so the save/continue steps still run
     permissions:
       contents: write
       actions: write
@@ -41,6 +46,10 @@ jobs:
         run: npm ci || (sleep 30 && npm ci)
 
       - name: Generate hubs
+        # Stop the generator cleanly before the job limit so the save +
+        # continue steps below always get to run.
+        timeout-minutes: 320
+        continue-on-error: true
         run: npx tsx scripts/generate-destination-hubs.ts ${{ github.event.inputs.destinations }}
 
       - name: Commit and push
@@ -67,3 +76,22 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: gh workflow run deploy-droplet.yml --ref main
+
+      # A full run (61 places x 13 languages) takes ~9-10h, longer than one job
+      # may run. If anything is still missing, queue the next round; the script
+      # skips everything that already exists, so each round continues where the
+      # last one stopped. Capped at 5 rounds.
+      - name: Continue if hubs are incomplete
+        if: always() && github.event.inputs.destinations == ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ROUND: ${{ github.event.inputs.round || '1' }}
+        run: |
+          git pull -q origin main || true
+          EXPECTED=$(( $(grep -c "slug: '" src/config/destinations.ts) * 13 ))
+          HAVE=$(find src/content/destinations -name '*.json' | wc -l)
+          echo "Hub files: $HAVE / $EXPECTED (round $ROUND)"
+          if [ "$HAVE" -lt "$EXPECTED" ] && [ "$ROUND" -lt 5 ]; then
+            gh workflow run generate-destination-hubs.yml --ref main -f round=$((ROUND + 1))
+            echo "Queued round $((ROUND + 1))"
+          fi

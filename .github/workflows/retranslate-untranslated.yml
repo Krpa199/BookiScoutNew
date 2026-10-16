@@ -69,3 +69,11 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: gh workflow run deploy-droplet.yml --ref main
+
+      # Chain: hubs were paused for this job (one pending run per concurrency
+      # group), so hand back to the hub generator; it exits fast if all done.
+      - name: Resume destination hub generation
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run generate-destination-hubs.yml --ref main -f round=2
