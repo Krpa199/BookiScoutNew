@@ -314,7 +314,14 @@
       "coastVsInland": "Pobřeží nebo vnitrozemí",
       "pool": "Bazény",
       "gameOfThrones": "Game of Thrones",
-      "parking": "Parkování"
+      "parking": "Parkování",
+      "stayNearby": "Levnější ubytování v okolí",
+      "vsMakarska": "Ve srovnání s Makarskou",
+      "vsHvar": "Ve srovnání s Hvarem",
+      "vsRovinj": "Ve srovnání s Rovinjem",
+      "vsSibenik": "Ve srovnání se Šibenikem",
+      "vsOpatija": "Ve srovnání s Opatijí",
+      "vsKrk": "Ve srovnání s Krkem"
     },
     "detail": {
       "breadcrumb": {

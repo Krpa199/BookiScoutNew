@@ -314,7 +314,14 @@
       "coastVsInland": "Побережье или внутри страны",
       "pool": "Бассейны",
       "gameOfThrones": "Game of Thrones",
-      "parking": "Парковка"
+      "parking": "Парковка",
+      "stayNearby": "Остановиться рядом дешевле",
+      "vsMakarska": "По сравнению с Макарской",
+      "vsHvar": "По сравнению с Хваром",
+      "vsRovinj": "По сравнению с Ровинем",
+      "vsSibenik": "По сравнению с Шибеником",
+      "vsOpatija": "По сравнению с Опатией",
+      "vsKrk": "По сравнению с Крком"
     },
     "detail": {
       "breadcrumb": {
