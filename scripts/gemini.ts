@@ -1002,7 +1002,12 @@ export async function translateArticle(
 
   const prompt = `
 Translate the following article to ${langName}. Keep the same JSON structure.
-Translate naturally, not word-for-word. Adapt prices and measurements if needed.
+Translate naturally, not word-for-word.
+- Keep every price exactly as in the original, in euros (€). Croatia uses the euro since 2023 —
+  NEVER convert to or mention kuna/HRK, and never convert to any other currency.
+- Headings: follow ${langName} capitalisation rules (in most languages only the first word and
+  proper nouns are capitalised — do not copy English Title Case).
+- Inflect Croatian place names correctly for ${langName} grammar.
 
 ${JSON.stringify(article)}
 
