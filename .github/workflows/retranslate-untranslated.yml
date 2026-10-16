@@ -41,18 +41,28 @@ jobs:
       - name: Install dependencies
         run: npm ci || (sleep 30 && npm ci)
 
+      # Both scripts save each article as they go. They share one time budget
+      # (`timeout` against DEADLINE) so the commit/continue steps below always
+      # get to run: a manual cancel or a job-level timeout kills the runner
+      # before those steps and throws the whole run's work away.
+      - name: Set time budget
+        run: echo "DEADLINE=$(( $(date +%s) + 300 * 60 ))" >> $GITHUB_ENV
+
       # Kuna fix first, so retranslations start from corrected EN originals.
       # (GitHub keeps only ONE pending run per concurrency group, so the two
       # jobs can't be queued separately — the second would cancel the first.)
       - name: Fix kuna prices
-        run: npx tsx scripts/fix-kuna.ts
+        run: |
+          LEFT=$(( DEADLINE - $(date +%s) ))
+          [ "$LEFT" -gt 60 ] || exit 0
+          timeout -k 30 "$LEFT" node --import tsx scripts/fix-kuna.ts || [ $? -eq 124 ]
 
       - name: Retranslate
         if: always()
-        # Saves each article as it goes; the step timeout leaves room for the
-        # commit and continue steps below.
-        timeout-minutes: 300
-        run: npx tsx scripts/retranslate-untranslated.ts
+        run: |
+          LEFT=$(( DEADLINE - $(date +%s) ))
+          [ "$LEFT" -gt 60 ] || exit 0
+          timeout -k 30 "$LEFT" node --import tsx scripts/retranslate-untranslated.ts || [ $? -eq 124 ]
 
       - name: Upload retranslate report
         if: always()
