@@ -94,4 +94,9 @@ jobs:
           if [ "$HAVE" -lt "$EXPECTED" ] && [ "$ROUND" -lt 5 ]; then
             gh workflow run generate-destination-hubs.yml --ref main -f round=$((ROUND + 1))
             echo "Queued round $((ROUND + 1))"
+          else
+            # Hubs done (or out of rounds): hand over to the retranslation
+            # job, which was paused behind this one and exits fast if done.
+            gh workflow run retranslate-untranslated.yml --ref main -f round=1
+            echo "Handed over to retranslation"
           fi

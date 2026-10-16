@@ -7,6 +7,12 @@ name: Retranslate English-only Articles
 
 on:
   workflow_dispatch:
+    inputs:
+      round:
+        description: 'Self-continuation round (set automatically; stops after 5)'
+        required: false
+        default: '1'
+        type: string
 
 concurrency:
   group: gemini-generation
@@ -18,7 +24,7 @@ env:
 jobs:
   retranslate:
     runs-on: ubuntu-latest
-    timeout-minutes: 360
+    timeout-minutes: 340  # stay under GitHub's 6h job cap so the save/continue steps still run
     permissions:
       contents: write
       actions: write
@@ -43,7 +49,18 @@ jobs:
 
       - name: Retranslate
         if: always()
+        # Saves each article as it goes; the step timeout leaves room for the
+        # commit and continue steps below.
+        timeout-minutes: 300
         run: npx tsx scripts/retranslate-untranslated.ts
+
+      - name: Upload retranslate report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: retranslate-report-round-${{ github.event.inputs.round || '1' }}
+          path: retranslate-report.json
+          if-no-files-found: ignore
 
       - name: Commit and push
         id: push
@@ -70,10 +87,21 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: gh workflow run deploy-droplet.yml --ref main
 
-      # Chain: hubs were paused for this job (one pending run per concurrency
-      # group), so hand back to the hub generator; it exits fast if all done.
-      - name: Resume destination hub generation
+      # ~600 articles take longer than one job may run. The script skips what
+      # is already translated, so queue another round while any remain. Capped
+      # at 5 rounds (articles that keep failing the quality gate stay listed).
+      # Not chained back to the hub generator: it hands over to this job when
+      # it finishes, so chaining back would ping-pong.
+      - name: Continue if articles remain
         if: always()
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh workflow run generate-destination-hubs.yml --ref main -f round=2
+          ROUND: ${{ github.event.inputs.round || '1' }}
+        run: |
+          git pull -q origin main || true
+          LEFT=$(npx tsx scripts/retranslate-untranslated.ts --dry-run | grep -oE '^[0-9]+' | head -1)
+          echo "Untranslated left: ${LEFT:-?} (round $ROUND)"
+          if [ "${LEFT:-0}" -gt 0 ] && [ "$ROUND" -lt 5 ]; then
+            gh workflow run retranslate-untranslated.yml --ref main -f round=$((ROUND + 1))
+            echo "Queued round $((ROUND + 1))"
+          fi
