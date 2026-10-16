@@ -26,7 +26,9 @@ const TEXT_FIELDS = ['title', 'metaDescription', 'quickAnswer', 'content', 'faq'
 const model = () =>
   new GoogleGenerativeAI(process.env.GEMINI_API_KEY_1 || '').getGenerativeModel({
     model: 'gemini-2.5-flash',
-    generationConfig: { responseMimeType: 'application/json' },
+    // A surgical sentence edit needs no reasoning; thinking tokens are billed
+    // as output and were most of the cost of the first kuna run.
+    generationConfig: { responseMimeType: 'application/json', thinkingConfig: { thinkingBudget: 0 } } as any,
   });
 
 function affectedFiles(): string[] {
