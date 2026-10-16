@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import { ADVENT_DESTINATIONS, isAdventSeason } from '@/lib/seasonal';
+import { localizedUrl, localeAlternates } from '@/lib/urls';
 import { notFound } from 'next/navigation';
 import fs from 'fs';
 import path from 'path';
@@ -313,8 +314,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://bookiscout.com';
-  const url = `${baseUrl}/${locale}/guides/${slug}`;
+  const url = localizedUrl(locale, `/guides/${slug}`);
+  // hreflang only for languages this guide actually exists in (others would 404)
+  const available = locales.filter(loc =>
+    fs.existsSync(path.join(process.cwd(), 'src', 'content', 'articles', loc, `${slug}.json`))
+  );
 
   return {
     title: article.title,
@@ -328,12 +332,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       images: article.imageUrl ? [{ url: article.imageUrl, alt: article.imageAlt || article.title }] : undefined,
       locale,
     },
-    alternates: {
-      canonical: url,
-      languages: Object.fromEntries(
-        locales.map(loc => [loc, `${baseUrl}/${loc}/guides/${slug}`])
-      ),
-    },
+    alternates: localeAlternates(locale, `/guides/${slug}`, available),
   };
 }
 
@@ -484,8 +483,7 @@ export default async function GuidePage({ params }: Props) {
 
   const t = await getTranslations('guides.detail');
 
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://bookiscout.com';
-  const url = `${baseUrl}/${locale}/guides/${slug}`;
+  const url = localizedUrl(locale, `/guides/${slug}`);
 
   // Calculate reading time from content
   const wordCount = article.content.split(/\s+/).length;

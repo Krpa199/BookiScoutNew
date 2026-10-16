@@ -1,4 +1,5 @@
 import { setRequestLocale } from 'next-intl/server';
+import { localeAlternates } from '@/lib/urls';
 import { Metadata } from 'next';
 import fs from 'fs';
 import path from 'path';
@@ -45,9 +46,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       index: true,
       follow: true,
     },
-    alternates: {
-      canonical: '/stay-check',
-    },
+    alternates: localeAlternates(locale, '/stay-check'),
   };
 }
 

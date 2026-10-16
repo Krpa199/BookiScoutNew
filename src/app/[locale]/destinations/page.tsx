@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import { localeAlternates } from '@/lib/urls';
 import { MapPin, ChevronRight, Sparkles, TrendingUp, Building, Waves, Mountain } from 'lucide-react';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
@@ -18,6 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: t('destinationsTitle'),
     description: t('destinationsDescription'),
+    alternates: localeAlternates(locale, '/destinations'),
   };
 }
 

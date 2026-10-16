@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import { localizedUrl } from '@/lib/urls';
 import { notFound } from 'next/navigation';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { locales } from '@/i18n/config';
@@ -36,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${baseTitle} — ${pageNum}`,
     description: t('guidesDescription'),
     alternates: {
-      canonical: `/${locale}/guides/page/${pageNum}`,
+      canonical: localizedUrl(locale, `/guides/page/${pageNum}`),
     },
     robots: {
       index: true,

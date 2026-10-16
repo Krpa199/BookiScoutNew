@@ -10,6 +10,7 @@ import BookingWidget from '@/components/ui/BookingWidget';
 import { getDestinationImage } from '@/config/images';
 import QuickFactsCard from '@/components/ui/QuickFactsCard';
 import DestinationSchema from '@/components/schema/DestinationSchema';
+import { SITE_URL, localizedUrl, localeAlternates } from '@/lib/urls';
 import Image from 'next/image';
 
 // Check if stay-check area data exists for this destination
@@ -126,6 +127,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${destination.name} Travel Guide 2026`,
     description: t('guides.subtitle'),
+    alternates: localeAlternates(locale, `/destinations/${slug}`),
   };
 }
 
@@ -217,8 +219,7 @@ export default async function DestinationPage({ params }: Props) {
     }).join(' ');
   };
 
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://bookiscout.com';
-  const pageUrl = locale === 'en' ? `${baseUrl}/destinations/${slug}` : `${baseUrl}/${locale}/destinations/${slug}`;
+  const pageUrl = localizedUrl(locale, `/destinations/${slug}`);
 
   return (
     <>
@@ -228,7 +229,7 @@ export default async function DestinationPage({ params }: Props) {
         description={t('guides.subtitle')}
         regionName={regionName}
         url={pageUrl}
-        imageUrl={destinationImage.url.startsWith('http') ? destinationImage.url : `${baseUrl}${destinationImage.url}`}
+        imageUrl={destinationImage.url.startsWith('http') ? destinationImage.url : `${SITE_URL}${destinationImage.url}`}
       />
 
       {/* Hero */}

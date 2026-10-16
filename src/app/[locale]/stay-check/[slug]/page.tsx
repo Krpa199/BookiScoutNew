@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import { localeAlternates } from '@/lib/urls';
 import { notFound } from 'next/navigation';
 import fs from 'fs';
 import path from 'path';
@@ -106,9 +107,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       index: true,
       follow: true,
     },
-    alternates: {
-      canonical: `/stay-check/${slug}`,
-    },
+    alternates: localeAlternates(locale, `/stay-check/${slug}`),
   };
 }
 

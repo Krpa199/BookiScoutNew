@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { getAllArticles, getTotalPages, paginateArticles } from './_lib/get-articles';
 import GuidesListing from './_components/GuidesListing';
+import { localizedUrl, localeAlternates } from '@/lib/urls';
 
 export const revalidate = false;
 
@@ -18,10 +19,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: t('guidesTitle'),
     description: t('guidesDescription'),
-    alternates: {
-      canonical: `/${locale}/guides`,
-    },
-    other: totalPages > 1 ? { 'link-next': `/${locale}/guides/page/2` } : undefined,
+    alternates: localeAlternates(locale, '/guides'),
+    other: totalPages > 1 ? { 'link-next': localizedUrl(locale, '/guides/page/2') } : undefined,
   };
 }
 

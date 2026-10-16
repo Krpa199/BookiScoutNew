@@ -8,6 +8,8 @@ import fs from 'fs';
 import path from 'path';
 import Image from 'next/image';
 import { ADVENT_DESTINATIONS, isAdventSeason } from '@/lib/seasonal';
+import { localeAlternates } from '@/lib/urls';
+import type { Metadata } from 'next';
 
 export const revalidate = false; // fully static - rebuilt only via CI/CD
 
@@ -41,6 +43,11 @@ function getArticleData(
 type Props = {
   params: Promise<{ locale: string }>;
 };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  return { alternates: localeAlternates(locale, '') };
+}
 
 export default async function HomePage({ params }: Props) {
   const { locale } = await params;

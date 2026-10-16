@@ -3,54 +3,44 @@ import { DESTINATIONS } from '@/config/destinations';
 import { locales, defaultLocale } from '@/i18n/config';
 import fs from 'fs';
 import path from 'path';
+import { SITE_URL as BASE_URL, hreflangLanguages } from '@/lib/urls';
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://bookiscout.com';
-
-// Helper to create alternates for all languages
-function createAlternates(basePath: string): Record<string, string> {
-  const alternates: Record<string, string> = {};
-
-  for (const locale of locales) {
-    if (locale === defaultLocale) {
-      // Default locale has no prefix
-      alternates[locale] = `${BASE_URL}${basePath}`;
-    } else {
-      alternates[locale] = `${BASE_URL}/${locale}${basePath}`;
-    }
-  }
-
-  // x-default points to the default locale version
-  alternates['x-default'] = `${BASE_URL}${basePath}`;
-
-  return alternates;
+// hreflang alternates (language-only codes, cs not cz, x-default → English)
+function createAlternates(basePath: string, available?: readonly string[]): Record<string, string> {
+  return hreflangLanguages(basePath, available);
 }
 
-// Get all guide slugs
-function getGuideSlugs(): string[] {
-  const slugs: string[] = [];
-  const guidesDir = path.join(process.cwd(), 'src', 'content', 'articles');
+const ARTICLES_DIR = path.join(process.cwd(), 'src', 'content', 'articles');
 
-  try {
-    // Check first available language directory
-    for (const locale of locales) {
-      const langDir = path.join(guidesDir, locale);
-      if (fs.existsSync(langDir) && fs.statSync(langDir).isDirectory()) {
-        const files = fs.readdirSync(langDir);
-        for (const file of files) {
-          if (file.endsWith('.json')) {
-            const slug = file.replace('.json', '');
-            if (!slugs.includes(slug)) {
-              slugs.push(slug);
-            }
-          }
-        }
-      }
+// Which locales each guide exists in — hreflang must not point at 404s.
+function getGuideLocales(): Map<string, string[]> {
+  const bySlug = new Map<string, string[]>();
+  for (const locale of locales) {
+    const dir = path.join(ARTICLES_DIR, locale);
+    if (!fs.existsSync(dir)) continue;
+    for (const file of fs.readdirSync(dir)) {
+      if (!file.endsWith('.json')) continue;
+      const slug = file.replace('.json', '');
+      const list = bySlug.get(slug) ?? [];
+      list.push(locale);
+      bySlug.set(slug, list);
     }
-  } catch (error) {
-    // Directory doesn't exist yet
   }
+  return bySlug;
+}
 
-  return slugs;
+// Real last-modified date of a guide (EN version, else any locale). Using the
+// deploy time for every URL made all 2,600 entries look "changed" on each
+// deploy, so Google ignored our lastmod and Bing recrawled blindly.
+function getGuideLastModified(slug: string, guideLocales: string[]): Date | undefined {
+  const locale = guideLocales.includes(defaultLocale) ? defaultLocale : guideLocales[0];
+  try {
+    const a = JSON.parse(fs.readFileSync(path.join(ARTICLES_DIR, locale, `${slug}.json`), 'utf-8'));
+    const iso = a.updatedAt || a.generatedAt;
+    return iso ? new Date(iso) : undefined;
+  } catch {
+    return undefined;
+  }
 }
 
 // Articles per page must match _lib/get-articles.ts:ARTICLES_PER_PAGE.
@@ -92,7 +82,18 @@ function getStayCheckSlugs(): string[] {
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
-  const guideSlugs = getGuideSlugs();
+  const guideLocales = getGuideLocales();
+  const guideSlugs = [...guideLocales.keys()];
+  const guideDates = new Map(guideSlugs.map(slug => [slug, getGuideLastModified(slug, guideLocales.get(slug)!)]));
+
+  // A destination page changes when one of its guides does
+  const destinationLastModified = (destSlug: string): Date | undefined => {
+    let latest: Date | undefined;
+    for (const [slug, date] of guideDates) {
+      if (date && slug.startsWith(`${destSlug}-`) && (!latest || date > latest)) latest = date;
+    }
+    return latest;
+  };
 
   const entries: MetadataRoute.Sitemap = [];
 
@@ -172,7 +173,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const page of staticPages) {
     entries.push({
       url: `${BASE_URL}/${page}`,
-      lastModified: now,
       changeFrequency: 'monthly',
       priority: 0.5,
     });
@@ -184,7 +184,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const dest of DESTINATIONS) {
     entries.push({
       url: `${BASE_URL}/destinations/${dest.slug}`,
-      lastModified: now,
+      lastModified: destinationLastModified(dest.slug),
       changeFrequency: 'weekly',
       priority: dest.popular ? 0.85 : 0.7,
       alternates: {
@@ -199,11 +199,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const slug of guideSlugs) {
     entries.push({
       url: `${BASE_URL}/guides/${slug}`,
-      lastModified: now,
+      lastModified: guideDates.get(slug),
       changeFrequency: 'weekly',
       priority: 0.8,
       alternates: {
-        languages: createAlternates(`/guides/${slug}`),
+        languages: createAlternates(`/guides/${slug}`, guideLocales.get(slug)),
       },
     });
   }

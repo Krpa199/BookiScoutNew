@@ -35,6 +35,9 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     timeout-minutes: 120  # Build on Hetzner: ~10 min with cache, ~45 min clean
+    permissions:
+      contents: read
+      actions: read  # IndexNow step looks up the last successful deploy
 
     steps:
       - name: Trigger build & deploy on Hetzner
@@ -100,6 +103,27 @@ jobs:
             echo "=== Last 50 log lines ==="
             docker logs --tail=50 bookiscout
             exit 1
+
+      # Tell Bing (→ ChatGPT search, Copilot) about guides changed since the last
+      # SUCCESSFUL deploy. Diffing against the last success, not the previous
+      # commit, means pages from cancelled/superseded deploys are not missed.
+      - name: Checkout for IndexNow diff
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Submit changed guides to IndexNow
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          PREV=$(gh run list --workflow=deploy-droplet.yml --status=success --limit 1 --json headSha -q '.[0].headSha' || true)
+          if [ -z "$PREV" ] || ! git cat-file -e "$PREV" 2>/dev/null; then
+            echo "No previous successful deploy found — skipping"
+            exit 0
+          fi
+          echo "Changes since last successful deploy: $PREV..$GITHUB_SHA"
+          git diff --name-only "$PREV" "$GITHUB_SHA" -- src/content/articles | npx -y tsx@4.22.4 scripts/indexnow.ts
 
       - name: Notify on failure
         if: failure()
