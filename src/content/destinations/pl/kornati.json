@@ -1,0 +1,139 @@
+{
+  "title": "Przewodnik po Kornatach: Rejsy statkiem, noclegi typu Robinson i wyspy",
+  "metaDescription": "Zaplanuj swoją podróż na Wyspy Kornati. Znajdź informacje o zakwaterowaniu typu Robinson, rejsach łodzią z Murter, trasach dojazdu, parkingach i logistyce na wyspach.",
+  "intro": "Archipelag Kornati to gęste skupisko 89 w większości niezamieszkanych wysp, wysepek i raf w północnej Dalmacji, chronione jako park narodowy. Krajobraz charakteryzują jałowe, skaliste tereny, strome klify zwrócone w stronę otwartego morza oraz czyste, głębokie wody. Przyciąga głównie żeglarzy, nurków i turystów poszukujących odosobnionych wakacji w stylu 'Robinson Crusoe' w kamiennych domkach poza siecią.\n\nDostęp do wysp jest wyłącznie drogą morską; w granicach parku narodowego nie kursują samochody ani promy. Większość podróżnych dociera na Kornati zorganizowanymi jednodniowymi wycieczkami lub prywatnymi czarterami wypływającymi z Murter, miasteczka będącego bramą na kontynencie. Główny sezon turystyczny trwa od czerwca do września, kiedy otwierają się sezonowe tawerny rybne, a pogoda jest wystarczająco stabilna dla bezpiecznej nawigacji.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "Czerwiec do września"
+    },
+    {
+      "label": "Temperatura morza w sierpniu",
+      "value": "24°C - 26°C"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Zadar (ZAD), 65 km do bramy Murter"
+    },
+    {
+      "label": "Główny typ plaż",
+      "value": "Skaliste płyty i żwir"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "Wyższy niż średnia na kontynencie"
+    },
+    {
+      "label": "Bez samochodów",
+      "value": "100% bez samochodów; dostępne tylko łodzią"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Miasteczko Murter (Brama na kontynencie)",
+      "bestFor": "Rodziny, kierowcy i rezerwacja jednodniowych wycieczek",
+      "parking": "Płatne parkingi publiczne i prywatne parkingi długoterminowe",
+      "beach": "Piasek i żwir (Slanica) w pobliżu",
+      "summary": "Połączone z kontynentem mostem, Murter jest administracyjną siedzibą parku narodowego. Oferuje standardowe udogodnienia turystyczne i jest głównym punktem wypadowym na wycieczki łodzią po Kornatach."
+    },
+    {
+      "name": "Wyspa Kornat (Vrulje i Tarac)",
+      "bestFor": "Noclegi typu 'Robinson Crusoe' poza siecią i absolutny spokój",
+      "parking": "Zakaz wjazdu samochodów; wymagany parking na kontynencie",
+      "beach": "Skaliste wybrzeża i prywatne kamienne pomosty",
+      "summary": "Największa wyspa archipelagu oferuje odizolowane kamienne domy bez prądu sieciowego i bieżącej wody. Odwiedzający polegają na energii słonecznej, cysternach i łodziach zaopatrzeniowych."
+    },
+    {
+      "name": "Wyspa Žut",
+      "bestFor": "Żeglarze i załogi jachtów",
+      "parking": "Zakaz wjazdu samochodów",
+      "beach": "Głównie skaliste zatoczki i betonowe miejsca do cumowania",
+      "summary": "Położona tuż poza ścisłymi granicami parku narodowego, Žut oferuje ACI Marinę, kilka sezonowych restauracji i bezpieczne kotwicowiska. Stanowi nieco bardziej rozwinięty przystanek na noc dla gości żeglujących."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monachium",
+      "car": "785 km do Murter, 8,5 godziny przez A8, A10 i A1. Wymaga austriackiej winiety, opłaty za tunel Karawanken, słoweńskiej winiety i chorwackich opłat drogowych.",
+      "other": "Lot do Zadaru, następnie autobus lub taksówka do Murter."
+    },
+    {
+      "from": "Wiedeń",
+      "car": "685 km do Murter, 7 godzin przez A2, słoweńską A1/A4 i chorwacką A1. Wymaga austriackiej i słoweńskiej winiety oraz chorwackich opłat drogowych.",
+      "other": "Lot do Zadaru lub bezpośredni autobus do Biogradu/Zadaru."
+    },
+    {
+      "from": "Budapeszt",
+      "car": "660 km do Murter, 6,5 godziny przez M7 i chorwacką A4/A1. Wymaga węgierskiej winiety i chorwackich opłat drogowych.",
+      "other": "Bezpośredni autobus lub pociąg nocny do Splitu, z przesiadką na lokalny transport."
+    },
+    {
+      "from": "Lublana",
+      "car": "395 km do Murter, 4,5 godziny przez A2 i chorwacką A1. Wymaga słoweńskiej winiety i chorwackich opłat drogowych.",
+      "other": "Bezpośredni autobus do Zadaru lub Biogradu na Moru."
+    },
+    {
+      "from": "Praga",
+      "car": "1015 km do Murter, 10,5 godziny przez Austrię, Słowenię i Chorwację. Wymaga austriackiej i słoweńskiej winiety oraz chorwackich opłat drogowych.",
+      "other": "Lot do Zadaru lub pociąg RegioJet do Splitu."
+    },
+    {
+      "from": "Kraków",
+      "car": "1060 km do Murter, 11 godzin przez Słowację, Węgry i Chorwację. Wymaga słowackiej i węgierskiej winiety oraz chorwackich opłat drogowych.",
+      "other": "Lot do Zadaru."
+    }
+  ],
+  "whenToGo": "Wyspy Kornati działają na zasadzie ścisłej sezonowości. Od czerwca do września temperatura morza waha się między 24°C a 26°C, co czyni ten okres idealnym do pływania i snorkelingu. W tych miesiącach otwarte są odizolowane konoby (tawerny) i marina na Žut. Lipiec i sierpień to miesiące z największym natężeniem ruchu morskiego i szczytowymi cenami czarterów łodzi oraz domków Robinson. Poza tym okresem, głównie od października do kwietnia, archipelag jest prawie całkowicie opustoszały, większość obiektów jest zamknięta, a nieprzewidywalne wiatry sprawiają, że dostęp łodzią jest niepewny.",
+  "faq": [
+    {
+      "question": "Czy warto odwiedzić?",
+      "answer": "Tak, dla turystów, którzy cenią sobie dziką przyrodę, żeglarstwo i pływanie w czystej wodzie. Brakuje tu typowych udogodnień kurortowych, ale oferuje doskonałą izolację i wyjątkowe krajobrazy morskie."
+    },
+    {
+      "question": "Ile dni potrzebuję?",
+      "answer": "Jeden dzień wystarczy na zorganizowaną wycieczkę łodzią z Murteru lub Zadaru. Dla tych, którzy wynajmują domek Robinson lub żeglują, trzy do siedmiu dni pozwala na eksplorację różnych zatok."
+    },
+    {
+      "question": "Jaka jest najlepsza plaża?",
+      "answer": "Lojena na wyspie Levrnaka to najsłynniejsza plaża w parku narodowym. Charakteryzuje się piaszczystym dnem i białym żwirowym brzegiem, choć w południe jest bardzo zatłoczona przez łodzie wycieczkowe."
+    },
+    {
+      "question": "Czy potrzebuję samochodu?",
+      "answer": "Samochody są surowo zabronione i fizycznie niemożliwe do wprowadzenia na teren parku narodowego. Dostęp jest wyłącznie prywatną jednostką, wyczarterowaną łodzią lub zorganizowaną wycieczką."
+    },
+    {
+      "question": "Gdzie zaparkować?",
+      "answer": "Odwiedzający muszą zostawić swoje pojazdy na kontynencie. Murter, Biograd na Moru i Zadar oferują bezpieczne, długoterminowe parkingi w pobliżu marin dla tych, którzy wybierają się na kilkudniowe wycieczki łodzią."
+    },
+    {
+      "question": "Czy jest odpowiednie dla rodzin?",
+      "answer": "Nadaje się dla rodzin ze starszymi dziećmi, które czują się komfortowo na łodziach i są dobrymi pływakami. Brak cienia, piaszczystych plaż i placówek medycznych sprawia, że jest to wyzwanie dla niemowląt i małych dzieci."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Gdzie zatrzymać się na Kornatach",
+    "gettingThere": "Dojazd na Kornaty",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Kornatach",
+    "faq": "Kornaty: Najczęściej zadawane pytania",
+    "groups": {
+      "gettingAround": "Parking i poruszanie się",
+      "planning": "Planowanie i gdzie się zatrzymać",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróżowania",
+      "activities": "Plaże i co robić",
+      "food": "Jedzenie i picie",
+      "comparisons": "Porównania",
+      "practical": "Praktyczne informacje"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "kornati",
+  "language": "pl",
+  "updatedAt": "2026-10-16T20:29:11.992Z"
+}

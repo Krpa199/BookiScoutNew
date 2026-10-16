@@ -1,0 +1,146 @@
+{
+  "title": "Slano Vodič: Plaže, Parking i Smještaj",
+  "metaDescription": "Planirajte svoje putovanje u Slano, Hrvatska. Pronađite ažurirane informacije o najboljim plažama, rutama vožnje iz Europe, parkingu i smještaju u zaljevu.",
+  "intro": "Slano je mirno obalno mjesto u dubokom, zaštićenom zaljevu južne Dalmacije, idealno za obitelji i parove koji traže opuštenu alternativu obližnjem Dubrovniku. Sa svojim mirnim, plitkim vodama i šljunčanim plažama, područje je savršeno za opušten odmor na Mediteranu gdje je naglasak čvrsto na plivanju, jelu i opuštanju.\n\nLjetni mjeseci između lipnja i rujna nude najbolje vrijeme i najtoplije temperature mora, iako su svibanj i listopad ugodni za aktivno razgledavanje bez gužvi. Posjetitelji obično provode dane izležavajući se na plažama Grgurići ili Banja, šetajući obalnom šetnicom, ili koristeći mjesto kao stratešku bazu za istraživanje poluotoka Pelješca i Dubrovnika.",
+  "quickFacts": [
+    {
+      "label": "Najbolji mjeseci",
+      "value": "Lipanj do rujan"
+    },
+    {
+      "label": "Temperatura mora u kolovozu",
+      "value": "25°C do 27°C"
+    },
+    {
+      "label": "Najbliža zračna luka",
+      "value": "Dubrovnik (DBV), 52 km"
+    },
+    {
+      "label": "Glavna vrsta plaže",
+      "value": "Šljunčane i betonske terase"
+    },
+    {
+      "label": "Razina cijena",
+      "value": "Prosječna za Dalmaciju, jeftinije od Dubrovnika"
+    },
+    {
+      "label": "Mogućnost pješačenja",
+      "value": "Pješačka obalna šetnica, ali nije bez automobila"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centar Slano & Banja",
+      "bestFor": "Nautičare i jednostavan pristup sadržajima",
+      "parking": "Dostupna javna parkirališta uz naplatu",
+      "beach": "Kratka šetnja do plaže Banja (šljunčana/plitka)",
+      "summary": "Ovo je središte mjesta, obuhvaćajući istočnu stranu zaljeva. Uključuje ACI Marinu, glavne supermarkete i izbor lokalnih restorana."
+    },
+    {
+      "name": "Grgurići",
+      "bestFor": "Obitelji i ljubitelje plaža",
+      "parking": "Ograničen parking na ulici, uglavnom hotelski parking",
+      "beach": "Izravan pristup plaži Grgurići (glavna šljunčana plaža)",
+      "summary": "Smješteno na zapadnoj strani zaljeva, ovo područje ugošćuje veće resort hotele. Nudi najpopularnije plažne sadržaje i najam vodenih sportova u mjestu."
+    },
+    {
+      "name": "Slađenovići & Kručica",
+      "bestFor": "Parove i mirna utočišta",
+      "parking": "Privatni parking vila je standardan",
+      "beach": "Obližnje stjenovite i šljunčane uvale",
+      "summary": "Ova mirnija naselja nalaze se sjeverozapadno od Slana uz obalu. Nude osamljena mjesta za kupanje i tradicionalne kamene kuće daleko od glavnog turističkog prometa."
+    },
+    {
+      "name": "Banići",
+      "bestFor": "Ljubitelje prirode i putnike s manjim budžetom",
+      "parking": "Jednostavan privatni parking kod smještaja",
+      "beach": "Kratka vožnja do plaže Budima",
+      "summary": "Ruralno naselje smješteno malo unutrašnjosti i uz obližnju obalu. Nudi pristupačnije apartmane, a istovremeno je kratkom vožnjom udaljeno od glavnih atrakcija Slana."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "950 km, oko 10 sati via A8, A10, A2 do A1 (Hrvatska) i D8. Austrijska vinjeta, tunelarina Karavanke, slovenska vinjeta, hrvatske cestarine.",
+      "other": "Direktan let za Dubrovnik (DBV), zatim transfer s aerodroma ili lokalni autobus."
+    },
+    {
+      "from": "Beč",
+      "car": "800 km, oko 8.5 sati via A2 do A1 (Hrvatska) i D8. Austrijska vinjeta, slovenska vinjeta, hrvatske cestarine.",
+      "other": "Direktan let za Dubrovnik (DBV), zatim transfer s aerodroma."
+    },
+    {
+      "from": "Budimpešta",
+      "car": "760 km, oko 8 sati via M7 do A4 i A1 (Hrvatska) i D8. Mađarska vinjeta, hrvatske cestarine.",
+      "other": "Direktan let ili direktan međugradski autobus za Dubrovnik."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "600 km, oko 6.5 sati via A2 do A1 (Hrvatska) i D8. Slovenska vinjeta, hrvatske cestarine.",
+      "other": "Autobus za Dubrovnik ili sezonski let za DBV."
+    },
+    {
+      "from": "Prag",
+      "car": "1.100 km, oko 11-12 sati via Beč, Graz, A1 (Hrvatska) i D8. Češka, austrijska, slovenska vinjeta, hrvatske cestarine.",
+      "other": "Direktan let za Dubrovnik (DBV), zatim transfer s aerodroma."
+    },
+    {
+      "from": "Krakov",
+      "car": "1.150 km, oko 12-13 sati via Slovačka, Mađarska (M15/M86), A1 (Hrvatska) i D8. Poljske cestarine, slovačka/mađarska vinjeta, hrvatske cestarine.",
+      "other": "Direktan let za Dubrovnik (DBV), zatim transfer s aerodroma."
+    }
+  ],
+  "whenToGo": "Najbolje vrijeme za posjet Slanom je od lipnja do rujna kada su svi sadržaji otvoreni, a temperatura mora doseže ugodnih 25°C do 27°C. Srpanj i kolovoz su udarni mjeseci, donoseći najveće gužve i najviše cijene, ali zaštićeni zaljev rijetko se osjeća preplavljenim kao veća dalmatinska ljetovališta. Svibanj i listopad nude hladnije vrijeme idealno za planinarenje i istraživanje obližnjeg Dubrovnika bez jake ljetne vrućine, iako je more osjetno hladnije i neki lokalni restorani ili mjesta za iznajmljivanje na plaži mogu biti zatvoreni.",
+  "faq": [
+    {
+      "question": "Vrijedi li posjetiti Slano?",
+      "answer": "Da, Slano vrijedi posjetiti za miran, opuštajući odmor. Nudi sporiji ritam, zaštićene plaže i jednostavan pristup Dubrovniku i poluotoku Pelješcu."
+    },
+    {
+      "question": "Koliko dana bih trebao ostati u Slanom?",
+      "answer": "Boravak od 3 do 5 dana savršen je za uživanje u lokalnim plažama i restoranima. Ako planirate jednodnevne izlete u Dubrovnik, Korčulu ili Mostar, preporučuje se cijeli tjedan."
+    },
+    {
+      "question": "Koja je najbolja plaža u Slanom?",
+      "answer": "Plaža Grgurići na zapadnoj strani zaljeva najpopularnija je, sa čistim šljunkom, plitkom vodom i plažnim sadržajima. Plaža Banja na istočnoj strani također je izvrsna i vrlo mirna."
+    },
+    {
+      "question": "Trebam li automobil u Slanom?",
+      "answer": "Iako vam automobil nije potreban za kretanje po samom mjestu, toplo se preporučuje. Vozilo vam omogućuje da lako idete na jednodnevne izlete, posjetite osamljene uvale i vozite se u Dubrovnik po vlastitom rasporedu."
+    },
+    {
+      "question": "Gdje mogu parkirati u Slanom?",
+      "answer": "Javna parkirališta uz naplatu nalaze se u blizini ACI Marine i centra mjesta. Većina hotela, vila i apartmana nudi privatna parkirna mjesta za svoje goste."
+    },
+    {
+      "question": "Je li Slano dobro za obitelji?",
+      "answer": "Da, Slano je izvrsna destinacija za obitelji. Duboki zaljev štiti glavne plaže od jakih valova, čineći plitke vode vrlo sigurnima za kupanje male djece."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na prvi pogled",
+    "whereToStay": "Gdje odsjesti u Slanom",
+    "gettingThere": "Dolazak u Slano",
+    "whenToGo": "Kada posjetiti",
+    "guides": "Vodiči za Slano",
+    "faq": "Slano Česta pitanja",
+    "groups": {
+      "gettingAround": "Parking i kretanje",
+      "planning": "Planiranje i smještaj",
+      "timing": "Kada posjetiti",
+      "travelers": "Obitelji, parovi i stilovi putovanja",
+      "activities": "Plaže i aktivnosti",
+      "food": "Hrana i piće",
+      "comparisons": "Usporedbe",
+      "practical": "Praktične informacije"
+    },
+    "car": "Automobilom",
+    "other": "Ostale opcije",
+    "bestFor": "Najbolje za",
+    "parking": "Parking",
+    "beach": "Plaža"
+  },
+  "destination": "slano",
+  "language": "hr",
+  "updatedAt": "2026-10-16T20:06:39.871Z"
+}

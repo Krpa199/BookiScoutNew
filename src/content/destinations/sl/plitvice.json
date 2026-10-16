@@ -1,0 +1,146 @@
+{
+  "title": "Plitvička jezera Potovalni vodnik: Vhodi, parkirišča in območja",
+  "metaDescription": "Dejanski vodnik po Plitvičkih jezerih. Načrtujte svojo pot, poiščite parkirišče, spoznajte lokacije vhodov in se odločite, kje boste prenočili v bližini parka.",
+  "intro": "Plitvička jezera so največji in najbolj obiskan hrvaški narodni park, znan po svojih 16 terasastih jezerih, povezanih s številnimi slapovi. Privablja predvsem pohodnike, ljubitelje narave in tiste, ki potujejo po državi z avtom.\n\nObisk zahteva vnaprejšnje načrtovanje, saj je število dnevnih vstopnic strogo omejeno glede na čas vstopa. Parkovne poti so julija in avgusta zelo obremenjene, zato so maj, junij, september in oktober optimalni meseci za udobne temperature hoje in manjše gneče. Avto je priporočljiv za dosego nastanitev zunaj neposrednih meja parka, čeprav direktne avtobusne linije povezujejo vhode v park z Zagrebom, Zadrom in Splitom.",
+  "quickFacts": [
+    {
+      "label": "Najboljši meseci",
+      "value": "Maj, junij, september, oktober"
+    },
+    {
+      "label": "Temperatura morja avgusta",
+      "value": "Ni relevantno (celinski narodni park)"
+    },
+    {
+      "label": "Najbližje letališče",
+      "value": "Zadar (ZAD) 130 km; Zagreb (ZAG) 140 km"
+    },
+    {
+      "label": "Glavni tip plaže",
+      "value": "Ni relevantno (kopanje v jezerih je strogo prepovedano)"
+    },
+    {
+      "label": "Cenovna raven",
+      "value": "Visoka (Vstop v park v glavni sezoni in bližnji hoteli presegajo državno povprečje)"
+    },
+    {
+      "label": "Dostopnost peš",
+      "value": "Ni tradicionalnega mestnega središča; parkovne poti so samo za pešce"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Rastovača (blizu vhoda 1)",
+      "bestFor": "Za tiste, ki obiščejo park prvič in želijo neposreden peš dostop do Spodnjih jezer in Velikega slapa.",
+      "parking": "Zasebno parkirišče pri penzionih; plačljivo javno parkirišče pri vhodu 1.",
+      "beach": "Ni relevantno",
+      "summary": "Majhna skupina penzionov takoj severno od vhoda 1. Bivanje tukaj omogoča obiskovalcem, da pustijo vozilo v svoji nastanitvi in se v 10 do 15 minutah sprehodijo do vhoda v park."
+    },
+    {
+      "name": "Mukinje & Jezerce (blizu vhoda 2)",
+      "bestFor": "Za obiskovalce, ki raziskujejo Zgornja jezera ali iščejo uveljavljene državne hotele.",
+      "parking": "Na voljo parkirišče pri hotelih; plačljivo javno parkirišče pri vhodu 2.",
+      "beach": "Ni relevantno",
+      "summary": "Nahaja se južno od vhoda 2 in ponuja več velikih hotelov ter zasebnih apartmajev. Asfaltirana pot povezuje vas neposredno z blagajno vhoda 2 in glavnim pristaniščem za čolne."
+    },
+    {
+      "name": "Rakovica & Grabovac",
+      "bestFor": "Za popotnike z omejenim proračunom, družine in tiste, ki potujejo z avtom ali avtodomom.",
+      "parking": "Veliko brezplačnih parkirnih mest v počitniških naseljih, kampih in podeželskih hotelih.",
+      "beach": "Ni relevantno",
+      "summary": "Nahaja se 8 do 15 kilometrov severno od parka ob avtocesti D1. To območje ponuja širšo izbiro restavracij, velike počitniške komplekse in na splošno nižje cene kot v neposredni bližini parka."
+    },
+    {
+      "name": "Plitvica Selo",
+      "bestFor": "Za mirno, prestižno bivanje, ki se nahaja neposredno znotraj meja narodnega parka.",
+      "parking": "Zasebno parkirišče na posesti; vožnja zahteva navigacijo po ozkih parkovnih cestah.",
+      "beach": "Ni relevantno",
+      "summary": "Majhna vasica, ki se nahaja tik ob Velikem slapu in jezeru Kozjak. Omogoča neposreden peš dostop do poti preko stranskega vhoda (Vhod 3), s čimer se izognete glavnim čakalnim vrstam za vstopnice."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "570 km, ~6,5 ure preko A8 (DE), A10 (AT), A2 (SI) in D1 (HR). Potrebni sta avstrijska in slovenska vinjeta, plus cestnine za Tauerntunnel in hrvaške avtoceste.",
+      "other": "Direktni FlixBus do Plitvičkih jezer (približno 9 ur) ali let do Zagreba, ki mu sledi avtobus."
+    },
+    {
+      "from": "Dunaj",
+      "car": "420 km, ~5 ur preko A2 do Gradca, A4 (SI) proti Mariboru, A1 (HR) do Karlovca, nato D1. Potrebni sta avstrijska in slovenska vinjeta ter hrvaške avtocestne cestnine.",
+      "other": "Direktni FlixBus do Plitvičkih jezer (približno 7 ur) ali vlak/let do Zagreba, ki mu sledi avtobus."
+    },
+    {
+      "from": "Budimpešta",
+      "car": "480 km, ~5,5 ure preko M7 v Hrvaško (A4), mimo Zagreba do Karlovca (A1), nato D1. Potrebni sta madžarska e-vinjeta in hrvaške avtocestne cestnine.",
+      "other": "Avtobus ali vlak do Zagreba, nato prestop na domačo avtobusno linijo do Plitvičkih jezer."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "210 km, ~3 ure preko A2 do Novega Mesta, prečkanje meje proti Karlovcu, nato D1 proti jugu. Potrebna je slovenska vinjeta in manjše hrvaške cestnine.",
+      "other": "Avtobus ali vlak do Zagreba, ki mu sledi prestop na avtobus za Plitvička jezera."
+    },
+    {
+      "from": "Praga",
+      "car": "750 km, ~8,5 ure preko Brna, Dunaja, Gradca in Zagreba. Potrebne so češka, avstrijska in slovenska vinjeta, plus hrvaške cestnine.",
+      "other": "Let ali direktni RegioJet avtobus/vlak do Zagreba, prestop na lokalni avtobus do parka."
+    },
+    {
+      "from": "Krakov",
+      "car": "870 km, ~10 ur preko Slovaške, Madžarske (Budimpešte) in Hrvaške (Zagreba). Potrebne so slovaška in madžarska vinjeta, plus hrvaške avtocestne cestnine.",
+      "other": "Let do Zagreba (običajno preko Varšave ali Dunaja), ki mu sledi 2-urna vožnja z avtobusom do parka."
+    }
+  ],
+  "whenToGo": "Maj in september ponujata najboljše ravnovesje med zmerno gnečo in prijetnimi temperaturami za pohodništvo, običajno med 15°C in 23°C. Julij in avgust sta zelo obremenjena, z dnevnimi temperaturami okoli 28°C in cenami vstopnic v glavni sezoni. Zima prinaša sneg, temperature pod lediščem in drastično znižane cene vstopnic, čeprav so Zgornja jezera ter notranje ladijske in vlakovne storitve običajno zaprte od novembra do marca. Kopanje je prepovedano celo leto, zato temperature morja niso relevantne. Padavine so pogoste spomladi, zaradi česar so slapovi še posebej mogočni.",
+  "faq": [
+    {
+      "question": "Se splača obiskati?",
+      "answer": "Da, to je najbolj znana naravna znamenitost Hrvaške. Obsežno omrežje lesenih sprehajališč nad bistrimi jezeri in slapovi je edinstveno v Evropi."
+    },
+    {
+      "question": "Koliko dni potrebujem?",
+      "answer": "En cel dan zadostuje za sprehod po glavnih poteh in ogled tako Zgornjih kot Spodnjih jezer. Če prenočite v bližini, lahko v park vstopite ob odprtju, preden prispejo avtobusne ture sredi dneva."
+    },
+    {
+      "question": "Kje je najboljša plaža?",
+      "answer": "Kopanje je strogo prepovedano kjerkoli v Narodnem parku Plitvička jezera za zaščito ekosistema. Najbližje obalne plaže so v Senju ali Zadru, obe približno 1,5 do 2 uri vožnje stran."
+    },
+    {
+      "question": "Potrebujem avto?",
+      "answer": "Avto ni potreben za ogled parka, če bivate v hotelu neposredno pri Vhodu 1 ali 2, saj tam ustavljajo avtobusi iz Zagreba in Zadra. Vendar je avto nujen, če rezervirate nastanitev v okoliških vaseh, kot sta Rakovica ali Korenica."
+    },
+    {
+      "question": "Kje je najboljše parkirati?",
+      "answer": "Narodni park upravlja dve glavni uradni, plačljivi parkirišči (Parkirišče 1 in Parkirišče 2), ki ustrezata dvema glavnima vhodoma. Parkiranje stane približno 1 do 2 € na uro, odvisno od sezone, in parkirišča se poleti hitro napolnijo do sredine dopoldneva."
+    },
+    {
+      "question": "Je primerno za družine?",
+      "answer": "Da, vendar je bolj primerno za starejše otroke, ki lahko prehodijo več kilometrov brez pomoči. Lesene sprehajalne poti so pogosto neravne, na mnogih odsekih nimajo ograj in niso primerne za otroške vozičke."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na hitro",
+    "whereToStay": "Kje prenočiti v Plitvičkih jezerih",
+    "gettingThere": "Kako priti do Plitvičkih jezer",
+    "whenToGo": "Kdaj obiskati",
+    "guides": "Vodniki za Plitvička jezera",
+    "faq": "Plitvička jezera: Pogosto zastavljena vprašanja",
+    "groups": {
+      "gettingAround": "Parkiranje in premikanje po parku",
+      "planning": "Načrtovanje in kje prenočiti",
+      "timing": "Kdaj obiskati",
+      "travelers": "Družine, pari in načini potovanja",
+      "activities": "Plaže in aktivnosti",
+      "food": "Hrana in pijača",
+      "comparisons": "Primerjave",
+      "practical": "Praktične informacije"
+    },
+    "car": "Z avtom",
+    "other": "Druge možnosti",
+    "bestFor": "Najboljše za",
+    "parking": "Parkirišče",
+    "beach": "Plaža"
+  },
+  "destination": "plitvice",
+  "language": "sl",
+  "updatedAt": "2026-10-16T20:18:40.331Z"
+}

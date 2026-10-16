@@ -1,0 +1,139 @@
+{
+  "title": "Kornaten Reiseführer: Bootsausflüge, Robinson-Urlaub & Inseln",
+  "metaDescription": "Planen Sie Ihre Reise zu den Kornaten. Finden Sie Informationen zu Robinson-Unterkünften, Bootstouren von Murter, Anreiserouten, Parkmöglichkeiten und Insel-Logistik.",
+  "intro": "Das Kornaten-Archipel ist eine dichte Gruppe von 89 größtenteils unbewohnten Inseln, Inselchen und Riffen in Norddalmatien, die als Nationalpark geschützt sind. Die Landschaft ist geprägt von kargem, felsigem Gelände, steilen Klippen zum offenen Meer hin und klarem, tiefem Wasser. Es zieht hauptsächlich Segler, Taucher und Besucher an, die einen isolierten Urlaub im 'Robinson Crusoe'-Stil in abgelegenen Steinhäusern ohne Stromnetz suchen.\n\nDer Zugang zu den Inseln ist ausschließlich per Boot möglich; innerhalb der Nationalparkgrenzen verkehren keine Autos oder Fähren. Die meisten Reisenden erreichen die Kornaten über organisierte Tagesausflüge oder private Charterboote, die von der Festland-Gateway-Stadt Murter abfahren. Die Hauptsaison dauert von Juni bis September, wenn die saisonalen Fischtavernen öffnen und das Wetter stabil genug für eine sichere Navigation ist.",
+  "quickFacts": [
+    {
+      "label": "Beste Monate",
+      "value": "Juni bis September"
+    },
+    {
+      "label": "Meerestemperatur im August",
+      "value": "24°C - 26°C"
+    },
+    {
+      "label": "Nächster Flughafen",
+      "value": "Zadar (ZAD), 65 km zum Murter-Zugang"
+    },
+    {
+      "label": "Hauptstrandtyp",
+      "value": "Felsplatten und Kiesel"
+    },
+    {
+      "label": "Preisniveau",
+      "value": "Höher als der Festlanddurchschnitt"
+    },
+    {
+      "label": "Autofrei",
+      "value": "100% autofrei; nur per Boot erreichbar"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Murter (Tor zum Festland)",
+      "bestFor": "Familien, Autofahrer und Buchung von Tagestouren",
+      "parking": "Kostenpflichtige öffentliche Parkplätze und private Langzeitparkplätze",
+      "beach": "Sand- und Kiesstrand (Slanica) in der Nähe",
+      "summary": "Murter ist durch eine Brücke mit dem Festland verbunden und der Verwaltungssitz des Nationalparks. Es bietet übliche touristische Annehmlichkeiten und ist der wichtigste Abfahrtspunkt für Kornaten-Bootstouren."
+    },
+    {
+      "name": "Insel Kornat (Vrulje & Tarac)",
+      "bestFor": "Abgelegene 'Robinson Crusoe'-Aufenthalte und absolute Ruhe",
+      "parking": "Keine Autos erlaubt; Parken auf dem Festland erforderlich",
+      "beach": "Felsige Küstenlinien und private Steinanleger",
+      "summary": "Die größte Insel des Archipels bietet isolierte Steinhäuser ohne Stromnetz oder fließendes Wasser. Besucher verlassen sich auf Solarenergie, Zisternen und Versorgungsboote."
+    },
+    {
+      "name": "Insel Žut",
+      "bestFor": "Segler und Yachtbesatzungen",
+      "parking": "Keine Autos erlaubt",
+      "beach": "Meist felsige Buchten und Betonliegeplätze",
+      "summary": "Direkt außerhalb der strengen Nationalparkgrenzen gelegen, bietet Žut eine ACI Marina, einige saisonale Restaurants und sichere Ankerplätze. Es stellt eine etwas besser entwickelte Übernachtungsmöglichkeit für nautische Besucher dar."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "785 km nach Murter, 8,5 Stunden über A8, A10 und A1. Erfordert österreichische Vignette, Karawankentunnel-Maut, slowenische Vignette und kroatische Mautgebühren.",
+      "other": "Flug nach Zadar, dann Bus oder Taxi nach Murter."
+    },
+    {
+      "from": "Wien",
+      "car": "685 km nach Murter, 7 Stunden über A2, slowenische A1/A4 und kroatische A1. Erfordert österreichische und slowenische Vignette, sowie kroatische Mautgebühren.",
+      "other": "Flug nach Zadar oder Direktbus nach Biograd/Zadar."
+    },
+    {
+      "from": "Budapest",
+      "car": "660 km nach Murter, 6,5 Stunden über M7 und kroatische A4/A1. Erfordert ungarische Vignette und kroatische Mautgebühren.",
+      "other": "Direktbus oder Nachtzug nach Split, mit Anschluss an den Nahverkehr."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "395 km nach Murter, 4,5 Stunden über A2 und kroatische A1. Erfordert slowenische Vignette und kroatische Mautgebühren.",
+      "other": "Direktbus nach Zadar oder Biograd na Moru."
+    },
+    {
+      "from": "Prag",
+      "car": "1015 km nach Murter, 10,5 Stunden über Österreich, Slowenien und Kroatien. Erfordert österreichische und slowenische Vignette, sowie kroatische Mautgebühren.",
+      "other": "Flug nach Zadar oder RegioJet-Zug nach Split."
+    },
+    {
+      "from": "Krakau",
+      "car": "1060 km nach Murter, 11 Stunden über die Slowakei, Ungarn und Kroatien. Erfordert slowakische und ungarische Vignette, sowie kroatische Mautgebühren.",
+      "other": "Flug nach Zadar."
+    }
+  ],
+  "whenToGo": "Die Kornaten sind streng saisonal. Von Juni bis September liegen die Meerestemperaturen zwischen 24°C und 26°C, was sie ideal zum Schwimmen und Schnorcheln macht. In diesen Monaten sind die isolierten Konobas (Tavernen) und die Marina auf Žut geöffnet. Juli und August verzeichnen das höchste Aufkommen an nautischem Verkehr und Spitzenpreise für Bootscharter und Robinson-Häuser. Außerhalb dieses Zeitraums, hauptsächlich von Oktober bis April, ist das Archipel fast völlig verlassen, die meisten Einrichtungen schließen und unvorhersehbare Winde machen den Bootszugang unzuverlässig.",
+  "faq": [
+    {
+      "question": "Lohnt sich ein Besuch?",
+      "answer": "Ja, für Besucher, die unberührte Natur, Segeln und Schwimmen in klarem Wasser schätzen. Es fehlen typische Resort-Annehmlichkeiten, bietet aber hervorragende Isolation und unverwechselbare Meereslandschaften."
+    },
+    {
+      "question": "Wie viele Tage brauche ich?",
+      "answer": "Ein einziger Tag reicht für eine organisierte Bootstour von Murter oder Zadar. Für diejenigen, die ein Robinson-Haus mieten oder segeln, ermöglichen drei bis sieben Tage die Erkundung verschiedener Buchten."
+    },
+    {
+      "question": "Was ist der beste Strand?",
+      "answer": "Lojena auf der Insel Levrnaka ist der bekannteste Strand im Nationalpark. Er verfügt über einen sandigen Boden und einen weißen Kiesstrand, wird aber mittags stark von Ausflugsbooten frequentiert."
+    },
+    {
+      "question": "Brauche ich ein Auto?",
+      "answer": "Autos sind streng verboten und physisch unmöglich in den Nationalpark zu bringen. Der Zugang erfolgt ausschließlich mit Privatbooten, Charterbooten oder organisierten Touren."
+    },
+    {
+      "question": "Wo parke ich?",
+      "answer": "Besucher müssen ihre Fahrzeuge auf dem Festland abstellen. Murter, Biograd na Moru und Zadar bieten sichere Langzeitparkplätze in der Nähe der Marinas für mehrtägige Bootstouren."
+    },
+    {
+      "question": "Ist es für Familien geeignet?",
+      "answer": "Es ist für Familien mit älteren Kindern geeignet, die sich auf Booten wohlfühlen und gute Schwimmer sind. Der Mangel an Schatten, Sandstränden und medizinischen Einrichtungen macht es für Säuglinge oder Kleinkinder schwierig."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Auf einen Blick",
+    "whereToStay": "Wo man in Kornaten übernachten kann",
+    "gettingThere": "Anreise zu den Kornaten",
+    "whenToGo": "Beste Reisezeit",
+    "guides": "Kornaten-Führer",
+    "faq": "Kornaten FAQ",
+    "groups": {
+      "gettingAround": "Parken & Fortbewegung",
+      "planning": "Planung & Unterkunft",
+      "timing": "Reisezeit",
+      "travelers": "Familien, Paare & Reisestile",
+      "activities": "Strände & Aktivitäten",
+      "food": "Essen & Trinken",
+      "comparisons": "Vergleiche",
+      "practical": "Praktische Infos"
+    },
+    "car": "Mit dem Auto",
+    "other": "Andere Optionen",
+    "bestFor": "Am besten für",
+    "parking": "Parken",
+    "beach": "Strand"
+  },
+  "destination": "kornati",
+  "language": "de",
+  "updatedAt": "2026-10-16T20:28:43.680Z"
+}

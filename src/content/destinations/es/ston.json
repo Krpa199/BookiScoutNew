@@ -1,0 +1,146 @@
+{
+  "title": "Ston: Guía de Viaje - Murallas, Ostras y Dónde Alojarse",
+  "metaDescription": "Planifica tu viaje a Ston, Croacia. Encuentra consejos prácticos sobre aparcamiento, rutas desde Europa Central, playas y las mejores zonas para alojarse en Pelješac.",
+  "intro": "Ston es una ciudad histórica en la base de la península de Pelješac, conocida por sus murallas defensivas del siglo XIV de 5.5 kilómetros, salinas operativas y su proximidad a las granjas de ostras de la bahía de Mali Ston. Es ideal para viajeros que buscan una base para explorar el sur de Dalmacia y las islas sin las intensas multitudes y los altos precios de la cercana Dubrovnik. La ciudad se centra en la historia y la gastronomía más que en la vida nocturna o los complejos turísticos.\n\nLa mejor época para visitar es entre mayo y septiembre. El pleno verano trae clima cálido para nadar en la cercana playa de Prapratno, mientras que las temporadas intermedias de mayo, junio y septiembre ofrecen condiciones más frescas para recorrer las murallas y visitar las bodegas de la región. La mayoría de los visitantes llegan en coche, ya que las opciones de transporte público se limitan a rutas de autobús locales.",
+  "quickFacts": [
+    {
+      "label": "Mejores meses",
+      "value": "De mayo a septiembre"
+    },
+    {
+      "label": "Temperatura del mar en agosto",
+      "value": "25°C - 26°C"
+    },
+    {
+      "label": "Aeropuerto más cercano",
+      "value": "Aeropuerto de Dubrovnik (DBV), 72 km"
+    },
+    {
+      "label": "Tipo de playa principal",
+      "value": "Arena (Prapratno) y roca natural"
+    },
+    {
+      "label": "Nivel de precios",
+      "value": "Medio para la costa, más barato que Dubrovnik"
+    },
+    {
+      "label": "Movilidad en el casco antiguo",
+      "value": "Centro solo peatonal; aparcamiento fuera de las murallas"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Ston (Centro)",
+      "bestFor": "Historia, gastronomía y turismo",
+      "parking": "Aparcamientos públicos de pago justo fuera de las murallas",
+      "beach": "A 3 km de la playa de Prapratno",
+      "summary": "El asentamiento principal cuenta con casas de piedra, cafeterías y acceso directo a las salinas y a la entrada de las murallas. Ofrece la mayoría de opciones gastronómicas y servicios, pero carece de acceso inmediato a la playa."
+    },
+    {
+      "name": "Mali Ston",
+      "bestFor": "Degustación de ostras y noches tranquilas",
+      "parking": "Aparcamiento limitado en la calle y pequeños aparcamientos de pago",
+      "beach": "No hay playas tradicionales; acceso rocoso a la costa",
+      "summary": "Un pequeño pueblo en el lado norte del istmo, conectado con Ston por las murallas. Es famoso por sus criaderos de ostras y sus restaurantes tradicionales de mariscos frente al mar."
+    },
+    {
+      "name": "Prapratno",
+      "bestFor": "Familias y amantes de la playa",
+      "parking": "Gran zona de aparcamiento cerca del ferry y la playa",
+      "beach": "Acceso inmediato a una bahía de arena",
+      "summary": "Situada en una bahía al sur de Ston, esta zona consta principalmente de un gran camping, algunos apartamentos y el puerto de ferry a Mljet. La playa de arena natural es poco profunda y muy adecuada para niños pequeños."
+    },
+    {
+      "name": "Broce",
+      "bestFor": "Relajación aislada lejos de las multitudes",
+      "parking": "Aparcamiento gratuito normalmente ofrecido por las casas de huéspedes",
+      "beach": "Losas de hormigón y pequeñas calas de guijarros",
+      "summary": "Un tranquilo y tradicional pueblo pesquero a poca distancia en coche al sur de Ston. Está rodeado de pinares y ofrece un ambiente relajado con mínimas instalaciones comerciales."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Múnich",
+      "car": "940 km, 10-11 horas vía A8, A10/A11 austriaca (viñeta + peajes de túnel), A2 eslovena (viñeta) y A1 croata (peajes).",
+      "other": "Vuelo a Dubrovnik, luego 1 hora en coche o autobús."
+    },
+    {
+      "from": "Viena",
+      "car": "780 km, 8-9 horas vía A2/A9 austriaca (viñeta), A1/A4 eslovena (viñeta) y A1 croata (peajes).",
+      "other": "Vuelo directo a Dubrovnik, luego traslado al aeropuerto o coche de alquiler."
+    },
+    {
+      "from": "Budapest",
+      "car": "720 km, 7.5-8.5 horas vía M7 (viñeta) conectando con las A4 y A1 croatas (peajes).",
+      "other": "Vuelo a Dubrovnik (rutas estacionales disponibles)."
+    },
+    {
+      "from": "Liubliana",
+      "car": "540 km, 6-6.5 horas vía A2 eslovena (viñeta) y A1 croata (peajes).",
+      "other": "Transporte directo limitado; mejor llegar en coche."
+    },
+    {
+      "from": "Praga",
+      "car": "1.100 km, 11-12 horas vía Austria (viñeta) y Eslovenia (viñeta) a la A1 croata.",
+      "other": "Vuelo a Dubrovnik, luego autobús local o coche de alquiler."
+    },
+    {
+      "from": "Cracovia",
+      "car": "1.140 km, 12-13 horas vía Eslovaquia y Hungría (viñetas) a la A1 croata (peajes).",
+      "other": "Vuelo desde Cracovia o Katowice a Dubrovnik."
+    }
+  ],
+  "whenToGo": "La temporada turística va de mayo a octubre. Julio y agosto son los meses más calurosos y concurridos, con temperaturas del mar que alcanzan los 26°C y precios de alojamiento en su punto máximo, aunque Ston sigue siendo menos concurrida que las principales ciudades costeras. Junio y septiembre ofrecen condiciones ideales con agua cálida, precios más bajos y temperaturas en los veintitantos grados, lo que hace mucho más cómodo subir por las murallas defensivas sin sombra. Muchos restaurantes locales, tours por las salinas y excursiones en barco para degustar ostras operan plenamente durante estos meses. De noviembre a abril, la ciudad está muy tranquila; muchos negocios orientados al turismo cierran por el invierno, y el clima es demasiado frío para nadar, aunque las murallas y algunos restaurantes locales permanecen abiertos todo el año.",
+  "faq": [
+    {
+      "question": "¿Vale la pena visitar Ston?",
+      "answer": "Sí, vale la pena visitar Ston por su muralla medieval de 5.5 kilómetros, sus históricas salinas y su reconocida industria de ostras. Sirve como una excelente base para explorar la península de Pelješac sin los altos costos de alojamiento de Dubrovnik."
+    },
+    {
+      "question": "¿Cuántos días necesito en Ston?",
+      "answer": "Uno o dos días son suficientes para ver las principales atracciones de Ston y Mali Ston. Sin embargo, muchos visitantes se quedan de cuatro a siete días para usar la ciudad como base práctica para excursiones de un día a Mljet, Korčula y bodegas locales."
+    },
+    {
+      "question": "¿Cuál es la mejor playa en Ston?",
+      "answer": "La playa de Prapratno, situada a tres kilómetros del centro de Ston, es la playa más popular de la zona. Cuenta con arena natural y aguas poco profundas, lo que la hace extremadamente popular durante los meses de verano."
+    },
+    {
+      "question": "¿Necesito un coche en Ston?",
+      "answer": "Se recomienda encarecidamente un coche para una estancia en Ston. Aunque puedes caminar entre Ston y Mali Ston, un vehículo es necesario para llegar a las mejores playas, visitar bodegas cercanas o explorar el resto de la península de Pelješac."
+    },
+    {
+      "question": "¿Dónde aparcar en Ston?",
+      "answer": "Hay varios aparcamientos municipales de pago situados justo fuera del centro histórico, que es solo peatonal. Las tarifas de aparcamiento se aplican durante la temporada turística, y los lugares pueden llenarse rápidamente a mitad del día durante julio y agosto."
+    },
+    {
+      "question": "¿Es Ston bueno para familias?",
+      "answer": "Sí, Ston es bueno para familias que buscan unas vacaciones tranquilas, especialmente aquellas con niños pequeños que disfrutarán de las aguas arenosas y poco profundas de la cercana playa de Prapratno. Sin embargo, carece del gran entretenimiento de los resorts y los parques acuáticos que se encuentran en destinos costeros más comercializados."
+    }
+  ],
+  "headings": {
+    "quickFacts": "De un vistazo",
+    "whereToStay": "Dónde alojarse en Ston",
+    "gettingThere": "Cómo llegar a Ston",
+    "whenToGo": "Cuándo ir",
+    "guides": "Guías de Ston",
+    "faq": "Preguntas frecuentes sobre Ston",
+    "groups": {
+      "gettingAround": "Aparcamiento y cómo moverse",
+      "planning": "Planificación y dónde alojarse",
+      "timing": "Cuándo ir",
+      "travelers": "Familias, parejas y estilos de viaje",
+      "activities": "Playas y cosas que hacer",
+      "food": "Comida y bebida",
+      "comparisons": "Comparaciones",
+      "practical": "Información práctica"
+    },
+    "car": "En coche",
+    "other": "Otras opciones",
+    "bestFor": "Ideal para",
+    "parking": "Aparcamiento",
+    "beach": "Playa"
+  },
+  "destination": "ston",
+  "language": "es",
+  "updatedAt": "2026-10-16T19:58:32.400Z"
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Samobor: Vodič za putovanje, planinarenje, parkiranje i smještaj",
+  "metaDescription": "Planirajte putovanje u Samobor, Hrvatska uz naš praktični vodič. Otkrijte najbolje četvrti za smještaj, vozne rute, savjete za parkiranje i informacije o lokalnim planinarskim stazama.",
+  "intro": "Samobor je povijesni trgovački grad smješten 25 kilometara zapadno od Zagreba, u istočnom podnožju planinskog lanca Samoborsko gorje. Privlači planinare, gurmane i one koji traže mirnu alternativu užurbanoj hrvatskoj prijestolnici. Grad se odlikuje baroknom arhitekturom, pješačkom zonom u centru i potokom Gradna koji protječe kroz njega. Posjetitelji dolaze zbog tradicionalne slastice kremšnita, ruševina dvorca iz 13. stoljeća i pristupa brojnim šumskim stazama.\n\nNajbolje vrijeme za posjet je od svibnja do rujna, kada je vrijeme dovoljno toplo za objedovanje na otvorenom i istraživanje okolnog parka prirode. Zime su mirne, ali privlače gužve tijekom godišnjeg karnevala Fašnik u veljači.",
+  "quickFacts": [
+    {
+      "label": "Najbolji mjeseci",
+      "value": "Svibanj, Lipanj, Rujan"
+    },
+    {
+      "label": "Temperatura mora u kolovozu",
+      "value": "N/A (kontinentalni grad)"
+    },
+    {
+      "label": "Najbliža zračna luka",
+      "value": "Zagreb (ZAG), 35 km"
+    },
+    {
+      "label": "Glavna vrsta plaže",
+      "value": "Nema (lokalni otvoreni bazen)"
+    },
+    {
+      "label": "Razina cijena",
+      "value": "Umjerena (jeftinije nego na obali)"
+    },
+    {
+      "label": "Prohodnost",
+      "value": "Vrlo prohodno, pješačka zona u centru"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centar (Stari grad)",
+      "bestFor": "Prvi posjetitelji i ljubitelji kava",
+      "parking": "Plaćena javna parkirališta izvan pješačkih zona",
+      "beach": "N/A (kontinentalno)",
+      "summary": "Povijesno srce Samobora, izgrađeno oko Trga kralja Tomislava. Nudi izravan pristup tradicionalnim pekarnicama, restoranima i glavnoj šetnici uz potok Gradna."
+    },
+    {
+      "name": "Giznik",
+      "bestFor": "Mirni boravci i stambena udobnost",
+      "parking": "Privatni parking široko dostupan",
+      "beach": "N/A (kontinentalno)",
+      "summary": "Luksuzna, brdovita stambena četvrt odmah iznad starog grada. Pruža mirno okruženje i panoramske poglede, a istovremeno je na kratkoj pješačkoj udaljenosti od centra."
+    },
+    {
+      "name": "Vrhovčak",
+      "bestFor": "Ljubitelji prirode i apsolutna privatnost",
+      "parking": "Dovoljno besplatnog privatnog parkinga",
+      "beach": "N/A (kontinentalno)",
+      "summary": "Malo naselje smješteno dalje uz brda, okruženo šumom. Pogodno je za posjetitelje koji žele izravan pristup planinarskim stazama i osjećaj seoskog ugođaja."
+    },
+    {
+      "name": "Rude",
+      "bestFor": "Ljubitelji povijesti i rustikalna atmosfera",
+      "parking": "Jednostavan ulični ili privatni parking",
+      "beach": "N/A (kontinentalno)",
+      "summary": "Tradicionalno selo 5 kilometara jugozapadno od Samobora, poznato po svojoj povijesti rudarstva bakra. Posjetitelji ovdje borave kako bi istražili rudnik svete Barbare i lokalne planinske rute."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "540 km, 5.5 do 6 sati preko A8, A10 i A2. Potrebne su austrijska i slovenska vinjeta, plus cestarine.",
+      "other": "Noćni vlak ili međugradski autobus do Zagreba, zatim lokalni autobus do Samobora."
+    },
+    {
+      "from": "Beč",
+      "car": "370 km, 4 sata preko A2, A9 i slovenske A1. Potrebne su austrijska i slovenska vinjeta, plus hrvatske cestarine.",
+      "other": "Vlak ili autobus do Zagreba, zatim lokalni autobus do Samobora."
+    },
+    {
+      "from": "Budimpešta",
+      "car": "370 km, 3.5 do 4 sata preko M7 i A4. Potrebna je mađarska vinjeta i hrvatske cestarine.",
+      "other": "Vlak ili autobus do Zagreba, zatim lokalni autobus do Samobora."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "115 km, 1.5 sati preko A2 do graničnog prijelaza Bregana. Potrebna je slovenska vinjeta.",
+      "other": "Vlak ili autobus do Zagreba, zatim lokalni autobus do Samobora."
+    },
+    {
+      "from": "Prag",
+      "car": "650 km, 7.5 sati preko D1 do Brna, zatim austrijske A2 i slovenske A1. Potrebne su češka, austrijska i slovenska vinjeta.",
+      "other": "Let ili autobus do Zagreba, zatim lokalni autobus do Samobora."
+    },
+    {
+      "from": "Krakov",
+      "car": "710 km, 8 do 9 sati preko A4, Slovačke (D3) i Mađarske (M7). Potrebne su slovačka i mađarska vinjeta.",
+      "other": "Let ili autobus do Zagreba, zatim lokalni autobus do Samobora."
+    }
+  ],
+  "whenToGo": "Samobor je cjelogodišnja kontinentalna destinacija bez mora. Svibanj i lipanj donose ugodno vrijeme za planinarenje (15°C do 25°C), cvatuće krajolike i umjerene cijene. Srpanj i kolovoz su najtopliji mjeseci s temperaturama koje često prelaze 30°C, privlačeći više domaćih izletnika iz Zagreba; svi restorani i planinarske kuće su u potpunosti operativni. Rujan nudi hladnije, ugodno vrijeme i nešto niže cijene smještaja. Od listopada do travnja, grad je mnogo mirniji i hladniji, iako pekarnice i glavni gradski restorani ostaju otvoreni. Veljača kratkotrajno bilježi porast cijena i gužve zbog godišnjeg Samoborskog fašnika.",
+  "faq": [
+    {
+      "question": "Je li Samobor vrijedan posjeta?",
+      "answer": "Da, posebno zbog dobro očuvane barokne arhitekture i poznate slastice kremšnita. Služi kao izvrsna baza za planinarenje po Samoborskom gorju ili kao opuštajući jednodnevni izlet iz Zagreba."
+    },
+    {
+      "question": "Koliko dana mi je potrebno u Samoboru?",
+      "answer": "Jedan do dva dana je dovoljno za istraživanje starog grada, posjet ruševinama dvorca i uživanje u lokalnim kafićima. Dodajte još jedan dan ako planirate opsežno planinarenje u okolnom parku prirode."
+    },
+    {
+      "question": "Koja je najbolja plaža u Samoboru?",
+      "answer": "Samobor je kontinentalna destinacija i nema morskih plaža. Posjetitelji se osvježavaju na otvorenom bazenu Vugrinščak ili putuju najmanje dva sata do jadranske obale."
+    },
+    {
+      "question": "Treba li mi automobil u Samoboru?",
+      "answer": "Automobil nije potreban za pješački centar grada ili za putovanje do i iz Zagreba lokalnim autobusom. Međutim, vozilo se preporučuje za dolazak do obližnjih planinarskih staza i ruralnih sela."
+    },
+    {
+      "question": "Gdje je najbolje parkirati u Samoboru?",
+      "answer": "Parkiranje na glavnom trgu je ograničeno, ali velika plaćena javna parkirališta nalaze se odmah izvan pješačke zone. Parkirališta u blizini glavnog autobusnog kolodvora i iza kina su najpogodnija."
+    },
+    {
+      "question": "Je li Samobor dobra destinacija za obitelji?",
+      "answer": "Da, to je vrlo siguran, ravan i opušten grad za obitelji s djecom. Lagana šetnja šumom do ruševina Samoborskog dvorca i obližnja Grgosova špilja popularne su aktivnosti za djecu."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Ukratko",
+    "whereToStay": "Gdje odsjesti u Samoboru",
+    "gettingThere": "Dolazak u Samobor",
+    "whenToGo": "Kada posjetiti",
+    "guides": "Vodiči za Samobor",
+    "faq": "Česta pitanja o Samoboru",
+    "groups": {
+      "gettingAround": "Parkiranje i kretanje",
+      "planning": "Planiranje i smještaj",
+      "timing": "Kada ići",
+      "travelers": "Obitelji, parovi i stilovi putovanja",
+      "activities": "Plaže i aktivnosti",
+      "food": "Hrana i piće",
+      "comparisons": "Usporedbe",
+      "practical": "Praktične informacije"
+    },
+    "car": "Automobilom",
+    "other": "Ostale opcije",
+    "bestFor": "Najbolje za",
+    "parking": "Parkiranje",
+    "beach": "Plaža"
+  },
+  "destination": "samobor",
+  "language": "hr",
+  "updatedAt": "2026-10-16T21:19:03.317Z"
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Samobor: Průvodce – pěší turistika, parkování a kde se ubytovat",
+  "metaDescription": "Naplánujte si výlet do Samoboru v Chorvatsku s naším faktickým průvodcem. Objevte nejlepší čtvrti k pobytu, trasy pro jízdu autem, tipy na parkování a informace o místní pěší turistice.",
+  "intro": "Samobor je historické tržní město ležící 25 kilometrů západně od Záhřebu, ve východním podhůří pohoří Samoborsko Gorje. Přitahuje turisty, gurmány a ty, kteří hledají klidnou alternativu k rušnému chorvatskému hlavnímu městu. Město se pyšní barokní architekturou, pěší zónou v centru a protéká jím potok Gradna. Návštěvníci sem jezdí pro tradiční zákusek kremšnita, zříceniny hradu z 13. století a přístup k četným lesním stezkám.\n\nNejlepší doba k návštěvě je od května do září, kdy je počasí dostatečně teplé pro venkovní stolování a poznávání okolního přírodního parku. Zimy jsou klidné, ale v únoru lákají davy lidí během každoročního karnevalu Fašnik.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "Květen, červen, září"
+    },
+    {
+      "label": "Teplota moře v srpnu",
+      "value": "N/A (vnitrozemské město)"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Záhřeb (ZAG), 35 km"
+    },
+    {
+      "label": "Hlavní typ pláže",
+      "value": "Žádná (místní venkovní bazén)"
+    },
+    {
+      "label": "Cenová úroveň",
+      "value": "Střední (levnější než pobřeží)"
+    },
+    {
+      "label": "Pěší dostupnost",
+      "value": "Velmi dobrá pěší dostupnost, pěší zóna v centru"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centar (Staré město)",
+      "bestFor": "Poprvé a kavárenská kultura",
+      "parking": "Placené veřejné parkoviště mimo pěší zóny",
+      "beach": "N/A (vnitrozemí)",
+      "summary": "Historické srdce Samoboru, postavené kolem náměstí Trg kralja Tomislava. Nabízí okamžitý přístup k tradičním pekárnám, restauracím a hlavní promenádě podél potoka Gradna."
+    },
+    {
+      "name": "Giznik",
+      "bestFor": "Klidný pobyt a obytný komfort",
+      "parking": "Soukromé parkování široce dostupné",
+      "beach": "N/A (vnitrozemí)",
+      "summary": "Luxusní, kopcovitá obytná čtvrť přímo nad starým městem. Nabízí klidné prostředí a panoramatické výhledy, přičemž zůstává jen kousek pěšky od centra."
+    },
+    {
+      "name": "Vrhovčak",
+      "bestFor": "Milovníci přírody a naprosté soukromí",
+      "parking": "Dostatek bezplatného soukromého parkování",
+      "beach": "N/A (vnitrozemí)",
+      "summary": "Malá osada ležící výše v kopcích obklopená lesy. Hodí se pro návštěvníky, kteří chtějí přímý přístup k turistickým stezkám a venkovskou atmosféru."
+    },
+    {
+      "name": "Rude",
+      "bestFor": "Nadšenci do historie a rustikální atmosféra",
+      "parking": "Snadné pouliční nebo soukromé parkování",
+      "beach": "N/A (vnitrozemí)",
+      "summary": "Tradiční vesnice 5 kilometrů jihozápadně od Samoboru, známá svou historií těžby mědi. Návštěvníci zde pobývají, aby prozkoumali důl svaté Barbory a místní horské trasy."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Mnichov",
+      "car": "540 km, 5,5 až 6 hodin přes A8, A10 a A2. Vyžaduje rakouské a slovinské dálniční známky, plus mýtné.",
+      "other": "Noční vlak nebo dálkový autobus do Záhřebu, poté místní autobus do Samoboru."
+    },
+    {
+      "from": "Vídeň",
+      "car": "370 km, 4 hodiny přes A2, A9 a slovinskou A1. Vyžaduje rakouské a slovinské dálniční známky, plus chorvatské mýtné.",
+      "other": "Vlak nebo autobus do Záhřebu, poté místní autobus do Samoboru."
+    },
+    {
+      "from": "Budapešť",
+      "car": "370 km, 3,5 až 4 hodiny přes M7 a A4. Vyžaduje maďarskou dálniční známku a chorvatské mýtné.",
+      "other": "Vlak nebo autobus do Záhřebu, poté místní autobus do Samoboru."
+    },
+    {
+      "from": "Lublaň",
+      "car": "115 km, 1,5 hodiny přes A2 k hraničnímu přechodu Bregana. Vyžaduje slovinskou dálniční známku.",
+      "other": "Vlak nebo autobus do Záhřebu, poté místní autobus do Samoboru."
+    },
+    {
+      "from": "Praha",
+      "car": "650 km, 7,5 hodiny přes D1 do Brna, poté rakouskou A2 a slovinskou A1. Vyžaduje české, rakouské a slovinské dálniční známky.",
+      "other": "Let nebo autobus do Záhřebu, poté místní autobus do Samoboru."
+    },
+    {
+      "from": "Krakov",
+      "car": "710 km, 8 až 9 hodin přes A4, Slovensko (D3) a Maďarsko (M7). Vyžaduje slovenské a maďarské dálniční známky.",
+      "other": "Let nebo autobus do Záhřebu, poté místní autobus do Samoboru."
+    }
+  ],
+  "whenToGo": "Samobor je celoroční vnitrozemská destinace bez moře. Květen a červen přinášejí příjemné počasí pro pěší turistiku (15 °C až 25 °C), kvetoucí krajinu a mírné ceny. Červenec a srpen jsou nejteplejší měsíce s teplotami často přesahujícími 30 °C, přitahující více domácích jednodenních výletníků ze Záhřebu; všechny restaurace a horské chaty jsou plně funkční. Září nabízí chladnější, příjemné počasí a mírně nižší ceny ubytování. Od října do dubna je město mnohem klidnější a chladnější, ačkoli pekárny a hlavní městské restaurace zůstávají otevřené. V únoru krátce stoupají ceny a davy lidí kvůli každoročnímu karnevalu Samobor Fašnik.",
+  "faq": [
+    {
+      "question": "Stojí Samobor za návštěvu?",
+      "answer": "Ano, zejména díky své dobře zachovalé barokní architektuře a slavnému zákusku kremšnita. Slouží jako vynikající základna pro pěší turistiku v pohoří Samoborsko Gorje nebo jako klidný jednodenní výlet ze Záhřebu."
+    },
+    {
+      "question": "Kolik dní potřebuji v Samoboru?",
+      "answer": "Jeden až dva dny stačí k prozkoumání starého města, návštěvě zřícenin hradu a užití si místních kaváren. Přidejte další den, pokud plánujete rozsáhlou pěší turistiku v okolním přírodním parku."
+    },
+    {
+      "question": "Jaká je nejlepší pláž v Samoboru?",
+      "answer": "Samobor je vnitrozemská destinace a nemá žádné mořské pláže. Návštěvníci se ochlazují na venkovním koupališti Vugrinščak nebo cestují minimálně dvě hodiny, aby dosáhli pobřeží Jaderského moře."
+    },
+    {
+      "question": "Potřebuji auto v Samoboru?",
+      "answer": "Auto není nutné pro pěší centrum města nebo pro cestování do a ze Záhřebu místním autobusem. Vozidlo je však vysoce doporučeno pro dosažení blízkých horských stezek a venkovských vesnic."
+    },
+    {
+      "question": "Kde je nejlepší zaparkovat v Samoboru?",
+      "answer": "Parkování na centrálním náměstí je omezeno, ale velká placená veřejná parkoviště se nacházejí hned za pěší zónou. Parkoviště poblíž hlavního autobusového nádraží a za kinem jsou nejpohodlnější."
+    },
+    {
+      "question": "Je Samobor dobrá destinace pro rodiny?",
+      "answer": "Ano, je to velmi bezpečné, rovinaté a klidné město pro rodiny s dětmi. Snadná lesní procházka k zříceninám Samoborského hradu a nedaleká Grgosova jeskyně jsou oblíbené aktivity pro děti."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Přehledně",
+    "whereToStay": "Kde se ubytovat v Samoboru",
+    "gettingThere": "Jak se dostat do Samoboru",
+    "whenToGo": "Kdy jet",
+    "guides": "Průvodci po Samoboru",
+    "faq": "Často kladené otázky o Samoboru",
+    "groups": {
+      "gettingAround": "Parkování a doprava po městě",
+      "planning": "Plánování a kde se ubytovat",
+      "timing": "Kdy jet",
+      "travelers": "Rodiny, páry a styly cestování",
+      "activities": "Pláže a co dělat",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": "Praktické informace"
+    },
+    "car": "Autem",
+    "other": "Jiné možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "samobor",
+  "language": "cz",
+  "updatedAt": "2026-10-16T21:14:48.055Z"
+}

@@ -1,0 +1,139 @@
+{
+  "title": "Varaždin Travel Guide: Sights, Parking & Where to Stay",
+  "metaDescription": "Plan your trip to Varaždin with our factual guide. Find the best areas to stay, driving routes from Central Europe, parking info, and top things to do.",
+  "intro": "Varaždin is an inland city in northern Croatia known for its baroque architecture and pedestrianized historical center. It appeals to travelers seeking cultural tourism, cycling routes, and thermal spas, rather than typical coastal resort holidays. It serves as a stopover for those driving from Central Europe to the Adriatic coast, or as a standalone destination for short breaks.\n\nThe city is relatively quiet for most of the year, with tourism peaking during the Špancirfest street festival in late August. Spring and early autumn offer mild weather suitable for exploring the old town and the nearby Drava river area, while winters are cold and quiet.",
+  "quickFacts": [
+    {
+      "label": "Best months",
+      "value": "Late August (Špancirfest), May, and September"
+    },
+    {
+      "label": "Sea temperature in August",
+      "value": "N/A (inland); Aquacity lake reaches 24°C"
+    },
+    {
+      "label": "Nearest airport",
+      "value": "Zagreb Franjo Tuđman Airport (ZAG), 81 km"
+    },
+    {
+      "label": "Main beach type",
+      "value": "Gravel and grass (Aquacity lake)"
+    },
+    {
+      "label": "Price level",
+      "value": "Lower than the Croatian coastal average"
+    },
+    {
+      "label": "Walkable / car-free centre",
+      "value": "Yes, pedestrianized historic core"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centar (Old Town)",
+      "bestFor": "First-time visitors and festival-goers",
+      "parking": "Paid street parking on perimeter; underground garages",
+      "beach": "5 km to Aquacity lake",
+      "summary": "The historic core contains most of the baroque palaces, museums, and restaurants. Accommodation consists mostly of boutique hotels and private apartments."
+    },
+    {
+      "name": "Banfica",
+      "bestFor": "Budget travelers and longer stays",
+      "parking": "Free street parking is common",
+      "beach": "3 km to Aquacity lake",
+      "summary": "A primarily residential district located north of the center, closer to the Drava river. It offers larger apartments and quieter streets while remaining within a 15-minute walk of the old town."
+    },
+    {
+      "name": "Varaždin Breg",
+      "bestFor": "Nature seekers and drivers",
+      "parking": "Free private parking is standard",
+      "beach": "12 km to Aquacity lake",
+      "summary": "A hilly region south of the city characterized by vineyards and holiday homes. Visitors stay here for privacy, views, and access to regional cycling routes."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Munich",
+      "car": "500 km, 5.5 hours via A8, A9 (Austria), and A4 (Slovenia); requires AT and SI vignettes plus tolls",
+      "other": "FlixBus or train to Zagreb, then local bus to Varaždin"
+    },
+    {
+      "from": "Vienna",
+      "car": "270 km, 3 hours via A2, A9 to Graz, then A4 via Maribor; requires AT and SI vignettes",
+      "other": "Direct FlixBus to Varaždin or train via Graz"
+    },
+    {
+      "from": "Budapest",
+      "car": "250 km, 2.5 hours via M7 to the border, then Croatian A4; requires HU e-vignette and HR toll",
+      "other": "Train or bus to Zagreb, then transfer to Varaždin"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "180 km, 2 hours via A1 to Maribor, then A4 to Ptuj; requires SI vignette",
+      "other": "Train to Zagreb, then connecting train or bus"
+    },
+    {
+      "from": "Prague",
+      "car": "600 km, 6.5 hours via Brno, Vienna, and Graz; requires CZ, AT, and SI vignettes",
+      "other": "Flight to Zagreb (ZAG), then rental car or bus"
+    },
+    {
+      "from": "Kraków",
+      "car": "650 km, 7.5 hours via A4, Brno, and Vienna; requires PL tolls and CZ, AT, SI vignettes",
+      "other": "Flight to Zagreb via Warsaw, then bus"
+    }
+  ],
+  "whenToGo": "Since Varaždin is an inland city, summers (June to August) are warm with daytime highs often exceeding 28°C, and the Aquacity lake temperature reaches around 24°C for swimming. Late August is the busiest and most expensive period due to the ten-day Špancirfest, which brings significant crowds and fully booked accommodations. Spring (April to May) and autumn (September to October) offer mild temperatures around 15–20°C, lower prices, and fewer visitors, making these months practical for sightseeing and cycling. Winter brings cold temperatures and occasional snow; while most tourist attractions keep shorter hours, the city hosts a moderate Advent market in December.",
+  "faq": [
+    {
+      "question": "Is Varaždin worth visiting?",
+      "answer": "Yes, Varaždin is worth visiting for its well-preserved baroque architecture, parks, and historic fortress. It provides a strong contrast to Croatia's coastal cities and works well as a dedicated weekend trip or a stopover."
+    },
+    {
+      "question": "How many days should I spend in Varaždin?",
+      "answer": "One to two days are sufficient to see the main sights. A full day covers the Stari Grad (Old Town), the cemetery, and the main squares, while a second day allows for a visit to the Drava river or nearby Trakošćan Castle."
+    },
+    {
+      "question": "What is the best beach in Varaždin?",
+      "answer": "Aquacity Varaždin is the designated swimming area, located 5 kilometers from the center. It features gravel and grassy shores around an artificial lake, equipped with basic facilities and a restaurant."
+    },
+    {
+      "question": "Do I need a car in Varaždin?",
+      "answer": "You do not need a car to explore the city center, which is flat and highly walkable. However, a vehicle is recommended if you plan to visit surrounding hilltop vineyards or the castles in the Hrvatsko Zagorje region."
+    },
+    {
+      "question": "Where is the best place to park in Varaždin?",
+      "answer": "The central Old Town is car-free, but parking is available on the perimeter. The Kapucinski trg underground garage is the largest and most central option, while paid street parking is divided into zones around the historic core."
+    },
+    {
+      "question": "Is Varaždin good for families?",
+      "answer": "Yes, the city is flat, safe, and easily navigated with strollers. Families visit for the large pedestrian areas, the entomological (insect) museum, and the recreational spaces at the nearby Drava woods and Aquacity lake."
+    }
+  ],
+  "headings": {
+    "quickFacts": "At a glance",
+    "whereToStay": "Where to stay in Varaždin",
+    "gettingThere": "Getting to Varaždin",
+    "whenToGo": "When to go",
+    "guides": "Varaždin guides",
+    "faq": "Varaždin FAQ",
+    "groups": {
+      "gettingAround": "Parking & getting around",
+      "planning": "Planning & where to stay",
+      "timing": "When to go",
+      "travelers": "Families, couples & travel styles",
+      "activities": "Beaches & things to do",
+      "food": "Food & drink",
+      "comparisons": "Comparisons",
+      "practical": "Practical info"
+    },
+    "car": "By car",
+    "other": "Other options",
+    "bestFor": "Best for",
+    "parking": "Parking",
+    "beach": "Beach"
+  },
+  "destination": "varazdin",
+  "language": "en",
+  "updatedAt": "2026-10-16T20:51:23.669Z"
+}

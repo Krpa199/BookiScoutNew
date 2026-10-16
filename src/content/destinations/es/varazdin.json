@@ -1,0 +1,139 @@
+{
+  "title": "Varaždin: Guía de Viaje, Qué Ver, Aparcamiento y Dónde Alojarse",
+  "metaDescription": "Planifica tu viaje a Varaždin con nuestra guía práctica. Encuentra las mejores zonas para alojarte, rutas en coche desde Europa Central, información de aparcamiento y las mejores cosas que hacer.",
+  "intro": "Varaždin es una ciudad del interior en el norte de Croacia, conocida por su arquitectura barroca y su centro histórico peatonal. Atrae a viajeros que buscan turismo cultural, rutas ciclistas y balnearios termales, en lugar de las típicas vacaciones en resorts costeros. Sirve como escala para quienes conducen desde Europa Central hacia la costa adriática, o como destino independiente para escapadas cortas.\n\nLa ciudad es relativamente tranquila la mayor parte del año, con un pico de turismo durante el festival callejero Špancirfest a finales de agosto. La primavera y principios de otoño ofrecen un clima templado adecuado para explorar el casco antiguo y la zona del cercano río Drava, mientras que los inviernos son fríos y tranquilos.",
+  "quickFacts": [
+    {
+      "label": "Mejores meses",
+      "value": "Finales de agosto (Špancirfest), mayo y septiembre"
+    },
+    {
+      "label": "Temperatura del mar en agosto",
+      "value": "N/A (interior); el lago Aquacity alcanza los 24°C"
+    },
+    {
+      "label": "Aeropuerto más cercano",
+      "value": "Aeropuerto Franjo Tuđman de Zagreb (ZAG), 81 km"
+    },
+    {
+      "label": "Tipo de playa principal",
+      "value": "Grava y césped (lago Aquacity)"
+    },
+    {
+      "label": "Nivel de precios",
+      "value": "Inferior al promedio de la costa croata"
+    },
+    {
+      "label": "Centro peatonal / sin coches",
+      "value": "Sí, centro histórico peatonal"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centro (Casco Antiguo)",
+      "bestFor": "Visitantes primerizos y asistentes a festivales",
+      "parking": "Aparcamiento de pago en la calle en el perímetro; garajes subterráneos",
+      "beach": "A 5 km del lago Aquacity",
+      "summary": "El centro histórico alberga la mayoría de los palacios barrocos, museos y restaurantes. El alojamiento consiste principalmente en hoteles boutique y apartamentos privados."
+    },
+    {
+      "name": "Banfica",
+      "bestFor": "Viajeros con presupuesto ajustado y estancias más largas",
+      "parking": "El aparcamiento gratuito en la calle es común",
+      "beach": "A 3 km del lago Aquacity",
+      "summary": "Un distrito principalmente residencial situado al norte del centro, más cerca del río Drava. Ofrece apartamentos más grandes y calles más tranquilas, a la vez que se mantiene a 15 minutos a pie del casco antiguo."
+    },
+    {
+      "name": "Varaždin Breg",
+      "bestFor": "Amantes de la naturaleza y conductores",
+      "parking": "El aparcamiento privado gratuito es lo habitual",
+      "beach": "A 12 km del lago Aquacity",
+      "summary": "Una región montañosa al sur de la ciudad caracterizada por viñedos y casas de vacaciones. Los visitantes se alojan aquí por la privacidad, las vistas y el acceso a rutas ciclistas regionales."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Múnich",
+      "car": "500 km, 5.5 horas vía A8, A9 (Austria) y A4 (Eslovenia); requiere viñetas AT y SI más peajes",
+      "other": "FlixBus o tren a Zagreb, luego autobús local a Varaždin"
+    },
+    {
+      "from": "Viena",
+      "car": "270 km, 3 horas vía A2, A9 hasta Graz, luego A4 vía Maribor; requiere viñetas AT y SI",
+      "other": "FlixBus directo a Varaždin o tren vía Graz"
+    },
+    {
+      "from": "Budapest",
+      "car": "250 km, 2.5 horas vía M7 hasta la frontera, luego A4 croata; requiere e-viñeta HU y peaje HR",
+      "other": "Tren o autobús a Zagreb, luego traslado a Varaždin"
+    },
+    {
+      "from": "Liubliana",
+      "car": "180 km, 2 horas vía A1 a Maribor, luego A4 a Ptuj; requiere viñeta SI",
+      "other": "Tren a Zagreb, luego tren o autobús de conexión"
+    },
+    {
+      "from": "Praga",
+      "car": "600 km, 6.5 horas vía Brno, Viena y Graz; requiere viñetas CZ, AT y SI",
+      "other": "Vuelo a Zagreb (ZAG), luego coche de alquiler o autobús"
+    },
+    {
+      "from": "Cracovia",
+      "car": "650 km, 7.5 horas vía A4, Brno y Viena; requiere peajes PL y viñetas CZ, AT, SI",
+      "other": "Vuelo a Zagreb vía Varsovia, luego autobús"
+    }
+  ],
+  "whenToGo": "Dado que Varaždin es una ciudad del interior, los veranos (junio a agosto) son cálidos con máximas diurnas que a menudo superan los 28°C, y la temperatura del lago Aquacity alcanza alrededor de 24°C para nadar. Finales de agosto es el período más concurrido y caro debido al Špancirfest de diez días, que atrae a multitudes significativas y alojamientos completamente reservados. La primavera (abril a mayo) y el otoño (septiembre a octubre) ofrecen temperaturas suaves alrededor de 15-20°C, precios más bajos y menos visitantes, haciendo que estos meses sean prácticos para hacer turismo y ciclismo. El invierno trae temperaturas frías y nieve ocasional; mientras que la mayoría de las atracciones turísticas tienen horarios más reducidos, la ciudad alberga un mercado de Adviento moderado en diciembre.",
+  "faq": [
+    {
+      "question": "¿Vale la pena visitar Varaždin?",
+      "answer": "Sí, Varaždin vale la pena visitar por su bien conservada arquitectura barroca, parques y fortaleza histórica. Ofrece un fuerte contraste con las ciudades costeras de Croacia y funciona bien como un viaje de fin de semana dedicado o una escala."
+    },
+    {
+      "question": "¿Cuántos días debería pasar en Varaždin?",
+      "answer": "Uno o dos días son suficientes para ver los principales lugares de interés. Un día completo cubre el Stari Grad (Casco Antiguo), el cementerio y las plazas principales, mientras que un segundo día permite una visita al río Drava o al cercano Castillo de Trakošćan."
+    },
+    {
+      "question": "¿Cuál es la mejor playa de Varaždin?",
+      "answer": "Aquacity Varaždin es la zona de baño designada, situada a 5 kilómetros del centro. Cuenta con orillas de grava y césped alrededor de un lago artificial, equipadas con instalaciones básicas y un restaurante."
+    },
+    {
+      "question": "¿Necesito coche en Varaždin?",
+      "answer": "No necesitas un coche para explorar el centro de la ciudad, que es llano y muy transitable. Sin embargo, se recomienda un vehículo si planeas visitar los viñedos cercanos en las colinas o los castillos en la región de Hrvatsko Zagorje."
+    },
+    {
+      "question": "¿Cuál es el mejor lugar para aparcar en Varaždin?",
+      "answer": "El casco antiguo central es una zona sin coches, pero el aparcamiento está disponible en el perímetro. El garaje subterráneo de Kapucinski trg es la opción más grande y céntrica, mientras que el aparcamiento de pago en la calle se divide en zonas alrededor del centro histórico."
+    },
+    {
+      "question": "¿Es Varaždin bueno para familias?",
+      "answer": "Sí, la ciudad es llana, segura y fácil de recorrer con cochecitos de bebé. Las familias la visitan por sus amplias zonas peatonales, el museo entomológico (de insectos) y los espacios recreativos en los cercanos bosques del Drava y el lago Aquacity."
+    }
+  ],
+  "headings": {
+    "quickFacts": "De un vistazo",
+    "whereToStay": "Dónde alojarse en Varaždin",
+    "gettingThere": "Cómo llegar a Varaždin",
+    "whenToGo": "Cuándo ir",
+    "guides": "Guías de Varaždin",
+    "faq": "Preguntas frecuentes de Varaždin",
+    "groups": {
+      "gettingAround": "Aparcamiento y cómo moverse",
+      "planning": "Planificación y dónde alojarse",
+      "timing": "Cuándo ir",
+      "travelers": "Familias, parejas y estilos de viaje",
+      "activities": "Playas y cosas que hacer",
+      "food": "Comida y bebida",
+      "comparisons": "Comparaciones",
+      "practical": "Información práctica"
+    },
+    "car": "En coche",
+    "other": "Otras opciones",
+    "bestFor": "Ideal para",
+    "parking": "Aparcamiento",
+    "beach": "Playa"
+  },
+  "destination": "varazdin",
+  "language": "es",
+  "updatedAt": "2026-10-16T20:56:13.247Z"
+}

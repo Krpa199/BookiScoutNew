@@ -1,0 +1,139 @@
+{
+  "title": "Lopud Travel Guide: Beaches, Ferries & Where to Stay",
+  "metaDescription": "Plan a trip to the car-free island of Lopud, Croatia. Find practical information on ferry connections from Dubrovnik, parking, and areas to stay.",
+  "intro": "Lopud is a small, completely car-free island in the Elaphiti archipelago, located roughly an hour by passenger ferry from Dubrovnik. It suits travelers looking for a slow-paced Mediterranean environment focused on walking, swimming, and quiet evenings, away from the heavy traffic of the mainland. The landscape consists of coastal promenades, olive groves, and historic ruins.\n\nThe island's activity centers around a main harbor village on one side and the sandy expanse of Šunj beach on the opposite coast, connected by a 25-minute wooded walking path. The primary travel season runs from late May to September, when regular ferry connections operate from Dubrovnik's Gruž port and all local restaurants, hotels, and beach facilities are fully operational.",
+  "quickFacts": [
+    {
+      "label": "Best months",
+      "value": "June to September"
+    },
+    {
+      "label": "Sea temperature in August",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Nearest airport",
+      "value": "Dubrovnik (DBV), 22 km to Gruž port + 55-min ferry"
+    },
+    {
+      "label": "Main beach type",
+      "value": "Fine sand (Šunj) and pebble/concrete (Main village)"
+    },
+    {
+      "label": "Price level",
+      "value": "15-20% above Croatian average"
+    },
+    {
+      "label": "Walkability",
+      "value": "100% car-free and highly walkable"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Lopud Seafront & Port",
+      "bestFor": "Convenience, dining, and ferry access",
+      "parking": "None (leave car in Dubrovnik)",
+      "beach": "Direct access to pebble and concrete swimming spots",
+      "summary": "This is the primary settlement on the island where the ferry docks. It has the highest concentration of hotels, cafes, and historic sites along a flat coastal promenade."
+    },
+    {
+      "name": "Lopud Village Hillside",
+      "bestFor": "Quieter apartments with sea views",
+      "parking": "None",
+      "beach": "5 to 10-minute walk down to the seafront",
+      "summary": "Located slightly elevated behind the main promenade, this area offers private apartments and guesthouses. It involves walking up stone steps but provides better views and separation from evening promenade noise."
+    },
+    {
+      "name": "Path to Šunj (Interior)",
+      "bestFor": "Nature and closer access to the sandy beach",
+      "parking": "None",
+      "beach": "10 to 15-minute walk to Šunj Beach",
+      "summary": "The central forested spine of the island connects the main village to Šunj Bay. Accommodation here is limited to scattered private houses set among pine trees, offering more space and privacy."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Munich",
+      "car": "1,040 km, ~11 hours to Dubrovnik Gruž port via A8, A10 (AT), A1 (HR). Requires AT vignette, toll tunnels, SI vignette, HR tolls. Add 55-min ferry to Lopud.",
+      "other": "Direct flights to Dubrovnik (DBV), then bus/taxi to Gruž port and ferry"
+    },
+    {
+      "from": "Vienna",
+      "car": "890 km, ~9.5 hours to Gruž port via A2 (AT), A1 (HR). Requires AT and SI vignettes, HR tolls. Add 55-min ferry.",
+      "other": "Direct flights to Dubrovnik (DBV)"
+    },
+    {
+      "from": "Budapest",
+      "car": "800 km, ~8.5 hours to Gruž port via M7 (HU) and A1 (HR). Requires HU vignette, HR tolls. Add 55-min ferry.",
+      "other": "Seasonal flights to DBV or Flixbus to Dubrovnik"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "640 km, ~7 hours to Gruž port via A2 (SI) and A1 (HR). Requires SI vignette, HR tolls. Add 55-min ferry.",
+      "other": "Direct bus to Dubrovnik bus station (adjacent to Gruž port)"
+    },
+    {
+      "from": "Prague",
+      "car": "1,220 km, ~13 hours to Gruž port via CZ, AT, SI, HR highways. Requires CZ, AT, SI vignettes, HR tolls. Add 55-min ferry.",
+      "other": "Direct seasonal flights to DBV"
+    },
+    {
+      "from": "Kraków",
+      "car": "1,140 km, ~12.5 hours to Gruž port via SK, HU (M3, M7), HR (A1). Requires SK, HU vignettes, HR tolls. Add 55-min ferry.",
+      "other": "Direct seasonal flights to DBV (Ryanair/LOT)"
+    }
+  ],
+  "whenToGo": "May offers cooler seas (around 19°C) and fewer crowds, though some seasonal businesses on the island remain closed. From June to August, Lopud operates at full capacity with sea temperatures reaching 27°C, drawing peak crowds to Šunj beach and driving up accommodation prices. September provides a balance of warm water and quieter walking paths. From October to April, the island is mostly dormant with heavily reduced ferry schedules and closed amenities.",
+  "faq": [
+    {
+      "question": "Is Lopud worth visiting?",
+      "answer": "Yes, it is highly recommended for travelers seeking a vehicle-free environment with sandy beaches. It contrasts sharply with the busy streets of nearby Dubrovnik, offering a much more relaxed pace."
+    },
+    {
+      "question": "How many days should I spend on Lopud?",
+      "answer": "Three to five days is ideal for a quiet beach holiday. Many visitors also experience the island as a full-day trip from Dubrovnik via the passenger ferry."
+    },
+    {
+      "question": "Which is the best beach on the island?",
+      "answer": "Šunj Beach is the most popular, known for its fine sand and extensive shallow waters. It is located on the south side of the island and is accessible by foot or electric buggy from the main village."
+    },
+    {
+      "question": "Do I need a car on Lopud?",
+      "answer": "No, you cannot bring a car to Lopud. The entire island is car-free, meaning all exploration is done on foot, by bicycle, or via local electric golf carts."
+    },
+    {
+      "question": "Where can I park to visit Lopud?",
+      "answer": "You must park your vehicle on the mainland in Dubrovnik. Most visitors use the paid parking lot at Gruž Port or private garages nearby before boarding the Jadrolinija passenger ferry."
+    },
+    {
+      "question": "Is Lopud good for families?",
+      "answer": "Yes, the island is exceptionally family-friendly due to the complete lack of car traffic. The shallow, sandy waters of Šunj Beach are also particularly well-suited for young children."
+    }
+  ],
+  "headings": {
+    "quickFacts": "At a glance",
+    "whereToStay": "Where to stay in Lopud",
+    "gettingThere": "Getting to Lopud",
+    "whenToGo": "When to go",
+    "guides": "Lopud guides",
+    "faq": "Lopud FAQ",
+    "groups": {
+      "gettingAround": "Parking & getting around",
+      "planning": "Planning & where to stay",
+      "timing": "When to go",
+      "travelers": "Families, couples & travel styles",
+      "activities": "Beaches & things to do",
+      "food": "Food & drink",
+      "comparisons": "Comparisons",
+      "practical": "Practical info"
+    },
+    "car": "By car",
+    "other": "Other options",
+    "bestFor": "Best for",
+    "parking": "Parking",
+    "beach": "Beach"
+  },
+  "destination": "lopud",
+  "language": "en",
+  "updatedAt": "2026-10-16T20:07:25.175Z"
+}

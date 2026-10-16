@@ -1,0 +1,146 @@
+{
+  "title": "Brioni Potovalni vodnik: Hoteli, trajekt in informacije o narodnem parku",
+  "metaDescription": "Načrtujte potovanje v Narodni park Brioni. Vodnik po hotelih na Velikem Brionu, bivanju v Fažani, voznih redih trajektov, parkiranju in vožnji iz Srednje Evrope.",
+  "intro": "Brioni so otočje in narodni park ob zahodni obali Istre, dostopni s 15-minutno vožnjo s trajektom iz celinskega mesta Fažana. Privabljajo popotnike, ki jih zanima narava, rimske ruševine in mirno okolje brez avtomobilov. Glavni otok, Veliki Brion, ponuja omejeno nastanitev v parku in glavne znamenitosti, vključno z zunanjim safari parkom, starodavnimi oljkami in odtisi dinozavrov.\n\nObisk je najbolj praktičen od maja do septembra, ko je urnik trajektov pogost in parkovne zmogljivosti delujejo s polno kapaciteto. Ker vozila niso dovoljena na otokih, morajo obiskovalci parkirati v Fažani in se po Velikem Brionu premikati peš, z najetimi kolesi ali električnimi vozički. Tisti, ki dajejo prednost proračunu ali celinskim enodnevnim izletom, običajno bivajo v Fažani ali bližnjih obalnih vaseh.",
+  "quickFacts": [
+    {
+      "label": "Najboljši meseci",
+      "value": "Junij do september"
+    },
+    {
+      "label": "Temperatura morja avgusta",
+      "value": "25°C - 26°C"
+    },
+    {
+      "label": "Najbližje letališče",
+      "value": "Pula (PUY), 13 km od trajekta v Fažani"
+    },
+    {
+      "label": "Glavni tip plaže",
+      "value": "Prod in kamen z betonskimi ploščadmi"
+    },
+    {
+      "label": "Cenovna raven",
+      "value": "Višja od hrvaškega povprečja"
+    },
+    {
+      "label": "Status brez avtomobilov",
+      "value": "Otoki so strogo brez avtomobilov (vozila ostanejo v Fažani)"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Veliki Brion (Otok)",
+      "bestFor": "Obiskovalci, ki želijo bivati znotraj narodnega parka",
+      "parking": "Avtomobili niso dovoljeni; plačljivo parkirišče v Fažani",
+      "beach": "Skalnate in prodnate plaže (Plaža Saluga) v hoje oddaljenosti",
+      "summary": "Bivanje neposredno na glavnem otoku zahteva rezervacijo enega izmed redkih državnih hotelov ali vil blizu pristanišča. Območje je popolnoma brez avtomobilov, izjemno tiho, ko dnevni obiskovalci odidejo, in omogoča takojšen dostop do sprehajalnih poti in zgodovinskih znamenitosti parka."
+    },
+    {
+      "name": "Fažana",
+      "bestFor": "Baza za dnevne izlete s trajektom, popotniki, ki potrebujejo dostop z vozilom",
+      "parking": "Javna plačljiva parkirišča in zasebna hotelska parkirišča",
+      "beach": "Prodne plaže (San Lorenzo, Bi Val) ob mestni obali",
+      "summary": "To celinsko obalno mesto je uradna vstopna točka v Narodni park Brioni. Ponuja široko paleto zasebnih apartmajev, restavracij in neposreden dostop do potniškega trajekta, zaradi česar je praktično za tiste, ki raziskujejo širši istrski polotok."
+    },
+    {
+      "name": "Peroj",
+      "bestFor": "Popotniki in družine, ki pazijo na proračun",
+      "parking": "Večinoma brezplačno parkiranje pri zasebnih namestitvah",
+      "beach": "Dolge prodnate plaže 1-2 km od centra",
+      "summary": "Peroj, ki leži nekaj kilometrov severno od Fažane, je mirnejša, stanovanjska vas. Ponuja ugodnejšo alternativo Fažani, hkrati pa ostaja dovolj blizu za kratko vožnjo z avtomobilom ali kolesom do trajektnega terminala za Brione."
+    },
+    {
+      "name": "Pula (Štinjan)",
+      "bestFor": "Popotniki, ki si želijo mestnih ugodnosti in bližine parka",
+      "parking": "Na voljo v kampih in zasebnih najemih",
+      "beach": "Prodne zalive (Hidrobaza) s pogledom na Brionisko otočje",
+      "summary": "Soseska Štinjan leži neposredno nasproti Brioniskih otokov, južno od Fažane. To območje združuje enostaven dostop do zgodovinskih znamenitosti Pule z neposrednim pogledom na narodni park."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "560 km, 6-7 ur. A8 do Salzburga, A10 (predor Tauern), Slovenija A1 do Kopra, Hrvaška A9 do Vodnjana/Fažane. Potrebne so avstrijska in slovenska vinjeta, cestnine za predor in hrvaške cestnine.",
+      "other": "Neposredni sezonski leti v Pulo, ali nočni FlixBus do Pule, nato lokalni avtobus do Fažane."
+    },
+    {
+      "from": "Dunaj",
+      "car": "580 km, 6 ur. A2 južno mimo Gradca, v Slovenijo (Maribor, Ljubljana, Koper), nato hrvaška A9 do Fažane. Potrebne so avstrijska in slovenska vinjeta ter hrvaške cestnine.",
+      "other": "Neposredni leti (Austrian Airlines, Ryanair) v Pulo, ali neposredni avtobus do Pule."
+    },
+    {
+      "from": "Budimpešta",
+      "car": "600 km, 6-7 ur. M7 do hrvaške meje, A4 do Zagreba, A6 do Reke, nato A8/A9 skozi Istro. Potrebne so madžarska vinjeta in hrvaške cestnine.",
+      "other": "Neposredni avtobus (FlixBus) do Pule, ali vlak do Zagreba z nadaljevanjem z avtobusom do Pule."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "200 km, 2,5 ure. Avtocesta A1 proti Kopru, prečkanje meje pri Dragonji, nato hrvaška A9 do izvoza Vodnjan. Potrebna je slovenska vinjeta in hrvaške cestnine.",
+      "other": "Neposredni avtobus ali sezonska železniška povezava do Pule."
+    },
+    {
+      "from": "Praga",
+      "car": "880 km, 9,5 ure. D1 do Brna, Avstrija A5/A2 preko Dunaja in Gradca, Slovenija A1, Hrvaška A9. Potrebne so češka, avstrijska in slovenska vinjeta ter hrvaške cestnine.",
+      "other": "Neposredni sezonski leti v Pulo, ali neposredni FlixBus do Pule."
+    },
+    {
+      "from": "Krakov",
+      "car": "1.030 km, 11 ur. A4 do Katovic, Češka A1 do Brna, Avstrija A5/A2 do Gradca, Slovenija A1 do Kopra, Hrvaška A9. Potrebne so vinjete za CZ, AT, SI in cestnine v HR.",
+      "other": "Let v Pulo s prestopanjem (npr. prek LOT), ali avtobus na dolge razdalje do Pule."
+    }
+  ],
+  "whenToGo": "Brionsko otočje je odprto celo leto, vendar so storitve za obiskovalce zelo sezonske. Od maja do septembra je najprimernejše vreme za kopanje, z avgustovskimi temperaturami morja, ki dosežejo vrhunec 26°C. Julij in avgust sta najbolj obiskana in najdražja meseca, kar zahteva vnaprejšnjo rezervacijo trajektnih kart in hotelov na otoku. V prehodnih mesecih maja, junija in septembra cene nekoliko padejo in vreme ostaja dovolj toplo za aktivnosti na prostem. Od novembra do marca trajekt vozi po zmanjšanem voznem redu, večina hotelskih nastanitev na otoku se zapre in vodeni ogledi so redkejši, čeprav je park še vedno dostopen za zimske sprehode.",
+  "faq": [
+    {
+      "question": "Je Brione vredno obiskati?",
+      "answer": "Da, vredno je za tiste, ki jih zanima kombinacija narave, rimske zgodovine in mirnega okolja brez avtomobilov. Enodnevni izleti ponujajo dovolj časa za ogled glavnih znamenitosti s turističnim vlakom, medtem ko nočitve privabljajo popotnike, ki iščejo osamo, ko zadnji trajekt odide."
+    },
+    {
+      "question": "Koliko dni naj preživim na Brionih?",
+      "answer": "En sam cel dan zadostuje za ogled glavnih znamenitosti na Velikem Brionu, vključno s safari parkom, odtisi dinozavrov in rimsko vilo. Obiskovalci, ki se odločijo za bivanje na otoku, običajno rezervirajo 2 do 3 nočitve za sprostitev in kolesarjenje po obsežnih poteh."
+    },
+    {
+      "question": "Katera je najboljša plaža na Brionih?",
+      "answer": "Plaža Saluga je glavna in najbolj dostopna plaža na Velikem Brionu, ki ima peščeno dno, prodnato obalo in senčne borove predele. Opremljena je z ležalniki, tuši in restavracijo, zaradi česar je praktična za družine."
+    },
+    {
+      "question": "Potrebujem avto na Brionih?",
+      "answer": "Ne, avtomobili so za obiskovalce na Brioniskih otokih strogo prepovedani. Svoje vozilo morate parkirati na celini v Fažani in uporabiti potniški trajekt; na otoku se premikate peš, s kolesom ali z najemom električnega golf vozička."
+    },
+    {
+      "question": "Kje naj parkiram za obisk Brioni?",
+      "answer": "Obiskovalci morajo parkirati v celinskem mestu Fažana. V bližini trajektnega terminala je več javnih, odprtih občinskih parkirišč, ki zaračunavajo urne ali dnevne tarife, ter nekaj zasebnih parkirišč, ki so oddaljena le kratek sprehod od pristanišča."
+    },
+    {
+      "question": "So Brioni primerni za družine?",
+      "answer": "Da, Brioni so zelo primerni za družine zaradi pomanjkanja avtomobilskega prometa in prisotnosti ravnih kolesarskih poti. Otroci običajno uživajo v zunanjem safari parku, odtisih dinozavrov in vožnji z miniaturnim turističnim vlakom, ki kroži po otoku."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na hitro",
+    "whereToStay": "Kje bivati na Brionih",
+    "gettingThere": "Prihod na Brione",
+    "whenToGo": "Kdaj obiskati",
+    "guides": "Vodiči za Brione",
+    "faq": "Pogosta vprašanja o Brionih",
+    "groups": {
+      "gettingAround": "Parkiranje in premikanje",
+      "planning": "Načrtovanje in kje bivati",
+      "timing": "Kdaj obiskati",
+      "travelers": "Družine, pari in potovalni slogi",
+      "activities": "Plaže in stvari za početi",
+      "food": "Hrana in pijača",
+      "comparisons": "Primerjave",
+      "practical": "Praktične informacije"
+    },
+    "car": "Z avtomobilom",
+    "other": "Druge možnosti",
+    "bestFor": "Najboljše za",
+    "parking": "Parkiranje",
+    "beach": "Plaža"
+  },
+  "destination": "brijuni",
+  "language": "sk",
+  "updatedAt": "2026-10-16T20:40:18.438Z"
+}

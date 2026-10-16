@@ -1,0 +1,146 @@
+{
+  "title": "Plitvická jezera Průvodce: Vstupy, parkování a oblasti",
+  "metaDescription": "Faktický průvodce po Plitvických jezerech. Naplánujte si trasu, najděte parkování, zjistěte umístění vstupů a rozhodněte se, kde se ubytovat poblíž parku.",
+  "intro": "Plitvická jezera jsou největším a nejnavštěvovanějším národním parkem Chorvatska, známým pro svých 16 terasovitých jezer propojených četnými vodopády. Přitahuje především turisty, milovníky přírody a ty, kdo cestují po zemi autem.\n\nNávštěva vyžaduje plánování předem, jelikož denní počet vstupenek je přísně omezen časem vstupu. Parkové stezky jsou v červenci a srpnu velmi přeplněné, což činí květen, červen, září a říjen optimálními měsíci pro příjemné teploty na procházky a menší davy. Pro dosažení ubytování mimo bezprostřední hranice parku se doporučuje auto, ačkoli přímé autobusové linky spojují vstupy do parku se Záhřebem, Zadarem a Splitem.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "Květen, červen, září, říjen"
+    },
+    {
+      "label": "Teplota moře v srpnu",
+      "value": "N/A (Vnitrozemský národní park)"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Zadar (ZAD) 130 km; Záhřeb (ZAG) 140 km"
+    },
+    {
+      "label": "Hlavní typ pláže",
+      "value": "N/A (Koupání v jezerech je přísně zakázáno)"
+    },
+    {
+      "label": "Cenová úroveň",
+      "value": "Vysoká (Vstupné do parku a hotely v okolí ve špičce přesahují celostátní průměry)"
+    },
+    {
+      "label": "Procházková dostupnost",
+      "value": "Žádné tradiční centrum města; parkové stezky jsou pouze pro pěší"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Rastovača (U Vstupu 1)",
+      "bestFor": "Návštěvníci poprvé chtějící přímý pěší přístup k Dolním jezerům a Velkému vodopádu.",
+      "parking": "Soukromé parkování u penzionů; placené veřejné parkoviště u Vstupu 1.",
+      "beach": "N/A",
+      "summary": "Malé uskupení penzionů bezprostředně severně od Vstupu 1. Pobyt zde umožňuje návštěvníkům nechat vozidlo u svého ubytování a dojít k vstupu do parku za 10 až 15 minut."
+    },
+    {
+      "name": "Mukinje & Jezerce (U Vstupu 2)",
+      "bestFor": "Návštěvníci prozkoumávající Horní jezera nebo hledající zavedené státní hotely.",
+      "parking": "K dispozici hotelové parkování; placené veřejné parkoviště u Vstupu 2.",
+      "beach": "N/A",
+      "summary": "Tato oblast se nachází jižně od Vstupu 2 a nabízí několik velkých hotelů a soukromých apartmánů. Zpevněná cesta spojuje vesnici přímo s pokladnou Vstupu 2 a hlavním přístavištěm lodí."
+    },
+    {
+      "name": "Rakovica & Grabovac",
+      "bestFor": "Cestovatelé s omezeným rozpočtem, rodiny a ti, kteří cestují autem nebo karavanem.",
+      "parking": "Dostatek bezplatného parkování v prázdninových parcích, kempech a venkovských hotelech.",
+      "beach": "N/A",
+      "summary": "Nachází se 8 až 15 kilometrů severně od parku podél dálnice D1. Tato oblast nabízí širší škálu možností stravování, velké rekreační komplexy a obecně nižší ceny než bezprostřední okolí parku."
+    },
+    {
+      "name": "Plitvica Selo",
+      "bestFor": "Tiché, luxusní pobyty přímo v hranicích národního parku.",
+      "parking": "Soukromé parkování na místě; jízda vyžaduje navigaci po úzkých parkových cestách.",
+      "beach": "N/A",
+      "summary": "Malá vesnice ležící přímo u Velkého vodopádu a jezera Kozjak. Poskytuje přímý pěší přístup ke stezkám přes vedlejší vstup (Vstup 3), čímž se vyhnete hlavním frontám na vstupenky."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Mnichov",
+      "car": "570 km, ~6.5 hodiny přes A8 (DE), A10 (AT), A2 (SI) a D1 (HR). Vyžaduje rakouskou a slovinskou dálniční známku, plus mýtné za Tauerntunnel a chorvatské dálnice.",
+      "other": "Přímý FlixBus na Plitvická jezera (cca 9 hodin) nebo let do Záhřebu následovaný autobusem."
+    },
+    {
+      "from": "Vídeň",
+      "car": "420 km, ~5 hodin přes A2 do Grazu, A4 (SI) směrem na Maribor, A1 (HR) do Karlovace, poté D1. Vyžaduje rakouskou a slovinskou dálniční známku a chorvatské dálniční poplatky.",
+      "other": "Přímý FlixBus na Plitvická jezera (cca 7 hodin) nebo vlak/let do Záhřebu následovaný autobusem."
+    },
+    {
+      "from": "Budapešť",
+      "car": "480 km, ~5.5 hodiny přes M7 do Chorvatska (A4), za Záhřeb do Karlovace (A1), poté D1. Vyžaduje maďarskou e-dálniční známku a chorvatské dálniční poplatky.",
+      "other": "Autobus nebo vlak do Záhřebu, poté přestup na vnitrostátní autobusovou linku na Plitvická jezera."
+    },
+    {
+      "from": "Lublaň",
+      "car": "210 km, ~3 hodiny přes A2 do Novo Mesto, překročení hranice směrem na Karlovac, poté D1 na jih. Vyžaduje slovinskou dálniční známku a drobné chorvatské mýtné.",
+      "other": "Autobus nebo vlak do Záhřebu, následovaný přestupem na autobus směřující na Plitvice."
+    },
+    {
+      "from": "Praha",
+      "car": "750 km, ~8.5 hodiny přes Brno, Vídeň, Graz a Záhřeb. Vyžaduje českou, rakouskou a slovinskou dálniční známku, plus chorvatské mýtné.",
+      "other": "Let nebo přímý autobus/vlak RegioJet do Záhřebu, s přestupem na místní autobus do parku."
+    },
+    {
+      "from": "Krakov",
+      "car": "870 km, ~10 hodin přes Slovensko, Maďarsko (Budapešť) a Chorvatsko (Záhřeb). Vyžaduje slovenskou a maďarskou dálniční známku, plus chorvatské dálniční poplatky.",
+      "other": "Let do Záhřebu (obvykle přes Varšavu nebo Vídeň), následovaný 2hodinovou jízdou autobusem do parku."
+    }
+  ],
+  "whenToGo": "Květen a září nabízejí nejlepší rovnováhu mírných davů a příjemných teplot pro pěší turistiku, typicky se pohybují mezi 15°C a 23°C. Červenec a srpen jsou velmi přeplněné, s denními maximy kolem 28°C a cenami vstupenek v hlavní sezóně. Zima přináší sníh, mrazivé teploty a drasticky snížené ceny vstupenek, ačkoli Horní jezera a vnitřní lodní a vlakové služby jsou obvykle uzavřeny od listopadu do března. Koupání je celoročně zakázáno, takže teploty moře nejsou relevantní. Deště jsou běžné na jaře, což činí vodopády obzvláště mohutnými.",
+  "faq": [
+    {
+      "question": "Stojí to za návštěvu?",
+      "answer": "Ano, je to nejznámější přírodní atrakce Chorvatska. Rozsáhlá síť dřevěných chodníků nad průzračnými jezery a vodopády je v Evropě unikátní."
+    },
+    {
+      "question": "Kolik dní potřebuji?",
+      "answer": "Jeden celý den stačí na procházku po hlavních stezkách a prohlídku Horních i Dolních jezer. Přespání v blízkosti vám umožní vstoupit do parku v otevírací době, než dorazí polední autobusové zájezdy."
+    },
+    {
+      "question": "Kde je nejlepší pláž?",
+      "answer": "Koupání je přísně zakázáno kdekoli v Národním parku Plitvická jezera za účelem ochrany ekosystému. Nejbližší pobřežní pláže jsou v Senji nebo Zadaru, obě přibližně 1,5 až 2 hodiny jízdy autem."
+    },
+    {
+      "question": "Potřebuji auto?",
+      "answer": "Auto není nutné pro procházení parkem, pokud bydlíte v hotelu přímo u Vstupu 1 nebo 2, protože tam staví autobusy ze Záhřebu a Zadaru. Nicméně auto je nezbytné, pokud si zarezervujete ubytování v okolních vesnicích jako Rakovica nebo Korenica."
+    },
+    {
+      "question": "Kde je nejlepší zaparkovat?",
+      "answer": "Národní park provozuje dvě hlavní oficiální, placená parkoviště (Parkoviště 1 a Parkoviště 2) odpovídající dvěma hlavním vstupům. Parkování stojí přibližně 1 až 2 eura za hodinu v závislosti na sezóně a parkoviště se v létě rychle zaplní do dopoledne."
+    },
+    {
+      "question": "Je to vhodné pro rodiny?",
+      "answer": "Ano, ale je to vhodnější pro starší děti, které mohou ujít několik kilometrů bez pomoci. Dřevěné chodníky jsou často nerovné, v mnoha úsecích chybí zábradlí a nejsou vhodné pro kočárky."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Přehledně",
+    "whereToStay": "Kde se ubytovat na Plitvických jezerech",
+    "gettingThere": "Jak se dostat na Plitvická jezera",
+    "whenToGo": "Kdy jet",
+    "guides": "Průvodci Plitvickými jezery",
+    "faq": "Často kladené otázky k Plitvickým jezerům",
+    "groups": {
+      "gettingAround": "Parkování a doprava po okolí",
+      "planning": "Plánování a kde se ubytovat",
+      "timing": "Kdy jet",
+      "travelers": "Rodiny, páry a styly cestování",
+      "activities": "Pláže a aktivity",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": "Praktické informace"
+    },
+    "car": "Autem",
+    "other": "Jiné možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "plitvice",
+  "language": "cz",
+  "updatedAt": "2026-10-16T20:15:46.978Z"
+}

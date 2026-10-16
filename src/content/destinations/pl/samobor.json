@@ -1,0 +1,146 @@
+{
+  "title": "Samobor: Przewodnik turystyczny – wędrówki, parking i gdzie się zatrzymać",
+  "metaDescription": "Zaplanuj podróż do Samoboru w Chorwacji z naszym praktycznym przewodnikiem. Odkryj najlepsze dzielnice do zamieszkania, trasy dojazdowe, wskazówki dotyczące parkowania i lokalne informacje o szlakach turystycznych.",
+  "intro": "Samobor to historyczne miasto targowe położone 25 kilometrów na zachód od Zagrzebia, leżące u wschodnich podnóży pasma górskiego Samoborsko Gorje. Przyciąga turystów pieszych, smakoszy i tych, którzy szukają spokojnej alternatywy dla ruchliwej chorwackiej stolicy. Miasto charakteryzuje się architekturą barokową, centrum przyjaznym dla pieszych oraz przepływającym przez nie potokiem Gradna. Odwiedzający przyjeżdżają tu dla tradycyjnego ciastka kremšnita, ruin XIII-wiecznego zamku oraz dostępu do licznych leśnych szlaków.\n\nNajlepszy czas na wizytę to okres od maja do września, kiedy pogoda jest wystarczająco ciepła na posiłki na świeżym powietrzu i eksplorację okolicznego parku przyrody. Zimy są spokojne, ale przyciągają tłumy podczas corocznego karnawału Fašnik w lutym.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "Maj, czerwiec, wrzesień"
+    },
+    {
+      "label": "Temp. morza w sierpniu",
+      "value": "Nie dotyczy (miasto śródlądowe)"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Zagrzeb (ZAG), 35 km"
+    },
+    {
+      "label": "Główny typ plaży",
+      "value": "Brak (lokalny basen odkryty)"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "Umiarkowany (taniej niż na wybrzeżu)"
+    },
+    {
+      "label": "Możliwość spacerowania",
+      "value": "Bardzo pieszy, centrum wyłączone z ruchu kołowego"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centar (Stare Miasto)",
+      "bestFor": "Osoby odwiedzające po raz pierwszy i miłośnicy kawiarni",
+      "parking": "Płatne parkingi publiczne poza strefami dla pieszych",
+      "beach": "Nie dotyczy (śródlądowe)",
+      "summary": "Historyczne serce Samoboru, zbudowane wokół Trgu kralja Tomislava. Oferuje bezpośredni dostęp do tradycyjnych piekarni, restauracji i głównej promenady wzdłuż potoku Gradna."
+    },
+    {
+      "name": "Giznik",
+      "bestFor": "Spokojny pobyt i komfort mieszkalny",
+      "parking": "Duża dostępność prywatnych miejsc parkingowych",
+      "beach": "Nie dotyczy (śródlądowe)",
+      "summary": "Elegancka, pagórkowata dzielnica mieszkalna bezpośrednio nad starym miastem. Zapewnia spokojne otoczenie i panoramiczne widoki, pozostając w niewielkiej odległości od centrum."
+    },
+    {
+      "name": "Vrhovčak",
+      "bestFor": "Miłośnicy natury i absolutnej prywatności",
+      "parking": "Duża ilość bezpłatnych prywatnych miejsc parkingowych",
+      "beach": "Nie dotyczy (śródlądowe)",
+      "summary": "Mała osada położona wyżej na wzgórzach, otoczona lasem. Idealna dla odwiedzających, którzy chcą mieć bezpośredni dostęp do szlaków turystycznych i poczuć wiejski klimat."
+    },
+    {
+      "name": "Rude",
+      "bestFor": "Miłośnicy historii i rustykalnej atmosfery",
+      "parking": "Łatwy parking uliczny lub prywatny",
+      "beach": "Nie dotyczy (śródlądowe)",
+      "summary": "Tradycyjna wioska 5 kilometrów na południowy zachód od Samoboru, znana z historii wydobycia miedzi. Odwiedzający zatrzymują się tu, aby zwiedzić kopalnię św. Barbary i lokalne górskie trasy."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monachium",
+      "car": "540 km, 5,5 do 6 godzin przez A8, A10 i A2. Wymaga winiet autostradowych austriackiej i słoweńskiej oraz opłat drogowych.",
+      "other": "Pociąg nocny lub autobus dalekobieżny do Zagrzebia, następnie lokalny autobus do Samoboru"
+    },
+    {
+      "from": "Wiedeń",
+      "car": "370 km, 4 godziny przez A2, A9 i słoweńską A1. Wymaga winiet austriackiej i słoweńskiej oraz chorwackich opłat drogowych.",
+      "other": "Pociąg lub autobus do Zagrzebia, następnie lokalny autobus do Samoboru"
+    },
+    {
+      "from": "Budapeszt",
+      "car": "370 km, 3,5 do 4 godzin przez M7 i A4. Wymaga winiety węgierskiej i chorwackich opłat drogowych.",
+      "other": "Pociąg lub autobus do Zagrzebia, następnie lokalny autobus do Samoboru"
+    },
+    {
+      "from": "Lublana",
+      "car": "115 km, 1,5 godziny przez A2 do przejścia granicznego Bregana. Wymaga słoweńskiej winiety.",
+      "other": "Pociąg lub autobus do Zagrzebia, następnie lokalny autobus do Samoboru"
+    },
+    {
+      "from": "Praga",
+      "car": "650 km, 7,5 godziny przez D1 do Brna, następnie austriacką A2 i słoweńską A1. Wymaga czeskiej, austriackiej i słoweńskiej winiety.",
+      "other": "Lot lub autobus do Zagrzebia, następnie lokalny autobus do Samoboru"
+    },
+    {
+      "from": "Kraków",
+      "car": "710 km, 8 do 9 godzin przez A4, Słowację (D3) i Węgry (M7). Wymaga słowackiej i węgierskiej winiety.",
+      "other": "Lot lub autobus do Zagrzebia, następnie lokalny autobus do Samoboru"
+    }
+  ],
+  "whenToGo": "Samobor to całoroczna destynacja śródlądowa bez dostępu do morza. Maj i czerwiec przynoszą przyjemną pogodę do wędrówek (15°C do 25°C), kwitnące krajobrazy i umiarkowane ceny. Lipiec i sierpień to najcieplejsze miesiące, z temperaturami często przekraczającymi 30°C, przyciągające więcej jednodniowych turystów z Zagrzebia; wszystkie restauracje i schroniska górskie są w pełni czynne. Wrzesień oferuje chłodniejszą, komfortową pogodę i nieco niższe ceny zakwaterowania. Od października do kwietnia miasto jest znacznie cichsze i chłodniejsze, choć piekarnie i główne restauracje w centrum pozostają otwarte. Luty na krótko podnosi ceny i przyciąga tłumy z powodu corocznego karnawału Samobor Fašnik.",
+  "faq": [
+    {
+      "question": "Czy warto odwiedzić Samobor?",
+      "answer": "Tak, zwłaszcza ze względu na dobrze zachowaną architekturę barokową i słynne ciastko kremšnita. Stanowi doskonałą bazę wypadową do wędrówek po górach Samoborsko Gorje lub relaksującą jednodniową wycieczkę z Zagrzebia."
+    },
+    {
+      "question": "Ile dni potrzeba w Samoborze?",
+      "answer": "Jeden do dwóch dni wystarczy, aby zwiedzić stare miasto, odwiedzić ruiny zamku i cieszyć się lokalnymi kawiarniami. Dodaj dodatkowy dzień, jeśli planujesz dłuższe wędrówki po okolicznym parku przyrody."
+    },
+    {
+      "question": "Jaka jest najlepsza plaża w Samoborze?",
+      "answer": "Samobor jest miejscowością śródlądową i nie posiada plaż morskich. Odwiedzający ochładzają się na odkrytym basenie Vugrinščak lub podróżują co najmniej dwie godziny, aby dotrzeć do wybrzeża Adriatyku."
+    },
+    {
+      "question": "Czy potrzebuję samochodu w Samoborze?",
+      "answer": "Samochód nie jest wymagany w centrum miasta, które jest dostępne pieszo, ani do podróżowania do i z Zagrzebia lokalnym autobusem. Jednak pojazd jest wysoce zalecany do dotarcia do pobliskich początków szlaków górskich i wiejskich miejscowości."
+    },
+    {
+      "question": "Gdzie najlepiej zaparkować w Samoborze?",
+      "answer": "Parkowanie na centralnym placu jest ograniczone, ale duże płatne parkingi publiczne znajdują się tuż poza strefą dla pieszych. Najwygodniejsze są parkingi w pobliżu głównego dworca autobusowego i za kinem."
+    },
+    {
+      "question": "Is Samobor a good destination for families?",
+      "answer": "Tak, to bardzo bezpieczne, płaskie i spokojne miasto dla rodzin z dziećmi. Łatwy spacer po lesie do ruin zamku Samobor i pobliska Jaskinia Grgos to popularne atrakcje dla dzieci."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Gdzie się zatrzymać w Samoborze",
+    "gettingThere": "Dojazd do Samoboru",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Samoborze",
+    "faq": "Samobor: Najczęściej zadawane pytania",
+    "groups": {
+      "gettingAround": "Parking i poruszanie się",
+      "planning": "Planowanie i gdzie się zatrzymać",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróżowania",
+      "activities": "Plaże i co robić",
+      "food": "Jedzenie i picie",
+      "comparisons": "Porównania",
+      "practical": "Informacje praktyczne"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "samobor",
+  "language": "pl",
+  "updatedAt": "2026-10-16T21:14:17.785Z"
+}

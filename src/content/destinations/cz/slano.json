@@ -1,0 +1,146 @@
+{
+  "title": "Slano – Průvodce cestováním: Pláže, parkování a ubytování",
+  "metaDescription": "Naplánujte si cestu do Slana, Chorvatsko. Najděte aktuální informace o nejlepších plážích, trasách z Evropy, parkování a možnostech ubytování kolem zálivu.",
+  "intro": "Slano je klidná pobřežní vesnice v hlubokém, chráněném zálivu jižní Dalmácie, ideální pro rodiny a páry hledající uvolněnou alternativu k nedalekému Dubrovníku. Díky svým klidným, mělkým vodám a oblázkovým plážím je oblast perfektně připravena pro pohodovou středomořskou dovolenou, kde se pozornost soustředí na koupání, jídlo a odpočinek.\n\nLetní měsíce od června do září nabízejí nejlepší počasí a nejteplejší mořské teploty, i když květen a říjen jsou příjemné pro aktivní prohlídky bez vrcholných davů. Návštěvníci obvykle tráví dny odpočinkem na plážích Grgurići nebo Banja, procházkami po pobřežní promenádě nebo využívají město jako strategickou základnu k prozkoumání poloostrova Pelješac a Dubrovníku.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "Červen až září"
+    },
+    {
+      "label": "Teplota moře v srpnu",
+      "value": "25°C až 27°C"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Dubrovník (DBV), 52 km"
+    },
+    {
+      "label": "Hlavní typ pláže",
+      "value": "Oblázkové a betonové terasy"
+    },
+    {
+      "label": "Cenová úroveň",
+      "value": "Průměrná pro Dalmácii, levnější než Dubrovník"
+    },
+    {
+      "label": "Pěší dostupnost",
+      "value": "Pěší promenáda podél moře, ale není bez aut"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centrum Slana a Banja",
+      "bestFor": "Pro jachtaře a snadný přístup k vybavení",
+      "parking": "K dispozici veřejná placená parkoviště",
+      "beach": "Krátká procházka na pláž Banja (oblázková/mělká)",
+      "summary": "Jedná se o centrum vesnice, zahrnující východní stranu zálivu. Najdete zde ACI Marinu, hlavní supermarkety a výběr místních restaurací."
+    },
+    {
+      "name": "Grgurići",
+      "bestFor": "Pro rodiny a milovníky pláží",
+      "parking": "Omezené parkování na ulici, většinou hotelové parkoviště",
+      "beach": "Přímý přístup na pláž Grgurići (hlavní oblázková pláž)",
+      "summary": "Nachází se na západní straně zálivu, tato oblast hostí větší resortové hotely. Nabízí nejoblíbenější plážové vybavení a půjčovny vodních sportů ve vesnici."
+    },
+    {
+      "name": "Slađenovići a Kručica",
+      "bestFor": "Pro páry a klidné útočiště",
+      "parking": "Soukromé parkování u vily je standardem",
+      "beach": "Nedaleké skalnaté a oblázkové zátoky",
+      "summary": "Tyto klidnější osady leží severozápadně od Slana podél pobřeží. Nabízejí odlehlá místa ke koupání a tradiční kamenné domy daleko od hlavního turistického ruchu."
+    },
+    {
+      "name": "Banići",
+      "bestFor": "Pro milovníky přírody a cestovatele s omezeným rozpočtem",
+      "parking": "Snadné soukromé parkování u ubytování",
+      "beach": "Krátká jízda autem na pláž Budima",
+      "summary": "Venkovská vesnice ležící mírně ve vnitrozemí a podél nedalekého pobřeží. Nabízí cenově dostupnější apartmány, přičemž je stále jen kousek jízdy od hlavních atrakcí Slana."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Mnichov",
+      "car": "950 km, přibližně 10 hodin přes A8, A10, A2 na A1 (Chorvatsko) a D8. Rakouská dálniční známka, mýtné Karavanky, Slovinská dálniční známka, Chorvatské mýtné.",
+      "other": "Přímý let do Dubrovníku (DBV), poté transfer z letiště nebo místní autobus."
+    },
+    {
+      "from": "Vídeň",
+      "car": "800 km, přibližně 8,5 hodiny přes A2 na A1 (Chorvatsko) a D8. Rakouská dálniční známka, Slovinská dálniční známka, Chorvatské mýtné.",
+      "other": "Přímý let do Dubrovníku (DBV), poté transfer z letiště."
+    },
+    {
+      "from": "Budapešť",
+      "car": "760 km, přibližně 8 hodin přes M7 na A4 a A1 (Chorvatsko) a D8. Maďarská dálniční známka, Chorvatské mýtné.",
+      "other": "Přímý let nebo přímý dálkový autobus do Dubrovníku."
+    },
+    {
+      "from": "Lublaň",
+      "car": "600 km, přibližně 6,5 hodiny přes A2 na A1 (Chorvatsko) a D8. Slovinská dálniční známka, Chorvatské mýtné.",
+      "other": "Autobus do Dubrovníku nebo sezónní let do DBV."
+    },
+    {
+      "from": "Praha",
+      "car": "1 100 km, přibližně 11-12 hodin přes Vídeň, Graz, A1 (Chorvatsko) a D8. Česká, Rakouská, Slovinská dálniční známka, Chorvatské mýtné.",
+      "other": "Přímý let do Dubrovníku (DBV), poté transfer z letiště."
+    },
+    {
+      "from": "Krakov",
+      "car": "1 150 km, přibližně 12-13 hodin přes Slovensko, Maďarsko (M15/M86), A1 (Chorvatsko) a D8. Polské mýtné, Slovenská/Maďarská dálniční známka, Chorvatské mýtné.",
+      "other": "Přímý let do Dubrovníku (DBV), poté transfer z letiště."
+    }
+  ],
+  "whenToGo": "Nejlepší doba k návštěvě Slana je od června do září, kdy jsou všechna zařízení otevřená a teplota moře dosahuje příjemných 25°C až 27°C. Červenec a srpen jsou hlavními měsíci, které přinášejí největší davy a nejvyšší ceny, ale chráněný záliv se zřídka cítí tak přetížený jako větší dalmatská letoviska. Květen a říjen nabízejí chladnější počasí ideální pro pěší turistiku a prozkoumávání nedalekého Dubrovníku bez úmorného letního horka, i když moře je znatelně chladnější a některé místní restaurace nebo půjčovny plážového vybavení mohou být zavřené.",
+  "faq": [
+    {
+      "question": "Stojí Slano za návštěvu?",
+      "answer": "Ano, Slano stojí za návštěvu pro klidnou a relaxační dovolenou. Nabízí pomalejší tempo, chráněné pláže a snadný přístup jak do Dubrovníku, tak na poloostrov Pelješac."
+    },
+    {
+      "question": "Kolik dní bych měl/a zůstat ve Slanu?",
+      "answer": "Pobyt na 3 až 5 dní je ideální pro užívání si místních pláží a restaurací. Pokud plánujete jednodenní výlety do Dubrovníku, Korčuly nebo Mostaru, doporučuje se celý týden."
+    },
+    {
+      "question": "Jaká je nejlepší pláž ve Slanu?",
+      "answer": "Pláž Grgurići na západní straně zálivu je nejoblíbenější, s čistými oblázky, mělkou vodou a plážovým vybavením. Pláž Banja na východní straně je také vynikající a velmi klidná."
+    },
+    {
+      "question": "Potřebuji ve Slanu auto?",
+      "answer": "I když auto nepotřebujete k pohybu po samotné vesnici, jeho vlastnictví je velmi doporučeno. Vozidlo vám umožní snadno podnikat jednodenní výlety, navštěvovat odlehlé zátoky a jet do Dubrovníku podle vlastního rozvrhu."
+    },
+    {
+      "question": "Kde mohu parkovat ve Slanu?",
+      "answer": "V blízkosti ACI Mariny a centra vesnice jsou veřejná placená parkoviště. Většina hotelů, vil a apartmánů poskytuje svým hostům soukromá parkovací místa."
+    },
+    {
+      "question": "Je Slano vhodné pro rodiny?",
+      "answer": "Ano, Slano je vynikající destinace pro rodiny. Hluboký záliv chrání hlavní pláže před silnými vlnami, díky čemuž jsou mělké vody velmi bezpečné pro koupání malých dětí."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Základní informace",
+    "whereToStay": "Kde se ubytovat ve Slanu",
+    "gettingThere": "Jak se dostat do Slana",
+    "whenToGo": "Kdy jet",
+    "guides": "Průvodce Slano",
+    "faq": "Často kladené otázky o Slanu",
+    "groups": {
+      "gettingAround": "Parkování a pohyb po okolí",
+      "planning": "Plánování a kde se ubytovat",
+      "timing": "Kdy jet",
+      "travelers": "Rodiny, páry a styly cestování",
+      "activities": "Pláže a aktivity",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": "Praktické informace"
+    },
+    "car": "Autem",
+    "other": "Další možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "slano",
+  "language": "cz",
+  "updatedAt": "2026-10-16T20:01:57.919Z"
+}

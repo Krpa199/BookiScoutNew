@@ -1,0 +1,139 @@
+{
+  "title": "Kornati: Cestovní průvodce – Lodní výlety, Robinsonovy pobyty a ostrovy",
+  "metaDescription": "Naplánujte si cestu na Kornatské ostrovy. Najděte informace o Robinsonovském ubytování, lodních zájezdech z Murteru, trasách jízdy, parkování a logistice na ostrovech.",
+  "intro": "Kornatské souostroví je husté shluknutí 89 převážně neobydlených ostrovů, ostrůvků a útesů v severní Dalmácii, chráněné jako národní park. Krajina je definována neúrodným, skalnatým terénem, strmými útesy směřujícími k otevřenému moři a čistými, hlubokými vodami. Přitahuje především jachtaře, potápěče a návštěvníky hledající izolované dovolené ve stylu 'Robinson Crusoe' v kamenných chatkách mimo civilizaci.\n\nPřístup na ostrovy je přísně pouze lodí, v rámci hranic národního parku nejezdí žádná auta ani trajekty. Většina cestovatelů se na Kornati dostane organizovanými jednodenními výlety nebo soukromými pronájmy lodí vyplouvajícími z pevninského vstupního města Murter. Hlavní turistická sezóna probíhá od června do září, kdy se otevírají sezónní rybí konoby a počasí je dostatečně stabilní pro bezpečnou plavbu.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "Červen až září"
+    },
+    {
+      "label": "Teplota moře v srpnu",
+      "value": "24°C - 26°C"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Zadar (ZAD), 65 km k přístupu do Murteru"
+    },
+    {
+      "label": "Hlavní typ pláže",
+      "value": "Skalnaté pláty a oblázky"
+    },
+    {
+      "label": "Cenová úroveň",
+      "value": "Vyšší než pevninský průměr"
+    },
+    {
+      "label": "Bez aut",
+      "value": "100% bez aut; přístupné pouze lodí"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Město Murter (Pevninská brána)",
+      "bestFor": "Rodiny, řidiči a rezervace jednodenních zájezdů",
+      "parking": "Placená veřejná parkoviště a soukromé dlouhodobé parkování",
+      "beach": "Písečná a oblázková (Slanica) v blízkosti",
+      "summary": "Murter je s pevninou spojen mostem a je administrativním sídlem národního parku. Nabízí standardní turistické vybavení a je hlavním výchozím bodem pro lodní výlety na Kornati."
+    },
+    {
+      "name": "Ostrov Kornat (Vrulje & Tarac)",
+      "bestFor": "Robinsonovské pobyty mimo civilizaci a naprostý klid",
+      "parking": "Auta nejsou povolena; vyžadováno parkování na pevnině",
+      "beach": "Skalnaté pobřeží a soukromá kamenná mola",
+      "summary": "Největší ostrov souostroví nabízí izolované kamenné domy bez elektřiny ze sítě nebo tekoucí vody. Návštěvníci spoléhají na solární energii, cisterny a zásobovací lodě."
+    },
+    {
+      "name": "Ostrov Žut",
+      "bestFor": "Námořníci a posádky jachet",
+      "parking": "Auta nejsou povolena",
+      "beach": "Převážně skalnaté zátoky a betonová kotviště",
+      "summary": "Žut se nachází těsně mimo přísné hranice národního parku a nabízí marinu ACI, několik sezónních restaurací a bezpečná kotviště. Poskytuje o něco rozvinutější zastávku pro námořní návštěvníky."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Mnichov",
+      "car": "785 km do Murteru, 8,5 hodiny přes A8, A10 a A1. Vyžaduje rakouskou dálniční známku, mýtné Karawanken, slovinskou dálniční známku a chorvatské mýtné.",
+      "other": "Let do Zadaru, poté autobus nebo taxi do Murteru."
+    },
+    {
+      "from": "Vídeň",
+      "car": "685 km do Murteru, 7 hodin přes A2, slovinské A1/A4 a chorvatské A1. Vyžaduje rakouskou a slovinskou dálniční známku a chorvatské mýtné.",
+      "other": "Let do Zadaru, nebo přímý autobus do Biogradu/Zadaru."
+    },
+    {
+      "from": "Budapešť",
+      "car": "660 km do Murteru, 6,5 hodiny přes M7 a chorvatské A4/A1. Vyžaduje maďarskou dálniční známku a chorvatské mýtné.",
+      "other": "Přímý autobus nebo noční vlak do Splitu, s přestupem na místní dopravu."
+    },
+    {
+      "from": "Lublaň",
+      "car": "395 km do Murteru, 4,5 hodiny přes A2 a chorvatské A1. Vyžaduje slovinskou dálniční známku a chorvatské mýtné.",
+      "other": "Přímý autobus do Zadaru nebo Biogradu na Moru."
+    },
+    {
+      "from": "Praha",
+      "car": "1015 km do Murteru, 10,5 hodiny přes Rakousko, Slovinsko a Chorvatsko. Vyžaduje rakouskou a slovinskou dálniční známku a chorvatské mýtné.",
+      "other": "Let do Zadaru, nebo vlak RegioJet do Splitu."
+    },
+    {
+      "from": "Krakov",
+      "car": "1060 km do Murteru, 11 hodin přes Slovensko, Maďarsko a Chorvatsko. Vyžaduje slovenskou a maďarskou dálniční známku a chorvatské mýtné.",
+      "other": "Let do Zadaru."
+    }
+  ],
+  "whenToGo": "Kornatské ostrovy fungují na přísně sezónním základě. Od června do září se teplota moře pohybuje mezi 24°C a 26°C, což je ideální pro plavání a šnorchlování. Během těchto měsíců jsou otevřené izolované konoby (hospůdky) a marina na Žutu. V červenci a srpnu je nejvyšší objem námořní dopravy a nejvyšší ceny za pronájem lodí a Robinsonovy domy. Mimo toto období, převážně od října do dubna, je souostroví téměř zcela opuštěné, většina zařízení je zavřená a nepředvídatelné větry činí lodní přístup nespolehlivým.",
+  "faq": [
+    {
+      "question": "Stojí za to navštívit?",
+      "answer": "Ano, pro návštěvníky, kteří upřednostňují panenskou přírodu, plachtění a koupání v čisté vodě. Chybí zde typické resortní vybavení, ale nabízí vynikající izolaci a osobitou mořskou krajinu."
+    },
+    {
+      "question": "Kolik dní potřebuji?",
+      "answer": "Jeden den stačí na organizovaný lodní výlet z Murteru nebo Zadaru. Pro ty, kteří si pronajímají Robinsonův dům nebo plachtí, umožní tři až sedm dní prozkoumání různých zátok."
+    },
+    {
+      "question": "Jaká je nejlepší pláž?",
+      "answer": "Lojena na ostrově Levrnaka je nejznámější pláží v národním parku. Má písčité dno a bělostné oblázkové pobřeží, ačkoli se v poledne silně zaplní výletními loděmi."
+    },
+    {
+      "question": "Potřebuji auto?",
+      "answer": "Auta jsou přísně zakázána a fyzicky je nelze přivézt do národního parku. Přístup je výhradně soukromou lodí, pronajatou lodí nebo organizovaným zájezdem."
+    },
+    {
+      "question": "Kde parkovat?",
+      "answer": "Návštěvníci musí svá vozidla nechat na pevnině. Murter, Biograd na Moru a Zadar nabízejí zabezpečená, dlouhodobá parkoviště v blízkosti marin pro ty, kteří podnikají vícedenní lodní výlety."
+    },
+    {
+      "question": "Je to vhodné pro rodiny?",
+      "answer": "Hodí se pro rodiny se staršími dětmi, které se cítí dobře na lodích a jsou zdatní plavci. Nedostatek stínu, písčitých pláží a zdravotnických zařízení to činí náročným pro kojence a batolata."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Přehledně",
+    "whereToStay": "Kde se ubytovat na Kornatech",
+    "gettingThere": "Cesta na Kornati",
+    "whenToGo": "Kdy jet",
+    "guides": "Průvodci po Kornatech",
+    "faq": "Časté dotazy ke Kornatům",
+    "groups": {
+      "gettingAround": "Parkování a pohyb po okolí",
+      "planning": "Plánování a kde se ubytovat",
+      "timing": "Kdy jet",
+      "travelers": "Rodiny, páry a styly cestování",
+      "activities": "Pláže a co dělat",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": "Praktické informace"
+    },
+    "car": "Autem",
+    "other": "Jiné možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "kornati",
+  "language": "cz",
+  "updatedAt": "2026-10-16T20:29:44.633Z"
+}

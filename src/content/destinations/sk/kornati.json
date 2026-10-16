@@ -1,0 +1,139 @@
+{
+  "title": "Kornati: Potovalni vodič – Izleti z ladjo, robinzonska bivanja in otoki",
+  "metaDescription": "Načrtujte svoje potovanje na Kornate. Poiščite informacije o robinzonskih namestitvah, izletih z ladjo iz Murterja, voznih poteh, parkiranju in logistiki na otokih.",
+  "intro": "Kornatsko otočje je gosta skupina 89 večinoma nenaseljenih otokov, otočkov in čeri v severni Dalmaciji, zaščiteno kot nacionalni park. Pokrajino opredeljujejo pusto, kamnito ozemlje, strmi klifi, ki gledajo na odprto morje, in čiste, globoke vode. Privablja predvsem jadralce, potapljače in obiskovalce, ki iščejo izolirane 'robinzonske' počitnice v kamnitih hišicah brez priključka na omrežje.\n\nDostop do otokov je strogo z ladjo, saj v mejah nacionalnega parka ne vozijo avtomobili ali trajekti. Večina potnikov pride na Kornate z organiziranimi enodnevnimi izleti ali zasebnimi najemi, ki odhajajo iz celinskega vstopnega mesta Murter. Glavna turistična sezona traja od junija do septembra, ko se odprejo sezonske ribje konobe in je vreme dovolj stabilno za varno plovbo.",
+  "quickFacts": [
+    {
+      "label": "Najboljši meseci",
+      "value": "Junij do september"
+    },
+    {
+      "label": "Temperatura morja v avgustu",
+      "value": "24°C - 26°C"
+    },
+    {
+      "label": "Najbližje letališče",
+      "value": "Zadar (ZAD), 65 km do vstopne točke Murter"
+    },
+    {
+      "label": "Glavna vrsta plaže",
+      "value": "Kamnite plošče in prod"
+    },
+    {
+      "label": "Cenovni nivo",
+      "value": "Višji od celinskega povprečja"
+    },
+    {
+      "label": "Brez avtomobilov",
+      "value": "100 % brez avtomobilov; dostopno samo z ladjo"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Mesto Murter (Celinsko vstopno pristanišče)",
+      "bestFor": "Družine, voznike in rezervacijo dnevnih izletov",
+      "parking": "Plačljiva javna parkirišča in zasebna dolgoročna parkirišča",
+      "beach": "Peščena in prodnata (Slanica) v bližini",
+      "summary": "Murter, povezan s celino z mostom, je administrativni sedež nacionalnega parka. Ponuja standardne turistične storitve in je glavno izhodišče za izlete z ladjo na Kornate."
+    },
+    {
+      "name": "Otok Kornat (Vrulje & Tarac)",
+      "bestFor": "Robinzonska bivanja brez priključka na omrežje in popolna tišina",
+      "parking": "Avtomobili niso dovoljeni; potrebno je parkiranje na celini",
+      "beach": "Kamnite obale in zasebni kamniti pomoli",
+      "summary": "Največji otok v otočju ponuja izolirane kamnite hiše brez omrežne elektrike ali tekoče vode. Obiskovalci se zanašajo na sončno energijo, cisterne in ladje za oskrbo."
+    },
+    {
+      "name": "Otok Žut",
+      "bestFor": "Jadralce in posadke jaht",
+      "parking": "Avtomobili niso dovoljeni",
+      "beach": "Večinoma kamniti zalivi in betonski privezi",
+      "summary": "Žut, ki se nahaja tik izven strogo določenih meja nacionalnega parka, ima ACI Marino, nekaj sezonskih restavracij in varna sidrišča. Nudi nekoliko bolj razvito prenočišče za navtične obiskovalce."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Munich",
+      "car": "785 km do Murterja, 8,5 ur preko A8, A10 in A1. Zahteva avstrijsko vinjeto, cestnino Karavanke, slovensko vinjeto in hrvaške cestnine.",
+      "other": "Let do Zadra, nato avtobus ali taksi do Murterja."
+    },
+    {
+      "from": "Vienna",
+      "car": "685 km do Murterja, 7 ur preko A2, slovenske A1/A4 in hrvaške A1. Zahteva avstrijsko in slovensko vinjeto ter hrvaške cestnine.",
+      "other": "Let do Zadra, ali direkten avtobus do Biograda/Zadra."
+    },
+    {
+      "from": "Budapest",
+      "car": "660 km do Murterja, 6,5 ur preko M7 in hrvaške A4/A1. Zahteva madžarsko vinjeto in hrvaške cestnine.",
+      "other": "Direkten avtobus ali nočni vlak do Splita, z nadaljnjim povezovanjem na lokalni javni prevoz."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "395 km do Murterja, 4,5 ure preko A2 in hrvaške A1. Zahteva slovensko vinjeto in hrvaške cestnine.",
+      "other": "Direkten avtobus do Zadra ali Biograda na Moru."
+    },
+    {
+      "from": "Prague",
+      "car": "1015 km do Murterja, 10,5 ur preko Avstrije, Slovenije in Hrvaške. Zahteva avstrijsko in slovensko vinjeto ter hrvaške cestnine.",
+      "other": "Let do Zadra, ali vlak RegioJet do Splita."
+    },
+    {
+      "from": "Kraków",
+      "car": "1060 km do Murterja, 11 ur preko Slovaške, Madžarske in Hrvaške. Zahteva slovaško in madžarsko vinjeto ter hrvaške cestnine.",
+      "other": "Let do Zadra."
+    }
+  ],
+  "whenToGo": "Kornatski otoki delujejo strogo sezonsko. Od junija do septembra se temperature morja gibljejo med 24°C in 26°C, kar je primerno za kopanje in potapljanje z masko. V teh mesecih so odprte izolirane konobe (gostilne) in marina na Žutu. Julij in avgust beležita največji obseg navtičnega prometa in najvišje cene za najem plovil in robinzonskih hiš. Izven tega obdobja, predvsem od oktobra do aprila, je otočje skoraj popolnoma zapuščeno, večina objektov je zaprtih, nepredvidljivi vetrovi pa onemogočajo zanesljiv dostop z ladjo.",
+  "faq": [
+    {
+      "question": "Je vredno obiska?",
+      "answer": "Da, za obiskovalce, ki dajejo prednost neokrnjeni naravi, jadranju in kopanju v čisti vodi. Manjkajo mu tipične letoviške storitve, vendar ponuja odlično izoliranost in edinstvene morske pokrajine."
+    },
+    {
+      "question": "Koliko dni potrebujem?",
+      "answer": "En sam dan zadostuje za organiziran izlet z ladjo iz Murterja ali Zadra. Za tiste, ki najamejo robinzonsko hiško ali jadrnico, tri do sedem dni omogoča čas za raziskovanje različnih zalivov."
+    },
+    {
+      "question": "Katera je najboljša plaža?",
+      "answer": "Lojena na otoku Levrnaka je najslavnejša plaža v nacionalnem parku. Odlikujeta jo peščeno dno in bela prodnata obala, čeprav je do poldneva močno obiskana s strani turističnih ladij."
+    },
+    {
+      "question": "Potrebujem avto?",
+      "answer": "Avtomobili so strogo prepovedani in jih je fizično nemogoče pripeljati v nacionalni park. Dostop je izključno z zasebnim plovilom, najeto ladjo ali organizirano turo."
+    },
+    {
+      "question": "Kje parkiram?",
+      "answer": "Obiskovalci morajo svoja vozila pustiti na celini. Murter, Biograd na Moru in Zadar ponujajo varna, dolgoročna parkirišča v bližini marin za tiste, ki se odpravljajo na večdnevne izlete z ladjo."
+    },
+    {
+      "question": "Je primerno za družine?",
+      "answer": "Primerno je za družine s starejšimi otroki, ki so udobni na čolnih in so dobri plavalci. Pomanjkanje sence, peščenih plaž in zdravstvenih ustanov otežuje obisk za dojenčke ali malčke."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na kratko",
+    "whereToStay": "Kje prenočiti na Kornatih",
+    "gettingThere": "Kako priti na Kornate",
+    "whenToGo": "Kdaj obiskati",
+    "guides": "Vodiči po Kornatih",
+    "faq": "Pogosta vprašanja o Kornatih",
+    "groups": {
+      "gettingAround": "Parkiranje in gibanje",
+      "planning": "Načrtovanje in kje prenočiti",
+      "timing": "Kdaj obiskati",
+      "travelers": "Družine, pari in načini potovanja",
+      "activities": "Plaže in aktivnosti",
+      "food": "Hrana in pijača",
+      "comparisons": "Primerjave",
+      "practical": "Praktične informacije"
+    },
+    "car": "Z avtomobilom",
+    "other": "Druge možnosti",
+    "bestFor": "Najboljše za",
+    "parking": "Parkiranje",
+    "beach": "Plaža"
+  },
+  "destination": "kornati",
+  "language": "sk",
+  "updatedAt": "2026-10-16T20:32:14.474Z"
+}

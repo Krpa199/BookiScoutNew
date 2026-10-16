@@ -1,0 +1,139 @@
+{
+  "title": "Varaždin – potovalni vodnik: znamenitosti, parkiranje in prenočišča",
+  "metaDescription": "Načrtujte svoje potovanje v Varaždin z našim dejanskim vodnikom. Poiščite najboljša območja za bivanje, poti iz Srednje Evrope, informacije o parkiranju in najboljše stvari za početi.",
+  "intro": "Varaždin je celinsko mesto na severu Hrvaške, znano po baročni arhitekturi in zgodovinskem središču za pešce. Privablja popotnike, ki iščejo kulturni turizem, kolesarske poti in termalne toplice, namesto tipičnih počitnic v obmorskih letoviščih. Služi kot postanek za tiste, ki se vozijo iz Srednje Evrope na jadransko obalo, ali kot samostojna destinacija za kratke počitnice.\n\nMesto je večji del leta razmeroma mirno, turizem pa doseže vrhunec med uličnim festivalom Špancirfest konec avgusta. Pomlad in zgodnja jesen ponujata blago vreme, primerno za raziskovanje starega mestnega jedra in bližnjega območja reke Drave, medtem ko so zime hladne in mirne.",
+  "quickFacts": [
+    {
+      "label": "Najboljši meseci",
+      "value": "Konec avgusta (Špancirfest), maj in september"
+    },
+    {
+      "label": "Temperatura morja avgusta",
+      "value": "Ni podatka (celina); jezero Aquacity doseže 24°C"
+    },
+    {
+      "label": "Najbližje letališče",
+      "value": "Letališče Zagreb Franjo Tuđman (ZAG), 81 km"
+    },
+    {
+      "label": "Glavni tip plaže",
+      "value": "Prodnata in travnata (jezero Aquacity)"
+    },
+    {
+      "label": "Raven cen",
+      "value": "Nižje od hrvaškega obalnega povprečja"
+    },
+    {
+      "label": "Središče za pešce / brez avtomobilov",
+      "value": "Da, zgodovinsko središče za pešce"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Center (Staro mesto)",
+      "bestFor": "Za obiskovalce, ki pridejo prvič, in obiskovalce festivala",
+      "parking": "Plačljivo ulično parkiranje na obrobju; podzemne garaže",
+      "beach": "5 km do jezera Aquacity",
+      "summary": "Zgodovinsko središče vsebuje večino baročnih palač, muzejev in restavracij. Namestitve so večinoma butični hoteli in zasebni apartmaji."
+    },
+    {
+      "name": "Banfica",
+      "bestFor": "Za potnike z omejenim proračunom in daljša bivanja",
+      "parking": "Brezplačno ulično parkiranje je pogosto",
+      "beach": "3 km do jezera Aquacity",
+      "summary": "Predvsem stanovanjska četrt, ki se nahaja severno od centra, bližje reki Dravi. Ponuja večje apartmaje in mirnejše ulice, hkrati pa ostaja znotraj 15-minutne hoje od starega mestnega jedra."
+    },
+    {
+      "name": "Varaždin Breg",
+      "bestFor": "Za ljubitelje narave in voznike",
+      "parking": "Brezplačno zasebno parkiranje je standardno",
+      "beach": "12 km do jezera Aquacity",
+      "summary": "Hribovita regija južno od mesta, značilna po vinogradih in počitniških hišah. Obiskovalci bivajo tukaj zaradi zasebnosti, razgledov in dostopa do regionalnih kolesarskih poti."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "500 km, 5,5 ure preko A8, A9 (Avstrija) in A4 (Slovenija); potrebna avstrijska in slovenska vinjeta ter cestnine",
+      "other": "FlixBus ali vlak do Zagreba, nato lokalni avtobus do Varaždina"
+    },
+    {
+      "from": "Dunaj",
+      "car": "270 km, 3 ure preko A2, A9 do Gradca, nato A4 preko Maribora; potrebna avstrijska in slovenska vinjeta",
+      "other": "Neposredni FlixBus do Varaždina ali vlak preko Gradca"
+    },
+    {
+      "from": "Budimpešta",
+      "car": "250 km, 2,5 ure preko M7 do meje, nato hrvaška A4; potrebna madžarska e-vinjeta in hrvaška cestnina",
+      "other": "Vlak ali avtobus do Zagreba, nato prestop do Varaždina"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "180 km, 2 uri preko A1 do Maribora, nato A4 do Ptuja; potrebna slovenska vinjeta",
+      "other": "Vlak do Zagreba, nato nadaljnji vlak ali avtobus"
+    },
+    {
+      "from": "Praga",
+      "car": "600 km, 6,5 ure preko Brna, Dunaja in Gradca; potrebne češka, avstrijska in slovenska vinjeta",
+      "other": "Let do Zagreba (ZAG), nato najem avtomobila ali avtobus"
+    },
+    {
+      "from": "Krakov",
+      "car": "650 km, 7,5 ure preko A4, Brna in Dunaja; potrebne poljske cestnine ter češka, avstrijska in slovenska vinjeta",
+      "other": "Let do Zagreba preko Varšave, nato avtobus"
+    }
+  ],
+  "whenToGo": "Ker je Varaždin celinsko mesto, so poletja (junij do avgust) topla z dnevnimi temperaturami, ki pogosto presegajo 28°C, temperatura jezera Aquacity pa doseže okoli 24°C za kopanje. Konec avgusta je najprometnejše in najdražje obdobje zaradi desetdnevnega Špancirfesta, ki prinaša veliko množico in popolnoma zasedene namestitve. Pomlad (april do maj) in jesen (september do oktober) ponujata blage temperature okoli 15–20°C, nižje cene in manj obiskovalcev, zaradi česar so ti meseci praktični za oglede in kolesarjenje. Zima prinaša nizke temperature in občasen sneg; medtem ko ima večina turističnih znamenitosti krajši delovni čas, mesto decembra gosti zmerni adventni sejem.",
+  "faq": [
+    {
+      "question": "Ali je Varaždin vreden obiska?",
+      "answer": "Da, Varaždin je vreden obiska zaradi svoje dobro ohranjene baročne arhitekture, parkov in zgodovinske trdnjave. Ponuja močan kontrast hrvaškim obalnim mestom in je primeren kot namenski vikend izlet ali postanek."
+    },
+    {
+      "question": "Koliko dni naj preživim v Varaždinu?",
+      "answer": "En do dva dni sta dovolj za ogled glavnih znamenitosti. Celoten dan pokriva Stari Grad (staro mesto), pokopališče in glavne trge, medtem ko drugi dan omogoča obisk reke Drave ali bližnjega gradu Trakošćan."
+    },
+    {
+      "question": "Katera je najboljša plaža v Varaždinu?",
+      "answer": "Aquacity Varaždin je določeno kopališče, ki se nahaja 5 kilometrov od centra. Ponaša se s prodnatimi in travnatimi obalami okoli umetnega jezera, opremljenega z osnovnimi objekti in restavracijo."
+    },
+    {
+      "question": "Ali potrebujem avto v Varaždinu?",
+      "answer": "Za raziskovanje mestnega središča, ki je ravno in zelo primerno za hojo, ne potrebujete avtomobila. Vendar pa je vozilo priporočljivo, če nameravate obiskati okoliške hribovite vinograde ali gradove v regiji Hrvatsko Zagorje."
+    },
+    {
+      "question": "Kje je najbolje parkirati v Varaždinu?",
+      "answer": "Osrednje staro mesto je brez avtomobilov, vendar je parkiranje na voljo na obrobju. Podzemna garaža Kapucinski trg je največja in najbolj osrednja možnost, medtem ko je plačljivo ulično parkiranje razdeljeno na cone okoli zgodovinskega jedra."
+    },
+    {
+      "question": "Je Varaždin primeren za družine?",
+      "answer": "Da, mesto je ravno, varno in enostavno za gibanje z vozički. Družine ga obiščejo zaradi velikih območij za pešce, entomološkega (žuželke) muzeja in rekreacijskih površin v bližnjem Dravskem gozdu in ob jezeru Aquacity."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na kratko",
+    "whereToStay": "Kje prenočiti v Varaždinu",
+    "gettingThere": "Prihod v Varaždin",
+    "whenToGo": "Kdaj obiskati",
+    "guides": "Varaždin vodniki",
+    "faq": "Varaždin – pogosta vprašanja",
+    "groups": {
+      "gettingAround": "Parkiranje in premikanje po mestu",
+      "planning": "Načrtovanje in kje prenočiti",
+      "timing": "Kdaj obiskati",
+      "travelers": "Družine, pari in načini potovanja",
+      "activities": "Plaže in aktivnosti",
+      "food": "Hrana in pijača",
+      "comparisons": "Primerjave",
+      "practical": "Praktične informacije"
+    },
+    "car": "Z avtom",
+    "other": "Druge možnosti",
+    "bestFor": "Najboljše za",
+    "parking": "Parkiranje",
+    "beach": "Plaža"
+  },
+  "destination": "varazdin",
+  "language": "sl",
+  "updatedAt": "2026-10-16T20:55:22.832Z"
+}

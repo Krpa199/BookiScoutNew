@@ -1,0 +1,146 @@
+{
+  "title": "Osijek: Potovalni vodnik – Soseske, poti in rečne plaže",
+  "metaDescription": "Načrtujte potovanje v Osijek na Hrvaškem. Poiščite dejstva o cestnih poteh iz Srednje Evrope, najboljših soseskah za bivanje in lokalnih rečnih plažah.",
+  "intro": "Osijek je gospodarsko in kulturno središče Slavonije v vzhodni Hrvaški, ki leži ob reki Dravi. Primeren je za popotnike, ki iščejo tišjo, z arhitekturo bogato alternativo živahni jadranski obali, saj ponuja baročne spomenike, prostrane parke in obsežne kolesarske poti. Obiskovalci običajno prihajajo zaradi kulturnega turizma, regionalne gastronomije in dejavnosti na prostem ob reki.\n\nNajboljši čas za obisk je pozna pomlad in zgodnja jesen, ko so temperature blage in potekajo dogodki na prostem. Poletje prinaša visoke temperature, zato postanejo rečne plaže in bazenski kompleksi v mestu osrednja točka, čeprav je vlažnost lahko intenzivna. Mesto je zelo primerno za hojo in ima zanesljivo tramvajsko omrežje, kar olajša navigacijo tistim, ki prihajajo z avtomobilom ali javnim prevozom.",
+  "quickFacts": [
+    {
+      "label": "Najboljši meseci",
+      "value": "Maj, junij, september"
+    },
+    {
+      "label": "Temperatura morja avgusta",
+      "value": "Ni relevantno (celinsko; reka Drava ima ~24°C)"
+    },
+    {
+      "label": "Najbližje letališče",
+      "value": "Letališče Osijek (OSI), 20 km"
+    },
+    {
+      "label": "Glavni tip plaže",
+      "value": "Peščena in travnata rečna plaža"
+    },
+    {
+      "label": "Raven cen",
+      "value": "Pod hrvaškim povprečjem"
+    },
+    {
+      "label": "Staro mesto primerno za hojo",
+      "value": "Da, Tvrđa je večinoma brez avtomobilov"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Tvrđa",
+      "bestFor": "Ljubitelji zgodovine in nočnega življenja",
+      "parking": "Javna parkirišča zunaj obzidja trdnjave",
+      "beach": "1,5 km do rečne plaže Copacabana",
+      "summary": "To je zgodovinsko baročno jedro Osijeka, z tlakovanimi ulicami, muzeji in visoko koncentracijo barov in restavracij. Je prijazno pešcem, saj je promet znotraj obzidja omejen."
+    },
+    {
+      "name": "Gornji Grad (Zgornje mesto)",
+      "bestFor": "Obiskovalci, ki prvič pridejo in želijo centralno udobje",
+      "parking": "Plačljivo ulično parkiranje v določenih conah",
+      "beach": "2 km do Copacabane",
+      "summary": "Moderno mestno središče je znano po secesijski arhitekturi ob Evropski aveniji in glavnem trgu. Ponuja najširši izbor restavracij, trgovin in vsakdanjih storitev."
+    },
+    {
+      "name": "Donji Grad (Spodnje mesto)",
+      "bestFor": "Popotniki, ki iščejo tišje, stanovanjsko bivanje",
+      "parking": "Lažje ulično parkiranje, pogosto brezplačno",
+      "beach": "3 km do glavnih rečnih plaž",
+      "summary": "Bolj sproščena soseska, ki se razprostira vzhodno ob reki Dravi. Ponuja obsežne rečne promenade, lokalne tržnice in počasnejši tempo v primerjavi z zgornjim mestom."
+    },
+    {
+      "name": "Retfala",
+      "bestFor": "Športni navdušenci in tisti, ki prihajajo z avtomobilom",
+      "parking": "Brezplačno in dostopno ulično parkiranje",
+      "beach": "3,5 km do Copacabane",
+      "summary": "Zahodno predmestje, kjer se nahaja stadion Opus Arena. Je pretežno stanovanjsko, ponuja večje namestitve in enostaven dostop do glavnih cest, ki vodijo iz mesta."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "780 km, ~8 ur preko A8, A10/A2 (Avstrija/Slovenija) do Zagreba, nato A3/A5. Potrebne so avstrijska in slovenska vinjeta ter hrvaške cestnine.",
+      "other": "Let v Zagreb, nato nadaljnji avtobus ali vlak do Osijeka"
+    },
+    {
+      "from": "Dunaj",
+      "car": "520 km, ~5,5 ur preko M1 in M6 skozi Madžarsko do mejnega prehoda Udvar. Potrebne so avstrijska in madžarska vinjeta.",
+      "other": "FlixBus direktno do Osijeka ali vlak preko Budimpešte"
+    },
+    {
+      "from": "Budimpešta",
+      "car": "265 km, ~3 ure preko M6 proti jugu do hrvaške meje, nato D7. Potrebna je madžarska vinjeta.",
+      "other": "Direktne avtobusne ali vlakovne povezave preko Pécsa"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "420 km, ~4,5 ur preko A2 do Zagreba, A3 vzhodno do Sredancev, nato A5. Potrebna je slovenska vinjeta in hrvaške cestnine.",
+      "other": "Vlak ali avtobus preko Zagreba"
+    },
+    {
+      "from": "Praga",
+      "car": "780 km, ~8 ur preko D2 do Bratislave, M1 in M6 skozi Madžarsko. Potrebne so češka, slovaška in madžarska vinjeta.",
+      "other": "Let v Budimpešto, nato direktni avtobus do Osijeka"
+    },
+    {
+      "from": "Krakov",
+      "car": "670 km, ~7,5 ur preko R4 (Slovaška) in M30/M3/M6 (Madžarska). Potrebne so slovaška in madžarska vinjeta.",
+      "other": "Avtobusni prevoz preko Budimpešte"
+    }
+  ],
+  "whenToGo": "Od januarja do marca je hladno in mirno, temperature pogosto padejo pod ledišče, turistična infrastruktura pa je odprta le v omejenem obsegu, razen lokalnih storitev. April in maj prinašata milejše vreme, cvetoče parke in začetek kulture kavarn na prostem, z zmernimi cenami in malo gneče. Od junija do avgusta je vrhunec sezone za domače obiskovalce; reka Drava (ki doseže približno 24°C) postane središče plavanja in rekreacije, cene pa ostajajo pod državnim povprečjem kljub večji lokalni gneči. September in oktober ponujata prijetne temperature za kolesarjenje in dogodke ob trgatvi grozdja, pri čemer se ohranja obvladljivo število obiskovalcev. November in december prinašata rahel porast aktivnosti okoli adventnega trga Tvrđa, čeprav so splošne cene še vedno ugodne in lokalna podjetja delujejo normalno skozi celo leto.",
+  "faq": [
+    {
+      "question": "Ali je Osijek vreden obiska?",
+      "answer": "Da, vreden je obiska za popotnike, ki jih zanima avstro-ogrska arhitektura, regionalna gastronomija in sproščeno okolje stran od obale. Je odlično izhodišče za raziskovanje vinorodne regije Baranja in naravnega parka Kopački Rit."
+    },
+    {
+      "question": "Koliko dni potrebujete v Osijeku?",
+      "answer": "Dva dni sta dovolj za raziskovanje zgodovinske Tvrđe, sprehod po rečni promenadi in ogled zgornjega mesta. Dodaten tretji dan omogoča izlete v bližnje naravne rezervate ali vinograde."
+    },
+    {
+      "question": "Katera je najboljša plaža v Osijeku?",
+      "answer": "Copacabana (lokalno znana kot Kopika) je glavna plaža v Osijeku. Nahaja se ob reki Dravi in ponuja peščene rečne bregove ter nedavno prenovljen kompleks zunanjih bazenov."
+    },
+    {
+      "question": "Ali potrebujem avto v Osijeku?",
+      "answer": "Za raziskovanje samega Osijeka ne potrebujete avtomobila, saj je mesto ravno, primerno za hojo in dobro povezano z mrežo tramvajev in avtobusov. Avto je priporočljiv le, če nameravate obiskati okoliška podeželska območja, vinarne in naravne parke."
+    },
+    {
+      "question": "Kje parkirati v Osijeku?",
+      "answer": "Ulično parkiranje v središču mesta je razdeljeno na cone in se plačuje preko SMS-a ali parkomatov ob delavnikih in sobotah dopoldne. Brezplačno ali cenejše parkiranje je pogosto mogoče najti na parkiriščih tik ob zgodovinskem obzidju Tvrđe ali čez reko."
+    },
+    {
+      "question": "Ali je Osijek primeren za družine?",
+      "answer": "Da, Osijek je zelo primeren za družine zaradi svojih obsežnih parkov, ravnih kolesarskih poti in sproščenega tempa. Znamenitosti, kot sta živalski vrt Osijek in bazenski kompleks Copacabana, so neposredno namenjene otrokom."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na kratko",
+    "whereToStay": "Kje bivati v Osijeku",
+    "gettingThere": "Kako priti v Osijek",
+    "whenToGo": "Kdaj obiskati",
+    "guides": "Vodiči po Osijeku",
+    "faq": "Pogosta vprašanja o Osijeku",
+    "groups": {
+      "gettingAround": "Parkiranje in premikanje po mestu",
+      "planning": "Načrtovanje in kje bivati",
+      "timing": "Kdaj obiskati",
+      "travelers": "Družine, pari in stili potovanj",
+      "activities": "Plaže in aktivnosti",
+      "food": "Hrana in pijača",
+      "comparisons": "Primerjave",
+      "practical": "Praktične informacije"
+    },
+    "car": "Z avtomobilom",
+    "other": "Druge možnosti",
+    "bestFor": "Najboljše za",
+    "parking": "Parkiranje",
+    "beach": "Plaža"
+  },
+  "destination": "osijek",
+  "language": "sl",
+  "updatedAt": "2026-10-16T21:02:33.173Z"
+}

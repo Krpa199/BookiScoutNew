@@ -1,0 +1,139 @@
+{
+  "title": "Lopud: Cestovní průvodce – Pláže, trajekty a kde se ubytovat",
+  "metaDescription": "Naplánujte si cestu na bezautový ostrov Lopud, Chorvatsko. Najděte praktické informace o trajektových spojeních z Dubrovníku, parkování a oblastech k ubytování.",
+  "intro": "Lopud je malý, zcela bezautový ostrov v Elafitském souostroví, nacházející se zhruba hodinu plavby osobním trajektem z Dubrovníku. Hodí se pro cestovatele hledající poklidné středomořské prostředí zaměřené na procházky, koupání a tiché večery, daleko od husté dopravy na pevnině. Krajina se skládá z pobřežních promenád, olivových hájů a historických ruin.\n\nAktivity na ostrově se soustředí kolem hlavní přístavní vesnice na jedné straně a písečné pláže Šunj na protějším pobřeží, spojené 25minutovou lesní stezkou. Hlavní cestovní sezóna probíhá od konce května do září, kdy z dubrovnického přístavu Gruž jezdí pravidelné trajektové spoje a všechny místní restaurace, hotely a plážová zařízení jsou plně v provozu.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "Červen až září"
+    },
+    {
+      "label": "Teplota moře v srpnu",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Dubrovník (DBV), 22 km do přístavu Gruž + 55 min trajektem"
+    },
+    {
+      "label": "Hlavní typ pláže",
+      "value": "Jemný písek (Šunj) a oblázky/beton (Hlavní vesnice)"
+    },
+    {
+      "label": "Cenová úroveň",
+      "value": "O 15-20% nad chorvatským průměrem"
+    },
+    {
+      "label": "Pěší dostupnost",
+      "value": "100% bez aut a skvěle dostupné pěšky"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Lopudské nábřeží a přístav",
+      "bestFor": "Pohodlí, stravování a přístup k trajektu",
+      "parking": "Žádné (auto nechat v Dubrovníku)",
+      "beach": "Přímý přístup k oblázkovým a betonovým místům ke koupání",
+      "summary": "Toto je hlavní osada na ostrově, kde přistává trajekt. Má nejvyšší koncentraci hotelů, kaváren a historických památek podél rovné pobřežní promenády."
+    },
+    {
+      "name": "Lopudská vesnice – Svah",
+      "bestFor": "Tišší apartmány s výhledem na moře",
+      "parking": "Žádné",
+      "beach": "5 až 10 minut chůze k nábřeží",
+      "summary": "Tato oblast, nacházející se mírně vyvýšeně za hlavní promenádou, nabízí soukromé apartmány a penziony. Zahrnuje chůzi po kamenných schodech, ale poskytuje lepší výhledy a oddělení od večerního hluku promenády."
+    },
+    {
+      "name": "Cesta na Šunj (Vnitrozemí)",
+      "bestFor": "Příroda a bližší přístup k písčité pláži",
+      "parking": "Žádné",
+      "beach": "10 až 15 minut chůze na pláž Šunj",
+      "summary": "Centrální zalesněný hřbet ostrova spojuje hlavní vesnici se zálivem Šunj. Ubytování zde je omezeno na roztroušené soukromé domy zasazené mezi borovicemi, které nabízejí více prostoru a soukromí."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Mnichov",
+      "car": "1 040 km, ~11 hodin do přístavu Dubrovník Gruž přes A8, A10 (AT), A1 (HR). Vyžaduje rakouskou dálniční známku, placené tunely, slovinskou dálniční známku, chorvatské mýtné. Přidat 55 minut trajektem na Lopud.",
+      "other": "Přímé lety do Dubrovníku (DBV), poté autobus/taxi do přístavu Gruž a trajekt"
+    },
+    {
+      "from": "Vídeň",
+      "car": "890 km, ~9,5 hodiny do přístavu Gruž přes A2 (AT), A1 (HR). Vyžaduje rakouskou a slovinskou dálniční známku, chorvatské mýtné. Přidat 55 minut trajektem.",
+      "other": "Přímé lety do Dubrovníku (DBV)"
+    },
+    {
+      "from": "Budapešť",
+      "car": "800 km, ~8,5 hodiny do přístavu Gruž přes M7 (HU) a A1 (HR). Vyžaduje maďarskou dálniční známku, chorvatské mýtné. Přidat 55 minut trajektem.",
+      "other": "Sezónní lety do DBV nebo Flixbus do Dubrovníku"
+    },
+    {
+      "from": "Lublaň",
+      "car": "640 km, ~7 hodin do přístavu Gruž přes A2 (SI) a A1 (HR). Vyžaduje slovinskou dálniční známku, chorvatské mýtné. Přidat 55 minut trajektem.",
+      "other": "Přímý autobus na autobusové nádraží v Dubrovníku (sousedící s přístavem Gruž)"
+    },
+    {
+      "from": "Praha",
+      "car": "1 220 km, ~13 hodin do přístavu Gruž přes české, rakouské, slovinské, chorvatské dálnice. Vyžaduje česko, rakousko, slovinskou dálniční známku, chorvatské mýtné. Přidat 55 minut trajektem.",
+      "other": "Přímé sezónní lety do DBV"
+    },
+    {
+      "from": "Krakov",
+      "car": "1 140 km, ~12,5 hodiny do přístavu Gruž přes SK, HU (M3, M7), HR (A1). Vyžaduje slovenskou, maďarskou dálniční známku, chorvatské mýtné. Přidat 55 minut trajektem.",
+      "other": "Přímé sezónní lety do DBV (Ryanair/LOT)"
+    }
+  ],
+  "whenToGo": "Květen nabízí chladnější moře (kolem 19°C) a méně davů, i když některé sezónní podniky na ostrově zůstávají zavřené. Od června do srpna Lopud funguje na plnou kapacitu s teplotami moře dosahujícími 27°C, což přitahuje největší davy na pláž Šunj a zvyšuje ceny ubytování. Září poskytuje rovnováhu teplé vody a klidnějších pěších stezek. Od října do dubna je ostrov většinou v klidu s výrazně omezenými jízdními řády trajektů a zavřenými službami.",
+  "faq": [
+    {
+      "question": "Stojí Lopud za návštěvu?",
+      "answer": "Ano, je vřele doporučován cestovatelům hledajícím prostředí bez vozidel s písčitými plážemi. Ostře kontrastuje s rušnými ulicemi nedalekého Dubrovníku a nabízí mnohem uvolněnější tempo."
+    },
+    {
+      "question": "Kolik dní bych měl strávit na Lopudu?",
+      "answer": "Tři až pět dní je ideální pro klidnou dovolenou u moře. Mnoho návštěvníků také zažije ostrov jako celodenní výlet z Dubrovníku osobním trajektem."
+    },
+    {
+      "question": "Která je nejlepší pláž na ostrově?",
+      "answer": "Pláž Šunj je nejoblíbenější, známá svým jemným pískem a rozsáhlými mělkými vodami. Nachází se na jižní straně ostrova a je přístupná pěšky nebo elektrickým vozíkem z hlavní vesnice."
+    },
+    {
+      "question": "Potřebuji auto na Lopudu?",
+      "answer": "Ne, na Lopud si nemůžete vzít auto. Celý ostrov je bezautový, což znamená, že veškeré objevování probíhá pěšky, na kole nebo místními elektrickými golfovými vozíky."
+    },
+    {
+      "question": "Kde mohu zaparkovat, abych navštívil Lopud?",
+      "answer": "Musíte zaparkovat své vozidlo na pevnině v Dubrovníku. Většina návštěvníků používá placené parkoviště v přístavu Gruž nebo soukromé garáže v okolí před nástupem na osobní trajekt Jadrolinija."
+    },
+    {
+      "question": "Je Lopud vhodný pro rodiny?",
+      "answer": "Ano, ostrov je výjimečně přátelský k rodinám díky úplné absenci automobilové dopravy. Mělké, písčité vody pláže Šunj jsou také zvláště vhodné pro malé děti."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na první pohled",
+    "whereToStay": "Kde se ubytovat na Lopudu",
+    "gettingThere": "Jak se dostat na Lopud",
+    "whenToGo": "Kdy jet",
+    "guides": "Průvodci po Lopudu",
+    "faq": "Často kladené otázky o Lopudu",
+    "groups": {
+      "gettingAround": "Parkování a doprava po ostrově",
+      "planning": "Plánování a kde se ubytovat",
+      "timing": "Kdy jet",
+      "travelers": "Rodiny, páry a styly cestování",
+      "activities": "Pláže a co dělat",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": "Praktické informace"
+    },
+    "car": "Autem",
+    "other": "Jiné možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "lopud",
+  "language": "cz",
+  "updatedAt": "2026-10-16T20:08:50.968Z"
+}

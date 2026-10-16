@@ -1,0 +1,146 @@
+{
+  "title": "Plitvicei-tavak Útmutató: Bejáratok, parkolás és területek",
+  "metaDescription": "Praktikus útmutató a Plitvicei-tavakhoz. Tervezd meg az útvonaladat, találd meg a parkolót, értsd meg a bejáratok elhelyezkedését, és döntsd el, hol szállj meg a park közelében.",
+  "intro": "A Plitvicei-tavak Horvátország legnagyobb és leglátogatottabb nemzeti parkja, amely 16 teraszos taváról ismert, melyeket számos vízesés köt össze. Elsősorban túrázókat, természetjárókat és az országot bejáró autós utazókat vonz.\n\nA látogatás előzetes tervezést igényel, mivel a napi jegyek száma szigorúan korlátozott a belépési időpontok szerint. A park ösvényei zsúfoltak júliusban és augusztusban, ezért május, június, szeptember és október az optimális hónap a kellemes gyaloglási hőmérséklet és a kevesebb tömeg szempontjából. Autó ajánlott a közvetlen parkhatárokon kívüli szállások eléréséhez, bár közvetlen buszjáratok kötik össze a park bejáratait Zágrábbal, Zadarral és Splittel.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Május, június, szeptember, október"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "Nem releváns (Belföldi nemzeti park)"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Zadar (ZAD) 130 km; Zagreb (ZAG) 140 km"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Nem releváns (A tavakban a fürdés szigorúan tilos)"
+    },
+    {
+      "label": "Árszint",
+      "value": "Magas (A főszezoni parkbelépők és a közeli szállodák árai meghaladják az országos átlagot)"
+    },
+    {
+      "label": "Járhatóság",
+      "value": "Nincs hagyományos városközpont; a park ösvényei csak gyalogosok számára vannak fenntartva"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Rastovača (1. számú bejárat közelében)",
+      "bestFor": "Először érkezőknek, akik közvetlen gyalogos hozzáférést szeretnének az Alsó Tavakhoz és a Nagy Vízeséshez.",
+      "parking": "Magánparkoló a vendégházaknál; fizetős nyilvános parkoló az 1. számú bejáratnál.",
+      "beach": "Nem releváns",
+      "summary": "Egy kis vendégházcsoport közvetlenül az 1. számú bejárat északi részén. Az itt megszálló látogatók járművüket a szállásukon hagyhatják, és 10-15 perc alatt besétálhatnak a park bejáratához."
+    },
+    {
+      "name": "Mukinje és Jezerce (2. számú bejárat közelében)",
+      "bestFor": "Azoknak, akik az Felső Tavakat fedeznék fel, vagy állami üzemeltetésű szállodákat keresnek.",
+      "parking": "Szállodai parkoló elérhető; fizetős nyilvános parkoló a 2. számú bejáratnál.",
+      "beach": "Nem releváns",
+      "summary": "Közvetlenül a 2. számú bejárattól délre található ez a terület, ahol több nagy szálloda és magánapartman található. Egy aszfaltozott út köti össze a falut közvetlenül a 2. számú bejárat jegypénztárával és a fő hajókikötővel."
+    },
+    {
+      "name": "Rakovica & Grabovac",
+      "bestFor": "Költségtudatos utazóknak, családoknak és azoknak, akik autóval vagy lakóautóval utaznak.",
+      "parking": "Bőséges ingyenes parkolás üdülőparkokban, kempingekben és vidéki szállodákban.",
+      "beach": "Nem releváns",
+      "summary": "A parktól 8-15 kilométerre északra található a D1-es főút mentén. Ez a terület étkezési lehetőségek szélesebb választékát, nagy üdülőkomplexumokat és általában alacsonyabb árakat kínál, mint a közvetlen parki környezet."
+    },
+    {
+      "name": "Plitvica Selo",
+      "bestFor": "Csendes, exkluzív szállások, amelyek közvetlenül a nemzeti park határain belül találhatók.",
+      "parking": "Saját, helyszíni parkolás; az autózás keskeny parki utakon történik.",
+      "beach": "Nem releváns",
+      "summary": "Egy kis falu közvetlenül a Nagy Vízesés és a Kozjak-tó mellett. Közvetlen gyalogos hozzáférést biztosít az ösvényekhez egy másodlagos bejáraton (3. számú bejárat) keresztül, elkerülve a fő jegysorokat."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "570 km, ~6,5 óra az A8 (DE), A10 (AT), A2 (SI) és D1 (HR) útvonalakon keresztül. Osztrák és szlovén autópálya-matricára, valamint a Tauerntunnel és a horvát autópályák díjára van szükség.",
+      "other": "Közvetlen FlixBus járat a Plitvicei-tavakhoz (kb. 9 óra), vagy repülőút Zágrábba, majd busz."
+    },
+    {
+      "from": "Bécs",
+      "car": "420 km, ~5 óra az A2-n keresztül Grazba, A4 (SI) Maribor felé, A1 (HR) Karlovacig, majd D1. Osztrák és szlovén autópálya-matricára, valamint horvát autópályadíjakra van szükség.",
+      "other": "Közvetlen FlixBus járat a Plitvicei-tavakhoz (kb. 7 óra), vagy vonat/repülő Zágrábba, majd busz."
+    },
+    {
+      "from": "Budapest",
+      "car": "480 km, ~5,5 óra az M7-esen keresztül Horvátországba (A4), Zágrábot elhagyva Karlovacig (A1), majd D1. Magyar e-matricára és horvát autópályadíjakra van szükség.",
+      "other": "Busszal vagy vonattal Zágrábba, majd átszállás egy belföldi buszjáratra a Plitvicei-tavakhoz."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "210 km, ~3 óra az A2-n keresztül Novo Mestóba, határátkelés Karlovac felé, majd D1 délre. Szlovén autópálya-matricára és kisebb horvát díjakra van szükség.",
+      "other": "Busszal vagy vonattal Zágrábba, majd átszállás egy Plitvice felé tartó buszra."
+    },
+    {
+      "from": "Prága",
+      "car": "750 km, ~8,5 óra Brünn, Bécs, Graz és Zágráb érintésével. Cseh, osztrák és szlovén autópálya-matricára, valamint horvát díjakra van szükség.",
+      "other": "Repülővel vagy közvetlen RegioJet busszal/vonattal Zágrábba, majd átszállás egy helyi buszra a parkhoz."
+    },
+    {
+      "from": "Krakkó",
+      "car": "870 km, ~10 óra Szlovákián, Magyarországon (Budapest) és Horvátországon (Zágráb) keresztül. Szlovák és magyar autópálya-matricára, valamint horvát autópályadíjakra van szükség.",
+      "other": "Repülővel Zágrábba (általában Varsón vagy Bécsen keresztül), majd egy 2 órás buszút a parkba."
+    }
+  ],
+  "whenToGo": "Május és szeptember kínálja a legjobb egyensúlyt a mérsékelt tömeg és a kellemes túrázási hőmérsékletek között, jellemzően 15°C és 23°C között. Július és augusztus rendkívül zsúfolt, a nappali hőmérséklet 28°C körül alakul, és főszezoni jegyárak vannak érvényben. A tél havat, fagyos hőmérsékleteket és drasztikusan csökkentett jegyárakat hoz, bár az Felső Tavak, valamint a belső hajó- és vonatjáratok általában novembertől márciusig zárva tartanak. Az úszás egész évben tilos, így a tenger hőmérséklete nem releváns. Tavasszal gyakori az esőzés, ami különösen erőteljessé teszi a vízeséseket.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni?",
+      "answer": "Igen, Horvátország leghíresebb természeti látványossága. A tiszta tavak és vízesések felett húzódó, kiterjedt fapallóhálózat egyedülálló Európában."
+    },
+    {
+      "question": "Hány napra van szükségem?",
+      "answer": "Egy teljes nap elegendő a fő ösvények bejárásához és mind az Felső, mind az Alsó Tavak megtekintéséhez. Ha egy éjszakát a közelben tölt, a park nyitásakor léphet be, még mielőtt a déli buszos túrák megérkeznének."
+    },
+    {
+      "question": "Hol van a legjobb strand?",
+      "answer": "Az úszás szigorúan tilos a Plitvicei-tavak Nemzeti Park bármely részén az ökoszisztéma védelme érdekében. A legközelebbi tengerparti strandok Senjben vagy Zadarban találhatók, mindkettő körülbelül 1,5-2 órás autóútra van."
+    },
+    {
+      "question": "Szükségem van autóra?",
+      "answer": "Nincs szükség autóra a park bejárásához, ha közvetlenül az 1. vagy 2. bejáratnál található szállodában száll meg, mivel a Zágrábból és Zadar felől érkező buszok ott állnak meg. Azonban autó szükséges, ha a környező falvakban, például Rakovicában vagy Korenicában foglal szállást."
+    },
+    {
+      "question": "Hol a legjobb parkolni?",
+      "answer": "A nemzeti park két fő hivatalos, fizetős parkolót (1. számú és 2. számú parkoló) üzemeltet, amelyek a két fő bejáratnak felelnek meg. A parkolás szezononként nagyjából 1-2 euró óránként, és a parkolók nyáron délelőtt közepére gyorsan megtelnek."
+    },
+    {
+      "question": "Alkalmas családoknak?",
+      "answer": "Igen, de jobban megfelel nagyobb gyerekeknek, akik segítség nélkül tudnak több kilométert sétálni. A fapallók gyakran egyenetlenek, sok szakaszon hiányoznak a korlátok, és nem alkalmasak babakocsik számára."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Gyors tények",
+    "whereToStay": "Hol szálljon meg a Plitvicei-tavaknál",
+    "gettingThere": "Utazás a Plitvicei-tavakhoz",
+    "whenToGo": "Mikor érdemes utazni",
+    "guides": "Plitvicei-tavak útmutatók",
+    "faq": "Gyakran Ismételt Kérdések a Plitvicei-tavakról",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor érdemes utazni",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Étel és ital",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Ideális",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "plitvice",
+  "language": "hu",
+  "updatedAt": "2026-10-16T20:17:02.161Z"
+}

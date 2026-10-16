@@ -1,0 +1,146 @@
+{
+  "title": "Karlovac – Przewodnik turystyczny: Plaże, parking i noclegi",
+  "metaDescription": "Zaplanuj swoją podróż do Karlovca, Chorwacja. Odkryj najlepsze dzielnice, trasy dojazdu z Europy, wskazówki dotyczące parkowania, rzeczne plaże i najlepszy czas na wizytę.",
+  "intro": "Karlovac służy jako centralny punkt tranzytowy i cel turystyki aktywnej, położony u zbiegu czterech rzek: Kupy, Korany, Mrežnicy i Dobry. Odwiedzający przybywający z Europy Środkowej często zatrzymują się tu w drodze na wybrzeże Adriatyku lub zostają, aby odkryć otaczającą przyrodę i XVI-wieczną renesansową twierdzę gwiaździstą miasta.\n\nMiasto jest atrakcyjne dla podróżnych szukających pływania w rzekach, kajakarstwa i pieszych wędrówek z dala od nadmorskich tłumów. Leta są ciepłe i idealne do aktywności wodnych, podczas gdy wiosna i jesień oferują chłodniejsze temperatury do zwiedzania Starego Miasta i pobliskich zamków. Zakwaterowanie obejmuje zarówno centralne hotele w zabytkowym centrum, jak i pensjonaty wzdłuż brzegów rzek na obrzeżach.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "Czerwiec do września"
+    },
+    {
+      "label": "Temperatura morza w sierpniu",
+      "value": "N/A – W głębi lądu (rzeka Korana ma ok. 24°C)"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Zagrzeb (ZAG), 60 km"
+    },
+    {
+      "label": "Główny typ plaży",
+      "value": "Plaże rzeczne (trawiaste i brukowane)"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "Poniżej chorwackiej średniej dla wybrzeża"
+    },
+    {
+      "label": "Dostępność piesza",
+      "value": "Stare Miasto (Zvijezda) jest bardzo dostępne pieszo"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Zvijezda (Stare Miasto)",
+      "bestFor": "Odwiedzający po raz pierwszy i miłośnicy historii",
+      "parking": "Płatny parking uliczny, niektóre strefy tylko dla pieszych",
+      "beach": "1,5 km do rzecznej plaży Foginovo",
+      "summary": "Historyczne centrum w kształcie sześcioramiennej gwiazdy mieści główne zabytki, kawiarnie i muzea. Zapewnia łatwy dostęp do udogodnień miejskich i architektury historycznej."
+    },
+    {
+      "name": "Rakovac i nabrzeże rzeki Korana",
+      "bestFor": "Pływacy i rodziny",
+      "parking": "Dedykowane bezpłatne i płatne parkingi w pobliżu hali sportowej",
+      "beach": "0-500 metrów do Foginovo",
+      "summary": "Obszar ten graniczy z rzeką Korana i obejmuje główne strefy rekreacyjne miasta. Odwiedzający zatrzymują się tutaj ze względu na bezpośredni dostęp do plaż rzecznych, ścieżek biegowych i akwarium Aquatika."
+    },
+    {
+      "name": "Dubovac",
+      "bestFor": "Spokojniejszy pobyt i widoki na zamek",
+      "parking": "Bezpłatny parking uliczny szeroko dostępny",
+      "beach": "2,5 km do rzeki Korana",
+      "summary": "Położona na zachód od centrum, ta dzielnica mieszkalna znajduje się pod XIII-wiecznym zamkiem Dubovac. Oferuje cichsze otoczenie, pozostając blisko głównych atrakcji miasta."
+    },
+    {
+      "name": "Duga Resa",
+      "bestFor": "Miłośnicy przyrody i kajakarze",
+      "parking": "Zazwyczaj bezpłatny w pensjonatach i na kempingach",
+      "beach": "Bezpośredni dostęp do plaż rzeki Mrežnicy",
+      "summary": "Położone 10 km na południe od Karlovca, to sąsiednie miasto leży nad rzeką Mrežnica. Jest popularną bazą do uprawiania sportów na świeżym powietrzu i oferuje liczne nadrzeczne kempingi oraz apartamenty."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monachium",
+      "car": "530 km, ~6 godz. przez A10 (Austria) i A2 (Słowenia). Winiety dla Austrii i Słowenii, opłaty drogowe w Chorwacji.",
+      "other": "Dostępny bezpośredni autobus (FlixBus)"
+    },
+    {
+      "from": "Wiedeń",
+      "car": "390 km, ~4,5 godz. przez A2 (Austria) i Maribor. Winiety dla Austrii i Słowenii, opłaty drogowe w Chorwacji.",
+      "other": "Pociąg lub autobus przez Zagrzeb"
+    },
+    {
+      "from": "Budapeszt",
+      "car": "390 km, ~4 godz. przez M7 (Węgry) i A4 (Chorwacja). Winieta dla Węgier, opłaty drogowe w Chorwacji.",
+      "other": "Autobus lub pociąg przez Zagrzeb"
+    },
+    {
+      "from": "Lublana",
+      "car": "110 km, ~1,5 godz. przez A2 do Novo Mesto, następnie Metlika. Winieta wymagana dla Słowenii.",
+      "other": "Bezpośredni pociąg lub autobus"
+    },
+    {
+      "from": "Praga",
+      "car": "720 km, ~8,5 godz. przez Wiedeń i Graz. Winiety dla Czech, Austrii, Słowenii; opłaty drogowe w Chorwacji.",
+      "other": "Lot do Zagrzebia, następnie autobus lub pociąg"
+    },
+    {
+      "from": "Kraków",
+      "car": "820 km, ~9,5 godz. przez Słowację i Węgry. Winiety dla Słowacji, Węgier; opłaty drogowe w Chorwacji.",
+      "other": "Lot do Zagrzebia, następnie autobus"
+    }
+  ],
+  "whenToGo": "Lato (czerwiec do sierpnia) przynosi najcieplejszą pogodę, z dziennymi temperaturami sięgającymi 28-30°C, a rzeka Korana osiąga temperaturę 24°C, idealną do pływania. To najbardziej ruchliwy sezon, choć tłumy pozostają znacznie mniejsze, a ceny niższe niż na wybrzeżu Adriatyku. Większość obiektów rekreacyjnych na świeżym powietrzu, parków wodnych i barów nadrzecznych działa w pełni. Wiosna (kwiecień do maja) i jesień (wrzesień do października) oferują chłodniejsze temperatury dzienne, około 15-20°C, odpowiednie do jazdy na rowerze i zwiedzania zabytków, takich jak zamek Dubovac, choć rzeki są zazwyczaj zbyt zimne do pływania. Zima jest cicha i zimna, niektóre firmy turystyczne zamykają się, ale główne muzea i centralne hotele pozostają otwarte przez cały rok.",
+  "faq": [
+    {
+      "question": "Czy warto odwiedzić Karlovac?",
+      "answer": "Tak, Karlovac jest wart odwiedzenia dla podróżnych zainteresowanych rekreacją rzeczną, historią wojskowości i architekturą renesansową. Stanowi spokojniejszą, budżetową alternatywę dla miast przybrzeżnych, szczególnie dla rodzin i miłośników aktywności na świeżym powietrzu."
+    },
+    {
+      "question": "Ile dni potrzeba na zwiedzanie Karlovca?",
+      "answer": "Jeden do dwóch dni wystarczy, aby zobaczyć główne atrakcje i popływać w rzekach. Dłuższy pobyt, trwający trzy do czterech dni, jest praktyczny, jeśli miasto służy jako baza wypadowa na jednodniowe wycieczki do Jezior Plitwickich lub parku przyrody Žumberak."
+    },
+    {
+      "question": "Która jest najlepsza plaża w Karlovcu?",
+      "answer": "Foginovo nad rzeką Korana to oficjalna i najlepiej wyposażona plaża miasta. Posiada platformy do nurkowania, brukowane tereny do opalania, boisko do piłki wodnej i pobliskie kawiarnie."
+    },
+    {
+      "question": "Czy potrzebuję samochodu w Karlovcu?",
+      "answer": "Samochód nie jest niezbędny do zwiedzania centralnej dzielnicy Zvijezda ani do dotarcia do głównych plaż rzeki Korana. Jednak pojazd jest wysoce zalecany do odwiedzenia rzeki Mrežnica, okolicznych zamków lub Muzeum Wojny Ojczyźnianej w Turanj."
+    },
+    {
+      "question": "Gdzie powinienem zaparkować w Karlovcu?",
+      "answer": "Parking jest zorganizowany w płatne strefy w centrum miasta (Zvijezda), zazwyczaj z wykorzystaniem parkomatów lub płatności SMS. Bezpłatny parking jest dostępny na dużych parkingach w pobliżu Hali Sportowej Karlovac nad rzeką Korana, w niewielkiej odległości od centrum."
+    },
+    {
+      "question": "Czy Karlovac jest dobry dla rodzin?",
+      "answer": "Tak, miasto jest bardzo odpowiednie dla rodzin ze względu na swój płaski teren, rozległe parki i rzeczne kąpieliska. Atrakcje takie jak akwarium słodkowodne Aquatika i wyposażona plaża Foginovo są bezpośrednio skierowane do dzieci."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Gdzie zatrzymać się w Karlovcu",
+    "gettingThere": "Dojazd do Karlovca",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Karlovcu",
+    "faq": "FAQ Karlovac",
+    "groups": {
+      "gettingAround": "Parking i poruszanie się",
+      "planning": "Planowanie i gdzie się zatrzymać",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróżowania",
+      "activities": "Plaże i co robić",
+      "food": "Jedzenie i picie",
+      "comparisons": "Porównania",
+      "practical": "Praktyczne informacje"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "karlovac",
+  "language": "pl",
+  "updatedAt": "2026-10-16T21:07:05.532Z"
+}

@@ -1,0 +1,139 @@
+{
+  "title": "Kornati : Guide de voyage – Excursions en bateau, séjours « Robinson » et îles",
+  "metaDescription": "Planifiez votre voyage aux îles Kornati. Trouvez des informations sur les hébergements « Robinson », les excursions en bateau depuis Murter, les itinéraires routiers, le stationnement et la logistique des îles.",
+  "intro": "L'archipel des Kornati est un groupe dense de 89 îles, îlots et récifs, principalement inhabités, situés en Dalmatie du Nord, et protégés en tant que parc national. Le paysage est caractérisé par un terrain aride et rocheux, des falaises abruptes faisant face à la mer ouverte, et des eaux claires et profondes. Il attire principalement les marins, les plongeurs et les visiteurs à la recherche de vacances isolées de style « Robinson Crusoé » dans des cottages en pierre autonomes.\n\nL'accès aux îles se fait strictement par bateau, sans voitures ni ferries circulant à l'intérieur des limites du parc national. La plupart des voyageurs atteignent les Kornati via des excursions d'une journée organisées ou des charters privés au départ de la ville de Murter, porte d'entrée continentale. La principale saison touristique s'étend de juin à septembre, lorsque les tavernes de fruits de mer saisonnières ouvrent et que le temps est suffisamment stable pour une navigation sûre.",
+  "quickFacts": [
+    {
+      "label": "Meilleurs mois",
+      "value": "Juin à septembre"
+    },
+    {
+      "label": "Température de la mer en août",
+      "value": "24°C - 26°C"
+    },
+    {
+      "label": "Aéroport le plus proche",
+      "value": "Zadar (ZAD), 65 km jusqu'à la porte d'entrée de Murter"
+    },
+    {
+      "label": "Type de plage principal",
+      "value": "Dalles rocheuses et galets"
+    },
+    {
+      "label": "Niveau de prix",
+      "value": "Plus élevé que la moyenne continentale"
+    },
+    {
+      "label": "Sans voiture",
+      "value": "100% sans voiture ; accessible uniquement par bateau"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Ville de Murter (Porte d'entrée continentale)",
+      "bestFor": "Familles, conducteurs et réservation d'excursions à la journée",
+      "parking": "Parkings publics payants et parkings privés longue durée",
+      "beach": "Sable et galets (Slanica) à proximité",
+      "summary": "Reliée au continent par un pont, Murter est le siège administratif du parc national. Elle offre des commodités touristiques standards et constitue le principal point de départ pour les excursions en bateau aux Kornati."
+    },
+    {
+      "name": "Île de Kornat (Vrulje & Tarac)",
+      "bestFor": "Séjours « Robinson Crusoé » hors réseau et calme absolu",
+      "parking": "Voitures interdites ; stationnement sur le continent obligatoire",
+      "beach": "Littoraux rocheux et jetées en pierre privées",
+      "summary": "La plus grande île de l'archipel propose des maisons en pierre isolées sans électricité ni eau courante. Les visiteurs dépendent de l'énergie solaire, des citernes et des bateaux de ravitaillement."
+    },
+    {
+      "name": "Île de Žut",
+      "bestFor": "Marins et équipages de yachts",
+      "parking": "Voitures interdites",
+      "beach": "Majoritairement des criques rocheuses et des mouillages en béton",
+      "summary": "Située juste en dehors des limites strictes du parc national, Žut abrite une marina ACI, quelques restaurants saisonniers et des mouillages sûrs. Elle offre une escale de nuit légèrement plus développée pour les visiteurs nautiques."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Munich",
+      "car": "785 km jusqu'à Murter, 8,5 heures via A8, A10 et A1. Nécessite la vignette autrichienne, le péage des Karawanken, la vignette slovène et les péages croates.",
+      "other": "Vol pour Zadar, puis bus ou taxi jusqu'à Murter."
+    },
+    {
+      "from": "Vienne",
+      "car": "685 km jusqu'à Murter, 7 heures via A2, A1/A4 slovène et A1 croate. Nécessite les vignettes autrichienne et slovène, plus les péages croates.",
+      "other": "Vol pour Zadar, ou bus direct pour Biograd/Zadar."
+    },
+    {
+      "from": "Budapest",
+      "car": "660 km jusqu'à Murter, 6,5 heures via M7 et A4/A1 croate. Nécessite la vignette hongroise et les péages croates.",
+      "other": "Bus direct ou train de nuit pour Split, avec correspondance pour les transports locaux."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "395 km jusqu'à Murter, 4,5 heures via A2 et A1 croate. Nécessite la vignette slovène et les péages croates.",
+      "other": "Bus direct pour Zadar ou Biograd na Moru."
+    },
+    {
+      "from": "Prague",
+      "car": "1015 km jusqu'à Murter, 10,5 heures via l'Autriche, la Slovénie et la Croatie. Nécessite les vignettes autrichienne et slovène, plus les péages croates.",
+      "other": "Vol pour Zadar, ou train RegioJet pour Split."
+    },
+    {
+      "from": "Cracovie",
+      "car": "1060 km jusqu'à Murter, 11 heures via la Slovaquie, la Hongrie et la Croatie. Nécessite les vignettes slovaque et hongroise, plus les péages croates.",
+      "other": "Vol pour Zadar."
+    }
+  ],
+  "whenToGo": "Les îles Kornati fonctionnent sur une base strictement saisonnière. De juin à septembre, les températures de la mer varient entre 24°C et 26°C, ce qui les rend propices à la baignade et à la plongée avec tuba. Pendant ces mois, les konobas (tavernes) isolées et la marina de Žut sont ouvertes. Juillet et août connaissent le plus grand volume de trafic nautique et les prix les plus élevés pour les locations de bateaux et les maisons « Robinson ». En dehors de cette période, principalement d'octobre à avril, l'archipel est presque entièrement désert, la plupart des installations ferment et des vents imprévisibles rendent l'accès en bateau peu fiable.",
+  "faq": [
+    {
+      "question": "Vaut-il la peine de visiter ?",
+      "answer": "Oui, pour les visiteurs qui privilégient la nature brute, la voile et la baignade en eau claire. Il manque d'installations de villégiature typiques, mais offre une excellente isolation et des paysages marins distincts."
+    },
+    {
+      "question": "Combien de jours sont nécessaires ?",
+      "answer": "Une seule journée est suffisante pour une excursion en bateau organisée depuis Murter ou Zadar. Pour ceux qui louent une maison « Robinson » ou font de la voile, trois à sept jours permettent d'explorer différentes baies."
+    },
+    {
+      "question": "Quelle est la meilleure plage ?",
+      "answer": "Lojena, sur l'île de Levrnaka, est la plage la plus célèbre du parc national. Elle présente un fond sablonneux et un rivage de galets blancs, bien qu'elle soit très fréquentée par les bateaux d'excursion en milieu de journée."
+    },
+    {
+      "question": "Ai-je besoin d'une voiture ?",
+      "answer": "Les voitures sont strictement interdites et physiquement impossibles à introduire dans le parc national. L'accès se fait exclusivement par bateau privé, bateau affrété ou excursion organisée."
+    },
+    {
+      "question": "Où puis-je me garer ?",
+      "answer": "Les visiteurs doivent laisser leur véhicule sur le continent. Murter, Biograd na Moru et Zadar proposent des parkings sécurisés et longue durée près des marinas pour ceux qui font des excursions en bateau de plusieurs jours."
+    },
+    {
+      "question": "Est-ce adapté aux familles ?",
+      "answer": "C'est adapté aux familles avec des enfants plus âgés qui sont à l'aise sur les bateaux et sont de bons nageurs. Le manque d'ombre, de plages de sable et d'installations médicales le rend difficile pour les nourrissons ou les tout-petits."
+    }
+  ],
+  "headings": {
+    "quickFacts": "En un coup d'œil",
+    "whereToStay": "Où séjourner aux Kornati",
+    "gettingThere": "Se rendre aux Kornati",
+    "whenToGo": "Quand partir",
+    "guides": "Guides des Kornati",
+    "faq": "FAQ des Kornati",
+    "groups": {
+      "gettingAround": "Parking et se déplacer",
+      "planning": "Planification et hébergement",
+      "timing": "Quand partir",
+      "travelers": "Familles, couples et styles de voyage",
+      "activities": "Plages et activités",
+      "food": "Nourriture et boissons",
+      "comparisons": "Comparaisons",
+      "practical": "Infos pratiques"
+    },
+    "car": "En voiture",
+    "other": "Autres options",
+    "bestFor": "Idéal pour",
+    "parking": "Parking",
+    "beach": "Plage"
+  },
+  "destination": "kornati",
+  "language": "fr",
+  "updatedAt": "2026-10-16T20:33:42.462Z"
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Slano Przewodnik: Plaże, parking i noclegi",
+  "metaDescription": "Zaplanuj swoją podróż do Slano, Chorwacja. Znajdź aktualne informacje o najlepszych plażach, trasach dojazdu z Europy, parkingach i noclegach w okolicy zatoki.",
+  "intro": "Slano to spokojna nadmorska wioska położona w głębokiej, osłoniętej zatoce południowej Dalmacji, idealnie nadająca się dla rodzin i par szukających spokojnej alternatywy dla pobliskiego Dubrownika. Dzięki spokojnym, płytkim wodom i żwirowym plażom, obszar ten jest idealny na relaksujące śródziemnomorskie wakacje, gdzie głównym celem jest pływanie, jedzenie i odpoczynek.\n\nMiesiące letnie między czerwcem a wrześniem oferują najlepszą pogodę i najcieplejsze temperatury morza, choć maj i październik są przyjemne do aktywnego zwiedzania bez szczytu turystów. Odwiedzający zazwyczaj spędzają dni, relaksując się na plażach Grgurići lub Banja, spacerując po nadmorskiej promenadzie lub wykorzystując miasto jako strategiczną bazę do zwiedzania półwyspu Pelješac i Dubrownika.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "Czerwiec do września"
+    },
+    {
+      "label": "Temperatura morza w sierpniu",
+      "value": "25°C do 27°C"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Dubrovnik (DBV), 52 km"
+    },
+    {
+      "label": "Główny typ plaży",
+      "value": "Żwirkowe i betonowe tarasy"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "Średni dla Dalmacji, taniej niż w Dubrowniku"
+    },
+    {
+      "label": "Dostępność dla pieszych",
+      "value": "Promenada nadmorska dostępna dla pieszych, ale nie wolna od samochodów"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Slano Centre & Banja",
+      "bestFor": "Żeglarze i dogodny dostęp do udogodnień",
+      "parking": "Dostępne publiczne parkingi płatne",
+      "beach": "Krótki spacer do plaży Banja (żwirowa/płytka)",
+      "summary": "To centrum wioski, obejmujące wschodnią stronę zatoki. Znajduje się tu ACI Marina, główne supermarkety i wybór lokalnych restauracji."
+    },
+    {
+      "name": "Grgurići",
+      "bestFor": "Rodziny i miłośnicy plażowania",
+      "parking": "Ograniczony parking uliczny, głównie parkingi hotelowe",
+      "beach": "Bezpośredni dostęp do plaży Grgurići (główna plaża żwirowa)",
+      "summary": "Położona po zachodniej stronie zatoki, ta okolica mieści większe hotele resortowe. Oferuje najpopularniejsze udogodnienia plażowe i wypożyczalnie sportów wodnych w wiosce."
+    },
+    {
+      "name": "Slađenovići & Kručica",
+      "bestFor": "Pary i osoby szukające spokojnego wypoczynku",
+      "parking": "Standardem jest prywatny parking przy willach",
+      "beach": "Pobliskie skaliste i żwirowe zatoczki",
+      "summary": "Te spokojniejsze przysiółki leżą na północny zachód od Slano, wzdłuż wybrzeża. Oferują zaciszne miejsca do pływania i tradycyjne kamienne domy z dala od głównego ruchu turystycznego."
+    },
+    {
+      "name": "Banići",
+      "bestFor": "Miłośnicy natury i osoby podróżujące z ograniczonym budżetem",
+      "parking": "Łatwy prywatny parking przy obiektach noclegowych",
+      "beach": "Krótki dojazd do plaży Budima",
+      "summary": "Wiejska wioska położona nieco w głąb lądu i wzdłuż pobliskiego wybrzeża. Oferuje bardziej przystępne cenowo apartamenty, jednocześnie będąc w krótkiej odległości samochodem od głównych atrakcji Slano."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monachium",
+      "car": "950 km, ok. 10 godzin przez A8, A10, A2 do A1 (Chorwacja) i D8. Austriacka winieta, opłata za tunel Karawanken, słoweńska winieta, chorwackie opłaty drogowe.",
+      "other": "Bezpośredni lot do Dubrownika (DBV), następnie transfer lotniskowy lub lokalny autobus."
+    },
+    {
+      "from": "Wiedeń",
+      "car": "800 km, ok. 8,5 godziny przez A2 do A1 (Chorwacja) i D8. Austriacka winieta, słoweńska winieta, chorwackie opłaty drogowe.",
+      "other": "Bezpośredni lot do Dubrownika (DBV), następnie transfer lotniskowy."
+    },
+    {
+      "from": "Budapeszt",
+      "car": "760 km, ok. 8 godzin przez M7 do A4 i A1 (Chorwacja) i D8. Węgierska winieta, chorwackie opłaty drogowe.",
+      "other": "Bezpośredni lot lub bezpośredni autobus dalekobieżny do Dubrownika."
+    },
+    {
+      "from": "Lublana",
+      "car": "600 km, ok. 6,5 godziny przez A2 do A1 (Chorwacja) i D8. Słoweńska winieta, chorwackie opłaty drogowe.",
+      "other": "Autobus do Dubrownika lub sezonowy lot do DBV."
+    },
+    {
+      "from": "Praga",
+      "car": "1100 km, ok. 11-12 godzin przez Wiedeń, Graz, A1 (Chorwacja) i D8. Czeska, austriacka, słoweńska winieta, chorwackie opłaty drogowe.",
+      "other": "Bezpośredni lot do Dubrownika (DBV), następnie transfer lotniskowy."
+    },
+    {
+      "from": "Kraków",
+      "car": "1150 km, ok. 12-13 godzin przez Słowację, Węgry (M15/M86), A1 (Chorwacja) i D8. Polskie opłaty drogowe, słowacka/węgierska winieta, chorwackie opłaty drogowe.",
+      "other": "Bezpośredni lot do Dubrownika (DBV), następnie transfer lotniskowy."
+    }
+  ],
+  "whenToGo": "Najlepszy czas na wizytę w Slano to okres od czerwca do września, kiedy wszystkie udogodnienia są otwarte, a temperatura morza osiąga komfortowe 25°C do 27°C. Lipiec i sierpień to miesiące szczytowe, przynoszące największe tłumy i najwyższe ceny, ale osłonięta zatoka rzadko wydaje się tak przepełniona jak większe dalmatyńskie kurorty. Maj i październik oferują chłodniejszą pogodę, idealną do wędrówek i zwiedzania pobliskiego Dubrownika bez uciążliwych upałów, choć morze jest wyraźnie chłodniejsze, a niektóre lokalne restauracje lub wypożyczalnie sprzętu plażowego mogą być zamknięte.",
+  "faq": [
+    {
+      "question": "Czy warto odwiedzić Slano?",
+      "answer": "Tak, Slano warto odwiedzić dla spokojnego, relaksującego wypoczynku. Oferuje wolniejsze tempo, osłonięte plaże i łatwy dostęp zarówno do Dubrownika, jak i półwyspu Pelješac."
+    },
+    {
+      "question": "Ile dni powinienem zostać w Slano?",
+      "answer": "Pobyt od 3 do 5 dni jest idealny, aby cieszyć się lokalnymi plażami i restauracjami. Jeśli planujesz jednodniowe wycieczki do Dubrownika, Korčuli lub Mostaru, zaleca się pełny tydzień."
+    },
+    {
+      "question": "Jaka jest najlepsza plaża w Slano?",
+      "answer": "Plaża Grgurići po zachodniej stronie zatoki jest najpopularniejsza, charakteryzuje się czystymi kamieniami, płytką wodą i udogodnieniami plażowymi. Plaża Banja po wschodniej stronie jest również doskonała i bardzo spokojna."
+    },
+    {
+      "question": "Czy potrzebuję samochodu w Slano?",
+      "answer": "Chociaż nie potrzebujesz samochodu, aby poruszać się po samej wiosce, posiadanie go jest wysoce zalecane. Pojazd pozwala na łatwe odbywanie jednodniowych wycieczek, odwiedzanie zacisznych zatoczek i jazdę do Dubrownika według własnego harmonogramu."
+    },
+    {
+      "question": "Gdzie mogę zaparkować w Slano?",
+      "answer": "W pobliżu ACI Mariny i centrum wioski znajdują się publiczne parkingi płatne. Większość hoteli, willi i apartamentów zapewnia prywatne miejsca parkingowe dla swoich gości."
+    },
+    {
+      "question": "Czy Slano jest dobre dla rodzin?",
+      "answer": "Tak, Slano to doskonałe miejsce dla rodzin. Głęboka zatoka chroni główne plaże przed silnymi falami, co sprawia, że płytkie wody są bardzo bezpieczne do pływania dla małych dzieci."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Gdzie zatrzymać się w Slano",
+    "gettingThere": "Dojazd do Slano",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Slano",
+    "faq": "Slano: Najczęściej zadawane pytania",
+    "groups": {
+      "gettingAround": "Parking i poruszanie się",
+      "planning": "Planowanie i gdzie się zatrzymać",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróżowania",
+      "activities": "Plaże i co robić",
+      "food": "Jedzenie i napoje",
+      "comparisons": "Porównania",
+      "practical": "Praktyczne informacje"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "slano",
+  "language": "pl",
+  "updatedAt": "2026-10-16T20:01:26.727Z"
+}

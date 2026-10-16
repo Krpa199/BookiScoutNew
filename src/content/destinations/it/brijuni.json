@@ -1,0 +1,146 @@
+{
+  "title": "Brioni Guida di viaggio: Hotel, Traghetto e Info Parco Nazionale",
+  "metaDescription": "Pianifica un viaggio al Parco Nazionale di Brioni. Guida agli hotel a Veliki Brijun, soggiornare a Fažana, orari dei traghetti, parcheggio e come arrivare dall'Europa centrale.",
+  "intro": "Brioni è un arcipelago e parco nazionale al largo della costa occidentale dell'Istria, accessibile tramite un traghetto di 15 minuti dalla città continentale di Fažana. Attira i viaggiatori interessati alla natura, alle rovine romane e a un ambiente tranquillo e senza auto. L'isola principale, Veliki Brijun, ospita le limitate strutture ricettive del parco e le principali attrazioni, tra cui un parco safari all'aperto, ulivi millenari e impronte di dinosauri.\n\nVisitare è più pratico da maggio a settembre, quando gli orari dei traghetti sono frequenti e le strutture del parco operano a pieno regime. Poiché i veicoli non sono ammessi sulle isole, i visitatori devono parcheggiare a Fažana e spostarsi a piedi, con biciclette a noleggio o golf cart elettrici per esplorare Veliki Brijun. Chi privilegia il budget o le gite giornaliere sulla terraferma di solito soggiorna a Fažana o nei vicini villaggi costieri.",
+  "quickFacts": [
+    {
+      "label": "Mesi migliori",
+      "value": "Giugno a settembre"
+    },
+    {
+      "label": "Temperatura del mare ad agosto",
+      "value": "25°C - 26°C"
+    },
+    {
+      "label": "Aeroporto più vicino",
+      "value": "Pula (PUY), a 13 km dal traghetto di Fažana"
+    },
+    {
+      "label": "Tipo di spiaggia principale",
+      "value": "Spiaggia di ciottoli e rocciosa con piattaforme in cemento"
+    },
+    {
+      "label": "Livello di prezzo",
+      "value": "Superiore alla media croata"
+    },
+    {
+      "label": "Stato senza auto",
+      "value": "Le isole sono rigorosamente senza auto (veicoli lasciati a Fažana)"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Veliki Brijun (L'Isola)",
+      "bestFor": "Visitatori che desiderano soggiornare all'interno del parco nazionale",
+      "parking": "Nessuna auto ammessa; parcheggio a pagamento a Fažana",
+      "beach": "Spiagge rocciose e di ciottoli (Spiaggia Saluga) raggiungibili a piedi",
+      "summary": "Soggiornare direttamente sull'isola principale richiede la prenotazione di uno dei pochi hotel o ville gestiti dallo stato vicino al porto. L'area è completamente pedonale, eccezionalmente tranquilla dopo che i visitatori giornalieri se ne vanno e offre accesso immediato ai sentieri e ai siti storici del parco."
+    },
+    {
+      "name": "Fažana",
+      "bestFor": "Base per gite giornaliere in traghetto, viaggiatori che necessitano di accesso veicolare",
+      "parking": "Parcheggi pubblici a pagamento e parcheggi privati di hotel",
+      "beach": "Spiagge di ciottoli (San Lorenzo, Bi Val) lungo la costa della città",
+      "summary": "Questa città costiera della terraferma è la porta ufficiale del Parco Nazionale di Brioni. Offre una vasta gamma di appartamenti privati, ristoranti e accesso diretto al traghetto passeggeri, rendendola pratica per chi esplora la più ampia penisola istriana."
+    },
+    {
+      "name": "Peroj",
+      "bestFor": "Viaggiatori attenti al budget e famiglie",
+      "parking": "Principalmente parcheggio gratuito presso alloggi privati",
+      "beach": "Lunghi tratti di spiaggia di ciottoli a 1-2 km dal centro",
+      "summary": "Situato a pochi chilometri a nord di Fažana, Peroj è un villaggio residenziale più tranquillo. Offre un'alternativa più economica a Fažana pur rimanendo abbastanza vicino per un breve tragitto in auto o in bicicletta fino al terminal dei traghetti per Brioni."
+    },
+    {
+      "name": "Pola (Štinjan)",
+      "bestFor": "Viaggiatori che desiderano servizi cittadini e vicinanza al parco",
+      "parking": "Disponibile presso campeggi e affitti privati",
+      "beach": "Cale di ciottoli (Hidrobaza) di fronte all'arcipelago di Brioni",
+      "summary": "Il quartiere di Štinjan si trova direttamente di fronte alle isole Brioni, a sud di Fažana. Questa zona combina un facile accesso ai siti storici di Pola con una vista diretta sul parco nazionale."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monaco",
+      "car": "560 km, 6-7 ore. A8 per Salisburgo, A10 (tunnel del Tauern), Slovenia A1 per Capodistria, Croazia A9 per Dignano/Fažana. Richiede vignette austriache e slovene, pedaggi per il tunnel e pedaggi croati.",
+      "other": "Voli diretti stagionali per Pola, o FlixBus notturno per Pola seguito da un autobus locale per Fažana."
+    },
+    {
+      "from": "Vienna",
+      "car": "580 km, 6 ore. A2 sud via Graz, in Slovenia (Maribor, Lubiana, Capodistria), poi Croazia A9 per Fažana. Richiede vignette austriache e slovene e pedaggi croati.",
+      "other": "Voli diretti (Austrian Airlines, Ryanair) per Pola, o autobus diretto per Pola."
+    },
+    {
+      "from": "Budapest",
+      "car": "600 km, 6-7 ore. M7 fino al confine croato, A4 per Zagabria, A6 per Fiume, poi A8/A9 attraverso l'Istria. Richiede vignetta ungherese e pedaggi croati.",
+      "other": "Autobus diretto (FlixBus) per Pola, o treno per Zagabria con coincidenza per un autobus per Pola."
+    },
+    {
+      "from": "Lubiana",
+      "car": "200 km, 2,5 ore. Autostrada A1 verso Capodistria, attraversamento del confine a Dragogna, poi Croazia A9 fino all'uscita Dignano. Richiede vignetta slovena e pedaggi croati.",
+      "other": "Autobus diretto o collegamento ferroviario stagionale per Pola."
+    },
+    {
+      "from": "Praga",
+      "car": "880 km, 9,5 ore. D1 per Brno, Austria A5/A2 via Vienna e Graz, Slovenia A1, Croazia A9. Richiede vignette ceche, austriache e slovene, più pedaggi croati.",
+      "other": "Voli diretti stagionali per Pola, o FlixBus diretto per Pola."
+    },
+    {
+      "from": "Cracovia",
+      "car": "1.030 km, 11 ore. A4 per Katowice, Repubblica Ceca A1 per Brno, Austria A5/A2 per Graz, Slovenia A1 per Capodistria, Croazia A9. Richiede vignette per CZ, AT, SI e pedaggi in HR.",
+      "other": "Volo per Pola con scalo (es. via LOT), o autobus a lunga percorrenza per Pola."
+    }
+  ],
+  "whenToGo": "L'arcipelago di Brioni è aperto tutto l'anno, ma i servizi per i visitatori sono altamente stagionali. Da maggio a settembre si trova il clima migliore per nuotare, con temperature del mare ad agosto che raggiungono i 26°C. Luglio e agosto sono i mesi più affollati e costosi, richiedendo la prenotazione anticipata sia per i biglietti del traghetto che per gli hotel sull'isola. Nei mesi di spalla di maggio, giugno e settembre, i prezzi scendono leggermente e il tempo rimane abbastanza caldo per le attività all'aperto. Da novembre a marzo, il traghetto opera con un orario ridotto, la maggior parte degli hotel sull'isola chiude e le visite guidate sono meno frequenti, sebbene il parco rimanga accessibile per passeggiate invernali.",
+  "faq": [
+    {
+      "question": "Vale la pena visitare Brioni?",
+      "answer": "Sì, ne vale la pena per coloro che sono interessati a un mix di natura, storia romana e un ambiente tranquillo e senza auto. Le gite di un giorno offrono tempo sufficiente per vedere le principali attrazioni tramite il trenino turistico, mentre i pernottamenti attirano i viaggiatori in cerca di isolamento dopo la partenza dell'ultimo traghetto."
+    },
+    {
+      "question": "Quanti giorni dovrei trascorrere a Brioni?",
+      "answer": "Un singolo giorno intero è sufficiente per vedere le principali attrazioni di Veliki Brijun, inclusi il parco safari, le impronte di dinosauri e la villa romana. I visitatori che scelgono di soggiornare sull'isola di solito prenotano 2 o 3 notti per rilassarsi e percorrere i numerosi sentieri in bicicletta."
+    },
+    {
+      "question": "Qual è la migliore spiaggia di Brioni?",
+      "answer": "La Spiaggia Saluga è la spiaggia principale e più accessibile di Veliki Brijun, caratterizzata da un fondale sabbioso, coste di ciottoli e aree ombreggiate da pini. È attrezzata con lettini, docce e un ristorante, rendendola pratica per le famiglie."
+    },
+    {
+      "question": "Ho bisogno di un'auto a Brioni?",
+      "answer": "No, le auto sono severamente proibite ai visitatori sulle isole Brioni. Devi parcheggiare il tuo veicolo sulla terraferma a Fažana e utilizzare il traghetto passeggeri; sull'isola, ci si sposta a piedi, in bicicletta o noleggiando un golf cart elettrico."
+    },
+    {
+      "question": "Dove dovrei parcheggiare per visitare Brioni?",
+      "answer": "I visitatori devono parcheggiare nella città continentale di Fažana. Ci sono numerosi parcheggi pubblici municipali all'aperto vicino al terminal dei traghetti, che applicano tariffe orarie o giornaliere, oltre ad alcuni parcheggi privati a pochi passi dal porto."
+    },
+    {
+      "question": "Brioni è adatta alle famiglie?",
+      "answer": "Sì, Brioni è molto adatta alle famiglie grazie all'assenza di traffico automobilistico e alla presenza di piste ciclabili pianeggianti. I bambini di solito apprezzano il parco safari all'aperto, le impronte di dinosauri e il giro sul trenino turistico che circonda l'isola."
+    }
+  ],
+  "headings": {
+    "quickFacts": "In breve",
+    "whereToStay": "Dove soggiornare a Brioni",
+    "gettingThere": "Come arrivare a Brioni",
+    "whenToGo": "Quando andare",
+    "guides": "Guide di Brioni",
+    "faq": "FAQ Brioni",
+    "groups": {
+      "gettingAround": "Parcheggio e come muoversi",
+      "planning": "Pianificazione e dove soggiornare",
+      "timing": "Quando andare",
+      "travelers": "Famiglie, coppie e stili di viaggio",
+      "activities": "Spiagge e cose da fare",
+      "food": "Cibo e bevande",
+      "comparisons": "Confronti",
+      "practical": "Info pratiche"
+    },
+    "car": "In auto",
+    "other": "Altre opzioni",
+    "bestFor": "Ideale per",
+    "parking": "Parcheggio",
+    "beach": "Spiaggia"
+  },
+  "destination": "brijuni",
+  "language": "it",
+  "updatedAt": "2026-10-16T20:39:08.558Z"
+}

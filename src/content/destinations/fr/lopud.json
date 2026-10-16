@@ -1,0 +1,139 @@
+{
+  "title": "Lopud : Guide de voyage – Plages, Ferries et Où loger",
+  "metaDescription": "Préparez un voyage sur l'île de Lopud, sans voiture, en Croatie. Trouvez des informations pratiques sur les liaisons par ferry depuis Dubrovnik, le stationnement et les zones d'hébergement.",
+  "intro": "Lopud est une petite île entièrement sans voiture de l'archipel des Elaphites, située à environ une heure en ferry passagers de Dubrovnik. Elle convient aux voyageurs à la recherche d'un environnement méditerranéen au rythme lent, axé sur la marche, la natation et les soirées tranquilles, loin de la circulation intense du continent. Le paysage se compose de promenades côtières, d'oliveraies et de ruines historiques.\n\nL'activité de l'île est centrée autour d'un village portuaire principal d'un côté et de l'étendue de sable de la plage de Šunj sur la côte opposée, reliés par un sentier boisé de 25 minutes à pied. La saison touristique principale s'étend de fin mai à septembre, période où des liaisons régulières par ferry sont assurées depuis le port de Gruž à Dubrovnik et où tous les restaurants, hôtels et installations de plage locaux sont pleinement opérationnels.",
+  "quickFacts": [
+    {
+      "label": "Meilleurs mois",
+      "value": "Juin à septembre"
+    },
+    {
+      "label": "Température de la mer en août",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Aéroport le plus proche",
+      "value": "Dubrovnik (DBV), 22 km du port de Gruž + 55 min de ferry"
+    },
+    {
+      "label": "Type de plage principal",
+      "value": "Sable fin (Šunj) et galets/béton (village principal)"
+    },
+    {
+      "label": "Niveau de prix",
+      "value": "15-20% au-dessus de la moyenne croate"
+    },
+    {
+      "label": "Facilité de marche",
+      "value": "100% sans voiture et très propice à la marche"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Front de mer et Port de Lopud",
+      "bestFor": "Commodité, restauration et accès au ferry",
+      "parking": "Aucun (laisser la voiture à Dubrovnik)",
+      "beach": "Accès direct aux zones de baignade de galets et de béton",
+      "summary": "C'est le principal village de l'île où accoste le ferry. Il présente la plus forte concentration d'hôtels, de cafés et de sites historiques le long d'une promenade côtière plate."
+    },
+    {
+      "name": "Colline du village de Lopud",
+      "bestFor": "Appartements plus calmes avec vue sur la mer",
+      "parking": "Aucun",
+      "beach": "5 à 10 minutes à pied jusqu'au front de mer",
+      "summary": "Située légèrement en hauteur derrière la promenade principale, cette zone propose des appartements privés et des maisons d'hôtes. Elle implique de monter des marches en pierre mais offre de meilleures vues et une séparation du bruit de la promenade en soirée."
+    },
+    {
+      "name": "Sentier vers Šunj (Intérieur)",
+      "bestFor": "Nature et accès plus proche à la plage de sable",
+      "parking": "Aucun",
+      "beach": "10 à 15 minutes à pied de la plage de Šunj",
+      "summary": "La colonne vertébrale forestière centrale de l'île relie le village principal à la baie de Šunj. L'hébergement ici est limité à des maisons privées dispersées au milieu des pins, offrant plus d'espace et d'intimité."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Munich",
+      "car": "1 040 km, ~11 heures jusqu'au port de Gruž à Dubrovnik via A8, A10 (AT), A1 (HR). Nécessite la vignette AT, les tunnels à péage, la vignette SI, les péages HR. Ajouter 55 min de ferry jusqu'à Lopud.",
+      "other": "Vols directs vers Dubrovnik (DBV), puis bus/taxi vers le port de Gruž et ferry"
+    },
+    {
+      "from": "Vienne",
+      "car": "890 km, ~9,5 heures jusqu'au port de Gruž via A2 (AT), A1 (HR). Nécessite les vignettes AT et SI, les péages HR. Ajouter 55 min de ferry.",
+      "other": "Vols directs vers Dubrovnik (DBV)"
+    },
+    {
+      "from": "Budapest",
+      "car": "800 km, ~8,5 heures jusqu'au port de Gruž via M7 (HU) et A1 (HR). Nécessite la vignette HU, les péages HR. Ajouter 55 min de ferry.",
+      "other": "Vols saisonniers vers DBV ou Flixbus vers Dubrovnik"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "640 km, ~7 heures jusqu'au port de Gruž via A2 (SI) et A1 (HR). Nécessite la vignette SI, les péages HR. Ajouter 55 min de ferry.",
+      "other": "Bus direct vers la gare routière de Dubrovnik (adjacente au port de Gruž)"
+    },
+    {
+      "from": "Prague",
+      "car": "1 220 km, ~13 heures jusqu'au port de Gruž via les autoroutes CZ, AT, SI, HR. Nécessite les vignettes CZ, AT, SI, les péages HR. Ajouter 55 min de ferry.",
+      "other": "Vols saisonniers directs vers DBV"
+    },
+    {
+      "from": "Cracovie",
+      "car": "1 140 km, ~12,5 heures jusqu'au port de Gruž via SK, HU (M3, M7), HR (A1). Nécessite les vignettes SK, HU, les péages HR. Ajouter 55 min de ferry.",
+      "other": "Vols saisonniers directs vers DBV (Ryanair/LOT)"
+    }
+  ],
+  "whenToGo": "Mai offre des mers plus fraîches (environ 19°C) et moins de monde, bien que certaines entreprises saisonnières sur l'île restent fermées. De juin à août, Lopud fonctionne à pleine capacité avec des températures de la mer atteignant 27°C, attirant des foules record sur la plage de Šunj et faisant grimper les prix des hébergements. Septembre offre un équilibre entre eau chaude et sentiers de randonnée plus calmes. D'octobre à avril, l'île est principalement dormante avec des horaires de ferry fortement réduits et des équipements fermés.",
+  "faq": [
+    {
+      "question": "Lopud vaut-il la peine d'être visitée ?",
+      "answer": "Oui, elle est fortement recommandée aux voyageurs recherchant un environnement sans véhicules avec des plages de sable. Elle contraste fortement avec les rues animées de Dubrovnik, offrant un rythme beaucoup plus détendu."
+    },
+    {
+      "question": "Combien de jours devrais-je passer à Lopud ?",
+      "answer": "Trois à cinq jours sont idéaux pour des vacances tranquilles à la plage. De nombreux visiteurs découvrent également l'île lors d'une excursion d'une journée complète depuis Dubrovnik via le ferry passagers."
+    },
+    {
+      "question": "Quelle est la meilleure plage de l'île ?",
+      "answer": "La plage de Šunj est la plus populaire, connue pour son sable fin et ses eaux peu profondes et étendues. Elle est située sur le côté sud de l'île et est accessible à pied ou en buggy électrique depuis le village principal."
+    },
+    {
+      "question": "Ai-je besoin d'une voiture à Lopud ?",
+      "answer": "Non, vous ne pouvez pas apporter de voiture à Lopud. L'île entière est sans voiture, ce qui signifie que toute exploration se fait à pied, à vélo ou via des voiturettes de golf électriques locales."
+    },
+    {
+      "question": "Où puis-je me garer pour visiter Lopud ?",
+      "answer": "Vous devez garer votre véhicule sur le continent à Dubrovnik. La plupart des visiteurs utilisent le parking payant du port de Gruž ou les garages privés à proximité avant d'embarquer sur le ferry passagers Jadrolinija."
+    },
+    {
+      "question": "Lopud est-il adapté aux familles ?",
+      "answer": "Oui, l'île est exceptionnellement adaptée aux familles en raison de l'absence totale de circulation automobile. Les eaux peu profondes et sablonneuses de la plage de Šunj sont également particulièrement bien adaptées aux jeunes enfants."
+    }
+  ],
+  "headings": {
+    "quickFacts": "En un coup d'œil",
+    "whereToStay": "Où loger à Lopud",
+    "gettingThere": "Comment se rendre à Lopud",
+    "whenToGo": "Quand partir",
+    "guides": "Guides Lopud",
+    "faq": "FAQ Lopud",
+    "groups": {
+      "gettingAround": "Stationnement et déplacements",
+      "planning": "Planification et hébergement",
+      "timing": "Quand partir",
+      "travelers": "Familles, couples et styles de voyage",
+      "activities": "Plages et activités",
+      "food": "Manger et boire",
+      "comparisons": "Comparaisons",
+      "practical": "Infos pratiques"
+    },
+    "car": "En voiture",
+    "other": "Autres options",
+    "bestFor": "Idéal pour",
+    "parking": "Stationnement",
+    "beach": "Plage"
+  },
+  "destination": "lopud",
+  "language": "fr",
+  "updatedAt": "2026-10-16T20:11:46.318Z"
+}

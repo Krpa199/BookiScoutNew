@@ -1,0 +1,146 @@
+{
+  "title": "Brijuni Reiseführer: Hotels, Fähre & Nationalpark-Infos",
+  "metaDescription": "Planen Sie eine Reise zum Nationalpark Brijuni. Führer zu Hotels auf Veliki Brijun, Übernachten in Fažana, Fahrpläne der Fähre, Parkmöglichkeiten und Anreise aus Mitteleuropa.",
+  "intro": "Brijuni ist ein Archipel und Nationalpark vor der Westküste Istriens, erreichbar mit einer 15-minütigen Fähre vom Festlandort Fažana. Es zieht Reisende an, die sich für Natur, römische Ruinen und eine ruhige, autofreie Umgebung interessieren. Die Hauptinsel Veliki Brijun beherbergt die begrenzten Unterkünfte und Hauptattraktionen des Parks, darunter einen Open-Air-Safaripark, alte Olivenbäume und Dinosaurier-Fußabdrücke.\n\nEin Besuch ist am praktischsten von Mai bis September, wenn der Fährplan häufig ist und die Parkeinrichtungen voll ausgelastet sind. Da Fahrzeuge auf den Inseln nicht erlaubt sind, müssen Besucher in Fažana parken und sich auf Spaziergänge, gemietete Fahrräder oder elektrische Golfcarts verlassen, um Veliki Brijun zu erkunden. Wer Budget oder Tagesausflüge auf dem Festland priorisiert, übernachtet typischerweise in Fažana oder den nahegelegenen Küstendörfern.",
+  "quickFacts": [
+    {
+      "label": "Beste Monate",
+      "value": "Juni bis September"
+    },
+    {
+      "label": "Meerestemperatur im August",
+      "value": "25°C - 26°C"
+    },
+    {
+      "label": "Nächster Flughafen",
+      "value": "Pula (PUY), 13 km von der Fähre Fažana entfernt"
+    },
+    {
+      "label": "Hauptstrandtyp",
+      "value": "Kiesel- und Felsstrand mit Betonplateaus"
+    },
+    {
+      "label": "Preisniveau",
+      "value": "Höher als der kroatische Durchschnitt"
+    },
+    {
+      "label": "Autofreier Status",
+      "value": "Inseln sind streng autofrei (Fahrzeuge bleiben in Fažana)"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Veliki Brijun (Die Insel)",
+      "bestFor": "Besucher, die im Nationalpark übernachten möchten",
+      "parking": "Keine Autos erlaubt; gebührenpflichtiges Parken in Fažana",
+      "beach": "Fels- und Kieselstrände (Saluga Beach) fußläufig erreichbar",
+      "summary": "Ein Aufenthalt direkt auf der Hauptinsel erfordert die Buchung eines der wenigen staatlich geführten Hotels oder Villen in der Nähe des Hafens. Das Gebiet ist komplett autofrei, außergewöhnlich ruhig, nachdem die Tagesausflügler abgereist sind, und bietet direkten Zugang zu den Wanderwegen und historischen Stätten des Parks."
+    },
+    {
+      "name": "Fažana",
+      "bestFor": "Basis für tägliche Fährfahrten, Reisende mit Fahrzeugzugang",
+      "parking": "Öffentliche gebührenpflichtige Parkplätze und private Hotelparkplätze",
+      "beach": "Kieselstrände (San Lorenzo, Bi Val) entlang der Stadtküste",
+      "summary": "Dieser Küstenort auf dem Festland ist das offizielle Tor zum Nationalpark Brijuni. Er bietet eine breite Palette an privaten Apartments, Restaurants und direkten Zugang zur Passagierfähre, was ihn praktisch für diejenigen macht, die die weitere istrische Halbinsel erkunden möchten."
+    },
+    {
+      "name": "Peroj",
+      "bestFor": "Budgetbewusste Reisende und Familien",
+      "parking": "Meist kostenlose Parkplätze bei privaten Unterkünften",
+      "beach": "Lange Kieselstrandabschnitte 1-2 km vom Zentrum entfernt",
+      "summary": "Einige Kilometer nördlich von Fažana gelegen, ist Peroj ein ruhigeres Wohnviertel. Es bietet eine günstigere Alternative zu Fažana und ist dennoch nah genug für eine kurze Fahrt oder Radtour zum Fährterminal Brijuni."
+    },
+    {
+      "name": "Pula (Štinjan)",
+      "bestFor": "Reisende, die städtische Annehmlichkeiten und Parknähe wünschen",
+      "parking": "Verfügbar auf Campingplätzen und bei privaten Vermietungen",
+      "beach": "Kiesbuchten (Hidrobaza) mit Blick auf das Brijuni-Archipel",
+      "summary": "Das Viertel Štinjan liegt direkt gegenüber den Brijuni-Inseln, südlich von Fažana. Dieses Gebiet kombiniert einfachen Zugang zu den historischen Stätten von Pula mit direktem Blick auf den Nationalpark."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "560 km, 6-7 Stunden. A8 nach Salzburg, A10 (Tauerntunnel), Slowenien A1 nach Koper, Kroatien A9 nach Vodnjan/Fažana. Erfordert österreichische und slowenische Vignetten, Tunnelgebühren und kroatische Mautgebühren.",
+      "other": "Direkte saisonale Flüge nach Pula oder Nacht-FlixBus nach Pula, gefolgt von einem lokalen Bus nach Fažana."
+    },
+    {
+      "from": "Wien",
+      "car": "580 km, 6 Stunden. A2 Süd über Graz, nach Slowenien (Maribor, Ljubljana, Koper), dann kroatische A9 nach Fažana. Erfordert österreichische und slowenische Vignetten und kroatische Mautgebühren.",
+      "other": "Direktflüge (Austrian Airlines, Ryanair) nach Pula oder direkter Bus nach Pula."
+    },
+    {
+      "from": "Budapest",
+      "car": "600 km, 6-7 Stunden. M7 zur kroatischen Grenze, A4 nach Zagreb, A6 nach Rijeka, dann A8/A9 durch Istrien. Erfordert ungarische Vignette und kroatische Mautgebühren.",
+      "other": "Direkter Bus (FlixBus) nach Pula oder Zug nach Zagreb mit Anschluss an einen Bus nach Pula."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "200 km, 2,5 Stunden. Autobahn A1 Richtung Koper, Grenzübertritt bei Dragonja, dann kroatische A9 zur Ausfahrt Vodnjan. Erfordert slowenische Vignette und kroatische Mautgebühren.",
+      "other": "Direkter Bus oder saisonale Zugverbindung nach Pula."
+    },
+    {
+      "from": "Prag",
+      "car": "880 km, 9,5 Stunden. D1 nach Brünn, Österreich A5/A2 über Wien und Graz, Slowenien A1, Kroatien A9. Erfordert tschechische, österreichische und slowenische Vignetten sowie kroatische Mautgebühren.",
+      "other": "Direkte saisonale Flüge nach Pula oder direkter FlixBus nach Pula."
+    },
+    {
+      "from": "Krakau",
+      "car": "1.030 km, 11 Stunden. A4 nach Kattowitz, tschechische A1 nach Brünn, österreichische A5/A2 nach Graz, Slowenien A1 nach Koper, Kroatien A9. Erfordert Vignetten für CZ, AT, SI und Mautgebühren in HR.",
+      "other": "Flug nach Pula mit Zwischenstopp (z.B. über LOT) oder Fernbus nach Pula."
+    }
+  ],
+  "whenToGo": "Der Brijuni-Archipel ist ganzjährig geöffnet, aber die Besucherleistungen sind stark saisonabhängig. Von Mai bis September gibt es das beste Wetter zum Schwimmen, wobei die Meerestemperaturen im August ihren Höhepunkt bei 26°C erreichen. Juli und August sind die am stärksten frequentierten und teuersten Monate, was eine Vorausbuchung sowohl für Fährtickets als auch für Inselhotels erfordert. In den Nebensaisonmonaten Mai, Juni und September sinken die Preise leicht und das Wetter bleibt warm genug für Outdoor-Aktivitäten. Von November bis März verkehrt die Fähre nach einem reduzierten Fahrplan, die meisten Inselhotels schließen und geführte Touren sind seltener, obwohl der Park für Winterwanderungen zugänglich bleibt.",
+  "faq": [
+    {
+      "question": "Ist Brijuni einen Besuch wert?",
+      "answer": "Ja, es ist lohnenswert für alle, die eine Mischung aus Natur, römischer Geschichte und einer ruhigen, autofreien Umgebung suchen. Tagesausflüge bieten genügend Zeit, die Hauptattraktionen mit der Touristenbahn zu erkunden, während Übernachtungen Reisende ansprechen, die nach der letzten Fähre Abgeschiedenheit suchen."
+    },
+    {
+      "question": "Wie viele Tage sollte ich auf Brijuni verbringen?",
+      "answer": "Ein einziger ganzer Tag reicht aus, um die Hauptattraktionen auf Veliki Brijun zu sehen, darunter den Safaripark, Dinosaurier-Fußabdrücke und die römische Villa. Besucher, die auf der Insel übernachten, buchen in der Regel 2 bis 3 Nächte, um sich zu entspannen und die ausgedehnten Wege mit dem Fahrrad zu erkunden."
+    },
+    {
+      "question": "Welcher ist der beste Strand auf Brijuni?",
+      "answer": "Der Saluga Beach ist der wichtigste und am besten zugängliche Strand auf Veliki Brijun mit sandigem Meeresboden, Kieselstränden und schattigen Pinienbereichen. Er ist mit Sonnenliegen, Duschen und einem Restaurant ausgestattet, was ihn für Familien praktisch macht."
+    },
+    {
+      "question": "Brauche ich ein Auto auf Brijuni?",
+      "answer": "Nein, Autos sind für Besucher auf den Brijuni-Inseln strengstens verboten. Sie müssen Ihr Fahrzeug auf dem Festland in Fažana parken und die Passagierfähre nutzen; auf der Insel erfolgt die Fortbewegung zu Fuß, mit dem Fahrrad oder durch Mieten eines elektrischen Golfcarts."
+    },
+    {
+      "question": "Wo sollte ich parken, um Brijuni zu besuchen?",
+      "answer": "Besucher müssen im Festlandort Fažana parken. Es gibt mehrere öffentliche, offene kommunale Parkplätze in der Nähe des Fährterminals, die stunden- oder tageweise Gebühren erheben, sowie einige private Parkflächen nur wenige Gehminuten vom Hafen entfernt."
+    },
+    {
+      "question": "Ist Brijuni gut für Familien geeignet?",
+      "answer": "Ja, Brijuni ist aufgrund des fehlenden Autoverkehrs und der flachen Radwege sehr gut für Familien geeignet. Kinder genießen typischerweise den Open-Air-Safaripark, die Dinosaurier-Fußabdrücke und die Fahrt mit der kleinen Touristenbahn, die die Insel umrundet."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Auf einen Blick",
+    "whereToStay": "Wo übernachten auf Brijuni",
+    "gettingThere": "Anreise nach Brijuni",
+    "whenToGo": "Beste Reisezeit",
+    "guides": "Brijuni-Führer",
+    "faq": "Brijuni FAQ",
+    "groups": {
+      "gettingAround": "Parken & Fortbewegung",
+      "planning": "Planung & Unterkunft",
+      "timing": "Wann reisen",
+      "travelers": "Familien, Paare & Reisestile",
+      "activities": "Strände & Aktivitäten",
+      "food": "Essen & Trinken",
+      "comparisons": "Vergleiche",
+      "practical": "Praktische Infos"
+    },
+    "car": "Mit dem Auto",
+    "other": "Weitere Optionen",
+    "bestFor": "Am besten für",
+    "parking": "Parken",
+    "beach": "Strand"
+  },
+  "destination": "brijuni",
+  "language": "de",
+  "updatedAt": "2026-10-16T20:36:44.465Z"
+}

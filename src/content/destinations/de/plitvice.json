@@ -1,0 +1,146 @@
+{
+  "title": "Plitvicer Seen Reiseführer: Eingänge, Parken & Gebiete",
+  "metaDescription": "Faktischer Reiseführer zu den Plitvicer Seen. Planen Sie Ihre Route, finden Sie Parkplätze, verstehen Sie die Eingänge und entscheiden Sie, wo Sie in der Nähe des Parks übernachten möchten.",
+  "intro": "Die Plitvicer Seen sind Kroatiens größter und meistbesuchter Nationalpark, bekannt für seine 16 terrassenförmig angelegten Seen, die durch zahlreiche Wasserfälle miteinander verbunden sind. Er zieht hauptsächlich Wanderer, Naturtouristen und Roadtripper an, die das Land bereisen.\n\nEin Besuch erfordert eine frühzeitige Planung, da die tägliche Ticketanzahl streng nach Einlasszeit begrenzt ist. Die Parkwege sind im Juli und August stark überfüllt, wodurch Mai, Juni, September und Oktober die optimalen Monate für angenehme Wandertemperaturen und weniger Menschenmassen sind. Ein Auto wird empfohlen, um Unterkünfte außerhalb der unmittelbaren Parkgrenzen zu erreichen, obwohl direkte Buslinien die Parkeingänge mit Zagreb, Zadar und Split verbinden.",
+  "quickFacts": [
+    {
+      "label": "Beste Monate",
+      "value": "Mai, Juni, September, Oktober"
+    },
+    {
+      "label": "Meerestemperatur im August",
+      "value": "Nicht zutreffend (Binnenland-Nationalpark)"
+    },
+    {
+      "label": "Nächstgelegener Flughafen",
+      "value": "Zadar (ZAD) 130 km; Zagreb (ZAG) 140 km"
+    },
+    {
+      "label": "Hauptstrandtyp",
+      "value": "Nicht zutreffend (Schwimmen in den Seen ist streng verboten)"
+    },
+    {
+      "label": "Preisniveau",
+      "value": "Hoch (Eintritt in den Park und nahegelegene Hotels in der Hochsaison übersteigen den Landesdurchschnitt)"
+    },
+    {
+      "label": "Begehbarkeit",
+      "value": "Kein traditionelles Stadtzentrum; Parkwege sind nur für Fußgänger zugänglich"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Rastovača (In der Nähe von Eingang 1)",
+      "bestFor": "Erstbesucher, die direkten Zugang zu den Unteren Seen und dem Großen Wasserfall wünschen.",
+      "parking": "Private Parkplätze bei Pensionen; kostenpflichtiger öffentlicher Parkplatz bei Eingang 1.",
+      "beach": "Nicht zutreffend",
+      "summary": "Eine kleine Ansammlung von Pensionen unmittelbar nördlich von Eingang 1. Eine Übernachtung hier ermöglicht es Besuchern, ihr Fahrzeug an ihrer Unterkunft stehen zu lassen und den Parkeingang in 10 bis 15 Minuten zu Fuß zu erreichen."
+    },
+    {
+      "name": "Mukinje & Jezerce (In der Nähe von Eingang 2)",
+      "bestFor": "Besucher, die die Oberen Seen erkunden oder etablierte staatliche Hotels suchen.",
+      "parking": "Hotelparkplätze verfügbar; kostenpflichtiger öffentlicher Parkplatz bei Eingang 2.",
+      "beach": "Nicht zutreffend",
+      "summary": "Südlich von Eingang 2 gelegen, bietet dieser Bereich mehrere große Hotels und private Apartments. Ein gepflasterter Weg verbindet das Dorf direkt mit der Kasse von Eingang 2 und dem Hauptanleger für Boote."
+    },
+    {
+      "name": "Rakovica & Grabovac",
+      "bestFor": "Preisbewusste Reisende, Familien und diejenigen, die mit dem Auto oder Wohnmobil unterwegs sind.",
+      "parking": "Reichlich kostenlose Parkplätze in Ferienparks, auf Campingplätzen und in ländlichen Hotels.",
+      "beach": "Nicht zutreffend",
+      "summary": "8 bis 15 Kilometer nördlich des Parks entlang der D1 gelegen. Dieses Gebiet bietet eine größere Auswahl an Restaurants, große Ferienanlagen und generell niedrigere Preise als die unmittelbare Parkumgebung."
+    },
+    {
+      "name": "Plitvica Selo",
+      "bestFor": "Ruhige, gehobene Aufenthalte direkt innerhalb der Nationalparkgrenzen.",
+      "parking": "Private Parkplätze vor Ort; das Fahren erfordert das Befahren enger Parkstraßen.",
+      "beach": "Nicht zutreffend",
+      "summary": "Ein kleines Dorf direkt neben dem Großen Wasserfall und dem Kozjak-See. Es bietet direkten Fußgängerzugang zu den Wanderwegen über einen Nebeneingang (Eingang 3), wodurch die Haupttickerschlangen umgangen werden."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "570 km, ~6,5 Stunden über A8 (DE), A10 (AT), A2 (SI) und D1 (HR). Benötigt österreichische und slowenische Vignetten sowie Mautgebühren für den Tauerntunnel und kroatische Autobahnen.",
+      "other": "Direkter FlixBus zu den Plitvicer Seen (ca. 9 Stunden) oder Flug nach Zagreb, gefolgt von einem Bus."
+    },
+    {
+      "from": "Wien",
+      "car": "420 km, ~5 Stunden über A2 nach Graz, A4 (SI) Richtung Maribor, A1 (HR) nach Karlovac, dann D1. Benötigt österreichische und slowenische Vignetten und kroatische Autobahnmautgebühren.",
+      "other": "Direkter FlixBus zu den Plitvicer Seen (ca. 7 Stunden) oder Zug/Flug nach Zagreb, gefolgt von einem Bus."
+    },
+    {
+      "from": "Budapest",
+      "car": "480 km, ~5,5 Stunden über M7 nach Kroatien (A4), vorbei an Zagreb nach Karlovac (A1), dann D1. Benötigt ungarische E-Vignette und kroatische Autobahnmautgebühren.",
+      "other": "Bus oder Zug nach Zagreb, dann Umsteigen in eine nationale Buslinie zu den Plitvicer Seen."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "210 km, ~3 Stunden über A2 nach Novo Mesto, Grenzübergang Richtung Karlovac, dann D1 südlich. Benötigt slowenische Vignette und geringe kroatische Mautgebühren.",
+      "other": "Bus oder Zug nach Zagreb, gefolgt von einem Umsteigen in einen Bus zu den Plitvicer Seen."
+    },
+    {
+      "from": "Prag",
+      "car": "750 km, ~8,5 Stunden über Brünn, Wien, Graz und Zagreb. Benötigt tschechische, österreichische und slowenische Vignetten sowie kroatische Mautgebühren.",
+      "other": "Flug oder direkter RegioJet Bus/Zug nach Zagreb, Umsteigen in einen lokalen Bus zum Park."
+    },
+    {
+      "from": "Krakau",
+      "car": "870 km, ~10 Stunden über die Slowakei, Ungarn (Budapest) und Kroatien (Zagreb). Benötigt slowakische und ungarische Vignetten sowie kroatische Autobahnmautgebühren.",
+      "other": "Flug nach Zagreb (üblicherweise über Warschau oder Wien), gefolgt von einer 2-stündigen Busfahrt zum Park."
+    }
+  ],
+  "whenToGo": "Mai und September bieten die beste Balance zwischen moderaten Menschenmassen und angenehmen Wandertemperaturen, die typischerweise zwischen 15°C und 23°C liegen. Juli und August sind stark überfüllt, mit Tageshöchstwerten um 28°C und Hochsaison-Ticketpreisen. Der Winter bringt Schnee, eisige Temperaturen und drastisch reduzierte Ticketpreise, obwohl die Oberen Seen und die internen Boots- und Zugdienste normalerweise von November bis März geschlossen sind. Schwimmen ist ganzjährig verboten, daher sind Meerestemperaturen nicht zutreffend. Regenfälle sind im Frühling häufig, wodurch die Wasserfälle besonders kraftvoll sind.",
+  "faq": [
+    {
+      "question": "Lohnt sich ein Besuch?",
+      "answer": "Ja, es ist Kroatiens berühmteste Naturattraktion. Das ausgedehnte Netz von Holzstegen über klaren Seen und Wasserfällen ist einzigartig in Europa."
+    },
+    {
+      "question": "Wie viele Tage brauche ich?",
+      "answer": "Ein ganzer Tag reicht aus, um die Hauptwege zu gehen und sowohl die Oberen als auch die Unteren Seen zu sehen. Eine Übernachtung in der Nähe ermöglicht es Ihnen, den Park zur Öffnungszeit zu betreten, bevor die Mittagsbustouren ankommen."
+    },
+    {
+      "question": "Wo ist der beste Strand?",
+      "answer": "Schwimmen ist im gesamten Nationalpark Plitvicer Seen streng verboten, um das Ökosystem zu schützen. Die nächstgelegenen Küstenstrände befinden sich in Senj oder Zadar, beide etwa 1,5 bis 2 Autostunden entfernt."
+    },
+    {
+      "question": "Brauche ich ein Auto?",
+      "answer": "Ein Auto ist nicht erforderlich, um den Park zu Fuß zu erkunden, wenn Sie in einem Hotel direkt an Eingang 1 oder 2 übernachten, da Busse aus Zagreb und Zadar dort halten. Ein Auto ist jedoch notwendig, wenn Sie eine Unterkunft in umliegenden Dörfern wie Rakovica oder Korenica buchen."
+    },
+    {
+      "question": "Wo ist der beste Ort zum Parken?",
+      "answer": "Der Nationalpark betreibt zwei offizielle, kostenpflichtige Hauptparkplätze (Parkplatz 1 und Parkplatz 2), die den beiden Haupteingängen entsprechen. Das Parken kostet je nach Saison etwa 1 bis 2 € pro Stunde, und die Parkplätze füllen sich im Sommer bis zum Vormittag schnell."
+    },
+    {
+      "question": "Ist es gut für Familien?",
+      "answer": "Ja, aber es ist besser für ältere Kinder geeignet, die mehrere Kilometer ohne Hilfe laufen können. Die Holzstege sind oft uneben, haben in vielen Abschnitten keine Geländer und sind nicht für Kinderwagen geeignet."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Auf einen Blick",
+    "whereToStay": "Übernachten an den Plitvicer Seen",
+    "gettingThere": "Anreise zu den Plitvicer Seen",
+    "whenToGo": "Beste Reisezeit",
+    "guides": "Reiseführer für die Plitvicer Seen",
+    "faq": "Plitvicer Seen FAQ",
+    "groups": {
+      "gettingAround": "Parken & Fortbewegung",
+      "planning": "Planung & Übernachtung",
+      "timing": "Wann besuchen",
+      "travelers": "Familien, Paare & Reisestile",
+      "activities": "Strände & Aktivitäten",
+      "food": "Essen & Trinken",
+      "comparisons": "Vergleiche",
+      "practical": "Praktische Informationen"
+    },
+    "car": "Mit dem Auto",
+    "other": "Weitere Optionen",
+    "bestFor": "Am besten für",
+    "parking": "Parken",
+    "beach": "Strand"
+  },
+  "destination": "plitvice",
+  "language": "de",
+  "updatedAt": "2026-10-16T20:14:31.927Z"
+}

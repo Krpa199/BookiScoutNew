@@ -1,0 +1,146 @@
+{
+  "title": "Brijuni utazási útmutató: Szállodák, kompjárat és nemzeti parki információk",
+  "metaDescription": "Tervezze meg utazását a Brijuni Nemzeti Parkba. Útmutató a Veliki Brijun szigetén található szállodákhoz, szállás Fažanában, kompjáratok, parkolás és autózás Közép-Európából.",
+  "intro": "Brijuni egy szigetcsoport és nemzeti park Isztria nyugati partjainál, amely Fažana szárazföldi városából egy 15 perces kompjárattal érhető el. Vonzó mindazok számára, akiket a természet, a római kori romok és a csendes, autómentes környezet érdekel. A fő szigeten, Veliki Brijunon található a park korlátozott számú szálláshelye és főbb látványosságai, beleértve egy szabadtéri szafariparkot, ősi olajfákat és dinoszauruszlábnyomokat.\n\nA látogatás májustól szeptemberig a legpraktikusabb, amikor a kompjáratok sűrűek és a park létesítményei teljes kapacitással működnek. Mivel járművek nem engedélyezettek a szigeteken, a látogatóknak Fažanában kell parkolniuk, és gyalogosan, bérelt kerékpárral vagy elektromos golfkocsival kell közlekedniük Veliki Brijunon. Azok, akik a költségvetést vagy a szárazföldi egynapos kirándulásokat részesítik előnyben, általában Fažanában vagy a közeli tengerparti falvakban szállnak meg.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Júniustól szeptemberig"
+    },
+    {
+      "label": "Tengerhőmérséklet augusztusban",
+      "value": "25°C - 26°C"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Pula (PUY), 13 km-re a fažanai komptól"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Kavicsos és sziklás, betonozott platformokkal"
+    },
+    {
+      "label": "Árszínvonal",
+      "value": "Magasabb, mint a horvát átlag"
+    },
+    {
+      "label": "Autómentesség",
+      "value": "A szigetek szigorúan autómentesek (járműveket Fažanában kell hagyni)"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Veliki Brijun (A sziget)",
+      "bestFor": "Azoknak, akik a nemzeti parkban szeretnének megszállni",
+      "parking": "Autók nem engedélyezettek; fizetős parkolás Fažanában",
+      "beach": "Sziklás és kavicsos strandok (Saluga strand) gyalogosan elérhető távolságra",
+      "summary": "A fő szigeten való közvetlen tartózkodáshoz a kevés állami üzemeltetésű szálloda vagy villa egyikét kell lefoglalni a kikötő közelében. A terület teljesen autómentes, rendkívül csendes az egynapos kirándulók távozása után, és közvetlen hozzáférést biztosít a park gyalogos ösvényeihez és történelmi helyszíneihez."
+    },
+    {
+      "name": "Fažana",
+      "bestFor": "Kiindulópont a napi kompjáratokhoz, utazóknak, akiknek járműre van szükségük",
+      "parking": "Nyilvános fizetős parkolók és magánszállodai parkolás",
+      "beach": "Kavicsos strandok (San Lorenzo, Bi Val) a város partján",
+      "summary": "Ez a szárazföldi tengerparti város a Brijuni Nemzeti Park hivatalos kapuja. Számos magánapartmant, éttermet és közvetlen hozzáférést kínál a személykomphoz, így praktikus azoknak, akik a szélesebb isztriai félszigetet fedezik fel."
+    },
+    {
+      "name": "Peroj",
+      "bestFor": "Költségtudatos utazóknak és családoknak",
+      "parking": "Többnyire ingyenes parkolás magánszállásokon",
+      "beach": "Hosszú kavicsos strandrészek 1-2 km-re a központtól",
+      "summary": "Fažanától néhány kilométerre északra található Peroj, egy csendesebb, lakóövezeti falu. Kedvezőbb árú alternatívát kínál Fažanához képest, miközben elég közel marad egy rövid autóútra vagy kerékpárútra a Brijuni kompterminálhoz."
+    },
+    {
+      "name": "Pula (Štinjan)",
+      "bestFor": "Városi kényelmet és park közelséget kereső utazóknak",
+      "parking": "Kempingekben és magánszállásokon elérhető",
+      "beach": "Kavicsos öblök (Hidrobaza) a Brijuni-szigetcsoport felé nézve",
+      "summary": "A Štinjan negyed közvetlenül a Brijuni-szigetekkel szemben, Fažanától délre fekszik. Ez a terület egyesíti a Pula történelmi helyszíneihez való könnyű hozzáférést a nemzeti parkra nyíló közvetlen kilátással."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "560 km, 6-7 óra. A8 Salzburgig, A10 (Tauern-alagút), Szlovénia A1 Koperig, Horvátország A9 Vodnjan/Fažanáig. Osztrák és szlovén autópályamatrica, alagútdíjak és horvát útdíjak szükségesek.",
+      "other": "Közvetlen szezonális járatok Pulába, vagy éjszakai FlixBus Pulába, majd helyi busz Fažanába."
+    },
+    {
+      "from": "Bécs",
+      "car": "580 km, 6 óra. A2 délre Grazon át, Szlovéniába (Maribor, Ljubljana, Koper), majd horvát A9 Fažanába. Osztrák és szlovén autópályamatrica és horvát útdíjak szükségesek.",
+      "other": "Közvetlen járatok (Austrian Airlines, Ryanair) Pulába, vagy közvetlen busz Pulába."
+    },
+    {
+      "from": "Budapest",
+      "car": "600 km, 6-7 óra. M7 a horvát határig, A4 Zágrábig, A6 Rijekáig, majd A8/A9 Isztrián keresztül. Magyar autópályamatrica és horvát útdíjak szükségesek.",
+      "other": "Közvetlen busz (FlixBus) Pulába, vagy vonat Zágrábba, onnan csatlakozás pulai buszra."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "200 km, 2,5 óra. A1-es autópálya Koper felé, átkelés a Dragonja határátkelőn, majd horvát A9 a Vodnjan kijáratig. Szlovén autópályamatrica és horvát útdíjak szükségesek.",
+      "other": "Közvetlen busz vagy szezonális vonatjárat Pulába."
+    },
+    {
+      "from": "Prága",
+      "car": "880 km, 9,5 óra. D1 Brnóba, Ausztria A5/A2 Bécsen és Grazon át, Szlovénia A1, Horvátország A9. Cseh, osztrák és szlovén autópályamatrica, plusz horvát útdíjak szükségesek.",
+      "other": "Közvetlen szezonális járatok Pulába, vagy közvetlen FlixBus Pulába."
+    },
+    {
+      "from": "Krakkó",
+      "car": "1030 km, 11 óra. A4 Katowicébe, cseh A1 Brnóba, osztrák A5/A2 Grazba, Szlovénia A1 Koperbe, Horvátország A9. Matricák szükségesek CZ, AT, SI területén, és útdíjak HR területén.",
+      "other": "Repülőjárat Pulába átszállással (pl. LOT-tal), vagy távolsági busz Pulába."
+    }
+  ],
+  "whenToGo": "A Brijuni-szigetcsoport egész évben nyitva tart, de a látogatói szolgáltatások erősen szezonálisak. Májustól szeptemberig a legjobb az idő úszásra, augusztusban a tengervíz hőmérséklete elérheti a 26°C-ot. Július és augusztus a legforgalmasabb és legdrágább hónapok, előzetes foglalás szükséges mind a kompjegyekre, mind a szigeti szállodákra. A májusi, júniusi és szeptemberi vállhónapokban az árak kissé csökkennek, és az időjárás még mindig elég meleg a szabadtéri tevékenységekhez. Novembertől márciusig a kompjáratok csökkentett menetrend szerint közlekednek, a legtöbb szigeti szálloda bezár, és a vezetett túrák is ritkábbak, bár a park továbbra is látogatható téli sétákra.",
+  "faq": [
+    {
+      "question": "Érdemes-e meglátogatni Brijunit?",
+      "answer": "Igen, érdemes azoknak, akiket a természet, a római történelem és a csendes, autómentes környezet keveréke érdekel. Az egynapos kirándulások elegendő időt kínálnak a főbb látnivalók megtekintésére a turistavonattal, míg az éjszakai tartózkodás vonzó azoknak az utazóknak, akik elszigeteltségre vágynak az utolsó komp elindulása után."
+    },
+    {
+      "question": "Hány napot érdemes Brijunin tölteni?",
+      "answer": "Egyetlen teljes nap elegendő a Veliki Brijun főbb látnivalóinak megtekintésére, beleértve a szafariparkot, a dinoszauruszlábnyomokat és a római villát. Azok a látogatók, akik a szigeten szállnak meg, általában 2-3 éjszakára foglalnak, hogy pihenjenek és kerékpározzanak a kiterjedt ösvényeken."
+    },
+    {
+      "question": "Melyik a legjobb strand Brijunin?",
+      "answer": "A Saluga strand a Veliki Brijun fő és legkönnyebben megközelíthető strandja, homokos tengerfenékkel, kavicsos parttal és árnyékos fenyőfás területekkel. Napozóágyakkal, zuhanyzókkal és étteremmel is fel van szerelve, így családok számára is praktikus."
+    },
+    {
+      "question": "Szükségem van autóra Brijunin?",
+      "answer": "Nem, autók szigorúan tilosak a Brijuni-szigeteken a látogatók számára. Járművét a szárazföldön, Fažanában kell parkolnia, és a személykompot kell használnia; a szigeten gyalogosan, kerékpárral vagy elektromos golfkocsi bérlésével lehet közlekedni."
+    },
+    {
+      "question": "Hol parkoljak, ha Brijunit szeretném meglátogatni?",
+      "answer": "A látogatóknak a szárazföldi Fažana városában kell parkolniuk. A kompterminál közelében számos nyilvános, szabadtéri önkormányzati parkoló található, amelyek óradíjat vagy napidíjat számolnak fel, valamint néhány magánparkoló is van rövid sétára a kikötőtől."
+    },
+    {
+      "question": "Brijuni jó választás családoknak?",
+      "answer": "Igen, Brijuni kiválóan alkalmas családok számára az autóforgalom hiánya és a sík kerékpárutak miatt. A gyerekek általában élvezik a szabadtéri szafariparkot, a dinoszauruszlábnyomokat és a szigetet körbejáró kis turistavonatot."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Áttekintés",
+    "whereToStay": "Hol szálljunk meg Brijunin?",
+    "gettingThere": "Hogyan juthatunk el Brijunira?",
+    "whenToGo": "Mikor utazzunk?",
+    "guides": "Brijuni útmutatók",
+    "faq": "Brijuni Gyakran Ismételt Kérdések",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor utazzunk?",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Ételek és italok",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb választás",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "brijuni",
+  "language": "hu",
+  "updatedAt": "2026-10-16T20:39:43.182Z"
+}

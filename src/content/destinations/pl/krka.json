@@ -1,0 +1,139 @@
+{
+  "title": "Krka: Przewodnik turystyczny – wejścia, parking i noclegi",
+  "metaDescription": "Zaplanuj podróż do Parku Narodowego Krka. Odkryj najlepsze wejścia, gdzie zaparkować, pobliskie zakwaterowanie w Skradinie lub Lozovacu i jak dojechać samochodem.",
+  "intro": "Park Narodowy Krka rozciąga się na 109 kilometrów kwadratowych wzdłuż rzeki Krka w środkowej Dalmacji, znany z rozległej sieci wodospadów trawertynowych. Przyciąga turystów ceniących przyrodę, piechurów i podróżników przemierzających chorwackie wybrzeże. W odróżnieniu od Jezior Plitwickich, Krka jest dostępna drogą wodną i leży znacznie bliżej morza, co czyni ją popularnym celem jednodniowych wycieczek lub przystankiem na noc ze Splitu lub Zadaru.\n\nPark jest otwarty przez cały rok, ale usługi i połączenia łodzią szczytują od czerwca do września. Wiosna i jesień oferują wysokie stany wody przy wodospadach i niższe opłaty za wstęp. Odwiedzający zazwyczaj zatrzymują się w nadrzecznym mieście Skradin, wiosce na wzgórzu Lozovac lub pobliskim nadmorskim mieście Šibenik, aby dotrzeć do parku wcześnie rano, zanim nadejdą tłumy.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "Maj do września"
+    },
+    {
+      "label": "Temperatura morza w sierpniu",
+      "value": "24-26°C (Morze Adriatyckie w pobliżu Šibenika)"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Lotnisko w Splicie (55 km do Lozovaca)"
+    },
+    {
+      "label": "Główny typ plaży",
+      "value": "Żwirowe plaże rzeczne (kąpiel zabroniona przy głównych wodospadach)"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "Wstęp do parku jest drogi latem; hotele są średnie"
+    },
+    {
+      "label": "Przystosowanie do spacerów",
+      "value": "Stare miasto Skradin jest zwarte i bardzo przyjazne do spacerowania"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Skradin",
+      "bestFor": "Dostęp do parku łodzią i restauracje nad wodą",
+      "parking": "Płatne parkingi miejskie i prywatne przy wjeździe do miasta",
+      "beach": "Plaża Skradin (żwirowa plaża rzeczna tuż w mieście)",
+      "summary": "Historyczne miasto nadrzeczne, służące jako główna brama wodna do Skradinskiego Buku. Oferuje restauracje, mariny i bezpośrednie połączenia łodzią do parku."
+    },
+    {
+      "name": "Lozovac",
+      "bestFor": "Kierowcy i bezpośredni dostęp pieszy do wodospadów",
+      "parking": "Ogromny bezpłatny parking bezpośrednio przy wejściu do parku",
+      "beach": "15 km do plaż nadmorskich w Šibeniku",
+      "summary": "Praktyczna okolica na płaskowyżu nad rzeką przy głównym wjeździe drogowym. Stąd odwiedzający mogą zejść szlakiem lub skorzystać z autobusu wahadłowego do głównych wodospadów."
+    },
+    {
+      "name": "Šibenik",
+      "bestFor": "Łączenie zwiedzania miasta i dostępu do wybrzeża",
+      "parking": "Płatne parkingi publiczne i garaże na obrzeżach miasta",
+      "beach": "Plaża Banj (żwirowa, 10 minut spacerem od centrum)",
+      "summary": "Nadmorskie miasto położone zaledwie 15 kilometrów od Krka. Oferuje szerszy wybór hoteli, restauracji i plaż nad Morzem Adriatyckim, jednocześnie utrzymując park w zasięgu krótkiej przejażdżki samochodem."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monachium",
+      "car": "750 km, 8-9 godzin przez A8, A10 i chorwacką A1; wymaga austriackich/słoweńskich winiet i chorwackich opłat drogowych",
+      "other": "Bezpośrednie loty do Splitu, następnie autobus lub wynajęty samochód"
+    },
+    {
+      "from": "Wiedeń",
+      "car": "640 km, 6.5-7.5 godzin przez A2 i chorwacką A1; wymaga austriackich/słoweńskich winiet i chorwackich opłat drogowych",
+      "other": "Bezpośrednie loty do Splitu, następnie transfer z lotniska i autobus"
+    },
+    {
+      "from": "Budapeszt",
+      "car": "645 km, 6-7 godzin przez M7 i chorwacką A4/A1; wymaga węgierskiej winiety i chorwackich opłat drogowych",
+      "other": "Pociąg lub FlixBus do Splitu/Šibenika, następnie lokalny autobus"
+    },
+    {
+      "from": "Lublana",
+      "car": "365 km, 4 godziny przez A1 i chorwacką A1; wymaga słoweńskiej winiety i chorwackich opłat drogowych",
+      "other": "Bezpośredni autobus do Šibenika, następnie lokalne połączenie do Skradina"
+    },
+    {
+      "from": "Praga",
+      "car": "970 km, 10-11 godzin przez Linz, Graz i Maribor; wymaga austriackich/słoweńskich winiet i chorwackich opłat drogowych",
+      "other": "Bezpośrednie loty do Splitu (Smartwings/Croatia Airlines)"
+    },
+    {
+      "from": "Kraków",
+      "car": "1050 km, 11-12 godzin przez Słowację i Węgry do chorwackiej A1; wymaga słowackich/węgierskich winiet i chorwackich opłat drogowych",
+      "other": "Bezpośrednie loty do Splitu z Krakowa lub Katowic"
+    }
+  ],
+  "whenToGo": "Lipiec i sierpień to najgorętsze miesiące z dziennymi temperaturami około 30-33°C, co wiąże się z największymi tłumami i najwyższymi opłatami za wstęp do parku (historycznie do 40 €). Od maja do czerwca oraz od września do października temperatury wahają się od 20-25°C, tłumy znacznie się przerzedzają, a bilety wstępu są tańsze. W miesiącach zimowych od listopada do marca opłaty za park drastycznie spadają, ale wycieczki łodzią nie działają, a kilka obiektów gastronomicznych i noclegowych w Skradinie jest zamkniętych. Przepływ wody przy głównych wodospadach jest zazwyczaj najpotężniejszy wczesną wiosną po roztopach.",
+  "faq": [
+    {
+      "question": "Czy warto odwiedzić Krka?",
+      "answer": "Tak, Krka oferuje rozległe sieci wodospadów i miejsca historyczne, takie jak wyspa Visovac. Jest gorąco polecana, jeśli szukasz alternatywy dla Jezior Plitwickich, która obejmuje rejsy łodzią i łatwiejszy dostęp do wybrzeża."
+    },
+    {
+      "question": "Ile dni potrzebuję?",
+      "answer": "Jeden pełny dzień wystarczy na główne wodospady, wycieczki łodzią i punkty widokowe. Dwa dni pozwalają na odwiedzenie spokojniejszych, północnych części parku, takich jak Roški Slap i amfiteatr Burnum."
+    },
+    {
+      "question": "Jaka jest najlepsza plaża?",
+      "answer": "Plaża Skradin to najłatwiej dostępna plaża rzeczna w pobliżu wejścia do parku, ponieważ pływanie przy Skradinskim Buku jest zabronione w celu ochrony ekosystemu. Do pływania w morzu, plaża Banj w Šibeniku jest oddalona o 15 kilometrów."
+    },
+    {
+      "question": "Czy potrzebuję samochodu?",
+      "answer": "Samochód nie jest ściśle konieczny do zwiedzania głównego obszaru Skradinskiego Buku, jeśli zatrzymasz się w Skradinie lub skorzystasz z lokalnego autobusu z Šibenika. Jednak samochód jest wymagany, aby efektywnie zwiedzić północne części parku."
+    },
+    {
+      "question": "Gdzie powinienem zaparkować?",
+      "answer": "Lozovac ma duży, bezpłatny parking tuż przy wejściu do parku. Skradin posiada wiele płatnych parkingów miejskich i prywatnych, które bardzo szybko zapełniają się w miesiącach letnich."
+    },
+    {
+      "question": "Czy jest dobry dla rodzin?",
+      "answer": "Tak, park jest bardzo przyjazny rodzinom, z dobrze utrzymanymi kładkami, wystawami edukacyjnymi i rejsami łodzią. Wózki dziecięce mogą być używane na głównych drewnianych ścieżkach, choć w pobliżu podstawy wodospadów są schody."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Gdzie się zatrzymać w Krka",
+    "gettingThere": "Jak dojechać do Krka",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Krka",
+    "faq": "FAQ Krka",
+    "groups": {
+      "gettingAround": "Parking i poruszanie się",
+      "planning": "Planowanie i gdzie się zatrzymać",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróżowania",
+      "activities": "Plaże i atrakcje",
+      "food": "Jedzenie i napoje",
+      "comparisons": "Porównania",
+      "practical": "Praktyczne informacje"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "krka",
+  "language": "pl",
+  "updatedAt": "2026-10-16T20:22:33.067Z"
+}

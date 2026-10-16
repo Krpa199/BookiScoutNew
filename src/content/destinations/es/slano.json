@@ -1,0 +1,146 @@
+{
+  "title": "Slano: Guía de Viaje, Playas, Aparcamiento y Dónde Alojarse",
+  "metaDescription": "Planifica tu viaje a Slano, Croacia. Encuentra información actualizada sobre las mejores playas, rutas en coche desde Europa, aparcamiento y dónde alojarse en la bahía.",
+  "intro": "Slano es un tranquilo pueblo costero situado en una bahía profunda y protegida del sur de Dalmacia, ideal para familias y parejas que buscan una alternativa relajada a la cercana Dubrovnik. Con sus aguas tranquilas y poco profundas y sus playas de guijarros, la zona está perfectamente preparada para unas vacaciones mediterráneas relajadas donde el foco está firmemente puesto en nadar, cenar y descansar.\n\nLos meses de verano, entre junio y septiembre, ofrecen el mejor clima y las temperaturas del mar más cálidas, aunque mayo y octubre son agradables para hacer turismo activo sin las aglomeraciones de la temporada alta. Los visitantes suelen pasar sus días relajándose en las playas de Grgurići o Banja, paseando por el paseo marítimo, o utilizando el pueblo como base estratégica para explorar la península de Pelješac y Dubrovnik.",
+  "quickFacts": [
+    {
+      "label": "Mejores meses",
+      "value": "De junio a septiembre"
+    },
+    {
+      "label": "Temperatura del mar en agosto",
+      "value": "25°C a 27°C"
+    },
+    {
+      "label": "Aeropuerto más cercano",
+      "value": "Dubrovnik (DBV), 52 km"
+    },
+    {
+      "label": "Tipo de playa principal",
+      "value": "Terrazas de guijarros y hormigón"
+    },
+    {
+      "label": "Nivel de precios",
+      "value": "Medio para Dalmacia, más barato que Dubrovnik"
+    },
+    {
+      "label": "Facilidad para caminar",
+      "value": "Paseo marítimo transitable a pie, pero no sin coches"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centro de Slano y Banja",
+      "bestFor": "Para navegantes y acceso conveniente a servicios",
+      "parking": "Aparcamientos públicos de pago disponibles",
+      "beach": "Corta distancia a pie a la playa de Banja (guijarros/poco profunda)",
+      "summary": "Este es el centro del pueblo, abarcando el lado este de la bahía. Cuenta con la ACI Marina, los principales supermercados y una selección de restaurantes locales."
+    },
+    {
+      "name": "Grgurići",
+      "bestFor": "Para familias y amantes de la playa",
+      "parking": "Aparcamiento en la calle limitado, principalmente aparcamiento de hotel",
+      "beach": "Acceso directo a la playa de Grgurići (principal playa de guijarros)",
+      "summary": "Situado en el lado oeste de la bahía, esta zona alberga los hoteles resort más grandes. Ofrece las instalaciones de playa más populares y alquiler de deportes acuáticos en el pueblo."
+    },
+    {
+      "name": "Slađenovići y Kručica",
+      "bestFor": "Para parejas y retiros tranquilos",
+      "parking": "El aparcamiento privado en villas es estándar",
+      "beach": "Cercanas calas rocosas y de guijarros",
+      "summary": "Estos caseríos más tranquilos se encuentran justo al noroeste de Slano a lo largo de la costa. Ofrecen lugares aislados para nadar y casas de piedra tradicionales lejos del tráfico principal del resort."
+    },
+    {
+      "name": "Banići",
+      "bestFor": "Para amantes de la naturaleza y viajeros con presupuesto limitado",
+      "parking": "Fácil aparcamiento privado en los alojamientos",
+      "beach": "Corta distancia en coche a la playa de Budima",
+      "summary": "Un pueblo rural situado ligeramente tierra adentro y a lo largo de la costa cercana. Ofrece apartamentos más asequibles sin dejar de estar a poca distancia en coche de las principales atracciones de Slano."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Múnich",
+      "car": "950 km, aprox. 10 horas vía A8, A10, A2 a A1 (Croacia) y D8. Viñeta austriaca, peaje Karawanken, viñeta eslovena, peajes croatas.",
+      "other": "Vuelo directo a Dubrovnik (DBV), luego traslado al aeropuerto o autobús local."
+    },
+    {
+      "from": "Viena",
+      "car": "800 km, aprox. 8,5 horas vía A2 a A1 (Croacia) y D8. Viñeta austriaca, viñeta eslovena, peajes croatas.",
+      "other": "Vuelo directo a Dubrovnik (DBV), luego traslado al aeropuerto."
+    },
+    {
+      "from": "Budapest",
+      "car": "760 km, aprox. 8 horas vía M7 a A4 y A1 (Croacia) y D8. Viñeta húngara, peajes croatas.",
+      "other": "Vuelo directo o autobús de larga distancia directo a Dubrovnik."
+    },
+    {
+      "from": "Liubliana",
+      "car": "600 km, aprox. 6,5 horas vía A2 a A1 (Croacia) y D8. Viñeta eslovena, peajes croatas.",
+      "other": "Autobús a Dubrovnik o vuelo estacional a DBV."
+    },
+    {
+      "from": "Praga",
+      "car": "1.100 km, aprox. 11-12 horas vía Viena, Graz, A1 (Croacia) y D8. Viñetas checa, austriaca, eslovena, peajes croatas.",
+      "other": "Vuelo directo a Dubrovnik (DBV), luego traslado al aeropuerto."
+    },
+    {
+      "from": "Cracovia",
+      "car": "1.150 km, aprox. 12-13 horas vía Eslovaquia, Hungría (M15/M86), A1 (Croacia) y D8. Peajes polacos, viñetas eslovaca/húngara, peajes croatas.",
+      "other": "Vuelo directo a Dubrovnik (DBV), luego traslado al aeropuerto."
+    }
+  ],
+  "whenToGo": "El mejor momento para visitar Slano es de junio a septiembre, cuando todas las instalaciones están abiertas y la temperatura del mar alcanza unos agradables 25°C a 27°C. Julio y agosto son los meses de temporada alta, con las mayores aglomeraciones y los precios más altos, pero la bahía protegida rara vez se siente tan abrumada como los grandes resorts dálmatas. Mayo y octubre ofrecen un clima más fresco ideal para hacer senderismo y explorar la cercana Dubrovnik sin el intenso calor del verano, aunque el mar está notablemente más frío y algunos restaurantes locales o puntos de alquiler de playa pueden estar cerrados.",
+  "faq": [
+    {
+      "question": "¿Vale la pena visitar Slano?",
+      "answer": "Sí, Slano vale la pena visitar para unas vacaciones tranquilas y relajantes. Ofrece un ritmo más lento, playas protegidas y fácil acceso tanto a Dubrovnik como a la península de Pelješac."
+    },
+    {
+      "question": "¿Cuántos días debería quedarme en Slano?",
+      "answer": "Una estancia de 3 a 5 días es perfecta para disfrutar de las playas y restaurantes locales. Si planeas hacer excursiones de un día a Dubrovnik, Korčula o Mostar, se recomienda una semana completa."
+    },
+    {
+      "question": "¿Cuál es la mejor playa de Slano?",
+      "answer": "La playa de Grgurići, en el lado oeste de la bahía, es la más popular, con guijarros limpios, aguas poco profundas e instalaciones de playa. La playa de Banja, en el lado este, también es excelente y muy tranquila."
+    },
+    {
+      "question": "¿Necesito un coche en Slano?",
+      "answer": "Aunque no necesitas un coche para moverte por el pueblo, es muy recomendable tener uno. Un vehículo te permite hacer excursiones fácilmente, visitar calas escondidas y conducir a Dubrovnik a tu propio ritmo."
+    },
+    {
+      "question": "¿Dónde puedo aparcar en Slano?",
+      "answer": "Hay aparcamientos públicos de pago cerca de la ACI Marina y del centro del pueblo. La mayoría de los hoteles, villas y apartamentos ofrecen plazas de aparcamiento privadas para sus huéspedes."
+    },
+    {
+      "question": "¿Es Slano bueno para familias?",
+      "answer": "Sí, Slano es un excelente destino para familias. La bahía profunda protege las principales playas de las olas fuertes, haciendo que las aguas poco profundas sean muy seguras para que los niños pequeños naden."
+    }
+  ],
+  "headings": {
+    "quickFacts": "De un vistazo",
+    "whereToStay": "Dónde alojarse en Slano",
+    "gettingThere": "Cómo llegar a Slano",
+    "whenToGo": "Cuándo ir",
+    "guides": "Guías de Slano",
+    "faq": "Preguntas frecuentes sobre Slano",
+    "groups": {
+      "gettingAround": "Aparcamiento y cómo moverse",
+      "planning": "Planificación y dónde alojarse",
+      "timing": "Cuándo ir",
+      "travelers": "Familias, parejas y estilos de viaje",
+      "activities": "Playas y cosas que hacer",
+      "food": "Comida y bebida",
+      "comparisons": "Comparaciones",
+      "practical": "Información práctica"
+    },
+    "car": "En coche",
+    "other": "Otras opciones",
+    "bestFor": "Mejor para",
+    "parking": "Aparcamiento",
+    "beach": "Playa"
+  },
+  "destination": "slano",
+  "language": "es",
+  "updatedAt": "2026-10-16T20:05:37.913Z"
+}

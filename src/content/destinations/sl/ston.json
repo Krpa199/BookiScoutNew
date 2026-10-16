@@ -1,0 +1,146 @@
+{
+  "title": "Ston Potovalni Vodnik: Obzidje, ostrige in namestitev",
+  "metaDescription": "Načrtujte potovanje v Ston, Hrvaška. Preberite praktične nasvete o parkiranju, potovalnih poteh iz Srednje Evrope, plažah in najboljših območjih za bivanje na Pelješcu.",
+  "intro": "Ston je zgodovinsko mesto ob vznožju polotoka Pelješac, znano po 5,5 kilometra dolgem obzidju iz 14. stoletja, delujočih solinah in bližini gojišč ostrig v zalivu Mali Ston. Primeren je za popotnike, ki iščejo izhodišče za raziskovanje Južne Dalmacije in otokov brez intenzivnih množic in visokih cen bližnjega Dubrovnika. Mesto se osredotoča na zgodovino in gastronomijo, ne pa na nočno življenje ali letoviške komplekse.\n\nNajboljši čas za obisk je med majem in septembrom. Vrhunec poletja prinaša vroče vreme za kopanje na bližnji plaži Prapratno, medtem ko prehodna obdobja maja, junija in septembra ponujajo hladnejše pogoje za sprehajanje po obzidju in obiskovanje vinskih kleti v regiji. Večina obiskovalcev pride z avtomobilom, saj so možnosti javnega prevoza omejene na lokalne avtobusne proge.",
+  "quickFacts": [
+    {
+      "label": "Najboljši meseci",
+      "value": "Maj do september"
+    },
+    {
+      "label": "Temperatura morja avgusta",
+      "value": "25°C - 26°C"
+    },
+    {
+      "label": "Najbližje letališče",
+      "value": "Letališče Dubrovnik (DBV), 72 km"
+    },
+    {
+      "label": "Glavni tip plaže",
+      "value": "Pesek (Prapratno) in naravne skale"
+    },
+    {
+      "label": "Cenovni razred",
+      "value": "Povprečno za obalo, ceneje kot Dubrovnik"
+    },
+    {
+      "label": "Mobilnost v starem mestu",
+      "value": "Center samo za pešce; parkiranje zunaj obzidja"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Ston (Center)",
+      "bestFor": "Zgodovina, kulinarika in ogledi",
+      "parking": "Plačljiva javna parkirišča tik pred obzidjem",
+      "beach": "3 km do plaže Prapratno",
+      "summary": "Glavno naselje ponuja kamnite hiše, kavarne in neposreden dostop do solin in vhoda na obzidje. Ponuja največ restavracij in storitev, vendar nima neposrednega dostopa do plaže."
+    },
+    {
+      "name": "Mali Ston",
+      "bestFor": "Degustacija ostrig in mirni večeri",
+      "parking": "Omejeno ulično parkiranje in majhna plačljiva parkirišča",
+      "beach": "Brez tradicionalnih plaž; skalnat dostop do obale",
+      "summary": "Majhna vasica na severni strani ožine, povezana s Stonom z obzidjem. Znana je po gojiščih ostrig in tradicionalnih restavracijah z morsko hrano ob vodi."
+    },
+    {
+      "name": "Prapratno",
+      "bestFor": "Družine in ljubitelji plaže",
+      "parking": "Veliko parkirišče v bližini trajekta in plaže",
+      "beach": "Neposreden dostop do peščenega zaliva",
+      "summary": "Nahaja se v zalivu južno od Stona, to območje večinoma sestavljajo velik kamp, nekaj apartmajev in trajektno pristanišče za Mljet. Naravna peščena plaža je plitva in zelo primerna za majhne otroke."
+    },
+    {
+      "name": "Broce",
+      "bestFor": "Samotna sprostitev stran od množic",
+      "parking": "Brezplačno parkirišče običajno nudijo penzioni",
+      "beach": "Betonske ploščadi in majhne prodnate uvale",
+      "summary": "Mirna, tradicionalna ribiška vasica, kratek vozniška vožnja južno od Stona. Obkrožena je z borovimi gozdovi in ponuja sproščeno okolje z minimalnimi komercialnimi objekti."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "940 km, 10-11 ur preko A8, avstrijske A10/A11 (vinjeta + cestnine za tunele), slovenske A2 (vinjeta) in hrvaške A1 (cestninske postaje).",
+      "other": "Let v Dubrovnik, nato 1-urna vožnja ali avtobus."
+    },
+    {
+      "from": "Dunaj",
+      "car": "780 km, 8-9 ur preko avstrijske A2/A9 (vinjeta), slovenske A1/A4 (vinjeta) in hrvaške A1 (cestninske postaje).",
+      "other": "Direkten let v Dubrovnik, nato letališki prevoz ali najem avtomobila."
+    },
+    {
+      "from": "Budimpešta",
+      "car": "720 km, 7.5-8.5 ur preko M7 (vinjeta), ki se povezuje na hrvaški A4 in A1 (cestninske postaje).",
+      "other": "Let v Dubrovnik (sezonske linije so na voljo)."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "540 km, 6-6.5 ur preko slovenske A2 (vinjeta) in hrvaške A1 (cestninske postaje).",
+      "other": "Omejen direkten prevoz; najbolje dosegljivo z vožnjo."
+    },
+    {
+      "from": "Praga",
+      "car": "1.100 km, 11-12 ur preko Avstrije (vinjeta) in Slovenije (vinjeta) do hrvaške A1.",
+      "other": "Let v Dubrovnik, nato lokalni avtobus ali najem avtomobila."
+    },
+    {
+      "from": "Krakov",
+      "car": "1.140 km, 12-13 ur preko Slovaške in Madžarske (vinjete) do hrvaške A1 (cestninske postaje).",
+      "other": "Let iz Krakova ali Katowic v Dubrovnik."
+    }
+  ],
+  "whenToGo": "Turistična sezona traja od maja do oktobra. Julij in avgust sta najtoplejša in najbolj zasedena meseca, s temperaturami morja, ki dosežejo 26°C, in najvišjimi cenami namestitev, čeprav Ston ostaja manj obiskan kot večja obalna mesta. Junij in september ponujata idealne pogoje s toplo vodo, nižjimi cenami in temperaturami okoli 20°C, kar bistveno olajša vzpon po neosenčenem obzidju. Številne lokalne restavracije, ogledi solin in izleti z ladjico za degustacijo ostrig delujejo v celoti v teh mesecih. Od novembra do aprila je mesto zelo mirno; številna turistično usmerjena podjetja se zaprejo za zimo, vreme pa je prehladno za kopanje, čeprav obzidje in nekaj lokalnih gostiln ostaja odprtih skozi celo leto.",
+  "faq": [
+    {
+      "question": "Ali je Ston vreden obiska?",
+      "answer": "Da, Ston je vreden obiska zaradi 5,5 kilometra dolgega srednjeveškega obzidja, zgodovinskih solin in priznane industrije ostrig. Služi kot odlična baza za raziskovanje polotoka Pelješac brez visokih stroškov namestitve v Dubrovniku."
+    },
+    {
+      "question": "Koliko dni potrebujem v Stonu?",
+      "answer": "En do dva dni sta dovolj za ogled glavnih znamenitosti v Stonu in Malem Stonu. Vendar pa mnogi obiskovalci ostanejo štiri do sedem dni, da mesto uporabijo kot praktično izhodišče za dnevne izlete na Mljet, Korčulo in do lokalnih vinskih kleti."
+    },
+    {
+      "question": "Katera je najboljša plaža v Stonu?",
+      "answer": "Plaža Prapratno, ki se nahaja tri kilometre od centra Stona, je najbolj priljubljena plaža v okolici. Odlikuje jo naraven pesek in plitka voda, zaradi česar je izjemno priljubljena v poletnih mesecih."
+    },
+    {
+      "question": "Potrebujem avto v Stonu?",
+      "answer": "Avto je zelo priporočljiv za bivanje v Stonu. Medtem ko lahko hodite med Stonom in Malim Stonom, je vozilo nujno za doseganje najboljših plaž, obisk bližnjih vinskih kleti ali raziskovanje preostalega polotoka Pelješac."
+    },
+    {
+      "question": "Kje parkirati v Stonu?",
+      "answer": "Obstaja več plačljivih občinskih parkirišč, ki se nahajajo tik pred zgodovinskim centrom, ki je namenjen samo pešcem. Parkirnine veljajo v turistični sezoni, mesta pa se lahko hitro zapolnijo sredi dneva v juliju in avgustu."
+    },
+    {
+      "question": "Je Ston primeren za družine?",
+      "answer": "Da, Ston je primeren za družine, ki iščejo miren dopust, še posebej tiste z majhnimi otroki, ki bodo uživali v peščeni, plitvi vodi bližnje plaže Prapratno. Vendar pa mu manjkajo velike letoviške zabave in vodni parki, ki jih najdemo v bolj komercializiranih obalnih destinacijah."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na kratko",
+    "whereToStay": "Kje bivati v Stonu",
+    "gettingThere": "Dostop do Stona",
+    "whenToGo": "Kdaj obiskati",
+    "guides": "Vodniki za Ston",
+    "faq": "Pogosta vprašanja o Stonu",
+    "groups": {
+      "gettingAround": "Parkiranje in gibanje po mestu",
+      "planning": "Načrtovanje in namestitev",
+      "timing": "Kdaj obiskati",
+      "travelers": "Družine, pari in stili potovanj",
+      "activities": "Plaže in aktivnosti",
+      "food": "Hrana in pijača",
+      "comparisons": "Primerjave",
+      "practical": "Praktične informacije"
+    },
+    "car": "Z avtomobilom",
+    "other": "Druge možnosti",
+    "bestFor": "Najboljše za",
+    "parking": "Parkiranje",
+    "beach": "Plaža"
+  },
+  "destination": "ston",
+  "language": "sl",
+  "updatedAt": "2026-10-16T19:57:35.364Z"
+}

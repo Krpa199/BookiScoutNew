@@ -1,0 +1,146 @@
+{
+  "title": "Brijuni: Cestovní průvodce – hotely, trajekt a národní park",
+  "metaDescription": "Naplánujte si výlet do národního parku Brijuni. Průvodce hotely na Velkém Brijunu, ubytováním ve Fažaně, jízdními řády trajektů, parkováním a cestou autem ze střední Evropy.",
+  "intro": "Brijuni je souostroví a národní park u západního pobřeží Istrie, dostupný 15minutovým trajektem z pevninského města Fažana. Láká cestovatele se zájmem o přírodu, římské zříceniny a klidné prostředí bez aut. Hlavní ostrov Veliki Brijun nabízí omezené ubytování v parku a hlavní atrakce, včetně safari parku pod širým nebem, starých olivovníků a stop dinosaurů.\n\nNávštěva je nejpraktičtější od května do září, kdy je jízdní řád trajektů častý a parková zařízení fungují naplno. Jelikož na ostrovech nejsou povolena vozidla, návštěvníci musí parkovat ve Fažaně a spoléhat se na chůzi, pronajatá kola nebo elektrické vozíky pro pohyb po Velkém Brijunu. Ti, kteří upřednostňují rozpočet nebo jednodenní výlety na pevninu, se obvykle ubytují ve Fažaně nebo v okolních pobřežních vesnicích.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "Červen až září"
+    },
+    {
+      "label": "Teplota moře v srpnu",
+      "value": "25°C - 26°C"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Pula (PUY), 13 km od trajektu ve Fažaně"
+    },
+    {
+      "label": "Hlavní typ pláže",
+      "value": "Oblázkové a skalnaté s betonovými plošinami"
+    },
+    {
+      "label": "Cenová úroveň",
+      "value": "Vyšší než chorvatský průměr"
+    },
+    {
+      "label": "Status bez aut",
+      "value": "Ostrovy jsou přísně bez aut (vozidla se nechávají ve Fažaně)"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Veliki Brijun (Ostrov)",
+      "bestFor": "Návštěvníky, kteří chtějí zůstat uvnitř národního parku",
+      "parking": "Auta nejsou povolena; placené parkování ve Fažaně",
+      "beach": "Skalnaté a oblázkové pláže (pláž Saluga) v docházkové vzdálenosti",
+      "summary": "Ubytování přímo na hlavním ostrově vyžaduje rezervaci jednoho z mála státních hotelů nebo vil v blízkosti přístavu. Oblast je zcela bez aut, výjimečně klidná poté, co odejdou jednodenní návštěvníci, a poskytuje okamžitý přístup k turistickým stezkám a historickým památkám parku."
+    },
+    {
+      "name": "Fažana",
+      "bestFor": "Základna pro každodenní výlety trajektem, cestovatele potřebující přístup vozidlem",
+      "parking": "Veřejná placená parkoviště a soukromé hotelové parkování",
+      "beach": "Oblázkové pláže (San Lorenzo, Bi Val) podél pobřeží města",
+      "summary": "Toto pevninské pobřežní město je oficiální branou do národního parku Brijuni. Nabízí širokou škálu soukromých apartmánů, restaurací a přímý přístup k osobnímu trajektu, což je praktické pro ty, kteří prozkoumávají širší Istrijský poloostrov."
+    },
+    {
+      "name": "Peroj",
+      "bestFor": "Cestovatelé s omezeným rozpočtem a rodiny",
+      "parking": "Většinou bezplatné parkování u soukromého ubytování",
+      "beach": "Dlouhé úseky oblázkové pláže 1-2 km od centra",
+      "summary": "Peroj se nachází několik kilometrů severně od Fažany a je klidnější, obytnou vesnicí. Poskytuje cenově dostupnější alternativu k Fažaně, přičemž zůstává dostatečně blízko pro krátkou jízdu autem nebo na kole k trajektovému terminálu Brijuni."
+    },
+    {
+      "name": "Pula (Štinjan)",
+      "bestFor": "Cestovatelé, kteří chtějí městské vybavení a blízkost parku",
+      "parking": "K dispozici v kempech a soukromých pronájmech",
+      "beach": "Oblázkové zátoky (Hidrobaza) s výhledem na souostroví Brijuni",
+      "summary": "Čtvrť Štinjan se nachází přímo naproti Brijunským ostrovům, jižně od Fažany. Tato oblast kombinuje snadný přístup k historickým památkám Puly s přímým výhledem na národní park."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Mnichov",
+      "car": "560 km, 6-7 hodin. A8 na Salcburk, A10 (tunel Tauern), Slovinsko A1 do Koperu, Chorvatsko A9 do Vodnjanu/Fažany. Vyžaduje rakouskou a slovinskou dálniční známku, mýtné za tunely a chorvatské mýtné.",
+      "other": "Přímé sezónní lety do Puly, nebo noční FlixBus do Puly následovaný místním autobusem do Fažany."
+    },
+    {
+      "from": "Vídeň",
+      "car": "580 km, 6 hodin. A2 na jih přes Štýrský Hradec, do Slovinska (Maribor, Lublaň, Koper), pak chorvatská A9 do Fažany. Vyžaduje rakouskou a slovinskou dálniční známku a chorvatské mýtné.",
+      "other": "Přímé lety (Austrian Airlines, Ryanair) do Puly, nebo přímý autobus do Puly."
+    },
+    {
+      "from": "Budapešť",
+      "car": "600 km, 6-7 hodin. M7 k chorvatské hranici, A4 do Záhřebu, A6 do Rijeky, pak A8/A9 přes Istrii. Vyžaduje maďarskou dálniční známku a chorvatské mýtné.",
+      "other": "Přímý autobus (FlixBus) do Puly, nebo vlak do Záhřebu s přestupem na autobus do Puly."
+    },
+    {
+      "from": "Lublaň",
+      "car": "200 km, 2,5 hodiny. Dálnice A1 směrem na Koper, překročení hranic u Dragonje, pak chorvatská A9 k výjezdu Vodnjan. Vyžaduje slovinskou dálniční známku a chorvatské mýtné.",
+      "other": "Přímý autobus nebo sezónní vlakové spojení do Puly."
+    },
+    {
+      "from": "Praha",
+      "car": "880 km, 9,5 hodiny. D1 do Brna, Rakousko A5/A2 přes Vídeň a Štýrský Hradec, Slovinsko A1, Chorvatsko A9. Vyžaduje českou, rakouskou a slovinskou dálniční známku a chorvatské mýtné.",
+      "other": "Přímé sezónní lety do Puly, nebo přímý FlixBus do Puly."
+    },
+    {
+      "from": "Krakov",
+      "car": "1 030 km, 11 hodin. A4 do Katovic, česká A1 do Brna, rakouská A5/A2 do Štýrského Hradce, slovinská A1 do Koperu, chorvatská A9. Vyžaduje dálniční známky pro ČR, AT, SI a mýtné v HR.",
+      "other": "Let do Puly s přestupem (např. přes LOT), nebo dálkový autobus do Puly."
+    }
+  ],
+  "whenToGo": "Brijunské souostroví je otevřeno celoročně, ale návštěvnické služby jsou velmi sezónní. Od května do září je nejlepší počasí na koupání, srpnové teploty moře dosahují vrcholu 26°C. Červenec a srpen jsou nejrušnější a nejdražší měsíce, vyžadující předběžnou rezervaci jak trajektových lístků, tak ostrovních hotelů. V okrajových měsících květnu, červnu a září ceny mírně klesají a počasí zůstává dostatečně teplé pro venkovní aktivity. Od listopadu do března jezdí trajekt podle omezeného jízdního řádu, většina ostrovních hotelů je zavřená a komentované prohlídky jsou méně časté, i když park zůstává přístupný pro zimní procházky.",
+  "faq": [
+    {
+      "question": "Stojí Brijuni za návštěvu?",
+      "answer": "Ano, stojí za to pro ty, kteří se zajímají o kombinaci přírody, římské historie a klidného prostředí bez aut. Jednodenní výlety nabízejí dostatek času k prohlídce hlavních památek turistickým vláčkem, zatímco přenocování láká cestovatele hledající klid po odjezdu posledního trajektu."
+    },
+    {
+      "question": "Kolik dní bych měl strávit na Brijunech?",
+      "answer": "Jeden celý den stačí k prohlídce hlavních atrakcí na Velkém Brijunu, včetně safari parku, stop dinosaurů a římské vily. Návštěvníci, kteří se rozhodnou zůstat na ostrově, si obvykle rezervují 2 až 3 noci, aby si odpočinuli a projeli rozsáhlé stezky na kole."
+    },
+    {
+      "question": "Která je nejlepší pláž na Brijunech?",
+      "answer": "Pláž Saluga je hlavní a nejlépe dostupná pláž na Velkém Brijunu, s písčitým dnem, oblázkovými břehy a stinnými borovými oblastmi. Je vybavena lehátky, sprchami a restaurací, což ji činí praktickou pro rodiny."
+    },
+    {
+      "question": "Potřebuji auto na Brijunech?",
+      "answer": "Ne, auta jsou pro návštěvníky na Brijunských ostrovech přísně zakázána. Své vozidlo musíte zaparkovat na pevnině ve Fažaně a použít osobní trajekt; po ostrově se pohybujete pěšky, na kole nebo si pronajmete elektrický golfový vozík."
+    },
+    {
+      "question": "Kde bych měl zaparkovat, abych navštívil Brijuni?",
+      "answer": "Návštěvníci musí parkovat v pevninském městě Fažana. V blízkosti trajektového terminálu se nachází několik veřejných, otevřených městských parkovišť, která účtují hodinové nebo denní sazby, stejně jako některá soukromá parkoviště kousek od přístavu."
+    },
+    {
+      "question": "Jsou Brijuni vhodné pro rodiny?",
+      "answer": "Ano, Brijuni jsou velmi vhodné pro rodiny díky absenci automobilové dopravy a přítomnosti rovinatých cyklostezek. Děti si obvykle užívají safari park pod širým nebem, stopy dinosaurů a jízdu miniaturním turistickým vláčkem, který objíždí ostrov."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na první pohled",
+    "whereToStay": "Kde se ubytovat na Brijunech",
+    "gettingThere": "Jak se dostat na Brijuni",
+    "whenToGo": "Kdy jet",
+    "guides": "Průvodci po Brijunech",
+    "faq": "Časté dotazy k Brijunům",
+    "groups": {
+      "gettingAround": "Parkování a pohyb po ostrově",
+      "planning": "Plánování a kde se ubytovat",
+      "timing": "Kdy jet",
+      "travelers": "Rodiny, páry a styly cestování",
+      "activities": "Pláže a co dělat",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": "Praktické informace"
+    },
+    "car": "Autem",
+    "other": "Jiné možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "brijuni",
+  "language": "cz",
+  "updatedAt": "2026-10-16T20:38:36.389Z"
+}

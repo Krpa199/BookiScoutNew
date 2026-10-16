@@ -1,0 +1,139 @@
+{
+  "title": "Krka Reiseführer: Eingänge, Parken & Übernachtungsmöglichkeiten",
+  "metaDescription": "Planen Sie eine Reise zum Nationalpark Krka. Entdecken Sie die besten Eingänge, Parkmöglichkeiten, nahegelegene Unterkünfte in Skradin oder Lozovac und die Anreise mit dem Auto.",
+  "intro": "Der Nationalpark Krka erstreckt sich über 109 Quadratkilometer entlang des Flusses Krka in Mitteldalmatien und ist bekannt für sein ausgedehntes Netz von Travertin-Wasserfällen. Er zieht Naturtouristen, Wanderer und Roadtripper an, die die kroatische Küste erkunden. Im Gegensatz zu den Plitvicer Seen ist Krka mit dem Boot befahrbar und liegt viel näher am Meer, was ihn zu einem beliebten Tagesausflug oder einer Übernachtungsmöglichkeit von Split oder Zadar aus macht.\n\nDer Park ist das ganze Jahr über geöffnet, aber Dienstleistungen und Bootsverbindungen sind von Juni bis September am intensivsten. Frühling und Herbst bieten hohe Wasserstände an den Wasserfällen und niedrigere Eintrittspreise. Besucher übernachten typischerweise in der Flussstadt Skradin, dem Bergdorf Lozovac oder der nahegelegenen Küstenstadt Šibenik, um den Park früh morgens vor den Menschenmassen zu erreichen.",
+  "quickFacts": [
+    {
+      "label": "Beste Monate",
+      "value": "Mai bis September"
+    },
+    {
+      "label": "Wassertemperatur im August",
+      "value": "24-26°C (Adria bei Šibenik)"
+    },
+    {
+      "label": "Nächster Flughafen",
+      "value": "Flughafen Split (55 km bis Lozovac)"
+    },
+    {
+      "label": "Hauptstrandtyp",
+      "value": "Kiesflussstrände (Schwimmen an den Hauptfällen verboten)"
+    },
+    {
+      "label": "Preisniveau",
+      "value": "Parkeintritt im Sommer teuer; Hotels durchschnittlich"
+    },
+    {
+      "label": "Begehbarkeit",
+      "value": "Die Altstadt von Skradin ist kompakt und gut zu Fuß erkundbar"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Skradin",
+      "bestFor": "Parkzugang per Boot und Restaurants am Wasser",
+      "parking": "Kostenpflichtige kommunale und private Parkplätze am Stadteingang",
+      "beach": "Plaža Skradin (Kiesflussstrand direkt in der Stadt)",
+      "summary": "Eine historische Flussstadt, die als Hauptzugang per Boot zum Skradinski Buk dient. Sie bietet Restaurants, Marinas und direkte Bootsverbindungen in den Park."
+    },
+    {
+      "name": "Lozovac",
+      "bestFor": "Für Autofahrer und direkten Wanderzugang zu den Wasserfällen",
+      "parking": "Großer kostenloser Parkplatz direkt am Parkeingang",
+      "beach": "15 km zu den Küstenstränden von Šibenik",
+      "summary": "Ein praktisches Gebiet auf dem Plateau oberhalb des Flusses am Haupteingang. Von hier aus können Besucher einen Pfad hinunterwandern oder einen Shuttlebus zu den Hauptwasserfällen nehmen."
+    },
+    {
+      "name": "Šibenik",
+      "bestFor": "Für Stadtbesichtigung und Küstenzugang",
+      "parking": "Kostenpflichtige öffentliche Parkplätze und Garagen am Stadtrand",
+      "beach": "Banj Beach (Kiesstrand, 10 Gehminuten vom Zentrum)",
+      "summary": "Eine Küstenstadt, nur 15 Kilometer von Krka entfernt. Sie bietet eine größere Auswahl an Hotels, Restaurants und Adriastränden, während der Park nur eine kurze Autofahrt entfernt ist."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "750 km, 8-9 Stunden über A8, A10 und kroatische A1; erfordert österreichische/slowenische Vignetten und kroatische Mautgebühren",
+      "other": "Direktflüge nach Split, dann Bus oder Mietwagen"
+    },
+    {
+      "from": "Wien",
+      "car": "640 km, 6,5-7,5 Stunden über A2 und kroatische A1; erfordert österreichische/slowenische Vignetten und kroatische Mautgebühren",
+      "other": "Direktflüge nach Split, dann Flughafentransfer und Bus"
+    },
+    {
+      "from": "Budapest",
+      "car": "645 km, 6-7 Stunden über M7 und kroatische A4/A1; erfordert ungarische Vignette und kroatische Mautgebühren",
+      "other": "Zug oder FlixBus nach Split/Šibenik, dann lokaler Bus"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "365 km, 4 Stunden über A1 und kroatische A1; erfordert slowenische Vignette und kroatische Mautgebühren",
+      "other": "Direktbus nach Šibenik, dann lokale Verbindung nach Skradin"
+    },
+    {
+      "from": "Prag",
+      "car": "970 km, 10-11 Stunden über Linz, Graz und Maribor; erfordert österreichische/slowenische Vignetten und kroatische Mautgebühren",
+      "other": "Direktflüge nach Split (Smartwings/Croatia Airlines)"
+    },
+    {
+      "from": "Krakau",
+      "car": "1050 km, 11-12 Stunden über die Slowakei und Ungarn zur kroatischen A1; erfordert slowakische/ungarische Vignetten und kroatische Mautgebühren",
+      "other": "Direktflüge nach Split von Krakau oder Katowice"
+    }
+  ],
+  "whenToGo": "Juli und August sind die heißesten Monate mit Tageshöchsttemperaturen um 30-33°C, was die größten Menschenmengen und höchsten Parkeintrittspreise mit sich bringt (historisch bis zu 40 €). Von Mai bis Juni und von September bis Oktober liegen die Temperaturen zwischen 20-25°C, die Menschenmassen nehmen deutlich ab und die Eintrittskarten sind günstiger. In den Wintermonaten von November bis März sinken die Parkgebühren drastisch, aber Bootsausflüge werden nicht angeboten und mehrere Gastronomiebetriebe in Skradin schließen. Der Wasserfluss an den Hauptwasserfällen ist typischerweise im frühen Frühling nach der Schneeschmelze am stärksten.",
+  "faq": [
+    {
+      "question": "Ist Krka einen Besuch wert?",
+      "answer": "Ja, Krka bietet ausgedehnte Wasserfallnetze und historische Stätten wie die Insel Visovac. Es ist sehr empfehlenswert, wenn Sie eine Alternative zu den Plitvicer Seen suchen, die Bootsfahrten und einen einfacheren Zugang zur Küste bietet."
+    },
+    {
+      "question": "Wie viele Tage brauche ich?",
+      "answer": "Ein ganzer Tag reicht für die Hauptwasserfälle, Bootsfahrten und Aussichtspunkte. Zwei Tage ermöglichen den Besuch der ruhigeren, nördlichen Teile des Parks wie Roški Slap und das Amphitheater Burnum."
+    },
+    {
+      "question": "Was ist der beste Strand?",
+      "answer": "Plaža Skradin ist der am besten zugängliche Flussstrand in der Nähe des Parkeingangs, da das Schwimmen am Skradinski Buk zum Schutz des Ökosystems verboten ist. Für das Schwimmen im Meer ist der Banj Beach in Šibenik 15 Kilometer entfernt."
+    },
+    {
+      "question": "Brauche ich ein Auto?",
+      "answer": "Ein Auto ist für das Hauptgebiet des Skradinski Buk nicht unbedingt erforderlich, wenn Sie in Skradin übernachten oder einen lokalen Bus von Šibenik nehmen. Ein Auto ist jedoch notwendig, um die nördlichen Teile des Parks effizient zu besuchen."
+    },
+    {
+      "question": "Wo soll ich parken?",
+      "answer": "Lozovac verfügt über einen großen, kostenlosen Parkplatz direkt am Parkeingang. Skradin hat mehrere kostenpflichtige kommunale und private Parkplätze, die sich in den Sommermonaten sehr schnell füllen."
+    },
+    {
+      "question": "Ist es gut für Familien?",
+      "answer": "Ja, der Park ist sehr familienfreundlich mit gut gepflegten Holzstegen, lehrreichen Ausstellungen und Bootsfahrten. Kinderwagen können auf den Haupt-Holzpfaden genutzt werden, obwohl es in der Nähe des Wasserfallfußes einige Stufen gibt."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Auf einen Blick",
+    "whereToStay": "Übernachtungsmöglichkeiten in Krka",
+    "gettingThere": "Anreise nach Krka",
+    "whenToGo": "Beste Reisezeit",
+    "guides": "Krka Reiseführer",
+    "faq": "Krka FAQ",
+    "groups": {
+      "gettingAround": "Parken & Fortbewegung",
+      "planning": "Planung & Unterkunft",
+      "timing": "Beste Reisezeit",
+      "travelers": "Familien, Paare & Reisestile",
+      "activities": "Strände & Aktivitäten",
+      "food": "Essen & Trinken",
+      "comparisons": "Vergleiche",
+      "practical": "Praktische Infos"
+    },
+    "car": "Mit dem Auto",
+    "other": "Weitere Optionen",
+    "bestFor": "Am besten für",
+    "parking": "Parken",
+    "beach": "Strand"
+  },
+  "destination": "krka",
+  "language": "de",
+  "updatedAt": "2026-10-16T20:22:03.694Z"
+}

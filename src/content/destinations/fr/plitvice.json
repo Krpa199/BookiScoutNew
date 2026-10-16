@@ -1,0 +1,146 @@
+{
+  "title": "Lacs de Plitvice : Guide de voyage – Entrées, parking et zones",
+  "metaDescription": "Guide pratique des lacs de Plitvice. Planifiez votre itinéraire, trouvez un parking, comprenez les emplacements des entrées et décidez où séjourner près du parc.",
+  "intro": "Les lacs de Plitvice (Plitvička Jezera) sont le parc national le plus grand et le plus visité de Croatie, réputé pour ses 16 lacs en terrasses reliés par de nombreuses cascades. Il attire principalement les randonneurs, les touristes amoureux de la nature et les voyageurs en road trip à travers le pays.\n\nLa visite nécessite une planification préalable, car le nombre de billets quotidiens est strictement limité par heure d'entrée. Les sentiers du parc sont très encombrés en juillet et août, faisant de mai, juin, septembre et octobre les mois optimaux pour des températures de marche confortables et moins de foule. Une voiture est recommandée pour atteindre les hébergements en dehors des limites immédiates du parc, bien que des lignes de bus directes relient les entrées du parc à Zagreb, Zadar et Split.",
+  "quickFacts": [
+    {
+      "label": "Meilleurs mois",
+      "value": "Mai, juin, septembre, octobre"
+    },
+    {
+      "label": "Température de la mer en août",
+      "value": "N/A (Parc national intérieur)"
+    },
+    {
+      "label": "Aéroport le plus proche",
+      "value": "Zadar (ZAD) 130 km ; Zagreb (ZAG) 140 km"
+    },
+    {
+      "label": "Type de plage principal",
+      "value": "N/A (La baignade dans les lacs est strictement interdite)"
+    },
+    {
+      "label": "Niveau de prix",
+      "value": "Élevé (L'entrée du parc en haute saison et les hôtels à proximité dépassent les moyennes nationales)"
+    },
+    {
+      "label": "Accessibilité à pied",
+      "value": "Pas de centre-ville traditionnel ; les sentiers du parc sont réservés aux piétons"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Rastovača (Près de l'entrée 1)",
+      "bestFor": "Visiteurs pour la première fois souhaitant un accès direct à pied aux Lacs Inférieurs et à la Grande Chute d'eau.",
+      "parking": "Parking privé dans les maisons d'hôtes ; parking public payant à l'entrée 1.",
+      "beach": "N/A",
+      "summary": "Un petit groupe de maisons d'hôtes immédiatement au nord de l'entrée 1. Séjourner ici permet aux visiteurs de laisser leur véhicule à leur hébergement et de marcher jusqu'à l'entrée du parc en 10 à 15 minutes."
+    },
+    {
+      "name": "Mukinje & Jezerce (Près de l'entrée 2)",
+      "bestFor": "Visiteurs explorant les Lacs Supérieurs ou recherchant des hôtels publics établis.",
+      "parking": "Parking d'hôtel disponible ; parking public payant à l'entrée 2.",
+      "beach": "N/A",
+      "summary": "Située juste au sud de l'entrée 2, cette zone comprend plusieurs grands hôtels et appartements privés. Un chemin pavé relie directement le village à la billetterie de l'entrée 2 et au quai principal des bateaux."
+    },
+    {
+      "name": "Rakovica & Grabovac",
+      "bestFor": "Voyageurs soucieux de leur budget, familles et ceux qui voyagent en voiture ou en camping-car.",
+      "parking": "Vaste parking gratuit dans les parcs de vacances, les campings et les hôtels ruraux.",
+      "beach": "N/A",
+      "summary": "Situé à 8 à 15 kilomètres au nord du parc le long de la route D1. Cette zone offre une plus grande variété d'options de restauration, de grands complexes de villégiature et des prix généralement plus bas que les environs immédiats du parc."
+    },
+    {
+      "name": "Plitvica Selo",
+      "bestFor": "Séjours calmes et haut de gamme situés directement dans les limites du parc national.",
+      "parking": "Parking privé sur place ; la conduite nécessite de naviguer sur des routes étroites du parc.",
+      "beach": "N/A",
+      "summary": "Un petit village situé juste à côté de la Grande Chute d'eau et du lac Kozjak. Il offre un accès piéton direct aux sentiers via une entrée secondaire (Entrée 3), évitant les principales files d'attente pour les billets."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Munich",
+      "car": "570 km, ~6,5 heures via A8 (DE), A10 (AT), A2 (SI) et D1 (HR). Nécessite des vignettes autrichiennes et slovènes, ainsi que des péages pour le Tauerntunnel et les autoroutes croates.",
+      "other": "FlixBus direct vers les Lacs de Plitvice (environ 9 heures) ou vol pour Zagreb suivi d'un bus."
+    },
+    {
+      "from": "Vienne",
+      "car": "420 km, ~5 heures via A2 jusqu'à Graz, A4 (SI) vers Maribor, A1 (HR) jusqu'à Karlovac, puis D1. Nécessite des vignettes autrichiennes et slovènes et des péages autoroutiers croates.",
+      "other": "FlixBus direct vers les Lacs de Plitvice (environ 7 heures) ou train/vol pour Zagreb suivi d'un bus."
+    },
+    {
+      "from": "Budapest",
+      "car": "480 km, ~5,5 heures via M7 en Croatie (A4), après Zagreb jusqu'à Karlovac (A1), puis D1. Nécessite une e-vignette hongroise et des péages autoroutiers croates.",
+      "other": "Bus ou train pour Zagreb, puis correspondance avec une ligne de bus intérieure vers les Lacs de Plitvice."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "210 km, ~3 heures via A2 jusqu'à Novo Mesto, traversant la frontière vers Karlovac, puis D1 sud. Nécessite une vignette slovène et des péages croates mineurs.",
+      "other": "Bus ou train pour Zagreb, suivi d'une correspondance avec un bus à destination de Plitvice."
+    },
+    {
+      "from": "Prague",
+      "car": "750 km, ~8,5 heures via Brno, Vienne, Graz et Zagreb. Nécessite des vignettes tchèques, autrichiennes et slovènes, ainsi que des péages croates.",
+      "other": "Vol ou bus/train RegioJet direct pour Zagreb, puis correspondance avec un bus local pour le parc."
+    },
+    {
+      "from": "Cracovie",
+      "car": "870 km, ~10 heures via la Slovaquie, la Hongrie (Budapest) et la Croatie (Zagreb). Nécessite des vignettes slovaques et hongroises, ainsi que des péages autoroutiers croates.",
+      "other": "Vol pour Zagreb (généralement via Varsovie ou Vienne), suivi d'un trajet en bus de 2 heures jusqu'au parc."
+    }
+  ],
+  "whenToGo": "Mai et septembre offrent le meilleur équilibre entre une foule modérée et des températures agréables pour la randonnée, généralement comprises entre 15°C et 23°C. Juillet et août sont très encombrés, avec des maximales diurnes autour de 28°C et des prix de billets de haute saison. L'hiver apporte de la neige, des températures glaciales et des prix de billets considérablement réduits, bien que les Lacs Supérieurs et les services internes de bateau et de train ferment généralement de novembre à mars. La baignade est interdite toute l'année, les températures de la mer ne sont donc pas applicables. Les précipitations sont fréquentes au printemps, rendant les cascades particulièrement puissantes.",
+  "faq": [
+    {
+      "question": "Vaut-il la peine d'être visité ?",
+      "answer": "Oui, c'est l'attraction naturelle la plus célèbre de Croatie. Le vaste réseau de passerelles en bois au-dessus de lacs clairs et de cascades est unique en Europe."
+    },
+    {
+      "question": "Combien de jours faut-il ?",
+      "answer": "Une journée complète suffit pour parcourir les sentiers principaux et voir les Lacs Supérieurs et Inférieurs. Séjourner une nuit à proximité permet d'entrer dans le parc à l'heure d'ouverture avant l'arrivée des excursions en bus de midi."
+    },
+    {
+      "question": "Où est la meilleure plage ?",
+      "answer": "La baignade est strictement interdite partout dans le parc national des Lacs de Plitvice pour protéger l'écosystème. Les plages côtières les plus proches se trouvent à Senj ou Zadar, toutes deux à environ 1,5 à 2 heures de route."
+    },
+    {
+      "question": "Ai-je besoin d'une voiture ?",
+      "answer": "Une voiture n'est pas nécessaire pour parcourir le parc si vous séjournez dans un hôtel directement aux entrées 1 ou 2, car les bus de Zagreb et Zadar s'y arrêtent. Cependant, une voiture est indispensable si vous réservez un hébergement dans des villages environnants comme Rakovica ou Korenica."
+    },
+    {
+      "question": "Où est le meilleur endroit pour se garer ?",
+      "answer": "Le parc national gère deux parkings officiels payants principaux (Parking 1 et Parking 2) correspondant aux deux entrées principales. Le stationnement coûte environ 1€ à 2€ de l'heure selon la saison, et les parkings se remplissent rapidement en milieu de matinée en été."
+    },
+    {
+      "question": "Est-ce adapté aux familles ?",
+      "answer": "Oui, mais c'est mieux adapté aux enfants plus âgés qui peuvent marcher plusieurs kilomètres sans aide. Les passerelles en bois sont souvent irrégulières, manquent de garde-corps dans de nombreuses sections et ne conviennent pas aux poussettes."
+    }
+  ],
+  "headings": {
+    "quickFacts": "En bref",
+    "whereToStay": "Où séjourner aux Lacs de Plitvice",
+    "gettingThere": "Se rendre aux Lacs de Plitvice",
+    "whenToGo": "Quand partir",
+    "guides": "Guides des Lacs de Plitvice",
+    "faq": "FAQ des Lacs de Plitvice",
+    "groups": {
+      "gettingAround": "Parking et déplacements",
+      "planning": "Planification et hébergement",
+      "timing": "Quand partir",
+      "travelers": "Familles, couples et styles de voyage",
+      "activities": "Plages et activités",
+      "food": "Restauration",
+      "comparisons": "Comparaisons",
+      "practical": "Infos pratiques"
+    },
+    "car": "En voiture",
+    "other": "Autres options",
+    "bestFor": "Idéal pour",
+    "parking": "Parking",
+    "beach": "Plage"
+  },
+  "destination": "plitvice",
+  "language": "fr",
+  "updatedAt": "2026-10-16T20:19:12.832Z"
+}

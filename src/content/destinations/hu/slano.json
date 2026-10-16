@@ -1,0 +1,146 @@
+{
+  "title": "Slano – Útmutató: Strandok, parkolás és szállás",
+  "metaDescription": "Tervezze meg útját Slanoba, Horvátországba. Találjon naprakész információkat a legjobb strandokról, európai útvonalakról, parkolásról és az öböl körüli szálláslehetőségekről.",
+  "intro": "Slano egy nyugodt tengerparti falu Dalmácia déli részén, egy mély, védett öbölben, ideális választás családok és párok számára, akik pihentető alternatívát keresnek a közeli Dubrovnik helyett. Nyugodt, sekély vizeivel és kavicsos strandjaival a terület tökéletesen alkalmas a laza mediterrán nyaralásra, ahol a hangsúly egyértelműen az úszáson, az étkezésen és a pihenésen van.\n\nA június és szeptember közötti nyári hónapok a legjobb időt és a legmelegebb tengervizet kínálják, bár május és október kellemes az aktív városnézésre a főszezon tömeg nélkül. A látogatók jellemzően Grgurići vagy Banja strandokon pihennek, sétálnak a tengerparti sétányon, vagy a várost stratégiai bázisként használják a Pelješac-félsziget és Dubrovnik felfedezésére.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Júniustól szeptemberig"
+    },
+    {
+      "label": "Augusztusi tengervíz hőmérséklet",
+      "value": "25°C és 27°C között"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Dubrovnik (DBV), 52 km"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Kavicsos és betonozott teraszok"
+    },
+    {
+      "label": "Árszínvonal",
+      "value": "Átlagos Dalmáciához képest, olcsóbb, mint Dubrovnik"
+    },
+    {
+      "label": "Sétálhatóság",
+      "value": "Jól sétálható tengerparti sétány, de nem autómentes"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Slano Központ és Banja",
+      "bestFor": "Hajósoknak és kényelmes hozzáféréshez a szolgáltatásokhoz",
+      "parking": "Nyilvános fizetős parkolók állnak rendelkezésre",
+      "beach": "Rövid sétára a Banja strandtól (kavicsos/sekély)",
+      "summary": "Ez a falu központja, amely az öböl keleti oldalát foglalja magában. Itt található az ACI Marina, a fő szupermarketek és számos helyi étterem."
+    },
+    {
+      "name": "Grgurići",
+      "bestFor": "Családoknak és strandolóknak",
+      "parking": "Korlátozott utcai parkolás, többnyire szállodai parkolók",
+      "beach": "Közvetlen hozzáférés a Grgurići strandhoz (fő kavicsos strand)",
+      "summary": "Az öböl nyugati oldalán található ez a terület, ahol a nagyobb üdülőtelepi szállodák helyezkednek el. Itt találhatók a falu legnépszerűbb strandlétesítményei és vízisport-kölcsönzői."
+    },
+    {
+      "name": "Slađenovići és Kručica",
+      "bestFor": "Pároknak és csendes visszavonulásra vágyóknak",
+      "parking": "A magánvillák parkolója az alapfelszereltség része",
+      "beach": "Közeli sziklás és kavicsos öblök",
+      "summary": "Ezek a csendesebb települések Slano északnyugati részén helyezkednek el a tengerpart mentén. Elszigetelt fürdőhelyeket és hagyományos kőházakat kínálnak a fő üdülőhelyi forgalomtól távol."
+    },
+    {
+      "name": "Banići",
+      "bestFor": "Természetkedvelőknek és pénztárcabarát utazóknak",
+      "parking": "Könnyű magánparkolás a szálláshelyeken",
+      "beach": "Rövid autóútra a Budima strandtól",
+      "summary": "Egy vidéki falu, amely kissé beljebb és a közeli tengerpart mentén helyezkedik el. Megfizethetőbb apartmanokat kínál, miközben rövid autóútra van Slano fő látványosságaitól."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "950 km, kb. 10 óra az A8, A10, A2 úton az A1-es (Horvátország) és D8-as útig. Osztrák matrica, Karawanken-alagút díj, szlovén matrica, horvát útdíjak.",
+      "other": "Közvetlen járat Dubrovnikba (DBV), majd reptéri transzfer vagy helyi busz."
+    },
+    {
+      "from": "Bécs",
+      "car": "800 km, kb. 8,5 óra az A2 úton az A1-es (Horvátország) és D8-as útig. Osztrák matrica, szlovén matrica, horvát útdíjak.",
+      "other": "Közvetlen járat Dubrovnikba (DBV), majd reptéri transzfer."
+    },
+    {
+      "from": "Budapest",
+      "car": "760 km, kb. 8 óra az M7 úton az A4-es és A1-es (Horvátország) és D8-as útig. Magyar matrica, horvát útdíjak.",
+      "other": "Közvetlen járat vagy közvetlen távolsági busz Dubrovnikba."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "600 km, kb. 6,5 óra az A2 úton az A1-es (Horvátország) és D8-as útig. Szlovén matrica, horvát útdíjak.",
+      "other": "Busz Dubrovnikba vagy szezonális járat DBV-re."
+    },
+    {
+      "from": "Prága",
+      "car": "1100 km, kb. 11-12 óra Bécsen, Grazon, az A1-es (Horvátország) és D8-as úton keresztül. Cseh, osztrák, szlovén matricák, horvát útdíjak.",
+      "other": "Közvetlen járat Dubrovnikba (DBV), majd reptéri transzfer."
+    },
+    {
+      "from": "Krakkó",
+      "car": "1150 km, kb. 12-13 óra Szlovákián, Magyarországon (M15/M86), az A1-es (Horvátország) és D8-as úton keresztül. Lengyel útdíjak, szlovák/magyar matricák, horvát útdíjak.",
+      "other": "Közvetlen járat Dubrovnikba (DBV), majd reptéri transzfer."
+    }
+  ],
+  "whenToGo": "A legjobb idő Slano látogatására júniustól szeptemberig van, amikor minden létesítmény nyitva tart, és a tenger hőmérséklete kellemes 25°C és 27°C között van. Július és augusztus a csúcsidőszak, ekkor van a legtöbb ember és a legmagasabb árak, de a védett öböl ritkán tűnik annyira túlzsúfoltnak, mint a nagyobb dalmát üdülőhelyek. Május és október hűvösebb időt kínál, ideális a túrázásra és a közeli Dubrovnik felfedezésére a súlyos nyári hőség nélkül, bár a tenger észrevehetően hűvösebb, és néhány helyi étterem vagy strandkölcsönző zárva tarthat.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni Slano-t?",
+      "answer": "Igen, Slano érdemes meglátogatni egy csendes, pihentető nyaraláshoz. Lassabb tempót, védett strandokat és könnyű hozzáférést kínál Dubrovnikhoz és a Pelješac-félszigethez egyaránt."
+    },
+    {
+      "question": "Hány napig érdemes Slano-ban maradni?",
+      "answer": "3-5 napos tartózkodás tökéletes a helyi strandok és éttermek élvezetéhez. Ha egynapos kirándulásokat tervez Dubrovnikba, Korčulára vagy Mostarba, egy teljes hét ajánlott."
+    },
+    {
+      "question": "Melyik a legjobb strand Slano-ban?",
+      "answer": "A Grgurići strand az öböl nyugati oldalán a legnépszerűbb, tiszta kavicsokkal, sekély vízzel és strandlétesítményekkel. A Banja strand a keleti oldalon szintén kiváló és nagyon nyugodt."
+    },
+    {
+      "question": "Szükségem van autóra Slano-ban?",
+      "answer": "Bár magában a faluban nincs szüksége autóra a közlekedéshez, erősen ajánlott egy. Egy járművel könnyedén tehet egynapos kirándulásokat, látogathat el eldugott öblökbe, és vezethet Dubrovnikba a saját időbeosztása szerint."
+    },
+    {
+      "question": "Hol parkolhatok Slano-ban?",
+      "answer": "Nyilvános fizetős parkolók találhatók az ACI Marina és a falu központja közelében. A legtöbb szálloda, villa és apartman magán parkolóhelyet biztosít vendégei számára."
+    },
+    {
+      "question": "Jó Slano családoknak?",
+      "answer": "Igen, Slano kiváló úti cél családok számára. A mély öböl megvédi a fő strandokat az erős hullámoktól, így a sekély vizek nagyon biztonságosak a kisgyermekek úszásához."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Rövid áttekintés",
+    "whereToStay": "Hol szálljon meg Slano-ban",
+    "gettingThere": "Hogyan juthat el Slano-ba",
+    "whenToGo": "Mikor érdemes utazni",
+    "guides": "Slano útikalauzok",
+    "faq": "Gyakran Ismételt Kérdések Slano-ról",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor érdemes utazni",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Ételek és italok",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb választás",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "slano",
+  "language": "hu",
+  "updatedAt": "2026-10-16T20:03:02.659Z"
+}

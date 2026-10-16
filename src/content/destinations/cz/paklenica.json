@@ -1,0 +1,146 @@
+{
+  "title": "Paklenica: Cestovní průvodce – turistika, pláže a kde se ubytovat",
+  "metaDescription": "Naplánujte si cestu do Paklenice, Chorvatsko. Kompletní průvodce zahrnující turistické trasy, pobřežní vesnice, trasy pro jízdu autem, počasí a nejlepší místa k ubytování.",
+  "intro": "Národní park Paklenica a jeho okolní pobřežní města uspokojí aktivní cestovatele, kteří chtějí kombinovat horskou turistiku a horolezectví se středomořskými plážemi. Starigrad-Paklenica slouží jako hlavní základna, ležící přímo pod pohořím Velebit podél Jaderského moře. Region se vyznačuje strmými vápencovými kaňony, oblázkovými plážemi a pobřežní dálnicí D8 spojující osady.\n\nKvěten, červen a září nabízejí nejpříjemnější teploty pro náročné túry, zatímco červenec a srpen lákají ty, kteří upřednostňují plavání. Letní návštěvníci plánující túru musí začít po stezkách brzy ráno, aby se vyhnuli intenzivnímu polednímu horku. Ubytování tvoří převážně soukromé apartmány a kempy spíše než velké resortové hotely, což zdůrazňuje zaměření oblasti na venkovní rekreaci.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "Květen, červen, září"
+    },
+    {
+      "label": "Teplota moře",
+      "value": "24°C - 26°C v srpnu"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Zadar (ZAD), 40 km"
+    },
+    {
+      "label": "Hlavní typ pláže",
+      "value": "Oblázkové a betonové terasy"
+    },
+    {
+      "label": "Cenová úroveň",
+      "value": "Průměrná pro severní Dalmácii"
+    },
+    {
+      "label": "Pěší dostupnost",
+      "value": "Pěší centrum podél hlavní silnice, není bez aut"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Starigrad-Paklenica",
+      "bestFor": "Poprvé návštěvníci a horolezci",
+      "parking": "Zdarma u většiny penzionů, placená městská parkoviště",
+      "beach": "V pěší vzdálenosti, převážně oblázková",
+      "summary": "Hlavní město poskytuje přímý přístup k vstupu do kaňonu Velika Paklenica, supermarketům a restauracím. Rozprostírá se lineárně podél dálnice D8 s plážemi na pobřežní straně."
+    },
+    {
+      "name": "Seline",
+      "bestFor": "Klidnější pobyty a turisté",
+      "parking": "Obecně snadné a zdarma u penzionů",
+      "beach": "V pěší vzdálenosti, dlouhé oblázkové pláže",
+      "summary": "Seline, ležící několik kilometrů jižně od Starigradu, se nachází u vstupu do kaňonu Mala Paklenica. Nabízí uvolněnější atmosféru s méně davy a rozsáhlými oblázkovými plážemi, jako je Pisak."
+    },
+    {
+      "name": "Tribanj",
+      "bestFor": "Odlehlost a scénická pobřežní jízda",
+      "parking": "Dostatek místa u penzionů a kempů",
+      "beach": "Většinou skalnaté zátoky a betonové desky",
+      "summary": "Řada malých osad ležících severozápadně od Starigradu. Návštěvníci zde zůstávají kvůli klidnému prostředí a nerušeným výhledům na moře mimo hlavní turistickou infrastrukturu."
+    },
+    {
+      "name": "Rovanjska",
+      "bestFor": "Snadný přístup k dálnici",
+      "parking": "Neomezené kolem ubytovacích zařízení",
+      "beach": "Oblázkové a betonové",
+      "summary": "Malá vesnice na jižním konci Paklenické riviéry, nacházející se hned za Maslenickým mostem. Poskytuje rychlý přístup k dálnici A1 a Zadaru."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Mnichov",
+      "car": "720 km, 8-9 hodin přes Salcburk, Villach (A10), Lublaň, Záhřeb (A1). Rakouská dálniční známka, mýtné tunely Karavanky/Taury, slovinská dálniční známka, chorvatské mýtné.",
+      "other": "Let do Zadaru přes přestupní letiště nebo sezónní přímé lety."
+    },
+    {
+      "from": "Vídeň",
+      "car": "560 km, 6 hodin přes Štýrský Hradec, Maribor, Záhřeb (A1). Rakouská dálniční známka, slovinská dálniční známka, chorvatské mýtné.",
+      "other": "Přímý let do Zadaru (ZAD) nebo přímý autobus do Zadaru."
+    },
+    {
+      "from": "Budapešť",
+      "car": "630 km, 6-7 hodin po M7 k hranicím, Záhřeb, dálnice A1. Maďarská e-známka, chorvatské mýtné.",
+      "other": "Přímý sezónní let do Zadaru."
+    },
+    {
+      "from": "Lublaň",
+      "car": "310 km, 3,5 hodiny přes Novo Mesto, Bosiljevo, dálnice A1. Slovinská dálniční známka, chorvatské mýtné.",
+      "other": "Přímý autobus do Zadaru, poté místní autobus do Starigrad-Paklenica."
+    },
+    {
+      "from": "Praha",
+      "car": "880 km, 9-10 hodin přes Brno, Vídeň, Štýrský Hradec, Záhřeb (A1). České, rakouské, slovinské dálniční známky, chorvatské mýtné.",
+      "other": "Přímý sezónní let do Zadaru."
+    },
+    {
+      "from": "Krakov",
+      "car": "950-1000 km, 10-11 hodin přes Slovensko, Maďarsko (M15/M86), Záhřeb (A1). Slovenské, maďarské dálniční známky, chorvatské mýtné.",
+      "other": "Přímý sezónní let do Zadaru."
+    }
+  ],
+  "whenToGo": "Teploty moře dosahují v červenci a srpnu 24°C až 26°C, což přitahuje největší davy a nejvyšší ceny ubytování, i když tyto měsíce jsou často příliš horké pro namáhavou polední turistiku. Květen, červen a září nabízejí nejlepší rovnováhu pro venkovní aktivity s denními maximy kolem 22°C až 26°C a nižšími cenami pokojů, zatímco moře zůstává dostatečně teplé na koupání od konce června. Mezi říjnem a dubnem mnoho místních restaurací, kempů a hotelů ve Starigradu zavírá a region zažívá silné větry bóra, což omezuje přístup ven.",
+  "faq": [
+    {
+      "question": "Stojí to za návštěvu?",
+      "answer": "Ano, zejména pro milovníky outdoorových aktivit. Paklenica nabízí vzácnou kombinaci dostupných středomořských pláží a vysoce kvalitní alpské turistiky a horolezectví v okruhu několika kilometrů od sebe."
+    },
+    {
+      "question": "Kolik dní potřebuji?",
+      "answer": "Optimální jsou tři až pět dní. To umožňuje dva celé dny pěší turistiky v kaňonech Velika a Mala Paklenica, plus čas na odpočinek na pobřeží nebo návštěvu nedalekého Zadaru."
+    },
+    {
+      "question": "Která je nejlepší pláž?",
+      "answer": "Pláže Kulina ve Starigradu a Pisak v Seline jsou nejoblíbenější možnosti. Obě nabízejí přírodní oblázky, čistou vodu a výhled na pohoří Velebit, přičemž Kulina se pyšní historickou zříceninou kamenné věže."
+    },
+    {
+      "question": "Potřebuji auto?",
+      "answer": "Ano, vozidlo je velmi doporučeno. Zatímco Starigrad samotný je částečně schůdný pěšky, auto je nezbytné pro efektivní dosažení vstupů do národního parku, cestování mezi pobřežními vesnicemi a přepravu turistického vybavení."
+    },
+    {
+      "question": "Kde mohu parkovat?",
+      "answer": "Návštěvníci mohou parkovat u hlavního vchodu Velika Paklenica za denní poplatek a v centru Starigradu jsou městská placená parkoviště. Většina soukromých ubytování poskytuje svým hostům vyhrazené parkování mimo ulici."
+    },
+    {
+      "question": "Je to vhodné pro rodiny?",
+      "answer": "Ano, oblast je velmi vhodná pro aktivní rodiny. Hlavní stezka přes Velika Paklenica je zpevněná a přístupná pro děti v její spodní části a oblázkové pláže mají klidné vody vhodné ke koupání."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Stručně",
+    "whereToStay": "Kde se ubytovat v Paklenici",
+    "gettingThere": "Jak se dostat do Paklenice",
+    "whenToGo": "Kdy jet",
+    "guides": "Průvodce po Paklenici",
+    "faq": "Často kladené otázky o Paklenici",
+    "groups": {
+      "gettingAround": "Parkování a doprava po okolí",
+      "planning": "Plánování a kde se ubytovat",
+      "timing": "Kdy jet",
+      "travelers": "Rodiny, páry a styly cestování",
+      "activities": "Pláže a aktivity",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": "Praktické informace"
+    },
+    "car": "Autem",
+    "other": "Jiné možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "paklenica",
+  "language": "cz",
+  "updatedAt": "2026-10-16T20:46:06.364Z"
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Karlovac útikalauz: Strandok, parkolás és szállás",
+  "metaDescription": "Tervezze meg utazását Karlovacba, Horvátországba. Fedezze fel a legjobb városrészeket, autós útvonalakat Európából, parkolási tippeket, folyóparti strandokat és az ideális utazási időszakot.",
+  "intro": "Karlovac központi tranzitpontként és szabadtéri turisztikai célpontként egyaránt szolgál, négy folyó – a Kupa, Korana, Mrežnica és Dobra – összefolyásánál fekszik. A közép-európai látogatók gyakran megállnak itt az Adriai-tenger felé vezető útjukon, vagy maradnak, hogy felfedezzék a környező természetet és a város 16. századi reneszánsz csillag alakú erődítményét.\n\nA város vonzza azokat az utazókat, akik folyami fürdőzést, kajakozást és túrázást keresnek a tengerparti tömegtől távol. A nyarak melegek és ideálisak a vízi tevékenységekhez, míg a tavasz és az ősz hűvösebb hőmérsékletet biztosít az Óváros és a közeli kastélyok felfedezéséhez. A szálláslehetőségek a történelmi központban található belvárosi szállodáktól a külvárosi folyóparti panziókig terjednek.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Június és szeptember között"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "Nem értelmezhető - szárazföldi (a Korana folyó ~24°C)"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Zágráb (ZAG), 60 km"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Folyóparti strandok (füves és burkolt)"
+    },
+    {
+      "label": "Árszínvonal",
+      "value": "A horvát tengerparti átlag alatt"
+    },
+    {
+      "label": "Sétálhatóság",
+      "value": "Az Óváros (Zvijezda) kiválóan sétálható"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Zvijezda (Óváros)",
+      "bestFor": "Első alkalommal utazók és történelemrajongók",
+      "parking": "Fizetős utcai parkolás, néhány gyalogos zóna",
+      "beach": "1,5 km-re a Foginovo folyóparti strandtól",
+      "summary": "A történelmi hatágú csillag alakú központban találhatók a főbb nevezetességek, kávézók és múzeumok. Könnyű hozzáférést biztosít a városi szolgáltatásokhoz és a történelmi építészethez."
+    },
+    {
+      "name": "Rakovac és Korana folyópart",
+      "bestFor": "Úszók és családok",
+      "parking": "Kijelölt ingyenes és fizetős parkolók a sportcsarnok közelében",
+      "beach": "0-500 méterre Foginovo-tól",
+      "summary": "Ez a terület a Korana folyóval határos, és itt találhatók a város fő rekreációs zónái. Az idelátogatók a folyóparti strandokhoz, futópályákhoz és az Aquatika akváriumhoz való közvetlen hozzáférés miatt szállnak meg itt."
+    },
+    {
+      "name": "Dubovac",
+      "bestFor": "Csendesebb tartózkodásra és kastélykilátásra",
+      "parking": "Széles körben elérhető ingyenes utcai parkolás",
+      "beach": "2,5 km-re a Korana folyótól",
+      "summary": "A központtól nyugatra fekvő lakónegyed a 13. századi Dubovac vár alatt terül el. Csendesebb környezetet kínál, miközben közel marad a város főbb látványosságaihoz."
+    },
+    {
+      "name": "Duga Resa",
+      "bestFor": "Természetkedvelőknek és kajakosoknak",
+      "parking": "Általában ingyenes a panziókban és kempingekben",
+      "beach": "Közvetlen hozzáférés a Mrežnica folyóparti strandokhoz",
+      "summary": "Karlovactól 10 km-re délre fekszik ez a szomszédos város a Mrežnica folyó mentén. Népszerű bázis a szabadtéri sportokhoz, és számos folyóparti kempinget és apartmant kínál."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "530 km, ~6 óra az A10 (Ausztria) és A2 (Szlovénia) úton. Osztrák és szlovén autópálya-matrica, horvát útdíjak.",
+      "other": "Közvetlen buszjárat elérhető (FlixBus)"
+    },
+    {
+      "from": "Bécs",
+      "car": "390 km, ~4,5 óra az A2 (Ausztria) és Maribor úton. Osztrák és szlovén autópálya-matrica, horvát útdíjak.",
+      "other": "Vonat vagy busz Zágrábon keresztül"
+    },
+    {
+      "from": "Budapest",
+      "car": "390 km, ~4 óra az M7 (Magyarország) és A4 (Horvátország) úton. Magyar autópálya-matrica, horvát útdíjak.",
+      "other": "Busz vagy vonat Zágrábon keresztül"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "110 km, ~1,5 óra az A2-n Novo Mestóig, majd Metlika felé. Szlovén autópálya-matrica szükséges.",
+      "other": "Közvetlen vonat vagy busz"
+    },
+    {
+      "from": "Prága",
+      "car": "720 km, ~8,5 óra Bécsen és Grazon keresztül. Cseh, osztrák, szlovén autópálya-matrica; horvát útdíjak.",
+      "other": "Repülőút Zágrábba, majd busz vagy vonat"
+    },
+    {
+      "from": "Krakkó",
+      "car": "820 km, ~9,5 óra Szlovákián és Magyarországon keresztül. Szlovák, magyar autópálya-matrica; horvát útdíjak.",
+      "other": "Repülőút Zágrábba, majd busz"
+    }
+  ],
+  "whenToGo": "A nyár (június-augusztus) hozza a legmelegebb időjárást, nappali 28-30°C körüli csúcshőmérsékletekkel, és a Korana folyó elérheti a fürdésre alkalmas 24°C-ot. Ez a legforgalmasabb időszak, bár a tömeg jelentősen kisebb és az árak alacsonyabbak, mint az Adriai-tenger partján. A legtöbb szabadtéri létesítmény, vízi park és folyóparti bár teljes üzemben működik. A tavasz (április-május) és az ősz (szeptember-október) hűvösebb, 15-20°C körüli nappali hőmérsékleteket kínál, ami alkalmas kerékpározásra és történelmi helyszínek, például a Dubovac vár meglátogatására, bár a folyók általában túl hidegek a fürdéshez. A tél csendes és hideg, néhány turisztikai célú vállalkozás bezár, de a nagyobb múzeumok és a központi szállodák egész évben nyitva tartanak.",
+  "faq": [
+    {
+      "question": "Érdemes Karlovacba látogatni?",
+      "answer": "Igen, Karlovac érdemes meglátogatni azoknak az utazóknak, akiket érdekel a folyóparti kikapcsolódás, a hadtörténelem és a reneszánsz építészet. Nyugodtabb, költségkímélőbb alternatívát kínál a tengerparti városokkal szemben, különösen családok és szabadtéri tevékenységek kedvelőinek."
+    },
+    {
+      "question": "Hány napra van szükségem Karlovacban?",
+      "answer": "Egy-két nap elegendő a főbb látnivalók megtekintéséhez és a folyókban való fürdőzéshez. Hosszabb, három-négy napos tartózkodás is praktikus, ha a várost bázisként használjuk a Plitvicei-tavakhoz vagy a Žumberak natúrparkhoz vezető egynapos kirándulásokhoz."
+    },
+    {
+      "question": "Melyik a legjobb strand Karlovacban?",
+      "answer": "A Korana folyó melletti Foginovo a város hivatalos és legjobban felszerelt strandja. Búvárplatformokkal, burkolt napozóterületekkel, vízilabdapályával és közeli kávézókkal rendelkezik."
+    },
+    {
+      "question": "Szükségem van autóra Karlovacban?",
+      "answer": "Autó nem szükséges a központi Zvijezda negyed felfedezéséhez vagy a fő Korana folyóparti strandok eléréséhez. Azonban erősen ajánlott járművet bérelni a Mrežnica folyó, a környező kastélyok vagy a Turanj-i Hazafias Háborús Múzeum meglátogatásához."
+    },
+    {
+      "question": "Hol parkoljak Karlovacban?",
+      "answer": "A parkolás fizetős zónákra van szervezve a városközpontban (Zvijezda), jellemzően parkolóórák vagy SMS-fizetés segítségével. Ingyenes parkolás elérhető a Korana folyó melletti Karlovaci Sportcsarnok közelében található nagy parkolókban, rövid sétára a központtól."
+    },
+    {
+      "question": "Karlovac jó családoknak?",
+      "answer": "Igen, a város kiválóan alkalmas családok számára a sík terep, a kiterjedt parkok és a folyóparti fürdőhelyek miatt. Az olyan látnivalók, mint az Aquatika édesvízi akvárium és a felszerelt Foginovo strand közvetlenül a gyermekek igényeit szolgálják."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Áttekintés",
+    "whereToStay": "Hol érdemes megszállni Karlovacban",
+    "gettingThere": "Utazás Karlovacba",
+    "whenToGo": "Mikor érdemes utazni",
+    "guides": "Karlovac útikalauzok",
+    "faq": "Karlovac GYIK",
+    "groups": {
+      "gettingAround": "Közlekedés és parkolás",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor érdemes utazni",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és programok",
+      "food": "Ételek és italok",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Ajánlott",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "karlovac",
+  "language": "hu",
+  "updatedAt": "2026-10-16T21:08:50.237Z"
+}

@@ -1,0 +1,139 @@
+{
+  "title": "Kornati-szigetek Útikalauz: Hajókirándulások, Robinson szállások és Szigetek",
+  "metaDescription": "Tervezze meg utazását a Kornati-szigetekre. Információk a Robinson szállásokról, murteri hajókirándulásokról, útvonalakról, parkolásról és a sziget logisztikáról.",
+  "intro": "A Kornati-szigetcsoport 89, nagyrészt lakatlan sziget, szigetecske és zátony sűrű csoportja Észak-Dalmáciában, nemzeti parkként védett. A tájat kopár, sziklás terep, meredek, nyílt tengerre néző sziklafalak és tiszta, mély vizek jellemzik. Főként vitorlázókat, búvárokat és olyan látogatókat vonz, akik elszigetelt „Robinson Crusoe” stílusú nyaralásra vágynak hálózaton kívüli kőházakban.\n\nA szigetek megközelítése kizárólag hajóval lehetséges; autó vagy komp nem közlekedik a nemzeti park határain belül. A legtöbb utazó szervezett egynapos kirándulásokkal vagy magáncharterekkel jut el a Kornati-szigetekre, melyek a szárazföldi kapunak számító Murter városból indulnak. A főszezon júniustól szeptemberig tart, amikor a szezonális haléttermek kinyitnak, és az időjárás elég stabil a biztonságos hajózáshoz.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Júniustól szeptemberig"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "24°C - 26°C"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Zadar (ZAD), 65 km-re Murter városától"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Sziklalapok és kavicsok"
+    },
+    {
+      "label": "Árszínvonal",
+      "value": "Magasabb, mint a szárazföldi átlag"
+    },
+    {
+      "label": "Autómentes",
+      "value": "100% autómentes; csak hajóval megközelíthető"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Murter város (szárazföldi kapu)",
+      "bestFor": "Családoknak, autósoknak és egynapos túrák foglalására",
+      "parking": "Fizetős nyilvános parkolók és privát hosszú távú parkolók",
+      "beach": "Homokos és kavicsos (Slanica) a közelben",
+      "summary": "Híddal kapcsolódik a szárazföldhöz, Murter a nemzeti park adminisztratív központja. Standard turista szolgáltatásokat kínál, és ez a fő indulási pont a Kornati-hajókirándulásokhoz."
+    },
+    {
+      "name": "Kornat-sziget (Vrulje és Tarac)",
+      "bestFor": "Hálózaton kívüli „Robinson Crusoe” szállásokra és abszolút csendre",
+      "parking": "Autóval nem megközelíthető; szárazföldi parkolás szükséges",
+      "beach": "Sziklás partok és privát kőmólók",
+      "summary": "A szigetcsoport legnagyobb szigete elszigetelt kőházakat kínál hálózati áram és folyóvíz nélkül. A látogatók napenergiára, ciszternákra és ellátóhajókra támaszkodnak."
+    },
+    {
+      "name": "Žut-sziget",
+      "bestFor": "Vitorlázóknak és yacht legénységnek",
+      "parking": "Autóval nem megközelíthető",
+      "beach": "Többnyire sziklás öblök és beton kikötők",
+      "summary": "Közvetlenül a nemzeti park szigorú határain kívül található, Žut egy ACI Marinával, néhány szezonális étteremmel és biztonságos horgonyzóhelyekkel rendelkezik. Kicsit fejlettebb éjszakai megállót biztosít a tengeri látogatóknak."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "785 km Murterig, 8,5 óra az A8, A10 és A1 útvonalon keresztül. Osztrák autópálya matrica, Karawanken alagút díj, szlovén autópálya matrica és horvát útdíjak szükségesek.",
+      "other": "Repülőút Zadarba, majd busz vagy taxi Murterig."
+    },
+    {
+      "from": "Bécs",
+      "car": "685 km Murterig, 7 óra az A2, szlovén A1/A4 és horvát A1 útvonalon keresztül. Osztrák és szlovén autópálya matrica, valamint horvát útdíjak szükségesek.",
+      "other": "Repülőút Zadarba, vagy közvetlen busz Biogradba/Zadarba."
+    },
+    {
+      "from": "Budapest",
+      "car": "660 km Murterig, 6,5 óra az M7 és horvát A4/A1 útvonalon keresztül. Magyar autópálya matrica és horvát útdíjak szükségesek.",
+      "other": "Közvetlen busz vagy éjszakai vonat Splitbe, helyi tömegközlekedéssel csatlakozva."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "395 km Murterig, 4,5 óra az A2 és horvát A1 útvonalon keresztül. Szlovén autópálya matrica és horvát útdíjak szükségesek.",
+      "other": "Közvetlen busz Zadarba vagy Biograd na Moruba."
+    },
+    {
+      "from": "Prága",
+      "car": "1015 km Murterig, 10,5 óra Ausztrián, Szlovénián és Horvátországon keresztül. Osztrák és szlovén autópálya matrica, valamint horvát útdíjak szükségesek.",
+      "other": "Repülőút Zadarba, vagy RegioJet vonat Splitbe."
+    },
+    {
+      "from": "Krakkó",
+      "car": "1060 km Murterig, 11 óra Szlovákián, Magyarországon és Horvátországon keresztül. Szlovák és magyar autópálya matrica, valamint horvát útdíjak szükségesek.",
+      "other": "Repülőút Zadarba."
+    }
+  ],
+  "whenToGo": "A Kornati-szigetek szigorúan szezonális alapon működnek. Júniustól szeptemberig a tenger hőmérséklete 24°C és 26°C között mozog, ami alkalmassá teszi úszásra és sznorkelezésre. Ezekben a hónapokban a távoli konobák (éttermek) és a Žut-i marina nyitva tartanak. Júliusban és augusztusban van a legnagyobb hajóforgalom, és a legmagasabb árak a hajóbérlésekre és a Robinson házakra. Ezen az időszakon kívül, főleg októbertől áprilisig, a szigetcsoport szinte teljesen elhagyatott, a legtöbb létesítmény bezár, és a kiszámíthatatlan szelek megbízhatatlanná teszik a hajóval való megközelítést.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni?",
+      "answer": "Igen, azoknak a látogatóknak, akik a tiszta természetet, a vitorlázást és az úszást részesítik előnyben tiszta vízben. Hiányoznak a tipikus üdülőhelyi szolgáltatások, de kiváló elszigeteltséget és különleges tengeri tájakat kínál."
+    },
+    {
+      "question": "Hány napra van szükségem?",
+      "answer": "Egyetlen nap is elegendő egy szervezett hajókiránduláshoz Murterből vagy Zadarból. Azok számára, akik Robinson házat bérelnek vagy vitorláznak, három-hét nap lehetővé teszi a különböző öblök felfedezését."
+    },
+    {
+      "question": "Mi a legjobb strand?",
+      "answer": "A Lojena strand Levrnaka szigetén a nemzeti park leghíresebb strandja. Homokos aljzat és fehér kavicsos part jellemzi, bár déltől zsúfoltá válik a kirándulóhajóktól."
+    },
+    {
+      "question": "Szükségem van autóra?",
+      "answer": "Autók bevitele szigorúan tilos és fizikailag lehetetlen a nemzeti parkba. Kizárólag magánhajóval, bérelt hajóval vagy szervezett túrával lehet bejutni."
+    },
+    {
+      "question": "Hol parkoljak?",
+      "answer": "A látogatóknak a szárazföldön kell hagyniuk járműveiket. Murter, Biograd na Moru és Zadar biztonságos, hosszú távú parkolókat kínál a marinák közelében azok számára, akik többnapos hajókirándulásra indulnak."
+    },
+    {
+      "question": "Alkalmas családoknak?",
+      "answer": "Olyan családoknak alkalmas, akiknek nagyobb gyermekeik vannak, akik jól érzik magukat hajón és jól úsznak. Az árnyék, homokos strandok és orvosi létesítmények hiánya kihívássá teszi csecsemők vagy kisgyermekek számára."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Rövid áttekintés",
+    "whereToStay": "Hol szálljunk meg a Kornati-szigeteken",
+    "gettingThere": "Hogyan juthatunk el a Kornati-szigetekre",
+    "whenToGo": "Mikor érdemes utazni",
+    "guides": "Kornati útmutatók",
+    "faq": "Kornati GYIK",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor érdemes utazni",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Étel és ital",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati infók"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "kornati",
+  "language": "hu",
+  "updatedAt": "2026-10-16T20:31:42.536Z"
+}

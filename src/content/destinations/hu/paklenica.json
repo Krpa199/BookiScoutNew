@@ -1,0 +1,146 @@
+{
+  "title": "Paklenica útikalauz: Túrázás, strandok és szálláshelyek",
+  "metaDescription": "Tervezze meg utazását Paklenicába, Horvátországba. Teljes útikalauz túraútvonalakról, tengerparti falvakról, autós útvonalakról, időjárásról és a legjobb szálláshelyekről.",
+  "intro": "A Paklenica Nemzeti Park és a környező tengerparti városok aktív utazók számára ideálisak, akik a hegyi túrázást és sziklamászást szeretnék mediterrán strandokkal ötvözni. Starigrad-Paklenica a fő kiindulópontként szolgál, közvetlenül a Velebit hegység alatt, az Adriai-tenger partján fekszik. A régiót meredek mészkő kanyonok, kavicsos strandok és a településeket összekötő tengerparti D8-as főút jellemzi.\n\nMájus, június és szeptember kínálja a legkellemesebb hőmérsékletet az igényes túrákhoz, míg július és augusztus azoknak vonzó, akik a fürdőzést helyezik előtérbe. A nyári túrázni vágyóknak kora reggel kell elindulniuk az útvonalakon, hogy elkerüljék az intenzív déli hőséget. A szálláshelyek nagyrészt magánapartmanokból és kempingekből állnak, nem pedig nagy üdülőhotelekből, kiemelve a terület szabadtéri rekreációra való összpontosítását.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Május, június, szeptember"
+    },
+    {
+      "label": "Tenger hőmérséklete",
+      "value": "24°C - 26°C augusztusban"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Zadar (ZAD), 40 km"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Kavicsos és betonozott teraszok"
+    },
+    {
+      "label": "Árszint",
+      "value": "Átlagos Észak-Dalmáciához képest"
+    },
+    {
+      "label": "Sétálhatóság",
+      "value": "Sétálható központ a főút mentén, nem autómentes"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Starigrad-Paklenica",
+      "bestFor": "Első alkalommal érkezőknek és hegymászóknak",
+      "parking": "Ingyenes a legtöbb vendégházban, fizetős önkormányzati parkolók",
+      "beach": "Sétálótávolságra, többnyire kavicsos",
+      "summary": "A fő város közvetlen hozzáférést biztosít a Velika Paklenica kanyon bejáratához, szupermarketekhez és éttermekhez. Lineárisan terül el a D8-as főút mentén, tengerparti strandokkal."
+    },
+    {
+      "name": "Seline",
+      "bestFor": "Csendesebb tartózkodáshoz és túrázóknak",
+      "parking": "Általában egyszerű és ingyenes a vendégházaknál",
+      "beach": "Sétálótávolságra, hosszú kavicsos strandok",
+      "summary": "Néhány kilométerre délre Starigradtól, Seline a Mala Paklenica kanyon bejáratánál fekszik. Nyugodtabb légkört kínál, kevesebb tömeggel és kiterjedt kavicsos strandokkal, mint például Pisak."
+    },
+    {
+      "name": "Tribanj",
+      "bestFor": "Elvonuláshoz és festői tengerparti autózáshoz",
+      "parking": "Bőséges hely a vendégházaknál és kempingekben",
+      "beach": "Többnyire sziklás öblök és betonlapok",
+      "summary": "Starigradtól északnyugatra fekvő kis települések sorozata. A látogatók a csendes környezet és a zavartalan tengeri kilátás miatt maradnak itt, távol a fő turisztikai infrastruktúrától."
+    },
+    {
+      "name": "Rovanjska",
+      "bestFor": "Könnyű autópálya-hozzáférés",
+      "parking": "Korlátlan a szálláshelyek körül",
+      "beach": "Kavicsos és betonozott",
+      "summary": "Egy kis falu a Paklenica Riviéra déli végén, közvetlenül a Maslenica híd után. Gyors hozzáférést biztosít az A1-es autópályához és Zadarhoz."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "720 km, 8-9 óra Salzburgon, Villachon (A10), Ljubljanán, Zágrábon (A1) keresztül. Osztrák matrica, Karawanken/Tauern alagút díjak, szlovén matrica, horvát útdíjak.",
+      "other": "Repülőút Zadarba átszállással vagy szezonális közvetlen járatokkal."
+    },
+    {
+      "from": "Bécs",
+      "car": "560 km, 6 óra Grazon, Mariboron, Zágrábon (A1) keresztül. Osztrák matrica, szlovén matrica, horvát útdíjak.",
+      "other": "Közvetlen járat Zadarba (ZAD) vagy közvetlen busz Zadarba."
+    },
+    {
+      "from": "Budapest",
+      "car": "630 km, 6-7 óra az M7-esen a határig, Zágráb, A1-es autópálya. Magyar e-matrica, horvát útdíjak.",
+      "other": "Közvetlen szezonális járat Zadarba."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "310 km, 3,5 óra Novo Meston, Bosiljevon keresztül, A1-es autópálya. Szlovén matrica, horvát útdíjak.",
+      "other": "Közvetlen busz Zadarba, majd helyi busz Starigrad-Paklenicába."
+    },
+    {
+      "from": "Prága",
+      "car": "880 km, 9-10 óra Brnón, Bécsen, Grazon, Zágrábon (A1) keresztül. Cseh, osztrák, szlovén matricák, horvát útdíjak.",
+      "other": "Közvetlen szezonális járat Zadarba."
+    },
+    {
+      "from": "Krakkó",
+      "car": "950-1000 km, 10-11 óra Szlovákián, Magyarországon (M15/M86), Zágrábon (A1) keresztül. Szlovák, magyar matricák, horvát útdíjak.",
+      "other": "Közvetlen szezonális járat Zadarba."
+    }
+  ],
+  "whenToGo": "A tenger hőmérséklete júliusban és augusztusban eléri a 24°C-26°C-ot, ami a legnagyobb tömeget és a legmagasabb szállásárakat vonzza, bár ezek a hónapok gyakran túl forróak az erőltetett déli túrázáshoz. Május, június és szeptember kínálja a legjobb egyensúlyt a szabadtéri tevékenységekhez, nappali 22°C-26°C körüli hőmérsékletekkel és alacsonyabb szobaárakkal, miközben a tenger június végétől elég meleg marad a fürdéshez. Október és április között Starigradban számos helyi étterem, kemping és szálloda bezár, és a régióban erős bóra szelek fújnak, ami korlátozza a szabadtéri tevékenységeket.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni?",
+      "answer": "Igen, különösen a szabadtéri tevékenységek szerelmeseinek. Paklenica ritka kombinációját kínálja az elérhető mediterrán strandoknak és a kiváló minőségű alpesi túrázásnak és sziklamászásnak, mindezt egymástól néhány kilométerre."
+    },
+    {
+      "question": "Hány napra van szükségem?",
+      "answer": "Három-öt nap optimális. Ez két teljes napot tesz lehetővé a Velika és Mala Paklenica kanyonok túrázására, plusz időt a tengerparti pihenésre vagy a közeli Zadar meglátogatására."
+    },
+    {
+      "question": "Melyik a legjobb strand?",
+      "answer": "A Kulina strand Starigradban és a Pisak strand Selinében a legnépszerűbb lehetőségek. Mindkettő természetes kavicsot, tiszta vizet és kilátást kínál a Velebit hegyeire, a Kulina pedig egy történelmi, romos kőtoronnyal büszkélkedhet."
+    },
+    {
+      "question": "Szükségem van autóra?",
+      "answer": "Igen, erősen ajánlott egy jármű. Bár Starigrad maga némileg gyalogosan bejárható, autó szükséges a nemzeti park bejáratainak hatékony eléréséhez, a tengerparti falvak közötti utazáshoz és a túrafelszerelés szállításához."
+    },
+    {
+      "question": "Hol parkolhatok?",
+      "answer": "A látogatók a fő Velika Paklenica bejáratánál parkolhatnak napi díj ellenében, és Starigrad központjában is vannak önkormányzati fizetős parkolók. A legtöbb magánszálláshely dedikált utcán kívüli parkolót biztosít vendégeinek."
+    },
+    {
+      "question": "Alkalmas családoknak?",
+      "answer": "Igen, a terület jól megfelel aktív családoknak. A Velika Paklenicán átvezető fő ösvény aszfaltozott és alsó szakaszán gyermekek számára is járható, a kavicsos strandok pedig nyugodt vizükkel alkalmasak a fürdésre."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Áttekintés",
+    "whereToStay": "Hol szálljunk meg Paklenicában",
+    "gettingThere": "Hogyan juthatunk el Paklenicába",
+    "whenToGo": "Mikor utazzunk",
+    "guides": "Paklenica útmutatók",
+    "faq": "Gyakran ismételt kérdések Paklenicáról",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor utazzunk",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Étel és ital",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "paklenica",
+  "language": "hu",
+  "updatedAt": "2026-10-16T20:47:12.721Z"
+}

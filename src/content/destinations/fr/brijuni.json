@@ -1,0 +1,146 @@
+{
+  "title": "Guide de voyage des Brijuni : Hôtels, Ferry et Infos sur le Parc National",
+  "metaDescription": "Préparez votre voyage au Parc National des Brijuni. Guide des hôtels sur Veliki Brijun, où séjourner à Fažana, horaires de ferry, stationnement et informations pour s'y rendre en voiture depuis l'Europe Centrale.",
+  "intro": "Les Brijuni sont un archipel et un parc national situé au large de la côte ouest de l'Istrie, accessible via un ferry de 15 minutes depuis la ville continentale de Fažana. Il attire les voyageurs intéressés par la nature, les ruines romaines et un environnement calme et sans voiture. L'île principale, Veliki Brijun, abrite les hébergements limités du parc et ses principales attractions, notamment un parc safari en plein air, d'anciens oliviers et des empreintes de dinosaures.\n\nLa visite est plus pratique de mai à septembre, lorsque les horaires de ferry sont fréquents et que les installations du parc fonctionnent à pleine capacité. Les véhicules n'étant pas autorisés sur les îles, les visiteurs doivent se garer à Fažana et se déplacer à pied, à vélo ou en voiturettes électriques pour explorer Veliki Brijun. Ceux qui privilégient le budget ou les excursions d'une journée sur le continent séjournent généralement à Fažana ou dans les villages côtiers voisins.",
+  "quickFacts": [
+    {
+      "label": "Meilleurs mois",
+      "value": "Juin à septembre"
+    },
+    {
+      "label": "Temp. de la mer en août",
+      "value": "25°C - 26°C"
+    },
+    {
+      "label": "Aéroport le plus proche",
+      "value": "Pula (PUY), à 13 km du ferry de Fažana"
+    },
+    {
+      "label": "Type de plage principal",
+      "value": "Galets et rochers avec plateformes en béton"
+    },
+    {
+      "label": "Niveau de prix",
+      "value": "Plus élevé que la moyenne croate"
+    },
+    {
+      "label": "Statut sans voiture",
+      "value": "Les îles sont strictement sans voiture (véhicules laissés à Fažana)"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Veliki Brijun (L'île)",
+      "bestFor": "Visiteurs souhaitant séjourner à l'intérieur du parc national",
+      "parking": "Voitures interdites ; stationnement payant à Fažana",
+      "beach": "Plages de rochers et de galets (Plage de Saluga) accessibles à pied",
+      "summary": "Séjourner directement sur l'île principale nécessite de réserver l'un des rares hôtels ou villas gérés par l'État près du port. La zone est entièrement sans voiture, exceptionnellement calme après le départ des excursionnistes, et offre un accès immédiat aux sentiers de randonnée et aux sites historiques du parc."
+    },
+    {
+      "name": "Fažana",
+      "bestFor": "Base pour les excursions quotidiennes en ferry, voyageurs ayant besoin d'un accès véhicule",
+      "parking": "Parkings publics payants et parkings d'hôtels privés",
+      "beach": "Plages de galets (San Lorenzo, Bi Val) le long de la côte de la ville",
+      "summary": "Cette ville côtière continentale est la porte d'entrée officielle du Parc National des Brijuni. Elle offre un large éventail d'appartements privés, de restaurants et un accès direct au ferry passager, ce qui la rend pratique pour ceux qui explorent la péninsule istrienne plus largement."
+    },
+    {
+      "name": "Peroj",
+      "bestFor": "Voyageurs soucieux de leur budget et familles",
+      "parking": "Stationnement majoritairement gratuit dans les hébergements privés",
+      "beach": "Longues étendues de plages de galets à 1-2 km du centre",
+      "summary": "Situé à quelques kilomètres au nord de Fažana, Peroj est un village résidentiel plus calme. Il offre une alternative plus abordable à Fažana tout en restant suffisamment proche pour un court trajet en voiture ou à vélo jusqu'au terminal de ferry des Brijuni."
+    },
+    {
+      "name": "Pula (Štinjan)",
+      "bestFor": "Voyageurs recherchant les commodités de la ville et la proximité du parc",
+      "parking": "Disponible dans les campings et locations privées",
+      "beach": "Criques de galets (Hidrobaza) face à l'archipel des Brijuni",
+      "summary": "Le quartier de Štinjan est situé directement en face des îles Brijuni, au sud de Fažana. Cette zone combine un accès facile aux sites historiques de Pula avec des vues directes sur le parc national."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Munich",
+      "car": "560 km, 6-7 heures. A8 jusqu'à Salzbourg, A10 (tunnel de Tauern), A1 slovène jusqu'à Koper, A9 croate jusqu'à Vodnjan/Fažana. Nécessite des vignettes autrichienne et slovène, des péages de tunnel et des péages croates.",
+      "other": "Vols saisonniers directs vers Pula, ou FlixBus de nuit vers Pula suivi d'un bus local vers Fažana."
+    },
+    {
+      "from": "Vienne",
+      "car": "580 km, 6 heures. A2 sud via Graz, en Slovénie (Maribor, Ljubljana, Koper), puis A9 croate jusqu'à Fažana. Nécessite des vignettes autrichienne et slovène et des péages croates.",
+      "other": "Vols directs (Austrian Airlines, Ryanair) vers Pula, ou bus direct vers Pula."
+    },
+    {
+      "from": "Budapest",
+      "car": "600 km, 6-7 heures. M7 jusqu'à la frontière croate, A4 jusqu'à Zagreb, A6 jusqu'à Rijeka, puis A8/A9 à travers l'Istrie. Nécessite une vignette hongroise et des péages croates.",
+      "other": "Bus direct (FlixBus) vers Pula, ou train jusqu'à Zagreb avec correspondance pour un bus vers Pula."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "200 km, 2,5 heures. Autoroute A1 direction Koper, traversée de la frontière à Dragonja, puis A9 croate jusqu'à la sortie Vodnjan. Nécessite une vignette slovène et des péages croates.",
+      "other": "Bus direct ou liaison ferroviaire saisonnière vers Pula."
+    },
+    {
+      "from": "Prague",
+      "car": "880 km, 9,5 heures. D1 jusqu'à Brno, A5/A2 autrichienne via Vienne et Graz, A1 slovène, A9 croate. Nécessite des vignettes tchèque, autrichienne et slovène, plus des péages croates.",
+      "other": "Vols saisonniers directs vers Pula, ou FlixBus direct vers Pula."
+    },
+    {
+      "from": "Cracovie",
+      "car": "1 030 km, 11 heures. A4 jusqu'à Katowice, A1 tchèque jusqu'à Brno, A5/A2 autrichienne jusqu'à Graz, A1 slovène jusqu'à Koper, A9 croate. Nécessite des vignettes pour la CZ, l'AT, la SI, et des péages en HR.",
+      "other": "Vol vers Pula avec une escale (ex: via LOT), ou bus longue distance vers Pula."
+    }
+  ],
+  "whenToGo": "L'archipel des Brijuni est ouvert toute l'année, mais les services aux visiteurs sont fortement saisonniers. De mai à septembre, le temps est idéal pour la baignade, avec des températures de la mer en août atteignant un pic de 26°C. Juillet et août sont les mois les plus fréquentés et les plus chers, nécessitant une réservation anticipée pour les billets de ferry et les hôtels de l'île. Pendant les mois intermédiaires de mai, juin et septembre, les prix baissent légèrement et le temps reste suffisamment chaud pour les activités de plein air. De novembre à mars, le ferry fonctionne selon un horaire réduit, la plupart des hôtels de l'île ferment, et les visites guidées sont moins fréquentes, bien que le parc reste accessible pour les promenades hivernales.",
+  "faq": [
+    {
+      "question": "Les Brijuni valent-elles la peine d'être visitées ?",
+      "answer": "Oui, c'est intéressant pour ceux qui recherchent un mélange de nature, d'histoire romaine et un environnement calme et sans voiture. Les excursions d'une journée offrent suffisamment de temps pour voir les principaux sites via le petit train touristique, tandis que les séjours d'une nuit attirent les voyageurs en quête d'isolement après le départ du dernier ferry."
+    },
+    {
+      "question": "Combien de jours faut-il passer aux Brijuni ?",
+      "answer": "Une seule journée complète est suffisante pour voir les principales attractions de Veliki Brijun, notamment le parc safari, les empreintes de dinosaures et la villa romaine. Les visiteurs qui choisissent de séjourner sur l'île réservent généralement 2 à 3 nuits pour se détendre et parcourir les nombreux sentiers à vélo."
+    },
+    {
+      "question": "Quelle est la meilleure plage des Brijuni ?",
+      "answer": "La plage de Saluga est la plage principale et la plus accessible de Veliki Brijun, avec un fond marin sablonneux, des rivages de galets et des zones de pins ombragées. Elle est équipée de transats, de douches et d'un restaurant, ce qui la rend pratique pour les familles."
+    },
+    {
+      "question": "Ai-je besoin d'une voiture aux Brijuni ?",
+      "answer": "Non, les voitures sont strictement interdites aux visiteurs sur les îles Brijuni. Vous devez garer votre véhicule sur le continent à Fažana et utiliser le ferry passager ; sur l'île, les déplacements se font à pied, à vélo ou en louant une voiturette de golf électrique."
+    },
+    {
+      "question": "Où dois-je me garer pour visiter les Brijuni ?",
+      "answer": "Les visiteurs doivent se garer dans la ville continentale de Fažana. Il existe plusieurs parkings municipaux publics en plein air près du terminal de ferry, qui facturent à l'heure ou à la journée, ainsi que des parkings privés à quelques pas du port."
+    },
+    {
+      "question": "Les Brijuni sont-elles adaptées aux familles ?",
+      "answer": "Oui, les Brijuni sont très adaptées aux familles grâce à l'absence de circulation automobile et à la présence de pistes cyclables plates. Les enfants apprécient généralement le parc safari en plein air, les empreintes de dinosaures et le petit train touristique qui fait le tour de l'île."
+    }
+  ],
+  "headings": {
+    "quickFacts": "En bref",
+    "whereToStay": "Où séjourner aux Brijuni",
+    "gettingThere": "Comment se rendre aux Brijuni",
+    "whenToGo": "Quand partir",
+    "guides": "Guides sur les Brijuni",
+    "faq": "FAQ sur les Brijuni",
+    "groups": {
+      "gettingAround": "Stationnement & se déplacer",
+      "planning": "Préparation & où séjourner",
+      "timing": "Quand partir",
+      "travelers": "Familles, couples & styles de voyage",
+      "activities": "Plages & activités",
+      "food": "Nourriture & Boissons",
+      "comparisons": "Comparaisons",
+      "practical": "Infos pratiques"
+    },
+    "car": "En voiture",
+    "other": "Autres options",
+    "bestFor": "Idéal pour",
+    "parking": "Stationnement",
+    "beach": "Plage"
+  },
+  "destination": "brijuni",
+  "language": "fr",
+  "updatedAt": "2026-10-16T20:42:10.316Z"
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Paklenica: Popotniški vodnik – Pohodništvo, plaže in namestitve",
+  "metaDescription": "Načrtujte svoje potovanje v Paklenico, Hrvaška. Popoln vodnik, ki zajema pohodniške poti, obalne vasi, poti za vožnjo, vreme in najboljše kraje za prenočevanje.",
+  "intro": "Narodni park Paklenica in okoliška obalna mesta so primerna za aktivne popotnike, ki želijo združiti gorsko pohodništvo in plezanje z mediteranskimi plažami. Starigrad-Paklenica služi kot glavno izhodišče, saj leži neposredno pod Velebitskim gorstvom ob Jadranskem morju. Regijo zaznamujejo strmi apnenčasti kanjoni, prodnate plaže in obalna cesta D8, ki povezuje naselja.\n\nMaj, junij in september ponujajo najbolj udobne temperature za zahtevne pohode, medtem ko julij in avgust privabljata tiste, ki dajejo prednost kopanju. Poletni obiskovalci, ki načrtujejo pohod, morajo začeti poti zgodaj zjutraj, da se izognejo močni opoldanski vročini. Nastanitve so v veliki meri sestavljene iz zasebnih apartmajev in kampov namesto velikih hotelskih kompleksov, kar poudarja osredotočenost območja na rekreacijo na prostem.",
+  "quickFacts": [
+    {
+      "label": "Najboljši meseci",
+      "value": "Maj, junij, september"
+    },
+    {
+      "label": "Temperatura morja",
+      "value": "24°C - 26°C avgusta"
+    },
+    {
+      "label": "Najbližje letališče",
+      "value": "Zadar (ZAD), 40 km"
+    },
+    {
+      "label": "Glavna vrsta plaže",
+      "value": "Prod in betonske terase"
+    },
+    {
+      "label": "Raven cen",
+      "value": "Povprečno za severno Dalmacijo"
+    },
+    {
+      "label": "Dostopnost peš",
+      "value": "Sprehodljiv center ob glavni cesti, ni brez avtomobilov"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Starigrad-Paklenica",
+      "bestFor": "Za prve obiskovalce in plezalce",
+      "parking": "Brezplačno pri večini gostišč, plačljiva občinska parkirišča",
+      "beach": "Peš dostopno, večinoma prodnato",
+      "summary": "Glavno mesto omogoča neposreden dostop do vhoda v kanjon Velika Paklenica, supermarketov in restavracij. Razteza se linearno ob magistralni cesti D8 s plažami na obalni strani."
+    },
+    {
+      "name": "Seline",
+      "bestFor": "Za mirnejše bivanje in pohodnike",
+      "parking": "Na splošno enostavno in brezplačno pri gostiščih",
+      "beach": "Peš dostopno, dolge prodnate plaže",
+      "summary": "Seline, ki se nahaja nekaj kilometrov južno od Starigrada, leži ob vhodu v kanjon Mala Paklenica. Ponuja bolj sproščeno vzdušje z manj gneče in obsežnimi prodnatimi plažami, kot je Pisak."
+    },
+    {
+      "name": "Tribanj",
+      "bestFor": "Za umik in slikovito vožnjo ob obali",
+      "parking": "Dovolj prostora pri gostiščih in kampih",
+      "beach": "Večinoma skalnati zalivi in betonske plošče",
+      "summary": "Niz majhnih zaselkov, ki se nahajajo severozahodno od Starigrada. Obiskovalci bivajo tukaj zaradi mirnega okolja in neoviranega pogleda na morje, stran od glavne turistične infrastrukture."
+    },
+    {
+      "name": "Rovanjska",
+      "bestFor": "Za enostaven dostop do avtoceste",
+      "parking": "Neomejeno okoli nastanitev",
+      "beach": "Prod in beton",
+      "summary": "Majhna vasica na južnem koncu Pakleniške riviere, ki se nahaja takoj za Masleničkim mostom. Omogoča hiter dostop do avtoceste A1 in Zadra."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "720 km, 8-9 ur preko Salzburga, Beljaka (A10), Ljubljane, Zagreba (A1). AT vinjeta, cestnina za predore Karavanke/Tauern, SI vinjeta, HR cestnine.",
+      "other": "Let v Zadar preko povezovalnih letališč ali sezonski direktni leti."
+    },
+    {
+      "from": "Dunaj",
+      "car": "560 km, 6 ur preko Gradca, Maribora, Zagreba (A1). AT vinjeta, SI vinjeta, HR cestnine.",
+      "other": "Direkten let v Zadar (ZAD) ali direkten avtobus v Zadar."
+    },
+    {
+      "from": "Budimpešta",
+      "car": "630 km, 6-7 ur preko M7 do meje, Zagreba, avtocesta A1. HU e-vinjeta, HR cestnine.",
+      "other": "Direkten sezonski let v Zadar."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "310 km, 3,5 ure preko Novega mesta, Bosiljeva, avtoceste A1. SI vinjeta, HR cestnine.",
+      "other": "Direkten avtobus v Zadar, nato lokalni avtobus v Starigrad-Paklenico."
+    },
+    {
+      "from": "Praga",
+      "car": "880 km, 9-10 ur preko Brna, Dunaja, Gradca, Zagreba (A1). CZ, AT, SI vinjete, HR cestnine.",
+      "other": "Direkten sezonski let v Zadar."
+    },
+    {
+      "from": "Krakov",
+      "car": "950-1000 km, 10-11 ur preko Slovaške, Madžarske (M15/M86), Zagreba (A1). SK, HU vinjete, HR cestnine.",
+      "other": "Direkten sezonski let v Zadar."
+    }
+  ],
+  "whenToGo": "Temperatura morja doseže 24°C do 26°C julija in avgusta, kar privablja največ obiskovalcev in povzroča najvišje cene namestitev, čeprav so ti meseci pogosto prevroči za naporno pohodništvo sredi dneva. Maj, junij in september nudijo najboljše ravnovesje za aktivnosti na prostem z dnevnimi temperaturami okoli 22°C do 26°C in nižjimi cenami sob, medtem ko morje ostaja dovolj toplo za kopanje od konca junija dalje. Med oktobrom in aprilom se številne lokalne restavracije, kampi in hoteli v Starigradu zaprejo, regija pa doživlja močne burje, kar omejuje dostop do aktivnosti na prostem.",
+  "faq": [
+    {
+      "question": "Ali je vredno obiska?",
+      "answer": "Da, še posebej za ljubitelje aktivnosti na prostem. Paklenica ponuja redko kombinacijo dostopnih mediteranskih plaž in visokokakovostnega alpskega pohodništva ter plezanja v nekaj kilometrih drug od drugega."
+    },
+    {
+      "question": "Koliko dni potrebujem?",
+      "answer": "Tri do pet dni je optimalno. To omogoča dva polna dneva pohodništva po kanjonih Velika in Mala Paklenica, plus čas za počitek na obali ali obisk bližnjega Zadra."
+    },
+    {
+      "question": "Katera je najboljša plaža?",
+      "answer": "Plaža Kulina v Starigradu in plaža Pisak v Seline so najbolj priljubljene možnosti. Obe ponujata naraven prod, čisto vodo in poglede na Velebit, pri čemer se Kulina ponaša z zgodovinskim porušenim kamnitim stolpom."
+    },
+    {
+      "question": "Potrebujem avto?",
+      "answer": "Da, vozilo je zelo priporočljivo. Čeprav je Starigrad sam po sebi delno dostopen peš, je avto nujen za učinkovit dostop do vhodov v narodni park, potovanje med obalnimi vasmi in prevoz pohodniške opreme."
+    },
+    {
+      "question": "Kje lahko parkiram?",
+      "answer": "Obiskovalci lahko parkirajo pri glavnem vhodu Velika Paklenica za dnevno plačilo, v centru Starigrada pa so na voljo občinska plačljiva parkirišča. Večina zasebnih namestitev ponuja lastna parkirišča izven ceste za svoje goste."
+    },
+    {
+      "question": "Je primerno za družine?",
+      "answer": "Da, območje je zelo primerno za aktivne družine. Glavna pot skozi Veliko Paklenico je asfaltirana in dostopna za otroke v svojem spodnjem delu, prodnate plaže pa imajo mirne vode, primerne za kopanje."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na hitro",
+    "whereToStay": "Kje prenočiti v Paklenici",
+    "gettingThere": "Pot do Paklenice",
+    "whenToGo": "Kdaj obiskati",
+    "guides": "Vodiči po Paklenici",
+    "faq": "Pogosta vprašanja o Paklenici",
+    "groups": {
+      "gettingAround": "Parkiranje in premikanje",
+      "planning": "Načrtovanje in nastanitev",
+      "timing": "Kdaj obiskati",
+      "travelers": "Družine, pari in načini potovanja",
+      "activities": "Plaže in aktivnosti",
+      "food": "Hrana in pijača",
+      "comparisons": "Primerjave",
+      "practical": "Praktične informacije"
+    },
+    "car": "Z avtomobilom",
+    "other": "Druge možnosti",
+    "bestFor": "Najboljše za",
+    "parking": "Parkiranje",
+    "beach": "Plaža"
+  },
+  "destination": "paklenica",
+  "language": "sl",
+  "updatedAt": "2026-10-16T20:48:40.169Z"
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Ston : Guide de voyage – Remparts, huîtres et hébergement",
+  "metaDescription": "Planifiez votre voyage à Ston, Croatie. Lisez des conseils pratiques sur le stationnement, les itinéraires routiers depuis l'Europe centrale, les plages et les meilleurs quartiers où séjourner sur la presqu'île de Pelješac.",
+  "intro": "Ston est une ville historique située à la base de la péninsule de Pelješac, connue pour ses remparts défensifs du XIVe siècle, longs de 5,5 kilomètres, ses salines toujours en activité et sa proximité avec les parcs ostréicoles de la baie de Mali Ston. Elle convient aux voyageurs cherchant une base pour explorer la Dalmatie du Sud et les îles, sans les foules intenses et les prix élevés de la ville voisine de Dubrovnik. La ville est axée sur l'histoire et la gastronomie plutôt que sur la vie nocturne ou les complexes hôteliers.\n\nLa meilleure période pour visiter se situe entre mai et septembre. Le plein été apporte un temps chaud idéal pour la baignade à la plage voisine de Prapratno, tandis que les intersaisons de mai, juin et septembre offrent des conditions plus fraîches pour marcher sur les remparts et visiter les vignobles de la région. La plupart des visiteurs viennent en voiture, car les options de transport en commun se limitent aux lignes de bus locales.",
+  "quickFacts": [
+    {
+      "label": "Meilleurs mois",
+      "value": "Mai à septembre"
+    },
+    {
+      "label": "Température de la mer en août",
+      "value": "25°C - 26°C"
+    },
+    {
+      "label": "Aéroport le plus proche",
+      "value": "Aéroport de Dubrovnik (DBV), 72 km"
+    },
+    {
+      "label": "Type de plage principal",
+      "value": "Sable (Prapratno) et roches naturelles"
+    },
+    {
+      "label": "Niveau de prix",
+      "value": "Moyen pour la côte, moins cher que Dubrovnik"
+    },
+    {
+      "label": "Mobilité dans la vieille ville",
+      "value": "Centre piétonnier uniquement ; stationnement à l'extérieur des remparts"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Ston (Centre)",
+      "bestFor": "Histoire, gastronomie et visites touristiques",
+      "parking": "Parkings publics payants juste à l'extérieur des remparts",
+      "beach": "À 3 km de la plage de Prapratno",
+      "summary": "Le village principal est caractérisé par ses maisons en pierre, ses cafés et son accès direct aux salines et à l'entrée des remparts. Il offre le plus grand choix de restaurants et de commodités, mais n'a pas d'accès direct à la plage."
+    },
+    {
+      "name": "Mali Ston",
+      "bestFor": "Dégustation d'huîtres et soirées calmes",
+      "parking": "Places de stationnement limitées dans la rue et petits parkings payants",
+      "beach": "Pas de plages traditionnelles ; accès rocheux à la côte",
+      "summary": "Un petit village sur le côté nord de l'isthme, relié à Ston par les remparts. Il est célèbre pour ses parcs ostréicoles et ses restaurants de fruits de mer traditionnels au bord de l'eau."
+    },
+    {
+      "name": "Prapratno",
+      "bestFor": "Familles et amateurs de plage",
+      "parking": "Grand parking près du ferry et de la plage",
+      "beach": "Accès immédiat à une baie de sable",
+      "summary": "Située dans une baie au sud de Ston, cette zone se compose principalement d'un grand camping, de quelques appartements et du port de ferry pour Mljet. La plage de sable naturelle est peu profonde et convient parfaitement aux jeunes enfants."
+    },
+    {
+      "name": "Broce",
+      "bestFor": "Détente isolée loin des foules",
+      "parking": "Stationnement gratuit généralement fourni par les maisons d'hôtes",
+      "beach": "Dalles de béton et petites criques de galets",
+      "summary": "Un village de pêcheurs calme et traditionnel à quelques minutes en voiture au sud de Ston. Il est entouré de forêts de pins et offre un environnement paisible avec des infrastructures commerciales minimales."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Munich",
+      "car": "940 km, 10-11 heures via l'A8, les A10/A11 autrichiennes (vignette + péages de tunnel), l'A2 slovène (vignette) et l'A1 croate (péages).",
+      "other": "Vol pour Dubrovnik, puis 1 heure de route ou en bus."
+    },
+    {
+      "from": "Vienne",
+      "car": "780 km, 8-9 heures via les A2/A9 autrichiennes (vignette), les A1/A4 slovènes (vignette) et l'A1 croate (péages).",
+      "other": "Vol direct pour Dubrovnik, puis transfert aéroport ou voiture de location."
+    },
+    {
+      "from": "Budapest",
+      "car": "720 km, 7,5-8,5 heures via la M7 (vignette) se connectant aux A4 et A1 croates (péages).",
+      "other": "Vol pour Dubrovnik (routes saisonnières disponibles)."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "540 km, 6-6,5 heures via l'A2 slovène (vignette) et l'A1 croate (péages).",
+      "other": "Transports directs limités ; il est préférable d'y aller en voiture."
+    },
+    {
+      "from": "Prague",
+      "car": "1 100 km, 11-12 heures via l'Autriche (vignette) et la Slovénie (vignette) jusqu'à l'A1 croate.",
+      "other": "Vol pour Dubrovnik, puis bus local ou voiture de location."
+    },
+    {
+      "from": "Cracovie",
+      "car": "1 140 km, 12-13 heures via la Slovaquie et la Hongrie (vignettes) jusqu'à l'A1 croate (péages).",
+      "other": "Vol de Cracovie ou Katowice à Dubrovnik."
+    }
+  ],
+  "whenToGo": "La saison touristique s'étend de mai à octobre. Juillet et août sont les mois les plus chauds et les plus fréquentés, avec des températures de la mer atteignant 26°C et des prix d'hébergement à leur apogée, bien que Ston reste moins bondée que les grandes villes côtières. Juin et septembre offrent des conditions idéales avec une eau chaude, des prix plus bas et des températures autour de 25°C, ce qui rend l'ascension des remparts non ombragés beaucoup plus agréable. De nombreux restaurants locaux, visites des salines et excursions en bateau pour la dégustation d'huîtres fonctionnent à plein régime durant ces mois. De novembre à avril, la ville est très calme ; de nombreuses entreprises axées sur le tourisme ferment pour l'hiver, et le temps est trop frais pour la baignade, bien que les remparts et quelques restaurants locaux restent ouverts toute l'année.",
+  "faq": [
+    {
+      "question": "Ston vaut-elle le détour ?",
+      "answer": "Oui, Ston vaut le détour pour ses remparts médiévaux de 5,5 kilomètres, ses salines historiques et sa réputée industrie ostréicole. Elle constitue une excellente base pour explorer la péninsule de Pelješac sans les coûts d'hébergement élevés de Dubrovnik."
+    },
+    {
+      "question": "Combien de jours faut-il pour visiter Ston ?",
+      "answer": "Un à deux jours suffisent pour voir les principales attractions de Ston et Mali Ston. Cependant, de nombreux visiteurs restent quatre à sept jours pour utiliser la ville comme base pratique pour des excursions d'une journée à Mljet, Korčula et dans les vignobles locaux."
+    },
+    {
+      "question": "Quelle est la meilleure plage de Ston ?",
+      "answer": "La plage de Prapratno, située à trois kilomètres du centre de Ston, est la plage la plus populaire de la région. Elle est caractérisée par son sable naturel et ses eaux peu profondes, ce qui la rend extrêmement prisée pendant les mois d'été."
+    },
+    {
+      "question": "Faut-il une voiture à Ston ?",
+      "answer": "Une voiture est fortement recommandée pour un séjour à Ston. Bien que vous puissiez marcher entre Ston et Mali Ston, un véhicule est nécessaire pour se rendre aux meilleures plages, visiter les vignobles voisins ou explorer le reste de la péninsule de Pelješac."
+    },
+    {
+      "question": "Où se garer à Ston ?",
+      "answer": "Il y a plusieurs parkings municipaux payants situés juste à l'extérieur du centre historique piétonnier. Des frais de stationnement s'appliquent pendant la saison touristique, et les places peuvent se remplir rapidement en milieu de journée en juillet et août."
+    },
+    {
+      "question": "Ston est-elle adaptée aux familles ?",
+      "answer": "Oui, Ston est adaptée aux familles recherchant des vacances calmes, en particulier celles avec de jeunes enfants qui apprécieront les eaux sablonneuses et peu profondes de la plage voisine de Prapratno. Cependant, elle ne dispose pas des grands divertissements de complexes hôteliers et des parcs aquatiques que l'on trouve dans des destinations côtières plus commercialisées."
+    }
+  ],
+  "headings": {
+    "quickFacts": "En bref",
+    "whereToStay": "Où séjourner à Ston",
+    "gettingThere": "Comment se rendre à Ston",
+    "whenToGo": "Quand partir",
+    "guides": "Guides sur Ston",
+    "faq": "FAQ sur Ston",
+    "groups": {
+      "gettingAround": "Stationnement et déplacements",
+      "planning": "Planification et hébergement",
+      "timing": "Quand partir",
+      "travelers": "Familles, couples et styles de voyage",
+      "activities": "Plages et activités",
+      "food": "Gastronomie et boissons",
+      "comparisons": "Comparaisons",
+      "practical": "Infos pratiques"
+    },
+    "car": "En voiture",
+    "other": "Autres options",
+    "bestFor": "Idéal pour",
+    "parking": "Stationnement",
+    "beach": "Plage"
+  },
+  "destination": "ston",
+  "language": "fr",
+  "updatedAt": "2026-10-16T19:58:05.324Z"
+}

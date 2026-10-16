@@ -1,0 +1,139 @@
+{
+  "title": "Lopud útikalauz: Strandok, kompok és szálláslehetőségek",
+  "metaDescription": "Tervezzen utat Lopud autómentes horvát szigetére. Találjon gyakorlati információkat a dubrovniki kompjáratokról, parkolásról és szálláslehetőségekről.",
+  "intro": "Lopud egy kis, teljesen autómentes sziget az Elafiti-szigetcsoportban, körülbelül egy órányi kompjárattal elérhető Dubrovnikból. Ideális azoknak az utazóknak, akik egy lassú tempójú mediterrán környezetre vágynak, ahol a sétálásra, úszásra és csendes estékre helyeződik a hangsúly, távol a szárazföld zsúfolt forgalmától. A táj tengerparti sétányokból, olajfás ligetekből és történelmi romokból áll.\n\nA sziget élete egyrészt egy fő kikötőfalu körül, másrészt a szemközti parton található Šunj strand homokos kiterjedése körül összpontosul, melyeket egy 25 perces, fás sétaút köt össze. A főszezon május végétől szeptemberig tart, amikor rendszeres kompjáratok indulnak Dubrovnik Gruž kikötőjéből, és minden helyi étterem, szálloda és strandlétesítmény teljes mértékben működik.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Júniustól szeptemberig"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Dubrovnik (DBV), 22 km a Gruž kikötőig + 55 perc komp"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Finom homok (Šunj) és kavicsos/beton (Fő falu)"
+    },
+    {
+      "label": "Árszínvonal",
+      "value": "15-20%-kal a horvát átlag felett"
+    },
+    {
+      "label": "Bejárhatóság",
+      "value": "100% autómentes és jól bejárható"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Lopud tengerpart és kikötő",
+      "bestFor": "Kényelem, étkezés és komphozzáférés",
+      "parking": "Nincs (hagyja az autót Dubrovnikban)",
+      "beach": "Közvetlen hozzáférés kavicsos és beton úszóhelyekhez",
+      "summary": "Ez a sziget elsődleges települése, ahol a komp kiköt. A szállodák, kávézók és történelmi helyszínek legnagyobb koncentrációja egy sík tengerparti sétány mentén található."
+    },
+    {
+      "name": "Lopud falu domboldala",
+      "bestFor": "Csendesebb apartmanok tengerre néző kilátással",
+      "parking": "Nincs",
+      "beach": "5-10 perces séta lefelé a tengerpartra",
+      "summary": "A fő sétány mögött kissé megemelkedve helyezkedik el ez a terület, magánapartmanokat és vendégházakat kínálva. Kőlépcsőn való feljutást igényel, de jobb kilátást és elkülönülést biztosít az esti sétány zajától."
+    },
+    {
+      "name": "Út Šunjra (belső terület)",
+      "bestFor": "Természet és közelebbi hozzáférés a homokos strandhoz",
+      "parking": "Nincs",
+      "beach": "10-15 perces séta Šunj strandra",
+      "summary": "A sziget középső, erdős gerince köti össze a fő falut Šunj-öböllel. Az itt található szállások korlátozottan, fenyőfák között elszórt magánházakra korlátozódnak, több teret és magánéletet kínálva."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "1040 km, ~11 óra Dubrovnik Gruž kikötőjéig az A8, A10 (AT), A1 (HR) útvonalon. Szükséges AT matrica, fizetős alagutak, SI matrica, HR útdíjak. Plusz 55 perc komp Lopudra.",
+      "other": "Közvetlen járatok Dubrovnikba (DBV), majd busz/taxi Gruž kikötőjébe és komp"
+    },
+    {
+      "from": "Bécs",
+      "car": "890 km, ~9,5 óra Gruž kikötőjéig az A2 (AT), A1 (HR) útvonalon. Szükséges AT és SI matrica, HR útdíjak. Plusz 55 perc komp.",
+      "other": "Közvetlen járatok Dubrovnikba (DBV)"
+    },
+    {
+      "from": "Budapest",
+      "car": "800 km, ~8,5 óra Gruž kikötőjéig az M7 (HU) és A1 (HR) útvonalon. Szükséges HU matrica, HR útdíjak. Plusz 55 perc komp.",
+      "other": "Szezonális járatok DBV-be vagy Flixbus Dubrovnikba"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "640 km, ~7 óra Gruž kikötőjéig az A2 (SI) és A1 (HR) útvonalon. Szükséges SI matrica, HR útdíjak. Plusz 55 perc komp.",
+      "other": "Közvetlen busz Dubrovnik buszpályaudvarára (Gruž kikötő mellett)"
+    },
+    {
+      "from": "Prága",
+      "car": "1220 km, ~13 óra Gruž kikötőjéig CZ, AT, SI, HR autópályákon. Szükséges CZ, AT, SI matrica, HR útdíjak. Plusz 55 perc komp.",
+      "other": "Közvetlen szezonális járatok DBV-be"
+    },
+    {
+      "from": "Krakkó",
+      "car": "1140 km, ~12,5 óra Gruž kikötőjéig SK, HU (M3, M7), HR (A1) útvonalon. Szükséges SK, HU matrica, HR útdíjak. Plusz 55 perc komp.",
+      "other": "Közvetlen szezonális járatok DBV-be (Ryanair/LOT)"
+    }
+  ],
+  "whenToGo": "Májusban hűvösebb a tenger (kb. 19°C) és kevesebb a tömeg, bár a sziget egyes szezonális üzletei zárva maradnak. Júniustól augusztusig Lopud teljes kapacitással működik, a tenger hőmérséklete eléri a 27°C-ot, ami vonzza a legtöbb turistát Šunj strandra, és felhajtja a szállásárakat. Szeptember a meleg víz és a csendesebb sétautak egyensúlyát kínálja. Októbertől áprilisig a sziget többnyire kihalt, erősen csökkentett kompjáratokkal és zárva tartó szolgáltatásokkal.",
+  "faq": [
+    {
+      "question": "Érdemes-e Lopudot meglátogatni?",
+      "answer": "Igen, erősen ajánlott azoknak az utazóknak, akik autómentes környezetet keresnek homokos strandokkal. Éles ellentétben áll a közeli Dubrovnik forgalmas utcáival, sokkal nyugodtabb tempót kínálva."
+    },
+    {
+      "question": "Hány napot érdemes Lopudon tölteni?",
+      "answer": "Három-öt nap ideális egy csendes tengerparti nyaraláshoz. Sok látogató egynapos kirándulásként is meglátogatja a szigetet Dubrovnikból, személyszállító komppal."
+    },
+    {
+      "question": "Melyik a legjobb strand a szigeten?",
+      "answer": "Šunj strand a legnépszerűbb, finom homokjáról és kiterjedt sekély vizéről ismert. A sziget déli oldalán található, és gyalogosan vagy elektromos golfkocsival érhető el a fő faluból."
+    },
+    {
+      "question": "Szükségem van autóra Lopudon?",
+      "answer": "Nem, Lopudra nem hozhat autót. Az egész sziget autómentes, ami azt jelenti, hogy minden felfedezés gyalog, kerékpárral vagy helyi elektromos golfkocsikkal történik."
+    },
+    {
+      "question": "Hol parkolhatok, ha Lopudot látogatom?",
+      "answer": "Járművét a szárazföldön, Dubrovnikban kell parkolnia. A legtöbb látogató a Gruž kikötőben található fizetős parkolót vagy a közeli magángarázsokat használja, mielőtt felszáll a Jadrolinija személyszállító kompra."
+    },
+    {
+      "question": "Alkalmas Lopud családoknak?",
+      "answer": "Igen, a sziget kivételesen családbarát az autóforgalom teljes hiánya miatt. Šunj strand sekély, homokos vize különösen jól alkalmas kisgyermekek számára."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Áttekintés",
+    "whereToStay": "Hol szálljon meg Lopudon",
+    "gettingThere": "Hogyan juthat el Lopudra",
+    "whenToGo": "Mikor utazzon",
+    "guides": "Lopud útmutatók",
+    "faq": "Lopud GYIK",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor utazzon",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Étel és ital",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "lopud",
+  "language": "hu",
+  "updatedAt": "2026-10-16T20:09:49.675Z"
+}

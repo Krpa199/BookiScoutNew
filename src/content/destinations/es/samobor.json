@@ -1,0 +1,146 @@
+{
+  "title": "Samobor Guía de Viaje: Senderismo, Aparcamiento y Dónde Alojarse",
+  "metaDescription": "Planifica un viaje a Samobor, Croacia con nuestra guía práctica. Descubre los mejores barrios para alojarse, rutas para conducir, consejos de aparcamiento e información local sobre senderismo.",
+  "intro": "Samobor es una histórica ciudad mercado situada 25 kilómetros al oeste de Zagreb, en las estribaciones orientales de la sierra de Samoborsko Gorje. Atrae a senderistas, amantes de la gastronomía y a quienes buscan una alternativa tranquila a la ajetreada capital croata. La ciudad presenta arquitectura barroca, un centro peatonal y el arroyo Gradna que la atraviesa. Los visitantes vienen por el tradicional pastel kremšnita, las ruinas de un castillo del siglo XIII y el acceso a numerosos senderos boscosos.\n\nLa mejor época para visitarla es de mayo a septiembre, cuando el clima es lo suficientemente cálido para cenar al aire libre y explorar el parque natural circundante. Los inviernos son tranquilos, pero atraen multitudes durante el carnaval anual de Fašnik en febrero.",
+  "quickFacts": [
+    {
+      "label": "Mejores meses",
+      "value": "Mayo, Junio, Septiembre"
+    },
+    {
+      "label": "Temperatura del mar en agosto",
+      "value": "N/A (ciudad interior)"
+    },
+    {
+      "label": "Aeropuerto más cercano",
+      "value": "Zagreb (ZAG), 35 km"
+    },
+    {
+      "label": "Tipo de playa principal",
+      "value": "Ninguna (piscina al aire libre local)"
+    },
+    {
+      "label": "Nivel de precios",
+      "value": "Moderado (más barato que la costa)"
+    },
+    {
+      "label": "Transitabilidad a pie",
+      "value": "Muy transitable a pie, centro peatonal"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centar (Casco Antiguo)",
+      "bestFor": "Primerizos y cultura de cafeterías",
+      "parking": "Aparcamientos públicos de pago fuera de las zonas peatonales",
+      "beach": "N/A (interior)",
+      "summary": "El corazón histórico de Samobor, construido alrededor de Trg kralja Tomislava. Ofrece acceso inmediato a panaderías tradicionales, restaurantes y el paseo principal a lo largo del arroyo Gradna."
+    },
+    {
+      "name": "Giznik",
+      "bestFor": "Estancias tranquilas y comodidad residencial",
+      "parking": "Amplia disponibilidad de aparcamiento privado",
+      "beach": "N/A (interior)",
+      "summary": "Un barrio residencial de lujo y montañoso, inmediatamente encima del casco antiguo. Ofrece un entorno tranquilo y vistas panorámicas, a la vez que se encuentra a poca distancia a pie del centro."
+    },
+    {
+      "name": "Vrhovčak",
+      "bestFor": "Amantes de la naturaleza y privacidad absoluta",
+      "parking": "Amplio aparcamiento privado gratuito",
+      "beach": "N/A (interior)",
+      "summary": "Un pequeño asentamiento situado más arriba en las colinas, rodeado de bosques. Es adecuado para visitantes que deseen acceso directo a rutas de senderismo y una sensación de campo."
+    },
+    {
+      "name": "Rude",
+      "bestFor": "Amantes de la historia y ambiente rústico",
+      "parking": "Fácil aparcamiento en la calle o privado",
+      "beach": "N/A (interior)",
+      "summary": "Un pueblo tradicional 5 kilómetros al suroeste de Samobor, conocido por su historia minera de cobre. Los visitantes se alojan aquí para explorar la mina de Santa Bárbara y las rutas de montaña locales."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Múnich",
+      "car": "540 km, 5.5 a 6 horas vía A8, A10 y A2. Requiere viñetas de autopista austriacas y eslovenas, además de peajes",
+      "other": "Tren nocturno o autobús de larga distancia a Zagreb, luego autobús local a Samobor"
+    },
+    {
+      "from": "Viena",
+      "car": "370 km, 4 horas vía A2, A9 y A1 eslovena. Requiere viñetas austriacas y eslovenas, además de peajes croatas",
+      "other": "Tren o autobús a Zagreb, luego autobús local a Samobor"
+    },
+    {
+      "from": "Budapest",
+      "car": "370 km, 3.5 a 4 horas vía M7 y A4. Requiere viñeta húngara y peajes croatas",
+      "other": "Tren o autobús a Zagreb, luego autobús local a Samobor"
+    },
+    {
+      "from": "Liubliana",
+      "car": "115 km, 1.5 horas vía A2 hasta el cruce fronterizo de Bregana. Requiere una viñeta eslovena",
+      "other": "Tren o autobús a Zagreb, luego autobús local a Samobor"
+    },
+    {
+      "from": "Praga",
+      "car": "650 km, 7.5 horas vía D1 a Brno, luego A2 austriaca y A1 eslovena. Requiere viñetas checas, austriacas y eslovenas",
+      "other": "Vuelo o autobús a Zagreb, luego autobús local a Samobor"
+    },
+    {
+      "from": "Cracovia",
+      "car": "710 km, 8 a 9 horas vía A4, Eslovaquia (D3) y Hungría (M7). Requiere viñetas eslovacas y húngaras",
+      "other": "Vuelo o autobús a Zagreb, luego autobús local a Samobor"
+    }
+  ],
+  "whenToGo": "Samobor es un destino interior durante todo el año, sin mar. Mayo y junio ofrecen un clima agradable para el senderismo (15°C a 25°C), paisajes florecidos y precios moderados. Julio y agosto son los meses más cálidos, con temperaturas que a menudo superan los 30°C, atrayendo a más excursionistas nacionales de Zagreb; todos los restaurantes y refugios de montaña están completamente operativos. Septiembre ofrece un clima más fresco y confortable y tarifas de alojamiento ligeramente más bajas. De octubre a abril, la ciudad es mucho más tranquila y fría, aunque las panaderías y los principales restaurantes del pueblo permanecen abiertos. Febrero experimenta un breve aumento de precios y multitudes por el carnaval anual de Samobor Fašnik.",
+  "faq": [
+    {
+      "question": "¿Vale la pena visitar Samobor?",
+      "answer": "Sí, especialmente por su bien conservada arquitectura barroca y el famoso pastel kremšnita. Sirve como una excelente base de senderismo para las montañas de Samoborsko Gorje o una relajada excursión de un día desde Zagreb."
+    },
+    {
+      "question": "¿Cuántos días necesito en Samobor?",
+      "answer": "Uno o dos días son suficientes para explorar el casco antiguo, visitar las ruinas del castillo y disfrutar de los cafés locales. Añade un día extra si planeas hacer senderismo extenso en el parque natural circundante."
+    },
+    {
+      "question": "¿Cuál es la mejor playa en Samobor?",
+      "answer": "Samobor es un destino interior y no tiene playas de mar. Los visitantes se refrescan en la piscina al aire libre de Vugrinščak o viajan al menos dos horas para llegar a la costa adriática."
+    },
+    {
+      "question": "¿Necesito un coche en Samobor?",
+      "answer": "No se requiere coche para el centro de la ciudad, que es transitable a pie, ni para viajar desde y hacia Zagreb en autobús local. Sin embargo, se recomienda encarecidamente un vehículo para llegar a los senderos de montaña cercanos y a los pueblos rurales."
+    },
+    {
+      "question": "¿Dónde es el mejor lugar para aparcar en Samobor?",
+      "answer": "El aparcamiento en la plaza central está restringido, pero hay grandes aparcamientos públicos de pago justo fuera de la zona peatonal. Los aparcamientos cerca de la estación principal de autobuses y detrás del cine son los más convenientes."
+    },
+    {
+      "question": "¿Es Samobor un buen destino para familias?",
+      "answer": "Sí, es una ciudad muy segura, llana y relajada para familias con niños. La fácil caminata por el bosque hasta las ruinas del Castillo de Samobor y la cercana Cueva de Grgos son actividades populares para niños."
+    }
+  ],
+  "headings": {
+    "quickFacts": "De un vistazo",
+    "whereToStay": "Dónde alojarse en Samobor",
+    "gettingThere": "Cómo llegar a Samobor",
+    "whenToGo": "Cuándo ir",
+    "guides": "Guías de Samobor",
+    "faq": "Preguntas frecuentes de Samobor",
+    "groups": {
+      "gettingAround": "Aparcamiento y cómo moverse",
+      "planning": "Planificación y dónde alojarse",
+      "timing": "Cuándo ir",
+      "travelers": "Familias, parejas y estilos de viaje",
+      "activities": "Playas y cosas que hacer",
+      "food": "Comida y bebida",
+      "comparisons": "Comparaciones",
+      "practical": "Información práctica"
+    },
+    "car": "En coche",
+    "other": "Otras opciones",
+    "bestFor": "Ideal para",
+    "parking": "Aparcamiento",
+    "beach": "Playa"
+  },
+  "destination": "samobor",
+  "language": "es",
+  "updatedAt": "2026-10-16T21:18:02.563Z"
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Paklenica: Przewodnik turystyczny – Wędrówki, plaże i noclegi",
+  "metaDescription": "Zaplanuj swoją podróż do Paklenicy w Chorwacji. Kompletny przewodnik obejmujący szlaki turystyczne, nadmorskie miejscowości, trasy samochodowe, pogodę i najlepsze miejsca na nocleg.",
+  "intro": "Park Narodowy Paklenica i otaczające go nadmorskie miejscowości są idealne dla aktywnych podróżników, którzy chcą połączyć górskie wędrówki i wspinaczkę skałkową z śródziemnomorskimi plażami. Starigrad-Paklenica służy jako główna baza, położona bezpośrednio pod pasmem górskim Velebit wzdłuż Morza Adriatyckiego. Region charakteryzują strome wapienne kaniony, żwirowe plaże i nadmorska autostrada D8 łącząca miejscowości.\n\nMaj, czerwiec i wrzesień oferują najprzyjemniejsze temperatury do wymagających wędrówek, natomiast lipiec i sierpień są atrakcyjne dla tych, którzy priorytetowo traktują pływanie. Letni turyści planujący wędrówki muszą zaczynać szlaki wcześnie rano, aby uniknąć intensywnego upału w środku dnia. Zakwaterowanie składa się głównie z prywatnych apartamentów i kempingów, a nie dużych hoteli-kurortów, co podkreśla skupienie się regionu na rekreacji na świeżym powietrzu.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "Maj, czerwiec, wrzesień"
+    },
+    {
+      "label": "Temperatura morza",
+      "value": "24°C - 26°C w sierpniu"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Zadar (ZAD), 40 km"
+    },
+    {
+      "label": "Główny typ plaży",
+      "value": "Żwirowe i betonowe tarasy"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "Średnie dla północnej Dalmacji"
+    },
+    {
+      "label": "Przystosowanie do spacerów",
+      "value": "Centrum przystosowane do spacerów wzdłuż głównej drogi, nie jest strefą bez samochodów"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Starigrad-Paklenica",
+      "bestFor": "Dla osób odwiedzających po raz pierwszy i wspinaczy",
+      "parking": "Darmowy przy większości pensjonatów, płatne parkingi miejskie",
+      "beach": "W zasięgu spaceru, głównie żwirowe",
+      "summary": "Główne miasto zapewnia bezpośredni dostęp do wejścia do kanionu Velika Paklenica, supermarketów i restauracji. Rozciąga się liniowo wzdłuż autostrady D8 z plażami po stronie wybrzeża."
+    },
+    {
+      "name": "Seline",
+      "bestFor": "Dla spokojniejszych pobytów i turystów pieszych",
+      "parking": "Generalnie łatwy i darmowy przy pensjonatach",
+      "beach": "W zasięgu spaceru, długie żwirowe plaże",
+      "summary": "Położone kilka kilometrów na południe od Starigradu, Seline znajduje się przy wejściu do kanionu Mala Paklenica. Oferuje bardziej relaksującą atmosferę z mniejszymi tłumami i rozległymi żwirowymi plażami, takimi jak Pisak."
+    },
+    {
+      "name": "Tribanj",
+      "bestFor": "Dla odosobnienia i malowniczych przejażdżek wzdłuż wybrzeża",
+      "parking": "Dużo miejsca przy pensjonatach i kempingach",
+      "beach": "Głównie skaliste zatoczki i betonowe płyty",
+      "summary": "Seria małych osad położonych na północny zachód od Starigradu. Odwiedzający zatrzymują się tutaj dla spokojnego otoczenia i niezakłóconych widoków na morze, z dala od głównej infrastruktury turystycznej."
+    },
+    {
+      "name": "Rovanjska",
+      "bestFor": "Dla łatwego dostępu do autostrady",
+      "parking": "Nieograniczone wokół obiektów noclegowych",
+      "beach": "Żwirowe i betonowe",
+      "summary": "Mała wioska na południowym krańcu Riwiery Paklenickiej, położona bezpośrednio za mostem Maslenica. Zapewnia szybki dostęp do autostrady A1 i Zadaru."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monachium",
+      "car": "720 km, 8-9 godzin przez Salzburg, Villach (A10), Lublanę, Zagrzeb (A1). Winieta AT, opłaty za tunele Karawanken/Tauern, winieta SI, opłaty HR.",
+      "other": "Lot do Zadaru przez lotniska przesiadkowe lub sezonowe loty bezpośrednie."
+    },
+    {
+      "from": "Wiedeń",
+      "car": "560 km, 6 godzin przez Graz, Maribor, Zagrzeb (A1). Winieta AT, winieta SI, opłaty HR.",
+      "other": "Bezpośredni lot do Zadaru (ZAD) lub bezpośredni autobus do Zadaru."
+    },
+    {
+      "from": "Budapeszt",
+      "car": "630 km, 6-7 godzin przez M7 do granicy, Zagrzeb, autostrada A1. E-winieta HU, opłaty HR.",
+      "other": "Bezpośredni sezonowy lot do Zadaru."
+    },
+    {
+      "from": "Lublana",
+      "car": "310 km, 3,5 godziny przez Novo Mesto, Bosiljevo, autostrada A1. Winieta SI, opłaty HR.",
+      "other": "Bezpośredni autobus do Zadaru, następnie lokalny autobus do Starigradu-Paklenicy."
+    },
+    {
+      "from": "Praga",
+      "car": "880 km, 9-10 godzin przez Brno, Wiedeń, Graz, Zagrzeb (A1). Winiety CZ, AT, SI, opłaty HR.",
+      "other": "Bezpośredni sezonowy lot do Zadaru."
+    },
+    {
+      "from": "Kraków",
+      "car": "950-1000 km, 10-11 godzin przez Słowację, Węgry (M15/M86), Zagrzeb (A1). Winiety SK, HU, opłaty HR.",
+      "other": "Bezpośredni sezonowy lot do Zadaru."
+    }
+  ],
+  "whenToGo": "Temperatura morza osiąga 24°C do 26°C w lipcu i sierpniu, co przyciąga największe tłumy i najwyższe ceny zakwaterowania, choć te miesiące są często zbyt gorące na forsowne wędrówki w środku dnia. Maj, czerwiec i wrzesień zapewniają najlepszą równowagę dla aktywności na świeżym powietrzu, z dziennymi temperaturami około 22°C do 26°C i niższymi stawkami za pokoje, podczas gdy morze pozostaje wystarczająco ciepłe do pływania od końca czerwca. Między październikiem a kwietniem wiele lokalnych restauracji, kempingów i hoteli w Starigradzie jest zamkniętych, a region doświadcza silnych wiatrów bura, ograniczając dostęp do aktywności na świeżym powietrzu.",
+  "faq": [
+    {
+      "question": "Czy warto odwiedzić?",
+      "answer": "Tak, zwłaszcza dla miłośników aktywności na świeżym powietrzu. Paklenica oferuje rzadkie połączenie dostępnych śródziemnomorskich plaż oraz wysokiej jakości alpejskich szlaków turystycznych i wspinaczki skałkowej w odległości kilku kilometrów od siebie."
+    },
+    {
+      "question": "Ile dni potrzebuję?",
+      "answer": "Trzy do pięciu dni to optymalnie. Pozwala to na dwa pełne dni wędrówek po kanionach Velika i Mala Paklenica, a także czas na odpoczynek na wybrzeżu lub wizytę w pobliskim Zadarze."
+    },
+    {
+      "question": "Która plaża jest najlepsza?",
+      "answer": "Plaża Kulina w Starigradzie i Plaża Pisak w Seline to najpopularniejsze opcje. Obie oferują naturalne żwirowe wybrzeże, czystą wodę i widoki na góry Velebit, a Kulina dodatkowo posiada historyczną, zrujnowaną kamienną wieżę."
+    },
+    {
+      "question": "Czy potrzebuję samochodu?",
+      "answer": "Tak, pojazd jest wysoce zalecany. Chociaż sam Starigrad jest w pewnym stopniu przystosowany do spacerów, samochód jest niezbędny, aby sprawnie dotrzeć do wejść do parku narodowego, podróżować między nadmorskimi wioskami i transportować sprzęt turystyczny."
+    },
+    {
+      "question": "Gdzie mogę zaparkować?",
+      "answer": "Odwiedzający mogą parkować przy głównym wejściu do Velika Paklenica za dzienną opłatą, a w centrum Starigradu znajdują się płatne parkingi miejskie. Większość prywatnych obiektów noclegowych zapewnia swoim gościom dedykowane miejsca parkingowe poza ulicą."
+    },
+    {
+      "question": "Czy jest to dobre dla rodzin?",
+      "answer": "Tak, okolica jest bardzo odpowiednia dla aktywnych rodzin. Główny szlak przez Velika Paklenica jest utwardzony i dostępny dla dzieci w jego dolnej części, a żwirowe plaże mają spokojne wody odpowiednie do pływania."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Gdzie zatrzymać się w Paklenicy",
+    "gettingThere": "Dojazd do Paklenicy",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Paklenicy",
+    "faq": "Paklenica: Najczęściej zadawane pytania",
+    "groups": {
+      "gettingAround": "Parking i poruszanie się",
+      "planning": "Planowanie i gdzie się zatrzymać",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróżowania",
+      "activities": "Plaże i co robić",
+      "food": "Jedzenie i napoje",
+      "comparisons": "Porównania",
+      "practical": "Praktyczne informacje"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "paklenica",
+  "language": "pl",
+  "updatedAt": "2026-10-16T20:45:37.969Z"
+}

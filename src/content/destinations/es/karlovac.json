@@ -1,0 +1,146 @@
+{
+  "title": "Guía de viaje de Karlovac: Playas, aparcamiento y dónde alojarse",
+  "metaDescription": "Planifica tu viaje a Karlovac, Croacia. Descubre los mejores barrios, rutas en coche desde Europa, consejos de aparcamiento, playas fluviales y cuándo visitar.",
+  "intro": "Karlovac sirve como un punto de tránsito central y un destino para el turismo al aire libre, situado en la confluencia de cuatro ríos: el Kupa, Korana, Mrežnica y Dobra. Los visitantes que llegan del centro de Europa a menudo se detienen aquí de camino a la costa adriática o se quedan para explorar la naturaleza circundante y la fortaleza estelar renacentista del siglo XVI de la ciudad.\n\nLa ciudad atrae a viajeros que buscan nadar en el río, hacer kayak y senderismo lejos de las multitudes costeras. Los veranos son cálidos e ideales para actividades acuáticas, mientras que la primavera y el otoño ofrecen temperaturas más frescas para explorar el Casco Antiguo y los castillos cercanos. El alojamiento va desde hoteles céntricos en el casco histórico hasta casas de huéspedes a lo largo de las orillas del río en los suburbios exteriores.",
+  "quickFacts": [
+    {
+      "label": "Mejores meses",
+      "value": "De junio a septiembre"
+    },
+    {
+      "label": "Temperatura del mar en agosto",
+      "value": "N/A - Interior (el río Korana está a ~24°C)"
+    },
+    {
+      "label": "Aeropuerto más cercano",
+      "value": "Zagreb (ZAG), 60 km"
+    },
+    {
+      "label": "Tipo de playa principal",
+      "value": "Playas fluviales (césped y pavimentadas)"
+    },
+    {
+      "label": "Nivel de precios",
+      "value": "Por debajo del promedio costero croata"
+    },
+    {
+      "label": "Facilidad para caminar",
+      "value": "El Casco Antiguo (Zvijezda) es muy transitable"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Zvijezda (Casco Antiguo)",
+      "bestFor": "Primeros visitantes y entusiastas de la historia",
+      "parking": "Aparcamiento en la calle de pago, algunas zonas peatonales",
+      "beach": "1.5 km a la playa fluvial de Foginovo",
+      "summary": "El histórico centro en forma de estrella de seis puntas contiene importantes lugares de interés, cafeterías y museos. Ofrece fácil acceso a servicios urbanos y arquitectura histórica."
+    },
+    {
+      "name": "Rakovac y la Ribera del Korana",
+      "bestFor": "Nadadores y familias",
+      "parking": "Aparcamientos gratuitos y de pago dedicados cerca del polideportivo",
+      "beach": "0-500 metros a Foginovo",
+      "summary": "Esta zona bordea el río Korana y cuenta con las principales zonas recreativas de la ciudad. Los visitantes se alojan aquí para tener acceso inmediato a las playas fluviales, pistas para correr y el acuario Aquatika."
+    },
+    {
+      "name": "Dubovac",
+      "bestFor": "Estancias más tranquilas y vistas al castillo",
+      "parking": "Aparcamiento gratuito en la calle ampliamente disponible",
+      "beach": "2.5 km al río Korana",
+      "summary": "Situado al oeste del centro, este barrio residencial se encuentra bajo el Castillo de Dubovac del siglo XIII. Ofrece un ambiente más tranquilo sin dejar de estar cerca de las principales atracciones de la ciudad."
+    },
+    {
+      "name": "Duga Resa",
+      "bestFor": "Amantes de la naturaleza y kayakistas",
+      "parking": "Generalmente gratuito en casas de huéspedes y campings",
+      "beach": "Acceso directo a las playas del río Mrežnica",
+      "summary": "Situado a 10 km al sur de Karlovac, este pueblo vecino se encuentra a orillas del río Mrežnica. Es una base popular para deportes al aire libre y cuenta con numerosos campings y apartamentos a orillas del río."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Múnich",
+      "car": "530 km, ~6 horas vía A10 (Austria) y A2 (Eslovenia). Viñetas para Austria y Eslovenia, peajes en Croacia.",
+      "other": "Autobús directo disponible (FlixBus)"
+    },
+    {
+      "from": "Viena",
+      "car": "390 km, ~4.5 horas vía A2 (Austria) y Maribor. Viñetas para Austria y Eslovenia, peajes en Croacia.",
+      "other": "Tren o autobús vía Zagreb"
+    },
+    {
+      "from": "Budapest",
+      "car": "390 km, ~4 horas vía M7 (Hungría) y A4 (Croacia). Viñeta para Hungría, peajes en Croacia.",
+      "other": "Autobús o tren vía Zagreb"
+    },
+    {
+      "from": "Liubliana",
+      "car": "110 km, ~1.5 horas vía A2 hasta Novo Mesto, luego Metlika. Se requiere viñeta para Eslovenia.",
+      "other": "Tren o autobús directo"
+    },
+    {
+      "from": "Praga",
+      "car": "720 km, ~8.5 horas vía Viena y Graz. Viñetas para Chequia, Austria, Eslovenia; peajes en Croacia.",
+      "other": "Vuelo a Zagreb, luego autobús o tren"
+    },
+    {
+      "from": "Cracovia",
+      "car": "820 km, ~9.5 horas vía Eslovaquia y Hungría. Viñetas para Eslovaquia, Hungría; peajes en Croacia.",
+      "other": "Vuelo a Zagreb, luego autobús"
+    }
+  ],
+  "whenToGo": "El verano (de junio a agosto) trae el clima más cálido, con máximas diurnas alrededor de los 28-30°C y el río Korana alcanzando una temperatura apta para el baño de 24°C. Esta es la temporada más concurrida, aunque las multitudes son significativamente menores y los precios más bajos que en la costa adriática. La mayoría de las instalaciones al aire libre, parques acuáticos y bares junto al río están en pleno funcionamiento. La primavera (de abril a mayo) y el otoño (de septiembre a octubre) ofrecen temperaturas diurnas más frescas, alrededor de los 15-20°C, adecuadas para el ciclismo y la visita de sitios históricos como el Castillo de Dubovac, aunque los ríos suelen estar demasiado fríos para nadar. El invierno es tranquilo y frío, con algunos negocios turísticos cerrando, pero los principales museos y hoteles céntricos permanecen abiertos todo el año.",
+  "faq": [
+    {
+      "question": "¿Vale la pena visitar Karlovac?",
+      "answer": "Sí, Karlovac merece una visita para los viajeros interesados en la recreación fluvial, la historia militar y la arquitectura renacentista. Ofrece una alternativa más tranquila y económica a las ciudades costeras, especialmente para familias y entusiastas de las actividades al aire libre."
+    },
+    {
+      "question": "¿Cuántos días necesito en Karlovac?",
+      "answer": "Uno o dos días son suficientes para ver los principales lugares de interés y nadar en los ríos. Una estancia más larga de tres a cuatro días es práctica si se utiliza la ciudad como base para excursiones de un día a los Lagos de Plitvice o al parque natural de Žumberak."
+    },
+    {
+      "question": "¿Cuál es la mejor playa de Karlovac?",
+      "answer": "Foginovo, en el río Korana, es la playa oficial y mejor equipada de la ciudad. Cuenta con plataformas de buceo, zonas pavimentadas para tomar el sol, una cancha de waterpolo y cafeterías cercanas."
+    },
+    {
+      "question": "¿Necesito un coche en Karlovac?",
+      "answer": "No es necesario un coche para explorar el distrito central de Zvijezda o para llegar a las principales playas del río Korana. Sin embargo, se recomienda encarecidamente un vehículo para visitar el río Mrežnica, los castillos circundantes o el Museo de la Guerra de la Patria en Turanj."
+    },
+    {
+      "question": "¿Dónde debería aparcar en Karlovac?",
+      "answer": "El aparcamiento está organizado en zonas de pago en el centro de la ciudad (Zvijezda), normalmente utilizando parquímetros o pago por SMS. Hay aparcamiento gratuito disponible en los grandes lotes cerca del Polideportivo de Karlovac, junto al río Korana, a poca distancia a pie del centro."
+    },
+    {
+      "question": "¿Es Karlovac bueno para familias?",
+      "answer": "Sí, la ciudad es muy adecuada para familias debido a su terreno llano, amplios parques y zonas de baño en el río. Atracciones como el acuario de agua dulce Aquatika y la equipada playa Foginovo están diseñadas directamente para niños."
+    }
+  ],
+  "headings": {
+    "quickFacts": "De un vistazo",
+    "whereToStay": "Dónde alojarse en Karlovac",
+    "gettingThere": "Cómo llegar a Karlovac",
+    "whenToGo": "Cuándo ir",
+    "guides": "Guías de Karlovac",
+    "faq": "Preguntas frecuentes de Karlovac",
+    "groups": {
+      "gettingAround": "Aparcamiento y cómo moverse",
+      "planning": "Planificación y dónde alojarse",
+      "timing": "Cuándo ir",
+      "travelers": "Familias, parejas y estilos de viaje",
+      "activities": "Playas y cosas que hacer",
+      "food": "Comida y bebida",
+      "comparisons": "Comparaciones",
+      "practical": "Información práctica"
+    },
+    "car": "En coche",
+    "other": "Otras opciones",
+    "bestFor": "Mejor para",
+    "parking": "Aparcamiento",
+    "beach": "Playa"
+  },
+  "destination": "karlovac",
+  "language": "es",
+  "updatedAt": "2026-10-16T21:11:11.132Z"
+}

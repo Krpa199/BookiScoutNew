@@ -1,0 +1,146 @@
+{
+  "title": "Osijek: Guía de Viaje, Zonas, Rutas y Playas Fluviales",
+  "metaDescription": "Planifica tu viaje a Osijek, Croacia. Encuentra información útil sobre rutas en coche desde Europa Central, los mejores barrios para alojarse y las playas fluviales locales.",
+  "intro": "Osijek es el centro económico y cultural de Eslavonia, en el este de Croacia, situado a orillas del río Drava. Es ideal para viajeros que buscan una alternativa más tranquila y rica en arquitectura a la concurrida costa adriática, ofreciendo monumentos barrocos, parques extensos y amplias rutas ciclistas. Los visitantes suelen venir por el turismo cultural, la gastronomía regional y las actividades al aire libre a lo largo del río.\n\nLa época más agradable para visitar es a finales de primavera y principios de otoño, cuando las temperaturas son suaves y se celebran eventos al aire libre. El verano trae mucho calor, convirtiendo las playas fluviales y los complejos de piscinas de la ciudad en un punto focal, aunque la humedad puede ser intensa. La ciudad es muy fácil de recorrer a pie y cuenta con una red de tranvías fiable, lo que facilita la navegación para quienes llegan en coche o transporte público.",
+  "quickFacts": [
+    {
+      "label": "Mejores meses",
+      "value": "Mayo, Junio, Septiembre"
+    },
+    {
+      "label": "Temperatura del mar en agosto",
+      "value": "N/A (Interior; el río Drava está a ~24°C)"
+    },
+    {
+      "label": "Aeropuerto más cercano",
+      "value": "Aeropuerto de Osijek (OSI), 20 km"
+    },
+    {
+      "label": "Tipo de playa principal",
+      "value": "Playa fluvial de arena y césped"
+    },
+    {
+      "label": "Nivel de precios",
+      "value": "Por debajo de la media croata"
+    },
+    {
+      "label": "Casco antiguo transitable",
+      "value": "Sí, Tvrđa es en gran parte peatonal"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Tvrđa",
+      "bestFor": "Amantes de la historia y la vida nocturna",
+      "parking": "Aparcamientos públicos fuera de las murallas de la fortaleza",
+      "beach": "1,5 km hasta la playa fluvial de Copacabana",
+      "summary": "Este es el centro histórico barroco de Osijek, con calles empedradas, museos y una alta concentración de bares y restaurantes. Es peatonal, con tráfico restringido dentro de las murallas."
+    },
+    {
+      "name": "Gornji Grad (Ciudad Alta)",
+      "bestFor": "Visitantes primerizos que buscan comodidad central",
+      "parking": "Estacionamiento en la calle de pago en zonas designadas",
+      "beach": "2 km hasta Copacabana",
+      "summary": "El centro moderno de la ciudad es conocido por su arquitectura secesionista a lo largo de la Europska Avenija y la plaza principal. Ofrece la más amplia selección de restaurantes, tiendas y servicios cotidianos."
+    },
+    {
+      "name": "Donji Grad (Ciudad Baja)",
+      "bestFor": "Viajeros que buscan una estancia más tranquila y residencial",
+      "parking": "Estacionamiento en la calle más fácil, a menudo gratuito",
+      "beach": "3 km hasta las principales playas fluviales",
+      "summary": "Un barrio más relajado que se extiende hacia el este a lo largo del río Drava. Ofrece amplios paseos fluviales, mercados locales y un ritmo más lento en comparación con la ciudad alta."
+    },
+    {
+      "name": "Retfala",
+      "bestFor": "Aficionados al deporte y quienes llegan en coche",
+      "parking": "Estacionamiento en la calle gratuito y accesible",
+      "beach": "3,5 km hasta Copacabana",
+      "summary": "Un suburbio occidental que alberga el estadio Opus Arena. Es principalmente residencial, ofreciendo alojamientos más grandes y fácil acceso a las principales carreteras que salen de la ciudad."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Múnich",
+      "car": "780 km, ~8 horas por A8, A10/A2 (Austria/Eslovenia) hasta Zagreb, luego A3/A5. Se requieren viñetas AT y SLO, y peajes HR",
+      "other": "Vuelo a Zagreb, luego autobús o tren a Osijek"
+    },
+    {
+      "from": "Viena",
+      "car": "520 km, ~5,5 horas por M1 y M6 a través de Hungría hasta la frontera de Udvar. Se requieren viñetas AT y HU",
+      "other": "FlixBus directo a Osijek o tren vía Budapest"
+    },
+    {
+      "from": "Budapest",
+      "car": "265 km, ~3 horas por M6 hacia el sur hasta la frontera croata, luego D7. Se requiere viñeta HU",
+      "other": "Conexiones directas de autobús o tren vía Pécs"
+    },
+    {
+      "from": "Liubliana",
+      "car": "420 km, ~4,5 horas por A2 hasta Zagreb, A3 este hasta Sredanci, luego A5. Se requieren viñetas SLO y peajes HR",
+      "other": "Tren o autobús vía Zagreb"
+    },
+    {
+      "from": "Praga",
+      "car": "780 km, ~8 horas por D2 hasta Bratislava, M1 y M6 a través de Hungría. Se requieren viñetas CZ, SK y HU",
+      "other": "Vuelo a Budapest, luego autobús directo a Osijek"
+    },
+    {
+      "from": "Cracovia",
+      "car": "670 km, ~7,5 horas por R4 (Eslovaquia) y M30/M3/M6 (Hungría). Se requieren viñetas SK y HU",
+      "other": "Traslado en autobús vía Budapest"
+    }
+  ],
+  "whenToGo": "De enero a marzo es frío y tranquilo, con temperaturas que a menudo descienden bajo cero y una infraestructura turística mínima abierta más allá de los servicios locales. Abril y mayo traen un clima más suave, parques en flor y el inicio de la cultura de los cafés al aire libre, con precios moderados y poca afluencia. De junio a agosto es la temporada alta para los visitantes nacionales; el río Drava (alcanzando unos 24°C) se convierte en el centro de atención para nadar y recrearse, mientras que los precios se mantienen por debajo de la media nacional a pesar de la mayor afluencia local. Septiembre y octubre ofrecen temperaturas agradables para el ciclismo y los eventos de cosecha de vino, manteniendo un número de visitantes manejable. Noviembre y diciembre ven un ligero aumento de actividad alrededor del mercado de Adviento de Tvrđa, aunque los precios generales se mantienen asequibles y los negocios locales operan normalmente durante todo el año.",
+  "faq": [
+    {
+      "question": "¿Vale la pena visitar Osijek?",
+      "answer": "Sí, vale la pena visitarla para viajeros interesados en la arquitectura austrohúngara, la gastronomía regional y un ambiente relajado lejos de la costa. Sirve como una excelente base para explorar la región vinícola de Baranja y el Parque Natural Kopački Rit."
+    },
+    {
+      "question": "¿Cuántos días se necesitan en Osijek?",
+      "answer": "Dos días son suficientes para explorar la histórica Tvrđa, pasear por el paseo fluvial y ver la ciudad alta. Añadir un tercer día permite excursiones a reservas naturales o viñedos cercanos."
+    },
+    {
+      "question": "¿Cuál es la mejor playa de Osijek?",
+      "answer": "Copacabana (conocida localmente como Kopika) es la playa principal de Osijek. Está situada en el río Drava y cuenta tanto con riberas arenosas como con un complejo de piscinas al aire libre recientemente renovado."
+    },
+    {
+      "question": "¿Necesito un coche en Osijek?",
+      "answer": "No necesitas un coche para explorar Osijek, ya que la ciudad es llana, transitable a pie y está bien conectada por una red de tranvías y autobuses. Se recomienda un coche solo si planeas visitar las zonas rurales circundantes, bodegas y parques naturales."
+    },
+    {
+      "question": "¿Dónde aparcar en Osijek?",
+      "answer": "El estacionamiento en la calle en el centro de la ciudad está dividido en zonas y se paga mediante SMS o parquímetros los días laborables y los sábados por la mañana. A menudo se puede encontrar estacionamiento gratuito o más barato en aparcamientos justo fuera de las murallas históricas de Tvrđa o al otro lado del río."
+    },
+    {
+      "question": "¿Es Osijek bueno para familias?",
+      "answer": "Sí, Osijek es muy adecuado para familias debido a sus extensos parques, senderos para bicicletas llanos y ritmo relajado. Atracciones como el Zoo de Osijek y el complejo de piscinas Copacabana están directamente orientadas a los niños."
+    }
+  ],
+  "headings": {
+    "quickFacts": "De un vistazo",
+    "whereToStay": "Dónde alojarse en Osijek",
+    "gettingThere": "Cómo llegar a Osijek",
+    "whenToGo": "Cuándo ir",
+    "guides": "Guías de Osijek",
+    "faq": "Preguntas frecuentes de Osijek",
+    "groups": {
+      "gettingAround": "Estacionamiento y cómo moverse",
+      "planning": "Planificación y dónde alojarse",
+      "timing": "Cuándo ir",
+      "travelers": "Familias, parejas y estilos de viaje",
+      "activities": "Playas y cosas que hacer",
+      "food": "Comida y bebida",
+      "comparisons": "Comparaciones",
+      "practical": "Información práctica"
+    },
+    "car": "En coche",
+    "other": "Otras opciones",
+    "bestFor": "Ideal para",
+    "parking": "Estacionamiento",
+    "beach": "Playa"
+  },
+  "destination": "osijek",
+  "language": "es",
+  "updatedAt": "2026-10-16T21:03:37.143Z"
+}

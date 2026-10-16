@@ -1,0 +1,139 @@
+{
+  "title": "Krka útikönyv: Bejáratok, parkolás és szálláslehetőségek",
+  "metaDescription": "Tervezzen utat a Krka Nemzeti Parkba. Fedezze fel a legjobb bejáratokat, hol parkoljon, a közeli szálláslehetőségeket Skradinban vagy Lozovacban, és hogyan juthat el oda autóval.",
+  "intro": "A Krka Nemzeti Park 109 négyzetkilométeren terül el a Krka folyó mentén Közép-Dalmáciában, hatalmas travertínó vízeséshálózatáról ismert. Vonzó a természetjárók, túrázók és a horvát tengerpartot felfedező autós utazók számára. A Plitvicei-tavakkal ellentétben a Krka hajóval is hajózható, és sokkal közelebb fekszik a tengerhez, így gyakori egynapos kirándulás vagy éjszakai megállóhely Splitből vagy Zadárból.\n\nA park egész évben nyitva tart, de a szolgáltatások és a hajójáratok júniustól szeptemberig a legaktívabbak. A tavasz és az ősz magasabb vízállást kínál a vízeséseknél és alacsonyabb belépődíjakat. A látogatók általában a folyóparti Skradin városában, a dombtetőn fekvő Lozovac faluban, vagy a közeli tengerparti Šibenik városában szállnak meg, hogy kora reggel, a tömeg érkezése előtt jussanak be a parkba.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Május–szeptember"
+    },
+    {
+      "label": "Tengerhőmérséklet augusztusban",
+      "value": "24-26°C (Adriai-tenger a közeli Šibeniknél)"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Spliti repülőtér (55 km Lozovactól)"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Kavicsos folyóparti strandok (fürdés tilos a fő vízeséseknél)"
+    },
+    {
+      "label": "Árszínvonal",
+      "value": "A park belépője drága nyáron; a szállodák átlagos árúak"
+    },
+    {
+      "label": "Sétaútvonalak",
+      "value": "Skradin óvárosa kompakt és kiválóan bejárható gyalogosan"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Skradin",
+      "bestFor": "Park megközelítése hajóval és vízparti éttermek",
+      "parking": "Fizetős önkormányzati és magán parkolók a város bejáratánál",
+      "beach": "Plaža Skradin (kavicsos folyóparti strand közvetlenül a városban)",
+      "summary": "Történelmi folyóparti város, amely a Skradinski Buk elsődleges hajós kapujaként szolgál. Éttermeket, kikötőket és közvetlen hajójáratokat kínál a parkba."
+    },
+    {
+      "name": "Lozovac",
+      "bestFor": "Autósoknak és közvetlen túraútvonal a vízesésekhez",
+      "parking": "Hatalmas ingyenes parkoló közvetlenül a park bejáratánál",
+      "beach": "15 km Šibenik tengerparti strandjaiig",
+      "summary": "Praktikus terület a folyó feletti fennsíkon, a fő úti bejáratnál. Innen a látogatók gyalogosan vagy transzferbusszal juthatnak el a fő vízesésekhez."
+    },
+    {
+      "name": "Šibenik",
+      "bestFor": "Városnézés és tengerparti hozzáférés kombinálása",
+      "parking": "Fizetős nyilvános parkolók és garázsok a város szélén",
+      "beach": "Banj strand (kavicsos, 10 perc sétára a központtól)",
+      "summary": "Tengerparti város mindössze 15 kilométerre Krkától. Szélesebb választékot kínál szállodákból, éttermekből és adriai-tengeri strandokból, miközben a park rövid autóúttal elérhető marad."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "750 km, 8-9 óra az A8, A10 és horvát A1 útvonalon; osztrák/szlovén matricák és horvát útdíj szükséges",
+      "other": "Közvetlen járatok Splitbe, majd busz vagy bérautó"
+    },
+    {
+      "from": "Bécs",
+      "car": "640 km, 6,5-7,5 óra az A2 és horvát A1 útvonalon; osztrák/szlovén matricák és horvát útdíj szükséges",
+      "other": "Közvetlen járatok Splitbe, majd reptéri transzfer és busz"
+    },
+    {
+      "from": "Budapest",
+      "car": "645 km, 6-7 óra az M7 és horvát A4/A1 útvonalon; magyar matrica és horvát útdíj szükséges",
+      "other": "Vonat vagy FlixBus Splitbe/Šibenikbe, majd helyi busz"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "365 km, 4 óra az A1 és horvát A1 útvonalon; szlovén matrica és horvát útdíj szükséges",
+      "other": "Közvetlen busz Šibenikbe, majd helyi csatlakozás Skradinba"
+    },
+    {
+      "from": "Prága",
+      "car": "970 km, 10-11 óra Linz, Graz és Maribor útvonalon; osztrák/szlovén matricák és horvát útdíj szükséges",
+      "other": "Közvetlen járatok Splitbe (Smartwings/Croatia Airlines)"
+    },
+    {
+      "from": "Krakkó",
+      "car": "1050 km, 11-12 óra Szlovákián és Magyarországon keresztül a horvát A1 útvonalon; szlovák/magyar matricák és horvát útdíj szükséges",
+      "other": "Közvetlen járatok Splitbe Krakkóból vagy Katowicéből"
+    }
+  ],
+  "whenToGo": "Július és augusztus a legmelegebb hónapok, naponta 30-33°C körüli maximumokkal, ekkor van a legnagyobb tömeg és a legmagasabb parkbelépő (történelmileg akár 40 €). Májustól júniusig és szeptembertől októberig a hőmérséklet 20-25°C között mozog, a tömeg jelentősen csökken, és a belépőjegyek olcsóbbak. Novembertől márciusig a téli hónapokban drámaian csökkennek a parkdíjak, de a hajókirándulások nem üzemelnek, és számos vendéglátóhely Skradinban bezár. A fő vízesések vízáramlása jellemzően a legintenzívebb kora tavasszal, a hóolvadás után.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni Krkát?",
+      "answer": "Igen, Krka kiterjedt vízeséshálózatokkal és történelmi helyszínekkel, például a Visovac-szigettel várja. Nagyon ajánlott, ha a Plitvicei-tavakhoz képest alternatívát szeretne, amely hajókirándulásokat és könnyebb tengerparti hozzáférést is magában foglal."
+    },
+    {
+      "question": "Hány napra van szükségem?",
+      "answer": "Egy teljes nap elegendő a fő vízesések, hajókirándulások és kilátópontok megtekintéséhez. Két nap lehetővé teszi a park csendesebb, északi részeinek, például a Roški Slapnak és a Burnum amfiteátrumnak a meglátogatását."
+    },
+    {
+      "question": "Melyik a legjobb strand?",
+      "answer": "A Plaža Skradin a legkönnyebben megközelíthető folyóparti strand a park bejáratánál, mivel a Skradinski Buknál tilos a fürdés az ökoszisztéma védelme érdekében. Tengeri fürdésre a Šibenikben található Banj strand 15 kilométerre van."
+    },
+    {
+      "question": "Szükséges autó?",
+      "answer": "Autó nem feltétlenül szükséges a fő Skradinski Buk területén, ha Skradinban száll meg, vagy helyi busszal érkezik Šibenikből. Azonban autó szükséges a park északi részeinek hatékony meglátogatásához."
+    },
+    {
+      "question": "Hol parkoljak?",
+      "answer": "Lozovacban hatalmas, ingyenes parkoló található közvetlenül a park bejáratánál. Skradinban több fizetős önkormányzati és magán parkoló van, amelyek nyáron nagyon gyorsan megtelnek."
+    },
+    {
+      "question": "Alkalmas családoknak?",
+      "answer": "Igen, a park nagyon családbarát, jól karbantartott pallóutakkal, oktatási kiállításokkal és hajókirándulásokkal. Babakocsik használhatók a fő faösvényeken, bár a vízesések aljánál vannak lépcsők."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Áttekintés",
+    "whereToStay": "Hol szálljunk meg Krkán?",
+    "gettingThere": "Utazás Krkára",
+    "whenToGo": "Mikor utazzunk?",
+    "guides": "Krka útmutatók",
+    "faq": "Gyakran ismételt kérdések Krkáról",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szálláslehetőségek",
+      "timing": "Mikor utazzunk?",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Ételek és italok",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Kinek ajánlott",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "krka",
+  "language": "hu",
+  "updatedAt": "2026-10-16T20:24:12.472Z"
+}

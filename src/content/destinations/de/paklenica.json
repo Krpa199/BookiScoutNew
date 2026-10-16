@@ -1,0 +1,146 @@
+{
+  "title": "Paklenica Reiseführer: Wandern, Strände & Unterkünfte",
+  "metaDescription": "Planen Sie Ihre Reise nach Paklenica, Kroatien. Ein vollständiger Reiseführer mit Wanderwegen, Küstendörfern, Fahrtrouten, Wetter und den besten Unterkünften.",
+  "intro": "Der Nationalpark Paklenica und seine umliegenden Küstenorte richten sich an aktive Reisende, die Bergwandern und Klettern mit mediterranen Stränden verbinden möchten. Starigrad-Paklenica dient als Hauptbasis und liegt direkt unterhalb des Velebit-Gebirges an der Adria. Die Region ist geprägt von steilen Kalksteinschluchten, Kiesstränden und der Küstenstraße D8, die die Siedlungen miteinander verbindet.\n\nDie Monate Mai, Juni und September bieten die angenehmsten Temperaturen für anspruchsvolle Wanderungen, während Juli und August diejenigen ansprechen, die das Schwimmen bevorzugen. Sommerbesucher, die wandern möchten, müssen früh morgens mit den Touren beginnen, um der intensiven Mittagshitze zu entgehen. Die Unterkünfte bestehen größtenteils aus privaten Apartments und Campingplätzen statt großer Resorthotels, was den Fokus der Region auf Outdoor-Aktivitäten unterstreicht.",
+  "quickFacts": [
+    {
+      "label": "Beste Monate",
+      "value": "Mai, Juni, September"
+    },
+    {
+      "label": "Meerestemperatur",
+      "value": "24°C - 26°C im August"
+    },
+    {
+      "label": "Nächstgelegener Flughafen",
+      "value": "Zadar (ZAD), 40 km"
+    },
+    {
+      "label": "Hauptstrandtyp",
+      "value": "Kies- und Betonterrassen"
+    },
+    {
+      "label": "Preisniveau",
+      "value": "Durchschnittlich für Norddalmatien"
+    },
+    {
+      "label": "Begehbarkeit",
+      "value": "Begehbares Zentrum entlang der Hauptstraße, nicht autofrei"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Starigrad-Paklenica",
+      "bestFor": "Für Erstbesucher und Kletterer",
+      "parking": "Kostenlos bei den meisten Pensionen, kostenpflichtige öffentliche Parkplätze",
+      "beach": "Gehdistanz, hauptsächlich Kies",
+      "summary": "Die Hauptstadt bietet direkten Zugang zum Eingang der Velika Paklenica Schlucht, Supermärkten und Restaurants. Sie erstreckt sich linear entlang der D8-Küstenstraße mit Stränden auf der Meerseite."
+    },
+    {
+      "name": "Seline",
+      "bestFor": "Für ruhigere Aufenthalte und Wanderer",
+      "parking": "In der Regel einfach und kostenlos bei Pensionen",
+      "beach": "Gehdistanz, lange Kiesstrände",
+      "summary": "Einige Kilometer südlich von Starigrad gelegen, befindet sich Seline am Eingang zur Mala Paklenica Schlucht. Es bietet eine entspanntere Atmosphäre mit weniger Menschenmassen und ausgedehnten Kiesstränden wie Pisak."
+    },
+    {
+      "name": "Tribanj",
+      "bestFor": "Für Abgeschiedenheit und malerische Küstenfahrten",
+      "parking": "Reichlich Platz bei Pensionen und Campingplätzen",
+      "beach": "Hauptsächlich felsige Buchten und Betonplatten",
+      "summary": "Eine Reihe kleiner Weiler nordwestlich von Starigrad gelegen. Besucher übernachten hier für die ruhige Umgebung und den freien Meerblick abseits der touristischen Hauptinfrastruktur."
+    },
+    {
+      "name": "Rovanjska",
+      "bestFor": "Für einfachen Autobahnzugang",
+      "parking": "Uneingeschränkt bei Unterkünften",
+      "beach": "Kies und Beton",
+      "summary": "Ein kleines Dorf am südlichen Ende der Paklenica Riviera, direkt nach der Maslenica-Brücke gelegen. Es bietet schnellen Zugang zur Autobahn A1 und nach Zadar."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "720 km, 8-9 Stunden über Salzburg, Villach (A10), Ljubljana, Zagreb (A1). AT Vignette, Karawanken-/Tauerntunnelmaut, SI Vignette, HR Maut.",
+      "other": "Flug nach Zadar über Umsteigeflughäfen oder saisonale Direktflüge."
+    },
+    {
+      "from": "Wien",
+      "car": "560 km, 6 Stunden über Graz, Maribor, Zagreb (A1). AT Vignette, SI Vignette, HR Maut.",
+      "other": "Direktflug nach Zadar (ZAD) oder direkter Bus nach Zadar."
+    },
+    {
+      "from": "Budapest",
+      "car": "630 km, 6-7 Stunden über M7 zur Grenze, Zagreb, Autobahn A1. HU E-Vignette, HR Maut.",
+      "other": "Saisonaler Direktflug nach Zadar."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "310 km, 3,5 Stunden über Novo Mesto, Bosiljevo, Autobahn A1. SI Vignette, HR Maut.",
+      "other": "Direktbus nach Zadar, dann lokaler Bus nach Starigrad-Paklenica."
+    },
+    {
+      "from": "Prag",
+      "car": "880 km, 9-10 Stunden über Brünn, Wien, Graz, Zagreb (A1). CZ, AT, SI Vignetten, HR Maut.",
+      "other": "Saisonaler Direktflug nach Zadar."
+    },
+    {
+      "from": "Krakau",
+      "car": "950-1000 km, 10-11 Stunden über die Slowakei, Ungarn (M15/M86), Zagreb (A1). SK, HU Vignetten, HR Maut.",
+      "other": "Saisonaler Direktflug nach Zadar."
+    }
+  ],
+  "whenToGo": "Die Meerestemperaturen erreichen im Juli und August 24°C bis 26°C, was die größten Menschenmengen und höchsten Unterkunftspreise anzieht, obwohl diese Monate oft zu heiß für anstrengende Wanderungen am Mittag sind. Mai, Juni und September bieten die beste Balance für Outdoor-Aktivitäten mit Tageshöchsttemperaturen um 22°C bis 26°C und niedrigeren Zimmerpreisen, während das Meer ab Ende Juni warm genug zum Schwimmen bleibt. Zwischen Oktober und April schließen viele lokale Restaurants, Campingplätze und Hotels in Starigrad, und die Region erlebt starke Bora-Winde, die den Zugang zu Outdoor-Aktivitäten einschränken.",
+  "faq": [
+    {
+      "question": "Lohnt sich ein Besuch?",
+      "answer": "Ja, besonders für Outdoor-Enthusiasten. Paklenica bietet eine seltene Kombination aus zugänglichen Mittelmeerstränden und hochwertigen alpinen Wander- und Klettermöglichkeiten innerhalb weniger Kilometer voneinander."
+    },
+    {
+      "question": "Wie viele Tage brauche ich?",
+      "answer": "Drei bis fünf Tage sind optimal. Dies ermöglicht zwei volle Wandertage in den Velika- und Mala-Paklenica-Schluchten sowie Zeit zur Entspannung an der Küste oder für einen Besuch des nahegelegenen Zadar."
+    },
+    {
+      "question": "Welches ist der beste Strand?",
+      "answer": "Der Kulina Strand in Starigrad und der Pisak Strand in Seline sind die beliebtesten Optionen. Beide bieten natürliche Kieselsteine, klares Wasser und Ausblicke auf das Velebit-Gebirge, wobei Kulina einen historischen, verfallenen Steinturm aufweist."
+    },
+    {
+      "question": "Brauche ich ein Auto?",
+      "answer": "Ja, ein Fahrzeug ist sehr empfehlenswert. Während Starigrad selbst einigermaßen zu Fuß erkundbar ist, ist ein Auto notwendig, um die Eingänge des Nationalparks effizient zu erreichen, zwischen den Küstendörfern zu reisen und Wanderausrüstung zu transportieren."
+    },
+    {
+      "question": "Wo kann ich parken?",
+      "answer": "Besucher können am Haupteingang der Velika Paklenica gegen eine tägliche Gebühr parken, und es gibt kostenpflichtige öffentliche Parkplätze im Zentrum von Starigrad. Die meisten privaten Unterkünfte bieten ihren Gästen eigene Parkplätze abseits der Straße."
+    },
+    {
+      "question": "Ist es gut für Familien?",
+      "answer": "Ja, die Gegend eignet sich gut für aktive Familien. Der Hauptweg durch die Velika Paklenica ist in seinem unteren Abschnitt gepflastert und für Kinder zugänglich, und die Kiesstrände haben ruhiges Wasser, das zum Schwimmen geeignet ist."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Auf einen Blick",
+    "whereToStay": "Übernachten in Paklenica",
+    "gettingThere": "Anreise nach Paklenica",
+    "whenToGo": "Beste Reisezeit",
+    "guides": "Paklenica-Führer",
+    "faq": "FAQ zu Paklenica",
+    "groups": {
+      "gettingAround": "Parken & Fortbewegung",
+      "planning": "Planung & Unterkünfte",
+      "timing": "Reisezeit",
+      "travelers": "Familien, Paare & Reisestile",
+      "activities": "Strände & Aktivitäten",
+      "food": "Essen & Trinken",
+      "comparisons": "Vergleiche",
+      "practical": "Praktische Infos"
+    },
+    "car": "Mit dem Auto",
+    "other": "Weitere Optionen",
+    "bestFor": "Am besten für",
+    "parking": "Parken",
+    "beach": "Strand"
+  },
+  "destination": "paklenica",
+  "language": "de",
+  "updatedAt": "2026-10-16T20:45:07.607Z"
+}

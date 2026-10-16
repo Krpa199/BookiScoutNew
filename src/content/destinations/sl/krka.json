@@ -1,0 +1,139 @@
+{
+  "title": "Krka Potovalni Vodnik: Vhodi, Parkiranje in Kje Bivati",
+  "metaDescription": "Načrtujte potovanje v Narodni park Krka. Odkrijte najboljše vhode, kje parkirati, bližnje nastanitve v Skradinu ali Lozovcu in kako priti tja z avtom.",
+  "intro": "Narodni park Krka se razprostira na 109 kvadratnih kilometrih ob reki Krki v osrednji Dalmaciji, znan po svoji obsežni mreži slapov iz travertina. Privlači ljubitelje narave, pohodnike in popotnike, ki raziskujejo hrvaško obalo. Za razliko od Plitviških jezer je Krka plovna z ladjo in leži veliko bližje morju, zaradi česar je pogost enodnevni izlet ali postanek z nočitvijo iz Splita ali Zadra.\n\nPark je odprt celo leto, vendar so storitve in ladijske povezave najpogostejše od junija do septembra. Pomlad in jesen ponujata visoko gladino vode ob slapovih in nižje vstopnine. Obiskovalci običajno bivajo v rečnem mestu Skradin, hribovski vasi Lozovac ali bližnjem obalnem mestu Šibenik, da bi park obiskali zgodaj zjutraj pred prihodom množic.",
+  "quickFacts": [
+    {
+      "label": "Najboljši meseci",
+      "value": "Maj do september"
+    },
+    {
+      "label": "Temperatura morja avgusta",
+      "value": "24-26°C (Jadransko morje v bližnjem Šibeniku)"
+    },
+    {
+      "label": "Najbližje letališče",
+      "value": "Letališče Split (55 km do Lozovca)"
+    },
+    {
+      "label": "Glavna vrsta plaže",
+      "value": "Prodne rečne plaže (kopanje prepovedano pri glavnih slapovih)"
+    },
+    {
+      "label": "Raven cen",
+      "value": "Vstop v park je poleti drag; hoteli so povprečni"
+    },
+    {
+      "label": "Dostopnost peš",
+      "value": "Staro mestno jedro Skradina je kompaktno in zelo primerno za hojo"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Skradin",
+      "bestFor": "Dostop do parka z ladjo in obrežno obedovanje",
+      "parking": "Plačljiva občinska in zasebna parkirišča ob vhodu v mesto",
+      "beach": "Plaža Skradin (prodnata rečna plaža v samem mestu)",
+      "summary": "Zgodovinsko rečno mesto, ki služi kot glavni ladijski dostop do Skradinskega buka. Ponuja restavracije, marine in direktne ladijske povezave v park."
+    },
+    {
+      "name": "Lozovac",
+      "bestFor": "Za voznike in direkten pohodniški dostop do slapov",
+      "parking": "Veliko brezplačno parkirišče neposredno ob vhodu v park",
+      "beach": "15 km do obalnih plaž Šibenika",
+      "summary": "Praktično območje na planoti nad reko pri glavnem cestnem vhodu. Od tu se obiskovalci lahko sprehodijo po poti ali se peljejo z avtobusom do glavnih slapov."
+    },
+    {
+      "name": "Šibenik",
+      "bestFor": "Kombinacija ogledov mesta in dostopa do obale",
+      "parking": "Plačljiva javna parkirišča in garaže na robu mesta",
+      "beach": "Plaža Banj (prodnata, 10 minut hoje od centra)",
+      "summary": "Obalno mesto, ki se nahaja le 15 kilometrov od Krke. Ponuja širši izbor hotelov, restavracij in plaž Jadranskega morja, hkrati pa je park na kratki vožnji."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "750 km, 8-9 ur preko A8, A10 in hrvaške A1; zahteva avstrijske/slovenske vinjete in hrvaške cestnine",
+      "other": "Direktni leti v Split, nato avtobus ali najem avtomobila"
+    },
+    {
+      "from": "Dunaj",
+      "car": "640 km, 6.5-7.5 ur preko A2 in hrvaške A1; zahteva avstrijske/slovenske vinjete in hrvaške cestnine",
+      "other": "Direktni leti v Split, nato letališki prevoz in avtobus"
+    },
+    {
+      "from": "Budimpešta",
+      "car": "645 km, 6-7 ur preko M7 in hrvaške A4/A1; zahteva madžarsko vinjeto in hrvaške cestnine",
+      "other": "Vlak ali FlixBus v Split/Šibenik, nato lokalni avtobus"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "365 km, 4 ure preko A1 in hrvaške A1; zahteva slovensko vinjeto in hrvaške cestnine",
+      "other": "Direkten avtobus v Šibenik, nato lokalna povezava v Skradin"
+    },
+    {
+      "from": "Praga",
+      "car": "970 km, 10-11 ur preko Linza, Gradca in Maribora; zahteva avstrijske/slovenske vinjete in hrvaške cestnine",
+      "other": "Direktni leti v Split (Smartwings/Croatia Airlines)"
+    },
+    {
+      "from": "Krakov",
+      "car": "1050 km, 11-12 ur preko Slovaške in Madžarske do hrvaške A1; zahteva slovaške/madžarske vinjete in hrvaške cestnine",
+      "other": "Direktni leti v Split iz Krakova ali Katowic"
+    }
+  ],
+  "whenToGo": "Julij in avgust sta najtoplejša meseca z dnevnimi temperaturami okoli 30-33°C, kar prinaša največje množice in najvišje vstopnine v park (zgodovinsko do 40 €). Od maja do junija in od septembra do oktobra se temperature gibljejo med 20-25°C, množice se znatno zmanjšajo in vstopnice so cenejše. V zimskih mesecih od novembra do marca vstopnine v park drastično padejo, vendar ladijski izleti ne delujejo in več gostinskih podjetij v Skradinu zapre svoja vrata. Pretok vode pri glavnih slapovih je običajno najmočnejši zgodaj spomladi po taljenju snega.",
+  "faq": [
+    {
+      "question": "Je Krka vredna obiska?",
+      "answer": "Da, Krka ponuja obsežne mreže slapov in zgodovinska mesta, kot je otok Visovac. Zelo je priporočljiva, če želite alternativo Plitviškim jezerom, ki vključuje vožnjo z ladjo in lažji dostop do obale."
+    },
+    {
+      "question": "Koliko dni potrebujem?",
+      "answer": "En cel dan zadostuje za glavne slapove, vožnje z ladjo in razgledne točke. Dva dni omogočata obisk mirnejših, severnih delov parka, kot sta Roški Slap in amfiteater Burnum."
+    },
+    {
+      "question": "Katera je najboljša plaža?",
+      "answer": "Plaža Skradin je najbolj dostopna rečna plaža blizu vhoda v park, saj je kopanje pri Skradinskem buku prepovedano zaradi zaščite ekosistema. Za kopanje v morju je plaža Banj v Šibeniku oddaljena 15 kilometrov."
+    },
+    {
+      "question": "Potrebujem avto?",
+      "answer": "Avto ni nujno potreben za glavno območje Skradinskega buka, če bivate v Skradinu ali se peljete z lokalnim avtobusom iz Šibenika. Vendar pa je avto potreben za učinkovit obisk severnih delov parka."
+    },
+    {
+      "question": "Kje naj parkiram?",
+      "answer": "Lozovac ima veliko, brezplačno parkirišče neposredno ob vhodu v park. Skradin ima več plačljivih občinskih in zasebnih parkirišč, ki se poleti zelo hitro zapolnijo."
+    },
+    {
+      "question": "Je primerno za družine?",
+      "answer": "Da, park je zelo prijazen družinam z dobro vzdrževanimi lesenimi potmi, izobraževalnimi razstavami in vožnjami z ladjo. Vozički se lahko uporabljajo na glavnih lesenih poteh, čeprav so ob vznožju slapov nekatere stopnice."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na kratko",
+    "whereToStay": "Kje bivati v Krki",
+    "gettingThere": "Kako priti do Krke",
+    "whenToGo": "Kdaj obiskati",
+    "guides": "Vodniki po Krki",
+    "faq": "Pogosta vprašanja o Krki",
+    "groups": {
+      "gettingAround": "Parkiranje in premikanje",
+      "planning": "Načrtovanje in kje bivati",
+      "timing": "Kdaj obiskati",
+      "travelers": "Družine, pari in načini potovanja",
+      "activities": "Plaže in stvari za početi",
+      "food": "Hrana in pijača",
+      "comparisons": "Primerjave",
+      "practical": "Praktične informacije"
+    },
+    "car": "Z avtom",
+    "other": "Druge možnosti",
+    "bestFor": "Najboljše za",
+    "parking": "Parkirišče",
+    "beach": "Plaža"
+  },
+  "destination": "krka",
+  "language": "sl",
+  "updatedAt": "2026-10-16T20:25:40.374Z"
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Brijuni Przewodnik: Hotele, Prom i Informacje o Parku Narodowym",
+  "metaDescription": "Zaplanuj podróż do Parku Narodowego Brijuni. Przewodnik po hotelach na Velikim Brijunie, zakwaterowaniu w Fažanie, rozkładach promów, parkingach i dojeździe z Europy Środkowej.",
+  "intro": "Brijuni to archipelag i park narodowy u zachodniego wybrzeża Istrii, dostępny promem z lądowego miasteczka Fažana w 15 minut. Przyciąga podróżnych zainteresowanych naturą, rzymskimi ruinami oraz cichym środowiskiem bez samochodów. Główna wyspa, Veliki Brijun, oferuje ograniczone zakwaterowanie w parku oraz główne atrakcje, w tym safari na świeżym powietrzu, starożytne drzewa oliwne i ślady dinozaurów.\n\nWizyty są najbardziej praktyczne od maja do września, kiedy rozkład promów jest częsty, a udogodnienia parku działają z pełną wydajnością. Ponieważ pojazdy nie są dozwolone na wyspach, odwiedzający muszą zaparkować w Fažanie i poruszać się po Velikim Brijunie pieszo, wypożyczonymi rowerami lub elektrycznymi wózkami. Ci, którzy priorytetowo traktują budżet lub jednodniowe wycieczki na ląd, zazwyczaj zatrzymują się w Fažanie lub pobliskich wioskach przybrzeżnych.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "Czerwiec do września"
+    },
+    {
+      "label": "Temp. morza w sierpniu",
+      "value": "25°C - 26°C"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Pula (PUY), 13 km od promu w Fažanie"
+    },
+    {
+      "label": "Główny typ plaży",
+      "value": "Kamienista i skalista z betonowymi platformami"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "Wyższy niż średnia chorwacka"
+    },
+    {
+      "label": "Status bezsamochodowy",
+      "value": "Wyspy są ściśle bezsamochodowe (pojazdy zostawia się w Fažanie)"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Veliki Brijun (Wyspa)",
+      "bestFor": "Dla odwiedzających, którzy chcą zatrzymać się w parku narodowym",
+      "parking": "Brak możliwości wjazdu samochodem; płatny parking w Fažanie",
+      "beach": "Skaliste i kamieniste plaże (Saluga Beach) w zasięgu spaceru",
+      "summary": "Pobyt bezpośrednio na głównej wyspie wymaga rezerwacji jednego z niewielu państwowych hoteli lub willi w pobliżu portu. Obszar ten jest całkowicie bezsamochodowy, wyjątkowo cichy po wyjeździe jednodniowych turystów i zapewnia natychmiastowy dostęp do szlaków pieszych i miejsc historycznych parku."
+    },
+    {
+      "name": "Fažana",
+      "bestFor": "Baza wypadowa na codzienne rejsy promem, dla podróżnych potrzebujących dostępu do pojazdu",
+      "parking": "Publiczne parkingi płatne i prywatne parkingi hotelowe",
+      "beach": "Kamieniste plaże (San Lorenzo, Bi Val) wzdłuż wybrzeża miasta",
+      "summary": "To lądowe miasteczko nadmorskie jest oficjalną bramą do Parku Narodowego Brijuni. Oferuje szeroki wybór prywatnych apartamentów, restauracji i bezpośredni dostęp do promu pasażerskiego, co czyni je praktycznym dla osób odkrywających szerszy Półwysep Istryjski."
+    },
+    {
+      "name": "Peroj",
+      "bestFor": "Dla podróżnych dbających o budżet i rodzin",
+      "parking": "W większości bezpłatny parking przy prywatnych kwaterach",
+      "beach": "Długie odcinki kamienistych plaż 1-2 km od centrum",
+      "summary": "Położona kilka kilometrów na północ od Fažany, Peroj to cichsza, mieszkalna wioska. Stanowi bardziej przystępną cenowo alternatywę dla Fažany, pozostając jednocześnie wystarczająco blisko, aby krótko podjechać samochodem lub rowerem do terminalu promowego Brijuni."
+    },
+    {
+      "name": "Pula (Štinjan)",
+      "bestFor": "Dla podróżnych szukających udogodnień miasta i bliskości parku",
+      "parking": "Dostępny na kempingach i w prywatnych wynajmach",
+      "beach": "Kamieniste zatoczki (Hidrobaza) z widokiem na archipelag Brijuni",
+      "summary": "Dzielnica Štinjan leży bezpośrednio naprzeciwko wysp Brijuni, na południe od Fažany. Obszar ten łączy łatwy dostęp do historycznych miejsc Puli z bezpośrednimi widokami na park narodowy."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monachium",
+      "car": "560 km, 6-7 godzin. A8 do Salzburga, A10 (tunel Tauern), Słowenia A1 do Koper, Chorwacja A9 do Vodnjan/Fažana. Wymaga austriackich i słoweńskich winiet, opłat za tunel oraz chorwackich opłat drogowych.",
+      "other": "Bezpośrednie sezonowe loty do Puli, lub nocny FlixBus do Puli, a następnie lokalny autobus do Fažany."
+    },
+    {
+      "from": "Wiedeń",
+      "car": "580 km, 6 godzin. A2 na południe przez Graz, do Słowenii (Maribor, Lublana, Koper), następnie chorwacka A9 do Fažany. Wymaga austriackich i słoweńskich winiet oraz chorwackich opłat drogowych.",
+      "other": "Bezpośrednie loty (Austrian Airlines, Ryanair) do Puli, lub bezpośredni autobus do Puli."
+    },
+    {
+      "from": "Budapeszt",
+      "car": "600 km, 6-7 godzin. M7 do granicy z Chorwacją, A4 do Zagrzebia, A6 do Rijeki, następnie A8/A9 przez Istrię. Wymaga węgierskiej winiety i chorwackich opłat drogowych.",
+      "other": "Bezpośredni autobus (FlixBus) do Puli, lub pociąg do Zagrzebia z przesiadką na autobus do Puli."
+    },
+    {
+      "from": "Lublana",
+      "car": "200 km, 2.5 godziny. Autostrada A1 w kierunku Koper, przekroczenie granicy w Dragonji, następnie chorwacka A9 do zjazdu Vodnjan. Wymaga słoweńskiej winiety i chorwackich opłat drogowych.",
+      "other": "Bezpośredni autobus lub sezonowe połączenie kolejowe do Puli."
+    },
+    {
+      "from": "Praga",
+      "car": "880 km, 9.5 godziny. D1 do Brna, Austria A5/A2 przez Wiedeń i Graz, Słowenia A1, Chorwacja A9. Wymaga czeskich, austriackich i słoweńskich winiet, a także chorwackich opłat drogowych.",
+      "other": "Bezpośrednie sezonowe loty do Puli, lub bezpośredni FlixBus do Puli."
+    },
+    {
+      "from": "Kraków",
+      "car": "1030 km, 11 godzin. A4 do Katowic, czeska A1 do Brna, austriacka A5/A2 do Grazu, Słowenia A1 do Koper, Chorwacja A9. Wymaga winiet dla CZ, AT, SI oraz opłat drogowych w HR.",
+      "other": "Lot do Puli z przesiadką (np. przez LOT), lub dalekobieżny autobus do Puli."
+    }
+  ],
+  "whenToGo": "Archipelag Brijuni jest otwarty przez cały rok, ale usługi dla turystów są bardzo sezonowe. Od maja do września panuje najlepsza pogoda do pływania, a temperatura morza w sierpniu osiąga szczyt 26°C. Lipiec i sierpień to miesiące najbardziej zatłoczone i najdroższe, wymagające wcześniejszej rezerwacji zarówno biletów na prom, jak i hoteli na wyspach. W miesiącach poza sezonem, czyli w maju, czerwcu i wrześniu, ceny nieznacznie spadają, a pogoda pozostaje wystarczająco ciepła na aktywności na świeżym powietrzu. Od listopada do marca prom kursuje według ograniczonego rozkładu, większość hoteli na wyspach jest zamknięta, a wycieczki z przewodnikiem są rzadsze, choć park pozostaje dostępny na zimowe spacery.",
+  "faq": [
+    {
+      "question": "Czy warto odwiedzić Brijuni?",
+      "answer": "Tak, warto dla osób zainteresowanych połączeniem natury, historii rzymskiej i cichego, bezsamochodowego środowiska. Jednodniowe wycieczki oferują wystarczająco dużo czasu na zobaczenie głównych atrakcji pociągiem turystycznym, podczas gdy nocne pobyty przemawiają do podróżnych szukających spokoju po odpłynięciu ostatniego promu."
+    },
+    {
+      "question": "Ile dni powinienem spędzić na Brijuni?",
+      "answer": "Jeden pełny dzień wystarczy, aby zobaczyć główne atrakcje na Velikim Brijunie, w tym park safari, ślady dinozaurów i rzymską willę. Odwiedzający, którzy zdecydują się pozostać na wyspie, zazwyczaj rezerwują 2 do 3 nocy, aby odpocząć i przejechać rozległe szlaki rowerowe."
+    },
+    {
+      "question": "Jaka jest najlepsza plaża na Brijuni?",
+      "answer": "Plaża Saluga to główna i najbardziej dostępna plaża na Velikim Brijunie, z piaszczystym dnem morskim, kamienistymi brzegami i zacienionymi obszarami sosnowymi. Jest wyposażona w leżaki, prysznice i restaurację, co czyni ją praktyczną dla rodzin."
+    },
+    {
+      "question": "Czy potrzebuję samochodu na Brijuni?",
+      "answer": "Nie, samochody są surowo zabronione dla odwiedzających wyspy Brijuni. Musisz zaparkować swój pojazd na lądzie w Fažanie i skorzystać z promu pasażerskiego; na wyspie poruszanie się odbywa się pieszo, rowerem lub wynajętym elektrycznym wózkiem golfowym."
+    },
+    {
+      "question": "Gdzie powinienem zaparkować, aby odwiedzić Brijuni?",
+      "answer": "Odwiedzający muszą zaparkować w lądowym miasteczku Fažana. W pobliżu terminalu promowego znajduje się wiele publicznych, otwartych parkingów miejskich, które pobierają opłaty godzinowe lub dzienne, a także kilka prywatnych parkingów w niewielkiej odległości od portu."
+    },
+    {
+      "question": "Czy Brijuni jest dobre dla rodzin?",
+      "answer": "Tak, Brijuni jest bardzo odpowiednie dla rodzin ze względu na brak ruchu samochodowego i obecność płaskich ścieżek rowerowych. Dzieci zazwyczaj cieszą się z parku safari na świeżym powietrzu, śladów dinozaurów i przejażdżki miniaturowym pociągiem turystycznym, który krąży po wyspie."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Gdzie zatrzymać się na Brijuni",
+    "gettingThere": "Jak dojechać na Brijuni",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Brijuni",
+    "faq": "Brijuni – Najczęściej zadawane pytania",
+    "groups": {
+      "gettingAround": "Parking i poruszanie się",
+      "planning": "Planowanie i gdzie się zatrzymać",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróżowania",
+      "activities": "Plaże i atrakcje",
+      "food": "Jedzenie i picie",
+      "comparisons": "Porównania",
+      "practical": "Praktyczne informacje"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "brijuni",
+  "language": "pl",
+  "updatedAt": "2026-10-16T20:37:19.540Z"
+}

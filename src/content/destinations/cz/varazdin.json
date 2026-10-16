@@ -1,0 +1,139 @@
+{
+  "title": "Varaždin: Průvodce, památky, parkování a kde se ubytovat",
+  "metaDescription": "Naplánujte si cestu do Varaždínu s naším faktickým průvodcem. Zjistěte, kde se nejlépe ubytovat, trasy autem ze střední Evropy, informace o parkování a nejlepší aktivity.",
+  "intro": "Varaždin je vnitrozemské město v severním Chorvatsku známé svou barokní architekturou a pěší historickým centrem. Láká cestovatele hledající kulturní turistiku, cyklostezky a termální lázně, spíše než typické dovolené v přímořských letoviscích. Slouží jako zastávka pro ty, kteří jedou autem ze střední Evropy na jaderské pobřeží, nebo jako samostatná destinace pro krátké pobyty.\n\nMěsto je po většinu roku poměrně klidné, s vrcholem turismu během pouličního festivalu Špancirfest na konci srpna. Jaro a časný podzim nabízejí mírné počasí vhodné pro prozkoumávání starého města a oblasti nedaleké řeky Drávy, zatímco zimy jsou chladné a klidné.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "Konec srpna (Špancirfest), květen a září"
+    },
+    {
+      "label": "Teplota moře v srpnu",
+      "value": "N/A (vnitrozemí); jezero Aquacity dosahuje 24°C"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Letiště Záhřeb Franjo Tuđman (ZAG), 81 km"
+    },
+    {
+      "label": "Hlavní typ pláže",
+      "value": "Štěrková a travnatá (jezero Aquacity)"
+    },
+    {
+      "label": "Cenová úroveň",
+      "value": "Nižší než chorvatský pobřežní průměr"
+    },
+    {
+      "label": "Pěší / bezautové centrum",
+      "value": "Ano, pěší historické jádro"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centar (Staré Město)",
+      "bestFor": "Pro první návštěvníky a účastníky festivalu",
+      "parking": "Placené pouliční parkování na okraji; podzemní garáže",
+      "beach": "5 km k jezeru Aquacity",
+      "summary": "Historické jádro obsahuje většinu barokních paláců, muzeí a restaurací. Ubytování se skládá převážně z butikových hotelů a soukromých apartmánů."
+    },
+    {
+      "name": "Banfica",
+      "bestFor": "Pro cestovatele s omezeným rozpočtem a delší pobyty",
+      "parking": "Běžné je bezplatné pouliční parkování",
+      "beach": "3 km k jezeru Aquacity",
+      "summary": "Převážně obytná čtvrť ležící severně od centra, blíže k řece Drávě. Nabízí větší apartmány a klidnější ulice, přičemž zůstává v docházkové vzdálenosti 15 minut od starého města."
+    },
+    {
+      "name": "Varaždin Breg",
+      "bestFor": "Pro milovníky přírody a řidiče",
+      "parking": "Standardem je bezplatné soukromé parkování",
+      "beach": "12 km k jezeru Aquacity",
+      "summary": "Kopcovitá oblast jižně od města charakterizovaná vinicemi a rekreačními domy. Návštěvníci zde pobývají pro soukromí, výhledy a přístup k regionálním cyklostezkám."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Mnichov",
+      "car": "500 km, 5,5 hodiny přes A8, A9 (Rakousko) a A4 (Slovinsko); vyžaduje rakouskou a slovinskou dálniční známku plus mýtné",
+      "other": "FlixBus nebo vlak do Záhřebu, poté místní autobus do Varaždínu"
+    },
+    {
+      "from": "Vídeň",
+      "car": "270 km, 3 hodiny přes A2, A9 do Grazu, poté A4 přes Maribor; vyžaduje rakouskou a slovinskou dálniční známku",
+      "other": "Přímý FlixBus do Varaždínu nebo vlak přes Graz"
+    },
+    {
+      "from": "Budapešť",
+      "car": "250 km, 2,5 hodiny přes M7 k hranicím, poté chorvatská A4; vyžaduje maďarskou e-známku a chorvatské mýtné",
+      "other": "Vlak nebo autobus do Záhřebu, poté přestup do Varaždínu"
+    },
+    {
+      "from": "Lublaň",
+      "car": "180 km, 2 hodiny přes A1 do Mariboru, poté A4 do Ptuje; vyžaduje slovinskou dálniční známku",
+      "other": "Vlak do Záhřebu, poté navazující vlak nebo autobus"
+    },
+    {
+      "from": "Praha",
+      "car": "600 km, 6,5 hodiny přes Brno, Vídeň a Graz; vyžaduje českou, rakouskou a slovinskou dálniční známku",
+      "other": "Let do Záhřebu (ZAG), poté půjčené auto nebo autobus"
+    },
+    {
+      "from": "Krakov",
+      "car": "650 km, 7,5 hodiny přes A4, Brno a Vídeň; vyžaduje polské mýtné a české, rakouské, slovinské dálniční známky",
+      "other": "Let do Záhřebu přes Varšavu, poté autobus"
+    }
+  ],
+  "whenToGo": "Jelikož je Varaždin vnitrozemské město, léta (červen až srpen) jsou teplá s denními maximy často přesahujícími 28°C a teplota jezera Aquacity dosahuje kolem 24°C pro koupání. Konec srpna je nejrušnějším a nejdražším obdobím kvůli desetidennímu festivalu Špancirfest, který přináší značné davy a plně obsazené ubytování. Jaro (duben až květen) a podzim (září až říjen) nabízejí mírné teploty kolem 15–20°C, nižší ceny a méně návštěvníků, což z těchto měsíců činí praktické období pro prohlídky památek a cyklistiku. Zima přináší chladné teploty a občasný sníh; zatímco většina turistických atrakcí má zkrácenou otevírací dobu, město v prosinci pořádá mírný adventní trh.",
+  "faq": [
+    {
+      "question": "Stojí Varaždin za návštěvu?",
+      "answer": "Ano, Varaždin stojí za návštěvu pro svou dobře zachovanou barokní architekturu, parky a historickou pevnost. Poskytuje silný kontrast k chorvatským pobřežním městům a hodí se jako víkendový výlet nebo zastávka na cestě."
+    },
+    {
+      "question": "Kolik dní bych měl strávit ve Varaždínu?",
+      "answer": "Jeden až dva dny stačí k prohlédnutí hlavních památek. Celý den pokryje Stari Grad (Staré Město), hřbitov a hlavní náměstí, zatímco druhý den umožní návštěvu řeky Drávy nebo nedalekého hradu Trakošćan."
+    },
+    {
+      "question": "Jaká je nejlepší pláž ve Varaždínu?",
+      "answer": "Aquacity Varaždin je určená plavecká oblast, nacházející se 5 kilometrů od centra. Nabízí štěrkové a travnaté břehy kolem umělého jezera, vybavená základním zařízením a restaurací."
+    },
+    {
+      "question": "Potřebuji ve Varaždínu auto?",
+      "answer": "K prozkoumání centra města, které je rovinaté a snadno procházitelné, nepotřebujete auto. Vozidlo se však doporučuje, pokud plánujete navštívit okolní kopcovité vinice nebo hrady v regionu Hrvatsko Zagorje."
+    },
+    {
+      "question": "Kde je nejlepší parkovat ve Varaždínu?",
+      "answer": "Centrální Staré Město je bez aut, ale parkování je k dispozici na okraji. Podzemní garáž Kapucinski trg je největší a nejcentrálnější možností, zatímco placené pouliční parkování je rozděleno do zón kolem historického jádra."
+    },
+    {
+      "question": "Je Varaždin vhodný pro rodiny?",
+      "answer": "Ano, město je rovinaté, bezpečné a snadno se v něm pohybuje s kočárky. Rodiny sem jezdí kvůli velkým pěším zónám, entomologickému (hmyzímu) muzeu a rekreačním prostorům u nedalekých Drávských lesů a jezera Aquacity."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Stručný přehled",
+    "whereToStay": "Kde se ubytovat ve Varaždínu",
+    "gettingThere": "Cesta do Varaždínu",
+    "whenToGo": "Kdy jet",
+    "guides": "Průvodci Varaždínem",
+    "faq": "Časté dotazy o Varaždínu",
+    "groups": {
+      "gettingAround": "Parkování a doprava po městě",
+      "planning": "Plánování a kde se ubytovat",
+      "timing": "Kdy jet",
+      "travelers": "Rodiny, páry a styly cestování",
+      "activities": "Pláže a aktivity",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": "Praktické informace"
+    },
+    "car": "Autem",
+    "other": "Další možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "varazdin",
+  "language": "cz",
+  "updatedAt": "2026-10-16T20:52:56.161Z"
+}

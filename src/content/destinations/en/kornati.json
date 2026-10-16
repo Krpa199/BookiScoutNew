@@ -1,0 +1,139 @@
+{
+  "title": "Kornati Travel Guide: Boat Trips, Robinson Stays & Islands",
+  "metaDescription": "Plan your trip to the Kornati Islands. Find information on Robinson accommodation, boat tours from Murter, driving routes, parking, and island logistics.",
+  "intro": "The Kornati archipelago is a dense cluster of 89 mostly uninhabited islands, islets, and reefs in northern Dalmatia, protected as a national park. The landscape is defined by barren, rocky terrain, steep cliffs facing the open sea, and clear, deep waters. It primarily attracts sailors, divers, and visitors seeking isolated 'Robinson Crusoe' style holidays in off-grid stone cottages.\n\nAccess to the islands is strictly by boat, with no cars or ferries operating within the national park boundaries. Most travelers reach Kornati via organized day trips or private charters departing from the mainland gateway town of Murter. The main tourist season runs from June to September, when the seasonal seafood taverns open and the weather is stable enough for safe navigation.",
+  "quickFacts": [
+    {
+      "label": "Best months",
+      "value": "June to September"
+    },
+    {
+      "label": "Sea temperature in August",
+      "value": "24°C - 26°C"
+    },
+    {
+      "label": "Nearest airport",
+      "value": "Zadar (ZAD), 65 km to Murter gateway"
+    },
+    {
+      "label": "Main beach type",
+      "value": "Rocky slabs and pebbles"
+    },
+    {
+      "label": "Price level",
+      "value": "Higher than mainland average"
+    },
+    {
+      "label": "Car-free",
+      "value": "100% car-free; accessible only by boat"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Murter Town (Mainland Gateway)",
+      "bestFor": "Families, drivers, and booking day tours",
+      "parking": "Paid public lots and private long-term parking",
+      "beach": "Sand and pebble (Slanica) nearby",
+      "summary": "Connected to the mainland by a bridge, Murter is the administrative headquarters of the national park. It offers standard tourist amenities and is the primary departure point for Kornati boat tours."
+    },
+    {
+      "name": "Kornat Island (Vrulje & Tarac)",
+      "bestFor": "Off-grid 'Robinson Crusoe' stays and absolute quiet",
+      "parking": "No cars allowed; mainland parking required",
+      "beach": "Rocky shorelines and private stone piers",
+      "summary": "The largest island in the archipelago offers isolated stone houses without mains electricity or running water. Visitors rely on solar power, cisterns, and supply boats."
+    },
+    {
+      "name": "Žut Island",
+      "bestFor": "Sailors and yacht crews",
+      "parking": "No cars allowed",
+      "beach": "Mostly rocky coves and concrete moorings",
+      "summary": "Located just outside the strict national park boundaries, Žut features an ACI Marina, a few seasonal restaurants, and safe anchorages. It provides a slightly more developed overnight stop for nautical visitors."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Munich",
+      "car": "785 km to Murter, 8.5 hours via A8, A10, and A1. Requires Austrian vignette, Karawanken toll, Slovenian vignette, and Croatian tolls.",
+      "other": "Flight to Zadar, then bus or taxi to Murter."
+    },
+    {
+      "from": "Vienna",
+      "car": "685 km to Murter, 7 hours via A2, Slovenian A1/A4, and Croatian A1. Requires Austrian and Slovenian vignettes, plus Croatian tolls.",
+      "other": "Flight to Zadar, or direct bus to Biograd/Zadar."
+    },
+    {
+      "from": "Budapest",
+      "car": "660 km to Murter, 6.5 hours via M7 and Croatian A4/A1. Requires Hungarian vignette and Croatian tolls.",
+      "other": "Direct bus or night train to Split, connecting to local transit."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "395 km to Murter, 4.5 hours via A2 and Croatian A1. Requires Slovenian vignette and Croatian tolls.",
+      "other": "Direct bus to Zadar or Biograd na Moru."
+    },
+    {
+      "from": "Prague",
+      "car": "1015 km to Murter, 10.5 hours via Austria, Slovenia, and Croatia. Requires Austrian and Slovenian vignettes, plus Croatian tolls.",
+      "other": "Flight to Zadar, or RegioJet train to Split."
+    },
+    {
+      "from": "Kraków",
+      "car": "1060 km to Murter, 11 hours via Slovakia, Hungary, and Croatia. Requires Slovak and Hungarian vignettes, plus Croatian tolls.",
+      "other": "Flight to Zadar."
+    }
+  ],
+  "whenToGo": "The Kornati Islands operate on a strictly seasonal basis. From June to September, sea temperatures range between 24°C and 26°C, making it suitable for swimming and snorkeling. During these months, the isolated konobas (taverns) and the marina on Žut are open. July and August see the highest volume of nautical traffic and peak prices for boat charters and Robinson houses. Outside of this window, primarily from October to April, the archipelago is almost entirely deserted, most facilities close, and unpredictable winds make boat access unreliable.",
+  "faq": [
+    {
+      "question": "Is it worth visiting?",
+      "answer": "Yes, for visitors who prioritize raw nature, sailing, and swimming in clear water. It lacks typical resort amenities, but offers excellent isolation and distinct marine landscapes."
+    },
+    {
+      "question": "How many days do I need?",
+      "answer": "A single day is sufficient for an organized boat tour from Murter or Zadar. For those renting a Robinson house or sailing, three to seven days allows time to explore different bays."
+    },
+    {
+      "question": "What is the best beach?",
+      "answer": "Lojena on the island of Levrnaka is the most famous beach in the national park. It features a sandy bottom and white pebble shore, though it gets heavily crowded with tour boats by midday."
+    },
+    {
+      "question": "Do I need a car?",
+      "answer": "Cars are strictly prohibited and physically impossible to bring into the national park. Access is exclusively by private vessel, chartered boat, or organized tour."
+    },
+    {
+      "question": "Where do I park?",
+      "answer": "Visitors must leave their vehicles on the mainland. Murter, Biograd na Moru, and Zadar offer secure, long-term parking lots near the marinas for those taking multi-day boat trips."
+    },
+    {
+      "question": "Is it good for families?",
+      "answer": "It suits families with older children who are comfortable on boats and are strong swimmers. The lack of shade, sandy beaches, and medical facilities makes it challenging for infants or toddlers."
+    }
+  ],
+  "headings": {
+    "quickFacts": "At a glance",
+    "whereToStay": "Where to stay in Kornati",
+    "gettingThere": "Getting to Kornati",
+    "whenToGo": "When to go",
+    "guides": "Kornati guides",
+    "faq": "Kornati FAQ",
+    "groups": {
+      "gettingAround": "Parking & getting around",
+      "planning": "Planning & where to stay",
+      "timing": "When to go",
+      "travelers": "Families, couples & travel styles",
+      "activities": "Beaches & things to do",
+      "food": "Food & drink",
+      "comparisons": "Comparisons",
+      "practical": "Practical info"
+    },
+    "car": "By car",
+    "other": "Other options",
+    "bestFor": "Best for",
+    "parking": "Parking",
+    "beach": "Beach"
+  },
+  "destination": "kornati",
+  "language": "en",
+  "updatedAt": "2026-10-16T20:28:19.849Z"
+}

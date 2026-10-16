@@ -1,0 +1,146 @@
+{
+  "title": "Brijuni: Vodnik po hotelih, trajektih in narodnem parku",
+  "metaDescription": "Načrtujte potovanje v Narodni park Brijuni. Vodnik po hotelih na Velikem Brijunu, bivanju v Fažani, urnikih trajektov, parkiranju in vožnji iz Srednje Evrope.",
+  "intro": "Brijuni so otočje in narodni park ob zahodni obali Istre, dostopni z 15-minutno vožnjo s trajektom iz celinskega mesta Fažana. Privlačijo popotnike, ki jih zanima narava, rimske ruševine in tiho okolje brez avtomobilov. Glavni otok, Veliki Brijun, ponuja omejene namestitve v parku in glavne atrakcije, vključno s safari parkom na prostem, starodavnimi oljkami in dinozavrovimi odtisi.\n\nObisk je najbolj praktičen od maja do septembra, ko so trajektni urniki pogosti in parkovne storitve delujejo s polno zmogljivostjo. Ker vozila na otokih niso dovoljena, morajo obiskovalci parkirati v Fažani in se po Velikem Brijunu gibati peš, z najetimi kolesi ali električnimi vozički. Tisti, ki dajejo prednost proračunu ali celinskim dnevnim izletom, običajno bivajo v Fažani ali bližnjih obalnih vaseh.",
+  "quickFacts": [
+    {
+      "label": "Najboljši meseci",
+      "value": "Od junija do septembra"
+    },
+    {
+      "label": "Temperatura morja avgusta",
+      "value": "25°C - 26°C"
+    },
+    {
+      "label": "Najbližje letališče",
+      "value": "Pula (PUY), 13 km od trajektne luke Fažana"
+    },
+    {
+      "label": "Glavni tip plaže",
+      "value": "Prodnata in skalnata z betonskimi ploščadmi"
+    },
+    {
+      "label": "Cenovna raven",
+      "value": "Višja od hrvaškega povprečja"
+    },
+    {
+      "label": "Status brez avtomobilov",
+      "value": "Otoki so strogo brez avtomobilov (vozila ostanejo v Fažani)"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Veliki Brijun (Otok)",
+      "bestFor": "Obiskovalci, ki želijo bivati znotraj narodnega parka",
+      "parking": "Avtomobili niso dovoljeni; plačljivo parkiranje v Fažani",
+      "beach": "Skalnate in prodnate plaže (Plaža Saluga) v hoje",
+      "summary": "Bivanje neposredno na glavnem otoku zahteva rezervacijo enega izmed redkih državnih hotelov ali vil blizu pristanišča. Območje je popolnoma brez avtomobilov, izjemno tiho po odhodu dnevnih obiskovalcev in omogoča takojšen dostop do sprehajalnih poti in zgodovinskih znamenitosti parka."
+    },
+    {
+      "name": "Fažana",
+      "bestFor": "Izhodišče za dnevne trajektne izlete, popotniki, ki potrebujejo dostop z vozilom",
+      "parking": "Javna plačljiva parkirišča in zasebna hotelska parkirišča",
+      "beach": "Prodnate plaže (San Lorenzo, Bi Val) ob obali mesta",
+      "summary": "To celinsko obalno mesto je uradna vstopna točka v Narodni park Brijuni. Ponuja široko paleto zasebnih apartmajev, restavracij in neposreden dostop do potniškega trajekta, zaradi česar je praktično za tiste, ki raziskujejo širši istrski polotok."
+    },
+    {
+      "name": "Peroj",
+      "bestFor": "Popotniki, ki so pozorni na proračun, in družine",
+      "parking": "Večinoma brezplačno parkiranje pri zasebnih namestitvah",
+      "beach": "Dolgi odseki prodnate plaže 1-2 km od centra",
+      "summary": "Peroj, ki se nahaja nekaj kilometrov severno od Fažane, je mirnejša, stanovanjska vas. Ponuja cenovno ugodnejšo alternativo Fažani, hkrati pa ostaja dovolj blizu za kratko vožnjo z avtomobilom ali kolesom do trajektnega terminala Brijuni."
+    },
+    {
+      "name": "Pula (Štinjan)",
+      "bestFor": "Popotniki, ki si želijo mestnih udobja in bližine parka",
+      "parking": "Na voljo v kampih in zasebnih najemih",
+      "beach": "Prodnati zalivi (Hidrobaza) s pogledom na otočje Brijuni",
+      "summary": "Soseska Štinjan leži neposredno nasproti otočja Brijuni, južno od Fažane. To območje združuje enostaven dostop do zgodovinskih znamenitosti Pule z neposrednim pogledom na narodni park."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "560 km, 6-7 ur. A8 do Salzburga, A10 (predor Tauerntunnel), Slovenija A1 do Kopra, Hrvaška A9 do Vodnjana/Fažane. Zahteva avstrijsko in slovensko vinjeto, cestnine za predore in hrvaške cestnine.",
+      "other": "Neposredni sezonski leti v Pulo ali nočni FlixBus do Pule, ki mu sledi lokalni avtobus do Fažane."
+    },
+    {
+      "from": "Dunaj",
+      "car": "580 km, 6 ur. A2 južno preko Gradca, v Slovenijo (Maribor, Ljubljana, Koper), nato hrvaška A9 do Fažane. Zahteva avstrijsko in slovensko vinjeto ter hrvaške cestnine.",
+      "other": "Neposredni leti (Austrian Airlines, Ryanair) v Pulo ali neposredni avtobus do Pule."
+    },
+    {
+      "from": "Budimpešta",
+      "car": "600 km, 6-7 ur. M7 do hrvaške meje, A4 do Zagreba, A6 do Reke, nato A8/A9 skozi Istro. Zahteva madžarsko vinjeto in hrvaške cestnine.",
+      "other": "Neposredni avtobus (FlixBus) do Pule ali vlak do Zagreba z nadaljnjim avtobusom do Pule."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "200 km, 2.5 ure. Avtocesta A1 proti Kopru, prečkanje meje pri Dragonji, nato hrvaška A9 do izhoda Vodnjan. Zahteva slovensko vinjeto in hrvaške cestnine.",
+      "other": "Neposredni avtobus ali sezonska železniška povezava do Pule."
+    },
+    {
+      "from": "Praga",
+      "car": "880 km, 9.5 ur. D1 do Brna, Avstrija A5/A2 preko Dunaja in Gradca, Slovenija A1, Hrvaška A9. Zahteva češko, avstrijsko in slovensko vinjeto ter hrvaške cestnine.",
+      "other": "Neposredni sezonski leti v Pulo ali neposredni FlixBus do Pule."
+    },
+    {
+      "from": "Krakov",
+      "car": "1.030 km, 11 ur. A4 do Katowic, češka A1 do Brna, avstrijska A5/A2 do Gradca, Slovenija A1 do Kopra, Hrvaška A9. Zahteva vinjete za Češko, Avstrijo, Slovenijo in cestnine na Hrvaškem.",
+      "other": "Let v Pulo s prestopanjem (npr. preko LOT), ali avtobus na dolge razdalje do Pule."
+    }
+  ],
+  "whenToGo": "Otočje Brijuni je odprto vse leto, vendar so storitve za obiskovalce močno sezonske. Od maja do septembra je najboljše vreme za kopanje, z avgustovskimi temperaturami morja, ki dosežejo vrhunec pri 26°C. Julij in avgust sta najbolj obljudena in najdražja meseca, zato je potrebna predhodna rezervacija tako trajektnih kart kot hotelov na otoku. V prehodnih mesecih maju, juniju in septembru cene nekoliko padejo, vreme pa ostane dovolj toplo za aktivnosti na prostem. Od novembra do marca trajekt vozi po zmanjšanem urniku, večina otoških hotelov se zapre, vodeni ogledi pa so manj pogosti, čeprav je park še vedno dostopen za zimske sprehode.",
+  "faq": [
+    {
+      "question": "Se splača obiskati Brijune?",
+      "answer": "Da, vredno je za tiste, ki jih zanima mešanica narave, rimske zgodovine in mirnega okolja brez avtomobilov. Dnevni izleti nudijo dovolj časa za ogled glavnih znamenitosti s turističnim vlakom, medtem ko nočitve privabljajo popotnike, ki iščejo osamo, ko odide zadnji trajekt."
+    },
+    {
+      "question": "Koliko dni naj preživim na Brijunih?",
+      "answer": "En sam cel dan zadostuje za ogled glavnih znamenitosti na Velikem Brijunu, vključno s safari parkom, dinozavrovimi odtisi in rimsko vilo. Obiskovalci, ki se odločijo za bivanje na otoku, običajno rezervirajo 2 do 3 nočitve za sprostitev in kolesarjenje po obsežnih poteh."
+    },
+    {
+      "question": "Katera je najboljša plaža na Brijunih?",
+      "answer": "Plaža Saluga je glavna in najbolj dostopna plaža na Velikem Brijunu, ki ponuja peščeno dno, prodnate obale in senčna borova območja. Opremljena je z ležalniki, tuši in restavracijo, kar jo dela praktično za družine."
+    },
+    {
+      "question": "Ali potrebujem avto na Brijunih?",
+      "answer": "Ne, avtomobili so obiskovalcem na otokih Brijuni strogo prepovedani. Svoje vozilo morate parkirati na celini v Fažani in uporabiti potniški trajekt; po otoku se gibljete peš, s kolesom ali z najetim električnim golf vozičkom."
+    },
+    {
+      "question": "Kje naj parkiram za obisk Brijunov?",
+      "answer": "Obiskovalci morajo parkirati v celinskem mestu Fažana. V bližini trajektnega terminala je več javnih, odprtih občinskih parkirišč, ki zaračunavajo urne ali dnevne tarife, ter nekaj zasebnih parkirišč kratek sprehod od pristanišča."
+    },
+    {
+      "question": "Ali so Brijuni primerni za družine?",
+      "answer": "Da, Brijuni so zelo primerni za družine zaradi pomanjkanja avtomobilskega prometa in prisotnosti ravnih kolesarskih poti. Otroci običajno uživajo v safari parku na prostem, dinozavrovih odtisih in vožnji z miniaturnim turističnim vlakom, ki kroži po otoku."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na hitro",
+    "whereToStay": "Kje bivati na Brijunih",
+    "gettingThere": "Kako priti do Brijunov",
+    "whenToGo": "Kdaj obiskati",
+    "guides": "Vodilniki po Brijunih",
+    "faq": "Pogosta vprašanja o Brijunih",
+    "groups": {
+      "gettingAround": "Parkiranje in gibanje",
+      "planning": "Načrtovanje in kje bivati",
+      "timing": "Kdaj obiskati",
+      "travelers": "Družine, pari in potovalni slogi",
+      "activities": "Plaže in aktivnosti",
+      "food": "Hrana in pijača",
+      "comparisons": "Primerjave",
+      "practical": "Praktične informacije"
+    },
+    "car": "Z avtomobilom",
+    "other": "Druge možnosti",
+    "bestFor": "Najboljše za",
+    "parking": "Parkiranje",
+    "beach": "Plaža"
+  },
+  "destination": "brijuni",
+  "language": "sl",
+  "updatedAt": "2026-10-16T20:41:27.676Z"
+}

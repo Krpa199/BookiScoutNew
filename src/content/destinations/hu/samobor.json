@@ -1,0 +1,146 @@
+{
+  "title": "Samobor útikalauz: Túrázás, parkolás és szálláslehetőségek",
+  "metaDescription": "Tervezzen utazást a horvátországi Samoborba tényekkel teli útikalauzunkkal. Fedezze fel a legjobb környékeket a szálláshoz, vezetési útvonalakat, parkolási tippeket és helyi túrainformációkat.",
+  "intro": "Samobor egy történelmi mezőváros, Zágrábtól 25 kilométerre nyugatra található, a Samoborsko Gorje hegység keleti lábánál. Vonzó a túrázók, gasztronómia kedvelői és azok számára, akik csendes alternatívát keresnek a nyüzsgő horvát fővárossal szemben. A város barokk építészettel, gyalogosbarát központtal és a Gradna patakkal büszkélkedhet, amely átszeli azt. A látogatók a hagyományos kremšnita süteményért, egy 13. századi vár romjaiért és a számos erdős túraútvonal eléréséért érkeznek.\n\nA legjobb időszak a látogatásra májustól szeptemberig tart, amikor az időjárás elég meleg a szabadtéri étkezéshez és a környező natúrpark felfedezéséhez. A telek csendesek, de februárban, az éves Fašnik karnevál idején tömegeket vonzanak.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Május, június, szeptember"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "Nem releváns (belföldi város)"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Zágráb (ZAG), 35 km"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Nincs (helyi szabadtéri medence)"
+    },
+    {
+      "label": "Árszínvonal",
+      "value": "Mérsékelt (olcsóbb, mint a tengerpart)"
+    },
+    {
+      "label": "Sétálhatóság",
+      "value": "Nagyon jól bejárható, sétálóövezeti központ"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centar (Óváros)",
+      "bestFor": "Először látogatóknak és kávéházi hangulatra vágyóknak",
+      "parking": "Fizetős nyilvános parkolók a sétálóövezeteken kívül",
+      "beach": "Nem releváns (belföldi)",
+      "summary": "Samobor történelmi szíve, a Trg kralja Tomislava körül épült. Azonnali hozzáférést biztosít a hagyományos pékségekhez, éttermekhez és a Gradna patak menti fő sétányhoz."
+    },
+    {
+      "name": "Giznik",
+      "bestFor": "Csendes pihenésre és lakóövezeti kényelemre",
+      "parking": "Széles körben elérhető magánparkoló",
+      "beach": "Nem releváns (belföldi)",
+      "summary": "Egy előkelő, dombos lakónegyed közvetlenül az óváros felett. Békés környezetet és panorámás kilátást biztosít, miközben rövid sétára található a központtól."
+    },
+    {
+      "name": "Vrhovčak",
+      "bestFor": "Természetkedvelőknek és teljes magányra vágyóknak",
+      "parking": "Bőséges ingyenes magánparkoló",
+      "beach": "Nem releváns (belföldi)",
+      "summary": "Egy kis település a dombokon feljebb, erdővel körülvéve. Ideális azoknak a látogatóknak, akik közvetlen hozzáférést szeretnének a túraútvonalakhoz és a vidéki hangulathoz."
+    },
+    {
+      "name": "Rude",
+      "bestFor": "Történelemrajongóknak és rusztikus hangulatra vágyóknak",
+      "parking": "Egyszerű utcai vagy magánparkoló",
+      "beach": "Nem releváns (belföldi)",
+      "summary": "Egy hagyományos falu Samobortól 5 kilométerre délnyugatra, rézbányászati múltjáról ismert. A látogatók itt szállnak meg, hogy felfedezzék a Szent Borbála bányát és a helyi hegyi útvonalakat."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "540 km, 5,5-6 óra az A8, A10 és A2 útvonalakon keresztül. Osztrák és szlovén autópálya-matricát, valamint útdíjat igényel.",
+      "other": "Éjszakai vonat vagy távolsági busz Zágrábba, majd helyi busz Samoborba"
+    },
+    {
+      "from": "Bécs",
+      "car": "370 km, 4 óra az A2, A9 és szlovén A1 útvonalakon keresztül. Osztrák és szlovén matricát, valamint horvát útdíjat igényel.",
+      "other": "Vonat vagy busz Zágrábba, majd helyi busz Samoborba"
+    },
+    {
+      "from": "Budapest",
+      "car": "370 km, 3,5-4 óra az M7 és A4 útvonalakon keresztül. Magyar matricát és horvát útdíjat igényel.",
+      "other": "Vonat vagy busz Zágrábba, majd helyi busz Samoborba"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "115 km, 1,5 óra az A2-es úton a Bregana határátkelőig. Szlovén matricát igényel.",
+      "other": "Vonat vagy busz Zágrábba, majd helyi busz Samoborba"
+    },
+    {
+      "from": "Prága",
+      "car": "650 km, 7,5 óra a D1-es úton Brnóba, majd osztrák A2 és szlovén A1. Cseh, osztrák és szlovén matricát igényel.",
+      "other": "Repülőgép vagy busz Zágrábba, majd helyi busz Samoborba"
+    },
+    {
+      "from": "Krakkó",
+      "car": "710 km, 8-9 óra az A4-es úton, Szlovákián (D3) és Magyarországon (M7) keresztül. Szlovák és magyar matricát igényel.",
+      "other": "Repülőgép vagy busz Zágrábba, majd helyi busz Samoborba"
+    }
+  ],
+  "whenToGo": "Samobor egész évben látogatható belföldi célpont, tenger nélkül. Május és június kellemes túraidőt (15°C és 25°C között), virágzó tájat és mérsékelt árakat hoz. Július és augusztus a legmelegebb hónapok, a hőmérséklet gyakran meghaladja a 30°C-ot, több belföldi egynapos kirándulót vonzva Zágrábból; minden étterem és menedékház teljes mértékben üzemel. Szeptember hűvösebb, kényelmes időt és valamivel alacsonyabb szállásárakat kínál. Októbertől áprilisig a város sokkal csendesebb és hidegebb, bár a pékségek és a főbb városi éttermek nyitva maradnak. Februárban az árak és a tömeg rövid időre megugrik az éves Samobori Fašnik karnevál idején.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni Samobort?",
+      "answer": "Igen, különösen jól megőrzött barokk építészete és a híres kremšnita sütemény miatt. Kiváló kiindulópont a Samoborsko Gorje hegységbe vezető túrákhoz, vagy egy kellemes egynapos kiránduláshoz Zágrábból."
+    },
+    {
+      "question": "Hány napra van szükségem Samoborban?",
+      "answer": "Egy-két nap elegendő az óváros felfedezéséhez, a várromok meglátogatásához és a helyi kávézók élvezetéhez. Vegyen hozzá egy extra napot, ha kiterjedt túrázást tervez a környező natúrparkban."
+    },
+    {
+      "question": "Melyik a legjobb strand Samoborban?",
+      "answer": "Samobor belföldi célpont, tengerparti strandokkal nem rendelkezik. A látogatók a Vugrinščak szabadtéri úszómedencében hűsölhetnek, vagy legalább két órát utaznak az Adriai-tenger partjára."
+    },
+    {
+      "question": "Szükségem van autóra Samoborban?",
+      "answer": "Autóra nincs szükség a gyalogosan bejárható városközpontban, sem a Zágrábba és onnan helyi busszal történő utazáshoz. Azonban erősen ajánlott egy jármű a közeli hegyi túraútvonalak és vidéki falvak eléréséhez."
+    },
+    {
+      "question": "Hol a legjobb parkolni Samoborban?",
+      "answer": "A központi téren a parkolás korlátozott, de nagy, fizetős nyilvános parkolók találhatók közvetlenül a sétálóövezeteken kívül. A fő buszpályaudvar melletti és a mozi mögötti parkolók a legkényelmesebbek."
+    },
+    {
+      "question": "Jó célpont Samobor családok számára?",
+      "answer": "Igen, nagyon biztonságos, sík és nyugodt város gyermekes családok számára. A Samobori Vár romjaihoz vezető könnyű erdei séta és a közeli Grgos-barlang népszerű gyerekbarát tevékenységek."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Áttekintés",
+    "whereToStay": "Hol szálljunk meg Samoborban",
+    "gettingThere": "Megközelítés Samoborba",
+    "whenToGo": "Mikor érdemes utazni",
+    "guides": "Samobor útikalauzok",
+    "faq": "Gyakran ismételt kérdések Samoborról",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor utazzunk",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Ételek és italok",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "samobor",
+  "language": "hu",
+  "updatedAt": "2026-10-16T21:15:49.451Z"
+}

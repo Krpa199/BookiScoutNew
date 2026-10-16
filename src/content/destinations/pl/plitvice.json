@@ -1,0 +1,146 @@
+{
+  "title": "Jeziora Plitwickie – Przewodnik: Wejścia, parking i okolice",
+  "metaDescription": "Praktyczny przewodnik po Jeziorach Plitwickich. Zaplanuj swoją trasę, znajdź parking, poznaj lokalizacje wejść i zdecyduj, gdzie się zatrzymać w pobliżu parku.",
+  "intro": "Jeziora Plitwickie to największy i najczęściej odwiedzany park narodowy Chorwacji, znany z 16 kaskadowych jezior połączonych licznymi wodospadami. Przyciąga przede wszystkim miłośników pieszych wędrówek, turystów przyrodniczych oraz osoby podróżujące po kraju samochodem.\n\nWizyta wymaga wcześniejszego planowania, ponieważ dzienna liczba biletów jest ściśle ograniczona godziną wejścia. Szlakami parku jest bardzo tłoczno w lipcu i sierpniu, dlatego maj, czerwiec, wrzesień i październik to optymalne miesiące na komfortowe temperatury do spacerowania i mniejsze tłumy. Samochód jest zalecany do dojazdu do zakwaterowania poza bezpośrednimi granicami parku, choć bezpośrednie linie autobusowe łączą wejścia do parku z Zagrzebiem, Zadarem i Splitem.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "Maj, czerwiec, wrzesień, październik"
+    },
+    {
+      "label": "Temperatura morza w sierpniu",
+      "value": "N/D (Śródlądowy park narodowy)"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Zadar (ZAD) 130 km; Zagrzeb (ZAG) 140 km"
+    },
+    {
+      "label": "Główny typ plaży",
+      "value": "N/D (Kąpiel w jeziorach jest surowo zabroniona)"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "Wysoki (Wstęp do parku w sezonie szczytowym i pobliskie hotele przekraczają średnie krajowe)"
+    },
+    {
+      "label": "Możliwość poruszania się pieszo",
+      "value": "Brak tradycyjnego centrum miasta; szlaki parkowe są przeznaczone wyłącznie dla pieszych"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Rastovača (W pobliżu Wejścia 1)",
+      "bestFor": "Dla osób odwiedzających park po raz pierwszy, pragnących bezpośredniego dostępu pieszego do Dolnych Jezior i Wielkiego Wodospadu.",
+      "parking": "Prywatne parkingi przy pensjonatach; płatny parking publiczny przy Wejściu 1.",
+      "beach": "N/D",
+      "summary": "Niewielka grupa pensjonatów bezpośrednio na północ od Wejścia 1. Nocleg tutaj pozwala odwiedzającym zostawić pojazd w swoim zakwaterowaniu i dojść do wejścia do parku w ciągu 10 do 15 minut."
+    },
+    {
+      "name": "Mukinje i Jezerce (W pobliżu Wejścia 2)",
+      "bestFor": "Dla odwiedzających eksplorujących Górne Jeziora lub szukających uznanych hoteli państwowych.",
+      "parking": "Dostępny parking hotelowy; płatny parking publiczny przy Wejściu 2.",
+      "beach": "N/D",
+      "summary": "Położona na południe od Wejścia 2, ta okolica oferuje kilka dużych hoteli i prywatnych apartamentów. Brukowana ścieżka łączy wioskę bezpośrednio z kasą biletową Wejścia 2 i główną przystanią dla łodzi."
+    },
+    {
+      "name": "Rakovica i Grabovac",
+      "bestFor": "Dla podróżujących z ograniczonym budżetem, rodzin oraz tych, którzy podróżują samochodem lub kamperem.",
+      "parking": "Duża ilość bezpłatnych parkingów w ośrodkach wypoczynkowych, na kempingach i w hotelach wiejskich.",
+      "beach": "N/D",
+      "summary": "Położone od 8 do 15 kilometrów na północ od parku wzdłuż autostrady D1. Obszar ten oferuje szerszy wybór opcji gastronomicznych, duże kompleksy wypoczynkowe i generalnie niższe ceny niż w bezpośrednim sąsiedztwie parku."
+    },
+    {
+      "name": "Plitvica Selo",
+      "bestFor": "Dla cichych, luksusowych pobytów położonych bezpośrednio w granicach parku narodowego.",
+      "parking": "Prywatny parking na miejscu; jazda wymaga poruszania się po wąskich drogach parkowych.",
+      "beach": "N/D",
+      "summary": "Niewielka wioska położona tuż obok Wielkiego Wodospadu i jeziora Kozjak. Zapewnia bezpośredni dostęp pieszy do szlaków przez drugorzędne wejście (Wejście 3), omijając główne kolejki po bilety."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monachium",
+      "car": "570 km, ~6,5 godziny przez A8 (DE), A10 (AT), A2 (SI) i D1 (HR). Wymaga austriackiej i słoweńskiej winiety oraz opłat za przejazd Tauerntunnel i chorwackimi autostradami.",
+      "other": "Bezpośredni FlixBus do Jezior Plitwickich (ok. 9 godzin) lub lot do Zagrzebia, a następnie autobus."
+    },
+    {
+      "from": "Wiedeń",
+      "car": "420 km, ~5 godzin przez A2 do Graz, A4 (SI) w kierunku Mariboru, A1 (HR) do Karlovac, następnie D1. Wymaga austriackich i słoweńskich winiet oraz chorwackich opłat za autostrady.",
+      "other": "Bezpośredni FlixBus do Jezior Plitwickich (ok. 7 godzin) lub pociąg/lot do Zagrzebia, a następnie autobus."
+    },
+    {
+      "from": "Budapeszt",
+      "car": "480 km, ~5,5 godziny przez M7 do Chorwacji (A4), za Zagrzebiem do Karlovac (A1), następnie D1. Wymaga węgierskiej e-winiety i chorwackich opłat za autostrady.",
+      "other": "Autobus lub pociąg do Zagrzebia, a następnie przesiadka na krajową linię autobusową do Jezior Plitwickich."
+    },
+    {
+      "from": "Lublana",
+      "car": "210 km, ~3 godziny przez A2 do Novo Mesto, przekraczając granicę w kierunku Karlovac, następnie D1 na południe. Wymaga słoweńskiej winiety i niewielkich chorwackich opłat.",
+      "other": "Autobus lub pociąg do Zagrzebia, a następnie przesiadka na autobus jadący do Plitwic."
+    },
+    {
+      "from": "Praga",
+      "car": "750 km, ~8,5 godziny przez Brno, Wiedeń, Graz i Zagrzeb. Wymaga czeskich, austriackich i słoweńskich winiet, plus chorwackich opłat.",
+      "other": "Lot lub bezpośredni autobus/pociąg RegioJet do Zagrzebia, z przesiadką na lokalny autobus do parku."
+    },
+    {
+      "from": "Kraków",
+      "car": "870 km, ~10 godzin przez Słowację, Węgry (Budapeszt) i Chorwację (Zagrzeb). Wymaga słowackich i węgierskich winiet, plus chorwackich opłat za autostrady.",
+      "other": "Lot do Zagrzebia (zazwyczaj przez Warszawę lub Wiedeń), a następnie 2-godzinna podróż autobusem do parku."
+    }
+  ],
+  "whenToGo": "Maj i wrzesień oferują najlepszą równowagę między umiarkowanym tłokiem a przyjemnymi temperaturami do wędrówek, zazwyczaj w zakresie od 15°C do 23°C. Lipiec i sierpień są bardzo zatłoczone, z dziennymi temperaturami około 28°C i cenami biletów w szczycie sezonu. Zima przynosi śnieg, mroźne temperatury i drastycznie obniżone ceny biletów, chociaż Górne Jeziora oraz wewnętrzne połączenia łodzią i pociągiem zazwyczaj są zamknięte od listopada do marca. Pływanie jest zabronione przez cały rok, więc temperatury morza nie mają zastosowania. Opady deszczu są częste wiosną, co sprawia, że wodospady są szczególnie potężne.",
+  "faq": [
+    {
+      "question": "Czy warto odwiedzić?",
+      "answer": "Tak, to najsłynniejsza atrakcja przyrodnicza Chorwacji. Rozbudowana sieć drewnianych kładek nad czystymi jeziorami i wodospadami jest unikalna w Europie."
+    },
+    {
+      "question": "Ile dni potrzebuję?",
+      "answer": "Jeden pełny dzień wystarczy, aby przejść główne szlaki i zobaczyć zarówno Górne, jak i Dolne Jeziora. Pozostanie na jedną noc w pobliżu pozwala wejść do parku o godzinie otwarcia, zanim dotrą południowe wycieczki autokarowe."
+    },
+    {
+      "question": "Gdzie jest najlepsza plaża?",
+      "answer": "Pływanie jest surowo zabronione na terenie całego Parku Narodowego Jezior Plitwickich w celu ochrony ekosystemu. Najbliższe plaże nadmorskie znajdują się w Senj lub Zadarze, obie oddalone o około 1,5 do 2 godzin jazdy samochodem."
+    },
+    {
+      "question": "Czy potrzebuję samochodu?",
+      "answer": "Samochód nie jest wymagany do zwiedzania parku, jeśli zatrzymasz się w hotelu bezpośrednio przy Wejściu 1 lub 2, ponieważ zatrzymują się tam autobusy z Zagrzebia i Zadaru. Jednak samochód jest konieczny, jeśli zarezerwujesz zakwaterowanie w okolicznych wioskach, takich jak Rakovica czy Korenica."
+    },
+    {
+      "question": "Gdzie najlepiej zaparkować?",
+      "answer": "Park narodowy obsługuje dwa główne, oficjalne, płatne parkingi (Parking 1 i Parking 2), odpowiadające dwóm głównym wejściom. Parking kosztuje około 1 do 2 euro za godzinę, w zależności od sezonu, a parkingi szybko zapełniają się do południa latem."
+    },
+    {
+      "question": "Czy jest to dobre dla rodzin?",
+      "answer": "Tak, ale jest lepiej przystosowany dla starszych dzieci, które mogą samodzielnie przejść kilka kilometrów. Drewniane kładki są często nierówne, w wielu sekcjach brakuje poręczy i nie nadają się dla wózków dziecięcych."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Gdzie się zatrzymać w Jeziorach Plitwickich",
+    "gettingThere": "Dojazd do Jezior Plitwickich",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Jeziorach Plitwickich",
+    "faq": "Jeziora Plitwickie – FAQ",
+    "groups": {
+      "gettingAround": "Parking i poruszanie się",
+      "planning": "Planowanie i gdzie się zatrzymać",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróżowania",
+      "activities": "Plaże i atrakcje",
+      "food": "Jedzenie i picie",
+      "comparisons": "Porównania",
+      "practical": "Praktyczne informacje"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "plitvice",
+  "language": "pl",
+  "updatedAt": "2026-10-16T20:15:14.294Z"
+}

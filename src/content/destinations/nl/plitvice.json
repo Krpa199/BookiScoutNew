@@ -1,0 +1,146 @@
+{
+  "title": "Plitvička Jezera Reisgids: Ingangen, Parkeren en Gebieden",
+  "metaDescription": "Feitelijke gids voor Plitvička Jezera (Plitvice Meren). Plan je route, vind parkeergelegenheid, begrijp de ingangen en beslis waar je kunt verblijven in de buurt van het park.",
+  "intro": "Plitvička Jezera (Plitvice Meren) is Kroatië's grootste en meest bezochte nationale park, bekend om zijn 16 terrasvormige meren die verbonden zijn door talrijke watervallen. Het trekt voornamelijk wandelaars, natuurtoeristen en roadtrippers die het land verkennen.\n\nEen bezoek vereist voorafgaande planning, aangezien het dagelijkse aantal tickets strikt beperkt is per toegangstijd. De parkpaden zijn erg druk in juli en augustus, waardoor mei, juni, september en oktober de optimale maanden zijn voor comfortabele wandeltemperaturen en minder drukte. Een auto wordt aanbevolen voor het bereiken van accommodaties buiten de directe parkgrenzen, hoewel directe buslijnen de parkingangen verbinden met Zagreb, Zadar en Split.",
+  "quickFacts": [
+    {
+      "label": "Beste maanden",
+      "value": "Mei, juni, september, oktober"
+    },
+    {
+      "label": "Zeetemperatuur in augustus",
+      "value": "N.v.t. (Nationaal park in het binnenland)"
+    },
+    {
+      "label": "Dichtstbijzijnde luchthaven",
+      "value": "Zadar (ZAD) 130 km; Zagreb (ZAG) 140 km"
+    },
+    {
+      "label": "Belangrijkste strandtype",
+      "value": "N.v.t. (Zwemmen in de meren is ten strengste verboden)"
+    },
+    {
+      "label": "Prijsniveau",
+      "value": "Hoog (Toegang tot het park en nabijgelegen hotels in het hoogseizoen overschrijden het landelijk gemiddelde)"
+    },
+    {
+      "label": "Wandelbaarheid",
+      "value": "Geen traditioneel stadscentrum; parkpaden zijn alleen voor voetgangers"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Rastovača (Bij ingang 1)",
+      "bestFor": "Eerste bezoekers die directe toegang te voet willen tot de Benedenmeren en de Grote Waterval.",
+      "parking": "Privéparking bij pensions; betaald openbaar parkeerterrein bij ingang 1.",
+      "beach": "N.v.t.",
+      "summary": "Een kleine verzameling pensions direct ten noorden van ingang 1. Als u hier verblijft, kunt u uw voertuig bij uw accommodatie achterlaten en in 10 tot 15 minuten naar de parkingang lopen."
+    },
+    {
+      "name": "Mukinje & Jezerce (Bij ingang 2)",
+      "bestFor": "Bezoekers die de Bovenmeren verkennen of op zoek zijn naar gevestigde staatshotels.",
+      "parking": "Hotelparking beschikbaar; betaald openbaar parkeerterrein bij ingang 2.",
+      "beach": "N.v.t.",
+      "summary": "Gelegen net ten zuiden van ingang 2, beschikt dit gebied over verschillende grote hotels en privéappartementen. Een verhard pad verbindt het dorp direct met het kassa van ingang 2 en de belangrijkste aanlegplaats voor boten."
+    },
+    {
+      "name": "Rakovica & Grabovac",
+      "bestFor": "Budgetbewuste reizigers, gezinnen en degenen die met de auto of camper reizen.",
+      "parking": "Ruime gratis parkeergelegenheid bij vakantieparken, campings en landelijke hotels.",
+      "beach": "N.v.t.",
+      "summary": "Gelegen 8 tot 15 kilometer ten noorden van het park langs de D1-snelweg. Dit gebied biedt een grotere verscheidenheid aan eetgelegenheden, grote vakantieoordcomplexen en over het algemeen lagere prijzen dan de directe omgeving van het park."
+    },
+    {
+      "name": "Plitvica Selo",
+      "bestFor": "Rustige, luxe verblijven direct binnen de grenzen van het nationale park.",
+      "parking": "Privéparking ter plaatse; rijden vereist het navigeren over smalle parkwegen.",
+      "beach": "N.v.t.",
+      "summary": "Een klein dorpje direct naast de Grote Waterval en het Kozjak-meer. Het biedt directe toegang te voet tot de paden via een secundaire ingang (ingang 3), waardoor de hoofdkassa's worden omzeild."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "570 km, ~6,5 uur via A8 (DE), A10 (AT), A2 (SI) en D1 (HR). Vereist Oostenrijkse en Sloveense vignetten, plus tol voor de Tauerntunnel en Kroatische snelwegen.",
+      "other": "Directe FlixBus naar Plitvice Meren (ongeveer 9 uur) of vlucht naar Zagreb gevolgd door een bus."
+    },
+    {
+      "from": "Wenen",
+      "car": "420 km, ~5 uur via A2 naar Graz, A4 (SI) richting Maribor, A1 (HR) naar Karlovac, vervolgens D1. Vereist Oostenrijkse en Sloveense vignetten en Kroatische snelwegtol.",
+      "other": "Directe FlixBus naar Plitvice Meren (ongeveer 7 uur) of trein/vlucht naar Zagreb gevolgd door een bus."
+    },
+    {
+      "from": "Budapest",
+      "car": "480 km, ~5,5 uur via M7 Kroatië in (A4), voorbij Zagreb naar Karlovac (A1), vervolgens D1. Vereist Hongaars e-vignet en Kroatische snelwegtol.",
+      "other": "Bus of trein naar Zagreb, daarna overstappen op een binnenlandse buslijn naar Plitvice Meren."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "210 km, ~3 uur via A2 naar Novo Mesto, de grens over richting Karlovac, vervolgens D1 zuid. Vereist Sloveens vignet en kleine Kroatische tolgelden.",
+      "other": "Bus of trein naar Zagreb, gevolgd door een overstap op een bus naar Plitvice."
+    },
+    {
+      "from": "Praag",
+      "car": "750 km, ~8,5 uur via Brno, Wenen, Graz en Zagreb. Vereist Tsjechische, Oostenrijkse en Sloveense vignetten, plus Kroatische tolgelden.",
+      "other": "Vlucht of directe RegioJet bus/trein naar Zagreb, overstappen op een lokale bus naar het park."
+    },
+    {
+      "from": "Krakau",
+      "car": "870 km, ~10 uur via Slowakije, Hongarije (Boedapest) en Kroatië (Zagreb). Vereist Slowaakse en Hongaarse vignetten, plus Kroatische snelwegtol.",
+      "other": "Vlucht naar Zagreb (meestal via Warschau of Wenen), gevolgd door een busrit van 2 uur naar het park."
+    }
+  ],
+  "whenToGo": "Mei en september bieden de beste balans tussen gematigde drukte en aangename wandeltemperaturen, meestal variërend van 15°C tot 23°C. Juli en augustus zijn erg druk, met dagelijkse maxima rond 28°C en ticketprijzen voor het hoogseizoen. De winter brengt sneeuw, vriestemperaturen en drastisch verlaagde ticketprijzen, hoewel de Bovenmeren en de interne boot- en treindiensten meestal gesloten zijn van november tot en met maart. Zwemmen is het hele jaar door verboden, dus zeetemperaturen zijn niet van toepassing. Regenval is gebruikelijk in de lente, waardoor de watervallen bijzonder krachtig zijn.",
+  "faq": [
+    {
+      "question": "Is het de moeite waard om te bezoeken?",
+      "answer": "Ja, het is de beroemdste natuurlijke attractie van Kroatië. Het uitgebreide netwerk van houten loopbruggen over heldere meren en watervallen is uniek in Europa."
+    },
+    {
+      "question": "Hoeveel dagen heb ik nodig?",
+      "answer": "Eén volledige dag is genoeg om de belangrijkste paden te bewandelen en zowel de Boven- als de Benedenmeren te zien. Eén nacht in de buurt blijven stelt u in staat om het park bij openingstijd te betreden voordat de middagbustochten arriveren."
+    },
+    {
+      "question": "Waar is het beste strand?",
+      "answer": "Zwemmen is ten strengste verboden overal in het Nationaal Park Plitvice Meren om het ecosysteem te beschermen. De dichtstbijzijnde kuststranden zijn in Senj of Zadar, beide op ongeveer 1,5 tot 2 uur rijden."
+    },
+    {
+      "question": "Heb ik een auto nodig?",
+      "answer": "Een auto is niet nodig om het park te bewandelen als u in een hotel direct bij ingang 1 of 2 verblijft, aangezien bussen uit Zagreb en Zadar daar stoppen. Echter, een auto is wel noodzakelijk als u accommodatie boekt in omliggende dorpen zoals Rakovica of Korenica."
+    },
+    {
+      "question": "Waar is de beste plek om te parkeren?",
+      "answer": "Het nationale park exploiteert twee belangrijke officiële, betaalde parkeerplaatsen (Parkeerplaats 1 en Parkeerplaats 2) die overeenkomen met de twee hoofdingangen. Parkeren kost ongeveer €1 tot €2 per uur afhankelijk van het seizoen, en de parkeerplaatsen zijn in de zomer halverwege de ochtend snel vol."
+    },
+    {
+      "question": "Is het geschikt voor gezinnen?",
+      "answer": "Ja, maar het is beter geschikt voor oudere kinderen die meerdere kilometers zelfstandig kunnen lopen. De houten loopbruggen zijn vaak ongelijk, missen in veel delen relingen en zijn niet geschikt voor kinderwagens."
+    }
+  ],
+  "headings": {
+    "quickFacts": "In één oogopslag",
+    "whereToStay": "Waar te verblijven in Plitvička Jezera",
+    "gettingThere": "Naar Plitvička Jezera reizen",
+    "whenToGo": "Beste reistijd",
+    "guides": "Plitvička Jezera gidsen",
+    "faq": "Plitvička Jezera veelgestelde vragen",
+    "groups": {
+      "gettingAround": "Parkeren & rondreizen",
+      "planning": "Planning & waar te verblijven",
+      "timing": "Wanneer te gaan",
+      "travelers": "Gezinnen, stellen & reisstijlen",
+      "activities": "Stranden & dingen om te doen",
+      "food": "Eten & drinken",
+      "comparisons": "Vergelijkingen",
+      "practical": "Praktische info"
+    },
+    "car": "Met de auto",
+    "other": "Andere opties",
+    "bestFor": "Geschikt voor",
+    "parking": "Parkeren",
+    "beach": "Strand"
+  },
+  "destination": "plitvice",
+  "language": "nl",
+  "updatedAt": "2026-10-16T20:18:04.631Z"
+}
