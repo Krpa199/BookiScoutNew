@@ -9,6 +9,7 @@ import { locales, localeNames, localeFlags, type Locale } from '@/i18n/config';
 
 export default function Header() {
   const t = useTranslations('nav');
+  const tFooter = useTranslations('footer');
   const locale = useLocale() as Locale;
   const pathname = usePathname();
   const router = useRouter();
@@ -63,13 +64,14 @@ export default function Header() {
             <span className="font-bold text-xl text-slate-900 leading-none">
               Booki<span className="text-gradient-ocean">Scout</span>
             </span>
-            <span className="text-xs text-slate-500 font-medium leading-none mt-0.5">Croatia Decision Guides</span>
+            <span className="text-xs text-slate-500 font-medium leading-none mt-0.5">{tFooter('tagline')}</span>
           </div>
         </Link>
 
         {/* Desktop Navigation */}
         <div className="hidden lg:flex items-center gap-2">
-          {navigation.map((item) => {
+          {/* Stay Check is the CTA button on the right — don't repeat it here */}
+          {navigation.filter(item => !('highlight' in item && item.highlight)).map((item) => {
             const Icon = item.icon;
             return (
               <Link
@@ -137,13 +139,13 @@ export default function Header() {
             )}
           </div>
 
-          {/* CTA Button */}
+          {/* CTA: Stay Check — the one feature nobody else has */}
           <Link
-            href="/guides"
-            className="btn-primary text-sm shadow-soft hover:shadow-medium"
+            href="/stay-check"
+            className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-coral-500 to-sand-500 px-5 py-2.5 text-sm font-semibold text-white shadow-soft transition-all hover:shadow-medium hover:brightness-105"
           >
-            <HelpCircle className="w-4 h-4" />
-            {t('decisionGuides')}
+            <Search className="w-4 h-4" />
+            {t('stayCheck')}
           </Link>
         </div>
 

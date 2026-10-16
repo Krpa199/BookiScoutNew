@@ -72,7 +72,7 @@ export default {
       },
       fontFamily: {
         sans: ['var(--font-inter)', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
-        display: ['var(--font-inter)', 'system-ui', 'sans-serif'],
+        display: ['var(--font-display)', 'Georgia', 'serif'],
       },
       boxShadow: {
         'soft': '0 2px 8px -2px rgba(14, 165, 233, 0.1), 0 4px 16px -4px rgba(14, 165, 233, 0.08)',

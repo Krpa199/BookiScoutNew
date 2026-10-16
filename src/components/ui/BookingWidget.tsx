@@ -2,6 +2,7 @@
 
 import { Search, Calendar, Users } from 'lucide-react';
 import { trackBookingClick } from '@/lib/analytics';
+import { useTranslations } from 'next-intl';
 
 interface BookingWidgetProps {
   destination: string;
@@ -25,6 +26,7 @@ export default function BookingWidget({
   destinationSlug,
   className = ''
 }: BookingWidgetProps) {
+  const t = useTranslations('guides.detail.ui');
 
   const handleSearch = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -63,15 +65,15 @@ export default function BookingWidget({
   const formatDate = (date: Date) => date.toISOString().split('T')[0];
 
   return (
-    <div className={`bg-gradient-to-br from-blue-600 to-blue-700 rounded-2xl p-6 text-white ${className}`}>
+    <div className={`bg-gradient-to-br from-ocean-800 to-ocean-900 rounded-2xl p-6 text-white ${className}`}>
       {/* Header */}
       <div className="flex items-center gap-3 mb-4">
         <div className="w-10 h-10 bg-white/20 rounded-xl flex items-center justify-center">
           <Search className="w-5 h-5" />
         </div>
         <div>
-          <h3 className="font-bold text-lg">Find Accommodation</h3>
-          <p className="text-blue-100 text-sm">in {destination}, Croatia</p>
+          <h3 className="font-bold text-lg text-white">{t('findStay')}</h3>
+          <p className="text-ocean-100 text-sm">{destination}</p>
         </div>
       </div>
 
@@ -96,7 +98,7 @@ export default function BookingWidget({
               name="checkin"
               defaultValue={formatDate(tomorrow)}
               min={formatDate(tomorrow)}
-              className="w-full pl-10 pr-3 py-3 rounded-xl bg-white text-gray-900 text-sm focus:outline-none focus:ring-2 focus:ring-blue-300"
+              className="w-full pl-10 pr-3 py-3 rounded-xl bg-white text-gray-900 text-sm focus:outline-none focus:ring-2 focus:ring-sand-300"
             />
           </div>
           <div className="relative">
@@ -106,7 +108,7 @@ export default function BookingWidget({
               name="checkout"
               defaultValue={formatDate(dayAfter)}
               min={formatDate(tomorrow)}
-              className="w-full pl-10 pr-3 py-3 rounded-xl bg-white text-gray-900 text-sm focus:outline-none focus:ring-2 focus:ring-blue-300"
+              className="w-full pl-10 pr-3 py-3 rounded-xl bg-white text-gray-900 text-sm focus:outline-none focus:ring-2 focus:ring-sand-300"
             />
           </div>
         </div>
@@ -117,30 +119,30 @@ export default function BookingWidget({
           <select
             name="guests"
             defaultValue="2"
-            className="w-full pl-10 pr-4 py-3 rounded-xl bg-white text-gray-900 text-sm focus:outline-none focus:ring-2 focus:ring-blue-300 appearance-none cursor-pointer"
+            className="w-full pl-10 pr-4 py-3 rounded-xl bg-white text-gray-900 text-sm focus:outline-none focus:ring-2 focus:ring-sand-300 appearance-none cursor-pointer"
           >
             <option value="1">1 Guest</option>
-            <option value="2">2 Guests</option>
-            <option value="3">3 Guests</option>
-            <option value="4">4 Guests</option>
-            <option value="5">5 Guests</option>
-            <option value="6">6+ Guests</option>
+            <option value="2">{t('guests', { count: 2 })}</option>
+            <option value="3">{t('guests', { count: 3 })}</option>
+            <option value="4">{t('guests', { count: 4 })}</option>
+            <option value="5">{t('guests', { count: 5 })}</option>
+            <option value="6">{t('guestsMore', { count: 6 })}</option>
           </select>
         </div>
 
         {/* Search Button */}
         <button
           type="submit"
-          className="w-full py-3 bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold rounded-xl transition-colors flex items-center justify-center gap-2"
+          className="w-full py-3 bg-sand-400 hover:bg-sand-300 text-ocean-900 font-bold rounded-xl transition-colors flex items-center justify-center gap-2"
         >
           <Search className="w-5 h-5" />
-          Search on Booking.com
+          {t('searchOnBooking')}
         </button>
       </form>
 
       {/* Powered by */}
-      <p className="text-center text-blue-200 text-xs mt-4">
-        Powered by Booking.com
+      <p className="text-center text-ocean-200 text-xs mt-4">
+        {t('poweredByBooking')}
       </p>
     </div>
   );

@@ -35,7 +35,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white relative overflow-hidden">
+    <footer className="bg-gradient-to-br from-ocean-900 via-[#0a3a57] to-ocean-900 text-white relative overflow-hidden">
       {/* Background decoration - Ocean themed */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-ocean-500 rounded-full blur-3xl" />
@@ -228,7 +228,7 @@ export default function Footer() {
         </div>
 
         {/* Divider */}
-        <div className="h-px bg-gradient-to-r from-transparent via-slate-700 to-transparent mb-6" />
+        <div className="h-px bg-gradient-to-r from-transparent via-ocean-700 to-transparent mb-6" />
 
         {/* Bottom Bar */}
         <div className="flex flex-col items-center gap-4 md:flex-row md:justify-between">

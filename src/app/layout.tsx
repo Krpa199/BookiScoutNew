@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Fraunces } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import OrganizationSchema from "@/components/schema/OrganizationSchema";
@@ -10,6 +10,15 @@ const inter = Inter({
   subsets: ["latin", "latin-ext"],
   display: "swap",
   variable: "--font-inter",
+});
+
+// Editorial display face for article/hub headings (latin-ext covers hr/hu/pl/cz;
+// Russian falls back to Georgia)
+const fraunces = Fraunces({
+  subsets: ["latin", "latin-ext"],
+  display: "swap",
+  variable: "--font-display",
+  axes: ["opsz", "SOFT"],
 });
 
 export const metadata: Metadata = {
@@ -94,7 +103,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html className={inter.variable} suppressHydrationWarning>
+    <html className={`${inter.variable} ${fraunces.variable}`} suppressHydrationWarning>
       <head>
         {/* AI Search Engine Tags */}
         <meta name="ai-content-declaration" content="human-edited" />

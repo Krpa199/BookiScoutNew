@@ -1,7 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import { Search, Sparkles, Shield, BarChart3, MessageCircle } from 'lucide-react';
+import { Search, Sparkles, Shield, BarChart3, MessageCircle, Waves, Utensils, Music, Car, ShoppingBag, Scale, Clock, ChevronDown } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 import StayCheckForm, { type FormData } from './StayCheckForm';
 import StayCheckResults from './StayCheckResults';
 import { trackStayCheckSubmit, trackStayCheckSuccess, trackStayCheckError } from '@/lib/analytics';
@@ -49,6 +50,8 @@ const FAQ_ITEMS: Record<string, { q: string; a: string }[]> = {
 
 export default function StayCheckClient({ locale = 'en' }: { locale?: string }) {
   const t = CLIENT_UI[locale] || CLIENT_UI.en;
+  const tu = useTranslations('guides.detail.ui');
+  const td = useTranslations('guides.detail');
   const [isLoading, setIsLoading] = useState(false);
   const [results, setResults] = useState<Parameters<typeof StayCheckResults>[0]['data'] | null>(null);
   const [error, setError] = useState('');
@@ -104,176 +107,146 @@ export default function StayCheckClient({ locale = 'en' }: { locale?: string }) 
     setError('');
   };
 
-  return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
-      {/* Hero */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-ocean-500 via-ocean-400 to-coral-400 text-white">
-        <div className="absolute inset-0 opacity-15">
-          <svg className="absolute inset-0 w-full h-full" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-              <pattern id="stay-check-pattern" x="0" y="0" width="80" height="80" patternUnits="userSpaceOnUse">
-                <circle cx="20" cy="20" r="2" fill="white" opacity="0.3" />
-                <circle cx="60" cy="60" r="1.5" fill="white" opacity="0.2" />
-              </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#stay-check-pattern)" />
-          </svg>
-        </div>
+  const card = 'rounded-2xl bg-white shadow-[0_1px_2px_rgba(12,74,110,0.06),0_6px_20px_-6px_rgba(12,74,110,0.12)] ring-1 ring-ocean-900/[0.06]';
 
-        <div className="container relative py-12 md:py-16 lg:py-20">
-          {/* Breadcrumb */}
-          <nav className="text-sm text-ocean-100 mb-6 text-center" aria-label="Breadcrumb">
-            <a href={`/${locale === 'en' ? '' : locale}`} className="hover:text-white">BookiScout</a>
-            {' '}<span aria-hidden="true">&rarr;</span>{' '}
-            <span className="text-white font-medium">Stay Check</span>
+  const steps = [
+    { icon: Search, title: tu('scStep1Title'), description: tu('scStep1Desc') },
+    { icon: MessageCircle, title: t.step2Title, description: t.step2Desc },
+    { icon: BarChart3, title: t.step3Title, description: t.step3Desc },
+  ];
+  const covers = [
+    { icon: Waves, label: tu('scBeaches') },
+    { icon: Utensils, label: tu('scFood') },
+    { icon: Music, label: tu('scNoise') },
+    { icon: Car, label: tu('scParking') },
+    { icon: ShoppingBag, label: tu('scShops') },
+    { icon: Scale, label: tu('scVerdict') },
+  ];
+
+  return (
+    <div className="min-h-screen bg-[#e8f2f9]">
+      {/* Hero: pitch on the left, the form right there on the right */}
+      <section className="relative overflow-hidden bg-gradient-to-br from-ocean-900 via-ocean-800 to-ocean-700 text-white pt-8 pb-20 md:pt-12 md:pb-28">
+        <div className="pointer-events-none absolute -top-32 right-[-10%] h-[28rem] w-[28rem] rounded-full bg-sand-300/25 blur-3xl" aria-hidden="true" />
+        <div className="pointer-events-none absolute bottom-0 left-[-10%] h-72 w-72 rounded-full bg-coral-400/15 blur-3xl" aria-hidden="true" />
+
+        <div className="container relative">
+          <nav className="text-sm text-ocean-100/60 mb-8" aria-label="Breadcrumb">
+            <a href={`/${locale === 'en' ? '' : locale}`} className="text-ocean-100/80 hover:text-white">BookiScout</a>
+            {' '}<span aria-hidden="true">›</span>{' '}
+            <span className="font-medium text-sand-200">Stay Check</span>
           </nav>
 
-          <div className="max-w-3xl mx-auto text-center">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/15 backdrop-blur-md rounded-full mb-6 shadow-soft">
-              <Search className="w-4 h-4" />
-              <span className="text-sm font-semibold">Stay Check</span>
-            </div>
-
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight">
-              {t.heroTitle1}
-              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-white via-sand-200 to-white">
-                {t.heroTitle2}
+          <div className={`grid grid-cols-1 gap-10 items-center ${results ? '' : 'lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]'}`}>
+            <div className={results ? 'max-w-3xl' : ''}>
+              <span className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-1.5 text-sm font-semibold text-sand-200 ring-1 ring-white/15">
+                <Search className="w-4 h-4" /> Stay Check
               </span>
-            </h1>
-
-            <p className="text-lg md:text-xl text-ocean-50 mb-8 max-w-2xl mx-auto leading-relaxed">
-              {t.heroDesc} <strong>{t.heroDescBold}</strong> {t.heroDescEnd}
-            </p>
-
-            {/* Trust signals */}
-            <div className="flex flex-wrap items-center justify-center gap-4 text-sm mb-8">
-              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-3 py-1.5 rounded-full">
-                <Shield className="w-4 h-4" />
-                <span>{t.trust1}</span>
-              </div>
-              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-3 py-1.5 rounded-full">
-                <BarChart3 className="w-4 h-4" />
-                <span>{t.trust2}</span>
-              </div>
-              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-3 py-1.5 rounded-full">
-                <Sparkles className="w-4 h-4" />
-                <span>{t.trust3}</span>
+              <h1 className="mt-5 font-display text-4xl sm:text-5xl lg:text-6xl font-semibold leading-[1.05] tracking-tight text-white">
+                {t.heroTitle1} <span className="text-sand-200">{t.heroTitle2}</span>
+              </h1>
+              <p className="mt-5 text-lg md:text-xl text-ocean-50/80 leading-relaxed max-w-xl">{tu('scHeroDesc')}</p>
+              <div className="mt-6 flex flex-wrap gap-2 text-sm">
+                {[[Shield, t.trust1], [BarChart3, t.trust2], [Sparkles, t.trust3], [Clock, tu('scFree')]].map(([Icon, label]) => {
+                  const I = Icon as typeof Shield;
+                  return (
+                    <span key={label as string} className="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1.5 ring-1 ring-white/15">
+                      <I className="w-4 h-4 text-sand-200" /> {label as string}
+                    </span>
+                  );
+                })}
               </div>
             </div>
+
+            {!results && (
+              <div className="rounded-3xl bg-white p-5 sm:p-7 text-slate-900 shadow-2xl shadow-ocean-900/40 ring-1 ring-white/20">
+                <StayCheckForm onSubmit={handleSubmit} isLoading={isLoading} locale={locale} />
+
+                {error && (
+                  <div className="mt-5 rounded-xl bg-coral-50 p-4 text-center ring-1 ring-coral-200">
+                    <p className="text-sm font-medium text-coral-700">{error}</p>
+                  </div>
+                )}
+
+                {isLoading && (
+                  <div className="mt-5 space-y-3 animate-fade-in">
+                    <div className="flex items-center gap-3 rounded-xl bg-ocean-50 px-4 py-3">
+                      <div className="h-6 w-6 flex-shrink-0 rounded-full border-[3px] border-ocean-200 border-t-ocean-600 animate-spin" />
+                      <div>
+                        <p className="text-sm font-bold text-ocean-800">{t.analyzing}</p>
+                        <p className="text-xs text-ocean-600">{t.analyzingSub}</p>
+                      </div>
+                    </div>
+                    <p className="flex items-center gap-2 rounded-xl bg-sand-50 px-4 py-3 text-xs font-medium text-sand-800 ring-1 ring-sand-200">
+                      <Clock className="w-4 h-4 flex-shrink-0" /> {t.patience}
+                    </p>
+                  </div>
+                )}
+              </div>
+            )}
           </div>
         </div>
 
-        {/* Wave */}
-        <div className="absolute bottom-0 left-0 right-0 text-slate-50">
-          <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-8 sm:h-auto" preserveAspectRatio="none">
-            <path d="M0,64 C240,100 480,100 720,64 C960,28 1200,28 1440,64 L1440,120 L0,120 Z" fill="currentColor" />
-          </svg>
-        </div>
+        <svg className="absolute bottom-0 left-0 h-8 w-full text-[#e8f2f9] md:h-12" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true">
+          <path fill="currentColor" d="M0,32 C240,58 480,58 720,34 C960,10 1200,10 1440,32 L1440,60 L0,60 Z" />
+        </svg>
       </section>
 
-      {/* Content */}
-      <section className="py-8 md:py-12">
+      <section className="pt-10 pb-20 md:pt-14 md:pb-24">
         <div className="container">
           {!results ? (
             <>
-              <StayCheckForm onSubmit={handleSubmit} isLoading={isLoading} locale={locale} />
-
-              {error && (
-                <div className="max-w-2xl mx-auto mt-6 p-4 bg-coral-50 border border-coral-200 rounded-2xl text-center">
-                  <p className="text-coral-700 text-sm font-medium">{error}</p>
-                </div>
-              )}
-
-              {/* Loading state with steps */}
-              {isLoading && (
-                <div className="max-w-2xl mx-auto mt-8 text-center animate-fade-in space-y-4">
-                  <div className="inline-flex items-center gap-3 px-6 py-4 bg-ocean-50 rounded-2xl">
-                    <div className="w-6 h-6 border-3 border-ocean-200 border-t-ocean-600 rounded-full animate-spin" />
-                    <div className="text-left">
-                      <p className="text-sm font-bold text-ocean-700">{t.analyzing}</p>
-                      <p className="text-xs text-ocean-500">{t.analyzingSub}</p>
-                    </div>
+              {/* What the report covers */}
+              <h2 className="font-display text-3xl md:text-4xl font-semibold tracking-tight text-ocean-900">{tu('scWhatYouGet')}</h2>
+              <div className="mt-6 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 md:gap-4">
+                {covers.map(({ icon: Icon, label }) => (
+                  <div key={label} className={`flex flex-col items-start gap-3 p-4 md:p-5 ${card}`}>
+                    <span className="flex h-10 w-10 items-center justify-center rounded-full bg-coral-50 text-coral-600">
+                      <Icon className="w-5 h-5" />
+                    </span>
+                    <span className="font-semibold leading-snug text-ocean-900">{label}</span>
                   </div>
-                  <div className="inline-flex items-center gap-2 px-5 py-3 bg-amber-50 border border-amber-200 rounded-2xl">
-                    <svg className="w-5 h-5 text-amber-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                    <p className="text-xs text-amber-700 font-medium">{t.patience}</p>
-                  </div>
-                </div>
-              )}
+                ))}
+              </div>
 
               {/* How it works */}
-              {!isLoading && (
-                <div className="max-w-3xl mx-auto mt-16 md:mt-20">
-                  <h2 className="text-2xl font-bold text-slate-900 mb-8 text-center">{t.howItWorks}</h2>
-                  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    {[
-                      {
-                        icon: Search,
-                        title: t.step1Title,
-                        description: t.step1Desc,
-                        color: 'ocean',
-                      },
-                      {
-                        icon: MessageCircle,
-                        title: t.step2Title,
-                        description: t.step2Desc,
-                        color: 'seafoam',
-                      },
-                      {
-                        icon: BarChart3,
-                        title: t.step3Title,
-                        description: t.step3Desc,
-                        color: 'coral',
-                      },
-                    ].map((step, i) => {
-                      const Icon = step.icon;
-                      const colors: Record<string, string> = {
-                        ocean: 'from-ocean-400 to-ocean-600',
-                        seafoam: 'from-seafoam-400 to-seafoam-600',
-                        coral: 'from-coral-400 to-coral-600',
-                      };
-                      return (
-                        <div key={i} className="text-center">
-                          <div className={`w-14 h-14 bg-gradient-to-br ${colors[step.color]} rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-soft`}>
-                            <Icon className="w-7 h-7 text-white" />
-                          </div>
-                          <h3 className="font-bold text-slate-900 mb-2">{step.title}</h3>
-                          <p className="text-sm text-slate-500">{step.description}</p>
-                        </div>
-                      );
-                    })}
-                  </div>
+              <h2 className="mt-16 md:mt-20 font-display text-3xl md:text-4xl font-semibold tracking-tight text-ocean-900">{t.howItWorks}</h2>
+              <ol className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-5">
+                {steps.map((step, i) => {
+                  const Icon = step.icon;
+                  return (
+                    <li key={i} className={`relative overflow-hidden p-6 ${card}`}>
+                      <span className="absolute -right-2 -top-6 font-display text-[7rem] font-semibold leading-none text-ocean-50" aria-hidden="true">{i + 1}</span>
+                      <span className="relative flex h-11 w-11 items-center justify-center rounded-full bg-gradient-to-br from-ocean-600 to-ocean-800 text-white">
+                        <Icon className="w-5 h-5" />
+                      </span>
+                      <h3 className="relative mt-4 font-display text-xl font-semibold text-ocean-900">{step.title}</h3>
+                      <p className="relative mt-2 text-[15px] leading-relaxed text-slate-600">{step.description}</p>
+                    </li>
+                  );
+                })}
+              </ol>
 
-                  {/* FAQ Section - matches StayCheckSchema.tsx FAQ entries */}
-                  <div className="mt-16 md:mt-20">
-                    <h2 className="text-2xl font-bold text-slate-900 mb-8 text-center">
-                      {locale === 'hr' ? 'Često postavljena pitanja' : locale === 'de' ? 'Häufig gestellte Fragen' : 'Frequently Asked Questions'}
-                    </h2>
-                    <div className="space-y-4">
-                      {(FAQ_ITEMS[locale] || FAQ_ITEMS.en).map((faq: { q: string; a: string }, i: number) => (
-                        <details key={i} className="group bg-white rounded-2xl border border-slate-100 shadow-sm">
-                          <summary className="flex items-center justify-between p-5 cursor-pointer list-none font-semibold text-slate-800 hover:text-ocean-600 transition-colors">
-                            {faq.q}
-                            <svg className="w-5 h-5 text-slate-400 group-open:rotate-180 transition-transform flex-shrink-0 ml-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                              <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-                            </svg>
-                          </summary>
-                          <div className="px-5 pb-5 text-sm text-slate-600 leading-relaxed">{faq.a}</div>
-                        </details>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              )}
+              {/* FAQ */}
+              <h2 className="mt-16 md:mt-20 font-display text-3xl md:text-4xl font-semibold tracking-tight text-ocean-900">{td('faq.title')}</h2>
+              <div className={`mt-6 divide-y divide-slate-100 px-5 sm:px-6 ${card}`}>
+                {(FAQ_ITEMS[locale] || FAQ_ITEMS.en).map((faq: { q: string; a: string }, i: number) => (
+                  <details key={i} open={i === 0} className="group">
+                    <summary className="flex cursor-pointer list-none items-start justify-between gap-4 py-5 font-semibold text-ocean-900 [&::-webkit-details-marker]:hidden">
+                      {faq.q}
+                      <ChevronDown className="mt-0.5 w-5 h-5 flex-shrink-0 text-slate-400 transition-transform group-open:rotate-180" />
+                    </summary>
+                    <p className="pb-5 -mt-1 text-[15px] leading-relaxed text-slate-700">{faq.a}</p>
+                  </details>
+                ))}
+              </div>
             </>
           ) : (
             <>
               <div className="text-center mb-8">
                 <button
                   onClick={handleReset}
-                  className="px-6 py-3 bg-white border-2 border-slate-200 text-slate-700 font-bold rounded-xl hover:bg-slate-50 transition-all text-sm"
+                  className="px-6 py-3 bg-white text-ocean-800 font-semibold rounded-xl shadow-sm ring-1 ring-ocean-900/10 hover:bg-ocean-50 transition-all text-sm"
                 >
                   {t.checkAnother}
                 </button>

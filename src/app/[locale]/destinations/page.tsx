@@ -5,6 +5,8 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { DESTINATIONS, Destination } from '@/config/destinations';
 import DestinationCard from '@/components/ui/DestinationCard';
+import Image from 'next/image';
+import { getDestinationImage } from '@/config/images';
 
 export const revalidate = false; // fully static - rebuilt only via CI/CD
 
@@ -34,209 +36,146 @@ function groupByRegion(destinations: Destination[]): Record<string, Destination[
   }, {} as Record<string, Destination[]>);
 }
 
-// Region display names and ocean-themed colors
-const REGIONS: Record<string, { gradient: string; badge: string }> = {
-  'istria': {
-    gradient: 'from-emerald-500 to-teal-600',
-    badge: 'bg-emerald-100 text-emerald-700 border-emerald-200'
-  },
-  'kvarner': {
-    gradient: 'from-blue-500 to-cyan-600',
-    badge: 'bg-blue-100 text-blue-700 border-blue-200'
-  },
-  'dalmatia': {
-    gradient: 'from-cyan-500 to-ocean-600',
-    badge: 'bg-cyan-100 text-cyan-700 border-cyan-200'
-  },
-  'split-dalmatia': {
-    gradient: 'from-ocean-500 to-indigo-600',
-    badge: 'bg-ocean-100 text-ocean-700 border-ocean-200'
-  },
-  'dubrovnik': {
-    gradient: 'from-sand-500 to-coral-600',
-    badge: 'bg-sand-100 text-sand-700 border-sand-200'
-  },
-  'continental': {
-    gradient: 'from-lime-500 to-seafoam-600',
-    badge: 'bg-lime-100 text-lime-700 border-lime-200'
-  },
-  'zagreb': {
-    gradient: 'from-rose-500 to-pink-600',
-    badge: 'bg-rose-100 text-rose-700 border-rose-200'
-  },
-};
-
 export default async function DestinationsPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
 
   const t = await getTranslations('destinations');
   const tRegions = await getTranslations('regions');
+  const tCommon = await getTranslations('common');
 
   const grouped = groupByRegion(DESTINATIONS);
-  const popularDestinations = DESTINATIONS.filter(d => d.popular);
+  const popularDestinations = DESTINATIONS.filter(d => d.popular).slice(0, 12);
+  const heroArches = ['rovinj', 'dubrovnik', 'plitvice'].map(slug => ({
+    slug,
+    name: DESTINATIONS.find(d => d.slug === slug)?.name ?? slug,
+    ...getDestinationImage(slug),
+  }));
+  const card = 'rounded-2xl bg-white shadow-[0_1px_2px_rgba(12,74,110,0.06),0_6px_20px_-6px_rgba(12,74,110,0.12)] ring-1 ring-ocean-900/[0.06]';
+
+  const regionLabel = (region: string) => {
+    try {
+      return tRegions(region.replace(/-([a-z])/g, (_, c) => c.toUpperCase()) as never);
+    } catch {
+      return region;
+    }
+  };
 
   return (
     <>
-      {/* Hero - Ocean gradient */}
-      <section className="relative bg-gradient-to-br from-ocean-500 via-ocean-600 to-seafoam-600 text-white py-12 md:py-20 overflow-hidden">
-        {/* Background decoration */}
-        <div className="absolute inset-0 opacity-10 hidden md:block">
-          <div className="absolute top-0 right-0 w-96 h-96 bg-white rounded-full blur-3xl" />
-          <div className="absolute bottom-0 left-0 w-96 h-96 bg-seafoam-300 rounded-full blur-3xl" />
-        </div>
-
-        <div className="container relative">
-          <nav className="flex items-center gap-2 text-xs sm:text-sm text-ocean-100 mb-6 md:mb-8">
-            <Link href="/" className="hover:text-white transition-colors">{t('hero.statCities').split(' ')[0] === 'Cities' ? 'Home' : t('hero.statCities').split(' ')[0]}</Link>
-            <ChevronRight className="w-4 h-4" />
-            <span className="text-white font-semibold">{t('hero.title').split(' ')[0]}</span>
+      {/* Hero — same deep-Adriatic language as the guides */}
+      <section className="relative overflow-hidden bg-gradient-to-br from-ocean-900 via-ocean-800 to-ocean-700 pt-8 pb-20 md:pt-10 md:pb-28 text-white">
+        <div className="pointer-events-none absolute -top-32 right-[-10%] h-[28rem] w-[28rem] rounded-full bg-sand-300/25 blur-3xl" aria-hidden="true" />
+        <div className="relative container">
+          <nav className="flex items-center gap-2 text-sm text-ocean-100/60" aria-label="Breadcrumb">
+            <Link href="/" className="text-ocean-100/80 hover:text-white">{tCommon('home')}</Link>
+            <ChevronRight className="w-3.5 h-3.5" />
+            <span className="font-medium text-sand-200">{t('hero.title')}</span>
           </nav>
-
-          <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/15 backdrop-blur-sm rounded-full mb-6">
-              <MapPin className="w-4 h-4" />
-              <span className="text-sm font-semibold">{t('hero.badge', { count: DESTINATIONS.length })}</span>
+          <div className="mt-8 grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_minmax(0,0.9fr)] gap-10 items-center">
+            <div>
+              <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-semibold leading-[1.05] tracking-tight max-w-3xl text-white">
+                {t('hero.title')}
+              </h1>
+              <p className="mt-4 text-lg md:text-xl text-ocean-50/80 leading-relaxed max-w-2xl">{t('hero.subtitle')}</p>
+              <dl className="mt-8 grid grid-cols-3 gap-2.5 max-w-xl">
+                {[
+                  [DESTINATIONS.filter(d => d.type === 'city' || d.type === 'town').length, t('hero.statCities')],
+                  [DESTINATIONS.filter(d => d.type === 'island').length, t('hero.statIslands')],
+                  [DESTINATIONS.filter(d => d.type === 'national-park').length, t('hero.statParks')],
+                ].map(([n, label]) => (
+                  <div key={label as string} className="rounded-xl bg-white/10 px-4 py-3 ring-1 ring-white/15 backdrop-blur-sm">
+                    <dd className="font-display text-3xl font-semibold text-white">{n}</dd>
+                    <dt className="mt-0.5 text-xs font-semibold leading-snug text-sand-200/90">{label}</dt>
+                  </div>
+                ))}
+              </dl>
             </div>
 
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 leading-tight">
-              {t('hero.title')}
-            </h1>
-            <p className="text-base sm:text-lg md:text-xl text-ocean-50 leading-relaxed">
-              {t('hero.subtitle')}
-            </p>
-
-            <div className="grid grid-cols-3 gap-2 sm:flex sm:flex-wrap sm:items-center sm:gap-6 mt-6 md:mt-8">
-              <div className="flex flex-col sm:flex-row items-center gap-1 sm:gap-2">
-                <div className="w-8 h-8 sm:w-10 sm:h-10 bg-white/15 backdrop-blur-sm rounded-lg sm:rounded-xl flex items-center justify-center">
-                  <Building className="w-4 h-4 sm:w-5 sm:h-5" />
-                </div>
-                <span className="text-xs sm:text-base font-semibold text-center">{t('hero.statCities')}</span>
-              </div>
-              <div className="flex flex-col sm:flex-row items-center gap-1 sm:gap-2">
-                <div className="w-8 h-8 sm:w-10 sm:h-10 bg-white/15 backdrop-blur-sm rounded-lg sm:rounded-xl flex items-center justify-center">
-                  <Waves className="w-4 h-4 sm:w-5 sm:h-5" />
-                </div>
-                <span className="text-xs sm:text-base font-semibold text-center">{t('hero.statIslands')}</span>
-              </div>
-              <div className="flex flex-col sm:flex-row items-center gap-1 sm:gap-2">
-                <div className="w-8 h-8 sm:w-10 sm:h-10 bg-white/15 backdrop-blur-sm rounded-lg sm:rounded-xl flex items-center justify-center">
-                  <Mountain className="w-4 h-4 sm:w-5 sm:h-5" />
-                </div>
-                <span className="text-xs sm:text-base font-semibold text-center">{t('hero.statParks')}</span>
-              </div>
+            {/* Three arched postcards fanned out; the middle one in front */}
+            <div className="relative flex h-[19rem] sm:h-[26rem] md:h-[30rem] items-center justify-center lg:justify-end lg:pr-4">
+              {heroArches.map((img, i) => {
+                const pose = [
+                  'z-10 -mr-8 sm:-mr-12 h-52 w-32 sm:h-72 sm:w-44 md:h-80 md:w-52 -rotate-6 translate-y-5',
+                  'z-20 h-64 w-40 sm:h-[22rem] sm:w-52 md:h-[26rem] md:w-60 ring-2 ring-sand-300/70 ring-offset-[6px] sm:ring-offset-[10px] ring-offset-ocean-800',
+                  'z-10 -ml-8 sm:-ml-12 h-52 w-32 sm:h-72 sm:w-44 md:h-80 md:w-52 rotate-6 translate-y-5',
+                ][i];
+                const region = DESTINATIONS.find(d => d.slug === img.slug)?.region ?? '';
+                return (
+                  <Link
+                    key={img.slug}
+                    href={`/destinations/${img.slug}`}
+                    className={`group relative flex-shrink-0 overflow-hidden rounded-t-[999px] rounded-b-[1.75rem] bg-white p-1.5 shadow-[0_25px_50px_-12px_rgba(3,25,40,0.65)] transition-transform duration-500 hover:-translate-y-2 ${pose}`}
+                  >
+                    <div className="relative h-full w-full overflow-hidden rounded-t-[999px] rounded-b-[1.4rem]">
+                      <Image src={img.url} alt={img.alt} fill priority className="object-cover transition-transform duration-700 group-hover:scale-105" sizes="240px" />
+                      <div className="absolute inset-0 bg-gradient-to-t from-ocean-900/80 via-ocean-900/10 to-transparent" />
+                      {/* side cards: keep the label clear of the overlapping centre card */}
+                      <div className={`absolute inset-x-0 bottom-4 ${['pl-3 pr-10 sm:pl-4 sm:pr-14 text-left', 'px-3 text-center', 'pl-10 pr-3 sm:pl-14 sm:pr-4 text-right'][i]}`}>
+                        <p className={`text-[10px] font-bold uppercase tracking-[0.15em] text-sand-200 ${i === 1 ? '' : 'hidden sm:block'}`}>{regionLabel(region)}</p>
+                        <p className="mt-0.5 font-display text-base sm:text-lg md:text-2xl font-semibold leading-tight text-white">{img.name}</p>
+                      </div>
+                    </div>
+                  </Link>
+                );
+              })}
             </div>
           </div>
         </div>
-
-        {/* Wave */}
-        <div className="absolute bottom-0 left-0 right-0 text-white">
-          <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-6 sm:h-auto" preserveAspectRatio="none">
-            <path
-              d="M0,48 C240,64 480,64 720,48 C960,32 1200,32 1440,48 L1440,80 L0,80 Z"
-              fill="currentColor"
-            />
-          </svg>
-        </div>
+        <svg className="absolute bottom-0 left-0 h-8 w-full text-[#e8f2f9] md:h-12" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true">
+          <path fill="currentColor" d="M0,32 C240,58 480,58 720,34 C960,10 1200,10 1440,32 L1440,60 L0,60 Z" />
+        </svg>
       </section>
 
-      {/* Popular Destinations */}
-      <section className="py-12 md:py-20 bg-white">
-        <div className="container">
-          <div className="flex items-center justify-between mb-8 md:mb-12">
-            <div>
-              <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-sand-100 text-sand-700 rounded-full text-sm font-semibold mb-3 md:mb-4">
-                <TrendingUp className="w-4 h-4" />
-                <span>{t('popular.badge')}</span>
-              </div>
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 mb-2 md:mb-3">
-                {t('popular.title')}
-              </h2>
-              <p className="text-base md:text-lg text-slate-600">
-                {t('popular.subtitle')}
-              </p>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6">
+      <div className="bg-[#e8f2f9] pt-10 pb-20 md:pt-14 md:pb-24">
+        {/* Most visited */}
+        <section className="container">
+          <p className="text-xs font-bold uppercase tracking-wider text-ocean-700">{t('popular.badge')}</p>
+          <h2 className="mt-2 font-display text-3xl md:text-4xl font-semibold tracking-tight text-ocean-900">{t('popular.title')}</h2>
+          <p className="mt-2 text-base md:text-lg text-slate-600">{t('popular.subtitle')}</p>
+          <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-5">
             {popularDestinations.map(dest => (
-              <DestinationCard
-                key={dest.slug}
-                destination={dest}
-                articleCount={20}
-              />
+              <DestinationCard key={dest.slug} destination={dest} />
             ))}
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* By Region */}
-      <section className="py-12 md:py-20 bg-gradient-ocean-subtle">
-        <div className="container">
-          <div className="text-center mb-8 md:mb-12">
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-ocean-100 text-ocean-700 rounded-full text-sm font-semibold mb-3 md:mb-4">
-              <Sparkles className="w-4 h-4" />
-              <span>{t('byRegion.badge')}</span>
-            </div>
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 mb-2 md:mb-3">
-              {t('byRegion.title')}
-            </h2>
-            <p className="text-base md:text-lg text-slate-600">
-              {t('byRegion.subtitle')}
-            </p>
-          </div>
+        {/* Every destination, by region */}
+        <section className="container mt-16 md:mt-20">
+          <p className="text-xs font-bold uppercase tracking-wider text-ocean-700">{t('byRegion.badge')}</p>
+          <h2 className="mt-2 font-display text-3xl md:text-4xl font-semibold tracking-tight text-ocean-900">{t('byRegion.title')}</h2>
+          <p className="mt-2 text-base md:text-lg text-slate-600">{t('byRegion.subtitle')}</p>
 
-          <div className="space-y-6 md:space-y-10">
+          <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5">
             {Object.entries(grouped).map(([region, destinations]) => {
-              const regionStyleKey = region as keyof typeof REGIONS;
-              // Convert region key to camelCase for translation lookup
-              // "split-dalmatia" -> "splitDalmatia"
-              const regionTranslationKey = region.replace(/-([a-z])/g, (_, c) => c.toUpperCase());
-              const regionName = (() => {
-                try {
-                  return tRegions(regionTranslationKey as any);
-                } catch {
-                  return region;
-                }
-              })();
-
+              // Banner photo: the region's best-known place
+              const lead = destinations.find(d => d.popular) ?? destinations[0];
+              const banner = getDestinationImage(lead.slug);
               return (
-                <div key={region} className="bg-white rounded-2xl md:rounded-3xl p-5 sm:p-6 md:p-8 shadow-soft border border-slate-100">
-                  <div className="flex items-center gap-3 mb-4 md:mb-6">
-                    <div className={`w-10 h-10 md:w-12 md:h-12 rounded-xl md:rounded-2xl bg-gradient-to-br ${REGIONS[regionStyleKey]?.gradient || 'from-slate-400 to-slate-600'} shadow-soft flex items-center justify-center`}>
-                      <MapPin className="w-5 h-5 md:w-6 md:h-6 text-white" />
-                    </div>
-                    <div>
-                      <h3 className="text-xl md:text-2xl font-bold text-slate-900">
-                        {regionName}
-                      </h3>
-                      <p className="text-xs md:text-sm text-slate-500 font-medium">
+                <div key={region} className={`overflow-hidden ${card}`}>
+                  <div className="relative h-36 md:h-44">
+                    <Image src={banner.url} alt={banner.alt} fill className="object-cover" sizes="(max-width: 768px) 100vw, 640px" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-ocean-900/85 via-ocean-900/30 to-transparent" />
+                    <div className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-3 p-5">
+                      <h3 className="font-display text-3xl font-semibold text-white">{regionLabel(region)}</h3>
+                      <span className="rounded-full bg-white/15 px-3 py-1 text-xs font-semibold text-white ring-1 ring-white/20">
                         {destinations.length === 1
                           ? t('byRegion.count', { count: destinations.length })
-                          : t('byRegion.countPlural', { count: destinations.length })
-                        }
-                      </p>
+                          : t('byRegion.countPlural', { count: destinations.length })}
+                      </span>
                     </div>
                   </div>
-
-                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2 sm:gap-3">
+                  <div className="flex flex-wrap gap-2 p-5">
                     {destinations.map(dest => (
                       <Link
                         key={dest.slug}
                         href={`/destinations/${dest.slug}`}
-                        className="group flex flex-col items-center gap-1.5 sm:gap-2 px-2 sm:px-3 py-3 sm:py-4 bg-slate-50 hover:bg-white rounded-lg sm:rounded-xl border-2 border-slate-100 hover:border-ocean-300 hover:shadow-soft transition-all"
+                        className="group inline-flex items-center gap-2 rounded-full bg-ocean-50 py-1 pl-1 pr-3.5 text-sm font-medium text-ocean-800 ring-1 ring-ocean-100 transition hover:bg-ocean-800 hover:text-white hover:ring-ocean-800"
                       >
-                        <div className="w-8 h-8 sm:w-10 sm:h-10 bg-white rounded-lg sm:rounded-xl shadow-xs flex items-center justify-center group-hover:scale-110 transition-transform">
-                          <MapPin className="w-4 h-4 sm:w-5 sm:h-5 text-ocean-500" />
-                        </div>
-                        <span className="text-xs sm:text-sm font-bold text-slate-700 group-hover:text-ocean-600 transition-colors text-center">
-                          {dest.name}
+                        <span className="relative h-7 w-7 overflow-hidden rounded-full ring-2 ring-white">
+                          <Image src={getDestinationImage(dest.slug).url} alt="" fill className="object-cover" sizes="28px" />
                         </span>
-                        {dest.popular && (
-                          <span className="px-1.5 sm:px-2 py-0.5 bg-sand-100 text-sand-700 rounded-full text-[10px] sm:text-xs font-bold">
-                            {t('card.popular')}
-                          </span>
-                        )}
+                        {dest.name}
                       </Link>
                     ))}
                   </div>
@@ -244,104 +183,8 @@ export default async function DestinationsPage({ params }: Props) {
               );
             })}
           </div>
-        </div>
-      </section>
-
-      {/* By Type */}
-      <section className="py-12 md:py-20 bg-white">
-        <div className="container">
-          <div className="text-center mb-8 md:mb-12">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 mb-2 md:mb-3">
-              {t('byType.title')}
-            </h2>
-            <p className="text-base md:text-lg text-slate-600">
-              {t('byType.subtitle')}
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
-            {/* Cities */}
-            <div className="bg-gradient-to-br from-slate-50 to-white rounded-2xl md:rounded-3xl border-2 border-slate-100 p-5 sm:p-6 md:p-8 hover:border-ocean-200 hover:shadow-soft transition-all">
-              <div className="w-12 h-12 md:w-14 md:h-14 bg-gradient-to-br from-ocean-400 to-ocean-600 rounded-xl md:rounded-2xl flex items-center justify-center mb-4 md:mb-5 shadow-soft">
-                <Building className="w-6 h-6 md:w-7 md:h-7 text-white" />
-              </div>
-              <h3 className="font-bold text-lg md:text-xl text-slate-900 mb-4 md:mb-5">{t('byType.cities')}</h3>
-              <div className="space-y-2 sm:space-y-3">
-                {DESTINATIONS.filter(d => d.type === 'city').slice(0, 8).map(dest => (
-                  <Link
-                    key={dest.slug}
-                    href={`/destinations/${dest.slug}`}
-                    className="flex items-center gap-2 text-slate-600 hover:text-ocean-600 text-sm font-medium transition-colors group"
-                  >
-                    <span className="w-1.5 h-1.5 rounded-full bg-slate-300 group-hover:bg-ocean-500 transition-colors" />
-                    {dest.name}
-                  </Link>
-                ))}
-              </div>
-            </div>
-
-            {/* Towns */}
-            <div className="bg-gradient-to-br from-slate-50 to-white rounded-2xl md:rounded-3xl border-2 border-slate-100 p-5 sm:p-6 md:p-8 hover:border-ocean-200 hover:shadow-soft transition-all">
-              <div className="w-12 h-12 md:w-14 md:h-14 bg-gradient-to-br from-seafoam-400 to-seafoam-600 rounded-xl md:rounded-2xl flex items-center justify-center mb-4 md:mb-5 shadow-soft">
-                <Building className="w-6 h-6 md:w-7 md:h-7 text-white" />
-              </div>
-              <h3 className="font-bold text-lg md:text-xl text-slate-900 mb-4 md:mb-5">{t('byType.coastalTowns')}</h3>
-              <div className="space-y-2 sm:space-y-3">
-                {DESTINATIONS.filter(d => d.type === 'town').slice(0, 8).map(dest => (
-                  <Link
-                    key={dest.slug}
-                    href={`/destinations/${dest.slug}`}
-                    className="flex items-center gap-2 text-slate-600 hover:text-seafoam-600 text-sm font-medium transition-colors group"
-                  >
-                    <span className="w-1.5 h-1.5 rounded-full bg-slate-300 group-hover:bg-seafoam-500 transition-colors" />
-                    {dest.name}
-                  </Link>
-                ))}
-              </div>
-            </div>
-
-            {/* Islands */}
-            <div className="bg-gradient-to-br from-slate-50 to-white rounded-2xl md:rounded-3xl border-2 border-slate-100 p-5 sm:p-6 md:p-8 hover:border-ocean-200 hover:shadow-soft transition-all">
-              <div className="w-12 h-12 md:w-14 md:h-14 bg-gradient-to-br from-cyan-400 to-cyan-600 rounded-xl md:rounded-2xl flex items-center justify-center mb-4 md:mb-5 shadow-soft">
-                <Waves className="w-6 h-6 md:w-7 md:h-7 text-white" />
-              </div>
-              <h3 className="font-bold text-lg md:text-xl text-slate-900 mb-4 md:mb-5">{t('byType.islands')}</h3>
-              <div className="space-y-2 sm:space-y-3">
-                {DESTINATIONS.filter(d => d.type === 'island').map(dest => (
-                  <Link
-                    key={dest.slug}
-                    href={`/destinations/${dest.slug}`}
-                    className="flex items-center gap-2 text-slate-600 hover:text-cyan-600 text-sm font-medium transition-colors group"
-                  >
-                    <span className="w-1.5 h-1.5 rounded-full bg-slate-300 group-hover:bg-cyan-500 transition-colors" />
-                    {dest.name}
-                  </Link>
-                ))}
-              </div>
-            </div>
-
-            {/* National Parks */}
-            <div className="bg-gradient-to-br from-slate-50 to-white rounded-2xl md:rounded-3xl border-2 border-slate-100 p-5 sm:p-6 md:p-8 hover:border-ocean-200 hover:shadow-soft transition-all">
-              <div className="w-12 h-12 md:w-14 md:h-14 bg-gradient-to-br from-emerald-400 to-emerald-600 rounded-xl md:rounded-2xl flex items-center justify-center mb-4 md:mb-5 shadow-soft">
-                <Mountain className="w-6 h-6 md:w-7 md:h-7 text-white" />
-              </div>
-              <h3 className="font-bold text-lg md:text-xl text-slate-900 mb-4 md:mb-5">{t('byType.nationalParks')}</h3>
-              <div className="space-y-2 sm:space-y-3">
-                {DESTINATIONS.filter(d => d.type === 'national-park').map(dest => (
-                  <Link
-                    key={dest.slug}
-                    href={`/destinations/${dest.slug}`}
-                    className="flex items-center gap-2 text-slate-600 hover:text-emerald-600 text-sm font-medium transition-colors group"
-                  >
-                    <span className="w-1.5 h-1.5 rounded-full bg-slate-300 group-hover:bg-emerald-500 transition-colors" />
-                    {dest.name}
-                  </Link>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </>
   );
 }

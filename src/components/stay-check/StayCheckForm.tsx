@@ -46,12 +46,12 @@ export default function StayCheckForm({ onSubmit, isLoading, locale = 'en' }: St
   };
 
   return (
-    <div className="w-full max-w-2xl mx-auto">
+    <div className="w-full">
       <div className="animate-fade-in">
-        <h2 className="text-2xl font-bold text-slate-900 mb-2 text-center">
+        <h2 className="font-display text-2xl md:text-[1.75rem] font-semibold text-ocean-900 mb-1">
           {t.title}
         </h2>
-        <p className="text-slate-500 mb-6 text-center">
+        <p className="text-[15px] text-slate-500 mb-5">
           {t.desc}
         </p>
 
@@ -64,7 +64,7 @@ export default function StayCheckForm({ onSubmit, isLoading, locale = 'en' }: St
               onChange={e => setAccommodationName(e.target.value)}
               placeholder={t.namePlaceholder}
               onKeyDown={e => e.key === 'Enter' && handleSubmit()}
-              className="w-full pl-12 pr-4 py-4 rounded-2xl border-2 border-slate-200 focus:border-ocean-400 focus:ring-4 focus:ring-ocean-100 outline-none text-slate-900 text-base transition-all"
+              className="w-full pl-12 pr-4 py-4 rounded-xl border-2 border-slate-200 focus:border-ocean-400 focus:ring-4 focus:ring-ocean-100 outline-none text-slate-900 text-base transition-all"
             />
           </div>
           <div className="relative">
@@ -75,7 +75,7 @@ export default function StayCheckForm({ onSubmit, isLoading, locale = 'en' }: St
               onChange={e => setLocation(e.target.value)}
               placeholder={t.locationPlaceholder}
               onKeyDown={e => e.key === 'Enter' && handleSubmit()}
-              className="w-full pl-12 pr-4 py-4 rounded-2xl border-2 border-slate-200 focus:border-ocean-400 focus:ring-4 focus:ring-ocean-100 outline-none text-slate-900 text-base transition-all"
+              className="w-full pl-12 pr-4 py-4 rounded-xl border-2 border-slate-200 focus:border-ocean-400 focus:ring-4 focus:ring-ocean-100 outline-none text-slate-900 text-base transition-all"
             />
           </div>
           <div className="relative">
@@ -86,7 +86,7 @@ export default function StayCheckForm({ onSubmit, isLoading, locale = 'en' }: St
               onChange={e => setAddress(e.target.value)}
               placeholder={t.addressPlaceholder}
               onKeyDown={e => e.key === 'Enter' && handleSubmit()}
-              className="w-full pl-12 pr-4 py-4 rounded-2xl border-2 border-slate-100 focus:border-ocean-400 focus:ring-4 focus:ring-ocean-100 outline-none text-slate-900 text-base transition-all bg-slate-50/50"
+              className="w-full pl-12 pr-4 py-4 rounded-xl border-2 border-slate-100 focus:border-ocean-400 focus:ring-4 focus:ring-ocean-100 outline-none text-slate-900 text-base transition-all bg-slate-50/50"
             />
           </div>
         </div>
@@ -94,7 +94,7 @@ export default function StayCheckForm({ onSubmit, isLoading, locale = 'en' }: St
         <button
           onClick={handleSubmit}
           disabled={!canSubmit || isLoading}
-          className="w-full mt-6 py-4 bg-gradient-to-r from-ocean-500 to-ocean-600 text-white font-bold rounded-2xl hover:from-ocean-600 hover:to-ocean-700 transition-all disabled:opacity-40 disabled:cursor-not-allowed flex items-center justify-center gap-2 shadow-ocean"
+          className="w-full mt-5 py-4 bg-gradient-to-r from-coral-500 to-sand-500 text-white font-bold rounded-2xl hover:brightness-105 transition-all disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2 shadow-lg shadow-coral-900/15"
         >
           {isLoading ? (
             <>

@@ -12,6 +12,7 @@ import QuickFactsCard from '@/components/ui/QuickFactsCard';
 import DestinationSchema from '@/components/schema/DestinationSchema';
 import { SITE_URL, localizedUrl, localeAlternates } from '@/lib/urls';
 import DestinationHub, { type DestinationHubContent } from '@/components/destination/DestinationHub';
+import DestinationCard from '@/components/ui/DestinationCard';
 import Image from 'next/image';
 
 // Check if stay-check area data exists for this destination
@@ -97,14 +98,15 @@ function getHub(locale: string, slug: string): DestinationHubContent | null {
 }
 
 // Guides that exist in this locale, with their localized titles as link text
-function getLocalizedGuides(locale: string, slug: string): { theme: string; title: string }[] {
+function getLocalizedGuides(locale: string, slug: string): { theme: string; title: string; imageUrl?: string }[] {
   const dir = path.join(process.cwd(), 'src', 'content', 'articles', locale);
-  const out: { theme: string; title: string }[] = [];
+  const out: { theme: string; title: string; imageUrl?: string }[] = [];
   for (const theme of ALL_THEMES) {
     const file = path.join(dir, `${slug}-${theme}.json`);
     if (!fs.existsSync(file)) continue;
     try {
-      out.push({ theme, title: JSON.parse(fs.readFileSync(file, 'utf-8')).title || theme });
+      const a = JSON.parse(fs.readFileSync(file, 'utf-8'));
+      out.push({ theme, title: a.title || theme, imageUrl: a.imageUrl });
     } catch {
       /* skip unreadable */
     }
@@ -178,6 +180,10 @@ export default async function DestinationPage({ params }: Props) {
   const availableGuides = getAvailableGuides(slug);
   const hub = getHub(locale, slug);
   const hubGuides = hub ? getLocalizedGuides(locale, slug) : [];
+  // Round inset photo in the hero: a beach / things-to-do guide cover if we have one
+  const heroInset = ['beach', 'things-to-do', 'hidden-gems', 'day-trips']
+    .map(theme => hubGuides.find(g => g.theme === theme)?.imageUrl)
+    .find(Boolean);
   const nearbyDestinations = DESTINATIONS
     .filter(d => d.region === destination.region && d.slug !== slug)
     .slice(0, 6);
@@ -264,82 +270,107 @@ export default async function DestinationPage({ params }: Props) {
         imageUrl={destinationImage.url.startsWith('http') ? destinationImage.url : `${SITE_URL}${destinationImage.url}`}
       />
 
-      {/* Hero */}
-      <section className="relative text-white min-h-[85vh] sm:min-h-[70vh] md:min-h-[85vh] flex items-end overflow-hidden">
-        <div className="absolute inset-0">
-          <Image
-            src={destinationImage.url}
-            alt={destinationImage.alt}
-            fill
-            priority
-            className="object-cover"
-            sizes="100vw"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/30 to-transparent" />
-        </div>
+      {/* Hero — same deep-Adriatic language as the guides */}
+      <section className="relative overflow-hidden bg-gradient-to-br from-ocean-900 via-ocean-800 to-ocean-700 pt-6 md:pt-8 pb-16 md:pb-24 text-white">
+        <div className="pointer-events-none absolute -top-32 right-[-10%] h-[28rem] w-[28rem] rounded-full bg-sand-300/25 blur-3xl" aria-hidden="true" />
+        <div className="pointer-events-none absolute bottom-0 left-[-10%] h-72 w-72 rounded-full bg-seafoam-400/15 blur-3xl" aria-hidden="true" />
+        <div className="relative container">
+          <nav className="flex items-center gap-2 text-sm text-ocean-100/60" aria-label="Breadcrumb">
+            <Link href="/" className="text-ocean-100/80 hover:text-white">{t('breadcrumb.home')}</Link>
+            <ChevronRight className="w-3.5 h-3.5" />
+            <Link href="/destinations" className="text-ocean-100/80 hover:text-white">{t('breadcrumb.destinations')}</Link>
+            <ChevronRight className="w-3.5 h-3.5" />
+            <span className="font-medium text-sand-200">{destination.name}</span>
+          </nav>
 
-        {/* Floating elements - hidden on mobile */}
-        <div className="hidden md:block absolute top-20 right-10 w-24 h-24 bg-ocean-400/10 rounded-full blur-2xl animate-float" />
-        <div className="hidden md:block absolute bottom-32 left-20 w-32 h-32 bg-seafoam-400/10 rounded-full blur-3xl animate-float" style={{ animationDelay: '1s' }} />
-
-        {/* Breadcrumbs */}
-        <div className="absolute top-4 left-0 right-0 z-20">
-          <div className="container">
-            <nav className="flex items-center gap-2 text-xs md:text-sm text-white/80 bg-black/20 backdrop-blur-sm px-3 py-2 rounded-full w-fit">
-              <Link href="/" className="hover:text-white">{t('breadcrumb.home')}</Link>
-              <ChevronRight className="w-3 h-3" />
-              <Link href="/destinations" className="hover:text-white">{t('breadcrumb.destinations')}</Link>
-              <ChevronRight className="w-3 h-3" />
-              <span className="text-white">{destination.name}</span>
-            </nav>
-          </div>
-        </div>
-
-        {/* Content */}
-        <div className="container destination-hero-content pb-16 sm:pb-20 md:pb-28 relative z-10 w-full">
-          <div className="max-w-4xl animate-slide-up">
-            <div className="flex items-center gap-2 sm:gap-2.5 mb-3 md:mb-6">
-              <div className="w-8 h-8 sm:w-10 sm:h-10 bg-black/30 backdrop-blur-sm rounded-lg sm:rounded-xl flex items-center justify-center border border-white/20">
-                <MapPin className="w-4 h-4 sm:w-5 sm:h-5" />
-              </div>
-              <span className="text-sm sm:text-base md:text-lg text-white capitalize font-semibold [text-shadow:_0_2px_8px_rgba(0,0,0,0.8)]">
-                {regionName} • {destination.type.replace('-', ' ')}
+          <div className="mt-6 md:mt-10 grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)] gap-8 lg:gap-12 items-center">
+            <div>
+              <span className="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-sand-200 ring-1 ring-white/15">
+                <MapPin className="w-3.5 h-3.5" />
+                {regionName}
               </span>
+              <h1 className="mt-4 font-display text-5xl sm:text-6xl lg:text-7xl font-semibold leading-[1] tracking-tight text-white">
+                {destination.name}
+              </h1>
+              <p className="mt-5 text-lg md:text-xl text-ocean-50/80 leading-relaxed max-w-xl">
+                {hub ? hub.metaDescription : t('guides.subtitle')}
+              </p>
+              {hub && (
+                <dl className="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-2.5 max-w-2xl">
+                  {hub.quickFacts.slice(0, 3).map(f => (
+                    <div key={f.label} className="rounded-xl bg-white/10 px-4 py-3 ring-1 ring-white/15 backdrop-blur-sm">
+                      <dt className="text-[11px] font-semibold uppercase tracking-wider text-sand-200/90">{f.label}</dt>
+                      <dd className="mt-0.5 text-sm font-semibold leading-snug text-white">{f.value}</dd>
+                    </div>
+                  ))}
+                </dl>
+              )}
+              <div className="mt-7 flex flex-col sm:flex-row gap-3">
+                <Link
+                  href="#guides"
+                  className="inline-flex items-center justify-center gap-2 rounded-xl bg-white px-6 py-3 font-semibold text-ocean-900 transition hover:bg-ocean-50"
+                >
+                  {t('cta.exploreGuides')}
+                  <ArrowDown className="w-4 h-4" />
+                </Link>
+                {hub && (
+                  <Link
+                    href="#where-to-stay"
+                    className="inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-coral-500 to-sand-500 px-6 py-3 font-semibold text-white shadow-lg shadow-coral-900/20 transition hover:brightness-105"
+                  >
+                    {hub.headings.whereToStay}
+                  </Link>
+                )}
+                {hasStayCheckData(slug) && (
+                  <Link
+                    href={`/stay-check/${slug}`}
+                    className="inline-flex items-center justify-center gap-2 rounded-xl bg-white/10 px-6 py-3 font-semibold text-white ring-1 ring-white/25 transition hover:bg-white/15"
+                  >
+                    {t('areaReview.title', { destination: destination.name })}
+                  </Link>
+                )}
+              </div>
             </div>
+            {/* Arched photo (Mediterranean window) with sun-gold frame, a floating
+                fact card and a round inset photo from one of the guides */}
+            <div className="relative mx-auto w-full max-w-[30rem] pb-6 pr-6 lg:ml-auto lg:mr-0">
+              <div className="absolute inset-0 translate-x-5 translate-y-5 rounded-t-[999px] rounded-b-[2rem] border-2 border-sand-300/50" aria-hidden="true" />
+              <div className="relative aspect-[4/5] overflow-hidden rounded-t-[999px] rounded-b-[2rem] bg-white/5 shadow-2xl shadow-ocean-900/50 ring-1 ring-white/10">
+                <Image
+                  src={destinationImage.url}
+                  alt={destinationImage.alt}
+                  fill
+                  priority
+                  className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 480px"
+                />
+              </div>
 
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-4 md:mb-7 leading-tight tracking-tight text-white [text-shadow:_0_2px_10px_rgba(0,0,0,0.9),_0_4px_20px_rgba(0,0,0,0.7),_0_0_40px_rgba(0,0,0,0.5)]">
-              {destination.name}
-            </h1>
+              {heroInset && (
+                <div className="absolute -right-1 top-[18%] h-24 w-24 sm:h-28 sm:w-28 overflow-hidden rounded-full shadow-xl ring-4 ring-ocean-800">
+                  <Image src={heroInset} alt="" fill className="object-cover" sizes="112px" />
+                </div>
+              )}
 
-            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white max-w-3xl mb-6 md:mb-10 leading-relaxed [text-shadow:_0_2px_8px_rgba(0,0,0,0.7)]">
-              {hub ? hub.metaDescription : t('guides.subtitle')}
-            </p>
-
-            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 w-full sm:w-auto">
-              <Link
-                href="#guides"
-                className="w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-white text-ocean-600 font-bold text-sm sm:text-base rounded-xl sm:rounded-2xl hover:bg-ocean-50 transition-all shadow-large hover:shadow-xl hover:scale-105 flex items-center justify-center gap-2 whitespace-nowrap"
-              >
-                <Sparkles className="w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0" />
-                <span>{t('cta.exploreGuides')}</span>
-              </Link>
-              <Link
-                href="#guides"
-                className="w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-white/10 backdrop-blur-md border-2 border-white/30 text-white font-bold text-sm sm:text-base rounded-xl sm:rounded-2xl hover:bg-white/20 hover:border-white/50 transition-all flex items-center justify-center gap-2 whitespace-nowrap"
-              >
-                <ArrowDown className="w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0" />
-                <span>{t('cta.compareAreas')}</span>
-              </Link>
+              {hub && hub.quickFacts[3] && (
+                <div className="absolute -left-4 bottom-12 sm:-left-8 max-w-[15rem] rounded-2xl bg-white/95 px-4 py-3 text-ocean-900 shadow-xl backdrop-blur">
+                  <p className="flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-wider text-coral-600">
+                    <Waves className="w-3.5 h-3.5" /> {hub.quickFacts[3].label}
+                  </p>
+                  <p className="mt-0.5 font-display text-xl font-semibold leading-tight">{hub.quickFacts[3].value}</p>
+                </div>
+              )}
             </div>
           </div>
         </div>
-
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
+        <svg className="absolute bottom-0 left-0 h-6 w-full text-[#e8f2f9] md:h-10" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true">
+          <path fill="currentColor" d="M0,32 C240,58 480,58 720,34 C960,10 1200,10 1440,32 L1440,60 L0,60 Z" />
+        </svg>
       </section>
 
       {/* Main Content */}
-      <div className="bg-gradient-ocean-subtle">
-        <div className="container pt-12 pb-16 md:pt-16 md:pb-24">
+      <div className="bg-[#e8f2f9] pt-10 pb-20 md:pt-14 md:pb-24">
+        <div className="container">
           {hub && (
             <div className="mt-6 md:mt-0">
               <DestinationHub hub={hub} slug={slug} guides={hubGuides} />
@@ -532,48 +563,22 @@ export default async function DestinationPage({ params }: Props) {
           <div>
             {/* Nearby Destinations */}
             {nearbyDestinations.length > 0 && (
-              <div className="mt-12 md:mt-20">
-                <div className="text-center mb-8 md:mb-12">
-                  <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 mb-2 md:mb-4">
-                    {t('nearby.title')}
-                  </h3>
-                  <p className="text-sm sm:text-base md:text-lg text-slate-600">
-                    {t('nearby.subtitle', { region: regionName })}
-                  </p>
-                </div>
-                <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 md:gap-4">
+              <section className="mt-16 md:mt-20">
+                <h2 className="font-display text-3xl md:text-4xl font-semibold tracking-tight text-ocean-900">{t('nearby.title')}</h2>
+                <p className="mt-2 text-base md:text-lg text-slate-600">{t('nearby.subtitle', { region: regionName })}</p>
+                <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
                   {nearbyDestinations.map(dest => (
-                    <Link
-                      key={dest.slug}
-                      href={`/destinations/${dest.slug}`}
-                      className="group flex flex-col items-center gap-2 sm:gap-3 p-3 sm:p-4 md:p-5 bg-white rounded-xl sm:rounded-2xl border-2 border-slate-100 hover:border-ocean-300 hover:shadow-soft transition-all hover:-translate-y-1"
-                    >
-                      <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-ocean-subtle rounded-xl sm:rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform">
-                        <MapPin className="w-5 h-5 sm:w-6 sm:h-6 text-ocean-600" />
-                      </div>
-                      <span className="text-xs sm:text-sm md:text-base font-bold text-slate-900 group-hover:text-ocean-600 transition-colors text-center">
-                        {dest.name}
-                      </span>
-                    </Link>
+                    <DestinationCard key={dest.slug} destination={dest} />
                   ))}
                 </div>
-              </div>
+              </section>
             )}
 
             {/* Booking Widget */}
-            <div className="mt-12 md:mt-20 p-5 sm:p-6 md:p-8 lg:p-10 bg-white rounded-2xl md:rounded-3xl border-2 border-slate-100 shadow-soft">
-              <div className="flex items-start gap-3 sm:gap-4 mb-4 sm:mb-6">
-                <div className="w-11 h-11 sm:w-12 sm:h-12 md:w-14 md:h-14 bg-gradient-ocean rounded-xl sm:rounded-2xl flex items-center justify-center shadow-ocean flex-shrink-0">
-                  <Sparkles className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-white" />
-                </div>
-                <div>
-                  <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-slate-900 mb-1 sm:mb-2">
-                    {t('booking.title')}
-                  </h3>
-                  <p className="text-slate-600 text-sm sm:text-base md:text-lg">
-                    {t('booking.subtitle')}
-                  </p>
-                </div>
+            <div className="mt-16 md:mt-20 rounded-2xl bg-white p-5 sm:p-6 md:p-8 shadow-[0_1px_2px_rgba(12,74,110,0.06),0_6px_20px_-6px_rgba(12,74,110,0.12)] ring-1 ring-ocean-900/[0.06]">
+              <div className="mb-5">
+                <h2 className="font-display text-2xl md:text-3xl font-semibold tracking-tight text-ocean-900">{t('booking.title')}</h2>
+                <p className="mt-1 text-slate-600 md:text-lg">{t('booking.subtitle')}</p>
               </div>
               <BookingWidget
                 destination={destination.name}

@@ -1,101 +1,43 @@
-'use client';
-
-import { useState, useRef, useEffect } from 'react';
-import { ChevronRight } from 'lucide-react';
-
-interface FaqItemProps {
-  question: string;
-  answer: string;
-  isOpen: boolean;
-  onToggle: () => void;
-}
-
-function FaqItem({ question, answer, isOpen, onToggle }: FaqItemProps) {
-  const contentRef = useRef<HTMLDivElement>(null);
-  const [height, setHeight] = useState(0);
-
-  useEffect(() => {
-    if (contentRef.current) {
-      setHeight(isOpen ? contentRef.current.scrollHeight : 0);
-    }
-  }, [isOpen]);
-
-  return (
-    <div
-      className={`group bg-white border-2 rounded-xl md:rounded-2xl overflow-hidden transition-all duration-300 ${
-        isOpen
-          ? 'border-ocean-300 shadow-soft'
-          : 'border-slate-100 hover:border-ocean-200 hover:shadow-soft'
-      }`}
-      itemScope
-      itemProp="mainEntity"
-      itemType="https://schema.org/Question"
-    >
-      <button
-        onClick={onToggle}
-        className="flex items-center justify-between w-full px-4 sm:px-6 py-4 sm:py-5 text-left hover:bg-gradient-ocean-subtle transition-all"
-        aria-expanded={isOpen}
-      >
-        <span
-          className="font-bold text-slate-900 pr-3 sm:pr-4 text-sm sm:text-base md:text-lg"
-          itemProp="name"
-        >
-          {question}
-        </span>
-        <div
-          className={`w-7 h-7 sm:w-8 sm:h-8 rounded-lg flex items-center justify-center transition-all duration-300 flex-shrink-0 ${
-            isOpen
-              ? 'bg-ocean-500 rotate-90'
-              : 'bg-ocean-100 group-hover:bg-ocean-500'
-          }`}
-        >
-          <ChevronRight
-            className={`w-4 h-4 sm:w-5 sm:h-5 transition-colors ${
-              isOpen ? 'text-white' : 'text-ocean-600 group-hover:text-white'
-            }`}
-          />
-        </div>
-      </button>
-      <div
-        className="overflow-hidden transition-[max-height] duration-500 ease-[cubic-bezier(0.4,0,0.2,1)]"
-        style={{ maxHeight: height }}
-      >
-        <div
-          ref={contentRef}
-          className="px-4 sm:px-6 pb-4 sm:pb-5 border-t-2 border-slate-100 bg-gradient-to-br from-white to-slate-50"
-          itemScope
-          itemProp="acceptedAnswer"
-          itemType="https://schema.org/Answer"
-        >
-          <p
-            className="pt-4 sm:pt-5 text-sm sm:text-base text-slate-700 leading-relaxed"
-            itemProp="text"
-          >
-            {answer}
-          </p>
-        </div>
-      </div>
-    </div>
-  );
-}
+import { ChevronDown } from 'lucide-react';
 
 interface AnimatedFaqProps {
   items: { question: string; answer: string }[];
+  /** How many questions start expanded (the first answers are the most-wanted ones). */
+  openCount?: number;
 }
 
-export default function AnimatedFaq({ items }: AnimatedFaqProps) {
-  const [openIndex, setOpenIndex] = useState<number | null>(null);
-
+/**
+ * FAQ accordion on native <details>: no JS, answers always in the HTML (crawlers
+ * and AI answer engines read them), keyboard accessible, and the chevron points
+ * down — the old right-pointing arrow read like a link to another page.
+ */
+export default function AnimatedFaq({ items, openCount = 2 }: AnimatedFaqProps) {
   return (
-    <div className="space-y-3 md:space-y-4">
+    <div className="divide-y divide-slate-200 border-y border-slate-200">
       {items.map((item, index) => (
-        <FaqItem
+        <details
           key={index}
-          question={item.question}
-          answer={item.answer}
-          isOpen={openIndex === index}
-          onToggle={() => setOpenIndex(openIndex === index ? null : index)}
-        />
+          open={index < openCount}
+          className="group"
+          itemScope
+          itemProp="mainEntity"
+          itemType="https://schema.org/Question"
+        >
+          <summary className="flex cursor-pointer list-none items-start justify-between gap-4 py-4 sm:py-5 text-left [&::-webkit-details-marker]:hidden">
+            <span className="font-semibold text-slate-900 text-base sm:text-lg leading-snug" itemProp="name">
+              {item.question}
+            </span>
+            <ChevronDown
+              className="mt-1 h-5 w-5 flex-shrink-0 text-slate-400 transition-transform group-open:rotate-180"
+              aria-hidden="true"
+            />
+          </summary>
+          <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer" className="pb-5 -mt-1">
+            <p className="text-base sm:text-[17px] text-slate-700 leading-relaxed" itemProp="text">
+              {item.answer}
+            </p>
+          </div>
+        </details>
       ))}
     </div>
   );

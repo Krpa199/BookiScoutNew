@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { ADVENT_DESTINATIONS, isAdventSeason } from '@/lib/seasonal';
 import { localizedUrl, localeAlternates } from '@/lib/urls';
+import { DESTINATIONS } from '@/config/destinations';
 import { notFound } from 'next/navigation';
 import fs from 'fs';
 import path from 'path';
@@ -52,6 +53,7 @@ interface GeneratedArticle {
   theme: string;
   language: string;
   generatedAt: string;
+  updatedAt?: string;
   lat: number;
   lng: number;
   // Pexels image fields
@@ -411,63 +413,259 @@ function renderMarkdownTable(tableLines: string[]): string {
   return mobileHtml + desktopHtml;
 }
 
-// Simple markdown to HTML converter
-function renderMarkdown(content: string): string {
-  const lines = content.split('\n');
-  const processedLines: string[] = [];
+// Languages whose headings should be sentence case. The translator copied
+// English Title Case ("Vaš Ultimativni Vodič za Parkiranje") — wrong outside
+// English and German (where nouns are capitalised anyway).
+const SENTENCE_CASE_LOCALES = new Set(['hr', 'sl', 'cz', 'sk', 'pl', 'hu', 'it', 'fr', 'es', 'nl', 'ru']);
 
+function slugifyHeading(text: string): string {
+  return text
+    .toLowerCase()
+    .normalize('NFD').replace(/[̀-ͯ]/g, '')
+    .replace(/<[^>]+>/g, '')
+    .replace(/[^a-z0-9Ѐ-ӿ]+/g, '-')
+    .replace(/^-|-$/g, '')
+    .slice(0, 60) || 'section';
+}
+
+/**
+ * Title Case → sentence case. Conservative: a word is lowercased ONLY if the
+ * same word also appears in lowercase in the article body — positive proof it
+ * is an ordinary word. Names (München, Zadar, Poluotok…) never appear in
+ * lowercase, so they are always kept.
+ */
+// Word stem used to match inflected forms (München / Münchena, garaža / garaže)
+const stemOf = (w: string) => w.toLowerCase().slice(0, Math.max(4, w.length - 2));
+
+function toSentenceCase(heading: string, counts: { lower: Map<string, number>; upper: Map<string, number> }): string {
+  const parts = heading.split(' ');
+  const capitalised = parts.filter(w => /^\p{Lu}/u.test(w)).length;
+  if (parts.length < 3 || capitalised / parts.length < 0.6) return heading; // not Title Case
+  return parts
+    .map((w, i) => {
+      if (i === 0 || !/^\p{Lu}\p{Ll}/u.test(w)) return w;
+      const bare = w.replace(/[^\p{L}]/gu, '');
+      const stem = stemOf(bare);
+      const lower = counts.lower.get(stem) ?? 0;
+      const upper = counts.upper.get(stem) ?? 0;
+      // Lowercase only with clear evidence it is an ordinary word (the body writes
+      // it lowercase more often than capitalised). No evidence → keep: a stray
+      // capital is harmless, a lowercased city name ("iz münchena") is not.
+      const ordinary = !isPlaceName(bare) && lower > upper;
+      return ordinary ? w.charAt(0).toLowerCase() + w.slice(1) : w;
+    })
+    .join(' ');
+}
+
+function collectWords(content: string): { lower: Map<string, number>; upper: Map<string, number> } {
+  const lower = new Map<string, number>();
+  const upper = new Map<string, number>();
+  const bump = (m: Map<string, number>, w: string) => m.set(stemOf(w), (m.get(stemOf(w)) ?? 0) + 1);
+  for (const line of content.split('\n')) {
+    if (line.startsWith('#') || line.startsWith('|')) continue;
+    const plain = line.replace(/\*\*[^*]*\*\*/g, ' '); // bold labels are Title Cased too
+    for (const m of plain.matchAll(/(?<![\p{L}])(\p{Ll}\p{Ll}+)/gu)) bump(lower, m[1]);
+    // capitalised but NOT at the start of a sentence
+    for (const m of plain.matchAll(/[^.!?:\n]\s+(\p{Lu}\p{Ll}+)/gu)) bump(upper, m[1]);
+  }
+  return { lower, upper };
+}
+
+// Stems of every destination name, so inflected forms (Zadru, Splitu) count as names
+const PLACE_STEMS = DESTINATIONS.flatMap(d => d.name.split(/\s+/))
+  .filter(w => w.length >= 4)
+  .map(w => w.toLowerCase().slice(0, Math.max(3, w.length - 2)));
+
+function isPlaceName(word: string): boolean {
+  const w = word.toLowerCase();
+  return PLACE_STEMS.some(stem => w.startsWith(stem));
+}
+
+// Other destinations mentioned in the text become links to their hub pages
+// Names that are also ordinary words: "Stari Grad" usually means "the old town",
+// not the town on Hvar.
+const AMBIGUOUS_PLACES = new Set(['stari-grad']);
+const LINKABLE_PLACES = DESTINATIONS
+  .filter(d => d.name.length >= 4 && !AMBIGUOUS_PLACES.has(d.slug))
+  .sort((a, b) => b.name.length - a.name.length);
+
+function linkPlaces(html: string, locale: string, currentDestination: string, max = 6): string {
+  const prefix = locale === 'en' ? '' : `/${locale}`;
+  let added = 0;
+  const done = new Set<string>();
+  // Only touch text inside <p>…</p>, never inside tags, links or headings
+  return html.replace(/<p>([\s\S]*?)<\/p>/g, (_m, inner: string) => {
+    const parts = inner.split(/(<[^>]+>)/);
+    let inLink = false;
+    for (let k = 0; k < parts.length; k++) {
+      const part = parts[k];
+      if (part.startsWith('<')) {
+        if (/^<a\b/.test(part)) inLink = true;
+        if (/^<\/a>/.test(part)) inLink = false;
+        continue;
+      }
+      if (inLink || added >= max) continue;
+      for (const d of LINKABLE_PLACES) {
+        if (d.slug === currentDestination || done.has(d.slug) || added >= max) continue;
+        const re = new RegExp(`(?<![\\p{L}])(${d.name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})(?![\\p{L}])`, 'u');
+        if (re.test(parts[k])) {
+          parts[k] = parts[k].replace(re, `<a href="${prefix}/destinations/${d.slug}" class="place-link">$1</a>`);
+          done.add(d.slug);
+          added++;
+        }
+      }
+    }
+    return `<p>${parts.join('')}</p>`;
+  });
+}
+
+export interface TocEntry { id: string; text: string; level: 2 | 3 }
+
+// "**Cijena:** 1,60 €/sat" — a bullet that is a label/value pair
+const LABEL_ITEM = /^\*\*([^*]{1,40}?):?\*\*:?\s+(.+)$/;
+
+// Markdown → HTML for article bodies. Returns the HTML plus a table of contents.
+function renderMarkdown(content: string, locale: string, destination: string, quickAnswer?: string): { html: string; toc: TocEntry[] } {
+  const sentenceCase = SENTENCE_CASE_LOCALES.has(locale);
+  const words = sentenceCase ? collectWords(content) : { lower: new Map<string, number>(), upper: new Map<string, number>() };
+  const fixHeading = (text: string) => (sentenceCase ? toSentenceCase(text.trim(), words) : text.trim());
+
+  // Drop a leading paragraph that just repeats the Quick Answer
+  const norm = (t: string) => t.replace(/[*_#]/g, '').replace(/\s+/g, ' ').trim().toLowerCase();
+  if (quickAnswer) {
+    const paras = content.split(/\n\n+/);
+    const firstText = paras.findIndex(pg => pg.trim() && !pg.trim().startsWith('#'));
+    if (firstText >= 0 && norm(paras[firstText]).startsWith(norm(quickAnswer).slice(0, 80))) {
+      paras.splice(firstText, 1);
+      content = paras.join('\n\n');
+    }
+  }
+
+  const toc: TocEntry[] = [];
+  const usedIds = new Set<string>();
+  const headingId = (text: string) => {
+    let id = slugifyHeading(text);
+    while (usedIds.has(id)) id += '-2';
+    usedIds.add(id);
+    return id;
+  };
+
+  const lines = content.split('\n');
+  const out: string[] = [];
+  let para: string[] = [];
+  const flush = () => {
+    if (para.length) out.push(`<p>${para.join(' ')}</p>`);
+    para = [];
+  };
   let i = 0;
   while (i < lines.length) {
     const line = lines[i];
 
-    // Detect markdown table: line starts with | and has at least 2 |
+    if (line.trim() === '') {
+      flush();
+      i++;
+      continue;
+    }
+
+    // Tables
     if (line.trimStart().startsWith('|') && (line.match(/\|/g) || []).length >= 3) {
-      // Collect all consecutive table lines
       const tableLines: string[] = [];
       while (i < lines.length && lines[i].trimStart().startsWith('|') && (lines[i].match(/\|/g) || []).length >= 3) {
         tableLines.push(lines[i]);
         i++;
       }
-      processedLines.push(renderMarkdownTable(tableLines));
+      flush();
+      out.push(renderMarkdownTable(tableLines));
       continue;
     }
 
-    // Headers - must be at start of line, with accent bars
-    let processed = line;
-    if (processed.startsWith('#### ')) {
-      processed = `<h4 class="text-lg font-bold text-slate-900 mt-6 mb-3">${processed.slice(5)}</h4>`;
-    } else if (processed.startsWith('### ')) {
-      processed = `<h3 class="text-xl font-bold text-slate-900 mt-8 mb-4 flex items-center gap-2"><span class="w-1 h-6 bg-ocean-300 rounded-full flex-shrink-0"></span>${processed.slice(4)}</h3>`;
-    } else if (processed.startsWith('## ')) {
-      processed = `<div class="section-divider my-8"></div><h2 class="text-2xl font-bold text-slate-900 mt-2 mb-5 flex items-center gap-3"><span class="w-1 h-8 bg-gradient-to-b from-ocean-400 to-seafoam-400 rounded-full flex-shrink-0"></span>${processed.slice(3)}</h2>`;
-    } else if (processed.startsWith('# ')) {
-      processed = `<h1 class="text-3xl font-bold text-slate-900 mt-12 mb-6">${processed.slice(2)}</h1>`;
-    } else if (processed.startsWith('*   ')) {
-      // List item
-      processed = `<li class="flex items-start gap-3 mb-2"><span class="w-2 h-2 bg-ocean-500 rounded-full mt-2 flex-shrink-0"></span><span>${processed.slice(4)}</span></li>`;
+    // Lists: consecutive "- ", "* " or "1. " lines become one block
+    const bullet = /^\s*[*-]\s+(.*)$/;
+    const numbered = /^\s*\d+[.)]\s+(.*)$/;
+    if (bullet.test(line) || numbered.test(line)) {
+      const ordered = numbered.test(line);
+      const re = ordered ? numbered : bullet;
+      const items: string[] = [];
+      while (i < lines.length && re.test(lines[i])) {
+        items.push(lines[i].match(re)![1].trim());
+        i++;
+        if (i + 1 < lines.length && lines[i].trim() === '' && re.test(lines[i + 1])) i++;
+      }
+      flush();
+
+      // Every item is "**Label:** value" → a facts card (price / limit / hours…)
+      if (!ordered && items.length >= 2 && items.every(it => LABEL_ITEM.test(it))) {
+        out.push(`<dl class="facts-card">${items.map(it => {
+          const [, label, value] = it.match(LABEL_ITEM)!;
+          return `<div><dt>${label.trim()}</dt><dd>${value}</dd></div>`;
+        }).join('')}</dl>`);
+        continue;
+      }
+
+      if (ordered) {
+        out.push(`<ol class="steps">${items.map(it => `<li>${it}</li>`).join('')}</ol>`);
+      } else {
+        out.push(`<ul class="bullets">${items.map(it => `<li>${it}</li>`).join('')}</ul>`);
+      }
+      continue;
     }
 
-    processedLines.push(processed);
+    const h = line.match(/^(#{1,4})\s+(.*)$/);
+    if (!h) {
+      para.push(line.trim());
+      i++;
+      continue;
+    }
+    flush();
+    const text = fixHeading(h[2]);
+    const level = h[1].length;
+    if (level <= 2) {
+      const id = headingId(text);
+      toc.push({ id, text: text.replace(/\*\*/g, ''), level: 2 });
+      out.push(`<h2 id="${id}"><!--k:${id}-->${text}</h2>`);
+    } else if (level === 3) {
+      const id = headingId(text);
+      toc.push({ id, text: text.replace(/\*\*/g, ''), level: 3 });
+      out.push(`<h3 id="${id}"><!--k:${id}-->${text}</h3>`);
+    } else {
+      out.push(`<h4>${text}</h4>`);
+    }
     i++;
   }
+  flush();
 
-  let html = processedLines.join('\n');
+  let html = out.join('\n');
+  html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+  html = html.replace(/(?<!\*)\*([^*\n]+)\*(?!\*)/g, '<em>$1</em>');
+  html = linkPlaces(html, locale, destination);
 
-  // Bold text
-  html = html.replace(/\*\*(.*?)\*\*/g, '<strong class="font-semibold text-slate-900">$1</strong>');
-  // Italic text (but not list items)
-  html = html.replace(/(?<!\*)\*([^*]+)\*(?!\*)/g, '<em>$1</em>');
+  // When the article only uses one h2 (a title), the h3s are the real sections
+  const h2s = toc.filter(t => t.level === 2).length;
+  const sections = (h2s >= 3 ? toc.filter(t => t.level === 2) : toc.filter(t => t.level === 3)).slice(0, 14);
+  // Numbered kicker ("01") on section headings only
+  sections.forEach((entry, n) => {
+    html = html.replace(`<!--k:${entry.id}-->`, `<span class="kicker">${String(n + 1).padStart(2, '0')}</span>`);
+  });
+  html = html.replace(/<!--k:[^>]*-->/g, '');
+  return { html, toc: sections.length >= 3 ? sections : toc.slice(0, 14) };
+}
 
-  // Wrap consecutive list items in ul
-  html = html.replace(/(<li[^>]*>.*?<\/li>\n?)+/g, '<ul class="space-y-2 my-6">$&</ul>');
+// Split the Quick Answer into scannable points ("Ukratko")
+function quickPoints(text: string): string[] {
+  const parts = text.split(/(?<=[.!?])\s+(?=[\p{Lu}0-9])/u).map(p => p.trim()).filter(Boolean);
+  return parts.length >= 2 && parts.length <= 6 ? parts : [];
+}
 
-  // Convert double newlines to paragraph breaks
-  html = html.replace(/\n\n+/g, '</p><p class="text-slate-700 leading-relaxed mb-4">');
-
-  // Remove single newlines within paragraphs (but preserve those after block elements)
-  html = html.replace(/(?<!>)\n(?!<)/g, ' ');
-
-  return html;
+// Theme label in the page language ("parking-difficulty" → "Parkiranje")
+function themeLabel(tThemes: (key: string) => string, theme: string): string {
+  const key = theme.replace(/-([a-z0-9])/g, (_, c) => c.toUpperCase());
+  try {
+    const label = tThemes(key);
+    if (label && label !== key && !label.includes('guides.themes')) return label;
+  } catch {
+    /* missing translation */
+  }
+  return theme.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
 }
 
 export default async function GuidePage({ params }: Props) {
@@ -513,526 +711,328 @@ export default async function GuidePage({ params }: Props) {
     ? getArticle(locale, `${article.destination}-advent`)
     : null;
 
-  // Format theme for display
-  const formatTheme = (theme: string) => {
-    return theme.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
-  };
+  const tThemes = await getTranslations({ locale, namespace: 'guides.themes' });
+  const theme = themeLabel(tThemes as unknown as (k: string) => string, article.theme);
+  const { html: bodyHtml, toc } = renderMarkdown(article.content, locale, article.destination, article.quickAnswer);
+  const points = quickPoints(article.quickAnswer);
+  const updatedIso = article.updatedAt || article.generatedAt;
+  const updated = new Date(updatedIso).toLocaleDateString(locale === 'cz' ? 'cs' : locale, {
+    year: 'numeric', month: 'long', day: 'numeric',
+  });
+
+  // Hide meaningless rating cells ("N/A", empty) — and the whole column if no row has one
+  const hasRating = (r?: string) => !!r && /\d/.test(r);
+  const standardRows = (article.tableData ?? []) as StandardTableRow[];
+  const isComparison = !!article.tableData?.length && 'winner' in article.tableData[0];
+  const showRating = standardRows.some(r => hasRating(r.rating));
+
+  const tocList = (mobile: boolean) => (
+    <ol className={mobile ? 'px-4 pb-4 space-y-2.5 text-[15px]' : 'space-y-1 text-sm'}>
+      {toc.map((entry, n) => (
+        <li key={entry.id}>
+          <a
+            href={`#${entry.id}`}
+            className={mobile
+              ? 'flex gap-3 text-slate-700 hover:text-ocean-700'
+              : 'group flex gap-3 rounded-lg px-2 py-1.5 text-slate-600 hover:bg-white hover:text-ocean-800 hover:shadow-sm'}
+          >
+            <span className="font-display text-coral-500 tabular-nums">{String(n + 1).padStart(2, '0')}</span>
+            <span className="leading-snug">{entry.text}</span>
+          </a>
+        </li>
+      ))}
+    </ol>
+  );
 
   return (
     <>
-      {/* Schema.org structured data for AI crawlers */}
       <ArticleSchema
         title={article.title}
         description={article.metaDescription}
         url={url}
         datePublished={article.generatedAt}
-        dateModified={article.generatedAt}
+        dateModified={updatedIso}
         destination={article.destinationName}
         image={article.imageUrl}
         faq={article.faq}
       />
 
-      {/* Reading Progress Bar */}
       <ReadingProgress />
 
-      {/* Breadcrumb */}
-      <nav className="bg-gradient-ocean-subtle border-b border-ocean-100" aria-label="Breadcrumb">
-        <div className="container py-3 md:py-4">
-          <ol className="flex items-center gap-1 sm:gap-2 text-xs sm:text-sm text-slate-600 overflow-x-auto whitespace-nowrap" itemScope itemType="https://schema.org/BreadcrumbList">
-            <li itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
-              <Link href="/" className="hover:text-ocean-600 transition-colors" itemProp="item">
-                <span itemProp="name">{t('breadcrumb.home')}</span>
-              </Link>
-              <meta itemProp="position" content="1" />
-            </li>
-            <ChevronRight className="w-4 h-4" aria-hidden="true" />
-            <li itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
-              <Link href="/guides" className="hover:text-ocean-600 transition-colors" itemProp="item">
-                <span itemProp="name">{t('breadcrumb.guides')}</span>
-              </Link>
-              <meta itemProp="position" content="2" />
-            </li>
-            <ChevronRight className="w-4 h-4" aria-hidden="true" />
-            <li itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
-              <Link href={`/destinations/${article.destination}`} className="hover:text-ocean-600 transition-colors" itemProp="item">
-                <span itemProp="name">{article.destinationName}</span>
-              </Link>
-              <meta itemProp="position" content="3" />
-            </li>
-            <ChevronRight className="w-4 h-4" aria-hidden="true" />
-            <li itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
-              <span className="text-slate-900 font-semibold" itemProp="name">{formatTheme(article.theme)}</span>
-              <meta itemProp="position" content="4" />
-            </li>
-          </ol>
-        </div>
-      </nav>
+      {/* Hero: deep Adriatic block, title beside the photo on desktop */}
+      <header className="relative overflow-hidden bg-gradient-to-br from-ocean-900 via-ocean-800 to-ocean-700 pt-6 md:pt-8 pb-16 md:pb-24 text-white">
+        {/* Late-afternoon Dalmatian sun */}
+        <div className="pointer-events-none absolute -top-32 right-[-10%] h-[28rem] w-[28rem] rounded-full bg-sand-300/25 blur-3xl" aria-hidden="true" />
+        <div className="pointer-events-none absolute bottom-0 left-[-10%] h-72 w-72 rounded-full bg-seafoam-400/15 blur-3xl" aria-hidden="true" />
+        <div className="relative container max-w-7xl">
+          <nav aria-label="Breadcrumb">
+            <ol className="flex items-center gap-2 text-sm text-ocean-100/60 overflow-x-auto whitespace-nowrap" itemScope itemType="https://schema.org/BreadcrumbList">
+              <li itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
+                <Link href="/" className="text-ocean-100/80 hover:text-white" itemProp="item"><span itemProp="name">{t('breadcrumb.home')}</span></Link>
+                <meta itemProp="position" content="1" />
+              </li>
+              <ChevronRight className="w-3.5 h-3.5 flex-shrink-0" aria-hidden="true" />
+              <li itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
+                <Link href="/guides" className="text-ocean-100/80 hover:text-white" itemProp="item"><span itemProp="name">{t('breadcrumb.guides')}</span></Link>
+                <meta itemProp="position" content="2" />
+              </li>
+              <ChevronRight className="w-3.5 h-3.5 flex-shrink-0" aria-hidden="true" />
+              <li itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
+                <Link href={`/destinations/${article.destination}`} className="text-ocean-100/80 hover:text-white" itemProp="item"><span itemProp="name">{article.destinationName}</span></Link>
+                <meta itemProp="position" content="3" />
+              </li>
+              <ChevronRight className="w-3.5 h-3.5 flex-shrink-0" aria-hidden="true" />
+              <li itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
+                <span className="font-medium text-sand-200" itemProp="name">{theme}</span>
+                <meta itemProp="position" content="4" />
+              </li>
+            </ol>
+          </nav>
 
-      {/* Hero with background image (like destinations) */}
-      <header className="relative text-white min-h-[85vh] sm:min-h-[70vh] md:min-h-[85vh] flex items-end overflow-hidden">
-        {/* Background image or gradient fallback */}
-        <div className="absolute inset-0">
-          {article.imageUrl ? (
-            <Image
-              src={article.imageUrl}
-              alt={article.imageAlt || article.title}
-              fill
-              priority
-              className="object-cover"
-              sizes="100vw"
-            />
-          ) : (
-            <div className="w-full h-full bg-gradient-to-br from-ocean-500 via-ocean-600 to-seafoam-600" />
-          )}
-          <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/30 to-transparent" />
-        </div>
-
-        {/* Content */}
-        <div className="container pb-16 sm:pb-20 md:pb-28 relative z-10 w-full">
-          <div className="max-w-4xl animate-slide-up">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-black/30 backdrop-blur-sm rounded-full text-sm font-semibold mb-6 border border-white/20">
-              <MapPin className="w-4 h-4" aria-hidden="true" />
-              <span>{article.destinationName}</span>
-              <span aria-hidden="true">•</span>
-              <span>{formatTheme(article.theme)}</span>
+          <div className="mt-6 md:mt-10 grid grid-cols-1 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,1fr)] gap-8 lg:gap-12 items-center">
+            <div>
+              <Link
+                href={`/destinations/${article.destination}`}
+                className="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-sand-200 ring-1 ring-white/15 hover:bg-white/15"
+              >
+                <MapPin className="w-3.5 h-3.5" aria-hidden="true" />
+                {article.destinationName} · {theme}
+              </Link>
+              <h1 className="mt-4 font-display text-[2.1rem] sm:text-5xl lg:text-[3.4rem] font-semibold leading-[1.05] tracking-tight text-white">
+                {article.title}
+              </h1>
+              {/* Hidden on phones: it repeats the Quick Answer and pushed it below the fold */}
+              <p className="hidden sm:block mt-5 text-lg md:text-xl text-ocean-50/80 leading-relaxed max-w-2xl">{article.metaDescription}</p>
+              <p className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-1 text-sm text-ocean-100/70">
+                <span className="inline-flex items-center gap-1.5">
+                  <Calendar className="w-4 h-4" aria-hidden="true" />
+                  <time dateTime={updatedIso}>{t('ui.updated', { date: updated })}</time>
+                </span>
+                <span className="inline-flex items-center gap-1.5">
+                  <Clock className="w-4 h-4" aria-hidden="true" />
+                  {t('minRead', { count: readingTime })}
+                </span>
+              </p>
             </div>
 
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 md:mb-6 leading-tight tracking-tight text-white [text-shadow:_0_2px_10px_rgba(0,0,0,0.9),_0_4px_20px_rgba(0,0,0,0.7),_0_0_40px_rgba(0,0,0,0.5)]">
-              {article.title}
-            </h1>
-
-            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white max-w-3xl mb-6 md:mb-8 leading-relaxed [text-shadow:_0_2px_8px_rgba(0,0,0,0.7)]">
-              {article.metaDescription}
-            </p>
-
-            <div className="flex flex-wrap items-center gap-2 sm:gap-3 text-sm md:text-base">
-              <div className="flex items-center gap-2 px-3 py-2 bg-black/30 backdrop-blur-sm rounded-xl border border-white/20">
-                <Clock className="w-3.5 h-3.5 sm:w-4 sm:h-4" aria-hidden="true" />
-                <span className="font-bold text-xs sm:text-sm">{readingTime} min read</span>
-              </div>
-              <div className="flex items-center gap-2 px-3 py-2 bg-black/30 backdrop-blur-sm rounded-xl border border-white/20">
-                <Calendar className="w-3.5 h-3.5 sm:w-4 sm:h-4" aria-hidden="true" />
-                <time dateTime={article.generatedAt} className="font-bold text-xs sm:text-sm">
-                  {new Date(article.generatedAt).toLocaleDateString('en-US', {
-                    month: 'short',
-                    day: 'numeric',
-                    year: 'numeric'
-                  })}
-                </time>
-              </div>
-              <div className="hidden sm:flex items-center gap-2 px-3 py-2 bg-black/30 backdrop-blur-sm rounded-xl border border-white/20">
-                <Sparkles className="w-4 h-4" aria-hidden="true" />
-                <span className="font-bold text-xs sm:text-sm">{t('sidebar.aiPowered')}</span>
-              </div>
-            </div>
+            {article.imageUrl && (
+              <figure>
+                <div className="relative aspect-[4/3] overflow-hidden rounded-3xl bg-white/5 shadow-2xl shadow-ocean-900/40 ring-1 ring-white/10">
+                  <Image
+                    src={article.imageUrl}
+                    alt={article.imageAlt || article.title}
+                    fill
+                    priority
+                    className="object-cover"
+                    sizes="(max-width: 1024px) 100vw, 640px"
+                  />
+                </div>
+                {article.imageCredit && (
+                  <figcaption className="mt-2 text-xs text-white/45">
+                    {t('ui.photoBy')}{' '}
+                    <a href={article.imageCreditUrl} target="_blank" rel="noopener noreferrer" className="underline hover:text-white/80">
+                      {article.imageCredit}
+                    </a>
+                  </figcaption>
+                )}
+              </figure>
+            )}
           </div>
         </div>
-
-        {/* Image credit */}
-        {article.imageUrl && article.imageCredit && (
-          <div className="absolute bottom-2 right-2 z-10 bg-black/50 backdrop-blur-sm text-white text-[10px] px-2 py-1 rounded">
-            Photo by{' '}
-            <a href={article.imageCreditUrl} target="_blank" rel="noopener noreferrer" className="underline hover:text-ocean-200">
-              {article.imageCredit}
-            </a>
-          </div>
-        )}
-
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
+        <svg className="absolute bottom-0 left-0 h-6 w-full text-[#e8f2f9] md:h-10" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true">
+          <path fill="currentColor" d="M0,32 C240,58 480,58 720,34 C960,10 1200,10 1440,32 L1440,60 L0,60 Z" />
+        </svg>
       </header>
 
-      {/* Main Content */}
-      <div className="container py-8 md:py-12 lg:py-16">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12">
-          {/* Article Content */}
-          <article className="lg:col-span-2 space-y-6 md:space-y-10">
-            {/* Quick Answer Box - Important for AI crawlers */}
-            <ScrollReveal delay={100}>
-              <section className="relative bg-gradient-to-br from-ocean-50 via-cyan-50 to-seafoam-50 border-2 border-ocean-200 p-5 sm:p-6 md:p-8 rounded-2xl md:rounded-3xl shadow-soft overflow-hidden pulse-glow" aria-labelledby="quick-answer-heading">
-                <div className="absolute -top-10 -right-10 w-40 h-40 bg-ocean-200/30 rounded-full blur-3xl animate-float-slow" aria-hidden="true" />
-                <div className="absolute -bottom-10 -left-10 w-32 h-32 bg-seafoam-200/20 rounded-full blur-2xl animate-float-slower" aria-hidden="true" />
-                <div className="relative">
-                  <div className="flex items-center gap-2 sm:gap-3 mb-3 md:mb-4">
-                    <div className="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-br from-ocean-400 to-ocean-600 rounded-lg sm:rounded-xl flex items-center justify-center shadow-ocean">
-                      <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-white" aria-hidden="true" />
-                    </div>
-                    <h2 id="quick-answer-heading" className="text-lg sm:text-xl font-bold text-gradient-ocean">{t('quickAnswer')}</h2>
-                  </div>
-                  <p className="text-base sm:text-lg text-slate-800 leading-relaxed">{article.quickAnswer}</p>
-                </div>
-              </section>
-            </ScrollReveal>
+      <div className="bg-[#e8f2f9] pt-10 pb-16 md:pt-14 md:pb-20">
+        <div className="container max-w-7xl">
+          <div className="grid grid-cols-1 lg:grid-cols-[14rem_minmax(0,1fr)] xl:grid-cols-[14rem_minmax(0,44rem)_16rem] justify-center gap-10 xl:gap-12">
 
-            {adventGuide && (
-              <ScrollReveal delay={110}>
-                <Link
-                  href={`/guides/${article.destination}-advent`}
-                  className="group flex items-center gap-3 sm:gap-4 bg-gradient-to-r from-red-50 to-amber-50 border-2 border-red-200 hover:border-red-300 rounded-2xl px-4 py-3 sm:px-5 sm:py-4 transition-colors"
-                >
-                  <span className="text-2xl sm:text-3xl flex-shrink-0" aria-hidden="true">🎄</span>
-                  <span className="min-w-0">
-                    <span className="block text-xs sm:text-sm font-semibold text-red-700 uppercase tracking-wide">{t('adventCallout')}</span>
-                    <span className="block text-sm sm:text-base font-semibold text-slate-800 group-hover:underline underline-offset-2">{adventGuide.title}</span>
-                  </span>
-                  <ArrowRight className="w-5 h-5 text-red-400 ml-auto flex-shrink-0 group-hover:translate-x-0.5 transition-transform" aria-hidden="true" />
-                </Link>
-              </ScrollReveal>
-            )}
+            {/* Left: sticky table of contents (desktop) */}
+            <aside className="hidden lg:block">
+              {toc.length >= 3 && (
+                <nav className="sticky top-24" aria-label={t('ui.onThisPage')}>
+                  <p className="px-2 text-xs font-bold uppercase tracking-wider text-slate-500 mb-3">{t('ui.onThisPage')}</p>
+                  {tocList(false)}
+                </nav>
+              )}
+            </aside>
 
-            {/* Inline "Next reads" — appears right after Quick Answer to catch users early
-                and reduce bounce. Different visual style from bottom Related Guides so it
-                doesn't feel redundant. */}
-            {inlineNextReads.length > 0 && (
-              <ScrollReveal delay={120}>
-                <aside className="bg-slate-50/70 border-l-4 border-ocean-400 rounded-r-xl px-4 py-3 sm:px-5 sm:py-4" aria-labelledby="inline-next-heading">
-                  <p id="inline-next-heading" className="text-xs sm:text-sm font-semibold text-slate-500 uppercase tracking-wide mb-2">
-                    {t('alsoWantToKnow')}
-                  </p>
-                  <ul className="space-y-1.5 sm:space-y-2">
-                    {inlineNextReads.map((next) => (
-                      <li key={next.slug}>
-                        <Link
-                          href={`/guides/${next.slug}`}
-                          className="group inline-flex items-center gap-2 text-sm sm:text-base text-slate-700 hover:text-ocean-600 transition-colors"
-                        >
-                          <ArrowRight className="w-4 h-4 text-ocean-400 group-hover:translate-x-0.5 transition-transform flex-shrink-0" aria-hidden="true" />
-                          <span className="font-medium underline-offset-2 group-hover:underline">{next.title}</span>
-                        </Link>
+            <article className="min-w-0">
+              {/* Quick answer card */}
+              <section className="relative overflow-hidden rounded-2xl bg-white p-5 md:p-7 shadow-[0_1px_2px_rgba(12,74,110,0.06),0_6px_20px_-6px_rgba(12,74,110,0.12)] ring-1 ring-ocean-900/[0.06]" aria-labelledby="quick-answer-heading">
+                <div className="absolute inset-y-0 left-0 w-1 bg-gradient-to-b from-sand-400 via-coral-400 to-ocean-500" aria-hidden="true" />
+                <h2 id="quick-answer-heading" className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-ocean-700">
+                  <CheckCircle className="w-4 h-4" aria-hidden="true" />
+                  {t('quickAnswer')}
+                </h2>
+                {points.length > 0 ? (
+                  <ul className="mt-4 space-y-3">
+                    {points.map((pt, n) => (
+                      <li key={n} className="flex gap-3 text-[17px] leading-relaxed text-slate-800">
+                        <span className="mt-2.5 h-2 w-2 flex-shrink-0 rounded-full bg-sand-400 ring-2 ring-sand-100" aria-hidden="true" />
+                        <span>{pt}</span>
                       </li>
                     ))}
                   </ul>
-                </aside>
-              </ScrollReveal>
-            )}
-
-            {/* Main Article Content */}
-            <ScrollReveal delay={150}>
-              <section className="prose prose-base sm:prose-lg prose-slate max-w-none prose-headings:text-slate-900 prose-p:text-slate-700 prose-p:leading-relaxed">
-                <div
-                  className="text-sm sm:text-base text-slate-700 leading-relaxed"
-                  dangerouslySetInnerHTML={{ __html: `<p class="text-slate-700 leading-relaxed mb-4">${renderMarkdown(article.content)}</p>` }}
-                />
+                ) : (
+                  <p className="mt-3 text-[17px] md:text-lg leading-relaxed text-slate-800">{article.quickAnswer}</p>
+                )}
               </section>
-            </ScrollReveal>
 
-            {/* Table Data if available - Cards on mobile, table on desktop */}
-            {article.tableData && article.tableData.length > 0 && (() => {
-              // Detect if this is a comparison table (has "winner" field) or standard table
-              const isComparisonTable = 'winner' in article.tableData[0];
-
-              if (isComparisonTable) {
-                // Get comparison columns (all keys except 'name' and 'winner')
-                const firstRow = article.tableData[0] as ComparisonTableRow;
-                const comparisonColumns = Object.keys(firstRow).filter(k => k !== 'name' && k !== 'winner');
-
-                return (
-                  <section className="bg-white rounded-2xl md:rounded-3xl border-2 border-ocean-100 p-4 sm:p-6 md:p-8 shadow-soft overflow-hidden" aria-labelledby="comparison-heading">
-                    <h2 id="comparison-heading" className="text-xl md:text-2xl font-bold text-slate-900 mb-4 md:mb-6 flex items-center gap-2 sm:gap-3">
-                      <div className="w-8 h-8 sm:w-10 sm:h-10 bg-seafoam-500 rounded-lg sm:rounded-xl flex items-center justify-center shadow-soft">
-                        <Star className="w-4 h-4 sm:w-5 sm:h-5 text-white" aria-hidden="true" />
-                      </div>
-                      Comparison
-                    </h2>
-
-                    {/* Mobile: Cards layout for comparison */}
-                    <div className="md:hidden space-y-3">
-                      {(article.tableData as ComparisonTableRow[]).map((row, index) => (
-                        <div key={index} className="bg-gradient-to-br from-slate-50 to-white p-4 rounded-xl border border-slate-100">
-                          <h3 className="font-bold text-slate-900 text-base mb-3">{row.name}</h3>
-                          <div className="space-y-2 text-sm">
-                            {comparisonColumns.map(col => (
-                              <div key={col} className="flex justify-between items-center">
-                                <span className="text-slate-500 capitalize">{col}</span>
-                                <span className="font-semibold text-slate-700">{row[col]}</span>
-                              </div>
-                            ))}
-                            {row.winner && (
-                              <div className="flex justify-between items-center pt-2 border-t border-slate-100">
-                                <span className="text-slate-500">Winner</span>
-                                <span className={`inline-flex items-center px-2 py-0.5 rounded-lg text-xs font-semibold ${
-                                  row.winner.toLowerCase() === 'tie' || row.winner.toLowerCase() === 'neriješeno'
-                                    ? 'bg-slate-100 text-slate-700'
-                                    : 'bg-seafoam-100 text-seafoam-700'
-                                }`}>
-                                  {row.winner}
-                                </span>
-                              </div>
-                            )}
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-
-                    {/* Desktop: Table layout for comparison */}
-                    <div className="hidden md:block overflow-x-auto">
-                      <table className="w-full text-left">
-                        <thead>
-                          <tr className="border-b-2 border-slate-100">
-                            <th className="py-3 px-4 font-bold text-slate-900">Category</th>
-                            {comparisonColumns.map(col => (
-                              <th key={col} className="py-3 px-4 font-bold text-slate-900 capitalize">{col}</th>
-                            ))}
-                            <th className="py-3 px-4 font-bold text-slate-900">Winner</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          {(article.tableData as ComparisonTableRow[]).map((row, index) => (
-                            <tr key={index} className="border-b border-slate-50 hover:bg-ocean-50/50 transition-colors">
-                              <td className="py-4 px-4 font-semibold text-slate-900">{row.name}</td>
-                              {comparisonColumns.map(col => (
-                                <td key={col} className="py-4 px-4 text-slate-700">{row[col]}</td>
-                              ))}
-                              <td className="py-4 px-4">
-                                <span className={`inline-flex items-center gap-1 px-2 py-1 rounded-lg text-sm font-semibold ${
-                                  row.winner?.toLowerCase() === 'tie' || row.winner?.toLowerCase() === 'neriješeno'
-                                    ? 'bg-slate-100 text-slate-700'
-                                    : 'bg-seafoam-100 text-seafoam-700'
-                                }`}>
-                                  {row.winner}
-                                </span>
-                              </td>
-                            </tr>
-                          ))}
-                        </tbody>
-                      </table>
-                    </div>
-                  </section>
-                );
-              } else {
-                // Standard recommendations table
-                return (
-                  <section className="bg-white rounded-2xl md:rounded-3xl border-2 border-ocean-100 p-4 sm:p-6 md:p-8 shadow-soft overflow-hidden" aria-labelledby="recommendations-heading">
-                    <h2 id="recommendations-heading" className="text-xl md:text-2xl font-bold text-slate-900 mb-4 md:mb-6 flex items-center gap-2 sm:gap-3">
-                      <div className="w-8 h-8 sm:w-10 sm:h-10 bg-seafoam-500 rounded-lg sm:rounded-xl flex items-center justify-center shadow-soft">
-                        <Star className="w-4 h-4 sm:w-5 sm:h-5 text-white" aria-hidden="true" />
-                      </div>
-                      Top Recommendations
-                    </h2>
-
-                    {/* Mobile: Cards layout */}
-                    <div className="md:hidden space-y-3">
-                      {(article.tableData as StandardTableRow[]).map((row, index) => (
-                        <div key={index} className="bg-gradient-to-br from-slate-50 to-white p-4 rounded-xl border border-slate-100">
-                          <h3 className="font-bold text-slate-900 text-base mb-3">{row.name}</h3>
-                          <div className="grid grid-cols-3 gap-2 text-sm">
-                            <div>
-                              <p className="text-slate-500 text-xs mb-0.5">Price</p>
-                              <p className="font-semibold text-slate-700">{row.price}</p>
-                            </div>
-                            <div>
-                              <p className="text-slate-500 text-xs mb-0.5">Rating</p>
-                              <span className="inline-flex items-center px-2 py-0.5 bg-seafoam-100 text-seafoam-700 rounded-lg text-xs font-semibold">
-                                {row.rating}
-                              </span>
-                            </div>
-                            <div>
-                              <p className="text-slate-500 text-xs mb-0.5">Distance</p>
-                              <p className="font-medium text-slate-600">{row.distance}</p>
-                            </div>
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-
-                    {/* Desktop: Table layout */}
-                    <div className="hidden md:block">
-                      <table className="w-full text-left">
-                        <thead>
-                          <tr className="border-b-2 border-slate-100">
-                            <th className="py-3 px-4 font-bold text-slate-900">Name</th>
-                            <th className="py-3 px-4 font-bold text-slate-900">Price</th>
-                            <th className="py-3 px-4 font-bold text-slate-900">Rating</th>
-                            <th className="py-3 px-4 font-bold text-slate-900">Distance</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          {(article.tableData as StandardTableRow[]).map((row, index) => (
-                            <tr key={index} className="border-b border-slate-50 hover:bg-ocean-50/50 transition-colors">
-                              <td className="py-4 px-4 font-semibold text-slate-900">{row.name}</td>
-                              <td className="py-4 px-4 text-slate-700">{row.price}</td>
-                              <td className="py-4 px-4">
-                                <span className="inline-flex items-center gap-1 px-2 py-1 bg-seafoam-100 text-seafoam-700 rounded-lg text-sm font-semibold">
-                                  {row.rating}
-                                </span>
-                              </td>
-                              <td className="py-4 px-4 text-slate-600">{row.distance}</td>
-                            </tr>
-                          ))}
-                        </tbody>
-                      </table>
-                    </div>
-                  </section>
-                );
-              }
-            })()}
-
-            {/* FAQ Section - Critical for AI optimization */}
-            {article.faq && article.faq.length > 0 && (
-              <ScrollReveal delay={200}>
-                <section
-                  className="bg-gradient-to-br from-slate-50 via-ocean-50/50 to-seafoam-50/30 p-5 sm:p-6 md:p-8 lg:p-10 rounded-2xl md:rounded-3xl border-2 border-ocean-100"
-                  aria-labelledby="faq-heading"
-                  itemScope
-                  itemType="https://schema.org/FAQPage"
+              {adventGuide && (
+                <Link
+                  href={`/guides/${article.destination}-advent`}
+                  className="group mt-4 flex items-center gap-3 rounded-2xl bg-white px-5 py-4 shadow-sm ring-1 ring-coral-200 hover:ring-coral-300"
                 >
-                  <div className="flex items-center gap-2 sm:gap-3 mb-5 md:mb-8">
-                    <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-ocean-400 to-ocean-600 rounded-xl sm:rounded-2xl flex items-center justify-center shadow-ocean">
-                      <HelpCircle className="w-5 h-5 sm:w-6 sm:h-6 text-white" aria-hidden="true" />
-                    </div>
-                    <div>
-                      <h2 id="faq-heading" className="text-xl sm:text-2xl md:text-3xl font-bold text-gradient-ocean">Frequently Asked Questions</h2>
-                      <p className="text-xs sm:text-sm text-slate-600 mt-0.5 sm:mt-1">Common questions about {article.destinationName}</p>
-                    </div>
-                  </div>
-                  <AnimatedFaq items={article.faq} />
-                </section>
-              </ScrollReveal>
-            )}
+                  <span className="text-2xl flex-shrink-0" aria-hidden="true">🎄</span>
+                  <span className="min-w-0">
+                    <span className="block text-xs font-semibold uppercase tracking-wider text-coral-600">{t('adventCallout')}</span>
+                    <span className="block font-semibold text-ocean-900 group-hover:underline underline-offset-2">{adventGuide.title}</span>
+                  </span>
+                  <ArrowRight className="w-5 h-5 ml-auto flex-shrink-0 text-coral-400 group-hover:translate-x-0.5 transition-transform" aria-hidden="true" />
+                </Link>
+              )}
 
-            {/* Transparency disclaimer + freshness — E-E-A-T signal for Google/YMYL */}
-            <ScrollReveal delay={220}>
-              <section className="flex gap-3 sm:gap-4 bg-slate-50 border border-slate-200 rounded-xl sm:rounded-2xl p-4 sm:p-5" aria-labelledby="disclaimer-heading">
-                <Info className="w-5 h-5 text-slate-400 flex-shrink-0 mt-0.5" aria-hidden="true" />
-                <div>
-                  <h2 id="disclaimer-heading" className="text-sm font-semibold text-slate-700 mb-1">{t('disclaimer.title')}</h2>
-                  <p className="text-xs sm:text-sm text-slate-500 leading-relaxed mb-2">{t('disclaimer.body')}</p>
-                  <p className="text-xs text-slate-400">
-                    {t('disclaimer.lastUpdated', {
-                      date: new Date(article.generatedAt).toLocaleDateString(locale, {
-                        year: 'numeric', month: 'long', day: 'numeric',
-                      }),
-                    })}
-                  </p>
-                </div>
-              </section>
-            </ScrollReveal>
+              {/* Mobile table of contents */}
+              {toc.length >= 3 && (
+                <details className="lg:hidden mt-4 rounded-2xl bg-white shadow-[0_1px_2px_rgba(12,74,110,0.06),0_6px_20px_-6px_rgba(12,74,110,0.12)] ring-1 ring-ocean-900/[0.06]">
+                  <summary className="flex cursor-pointer list-none items-center justify-between px-4 py-3.5 font-semibold text-slate-900 [&::-webkit-details-marker]:hidden">
+                    {t('ui.onThisPage')}
+                    <ChevronRight className="w-4 h-4 text-slate-400 rotate-90" aria-hidden="true" />
+                  </summary>
+                  {tocList(true)}
+                </details>
+              )}
 
-            {/* Related Guides - Good for AI and user engagement */}
-            {relatedArticles.length > 0 && (
-              <ScrollReveal delay={250}>
-                <section className="bg-white rounded-2xl md:rounded-3xl border-2 border-slate-100 p-5 sm:p-6 md:p-8 shadow-soft" aria-labelledby="related-heading">
-                  <div className="flex items-center gap-2 sm:gap-3 mb-5 md:mb-6">
-                    <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-coral-400 to-coral-600 rounded-xl sm:rounded-2xl flex items-center justify-center shadow-soft">
-                      <Sparkles className="w-5 h-5 sm:w-6 sm:h-6 text-white" aria-hidden="true" />
+              {/* Body */}
+              <div className="article-body mt-10" dangerouslySetInnerHTML={{ __html: bodyHtml }} />
+
+              {/* Recommendations / comparison table */}
+              {article.tableData && article.tableData.length > 0 && (isComparison ? (() => {
+                const firstRow = article.tableData![0] as ComparisonTableRow;
+                const cols = Object.keys(firstRow).filter(k => k !== 'name' && k !== 'winner');
+                return (
+                  <section className="mt-14" aria-labelledby="comparison-heading">
+                    <h2 id="comparison-heading" className="font-display text-[1.75rem] font-semibold tracking-tight text-ocean-900 mb-4">{t('ui.comparison')}</h2>
+                    <div className="overflow-x-auto rounded-2xl bg-white shadow-[0_1px_2px_rgba(12,74,110,0.06),0_6px_20px_-6px_rgba(12,74,110,0.12)] ring-1 ring-ocean-900/[0.06]">
+                      <table className="w-full text-left text-[15px]">
+                        <thead className="border-b border-slate-200 text-xs uppercase tracking-wider text-slate-500">
+                          <tr>
+                            <th className="py-3 px-4 font-semibold">{t('ui.category')}</th>
+                            {cols.map(col => <th key={col} className="py-3 px-4 font-semibold">{col}</th>)}
+                            <th className="py-3 px-4 font-semibold">{t('ui.winner')}</th>
+                          </tr>
+                        </thead>
+                        <tbody className="divide-y divide-slate-100">
+                          {(article.tableData as ComparisonTableRow[]).map((row, index) => (
+                            <tr key={index}>
+                              <td className="py-3 px-4 font-semibold text-slate-900">{row.name}</td>
+                              {cols.map(col => <td key={col} className="py-3 px-4 text-slate-700">{row[col]}</td>)}
+                              <td className="py-3 px-4 font-semibold text-seafoam-700">{row.winner}</td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
                     </div>
-                    <div>
-                      <h2 id="related-heading" className="text-xl sm:text-2xl font-bold text-slate-900">Related Guides</h2>
-                      <p className="text-xs sm:text-sm text-slate-600">More helpful travel guides</p>
-                    </div>
-                  </div>
-                  <div className="space-y-3 sm:space-y-4">
-                    {relatedArticles.map((related) => (
-                      <Link
-                        key={related.slug}
-                        href={`/guides/${related.slug}`}
-                        className="group flex gap-3 sm:gap-4 p-3 sm:p-4 bg-slate-50 hover:bg-gradient-ocean-subtle rounded-xl sm:rounded-2xl border-2 border-slate-100 hover:border-ocean-200 transition-all hover:shadow-soft hover:-translate-y-0.5"
-                      >
-                        {related.imageUrl ? (
-                          <div className="relative w-16 h-16 sm:w-20 sm:h-20 rounded-lg sm:rounded-xl flex-shrink-0 overflow-hidden">
-                            <Image
-                              src={related.imageUrl}
-                              alt={related.title}
-                              fill
-                              className="object-cover group-hover:scale-110 transition-transform duration-500"
-                              sizes="80px"
-                            />
-                          </div>
-                        ) : (
-                          <div className="w-16 h-16 sm:w-20 sm:h-20 bg-gradient-ocean rounded-lg sm:rounded-xl flex-shrink-0 flex items-center justify-center">
-                            <MapPin className="w-6 h-6 sm:w-8 sm:h-8 text-white" />
-                          </div>
-                        )}
-                        <div className="flex-1 min-w-0">
-                          <p className="text-xs sm:text-sm text-slate-500 font-medium mb-1">{related.destinationName}</p>
-                          <h3 className="font-bold text-slate-900 text-sm sm:text-base line-clamp-2 group-hover:text-ocean-600 transition-colors">
-                            {related.title}
-                          </h3>
+                  </section>
+                );
+              })() : (
+                <section className="mt-14" aria-labelledby="recommendations-heading">
+                  <h2 id="recommendations-heading" className="font-display text-[1.75rem] font-semibold tracking-tight text-ocean-900 mb-4">{t('ui.topRecommendations')}</h2>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    {standardRows.map((row, index) => (
+                      <div key={index} className="rounded-2xl bg-white p-4 shadow-[0_1px_2px_rgba(12,74,110,0.06),0_6px_20px_-6px_rgba(12,74,110,0.12)] ring-1 ring-ocean-900/[0.06]">
+                        <div className="flex items-start justify-between gap-3">
+                          <p className="font-semibold text-slate-900 leading-snug">{row.name}</p>
+                          {showRating && hasRating(row.rating) && (
+                            <span className="flex-shrink-0 rounded-full bg-sand-100 px-2 py-0.5 text-xs font-bold text-sand-800">{row.rating}</span>
+                          )}
                         </div>
-                        <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 text-slate-400 group-hover:text-ocean-600 group-hover:translate-x-1 transition-all flex-shrink-0 self-center" aria-hidden="true" />
-                      </Link>
+                        <dl className="mt-3 space-y-1 text-sm">
+                          {row.price && (<div className="flex gap-2"><dt className="text-slate-500">{t('ui.price')}:</dt><dd className="font-medium text-slate-800">{row.price}</dd></div>)}
+                          {row.distance && (<div className="flex gap-2"><dt className="text-slate-500">{t('ui.distance')}:</dt><dd className="text-slate-700">{row.distance}</dd></div>)}
+                        </dl>
+                      </div>
                     ))}
                   </div>
                 </section>
-              </ScrollReveal>
-            )}
-          </article>
+              ))}
 
-          {/* Sidebar */}
-          <aside className="lg:col-span-1 order-first lg:order-last">
-            <div className="lg:sticky lg:top-20 space-y-4 sm:space-y-6">
+              {/* FAQ */}
+              {article.faq && article.faq.length > 0 && (
+                <section className="mt-14 rounded-2xl bg-white p-5 md:p-7 shadow-[0_1px_2px_rgba(12,74,110,0.06),0_6px_20px_-6px_rgba(12,74,110,0.12)] ring-1 ring-ocean-900/[0.06]" aria-labelledby="faq-heading" itemScope itemType="https://schema.org/FAQPage">
+                  <h2 id="faq-heading" className="font-display text-[1.75rem] font-semibold tracking-tight text-ocean-900 mb-2">{t('faq.title')}</h2>
+                  <AnimatedFaq items={article.faq} />
+                </section>
+              )}
 
-              {/* Language Switcher - hidden on mobile (auto-detected via middleware, also available in header) */}
-              <div className="hidden lg:block bg-white rounded-2xl border-2 border-slate-100 p-4 sm:p-6 shadow-soft">
-                <h3 className="font-bold text-slate-900 mb-3 sm:mb-4 flex items-center gap-2 text-sm sm:text-base">
-                  <div className="w-7 h-7 sm:w-8 sm:h-8 bg-ocean-100 rounded-lg flex items-center justify-center">
-                    <Sparkles className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-ocean-600" aria-hidden="true" />
-                  </div>
-                  {t('sidebar.otherLanguages')}
-                </h3>
-                <div className="grid grid-cols-4 sm:grid-cols-3 gap-1.5 sm:gap-2">
-                  {locales.map((code) => (
-                    <Link
-                      key={code}
-                      href={`/guides/${slug}`}
-                      locale={code as Locale}
-                      className={`flex flex-col items-center gap-0.5 sm:gap-1 px-1.5 sm:px-2 py-2 sm:py-3 rounded-lg sm:rounded-xl text-sm font-semibold transition-all ${
-                        code === locale
-                          ? 'bg-gradient-ocean text-white shadow-soft'
-                          : 'bg-slate-50 text-slate-600 hover:bg-ocean-50 hover:text-ocean-600 hover:scale-105'
-                      }`}
-                    >
-                      <span className="text-base sm:text-xl">{localeFlags[code]}</span>
-                      <span className="truncate text-[10px] sm:text-xs">{code.toUpperCase()}</span>
-                    </Link>
-                  ))}
+              {/* About this guide */}
+              <section className="mt-8 flex gap-3 px-1" aria-labelledby="disclaimer-heading">
+                <Info className="w-5 h-5 text-slate-400 flex-shrink-0 mt-0.5" aria-hidden="true" />
+                <div>
+                  <h2 id="disclaimer-heading" className="text-sm font-semibold text-slate-700 mb-1">{t('disclaimer.title')}</h2>
+                  <p className="text-sm text-slate-500 leading-relaxed mb-1">{t('disclaimer.body')}</p>
+                  <p className="text-xs text-slate-400">{t('disclaimer.lastUpdated', { date: updated })}</p>
                 </div>
-              </div>
+              </section>
+            </article>
 
-              {/* Trust Signals */}
-              <div className="bg-gradient-to-br from-sand-50 to-coral-50 rounded-2xl border-2 border-sand-200 p-4 sm:p-6 shadow-soft">
-                <div className="flex items-center gap-2 mb-3 sm:mb-4">
-                  <div className="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-br from-sand-400 to-coral-500 rounded-lg sm:rounded-xl flex items-center justify-center shadow-soft">
-                    <Shield className="w-4 h-4 sm:w-5 sm:h-5 text-white" aria-hidden="true" />
+            {/* Right: at-a-glance card (wide screens) */}
+            <aside className="hidden xl:block">
+              <div className="sticky top-24 space-y-4">
+                {!isComparison && standardRows.length > 0 && (
+                  <div className="rounded-2xl bg-white p-5 shadow-[0_1px_2px_rgba(12,74,110,0.06),0_6px_20px_-6px_rgba(12,74,110,0.12)] ring-1 ring-ocean-900/[0.06]">
+                    <p className="text-xs font-bold uppercase tracking-wider text-slate-500 mb-3">{t('ui.topRecommendations')}</p>
+                    <ul className="space-y-3">
+                      {standardRows.slice(0, 4).map((row, n) => (
+                        <li key={n} className="text-sm">
+                          <p className="font-semibold text-slate-900 leading-snug">{row.name}</p>
+                          {row.price && <p className="text-slate-500">{row.price}</p>}
+                        </li>
+                      ))}
+                    </ul>
                   </div>
-                  <h3 className="font-bold text-slate-900 text-sm sm:text-base">{t('sidebar.trustedGuide')}</h3>
-                </div>
-                <div className="space-y-2 sm:space-y-3">
-                  <div className="flex items-center gap-2 text-xs sm:text-sm">
-                    <CheckCircle className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-seafoam-600 flex-shrink-0" aria-hidden="true" />
-                    <span className="text-slate-700">{t('sidebar.aiPowered')}</span>
-                  </div>
-                  <div className="flex items-center gap-2 text-xs sm:text-sm">
-                    <CheckCircle className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-seafoam-600 flex-shrink-0" aria-hidden="true" />
-                    <span className="text-slate-700">{t('sidebar.humanReviewed')}</span>
-                  </div>
-                  <div className="flex items-center gap-2 text-xs sm:text-sm">
-                    <CheckCircle className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-seafoam-600 flex-shrink-0" aria-hidden="true" />
-                    <span className="text-slate-700">{t('sidebar.regularlyUpdated')}</span>
-                  </div>
-                </div>
-              </div>
-
-              {/* More Guides */}
-              <div className="bg-gradient-to-br from-seafoam-50 to-ocean-50 rounded-2xl border-2 border-seafoam-100 p-4 sm:p-6 shadow-soft">
-                <h3 className="font-bold text-slate-900 mb-2 sm:mb-3 flex items-center gap-2 text-sm sm:text-base">
-                  <MapPin className="w-4 h-4 sm:w-5 sm:h-5 text-seafoam-600" aria-hidden="true" />
-                  {t('sidebar.moreAbout', { destination: article.destinationName })}
-                </h3>
-                <p className="text-xs sm:text-sm text-slate-700 mb-3 sm:mb-4 leading-relaxed">
-                  {t('sidebar.exploreOther', { destination: article.destinationName })}
-                </p>
+                )}
                 <Link
                   href={`/destinations/${article.destination}`}
-                  className="inline-flex items-center gap-2 px-3 sm:px-4 py-2 sm:py-2.5 bg-white hover:bg-gradient-ocean hover:text-white rounded-lg sm:rounded-xl font-semibold text-xs sm:text-sm text-ocean-600 transition-all shadow-soft hover:shadow-ocean"
+                  className="group block overflow-hidden rounded-2xl bg-gradient-to-br from-ocean-800 to-ocean-900 p-5 text-white"
                 >
-                  {t('sidebar.viewAllGuides')}
-                  <ChevronRight className="w-3.5 h-3.5 sm:w-4 sm:h-4" aria-hidden="true" />
+                  <MapPin className="w-5 h-5 text-sand-300" aria-hidden="true" />
+                  <div className="mt-3 font-display text-xl font-semibold leading-tight text-white">
+                    {t('sidebar.moreAbout', { destination: article.destinationName })}
+                  </div>
+                  <span className="mt-3 inline-flex items-center gap-1 text-sm text-white/70 group-hover:text-white">
+                    {t('sidebar.viewAllGuides')} <ArrowRight className="w-4 h-4" aria-hidden="true" />
+                  </span>
                 </Link>
               </div>
-            </div>
-          </aside>
+            </aside>
+          </div>
         </div>
       </div>
+
+      {/* Related guides */}
+      {(relatedArticles.length > 0 || inlineNextReads.length > 0) && (
+        <section className="bg-white border-t border-ocean-100 pt-12 pb-16 md:pt-16 md:pb-24" aria-labelledby="related-heading">
+          <div className="container max-w-7xl">
+            <h2 id="related-heading" className="font-display text-3xl font-semibold tracking-tight text-ocean-900 mb-6">{t('ui.relatedTitle')}</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              {[...inlineNextReads, ...relatedArticles].slice(0, 4).map(related => (
+                <Link key={related.slug} href={`/guides/${related.slug}`} className="group block">
+                  <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-slate-100">
+                    {related.imageUrl && (
+                      <Image src={related.imageUrl} alt={related.title} fill className="object-cover transition-transform duration-500 group-hover:scale-[1.03]" sizes="(max-width: 640px) 100vw, 300px" />
+                    )}
+                  </div>
+                  <p className="mt-3 text-xs font-semibold uppercase tracking-wider text-ocean-700">{related.destinationName}</p>
+                  <p className="mt-1 text-base font-semibold leading-snug text-slate-900 line-clamp-3 group-hover:text-ocean-700">{related.title}</p>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
     </>
   );
 }
