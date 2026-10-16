@@ -1,0 +1,146 @@
+{
+  "title": "Zadar utazási útmutató: Strandok, parkolás és szállás",
+  "metaDescription": "Tervezze meg zadari útját praktikus részletekkel az útvonalakról, parkolásról, városrészekről és a legjobb kavicsos strandokról. Egy tényeken alapuló útmutató a városhoz.",
+  "intro": "Zadar praktikus átjáró Észak-Dalmácia felé, kompakt római és középkori központot kínál hozzáférhető kavicsos strandok mellett. Alkalmas családoknak, pároknak és autós utazóknak, akik egy kevésbé zsúfolt és olcsóbb bázist keresnek, mint Split vagy Dubrovnik, miközben közvetlen hozzáférést biztosít a Kornati-szigetekhez és a Plitvicei-tavakhoz.\n\nA fő város a történelmi, gyalogos félsziget és az északra és délre húzódó tengerparti lakónegyedek között oszlik meg. A főszezon június végétől augusztusig tart, amikor a tenger a legmelegebb, és a kompjáratok teljes kapacitással üzemelnek. Azok, akik a városnézést és az alacsonyabb szállásköltségeket részesítik előnyben, májusra, szeptemberre vagy októberre időzítsék utazásukat, amikor az időjárás enyhe marad, és a helyi utak csendesebbek.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Júniustól szeptemberig"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "25°C - 26°C"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Zadari repülőtér (ZAD), 12 km a központtól"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Kavicsos és beton teraszok"
+    },
+    {
+      "label": "Árszint",
+      "value": "Mérsékelt (olcsóbb, mint Split vagy Dubrovnik)"
+    },
+    {
+      "label": "Óváros",
+      "value": "Gyalogos félsziget (autómentes övezet)"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Óváros (Poluotok)",
+      "bestFor": "Városnézésre, étkezésre és rövid tartózkodásra.",
+      "parking": "Fizetős nyilvános parkolás a falakon kívül; nagyon korlátozott.",
+      "beach": "15-20 perc sétára a Kolovare strandtól.",
+      "summary": "Zadar történelmi szíve egy kis félszigeten terül el, tele római kori romokkal, templomokkal és éttermekkel. Teljesen gyalogosövezet, ami nehézzé teszi az autósok számára, de nagyon praktikus sétálásra."
+    },
+    {
+      "name": "Borik & Puntamika",
+      "bestFor": "Családoknak és üdülőhelyi strandoláshoz.",
+      "parking": "A legtöbb szálloda és apartman privát parkolót biztosít.",
+      "beach": "Közvetlen hozzáférés a Borik strandhoz (kavicsos és homokos keverék).",
+      "summary": "A központtól 4 km-re északra található ez a terület Zadar fő üdülőhelyeit és kempingjeit foglalja magában. Sekély strandokat és fenyőárnyékot kínál, bár az Óváros eléréséhez buszra vagy autóra van szükség."
+    },
+    {
+      "name": "Diklo",
+      "bestFor": "Csendesebb, önellátó apartmanos tartózkodásra.",
+      "parking": "Az ingyenes utcai parkolás gyakori; érdeklődjön a szálláshelyén.",
+      "beach": "Közvetlen hozzáférés kavicsos és beton strandokhoz.",
+      "summary": "Boriktól északra húzódó lakónegyed, melyet vízparti apartmanok és kis helyi kávézók jellemeznek. A partvonal többnyire beton teraszokból és sziklás területekből áll, melyeket a helyiek kedvelnek."
+    },
+    {
+      "name": "Kolovare & Arbanasi",
+      "bestFor": "Kényelmes sétával elérhető strand és Óváros.",
+      "parking": "Utcai parkolás elérhető, nyáron erősen zsúfolt.",
+      "beach": "Közvetlen hozzáférés a Kolovare strandhoz (kavicsos).",
+      "summary": "Közvetlenül az Óvárostól délre fekszik ez a negyed, melynek központja a város fő nyilvános strandja. Praktikus kompromisszumot kínál a strandolás és az esti belvárosi séták között."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "730 km, 8-9 óra az A8, A10 (Tauern) és a horvát A1-esen keresztül. Az útdíjak magukban foglalják az osztrák matricát, a Tauern/Karawanken alagutakat, a szlovén matricát és a horvát autópályadíjakat.",
+      "other": "Közvetlen járatok a Croatia Airlines vagy a Lufthansa légitársaságokkal."
+    },
+    {
+      "from": "Bécs",
+      "car": "600 km, 6-7 óra Grazon, Mariboron és Zágrábon (A1) keresztül. Osztrák és szlovén matrica, plusz horvát autópályadíjak szükségesek.",
+      "other": "Közvetlen járatok az Austrian Airlines vagy a Ryanair légitársaságokkal."
+    },
+    {
+      "from": "Budapest",
+      "car": "630 km, 6-7 óra az M7-esen Letenye határig, majd horvát A4 és A1. Magyar matrica és horvát autópályadíjak szükségesek.",
+      "other": "Közvetlen fapados járatok (Ryanair) vagy távolsági busz (Flixbus)."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "330 km, 3,5-4 óra az A2-esen Novo Mestóig, majd horvát A1. Szlovén matrica és horvát autópályadíjak szükségesek.",
+      "other": "Közvetlen buszjáratok (kb. 5-6 óra)."
+    },
+    {
+      "from": "Prága",
+      "car": "900 km, 10-11 óra Brnón, Bécsen és Zágrábon keresztül. Cseh, osztrák és szlovén matrica, plusz horvát autópályadíjak szükségesek.",
+      "other": "Közvetlen szezonális járatok (Ryanair) vagy RegioJet vonatok a tengerparti városokba."
+    },
+    {
+      "from": "Krakkó",
+      "car": "1000 km, 10-11 óra Szlovákián (D1) és Magyarországon (M1/M7) keresztül. Szlovák és magyar matrica, plusz horvát autópályadíjak szükségesek.",
+      "other": "Közvetlen szezonális járatok (Ryanair) vagy távolsági busz."
+    }
+  ],
+  "whenToGo": "Június végétől augusztusig tart a főszezon, melyet gyakran 30°C feletti léghőmérséklet, 26°C-ot elérő tengerhőmérséklet és a legmagasabb szállásárak jellemeznek. Július és augusztus sűrű tömegeket vonz az Óvárosba és a strandokra, miközben minden étterem, kompjárat és utazásszervező teljes kapacitással üzemel. Szeptember optimális egyensúlyt kínál: a tenger még elég meleg az úszáshoz, de a nyári tömeg megritkul, és a szállodai árak 20-30%-kal csökkennek. Novembertől húsvétig Zadar az alacsony szezonba lép; sok tengerparti üdülőhely, szezonális étterem és szigeti kompkapcsolat csökkenti szolgáltatásait vagy teljesen bezár, bár a városközpont továbbra is működőképes marad a helyiek számára.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni Zadart?",
+      "answer": "Igen, Zadart érdemes meglátogatni római kori történelmének, középkori templomainak és egyedi köztéri műalkotásainak, mint például a Tengeri Orgona, keveréke miatt. Praktikus, kevésbé zsúfolt alternatívája Splitnek, és kiváló kiindulópont több nemzeti park meglátogatásához."
+    },
+    {
+      "question": "Hány napra van szükség Zadarban?",
+      "answer": "Két teljes nap elegendő az Óváros felfedezéséhez és a helyi strandok élvezetéhez. Ha napközbeni kirándulásokat tervez a Kornati-szigetekre vagy a Plitvicei-tavakhoz, számoljon négy-öt nappal."
+    },
+    {
+      "question": "Melyik a legjobb strand Zadarban?",
+      "answer": "A Borik strandot nagyon kedvelik a családok sekély vize és homokos-kavicsos keveréke miatt. A Kolovare strand a legkényelmesebb választás, ha a városközpont közelében száll meg, hosszú kavicsos szakaszokat és természetes árnyékot kínál."
+    },
+    {
+      "question": "Szükséges autó Zadarban?",
+      "answer": "Nincs szüksége autóra, ha az Óvárosban tervez megszállni, vagy szervezett hajókirándulásokon vesz részt. Azonban erősen ajánlott az autó, ha felfedezné a tágabb zadari régiót, nemzeti parkokat látogatna, vagy külső külvárosokban, például Diklóban szállna meg."
+    },
+    {
+      "question": "Hol a legjobb parkolni Zadarban?",
+      "answer": "Az Óváros gyalogosövezet, így a látogatóknak a városfalakon kívül kell parkolniuk. A legpraktikusabb lehetőségek a keleti fal mentén található nyilvános parkolók (Obala kralja Tomislava) vagy a közeli Ravnice parkoló, melyek óradíjat vagy napidíjat számolnak fel."
+    },
+    {
+      "question": "Jó Zadar családoknak?",
+      "answer": "Igen, Zadar nagyon alkalmas családok számára lapos, sétálható központja és csendesebb légköre miatt a nagyobb dalmát városokhoz képest. Az olyan területek, mint Borik, dedikált családi üdülőhelyeket, sekély vizet és fenyőfa árnyékot kínálnak."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Rövid tények",
+    "whereToStay": "Hol szálljunk meg Zadarban",
+    "gettingThere": "Megközelítés Zadarba",
+    "whenToGo": "Mikor utazzunk",
+    "guides": "Zadar útmutatók",
+    "faq": "Zadar Gyakran Ismételt Kérdések",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor utazzunk",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Étel és ital",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati infók"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Ideális",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "zadar",
+  "language": "hu",
+  "updatedAt": "2026-10-16T09:00:34.437Z"
+}

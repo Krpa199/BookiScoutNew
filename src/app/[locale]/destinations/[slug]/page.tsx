@@ -5,12 +5,13 @@ import path from 'path';
 import { MapPin, ChevronRight, Compass, Utensils, Home, Sun, Map, ArrowDown, Info, Calendar, Users, Sparkles, TrendingUp, Waves, Palmtree, DollarSign, Star, CheckCircle, Shield } from 'lucide-react';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
-import { DESTINATIONS, THEMES, Theme } from '@/config/destinations';
+import { DESTINATIONS, THEMES, ALL_THEMES, Theme } from '@/config/destinations';
 import BookingWidget from '@/components/ui/BookingWidget';
 import { getDestinationImage } from '@/config/images';
 import QuickFactsCard from '@/components/ui/QuickFactsCard';
 import DestinationSchema from '@/components/schema/DestinationSchema';
 import { SITE_URL, localizedUrl, localeAlternates } from '@/lib/urls';
+import DestinationHub, { type DestinationHubContent } from '@/components/destination/DestinationHub';
 import Image from 'next/image';
 
 // Check if stay-check area data exists for this destination
@@ -84,6 +85,33 @@ const THEME_INFO: Partial<Record<Theme, { icon: React.ReactNode; gradient: strin
   'advent': { icon: <Sparkles className="w-5 h-5" />, gradient: 'from-red-400 to-red-600' },
 };
 
+// Rich hub content (src/content/destinations/<locale>/<slug>.json, from
+// scripts/generate-destination-hubs.ts). Destinations without it keep the old template.
+function getHub(locale: string, slug: string): DestinationHubContent | null {
+  const file = path.join(process.cwd(), 'src', 'content', 'destinations', locale, `${slug}.json`);
+  try {
+    return fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf-8')) : null;
+  } catch {
+    return null;
+  }
+}
+
+// Guides that exist in this locale, with their localized titles as link text
+function getLocalizedGuides(locale: string, slug: string): { theme: string; title: string }[] {
+  const dir = path.join(process.cwd(), 'src', 'content', 'articles', locale);
+  const out: { theme: string; title: string }[] = [];
+  for (const theme of ALL_THEMES) {
+    const file = path.join(dir, `${slug}-${theme}.json`);
+    if (!fs.existsSync(file)) continue;
+    try {
+      out.push({ theme, title: JSON.parse(fs.readFileSync(file, 'utf-8')).title || theme });
+    } catch {
+      /* skip unreadable */
+    }
+  }
+  return out;
+}
+
 // Check which articles exist for a destination
 function getAvailableGuides(destinationSlug: string): Theme[] {
   const articlesDir = path.join(process.cwd(), 'src', 'content', 'articles', 'en');
@@ -124,9 +152,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return { title: 'Destination Not Found' };
   }
 
+  const hub = getHub(locale, slug);
+
   return {
-    title: `${destination.name} Travel Guide 2026`,
-    description: t('guides.subtitle'),
+    title: hub?.title ?? `${destination.name} Travel Guide 2026`,
+    description: hub?.metaDescription ?? t('guides.subtitle'),
     alternates: localeAlternates(locale, `/destinations/${slug}`),
   };
 }
@@ -146,6 +176,8 @@ export default async function DestinationPage({ params }: Props) {
   const tThemes = await getTranslations('guides.themes');
 
   const availableGuides = getAvailableGuides(slug);
+  const hub = getHub(locale, slug);
+  const hubGuides = hub ? getLocalizedGuides(locale, slug) : [];
   const nearbyDestinations = DESTINATIONS
     .filter(d => d.region === destination.region && d.slug !== slug)
     .slice(0, 6);
@@ -226,7 +258,7 @@ export default async function DestinationPage({ params }: Props) {
       {/* Schema.org TouristDestination */}
       <DestinationSchema
         destination={destination}
-        description={t('guides.subtitle')}
+        description={hub?.metaDescription ?? t('guides.subtitle')}
         regionName={regionName}
         url={pageUrl}
         imageUrl={destinationImage.url.startsWith('http') ? destinationImage.url : `${SITE_URL}${destinationImage.url}`}
@@ -280,7 +312,7 @@ export default async function DestinationPage({ params }: Props) {
             </h1>
 
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white max-w-3xl mb-6 md:mb-10 leading-relaxed [text-shadow:_0_2px_8px_rgba(0,0,0,0.7)]">
-              {t('guides.subtitle')}
+              {hub ? hub.metaDescription : t('guides.subtitle')}
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 w-full sm:w-auto">
@@ -308,6 +340,13 @@ export default async function DestinationPage({ params }: Props) {
       {/* Main Content */}
       <div className="bg-gradient-ocean-subtle">
         <div className="container pt-12 pb-16 md:pt-16 md:pb-24">
+          {hub && (
+            <div className="mt-6 md:mt-0">
+              <DestinationHub hub={hub} slug={slug} guides={hubGuides} />
+            </div>
+          )}
+
+          {!hub && (<>
           {/* Quick Facts */}
           <div className="mb-10 md:mb-16 mt-6 md:mt-0">
             <QuickFactsCard
@@ -487,6 +526,10 @@ export default async function DestinationPage({ params }: Props) {
               </div>
             )}
 
+          </div>
+          </>)}
+
+          <div>
             {/* Nearby Destinations */}
             {nearbyDestinations.length > 0 && (
               <div className="mt-12 md:mt-20">
