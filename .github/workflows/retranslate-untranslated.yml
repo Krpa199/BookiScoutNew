@@ -1,6 +1,6 @@
 name: Retranslate English-only Articles
 
-# Manual-only. Re-translates ~600 articles that were stored in English under
+# Manual-only. Fixes kuna prices, then re-translates ~600 articles that were stored in English under
 # another language (scripts/retranslate-untranslated.ts), commits, deploys.
 # Shares the gemini-generation concurrency group, so it queues behind any
 # running generation job instead of hammering the same API key in parallel.
@@ -18,7 +18,7 @@ env:
 jobs:
   retranslate:
     runs-on: ubuntu-latest
-    timeout-minutes: 240
+    timeout-minutes: 360
     permissions:
       contents: write
       actions: write
@@ -35,7 +35,14 @@ jobs:
       - name: Install dependencies
         run: npm ci || (sleep 30 && npm ci)
 
+      # Kuna fix first, so retranslations start from corrected EN originals.
+      # (GitHub keeps only ONE pending run per concurrency group, so the two
+      # jobs can't be queued separately — the second would cancel the first.)
+      - name: Fix kuna prices
+        run: npx tsx scripts/fix-kuna.ts
+
       - name: Retranslate
+        if: always()
         run: npx tsx scripts/retranslate-untranslated.ts
 
       - name: Commit and push
@@ -49,7 +56,7 @@ jobs:
             echo "Nothing changed"
             exit 0
           fi
-          git commit -m "🌍 Retranslate English-only articles $(date -u +'%Y-%m-%d')"
+          git commit -m "🌍 Euro prices + retranslate English-only articles $(date -u +'%Y-%m-%d')"
           for i in 1 2 3 4 5; do
             git pull --rebase origin main && git push origin main && echo "push_success=true" >> $GITHUB_OUTPUT && exit 0
             echo "Push attempt $i failed, retrying..."
