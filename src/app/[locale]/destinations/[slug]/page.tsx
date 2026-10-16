@@ -80,6 +80,7 @@ const THEME_INFO: Partial<Record<Theme, { icon: React.ReactNode; gradient: strin
   'hidden-gems': { icon: <Compass className="w-5 h-5" />, gradient: 'from-pink-400 to-pink-600' },
   'local-food': { icon: <Utensils className="w-5 h-5" />, gradient: 'from-orange-400 to-orange-600' },
   'safety': { icon: <Info className="w-5 h-5" />, gradient: 'from-rose-400 to-rose-600' },
+  'advent': { icon: <Sparkles className="w-5 h-5" />, gradient: 'from-red-400 to-red-600' },
 };
 
 // Check which articles exist for a destination

@@ -1,0 +1,74 @@
+name: Generate Advent Guides
+
+# Manual-only. Generates the seasonal "advent" guide (EN + 12 translations) for
+# every destination in THEME_DESTINATIONS.advent, skipping ones already done.
+# Commits whatever was generated (even if the run dies midway), then deploys.
+
+on:
+  workflow_dispatch:
+    inputs:
+      destinations:
+        description: 'Space-separated slugs (blank = all advent destinations)'
+        required: false
+        default: ''
+        type: string
+
+concurrency:
+  group: gemini-generation
+  cancel-in-progress: false
+
+env:
+  GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
+  GEMINI_API_KEY_IMAGE: ${{ secrets.GEMINI_API_KEY_IMAGE }}
+  PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+  UNSPLASH_API_KEY: ${{ secrets.UNSPLASH_API_KEY }}
+  PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+  GEMINI_GROUNDING: 'on'
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    permissions:
+      contents: write
+      actions: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci || (sleep 30 && npm ci)
+
+      - name: Generate advent guides
+        run: npx tsx scripts/generate-advent.ts ${{ github.event.inputs.destinations }}
+
+      - name: Commit and push
+        id: push
+        if: always()
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add src/content
+          if git diff --staged --quiet; then
+            echo "Nothing generated"
+            exit 0
+          fi
+          git commit -m "🎄 Generate Advent guides $(date -u +'%Y-%m-%d')"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push origin main && echo "push_success=true" >> $GITHUB_OUTPUT && exit 0
+            echo "Push attempt $i failed, retrying..."
+            sleep 15
+          done
+          exit 1
+
+      - name: Trigger Hetzner deploy
+        if: always() && steps.push.outputs.push_success == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy-droplet.yml --ref main

@@ -107,6 +107,7 @@ const THEME_REQUIREMENTS: Record<string, string> = {
   'crowds-by-month': 'MUST show actual crowds of tourists, many people in streets or attractions',
   'peak-season': 'MUST show crowded streets with many tourists, summer crowds, busy areas',
   'off-season': 'MUST show empty or nearly empty streets, quiet atmosphere, few people',
+  'advent': 'MUST show a Christmas market or festive Christmas lights/decorations in a European town, winter evening atmosphere',
   'shoulder-season': 'should show pleasant weather, spring flowers or autumn colors',
   'best-time-to-visit': 'should show beautiful weather, sunny day, pleasant conditions',
   'weather-by-month': 'should show weather conditions, sunny sky, clouds',
@@ -172,6 +173,16 @@ function getSearchQueries(theme: string, destination?: string): string[] {
   const dest = destination || 'croatia';
   const destCapitalized = dest.charAt(0).toUpperCase() + dest.slice(1);
   const isCoastal = isCoastalDestination(destination);
+
+  if (theme === 'advent') {
+    return [
+      `${destCapitalized} advent christmas market`,
+      `${destCapitalized} christmas lights`,
+      'zagreb advent christmas market',
+      'european christmas market evening',
+      'christmas market wooden stalls lights',
+    ];
+  }
 
   // For continental destinations, use different queries
   if (!isCoastal) {

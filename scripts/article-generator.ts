@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { generateArticle, translateArticle, ArticleData, getRemainingCalls } from './gemini';
 import { LANGUAGES, LanguageCode } from '../src/config/languages';
-import { Destination, Theme, DESTINATIONS, THEMES } from '../src/config/destinations';
+import { Destination, Theme, DESTINATIONS, THEMES, isThemeAvailableFor } from '../src/config/destinations';
 import { getArticleImage } from './image-service';
 
 const CONTENT_DIR = path.join(process.cwd(), 'src', 'content', 'articles');
@@ -106,6 +106,7 @@ export async function generateDailyArticles(count: number = 10) {
     const list: { destination: Destination; theme: Theme }[] = [];
     for (const destination of destinations) {
       for (const theme of THEMES) {
+        if (!isThemeAvailableFor(destination.slug, theme)) continue;
         const key = `${destination.slug}-${theme}`;
         if (!tracker.generated.includes(key)) {
           list.push({ destination, theme });
@@ -372,6 +373,15 @@ export async function generateSingleArticle(
     } catch (error) {
       console.log(`  ⚠️ Translation failed for ${lang}`);
     }
+  }
+
+  // Mark as generated so the daily cron doesn't regenerate it
+  const tracker = loadTracker();
+  const key = `${destination.slug}-${theme}`;
+  if (!tracker.generated.includes(key)) {
+    tracker.generated.push(key);
+    tracker.totalArticles += 1 + translatedCount;
+    saveTracker(tracker);
   }
 
   console.log(`  └─ ✅ Generated EN + ${translatedCount} translations`);

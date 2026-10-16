@@ -207,6 +207,14 @@ export const MODERN_PRACTICAL = [
   'local-etiquette',    // tipping & etiquette (trust-building)
 ] as const;
 
+// Phase 11: Seasonal events (NEW 2026-10 for Advent 2026)
+// Unlike every other theme these only exist in specific places — see
+// THEME_DESTINATIONS. Advent targets trip-planners from HU/AT/SI/DE/IT who
+// drive in for the Christmas markets (zágrábi adventi vásár ranks ~2.5 already).
+export const SEASONAL_EVENTS = [
+  'advent',
+] as const;
+
 // Legacy themes - NOT generated for new destinations, but kept for type compatibility
 // (these already exist for completed destinations and remain indexed by Google)
 // 2026-05: moved high-traffic themes back into active categories — see PRACTICAL_DECISIONS,
@@ -238,6 +246,7 @@ export const THEMES = [
   ...TRAVEL_STYLE,
   ...DECISION_THEMES,
   ...MODERN_PRACTICAL,
+  ...SEASONAL_EVENTS,
 ] as const;
 
 // All themes including legacy (for type compatibility with existing articles)
@@ -263,6 +272,8 @@ export const GROUNDING_THEMES: ReadonlySet<string> = new Set([
   'scams-to-avoid', 'safety', 'safety-for-women',
   // Seasonality figures worth checking against recent data
   'best-time-to-visit', 'crowds-by-month', 'peak-season', 'off-season',
+  // Event dates, locations and prices change every year
+  'advent',
 ]);
 
 export type TravelerType = typeof TRAVELER_TYPES[number];
@@ -275,11 +286,26 @@ export type DestinationCharacter = typeof DESTINATION_CHARACTER[number];
 export type TravelStyle = typeof TRAVEL_STYLE[number];
 export type DecisionTheme = typeof DECISION_THEMES[number];
 export type ModernPractical = typeof MODERN_PRACTICAL[number];
+export type SeasonalEvent = typeof SEASONAL_EVENTS[number];
 export type LegacyTheme = typeof LEGACY_THEMES[number];
 export type Theme = typeof ALL_THEMES[number];
 
 // Top destinations for comparisons
 export const TOP_DESTINATIONS = ['split', 'dubrovnik', 'zadar', 'rovinj', 'porec', 'zagreb'] as const;
+
+// Themes that only make sense for certain destinations. Any theme not listed
+// here applies everywhere.
+export const THEME_DESTINATIONS: Partial<Record<Theme, readonly string[]>> = {
+  advent: [
+    'zagreb', 'rijeka', 'opatija', 'osijek', 'varazdin', 'samobor',
+    'karlovac', 'zadar', 'split', 'dubrovnik', 'pula', 'sibenik',
+  ],
+};
+
+export function isThemeAvailableFor(destinationSlug: string, theme: Theme): boolean {
+  const only = THEME_DESTINATIONS[theme];
+  return !only || only.includes(destinationSlug);
+}
 
 // =============================================================================
 // HELPER FUNCTIONS
@@ -297,6 +323,9 @@ export function generateTopics(): { destination: Destination; theme: Theme }[] {
       }
       // Skip self-comparisons (e.g., Split vs-split)
       if (theme === `vs-${destination.slug}`) {
+        continue;
+      }
+      if (!isThemeAvailableFor(destination.slug, theme)) {
         continue;
       }
       topics.push({ destination, theme });

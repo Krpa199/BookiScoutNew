@@ -1301,6 +1301,8 @@ function buildPrompt(destination: Destination, theme: Theme, language: string): 
     'rainy-day': 'things to do on a rainy day and indoor activities',
     'with-a-dog': 'traveling with a dog: dog-friendly beaches, ferries, and accommodation',
     'local-etiquette': 'local etiquette, tipping norms, and cultural tips visitors should know',
+    // Seasonal events
+    'advent': 'the Advent / Christmas market season (late November to early January) for visitors planning a trip: exact 2026 dates and main market locations, what to see, eat and drink with typical prices (mulled wine, fritule, sausages), best days and times to avoid crowds, where to park during Advent and parking prices, getting there by car or train from Budapest, Vienna, Graz, Ljubljana and Munich (drive times, vignettes, tolls), and which area to stay in',
     // Comparisons
     'vs-dubrovnik': 'comparison with Dubrovnik - which is better',
     'vs-split': 'comparison with Split - which is better',
@@ -1313,7 +1315,9 @@ function buildPrompt(destination: Destination, theme: Theme, language: string): 
   // Fallback for any theme not explicitly defined
   const themeDescription = themeDescriptions[theme] || theme.replace(/-/g, ' ');
 
-  const format = selectArticleFormat();
+  // Advent is a planning guide with dates, parking and travel logistics —
+  // the 300-word "brief" format can't hold it.
+  const format = theme === 'advent' ? 'full' : selectArticleFormat();
   const humanPhrases = getHumanVoicePhrases();
   const humanVoiceInstruction = formatHumanVoiceInstruction(humanPhrases);
 
