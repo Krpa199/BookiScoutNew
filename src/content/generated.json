@@ -2087,10 +2087,21 @@
     "plitvice-sailing",
     "plitvice-hiking",
     "plitvice-food-and-wine",
-    "zagreb-advent"
+    "zagreb-advent",
+    "rijeka-advent",
+    "opatija-advent",
+    "osijek-advent",
+    "varazdin-advent",
+    "samobor-advent",
+    "karlovac-advent",
+    "zadar-advent",
+    "split-advent",
+    "dubrovnik-advent",
+    "pula-advent",
+    "sibenik-advent"
   ],
   "lastRun": "2026-06-11T13:55:15.179Z",
-  "totalArticles": 88571,
+  "totalArticles": 88714,
   "lastSessionStats": {
     "articlesGenerated": 20,
     "translationsGenerated": 240
