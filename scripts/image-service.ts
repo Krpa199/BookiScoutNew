@@ -175,12 +175,26 @@ function getSearchQueries(theme: string, destination?: string): string[] {
   const isCoastal = isCoastalDestination(destination);
 
   if (theme === 'advent') {
+    // Stock libraries have few Croatian Advent photos, and the validator rightly
+    // rejects shots identifiable as Dresden/Nuremberg/Vienna. Cast a wide net of
+    // generic festive scenes; coastal towns get seaside Christmas-light queries.
     return [
       `${destCapitalized} advent christmas market`,
       `${destCapitalized} christmas lights`,
-      'zagreb advent christmas market',
-      'european christmas market evening',
-      'christmas market wooden stalls lights',
+      `${destCapitalized} christmas`,
+      ...(isCoastal ? [
+        'christmas lights seaside promenade night',
+        'mediterranean old town christmas decorations night',
+        'christmas tree harbour night lights',
+        'palm trees christmas lights night',
+      ] : [
+        'christmas lights old town square night',
+        'christmas tree town square evening',
+      ]),
+      'christmas market night stalls lights',
+      'mulled wine christmas market evening',
+      'christmas lights narrow stone street night',
+      'advent christmas market crowd evening',
     ];
   }
 
@@ -800,7 +814,11 @@ Respond ONLY with valid JSON (no markdown, no code blocks):
  */
 export async function getArticleImage(
   theme: string,
-  destination?: string
+  destination?: string,
+  options: {
+    excludeUrls?: Set<string>;  // images already used elsewhere — never pick these
+    noFallback?: boolean;       // return null instead of an unvalidated scenic photo
+  } = {}
 ): Promise<{
   imageUrl: string;
   imageAlt: string;
@@ -823,14 +841,24 @@ export async function getArticleImage(
   allCandidates.push(...pexelsResults, ...unsplashResults);
 
   // If not enough results, try more queries
-  if (allCandidates.length < 10 && queries.length > 1) {
-    for (let i = 1; i < Math.min(queries.length, 3); i++) {
+  // Advent needs the whole query list: few stock photos survive validation.
+  const wideSearch = theme === 'advent';
+  if ((allCandidates.length < 10 || wideSearch) && queries.length > 1) {
+    for (let i = 1; i < Math.min(queries.length, wideSearch ? queries.length : 3); i++) {
       const [p, u] = await Promise.all([
         fetchFromPexels(queries[i]),
         fetchFromUnsplash(queries[i]),
       ]);
       allCandidates.push(...p, ...u);
     }
+  }
+
+  if (options.excludeUrls?.size) {
+    const before = allCandidates.length;
+    for (let i = allCandidates.length - 1; i >= 0; i--) {
+      if (options.excludeUrls.has(allCandidates[i].url)) allCandidates.splice(i, 1);
+    }
+    console.log(`    Excluded ${before - allCandidates.length} already-used images`);
   }
 
   console.log(`    Found ${allCandidates.length} candidates from all providers`);
@@ -859,7 +887,7 @@ export async function getArticleImage(
   }
 
   // Validate candidates
-  const maxAttempts = Math.min(MAX_VALIDATION_ATTEMPTS, shuffled.length);
+  const maxAttempts = Math.min(wideSearch ? 25 : MAX_VALIDATION_ATTEMPTS, shuffled.length);
 
   for (let i = 0; i < maxAttempts; i++) {
     // Check daily limit before each validation
@@ -909,6 +937,11 @@ export async function getArticleImage(
   //   2. Pool results from several queries, then pick a random one from the WHOLE
   //      pool. A bigger pool + per-article randomness means sibling articles of
   //      the same destination/theme get different covers, breaking up duplicates.
+  if (options.noFallback) {
+    console.log(`    ⚠️ No validated image found (fallback disabled)`);
+    return null;
+  }
+
   console.log(`    ⚠️ No validated image found, searching destination-specific scenic fallback...`);
 
   const isCoastal = isCoastalDestination(destination);
