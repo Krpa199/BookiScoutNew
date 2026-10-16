@@ -1175,6 +1175,15 @@ Spread them naturally throughout the article.`;
 // and wastes the reader's time. For each such theme we tell the model what the
 // SIBLING themes already cover, so it stays in its own lane and stays genuinely useful.
 const OVERLAP_GROUPS: Record<string, { focus: string; leaveTo: string }> = {
+  // "Where to sleep" cluster
+  'where-to-stay': {
+    focus: 'the neighbourhoods and areas within the destination itself',
+    leaveTo: 'staying in other towns nearby (stay-nearby)',
+  },
+  'stay-nearby': {
+    focus: 'the trade-off between the destination itself and specific nearby towns',
+    leaveTo: 'a neighbourhood-by-neighbourhood breakdown of the destination (where-to-stay)',
+  },
   // "What to see/do" cluster
   'things-to-do': {
     focus: 'the main, must-see attractions and headline activities',
@@ -1315,6 +1324,14 @@ function buildPrompt(destination: Destination, theme: Theme, language: string): 
     'vs-istria': 'comparison with Istria region - which is better',
     'vs-zagreb': 'comparison with Zagreb - which is better',
     'coast-vs-inland': 'coast vs inland Croatia comparison',
+    // Planner decisions (2026-10) — for people choosing where to go, not people already there
+    'stay-nearby': `whether to base yourself in ${destination.name} itself or in a smaller, cheaper town nearby — for travelers still planning their trip. Name 3–4 real nearby towns or villages, and for each compare accommodation price level, beaches, crowds and atmosphere, distance and travel time into ${destination.name} (bus, car, boat), and what parking in ${destination.name} is like when coming in for the day. Spell out what you gain and what you give up, and finish with a clear "who should stay where" verdict`,
+    'vs-makarska': 'choosing between this place and Makarska for a holiday base: beaches, crowds, atmosphere, families vs nightlife, price level and day trips, ending with a clear "choose X if…, choose Makarska if…" verdict',
+    'vs-hvar': 'choosing between this island/place and Hvar for a holiday: beaches, crowds, party vs calm, price level, ferry access and day trips, ending with a clear "choose X if…, choose Hvar if…" verdict',
+    'vs-rovinj': 'choosing between this place and Rovinj as an Istria holiday base: old-town charm, beaches, crowds, price level, families vs couples and day trips, ending with a clear "choose X if…, choose Rovinj if…" verdict',
+    'vs-sibenik': 'choosing between this place and Šibenik as a holiday base: beaches, old town, crowds, price level, Krka and Kornati access, ending with a clear "choose X if…, choose Šibenik if…" verdict',
+    'vs-opatija': 'choosing between this place and Opatija for a Kvarner holiday: seafront, beaches, atmosphere, price level, families vs seniors vs couples, ending with a clear "choose X if…, choose Opatija if…" verdict',
+    'vs-krk': 'choosing between this island and Krk for a Kvarner island holiday: beaches, getting there (bridge vs ferry), crowds, price level and who each suits, ending with a clear "choose X if…, choose Krk if…" verdict',
   };
 
   // Fallback for any theme not explicitly defined

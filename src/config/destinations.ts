@@ -215,6 +215,22 @@ export const SEASONAL_EVENTS = [
   'advent',
 ] as const;
 
+// Phase 12: Planner decisions (NEW 2026-10 for summer 2027)
+// The goal is trip PLANNERS, not visitors already in Croatia. Search Console
+// (Jul–Oct 2026) shows comparisons ranking pos 2–7 across 866 queries
+// ("brela oder makarska", "pula czy zadar"), so these are real pairs people
+// weigh — not every place vs the big five. Pairs are limited via
+// THEME_DESTINATIONS below; the article slug is `<destination>-vs-<other>`.
+export const PLANNER_DECISIONS = [
+  'stay-nearby',   // "Stay in Split or a cheaper town nearby?"
+  'vs-makarska',
+  'vs-hvar',
+  'vs-rovinj',
+  'vs-sibenik',
+  'vs-opatija',
+  'vs-krk',
+] as const;
+
 // Legacy themes - NOT generated for new destinations, but kept for type compatibility
 // (these already exist for completed destinations and remain indexed by Google)
 // 2026-05: moved high-traffic themes back into active categories — see PRACTICAL_DECISIONS,
@@ -247,6 +263,7 @@ export const THEMES = [
   ...DECISION_THEMES,
   ...MODERN_PRACTICAL,
   ...SEASONAL_EVENTS,
+  ...PLANNER_DECISIONS,
 ] as const;
 
 // All themes including legacy (for type compatibility with existing articles)
@@ -264,7 +281,7 @@ export const GROUNDING_THEMES: ReadonlySet<string> = new Set([
   // Money — changes constantly
   'price-2027', 'cost-guide', 'budget', 'luxury', 'prices',
   // Verdicts that hinge on current prices/crowds
-  'is-it-worth-it', 'worth-the-day-trip', 'overtourism-alternatives',
+  'is-it-worth-it', 'worth-the-day-trip', 'overtourism-alternatives', 'stay-nearby',
   // Practical facts with schedules/coverage/rules that shift
   'connectivity', 'ferry-connections', 'airport-access', 'public-transport-quality',
   'visa-and-entry', 'ev-charging', 'parking-difficulty',
@@ -287,6 +304,7 @@ export type TravelStyle = typeof TRAVEL_STYLE[number];
 export type DecisionTheme = typeof DECISION_THEMES[number];
 export type ModernPractical = typeof MODERN_PRACTICAL[number];
 export type SeasonalEvent = typeof SEASONAL_EVENTS[number];
+export type PlannerDecision = typeof PLANNER_DECISIONS[number];
 export type LegacyTheme = typeof LEGACY_THEMES[number];
 export type Theme = typeof ALL_THEMES[number];
 
@@ -300,7 +318,42 @@ export const THEME_DESTINATIONS: Partial<Record<Theme, readonly string[]>> = {
     'zagreb', 'rijeka', 'opatija', 'osijek', 'varazdin', 'samobor',
     'karlovac', 'zadar', 'split', 'dubrovnik', 'pula', 'sibenik',
   ],
+  // Big, pricier bases with real cheaper towns around them (or parks where
+  // the question is "which village to sleep in").
+  'stay-nearby': [
+    'split', 'trogir', 'zadar', 'sibenik', 'dubrovnik', 'makarska', 'rovinj',
+    'porec', 'pula', 'hvar', 'opatija', 'krk', 'rijeka', 'bol', 'plitvice', 'krka',
+  ],
+  // Crowded places where "where instead?" is a real planning question.
+  'overtourism-alternatives': [
+    'dubrovnik', 'split', 'hvar', 'plitvice', 'krka', 'rovinj', 'makarska',
+  ],
+  'vs-makarska': ['brela', 'tucepi', 'baska-voda', 'podgora', 'omis'],
+  'vs-hvar': ['brac', 'bol', 'korcula', 'vis'],
+  'vs-rovinj': ['porec', 'vrsar', 'pula', 'novigrad'],
+  'vs-sibenik': ['vodice', 'primosten', 'zadar'],
+  'vs-opatija': ['lovran', 'crikvenica', 'rijeka'],
+  'vs-krk': ['rab', 'losinj', 'cres'],
 };
+
+// What the daily generator writes. The site's goal is trip PLANNERS, so only
+// planner-intent themes are generated from 2026-10 on. In-trip themes
+// (parking, restaurants, nightlife, transport…) keep their existing articles —
+// they still rank — but no new ones are written. Tier 1 is drained first:
+// decisions where Search Console already shows us ranking (comparisons pos
+// 2–7, "is X worth visiting" pos 2.4, families pos 4–10).
+export const GENERATION_TIERS: readonly (readonly Theme[])[] = [
+  [
+    ...PLANNER_DECISIONS,
+    'is-it-worth-it', 'overtourism-alternatives', 'where-to-stay',
+    'families-with-toddlers', 'hidden-gems',
+  ],
+  [
+    'family', 'families-with-teens', 'first-time-visitors', 'couples', 'seniors',
+    'best-time-to-visit', 'crowds-by-month', 'cost-guide',
+    'things-to-do', 'beach', 'day-trips', 'itinerary', 'island-hopping',
+  ],
+];
 
 export function isThemeAvailableFor(destinationSlug: string, theme: Theme): boolean {
   const only = THEME_DESTINATIONS[theme];

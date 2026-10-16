@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { generateArticle, translateArticle, ArticleData, getRemainingCalls } from './gemini';
 import { LANGUAGES, LanguageCode } from '../src/config/languages';
-import { Destination, Theme, DESTINATIONS, THEMES, isThemeAvailableFor } from '../src/config/destinations';
+import { Destination, Theme, DESTINATIONS, THEMES, GENERATION_TIERS, isThemeAvailableFor } from '../src/config/destinations';
 import { getArticleImage } from './image-service';
 
 const CONTENT_DIR = path.join(process.cwd(), 'src', 'content', 'articles');
@@ -98,15 +98,17 @@ export async function generateDailyArticles(count: number = 10) {
   // daily batch across many destinations and themes looks organic instead — the
   // single biggest lever against a "scaled content abuse" penalty.
   //
-  // We still respect SEO priority: popular destinations are drained before the rest.
-  // The shuffle only randomises order *within* each tier, so a day's output is a
-  // varied mix (Split parking, Hvar is-it-worth-it, Zadar rainy-day…) rather than
-  // "50 Zagreb articles".
-  const buildPending = (destinations: Destination[]) => {
+  // We still respect priority: theme tiers (GENERATION_TIERS — planner themes
+  // only) are drained in order, and within a tier popular destinations come
+  // first. The shuffle only randomises order *within* each group, so a day's
+  // output is a varied mix rather than "50 Zagreb articles".
+  const buildPending = (destinations: Destination[], themes: readonly Theme[]) => {
     const list: { destination: Destination; theme: Theme }[] = [];
     for (const destination of destinations) {
-      for (const theme of THEMES) {
+      for (const theme of themes) {
         if (!isThemeAvailableFor(destination.slug, theme)) continue;
+        // Never compare a place with itself (this produced split-vs-split).
+        if (theme === `vs-${destination.slug}`) continue;
         const key = `${destination.slug}-${theme}`;
         if (!tracker.generated.includes(key)) {
           list.push({ destination, theme });
@@ -121,11 +123,10 @@ export async function generateDailyArticles(count: number = 10) {
     return list;
   };
 
-  const popularPending = buildPending(DESTINATIONS.filter(d => d.popular));
-  const otherPending = buildPending(DESTINATIONS.filter(d => !d.popular));
-
-  // Popular tier first (drained before the rest), each tier internally shuffled.
-  const pendingTopics = [...popularPending, ...otherPending].slice(0, count);
+  const pendingTopics = GENERATION_TIERS.flatMap(themes => [
+    ...buildPending(DESTINATIONS.filter(d => d.popular), themes),
+    ...buildPending(DESTINATIONS.filter(d => !d.popular), themes),
+  ]).slice(0, count);
 
   if (pendingTopics.length === 0) {
     console.log('🎉 All topics have been generated!');

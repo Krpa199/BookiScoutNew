@@ -55,6 +55,13 @@ const THEME_LABELS: Record<string, string> = {
   pool: 'Pools',
   gameOfThrones: 'Game of Thrones',
   parking: 'Parking',
+  stayNearby: 'Stay nearby for less',
+  vsMakarska: 'Compared with Makarska',
+  vsHvar: 'Compared with Hvar',
+  vsRovinj: 'Compared with Rovinj',
+  vsSibenik: 'Compared with Šibenik',
+  vsOpatija: 'Compared with Opatija',
+  vsKrk: 'Compared with Krk',
 };
 
 // New guide-page UI strings (previously hardcoded English)
