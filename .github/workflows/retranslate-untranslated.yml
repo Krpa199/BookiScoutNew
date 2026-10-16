@@ -1,0 +1,64 @@
+name: Retranslate English-only Articles
+
+# Manual-only. Re-translates ~600 articles that were stored in English under
+# another language (scripts/retranslate-untranslated.ts), commits, deploys.
+# Shares the gemini-generation concurrency group, so it queues behind any
+# running generation job instead of hammering the same API key in parallel.
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: gemini-generation
+  cancel-in-progress: false
+
+env:
+  GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
+
+jobs:
+  retranslate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    permissions:
+      contents: write
+      actions: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci || (sleep 30 && npm ci)
+
+      - name: Retranslate
+        run: npx tsx scripts/retranslate-untranslated.ts
+
+      - name: Commit and push
+        id: push
+        if: always()
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add src/content/articles
+          if git diff --staged --quiet; then
+            echo "Nothing changed"
+            exit 0
+          fi
+          git commit -m "🌍 Retranslate English-only articles $(date -u +'%Y-%m-%d')"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push origin main && echo "push_success=true" >> $GITHUB_OUTPUT && exit 0
+            echo "Push attempt $i failed, retrying..."
+            sleep 15
+          done
+          exit 1
+
+      - name: Trigger Hetzner deploy
+        if: always() && steps.push.outputs.push_success == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy-droplet.yml --ref main
