@@ -2098,10 +2098,12 @@
     "split-advent",
     "dubrovnik-advent",
     "pula-advent",
-    "sibenik-advent"
+    "sibenik-advent",
+    "split-stay-nearby",
+    "brela-vs-makarska"
   ],
   "lastRun": "2026-06-11T13:55:15.179Z",
-  "totalArticles": 88714,
+  "totalArticles": 88740,
   "lastSessionStats": {
     "articlesGenerated": 20,
     "translationsGenerated": 240

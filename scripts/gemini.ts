@@ -1242,6 +1242,15 @@ const OVERLAP_GROUPS: Record<string, { focus: string; leaveTo: string }> = {
   },
 };
 
+// The season an article is written for. From October on people plan NEXT
+// summer, so titles say 2027 rather than a year that is about to end. Advent
+// is this winter's event and keeps the current year.
+function seasonYear(theme: Theme): number {
+  const now = new Date();
+  const year = now.getUTCFullYear();
+  return theme === 'advent' || now.getUTCMonth() < 9 ? year : year + 1;
+}
+
 function buildAntiOverlapInstruction(theme: Theme): string {
   const g = OVERLAP_GROUPS[theme];
   if (!g) return '';
@@ -1409,7 +1418,7 @@ REQUIREMENTS:
 
 OUTPUT FORMAT (JSON):
 {
-  "title": "Article title (60 chars max, include year 2026)",
+  "title": "Article title (60 chars max, include year ${seasonYear(theme)})",
   "metaDescription": "Meta description (155 chars max)",
   "quickAnswer": "30-50 word DIRECT answer - this is the main value",
   "content": "Brief content with ## headings. 5 bullet points max. Include one opinionated statement.",
@@ -1482,7 +1491,7 @@ FORMAT REQUIREMENTS:
 
 OUTPUT FORMAT (JSON):
 {
-  "title": "Article title (60 chars max, include year 2026)",
+  "title": "Article title (60 chars max, include year ${seasonYear(theme)})",
   "metaDescription": "Meta description (155 chars max)",
   "quickAnswer": "40-60 word direct answer to the main topic",
   "tableData": [
@@ -1770,7 +1779,7 @@ function parseArticleResponse(
     data = fixNestedJson(cleanText, data);
 
     return {
-      title: data.title || `${theme} in ${destination.name} 2026`,
+      title: data.title || `${theme} in ${destination.name} ${seasonYear(theme)}`,
       metaDescription: data.metaDescription || `Discover ${theme} in ${destination.name}, Croatia.`,
       slug: `${destination.slug}-${theme}`,
       content: data.content || '',
@@ -1810,7 +1819,7 @@ function parseArticleResponse(
         }
       }
       return {
-        title: rawTitle ? unescapeJsonString(rawTitle) : `${theme} in ${destination.name} 2026`,
+        title: rawTitle ? unescapeJsonString(rawTitle) : `${theme} in ${destination.name} ${seasonYear(theme)}`,
         metaDescription: rawMeta ? unescapeJsonString(rawMeta) : `Discover ${theme} in ${destination.name}, Croatia.`,
         slug: `${destination.slug}-${theme}`,
         content: unescapeJsonString(rawContent),
@@ -1822,7 +1831,7 @@ function parseArticleResponse(
 
     console.log(`  ⚠️ Raw text extraction also failed, saving as-is`);
     return {
-      title: `${theme} in ${destination.name} 2026`,
+      title: `${theme} in ${destination.name} ${seasonYear(theme)}`,
       metaDescription: `Discover ${theme} in ${destination.name}, Croatia.`,
       slug: `${destination.slug}-${theme}`,
       content: text,

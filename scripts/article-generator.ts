@@ -72,6 +72,18 @@ function saveArticle(article: ArticleData, language: LanguageCode, destination: 
 }
 
 // Graceful shutdown handler
+// translateArticle falls back to the English original when Gemini's output
+// can't be parsed. Saving that under another language is how ~600 "German"
+// pages ended up in English, so treat it as a failure and let the caller
+// retry; after the last attempt the language is simply left missing.
+async function translateChecked(enArticle: ArticleData, lang: LanguageCode): Promise<ArticleData> {
+  const translated = await translateArticle(enArticle, lang);
+  if ((translated.content || '').slice(0, 200) === (enArticle.content || '').slice(0, 200)) {
+    throw new Error('translation came back in English');
+  }
+  return translated;
+}
+
 function requestStop(reason: string) {
   shouldStop = true;
   stopReason = reason;
@@ -216,7 +228,7 @@ export async function generateDailyArticles(count: number = 10) {
         let translationSuccess = false;
         for (let attempt = 1; attempt <= 3; attempt++) {
           try {
-            const translated = await translateArticle(enArticle, lang);
+            const translated = await translateChecked(enArticle, lang);
             // Add same image data to translated article
             const translatedWithImages = imageData
               ? { ...translated, ...imageData }
@@ -363,16 +375,19 @@ export async function generateSingleArticle(
     }
 
     console.log(`  ├─ Translating to ${LANGUAGES[lang].name}...`);
-    try {
-      const translated = await translateArticle(enArticle, lang);
-      // Add same image data to translated article
-      const translatedWithImages = imageData
-        ? { ...translated, ...imageData }
-        : translated;
-      saveArticle(translatedWithImages, lang, destination, theme);
-      translatedCount++;
-    } catch (error) {
-      console.log(`  ⚠️ Translation failed for ${lang}`);
+    for (let attempt = 1; attempt <= 3; attempt++) {
+      try {
+        const translated = await translateChecked(enArticle, lang);
+        // Add same image data to translated article
+        const translatedWithImages = imageData
+          ? { ...translated, ...imageData }
+          : translated;
+        saveArticle(translatedWithImages, lang, destination, theme);
+        translatedCount++;
+        break;
+      } catch (error) {
+        console.log(`  ⚠️ Translation failed for ${lang} (attempt ${attempt}/3): ${(error as Error).message}`);
+      }
     }
   }
 
