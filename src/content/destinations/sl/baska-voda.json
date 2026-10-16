@@ -1,0 +1,146 @@
+{
+  "title": "Baška Voda popotniški vodnik: Plaže, parkiranje in kje bivati",
+  "metaDescription": "Načrtujte svoje potovanje v Baško Vodo na Makarski rivieri. Odkrijte poti z avtomobilom, najboljša območja za bivanje, podrobnosti o plažah in praktične informacije o parkiranju.",
+  "intro": "Baška Voda je obalno letoviško mesto na Makarski rivieri, ki leži ob vznožju pogorja Biokovo. Primerno je za popotnike, ki iščejo urejene prodnate plaže, promenade v senci borovcev ter široko izbiro restavracij in kavarn, dostopnih peš. Mesto privablja mešanico družin in parov, predvsem iz Srednje in Vzhodne Evrope.\n\nGlavna sezona traja od junija do septembra. Julij in avgust prinašata najvišje temperature morja in največjo gnečo. Maj in oktober ponujata hladnejše vreme, primerno za pohodništvo in kolesarjenje, čeprav so številna sezonska podjetja zaprta. Obiskovalci, ki se v regijo pripeljejo z avtomobilom, bodo sredi poletja naleteli na gost promet, zato so vnaprej dogovorjene parkirne možnosti ključnega pomena.",
+  "quickFacts": [
+    {
+      "label": "Najboljši meseci",
+      "value": "Junij do september"
+    },
+    {
+      "label": "Temperatura morja avgusta",
+      "value": "25°C do 27°C"
+    },
+    {
+      "label": "Najbližje letališče",
+      "value": "Letališče Split (SPU), 68 km"
+    },
+    {
+      "label": "Glavna vrsta plaže",
+      "value": "Beli prodec z borovo senco"
+    },
+    {
+      "label": "Cenovni razred",
+      "value": "Nekoliko nad povprečjem za Hrvaško"
+    },
+    {
+      "label": "Center dostopen peš",
+      "value": "Da, večinoma pešcona ob obali"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Središče mesta (Centar)",
+      "bestFor": "Popotniki, ki želijo takojšen dostop do restavracij, trajektov in nočnega življenja",
+      "parking": "Težko in drago; javna parkirišča zaračunavajo po urah",
+      "beach": "Neposreden dostop do plaže Nikolina",
+      "summary": "Komercialno srce Baške Vode je osredotočeno okoli marine. Ponuja največjo koncentracijo restavracij in storitev, čeprav je v vrhuncu poletnih mesecev hrupno."
+    },
+    {
+      "name": "Podluka",
+      "bestFor": "Družine in tisti, ki iščejo mirnejši dostop do plaže",
+      "parking": "Pogosto vključeno v apartmaje, vendar je dostop po ulici ozek",
+      "beach": "Neposredno ob plažah Podluka in Ikovac",
+      "summary": "Ta četrt, ki se nahaja severno od centra proti Breli, je sestavljena predvsem iz apartmajev za najem. Asfaltirana obmorska promenada jo enostavno povezuje z glavnim mestom."
+    },
+    {
+      "name": "Promajna",
+      "bestFor": "Družine z majhnimi otroki, ki iščejo tišjo alternativo",
+      "parking": "Lažje kot v Baški Vodi, običajno vključeno v nastanitev",
+      "beach": "Neposreden dostop do plaže Promajna",
+      "summary": "Manjša vas, ki se nahaja 3,5 kilometra južno od Baške Vode. Ponaša se s sproščenim vzdušjem, nekaj osnovnimi restavracijami in široko prodnato plažo, obkroženo z borovci."
+    },
+    {
+      "name": "Bratuš",
+      "bestFor": "Pari in popotniki, ki si želijo občutek tradicionalne ribiške vasice",
+      "parking": "Zelo omejeno; obiskovalci morajo uporabiti določeno parkirišče ob vstopu v vas",
+      "beach": "Majhen osrednji prodnati zaliv",
+      "summary": "Bratuš, ki leži južno od Promajne, je majhno naselje s tradicionalnimi kamnitimi hišami. Vas ima minimalno komercialno dejavnost in mirno, počasno okolje."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "880 km, 9.5-10.5 ur preko A8, A10 in A1. Zahteva avstrijsko vinjeto, cestnino za Karavanški predor, slovensko vinjeto in hrvaške cestnine.",
+      "other": "Let iz MUC v Split (SPU), nato 1-urna vožnja z avtobusom ali taksijem."
+    },
+    {
+      "from": "Dunaj",
+      "car": "750 km, 7.5-8.5 ur preko A2 in A1. Zahteva avstrijsko vinjeto, slovensko vinjeto in hrvaške cestnine.",
+      "other": "Let iz VIE v Split ali direkten medkrajevni avtobus do Baške Vode."
+    },
+    {
+      "from": "Budimpešta",
+      "car": "780 km, 7.5-8.5 ur preko M7 in A1. Zahteva madžarsko vinjeto in hrvaške cestnine.",
+      "other": "Let iz BUD v Split ali direktne avtobusne linije poleti."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "500 km, 5-6 ur preko A2 in A1. Zahteva slovensko vinjeto in hrvaške cestnine.",
+      "other": "Na voljo so direktne avtobusne povezave do Makarske riviere."
+    },
+    {
+      "from": "Praga",
+      "car": "1050 km, 11-12 ur preko Brna, Dunaja in Zagreba. Zahteva češko, avstrijsko in slovensko vinjeto ter hrvaške cestnine.",
+      "other": "Let iz PRG v Split, nato lokalni avtobus ali letališki prevoz."
+    },
+    {
+      "from": "Krakov",
+      "car": "1100 km, 11.5-12.5 ur preko A4, Brna, Dunaja in Zagreba. Zahteva vinjete za več držav in hrvaške cestnine.",
+      "other": "Let iz KRK v Split ali nočni medkrajevni avtobus."
+    }
+  ],
+  "whenToGo": "Optimalen čas za kopanje in sončenje je med koncem junija in začetkom septembra, ko temperatura morja doseže 24°C do 27°C in so vsi turistični objekti, restavracije in bari na plaži odprti. Julij in avgust sta najbolj obiskana in najdražja meseca, kar povzroča gost promet na Jadranski magistrali in veliko povpraševanje po nastanitvah. Maj in oktober ponujata nižje cene in manj gneče, zaradi česar sta primerna za pohodništvo v bližnjem parku narave Biokovo, vendar je morje običajno prehladno za daljše kopanje in mnoga lokalna podjetja se zaprejo za izvensezono.",
+  "faq": [
+    {
+      "question": "Ali je Baška Voda vredna obiska?",
+      "answer": "Da, zelo cenjena je zaradi čistih, belih prodnatih plaž in obsežne sence borovcev. Služi kot odlična baza za klasične počitnice na plaži na Makarski rivieri."
+    },
+    {
+      "question": "Koliko dni potrebujem v Baški Vodi?",
+      "answer": "Pet do sedem dni je idealnih za standardne počitnice na plaži. Trije dnevi so dovolj, če jo uporabljate kot kratko postojanko na daljšem dalmatinskem potovanju z avtomobilom."
+    },
+    {
+      "question": "Katera je najboljša plaža v Baški Vodi?",
+      "answer": "Plaža Nikolina je osrednja in najbolj priljubljena možnost, ki ima Modro zastavo za čistočo. Plaža Ikovac, ki se nahaja nekoliko severneje, ponuja manjšo, slikovito alternativo."
+    },
+    {
+      "question": "Ali potrebujem avto v Baški Vodi?",
+      "answer": "Ne, avto ni nujen, če nameravate ostati v mestu, saj so plaže, restavracije in supermarketi dosegljivi peš. Vendar pa je vozilo koristno za enodnevne izlete v park narave Biokovo ali mesto Split."
+    },
+    {
+      "question": "Kje lahko parkiram v Baški Vodi?",
+      "answer": "Javna parkirišča so skoncentrirana v bližini marine in mestnih vhodov, razdeljena na plačljive cone, ki so poleti drage. Zelo je priporočljivo rezervirati nastanitev, ki vključuje zasebno parkirišče na posestvu."
+    },
+    {
+      "question": "Ali je Baška Voda primerna za družine?",
+      "answer": "Da, je ena izmed najbolj družinam prijaznih destinacij v regiji. Plaže imajo nežno nagnjen prodec in naravno senco, medtem ko obmorska promenada omogoča varno hojo brez prometa."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na hitro",
+    "whereToStay": "Kje bivati v Baški Vodi",
+    "gettingThere": "Kako priti v Baško Vodo",
+    "whenToGo": "Kdaj obiskati",
+    "guides": "Vodiči za Baško Vodo",
+    "faq": "Pogosta vprašanja o Baški Vodi",
+    "groups": {
+      "gettingAround": "Parkiranje in gibanje po kraju",
+      "planning": "Načrtovanje in kje bivati",
+      "timing": "Kdaj potovati",
+      "travelers": "Družine, pari in stili potovanj",
+      "activities": "Plaže in aktivnosti",
+      "food": "Hrana in pijača",
+      "comparisons": "Primerjave",
+      "practical": "Praktične informacije"
+    },
+    "car": "Z avtomobilom",
+    "other": "Druge možnosti",
+    "bestFor": "Najboljše za",
+    "parking": "Parkirišče",
+    "beach": "Plaža"
+  },
+  "destination": "baska-voda",
+  "language": "sl",
+  "updatedAt": "2026-10-16T13:24:36.838Z"
+}

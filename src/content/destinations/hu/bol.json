@@ -1,0 +1,146 @@
+{
+  "title": "Bol útikönyv: Strandok, parkolás és hol szálljunk meg",
+  "metaDescription": "Tervezze meg utazását a horvátországi Bolba. Fedezze fel a legjobb szálláshelyeket, útvonalakat, parkolási tippeket és mindent, amit a Zlatni Rat strandról tudnia kell.",
+  "intro": "Bol Brač szigetének déli partján fekszik, leginkább az elmozduló kavicsos félsziget, a Zlatni Rat otthonaként ismert. Ideális az aktív utazóknak, a strandkedvelőknek és a családoknak, akik egyensúlyt szeretnének a látványos fürdőhelyek és egy jól fejlett, gyalogosan bejárható város között. A kikötőt a fő stranddal összekötő, fenyőfákkal árnyékolt sétány nyugodt, mediterrán hangulatot biztosít, számos étteremmel, szörfközponttal és kávézóval.\n\nA fő turistaidény május végétől október elejéig tart, júliusban és augusztusban éri el csúcsát, amikor a város teljesen működik, de rendkívül zsúfolt. Az autós látogatók általában a Split–Supetar autós komppal érkeznek, majd egy 40 perces autóúttal haladnak át a szigeten. Azoknak, akik nyugodtabb élményre vágynak meleg fürdővízzel, érdemes szeptemberre időzíteniük utazásukat.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Június és szeptember"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "25–26°C"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Brač (14 km) vagy Split (75 km komppal)"
+    },
+    {
+      "label": "Fő strand típusa",
+      "value": "Finom kavicsos és apróköves"
+    },
+    {
+      "label": "Árszint",
+      "value": "Horvát átlag feletti"
+    },
+    {
+      "label": "Járhatóság",
+      "value": "Jól bejárható központ, autómentes sétány"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Bol központja és kikötője",
+      "bestFor": "Étkezés, éjszakai élet és komphoz való hozzáférés",
+      "parking": "Nagyon korlátozott, többnyire fizetős parkolók a külső területeken",
+      "beach": "10-15 perc séta a Bijela Kuća vagy Martinica strandhoz",
+      "summary": "Bol történelmi szívében hagyományos kőházak, a fő kompállomás és sűrűn elhelyezkedő éttermek találhatók. Ideális azok számára, akik közel akarnak lenni az esti szórakozáshoz, bár az autózás és parkolás itt erősen korlátozott."
+    },
+    {
+      "name": "Borik és Zlatni Rat sétány",
+      "bestFor": "Strandolók, családok és szörfösök",
+      "parking": "Nagy, fizetős parkolók a Zlatni Rat közelében",
+      "beach": "Közvetlen hozzáférés a Zlatni Rat és Borik (kavicsos) strandhoz",
+      "summary": "Ez a szakasz árnyékos, fenyőfákkal szegélyezett sétányon köti össze a városközpontot a híres Aranyszarv (Zlatni Rat) stranddal. Az itteni szállodák könnyű strandhozzáférést, széleskörű szolgáltatásokat és nyugodtabb esti hangulatot kínálnak a nyüzsgő kikötőhöz képest."
+    },
+    {
+      "name": "Martinica (Kelet-Bol)",
+      "bestFor": "Nyugodtabb tartózkodás és történelmi kilátás",
+      "parking": "Könnyebb magánparkolót találni a szállásokon",
+      "beach": "Közvetlen hozzáférés a Martinica strandhoz (kavicsos)",
+      "summary": "A Domonkos-kolostor közelében található, a városnak ez a keleti része nyugodtabb és lakóövezetesebb érzést kelt. Kiváló fürdőhelyeket kínál a Zlatni Rat nagy tömegétől mentesen, miközben a központból még mindig könnyen megközelíthető gyalog."
+    },
+    {
+      "name": "Murvica",
+      "bestFor": "Pároknak és elvonult pihenésre vágyóknak",
+      "parking": "Korlátozott utcai parkolás; a szállásadó helyeire hagyatkozzon",
+      "beach": "Meredek séta lefelé a Murvica strandhoz (finom kavicsos)",
+      "summary": "Bolról körülbelül 5 kilométerre nyugatra található ez az apró öko-falu szőlőültetvényekkel és zord tájjal körülvéve. Tökéletes az autós utazóknak, akik nyugodt, autentikus dalmát menedéket keresnek a fő turisztikai központoktól távol."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "975 km Bolig (komppal együtt), ~11 óra. A8/A10 Villachig, A2/A1 Splitig, majd Jadrolinija komp Supetarba. Osztrák/szlovén matricák, Karawanken és horvát útdíjak.",
+      "other": "Közvetlen járatok Splitbe (SPU), majd busz/taxi Split kikötőjébe és komp Bračra."
+    },
+    {
+      "from": "Bécs",
+      "car": "800 km Bolig (komppal együtt), ~9 óra. A2/A9 Grazig, A1/A4 Maribaron keresztül, A1 Splitig, majd Jadrolinija komp. Osztrák és szlovén matricák, horvát útdíjak.",
+      "other": "Közvetlen járatok Splitbe, vagy közvetlen hálókocsis vonat (Nightjet) Splitbe nyáron."
+    },
+    {
+      "from": "Budapest",
+      "car": "785 km Bolig (komppal együtt), ~9 óra. M7 a határig, A4 Zágrábba, A1 Splitig, majd Jadrolinija komp. Magyar matrica, horvát útdíjak.",
+      "other": "Közvetlen nyári járatok Splitbe, vagy közvetlen vonat (Adria InterCity) Splitbe."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "500 km Bolig (komppal együtt), ~6,5 óra. A2 Novo Mestóig, A1 Splitig, majd Jadrolinija komp Supetarba. Szlovén matrica, horvát útdíjak.",
+      "other": "Közvetlen busz Splitbe, majd személyszállító katamarán vagy autós komp Bračra."
+    },
+    {
+      "from": "Prága",
+      "car": "1100 km Bolig (komppal együtt), ~13 óra. D1 Brnóig, A2/A9 Ausztrián keresztül, A1/A4 Szlovéniában, A1 Splitig, majd komp. Cseh/osztrák/szlovén matricák, horvát útdíjak.",
+      "other": "Közvetlen járatok Splitbe (SPU) vagy RegioJet hálókocsis vonat Splitbe nyáron."
+    },
+    {
+      "from": "Krakkó",
+      "car": "1150 km Bolig (komppal együtt), ~14 óra. Szlovákián keresztül, M7 Magyarországon, A4/A1 Horvátországban Splitig, majd komp. Szlovák/magyar matricák, horvát útdíjak.",
+      "other": "Közvetlen járatok Splitbe (SPU), majd reptéri transzfer a kikötőbe és komp Bračra."
+    }
+  ],
+  "whenToGo": "Május enyhe időjárást (20-23°C) és csendesebb utcákat hoz, a tenger még mindig hűvös 18°C-os, és a szezonális vállalkozások épphogy kinyitnak. Júniusban melegebb a tenger (22°C) és kellemes a tömeg, így ideális az aktív pihenésre. Július és augusztus a főszezon; a hőmérséklet 30°C fölé emelkedik, a tenger eléri a kellemes 25-26°C-ot, az árak a legmagasabbak, és a Zlatni Rat környéke nyüzsög a látogatóktól. Szeptember tökéletes egyensúlyt kínál meleg tengerhőmérséklettel (23°C), kevesebb tömeggel és alacsonyabb szállásárakkal, míg októberben már lecseng a szezon hűvösebb, kiszámíthatatlanabb idővel és sok tengerparti étterem bezár a télre.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni Bolt?",
+      "answer": "Igen, Bolt abszolút érdemes meglátogatni ikonikus Zlatni Rat strandja, megbízható szörfözési körülményei és festői sétánya miatt. Kiváló egyensúlyt kínál az aktív vízi sportok és egy bájos, jól fejlett dalmát város hangulata között."
+    },
+    {
+      "question": "Hány napot érdemes Bolban tölteni?",
+      "answer": "Három-öt nap ideális egy boli tartózkodáshoz. Ez elegendő időt biztosít a fő strandokon való pihenésre, a Vidova Gorára való túrázásra a panorámás kilátásért, és egy hajókirándulásra a közeli szigetekre."
+    },
+    {
+      "question": "Melyik a legjobb strand Bolban?",
+      "answer": "A Zlatni Rat (Aranyszarv) a leghíresebb és legfeltűnőbb strand, amely elmozduló kavicsos csúcsáról és kristálytiszta vizéről ismert. A nyugodtabb hangulatért és kevesebb tömegért a Domonkos-kolostor melletti Martinica strand kiváló alternatíva."
+    },
+    {
+      "question": "Szükséges autó Bolban?",
+      "answer": "Nem, nincs szüksége autóra, ha Bol városában száll meg, mivel a kikötő, az éttermek és a fő strandok egy sík gyalogos sétányon keresztül kapcsolódnak egymáshoz. Autóra csak akkor van szükség, ha távoli falvakat és rejtett öblöket szeretne felfedezni Brač szigetén."
+    },
+    {
+      "question": "Hol érdemes parkolni Bolban?",
+      "answer": "A városközpontban a parkolás rendkívül korlátozott és nagyrészt a lakosok számára fenntartott. A látogatóknak a Zlatni Rat közelében található nagy, fizetős önkormányzati parkolókat kell használniuk, vagy gondoskodniuk kell arról, hogy a szállásuk garantált magánparkolóhelyet biztosítson."
+    },
+    {
+      "question": "Jó Bol családoknak?",
+      "answer": "Igen, Bol rendkívül családbarát a forgalommentes sétányának, a Zlatni Rat sekély vizű partjainak és számos szolgáltatásának köszönhetően. Minden korosztályú gyermek élvezni fogja a felfújható vízi parkokat, a turista vonatot és az árnyékos fenyőfás területeket."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Röviden",
+    "whereToStay": "Hol szálljunk meg Bolban",
+    "gettingThere": "Megközelítés Bolba",
+    "whenToGo": "Mikor utazzunk",
+    "guides": "Boli útmutatók",
+    "faq": "Bol GYIK",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor utazzunk",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Étel és ital",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "bol",
+  "language": "hu",
+  "updatedAt": "2026-10-16T14:32:14.274Z"
+}

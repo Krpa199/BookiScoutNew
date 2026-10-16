@@ -1,0 +1,146 @@
+{
+  "title": "Biograd na Moru Potovalni vodič: Plaže in kje prenočiti",
+  "metaDescription": "Načrtujte potovanje v Biograd na Moru z dejanskimi nasveti o voznih poteh, četrtih, parkiranju in plažah. Idealno za družine in popotnike z avtom.",
+  "intro": "Biograd na Moru je obalno mesto v severni Dalmaciji, ki leži na majhnem polotoku, na pol poti med Zadrom in Šibenikom. Služi kot praktično izhodišče za družine in navtike zaradi velikih marin, dostopnih prodnatih plaž, obdanih z borovimi gozdovi, in bližine Kornatov ter Vranskega jezera.\n\nMesto je zelo sezonsko, deluje s polno zmogljivostjo od junija do septembra. Ustreza popotnikom, ki iščejo tradicionalne hrvaške počitnice na plaži z enostavno logistiko, ne pa tistim, ki iščejo visokokakovosten luksuz ali intenzivno nočno življenje. Njegov raven teren in senčne promenade ga delajo še posebej priročnega za obiskovalce z majhnimi otroki ali omejeno mobilnostjo.",
+  "quickFacts": [
+    {
+      "label": "Najboljši meseci",
+      "value": "Junij in september za toplo morje in manj gneče"
+    },
+    {
+      "label": "Temperatura morja avgusta",
+      "value": "25°C do 27°C"
+    },
+    {
+      "label": "Najbližje letališče",
+      "value": "Letališče Zadar (ZAD), 28 km severno"
+    },
+    {
+      "label": "Glavni tip plaže",
+      "value": "Prod in gramoz, z naravno senco borovcev"
+    },
+    {
+      "label": "Cenovni nivo",
+      "value": "Povprečno za Hrvaško; ceneje kot Split ali Dubrovnik"
+    },
+    {
+      "label": "Prehodnost starega mesta",
+      "value": "Kompaktno in popolnoma prehodno, večinoma brez avtomobilov"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Center in staro mesto (Poluotok)",
+      "bestFor": "Kulinarika, izleti z ladjo in dostop do pristanišča",
+      "parking": "Plačljivo ulično parkiranje in velika občinska parkirišča; pogosto polno julija/avgusta",
+      "beach": "10-15 minut hoje do Dražice ali Bošane",
+      "summary": "Zgodovinski polotok gosti glavne restavracije, kavarne in trajektno pristanišče. Aktivno je zvečer, vendar nima neposrednega dostopa do plaže."
+    },
+    {
+      "name": "Dražica in Soline (Jug)",
+      "bestFor": "Družine in ljubitelji plaž",
+      "parking": "Nujno je zasebno parkirišče hotela/apartmaja; javnih mest je malo",
+      "beach": "Neposreden dostop do Dražice (prod) in Solin (mešanica peska/proda)",
+      "summary": "Ta južni del določajo veliki hoteli, kampi in senčna promenada. Ponuja najboljše plažne objekte in neposreden dostop do vode."
+    },
+    {
+      "name": "Bošana (Sever)",
+      "bestFor": "Poceni potovanja in mirnejša bivanja",
+      "parking": "Lažje ulično parkiranje kot v centru; večina apartmajev ima dovoze",
+      "beach": "Neposreden dostop do plaže Bošana (prod, manj sence)",
+      "summary": "Stanovanjska soseska severno od marine, ki ponuja predvsem najem zasebnih apartmajev. Lokalna plaža nima borove sence kot južni del, vendar je na splošno manj obiskana."
+    },
+    {
+      "name": "Kumenat",
+      "bestFor": "Pari in tisti, ki iščejo osamo",
+      "parking": "Večinoma zasebno parkirišče, ki ga zagotavlja nastanitev",
+      "beach": "Neposreden dostop do plaže Kumenat (majhen prodnat zaliv)",
+      "summary": "Nahaja se dva kilometra južno od centra, to majhno stanovanjsko naselje je oddaljeno od mestnega hrupa. Ponuja tišje, bolj izolirano obalno izkušnjo."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "760 km, 8-9 ur preko A10 (Avstrija) in A1 (Hrvaška). Zahteva avstrijsko vinjeto, cestnino za predor Tauern, slovensko vinjeto in hrvaške cestnine.",
+      "other": "Neposredni sezonski leti do Zadra (ZAD), nato 30-minutni avtobus ali taksi."
+    },
+    {
+      "from": "Dunaj",
+      "car": "620 km, 6.5-7.5 ur preko A2/A9 (Avstrija) in A1/A4 (Slovenija). Zahteva avstrijsko in slovensko vinjeto ter hrvaške cestnine.",
+      "other": "Neposredni sezonski leti do Zadra (ZAD) ali neposredni FlixBus do Biograda."
+    },
+    {
+      "from": "Budimpešta",
+      "car": "650 km, 6.5-7 ur preko M7 (Madžarska) in A4/A1 (Hrvaška). Zahteva madžarsko e-vinjeto in hrvaške cestnine.",
+      "other": "Sezonski neposredni leti do Zadra (ZAD) ali vlak do Zagreba z avtobusno povezavo."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "340 km, 4 ure preko A2 (Slovenija) in A1 (Hrvaška). Zahteva slovensko vinjeto in hrvaške cestnine.",
+      "other": "Neposredne avtobusne linije vozijo poleti in trajajo približno 5-6 ur."
+    },
+    {
+      "from": "Praga",
+      "car": "950 km, 10-11 ur preko Dunaja in Maribora. Zahteva češko, avstrijsko in slovensko vinjeto ter hrvaške cestnine.",
+      "other": "Neposredni sezonski leti do Zadra (ZAD) z nizkocenovnimi prevozniki."
+    },
+    {
+      "from": "Krakov",
+      "car": "1050 km, 11-12 ur preko Slovaške in Madžarske. Zahteva slovaško in madžarsko vinjeto ter hrvaške cestnine.",
+      "other": "Neposredni leti do Zadra (ZAD) preko Ryanaira, nato lokalni prevoz."
+    }
+  ],
+  "whenToGo": "Julij in avgust sta vrhunca poletnih mesecev, s temperaturami morja okoli 25°C do 27°C, vsemi odprtimi turističnimi objekti, vendar visokimi cenami in polnimi plažami. Junij in september ponujata boljše ravnovesje, s temperaturami morja, ki se gibljejo med 22°C in 24°C, nižjimi cenami namestitev in obvladljivo gnečo, čeprav so občasne padavine možne. Od oktobra do maja je Biograd na Moru večinoma v mirovanju; večina hotelov, sezonskih restavracij in plažnih objektov je zaprtih, zato je primeren le za potnike v tranzitu ali tiste, ki iščejo popolno samoto.",
+  "faq": [
+    {
+      "question": "Ali je vredno obiska?",
+      "answer": "Da, če si želite enostavne družinske počitnice na plaži ali izhodišče za jadranje. Manjka mu obsežna zgodovinska arhitektura Zadra ali Šibenika, vendar to nadoknadi z dostopnimi, s borovci senčenimi plažami."
+    },
+    {
+      "question": "Koliko dni?",
+      "answer": "Tri do pet dni je optimalno za počitnice na plaži in raziskovanje bližnje okolice. Cel teden omogoča dovolj časa za izlete z ladjo na Kornate ali vožnjo do Narodnega parka Krka."
+    },
+    {
+      "question": "Najboljša plaža?",
+      "answer": "Plaža Dražica je najbolj priljubljena zaradi statusa Modre zastave, blagega vhoda s prodniki in goste borove sence. Plaža Soline, ki se nahaja nekoliko južneje, ponuja peščene dele, priljubljene pri majhnih otrocih."
+    },
+    {
+      "question": "Ali potrebujem avto?",
+      "answer": "Avtomobila ne potrebujete, če bivate v Biogradu in nameravate le peš do lokalnih plaž. Vendar je vozilo zelo priporočljivo za enodnevne izlete v bližnje narodne parke, Zadar ali Vransko jezero."
+    },
+    {
+      "question": "Kje parkirati?",
+      "answer": "Parkiranje v centru je razdeljeno na plačljive cone in se poleti strogo nadzoruje. Zelo priporočljivo je rezervirati namestitev, ki vključuje zagotovljeno zasebno parkirišče, da se izognete dnevnim stroškom in težavam pri iskanju mesta."
+    },
+    {
+      "question": "Ali je primerno za družine?",
+      "answer": "Da, je eno najbolj družinam prijaznih mest v severni Dalmaciji. Raven teren, obsežne pešpoti, senčne plaže in bližnji zabaviščni park Dalmaland so neposredno namenjeni otrokom."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na hitro",
+    "whereToStay": "Kje prenočiti v Biogradu na Moru",
+    "gettingThere": "Prihod v Biograd na Moru",
+    "whenToGo": "Kdaj obiskati",
+    "guides": "Vodiči za Biograd na Moru",
+    "faq": "Pogosta vprašanja o Biogradu na Moru",
+    "groups": {
+      "gettingAround": "Parkiranje in premikanje",
+      "planning": "Načrtovanje in kje prenočiti",
+      "timing": "Kdaj obiskati",
+      "travelers": "Družine, pari in načini potovanja",
+      "activities": "Plaže in aktivnosti",
+      "food": "Hrana in pijača",
+      "comparisons": "Primerjave",
+      "practical": "Praktične informacije"
+    },
+    "car": "Z avtom",
+    "other": "Druge možnosti",
+    "bestFor": "Najboljše za",
+    "parking": "Parkiranje",
+    "beach": "Plaža"
+  },
+  "destination": "biograd",
+  "language": "sk",
+  "updatedAt": "2026-10-16T09:56:04.962Z"
+}

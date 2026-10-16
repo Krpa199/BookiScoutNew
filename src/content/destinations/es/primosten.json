@@ -1,0 +1,146 @@
+{
+  "title": "Guía de viaje de Primošten: Playas, aparcamiento y dónde alojarse",
+  "metaDescription": "Planifica un viaje a Primošten, Croacia. Descubre las mejores playas de guijarros, dónde aparcar cerca del casco antiguo sin coches y zonas cercanas para familias y parejas.",
+  "intro": "Primošten es una ciudad costera en Dalmacia Central, ubicada 28 kilómetros al sur de Šibenik. Conocida por su península histórica y sus grandes playas de guijarros, atrae a familias, parejas y viajeros por carretera que buscan un ambiente mediterráneo tradicional sin la escala urbana masiva de la cercana Split. El principal atractivo es la accesibilidad de su costa, con playas que bordean directamente el centro de la ciudad.\n\nLa temporada principal va de junio a septiembre. Julio y agosto traen las temperaturas más altas y las mayores multitudes, llenando las playas centrales y las principales zonas de aparcamiento. Mayo y finales de septiembre ofrecen tarifas de alojamiento más bajas y calles más tranquilas, aunque las temperaturas del mar pueden ser demasiado bajas para nadar.",
+  "quickFacts": [
+    {
+      "label": "Mejores meses",
+      "value": "De junio a septiembre"
+    },
+    {
+      "label": "Temperatura del mar en agosto",
+      "value": "25°C a 27°C"
+    },
+    {
+      "label": "Aeropuerto más cercano",
+      "value": "Aeropuerto de Split (SPU), 39 km"
+    },
+    {
+      "label": "Tipo de playa principal",
+      "value": "Guijarros y rocosa"
+    },
+    {
+      "label": "Nivel de precios",
+      "value": "Promedio para la costa dálmata"
+    },
+    {
+      "label": "Movilidad en el casco antiguo",
+      "value": "Sin coches, solo peatonal"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Casco Antiguo (Península)",
+      "bestFor": "Parejas, gastronomía y ambiente histórico",
+      "parking": "Prohibido en el interior; requiere usar aparcamientos de pago en tierra firme",
+      "beach": "De 200m a 500m a pie hasta Mala Raduča",
+      "summary": "El centro histórico se asienta en una península exclusivamente peatonal. Ofrece la mayor concentración de restaurantes y bares, pero requiere arrastrar el equipaje desde las zonas de aparcamiento en tierra firme."
+    },
+    {
+      "name": "Raduča",
+      "bestFor": "Familias y acceso a la playa",
+      "parking": "A menudo incluido en hoteles; grandes aparcamientos públicos de pago cercanos",
+      "beach": "Acceso directo a las playas de guijarros Velika y Mala Raduča",
+      "summary": "Esta zona rodea las principales playas de guijarros y pinares en tierra firme. Los alojamientos aquí están más cerca del agua y generalmente proporcionan un acceso de vehículos más fácil en comparación con el casco antiguo."
+    },
+    {
+      "name": "Bilo",
+      "bestFor": "Estancias tranquilas y parejas",
+      "parking": "Normalmente proporcionado por apartamentos privados",
+      "beach": "Acceso inmediato a calas rocosas y pequeñas zonas de guijarros",
+      "summary": "Un pequeño asentamiento costero ubicado 5 kilómetros al norte de Primošten. Ofrece una alternativa más tranquila con acceso a la costa rocosa, pero requiere un vehículo o autobús local para llegar a los restaurantes de Primošten."
+    },
+    {
+      "name": "Dolac",
+      "bestFor": "Viajeros con presupuesto limitado y estancias familiares tranquilas",
+      "parking": "Normalmente incluido con el alojamiento",
+      "beach": "Bahías de guijarros y terrazas de hormigón a 100m a 400m",
+      "summary": "Un pueblo suburbano 3 kilómetros al norte conectado con Primošten por la carretera costera. Cuenta con apartamentos residenciales y algunas cafeterías locales, adecuado para quienes evitan el concurrido centro."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Múnich",
+      "car": "820 km, ~9 horas vía Salzburgo, Villach, Liubliana, Zagreb y la autopista A1. Requiere viñetas austriacas y eslovenas, además de peajes croatas.",
+      "other": "Los vuelos directos a Split (SPU) duran 1.5 horas."
+    },
+    {
+      "from": "Viena",
+      "car": "640 km, ~6.5 horas vía Graz, Maribor, Zagreb y la autopista A1. Requiere viñetas austriacas y eslovenas, además de peajes croatas.",
+      "other": "Los vuelos directos a Split (SPU) duran 1 hora."
+    },
+    {
+      "from": "Budapest",
+      "car": "680 km, ~6.5 horas vía Letenye, Zagreb y la autopista A1. Requiere viñeta húngara, además de peajes croatas.",
+      "other": "Vuelos estacionales a Split o conexiones FlixBus vía Zagreb."
+    },
+    {
+      "from": "Liubliana",
+      "car": "400 km, ~4.5 horas vía Novo Mesto, Karlovac y la autopista A1. Requiere viñeta eslovena, además de peajes croatas.",
+      "other": "Existen conexiones directas en autobús, pero duran de 8 a 10 horas."
+    },
+    {
+      "from": "Praga",
+      "car": "970 km, ~10 horas vía Linz, Graz, Maribor, Zagreb y la autopista A1. Requiere viñetas checas, austriacas y eslovenas, además de peajes croatas.",
+      "other": "Los vuelos directos estacionales a Split duran 1.5 horas."
+    },
+    {
+      "from": "Cracovia",
+      "car": "1050 km, ~11 horas vía Ostrava, Brno, Viena, Graz, Zagreb y la autopista A1. Requiere viñetas checas, austriacas y eslovenas, además de peajes croatas.",
+      "other": "Vuelos estacionales a Split vía LOT Polish Airlines o compañías de bajo coste."
+    }
+  ],
+  "whenToGo": "La temporada turística en Primošten abarca desde finales de mayo hasta principios de octubre. Julio y agosto son los meses pico, con temperaturas del mar alrededor de 26°C, sol fiable y todos los negocios locales operando a plena capacidad. Estos meses también experimentan los precios más altos y las mayores multitudes en la playa de Mala Raduča. Junio y septiembre ofrecen temperaturas diurnas más suaves (23°C a 28°C) y tarifas de alojamiento reducidas, aunque finales de septiembre conlleva una mayor probabilidad de lluvia. De octubre a abril, Primošten se transforma en una tranquila ciudad residencial; la mayoría de los hoteles, restaurantes de temporada y chiringuitos cierran, y las temperaturas del mar descienden por debajo de los 18°C.",
+  "faq": [
+    {
+      "question": "¿Vale la pena visitar Primošten?",
+      "answer": "Sí, Primošten merece una visita para los viajeros que buscan un pueblo costero tradicional con extensas playas de guijarros. Sirve como una excelente base para explorar Dalmacia Central, incluyendo el cercano Parque Nacional de Krka y la ciudad de Šibenik."
+    },
+    {
+      "question": "¿Cuántos días necesito en Primošten?",
+      "answer": "De tres a cinco días son suficientes para explorar el pueblo, pasar tiempo en las playas y hacer una excursión de un día a los alrededores. Los visitantes que buscan unas vacaciones dedicadas a la playa a menudo se quedan de una a dos semanas."
+    },
+    {
+      "question": "¿Cuál es la mejor playa de Primošten?",
+      "answer": "Mala Raduča es considerada la mejor y más popular playa debido a su ubicación central, guijarros lisos y agua clara. Velika Raduča es una alternativa más grande justo al otro lado de la península, que ofrece deportes acuáticos y sombra de los pinos."
+    },
+    {
+      "question": "¿Necesito un coche en Primošten?",
+      "answer": "No es necesario un coche si te alojas en el centro del pueblo o cerca de las playas de Raduča, ya que las necesidades diarias están a poca distancia a pie. Sin embargo, se recomienda encarecidamente un vehículo para explorar pueblos cercanos, parques nacionales o ciudades más grandes como Split y Zadar."
+    },
+    {
+      "question": "¿Dónde debo aparcar en Primošten?",
+      "answer": "El aparcamiento dentro de la península del casco antiguo está prohibido para no residentes. Los visitantes deben usar los grandes aparcamientos de pago situados justo fuera de las puertas de la península o confirmar el aparcamiento privado con su proveedor de alojamiento."
+    },
+    {
+      "question": "¿Es Primošten bueno para familias?",
+      "answer": "Sí, Primošten es muy adecuado para familias debido a sus aguas tranquilas y sus playas de guijarros accesibles y limpias. La presencia de pinos que proporcionan sombra, alquiler de hidropedales y caminos llanos lo hace conveniente para niños de todas las edades."
+    }
+  ],
+  "headings": {
+    "quickFacts": "De un vistazo",
+    "whereToStay": "Dónde alojarse en Primošten",
+    "gettingThere": "Cómo llegar a Primošten",
+    "whenToGo": "Cuándo ir",
+    "guides": "Guías de Primošten",
+    "faq": "Preguntas frecuentes de Primošten",
+    "groups": {
+      "gettingAround": "Aparcamiento y cómo moverse",
+      "planning": "Planificación y dónde alojarse",
+      "timing": "Cuándo ir",
+      "travelers": "Familias, parejas y estilos de viaje",
+      "activities": "Playas y cosas que hacer",
+      "food": "Comida y bebida",
+      "comparisons": "Comparaciones",
+      "practical": "Información práctica"
+    },
+    "car": "En coche",
+    "other": "Otras opciones",
+    "bestFor": "Ideal para",
+    "parking": "Aparcamiento",
+    "beach": "Playa"
+  },
+  "destination": "primosten",
+  "language": "es",
+  "updatedAt": "2026-10-16T13:48:25.214Z"
+}

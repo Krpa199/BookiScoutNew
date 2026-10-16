@@ -1,0 +1,146 @@
+{
+  "title": "Omiš: Vodič za putovanje - Plaže, parking i smještaj",
+  "metaDescription": "Planirajte svoje putovanje u Omiš, Hrvatska. Usporedite četvrti, pješčane plaže, rute putovanja automobilom iz Srednje Europe i mogućnosti parkiranja za vaš odmor.",
+  "intro": "Omiš je primorski grad smješten 25 kilometara jugoistočno od Splita, na ušću rijeke Cetine u Jadransko more. Služi kao praktična baza za putnike koji žele opuštanje na plaži i aktivne mogućnosti na otvorenom, poput raftinga na rijeci ili planinarenja do tvrđava Mirabella i Fortica. Neposredna obala ističe se u Hrvatskoj po svojim prirodnim pješčanim plažama, posebno u centru grada i susjednom Dućama.\n\nDestinacija prvenstveno privlači obitelji koje trebaju plitku vodu i putnike koji putuju Dalmatinskom obalom. Srpanj i kolovoz donose vrhunac temperatura i gust promet duž Jadranske magistrale (D8), dok lipanj i rujan nude blaže vrijeme, niže cijene smještaja i lakše parkiranje.",
+  "quickFacts": [
+    {
+      "label": "Najbolji mjeseci",
+      "value": "Lipanj i rujan"
+    },
+    {
+      "label": "Temperatura mora u kolovozu",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Najbliža zračna luka",
+      "value": "Zračna luka Split (SPU), udaljena 42 km"
+    },
+    {
+      "label": "Glavna vrsta plaže",
+      "value": "Pijesak i sitni šljunak"
+    },
+    {
+      "label": "Razina cijena",
+      "value": "Umjerena (nešto ispod hrvatskog prosjeka)"
+    },
+    {
+      "label": "Prohodnost starog grada",
+      "value": "Ravan i u potpunosti pješački"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Omiš Centar (Donji Grad)",
+      "bestFor": "Za prve posjetitelje i putnike bez automobila",
+      "parking": "Javna parkirališta uz naplatu, ljeti rijetka",
+      "beach": "0-500m do Velike plaže (pijesak)",
+      "summary": "Povijesna jezgra ima uske uličice, restorane i izravan pristup glavnoj gradskoj plaži. Smještaj se sastoji prvenstveno od apartmana, a kretanje kroz velike ljetne gužve je neizbježno."
+    },
+    {
+      "name": "Priko",
+      "bestFor": "Za obitelji koje žele mirnije večeri blizu centra",
+      "parking": "Dostupno veliko javno parkiralište, neka privatna mjesta",
+      "beach": "500m do 1km do glavnih plaža",
+      "summary": "Smješteno odmah preko mosta na rijeci Cetini od starog grada. Nudi lakše parkiranje i veće stambene zgrade, a ostaje unutar 10 minuta hoda od povijesnog centra."
+    },
+    {
+      "name": "Duće",
+      "bestFor": "Za obitelji s malom djecom",
+      "parking": "Obično osigurava smještaj",
+      "beach": "0-200m do plitkih pješčanih plaža",
+      "summary": "Proteže se 6 kilometara obale neposredno zapadno od Omiša. Obloženo je neprekidnim pješčanim plažama i plitkom vodom, s naglaskom na apartmane za odmor i barove na plaži."
+    },
+    {
+      "name": "Nemira & Stanići",
+      "bestFor": "Za parove i putnike koji traže mirne šljunčane plaže",
+      "parking": "Privatno parkiralište na licu mjesta je ključno",
+      "beach": "0-300m do strmih šljunčanih uvala",
+      "summary": "Sela smještena 3 do 5 kilometara južno od Omiša duž Rivijere. Teren je strm, spušta se do slikovitih šljunčanih plaža s čistom vodom, daleko od pješčanih plićaka grada."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "850 km, 9-10 sati preko A8, Tauernautobahn (A10) i Hrvatske A1. Zahtijeva AT i SI vinjete, plus AT tunelarina i HR cestarine.",
+      "other": "Let do Splita (SPU) pa autobus ili privatni transfer."
+    },
+    {
+      "from": "Beč",
+      "car": "770 km, 8 sati preko A2, SI A1/A4 i Hrvatske A1. Zahtijeva AT i SI vinjete, plus HR cestarine.",
+      "other": "Let do Splita (SPU) ili izravni FlixBus do Splita/Omiša."
+    },
+    {
+      "from": "Budimpešta",
+      "car": "760 km, 7.5 sati preko M7 i Hrvatske A4/A1. Zahtijeva HU vinjetu i HR cestarine.",
+      "other": "Izravni FlixBus do Splita, ili sezonski let do Splita (SPU)."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "500 km, 5.5 sati preko A1 do Zagreba, zatim Hrvatske A1. Zahtijeva SI vinjetu i HR cestarine.",
+      "other": "FlixBus ili Nomago autobus do Splita, zatim lokalni autobus do Omiša."
+    },
+    {
+      "from": "Prag",
+      "car": "1.070 km, 11-12 sati preko Beča/Graza ili Linza/Graza, zatim Hrvatske A1. Zahtijeva CZ, AT i SI vinjete, plus HR cestarine.",
+      "other": "Let do Splita (SPU) putem Smartwingsa ili Croatia Airlinesa."
+    },
+    {
+      "from": "Krakov",
+      "car": "1.050 km, 11 sati preko Slovačke, Mađarske (M1/M7) i Hrvatske A1. Zahtijeva SK i HU vinjete, plus HR cestarine.",
+      "other": "Let do Splita (SPU) putem Ryanaira ili Wizz Aira."
+    }
+  ],
+  "whenToGo": "More doseže 25°C do 27°C u srpnju i kolovozu, privlačeći najveće gužve i najviše cijene smještaja, iako svi restorani, barovi na plaži i riječni izleti rade punim kapacitetom. Lipanj i rujan nude blaže temperature oko 23°C do 25°C za kupanje, značajno smanjen promet na obalnoj cesti D8 i niže cijene soba. Od studenog do travnja, grad se uglavnom zatvara za turizam; temperature mora padaju ispod 15°C, većina sezonskih restorana se zatvara, a česti udari bure čine obalu hladnom i tihom.",
+  "faq": [
+    {
+      "question": "Vrijedi li posjetiti?",
+      "answer": "Da, ako želite kombinaciju pješčanih plaža, povijesnih tvrđava i aktivnih riječnih izleta. Blizina kanjona rijeke Cetine moru čini krajolik različitim od tipičnih dalmatinskih gradova."
+    },
+    {
+      "question": "Koliko dana trebate?",
+      "answer": "Tri do pet dana pruža dovoljno vremena za istraživanje povijesnog centra, posjet tvrđavama i izlet raftingom. Mnogi posjetitelji ostaju tjedan dana ili duže, koristeći grad kao bazu za svakodnevno opuštanje na plaži."
+    },
+    {
+      "question": "Koja je najbolja plaža?",
+      "answer": "Velika plaža (poznata i kao Punta) je glavna gradska plaža, poznata po svom prostranom pijesku i plitkom ulazu. Za uzastopne pješčane dionice, susjedno selo Duće nudi nekoliko kilometara obale pogodne za obitelji."
+    },
+    {
+      "question": "Trebam li automobil?",
+      "answer": "Automobil nije potreban ako je vaš smještaj u centru Omiša ili Dućama, jer lokalni autobusi povezuju sa Splitom, a turistički operateri brinu o riječnom prijevozu. Vozilo se preporučuje za istraživanje šire Rivijere ili ako boravite u strmijim selima poput Stanića."
+    },
+    {
+      "question": "Gdje parkirati?",
+      "answer": "Glavno općinsko parkiralište radi duž obalne ceste Fošal, dok se veće neasfaltirano parkiralište nalazi preko rijeke u Priku. Tijekom srpnja i kolovoza, ova se parkirališta često popune prije 9:00 sati, što čini unaprijed dogovoreno parkiranje smještaja ključnim."
+    },
+    {
+      "question": "Je li pogodno za obitelji?",
+      "answer": "Da, vrlo je pogodno za obitelji zbog rijetkih pješčanih plaža s plitkim zonama za kupanje. Starija djeca često uživaju u gusarskoj povijesti tvrđava i raftingu za početnike na rijeci Cetini."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Ukratko",
+    "whereToStay": "Gdje odsjesti u Omišu",
+    "gettingThere": "Dolazak u Omiš",
+    "whenToGo": "Kada ići",
+    "guides": "Vodiči za Omiš",
+    "faq": "Česta pitanja o Omišu",
+    "groups": {
+      "gettingAround": "Parkiranje i kretanje",
+      "planning": "Planiranje i smještaj",
+      "timing": "Kada ići",
+      "travelers": "Obitelji, parovi i stilovi putovanja",
+      "activities": "Plaže i aktivnosti",
+      "food": "Hrana i piće",
+      "comparisons": "Usporedbe",
+      "practical": "Praktične informacije"
+    },
+    "car": "Automobilom",
+    "other": "Druge opcije",
+    "bestFor": "Najbolje za",
+    "parking": "Parkiranje",
+    "beach": "Plaža"
+  },
+  "destination": "omis",
+  "language": "hr",
+  "updatedAt": "2026-10-16T11:28:08.971Z"
+}

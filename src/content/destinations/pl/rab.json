@@ -1,0 +1,146 @@
+{
+  "title": "Rab Przewodnik turystyczny: Plaże, parking i noclegi",
+  "metaDescription": "Zaplanuj swoją podróż na Rab, Chorwacja. Porównaj obszary zakwaterowania, znajdź trasy samochodowe z Europy Środkowej i uzyskaj praktyczne informacje o parkingu i piaszczystych plażach.",
+  "intro": "Rab przyciąga podróżników szukających piaszczystych plaż, lasów sosnowych i zachowanego średniowiecznego starego miasta. W odróżnieniu od wielu chorwackich wysp, zdominowanych przez skaliste lub żwirowe wybrzeża, Rab posiada rozległe piaszczyste zatoki, zwłaszcza na półwyspie Lopar na północy, co czyni go bardzo praktycznym dla rodzin z małymi dziećmi. Południowo-zachodnie wybrzeże oferuje gęste lasy sosnowe i zaciszne zatoczki, odpowiednie dla par i aktywnych podróżników.\n\nGłówny sezon turystyczny trwa od czerwca do września. Lipiec i sierpień to najcieplejsze temperatury morza i pełne funkcjonowanie restauracji, ale wiążą się z zatłoczonymi drogami i szczytowymi czasami oczekiwania na promy z lądu. Maj i październik pasują podróżnikom skupionym na pieszych wędrówkach i rowerowych wycieczkach, choć temperatura morza pozostaje chłodna, a niektóre lokalne firmy działają w ograniczonym zakresie.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "Od czerwca do września"
+    },
+    {
+      "label": "Temperatura morza w sierpniu",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Rijeka (RJK), 60 km (z promem)"
+    },
+    {
+      "label": "Główny typ plaży",
+      "value": "Piasek na północy, skały/żwir gdzie indziej"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "Umiarkowany (podobnie jak Krk, taniej niż Hvar)"
+    },
+    {
+      "label": "Centrum starego miasta",
+      "value": "Tylko dla pieszych (bez samochodów)"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Miasto Rab",
+      "bestFor": "Historia, restauracje i wieczorna atmosfera",
+      "parking": "Płatne parkingi miejskie poza murami miasta",
+      "beach": "Plaża miejska jest mała/żwirowa; lepsze plaże wymagają dojazdu samochodem lub taksówką wodną",
+      "summary": "Historyczne i kulturalne centrum wyspy. Pobyt tutaj oznacza natychmiastowy dostęp do restauracji i zabytków, ale wymaga parkowania poza strefą dla pieszych."
+    },
+    {
+      "name": "Lopar",
+      "bestFor": "Rodziny z małymi dziećmi",
+      "parking": "Większość obiektów noclegowych ma bezpłatny parking na miejscu",
+      "beach": "Przy Rajskiej Plaży, piaszczystej plaży o długości 1,5 km",
+      "summary": "Położony na północy, obszar ten funkcjonuje jako kurort plażowy. Brakuje mu architektury historycznej, ale zapewnia najbardziej dostępne płytkie piaszczyste wybrzeża w Chorwacji."
+    },
+    {
+      "name": "Suha Punta",
+      "bestFor": "Pary, miłośnicy przyrody i osoby szukające cienia",
+      "parking": "Zazwyczaj dużo bezpłatnych miejsc parkingowych w hotelach i apartamentach",
+      "beach": "Skaliste i żwirowe zatoczki, wiele zacienionych przez sosny",
+      "summary": "Spokojny, zalesiony półwysep ze szlakami przyrodniczymi i czystą wodą. Dotarcie do głównych restauracji Miasta Rab wymaga samochodu lub roweru."
+    },
+    {
+      "name": "Banjol i Barbat",
+      "bestFor": "Widoki na morze i podróżujący z łodziami",
+      "parking": "Zazwyczaj wliczone w cenę w prywatnych apartamentach",
+      "beach": "Plaże żwirowe i małe odcinki piaszczyste",
+      "summary": "Te sąsiadujące osady przybrzeżne rozciągają się na południe od Miasta Rab. Łączą się z centrum promenadą nadmorską, oferując równowagę między dostępem do plaży a bliskością miasta."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monachium",
+      "car": "550 km, ~7,5 godziny przez Salzburg, Villach, Lublanę, Rijekę i prom Stinica. Wymaga winiet AT i SI, opłaty za tunel Karawanken, opłat HR.",
+      "other": "Pociąg lub FlixBus do Rijeki, następnie katamaran Jadrolinija do Miasta Rab."
+    },
+    {
+      "from": "Wiedeń",
+      "car": "530 km, ~6,5 godziny przez Graz, Maribor, Zagrzeb, A1 do Žuta Lokva i prom Stinica. Wymaga winiet AT i SI, opłat HR.",
+      "other": "Pociąg lub autobus do Zagrzebia, następnie bezpośredni autokar na Rab."
+    },
+    {
+      "from": "Budapeszt",
+      "car": "520 km, ~6 godzin przez M7 do Letenye, Zagrzeb, A1 do Žuta Lokva i prom Stinica. Wymaga e-winiety HU, opłat HR.",
+      "other": "FlixBus do Zagrzebia, przesiadka na autobus do Rab."
+    },
+    {
+      "from": "Lublana",
+      "car": "160 km, ~3 godziny przez Postojnę, Ilirską Bistricę, Rijekę i prom Stinica. Wymaga winiety SI, opłat HR.",
+      "other": "Autobus do Rijeki, następnie katamaran do Miasta Rab."
+    },
+    {
+      "from": "Praga",
+      "car": "850 km, ~10 godzin przez Brno, Wiedeń, Graz, Zagrzeb, A1 i prom Stinica. Wymaga winiet CZ, AT i SI, opłat HR.",
+      "other": "Pociąg lub autobus do Rijeki/Zagrzebia, następnie dalszy autobus/katamaran na Rab."
+    },
+    {
+      "from": "Kraków",
+      "car": "920 km, ~10,5 godziny przez Ostrawę, Brno, Wiedeń, Zagrzeb, A1 i prom Stinica. Wymaga winiet/opłat PL, CZ, AT i SI, opłat HR.",
+      "other": "Lot do Zadaru (ZAD), następnie autobus do Senj i prom, lub wynajęty samochód."
+    }
+  ],
+  "whenToGo": "Od czerwca do września to najbardziej pewne miesiące do pływania, z temperaturami morza osiągającymi szczyt między 25°C a 27°C w sierpniu. Lipiec i sierpień to najwyższe ceny, szczytowe tłumy na Rajskiej Plaży i potencjalne czasy oczekiwania na promy Stinica i Valbiska. Czerwiec i wrzesień oferują równowagę między ciepłą wodą, niższymi cenami zakwaterowania i w pełni działającymi restauracjami, bez śródsezonowego zatłoczenia. Od listopada do kwietnia wyspa jest cicha, wiele restauracji i hoteli nastawionych na turystów jest zamkniętych, a pogoda często jest zbyt zimna lub wietrzna na aktywności plażowe.",
+  "faq": [
+    {
+      "question": "Czy warto odwiedzić Rab?",
+      "answer": "Tak, przede wszystkim ze względu na jego wyróżniający się krajobraz piaszczystych plaż i gęstych lasów sosnowych. Oferuje dobrze zachowane średniowieczne miasto obok płytkich zatok, które są rzadkością na innych chorwackich wyspach."
+    },
+    {
+      "question": "Ile dni potrzeba na Rabie?",
+      "answer": "Cztery do siedmiu dni to idealnie. To zapewnia wystarczająco dużo czasu na zwiedzanie Miasta Rab, spędzenie kilku dni na różnych plażach w Loparze i Suha Punta oraz na lokalną wycieczkę łodzią."
+    },
+    {
+      "question": "Jaka jest najlepsza plaża na Rabie?",
+      "answer": "Rajska Plaża w Loparze jest najpopularniejsza ze względu na swoje 1,5 kilometra płytkiego piasku. Na spokojniejsze, zacienione miejsca, preferowane są skaliste i żwirowe zatoczki półwyspu Suha Punta."
+    },
+    {
+      "question": "Czy potrzebuję samochodu na Rabie?",
+      "answer": "Samochód jest wysoce zalecany do podróżowania między starym miastem, piaszczystymi plażami na północy i obszarami leśnymi. Chociaż po Mieście Rab można spacerować, poleganie wyłącznie na lokalnych autobusach ogranicza elastyczność."
+    },
+    {
+      "question": "Gdzie zaparkować w Mieście Rab?",
+      "answer": "Odwiedzający muszą korzystać z dużych, płatnych parkingów miejskich zlokalizowanych tuż poza murami miasta. Samo centrum historyczne to strefa wyłącznie dla pieszych z ograniczonym dostępem dla pojazdów."
+    },
+    {
+      "question": "Czy Rab jest dobry dla rodzin?",
+      "answer": "Tak, Rab to jedna z najbardziej przyjaznych rodzinom wysp w Chorwacji. Płytkie, piaszczyste plaże w Loparze pozwalają małym dzieciom bezpiecznie brodzić, a wyspa ogólnie nie ma stromych, klifowych dostępów, które można znaleźć gdzie indziej."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Gdzie się zatrzymać na Rabie",
+    "gettingThere": "Dojazd na Rab",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Rabie",
+    "faq": "Najczęściej zadawane pytania (FAQ)",
+    "groups": {
+      "gettingAround": "Parking i poruszanie się",
+      "planning": "Planowanie i gdzie się zatrzymać",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróżowania",
+      "activities": "Plaże i co robić",
+      "food": "Jedzenie i picie",
+      "comparisons": "Porównania",
+      "practical": "Praktyczne informacje"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "rab",
+  "language": "pl",
+  "updatedAt": "2026-10-16T12:58:56.259Z"
+}

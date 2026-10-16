@@ -1,0 +1,146 @@
+{
+  "title": "Guida di viaggio Korčula: spiagge, parcheggio e dove alloggiare",
+  "metaDescription": "Pianifica il tuo viaggio a Korčula, Croazia. Scopri le migliori zone dove alloggiare, percorsi stradali dall'Europa, informazioni sui traghetti, parcheggio e le migliori spiagge.",
+  "intro": "Korčula attrae i viaggiatori in cerca di architettura storica, vini locali distintivi e un'atmosfera più tranquilla rispetto alla vicina Hvar. L'isola è caratterizzata da fitte pinete, coste rocciose e una città principale fortificata situata su una piccola penisola. I visitatori trascorrono il loro tempo esplorando stretti vicoli in pietra, visitando cantine a conduzione familiare nell'entroterra e nuotando in calette di ghiaia o, più raramente, di sabbia.\n\nLa stagione principale va dalla tarda primavera all'inizio dell'autunno. La maggior parte dei visitatori che arrivano in auto giunge tramite il traghetto per auto da Orebić, raggiungibile attraversando il Ponte di Pelješac, o prendendo il traghetto più lungo da Split. L'isola è adatta sia per brevi soggiorni incentrati sulla città di Korčula, sia per vacanze più lunghe che richiedono un'auto per esplorare gli insediamenti occidentali come Vela Luka.",
+  "quickFacts": [
+    {
+      "label": "Mesi migliori",
+      "value": "Giugno a settembre"
+    },
+    {
+      "label": "Temperatura del mare ad agosto",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Aeroporto più vicino",
+      "value": "Dubrovnik (DBV), 130 km + 15 min di traghetto"
+    },
+    {
+      "label": "Tipo di spiaggia principale",
+      "value": "Ghiaia, lastre rocciose, sabbia rara (Lumbarda)"
+    },
+    {
+      "label": "Livello di prezzo",
+      "value": "Superiore alla media per la Croazia"
+    },
+    {
+      "label": "Pedonabilità",
+      "value": "Il centro storico è interamente pedonale"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Città di Korčula",
+      "bestFor": "Visitatori per la prima volta e appassionati di storia",
+      "parking": "Parcheggi a pagamento fuori dalle mura pedonali; tariffe giornaliere elevate",
+      "beach": "5 minuti a piedi da Banje (ghiaia) o punti rocciosi",
+      "summary": "Il centro storico e culturale dell'isola. Offre la più alta concentrazione di ristoranti, musei e partenze per tour in barca."
+    },
+    {
+      "name": "Lumbarda",
+      "bestFor": "Famiglie con bambini e amanti del vino",
+      "parking": "Generalmente parcheggio in strada gratuito o economico",
+      "beach": "Accesso diretto a Vela Pržina e Bilin Žal (sabbia)",
+      "summary": "Un villaggio rilassato situato a 6 chilometri dalla città di Korčula. È famoso per la produzione del vino Grk e le uniche spiagge naturali di sabbia dell'isola."
+    },
+    {
+      "name": "Vela Luka",
+      "bestFor": "Viaggiatori in cerca di un ambiente più tranquillo e autentico",
+      "parking": "Abbondante e per lo più gratuito intorno agli alloggi",
+      "beach": "Breve gita in barca all'isola di Proizd (ghiaia/roccia chiara)",
+      "summary": "La città più grande dell'isola, situata all'estremità occidentale. Serve come porto principale per i traghetti auto in arrivo direttamente da Split."
+    },
+    {
+      "name": "Žrnovo e villaggi dell'entroterra",
+      "bestFor": "Escursionisti, buongustai e chi cerca la tranquillità",
+      "parking": "Facile e gratuito nella maggior parte delle pensioni",
+      "beach": "10-15 minuti di auto per le calette di ghiaia della costa sud",
+      "summary": "Un gruppo di piccoli borghi tradizionali arretrati rispetto al mare. L'area è nota per l'agriturismo, i piatti tradizionali di maccheroni e i sentieri escursionistici boscosi."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monaco",
+      "car": "1.050 km, 12-13 ore via A8, AT (vignette/pedaggi), SI (vignetta), pedaggi HR A1, Ponte di Pelješac, traghetto Orebić",
+      "other": "Volo per Split (SPU) o Dubrovnik (DBV), poi catamarano"
+    },
+    {
+      "from": "Vienna",
+      "car": "850 km, 10-11 ore via AT A2 (vignetta), SI (vignetta), pedaggi HR A1, Ponte di Pelješac, traghetto Orebić",
+      "other": "Volo per Split (SPU) o Dubrovnik (DBV), poi catamarano"
+    },
+    {
+      "from": "Budapest",
+      "car": "850 km, 10-11 ore via HU M7 (vignetta), pedaggi HR A4/A1, Ponte di Pelješac, traghetto Orebić",
+      "other": "Volo per Zadar o Split, poi autobus e catamarano"
+    },
+    {
+      "from": "Lubiana",
+      "car": "600 km, 7-8 ore via SI A2 (vignetta), pedaggi HR A1, Ponte di Pelješac, traghetto Orebić",
+      "other": "Autobus per Split o Dubrovnik, seguito da un catamarano passeggeri"
+    },
+    {
+      "from": "Praga",
+      "car": "1.150 km, 13-14 ore via vignette CZ/AT/SI, pedaggi HR A1, Ponte di Pelješac, traghetto Orebić",
+      "other": "Volo per Split (SPU), poi traghetto auto per Vela Luka"
+    },
+    {
+      "from": "Cracovia",
+      "car": "1.200 km, 13-14 ore via vignette SK/HU, pedaggi HR A4/A1, Ponte di Pelješac, traghetto Orebić",
+      "other": "Volo per Split (SPU), poi catamarano o traghetto auto per Korčula"
+    }
+  ],
+  "whenToGo": "Giugno e settembre offrono temperature del mare intorno ai 23-25°C, clima mite e servizi completi senza la folla di punta. Luglio e agosto portano il massimo del caldo, acque a 26°C, i prezzi degli alloggi più alti e traghetti affollati. Ottobre e maggio vedono le acque raffreddarsi (19-21°C), orari dei traghetti ridotti e molti ristoranti stagionali che chiudono, rendendo questi mesi migliori per l'escursionismo e le visite turistiche storiche piuttosto che per il nuoto.",
+  "faq": [
+    {
+      "question": "Vale la pena visitare Korčula?",
+      "answer": "Sì, per la sua città medievale ben conservata, la sua distinta cultura del vino e le acque costiere limpide. Offre un'alternativa più tranquilla e storica all'atmosfera festaiola delle isole vicine."
+    },
+    {
+      "question": "Quanti giorni servono a Korčula?",
+      "answer": "Tre o quattro giorni sono ottimali per una visita. Questo offre tempo sufficiente per vedere la città di Korčula, visitare i vigneti di Lumbarda e raggiungere in auto alcune spiagge di ghiaia del sud."
+    },
+    {
+      "question": "Qual è la migliore spiaggia di Korčula?",
+      "answer": "Vela Pržina e Bilin Žal a Lumbarda sono le migliori spiagge sabbiose, il che le rende popolari per le famiglie. Pupnatska Luka sulla costa sud è ampiamente considerata la migliore spiaggia di ghiaia per la sua acqua limpida e lo sfondo boscoso."
+    },
+    {
+      "question": "Serve l'auto a Korčula?",
+      "answer": "L'auto non è necessaria se si prevede di soggiornare solo nella città di Korčula e fare tour in barca. Tuttavia, un veicolo è fortemente consigliato per esplorare le calette nascoste dell'isola, i vigneti dell'entroterra e le città occidentali."
+    },
+    {
+      "question": "Dove posso parcheggiare nella città di Korčula?",
+      "answer": "La città di Korčula dispone di parcheggi a pagamento fuori dalla zona pedonale, come il parcheggio del porto orientale o vicino al supermercato Tommy. Le città e i villaggi più piccoli dell'isola di solito offrono parcheggio in strada gratuito o più economico."
+    },
+    {
+      "question": "Korčula è adatta alle famiglie?",
+      "answer": "Sì, l'isola è molto sicura e offre diverse zone adatte alle famiglie. Lumbarda è particolarmente popolare per le famiglie grazie alle sue spiagge sabbiose poco profonde e all'ambiente rilassato e pedonale."
+    }
+  ],
+  "headings": {
+    "quickFacts": "In breve",
+    "whereToStay": "Dove alloggiare a Korčula",
+    "gettingThere": "Come arrivare a Korčula",
+    "whenToGo": "Quando andare",
+    "guides": "Guide di Korčula",
+    "faq": "FAQ su Korčula",
+    "groups": {
+      "gettingAround": "Parcheggio e spostamenti",
+      "planning": "Pianificazione e dove alloggiare",
+      "timing": "Quando andare",
+      "travelers": "Famiglie, coppie e stili di viaggio",
+      "activities": "Spiagge e cose da fare",
+      "food": "Cibo e bevande",
+      "comparisons": "Confronti",
+      "practical": "Info pratiche"
+    },
+    "car": "In auto",
+    "other": "Altre opzioni",
+    "bestFor": "Ideale per",
+    "parking": "Parcheggio",
+    "beach": "Spiaggia"
+  },
+  "destination": "korcula",
+  "language": "it",
+  "updatedAt": "2026-10-16T10:02:05.993Z"
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Stari Grad utazási útmutató: Strandok, parkolás és hol szálljon meg",
+  "metaDescription": "Tervezze meg utazását Stari Gradba, Hvar szigetére. Fedezze fel a legjobb strandokat, hol parkoljon, környékbeli útmutatókat és útvonalakat Közép-Európából.",
+  "intro": "Stari Grad vonzza azokat az utazókat, akik pihentető, történelmi bázist keresnek Hvar szigetén. Európa egyik legrégebbi városaként egy sétálóövezeti központtal rendelkezik, kőutcákkal, hagyományos éttermekkel és egy hosszú kikötővel, amelyet fenyőfás kavicsos strandok szegélyeznek. A hangulat lényegesen csendesebb, mint Hvar városában, így kiválóan alkalmas családoknak, pároknak és azoknak, akik a lassú utazásra vagy az UNESCO-listán szereplő Stari Grad-síkság felfedezésére összpontosítanak.\n\nA legjobb látogatási időszak májustól szeptemberig tart. Július és augusztus hozza a legmelegebb időjárást és az optimális úszási feltételeket, bár ezek a legforgalmasabb és legdrágább hónapok is. Június és szeptember kellemes hőmérsékletet kínál a 20-as évek elején-közepén, kevesebb tömeget és meleg tengervizet, miközben a legtöbb helyi vállalkozás nyitva marad.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Júniustól szeptemberig"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Split (SPU), 15 km a kikötőig + 2 óra komp"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Kavicsos és betonozott teraszok fenyőárnyékkal"
+    },
+    {
+      "label": "Árszint",
+      "value": "Kissé az átlagos horvát árszint felett, olcsóbb, mint Hvar város"
+    },
+    {
+      "label": "Sétálhatóság",
+      "value": "Az óváros teljesen sétálóövezet és autómentes"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Stari Grad óváros",
+      "bestFor": "Történelemkedvelőknek és első alkalommal érkezőknek",
+      "parking": "Belül tilos; használja a külső önkormányzati parkolókat",
+      "beach": "15-20 perc séta Bonj vagy Lanterna strandig",
+      "summary": "A város hangulatos, autómentes központja. Szűk macskaköves utcák, hagyományos konobák és ősi helyszínek, mint például a Tvrdalj vár található itt."
+    },
+    {
+      "name": "Priko (Északi öböl)",
+      "bestFor": "Családoknak és strandolóknek",
+      "parking": "Utcai parkolás és magánvilla helyek állnak rendelkezésre",
+      "beach": "Azonnali hozzáférés Bonj strandhoz és csendes öblökhöz",
+      "summary": "Egy lakóövezet az öböl északi oldalán. Könnyű sétálási hozzáférést biztosít az óvároshoz és a vízhez is."
+    },
+    {
+      "name": "Déli öböl és Borik",
+      "bestFor": "Csendes tartózkodáshoz a fenyők közelében",
+      "parking": "Általában a helyi apartmanok biztosítják",
+      "beach": "Lépésekre a Lanterna strandtól",
+      "summary": "Egy zöld, békés terület a kikötő déli szélén. A látogatók ide jönnek a sűrű fenyőerdő árnyéka és az Adriai-tenger feletti naplemente látványa miatt."
+    },
+    {
+      "name": "Rudina és Basina",
+      "bestFor": "Elzárkózásra és lassú utazásra",
+      "parking": "Bőséges ingyenes magánparkoló",
+      "beach": "Rövid séta érintetlen sziklás öblökhöz",
+      "summary": "Apró, rusztikus falucskák, melyek néhány kilométerre találhatók a várostól. Teljes nyugalmat biztosítanak olajfaligetek és hagyományos kőházak között."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "860 km, 10-11 óra Splitig az A8, A10 és A1 autópályákon keresztül. Osztrák és szlovén matricát, valamint horvát útdíjat igényel, majd egy 2 órás kompút.",
+      "other": "Repülőút Splitbe (SPU), majd busz vagy taxi a kikötőbe és komp."
+    },
+    {
+      "from": "Bécs",
+      "car": "760 km, 8-9 óra Splitig az A2, A9 és horvát A1 autópályákon keresztül. Osztrák és szlovén matricát, valamint horvát útdíjat igényel, majd egy 2 órás kompút.",
+      "other": "Közvetlen repülőjárat vagy Flixbus Splitbe, majd komp."
+    },
+    {
+      "from": "Budapest",
+      "car": "750 km, 7-8 óra Splitig az M7 és horvát A4/A1 autópályákon keresztül. Magyar e-matricát és horvát útdíjat igényel, majd egy 2 órás kompút.",
+      "other": "Közvetlen hálókocsis vonat vagy repülőjárat Splitbe, majd komp."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "470 km, 5-6 óra Splitig az A1/A2 és horvát A1 autópályákon keresztül. Szlovén matricát és horvát útdíjat igényel, majd egy 2 órás kompút.",
+      "other": "Busz vagy vonat Splitbe, majd autós komp."
+    },
+    {
+      "from": "Prága",
+      "car": "1050 km, 11-13 óra Splitig Bécsen vagy Linzen keresztül. Osztrák, szlovén és cseh matricát, horvát útdíjat igényel, majd egy 2 órás kompút.",
+      "other": "Közvetlen nyári repülőjárat Splitbe (SPU), majd komp."
+    },
+    {
+      "from": "Krakkó",
+      "car": "1050 km, 11-13 óra Splitig Szlovákián és Magyarországon keresztül. Szlovák és magyar matricát, horvát útdíjat igényel, majd egy 2 órás kompút.",
+      "other": "Repülőút (LOT vagy Ryanair) Splitbe, majd komp."
+    }
+  ],
+  "whenToGo": "Május a turistaszezon kezdetét jelzi, enyhe időjárással és alacsonyabb árakkal, bár a tenger gyakran túl hideg az úszáshoz. Június melegebb tengervizet hoz, amely eléri a 22°C-ot, kezelhető tömegeket, és teljesen működő éttermeket és kompjáratokat. Július és augusztus a csúcs hónapok; számítson 25°C és 27°C körüli tengervíz hőmérsékletre, a legmagasabb szállásárakra és zsúfolt strandokra. Szeptember egy erős átmeneti hónap, meleg tengerrel és nyitva tartó létesítményekkel, de érezhetően kevesebb tömeggel és csökkentett árakkal. Októbertől áprilisig Stari Grad a holtszezonba lép; a legtöbb szálloda és étterem bezár, a tenger hőmérséklete 18°C alá csökken, és a város visszatér a csendes, helyi ritmushoz.",
+  "faq": [
+    {
+      "question": "Érdemes-e meglátogatni Stari Gradot?",
+      "answer": "Stari Gradot érdemes meglátogatni 2400 éves történelme és nyugodt tempója miatt. Hiteles, csendes alternatívát kínál Hvar város nyüzsgő partijelenetéhez képest."
+    },
+    {
+      "question": "Hány napot érdemes maradni?",
+      "answer": "Hagyjon két-három napot a város felfedezésére és a helyi strandokon való pihenésre. Ha bázisként használja Hvar sziget többi részének felfedezésére, akkor öt-hét napos tartózkodás ideális."
+    },
+    {
+      "question": "Melyik a legjobb strand Stari Gradban?",
+      "answer": "A Lanterna strandot nagyon kedvelik természetes fenyőárnyéka és kavicsos partjai miatt. Bonj a legkönnyebben megközelíthető a központból, míg számos sziklás öböl rövid sétával elérhető."
+    },
+    {
+      "question": "Szükséges autó Stari Gradban?",
+      "answer": "Nem szükséges autóval maradni Stari Gradban, mivel a városközpont és a közeli strandok gyalogosan is elérhetők. Azonban autó vagy robogó bérlése ajánlott, ha a sziget déli strandjait vagy rejtett falvait tervezi meglátogatni."
+    },
+    {
+      "question": "Hol parkoljak?",
+      "answer": "Az óváros szigorú sétálóövezet, így a látogatóknak a kijelölt önkormányzati parkolókban kell parkolniuk a város szélén. A fő nyilvános parkolók a város bejáratainál és a komp kikötőnél találhatók, és nyáron napi díjat igényelnek."
+    },
+    {
+      "question": "Jó Stari Grad családoknak?",
+      "answer": "Igen, kiváló úti cél családok számára. A sík vízparti sétány, a nyugodt öbölvizek és a bőséges természetes strandárnyék biztonságossá és kényelmessé teszik a gyermekek számára."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Gyors tények",
+    "whereToStay": "Hol szálljon meg Stari Gradban",
+    "gettingThere": "Hogyan juthat el Stari Gradba",
+    "whenToGo": "Mikor utazzon",
+    "guides": "Stari Grad útmutatók",
+    "faq": "Stari Grad GYIK",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és hol szálljon meg",
+      "timing": "Mikor utazzon",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és látnivalók",
+      "food": "Étel és ital",
+      "comparisons": "Összehasonlítások",
+      "practical": "Praktikus információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "stari-grad",
+  "language": "hu",
+  "updatedAt": "2026-10-16T14:46:42.643Z"
+}

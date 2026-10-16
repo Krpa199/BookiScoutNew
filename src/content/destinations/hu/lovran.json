@@ -1,0 +1,146 @@
+{
+  "title": "Lovran Utazási Útmutató: Strandok, Parkolás és Hol szálljon meg",
+  "metaDescription": "Tervezze meg Lovran-i útját gyakorlati útmutatónkkal. Fedezze fel a legjobb szálláshelyeket, vezetési útvonalakat, parkolási tippeket és helyi strandajánlókat.",
+  "intro": "Lovran egy nyugodt tengerparti város az Isztriai-félsziget keleti partján, közvetlenül az Opatijai Riviérán fekszik, ahol az Učka-hegy lejtői találkoznak az Adriai-tengerrel. Ideális azoknak az utazóknak, akik csendesebb, történelmibb alternatívát keresnek a szomszédos Opatijával szemben. A látogatók a jól megőrzött középkori óváros, a nagyszabású osztrák-magyar villák és a híres, 12 kilométer hosszú Lungomare tengerparti sétány miatt érkeznek, amely összeköti a tengerparti falvakat.\n\nA legjobb időszak a látogatásra május végétől szeptemberig tart. A nyár hozza a legjobb strandolós időjárást és úszásra tökéletes tengeri hőmérsékletet, míg a júniusi és szeptemberi átmeneti időszak kényelmes túrázási feltételeket és alacsonyabb szállásárakat kínál. A város különösen vonzza az európai autóval érkezőket, akik értékelik közelségét, gyalogos megközelíthetőségét és laza mediterrán tempóját.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Júniustól szeptemberig"
+    },
+    {
+      "label": "Augusztusi tengerhőmérséklet",
+      "value": "25°C és 27°C között"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Rijeka repülőtér (RJK), 50 km"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Betonozott teraszok és apró kavicsok"
+    },
+    {
+      "label": "Árszint",
+      "value": "Átlagos vagy kissé a horvát átlag felett"
+    },
+    {
+      "label": "Óváros gyalogos megközelíthetősége",
+      "value": "Autómentes és kizárólag gyalogos"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Óváros (Stari Grad)",
+      "bestFor": "Pároknak és hangulatra vágyó történelemrajongóknak",
+      "parking": "Nyilvános fizetős parkolók a falakon kívül",
+      "beach": "10 perces séta a Cipera vagy Kvarner strandokig",
+      "summary": "A történelmi mag keskeny, macskaköves utcákkal, ősi kőházakkal és középkori építészettel rendelkezik. Jól bejárható gyalog, és tele van kis helyi kávézókkal, bár a legtöbb szálláshelyre nem lehet közvetlenül autóval behajtani."
+    },
+    {
+      "name": "Peharovo",
+      "bestFor": "Családoknak és strandolni vágyóknak",
+      "parking": "Utcai parkolás és magánvilla parkolók",
+      "beach": "Közvetlen hozzáférés a Peharovo strandhoz (kavicsos)",
+      "summary": "A városközponttól délre található ez a környék, amely a riviéra egyik legnépszerűbb családi strandját öleli körül. Csendesebb, lakóövezeti hangulatot kínál, sok önellátó apartmannal."
+    },
+    {
+      "name": "Ika",
+      "bestFor": "Sétálóknak és azoknak, akik csendes bázist keresnek Opatija közelében",
+      "parking": "Általában könnyebb, mint Lovran központjában; többnyire magánparkolók",
+      "beach": "Kis helyi kavicsos öblök a Lungomare mentén",
+      "summary": "Egy békés szomszédos falu északra, Ika közvetlenül a Lungomare sétányon fekszik. Ez egy pihentető hely, amely festői, sík sétát kínál Lovran központjába."
+    },
+    {
+      "name": "Liganj és Lovranska Draga",
+      "bestFor": "Természetkedvelőknek és autós túrázóknak",
+      "parking": "Bőséges ingyenes parkolás a panzióknál",
+      "beach": "10-15 perces autóút lefelé a hegyről",
+      "summary": "Ezek a vidéki falvak magasan fekszenek az Učka-hegy lejtőin Lovran mögött. Lélegzetelállító kilátást nyújtanak a Kvarner-öbölre, azonnali hozzáférést biztosítanak a túraútvonalakhoz, és hűvösebb klímával rendelkeznek."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Münchenből",
+      "car": "520 km, ~6 óra az A8, A10 és Szlovénia (A2/A1) útvonalon keresztül. Osztrák és szlovén autópálya matrica szükséges, plusz Karawanken-alagút és horvát útdíjak.",
+      "other": "FlixBus Opatijába, vagy szezonális járatok Rijeka (RJK) repülőtérre"
+    },
+    {
+      "from": "Bécsből",
+      "car": "510 km, ~5.5 óra az A2-n Grazig, majd Maribor és Ljubljana (Szlovénia) érintésével. Osztrák és szlovén autópálya matrica, plusz horvát útdíjak érvényesek.",
+      "other": "Vonat Rijekába (gyakran Grazon keresztül) vagy távolsági busz Opatijába"
+    },
+    {
+      "from": "Budapestről",
+      "car": "515 km, ~5 óra az M7-en a horvát határig, majd A4 Zágrábba és A6 Rijekába. Magyar autópálya matrica és horvát útdíjak szükségesek.",
+      "other": "FlixBus közvetlenül Rijekába, vagy szezonális vonat Rijekába"
+    },
+    {
+      "from": "Ljubljanából",
+      "car": "120 km, ~1.5-2 óra az A1-en Postojnába, majd 6-os úton Ilirska Bistricába és a Rupa határátkelőhöz. Szlovén autópálya matrica szükséges.",
+      "other": "Közvetlen busz Rijekába, majd 32-es helyi busz Lovranba"
+    },
+    {
+      "from": "Prágából",
+      "car": "840 km, ~9 óra Brnón, Bécsen és Grazon keresztül. Cseh, osztrák és szlovén autópálya matrica szükséges.",
+      "other": "Szezonális járatok Zadarba vagy Zágrábba, vagy RegioJet vonat Rijekába"
+    },
+    {
+      "from": "Krakkóból",
+      "car": "910 km, ~10 óra Ostraván, Brnón, Bécsen és Grazon keresztül. Cseh, osztrák és szlovén autópálya matrica szükséges.",
+      "other": "Járatok Bécsbe vagy Zágrábba, majd tovább buszcsatlakozással"
+    }
+  ],
+  "whenToGo": "A tengerhőmérséklet augusztusban éri el csúcsát (átlagosan 25°C és 27°C között), amikor a város a legforgalmasabb az európai autóval érkezőkkel, és a szállásárak a legmagasabbak. Július hasonlóan meleg és nyüzsgő. Június és szeptember a legjobb hónapok a látogatásra, enyhébb időjárást, alacsonyabb árakat és kényelmes körülményeket kínálva az Učka-hegy túrázásához vagy a Lungomare sétányon való sétához. Május csendes és friss, de a tenger (kb. 18°C) általában túl hideg az úszáshoz. A legtöbb étterem húsvéttól októberig nyitva tart, míg télen (novembertől márciusig) a város jelentősen elcsendesedik, és sok szezonális üzlet bezár.",
+  "faq": [
+    {
+      "question": "Érdemes Lovrant meglátogatni?",
+      "answer": "Igen, csendesebb, nyugodtabb alternatívát kínál a forgalmas Opatijával szemben, bájos középkori óvárossal és gyönyörű Lungomare sétányával. Ideális egy békés tengerparti pihenésre, nagyobb üdülővárosok zsúfoltsága nélkül."
+    },
+    {
+      "question": "Hány napra van szükségem Lovranban?",
+      "answer": "Három-öt nap ideális. Ez elegendő időt biztosít a történelmi központ felfedezésére, a strandokon való pihenésre, és egynapos kirándulásokra az Učka-hegyre vagy a közeli isztriai városokba."
+    },
+    {
+      "question": "Melyik a legjobb strand Lovranban?",
+      "answer": "A Peharovo strand a legnépszerűbb, apró kavicsok és homokos tengerfenék keverékét kínálva, ami kiváló családok számára. A Kvarner strand is jó választás a központ közelében lévő betonozott teraszok miatt."
+    },
+    {
+      "question": "Szükségem van autóra Lovranban?",
+      "answer": "Nincs szükség autóra, ha a városban tervez maradni, mivel a központ, a strandok és a sétány teljesen gyalogosan bejárható. A helyi buszok könnyedén összekötik Lovrant Rijekával és Opatijával."
+    },
+    {
+      "question": "Hol tudok parkolni Lovranban?",
+      "answer": "Kijelölt nyilvános fizetős parkolók vannak az óváros peremén és a kikötő közelében. Főszezonban nehéz lehet helyet találni, ezért erősen ajánlott ellenőrizni, hogy a szállása tartalmaz-e parkolót."
+    },
+    {
+      "question": "Lovran jó választás családoknak?",
+      "answer": "Igen, a nyugodt vizek, a biztonságos gyalogos területek és a családbarát szolgáltatások az olyan strandokon, mint a Peharovo, kényelmes úti céllá teszik. A Lungomare sétány is sík és babakocsival is járható."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Röviden",
+    "whereToStay": "Hol szálljon meg Lovranban",
+    "gettingThere": "Utazás Lovranba",
+    "whenToGo": "Mikor utazzon",
+    "guides": "Lovran útmutatók",
+    "faq": "Gyakran ismételt kérdések Lovranról",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor utazzon",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Ételek és italok",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Kinek ajánljuk",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "lovran",
+  "language": "hu",
+  "updatedAt": "2026-10-16T12:53:25.288Z"
+}

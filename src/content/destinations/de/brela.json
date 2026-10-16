@@ -1,0 +1,146 @@
+{
+  "title": "Brela Reiseführer: Strände, Parken & Unterkünfte",
+  "metaDescription": "Planen Sie eine Reise nach Brela an der Makarska Riviera. Entdecken Sie die besten Strände, Stadtteile, Parkregeln, Fahrtrouten und die beste Reisezeit.",
+  "intro": "Brela ist eine Küstenstadt an der Makarska Riviera, geprägt von dichten Pinienwäldern, die sich direkt bis zu weißen Kieselstränden erstrecken. Am Fuße des Biokovo-Gebirges gelegen, zieht es Besucher an, die klares Wasser, natürlichen Schatten und eine ruhige Urlaubsatmosphäre suchen, anstatt städtisches Nachtleben. Die Siedlung ist auf steilem Gelände gebaut, was bedeutet, dass der Zugang zur sechs Kilometer langen Fußgängerpromenade am Meer meist über hügelige Straßen führt.\n\nDie Hochsaison für Besucher dauert von Juli bis August und zieht Familien und Paare an, die garantiertes Badewetter und voll funktionsfähige Annehmlichkeiten wünschen. Spät Juni und September bieten jedoch ein angenehmeres Erlebnis. In diesen Monaten bleibt das Meer warm genug zum Schwimmen, aber es gibt deutlich weniger Menschenmassen am berühmten Punta Rata Strand und weniger Verkehr auf den lokalen Straßen.",
+  "quickFacts": [
+    {
+      "label": "Beste Monate",
+      "value": "Juni bis September"
+    },
+    {
+      "label": "Meerestemperatur im August",
+      "value": "24°C bis 28°C"
+    },
+    {
+      "label": "Nächstgelegener Flughafen",
+      "value": "Split (SPU), 68 km"
+    },
+    {
+      "label": "Hauptstrandtyp",
+      "value": "Weiße Kiesel mit Pinien-Schatten"
+    },
+    {
+      "label": "Preisniveau",
+      "value": "Premium (über kroatischem Durchschnitt)"
+    },
+    {
+      "label": "Begehbarkeit",
+      "value": "Begehbare Promenade, steile Straßen"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Soline (Zentrum)",
+      "bestFor": "Erstbesucher und diejenigen, die Annehmlichkeiten in der Nähe wünschen",
+      "parking": "Extrem begrenzt, öffentliche Parkplätze kosten 4 €/Stunde",
+      "beach": "Direkter Zugang zum Soline Strand",
+      "summary": "Soline ist das Hauptzentrum von Brela mit der größten Konzentration an Hotels, Restaurants und Cafés. Es bietet den einfachsten Zugang zur Strandpromenade, ist aber der belebteste Teil der Stadt."
+    },
+    {
+      "name": "Podrače",
+      "bestFor": "Strandliebhaber und Paare",
+      "parking": "Steile, enge Straßen; privater Parkplatz ist unerlässlich",
+      "beach": "Nur wenige Schritte von den Stränden Podrače und Punta Rata entfernt",
+      "summary": "Dieses malerische Viertel liegt nordwestlich des Zentrums und bietet direkten Zugang zu Brela's meistfotografierten Buchten. Das Gelände ist steil, was für die meisten Unterkünfte einen Aufstieg erforderlich macht."
+    },
+    {
+      "name": "Stomarica",
+      "bestFor": "Familien und Besucher, die eine ruhigere Umgebung suchen",
+      "parking": "Meist private Stellplätze von Unterkünften",
+      "beach": "Direkter Zugang zum Stomarica Strand",
+      "summary": "Eine ruhige Bucht weiter entlang der Küste, die wesentliche Annehmlichkeiten wie Strandbars und Restaurants bietet. Sie ist weit genug vom Zentrum entfernt, um große Menschenmassen zu vermeiden, bleibt aber über die Promenade leicht erreichbar."
+    },
+    {
+      "name": "Jakiruša",
+      "bestFor": "Naturliebhaber und Ruhesuchende",
+      "parking": "Privatparkplatz meist im Aufenthalt inbegriffen",
+      "beach": "Jakiruša Strand (Kiesel- und Felsabschnitte)",
+      "summary": "Der nordwestliche Rand von Brela bietet die abgelegenste Umgebung. Die Strände hier sind ruhiger, mit dichtem Pinien-Schatten, aber die Gegend erfordert einen längeren Spaziergang, um die Hauptstadt zu erreichen."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "850 km, 9-10 Stunden über A8, A10 und A1. Erfordert österreichische und slowenische Vignetten sowie österreichische Tunnel- und kroatische Autobahngebühren.",
+      "other": "Flug nach Split (SPU), dann eine 1-stündige Busfahrt oder privater Transfer."
+    },
+    {
+      "from": "Wien",
+      "car": "750 km, 7,5-8,5 Stunden über A2 und kroatische A1. Erfordert österreichische und slowenische Vignetten sowie kroatische Autobahngebühren.",
+      "other": "Direktflug nach Split (SPU) oder Nachtzug nach Split, gefolgt von einem Bus."
+    },
+    {
+      "from": "Budapest",
+      "car": "770 km, 7,5-8,5 Stunden über M7 und kroatische A4/A1. Erfordert ungarische E-Vignette und kroatische Autobahngebühren.",
+      "other": "Direktflug nach Split (SPU) oder direkter FlixBus zur Makarska Riviera."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "470 km, 5-6 Stunden über A2 und kroatische A1. Erfordert slowenische Vignette und kroatische Autobahngebühren.",
+      "other": "Direktbus nach Split oder Makarska, mit Halt in oder nahe Brela."
+    },
+    {
+      "from": "Prag",
+      "car": "1.070 km, 11-12 Stunden über Wien und Graz. Erfordert tschechische, österreichische und slowenische Vignetten sowie kroatische Mautgebühren.",
+      "other": "Flug nach Split (SPU), dann ein lokaler Bus oder privater Transfer nach Brela."
+    },
+    {
+      "from": "Krakau",
+      "car": "1.100 km, 11-12 Stunden über die Slowakei und Ungarn (M7). Erfordert slowakische und ungarische Vignetten sowie kroatische Mautgebühren.",
+      "other": "Flug nach Split (SPU) von Krakau oder Katowice, dann ein weiterer Transfer."
+    }
+  ],
+  "whenToGo": "Von Ende Juni bis Anfang September bietet sich das stabilste Wetter, mit Meerestemperaturen, die im August durchschnittlich 24°C bis 28°C betragen. Juli und August sind die touristischen Hochsaisonmonate, die höchste Preise, voll geöffnete Annehmlichkeiten und dichte Menschenmassen an den engen Stränden und Küstenstraßen mit sich bringen. Mai und Oktober bieten günstigere Preise und ruhige Straßen, aber das Meer ist oft zu kalt zum Schwimmen (ca. 18°C bis 21°C) und viele lokale Restaurants schließen für die Saison. September bietet die beste Balance: warmes Wasser, weniger Besucher und moderate Unterkunftspreise.",
+  "faq": [
+    {
+      "question": "Ist Brela einen Besuch wert?",
+      "answer": "Ja, es bietet einige der klarsten Gewässer und malerischsten Pinien-gesäumten Kieselstrände Kroatiens. Es ist ideal für Besucher, die einen entspannten Küstenurlaub statt historischer Stadtbesichtigungen suchen."
+    },
+    {
+      "question": "Wie viele Tage sollte ich in Brela verbringen?",
+      "answer": "Ein Aufenthalt von 4 bis 7 Tagen ist für die meisten Besucher ideal. Dies bietet genügend Zeit, die verschiedenen Buchten entlang der Promenade zu genießen und einen Tagesausflug zum Berg Biokovo oder in nahegelegene Städte wie Omiš zu unternehmen."
+    },
+    {
+      "question": "Was ist der beste Strand in Brela?",
+      "answer": "Punta Rata ist der bekannteste Strand, berühmt für seinen ikonischen Felsen und dichten Pinien-Schatten. Die nahegelegenen Strände Podrače und Stomarica bieten jedoch gleichermaßen klares Wasser mit etwas weniger Menschenmassen."
+    },
+    {
+      "question": "Brauche ich ein Auto in Brela?",
+      "answer": "Sie benötigen kein Auto, wenn Sie in der Nähe des Meeres wohnen, da die Hauptstrände und Restaurants durch eine Fußgängerpromenade verbunden sind. Ein Auto ist nur notwendig, wenn Sie die weitere dalmatinische Küste erkunden möchten, und das Fahren auf den örtlichen steilen Straßen kann eine Herausforderung sein."
+    },
+    {
+      "question": "Wo kann man in Brela am besten parken?",
+      "answer": "Es wird dringend empfohlen, eine Unterkunft mit garantiertem Privatparkplatz zu buchen. Öffentliche Parkplätze sind sehr begrenzt und teuer, sie kosten in zentralen Bereichen wie Soline etwa 4 € pro Stunde."
+    },
+    {
+      "question": "Ist Brela gut für Familien?",
+      "answer": "Ja, die lange, autofreie Promenade, der natürliche Schatten der Pinien und das ruhige Wasser machen es sehr familienfreundlich. Allerdings können die steilen Straßen zu einigen Unterkünften eine Herausforderung sein, wenn man Kinderwagen schiebt."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Auf einen Blick",
+    "whereToStay": "Wo übernachten in Brela",
+    "gettingThere": "Anreise nach Brela",
+    "whenToGo": "Beste Reisezeit",
+    "guides": "Brela-Führer",
+    "faq": "Brela FAQ",
+    "groups": {
+      "gettingAround": "Parken & Fortbewegung",
+      "planning": "Planung & Unterkünfte",
+      "timing": "Wann reisen",
+      "travelers": "Familien, Paare & Reisestile",
+      "activities": "Strände & Aktivitäten",
+      "food": "Essen & Trinken",
+      "comparisons": "Vergleiche",
+      "practical": "Praktische Infos"
+    },
+    "car": "Mit dem Auto",
+    "other": "Weitere Optionen",
+    "bestFor": "Ideal für",
+    "parking": "Parken",
+    "beach": "Strand"
+  },
+  "destination": "brela",
+  "language": "de",
+  "updatedAt": "2026-10-16T10:21:40.026Z"
+}

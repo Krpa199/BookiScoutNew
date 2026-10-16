@@ -1,0 +1,146 @@
+{
+  "title": "Pula Potovalni Vodnik: Plaže, Parkiranje & Kje Bivati",
+  "metaDescription": "Načrtujte potovanje v Pulo, Hrvaška. Spoznajte najboljša območja za bivanje, poti iz Evrope, možnosti parkiranja, plaže in najboljši čas za obisk.",
+  "intro": "Pula služi kot glavno vstopno mesto na istrski polotok, privablja ljubitelje zgodovine in poletne dopustnike. Mesto je znano po dobro ohranjenem rimskem amfiteatru in obali, ki jo zaznamujejo skalnate obale in prodnati zalivi. Obiskovalci, ki iščejo kombinacijo arheoloških najdišč in dostopnih obalnih letovišč, bodo ugotovili, da je območje primerno za kratek postanek ali kot izhodišče za širše raziskovanje regije.\n\nNajugodnejši pogoji so od konca maja do septembra, ko trajekti pogosto vozijo in vsi turistični objekti ostajajo odprti. Poletje prinaša visoke temperature in veliko gnečo, zlasti vzdolž polotoka Verudela. Obiskovalci, ki imajo prednost nižje cene namestitev in zmerno vreme, naj ciljajo na junij ali september, izogibajoč se največji gneči julija in avgusta.",
+  "quickFacts": [
+    {
+      "label": "Najboljši meseci",
+      "value": "Junij in september"
+    },
+    {
+      "label": "Temperatura morja avgusta",
+      "value": "25°C do 27°C"
+    },
+    {
+      "label": "Najbližje letališče",
+      "value": "Letališče Pula (PUY), 8 km od centra"
+    },
+    {
+      "label": "Glavni tipi plaž",
+      "value": "Prod, skalnate in betonske plošče"
+    },
+    {
+      "label": "Cenovni nivo",
+      "value": "Povprečno za Istro, nekoliko pod Dubrovnikom"
+    },
+    {
+      "label": "Sprehajanje po Starem mestnem jedru",
+      "value": "Pešcona, omejeno za avtomobile"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Center Pule / Staro mestno jedro",
+      "bestFor": "Za zgodovinsko usmerjena potovanja, kulinariko in prometne povezave",
+      "parking": "Težko; zahteva velika plačljiva parkirišča izven pešcone",
+      "beach": "2 do 3 km stran (potrebna vožnja z avtobusom)",
+      "summary": "Zgodovinsko jedro je osredotočeno okoli rimskega amfiteatra in foruma. Nima neposrednega dostopa do plaže, vendar ponuja največjo koncentracijo restavracij, barov in muzejev."
+    },
+    {
+      "name": "Polotok Verudela",
+      "bestFor": "Za družine in letoviške počitnice",
+      "parking": "Veliko pri hotelih in določenih letoviških parkiriščih",
+      "beach": "Neposreden dostop do prodnatih zalivov (Hawaii Beach, Ambrela)",
+      "summary": "Nahaja se 5 km južno od centra, to območje sestavljajo predvsem veliki letoviški kompleksi in apartmaji. Ponuja nekaj najbolj dostopnih prodnatih plaž v Puli in lokalni akvarij."
+    },
+    {
+      "name": "Polotok Stoja",
+      "bestFor": "Za kampiste in rekreacijo na prostem",
+      "parking": "Enostavno ulično parkiranje in velika kampa",
+      "beach": "Neposreden dostop do skalnatih obal in prodnate plaže Valkane",
+      "summary": "Stoja leži zahodno od mestnega centra in gosti velik kamp, nakupovalni center ter skalnate obalne poti. Območje je tišje od Verudele in privablja obiskovalce, ki imajo raje samopostrežbo ali kampiranje."
+    },
+    {
+      "name": "Pješčana Uvala",
+      "bestFor": "Za pare in družine, ki si želijo mirnejšega vaškega vzdušja",
+      "parking": "Omejeno javno parkiranje; najbolje zagotoviti preko namestitve",
+      "beach": "Kratek sprehod do zaščitenega zaliva mešanice prod/pesek",
+      "summary": "Stanovanjsko naselje, ki se nahaja južno od Pule, zgrajeno okoli zaščitenega zaliva. Ponuja bolj sproščeno alternativo velikim letoviščem, z visokokakovostno lokalno plažo in več restavracijami ob morju."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "590 km, 6,5 ure preko A10 in A1. Zahteva AT in SI vinjete, plus predor Karavanke in HR cestnine",
+      "other": "Direktni let z Lufthanso ali sezonski Flixbus"
+    },
+    {
+      "from": "Dunaj",
+      "car": "580 km, 6 ur preko A2 in A1. Zahteva AT in SI vinjete, plus HR cestnine",
+      "other": "Direktni sezonski let z Ryanairom ali Austrian Airlines"
+    },
+    {
+      "from": "Budimpešta",
+      "car": "610 km, 6,5 ure preko M7 in HR A4/A6. Zahteva HU e-vinjeto in HR cestnine",
+      "other": "Direktni avtobus preko Flixbusa"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "200 km, 2,5 ure preko A1. Zahteva SI vinjeto in HR cestnine",
+      "other": "Direktni dnevni avtobus preko Nomaga ali Flixbusa"
+    },
+    {
+      "from": "Praga",
+      "car": "880 km, 10 ur preko CZ D1, AT A9, SI A1. Zahteva CZ, AT, SI vinjete, plus predor in HR cestnine",
+      "other": "Sezonski direktni let ali vlak do Reke, nato avtobus"
+    },
+    {
+      "from": "Krakov",
+      "car": "1050 km, 11 ur preko PL A4, CZ D1, AT A1/A2, SI A1. Zahteva CZ, AT, SI vinjete, plus PL in HR cestnine",
+      "other": "Sezonski leti preko LOT/Ryanair ali večkratni avtobusni prevozi"
+    }
+  ],
+  "whenToGo": "Junij in september ponujata najboljše ravnotežje med toplimi temperaturami morja (okoli 23°C), zmernimi cenami in manjšo gnečo. Julija in avgusta se temperature morja gibljejo med 25°C in 27°C, kar sovpada z najvišjimi cenami namestitev, gostim prometom in popolnoma delujočimi trajektnimi voznimi redi. Maj in oktober ponujata hladnejše vode, okoli 18°C do 20°C, zaradi česar je plavanje manj zanesljivo, čeprav glavna arheološka najdišča ostajajo odprta brez poletne vročine. V zimskih mesecih od novembra do aprila temperature znatno padejo, kar prinaša znatne znižanja cen, vendar povzroči, da številna obalna podjetja, hoteli in sezonske letalske linije popolnoma prenehajo z delovanjem.",
+  "faq": [
+    {
+      "question": "Je Pula vredna obiska?",
+      "answer": "Da, zlasti zaradi dobro ohranjene rimske arhitekture in dostopnih obalnih letovišč. Dobro deluje kot samostojna destinacija ali kot izhodišče za raziskovanje istrskega polotoka."
+    },
+    {
+      "question": "Koliko dni potrebujem v Puli?",
+      "answer": "Dva do tri dni zadostujejo za ogled mesta. To omogoča en dan za ogled amfiteatra in Starega mestnega jedra ter še en dan ali dva za plaže ali izlet z ladjo na Brione."
+    },
+    {
+      "question": "Katera je najboljša plaža v Puli?",
+      "answer": "Hawaii Beach na polotoku Verudela velja za najboljšo možnost. Ponaša se z nagnjeno prodnato obalo, čisto vodo in je obdana z visokimi skalnatimi klifi."
+    },
+    {
+      "question": "Ali potrebujem avto v Puli?",
+      "answer": "Avto ni nujen, če bivate v Starem mestnem jedru ali na polotoku Verudela, saj so ta območja zanesljivo povezana z lokalnimi avtobusi. Vendar pa je vozilo zelo priporočljivo za obisk hribovskih vasi in oddaljenih plaž v širši istrski regiji."
+    },
+    {
+      "question": "Kje naj parkiram v Puli?",
+      "answer": "Parkirišči Karolina in Mandrač sta najbolj praktični možnosti za obisk centra. Obe sta veliki, plačljivi, odprti parkirišči, ki se nahajata tik izven pešcone Starega mestnega jedra, kar zmanjšuje vožnjo po ozkih enosmernih ulicah."
+    },
+    {
+      "question": "Je Pula primerna za družine?",
+      "answer": "Da, območje ponuja odlično infrastrukturo za potovanje z otroki. Polotok Verudela ponuja mirne, družinam prijazne prodnate plaže, plitve kopalne cone in atrakcije, kot je Akvarij Pula."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na kratko",
+    "whereToStay": "Kje bivati v Puli",
+    "gettingThere": "Prihod v Pulo",
+    "whenToGo": "Kdaj obiskati",
+    "guides": "Vodniki za Pulo",
+    "faq": "Pogosto zastavljena vprašanja o Puli",
+    "groups": {
+      "gettingAround": "Parkiranje in premikanje po mestu",
+      "planning": "Načrtovanje in kje bivati",
+      "timing": "Kdaj obiskati",
+      "travelers": "Družine, pari & slogi potovanj",
+      "activities": "Plaže in stvari za početi",
+      "food": "Hrana in pijača",
+      "comparisons": "Primerjave",
+      "practical": "Praktične informacije"
+    },
+    "car": "Z avtom",
+    "other": "Druge možnosti",
+    "bestFor": "Najboljše za",
+    "parking": "Parkiranje",
+    "beach": "Plaža"
+  },
+  "destination": "pula",
+  "language": "sk",
+  "updatedAt": "2026-10-16T10:32:05.691Z"
+}

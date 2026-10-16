@@ -1,0 +1,146 @@
+{
+  "title": "Šibenik útikalauz: Strandok, parkolás és szállás",
+  "metaDescription": "Tervezzen utazást Šibenikbe, Horvátországba. Találja meg a legjobb szálláshelyeket, útvonalakat Közép-Európából, parkolási információkat és strandajánlókat.",
+  "intro": "Šibenik vonzza azokat a látogatókat, akik szeretnék felfedezni a horvát történelmet és a középkori építészetet, miközben közel vannak a nemzeti parkokhoz és a strandokhoz. A központi Dalmáciában található, praktikus kiindulópontként szolgál a Krka Nemzeti Park és a Kornati-szigetek meglátogatásához. A várost négy erődje és az UNESCO világörökség részét képező Szent Jakab-katedrális emeli ki.\n\nA főszezon májustól októberig tart. A központi óváros teljesen autómentes, meredek, szűk kőutcákból áll. A történelmi központon kívül a látogatók kavicsos strandokat és nagy, családoknak szóló üdülőkomplexumokat találnak. A város csendesebb alternatívát kínál a közeli Splithez képest, valamivel alacsonyabb átlagos szállás- és étkezési költségekkel.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Május, június, szeptember"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "24°C - 26°C"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Split repülőtér (SPU), 50 km"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Kavicsos és betonos"
+    },
+    {
+      "label": "Árszint",
+      "value": "Átlagos a horvát tengerparton, valamivel olcsóbb, mint Split"
+    },
+    {
+      "label": "Óváros",
+      "value": "Szigorúan autómentes és csak gyalogosok számára"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Óváros (Stari Grad)",
+      "bestFor": "Első látogatóknak és városnézéshez",
+      "parking": "Drága és korlátozott; a gyalogos zónán kívüli parkolókban kell parkolni",
+      "beach": "15 perces séta a Banj strandig",
+      "summary": "A történelmi magban középkori kőépületek, erődök és éttermek találhatók. Meredek lépcsőkön kell felmenni, és a poggyászt a parkolókból felvinni."
+    },
+    {
+      "name": "Crnica és Banj strand környéke",
+      "bestFor": "Strandhoz való hozzáférés sétatávolságra a központtól",
+      "parking": "Utcai parkolás elérhető, nagy TEF parkoló a közelben",
+      "beach": "Közvetlen hozzáférés a Banj strandhoz (kavicsos)",
+      "summary": "A központtól északnyugatra található lakóövezet. Panorámás kilátást nyújt az óvárosra és könnyebb autóval megközelíteni, mint a történelmi magot."
+    },
+    {
+      "name": "Amadria Park / Solaris",
+      "bestFor": "Családoknak gyermekekkel és üdülőknek",
+      "parking": "Helyszíni üdülőparkolás, általában fizetős",
+      "beach": "Közvetlen hozzáférés több karbantartott kavicsos és homokos strandhoz",
+      "summary": "Egy nagy üdülőkomplexum Šibeniktől 6 km-re délre. Szállodákat, kempingeket, vízi parkot és kiterjedt turisztikai létesítményeket kínál."
+    },
+    {
+      "name": "Brodarica",
+      "bestFor": "Csendes tengerparti pihenéshez és költségtudatos utazóknak",
+      "parking": "Általában magánapartman-tulajdonosok biztosítják",
+      "beach": "Hosszú szakasz helyi kavicsos strandokból",
+      "summary": "Egy Šibeniktől 8 km-re délre fekvő külvárosi falu a tengerpart mentén. Egyszerű apartmanokat és gyors hajó hozzáférést biztosít Krapanj-szigetre."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "800 km, 8,5 óra az A8, A10 és A1 útvonalon. Szükséges osztrák matrica, Tauern-alagút díj, szlovén matrica és horvát útdíjak.",
+      "other": "Közvetlen járat Split repülőtérre (SPU), majd 50 perces autóút vagy busz."
+    },
+    {
+      "from": "Bécs",
+      "car": "650 km, 6,5 óra az A2, szlovén A4 és horvát A1 útvonalon. Szükséges osztrák matrica, szlovén matrica és horvát útdíjak.",
+      "other": "Közvetlen járat Splitbe (SPU) vagy Zadarba (ZAD), majd busz Šibenikbe."
+    },
+    {
+      "from": "Budapest",
+      "car": "680 km, 6,5 óra az M7, horvát A4 és A1 útvonalon. Szükséges magyar e-matrica és horvát útdíjak.",
+      "other": "Közvetlen járat Zadarba (ZAD) Ryanairrel, majd 1 órás busz."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "400 km, 4,5 óra az A2 és horvát A1 útvonalon. Szükséges szlovén matrica és horvát útdíjak.",
+      "other": "Közvetlen távolsági buszjárat 6-7 órát vesz igénybe."
+    },
+    {
+      "from": "Prága",
+      "car": "980 km, 10,5 óra Ausztrián és Szlovénián keresztül a horvát A1-re. Szükséges matricák Csehországra, Ausztriára, Szlovéniára, plusz horvát útdíjak.",
+      "other": "Közvetlen járat Splitbe (SPU), majd helyi busz vagy transzfer."
+    },
+    {
+      "from": "Krakkó",
+      "car": "1050 km, 11,5 óra Szlovákián és Magyarországon keresztül a horvát A4/A1-re. Szükséges szlovák és magyar matricák, plusz horvát útdíjak.",
+      "other": "Közvetlen járat Zadarba (ZAD) vagy Splitbe (SPU), majd helyi busz."
+    }
+  ],
+  "whenToGo": "A šibeniki utazási szezon májusban kezdődik, a tenger hőmérséklete ekkor 18°C körül mozog, a szállásárak pedig alacsonyabbak. Június és szeptember ideális körülményeket kínál, meleg fürdővízzel (22°C-24°C), mérsékelt tömeggel és teljes mértékben működő turisztikai létesítményekkel. Július és augusztus a főszezon, magas hőmérséklettel, gyakran meghaladva a 30°C-ot, a tenger hőmérséklete ekkor éri el a csúcsot, 25°C körül, magas látogatószámmal és a legmagasabb árakkal. Novembertől áprilisig sok szezonális szálloda, étterem és túra bezár, az időjárás pedig általában túl hideg az úszáshoz, bár az erődök és a Krka Nemzeti Park egész évben nyitva tartanak a városnézők számára.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni?",
+      "answer": "Igen, Šibeniket érdemes meglátogatni a zsúfolatlan középkori óvárosa és négy történelmi erődje miatt. Kiváló építészeti alap, és a legkényelmesebb tengerparti város a Krka Nemzeti Park megközelítéséhez."
+    },
+    {
+      "question": "Hány napra?",
+      "answer": "Két nap elegendő a központi látnivalók, erődök megtekintésére és a Krka Nemzeti Park meglátogatására. Öt-hét napos tartózkodás praktikus, ha egynapos kirándulásokat tervez a szomszédos szigetekre, Zadarba vagy Splitbe."
+    },
+    {
+      "question": "Melyik a legjobb strand?",
+      "answer": "A Banj strand a legkényelmesebb kavicsos strand, rövid sétára az óvárostól. Jobb létesítmények és homokos szakaszok esetén a White Beach az Amadria Park üdülőterületén, 6 km-re délre, a jobb választás."
+    },
+    {
+      "question": "Szükséges autó?",
+      "answer": "Nincs szüksége autóra, ha az óvárosban száll meg, és csak a központot tervezi meglátogatni, valamint szervezett hajókirándulásokon részt venni. Erősen ajánlott az autó, ha a külvárosokban száll meg, vagy önállóan szeretné felfedezni a környező területeket, például a Krka Nemzeti Parkot."
+    },
+    {
+      "question": "Hol parkoljak?",
+      "answer": "A történelmi központban a parkolás erősen korlátozott. A látogatók számára elsődleges lehetőségek a föld alatti Poljana garázs a központi hozzáféréshez, vagy a nagy, szabadtéri Luka parkoló a komp kikötő közelében."
+    },
+    {
+      "question": "Alkalmas családoknak?",
+      "answer": "Igen, a terület alkalmas családok számára, különösen az óvároson kívül található üdülőhelyek. Az Amadria Park komplexum kifejezetten gyermekeknek szóló vízi parkkal rendelkezik, a város pedig minden nyáron otthont ad a Nemzetközi Gyermekfesztiválnak."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Röviden",
+    "whereToStay": "Hol szálljunk meg Šibenikben?",
+    "gettingThere": "Hogyan jutunk el Šibenikbe?",
+    "whenToGo": "Mikor utazzunk?",
+    "guides": "Šibenik útikalauzok",
+    "faq": "Šibenik GYIK",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor utazzunk?",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Étel és ital",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "sibenik",
+  "language": "hu",
+  "updatedAt": "2026-10-16T10:53:27.381Z"
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Split – Przewodnik: Plaże, parking i noclegi",
+  "metaDescription": "Zaplanuj swoją podróż do Splitu, Chorwacja. Przeczytaj praktyczne porady dotyczące najlepszych dzielnic do zakwaterowania, tras dojazdu, parkingów, plaż i połączeń promowych na jednodniowe wycieczki.",
+  "intro": "Split to największe miasto na wybrzeżu Dalmacji, pełniące funkcję zarówno głównego węzła komunikacyjnego, jak i celu historycznych podróży. Jest idealny dla podróżnych poszukujących połączenia architektury rzymskiej, infrastruktury miejskiej i bezpośredniego dostępu promowego do pobliskich wysp. Centralnym punktem miasta jest Pałac Dioklecjana, znakomicie zachowany rzymski kompleks wtopiony w nowoczesne centrum handlowe.\n\nGłówny sezon turystyczny trwa od końca maja do początku października. Lipiec i sierpień przynoszą najwyższe temperatury, największe tłumy i szczytowe ceny zakwaterowania. Osoby, które przed pływaniem przedkładają zwiedzanie, powinny odwiedzić Split w kwietniu, maju lub październiku, kiedy dzienne temperatury są łagodniejsze, ulice mniej zatłoczone, a ceny zakwaterowania znacznie niższe.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "maj, czerwiec, wrzesień, październik"
+    },
+    {
+      "label": "Temperatura morza w sierpniu",
+      "value": "25°C do 27°C"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Lotnisko Split (SPU), 24 km od centrum"
+    },
+    {
+      "label": "Główny typ plaż",
+      "value": "Głównie żwirowe, z jedną centralną plażą piaszczystą"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "Powyżej chorwackiej średniej"
+    },
+    {
+      "label": "Możliwość spacerowania po Starym Mieście",
+      "value": "Całkowicie dla pieszych i bez samochodów"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Stare Miasto (Grad)",
+      "bestFor": "Zwiedzanie i krótkie pobyty bez samochodu",
+      "parking": "Brak parkingów wewnątrz; drogie parkingi na obrzeżach",
+      "beach": "15 minut spacerem do Bačvice (piaszczysta)",
+      "summary": "Historyczne centrum zbudowane wokół Pałacu Dioklecjana. Jest gęsto wypełnione restauracjami, zabytkami i alejkami dla pieszych."
+    },
+    {
+      "name": "Bačvice i Firule",
+      "bestFor": "Życie nocne i centralny dostęp do plaży",
+      "parking": "Ograniczone miejsca parkingowe na ulicy w Strefie 2",
+      "beach": "Bezpośredni dostęp do piaszczystych i płytkich zatok",
+      "summary": "Dzielnice mieszkalne położone bezpośrednio na wschód od portu promowego. Oferują szybki dostęp do najbardziej znanych piaszczystych plaż miasta i głównych klubów nocnych."
+    },
+    {
+      "name": "Meje",
+      "bestFor": "Spokojny pobyt i dostęp do natury",
+      "parking": "Zazwyczaj dostępne bezpłatne miejsca parkingowe na ulicy",
+      "beach": "10 do 20 minut spacerem do Kašjuni (żwirowa)",
+      "summary": "Ekskluzywna dzielnica mieszkalna na południowych zboczach wzgórza Marjan. Zapewnia dystans od miejskich tłumów, jednocześnie pozostając w odległości spaceru od centrum."
+    },
+    {
+      "name": "Žnjan",
+      "bestFor": "Rodziny i podróżni z samochodami",
+      "parking": "Duża ilość prywatnych i publicznych parkingów",
+      "beach": "Bezpośredni dostęp do długiego żwirowego wybrzeża",
+      "summary": "Nowsze, nadmorskie przedmieście na wschód od centrum z nowoczesnymi apartamentowcami. Obszar ten charakteryzuje się najdłuższym ciągłym odcinkiem żwirowych plaż i kawiarni przy plaży."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monachium",
+      "car": "850 km, 8,5 do 9,5 godziny przez A8, A10, A2 i A1. Wymaga winiet AT i SLO; opłaty za tunele AT i autostrady HR.",
+      "other": "Bezpośredni lot (Lufthansa/Croatia Airlines) lub bezpośredni FlixBus"
+    },
+    {
+      "from": "Wiedeń",
+      "car": "760 km, 7,5 do 8 godzin przez A2, A9 i A1. Wymaga winiet AT i SLO; opłaty za autostrady HR.",
+      "other": "Bezpośredni lot (Austrian/Ryanair) lub bezpośredni FlixBus"
+    },
+    {
+      "from": "Budapeszt",
+      "car": "750 km, 7 do 8 godzin przez M7, A4 i A1. Wymaga winiety HU; opłaty za autostrady HR.",
+      "other": "Sezonowy pociąg sypialny lub bezpośredni FlixBus"
+    },
+    {
+      "from": "Lublana",
+      "car": "470 km, 5 godzin przez A2 i A1. Wymaga winiety SLO; opłaty za autostrady HR.",
+      "other": "Bezpośredni FlixBus"
+    },
+    {
+      "from": "Praga",
+      "car": "1050 km, 11 do 12 godzin przez D1, A9 i A1. Wymaga winiet CZ, AT i SLO; opłaty za tunele AT i autostrady HR.",
+      "other": "Bezpośredni lot (Smartwings/Croatia Airlines) lub FlixBus"
+    },
+    {
+      "from": "Kraków",
+      "car": "1050 km, 11 do 12 godzin przez A4, SK, M7 i A1. Wymaga winiet SK i HU; opłaty za autostrady PL i HR.",
+      "other": "Bezpośredni lot (Ryanair/LOT) lub FlixBus"
+    }
+  ],
+  "whenToGo": "Od czerwca do sierpnia temperatura morza osiąga 25°C do 27°C, wszystkie promy na wyspy kursują według szczytowego rozkładu, a ceny zakwaterowania są najwyższe. Maj i wrzesień oferują łagodniejsze temperatury dzienne, około 20°C do 24°C, niższe ceny i mniejsze tłumy, choć morze jest zauważalnie chłodniejsze. Między listopadem a kwietniem spodziewaj się dziennych temperatur maksymalnych od 10°C do 15°C; wiele nadmorskich restauracji i sezonowych biznesów jest zamkniętych, a trasy promowe są znacznie ograniczone, ale ceny zakwaterowania spadają nawet o 50 procent.",
+  "faq": [
+    {
+      "question": "Czy warto odwiedzić Split?",
+      "answer": "Tak, jeśli szukasz dużego miasta nadmorskiego z nienaruszoną architekturą rzymską i głównymi połączeniami promowymi. Nie jest odpowiedni dla podróżnych poszukujących cichego, odosobnionego miasteczka plażowego."
+    },
+    {
+      "question": "Ile dni potrzeba w Splicie?",
+      "answer": "Dwa do trzech dni wystarczą, aby zobaczyć Stare Miasto, wzgórze Marjan i lokalne plaże. Przedłuż podróż do pięciu lub siedmiu dni, jeśli używasz miasta jako bazy wypadowej na Hvar, Brač lub do Parku Narodowego Krka."
+    },
+    {
+      "question": "Jaka jest najlepsza plaża w Splicie?",
+      "answer": "Kašjuni jest powszechnie uważana za najbardziej malowniczą plażę żwirową, położoną u podnóża wzgórza Marjan. Bačvice to najpopularniejsza plaża piaszczysta ze względu na centralne położenie, a Žnjan oferuje najdłuższy odcinek żwirowego wybrzeża."
+    },
+    {
+      "question": "Czy potrzebuję samochodu w Splicie?",
+      "answer": "Nie potrzebujesz samochodu, jeśli zatrzymujesz się w centrum i planujesz odwiedzać wyspy promem lub katamaranem. Samochód jest konieczny tylko wtedy, gdy rezerwujesz zakwaterowanie na dalszych przedmieściach lub planujesz samodzielne wycieczki wzdłuż wybrzeża kontynentalnego."
+    },
+    {
+      "question": "Gdzie powinienem zaparkować w Splicie?",
+      "answer": "Korzystaj z dużych, płatnych parkingów na obrzeżach Starego Miasta, takich jak Stari Plac lub parkingi przy ulicy Vukovarskiej. Parkingi uliczne w Strefie 1 i Strefie 2 są bardzo konkurencyjne i często ograniczone tylko do mieszkańców."
+    },
+    {
+      "question": "Czy Split jest dobry dla rodzin?",
+      "answer": "Tak, zwłaszcza we wschodnich dzielnicach, takich jak Žnjan czy Stobreč, gdzie plaże są szerokie, a parkowanie łatwiejsze. Rodziny z wózkami powinny unikać wąskich, schodkowych uliczek bezpośredniego Starego Miasta."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Gdzie się zatrzymać w Splicie",
+    "gettingThere": "Jak dojechać do Splitu",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Splicie",
+    "faq": "FAQ o Splicie",
+    "groups": {
+      "gettingAround": "Poruszanie się po Splicie i parking",
+      "planning": "Planowanie i gdzie się zatrzymać",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróży",
+      "activities": "Plaże i atrakcje",
+      "food": "Jedzenie i picie",
+      "comparisons": "Porównania",
+      "practical": "Praktyczne informacje"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "split",
+  "language": "pl",
+  "updatedAt": "2026-10-16T09:24:51.819Z"
+}

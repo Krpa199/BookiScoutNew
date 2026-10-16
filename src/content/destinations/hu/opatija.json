@@ -1,0 +1,146 @@
+{
+  "title": "Opatija utazási útmutató: városrészek, parkolás és megközelítés",
+  "metaDescription": "Tervezze meg utazását Opatijába. Olvasson a legjobb szálláshelyekről, parkolási tippekről, strandokról, európai útvonalakról és az ideális látogatási időpontról.",
+  "intro": "Opatija egy tengerparti város a Kvarner-öbölben, amely osztrák-magyar építészetéről, történelmi parkjairól és a 12 kilométeres Lungomare sétányról ismert. Elsősorban felnőtt utazók, párok és idősebbek számára ideális, akik inkább étkezési élményekre, spa kezelésekre és tengerparti sétákra vágynak, semmint éjszakai szórakozásra vagy homokos strandokra.\n\nA város meredeken lejt az Adria felé, így sok szálláshely a fő parti út feletti domboldalakon található. A nyár magas hőmérséklettel jár, ami alkalmassá teszi a város beton- és sziklás teraszairól való úszásra, míg tavasszal és ősszel a túrázás és wellness pihenések vonzzák a látogatókat. Mivel Közép-Európából népszerű hétvégi úticél, a csúcsszezonban előzetes tervezést igényel a forgalom és a parkolás.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Május–szeptember"
+    },
+    {
+      "label": "Augusztusi tengerhőmérséklet",
+      "value": "24°C–26°C"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Rijeka repülőtér (RJK), 42 km"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Betonozott teraszok és sziklás partok"
+    },
+    {
+      "label": "Árszint",
+      "value": "Magasabb, mint a horvát átlag"
+    },
+    {
+      "label": "Járhatóság",
+      "value": "Járható sétány; a főút nem autómentes"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Opatija központ",
+      "bestFor": "Először érkezőknek és pároknak, akik éttermekhez és történelmi parkokhoz szeretnének közel lenni",
+      "parking": "Drága és szűkös; használjon nyilvános garázsokat, mint a Slatina vagy Gorovo",
+      "beach": "Slatina (betonozott teraszok) és Tomaševac (részben homokos/betonozott)",
+      "summary": "A történelmi mag 19. századi villákat, gondozott kerteket és a legmagasabb étterem- és szálloda-koncentrációt kínálja. A főutca, az Ulica Maršala Tita középen halad át, és nyáron nagy forgalmat bonyolít."
+    },
+    {
+      "name": "Volosko",
+      "bestFor": "Ételkedvelőknek és azoknak, akik csendesebb, falusias hangulatot keresnek",
+      "parking": "Nagyon korlátozott számú nyilvános parkolóhely; többnyire csak lakosoknak",
+      "beach": "Kis betonozott fürdőhelyek a Lungomare mentén",
+      "summary": "Egykori halászfalu a központtól északra, a Lungomare kiindulópontja. Keskeny macskaköves utcáiról, tenger gyümölcsei éttermeiről és kis kikötő köré épült helyi kocsmáiról ismert."
+    },
+    {
+      "name": "Ičići",
+      "bestFor": "Családoknak és látogatóknak, akik hagyományos kavicsos strandokra és kikötői hozzáférésre vágynak",
+      "parking": "Fizetős utcai parkolás a strand közelében; júliusban gyakran délelőtt közepére megtelik",
+      "beach": "Ičići strand (nagy kavicsos öböl betonozott napozóterületekkel)",
+      "summary": "Három kilométerre délre Opatija központjától található, Ičići tipikusabb mediterrán nyaralási környezetet kínál. Nagy ACI Marinával rendelkezik, és közvetlenül kapcsolódik Opatijához a tengerparti sétányon keresztül."
+    },
+    {
+      "name": "Lovran",
+      "bestFor": "Utazóknak, akik lassabb tempót és középkori építészetet keresnek",
+      "parking": "Több fizetős önkormányzati parkoló az óváros és a kikötő közelében",
+      "beach": "Peharovo (kavicsos) és Kvarner (betonozott)",
+      "summary": "Lovran egy különálló város a Lungomare déli végén, körülbelül hat kilométerre Opatijától. Megőrizte középkori történelmi magját, és nyugodtabb, valamivel olcsóbb alternatívát kínál a tulajdonképpeni Opatijához képest."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "510 km, ~6 óra az A8, Tauern Autobahn (A10) és Szlovénia felé. Osztrák autópálya-matrica, Tauern/Karawanken alagút díj, szlovén autópálya-matrica és horvát útdíj szükséges.",
+      "other": "Közvetlen éjszakai vonat (Nightjet) Rijekába, majd helyi busz."
+    },
+    {
+      "from": "Bécs",
+      "car": "490 km, ~5 óra az A2-n Grazig, majd A9 és szlovén A1. Osztrák autópálya-matrica, szlovén autópálya-matrica és horvát útdíj szükséges.",
+      "other": "Közvetlen busz (FlixBus) vagy vonat (ÖBB) Rijekába, majd helyi busz."
+    },
+    {
+      "from": "Budapest",
+      "car": "510 km, ~5 óra az M7-en a határig, majd horvát A4, A1 és A6 Rijekáig. Magyar autópálya-matrica és horvát útdíjak szükségesek.",
+      "other": "Közvetlen vonat vagy FlixBus Rijekába, átszállással Opatijába."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "110 km, ~1,5 óra az A1-en Postojnába, majd a 6-os úton Ilirska Bistrica/Rupába. Szlovén autópálya-matrica és horvát útdíj szükséges.",
+      "other": "Közvetlen busz vagy vonat Rijekába, majd helyi busz."
+    },
+    {
+      "from": "Prága",
+      "car": "750 km, ~8,5 óra Bécs és Graz (A2/A9) érintésével. Cseh, osztrák és szlovén autópálya-matrica, valamint horvát útdíjak szükségesek.",
+      "other": "RegioJet vonat Rijekába (csak nyáron) vagy repülőjárat Bécsbe/Zágrábba."
+    },
+    {
+      "from": "Krakkó",
+      "car": "850 km, ~9,5 óra Brünn, Bécs és Graz érintésével. Cseh, osztrák és szlovén autópálya-matrica, valamint horvát útdíjak szükségesek.",
+      "other": "Repülőjárat Zágrábba vagy Zadarba, majd távolsági busz."
+    }
+  ],
+  "whenToGo": "Júniustól szeptemberig a legjobb az idő úszásra, a tenger hőmérséklete augusztusra elérheti a 26°C-ot. Július és augusztus a legforgalmasabb és legdrágább hónapok, zsúfolt sétányokkal és nagy forgalommal. Május és október hűvösebb hőmérsékletet kínál, ideális az Učka-hegyen való túrázáshoz vagy a Lungomare sétányon való sétához, bár a tenger jellemzően túl hideg az úszáshoz. A legtöbb nagyobb szálloda és étterem egész évben nyitva tart, mivel Opatija téli wellness-pihenőkre és konferenciákra is alkalmas, de néhány kisebb létesítmény novembertől húsvétig bezár.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni Opatiját?",
+      "answer": "Igen, ha értékeli a történelmi építészetet, a gondozott kerteket és a tengerparti sétányokat. Hiányoznak belőle a homokos strandok és a bulinegyedek, elsősorban a pihentető, elegáns tengerparti kikapcsolódásra vágyó felnőtteknek vonzó."
+    },
+    {
+      "question": "Hány napot érdemes Opatijában tölteni?",
+      "answer": "Két-három nap elegendő a Lungomare bejárására, a városközpont felfedezésére és a szomszédos falvak, például Volosko vagy Lovran meglátogatására. Kényelmes kiindulópontként is szolgál Isztriára vagy a Kvarner-szigetekre irányuló egynapos kirándulásokhoz."
+    },
+    {
+      "question": "Melyik a legjobb strand Opatijában?",
+      "answer": "Slatina a legközpontibb strand, betonozott teraszokkal és napágybérlési lehetőséggel. Hagyományos kavicsos strandért menjen három kilométerre délre Ičićibe vagy tovább a tengerparton Medvejába."
+    },
+    {
+      "question": "Szükséges autó Opatijában?",
+      "answer": "Nem, az autó felesleges, ha a városban tervez maradni, mivel a központ gyalogosan bejárható, és a Lungomare összeköti a fő parti falvakat. Gyakran járnak helyi buszok Rijeka, Opatija és Lovran között."
+    },
+    {
+      "question": "Hol parkolhatok Opatijában?",
+      "answer": "Az utcai parkolás fizetős zónákra oszlik, és nyári hétvégéken gyorsan megtelik. A legmegbízhatóbb lehetőségek a nyilvános parkolóházak, mint például a Slatina Garázs, Gorovo Garázs vagy Gervais Garázs, bár javasolt a szállodán keresztül parkolót biztosítani."
+    },
+    {
+      "question": "Jó Opatija családoknak?",
+      "answer": "Alkalmas családoknak, de kisgyermekek számára kevésbé ideális, mert a strandok többnyire betonlapok vagy mély, sziklás öblök, nem pedig sekély homokos partok. Az idősebb gyermekek élvezhetik a vízi sportokat, a szülők pedig értékelni fogják a burkolt, babakocsival is járható sétányt."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Rövid tények",
+    "whereToStay": "Hol szálljunk meg Opatijában",
+    "gettingThere": "Opatija megközelítése",
+    "whenToGo": "Mikor érdemes utazni",
+    "guides": "Opatija útmutatók",
+    "faq": "Gyakran ismételt kérdések Opatijáról",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor utazzunk",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Étel és ital",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Kinek ajánlott",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "opatija",
+  "language": "hu",
+  "updatedAt": "2026-10-16T12:38:37.257Z"
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Jelsa Vodič za putovanja: Plaže, parkiralište i gdje odsjesti",
+  "metaDescription": "Planirajte svoje putovanje u Jelsu, Hrvatska s našim detaljnim vodičem. Otkrijte najbolje plaže, četvrti, rute vožnje i savjete za parkiranje za vaš odmor na Hvaru.",
+  "intro": "Jelsa je primorski grad na sjevernoj strani otoka Hvara, služeći kao mirnija, obiteljski orijentirana alternativa prometnijem Hvaru. Ima koncentriranu povijesnu jezgru izgrađenu oko zaštićene luke, podržanu borovim šumama i okruženu vinogradima i maslinicima. Grad ima funkcionalnu cjelogodišnju zajednicu, koja održava lokalne sadržaje poput pekara, ljekarni i supermarketa otvorenima izvan vrhunca turističke sezone.\n\nGrad odgovara posjetiteljima koji traže jednostavan pristup plaži, ravne obalne pješačke i biciklističke rute te opuštenu večernju atmosferu. Obitelji s malom djecom često biraju Jelsu zbog njezinih uvala s pješčanim dnom. Optimalno vrijeme za posjet je od lipnja do rujna, kada su temperature mora dovoljno tople za kupanje, a katamaranske linije prometuju po najčešćim ljetnim rasporedima.",
+  "quickFacts": [
+    {
+      "label": "Najbolji mjeseci",
+      "value": "Lipanj do rujan"
+    },
+    {
+      "label": "Temperatura mora u kolovozu",
+      "value": "25°C do 27°C"
+    },
+    {
+      "label": "Najbliža zračna luka",
+      "value": "Split (SPU), 24 km do luke + 2 sata trajekta"
+    },
+    {
+      "label": "Glavna vrsta plaže",
+      "value": "Pijesak i šljunak"
+    },
+    {
+      "label": "Razina cijena",
+      "value": "Malo iznad hrvatskog prosjeka"
+    },
+    {
+      "label": "Centar grada",
+      "value": "Samo za pješake, bez automobila"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centar Jelse (Stari grad)",
+      "bestFor": "Restorani, večernje šetnje i za one bez automobila",
+      "parking": "Naplatna općinska parkirališta izvan pješačke zone",
+      "beach": "10 minuta hoda do plaže Mina",
+      "summary": "Povijesna jezgra ima kamene kuće, kafiće i restorane smještene oko glavnog trga (Pjaca) i luke. Boravak ovdje znači neposredan pristup svakodnevnim sadržajima i katamaranskim vezama, iako mir i tišina mogu biti ograničeni tijekom srpanjskih i kolovoških večeri."
+    },
+    {
+      "name": "Područje plaže Mina",
+      "bestFor": "Obitelji s malom djecom",
+      "parking": "Privatni parking kod većine apartmana, plus obližnja naplatna parkirališta",
+      "beach": "Izravan pristup plaži Mina s pješčanim dnom",
+      "summary": "Smještena istočno od centra grada, ova četvrt je dominirana primorskim borovima i jednostavnim pristupom najpopularnijoj obiteljskoj plaži u Jelsi. Šetnja do centra traje oko 10 minuta duž ravne, osvijetljene obalne šetnice."
+    },
+    {
+      "name": "Vitarnja",
+      "bestFor": "Parovi i oni koji traže mir",
+      "parking": "Obično uključeno u smještaj",
+      "beach": "Izravan pristup stjenovitim i šljunčanim uvalama",
+      "summary": "Protežući se zapadno od Jelse prema susjednom selu Vrboska, Vitarnja je miran, stambeni dio obale. Nudi privatna mjesta za kupanje s kamenih platformi i sjenovitu obalnu stazu koja povezuje dva mjesta."
+    },
+    {
+      "name": "Vrboska",
+      "bestFor": "Biciklisti i duži boravci",
+      "parking": "Obilje javnog i privatnog parkirališta",
+      "beach": "2 km do plaže Soline, ili biciklom do plaža u Jelsi",
+      "summary": "Smješteno 4 kilometra zapadno od Jelse, ovo zasebno selo leži u dubokom, uskom zaljevu premošćenom kamenim mostovima. Služi kao praktična alternativna baza sa svojim restoranima, marinom i uglavnom ravnim terenom idealnim za biciklizam duž obale."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "870 km do luke Split + trajekt, ukupno 11-12 sati (preko A8, Villach, Ljubljana, Zagreb, A1). Zahtijeva austrijsku i slovensku vinjetu, hrvatske cestarine i Jadrolinija trajektnu kartu.",
+      "other": "Izravni letovi za Split (SPU), zatim autobus do luke i katamaran izravno do Jelse."
+    },
+    {
+      "from": "Beč",
+      "car": "800 km do luke Split + trajekt, ukupno 10-11 sati (preko Graz, Maribor, Zagreb, A1). Zahtijeva austrijsku i slovensku vinjetu, hrvatske cestarine i Jadrolinija trajektnu kartu.",
+      "other": "Izravni letovi ili sezonski noćni vlak do Splita, zatim katamaran izravno do Jelse."
+    },
+    {
+      "from": "Budimpešta",
+      "car": "760 km do luke Split + trajekt, ukupno 9-10 sati (preko M7, Letenye, Zagreb, A1). Zahtijeva mađarsku e-vinjetu, hrvatske cestarine i Jadrolinija trajektnu kartu.",
+      "other": "Izravni letovi za Split, zatim autobus do luke i katamaran izravno do Jelse."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "480 km do luke Split + trajekt, ukupno 7-8 sati (preko A2 do Zagreba, zatim A1 do Splita). Zahtijeva slovensku vinjetu, hrvatske cestarine i Jadrolinija trajektnu kartu.",
+      "other": "Autobusom ili vlakom do Splita, zatim katamaranom izravno do Jelse ili trajektom do Starog Grada."
+    },
+    {
+      "from": "Prag",
+      "car": "1.120 km do luke Split + trajekt, ukupno 13-14 sati (preko Beč, Graz, Maribor, Zagreb, A1). Zahtijeva CZ, AT, SI vinjete, hrvatske cestarine i Jadrolinija trajektnu kartu.",
+      "other": "Izravni letovi za Split, zatim autobus do luke i katamaran izravno do Jelse."
+    },
+    {
+      "from": "Krakov",
+      "car": "1.100 km do luke Split + trajekt, ukupno 12-14 sati (preko Slovačke, Budimpešte, Zagreba, A1). Zahtijeva SK i HU vinjete, hrvatske cestarine i Jadrolinija trajektnu kartu.",
+      "other": "Izravni letovi za Split, zatim autobus do luke i katamaran izravno do Jelse."
+    }
+  ],
+  "whenToGo": "Temperature mora obično dosežu 21°C do kraja svibnja i vrhunac između 25°C i 27°C u srpnju i kolovozu, ostajući dovoljno tople za kupanje duboko u listopad. Srpanj i kolovoz su najprometniji i najskuplji mjeseci, privlačeći vrhunac ljetnog odmora, i to je kada su svi restorani, barovi na plaži i najmovi brodova u potpunosti operativni. Lipanj i rujan nude najbolju ravnotežu toplih mora, podnošljivije gužve i nešto niže cijene smještaja, što ih čini optimalnima za kombiniranje vremena na plaži s biciklizmom ili razgledavanjem. Između studenog i travnja, Jelsa se značajno smiri; dok lokalna zajednica ostaje, većina turistički orijentiranih poduzeća, hotela i sezonskih trajektnih linija zatvara se za zimu.",
+  "faq": [
+    {
+      "question": "Isplati li se posjetiti?",
+      "answer": "Da, Jelsu vrijedi posjetiti putnicima koji traže mirniju, obiteljski orijentiranu alternativu Hvaru. Nudi ravne obalne staze, plaže s pješčanim dnom i dobro očuvanu povijesnu jezgru bez intenzivnog noćnog života."
+    },
+    {
+      "question": "Koliko dana?",
+      "answer": "Tri do pet dana je praktičan vremenski okvir za istraživanje Jelse i njezine neposredne okolice. To omogućuje dovoljno vremena za provesti nekoliko dana na lokalnim plažama i poduzeti kratke izlete do obližnjeg Starog Grada, Vrboske ili južne obale Hvara."
+    },
+    {
+      "question": "Najbolja plaža?",
+      "answer": "Mina i Grebišće se općenito smatraju najboljim plažama u Jelsi zbog plitkog pješčanog dna, što je rijetkost na Hvaru. Mina je najbliža centru (oko 10 minuta hoda), dok Grebišće leži 1,5 kilometara istočno i nudi više prostora."
+    },
+    {
+      "question": "Trebam li auto?",
+      "answer": "Ne trebate automobil ako planirate boraviti u Jelsi i provoditi vrijeme na lokalnim plažama, jer je grad kompaktan i vrlo pogodan za šetnju. Međutim, posjedovanje automobila ili najam skutera preporučuje se ako želite istražiti skrovite uvale, unutrašnja sela ili druge gradove na otoku."
+    },
+    {
+      "question": "Gdje parkirati?",
+      "answer": "Parkiranje u Jelsi se obavlja putem općinskih naplatnih parkirališta smještenih odmah izvan pješačke zone, s glavnim parkiralištem smještenim blizu centralnog parka. U vrhuncu ljeta, parkiranje obično košta 1,40 € po satu ili 14 € za dnevnu kartu."
+    },
+    {
+      "question": "Je li dobro za obitelji?",
+      "answer": "Da, Jelsa se visoko cijeni kao obiteljska destinacija. Grad nudi pješačke zone, ravne šetnice pogodne za dječja kolica te sigurne, plitke plaže s pješčanim dnom koje su posebno pogodne za malu djecu."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na prvi pogled",
+    "whereToStay": "Gdje odsjesti u Jelsi",
+    "gettingThere": "Kako doći do Jelse",
+    "whenToGo": "Kada posjetiti",
+    "guides": "Jelsa vodiči",
+    "faq": "Jelsa Česta pitanja",
+    "groups": {
+      "gettingAround": "Parkiranje i kretanje",
+      "planning": "Planiranje i gdje odsjesti",
+      "timing": "Kada ići",
+      "travelers": "Obitelji, parovi i stilovi putovanja",
+      "activities": "Plaže i stvari za raditi",
+      "food": "Hrana i piće",
+      "comparisons": "Usporedbe",
+      "practical": "Praktične informacije"
+    },
+    "car": "Automobilom",
+    "other": "Ostale opcije",
+    "bestFor": "Najbolje za",
+    "parking": "Parkiranje",
+    "beach": "Plaža"
+  },
+  "destination": "jelsa",
+  "language": "hr",
+  "updatedAt": "2026-10-16T14:59:07.323Z"
+}

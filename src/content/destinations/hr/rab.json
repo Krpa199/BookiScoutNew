@@ -1,0 +1,146 @@
+{
+  "title": "Rab: Vodič za plaže, parking i smještaj",
+  "metaDescription": "Planirajte svoje putovanje na Rab, Hrvatska. Usporedite smještajne zone, pronađite rute vožnje iz Srednje Europe i saznajte praktične informacije o parkiranju i pješčanim plažama.",
+  "intro": "Rab privlači putnike koji traže pješčane plaže, borove šume i očuvanu srednjovjekovnu staru gradsku jezgru. Za razliku od mnogih hrvatskih otoka kojima dominiraju stjenovite ili šljunčane obale, Rab nudi prostrane pješčane uvale, posebno na sjevernom poluotoku Lopar, što ga čini vrlo praktičnim za obitelji s malom djecom. Jugozapadna obala nudi guste borove šume i osamljene uvale pogodne za parove i aktivne putnike.\n\nGlavna turistička sezona traje od lipnja do rujna. Srpanj i kolovoz donose najtoplije temperature mora i puni rad restorana, ali i prometne gužve te vršna vremena čekanja na trajekte za kopno. Svibanj i listopad odgovaraju putnicima usmjerenim na planinarenje i biciklizam, iako temperature mora ostaju svježe, a neka lokalna poduzeća rade skraćeno.",
+  "quickFacts": [
+    {
+      "label": "Najbolji mjeseci",
+      "value": "Lipanj do rujan"
+    },
+    {
+      "label": "Temp. mora u kolovozu",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Najbliža zračna luka",
+      "value": "Rijeka (RJK), 60 km (uključuje trajekt)"
+    },
+    {
+      "label": "Glavni tip plaže",
+      "value": "Pijesak na sjeveru, stijene/šljunak drugdje"
+    },
+    {
+      "label": "Razina cijena",
+      "value": "Umjerena (slično Krku, jeftinije od Hvara)"
+    },
+    {
+      "label": "Centar starog grada",
+      "value": "Samo za pješake (bez automobila)"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Grad Rab",
+      "bestFor": "Povijest, gastronomiju i večernju atmosferu",
+      "parking": "Plaćeni gradski parkinzi izvan gradskih zidina",
+      "beach": "Gradska plaža je mala/šljunčana; za bolje plaže potrebna je vožnja ili taksi-brod",
+      "summary": "Povijesno i kulturno središte otoka. Boravak ovdje znači neposredan pristup restoranima i znamenitostima, ali zahtijeva parkiranje izvan pješačke zone."
+    },
+    {
+      "name": "Lopar",
+      "bestFor": "Obitelji s malom djecom",
+      "parking": "Većina smještaja ima besplatan parking na licu mjesta",
+      "beach": "Uz Rajsku plažu (Paradise Beach), 1,5 km dugu pješčanu plažu",
+      "summary": "Smješteno na sjeveru, ovo područje funkcionira kao turističko naselje. Nedostaje mu povijesna arhitektura, ali nudi najpristupačnije plitke pješčane obale u Hrvatskoj."
+    },
+    {
+      "name": "Suha Punta",
+      "bestFor": "Parove, ljubitelje prirode i one koji traže hlad",
+      "parking": "Obično dovoljno besplatnog parkinga u hotelima i apartmanima",
+      "beach": "Stjenovite i šljunčane uvale, mnoge u hladu borova",
+      "summary": "Tihi, šumoviti poluotok s pješačkim stazama i bistrom vodom. Za dolazak do glavnih restorana u gradu Rabu potreban je automobil ili bicikl."
+    },
+    {
+      "name": "Banjol & Barbat",
+      "bestFor": "Pogled na more i putnike s brodovima",
+      "parking": "Obično uključeno u cijenu privatnih apartmana",
+      "beach": "Šljunčane plaže i mali pješčani dijelovi",
+      "summary": "Ova susjedna obalna naselja protežu se južno od grada Raba. Povezana su s centrom obalnom šetnicom, nudeći ravnotežu pristupa plaži i blizine grada."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "550 km, ~7.5 sati preko Salzburga, Villacha, Ljubljane, Rijeke i trajekta Stinica. Potrebne su AT i SI vinjete, cestarina za tunel Karavanke, HR cestarine.",
+      "other": "Vlak ili FlixBus do Rijeke, zatim Jadrolinijin katamaran do grada Raba."
+    },
+    {
+      "from": "Beč",
+      "car": "530 km, ~6.5 sati preko Graza, Maribora, Zagreba, A1 do Žute Lokve i trajekta Stinica. Potrebne su AT i SI vinjete, HR cestarine.",
+      "other": "Vlak ili autobus do Zagreba, zatim izravni autobus za Rab."
+    },
+    {
+      "from": "Budimpešta",
+      "car": "520 km, ~6 sati preko M7 do Letenya, Zagreba, A1 do Žute Lokve i trajekta Stinica. Potrebna je HU e-vinjeta, HR cestarine.",
+      "other": "FlixBus do Zagreba, povezni autobus za Rab."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "160 km, ~3 sata preko Postojne, Ilirske Bistrice, Rijeke i trajekta Stinica. Potrebna je SI vinjeta, HR cestarine.",
+      "other": "Autobus do Rijeke, zatim katamaran do grada Raba."
+    },
+    {
+      "from": "Prag",
+      "car": "850 km, ~10 sati preko Brna, Beča, Graza, Zagreba, A1 i trajekta Stinica. Potrebne su CZ, AT i SI vinjete, HR cestarine.",
+      "other": "Vlak ili autobus do Rijeke/Zagreba, zatim daljnji autobus/katamaran za Rab."
+    },
+    {
+      "from": "Krakov",
+      "car": "920 km, ~10.5 sati preko Ostrave, Brna, Beča, Zagreba, A1 i trajekta Stinica. Potrebne su PL, CZ, AT i SI vinjete/cestarine, HR cestarine.",
+      "other": "Let do Zadra (ZAD), zatim autobus do Senja i trajekt, ili najam automobila."
+    }
+  ],
+  "whenToGo": "Lipanj do rujan su najpouzdaniji mjeseci za kupanje, s temperaturama mora koje dosežu vrhunac između 25°C i 27°C u kolovozu. Srpanj i kolovoz bilježe najviše cijene, najveće gužve na Rajskoj plaži te potencijalna čekanja na trajekte Stinica i Valbiska. Lipanj i rujan nude ravnotežu tople vode, niže cijene smještaja i potpuno operativnih restorana bez ljetnih gužvi. Od studenog do travnja otok je miran, mnogi turistički restorani i hoteli su zatvoreni, a vrijeme je često prehladno ili vjetrovito za aktivnosti na plaži.",
+  "faq": [
+    {
+      "question": "Je li Rab vrijedan posjeta?",
+      "answer": "Da, prvenstveno zbog svog jedinstvenog krajolika pješčanih plaža i gustih borovih šuma. Nudi dobro očuvan srednjovjekovni grad uz plitke uvale koje su rijetke na drugim hrvatskim otocima."
+    },
+    {
+      "question": "Koliko dana trebam na Rabu?",
+      "answer": "Četiri do sedam dana je idealno. To pruža dovoljno vremena za istraživanje grada Raba, nekoliko dana na različitim plažama u Loparu i Suhoj Punti te za lokalni izlet brodom."
+    },
+    {
+      "question": "Koja je najbolja plaža na Rabu?",
+      "answer": "Rajska plaža (Paradise Beach) u Loparu najpopularnija je zbog svojih 1,5 kilometara plitkog pijeska. Za mirnija, sjenovita mjesta, preferiraju se stjenovite i šljunčane uvale poluotoka Suha Punta."
+    },
+    {
+      "question": "Trebam li automobil na Rabu?",
+      "answer": "Automobil je toplo preporučen za putovanje između starog grada, pješčanih plaža na sjeveru i šumovitih područja. Iako se grad Rab može obići pješice, oslanjanje isključivo na lokalne autobuse ograničava fleksibilnost."
+    },
+    {
+      "question": "Gdje parkirati u gradu Rabu?",
+      "answer": "Posjetitelji moraju koristiti velika, plaćena gradska parkirališta smještena neposredno izvan gradskih zidina. Samo povijesno središte je pješačka zona s ograničenim pristupom vozilima."
+    },
+    {
+      "question": "Je li Rab dobar za obitelji?",
+      "answer": "Da, Rab je jedan od najprikladnijih otoka u Hrvatskoj za obitelji. Plitke, pješčane plaže u Loparu omogućuju maloj djeci sigurno kupanje, a otok općenito nema strmih prilaza s litica koji se nalaze drugdje."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Ukratko",
+    "whereToStay": "Gdje odsjesti na Rabu",
+    "gettingThere": "Dolazak na Rab",
+    "whenToGo": "Kada posjetiti",
+    "guides": "Vodiči za Rab",
+    "faq": "Često postavljana pitanja o Rabu",
+    "groups": {
+      "gettingAround": "Parking i kretanje",
+      "planning": "Planiranje i smještaj",
+      "timing": "Kada posjetiti",
+      "travelers": "Obitelji, parovi i stilovi putovanja",
+      "activities": "Plaže i aktivnosti",
+      "food": "Hrana i piće",
+      "comparisons": "Usporedbe",
+      "practical": "Praktične informacije"
+    },
+    "car": "Automobilom",
+    "other": "Ostale opcije",
+    "bestFor": "Najbolje za",
+    "parking": "Parking",
+    "beach": "Plaža"
+  },
+  "destination": "rab",
+  "language": "hr",
+  "updatedAt": "2026-10-16T13:04:36.777Z"
+}

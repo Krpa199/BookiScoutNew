@@ -1,0 +1,146 @@
+{
+  "title": "Pula: Průvodce cestováním – Pláže, parkování a kde se ubytovat",
+  "metaDescription": "Naplánujte si cestu do Puly, Chorvatsko. Zjistěte, kde se nejlépe ubytovat, o trasách z Evropy, možnostech parkování, plážích a nejlepší době k návštěvě.",
+  "intro": "Pula slouží jako hlavní brána na Istrijský poloostrov, láká nadšence do historie a letní rekreanty. Město je charakterizováno dobře zachovalým římským amfiteátrem a pobřežím s skalnatými břehy a oblázkovými zálivy. Návštěvníci hledající kombinaci archeologických nalezišť a dostupných pobřežních letovisek shledají oblast vhodnou pro krátký pobyt nebo jako základnu pro širší regionální průzkum.\n\nNejpříznivější podmínky jsou od konce května do září, kdy často jezdí trajekty a všechna turistická zařízení zůstávají otevřená. Léto přináší vysoké teploty a značné davy, zejména podél poloostrova Verudela. Návštěvníci, kteří upřednostňují nižší ceny ubytování a mírné počasí, by měli cílit na červen nebo září, aby se vyhnuli největšímu náporu v červenci a srpnu.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "Červen a září"
+    },
+    {
+      "label": "Teplota moře v srpnu",
+      "value": "25 °C až 27 °C"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Letiště Pula (PUY), 8 km od centra"
+    },
+    {
+      "label": "Hlavní typ pláže",
+      "value": "Oblázkové, skalnaté a betonové plošiny"
+    },
+    {
+      "label": "Cenová úroveň",
+      "value": "Průměrná pro Istrii, mírně pod Dubrovníkem"
+    },
+    {
+      "label": "Procházitelnost Starého Města",
+      "value": "Pěší zóna, omezený vjezd aut"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centrum Puly / Staré Město",
+      "bestFor": "Pro historicky zaměřené výlety, stravování a dopravní spojení",
+      "parking": "Obtížné; vyžaduje velká placená parkoviště mimo pěší zónu",
+      "beach": "2 až 3 km daleko (nutná jízda autobusem)",
+      "summary": "Historické jádro se soustředí kolem římského amfiteátru a fóra. Chybí mu přímý přístup na pláž, ale nabízí nejvyšší koncentraci restaurací, barů a muzeí."
+    },
+    {
+      "name": "Poloostrov Verudela",
+      "bestFor": "Pro rodiny a dovolenou v resortech",
+      "parking": "Dostatek u hotelů a na vyhrazených parkovištích resortů",
+      "beach": "Okamžitý přístup k oblázkovým zátokám (pláž Hawaii, Ambrela)",
+      "summary": "Nachází se 5 km jižně od centra a skládá se převážně z velkých resortových komplexů a pronájmů apartmánů. Nabízí některé z nejdostupnějších oblázkových pláží v Pule a místní akvárium."
+    },
+    {
+      "name": "Poloostrov Stoja",
+      "bestFor": "Pro kempaře a venkovní rekreaci",
+      "parking": "Snadné parkování na ulici a velké kempingové zázemí",
+      "beach": "Okamžitý přístup k skalnatému pobřeží a oblázkové pláži Valkane",
+      "summary": "Stoja leží západně od centra města a hostí velký kemp, nákupní centrum a skalnaté pobřežní stezky. Oblast je klidnější než Verudela a láká návštěvníky, kteří preferují vlastní stravování nebo kempování."
+    },
+    {
+      "name": "Pješčana Uvala",
+      "bestFor": "Pro páry a rodiny hledající klidnější vesnickou atmosféru",
+      "parking": "Omezené veřejné parkování; nejlépe zajištěné přes ubytování",
+      "beach": "Krátká procházka k chráněné zátoce se směsí oblázků a písku",
+      "summary": "Obytná osada ležící jižně od Puly, postavená kolem chráněné zátoky. Poskytuje uvolněnější alternativu k velkým resortům, s kvalitní místní pláží a několika restauracemi u vody."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Munich",
+      "car": "590 km, 6,5 hodiny přes A10 a A1. Vyžaduje rakouskou (AT) a slovinskou (SI) dálniční známku, plus tunel Karawanks a chorvatské (HR) mýtné.",
+      "other": "Přímý let s Lufthansou nebo sezónní Flixbus"
+    },
+    {
+      "from": "Vienna",
+      "car": "580 km, 6 hodin přes A2 a A1. Vyžaduje rakouskou (AT) a slovinskou (SI) dálniční známku, plus chorvatské (HR) mýtné.",
+      "other": "Přímý sezónní let s Ryanair nebo Austrian Airlines"
+    },
+    {
+      "from": "Budapest",
+      "car": "610 km, 6,5 hodiny přes M7 a chorvatské (HR) A4/A6. Vyžaduje maďarskou (HU) e-dálniční známku a chorvatské (HR) mýtné.",
+      "other": "Přímý autobus přes Flixbus"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "200 km, 2,5 hodiny přes A1. Vyžaduje slovinskou (SI) dálniční známku a chorvatské (HR) mýtné.",
+      "other": "Přímý denní autobus přes Nomago nebo Flixbus"
+    },
+    {
+      "from": "Prague",
+      "car": "880 km, 10 hodin přes českou (CZ) D1, rakouskou (AT) A9, slovinskou (SI) A1. Vyžaduje české (CZ), rakouské (AT), slovinské (SI) dálniční známky, plus tunel a chorvatské (HR) mýtné.",
+      "other": "Sezónní přímý let nebo vlak do Rijeky, následně autobus"
+    },
+    {
+      "from": "Kraków",
+      "car": "1050 km, 11 hodin přes polskou (PL) A4, českou (CZ) D1, rakouskou (AT) A1/A2, slovinskou (SI) A1. Vyžaduje české (CZ), rakouské (AT), slovinské (SI) dálniční známky, plus polské (PL) a chorvatské (HR) mýtné.",
+      "other": "Sezónní lety přes LOT/Ryanair nebo vícedílné autobusové trasy"
+    }
+  ],
+  "whenToGo": "Červen a září nabízejí nejlepší rovnováhu teplých mořských teplot (kolem 23 °C), mírných cen a menšího množství davů. V červenci a srpnu dosahují teploty moře vrcholu mezi 25 °C a 27 °C, což se shoduje s maximálními cenami ubytování, hustou dopravou a plně funkčními trajektovými řády. Květen a říjen nabízejí chladnější vody kolem 18 °C až 20 °C, což činí koupání méně spolehlivým, ačkoli hlavní archeologické památky zůstávají otevřené bez letního horka. Během zimních měsíců od listopadu do dubna teploty výrazně klesají, což přináší značné snížení cen, ale způsobuje, že mnoho pobřežních podniků, hotelů a sezónních leteckých linek zcela přerušuje provoz.",
+  "faq": [
+    {
+      "question": "Stojí Pula za návštěvu?",
+      "answer": "Ano, zejména díky své dobře zachovalé římské architektuře a dostupným pobřežním letoviskům. Funguje skvěle jako samostatná destinace nebo výchozí bod pro objevování Istrijského poloostrova."
+    },
+    {
+      "question": "Kolik dní potřebuji v Pule?",
+      "answer": "Dva až tři dny stačí na prohlídku města. To umožňuje jeden den na prohlídku amfiteátru a Starého Města a další den nebo dva na pláže nebo výlet lodí na Brijunské ostrovy."
+    },
+    {
+      "question": "Jaká je nejlepší pláž v Pule?",
+      "answer": "Pláž Hawaii na poloostrově Verudela je všeobecně považována za nejlepší možnost. Nabízí mírně se svažující oblázkové pobřeží, čistou vodu a je obklopena vysokými skalnatými útesy."
+    },
+    {
+      "question": "Potřebuji v Pule auto?",
+      "answer": "Auto není nutné, pokud se ubytujete ve Starém Městě nebo na poloostrově Verudela, protože místní autobusy tyto oblasti spolehlivě spojují. Vozidlo je však vysoce doporučeno pro návštěvu horských vesnic a odlehlých pláží v širším regionu Istrie."
+    },
+    {
+      "question": "Kde bych měl/a v Pule parkovat?",
+      "answer": "Parkoviště Karolina a Mandrač jsou nejpraktičtějšími možnostmi pro návštěvu centra. Obě jsou velká, placená, venkovní parkoviště, která se nacházejí hned za pěší zónou Starého Města, což minimalizuje jízdu úzkými jednosměrnými ulicemi."
+    },
+    {
+      "question": "Je Pula vhodná pro rodiny?",
+      "answer": "Ano, oblast poskytuje vynikající infrastrukturu pro cestování s dětmi. Poloostrov Verudela nabízí klidné, rodinné oblázkové pláže, mělké zóny pro koupání a atrakce jako Pula Aquarium."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Stručný přehled",
+    "whereToStay": "Kde se ubytovat v Pule",
+    "gettingThere": "Jak se dostat do Puly",
+    "whenToGo": "Kdy jet",
+    "guides": "Průvodci Puly",
+    "faq": "Často kladené otázky o Pule",
+    "groups": {
+      "gettingAround": "Parkování a doprava",
+      "planning": "Plánování a kde se ubytovat",
+      "timing": "Kdy jet",
+      "travelers": "Rodiny, páry a styly cestování",
+      "activities": "Pláže a co dělat",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": " Praktické informace"
+    },
+    "car": "Autem",
+    "other": "Jiné možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "pula",
+  "language": "cz",
+  "updatedAt": "2026-10-16T10:30:12.044Z"
+}

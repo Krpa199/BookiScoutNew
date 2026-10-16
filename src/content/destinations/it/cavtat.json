@@ -1,0 +1,146 @@
+{
+  "title": "Guida di viaggio di Cavtat: spiagge, parcheggio e dove alloggiare",
+  "metaDescription": "Pianifica il tuo viaggio a Cavtat, Croazia. Scopri dove alloggiare, come guidare dall'Europa Centrale, informazioni sul parcheggio e le migliori spiagge locali.",
+  "intro": "Cavtat è una città costiera nella Dalmazia meridionale, situata 20 chilometri a sud di Dubrovnik. Offre ai visitatori un'esperienza costiera più tranquilla e rilassata, mantenendo al contempo un facile accesso al centro storico di Dubrovnik tramite regolari imbarcazioni passeggeri e autobus regionali. La città è incentrata su una penisola boscosa con una passeggiata pianeggiante e pedonale, fiancheggiata da ristoranti, caffè e pini.\n\nLa destinazione è ideale per famiglie, viaggiatori anziani e coppie che preferiscono giornate rilassanti in spiaggia rispetto a una vita notturna attiva. L'estate è il periodo più popolare per visitarla, sebbene maggio e settembre offrano un clima confortevole per nuotare e prezzi degli alloggi più bassi. Un'auto non è necessaria se si soggiorna entro i limiti della città, ma è utile per esplorare la più ampia regione di Konavle o il vicino Montenegro.",
+  "quickFacts": [
+    {
+      "label": "Mesi migliori",
+      "value": "Da maggio a settembre"
+    },
+    {
+      "label": "Temperatura del mare ad agosto",
+      "value": "Da 25°C a 27°C"
+    },
+    {
+      "label": "Aeroporto più vicino",
+      "value": "Aeroporto di Dubrovnik (DBV), a 6 km di distanza"
+    },
+    {
+      "label": "Tipo di spiaggia principale",
+      "value": "Spiaggia di ciottoli e terrazze di cemento"
+    },
+    {
+      "label": "Livello di prezzo",
+      "value": "Superiore alla media, ma 10-15% più economico di Dubrovnik"
+    },
+    {
+      "label": "Pedonabilità",
+      "value": "Il centro storico è altamente pedonale e per lo più senza auto"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centro storico (Penisola di Rat)",
+      "bestFor": "Visitatori per la prima volta e coppie che preferiscono un facile accesso ai ristoranti",
+      "parking": "Molto limitato; parcheggio pubblico all'ingresso della città",
+      "beach": "5-10 minuti a piedi da punti balneabili rocciosi e di cemento",
+      "summary": "Il centro storico presenta case tradizionali in pietra, ristoranti e la passeggiata principale. Gli alloggi qui sono spesso a pochi passi dall'acqua ma generalmente privi di parcheggio privato."
+    },
+    {
+      "name": "Baia di Tiha (Uvala Tiha)",
+      "bestFor": "Famiglie e viaggiatori in cerca di accesso immediato alla spiaggia",
+      "parking": "Più facile da trovare, molti appartamenti offrono posti privati",
+      "beach": "Direttamente sulla spiaggia di Žal e sulle rive di ciottoli circostanti",
+      "summary": "Situata appena a nord della penisola, questa zona residenziale offre appartamenti moderni e piccoli hotel. Le principali spiagge di ciottoli si trovano lungo questa baia, rendendola estremamente comoda per nuotare."
+    },
+    {
+      "name": "Mećajac",
+      "bestFor": "Viaggiatori attenti al budget disposti a camminare in salita",
+      "parking": "Generalmente disponibile nella maggior parte degli alloggi privati",
+      "beach": "10-15 minuti a piedi fino alle baie principali",
+      "summary": "Questo quartiere si trova sulla collina sopra il centro storico, offrendo prezzi più bassi e spesso viste mare elevate. Tornare dal centro o dalla spiaggia richiede una ripida camminata in salita."
+    },
+    {
+      "name": "Obod",
+      "bestFor": "Viaggiatori con auto che preferiscono una base più tranquilla",
+      "parking": "Abbondante e solitamente incluso con l'alloggio",
+      "beach": "15-20 minuti a piedi in discesa, o un breve tragitto in auto",
+      "summary": "Un piccolo insediamento sulla strada costiera poco prima di entrare a Cavtat. Offre un ambiente tranquillo e facile accesso all'autostrada principale per gite di un giorno, ma richiede un mezzo di trasporto per raggiungere il centro di Cavtat."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monaco",
+      "car": "980 km, 11-12 ore via A8, A10, A1. Richiede vignette AT e SLO, pedaggi gallerie AT, pedaggi autostradali HR",
+      "other": "Voli diretti per l'Aeroporto di Dubrovnik (1.5 ore)"
+    },
+    {
+      "from": "Vienna",
+      "car": "820 km, 9-10 ore via A2, A4, A1. Richiede vignette AT e SLO, pedaggi autostradali HR. Il percorso utilizza il Ponte di Pelješac",
+      "other": "Voli diretti per l'Aeroporto di Dubrovnik (1.5 ore)"
+    },
+    {
+      "from": "Budapest",
+      "car": "750 km, 8-9 ore via M7 e A1. Richiede vignetta HU e pedaggi autostradali HR. Il percorso utilizza il Ponte di Pelješac",
+      "other": "Voli diretti stagionali (1.5 ore) o collegamenti in autobus"
+    },
+    {
+      "from": "Lubiana",
+      "car": "640 km, 7-8 ore via A2 e A1. Richiede vignetta SLO e pedaggi autostradali HR. Il percorso utilizza il Ponte di Pelješac",
+      "other": "Voli stagionali per Dubrovnik o autobus via Zagabria"
+    },
+    {
+      "from": "Praga",
+      "car": "1.150 km, 13-14 ore via CZ D1, AT A9, SLO A2, HR A1. Richiede vignette CZ, AT, SLO, pedaggi gallerie AT, pedaggi HR",
+      "other": "Voli diretti per l'Aeroporto di Dubrovnik (2 ore)"
+    },
+    {
+      "from": "Cracovia",
+      "car": "1.160 km, 13-14 ore via SK D1, HU M1/M7, HR A1. Richiede pedaggi PL, vignette SK e HU, pedaggi HR",
+      "other": "Voli diretti per l'Aeroporto di Dubrovnik via Ryanair o LOT"
+    }
+  ],
+  "whenToGo": "L'estate (luglio e agosto) è alta stagione con temperature del mare che raggiungono i 27°C, tutti i ristoranti e i traghetti operano a pieno regime e i prezzi degli alloggi sono i più alti. Giugno e settembre offrono un equilibrio più confortevole, con massime diurne intorno ai 25-28°C, meno folla e il mare ancora abbastanza caldo per nuotare. Maggio e ottobre sono significativamente più tranquilli ed economici, ma le temperature del mare si aggirano intorno ai 19-21°C e alcune attività stagionali o linee di traghetto potrebbero ridurre i loro orari o chiudere del tutto.",
+  "faq": [
+    {
+      "question": "Vale la pena visitare Cavtat?",
+      "answer": "Sì, è altamente raccomandata per coloro che desiderano una città costiera panoramica e rilassata piuttosto che una città trafficata. Offre un bellissimo porto, acqua limpida e facile accesso a Dubrovnik senza la pesante congestione turistica."
+    },
+    {
+      "question": "Quanti giorni servono a Cavtat?",
+      "answer": "Da tre a cinque giorni sono l'ideale per un rilassante soggiorno in spiaggia e una gita di un giorno a Dubrovnik. Se prevedi di esplorare il Montenegro, la penisola di Pelješac e le Isole Elafiti, una settimana intera è un'ottima base."
+    },
+    {
+      "question": "Qual è la migliore spiaggia di Cavtat?",
+      "answer": "La spiaggia di Žal è l'opzione più popolare, offrendo una lunga distesa di ciottoli, acqua bassa e servizi nelle vicinanze. Per un'esperienza più selvaggia, Sustjepan offre terrazze di cemento e punti balneabili rocciosi, mentre la famosa spiaggia di Pasjača, a picco sulla scogliera, si trova a 15 minuti di auto."
+    },
+    {
+      "question": "Serve l'auto a Cavtat?",
+      "answer": "No, non è necessaria un'auto se prevedi di rimanere in zona e utilizzare i frequenti autobus o traghetti per visitare Dubrovnik. Un'auto è necessaria solo se intendi esplorare in autonomia la più ampia regione di Konavle, i villaggi locali vicini o il Montenegro."
+    },
+    {
+      "question": "Dove posso parcheggiare a Cavtat?",
+      "answer": "Il parcheggio pubblico principale si trova all'ingresso del centro storico, accanto alla stazione degli autobus, e applica tariffe orarie o giornaliere. Poiché la penisola storica è in gran parte soggetta a restrizioni al traffico, assicurati che il tuo alloggio includa un parcheggio privato se viaggi in auto."
+    },
+    {
+      "question": "Cavtat è adatta alle famiglie?",
+      "answer": "Sì, è una delle destinazioni più adatte alle famiglie della regione. La passeggiata pianeggiante e pedonale è sicura per i bambini, e le acque calme e poco profonde delle spiagge di ciottoli locali sono eccellenti per i giovani nuotatori."
+    }
+  ],
+  "headings": {
+    "quickFacts": "A colpo d'occhio",
+    "whereToStay": "Dove alloggiare a Cavtat",
+    "gettingThere": "Come arrivare a Cavtat",
+    "whenToGo": "Quando andare",
+    "guides": "Guide di Cavtat",
+    "faq": "FAQ su Cavtat",
+    "groups": {
+      "gettingAround": "Parcheggio e spostamenti",
+      "planning": "Pianificazione e dove alloggiare",
+      "timing": "Quando andare",
+      "travelers": "Famiglie, coppie e stili di viaggio",
+      "activities": "Spiagge e cose da fare",
+      "food": "Cibo e bevande",
+      "comparisons": "Confronti",
+      "practical": "Info pratiche"
+    },
+    "car": "In auto",
+    "other": "Altre opzioni",
+    "bestFor": "Ideale per",
+    "parking": "Parcheggio",
+    "beach": "Spiaggia"
+  },
+  "destination": "cavtat",
+  "language": "it",
+  "updatedAt": "2026-10-16T15:02:10.814Z"
+}

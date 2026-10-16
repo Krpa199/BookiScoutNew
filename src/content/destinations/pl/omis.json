@@ -1,0 +1,146 @@
+{
+  "title": "Omiš: Przewodnik po plażach, parkingu i noclegach",
+  "metaDescription": "Zaplanuj swoją podróż do Omiša, Chorwacja. Porównaj dzielnice, piaszczyste plaże, trasy dojazdowe z Europy Środkowej oraz opcje parkowania na wakacje.",
+  "intro": "Omiš to nadmorskie miasteczko położone 25 kilometrów na południowy wschód od Splitu, u ujścia rzeki Cetina do Morza Adriatyckiego. Służy jako praktyczna baza dla podróżnych, którzy pragną zarówno relaksu na plaży, jak i aktywnych opcji na świeżym powietrzu, takich jak rafting po rzece czy wędrówki do twierdz Mirabella i Fortica. Bezpośrednia linia brzegowa wyróżnia się w Chorwacji naturalnymi piaszczystymi plażami, szczególnie w centrum miasta i sąsiednim Duće.\n\nKierunek ten przyciąga przede wszystkim rodziny potrzebujące płytkich wód oraz osoby podróżujące samochodem wzdłuż wybrzeża Dalmacji. Lipiec i sierpień przynoszą szczytowe temperatury i intensywny ruch na Drodze Adriatyckiej (D8), natomiast czerwiec i wrzesień oferują łagodniejszą pogodę, niższe ceny zakwaterowania i łatwiejsze parkowanie.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "Czerwiec i wrzesień"
+    },
+    {
+      "label": "Temperatura morza w sierpniu",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Lotnisko Split (SPU), 42 km odległości"
+    },
+    {
+      "label": "Główny typ plaży",
+      "value": "Piasek i drobny żwir"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "Umiarkowany (nieco poniżej chorwackiej średniej)"
+    },
+    {
+      "label": "Dostępność starego miasta dla pieszych",
+      "value": "Płaskie i całkowicie wyłączone z ruchu"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centrum Omiša (Donji Grad)",
+      "bestFor": "Osoby odwiedzające po raz pierwszy i podróżni bez samochodu",
+      "parking": "Płatne parkingi publiczne, latem trudno dostępne",
+      "beach": "0-500m do Velika Plaža (piasek)",
+      "summary": "Historyczne centrum charakteryzuje się wąskimi uliczkami, restauracjami i bezpośrednim dostępem do głównej plaży miejskiej. Zakwaterowanie składa się głównie z apartamentów, a poruszanie się w letnim tłoku jest nieuniknione."
+    },
+    {
+      "name": "Priko",
+      "bestFor": "Rodziny szukające spokojniejszych wieczorów w pobliżu centrum",
+      "parking": "Dostępny duży parking publiczny, kilka miejsc prywatnych",
+      "beach": "500m do 1km do głównych plaż",
+      "summary": "Położone tuż za mostem na rzece Cetina, naprzeciwko starego miasta. Oferuje łatwiejsze parkowanie i większe budynki apartamentowe, pozostając jednocześnie w odległości 10 minut spacerem od historycznego centrum."
+    },
+    {
+      "name": "Duće",
+      "bestFor": "Rodziny z małymi dziećmi i niemowlętami",
+      "parking": "Zazwyczaj zapewnione przez obiekty noclegowe",
+      "beach": "0-200m do płytkich, piaszczystych plaż",
+      "summary": "Sześciokilometrowy odcinek wybrzeża bezpośrednio na zachód od Omiša. Jest usiany ciągłymi piaszczystymi plażami i płytkimi wodami, skupia się głównie na apartamentach wakacyjnych i barach plażowych."
+    },
+    {
+      "name": "Nemira i Stanići",
+      "bestFor": "Pary i podróżni szukający spokojnych żwirowych plaż",
+      "parking": "Niezbędny prywatny parking na miejscu",
+      "beach": "0-300m do stromych żwirowych zatoczek",
+      "summary": "Wioski położone od 3 do 5 kilometrów na południe od Omiša wzdłuż Riwiery. Teren jest stromy, opadający do malowniczych żwirowych plaż z czystą wodą, z dala od piaszczystych płycizn miasta."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monachium",
+      "car": "850 km, 9-10 godzin przez A8, Tauernautobahn (A10) i chorwacką A1. Wymaga winiet AT i SI, a także opłat za tunel AT i chorwackie autostrady.",
+      "other": "Lot do Splitu (SPU), a następnie autobus lub prywatny transfer."
+    },
+    {
+      "from": "Wiedeń",
+      "car": "770 km, 8 godzin przez A2, SI A1/A4 i chorwacką A1. Wymaga winiet AT i SI, a także opłat za chorwackie autostrady.",
+      "other": "Lot do Splitu (SPU) lub bezpośredni FlixBus do Splitu/Omiša."
+    },
+    {
+      "from": "Budapeszt",
+      "car": "760 km, 7.5 godziny przez M7 i chorwacką A4/A1. Wymaga węgierskiej winiety i chorwackich opłat za autostrady.",
+      "other": "Bezpośredni FlixBus do Splitu lub sezonowy lot do Splitu (SPU)."
+    },
+    {
+      "from": "Lublana",
+      "car": "500 km, 5.5 godziny przez A1 do Zagrzebia, a następnie chorwacką A1. Wymaga słoweńskiej winiety i chorwackich opłat za autostrady.",
+      "other": "FlixBus lub autobus Nomago do Splitu, a następnie lokalny autobus do Omiša."
+    },
+    {
+      "from": "Praga",
+      "car": "1 070 km, 11-12 godzin przez Wiedeń/Graz lub Linz/Graz, a następnie chorwacką A1. Wymaga winiet CZ, AT i SI, a także chorwackich opłat za autostrady.",
+      "other": "Lot do Splitu (SPU) liniami Smartwings lub Croatia Airlines."
+    },
+    {
+      "from": "Kraków",
+      "car": "1 050 km, 11 godzin przez Słowację, Węgry (M1/M7) i chorwacką A1. Wymaga winiet SK i HU, a także chorwackich opłat za autostrady.",
+      "other": "Lot do Splitu (SPU) liniami Ryanair lub Wizz Air."
+    }
+  ],
+  "whenToGo": "Morze osiąga temperaturę od 25°C do 27°C w lipcu i sierpniu, przyciągając największe tłumy i najwyższe ceny zakwaterowania, choć wszystkie restauracje, bary plażowe i rejsy po rzece działają z pełną wydajnością. Czerwiec i wrzesień oferują łagodniejsze temperatury około 23°C do 25°C do pływania, znacznie zmniejszony ruch na drodze przybrzeżnej D8 i niższe ceny pokoi. Od listopada do kwietnia miasto w dużej mierze zamyka się dla turystyki; temperatury morza spadają poniżej 15°C, większość sezonowych restauracji zamyka się, a częste wiatry Bora sprawiają, że wybrzeże jest zimne i ciche.",
+  "faq": [
+    {
+      "question": "Czy warto odwiedzić?",
+      "answer": "Tak, jeśli szukasz połączenia piaszczystych plaż, historycznych fortec i aktywnych wycieczek rzecznych. Bliskość wąwozu rzeki Cetina do morza sprawia, że krajobraz wyróżnia się na tle typowych dalmatyńskich miast."
+    },
+    {
+      "question": "Ile dni potrzeba?",
+      "answer": "Trzy do pięciu dni to wystarczająco dużo czasu, aby zwiedzić historyczne centrum, odwiedzić twierdze i wziąć udział w spływie rzecznym. Wielu turystów zostaje na tydzień lub dłużej, wykorzystując miasto jako bazę do codziennego relaksu na plaży."
+    },
+    {
+      "question": "Która plaża jest najlepsza?",
+      "answer": "Velika Plaža (znana również jako Punta) to główna plaża miejska, słynąca z rozległego piasku i płytkiego wejścia do wody. W przypadku ciągłych piaszczystych odcinków, sąsiednia wioska Duće oferuje kilka kilometrów rodzinnego wybrzeża."
+    },
+    {
+      "question": "Czy potrzebuję samochodu?",
+      "answer": "Samochód nie jest wymagany, jeśli twoje zakwaterowanie znajduje się w centrum Omiša lub Duće, ponieważ lokalne autobusy łączą się ze Splitem, a operatorzy wycieczek zajmują się transportem rzecznym. Pojazd jest zalecany do zwiedzania szerszej Riwiery lub jeśli zatrzymujesz się w bardziej stromych wioskach, takich jak Stanići."
+    },
+    {
+      "question": "Gdzie zaparkować?",
+      "answer": "Główny parking miejski działa wzdłuż nadmorskiej drogi Fošal, natomiast większy, nieutwardzony parking znajduje się po drugiej stronie rzeki w Priko. W lipcu i sierpniu miejsca te często zapełniają się przed godziną 9:00, co sprawia, że wcześniejsze uzgodnienie parkingu przy zakwaterowaniu jest kluczowe."
+    },
+    {
+      "question": "Czy jest dobre dla rodzin?",
+      "answer": "Tak, jest bardzo odpowiednie dla rodzin ze względu na rzadkie piaszczyste plaże z płytkimi strefami do brodzenia. Starsze dzieci często czerpią przyjemność z pirackiej historii twierdz i raftingu na rzece Cetina, odpowiedniego dla początkujących."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Gdzie zatrzymać się w Omišu",
+    "gettingThere": "Dojazd do Omiša",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Omišu",
+    "faq": "Omiš – Najczęściej zadawane pytania",
+    "groups": {
+      "gettingAround": "Parking i poruszanie się",
+      "planning": "Planowanie i gdzie się zatrzymać",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróżowania",
+      "activities": "Plaże i co robić",
+      "food": "Jedzenie i napoje",
+      "comparisons": "Porównania",
+      "practical": "Informacje praktyczne"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "omis",
+  "language": "pl",
+  "updatedAt": "2026-10-16T11:22:54.704Z"
+}

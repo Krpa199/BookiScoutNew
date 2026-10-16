@@ -1,0 +1,146 @@
+{
+  "title": "Rab útikönyv: Strandok, parkolás és szálláshelyek",
+  "metaDescription": "Tervezze meg utazását Rabra, Horvátországba. Hasonlítsa össze a szálláshelyeket, találjon útvonalakat Közép-Európából, és kapjon gyakorlati információkat a parkolásról és a homokos strandokról.",
+  "intro": "Rab vonzza azokat az utazókat, akik homokos strandokat, fenyőerdőket és egy megőrzött középkori óvárost keresnek. Sok sziklás vagy kavicsos partvidékkel rendelkező horvát szigettel ellentétben Rab kiterjedt homokos öblökkel rendelkezik, különösen az északi Lopar-félszigeten, ami rendkívül praktikussá teszi kisgyermekes családok számára. A délnyugati partvidék sűrű fenyveseket és eldugott öblöket kínál pároknak és aktív utazóknak.\n\nA főszezon júniustól szeptemberig tart. Július és augusztus a legmelegebb tengeri hőmérsékletet és az éttermek teljes működését hozza el, de zsúfolt utakat és csúcsidőszaki várakozási időt jelent a szárazföldi kompoknál. Május és október azoknak az utazóknak kedvez, akik túrázni és kerékpározni szeretnének, bár a tenger hőmérséklete hűvös marad, és néhány helyi vállalkozás csökkentett órákkal üzemel.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Júniustól szeptemberig"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Rijeka (RJK), 60 km (komppal együtt)"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Homokos északon, sziklás/kavicsos máshol"
+    },
+    {
+      "label": "Árszint",
+      "value": "Mérsékelt (hasonló Krkhoz, olcsóbb, mint Hvar)"
+    },
+    {
+      "label": "Óvárosközpont",
+      "value": "Csak gyalogos (autómentes)"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Rab város",
+      "bestFor": "Történelem, étkezés és esti hangulat",
+      "parking": "Fizetős városi parkolók a városfalakon kívül",
+      "beach": "A városi strand kicsi/kavicsos; jobb strandok autóval vagy taxihajóval érhetők el",
+      "summary": "A sziget történelmi és kulturális központja. Az itt tartózkodás azonnali hozzáférést biztosít az éttermekhez és látnivalókhoz, de a gyalogos zónán kívüli parkolást igényel."
+    },
+    {
+      "name": "Lopar",
+      "bestFor": "Kisgyermekes családoknak",
+      "parking": "A legtöbb szálláshely ingyenes helyszíni parkolót biztosít",
+      "beach": "A Rajska Plaža (Paradicsom strand) mellett, egy 1,5 km hosszú homokos strand",
+      "summary": "Északon található, ez a terület tengerparti üdülőhelyként funkcionál. Hiányzik belőle a történelmi építészet, de Horvátország legkönnyebben megközelíthető sekély homokos partvidékét kínálja."
+    },
+    {
+      "name": "Suha Punta",
+      "bestFor": "Pároknak, természetkedvelőknek és árnyékot keresőknek",
+      "parking": "Általában bőséges ingyenes parkolás a szállodáknál és apartmanoknál",
+      "beach": "Sziklás és kavicsos öblök, sok közülük fenyőfák árnyékában",
+      "summary": "Csendes, erdős félsziget természetjáró ösvényekkel és tiszta vízzel. Autóra vagy kerékpárra van szükség Rab város fő étkezési lehetőségeinek eléréséhez."
+    },
+    {
+      "name": "Banjol és Barbat",
+      "bestFor": "Tengerre néző kilátás és hajóval érkező utazók számára",
+      "parking": "Általában a magánapartmanok árában benne van",
+      "beach": "Kavicsos strandok és kisebb homokos szakaszok",
+      "summary": "Ezek a szomszédos tengerparti települések Rab városától délre húzódnak. Egy tengerparti sétányon keresztül kapcsolódnak a központhoz, egyensúlyt kínálva a strandhoz való hozzáférés és a város közelsége között."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "550 km, ~7.5 óra Salzburgon, Villachon, Ljubljanán, Rijekán és a Stinica kompnál keresztül. Osztrák és szlovén matricát, Karawankák alagút díjat, horvát útdíjat igényel.",
+      "other": "Vonat vagy FlixBus Rijekába, majd Jadrolinija katamarán Rab városba."
+    },
+    {
+      "from": "Bécs",
+      "car": "530 km, ~6.5 óra Grazon, Mariboron, Zágrábon, A1-esen Žuta Lokváig és a Stinica kompnál keresztül. Osztrák és szlovén matricát, horvát útdíjat igényel.",
+      "other": "Vonat vagy busz Zágrábba, majd közvetlen buszjárat Rabra."
+    },
+    {
+      "from": "Budapest",
+      "car": "520 km, ~6 óra az M7-esen Letenyéig, Zágrábon, A1-esen Žuta Lokváig és a Stinica kompnál keresztül. Magyar e-matricát, horvát útdíjat igényel.",
+      "other": "FlixBus Zágrábba, majd csatlakozó busz Rabra."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "160 km, ~3 óra Postojna, Ilirska Bistrica, Rijeka és a Stinica kompnál keresztül. Szlovén matricát, horvát útdíjat igényel.",
+      "other": "Busz Rijekába, majd katamarán Rab városba."
+    },
+    {
+      "from": "Prága",
+      "car": "850 km, ~10 óra Brnón, Bécsen, Grazon, Zágrábon, A1-esen és a Stinica kompnál keresztül. Cseh, osztrák és szlovén matricát, horvát útdíjat igényel.",
+      "other": "Vonat vagy busz Rijekába/Zágrábba, majd tovább busz/katamarán Rabra."
+    },
+    {
+      "from": "Krakkó",
+      "car": "920 km, ~10.5 óra Ostraván, Brnón, Bécsen, Zágrábon, A1-esen és a Stinica kompnál keresztül. Lengyel, cseh, osztrák és szlovén matricát/útdíjat, horvát útdíjat igényel.",
+      "other": "Repülőút Zárába (ZAD), majd busz Zenggbe és kompra, vagy bérelt autó."
+    }
+  ],
+  "whenToGo": "Júniustól szeptemberig a legmegbízhatóbb hónapok az úszásra, a tenger hőmérséklete augusztusban éri el a csúcsot, 25°C és 27°C között. Július és augusztus a legmagasabb árakat, a Paradicsom strand zsúfoltságát és potenciális várakozási időket hoz a Stinica és Valbiska kompoknál. Június és szeptember egyensúlyt kínál a meleg víz, az alacsonyabb szállásdíjak és a teljesen működő éttermek között, a nyári főszezon zsúfoltsága nélkül. Novembertől áprilisig a sziget csendes, sok turisztikai célú étterem és szálloda bezár, és az időjárás gyakran túl hideg vagy szeles a strandtevékenységekhez.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni Rabot?",
+      "answer": "Igen, elsősorban a homokos strandok és sűrű fenyőerdők különleges tája miatt. Egy jól megőrzött középkori várost kínál sekély öblök mellett, amelyek ritkák más horvát szigeteken."
+    },
+    {
+      "question": "Hány napra van szükségem Rabon?",
+      "answer": "Négy-hét nap ideális. Ez elegendő időt biztosít Rab város felfedezésére, néhány nap eltöltésére Lopar és Suha Punta különböző strandjain, valamint egy helyi hajókirándulásra."
+    },
+    {
+      "question": "Melyik a legjobb strand Rabon?",
+      "answer": "A Loparban található Rajska Plaža (Paradicsom strand) a legnépszerűbb az 1,5 kilométeres sekély homokja miatt. Csendesebb, árnyékos helyekért a Suha Punta félsziget sziklás és kavicsos öblei ajánlottak."
+    },
+    {
+      "question": "Szükséges autó Rabon?",
+      "answer": "Autó erősen ajánlott az óváros, az északi homokos strandok és az erdős területek közötti utazáshoz. Bár Rab város gyalogosan is bejárható, kizárólag a helyi buszokra hagyatkozva korlátozott a rugalmasság."
+    },
+    {
+      "question": "Hol parkolhatok Rab városban?",
+      "answer": "A látogatóknak a városfalakon kívül található nagy, fizetős városi parkolókat kell használniuk. Maga a történelmi központ gyalogos zóna, korlátozott járműbehajtással."
+    },
+    {
+      "question": "Jó Rab családoknak?",
+      "answer": "Igen, Rab Horvátország egyik legcsaládbarátabb szigete. A Loparban található sekély, homokos strandok lehetővé teszik a kisgyermekek számára a biztonságos gázolást, és a szigeten általában hiányzik a máshol megtalálható meredek, sziklák melletti hozzáférés."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Ránézésre",
+    "whereToStay": "Hol szálljunk meg Rabon",
+    "gettingThere": "Hogyan juthatunk el Rabra",
+    "whenToGo": "Mikor érdemes utazni",
+    "guides": "Rab útmutatók",
+    "faq": "Gyakran ismételt kérdések Rabról",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor utazzunk",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Ételek és italok",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "rab",
+  "language": "hu",
+  "updatedAt": "2026-10-16T13:00:37.165Z"
+}

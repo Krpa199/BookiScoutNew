@@ -1,0 +1,146 @@
+{
+  "title": "Novi Vinodolski: Guía de Viaje, Playas, Aparcamiento y Alojamiento",
+  "metaDescription": "Planifica tu viaje a Novi Vinodolski, Croacia. Descubre las mejores playas, barrios, rutas en coche desde Europa Central, detalles de aparcamiento y consejos de viaje.",
+  "intro": "Novi Vinodolski es una ciudad costera en el golfo de Kvarner, que combina un casco antiguo medieval con una animada Riviera. Atrae a familias, parejas y viajeros en coche que buscan unas vacaciones de verano croatas clásicas con un precio ligeramente inferior al de las vecinas Crikvenica u Opatija. La ciudad es conocida por su importancia histórica como hogar del Estatuto de Vinodol del siglo XIII y su mezcla de playas de guijarros y plataformas de baño de hormigón.\n\nLa época más popular para visitar es de junio a septiembre, cuando el Adriático está lo suficientemente cálido para nadar y los restaurantes de temporada y los chiringuitos están en pleno funcionamiento. Julio y agosto traen las temperaturas más altas y la mayor afluencia de gente. La primavera y el otoño son adecuados para hacer senderismo y ciclismo en el cercano valle de Vinodol, aunque el mar suele estar demasiado frío para la mayoría de los bañistas.",
+  "quickFacts": [
+    {
+      "label": "Mejores meses",
+      "value": "De junio a septiembre"
+    },
+    {
+      "label": "Temperatura del mar en agosto",
+      "value": "24°C - 25°C"
+    },
+    {
+      "label": "Aeropuerto más cercano",
+      "value": "Rijeka (RJK), 30 km"
+    },
+    {
+      "label": "Tipo de playa principal",
+      "value": "Guijarros y plataformas de hormigón"
+    },
+    {
+      "label": "Nivel de precios",
+      "value": "Ligeramente por debajo de la media costera croata"
+    },
+    {
+      "label": "Casco antiguo",
+      "value": "Transitable a pie, en gran parte sin coches y con calles empinadas"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centro Urbano y Casco Antiguo",
+      "bestFor": "Historia, gastronomía y paseos nocturnos",
+      "parking": "Aparcamientos públicos de pago en el extrarradio; centro sin coches",
+      "beach": "10-15 minutos a pie cuesta abajo hasta el mar",
+      "summary": "El centro histórico se asienta en una colina, con calles estrechas de piedra, el Castillo de Frankopan y la iglesia principal. Ofrece acceso inmediato a restaurantes y tiendas locales, pero requiere una caminata hasta las playas."
+    },
+    {
+      "name": "Lišanj y Paseo Marítimo",
+      "bestFor": "Familias y amantes de la playa",
+      "parking": "Garajes de hotel y aparcamiento de pago en la calle",
+      "beach": "Acceso inmediato a la playa de Lišanj (guijarros/hormigón)",
+      "summary": "Situada justo al sur del casco antiguo, esta zona se centra en los principales complejos hoteleros y el paseo marítimo. Ofrece acceso directo a deportes acuáticos, tumbonas y parques infantiles."
+    },
+    {
+      "name": "Povile",
+      "bestFor": "Parejas y quienes buscan una estancia tranquila",
+      "parking": "Normalmente aparcamiento privado gratuito en los alojamientos",
+      "beach": "Acceso inmediato a calas rocosas y de guijarros",
+      "summary": "Povile es un pequeño pueblo costero situado a unos 2 kilómetros al sur de Novi Vinodolski. Ofrece un ambiente mucho más tranquilo, acceso directo al mar y menos aglomeraciones durante los meses pico de verano."
+    },
+    {
+      "name": "Bribir y Valle de Vinodol",
+      "bestFor": "Senderistas, ciclistas y retiros rurales",
+      "parking": "Amplio aparcamiento gratuito",
+      "beach": "10-15 minutos en coche hasta la costa",
+      "summary": "Situado tierra adentro desde la costa, el Valle de Vinodol ofrece un telón de fondo montañoso con casas rurales y temperaturas nocturnas más frescas. Es ideal para viajeros activos a quienes no les importa conducir hasta la playa."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Múnich",
+      "car": "560 km, 6.5 horas vía A8, A10 y A2. Requiere viñetas austriacas y eslovenas, además de peaje del túnel de Karawanken",
+      "other": "Vuelos de temporada a Rijeka o autobús de larga distancia"
+    },
+    {
+      "from": "Viena",
+      "car": "520 km, 5.5 horas vía A2 a Graz, Maribor y Liubliana. Requiere viñetas austriacas y eslovenas",
+      "other": "Autobús a Rijeka, luego una conexión de autobús local"
+    },
+    {
+      "from": "Budapest",
+      "car": "520 km, 5 horas vía M7 a Zagreb, luego A1/A6 a Rijeka. Requiere viñeta electrónica húngara y peajes croatas",
+      "other": "Autobús o tren a Zagreb, con conexión a Novi Vinodolski"
+    },
+    {
+      "from": "Liubliana",
+      "car": "150 km, 2.5 horas vía A1 a Postojna, luego paso fronterizo de Rupa. Requiere viñeta eslovena y pequeño peaje croata",
+      "other": "Autobús a Rijeka, luego un autobús local directo"
+    },
+    {
+      "from": "Praga",
+      "car": "850 km, 9 horas vía Viena/Graz o Linz/Salzburgo. Requiere viñetas CZ, AT y SLO",
+      "other": "Tren nocturno o autobús a Rijeka"
+    },
+    {
+      "from": "Cracovia",
+      "car": "930 km, 10 horas vía Eslovaquia, Hungría (M1/M7) y Zagreb. Requiere viñetas SK y HU, además de peajes croatas",
+      "other": "Vuelo de Cracovia a Zadar o Viena, luego autobús"
+    }
+  ],
+  "whenToGo": "La temporada de verano, de junio a septiembre, es la mejor época para unas vacaciones de playa, siendo julio y agosto los meses de mayor afluencia de gente, precios más altos y temperaturas del mar que alcanzan los 24-25°C. Junio y septiembre ofrecen un ambiente más tranquilo, tarifas de alojamiento ligeramente más bajas y temperaturas agradables del mar en torno a los 22-23°C. Todas las instalaciones frente a la playa, restaurantes y excursiones funcionan a pleno rendimiento durante estos meses. De octubre a mayo, la ciudad está muy tranquila, muchos negocios orientados al turismo cierran y la temperatura del mar desciende a 11-15°C, lo que la hace adecuada solo para practicar senderismo o para un viaje de paso.",
+  "faq": [
+    {
+      "question": "¿Vale la pena visitar Novi Vinodolski?",
+      "answer": "Sí, vale la pena visitarlo para una experiencia clásica del golfo de Kvarner. Combina un casco antiguo histórico con playas de guijarros y hormigón bien equipadas a un precio ligeramente inferior al de la cercana Opatija."
+    },
+    {
+      "question": "¿Cuántos días debería quedarme en Novi Vinodolski?",
+      "answer": "De tres a siete días es ideal. Una estancia de tres días te permite explorar la ciudad y relajarte en la playa, mientras que una semana te da tiempo para excursiones de un día a la isla de Krk o a los Lagos de Plitvice."
+    },
+    {
+      "question": "¿Cuál es la mejor playa de Novi Vinodolski?",
+      "answer": "La playa de Lišanj es la opción más popular. Ofrece una mezcla de guijarros, arena y plataformas de hormigón, junto con sombra de pinos, parques infantiles y deportes acuáticos."
+    },
+    {
+      "question": "¿Necesito un coche en Novi Vinodolski?",
+      "answer": "Un coche no es estrictamente necesario si te alojas cerca del centro o de la playa de Lišanj, ya que las principales zonas son accesibles a pie. Sin embargo, se recomienda encarecidamente un vehículo para explorar los pueblos cercanos o el interior de Vinodol."
+    },
+    {
+      "question": "¿Dónde puedo aparcar en Novi Vinodolski?",
+      "answer": "La ciudad cuenta con unas 15 zonas de aparcamiento público, incluyendo el puerto y espacios cerca del casco antiguo, todas ellas con tarifas de junio a septiembre. Confirma siempre si tu alojamiento ofrece un lugar dedicado, especialmente porque el casco antiguo es peatonal."
+    },
+    {
+      "question": "¿Es Novi Vinodolski bueno para familias?",
+      "answer": "Sí, la ciudad es muy adecuada para familias. Las principales playas tienen entradas poco profundas y centros de actividades, y los paseos marítimos son seguros y accesibles para carritos de bebé."
+    }
+  ],
+  "headings": {
+    "quickFacts": "De un vistazo",
+    "whereToStay": "Dónde alojarse en Novi Vinodolski",
+    "gettingThere": "Cómo llegar a Novi Vinodolski",
+    "whenToGo": "Cuándo ir",
+    "guides": "Guías de Novi Vinodolski",
+    "faq": "Preguntas frecuentes sobre Novi Vinodolski",
+    "groups": {
+      "gettingAround": "Aparcamiento y cómo moverse",
+      "planning": "Planificación y dónde alojarse",
+      "timing": "Cuándo ir",
+      "travelers": "Familias, parejas y estilos de viaje",
+      "activities": "Playas y cosas que hacer",
+      "food": "Comida y bebida",
+      "comparisons": "Comparaciones",
+      "practical": "Información práctica"
+    },
+    "car": "En coche",
+    "other": "Otras opciones",
+    "bestFor": "Mejor para",
+    "parking": "Aparcamiento",
+    "beach": "Playa"
+  },
+  "destination": "novi-vinodolski",
+  "language": "es",
+  "updatedAt": "2026-10-16T12:48:36.920Z"
+}

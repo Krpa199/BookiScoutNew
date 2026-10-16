@@ -1,0 +1,146 @@
+{
+  "title": "Cres - Guida di viaggio: spiagge, parcheggio e dove alloggiare",
+  "metaDescription": "Organizza il tuo viaggio a Cres, Croazia. Scopri le migliori zone dove alloggiare, le spiagge più vicine, i percorsi in auto dall'Europa Centrale e informazioni pratiche sul parcheggio.",
+  "intro": "Cres attira i viaggiatori che cercano un'alternativa più tranquilla e focalizzata sulla natura rispetto alle località costiere della Croazia pesantemente sviluppate. L'isola è nota per le sue ripide scogliere, le calette di ciottoli e le fitte foreste, mentre Cres Città funge da centro principale con la sua architettura in stile veneziano e il vivace porto peschereccio. I visitatori utilizzano tipicamente la città come base per esplorare spiagge remote e sentieri escursionistici in tutta l'isola.\n\nLa stagione turistica principale va da giugno a settembre. Luglio e agosto portano le temperature del mare più calde e gli orari dei traghetti più affidabili, ma anche i prezzi più alti e le folle più numerose. Maggio e ottobre offrono un clima più fresco adatto per escursioni a piedi e in bicicletta, anche se le temperature del mare sono spesso troppo basse per nuotare e alcuni ristoranti stagionali chiudono.",
+  "quickFacts": [
+    {
+      "label": "Mesi migliori",
+      "value": "Giugno a settembre"
+    },
+    {
+      "label": "Temperatura del mare ad agosto",
+      "value": "Da 24°C a 26°C"
+    },
+    {
+      "label": "Aeroporto più vicino",
+      "value": "Aeroporto di Rijeka (RJK), 45 km (traghetto incluso)"
+    },
+    {
+      "label": "Tipo principale di spiaggia",
+      "value": "Calette di ciottoli e rocciose"
+    },
+    {
+      "label": "Livello prezzi",
+      "value": "Leggermente sotto la media delle isole croate"
+    },
+    {
+      "label": "Centro storico",
+      "value": "Interamente pedonale / senza auto"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Cres Città Vecchia",
+      "bestFor": "Ristorazione, storia e viaggiatori senza auto",
+      "parking": "Parcheggi pubblici a pagamento fuori dalla zona pedonale",
+      "beach": "10-15 minuti a piedi da Melin o Grabar",
+      "summary": "Il centro storico presenta vicoli stretti, facciate veneziane e un porto fiancheggiato da caffè. Offre la più alta concentrazione di ristoranti e negozi, sebbene le sistemazioni siano per lo più appartamenti piuttosto che grandi hotel."
+    },
+    {
+      "name": "Melin",
+      "bestFor": "Famiglie e amanti della spiaggia",
+      "parking": "La maggior parte degli appartamenti offre parcheggio privato",
+      "beach": "Accesso diretto alla Spiaggia di Melin (ciottoli/cemento)",
+      "summary": "Situato a nord-ovest della Città Vecchia, questo quartiere residenziale si estende lungo una curata passeggiata sul mare. Offre facile accesso a spiagge di ciottoli adatte alle famiglie e ai servizi del campeggio nelle vicinanze."
+    },
+    {
+      "name": "Grabar",
+      "bestFor": "Soggiorni più tranquilli con vista mare",
+      "parking": "I vialetti privati sono comuni",
+      "beach": "2-5 minuti a piedi dalle calette di ciottoli di Grabar",
+      "summary": "Situato a sud del centro città, Grabar è un quartiere collinare composto principalmente da affitti di appartamenti moderni. Offre vicinanza a spiagge di ciottoli più tranquille, mentre la Città Vecchia è raggiungibile con una passeggiata di 15 minuti lungo il sentiero costiero."
+    },
+    {
+      "name": "Valun",
+      "bestFor": "Coppie, disintossicazione digitale, fuga dalla folla",
+      "parking": "Ampio parcheggio a pagamento all'ingresso del villaggio",
+      "beach": "Due spiagge di ciottoli all'interno del villaggio",
+      "summary": "Un piccolo villaggio di pescatori situato 15 chilometri a sud di Cres Città. È interamente pedonale e presenta una manciata di ristoranti di pesce, rendendolo ideale per una vacanza al mare molto rilassante e statica."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monaco",
+      "car": "550 km, ~6,5 ore via Salisburgo, Villach, Lubiana e traghetto Brestova-Porozina. Richiede vignetta AT, pedaggio Karawanken, vignetta SLO e biglietto del traghetto.",
+      "other": "Treno per Rijeka, poi catamarano per Cres Città"
+    },
+    {
+      "from": "Vienna",
+      "car": "520 km, ~6 ore via Graz, Maribor, Zagabria, ponte di Krk e traghetto Valbiska-Merag. Richiede vignette AT e SLO, pedaggi HR e biglietto del traghetto.",
+      "other": "Volo diretto per Rijeka (Krk), poi autobus per il traghetto"
+    },
+    {
+      "from": "Budapest",
+      "car": "550 km, ~6 ore via Zagabria, Rijeka, ponte di Krk e traghetto Valbiska-Merag. Richiede vignetta HU, pedaggi HR e biglietto del traghetto.",
+      "other": "FlixBus per Rijeka, poi catamarano locale per Cres"
+    },
+    {
+      "from": "Lubiana",
+      "car": "160 km, ~2,5 ore via Postumia, Ilirska Bistrica e traghetto Brestova-Porozina. Richiede vignetta SLO e biglietto del traghetto.",
+      "other": "Autobus per Rijeka (~2,5 ore), poi traghetto passeggeri"
+    },
+    {
+      "from": "Praga",
+      "car": "850 km, ~9,5 ore via Brno, Vienna, Graz, Zagabria, ponte di Krk e traghetto Valbiska-Merag. Richiede vignette CZ, AT, SLO, pedaggi HR e biglietto del traghetto.",
+      "other": "Treno/autobus RegioJet per Rijeka (estate), poi traghetto"
+    },
+    {
+      "from": "Cracovia",
+      "car": "950 km, ~10,5 ore via Ostrava, Brno, Vienna, Graz, Zagabria, ponte di Krk e traghetto Valbiska-Merag. Richiede pedaggi PL, vignette CZ, AT, SLO, pedaggi HR e biglietto del traghetto.",
+      "other": "Volo per Vienna/Monaco, coincidenza per Rijeka, poi traghetto"
+    }
+  ],
+  "whenToGo": "La stagione a Cres raggiunge il suo culmine a luglio e agosto, portando il clima più caldo, temperature del mare che raggiungono i 26°C, strutture turistiche completamente operative e i prezzi degli alloggi più elevati. Le folle sono evidenti ma generalmente più piccole rispetto alle vicine Krk o Lošinj. Giugno e settembre offrono un eccellente equilibrio tra clima caldo, temperature del mare piacevoli per nuotare e tariffe di noleggio più basse. Maggio e ottobre vedono un calo significativo di visitatori; sebbene ideali per l'escursionismo e il ciclismo nell'interno selvaggio dell'isola, il mare è spesso troppo freddo per nuotare e molti ristoranti locali e operatori turistici chiudono per la bassa stagione.",
+  "faq": [
+    {
+      "question": "Vale la pena visitare Cres?",
+      "answer": "Sì, Cres è altamente consigliata per i viaggiatori che preferiscono la natura, le escursioni e le tranquille calette di ciottoli rispetto alla vita notturna e ai grandi resort. Mantiene un carattere selvaggio e non sviluppato rispetto alle isole più commercializzate della Croazia."
+    },
+    {
+      "question": "Quanti giorni servono a Cres?",
+      "answer": "Da tre a cinque giorni è il periodo ideale per una visita standard. Questo permette di avere abbastanza tempo per esplorare Cres Città, visitare il villaggio collinare di Lubenice e trascorrere qualche giorno di relax su spiagge remote come Mali Bok o Sveti Ivan."
+    },
+    {
+      "question": "Qual è la migliore spiaggia a Cres?",
+      "answer": "Sveti Ivan, situata sotto il villaggio di Lubenice, è ampiamente considerata la migliore spiaggia dell'isola. Richiede una ripida camminata di 45 minuti per essere raggiunta, garantendo che raramente sia affollata anche in piena estate."
+    },
+    {
+      "question": "Serve l'auto a Cres?",
+      "answer": "Sì, l'auto è praticamente essenziale se si desidera esplorare i villaggi remoti dell'isola, i punti panoramici e le famose spiagge nascoste. Gli autobus pubblici esistono ma passano di rado e non raggiungono i punti costieri più panoramici."
+    },
+    {
+      "question": "Dove parcheggiare a Cres Città?",
+      "answer": "La Città Vecchia è esclusivamente pedonale, quindi i visitatori devono parcheggiare fuori dal centro storico. Il parcheggio comunale principale si trova vicino alla stazione degli autobus e al porto, e applica una tariffa oraria o giornaliera durante i mesi estivi."
+    },
+    {
+      "question": "Cres è adatta alle famiglie?",
+      "answer": "Sì, in particolare per le famiglie che amano il campeggio e le attività all'aperto. Aree come Melin offrono eccellenti infrastrutture adatte alle famiglie, spiagge di ciottoli poco profonde e passeggiate sicure e senza auto."
+    }
+  ],
+  "headings": {
+    "quickFacts": "In breve",
+    "whereToStay": "Dove alloggiare a Cres",
+    "gettingThere": "Come arrivare a Cres",
+    "whenToGo": "Quando andare",
+    "guides": "Guide di Cres",
+    "faq": "FAQ Cres",
+    "groups": {
+      "gettingAround": "Parcheggio e spostamenti",
+      "planning": "Pianificazione e dove alloggiare",
+      "timing": "Quando andare",
+      "travelers": "Famiglie, coppie e stili di viaggio",
+      "activities": "Spiagge e attività da fare",
+      "food": "Cibo e bevande",
+      "comparisons": "Confronti",
+      "practical": "Info pratiche"
+    },
+    "car": "In auto",
+    "other": "Altre opzioni",
+    "bestFor": "Ideale per",
+    "parking": "Parcheggio",
+    "beach": "Spiaggia"
+  },
+  "destination": "cres",
+  "language": "it",
+  "updatedAt": "2026-10-16T13:07:42.232Z"
+}

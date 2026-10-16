@@ -1,0 +1,146 @@
+{
+  "title": "Omiš: Vodnik po plažah, parkiranju in namestitvah",
+  "metaDescription": "Načrtujte svoje potovanje v Omiš, Hrvaška. Primerjajte predele, peščene plaže, poti z avtomobilom iz Srednje Evrope in možnosti parkiranja za vaše počitnice.",
+  "intro": "Omiš je obmorsko mesto, ki se nahaja 25 kilometrov jugovzhodno od Splita, tam kjer se reka Cetina izliva v Jadransko morje. Služi kot praktična baza za popotnike, ki si želijo tako sprostitve na plaži kot tudi aktivnih dejavnosti na prostem, kot so rafting po reki ali pohodništvo do trdnjav Mirabella in Fortica. Obalno območje izstopa na Hrvaškem po svojih naravnih peščenih plažah, zlasti v mestnem središču in sosednjem Dućah.\n\nDestinacija privablja predvsem družine, ki potrebujejo plitvo vodo, in popotnike, ki raziskujejo dalmatinsko obalo. Julij in avgust prinašata najvišje temperature in gost promet vzdolž Jadranske magistrale (D8), medtem ko junij in september ponujata milejše vreme, nižje cene namestitev in lažje parkiranje.",
+  "quickFacts": [
+    {
+      "label": "Najboljši meseci",
+      "value": "Junij in september"
+    },
+    {
+      "label": "Temperatura morja v avgustu",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Najbližje letališče",
+      "value": "Letališče Split (SPU), 42 km stran"
+    },
+    {
+      "label": "Glavni tip plaže",
+      "value": "Pesek in drobni prod"
+    },
+    {
+      "label": "Raven cen",
+      "value": "Zmerna (nekoliko pod hrvaškim povprečjem)"
+    },
+    {
+      "label": "Prehodnost starega mestnega jedra",
+      "value": "Ravna in v celoti za pešce"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Center Omiša (Donji Grad)",
+      "bestFor": "Za obiskovalce prvič in popotnike brez avtomobila",
+      "parking": "Plačljiva javna parkirišča, poleti jih je malo",
+      "beach": "0-500m do Velike plaže (pesek)",
+      "summary": "Zgodovinsko jedro ponuja ozke uličice, restavracije in neposreden dostop do glavne mestne plaže. Nastanitve so predvsem apartmaji, obvezno pa je navigiranje skozi velike poletne množice."
+    },
+    {
+      "name": "Priko",
+      "bestFor": "Za družine, ki si želijo mirnejše večere blizu centra",
+      "parking": "Na voljo veliko javno parkirišče, nekaj zasebnih mest",
+      "beach": "500m do 1km do glavnih plaž",
+      "summary": "Nahaja se tik čez most reke Cetine od starega mestnega jedra. Ponuja lažje parkiranje in večje apartmajske stavbe, medtem ko ostaja znotraj 10 minut hoje od zgodovinskega centra."
+    },
+    {
+      "name": "Duće",
+      "bestFor": "Za družine z malčki in majhnimi otroki",
+      "parking": "Ponavadi zagotovljeno s strani nastanitev",
+      "beach": "0-200m do plitvih peščenih plaž",
+      "summary": "6-kilometrski pas obale takoj zahodno od Omiša. Obdan je z neprekinjenimi peščenimi plažami in plitvo vodo, močno osredotočen na počitniške apartmaje in bare na plaži."
+    },
+    {
+      "name": "Nemira & Stanići",
+      "bestFor": "Za pare in popotnike, ki iščejo mirne prodnate plaže",
+      "parking": "Zasebno parkirišče na lokaciji je bistvenega pomena",
+      "beach": "0-300m do strmih prodnatih zalivov",
+      "summary": "Vasi, ki se nahajajo 3 do 5 kilometrov južno od Omiša ob Rivieri. Teren je strm, spušča se do slikovitih prodnatih plaž s čisto vodo, stran od peščenih plitvin mesta."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "850 km, 9-10 ur preko A8, Tauernautobahn (A10) in hrvaške A1. Potrebni so avstrijska in slovenska vinjeta, avstrijski tunel in hrvaške cestnine.",
+      "other": "Let do Splita (SPU), nato avtobus ali zasebni prevoz."
+    },
+    {
+      "from": "Dunaj",
+      "car": "770 km, 8 ur preko A2, SI A1/A4 in hrvaške A1. Potrebni so avstrijska in slovenska vinjeta ter hrvaške cestnine.",
+      "other": "Let do Splita (SPU) ali neposreden FlixBus do Splita/Omiša."
+    },
+    {
+      "from": "Budimpešta",
+      "car": "760 km, 7.5 ur preko M7 in hrvaške A4/A1. Potrebni so madžarska vinjeta in hrvaške cestnine.",
+      "other": "Neposreden FlixBus do Splita ali sezonski let do Splita (SPU)."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "500 km, 5.5 ur preko A1 do Zagreba, nato hrvaške A1. Potrebna je slovenska vinjeta in hrvaške cestnine.",
+      "other": "FlixBus ali Nomago avtobus do Splita, nato lokalni avtobus do Omiša."
+    },
+    {
+      "from": "Praga",
+      "car": "1.070 km, 11-12 ur preko Dunaja/Gradca ali Linza/Gradca, nato hrvaške A1. Potrebne so češka, avstrijska in slovenska vinjeta ter hrvaške cestnine.",
+      "other": "Let do Splita (SPU) s Smartwings ali Croatia Airlines."
+    },
+    {
+      "from": "Krakov",
+      "car": "1.050 km, 11 ur preko Slovaške, Madžarske (M1/M7) in hrvaške A1. Potrebne so slovaška in madžarska vinjeta ter hrvaške cestnine.",
+      "other": "Let do Splita (SPU) z Ryanair ali Wizz Air."
+    }
+  ],
+  "whenToGo": "Morje doseže 25°C do 27°C v juliju in avgustu, kar privablja največje množice in najvišje cene namestitev, čeprav vsi restavracije, bari na plaži in rečni izleti delujejo s polno zmogljivostjo. Junij in september ponujata milejše temperature okoli 23°C do 25°C za kopanje, bistveno zmanjšan promet na obalni cesti D8 in nižje cene sob. Od novembra do aprila se mesto večinoma zapre za turizem; temperature morja padejo pod 15°C, večina sezonskih restavracij se zapre, pogosti vetrovi burje pa naredijo obalo hladno in tiho.",
+  "faq": [
+    {
+      "question": "Ali je vredno obiska?",
+      "answer": "Da, če si želite kombinacijo peščenih plaž, zgodovinskih trdnjav in aktivnih rečnih izletov. Bližina soteske reke Cetine do morja naredi pokrajino izrazito drugačno od tipičnih dalmatinskih mest."
+    },
+    {
+      "question": "Koliko dni potrebujete?",
+      "answer": "Tri do pet dni zagotavlja dovolj časa za raziskovanje zgodovinskega središča, obisk trdnjav in izlet z raftingom po reki. Mnogi obiskovalci ostanejo teden dni ali dlje, uporabljajoč mesto kot bazo za vsakodnevno sprostitev na plaži."
+    },
+    {
+      "question": "Katera je najboljša plaža?",
+      "answer": "Velika plaža (znana tudi kot Punta) je glavna mestna plaža, znana po svojem obsežnem pesku in plitvem vstopu v vodo. Za neprekinjene peščene dele obale, sosednja vas Duće ponuja več kilometrov družinam prijazne obale."
+    },
+    {
+      "question": "Ali potrebujem avto?",
+      "answer": "Avto ni potreben, če je vaša namestitev v centru Omiša ali v Dućah, saj lokalni avtobusi povezujejo s Splitom in turistični operaterji skrbijo za rečni prevoz. Vozilo je priporočljivo za raziskovanje širše riviere ali če bivate v strmejših vaseh, kot so Stanići."
+    },
+    {
+      "question": "Kje parkirati?",
+      "answer": "Glavno občinsko parkirišče deluje vzdolž obalne ceste Fošal, medtem ko večje neasfaltirano parkirišče leži čez reko v Priku. Julija in avgusta se ta parkirišča pogosto zapolnijo pred 9. uro zjutraj, zato je vnaprej dogovorjeno parkirišče pri namestitvi ključnega pomena."
+    },
+    {
+      "question": "Je primerno za družine?",
+      "answer": "Da, zelo je primerno za družine zaradi redkih peščenih plaž s plitvimi območji za brodenje. Starejši otroci pogosto uživajo v piratski zgodovini trdnjav in raftingu po reki Cetini, primernem za začetnike."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na kratko",
+    "whereToStay": "Kje bivati v Omišu",
+    "gettingThere": "Kako priti do Omiša",
+    "whenToGo": "Kdaj obiskati",
+    "guides": "Vodnik po Omišu",
+    "faq": "Pogosta vprašanja o Omišu",
+    "groups": {
+      "gettingAround": "Parkiranje in premikanje",
+      "planning": "Načrtovanje in kje bivati",
+      "timing": "Kdaj iti",
+      "travelers": "Družine, pari in stili potovanja",
+      "activities": "Plaže in stvari za početi",
+      "food": "Hrana in pijača",
+      "comparisons": "Primerjave",
+      "practical": "Praktične informacije"
+    },
+    "car": "Z avtomobilom",
+    "other": "Druge možnosti",
+    "bestFor": "Najboljše za",
+    "parking": "Parkiranje",
+    "beach": "Plaža"
+  },
+  "destination": "omis",
+  "language": "sl",
+  "updatedAt": "2026-10-16T11:26:03.418Z"
+}

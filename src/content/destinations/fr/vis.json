@@ -1,0 +1,146 @@
+{
+  "title": "Vis - Guide de voyage : Villes, plages et hébergements",
+  "metaDescription": "Préparez votre voyage sur l'île croate de Vis. Découvrez où séjourner à Vis (ville) et Komiža, comment s'y rendre, les informations sur les ferries et les détails sur les plages.",
+  "intro": "Vis est l'île habitée la plus éloignée de la côte croate continentale, accessible par un trajet en ferry de 2,5 heures depuis Split. Elle s'adresse aux voyageurs indépendants à la recherche d'une alternative plus calme et moins développée commercialement que les îles voisines de Hvar ou Brač. L'île est connue pour son histoire militaire, son intérieur agricole et ses criques rocheuses. Elle n'abrite pas de grands hôtels-clubs, s'appuyant plutôt sur des appartements privés, des villas et quelques petits hébergements de charme.\n\nLa saison touristique est strictement saisonnière, s'étendant de mai à octobre, avec des liaisons de ferry et des restaurants en pleine activité en juillet et août. Les visiteurs se basent généralement dans l'une des deux principales localités – Vis (ville) ou Komiža – et utilisent une voiture ou un scooter pour accéder aux plages isolées de la côte sud.",
+  "quickFacts": [
+    {
+      "label": "Meilleurs mois",
+      "value": "Juin à Septembre"
+    },
+    {
+      "label": "Temp. de la mer en août",
+      "value": "24°C à 26°C"
+    },
+    {
+      "label": "Aéroport le plus proche",
+      "value": "Aéroport de Split (SPU) + 2h30 de ferry"
+    },
+    {
+      "label": "Type de plage principal",
+      "value": "Galets, rochers plats, criques de sable isolées"
+    },
+    {
+      "label": "Niveau de prix",
+      "value": "10-20% plus élevé que la moyenne croate"
+    },
+    {
+      "label": "Accessibilité à pied",
+      "value": "Accessible à pied ; certaines parties de Komiža et Kut sont sans voiture"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Vis (ville) (Luka & Kut)",
+      "bestFor": "Première visite, accès ferry, restaurants",
+      "parking": "Grand parking payant près du port du ferry ; limité à Kut",
+      "beach": "Prirovo (galets) est à 10 minutes à pied",
+      "summary": "Le port principal est divisé entre la partie plus récente de Luka et le quartier historique et plus calme de Kut. Il offre les meilleures liaisons en ferry et la plus forte concentration de restaurants."
+    },
+    {
+      "name": "Komiža",
+      "bestFor": "Couchers de soleil, excursions en bateau vers la Grotte Bleue",
+      "parking": "Grand parking municipal payant au-dessus du centre piéton",
+      "beach": "Petites plages de galets (Gusarica, Kamenice) à proximité",
+      "summary": "Une ville de pêcheurs traditionnelle sur la côte ouest avec des maisons en pierre et une atmosphère légèrement plus bohème. C'est le principal point de départ pour les excursions à la Grotte Bleue sur Biševo."
+    },
+    {
+      "name": "Rukavac",
+      "bestFor": "Vacances tranquilles à la plage, nature",
+      "parking": "Généralement inclus avec la location d'appartements privés",
+      "beach": "À distance de marche de Srebrna (rochers plats/galets)",
+      "summary": "Un petit village de vacances tranquille sur la côte sud-est, composé principalement d'appartements privés à louer. Il n'a pas de véritable centre-ville mais offre une grande proximité avec les meilleures plages du sud de l'île."
+    },
+    {
+      "name": "Milna & Ženka",
+      "bestFor": "Voyageurs recherchant des plages de sable",
+      "parking": "En bord de route ou allées privées",
+      "beach": "Plage de Milna (sable) et Zaglav (sable) à proximité",
+      "summary": "Localités côtières sur la rive sud-est, connues pour leur proximité avec de rares plages de sable. La zone est fortement résidentielle avec une infrastructure commerciale minimale."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Munich",
+      "car": "850 km jusqu'à Split (env. 9h30) + 2h30 de ferry, via A10/A1, vignettes AT/SI, péages HR",
+      "other": "Vols directs vers Split (SPU)"
+    },
+    {
+      "from": "Vienne",
+      "car": "760 km jusqu'à Split (env. 8h) + 2h30 de ferry, via A2/A1, vignettes AT/SI, péages HR",
+      "other": "Vols directs ou train de nuit vers Split"
+    },
+    {
+      "from": "Budapest",
+      "car": "750 km jusqu'à Split (env. 7h30) + 2h30 de ferry, via M7/A4/A1, vignette HU, péages HR",
+      "other": "Vols directs ou trains saisonniers vers Split"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "470 km jusqu'à Split (env. 5h) + 2h30 de ferry, via A2/A1, vignette SI, péages HR",
+      "other": "Bus direct vers Split"
+    },
+    {
+      "from": "Prague",
+      "car": "1 090 km jusqu'à Split (env. 11h30) + 2h30 de ferry, via vignettes CZ/AT/SI, péages HR",
+      "other": "Vols directs vers Split"
+    },
+    {
+      "from": "Cracovie",
+      "car": "1 050 km jusqu'à Split (env. 11h) + 2h30 de ferry, via vignettes SK/HU, péages HR",
+      "other": "Vols directs vers Split"
+    }
+  ],
+  "whenToGo": "La saison touristique s'étend de mai à octobre. En mai et octobre, l'île est très calme, certains restaurants et excursions en bateau ne fonctionnent pas, et la température de la mer est fraîche (18°C à 20°C). Juin et septembre offrent le meilleur équilibre pour les visiteurs, avec des températures de la mer autour de 23°C, des installations entièrement ouvertes et une affluence modérée. Juillet et août sont les mois les plus animés et les plus chers ; les températures diurnes dépassent régulièrement les 30°C, la mer atteint 25°C, et la réservation à l'avance des ferries, hébergements et restaurants est obligatoire. En dehors de ces mois, Vis fonctionne selon un horaire hivernal réduit avec une infrastructure touristique minimale ouverte.",
+  "faq": [
+    {
+      "question": "Vis vaut-elle la peine d'être visitée ?",
+      "answer": "Oui, si vous préférez une île dalmate plus calme et moins développée, avec des villages de pêcheurs authentiques et de la nature. Elle n'est pas recommandée pour ceux qui recherchent de grandes plages de sable, des complexes hôteliers tout compris ou une vie nocturne intense."
+    },
+    {
+      "question": "Combien de jours faut-il pour visiter Vis ?",
+      "answer": "Trois à cinq jours sont optimaux pour une visite de Vis. Cela laisse suffisamment de temps pour voir Vis (ville) et Komiža, faire une excursion en bateau à la Grotte Bleue sur Biševo, et passer un jour ou deux sur les plages du sud comme Stiniva ou Srebrna."
+    },
+    {
+      "question": "Quelle est la meilleure plage de Vis ?",
+      "answer": "Stiniva est la plus célèbre pour sa crique de galets spectaculaire et encaissée, mais elle nécessite une randonnée raide de 30 minutes ou un accès en bateau. Pour un accès plus facile et une détente toute la journée, Srebrna offre des rochers lisses et plats et des galets, tandis que Zaglav propose un rare rivage sablonneux."
+    },
+    {
+      "question": "Faut-il une voiture à Vis ?",
+      "answer": "Une voiture ou un scooter est fortement recommandé pour atteindre les plages isolées de l'île, les restaurants intérieurs et les sites militaires. Bien qu'un bus public relie les deux principales villes (Vis (ville) et Komiža) en fonction des horaires des ferries, se fier uniquement aux transports en commun limite l'exploration."
+    },
+    {
+      "question": "Où se garer à Vis ?",
+      "answer": "Vis (ville) dispose d'un grand parking payant adjacent au terminal ferry, tandis que Komiža offre un grand parking municipal payant juste au-dessus de son centre piétonnier. Le stationnement dans la rue est fortement restreint dans les deux villes, et de nombreux appartements privés dans les centres historiques n'offrent pas de parking sur place."
+    },
+    {
+      "question": "Vis est-elle adaptée aux familles ?",
+      "answer": "Vis convient aux familles recherchant des vacances calmes et axées sur la nature, mais elle manque de complexes hôteliers et d'infrastructures de divertissement dédiés aux familles. La plupart des plages sont composées de galets ou de rochers et descendent rapidement en eau profonde, bien que Milna et Zaglav offrent des alternatives sableuses peu profondes."
+    }
+  ],
+  "headings": {
+    "quickFacts": "En bref",
+    "whereToStay": "Où séjourner à Vis",
+    "gettingThere": "Se rendre à Vis",
+    "whenToGo": "Quand partir",
+    "guides": "Guides de Vis",
+    "faq": "FAQ de Vis",
+    "groups": {
+      "gettingAround": "Stationnement et se déplacer",
+      "planning": "Planification et hébergements",
+      "timing": "Quand partir",
+      "travelers": "Familles, couples et styles de voyage",
+      "activities": "Plages et activités",
+      "food": "Gastronomie et boissons",
+      "comparisons": "Comparaisons",
+      "practical": "Infos pratiques"
+    },
+    "car": "En voiture",
+    "other": "Autres options",
+    "bestFor": "Idéal pour",
+    "parking": "Stationnement",
+    "beach": "Plage"
+  },
+  "destination": "vis",
+  "language": "fr",
+  "updatedAt": "2026-10-16T14:18:27.521Z"
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Rovigno Guida di Viaggio: Spiagge, Parcheggio e Dove Soggiornare",
+  "metaDescription": "Pianifica il tuo viaggio a Rovigno. Una guida pratica su itinerari in auto, parcheggio, quartieri e spiagge per i visitatori che arrivano in Istria, Croazia.",
+  "intro": "Rovigno attrae coppie, famiglie e viaggiatori on the road in cerca di un centro storico ben conservato e una natura costiera accessibile. La città presenta un nucleo veneziano denso, solo pedonale, costruito su una piccola penisola, circondato da pinete e costa rocciosa.\n\nLa stagione principale dei visitatori va da maggio a settembre, raggiungendo il picco a luglio e agosto, quando il clima mediterraneo offre giornate calde e secche ideali per nuotare. Al di fuori dei mesi estivi, molti ristoranti e hotel chiudono, rendendo la città più tranquilla ma meno adatta per una classica vacanza al mare.",
+  "quickFacts": [
+    {
+      "label": "Mesi migliori",
+      "value": "Giugno a settembre"
+    },
+    {
+      "label": "Temperatura mare ad agosto",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Aeroporto più vicino",
+      "value": "Aeroporto di Pola (PUY), 40 km"
+    },
+    {
+      "label": "Tipo di spiaggia principale",
+      "value": "Ciottoli, rocce e piattaforme di cemento"
+    },
+    {
+      "label": "Livello prezzi",
+      "value": "Più alto della media croata"
+    },
+    {
+      "label": "Città vecchia",
+      "value": "Rigidamente pedonale (no auto)"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Città Vecchia (Poluotok)",
+      "bestFor": "Primi visitatori e coppie in cerca di storia e ristorazione",
+      "parking": "Nessuno in centro; utilizzare parcheggi commerciali a pagamento a 10-15 minuti di distanza",
+      "beach": "Spiaggia Monte (scogliere rocciose) in loco; spiagge più grandi a 20 minuti a piedi",
+      "summary": "Il nucleo storico presenta strette strade acciottolate, architettura veneziana e numerosi ristoranti. È affollato durante l'estate e richiede di camminare o prendere un golf cart per raggiungere il proprio alloggio."
+    },
+    {
+      "name": "Baia di Lone e Punta Corrente (Sud)",
+      "bestFor": "Viaggiatori di lusso e amanti della spiaggia che desiderano accesso alla natura",
+      "parking": "Comuni parcheggi privati degli hotel; i parcheggi pubblici si riempiono rapidamente",
+      "beach": "0-10 minuti a piedi da calette di ciottoli e coste rocciose ombreggiate",
+      "summary": "Situata a sud della città vecchia, questa zona è caratterizzata da hotel di lusso e dal parco forestale di Zlatni Rt. I visitatori hanno accesso immediato a sentieri ombreggiati da pini e alle spiagge più popolari della città."
+    },
+    {
+      "name": "Centener & Cuvi",
+      "bestFor": "Famiglie e viaggiatori attenti al budget",
+      "parking": "Parcheggio più facile in strada e vialetti residenziali",
+      "beach": "10-15 minuti a piedi dalla spiaggia di Cuvi (ciottoli e tratti di sabbia)",
+      "summary": "Un quartiere residenziale più tranquillo situato a sud-est del centro. Offre affitti di appartamenti a prezzi più bassi pur rimanendo a pochi passi da spiagge adatte alle famiglie e supermercati."
+    },
+    {
+      "name": "Borik",
+      "bestFor": "Visitatori in cerca di un'atmosfera suburbana più tranquilla con vista mare",
+      "parking": "Solitamente incluso con gli affitti di appartamenti; parcheggio in strada disponibile",
+      "beach": "5-10 minuti a piedi dalle spiagge di Valdaliso e Amarin",
+      "summary": "Borik si trova a nord del centro città, offrendo un ambiente rilassato lontano dalla folla estiva. Raggiungere la città vecchia richiede 30 minuti a piedi, un giro in bicicletta o un breve viaggio in taxi acqueo."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monaco di Baviera",
+      "car": "600 km, ~6.5 ore via A8, A10, A11, SI A2 per Capodistria, Y istriana. Richiede vignetta AT, pedaggi Tauern e Karawanken, vignetta SI, pedaggio HR.",
+      "other": "Voli diretti stagionali per Pola o Flixbus diretto."
+    },
+    {
+      "from": "Vienna",
+      "car": "500 km, ~5.5 ore via A2 per Graz, SI A1 (Maribor-Lubiana-Capodistria), Y istriana. Richiede vignetta AT, vignetta SI, pedaggio HR.",
+      "other": "Flixbus diretto o voli stagionali per Pola."
+    },
+    {
+      "from": "Budapest",
+      "car": "600 km, ~6 ore via M7, HR A4 per Zagabria, A6 per Fiume, tunnel Učka, Y istriana. Richiede e-vignetta HU, pedaggi HR.",
+      "other": "Flixbus o treno per Fiume seguito da un autobus locale."
+    },
+    {
+      "from": "Lubiana",
+      "car": "180 km, ~2.5 ore via A1 per Capodistria, Y istriana (A9). Richiede vignetta SI, pedaggio HR.",
+      "other": "Servizi di autobus diretti (Flixbus, Nomago)."
+    },
+    {
+      "from": "Praga",
+      "car": "850 km, ~9 ore via Linz, Graz, Maribor, Lubiana, Capodistria. Richiede vignette CZ, AT, SI, pedaggi HR.",
+      "other": "Collegamenti treno/autobus stagionali RegioJet o voli per Pola."
+    },
+    {
+      "from": "Cracovia",
+      "car": "1.000 km, ~10.5 ore via CZ (Brno), AT (Vienna, Graz), SI (Maribor, Capodistria). Richiede vignette CZ, AT, SI, pedaggi HR.",
+      "other": "Voli per Pola (solitamente via Varsavia) o autobus a lunga percorrenza."
+    }
+  ],
+  "whenToGo": "La stagione dei visitatori va da fine maggio a settembre. Luglio e agosto portano il clima più caldo con temperature dell'aria intorno ai 30°C e temperature del mare che raggiungono i 25-27°C, insieme ai prezzi più alti e alla massima affluenza. Giugno e settembre offrono temperature più miti (basse e medie dei 20 gradi), condizioni di nuoto leggermente più fresche e maggiore disponibilità di alloggi. Da ottobre ad aprile, Rovigno è tranquilla; il mare è troppo freddo per nuotare (scende a 10-14°C) e molti ristoranti, hotel e linee di traghetti orientati al turismo chiudono completamente.",
+  "faq": [
+    {
+      "question": "Vale la pena visitare Rovigno?",
+      "answer": "Sì, è ampiamente considerata una delle città costiere più attraenti dell'Istria. I visitatori vengono per il suo centro storico veneziano ben conservato, l'ampio parco forestale di pini e le opzioni di ristorazione di alta qualità."
+    },
+    {
+      "question": "Quanti giorni servono a Rovigno?",
+      "answer": "Da tre a cinque giorni è l'ideale per la maggior parte dei visitatori. Questo permette tempo sufficiente per esplorare la città vecchia, trascorrere una giornata sulle spiagge di Punta Corrente e fare una gita in barca o visitare una vicina città collinare istriana."
+    },
+    {
+      "question": "Qual è la migliore spiaggia di Rovigno?",
+      "answer": "Le spiagge nel parco forestale Zlatni Rt (Punta Corrente), in particolare la baia di Lone, sono le più popolari. Offrono un misto di ciottoli e rocce con un'ampia ombra naturale dai pini circostanti."
+    },
+    {
+      "question": "Ho bisogno di un'auto a Rovigno?",
+      "answer": "Non hai bisogno di un'auto se alloggi nella città vecchia o nelle sue immediate vicinanze, poiché tutto è raggiungibile a piedi. Tuttavia, un'auto è altamente consigliata se prevedi di esplorare il resto della penisola istriana o visitare cantine rurali e tenute di olio d'oliva."
+    },
+    {
+      "question": "Dove dovrei parcheggiare quando visito Rovigno?",
+      "answer": "Le aree di parcheggio pubbliche più grandi sono Valdibora (Nord) e Ampelea (Sud), situate appena fuori dalla zona pedonale. Questi parcheggi sono a pagamento orario o giornaliero e possono riempirsi durante luglio e agosto, quindi si consiglia di arrivare presto."
+    },
+    {
+      "question": "Rovigno è adatta alle famiglie?",
+      "answer": "Sì, in particolare nei resort e nelle zone residenziali fuori dalla città vecchia. Le spiagge hanno sezioni di ciottoli poco profonde adatte ai bambini, e i campeggi vicini orientati alle famiglie offrono piscine, parchi giochi e attività organizzate."
+    }
+  ],
+  "headings": {
+    "quickFacts": "In breve",
+    "whereToStay": "Dove alloggiare a Rovigno",
+    "gettingThere": "Come arrivare a Rovigno",
+    "whenToGo": "Quando andare",
+    "guides": "Guide su Rovigno",
+    "faq": "Domande frequenti su Rovigno",
+    "groups": {
+      "gettingAround": "Parcheggio e spostamenti",
+      "planning": "Pianificazione e dove alloggiare",
+      "timing": "Quando andare",
+      "travelers": "Famiglie, coppie e stili di viaggio",
+      "activities": "Spiagge e cose da fare",
+      "food": "Cibo e bevande",
+      "comparisons": "Confronti",
+      "practical": "Info pratiche"
+    },
+    "car": "In auto",
+    "other": "Altre opzioni",
+    "bestFor": "Ideale per",
+    "parking": "Parcheggio",
+    "beach": "Spiaggia"
+  },
+  "destination": "rovinj",
+  "language": "it",
+  "updatedAt": "2026-10-16T10:38:04.929Z"
+}

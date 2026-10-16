@@ -1,0 +1,146 @@
+{
+  "title": "Makarska: Przewodnik turystyczny – plaże, dzielnice i dojazd",
+  "metaDescription": "Zaplanuj swoją podróż do Makarskiej, Chorwacja. Odkryj najlepsze żwirowe plaże, popularne dzielnice na pobyt, trasy dojazdowe z Europy Środkowej oraz wskazówki dotyczące parkowania.",
+  "intro": "Makarska jest idealna dla podróżników szukających długich żwirowych plaż, aktywnego życia nocnego i bezpośredniego dostępu do góry Biokovo. Służy jako centrum handlowe i transportowe Riwiery Makarskiej, przyciągając latem tłumy z całej Europy Środkowej. Główna promenada jest wyłożona kawiarniami, restauracjami i dojrzałymi sosnami, zapewniając obfity naturalny cień tuż przy brzegu morza w upalne letnie dni.\n\nMiasto najlepiej nadaje się dla rodzin i grup, które preferują zorganizowane plaże z licznymi udogodnieniami zamiast zacisznych zatoczek. Osoby planujące spokojny wypoczynek powinny poszukać mniejszych okolicznych miejscowości lub odwiedzić Makarską w maju i październiku. Szczyt sezonu przynosi duży ruch przybrzeżny i zatłoczone plaże, co sprawia, że czerwiec i wrzesień są optymalnymi miesiącami dla równowagi między ciepłymi temperaturami morza a umiarkowaną liczbą turystów.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "Czerwiec i wrzesień"
+    },
+    {
+      "label": "Temperatura morza w sierpniu",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Split (SPU), 98 km"
+    },
+    {
+      "label": "Główny typ plaży",
+      "value": "Żwirowa"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "Nieco powyżej chorwackiej średniej"
+    },
+    {
+      "label": "Stare miasto",
+      "value": "Dostępne pieszo, w dużej mierze strefa bez samochodów"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Stare Miasto (Centar)",
+      "bestFor": "Restauracje, życie nocne i zwiedzanie zabytków",
+      "parking": "Bardzo ograniczone, opiera się na drogich publicznych parkingach (Osejava, City Park)",
+      "beach": "10-15 minut spacerem do głównych plaż",
+      "summary": "Historyczne centrum charakteryzuje się wąskimi kamiennymi uliczkami, głównym placem (Kačićev trg) i portem. Oferuje największe zagęszczenie restauracji, ale wieczorami może być głośno."
+    },
+    {
+      "name": "Donja Luka",
+      "bestFor": "Dostęp do plaży i rodziny",
+      "parking": "Zatłoczone ulice z parkometrami; priorytetowo traktuj hotele z prywatnymi miejscami parkingowymi",
+      "beach": "Bezpośredni dostęp do głównej 2-kilometrowej żwirowej plaży Makarskiej",
+      "summary": "Obszar ten rozciąga się wzdłuż głównej zatoki na północny zachód od centrum. Jest mocno rozwinięty z hotelami, blokami apartamentów i barami przy plaży."
+    },
+    {
+      "name": "Zelenka",
+      "bestFor": "Podróżujący z ograniczonym budżetem i dłuższe pobyty",
+      "parking": "Łatwiej znaleźć bezpłatny lub wliczony w cenę parking prywatny niż w centrum",
+      "beach": "10-20 minut spacerem w dół (strome podejście powrotne)",
+      "summary": "Dzielnica mieszkalna położona na zboczach powyżej głównej autostrady. Zakwaterowanie jest tu zazwyczaj tańsze, ale powrót z plaży wiąże się z wyraźnym podjazdem."
+    },
+    {
+      "name": "Veliko Brdo",
+      "bestFor": "Spokojny wypoczynek, większe grupy i podróżujący samochodem",
+      "parking": "Większość obiektów oferuje dużo prywatnych miejsc parkingowych",
+      "beach": "3-5 km jazdy samochodem do najbliższych plaż",
+      "summary": "Położona wysoko na zboczach góry Biokovo, ta okolica składa się głównie z nowoczesnych willi z basenami. Samochód jest obowiązkowy do zakupów spożywczych i dojazdu na plażę."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monachium",
+      "car": "885 km, 9-10 godzin via A8, A10 i A1. Wymaga winiet AT i SLO oraz opłat drogowych w HR.",
+      "other": "Bezpośrednie loty do Splitu (SPU), następnie autobus lub transfer."
+    },
+    {
+      "from": "Wiedeń",
+      "car": "765 km, 7.5-8.5 godziny via A2 i HR A1. Wymaga winiet AT i SLO oraz opłat drogowych w HR.",
+      "other": "Bezpośrednie loty do Splitu (SPU) lub pociąg nocny do Splitu."
+    },
+    {
+      "from": "Budapeszt",
+      "car": "785 km, 7.5-8.5 godziny via M7 i HR A1. Wymaga winiety HU oraz opłat drogowych w HR.",
+      "other": "FlixBus bezpośrednio do Makarskiej lub lot do Splitu."
+    },
+    {
+      "from": "Lublana",
+      "car": "515 km, 5.5-6 godzin via A2 i HR A1. Wymaga winiety SLO oraz opłat drogowych w HR.",
+      "other": "Bezpośredni autobus lub pociąg do Zagrzebia/Splitu, następnie autobus do Makarskiej."
+    },
+    {
+      "from": "Praga",
+      "car": "1080 km, 11-12 godzin via CZ D1, AT A1/A9 i HR A1. Wymaga winiet CZ, AT, SLO oraz opłat drogowych w HR.",
+      "other": "Bezpośrednie loty do Splitu (SPU) liniami Smartwings lub Croatia Airlines."
+    },
+    {
+      "from": "Kraków",
+      "car": "1060 km, 11-12 godzin via SK D1, HU M7 i HR A1. Wymaga winiet SK i HU oraz opłat drogowych w HR.",
+      "other": "Loty do Splitu (SPU) liniami LOT lub Wizz Air."
+    }
+  ],
+  "whenToGo": "Maj to początek sezonu z temperaturami w ciągu dnia około 22°C, ale morze pozostaje chłodne (18°C), a niektóre bary plażowe są jeszcze zamknięte. Czerwiec przynosi cieplejsze wody (22°C-24°C) i w pełni otwarte obiekty bez ekstremalnego tłoku. Lipiec i sierpień to szczyt sezonu, charakteryzujący się wysokimi temperaturami (ponad 30°C), temperaturą morza osiągającą 27°C, dużym ruchem, zatłoczonymi plażami i najwyższymi cenami. Wrzesień oferuje powrót do poziomu tłoku z czerwca, ale z wodą morską wciąż ciepłą po letnich upałach. Pod koniec października temperatury spadają, opady deszczu wzrastają, a większość sezonowych restauracji i hoteli zamyka się na zimę.",
+  "faq": [
+    {
+      "question": "Czy warto odwiedzić?",
+      "answer": "Tak, jeśli szukasz długich, zorganizowanych plaż i tętniącej życiem wieczornej atmosfery. Jest to główne centrum Riwiery Makarskiej, oferujące doskonałe udogodnienia, ale nie jest zalecana dla osób szukających spokojnego, ustronnego wypoczynku w szczycie sezonu letniego."
+    },
+    {
+      "question": "Ile dni?",
+      "answer": "Pięć do siedmiu dni to typowy czas na letni wypoczynek na plaży. Jeśli podróżujesz samochodem wzdłuż wybrzeża Dalmacji, dwa lub trzy dni wystarczą, aby zobaczyć miasto i wspiąć się na górę Biokovo."
+    },
+    {
+      "question": "Jaka jest najlepsza plaża?",
+      "answer": "Donja Luka to główna, przyjazna rodzinom żwirowa plaża z leżakami i cieniem od sosen. Aby uzyskać bardziej naturalne otoczenie, plaża Nugal to malownicza 30-minutowa wędrówka przez las Osejava i funkcjonuje jako plaża mieszana/FKK."
+    },
+    {
+      "question": "Czy potrzebuję samochodu?",
+      "answer": "Nie potrzebujesz samochodu, jeśli zatrzymasz się w centrum miasta lub w pobliżu Donja Luka, ponieważ miasto jest bardzo dogodne do poruszania się pieszo. Jednak samochód jest niezbędny, jeśli rezerwujesz zakwaterowanie na przedmieściach na wzgórzu lub planujesz samodzielnie zwiedzać Park Przyrody Biokovo."
+    },
+    {
+      "question": "Gdzie zaparkować?",
+      "answer": "Parkowanie w Makarskiej jest notorycznie trudne i drogie latem. Szukaj zakwaterowania z gwarantowanym parkingiem prywatnym; w przeciwnym razie będziesz polegać na płatnych parkingach publicznych w pobliżu półwyspu Osejava lub miejskiego centrum sportowego."
+    },
+    {
+      "question": "Czy jest dobra dla rodzin?",
+      "answer": "Tak, Makarska jest bardzo popularna wśród rodzin ze względu na łagodnie opadające żwirowe plaże i zacienione lasy sosnowe. Miasto oferuje liczne atrakcje dla rodzin, parki wodne oraz łatwy dostęp do supermarketów i aptek."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Gdzie zatrzymać się w Makarskiej",
+    "gettingThere": "Dojazd do Makarskiej",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Makarskiej",
+    "faq": "Makarska: Najczęściej zadawane pytania",
+    "groups": {
+      "gettingAround": "Parking i poruszanie się",
+      "planning": "Planowanie i gdzie zatrzymać się",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróżowania",
+      "activities": "Plaże i atrakcje",
+      "food": "Jedzenie i napoje",
+      "comparisons": "Porównania",
+      "practical": "Praktyczne informacje"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "makarska",
+  "language": "pl",
+  "updatedAt": "2026-10-16T10:15:28.056Z"
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Cres Reisgids: Stranden, Parkeren & Waar te verblijven",
+  "metaDescription": "Plan je reis naar Cres, Kroatië. Ontdek de beste wijken om te verblijven, dichtstbijzijnde stranden, autoroutes vanuit Centraal-Europa en praktische parkeerinformatie.",
+  "intro": "Cres spreekt reizigers aan die een rustiger, natuurgericht alternatief zoeken voor de drukbezochte kustresorts van Kroatië. Het eiland staat bekend om zijn steile kliffen, kiezelbaaien en dichte bossen, terwijl Cres-stad met zijn Venetiaanse architectuur en actieve vissershaven fungeert als de belangrijkste hub. Bezoekers gebruiken de stad doorgaans als uitvalsbasis voor het verkennen van afgelegen stranden en wandelroutes over het eiland.\n\nHet belangrijkste toeristenseizoen loopt van juni tot september. Juli en augustus brengen de warmste zeetemperaturen en de meest betrouwbare veerdiensten, maar ook de hoogste prijzen en de grootste drukte. Mei en oktober bieden koeler weer dat geschikt is om te wandelen en te fietsen, hoewel de zeetemperaturen vaak te laag zijn om te zwemmen en sommige seizoensgebonden restaurants sluiten.",
+  "quickFacts": [
+    {
+      "label": "Beste maanden",
+      "value": "Juni tot september"
+    },
+    {
+      "label": "Zeetemperatuur in augustus",
+      "value": "24°C tot 26°C"
+    },
+    {
+      "label": "Dichtstbijzijnde luchthaven",
+      "value": "Luchthaven Rijeka (RJK), 45 km (inclusief veerboot)"
+    },
+    {
+      "label": "Hoofdstrandtype",
+      "value": "Kiezel- en rotsbaaien"
+    },
+    {
+      "label": "Prijsniveau",
+      "value": "Iets onder het Kroatische eilandgemiddelde"
+    },
+    {
+      "label": "Oude stad",
+      "value": "Volledig autovrij / voetgangersgebied"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Cres Oude Stad",
+      "bestFor": "Eten, geschiedenis en reizigers zonder auto",
+      "parking": "Betaalde openbare parkeerplaatsen buiten de voetgangerszone",
+      "beach": "10-15 minuten lopen naar Melin of Grabar",
+      "summary": "Het historische centrum kenmerkt zich door smalle steegjes, Venetiaanse gevels en een haven vol cafés. Het biedt de hoogste concentratie aan restaurants en winkels, hoewel accommodaties meestal appartementen zijn in plaats van grote hotels."
+    },
+    {
+      "name": "Melin",
+      "bestFor": "Families en strandgangers",
+      "parking": "De meeste appartementen bieden privéparking",
+      "beach": "Directe toegang tot Melin strand (kiezel/beton)",
+      "summary": "Deze woonwijk ligt net ten noordwesten van de Oude Stad, langs een goed onderhouden strandpromenade. Het biedt gemakkelijke toegang tot gezinsvriendelijke kiezelstranden en nabijgelegen campingvoorzieningen."
+    },
+    {
+      "name": "Grabar",
+      "bestFor": "Rustiger verblijf met zeezicht",
+      "parking": "Privé-opritten zijn gebruikelijk",
+      "beach": "2-5 minuten lopen naar de kiezelbaaien van Grabar",
+      "summary": "Gelegen ten zuiden van het stadscentrum, is Grabar een wijk op een heuvel die voornamelijk bestaat uit moderne appartementen. Het biedt nabijheid tot rustigere kiezelstranden, terwijl de Oude Stad op 15 minuten lopen langs het kustpad ligt."
+    },
+    {
+      "name": "Valun",
+      "bestFor": "Stellen, digitale detox, drukte ontwijken",
+      "parking": "Grote betaalde parkeerplaats bij de ingang van het dorp",
+      "beach": "Twee kiezelstranden in het dorp",
+      "summary": "Een klein vissersdorp op 15 kilometer ten zuiden van Cres-stad. Het is volledig autovrij en beschikt over een handvol visrestaurants, waardoor het ideaal is voor een zeer ontspannen, rustige strandvakantie."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "550 km, ~6,5 uur via Salzburg, Villach, Ljubljana en de veerboot Brestova-Porozina. Vereist AT-vignet, Karawankentunnel-tol, SLO-vignet en veerbootticket.",
+      "other": "Trein naar Rijeka, daarna catamaran naar Cres-stad"
+    },
+    {
+      "from": "Wenen",
+      "car": "520 km, ~6 uur via Graz, Maribor, Zagreb, Krk-brug en de veerboot Valbiska-Merag. Vereist AT- en SLO-vignetten, HR-tol en veerbootticket.",
+      "other": "Rechtstreekse vlucht naar Rijeka (Krk), daarna bus naar veerboot"
+    },
+    {
+      "from": "Boedapest",
+      "car": "550 km, ~6 uur via Zagreb, Rijeka, Krk-brug en de veerboot Valbiska-Merag. Vereist HU-vignet, HR-tol en veerbootticket.",
+      "other": "FlixBus naar Rijeka, daarna lokale catamaran naar Cres"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "160 km, ~2,5 uur via Postojna, Ilirska Bistrica en de veerboot Brestova-Porozina. Vereist SLO-vignet en veerbootticket.",
+      "other": "Bus naar Rijeka (~2,5 uur), daarna passagiersveerboot"
+    },
+    {
+      "from": "Praag",
+      "car": "850 km, ~9,5 uur via Brno, Wenen, Graz, Zagreb, Krk-brug en de veerboot Valbiska-Merag. Vereist CZ, AT, SLO vignetten, HR-tol en veerbootticket.",
+      "other": "RegioJet trein/bus naar Rijeka (zomer), daarna veerboot"
+    },
+    {
+      "from": "Krakau",
+      "car": "950 km, ~10,5 uur via Ostrava, Brno, Wenen, Graz, Zagreb, Krk-brug en de veerboot Valbiska-Merag. Vereist PL-tol, CZ, AT, SLO vignetten, HR-tol en veerbootticket.",
+      "other": "Vlucht naar Wenen/München, aansluiting op Rijeka, daarna veerboot"
+    }
+  ],
+  "whenToGo": "Het seizoen op Cres piekt in juli en augustus, met het warmste weer, zeetemperaturen tot 26°C, volledig operationele toeristische voorzieningen en de hoogste accommodatieprijzen. De drukte is merkbaar, maar over het algemeen kleiner dan op de naburige eilanden Krk of Lošinj. Juni en september bieden een uitstekende balans tussen warm weer, aangename zeetemperaturen om te zwemmen en lagere huurprijzen. In mei en oktober is er een aanzienlijke daling van het aantal bezoekers; hoewel ideaal voor wandelen en fietsen in het ruige binnenland van het eiland, is de zee vaak te koud om te zwemmen en sluiten veel lokale restaurants en touroperators voor het laagseizoen.",
+  "faq": [
+    {
+      "question": "Is Cres de moeite waard om te bezoeken?",
+      "answer": "Ja, Cres is een absolute aanrader voor reizigers die de voorkeur geven aan natuur, wandelen en rustige kiezelbaaien boven nachtleven en grote resorts. Het behoudt een wild, ongerept karakter vergeleken met de meer gecommercialiseerde eilanden van Kroatië."
+    },
+    {
+      "question": "Hoeveel dagen heb ik nodig op Cres?",
+      "answer": "Drie tot vijf dagen is de ideale periode voor een standaardbezoek. Dit geeft voldoende tijd om Cres-stad te verkennen, het heuveldorp Lubenice te bezoeken en een paar dagen te ontspannen op afgelegen stranden zoals Mali Bok of Sveti Ivan."
+    },
+    {
+      "question": "Wat is het beste strand op Cres?",
+      "answer": "Sveti Ivan, gelegen onder het dorp Lubenice, wordt algemeen beschouwd als het beste strand van het eiland. Het vereist een steile wandeling van 45 minuten om er te komen, waardoor het zelfs in het hoogseizoen zelden overvol raakt."
+    },
+    {
+      "question": "Heb ik een auto nodig op Cres?",
+      "answer": "Ja, een auto is vrijwel essentieel als je de afgelegen dorpen, uitzichtpunten en beroemde verborgen stranden van het eiland wilt verkennen. Er zijn openbare bussen, maar deze rijden onregelmatig en bereiken de meest schilderachtige kustplaatsen niet."
+    },
+    {
+      "question": "Waar te parkeren in Cres-stad?",
+      "answer": "De Oude Stad is alleen toegankelijk voor voetgangers, dus bezoekers moeten buiten het historische centrum parkeren. De belangrijkste gemeentelijke parkeerplaats bevindt zich nabij het busstation en de haven en rekent een uur- of dagtarief tijdens de zomermaanden."
+    },
+    {
+      "question": "Is Cres goed voor families?",
+      "answer": "Ja, vooral voor families die houden van kamperen en buitenactiviteiten. Gebieden zoals Melin bieden uitstekende gezinsvriendelijke infrastructuur, ondiepe kiezelstranden en veilige, autovrije promenades."
+    }
+  ],
+  "headings": {
+    "quickFacts": "In één oogopslag",
+    "whereToStay": "Waar te verblijven op Cres",
+    "gettingThere": "Reizen naar Cres",
+    "whenToGo": "Wanneer te gaan",
+    "guides": "Cres gidsen",
+    "faq": "Veelgestelde vragen over Cres",
+    "groups": {
+      "gettingAround": "Parkeren & verplaatsen",
+      "planning": "Planning & waar te verblijven",
+      "timing": "Wanneer te gaan",
+      "travelers": "Families, stellen & reisstijlen",
+      "activities": "Stranden & activiteiten",
+      "food": "Eten & drinken",
+      "comparisons": "Vergelijkingen",
+      "practical": "Praktische info"
+    },
+    "car": "Met de auto",
+    "other": "Andere opties",
+    "bestFor": "Het meest geschikt voor",
+    "parking": "Parkeren",
+    "beach": "Strand"
+  },
+  "destination": "cres",
+  "language": "nl",
+  "updatedAt": "2026-10-16T13:09:31.703Z"
+}

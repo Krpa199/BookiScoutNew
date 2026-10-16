@@ -1,0 +1,146 @@
+{
+  "title": "Trogir útikalauz: Strandok, parkolás és szállás",
+  "metaDescription": "Tervezze meg utazását Trogirba, Horvátországba. Hasonlítsa össze a városrészeket, keressen parkolót és strandokat, és tudja meg a legjobb útvonalakat Közép-Európából.",
+  "intro": "Trogir vonzza azokat az utazókat, akik egy megőrzött középkori tengerparti várost keresnek, közvetlen hozzáféréssel kavicsos strandokhoz és szigetkirándulásokhoz. Splitről 30 kilométerre nyugatra és a Spliti repülőtértől öt kilométerre található, praktikus bázisként szolgál Közép-Dalmácia felfedezéséhez anélkül, hogy egy nagyvárosban kellene navigálni. Az UNESCO listáján szereplő központ egy kis szigeten fekszik a szárazföld és a Čiovo sziget között, rövid jármű- és gyalogos hidakkal összekötve.\n\nAz úti cél jól működik autós utazók és családok számára, akik hajlandóak egyensúlyozni a városnézést a strandolós napokkal a szomszédos Čiovo szigeten vagy a szárazföldi Riviérán. Nyáron nagy tömeg gyűlik össze a szűk utcákban és a tengerparti utakon, ezért június és szeptember optimális a melegebb tengeri hőmérséklet, a nyitva tartó létesítmények és az elviselhető forgalom miatt.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Június és szeptember"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Spliti repülőtér (SPU), 5 km"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Kavicsos és betonteraszok"
+    },
+    {
+      "label": "Árszint",
+      "value": "Kissé a horvát átlag felett"
+    },
+    {
+      "label": "Sétálhatóság",
+      "value": "Az Óváros sziget teljesen autómentes"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Óváros (Sziget)",
+      "bestFor": "Rövid tartózkodásra és városnézésre",
+      "parking": "Nincs parkolás a szigeten; fizetős parkolók a szárazföldön",
+      "beach": "1,5 km-re nyilvános kavicsos strandoktól",
+      "summary": "A történelmi központ középkori építészettel, éttermekkel és kikötőkkel rendelkezik. Gyalogosövezet, ami azt jelenti, hogy a látogatóknak gyalog kell vinniük a poggyászukat a közeli szárazföldi parkolókból."
+    },
+    {
+      "name": "Čiovo sziget (Okrug Gornji)",
+      "bestFor": "Tengerparti nyaraláshoz és családoknak",
+      "parking": "Gyakori a magánparkoló, nagy nyári forgalom",
+      "beach": "0-1 km, főként kavicsos (Copacabana strand)",
+      "summary": "Hidakkal kapcsolódik Trogirhoz, ez a terület egy 2 kilométeres kavicsos strandot kínál bárokkal és vízi sportokkal. Az újabb híd lehetővé teszi az autósok számára, hogy elkerüljék a történelmi központot."
+    },
+    {
+      "name": "Seget Donji",
+      "bestFor": "Csendesebb tartózkodáshoz és üdülőhelyi kényelemhez",
+      "parking": "Bőséges parkolási lehetőség szállodáknál és magánapartmanoknál",
+      "beach": "0-1 km, hosszú kavicsos szakasz (Medena strand)",
+      "summary": "Trogirtól nyugatra, a szárazföldön található Seget Donji nyugodt hangulatú, 3 kilométeres tengerparti sétányával. Könnyebb útmenti hozzáférést biztosít Primošten és Šibenik felé."
+    },
+    {
+      "name": "Mastrinka és Arbanija (Čiovo)",
+      "bestFor": "Költségtudatos utazóknak és nyugodt tengeri hozzáféréshez",
+      "parking": "Általában a szállásdíj tartalmazza",
+      "beach": "0-500m, keskeny kavicsos és sziklás partok",
+      "summary": "Čiovo sziget északi partján fekvő csendes lakófalvak nyugodt vizeket kínálnak a szárazföld felé nézve. A szállások főként magánapartmanokból állnak, alacsonyabb áron, mint Okrug Gornjiban."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "840 km, 9-10 óra az A8, A10 és A1 útvonalon. Szükséges AT matrica, Tauern-alagút díj, SI matrica és HR autópályadíjak.",
+      "other": "Közvetlen járatok Spliti repülőtérre (1,5 óra), majd 10 perces busz- vagy taxizás."
+    },
+    {
+      "from": "Bécs",
+      "car": "740 km, 8 óra az A2, A4 és A1 útvonalon. Szükséges AT matrica, SI matrica és HR autópályadíjak.",
+      "other": "Közvetlen járatok Spliti repülőtérre (1,5 óra) vagy éjszakai vonat Splitbe."
+    },
+    {
+      "from": "Budapest",
+      "car": "740 km, 7,5 óra az M7 és A4/A1 útvonalon. Szükséges HU matrica és HR autópályadíjak.",
+      "other": "Közvetlen járatok Spliti repülőtérre (1 óra) vagy szezonális nyári vonat Splitbe."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "450 km, 5 óra az A2 és A1 útvonalon. Szükséges SI matrica és HR autópályadíjak.",
+      "other": "Közvetlen busz Trogirba (8 óra) vagy közvetlen autózás."
+    },
+    {
+      "from": "Prága",
+      "car": "1050 km, 11-12 óra Bécsen, Grazon és Zágrábon keresztül. Szükséges CZ, AT, SI matricák és HR díjak.",
+      "other": "Közvetlen járatok Spliti repülőtérre (1,5 óra)."
+    },
+    {
+      "from": "Krakkó",
+      "car": "1050 km, 11-12 óra Szlovákián és Magyarországon keresztül. Szükséges SK, HU matricák és HR autópályadíjak.",
+      "other": "Közvetlen járatok Spliti repülőtérre (1,5 óra) fapados légitársaságokkal."
+    }
+  ],
+  "whenToGo": "Július és augusztus a főszezon nyári hónapjai, körülbelül 26°C-os tengeri hőmérséklettel, hosszú napsütéses napokkal, valamint teljesen működő komp- és kirándulási menetrendekkel, de ekkor a legmagasabbak a szállásárak és a nagy a forgalom a tengerparti utakon. Június és szeptember kiegyensúlyozottabb élményt kínál, körülbelül 23°C-25°C-os tengeri hőmérséklettel, ami kényelmessé teszi az úszást, elkerülve a súlyos nyárközepi hőséget és a főszezoni tömeget. Május és október jelentős árcsökkenéseket és hűvösebb vizeket (18°C-20°C) hoz; a legtöbb történelmi helyszín nyitva marad, de a strandbárok, vízi sportok és gyakori hajókirándulások elkezdenek bezárni vagy csökkentett menetrend szerint működni. A téli hónapok csendesek és hidegek, sok szálloda és étterem a turistaterületeken teljesen bezár tavaszig.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni?",
+      "answer": "Igen, Trogir érdemes meglátogatni jól megőrzött román-gótikus építészetéért és kompakt elrendezéséért. Hatékonyan működik fél napos megállóként vagy központi bázisként a környező dalmát szigetek felfedezéséhez."
+    },
+    {
+      "question": "Hány napra van szükségem?",
+      "answer": "Két-három nap elegendő a történelmi központ felfedezéséhez és a helyi strandokon való időtöltéshez. Azok számára, akik Trogirt bázisként használják Splitbe, a Krka Nemzeti Parkba vagy a szigetekre tett egynapos kirándulásokhoz, öt-hét nap ideális."
+    },
+    {
+      "question": "Melyik a legjobb strand?",
+      "answer": "Okrug Gornji a Čiovo szigeten a legnépszerűbb strand létesítményei, bárjai és vízi sportolási lehetőségei miatt. A csendesebb hangulatért, fenyőárnyékkal, a Seget Donji-i Medena strand kiváló alternatíva."
+    },
+    {
+      "question": "Szükségem van autóra?",
+      "answer": "Nincs szüksége autóra, ha az Óvárosban tervez megszállni, vagy hajókra és buszokra támaszkodik a strandok és Split eléréséhez. Azonban erősen ajánlott az autó, ha tovább szeretné felfedezni a partot, vagy egynapos kirándulásokat tenne a szárazföld belsejébe."
+    },
+    {
+      "question": "Hol parkolhatok?",
+      "answer": "Az Óváros szigorúan gyalogosövezet, így a látogatóknak a nagy fizetős parkolókat kell használniuk a szárazföldön, közvetlenül a gyalogos híd előtt. A T1, T2 és T3 parkolók óránkénti vagy napi díjat számolnak fel, ami nyáron drágává válik."
+    },
+    {
+      "question": "Alkalmas családoknak?",
+      "answer": "Igen, Trogir alkalmas családoknak nyugodt kavicsos strandjai, könnyen megközelíthető szolgáltatásai és rövid transzferideje miatt a Spliti repülőtérről. A szárazföldön, Seget Donjiban vagy a Čiovo szigeten való szállás biztosítja a legpraktikusabb hozzáférést a családbarát úszóhelyekhez."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Áttekintés",
+    "whereToStay": "Hol szálljunk meg Trogirban",
+    "gettingThere": "Odajutás Trogirba",
+    "whenToGo": "Mikor érdemes utazni",
+    "guides": "Trogir útmutatók",
+    "faq": "Trogir Gyakori kérdések",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor érdemes utazni",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Étel és ital",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb erre",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "trogir",
+  "language": "hu",
+  "updatedAt": "2026-10-16T09:34:02.378Z"
+}

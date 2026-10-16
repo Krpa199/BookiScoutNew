@@ -1,0 +1,146 @@
+{
+  "title": "Umag Reiseführer: Strände, Parken & Unterkünfte",
+  "metaDescription": "Planen Sie Ihre Reise nach Umag, Kroatien. Erhalten Sie praktische Details zu Anreiserouten, Unterkünften, Parkmöglichkeiten, Familienresorts und den besten Reisezeiten.",
+  "intro": "Umag ist die nördlichste Küstenstadt Istriens und damit der erste Halt für Besucher, die aus Mitteleuropa anreisen. Es ist stark auf den Resort-Tourismus ausgerichtet und bietet große Hotelkomplexe, Campingplätze und umfangreiche Sporteinrichtungen, insbesondere das ATP Croatia Open Tennisturnier. Die Küste zeichnet sich durch gepflasterte Sonnenterrassen, felsige Buchten und Pinienwälder aus, die direkt ans Meer grenzen.\n\nDie Hauptsaison dauert von Ende Juni bis August und bringt hohe Temperaturen sowie die größten Tennis-Zuschauermengen im Juli mit sich. Der September ist ruhiger, das Meer ist noch warm genug zum Schwimmen, während im Winter die meisten touristischen Einrichtungen schließen. Umag eignet sich für Familien und aktive Reisende, die bequemen Strandzugang und Sport über ausgedehnte historische Besichtigungen stellen.",
+  "quickFacts": [
+    {
+      "label": "Beste Monate",
+      "value": "Juni bis September"
+    },
+    {
+      "label": "Meerestemperatur im August",
+      "value": "25°C bis 27°C"
+    },
+    {
+      "label": "Nächstgelegener Flughafen",
+      "value": "Pula (PUY), 85 km südlich"
+    },
+    {
+      "label": "Hauptstrandtyp",
+      "value": "Betonplattformen, felsige Buchten und künstliche Kieselstrände"
+    },
+    {
+      "label": "Preisniveau",
+      "value": "Durchschnittlich für Istrien, günstiger als Rovinj"
+    },
+    {
+      "label": "Altstadt begehbar",
+      "value": "Ja, die historische Halbinsel ist eine Fußgängerzone"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Umag Zentrum & Altstadt",
+      "bestFor": "Essen gehen, Spaziergänge und Kurzaufenthalte",
+      "parking": "Kostenpflichtige öffentliche Parkplätze außerhalb der Fußgängerzone auf der Halbinsel",
+      "beach": "700m zum Gradsko Kupalište (Stadtstrand)",
+      "summary": "Das historische Herz von Umag liegt auf einer kleinen Halbinsel. Es bietet enge Gassen, Restaurants und einen Yachthafen, verfügt aber nicht über die großen Resort-Pools und den direkten Strandzugang, die weiter nördlich zu finden sind."
+    },
+    {
+      "name": "Punta",
+      "bestFor": "Nähe zum Zentrum und zu den Stränden",
+      "parking": "Kostenpflichtige Parkplätze an der Straße und private Hotelparkplätze",
+      "beach": "Direkter Zugang zu Beton- und Felsstränden",
+      "summary": "Ein Wohn- und Hotelgebiet direkt nördlich des Yachthafens. Es verbindet das Stadtzentrum mit den nördlichen Resorts über eine Küstenpromenade und bietet eine Balance zwischen Komfort und Strandzugang."
+    },
+    {
+      "name": "Stella Maris & Katoro",
+      "bestFor": "Familien, Tennisfans und Resort-Urlauber",
+      "parking": "Große, eigens ausgewiesene Parkplätze für Resort- und Tagesgäste",
+      "beach": "Direkter Zugang zur Laguna (Kies/Sand) und Polynesia",
+      "summary": "Die Haupttouristenzone, die sich nördlich der Stadt erstreckt. Sie wird von großen Hotels, Apartmentanlagen, Tennisplätzen und einer langen Touristenbahnroute, die das Zentrum verbindet, dominiert."
+    },
+    {
+      "name": "Savudrija",
+      "bestFor": "Paare, Camper und ruhigere Aufenthalte",
+      "parking": "Im Allgemeinen kostenlos oder in der Unterkunft inbegriffen",
+      "beach": "Felsige Küstenabschnitte und gepflasterte Terrassen",
+      "summary": "Ein ruhigeres, von Pinien beschattetes Dorf 8 km nördlich von Umag, bekannt für seinen aktiven Leuchtturm. Beliebt bei Campern und denen, die eine entspanntere Atmosphäre abseits der großen Resorts suchen."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "500 km, ca. 5,5 Stunden über A8, A10 (Tauern), Karawankentunnel, Ljubljana und Koper. Erfordert österreichische und slowenische Vignetten sowie Mautgebühren für den Tunnel.",
+      "other": "FlixBus oder Nachtzug nach Ljubljana, dann Busverbindung"
+    },
+    {
+      "from": "Wien",
+      "car": "510 km, ca. 5,5 Stunden über A2 nach Graz, Maribor, Ljubljana und Koper. Erfordert österreichische und slowenische Vignetten.",
+      "other": "Direkter FlixBus im Sommer verfügbar, oder Zug nach Triest/Ljubljana"
+    },
+    {
+      "from": "Budapest",
+      "car": "600 km, ca. 6 Stunden über M7 zur Grenze Letenye, A4/A6 über Zagreb und Rijeka, dann das istrische Ypsilon. Erfordert ungarische Vignette und kroatische Mautgebühren.",
+      "other": "Direkter FlixBus nach Umag (ca. 9 Stunden)"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "130 km, ca. 1,5 bis 2 Stunden über A1 nach Koper, dann Route 11. Erfordert slowenische Vignette. Grenzkontrollverzögerungen im Sommer bei Dragonja sind häufig.",
+      "other": "Direkter Bus (ca. 2,5 Stunden) oder Sammeltransfer (z.B. GoOpti)"
+    },
+    {
+      "from": "Prag",
+      "car": "800 km, ca. 9 bis 10 Stunden über Linz, Salzburg und A10. Erfordert tschechische, österreichische und slowenische Vignetten sowie österreichische Tunnelmaut.",
+      "other": "Zug nach Rijeka oder Ljubljana, dann Bus, oder direkter Bus im Sommer"
+    },
+    {
+      "from": "Krakau",
+      "car": "950 km, ca. 10,5 Stunden über A4, Ostrava, Wien, Graz und Ljubljana. Erfordert polnische Mautgebühren sowie tschechische, österreichische und slowenische Vignetten.",
+      "other": "Flug nach Wien oder Venedig, dann Bus, oder direkter Bus im Sommer"
+    }
+  ],
+  "whenToGo": "Die touristische Saison in Umag dauert von Mai bis Oktober. Juli und August sind die heißesten Monate mit Tagestemperaturen um 30°C und Meerestemperaturen, die ihren Höchststand bei 26°C erreichen. Dies ist auch die belebteste und teuerste Zeit, besonders während des ATP-Tennisturniers Ende Juli. Juni und September bieten eine bessere Balance aus warmem Wetter, niedrigeren Preisen und weniger Menschenmassen, wobei die Meerestemperaturen im September immer noch angenehm zum Schwimmen sind. Zwischen November und April ist die Stadt sehr ruhig; die meisten Resorthotels, Strandbars und saisonalen Restaurants schließen, obwohl die Küstenwege zum Wandern und Radfahren geöffnet bleiben.",
+  "faq": [
+    {
+      "question": "Lohnt sich ein Besuch in Umag?",
+      "answer": "Ja, besonders wenn Sie einen Resort-Urlaub wünschen oder aus Mitteleuropa anreisen. Es fehlen die umfangreiche historische Architektur von Rovinj oder Poreč, aber es zeichnet sich durch Sportanlagen, Familienresorts und zugängliche Küstenabschnitte aus."
+    },
+    {
+      "question": "Wie viele Tage sollte man in Umag verbringen?",
+      "answer": "Drei bis fünf Tage sind ideal für einen Standard-Strand- und Entspannungsurlaub. Wenn Sie es als Ausgangspunkt nutzen, um das istrische Inland oder nahegelegene Küstenstädte zu erkunden, wird eine ganze Woche empfohlen."
+    },
+    {
+      "question": "Was ist der beste Strand in Umag?",
+      "answer": "Die Laguna Stella Maris ist der beliebteste Strand und bietet einen halbmondförmigen Kiesel- und Kunstsandstrand mit flachem Wasser. Katoro und Polynesia bieten breite Betonterrassen und felsige Abschnitte mit klarem Wasser."
+    },
+    {
+      "question": "Benötigt man ein Auto in Umag?",
+      "answer": "Sie benötigen kein Auto, wenn Sie innerhalb der Hauptresortgebiete bleiben, da eine Touristenbahn Katoro und Stella Maris mit dem Stadtzentrum verbindet. Ein Auto ist jedoch sehr empfehlenswert für Tagesausflüge durch Istrien."
+    },
+    {
+      "question": "Wo kann man in Umag parken?",
+      "answer": "Die Stadt betreibt ein zoniertes öffentliches Parksystem mit großen kostenpflichtigen Parkplätzen in der Nähe des Busbahnhofs und des Yachthafens, direkt außerhalb der Fußgängerzone der Altstadt. Die meisten großen Hotels und Resorts weiter nördlich bieten Parkmöglichkeiten an, obwohl einige eine Tagesgebühr verlangen."
+    },
+    {
+      "question": "Ist Umag gut für Familien?",
+      "answer": "Ja, Umag ist eines der familienfreundlichsten Reiseziele in Istrien. Die nördlichen Resorts bieten spezielle Kinderanimation, flache Strandabschnitte, Spielplätze und große Poolanlagen, die auf junge Besucher zugeschnitten sind."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Auf einen Blick",
+    "whereToStay": "Wo in Umag übernachten",
+    "gettingThere": "Anreise nach Umag",
+    "whenToGo": "Beste Reisezeit",
+    "guides": "Umag Reiseführer",
+    "faq": "Häufige Fragen",
+    "groups": {
+      "gettingAround": "Parken & Fortbewegung",
+      "planning": "Planung & Unterkünfte",
+      "timing": "Beste Reisezeit",
+      "travelers": "Familien, Paare & Reisestile",
+      "activities": "Strände & Aktivitäten",
+      "food": "Essen & Trinken",
+      "comparisons": "Vergleiche",
+      "practical": "Praktische Infos"
+    },
+    "car": "Mit dem Auto",
+    "other": "Weitere Optionen",
+    "bestFor": "Am besten für",
+    "parking": "Parken",
+    "beach": "Strand"
+  },
+  "destination": "umag",
+  "language": "de",
+  "updatedAt": "2026-10-16T11:36:07.540Z"
+}

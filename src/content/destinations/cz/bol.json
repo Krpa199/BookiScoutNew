@@ -1,0 +1,146 @@
+{
+  "title": "Bol: Průvodce – pláže, parkování a kde se ubytovat",
+  "metaDescription": "Naplánujte si cestu do Bolu, Chorvatsko. Objevte nejlepší oblasti k ubytování, trasy pro jízdu, tipy na parkování a vše, co potřebujete vědět o pláži Zlatý roh.",
+  "intro": "Bol leží na jižním pobřeží ostrova Brač, nejlépe známý jako domov pohyblivého oblázkového poloostrova Zlatý roh. Hodí se pro aktivní cestovatele, milovníky pláží a rodiny, kteří chtějí rovnováhu mezi nádhernými místy ke koupání a dobře rozvinutým, pěšky dostupným městem. Promenáda ve stínu borovic, spojující přístav s hlavní pláží, nabízí uvolněnou, středomořskou atmosféru s množstvím restaurací, center pro windsurfing a kaváren.\n\nHlavní turistická sezóna trvá od konce května do začátku října, s vrcholem v červenci a srpnu, kdy je město plně v provozu, ale velmi přeplněné. Návštěvníci přijíždějící autem obvykle dorazí trajektem pro auta Split–Supetar, po němž následuje 40minutová jízda přes ostrov. Ti, kteří hledají klidnější zážitek s teplými podmínkami ke koupání, by měli cílit na září.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "Červen a září"
+    },
+    {
+      "label": "Teplota moře v srpnu",
+      "value": "25–26 °C"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Brač (14 km) nebo Split (75 km trajektem)"
+    },
+    {
+      "label": "Hlavní typ pláže",
+      "value": "Jemné oblázky a štěrk"
+    },
+    {
+      "label": "Cenová úroveň",
+      "value": "Nad chorvatským průměrem"
+    },
+    {
+      "label": "Pěší dostupnost",
+      "value": "Pěší centrum, promenáda bez aut"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centrum Bolu a přístav",
+      "bestFor": "Stravování, noční život a přístup k trajektu",
+      "parking": "Velmi omezené, převážně placená parkoviště na okraji",
+      "beach": "10-15 min chůze k Bijela Kuća nebo Martinica",
+      "summary": "Historické srdce Bolu se pyšní tradičními kamennými domy, hlavním trajektovým molem a hustou koncentrací restaurací. Je ideální pro ty, kteří chtějí být pár kroků od večerní zábavy, ačkoli jízda autem a parkování jsou zde velmi omezeny."
+    },
+    {
+      "name": "Borik a promenáda Zlatý roh",
+      "bestFor": "Pro milovníky pláží, rodiny a windsurfisty",
+      "parking": "Velká placená parkoviště u Zlatého rohu",
+      "beach": "Přímý přístup k plážím Zlatý roh a Borik (oblázková)",
+      "summary": "Tento úsek spojuje centrum města s proslulou pláží Zlatý roh stinnou, borovicemi lemovanou pěší stezkou. Hotely zde nabízejí snadný přístup k pláži, rozsáhlé vybavení a klidnější večerní atmosféru ve srovnání s rušným přístavem."
+    },
+    {
+      "name": "Martinica (východní Bol)",
+      "bestFor": "Klidnější pobyty a historické výhledy",
+      "parking": "Snazší najít soukromé parkování u ubytování",
+      "beach": "Přímý přístup na pláž Martinica (oblázková)",
+      "summary": "Tato východní část města, nacházející se poblíž Dominikánského kláštera, je klidnější a působí více obytně. Nabízí skvělá místa ke koupání bez velkých davů Zlatého rohu, přičemž je stále v rozumné docházkové vzdálenosti od centra."
+    },
+    {
+      "name": "Murvica",
+      "bestFor": "Pro páry a odlehlé úniky",
+      "parking": "Omezené parkování na ulici; spoléhejte na místa u hostitele",
+      "beach": "Strmá cesta k pláži Murvica (jemné oblázky)",
+      "summary": "Tato malá ekovesnice, ležící asi 5 kilometrů západně od Bolu, je obklopena vinicemi a drsnou krajinou. Je ideální pro cestovatele s autem, kteří chtějí klidné, autentické dalmatské útočiště daleko od hlavních turistických center."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Mnichov",
+      "car": "975 km do Bolu (včetně trajektu), ~11h. A8/A10 do Villachu, A2/A1 do Splitu, poté trajekt Jadrolinija do Supetaru. Rakouské/slovinské dálniční známky, tunely Karawanken a chorvatské mýto.",
+      "other": "Přímé lety do Splitu (SPU), poté autobus/taxi do splitského přístavu a trajekt na Brač."
+    },
+    {
+      "from": "Vídeň",
+      "car": "800 km do Bolu (včetně trajektu), ~9h. A2/A9 do Štýrského Hradce, A1/A4 přes Maribor, A1 do Splitu, poté trajekt Jadrolinija. Rakouské a slovinské dálniční známky, chorvatské mýto.",
+      "other": "Přímé lety do Splitu, nebo přímý lůžkový vlak (Nightjet) do Splitu v létě."
+    },
+    {
+      "from": "Budapešť",
+      "car": "785 km do Bolu (včetně trajektu), ~9h. M7 k hranicím, A4 do Záhřebu, A1 do Splitu, poté trajekt Jadrolinija. Maďarská dálniční známka, chorvatské mýto.",
+      "other": "Přímé letní lety do Splitu, nebo přímý vlak (Adria InterCity) do Splitu."
+    },
+    {
+      "from": "Lublaň",
+      "car": "500 km do Bolu (včetně trajektu), ~6.5h. A2 do Nového Města, A1 do Splitu, poté trajekt Jadrolinija do Supetaru. Slovinská dálniční známka, chorvatské mýto.",
+      "other": "Přímý autobus do Splitu, následovaný osobním katamaránem nebo trajektem pro auta na Brač."
+    },
+    {
+      "from": "Praha",
+      "car": "1100 km do Bolu (včetně trajektu), ~13h. D1 do Brna, A2/A9 přes Rakousko, A1/A4 ve Slovinsku, A1 do Splitu, poté trajekt. České/rakouské/slovinské dálniční známky, chorvatské mýto.",
+      "other": "Přímé lety do Splitu (SPU) nebo lůžkový vlak RegioJet do Splitu v létě."
+    },
+    {
+      "from": "Krakov",
+      "car": "1150 km do Bolu (včetně trajektu), ~14h. Přes Slovensko, M7 v Maďarsku, A4/A1 v Chorvatsku do Splitu, poté trajekt. Slovenské/maďarské dálniční známky, chorvatské mýto.",
+      "other": "Přímé lety do Splitu (SPU), poté letištní kyvadlová doprava do přístavu a trajekt na Brač."
+    }
+  ],
+  "whenToGo": "Květen přináší mírné počasí (20-23 °C) a klidnější ulice, moře má stále svěžích 18 °C a sezónní podniky se teprve otevírají. V červnu je moře teplejší (22 °C) a davy lidí jsou příjemnější, což ho činí ideálním pro aktivní dovolenou. Červenec a srpen jsou hlavní sezónou; teploty stoupají nad 30 °C, moře dosahuje teplých 25-26 °C, ceny jsou nejvyšší a oblast Zlatého rohu je plná návštěvníků. Září nabízí dokonalou rovnováhu s teplými teplotami moře (23 °C), menšími davy a nižšími cenami ubytování, zatímco říjen sezónu uzavírá chladnějším, nepředvídatelným počasím a mnoho nábřežních restaurací se zavírá na zimu.",
+  "faq": [
+    {
+      "question": "Stojí Bol za návštěvu?",
+      "answer": "Ano, Bol rozhodně stojí za návštěvu díky své ikonické pláži Zlatý roh, spolehlivým podmínkám pro windsurfing a malebné promenádě. Nabízí skvělou rovnováhu mezi aktivními vodními sporty a okouzlující, dobře rozvinutou dalmatskou městskou atmosférou."
+    },
+    {
+      "question": "Kolik dní bych měl strávit v Bolu?",
+      "answer": "Tři až pět dní je ideální pro pobyt v Bolu. To poskytuje dostatek času na odpočinek na hlavních plážích, výšlap na Vidovu Goru pro panoramatické výhledy a výlet lodí na nedaleké ostrovy."
+    },
+    {
+      "question": "Jaká je nejlepší pláž v Bolu?",
+      "answer": "Zlatý roh (Golden Horn) je nejznámější a nejnápadnější pláž, proslulá svým pohyblivým oblázkovým výběžkem a křišťálově čistou vodou. Pro klidnější atmosféru s menším množstvím lidí je pláž Martinica poblíž Dominikánského kláštera vynikající alternativou."
+    },
+    {
+      "question": "Potřebuji v Bolu auto?",
+      "answer": "Ne, auto nepotřebujete, pokud bydlíte ve městě Bol, protože přístav, restaurace a hlavní pláže jsou propojeny rovnou pěší promenádou. Auto je nezbytné pouze v případě, že plánujete prozkoumat odlehlé vesnice a skryté zátoky po celém ostrově Brač."
+    },
+    {
+      "question": "Kde je nejlepší zaparkovat v Bolu?",
+      "answer": "Parkování v centru města je extrémně omezené a převážně vyhrazené pro obyvatele. Návštěvníci by měli využít velká placená obecní parkoviště u Zlatého rohu nebo se ujistit, že jejich ubytování nabízí zaručené soukromé parkovací místo."
+    },
+    {
+      "question": "Je Bol vhodný pro rodiny?",
+      "answer": "Ano, Bol je velmi vhodný pro rodiny díky své promenádě bez provozu, mělké vodě u Zlatého rohu a četnému vybavení. Děti všech věkových kategorií si užijí nafukovací vodní parky, turistický vláček a stinné borovicové oblasti."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Stručné informace",
+    "whereToStay": "Kde se ubytovat v Bolu",
+    "gettingThere": "Cesta do Bolu",
+    "whenToGo": "Kdy jet",
+    "guides": "Průvodce Bol",
+    "faq": "Bol: Často kladené otázky",
+    "groups": {
+      "gettingAround": "Parkování a pohyb po okolí",
+      "planning": "Plánování a ubytování",
+      "timing": "Kdy jet",
+      "travelers": "Rodiny, páry a styly cestování",
+      "activities": "Pláže a co dělat",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": "Praktické informace"
+    },
+    "car": "Autem",
+    "other": "Další možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "bol",
+  "language": "cz",
+  "updatedAt": "2026-10-16T14:31:04.491Z"
+}

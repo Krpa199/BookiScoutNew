@@ -1,0 +1,146 @@
+{
+  "title": "Jelsa : Guide de voyage – Plages, parking et hébergement",
+  "metaDescription": "Planifiez votre voyage à Jelsa, Croatie avec notre guide complet. Découvrez les meilleures plages, les quartiers, les itinéraires de conduite et les conseils de stationnement pour vos vacances à Hvar.",
+  "intro": "Jelsa est une ville côtière située sur le côté nord de l'île de Hvar, offrant une alternative plus calme et familiale à la ville plus animée de Hvar. Elle possède un centre historique concentré construit autour d'un port protégé, adossé à des forêts de pins et entouré de vignobles et d'oliveraies. La ville dispose d'une communauté fonctionnelle toute l'année, ce qui maintient les commodités locales comme les boulangeries, les pharmacies et les supermarchés ouverts en dehors de la haute saison touristique.\n\nLa ville convient aux visiteurs recherchant un accès facile à la plage, des itinéraires de marche et de vélo côtiers plats, et une atmosphère de soirée détendue. Les familles avec de jeunes enfants choisissent souvent Jelsa pour ses baies au fond sablonneux. Le moment optimal pour visiter est de juin à septembre, lorsque les températures de la mer sont suffisamment chaudes pour la baignade et que les liaisons par catamaran fonctionnent selon leurs horaires d'été les plus fréquents.",
+  "quickFacts": [
+    {
+      "label": "Meilleurs mois",
+      "value": "Juin à septembre"
+    },
+    {
+      "label": "Temp. de la mer en août",
+      "value": "25°C à 27°C"
+    },
+    {
+      "label": "Aéroport le plus proche",
+      "value": "Split (SPU), 24 km du port + 2h de ferry"
+    },
+    {
+      "label": "Type de plage principal",
+      "value": "Sable et galets"
+    },
+    {
+      "label": "Niveau de prix",
+      "value": "Légèrement supérieur à la moyenne croate"
+    },
+    {
+      "label": "Centre-ville",
+      "value": "Piétonnier, sans voiture"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centre de Jelsa (Vieille Ville)",
+      "bestFor": "Dîner, promenades en soirée et pour les non-automobilistes",
+      "parking": "Parkings municipaux payants en dehors de la zone piétonne",
+      "beach": "10 minutes à pied de la plage de Mina",
+      "summary": "Le cœur historique abrite des maisons en pierre, des cafés et des restaurants autour de la place principale (Pjaca) et du port. Séjourner ici signifie un accès immédiat aux commodités quotidiennes et aux liaisons par catamaran, bien que le calme puisse être limité les soirs de juillet et août."
+    },
+    {
+      "name": "Quartier de la plage de Mina",
+      "bestFor": "Familles avec de jeunes enfants",
+      "parking": "Parking privé dans la plupart des appartements, plus des parkings payants à proximité",
+      "beach": "Accès immédiat à la plage de Mina au fond sablonneux",
+      "summary": "Situé juste à l'est du centre-ville, ce quartier est dominé par les pins côtiers et offre un accès facile à la plage familiale la plus populaire de Jelsa. La promenade jusqu'au centre prend environ 10 minutes le long d'une promenade de bord de mer plate et illuminée."
+    },
+    {
+      "name": "Vitarnja",
+      "bestFor": "Couples et ceux qui recherchent le calme",
+      "parking": "Généralement inclus avec l'hébergement",
+      "beach": "Accès immédiat aux criques rocheuses et de galets",
+      "summary": "S'étendant à l'ouest de Jelsa vers le village voisin de Vrboska, Vitarnja est un tronçon de côte calme et résidentiel. Il offre des lieux de baignade privés depuis des plateformes rocheuses et un sentier côtier ombragé qui relie les deux villes."
+    },
+    {
+      "name": "Vrboska",
+      "bestFor": "Cyclistes et séjours plus longs",
+      "parking": "Nombreux parkings publics et privés",
+      "beach": "2 km de la plage de Soline, ou à vélo jusqu'aux plages de Jelsa",
+      "summary": "Situé à 4 kilomètres à l'ouest de Jelsa, ce village séparé se trouve dans une baie profonde et étroite traversée par des ponts de pierre. Il constitue une base alternative pratique avec ses propres restaurants, une marina et un terrain principalement plat, idéal pour le vélo le long de la côte."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Munich",
+      "car": "870 km jusqu'au port de Split + ferry, 11-12 heures au total (via A8, Villach, Ljubljana, Zagreb, A1). Nécessite les vignettes autrichienne et slovène, les péages croates et un billet de ferry Jadrolinija.",
+      "other": "Vols directs pour Split (SPU), puis bus de l'aéroport jusqu'au port et catamaran directement pour Jelsa."
+    },
+    {
+      "from": "Vienne",
+      "car": "800 km jusqu'au port de Split + ferry, 10-11 heures au total (via Graz, Maribor, Zagreb, A1). Nécessite les vignettes autrichienne et slovène, les péages croates et un billet de ferry Jadrolinija.",
+      "other": "Vols directs ou train de nuit saisonnier pour Split, puis catamaran directement pour Jelsa."
+    },
+    {
+      "from": "Budapest",
+      "car": "760 km jusqu'au port de Split + ferry, 9-10 heures au total (via M7, Letenye, Zagreb, A1). Nécessite la vignette électronique hongroise, les péages croates et un billet de ferry Jadrolinija.",
+      "other": "Vols directs pour Split, puis bus de l'aéroport jusqu'au port et catamaran directement pour Jelsa."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "480 km jusqu'au port de Split + ferry, 7-8 heures au total (via A2 jusqu'à Zagreb, puis A1 jusqu'à Split). Nécessite la vignette slovène, les péages croates et un billet de ferry Jadrolinija.",
+      "other": "Bus ou train pour Split, puis catamaran directement pour Jelsa ou ferry pour Stari Grad."
+    },
+    {
+      "from": "Prague",
+      "car": "1 120 km jusqu'au port de Split + ferry, 13-14 heures au total (via Vienne, Graz, Maribor, Zagreb, A1). Nécessite les vignettes CZ, AT, SI, les péages croates et un billet de ferry Jadrolinija.",
+      "other": "Vols directs pour Split, puis bus de l'aéroport jusqu'au port et catamaran directement pour Jelsa."
+    },
+    {
+      "from": "Cracovie",
+      "car": "1 100 km jusqu'au port de Split + ferry, 12-14 heures au total (via Slovaquie, Budapest, Zagreb, A1). Nécessite les vignettes SK et HU, les péages croates et un billet de ferry Jadrolinija.",
+      "other": "Vols directs pour Split, puis bus de l'aéroport jusqu'au port et catamaran directement pour Jelsa."
+    }
+  ],
+  "whenToGo": "Les températures de la mer atteignent généralement 21°C fin mai et culminent entre 25°C et 27°C en juillet et août, restant suffisamment chaudes pour la baignade jusqu'en octobre. Juillet et août sont les mois les plus fréquentés et les plus chers, attirant le pic du trafic des vacances d'été, et c'est à ce moment que tous les restaurants, bars de plage et locations de bateaux sont pleinement opérationnels. Juin et septembre offrent le meilleur équilibre entre des mers chaudes, des foules plus gérables et des tarifs d'hébergement légèrement inférieurs, ce qui les rend optimaux pour combiner baignade avec vélo ou visites touristiques. Entre novembre et avril, Jelsa se calme considérablement ; bien que la communauté locale reste présente, la plupart des entreprises axées sur le tourisme, les hôtels et les liaisons de ferry saisonnières ferment pour l'hiver.",
+  "faq": [
+    {
+      "question": "Vaut-il la peine de visiter Jelsa ?",
+      "answer": "Oui, Jelsa vaut la peine d'être visitée pour les voyageurs recherchant une alternative plus calme et familiale à la ville de Hvar. Elle offre des sentiers côtiers plats, des plages au fond sablonneux et un centre historique bien préservé sans la vie nocturne intense."
+    },
+    {
+      "question": "Combien de jours y séjourner ?",
+      "answer": "Trois à cinq jours constituent une durée pratique pour explorer Jelsa et ses environs immédiats. Cela laisse suffisamment de temps pour passer quelques jours sur les plages locales et faire de courtes excursions vers les villes voisines de Stari Grad, Vrboska ou la côte sud de Hvar."
+    },
+    {
+      "question": "Quelle est la meilleure plage ?",
+      "answer": "Mina et Grebišće sont largement considérées comme les meilleures plages de Jelsa en raison de leurs fonds sablonneux peu profonds, rares à Hvar. Mina est la plus proche du centre (environ 10 minutes à pied), tandis que Grebišće se trouve à 1,5 kilomètre à l'est et offre plus d'espace."
+    },
+    {
+      "question": "Ai-je besoin d'une voiture ?",
+      "answer": "Vous n'avez pas besoin de voiture si vous prévoyez de rester à Jelsa et de passer votre temps sur les plages locales, car la ville est compacte et très agréable à parcourir à pied. Cependant, avoir une voiture ou louer un scooter est recommandé si vous souhaitez explorer des baies isolées, des villages intérieurs ou d'autres villes de l'île."
+    },
+    {
+      "question": "Où se garer ?",
+      "answer": "Le stationnement à Jelsa est géré par des parkings municipaux payants situés juste à l'extérieur du centre piétonnier, le parking principal étant situé près du parc central. En haute saison estivale, le stationnement coûte généralement 1,40 € par heure ou 14 € pour un ticket journalier."
+    },
+    {
+      "question": "Jelsa est-elle adaptée aux familles ?",
+      "answer": "Oui, Jelsa est très appréciée comme destination familiale. La ville propose des zones piétonnes, des promenades plates adaptées aux poussettes, et des plages sûres, peu profondes et au fond sablonneux qui s'adressent spécifiquement aux jeunes enfants."
+    }
+  ],
+  "headings": {
+    "quickFacts": "En bref",
+    "whereToStay": "Où séjourner à Jelsa",
+    "gettingThere": "Comment se rendre à Jelsa",
+    "whenToGo": "Quand partir",
+    "guides": "Guides Jelsa",
+    "faq": "FAQ Jelsa",
+    "groups": {
+      "gettingAround": "Parking et se déplacer",
+      "planning": "Planification et hébergement",
+      "timing": "Quand partir",
+      "travelers": "Familles, couples et styles de voyage",
+      "activities": "Plages et activités",
+      "food": "Restauration",
+      "comparisons": "Comparaisons",
+      "practical": "Infos pratiques"
+    },
+    "car": "En voiture",
+    "other": "Autres options",
+    "bestFor": "Idéal pour",
+    "parking": "Parking",
+    "beach": "Plage"
+  },
+  "destination": "jelsa",
+  "language": "fr",
+  "updatedAt": "2026-10-16T14:57:26.288Z"
+}

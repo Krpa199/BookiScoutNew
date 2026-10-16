@@ -1,0 +1,146 @@
+{
+  "title": "Guía de Viaje de Pula: Playas, Aparcamiento y Dónde Alojarse",
+  "metaDescription": "Planifica un viaje a Pula, Croacia. Infórmate sobre las mejores zonas para alojarse, rutas en coche desde Europa, opciones de aparcamiento, playas y la mejor época para visitar.",
+  "intro": "Pula sirve como la principal puerta de entrada a la península de Istria, atrayendo a entusiastas de la historia y veraneantes. La ciudad se define por su anfiteatro romano bien conservado y una costa caracterizada por litorales rocosos y bahías de guijarros. Los visitantes que buscan una combinación de sitios arqueológicos y centros turísticos costeros accesibles encontrarán la zona adecuada para una estancia corta o como base para una exploración regional más amplia.\n\nLas condiciones más favorables se dan desde finales de mayo hasta septiembre, cuando los ferris operan con frecuencia y todas las instalaciones turísticas permanecen abiertas. El verano trae altas temperaturas y una afluencia significativa de gente, especialmente a lo largo de la península de Verudela. Los visitantes que priorizan tarifas de alojamiento más bajas y un clima moderado deberían considerar junio o septiembre, evitando la congestión máxima de julio y agosto.",
+  "quickFacts": [
+    {
+      "label": "Mejores meses",
+      "value": "Junio y septiembre"
+    },
+    {
+      "label": "Temperatura del mar en agosto",
+      "value": "25°C a 27°C"
+    },
+    {
+      "label": "Aeropuerto más cercano",
+      "value": "Aeropuerto de Pula (PUY), a 8 km del centro"
+    },
+    {
+      "label": "Tipo de playa principal",
+      "value": "Guijarros, rocosa y losas de hormigón"
+    },
+    {
+      "label": "Nivel de precios",
+      "value": "Promedio para Istria, ligeramente por debajo de Dubrovnik"
+    },
+    {
+      "label": "Accesibilidad a pie del Casco Antiguo",
+      "value": "Núcleo peatonal, restringido a coches"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centro de la Ciudad de Pula / Casco Antiguo",
+      "bestFor": "Viajes centrados en la historia, gastronomía y conexiones de transporte",
+      "parking": "Difícil; requiere grandes aparcamientos de pago fuera de la zona peatonal",
+      "beach": "A 2 a 3 km (se requiere viaje en autobús)",
+      "summary": "El núcleo histórico se centra en el anfiteatro romano y el foro. Carece de acceso inmediato a la playa, pero ofrece la mayor concentración de restaurantes, bares y museos."
+    },
+    {
+      "name": "Península de Verudela",
+      "bestFor": "Familias y vacaciones tipo resort",
+      "parking": "Abundante en hoteles y aparcamientos designados del resort",
+      "beach": "Acceso inmediato a calas de guijarros (Playa Hawaii, Ambrela)",
+      "summary": "Situada 5 km al sur del centro, esta zona consta principalmente de grandes complejos turísticos y alquileres de apartamentos. Cuenta con algunas de las playas de guijarros más accesibles de Pula y el acuario local."
+    },
+    {
+      "name": "Península de Stoja",
+      "bestFor": "Campistas y recreación al aire libre",
+      "parking": "Fácil aparcamiento en la calle y grandes instalaciones de camping",
+      "beach": "Acceso inmediato a litorales rocosos y la playa de guijarros de Valkane",
+      "summary": "Stoja se encuentra al oeste del centro de la ciudad y alberga un importante camping, un centro comercial y senderos costeros rocosos. La zona es más tranquila que Verudela y atrae a visitantes que prefieren el autoservicio o la acampada."
+    },
+    {
+      "name": "Pješčana Uvala",
+      "bestFor": "Parejas y familias que buscan un ambiente de pueblo más tranquilo",
+      "parking": "Aparcamiento público limitado; mejor asegurarlo a través del alojamiento",
+      "beach": "Corta caminata a una bahía protegida de guijarros/arena",
+      "summary": "Un asentamiento residencial situado justo al sur de Pula, construido alrededor de una bahía protegida. Ofrece una alternativa más relajada a los grandes complejos turísticos, con una playa local de alta calidad y varios restaurantes frente al mar."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Múnich",
+      "car": "590 km, 6.5 horas vía A10 y A1. Requiere viñetas AT y SI, además del túnel Karawanks y peajes HR",
+      "other": "Vuelo directo con Lufthansa o Flixbus de temporada"
+    },
+    {
+      "from": "Viena",
+      "car": "580 km, 6 horas vía A2 y A1. Requiere viñetas AT y SI, además de peajes HR",
+      "other": "Vuelo directo de temporada con Ryanair o Austrian Airlines"
+    },
+    {
+      "from": "Budapest",
+      "car": "610 km, 6.5 horas vía M7 y HR A4/A6. Requiere e-viñeta HU y peajes HR",
+      "other": "Autobús directo vía Flixbus"
+    },
+    {
+      "from": "Liubliana",
+      "car": "200 km, 2.5 horas vía A1. Requiere viñeta SI y peajes HR",
+      "other": "Autobús directo diario vía Nomago o Flixbus"
+    },
+    {
+      "from": "Praga",
+      "car": "880 km, 10 horas vía CZ D1, AT A9, SI A1. Requiere viñetas CZ, AT, SI, además de túnel y peajes HR",
+      "other": "Vuelo directo de temporada o tren a Rijeka seguido de autobús"
+    },
+    {
+      "from": "Cracovia",
+      "car": "1050 km, 11 horas vía PL A4, CZ D1, AT A1/A2, SI A1. Requiere viñetas CZ, AT, SI, además de peajes PL y HR",
+      "other": "Vuelos de temporada vía LOT/Ryanair o rutas de autobús con múltiples tramos"
+    }
+  ],
+  "whenToGo": "Junio y septiembre ofrecen el mejor equilibrio entre temperaturas cálidas del mar (alrededor de 23°C), precios moderados y menos aglomeraciones. Julio y agosto ven las temperaturas del mar alcanzar su punto máximo entre 25°C y 27°C, coincidiendo con las tarifas máximas de alojamiento, tráfico intenso y horarios de ferry completamente operativos. Mayo y octubre ofrecen aguas más frías, alrededor de 18°C a 20°C, haciendo que la natación sea menos fiable, aunque los principales sitios arqueológicos permanecen abiertos sin el calor del verano. Durante los meses de invierno, de noviembre a abril, las temperaturas bajan significativamente, trayendo importantes reducciones de precios, pero provocando que muchos negocios costeros, hoteles y rutas de vuelo estacionales suspendan sus operaciones por completo.",
+  "faq": [
+    {
+      "question": "¿Vale la pena visitar Pula?",
+      "answer": "Sí, particularmente por su arquitectura romana bien conservada y sus complejos turísticos costeros accesibles. Funciona bien como destino independiente o como punto de partida para explorar la península de Istria."
+    },
+    {
+      "question": "¿Cuántos días necesito en Pula?",
+      "answer": "Dos o tres días son suficientes para ver la ciudad. Esto permite un día para recorrer el anfiteatro y el Casco Antiguo, y otro día o dos para playas o un viaje en barco a las Islas Brijuni."
+    },
+    {
+      "question": "¿Cuál es la mejor playa de Pula?",
+      "answer": "La Playa Hawaii en la península de Verudela es ampliamente considerada la mejor opción. Cuenta con una orilla de guijarros inclinada, agua clara y está rodeada de altos acantilados rocosos."
+    },
+    {
+      "question": "¿Necesito un coche en Pula?",
+      "answer": "No es necesario un coche si te alojas en el Casco Antiguo o en la península de Verudela, ya que los autobuses locales conectan estas zonas de forma fiable. Sin embargo, un vehículo es muy recomendable para visitar pueblos en la cima de colinas y playas remotas en la región más amplia de Istria."
+    },
+    {
+      "question": "¿Dónde debo aparcar en Pula?",
+      "answer": "Los aparcamientos Karolina y Mandrač son las opciones más prácticas para visitar el centro. Ambos son aparcamientos grandes, de pago y al aire libre, situados justo fuera del Casco Antiguo peatonal, minimizando la conducción por calles estrechas de sentido único."
+    },
+    {
+      "question": "¿Es Pula buena para familias?",
+      "answer": "Sí, la zona ofrece una excelente infraestructura para viajar con niños. La península de Verudela cuenta con playas de guijarros tranquilas y aptas para familias, zonas de baño poco profundas y atracciones como el Acuario de Pula."
+    }
+  ],
+  "headings": {
+    "quickFacts": "De un vistazo",
+    "whereToStay": "Dónde alojarse en Pula",
+    "gettingThere": "Cómo llegar a Pula",
+    "whenToGo": "Cuándo ir",
+    "guides": "Guías de Pula",
+    "faq": "Preguntas frecuentes de Pula",
+    "groups": {
+      "gettingAround": "Aparcamiento y cómo moverse",
+      "planning": "Planificación y dónde alojarse",
+      "timing": "Cuándo ir",
+      "travelers": "Familias, parejas y estilos de viaje",
+      "activities": "Playas y cosas que hacer",
+      "food": "Comida y bebida",
+      "comparisons": "Comparaciones",
+      "practical": "Información práctica"
+    },
+    "car": "En coche",
+    "other": "Otras opciones",
+    "bestFor": "Mejor para",
+    "parking": "Aparcamiento",
+    "beach": "Playa"
+  },
+  "destination": "pula",
+  "language": "es",
+  "updatedAt": "2026-10-16T10:34:03.321Z"
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Pula: Przewodnik turystyczny – plaże, parking i noclegi",
+  "metaDescription": "Zaplanuj podróż do Puli w Chorwacji. Dowiedz się o najlepszych dzielnicach na pobyt, trasach dojazdowych z Europy, opcjach parkowania, plażach i najlepszym czasie na wizytę.",
+  "intro": "Pula to główna brama na półwysep Istria, przyciągająca miłośników historii i letnich urlopowiczów. Miasto słynie z dobrze zachowanego rzymskiego amfiteatru oraz wybrzeża charakteryzującego się skalistymi brzegami i żwirowymi zatokami. Odwiedzający szukający połączenia stanowisk archeologicznych i łatwo dostępnych nadmorskich kurortów uznają ten obszar za idealny na krótki pobyt lub jako bazę do szerszej eksploracji regionu.\n\nNajkorzystniejsze warunki panują od końca maja do września, kiedy promy kursują często, a wszystkie obiekty turystyczne są otwarte. Lato przynosi wysokie temperatury i znaczne tłumy, szczególnie wzdłuż półwyspu Verudela. Odwiedzający, którzy preferują niższe ceny zakwaterowania i umiarkowaną pogodę, powinni celować w czerwiec lub wrzesień, unikając szczytowego zatłoczenia w lipcu i sierpniu.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "Czerwiec i wrzesień"
+    },
+    {
+      "label": "Temperatura morza w sierpniu",
+      "value": "25°C do 27°C"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Lotnisko Pula (PUY), 8 km od centrum"
+    },
+    {
+      "label": "Główny typ plaż",
+      "value": "Żwirowe, skaliste i betonowe platformy"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "Średnie dla Istrii, nieco niższe niż w Dubrowniku"
+    },
+    {
+      "label": "Dostępność Starego Miasta dla pieszych",
+      "value": "Strefa wyłączona z ruchu kołowego, ograniczona dla samochodów"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centrum Puli / Stare Miasto",
+      "bestFor": "Wycieczki skupione na historii, restauracje i połączenia komunikacyjne",
+      "parking": "Trudny; wymaga dużych płatnych parkingów poza strefą pieszą",
+      "beach": "2 do 3 km (wymagany przejazd autobusem)",
+      "summary": "Historyczne centrum skupia się wokół rzymskiego amfiteatru i forum. Brakuje bezpośredniego dostępu do plaży, ale oferuje największe stężenie restauracji, barów i muzeów."
+    },
+    {
+      "name": "Półwysep Verudela",
+      "bestFor": "Rodziny i wakacje w stylu resortowym",
+      "parking": "Obfity przy hotelach i wyznaczonych parkingach resortowych",
+      "beach": "Bezpośredni dostęp do żwirowych zatoczek (Plaża Hawaii, Ambrela)",
+      "summary": "Położona 5 km na południe od centrum, ta dzielnica składa się głównie z dużych kompleksów resortowych i apartamentów do wynajęcia. Znajdują się tu jedne z najbardziej dostępnych żwirowych plaż Puli i lokalne akwarium."
+    },
+    {
+      "name": "Półwysep Stoja",
+      "bestFor": "Kempingowicze i rekreacja na świeżym powietrzu",
+      "parking": "Łatwy parking uliczny i duże obiekty kempingowe",
+      "beach": "Bezpośredni dostęp do skalistych brzegów i żwirowej plaży Valkane",
+      "summary": "Stoja znajduje się na zachód od centrum miasta i mieści duży kemping, centrum handlowe oraz skaliste szlaki nadbrzeżne. Obszar ten jest cichszy niż Verudela i przemawia do odwiedzających preferujących samodzielne wyżywienie lub kemping."
+    },
+    {
+      "name": "Pješčana Uvala",
+      "bestFor": "Pary i rodziny szukające spokojniejszej, wioskowej atmosfery",
+      "parking": "Ograniczony parking publiczny; najlepiej zapewniony przez zakwaterowanie",
+      "beach": "Krótki spacer do osłoniętej zatoki z mieszanką żwiru i piasku",
+      "summary": "Osiedle mieszkaniowe położone na południe od Puli, zbudowane wokół osłoniętej zatoki. Stanowi bardziej relaksującą alternatywę dla dużych kurortów, oferując wysokiej jakości lokalną plażę i kilka restauracji nadmorskich."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monachium",
+      "car": "590 km, 6,5 godziny przez A10 i A1. Wymaga winiet AT i SI, plus tunel Karawanki i opłaty HR",
+      "other": "Bezpośredni lot Lufthansą lub sezonowy Flixbus"
+    },
+    {
+      "from": "Wiedeń",
+      "car": "580 km, 6 godzin przez A2 i A1. Wymaga winiet AT i SI, plus opłaty HR",
+      "other": "Bezpośredni lot sezonowy Ryanair lub Austrian Airlines"
+    },
+    {
+      "from": "Budapeszt",
+      "car": "610 km, 6,5 godziny przez M7 i HR A4/A6. Wymaga e-winiety HU i opłat HR",
+      "other": "Bezpośredni autobus Flixbusem"
+    },
+    {
+      "from": "Lublana",
+      "car": "200 km, 2,5 godziny przez A1. Wymaga winiety SI i opłat HR",
+      "other": "Bezpośredni codzienny autobus Nomago lub Flixbusem"
+    },
+    {
+      "from": "Praga",
+      "car": "880 km, 10 godzin przez CZ D1, AT A9, SI A1. Wymaga winiet CZ, AT, SI, plus tunel i opłaty HR",
+      "other": "Sezonowy bezpośredni lot lub pociąg do Rijeki, a następnie autobus"
+    },
+    {
+      "from": "Kraków",
+      "car": "1050 km, 11 godzin przez PL A4, CZ D1, AT A1/A2, SI A1. Wymaga winiet CZ, AT, SI, plus opłaty PL i HR",
+      "other": "Loty sezonowe LOT/Ryanair lub wieloetapowe trasy autobusowe"
+    }
+  ],
+  "whenToGo": "Czerwiec i wrzesień oferują najlepszą równowagę ciepłych temperatur morza (około 23°C), umiarkowanych cen i mniejszego zatłoczenia. W lipcu i sierpniu temperatury morza osiągają szczyt między 25°C a 27°C, co zbiega się z maksymalnymi stawkami zakwaterowania, dużym ruchem i w pełni działającymi rozkładami promów. Maj i październik oferują chłodniejsze wody, około 18°C do 20°C, co sprawia, że pływanie jest mniej pewne, choć główne stanowiska archeologiczne pozostają otwarte bez letniego upału. W miesiącach zimowych od listopada do kwietnia temperatury znacznie spadają, co prowadzi do znacznych obniżek cen, ale powoduje całkowite zawieszenie działalności wielu nadmorskich firm, hoteli i sezonowych tras lotniczych.",
+  "faq": [
+    {
+      "question": "Czy warto odwiedzić Pulę?",
+      "answer": "Tak, szczególnie ze względu na dobrze zachowaną rzymską architekturę i łatwo dostępne nadmorskie kurorty. Sprawdza się zarówno jako samodzielna destynacja, jak i punkt wypadowy do odkrywania półwyspu Istria."
+    },
+    {
+      "question": "Ile dni potrzeba na Pulę?",
+      "answer": "Dwa do trzech dni wystarczą na zwiedzanie miasta. Pozwala to na jeden dzień zwiedzania amfiteatru i Starego Miasta, a kolejny dzień lub dwa na plaże lub wycieczkę łodzią na Wyspy Briońskie."
+    },
+    {
+      "question": "Jaka jest najlepsza plaża w Puli?",
+      "answer": "Plaża Hawaii na półwyspie Verudela jest powszechnie uważana za najlepszą opcję. Charakteryzuje się pochyłym żwirowym brzegiem, czystą wodą i jest otoczona wysokimi skalistymi klifami."
+    },
+    {
+      "question": "Czy potrzebuję samochodu w Puli?",
+      "answer": "Samochód nie jest konieczny, jeśli zatrzymujesz się na Starym Mieście lub na półwyspie Verudela, ponieważ lokalne autobusy niezawodnie łączą te obszary. Jednak pojazd jest wysoce zalecany do odwiedzania wiosek na wzgórzach i odległych plaż w szerszym regionie Istrii."
+    },
+    {
+      "question": "Gdzie zaparkować w Puli?",
+      "answer": "Parkingi Karolina i Mandrač to najbardziej praktyczne opcje na wizytę w centrum. Oba to duże, płatne parkingi na świeżym powietrzu, położone tuż poza deptakiem Starego Miasta, minimalizujące jazdę wąskimi jednokierunkowymi uliczkami."
+    },
+    {
+      "question": "Czy Pula jest dobra dla rodzin?",
+      "answer": "Tak, region oferuje doskonałą infrastrukturę do podróżowania z dziećmi. Półwysep Verudela charakteryzuje się spokojnymi, przyjaznymi rodzinom żwirowymi plażami, płytkimi strefami do pływania i atrakcjami takimi jak Akwarium w Puli."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Gdzie zatrzymać się w Puli",
+    "gettingThere": "Dojazd do Puli",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Puli",
+    "faq": "Pula – najczęściej zadawane pytania",
+    "groups": {
+      "gettingAround": "Parking i poruszanie się",
+      "planning": "Planowanie i gdzie się zatrzymać",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróżowania",
+      "activities": "Plaże i co robić",
+      "food": "Jedzenie i napoje",
+      "comparisons": "Porównania",
+      "practical": "Praktyczne informacje"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "pula",
+  "language": "pl",
+  "updatedAt": "2026-10-16T10:29:43.444Z"
+}

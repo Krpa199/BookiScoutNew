@@ -1,0 +1,146 @@
+{
+  "title": "Grožnjan Przewodnik turystyczny: Sztuka, wioski i interior Istrii",
+  "metaDescription": "Zaplanuj podróż do Grožnjan w Chorwacji. Przeczytaj o najlepszym czasie na wizytę, zakwaterowaniu, szczegółach parkowania, trasach dojazdowych i zwiedzaniu interioru Istrii.",
+  "intro": "Grožnjan to położona na wzgórzu wioska w środkowej Istrii, charakteryzująca się średniowieczną kamienną architekturą i silnym naciskiem na sztukę i muzykę. Przyciąga podróżnych poszukujących wydarzeń kulturalnych, wiejskiego spokoju i bliskości istryjskich winiarni, zamiast tradycyjnych wakacji na plaży. Wioska jest niewielka i od wiosny do jesieni gości liczne letnie akademie muzyczne i galerie.\n\nNajlepszy czas na wizytę to okres od maja do września, kiedy lokalne firmy działają w pełni. Odwiedzający zazwyczaj zatrzymują się tutaj, aby odkrywać interior regionu rowerem lub samochodem, odbywając jednodniowe wycieczki do nadmorskich miejscowości, takich jak Umag i Novigrad, które są w niewielkiej odległości. Strome, brukowane uliczki wymagają wygodnych butów do chodzenia.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "Maj do września"
+    },
+    {
+      "label": "Temperatura morza w sierpniu",
+      "value": "Nie dotyczy (interior), najbliższe wybrzeże 25-27°C"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Triest (TRS), 60 km"
+    },
+    {
+      "label": "Główny typ plaży",
+      "value": "Brak (20 km do wybrzeża żwirowego/skalistego)"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "Umiarkowanie wyższy niż średnia chorwacka"
+    },
+    {
+      "label": "Dostępność starego miasta dla pieszych",
+      "value": "W pełni deptakowe, bez samochodów"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Stare Miasto Grožnjan",
+      "bestFor": "Miłośnicy sztuki, pary",
+      "parking": "Płatny parking poza murami miasta",
+      "beach": "20 km (Umag)",
+      "summary": "Historyczne, deptakowe centrum jest pełne galerii sztuki, kawiarni i kamiennych domów. Pobyt tutaj oznacza budzenie się w cichych średniowiecznych uliczkach, choć bagaż należy przenieść z parkingów na obrzeżach."
+    },
+    {
+      "name": "Triban i Krasica",
+      "bestFor": "Pobyt na wsi, rowerzyści, rodziny",
+      "parking": "Typowo bezpłatny prywatny parking przy willach",
+      "beach": "20-25 km",
+      "summary": "Te małe osady rolnicze otaczają Grožnjan i oferują odnowione domy wiejskie oraz wille z basenami. Stanowią cichą bazę na wsi z łatwym dostępem do szlaku rowerowego Parenzana."
+    },
+    {
+      "name": "Buje",
+      "bestFor": "Podróżni z ograniczonym budżetem, dłuższe pobyty",
+      "parking": "Zazwyczaj łatwy i bezpłatny poza historycznym centrum",
+      "beach": "15 km (Kanegra)",
+      "summary": "Większe miasto oddalone o 8 kilometrów od Grožnjan, Buje posiada supermarkety, apteki i więcej opcji gastronomicznych. Służy jako praktyczna, centralna baza do odkrywania północno-zachodniej Istrii."
+    },
+    {
+      "name": "Završje",
+      "bestFor": "Izolacja, entuzjaści historii, fotografowie",
+      "parking": "Dostępny bezpłatny parking",
+      "beach": "25 km",
+      "summary": "Częściowo opuszczona średniowieczna wioska w pobliżu Grožnjan, znana z dramatycznego położenia na wzgórzu i historycznych ruin. Zakwaterowanie ogranicza się do kilku odrestaurowanych domów, oferujących całkowity spokój i ciszę."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monachium",
+      "car": "500 km, ok. 5,5 godziny przez A8, A10 (austriacka winieta + opłata za Tauern), tunel Karawanken, Słowenia A1 do Koper",
+      "other": "Lot do Triestu, następnie wynajem samochodu"
+    },
+    {
+      "from": "Wiedeń",
+      "car": "490 km, ok. 5 godzin przez A2, Słowenia A1 (wymagane winiety austriacka i słoweńska) przez Graz i Koper",
+      "other": "Pociąg do Triestu, następnie autobus do Buje"
+    },
+    {
+      "from": "Budapeszt",
+      "car": "580 km, ok. 6 godzin przez M7 (winieta), Chorwacja A4/A1 do Rijeki (opłata), Istrianki Y do zjazdu Buje",
+      "other": "Lot do Zagrzebia, następnie autobus do Buje"
+    },
+    {
+      "from": "Lublana",
+      "car": "120 km, ok. 1,5 godziny przez A1 do Koper (winieta), droga lokalna 11 do granicy Kaštel",
+      "other": "Bezpośredni autobus z Lublany do Buje (1,5 godziny), następnie taksówka"
+    },
+    {
+      "from": "Praga",
+      "car": "820 km, ok. 9 godzin przez A3, A9 (austriacka winieta + opłaty Pyhrn), Słowenia A1 do Koper",
+      "other": "Lot do Triestu (przez Frankfurt/Monachium), następnie samochód"
+    },
+    {
+      "from": "Kraków",
+      "car": "950 km, ok. 10 godzin przez A1 (winieta CZ), Austria A2, Słowenia A1 do Koper",
+      "other": "Lot do Wiednia lub Treviso, następnie samochód"
+    }
+  ],
+  "whenToGo": "Od maja do września Grožnjan tętni życiem, z otwartymi galeriami, działającymi letnimi akademiami muzycznymi i kawiarniami na świeżym powietrzu. Lipiec i sierpień to najbardziej ruchliwe i najdroższe miesiące, choć tłumy są nadal do opanowania w porównaniu do nadmorskich kurortów. Wiosna (kwiecień i maj) oraz jesień (wrzesień i październik) oferują łagodną pogodę, idealną do jazdy na rowerze szlakiem Parenzana i zwiedzania winiarni, przy niższych cenach zakwaterowania. Od listopada do marca wioska jest niezwykle cicha; większość galerii, restauracji i obiektów turystycznych zamyka się całkowicie, a pogoda jest często wilgotna i chłodna.",
+  "faq": [
+    {
+      "question": "Czy warto odwiedzić?",
+      "answer": "Tak, Grožnjan jest gorąco polecany podróżnym zainteresowanym sztuką, średniowieczną architekturą i krajobrazami interioru Istrii. Stanowi cichą, kulturalną alternatywę dla ruchliwych kurortów nadmorskich."
+    },
+    {
+      "question": "Ile dni potrzebuję?",
+      "answer": "Jeden lub dwa dni wystarczą na zwiedzenie samej wioski. Jednakże, stanowi ona doskonałą bazę wypadową na 4- do 7-dniową wycieczkę po pozostałej części interioru Istrii, lokalnych winiarniach i szlaku rowerowym Parenzana."
+    },
+    {
+      "question": "Gdzie jest najlepsza plaża?",
+      "answer": "Grožnjan nie ma plaż, ponieważ leży 20 kilometrów w głąb lądu. Najbliższe punkty dostępu do wybrzeża znajdują się w Umagu i Novigradzie, gdzie odwiedzający znajdą utwardzone tarasy i skaliste zatoki, takie jak plaża Kanegra."
+    },
+    {
+      "question": "Czy potrzebuję samochodu?",
+      "answer": "Tak, samochód jest niezbędny do dotarcia do Grožnjan i zwiedzania okolicy. Transport publiczny bezpośrednio do wioski jest bardzo ograniczony, choć autobusy międzymiastowe obsługują pobliskie miasto Buje."
+    },
+    {
+      "question": "Gdzie mogę zaparkować?",
+      "answer": "Odwiedzający muszą parkować na wyznaczonych płatnych parkingach zlokalizowanych tuż za murami wioski. Historyczne centrum jest w całości deptakowe i niedostępne dla nieuprawnionych pojazdów."
+    },
+    {
+      "question": "Czy jest dobre dla rodzin?",
+      "answer": "Jest odpowiednie dla rodzin szukających spokojnych wakacji w willi, ale w wiosce jest niewiele atrakcji typowo dla dzieci. Małe dzieci mogą mieć trudności z nierównym brukiem, a brak bezpośredniej plaży wymaga codziennych dojazdów samochodem."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Gdzie zatrzymać się w Grožnjan",
+    "gettingThere": "Jak dojechać do Grožnjan",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Grožnjan",
+    "faq": "Grožnjan: Najczęściej zadawane pytania",
+    "groups": {
+      "gettingAround": "Parking i poruszanie się",
+      "planning": "Planowanie i gdzie się zatrzymać",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróżowania",
+      "activities": "Plaże i co robić",
+      "food": "Jedzenie i picie",
+      "comparisons": "Porównania",
+      "practical": "Praktyczne informacje"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "groznjan",
+  "language": "pl",
+  "updatedAt": "2026-10-16T12:29:35.708Z"
+}

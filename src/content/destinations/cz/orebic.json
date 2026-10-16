@@ -1,0 +1,146 @@
+{
+  "title": "Orebić: Průvodce – Pláže, víno a ubytování",
+  "metaDescription": "Naplánujte si cestu do Orebiće s tímto praktickým průvodcem. Objevte nejlepší pláže, místní vinařské oblasti, trasy pro jízdu autem a nejlepší čtvrti k ubytování.",
+  "intro": "Orebić je historické přímořské město na jihozápadním pobřeží poloostrova Pelješac, ležící přímo naproti úzkému průlivu od ostrova Korčula. Slouží jako vynikající základna pro cestovatele hledající klasickou dalmatskou kombinaci pláží zastíněných borovicemi, průzračných vod a výrazné místní vinařské kultury, to vše bez intenzivních davů velkých měst. Město je orientováno na jih, chráněno horou Ilija, která poskytuje dramatické pozadí a chrání pobřeží před severními větry.\n\nTato destinace silně láká rodiny hledající klidná, písčitá místa ke koupání, jako je Trstenica, stejně jako páry a skupiny, které mají zájem o prohlídku nedalekých vinic Dingač a Postup. Nejspolehlivější dobou pro návštěvu je období od června do září, kdy je moře dostatečně teplé ke koupání a všechny trajektové linky a místní restaurace jsou plně v provozu.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "Červen až září"
+    },
+    {
+      "label": "Teplota moře v srpnu",
+      "value": "24°C - 26°C"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Dubrovník (DBV), 130 km"
+    },
+    {
+      "label": "Hlavní typ pláže",
+      "value": "Jemné oblázky s písčitým mořským dnem"
+    },
+    {
+      "label": "Cenová úroveň",
+      "value": "Průměrná (levnější než Dubrovník)"
+    },
+    {
+      "label": "Centrum bez aut",
+      "value": "Velmi vhodné k chůzi, ale auta jsou povolena ve většině ulicích"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centrum a promenáda Orebiće",
+      "bestFor": "Pro nováčky a ty, kteří spoléhají na trajekty nebo veřejnou dopravu",
+      "parking": "Placené parkování na ulici a parkoviště u trajektu; často přeplněné",
+      "beach": "Malé oblázkové pláže podél promenády",
+      "summary": "Historické jádro se pyšní starými kapitánskými domy, dlouhou pobřežní promenádou a hlavním trajektovým přístavem. Nabízí snadný pěší přístup k většině restaurací, pekáren a rychlému osobnímu trajektu na Korčulu."
+    },
+    {
+      "name": "Oblast Trstenica",
+      "bestFor": "Pro rodiny s dětmi a milovníky pláží",
+      "parking": "Omezené parkování na ulici; rezervace ubytování s parkovacím místem je nezbytná",
+      "beach": "Pláž Trstenica (písek a jemné oblázky, mělký vstup)",
+      "summary": "Tato rezidenční čtvrť se nachází na východním okraji města a je postavena kolem nejznámější orebićské pláže. Je klidnější než centrum, ale stále v dosahu 15 minut chůze od hlavní promenády."
+    },
+    {
+      "name": "Viganj a Kučište",
+      "bestFor": "Pro windsurfaře, kitesurfaře a aktivní cestovatele",
+      "parking": "Obecně snazší, s většími parkovišti v kempech a u plážových apartmánů",
+      "beach": "Dlouhé úseky jemných oblázkových pláží přímo u silnice",
+      "summary": "Tyto pobřežní vesnice ležící několik kilometrů západně od Orebiće jsou proslulé svými spolehlivými odpoledními větry mistral. Atmosféra je uvolněná a sportovní, s četnými surfovými školami, plážovými bary a kempy."
+    },
+    {
+      "name": "Mokalo a Postup",
+      "bestFor": "Pro milovníky vína a páry hledající samotu",
+      "parking": "Snadné a bezpečné, obvykle zajištěné soukromými vilami a resorty",
+      "beach": "Odlehlé oblázkové zátoky podpořené strmými vinicemi",
+      "summary": "Tyto malé osady východně od Orebiće se tyčí na svazích proslulých vinařskou oblastí Postup. Nabízejí butikové ubytování, nádherné výhledy na souostroví a velmi klidnou atmosféru daleko od hlavního města."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Mnichov",
+      "car": "1 050 km, 11–12 hodin přes A8, Villach, Lublaň, Záhřeb, A1 do Ploče a bezplatný Pelješacský most. Vyžaduje rakouskou a slovinskou dálniční známku, plus chorvatské dálniční poplatky.",
+      "other": "Let do Splitu (SPU) nebo Dubrovníku (DBV), poté půjčené auto nebo autobus."
+    },
+    {
+      "from": "Vídeň",
+      "car": "860 km, 9–10 hodin přes Štýrský Hradec, Maribor, Záhřeb, A1 do Ploče a Pelješacský most. Vyžaduje rakouskou a slovinskou dálniční známku, plus chorvatské dálniční poplatky.",
+      "other": "Přímý let do Splitu (SPU) nebo Dubrovníku (DBV)."
+    },
+    {
+      "from": "Budapešť",
+      "car": "850 km, 9–10 hodin přes M7 do Letenye, Záhřeb, A1 na jih do Ploče a Pelješacský most. Vyžaduje maďarskou dálniční známku a chorvatské dálniční poplatky.",
+      "other": "Let do Splitu (SPU) nebo Dubrovníku (DBV) během léta."
+    },
+    {
+      "from": "Lublaň",
+      "car": "610 km, 6,5–7,5 hodiny přes Novo Mesto, Záhřeb, A1 na jih do Ploče a Pelješacský most. Vyžaduje slovinskou dálniční známku a chorvatské dálniční poplatky.",
+      "other": "Autobus do Splitu nebo Dubrovníku, poté místní autobus nebo trajekt do Orebiće."
+    },
+    {
+      "from": "Praha",
+      "car": "1 150 km, 12–14 hodin přes Brno, Vídeň, Štýrský Hradec, Záhřeb a A1 na jih. Vyžaduje českou, rakouskou a slovinskou dálniční známku, plus chorvatské dálniční poplatky.",
+      "other": "Přímé lety do Splitu (SPU) nebo Dubrovníku (DBV)."
+    },
+    {
+      "from": "Krakov",
+      "car": "1 200 km, 13–14 hodin přes Slovensko, Budapešť, Záhřeb a A1 na jih. Vyžaduje slovenskou a maďarskou dálniční známku, plus chorvatské dálniční poplatky.",
+      "other": "Přímé letní lety do Splitu (SPU) nebo Dubrovníku (DBV)."
+    }
+  ],
+  "whenToGo": "Sezóna začíná v květnu, kdy se znovu otevírají pobřežní restaurace a ceny zůstávají nízké, ačkoli teplota moře je svěžích 18 °C. Červen přináší teplejší počasí a teploty moře kolem 22 °C, což z něj činí skvělý čas pro rané letní koupání s mírnými davy. Vrchol sezóny probíhá v červenci a srpnu, kdy moře dosahuje velmi příjemných 24 °C až 26 °C; během těchto měsíců je město nejrušnější, ceny ubytování vrcholí a parkování u pláží je velmi konkurenční. Září je všeobecně považováno za optimální měsíc, nabízející teplé vody (kolem 23 °C), prořídlé davy a začátek místní sklizně hroznů. Koncem října se turistická infrastruktura z velké části uzavírá na zimu a město se vrací do klidného, místního rytmu.",
+  "faq": [
+    {
+      "question": "Stojí Orebić za návštěvu?",
+      "answer": "Ano, Orebić rozhodně stojí za návštěvu díky svým vynikajícím plážím a výrazné vinařské kultuře. Nabízí mnohem uvolněnější alternativu k přeplněným dalmatským městům, přičemž stále poskytuje snadný přístup na ostrov Korčula."
+    },
+    {
+      "question": "Kolik dní bych měl/a strávit v Orebići?",
+      "answer": "Tři až pět dní je ideální doba pro pobyt v Orebići. To poskytuje dostatek času na užití si pláže Trstenica, prohlídku nedalekých vinic Dingač a jednodenní výlet přes úžinu na Korčulu."
+    },
+    {
+      "question": "Která je nejlepší pláž v Orebići?",
+      "answer": "Trstenica je všeobecně považována za nejlepší pláž v Orebići, zejména pro rodiny. Nabízí jemný oblázkový břeh s písčitým mořským dnem a mělkou vodou, lemovaný borovicemi, které poskytují přirozený stín."
+    },
+    {
+      "question": "Potřebuji v Orebići auto?",
+      "answer": "Zatímco samotné město je snadno průchozí pěšky, auto je velmi doporučené. Vozidlo je nezbytné pro objevování vinařství, venkovských vesnic a skrytých zátok poloostrova Pelješac."
+    },
+    {
+      "question": "Kde je nejlepší parkovat v Orebići?",
+      "answer": "V blízkosti hlavního trajektového terminálu se nachází velké placené parkoviště, i když v červenci a srpnu se rychle zaplní. Pokud se ubytováváte v centru nebo u pláže Trstenica, je klíčové rezervovat si ubytování, které zahrnuje soukromé parkovací místo."
+    },
+    {
+      "question": "Je Orebić vhodný pro rodiny?",
+      "answer": "Orebić je vynikající destinací pro rodiny díky své klidné atmosféře a bezpečným podmínkám ke koupání. Mělké, písčité vody na pláži Trstenica jsou obzvláště vhodné pro malé děti."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na první pohled",
+    "whereToStay": "Kde se ubytovat v Orebići",
+    "gettingThere": "Jak se dostat do Orebiće",
+    "whenToGo": "Kdy jet",
+    "guides": "Průvodci Orebićem",
+    "faq": "Časté dotazy k Orebići",
+    "groups": {
+      "gettingAround": "Parkování a doprava",
+      "planning": "Plánování a kde se ubytovat",
+      "timing": "Kdy jet",
+      "travelers": "Rodiny, páry a styly cestování",
+      "activities": "Pláže a co dělat",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": "Praktické informace"
+    },
+    "car": "Autem",
+    "other": "Další možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "orebic",
+  "language": "cz",
+  "updatedAt": "2026-10-16T15:09:30.636Z"
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Cavtat Guía de viaje: Playas, estacionamiento y dónde alojarse",
+  "metaDescription": "Planifica tu viaje a Cavtat, Croacia. Descubre dónde alojarte, cómo llegar en coche desde Europa Central, información de estacionamiento y las mejores playas locales.",
+  "intro": "Cavtat es una ciudad costera en el sur de Dalmacia, ubicada a 20 kilómetros al sur de Dubrovnik. Ofrece a los visitantes una experiencia costera más tranquila y relajada, manteniendo un fácil acceso al centro histórico de Dubrovnik mediante barcos de pasajeros regulares y autobuses regionales. La ciudad se centra en una península boscosa con un paseo marítimo llano y peatonal, bordeado de restaurantes, cafeterías y pinos.\n\nEl destino es ideal para familias, viajeros mayores y parejas que prefieren días de playa relajados en lugar de una vida nocturna activa. El verano es la época más popular para visitar, aunque mayo y septiembre ofrecen un clima agradable para nadar y precios de alojamiento más bajos. Un coche es innecesario si te alojas dentro de los límites de la ciudad, pero útil para explorar la región más amplia de Konavle o el vecino Montenegro.",
+  "quickFacts": [
+    {
+      "label": "Mejores meses",
+      "value": "De mayo a septiembre"
+    },
+    {
+      "label": "Temperatura del mar en agosto",
+      "value": "25°C a 27°C"
+    },
+    {
+      "label": "Aeropuerto más cercano",
+      "value": "Aeropuerto de Dubrovnik (DBV), a 6 km"
+    },
+    {
+      "label": "Tipo de playa principal",
+      "value": "Terrazas de guijarros y hormigón"
+    },
+    {
+      "label": "Nivel de precios",
+      "value": "Por encima de la media, pero 10-15% más barato que Dubrovnik"
+    },
+    {
+      "label": "Facilidad para caminar",
+      "value": "El casco antiguo es muy accesible a pie y en su mayoría libre de coches"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Casco Antiguo (Península de Rat)",
+      "bestFor": "Primeros visitantes y parejas que prefieren fácil acceso a restaurantes",
+      "parking": "Muy limitado; estacionamiento público en la entrada de la ciudad",
+      "beach": "5-10 minutos a pie de zonas de baño rocosas y de hormigón",
+      "summary": "El centro histórico cuenta con casas de piedra tradicionales, restaurantes y el paseo marítimo principal. Los alojamientos aquí suelen estar a pocos pasos del agua, pero generalmente carecen de estacionamiento privado."
+    },
+    {
+      "name": "Bahía de Tiha (Uvala Tiha)",
+      "bestFor": "Familias y viajeros que buscan acceso inmediato a la playa",
+      "parking": "Más fácil de encontrar, muchos apartamentos ofrecen plazas privadas",
+      "beach": "Directamente en la playa Žal y las costas de guijarros circundantes",
+      "summary": "Situada justo al norte de la península, esta zona residencial ofrece apartamentos modernos y pequeños hoteles. Las principales playas de guijarros se encuentran a lo largo de esta bahía, lo que la hace muy conveniente para nadar."
+    },
+    {
+      "name": "Mećajac",
+      "bestFor": "Viajeros con presupuesto ajustado dispuestos a caminar cuesta arriba",
+      "parking": "Generalmente disponible en la mayoría de los alojamientos privados",
+      "beach": "10-15 minutos a pie cuesta abajo hasta las bahías principales",
+      "summary": "Este barrio se encuentra en la colina sobre el casco antiguo, ofreciendo precios más bajos y a menudo vistas elevadas al mar. Volver del centro o de la playa requiere una caminata cuesta arriba empinada."
+    },
+    {
+      "name": "Obod",
+      "bestFor": "Viajeros con coche que prefieren una base más tranquila",
+      "parking": "Abundante y generalmente incluido con el alojamiento",
+      "beach": "15-20 minutos a pie cuesta abajo, o un corto trayecto en coche",
+      "summary": "Un pequeño asentamiento en la carretera costera justo antes de entrar en Cavtat. Ofrece un entorno tranquilo y fácil acceso a la carretera principal para excursiones de un día, pero requiere transporte para llegar al centro de Cavtat."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Múnich",
+      "car": "980 km, 11-12 horas vía A8, A10, A1. Requiere viñetas AT y SLO, peajes de túnel AT, peajes de autopista HR",
+      "other": "Vuelos directos al Aeropuerto de Dubrovnik (1.5 horas)"
+    },
+    {
+      "from": "Viena",
+      "car": "820 km, 9-10 horas vía A2, A4, A1. Requiere viñetas AT y SLO, peajes de autopista HR. La ruta utiliza el Puente de Pelješac",
+      "other": "Vuelos directos al Aeropuerto de Dubrovnik (1.5 horas)"
+    },
+    {
+      "from": "Budapest",
+      "car": "750 km, 8-9 horas vía M7 y A1. Requiere viñeta HU y peajes de autopista HR. La ruta utiliza el Puente de Pelješac",
+      "other": "Vuelos directos de temporada (1.5 horas) o conexiones en autobús"
+    },
+    {
+      "from": "Liubliana",
+      "car": "640 km, 7-8 horas vía A2 y A1. Requiere viñeta SLO y peajes de autopista HR. La ruta utiliza el Puente de Pelješac",
+      "other": "Vuelos de temporada a Dubrovnik o autobús vía Zagreb"
+    },
+    {
+      "from": "Praga",
+      "car": "1.150 km, 13-14 horas vía CZ D1, AT A9, SLO A2, HR A1. Requiere viñetas CZ, AT, SLO, peajes de túnel AT, peajes HR",
+      "other": "Vuelos directos al Aeropuerto de Dubrovnik (2 horas)"
+    },
+    {
+      "from": "Cracovia",
+      "car": "1.160 km, 13-14 horas vía SK D1, HU M1/M7, HR A1. Requiere peajes PL, viñetas SK y HU, peajes HR",
+      "other": "Vuelos directos al Aeropuerto de Dubrovnik vía Ryanair o LOT"
+    }
+  ],
+  "whenToGo": "El verano (julio y agosto) es temporada alta, con temperaturas del mar que alcanzan los 27°C, todos los restaurantes y ferris operando a plena capacidad, y los precios de alojamiento más altos. Junio y septiembre ofrecen un equilibrio más cómodo, con máximas diurnas alrededor de 25-28°C, menos gente y el mar aún lo suficientemente cálido para nadar. Mayo y octubre son significativamente más tranquilos y económicos, pero las temperaturas del mar rondan los 19-21°C y algunos negocios de temporada o líneas de ferry pueden reducir sus horarios o cerrar por completo.",
+  "faq": [
+    {
+      "question": "¿Merece la pena visitar Cavtat?",
+      "answer": "Sí, es muy recomendable para quienes buscan una ciudad costera pintoresca y relajada en lugar de una ciudad concurrida. Ofrece un hermoso puerto, aguas cristalinas y fácil acceso a Dubrovnik sin la gran congestión turística."
+    },
+    {
+      "question": "¿Cuántos días necesito en Cavtat?",
+      "answer": "De tres a cinco días es ideal para una estancia relajante en la playa y una excursión de un día a Dubrovnik. Si planeas explorar Montenegro, la península de Pelješac y las islas Elaphiti, una semana completa sirve como una excelente base."
+    },
+    {
+      "question": "¿Cuál es la mejor playa de Cavtat?",
+      "answer": "La playa de Žal es la opción más popular, ofreciendo una larga extensión de guijarros, aguas poco profundas e instalaciones cercanas. Para una experiencia más rústica, Sustjepan cuenta con terrazas de hormigón y zonas de baño rocosas, mientras que la famosa playa de Pasjača, situada al borde de un acantilado, está a 15 minutos en coche."
+    },
+    {
+      "question": "¿Necesito un coche en Cavtat?",
+      "answer": "No, no necesitas un coche si planeas quedarte localmente y usar los frecuentes autobuses o ferris para visitar Dubrovnik. Un coche solo es necesario si tienes la intención de explorar la región más amplia de Konavle, los pueblos locales cercanos o Montenegro de forma independiente."
+    },
+    {
+      "question": "¿Dónde puedo estacionar en Cavtat?",
+      "answer": "El estacionamiento público principal se encuentra en la entrada del casco antiguo, junto a la estación de autobuses, y cobra tarifas por hora o diarias. Dado que la península histórica está en gran parte restringida al tráfico, asegúrate de que tu alojamiento incluya estacionamiento privado si vas en coche."
+    },
+    {
+      "question": "¿Es Cavtat bueno para familias?",
+      "answer": "Sí, es uno de los destinos más familiares de la región. El paseo marítimo llano y peatonal es seguro para los niños, y las aguas tranquilas y poco profundas de las playas de guijarros locales son excelentes para los nadadores jóvenes."
+    }
+  ],
+  "headings": {
+    "quickFacts": "De un vistazo",
+    "whereToStay": "Dónde alojarse en Cavtat",
+    "gettingThere": "Cómo llegar a Cavtat",
+    "whenToGo": "Cuándo ir",
+    "guides": "Guías de Cavtat",
+    "faq": "Preguntas frecuentes de Cavtat",
+    "groups": {
+      "gettingAround": "Estacionamiento y cómo moverse",
+      "planning": "Planificación y dónde alojarse",
+      "timing": "Cuándo ir",
+      "travelers": "Familias, parejas y estilos de viaje",
+      "activities": "Playas y cosas que hacer",
+      "food": "Comida y bebida",
+      "comparisons": "Comparaciones",
+      "practical": "Información práctica"
+    },
+    "car": "En coche",
+    "other": "Otras opciones",
+    "bestFor": "Mejor para",
+    "parking": "Estacionamiento",
+    "beach": "Playa"
+  },
+  "destination": "cavtat",
+  "language": "es",
+  "updatedAt": "2026-10-16T15:05:31.809Z"
+}

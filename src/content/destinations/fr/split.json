@@ -1,0 +1,146 @@
+{
+  "title": "Split : Guide de voyage – Plages, stationnement et hébergement",
+  "metaDescription": "Planifiez votre voyage à Split, Croatie. Lisez des conseils pratiques sur les meilleurs quartiers où séjourner, les itinéraires routiers, le stationnement, les plages et les liaisons par ferry pour des excursions d'une journée.",
+  "intro": "Split est la plus grande ville de la côte dalmate, fonctionnant à la fois comme un important carrefour de transport et une destination historique. Elle convient aux voyageurs recherchant un mélange d'architecture romaine, d'infrastructures urbaines et d'accès direct par ferry aux îles voisines. Le point focal de la ville est le Palais de Dioclétien, un complexe romain remarquablement préservé intégré au centre commercial moderne.\n\nLa principale saison touristique s'étend de fin mai à début octobre. Juillet et août apportent les températures les plus élevées, les plus grandes foules et les tarifs d'hébergement les plus chers. Ceux qui privilégient les visites touristiques plutôt que la baignade devraient visiter en avril, mai ou octobre, lorsque les températures diurnes sont plus douces, les rues moins encombrées et les prix de l'hébergement nettement inférieurs.",
+  "quickFacts": [
+    {
+      "label": "Meilleurs mois",
+      "value": "Mai, juin, septembre, octobre"
+    },
+    {
+      "label": "Température de la mer en août",
+      "value": "25°C à 27°C"
+    },
+    {
+      "label": "Aéroport le plus proche",
+      "value": "Aéroport de Split (SPU), à 24 km du centre"
+    },
+    {
+      "label": "Type de plage principal",
+      "value": "Principalement de galets, avec une plage de sable centrale"
+    },
+    {
+      "label": "Niveau de prix",
+      "value": "Au-dessus de la moyenne croate"
+    },
+    {
+      "label": "Accessibilité de la Vieille Ville à pied",
+      "value": "Entièrement piétonne et sans voiture"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Vieille Ville (Grad)",
+      "bestFor": "Visites touristiques et courts séjours sans voiture",
+      "parking": "Pas de stationnement à l'intérieur ; parkings coûteux en périphérie",
+      "beach": "15 minutes à pied de Bačvice (sable)",
+      "summary": "Le cœur historique construit autour du Palais de Dioclétien. Il regorge de restaurants, de sites historiques et de ruelles piétonnes."
+    },
+    {
+      "name": "Bačvice et Firule",
+      "bestFor": "Vie nocturne et accès central à la plage",
+      "parking": "Stationnement dans la rue limité en Zone 2",
+      "beach": "Accès immédiat aux plages de sable et aux baies peu profondes",
+      "summary": "Quartiers résidentiels situés juste à l'est du port des ferries. Ils offrent un accès rapide aux plages de sable les plus célèbres de la ville et aux principales boîtes de nuit."
+    },
+    {
+      "name": "Meje",
+      "bestFor": "Séjours tranquilles et accès à la nature",
+      "parking": "Stationnement gratuit généralement disponible dans la rue",
+      "beach": "10 à 20 minutes à pied de Kašjuni (galets)",
+      "summary": "Un quartier résidentiel haut de gamme sur les pentes sud de la colline de Marjan. Il offre une distance par rapport aux foules de la ville tout en restant accessible à pied du centre."
+    },
+    {
+      "name": "Žnjan",
+      "bestFor": "Familles et voyageurs avec voiture",
+      "parking": "Nombreux parkings privés et publics",
+      "beach": "Accès immédiat à une longue côte de galets",
+      "summary": "Une nouvelle banlieue côtière à l'est du centre avec des immeubles d'appartements modernes. La zone présente le plus long tronçon continu de plages de galets et de cafés en bord de mer de la ville."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Munich",
+      "car": "850 km, 8,5 à 9,5 heures via A8, A10, A2 et A1. Nécessite des vignettes AT et SLO ; péages pour les tunnels AT et les autoroutes HR.",
+      "other": "Vol direct (Lufthansa/Croatia Airlines) ou FlixBus direct"
+    },
+    {
+      "from": "Vienne",
+      "car": "760 km, 7,5 à 8 heures via A2, A9 et A1. Nécessite des vignettes AT et SLO ; péages pour les autoroutes HR.",
+      "other": "Vol direct (Austrian/Ryanair) ou FlixBus direct"
+    },
+    {
+      "from": "Budapest",
+      "car": "750 km, 7 à 8 heures via M7, A4 et A1. Nécessite une vignette HU ; péages pour les autoroutes HR.",
+      "other": "Train de nuit saisonnier ou FlixBus direct"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "470 km, 5 heures via A2 et A1. Nécessite une vignette SLO ; péages pour les autoroutes HR.",
+      "other": "FlixBus direct"
+    },
+    {
+      "from": "Prague",
+      "car": "1 050 km, 11 à 12 heures via D1, A9 et A1. Nécessite des vignettes CZ, AT et SLO ; péages pour les tunnels AT et les autoroutes HR.",
+      "other": "Vol direct (Smartwings/Croatia Airlines) ou FlixBus"
+    },
+    {
+      "from": "Cracovie",
+      "car": "1 050 km, 11 à 12 heures via A4, SK, M7 et A1. Nécessite des vignettes SK et HU ; péages pour les autoroutes PL et HR.",
+      "other": "Vol direct (Ryanair/LOT) ou FlixBus"
+    }
+  ],
+  "whenToGo": "De juin à août, la température de la mer atteint 25°C à 27°C, tous les ferries des îles fonctionnent selon les horaires de pointe et les prix de l'hébergement sont à leur maximum. Mai et septembre offrent des températures diurnes plus douces, autour de 20°C à 24°C, des prix plus bas et moins de monde, bien que la mer soit sensiblement plus fraîche. Entre novembre et avril, attendez-vous à des maxima diurnes de 10°C à 15°C ; de nombreux restaurants côtiers et commerces saisonniers ferment, et les routes de ferry sont considérablement réduites, mais les prix de l'hébergement baissent jusqu'à 50 pour cent.",
+  "faq": [
+    {
+      "question": "Split vaut-elle le détour ?",
+      "answer": "Oui, si vous recherchez une grande ville côtière avec une architecture romaine intacte et d'importantes liaisons par ferry. Elle ne convient pas aux voyageurs en quête d'une ville balnéaire calme et isolée."
+    },
+    {
+      "question": "Combien de jours faut-il à Split ?",
+      "answer": "Deux à trois jours suffisent pour visiter la Vieille Ville, la colline de Marjan et les plages locales. Prolongez le voyage à cinq ou sept jours si vous utilisez la ville comme base pour des excursions d'une journée à Hvar, Brač ou au parc national de Krka."
+    },
+    {
+      "question": "Quelle est la meilleure plage à Split ?",
+      "answer": "Kašjuni est largement considérée comme la plus belle plage de galets, située au pied de la colline de Marjan. Bačvice est la plage de sable la plus populaire en raison de son emplacement central, tandis que Žnjan offre le plus long tronçon de côte de galets."
+    },
+    {
+      "question": "Ai-je besoin d'une voiture à Split ?",
+      "answer": "Vous n'avez pas besoin de voiture si vous séjournez dans le centre et prévoyez de visiter les îles en ferry ou en catamaran. Une voiture n'est nécessaire que si vous réservez un hébergement dans les banlieues extérieures ou si vous planifiez des excursions indépendantes le long de la côte continentale."
+    },
+    {
+      "question": "Où dois-je me garer à Split ?",
+      "answer": "Utilisez les grands parkings payants en périphérie de la Vieille Ville, tels que Stari Plac ou les parkings de la rue Vukovarska. Le stationnement dans la rue en Zone 1 et Zone 2 est très compétitif et souvent réservé aux résidents."
+    },
+    {
+      "question": "Split est-elle adaptée aux familles ?",
+      "answer": "Oui, surtout dans les banlieues est comme Žnjan ou Stobreč où les plages sont larges et le stationnement est plus facile. Les familles avec poussettes devraient éviter les rues étroites et en escalier de la Vieille Ville immédiate."
+    }
+  ],
+  "headings": {
+    "quickFacts": "En un coup d'œil",
+    "whereToStay": "Où séjourner à Split",
+    "gettingThere": "Comment se rendre à Split",
+    "whenToGo": "Quand partir",
+    "guides": "Guides de Split",
+    "faq": "FAQ Split",
+    "groups": {
+      "gettingAround": "Stationnement et déplacements",
+      "planning": "Planification et où séjourner",
+      "timing": "Quand partir",
+      "travelers": "Familles, couples et styles de voyage",
+      "activities": "Plages et choses à faire",
+      "food": "Manger et boire",
+      "comparisons": "Comparaisons",
+      "practical": "Infos pratiques"
+    },
+    "car": "En voiture",
+    "other": "Autres options",
+    "bestFor": "Idéal pour",
+    "parking": "Stationnement",
+    "beach": "Plage"
+  },
+  "destination": "split",
+  "language": "fr",
+  "updatedAt": "2026-10-16T09:28:55.051Z"
+}

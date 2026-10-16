@@ -1,0 +1,146 @@
+{
+  "title": "Krk Útikalauz: Strandok, parkolás és szállás",
+  "metaDescription": "Tervezd meg utazásodat Krk szigetére, Horvátországba. Találd meg a legjobb szálláshelyeket, vezetési útvonalakat Közép-Európából, strandtípusokat és parkolási tippeket az óvárosba.",
+  "intro": "Krk a legnagyobb sziget az Adrián, és az egyik legkönnyebben megközelíthető horvát úti cél a közép-európai autósok számára. Ideális családok, párok és autós utazók számára, akik történelmi városokra, fenyőfákkal árnyékolt kavicsos strandokra és tiszta vizekre vágynak, anélkül, hogy kompra lenne szükségük. Krk városa a sziget kulturális és történelmi központja, melyet tengerparti sétányok és nagy kempingek vesznek körül.\n\nA nyár hozza a legmelegebb tengeri hőmérsékletet és a legmegbízhatóbb időjárást, de júliusban és augusztusban van a főszezon, a legnagyobb tömeggel és a legmagasabb árakkal. Június és szeptember csendesebb élményt nyújt, elég meleg vízzel az úszáshoz. A telek nagyon csendesek, a legtöbb turisztikai infrastruktúra november és április között zárva tart.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Júniustól szeptemberig"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "24°C és 26°C között"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Rijeka repülőtér (RJK), 27 km-re"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Kavicsos, sziklás és burkolt teraszok"
+    },
+    {
+      "label": "Árszint",
+      "value": "Kissé az átlagos horvát árszint felett"
+    },
+    {
+      "label": "Óváros",
+      "value": "Csak gyalogosoknak (autómentes)"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Óváros (Stari Grad)",
+      "bestFor": "Történelem, étkezés és rövid tartózkodás",
+      "parking": "Városfalon kívül (fizetős nyilvános parkolók)",
+      "beach": "10-15 perc séta Porporela vagy Dražica strandhoz",
+      "summary": "A történelmi, fallal körülvett központ szűk kőutcákat, a Frangepán-várat és számos éttermet rejt. Teljesen gyalogos övezet, így jól bejárható, de a csomagokat a külső parkolókból be kell vinni."
+    },
+    {
+      "name": "Dražica és Koralj",
+      "bestFor": "Családok, strandközelség és szállodák",
+      "parking": "Szállodai parkoló vagy nagy fizetős nyilvános parkolók",
+      "beach": "Közvetlen hozzáférés kavicsos és burkolt strandokhoz",
+      "summary": "Az Óvárostól rövid sétára keletre található, sűrű fenyőerdővel borított terület. Itt található a legtöbb szálloda és családbarát kavicsos öböl."
+    },
+    {
+      "name": "Ježevac",
+      "bestFor": "Kempingezők, családok és csendes strandolás",
+      "parking": "Helyszíni kempingparkoló vagy utcai parkolás",
+      "beach": "Közvetlen hozzáférés a Ježevac kavicsos strandhoz",
+      "summary": "A központtól nyugatra fekszik, és egy nagy prémium kemping, valamint annak felújított strandinfrastruktúrája uralja. Az Óváros továbbra is könnyen elérhető egy 10 perces sétával."
+    },
+    {
+      "name": "Kornić",
+      "bestFor": "Költségtudatos utazók és nyugodt külvárosi hangulat",
+      "parking": "Általában ingyenes privát parkoló az apartmanoknál",
+      "beach": "2 km-re lefelé a dombon, a Dunat strandig",
+      "summary": "Egy kis falu Krk városától körülbelül 6 km-re, kilátással a Punat-öbölre. Autó vagy kerékpár szükséges a strand és a főváros eléréséhez, de megfizethetőbb apartmanokat kínál."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "~520 km, 6,5 óra. Útvonal Salzburg (A8), Villach (A10), Ljubljana, Postojna, Rijeka felé. Szükséges osztrák matrica, Tauern alagút díj, szlovén matrica, horvát autópályadíj (Krk híd díjmentes).",
+      "other": "Repülőút Rijekába (RJK) vagy közvetlen FlixBus Krkbe."
+    },
+    {
+      "from": "Bécs",
+      "car": "~510 km, 5,5 óra. Útvonal Graz (A2), Maribor (A1), Zágráb, Rijeka felé. Szükséges osztrák matrica, szlovén matrica, horvát autópályadíj.",
+      "other": "Közvetlen FlixBus vagy repülőút Zágrábba."
+    },
+    {
+      "from": "Budapest",
+      "car": "~510 km, 5 óra. Útvonal a Balaton (M7), Zágráb, Rijeka (A6) felé. Szükséges magyar e-matrica, horvát autópályadíj.",
+      "other": "Közvetlen FlixBus, vagy vonat Rijekába, majd helyi busz."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "~150 km, 2 óra. Útvonal Postojna, Ilirska Bistrica, Rupa, Rijeka felé. Szükséges szlovén matrica, horvát autópályadíj.",
+      "other": "Közvetlen busz Krkbe vagy Rijekába."
+    },
+    {
+      "from": "Prága",
+      "car": "~820 km, 9 óra. Útvonal České Budějovice, Linz, Graz, Maribor, Zágráb felé. Szükséges cseh, osztrák, szlovén matricák, horvát autópályadíj.",
+      "other": "RegioJet vonat/busz kombináció Rijekába."
+    },
+    {
+      "from": "Krakkó",
+      "car": "~960 km, 10,5 óra. Útvonal Katowice, Ostrava, Brno, Bécs, Graz, Maribor, Zágráb felé. Szükséges lengyel útdíj, cseh, osztrák, szlovén matricák, horvát autópályadíj.",
+      "other": "Repülőút Zágrábba vagy Zadarba, majd busz vagy bérautó."
+    }
+  ],
+  "whenToGo": "A turistaszezon májustól októberig tart. Július és augusztus a főszezon, a tenger hőmérséklete eléri a 25°C-ot, magasak a szállásárak és zsúfoltak a strandok. Június és szeptember ideális egyensúlyt kínál a meleg időjárás, a 22-23°C körüli tengeri hőmérséklet és a kevesebb tömeg között. Május és október lényegesen csendesebb és olcsóbb, alkalmas kerékpározásra és túrázásra, bár a tenger gyakran túl hideg az úszáshoz. A legtöbb étterem és szálloda novembertől áprilisig zárva tart, így a téli látogatások nagyon korlátozottak a szolgáltatások szempontjából.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni Krk szigetét?",
+      "answer": "Igen, kiváló választás egy könnyen megközelíthető horvát szigeti élményhez. Jól megőrzött történelmi központot, fenyőfákkal árnyékolt strandokat kínál, és a hídkapcsolat miatt elkerülhető a kompjárattal való utazás."
+    },
+    {
+      "question": "Hány napra van szükségem Krk szigetén?",
+      "answer": "Három-öt nap elegendő Krk városának megtekintésére, a helyi strandok élvezetére és egy hajókirándulásra. Ha az egész szigetet fel akarja fedezni, beleértve Baškát és Vrbniket is, tervezzen egy teljes hetet."
+    },
+    {
+      "question": "Melyik a legjobb strand Krkben?",
+      "answer": "A Dražica strand a legnépszerűbb Krk városában a tiszta vize, a fenyőárnyék és a szolgáltatások miatt. A fő városon kívül a Baška-i Vela Plaža-t tartják a sziget leghíresebb strandjának."
+    },
+    {
+      "question": "Szükségem van autóra Krkben?",
+      "answer": "Krk városában nem feltétlenül szükséges autó, mivel a központ, a strandok és az éttermek gyalogosan is megközelíthetők. Azonban erősen ajánlott járművet bérelni, ha a sziget más városait és strandjait is fel szeretné fedezni."
+    },
+    {
+      "question": "Hol parkolhatok Krkben?",
+      "answer": "A gyalogos övezetű Óvárosban tilos parkolni. Használja a városfalon kívül található nagy, fizetős nyilvános parkolókat, vagy foglaljon olyan szállást, amely dedikált utcán kívüli parkolót biztosít."
+    },
+    {
+      "question": "Krk jó családoknak?",
+      "answer": "Igen, Krk rendkívül családbarát. A város strandjai lassan mélyülő kavicsos bejárattal, bőséges természetes fenyőárnyékkal, játszóterekkel és nagy üdülő kempingekkel rendelkeznek, dedikált gyermekbarát szolgáltatásokkal."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Áttekintés",
+    "whereToStay": "Hol szállj meg Krkben",
+    "gettingThere": "Krk megközelítése",
+    "whenToGo": "Mikor utazzunk",
+    "guides": "Krk útmutatók",
+    "faq": "Krk GYIK",
+    "groups": {
+      "gettingAround": "Közlekedés és parkolás",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor utazzunk",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és programok",
+      "food": "Ételek és italok",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb erre",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "krk",
+  "language": "hu",
+  "updatedAt": "2026-10-16T09:40:56.669Z"
+}

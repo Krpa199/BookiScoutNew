@@ -1,0 +1,146 @@
+{
+  "title": "Poreč: Przewodnik turystyczny – plaże, parking i noclegi",
+  "metaDescription": "Zaplanuj swoją podróż do Poreča w Chorwacji. Znajdź najlepsze miejsca na nocleg, trasy dojazdu z Europy Centralnej, rodzaje plaż i opcje parkowania w tym istryjskim mieście.",
+  "intro": "Poreč przyciąga podróżnych szukających zorganizowanych kurortów plażowych, bogatej historii rzymskiej i aktywnych wakacji rowerowych. Miasto skupia się na małym półwyspie, na którym znajduje się wpisana na listę UNESCO Bazylika Eufrazjańska i oryginalna rzymska siatka ulic, podczas gdy linia brzegowa na północy i południu jest zdominowana przez duże, zacienione sosnami kompleksy hotelowe. Teren jest w dużej mierze płaski, co sprawia, że jest bardzo dostępny do spacerów i jazdy na rowerze wzdłuż nadmorskich promenad.\n\nSzczyt sezonu trwa od końca czerwca do sierpnia, kiedy temperatura morza osiąga 26°C, a duże rodzinne kurorty działają z pełną wydajnością. Maj, wrzesień i początek października oferują łagodniejszą pogodę i niższe ceny zakwaterowania, odpowiednie do zwiedzania, degustacji win i jazdy na rowerze, chociaż morze może być zbyt chłodne do pływania poza głównymi miesiącami letnimi.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "Czerwiec do września"
+    },
+    {
+      "label": "Temp. morza w sierpniu",
+      "value": "25°C do 27°C"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Pula (PUY), 58 km"
+    },
+    {
+      "label": "Główny typ plaż",
+      "value": "Ułożone tarasy, skały i żwir"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "Nieznacznie powyżej średniej chorwackiej"
+    },
+    {
+      "label": "Przystosowanie starego miasta do spacerów",
+      "value": "W pełni deptak (bez samochodów)"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Stare Miasto (Centrum)",
+      "bestFor": "Zwiedzanie, restauracje i krótkie pobyty historyczne",
+      "parking": "Płatne parkingi miejskie poza strefą pieszą (np. Veliki gradski parking)",
+      "beach": "10-15 minut spacerem do plaży miejskiej lub Brulo",
+      "summary": "Historyczny półwysep mieści główne atrakcje, restauracje i połączenia promowe. Zakwaterowanie składa się głównie z apartamentów i pokoi butikowych w starszych budynkach, bez bezpośredniego dostępu dla pojazdów."
+    },
+    {
+      "name": "Brulo",
+      "bestFor": "Pary i rodziny pragnące bliskości starego miasta",
+      "parking": "Dostępny prywatny parking hotelowy; parking uliczny jest ściśle ograniczony",
+      "beach": "2-5 minut spacerem do plaży Brulo (żwirowa i utwardzona, Błękitna Flaga)",
+      "summary": "Zacieniony sosnami obszar kurortowy bezpośrednio na południe od centrum. Oferuje duże hotele i łatwy dostęp pieszo zarówno do zabytków historycznych, jak i plaż, wzdłuż nadmorskiej promenady."
+    },
+    {
+      "name": "Zelena Laguna",
+      "bestFor": "Miłośnicy kurortów, aktywne rodziny i entuzjaści sportu",
+      "parking": "Dedykowany parking w kurorcie, zazwyczaj objęty opłatą dzienną",
+      "beach": "Bezpośredni dostęp do skalistych, żwirowych i utwardzonych plaż kurortowych",
+      "summary": "Ogromny, samodzielny kurort turystyczny położony 5 kilometrów na południe od centrum. Oferuje duże kompleksy hotelowe, kempingi, korty tenisowe, sporty wodne i liczne opcje gastronomiczne."
+    },
+    {
+      "name": "Špadići i Materada",
+      "bestFor": "Rodziny i pary szukające spokojniejszych dzielnic mieszkalnych",
+      "parking": "Prywatny parking zazwyczaj zapewniany przez gospodarzy apartamentów",
+      "beach": "5-10 minut spacerem do plaży Materada lub żwirowych zatoczek Špadići",
+      "summary": "Położona na północ od starego miasta, ta dzielnica składa się głównie z prywatnych apartamentów i pensjonatów. Jest połączona z centrum pociągiem turystycznym i malowniczą ścieżką spacerową."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monachium",
+      "car": "580 km, ~6,5 godziny przez A8, A10 i słoweńską A1. Wymaga austriackiej winiety, opłat za tunele Tauern/Karawanken, słoweńskiej winiety i chorwackiej opłaty drogowej.",
+      "other": "Bezpośredni autobus lub wspólny transfer (~8 godzin)."
+    },
+    {
+      "from": "Wiedeń",
+      "car": "520 km, ~5,5 godziny przez A2, A9 i słoweńską A1. Wymaga austriackiej i słoweńskiej winiety oraz chorwackiej opłaty drogowej.",
+      "other": "Bezpośredni autobus (~7,5 godziny) lub sezonowy lot do Puli."
+    },
+    {
+      "from": "Budapeszt",
+      "car": "600 km, ~6 godzin przez M7, A4 i A6. Wymaga węgierskiej e-winiety i chorwackich opłat drogowych.",
+      "other": "Bezpośredni autobus (~10 godzin) lub transfer przez Zagrzeb."
+    },
+    {
+      "from": "Lublana",
+      "car": "160 km, ~2 godziny przez A1 do Kopru i A9. Wymaga słoweńskiej winiety i chorwackiej opłaty drogowej.",
+      "other": "Bezpośredni autobus lub wspólny transfer (~2,5 godziny)."
+    },
+    {
+      "from": "Praga",
+      "car": "730 km, ~8,5 godziny przez Brno, Wiedeń i Maribor. Wymaga czeskiej, austriackiej i słoweńskiej winiety oraz chorwackiej opłaty drogowej.",
+      "other": "Bezpośredni autobus nocny (~13 godzin)."
+    },
+    {
+      "from": "Kraków",
+      "car": "910 km, ~10,5 godziny przez Brno, Wiedeń i Maribor. Wymaga polskich opłat drogowych, czeskiej, austriackiej i słoweńskiej winiety oraz chorwackiej opłaty drogowej.",
+      "other": "Autobus przez Wiedeń lub Zagrzeb (~15 godzin) lub lot do Wenecji/Triestu."
+    }
+  ],
+  "whenToGo": "Maj rozpoczyna sezon z łagodnymi temperaturami około 20°C i niższymi cenami, choć morze pozostaje chłodne (17°C), a niektóre obiekty wypoczynkowe mogą być jeszcze zamknięte. Czerwiec przynosi cieplejsze warunki do pływania (22°C), rosnące tłumy oraz otwarcie wszystkich parków wodnych i pociągów turystycznych. Lipiec i sierpień to miesiące szczytowe, charakteryzujące się wysokimi cenami zakwaterowania, zatłoczonymi plażami i temperaturami morza osiągającymi szczyt między 25°C a 27°C. Wrzesień jest prawdopodobnie najlepszym czasem na wizytę, oferując ciepłe morze (23°C), mniejsze tłumy i bardziej rozsądne ceny hoteli, podczas gdy wszystko pozostaje otwarte. Do października ceny znacznie spadają, a tłumy znikają, ale temperatury morza spadają poniżej 20°C, a wiele sezonowych restauracji i barów plażowych zaczyna zamykać się na zimę.",
+  "faq": [
+    {
+      "question": "Czy warto odwiedzić Poreč?",
+      "answer": "Tak, Poreč jest bardzo wart odwiedzenia ze względu na równowagę między historią wpisaną na listę UNESCO a rozbudowanymi udogodnieniami kurortowymi. Oferuje doskonałe ścieżki rowerowe, bezpieczne plaże i stanowi świetną bazę wypadową do zwiedzania reszty Istrii."
+    },
+    {
+      "question": "Ile dni powinienem spędzić w Poreču?",
+      "answer": "Trzy do pięciu dni to idealny czas na pobyt w Poreču. Daje to wystarczająco dużo czasu na zwiedzanie historycznego centrum, relaks na pobliskich plażach i jednodniową wycieczkę do istryjskich miast położonych w głębi lądu, takich jak Motovun."
+    },
+    {
+      "question": "Jaka jest najlepsza plaża w Poreču?",
+      "answer": "Plaże Zelena Laguna i Brulo są powszechnie uważane za najlepsze opcje. Obie posiadają status Błękitnej Flagi, czystą wodę, obfite zacienienie sosnami i doskonałe udogodnienia, w tym wypożyczalnie leżaków i prysznice."
+    },
+    {
+      "question": "Czy potrzebuję samochodu w Poreču?",
+      "answer": "Nie potrzebujesz samochodu, jeśli planujesz zatrzymać się w centrum miasta lub w głównych nadmorskich kurortach. Obszar jest bardzo przyjazny dla pieszych i dobrze skomunikowany pociągami turystycznymi, choć samochód jest przydatny do zwiedzania szerszego półwyspu Istria."
+    },
+    {
+      "question": "Gdzie powinienem zaparkować w Poreču?",
+      "answer": "Najlepszym miejscem do parkowania jest duży parking miejski (Veliki gradski parking) położony tuż poza strefą pieszą. Hotele na starym mieście zazwyczaj wymagają parkowania tutaj i oferują usługi transferu do miejsca zakwaterowania."
+    },
+    {
+      "question": "Czy Poreč jest dobry dla rodzin?",
+      "answer": "Tak, Poreč jest wyjątkowo przyjazny dla rodzin. Duże kurorty na południe od miasta oferują spokojne, nadzorowane plaże, kluby dla dzieci i łatwy dostęp do popularnego parku wodnego Aquacolors."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Gdzie się zatrzymać w Poreču",
+    "gettingThere": "Dojazd do Poreča",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Poreču",
+    "faq": "Najczęściej zadawane pytania o Poreč",
+    "groups": {
+      "gettingAround": "Parking i poruszanie się",
+      "planning": "Planowanie i gdzie się zatrzymać",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróżowania",
+      "activities": "Plaże i atrakcje",
+      "food": "Jedzenie i picie",
+      "comparisons": "Porównania",
+      "practical": "Informacje praktyczne"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "porec",
+  "language": "pl",
+  "updatedAt": "2026-10-16T10:58:51.773Z"
+}

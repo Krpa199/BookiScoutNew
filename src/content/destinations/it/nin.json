@@ -1,0 +1,146 @@
+{
+  "title": "Nin Guida di Viaggio: Spiagge, Parcheggio e Dove Alloggiare",
+  "metaDescription": "Organizza il tuo viaggio a Nin, Croazia. Trova le migliori spiagge sabbiose, dettagli sul parcheggio, percorsi stradali e le migliori zone dove alloggiare per famiglie e kitesurfer.",
+  "intro": "Nin è una piccola città costiera nella Dalmazia settentrionale, nota per le sue rare spiagge sabbiose, le acque poco profonde e il centro storico insulare. Attira principalmente famiglie con bambini piccoli, kitesurfer e viaggiatori in cerca di un'alternativa più tranquilla alla vicina Zara. La baia poco profonda si riscalda rapidamente, rendendo il mare piacevole per nuotare prima e dopo la stagione rispetto alle zone costiere più profonde.\n\nIl periodo migliore per visitare è da giugno a settembre, quando tutte le strutture balneari, i campeggi e i ristoranti locali sono aperti. Luglio e agosto sono i mesi più affollati e costosi, attirando un gran numero di visitatori giornalieri da Zara. Maggio e ottobre offrono temperature più fresche e prezzi più bassi, ma molte attività stagionali e noleggi in spiaggia chiudono durante questo periodo.",
+  "quickFacts": [
+    {
+      "label": "Mesi migliori",
+      "value": "Da giugno a settembre"
+    },
+    {
+      "label": "Temperatura del mare ad agosto",
+      "value": "Da 25°C a 27°C"
+    },
+    {
+      "label": "Aeroporto più vicino",
+      "value": "Aeroporto di Zara (ZAD), 20 km"
+    },
+    {
+      "label": "Tipo di spiaggia principale",
+      "value": "Sabbia naturale con lunghe zone poco profonde"
+    },
+    {
+      "label": "Livello di prezzo",
+      "value": "Nella media per la Dalmazia, più economico di Zara"
+    },
+    {
+      "label": "Centro storico",
+      "value": "Solo pedonale su una piccola isola collegata da ponti"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centro Storico di Nin",
+      "bestFor": "Coppie, appassionati di storia e brevi soggiorni",
+      "parking": "Parcheggi comunali a pagamento fuori dai ponti; nessuna auto ammessa sull'isola",
+      "beach": "10-15 minuti a piedi da Ždrijac o Queen's Beach",
+      "summary": "Il centro storico si trova su una piccola isola collegata da due ponti. Offre case tradizionali in pietra, siti archeologici e la più alta concentrazione di ristoranti, ma manca di accesso immediato alla spiaggia."
+    },
+    {
+      "name": "Ždrijac",
+      "bestFor": "Kitesurfer, windsurfer e bagnanti",
+      "parking": "Parcheggio privato presso gli appartamenti; parcheggio a pagamento vicino alla spiaggia",
+      "beach": "Accesso diretto alla spiaggia di Ždrijac (sabbia)",
+      "summary": "Questa zona residenziale è costruita lungo una penisola sabbiosa appena a nord del centro storico. È il centro principale per le scuole di kitesurf e offre numerosi appartamenti con angolo cottura direttamente sull'acqua."
+    },
+    {
+      "name": "Sabunike",
+      "bestFor": "Famiglie in cerca di giornate tranquille in spiaggia e soggiorni più lunghi",
+      "parking": "Facile parcheggio in strada e passi carrai privati",
+      "beach": "5-15 minuti a piedi da Queen's Beach (Kraljičina plaža)",
+      "summary": "Situata a pochi chilometri a nord-ovest di Nin, Sabunike è un villaggio turistico costruito appositamente. Offre un ambiente più tranquillo, lotti di appartamenti più grandi e la vicinanza alla famosa Queen's Beach e al suo fango terapeutico."
+    },
+    {
+      "name": "Zaton",
+      "bestFor": "Vacanzieri del resort, campeggiatori e famiglie con bambini",
+      "parking": "Parcheggio custodito all'interno dei complessi del resort",
+      "beach": "Spiagge di sabbia e ciottoli in loco con tutti i servizi",
+      "summary": "Situato a sud di Nin, Zaton è dominato da un enorme resort turistico e parco campeggio. Offre piscine, team di animazione, mini-golf e ampie opzioni di ristorazione, rendendola una destinazione autonoma."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monaco",
+      "car": "740 km, 8 ore via A8, A10 e A1. Richiede vignette austriache e slovene, più il Tunnel del Tauern e pedaggi autostradali croati.",
+      "other": "Voli diretti per Zara (ZAD) via Lufthansa o Ryanair (Memmingen)"
+    },
+    {
+      "from": "Vienna",
+      "car": "620 km, 6,5 ore via A2 e A1. Richiede vignette austriache e slovene, più pedaggi croati.",
+      "other": "Voli diretti Ryanair da Vienna a Zara"
+    },
+    {
+      "from": "Budapest",
+      "car": "630 km, 6,5 ore via M7 e A4/A1. Richiede e-vignetta ungherese e pedaggi autostradali croati.",
+      "other": "Voli diretti Ryanair da Budapest a Zara"
+    },
+    {
+      "from": "Lubiana",
+      "car": "340 km, 4 ore via A2 e A1. Richiede vignetta slovena e pedaggi autostradali croati.",
+      "other": "FlixBus diretto per Zara, poi autobus locale o taxi per Nin"
+    },
+    {
+      "from": "Praga",
+      "car": "950 km, 10,5 ore via Vienna e Graz. Richiede vignette ceche, austriache e slovene, più pedaggi croati.",
+      "other": "Voli diretti Ryanair da Praga a Zara"
+    },
+    {
+      "from": "Cracovia",
+      "car": "1.000 km, 11 ore via Slovacchia e Ungheria. Richiede vignette slovacche e ungheresi, più pedaggi croati.",
+      "other": "Voli diretti Ryanair da Cracovia a Zara"
+    }
+  ],
+  "whenToGo": "La stagione a Nin va da maggio a ottobre, con il picco di folla e i prezzi degli alloggi più alti a luglio e agosto. Durante questi mesi di mezza estate, la temperatura del mare raggiunge un calore molto elevato, 25°C - 27°C, rendendo le baie poco profonde simili all'acqua del bagno, e tutti i bar sulla spiaggia, le scuole di kitesurf e i ristoranti sono pienamente operativi. Giugno e settembre offrono un migliore equilibrio tra clima caldo (temperature del mare intorno ai 22°C - 24°C), prezzi più bassi e un numero gestibile di visitatori. Da novembre ad aprile, Nin è tranquilla, la temperatura del mare scende sotto i 15°C e la maggior parte delle attività turistiche, incluso il vicino resort di Zaton, chiude per l'inverno.",
+  "faq": [
+    {
+      "question": "Vale la pena visitare Nin?",
+      "answer": "Sì, vale la pena visitare Nin, soprattutto se si preferiscono le spiagge sabbiose, che sono rare in Croazia. È ideale per famiglie con bambini piccoli grazie all'acqua poco profonda e offre siti storici unici in un centro storico compatto."
+    },
+    {
+      "question": "Quanti giorni servono a Nin?",
+      "answer": "Due o tre giorni sono sufficienti per esplorare il centro storico, visitare le saline e rilassarsi sulle spiagge principali. Tuttavia, molti visitatori la usano come base per una vacanza al mare di una o due settimane."
+    },
+    {
+      "question": "Qual è la migliore spiaggia di Nin?",
+      "answer": "La Queen's Beach (Kraljičina plaža) è la più famosa e ampiamente considerata la migliore spiaggia della zona. Presenta un lungo tratto di sabbia fine, acqua estremamente bassa e zone con fango peloidico medicinale naturale."
+    },
+    {
+      "question": "Serve l'auto a Nin?",
+      "answer": "L'auto non è necessaria se si soggiorna nel centro storico o a Ždrijac e si prevede di rimanere in zona. Tuttavia, un veicolo è altamente raccomandato per raggiungere la vicina Zara, i supermercati più grandi o per esplorare la più ampia costa dalmata."
+    },
+    {
+      "question": "Dove è il posto migliore per parcheggiare a Nin?",
+      "answer": "I posti migliori per parcheggiare sono i grandi parcheggi comunali a pagamento situati proprio accanto ai due ponti che conducono al centro storico. Il parcheggio è strettamente controllato in estate e le macchine accettano monete, carte o app di parcheggio mobile."
+    },
+    {
+      "question": "Nin è adatta alle famiglie?",
+      "answer": "Sì, Nin è una delle migliori destinazioni in Croazia per famiglie con bambini piccoli. Le ampie spiagge sabbiose e l'acqua calda, profonda fino al ginocchio, offrono un ambiente sicuro per far giocare neonati e bambini."
+    }
+  ],
+  "headings": {
+    "quickFacts": "In breve",
+    "whereToStay": "Dove alloggiare a Nin",
+    "gettingThere": "Come arrivare a Nin",
+    "whenToGo": "Quando andare",
+    "guides": "Guide di Nin",
+    "faq": "FAQ su Nin",
+    "groups": {
+      "gettingAround": "Parcheggio e spostamenti",
+      "planning": "Pianificazione e dove alloggiare",
+      "timing": "Quando andare",
+      "travelers": "Famiglie, coppie e stili di viaggio",
+      "activities": "Spiagge e cose da fare",
+      "food": "Cibo e bevande",
+      "comparisons": "Confronti",
+      "practical": "Informazioni pratiche"
+    },
+    "car": "In auto",
+    "other": "Altre opzioni",
+    "bestFor": "Ideale per",
+    "parking": "Parcheggio",
+    "beach": "Spiaggia"
+  },
+  "destination": "nin",
+  "language": "it",
+  "updatedAt": "2026-10-16T13:52:20.710Z"
+}

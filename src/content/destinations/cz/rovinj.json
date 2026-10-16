@@ -1,0 +1,146 @@
+{
+  "title": "Rovinj: Průvodce plážemi, parkováním a ubytováním",
+  "metaDescription": "Naplánujte si cestu do Rovinje. Faktický průvodce trasami, parkováním, čtvrtěmi a plážemi pro návštěvníky přijíždějící na Istrii, Chorvatsko.",
+  "intro": "Rovinj láká páry, rodiny a cestovatele na road-tripu hledající dobře zachovalé historické centrum a přístupnou pobřežní přírodu. Město se pyšní hustým, pouze pro pěší určeným benátským jádrem postaveným na malém poloostrově, obklopeným borovými lesy a skalnatým pobřežím.\n\nHlavní návštěvnická sezóna probíhá od května do září, vrcholí v červenci a srpnu, kdy středomořské klima nabízí horké, suché dny ideální pro koupání. Mimo letní měsíce mnoho restaurací a hotelů zavírá, což činí město klidnějším, ale méně vhodným pro klasickou plážovou dovolenou.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "Červen až září"
+    },
+    {
+      "label": "Teplota moře v srpnu",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Letiště Pula (PUY), 40 km"
+    },
+    {
+      "label": "Hlavní typ pláže",
+      "value": "Oblázky, skály a betonové plošiny"
+    },
+    {
+      "label": "Cenová úroveň",
+      "value": "Vyšší než chorvatský průměr"
+    },
+    {
+      "label": "Staré město",
+      "value": "Přísně pouze pro pěší (bez aut)"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Staré Město (Poluotok)",
+      "bestFor": "Návštěvníci poprvé a páry toužící po historii a gastronomii",
+      "parking": "Žádné v centru; použijte placená komerční parkoviště 10-15 minut pěšky",
+      "beach": "Pláž Monte (skalnaté římsy) na místě; větší pláže 20 minut chůze",
+      "summary": "Historické jádro se vyznačuje úzkými dlážděnými uličkami, benátskou architekturou a mnoha restauracemi. Během léta je rušné a k dosažení ubytování je nutná chůze nebo jízda golfovým vozíkem."
+    },
+    {
+      "name": "Zátoka Lone & Punta Corrente (Jih)",
+      "bestFor": "Luxusní cestovatelé a milovníci pláží toužící po přístupu k přírodě",
+      "parking": "Běžné soukromé hotelové parkoviště; veřejná parkoviště se rychle plní",
+      "beach": "0-10 minut chůze k oblázkovým zátokám a stinným skalnatým břehům",
+      "summary": "Tato oblast se nachází jižně od starého města a je definována luxusními hotely a lesoparkem Zlatni Rt. Návštěvníci mají okamžitý přístup k borovicemi stíněným stezkám a nejoblíbenějším plážím města."
+    },
+    {
+      "name": "Centener & Cuvi",
+      "bestFor": "Rodiny a cestovatelé s omezeným rozpočtem",
+      "parking": "Snadnější parkování na ulici a soukromých příjezdových cestách",
+      "beach": "10-15 minut chůze k pláži Cuvi (oblázky a písčité plochy)",
+      "summary": "Klidnější obytná čtvrť nacházející se jihovýchodně od centra. Nabízí pronájmy apartmánů za nižší ceny, přičemž zůstává v docházkové vzdálenosti od rodinných pláží a supermarketů."
+    },
+    {
+      "name": "Borik",
+      "bestFor": "Návštěvníci hledající klidnější předměstskou atmosféru s výhledem na moře",
+      "parking": "Obvykle zahrnuto v pronájmu apartmánů; parkování na ulici k dispozici",
+      "beach": "5-10 minut chůze k plážím Valdaliso a Amarin",
+      "summary": "Borik se nachází severně od centra města a nabízí uvolněné prostředí daleko od letních davů. Dosažení starého města vyžaduje 30 minut chůze, jízdu na kole nebo krátkou jízdu vodním taxi."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Mnichov",
+      "car": "600 km, ~6,5 hodiny přes A8, A10, A11, SI A2 do Koperu, Istrijský Y. Vyžaduje AT dálniční známku, mýtné Tauern & Karawanken, SI dálniční známku, HR mýtné.",
+      "other": "Sezónní přímé lety do Puly nebo přímý Flixbus."
+    },
+    {
+      "from": "Vídeň",
+      "car": "500 km, ~5,5 hodiny přes A2 do Štýrského Hradce (Graz), SI A1 (Maribor-Lublaň-Koper), Istrijský Y. Vyžaduje AT dálniční známku, SI dálniční známku, HR mýtné.",
+      "other": "Přímý Flixbus nebo sezónní lety do Puly."
+    },
+    {
+      "from": "Budapešť",
+      "car": "600 km, ~6 hodin přes M7, HR A4 do Záhřebu, A6 do Rijeky, tunel Učka, Istrijský Y. Vyžaduje HU e-dálniční známku, HR mýtné.",
+      "other": "Flixbus nebo vlak do Rijeky následovaný místním autobusem."
+    },
+    {
+      "from": "Lublaň",
+      "car": "180 km, ~2,5 hodiny přes A1 do Koperu, Istrijský Y (A9). Vyžaduje SI dálniční známku, HR mýtné.",
+      "other": "Přímé autobusové spoje (Flixbus, Nomago)."
+    },
+    {
+      "from": "Praha",
+      "car": "850 km, ~9 hodin přes Linec, Štýrský Hradec (Graz), Maribor, Lublaň, Koper. Vyžaduje CZ, AT, SI dálniční známky, HR mýtné.",
+      "other": "Sezónní vlakové/autobusové spoje RegioJet nebo lety do Puly."
+    },
+    {
+      "from": "Krakov",
+      "car": "1 000 km, ~10,5 hodiny přes CZ (Brno), AT (Vídeň, Štýrský Hradec – Graz), SI (Maribor, Koper). Vyžaduje CZ, AT, SI dálniční známky, HR mýtné.",
+      "other": "Lety do Puly (obvykle přes Varšavu) nebo dálkový autobus."
+    }
+  ],
+  "whenToGo": "Návštěvnická sezóna probíhá od konce května do září. Červenec a srpen přinášejí nejteplejší počasí s teplotami vzduchu kolem 30°C a teplotami moře vrcholícími na 25-27°C, spolu s nejvyššími cenami a největšími davy. Červen a září nabízejí mírnější teploty (nízké až střední 20°C), o něco chladnější podmínky pro koupání a lepší dostupnost ubytování. Od října do dubna je Rovinj klidný; moře je příliš studené na koupání (klesá na 10-14°C) a mnoho turisticky zaměřených restaurací, hotelů a trajektových linek je zcela uzavřeno.",
+  "faq": [
+    {
+      "question": "Stojí Rovinj za návštěvu?",
+      "answer": "Ano, je všeobecně považováno za jedno z nejatraktivnějších pobřežních měst na Istrii. Návštěvníci sem jezdí pro jeho dobře zachovalé benátské staré město, rozsáhlý borový lesopark a vysoce kvalitní gastronomické možnosti."
+    },
+    {
+      "question": "Kolik dní potřebuji v Rovinji?",
+      "answer": "Tři až pět dní je ideální pro většinu návštěvníků. To poskytuje dostatek času na prozkoumání starého města, strávení dne na plážích v Punta Corrente a podniknutí výletu lodí nebo návštěvu nedalekého istrijského města na kopci."
+    },
+    {
+      "question": "Jaká je nejlepší pláž v Rovinji?",
+      "answer": "Nejoblíbenější jsou pláže v lesoparku Zlatni Rt (Punta Corrente), zejména zátoka Lone. Nabízejí kombinaci oblázků a skal s rozsáhlým přírodním stínem od okolních borovic."
+    },
+    {
+      "question": "Potřebuji auto v Rovinji?",
+      "answer": "Auto nepotřebujete, pokud bydlíte ve starém městě nebo jeho bezprostředním okolí, protože vše je v docházkové vzdálenosti. Nicméně auto je vysoce doporučeno, pokud plánujete prozkoumat zbytek istrijského poloostrova nebo navštívit venkovské vinařství a usedlosti s olivovým olejem."
+    },
+    {
+      "question": "Kde bych měl/a parkovat při návštěvě Rovinje?",
+      "answer": "Největší veřejná parkoviště jsou Valdibora (Sever) a Ampelea (Jih), nacházející se hned za pěší zónou. Tato parkoviště jsou placená hodinově nebo denně a mohou být plná v červenci a srpnu, proto se doporučuje přijet včas."
+    },
+    {
+      "question": "Je Rovinj vhodný pro rodiny?",
+      "answer": "Ano, zejména v letoviscích a obytných čtvrtích mimo staré město. Pláže mají mělké oblázkové úseky vhodné pro děti a nedaleké rodinně zaměřené kempy nabízejí bazény, dětská hřiště a organizované aktivity."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Přehled",
+    "whereToStay": "Kde se ubytovat v Rovinji",
+    "gettingThere": "Jak se dostat do Rovinje",
+    "whenToGo": "Kdy jet",
+    "guides": "Průvodci po Rovinji",
+    "faq": "Časté dotazy k Rovinji",
+    "groups": {
+      "gettingAround": "Parkování a pohyb po městě",
+      "planning": "Plánování a ubytování",
+      "timing": "Kdy jet",
+      "travelers": "Rodiny, páry a styly cestování",
+      "activities": "Pláže a aktivity",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": "Praktické informace"
+    },
+    "car": "Autem",
+    "other": "Jiné možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "rovinj",
+  "language": "cz",
+  "updatedAt": "2026-10-16T10:37:32.832Z"
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Zagreb : Guide de voyage – Conduite, stationnement et hébergement",
+  "metaDescription": "Guide de voyage factuel pour Zagreb, Croatie. Trouvez les meilleurs quartiers où séjourner, les détails du stationnement, les itinéraires de conduite et la meilleure période pour visiter.",
+  "intro": "Zagreb est une capitale d'Europe centrale idéale pour les voyageurs intéressés par l'histoire, les musées et la culture urbaine plutôt que par les stations balnéaires. La ville est divisée en une Ville Haute historique et vallonnée, et une Ville Basse austro-hongroise plate, toutes deux caractérisées par de grands parcs publics, des zones piétonnes et une forte dépendance au réseau de tramway local.\n\nLa période optimale pour visiter est pendant les mois doux du printemps et de l'automne, ou en décembre pour les marchés de l'Avent annuels. L'été apporte une forte chaleur, incitant de nombreux habitants à partir pour la côte adriatique, ce qui rend les rues plus calmes mais laisse certaines petites entreprises temporairement fermées.",
+  "quickFacts": [
+    {
+      "label": "Meilleurs mois",
+      "value": "Mai, juin, septembre, décembre"
+    },
+    {
+      "label": "Température de la mer (août)",
+      "value": "S/O (Ville intérieure ; le lac Jarun est à environ 25°C)"
+    },
+    {
+      "label": "Aéroport le plus proche",
+      "value": "Aéroport de Zagreb (ZAG), à 15 km du centre"
+    },
+    {
+      "label": "Type de plage principal",
+      "value": "Plages de lac de galets/gravier (Jarun et Bundek)"
+    },
+    {
+      "label": "Niveau de prix",
+      "value": "Moyen à inférieur à la moyenne par rapport à la côte croate"
+    },
+    {
+      "label": "Vieille ville piétonne",
+      "value": "Oui, très piétonnière avec accès automobile restreint"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Donji Grad (Ville Basse)",
+      "bestFor": "Première visite et tourisme",
+      "parking": "Stationnement payant dans la rue (Zone 1) ; nécessite des garages publics",
+      "beach": "6 km du lac Jarun",
+      "summary": "Le cœur commercial de la ville, abritant des musées, des parcs et une architecture du XIXe siècle. Il offre le plus large éventail d'hôtels et un accès immédiat aux principales lignes de tramway."
+    },
+    {
+      "name": "Gornji Grad (Ville Haute)",
+      "bestFor": "Histoire et soirées tranquilles",
+      "parking": "Fortement restreint ; les non-résidents doivent se garer dans la Ville Basse",
+      "beach": "6,5 km du lac Jarun",
+      "summary": "La partie la plus ancienne de Zagreb, caractérisée par ses rues pavées, ses bâtiments gouvernementaux et l'église Saint-Marc. Elle est idéale pour les visiteurs privilégiant une atmosphère historique à un accès immédiat en véhicule."
+    },
+    {
+      "name": "Novi Zagreb",
+      "bestFor": "Voyageurs à petit budget et conducteurs",
+      "parking": "Généralement stationnement gratuit ou très bon marché dans la rue",
+      "beach": "1 à 2 km du lac Bundek",
+      "summary": "Située au sud de la rivière Save, cette zone se compose de blocs résidentiels du milieu du siècle et de centres commerciaux. Elle est facilement connectée au centre par tramway et offre un stationnement simple."
+    },
+    {
+      "name": "Trešnjevka",
+      "bestFor": "Vie locale et séjours prolongés",
+      "parking": "Mixte ; principalement Zone 3 (moins cher) ou gratuit dans les zones résidentielles",
+      "beach": "3 km du lac Jarun",
+      "summary": "Un quartier densément peuplé à l'ouest du centre, connu pour son marché en plein air quotidien. Il offre une expérience résidentielle plus quotidienne avec des prix d'hébergement plus bas."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Munich",
+      "car": "540 km, 5,5-6,5 heures via A8, A10 et A2. Nécessite une vignette autrichienne, le péage du tunnel de Karavanke, une vignette slovène et des péages croates.",
+      "other": "Vol direct (Croatia Airlines/Lufthansa) ou FlixBus direct."
+    },
+    {
+      "from": "Vienna",
+      "car": "370 km, 4-4,5 heures via A2 et A9. Nécessite une vignette autrichienne, une vignette slovène et des péages croates.",
+      "other": "Train quotidien direct ÖBB ou FlixBus."
+    },
+    {
+      "from": "Budapest",
+      "car": "340 km, 3,5-4 heures via M7 et A4. Nécessite une e-vignette hongroise et des péages croates.",
+      "other": "Train quotidien direct ou FlixBus."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "140 km, 1,5-2 heures via A2 et A3. Nécessite une vignette slovène et des péages croates.",
+      "other": "Train ou bus direct (environ 2,5 heures)."
+    },
+    {
+      "from": "Prague",
+      "car": "690 km, 7,5-8,5 heures via Vienne et Graz. Nécessite des vignettes tchèque, autrichienne et slovène, plus des péages croates.",
+      "other": "Vol direct (Smartwings/Ryanair) ou train de nuit via Vienne."
+    },
+    {
+      "from": "Kraków",
+      "car": "750 km, 8-9 heures via la Slovaquie et la Hongrie. Nécessite des péages polonais, des e-vignettes slovaque et hongroise, et des péages croates.",
+      "other": "Vol direct (Ryanair/LOT) ou bus de nuit."
+    }
+  ],
+  "whenToGo": "L'hiver à Zagreb est froid, avec des températures oscillant souvent entre 0°C et 5°C, bien que décembre reste un mois de pointe pour le tourisme en raison des vastes marchés de l'Avent de la ville. Le printemps (avril à juin) et l'automne (septembre à octobre) offrent le temps le plus agréable pour le tourisme, avec des maximales diurnes entre 15°C et 25°C, des prix d'hébergement plus bas et des installations touristiques entièrement opérationnelles. L'été (juillet et août) apporte des températures qui dépassent régulièrement les 30°C ; bien que la ville soit moins bondée car les habitants migrent vers la côte, le manque de brise marine rend la chaleur urbaine perceptible, bien que les plages des lacs Jarun et Bundek offrent des options de baignade locales.",
+  "faq": [
+    {
+      "question": "Zagreb vaut-elle le détour ?",
+      "answer": "Oui, Zagreb vaut le détour pour son architecture austro-hongroise, sa vaste collection de musées et sa riche culture des cafés. Elle constitue un contrepoint culturel et historique aux destinations côtières de la Croatie."
+    },
+    {
+      "question": "Combien de jours faut-il à Zagreb ?",
+      "answer": "Deux à trois jours suffisent pour explorer les principaux sites. Cela laisse assez de temps pour visiter les Villes Haute et Basse, les principaux musées et passer un après-midi au parc Maksimir ou au lac Jarun."
+    },
+    {
+      "question": "Quelle est la meilleure plage de Zagreb ?",
+      "answer": "Les meilleurs lieux de baignade sont les plages de galets du lac Jarun, situées au sud-ouest de la ville. Le lac Bundek propose également des plages de gravier aménagées et des zones de baignade pendant les mois d'été."
+    },
+    {
+      "question": "Ai-je besoin d'une voiture à Zagreb ?",
+      "answer": "Non, une voiture n'est pas nécessaire et est souvent un inconvénient dans le centre-ville. Zagreb dispose d'un réseau efficace et complet de trams et de bus qui desservent toutes les principales zones touristiques."
+    },
+    {
+      "question": "Où est le meilleur endroit pour se garer à Zagreb ?",
+      "answer": "Les options les plus fiables sont les garages publics souterrains comme Langov trg, Tuškanac ou Petrinjska. Le stationnement dans la rue au centre (Zone 1) est cher, limité à un maximum de deux heures et strictement contrôlé."
+    },
+    {
+      "question": "Zagreb est-elle une bonne destination pour les familles ?",
+      "answer": "Oui, la ville est très accueillante pour les familles. Des attractions comme le Musée des Illusions, le Zoo de Zagreb dans le parc Maksimir et la courte promenade en funiculaire sont des options fiables pour les jeunes visiteurs."
+    }
+  ],
+  "headings": {
+    "quickFacts": "En bref",
+    "whereToStay": "Où séjourner à Zagreb",
+    "gettingThere": "Se rendre à Zagreb",
+    "whenToGo": "Quand partir",
+    "guides": "Guides de Zagreb",
+    "faq": "FAQ sur Zagreb",
+    "groups": {
+      "gettingAround": "Stationnement et déplacements",
+      "planning": "Planification et hébergement",
+      "timing": "Quand partir",
+      "travelers": "Familles, couples et styles de voyage",
+      "activities": "Plages et activités",
+      "food": "Manger et boire",
+      "comparisons": "Comparaisons",
+      "practical": "Infos pratiques"
+    },
+    "car": "En voiture",
+    "other": "Autres options",
+    "bestFor": "Idéal pour",
+    "parking": "Stationnement",
+    "beach": "Plage"
+  },
+  "destination": "zagreb",
+  "language": "fr",
+  "updatedAt": "2026-10-16T11:33:23.777Z"
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Primošten Reiseführer: Strände, Parken & Unterkünfte",
+  "metaDescription": "Planen Sie eine Reise nach Primošten, Kroatien. Entdecken Sie die besten Kieselstrände, Parkmöglichkeiten in der Nähe der autofreien Altstadt und passende Gegenden für Familien und Paare.",
+  "intro": "Primošten ist eine Küstenstadt in Mitteldalmatien, 28 Kilometer südlich von Šibenik gelegen. Bekannt für seine historische Halbinsel und großen Kieselstrände, zieht es Familien, Paare und Roadtripper an, die eine traditionelle mediterrane Umgebung ohne die massive urbane Größe des nahegelegenen Splits suchen. Der Hauptanziehungspunkt ist die Zugänglichkeit seiner Küste, mit Stränden, die direkt an das Stadtzentrum grenzen.\n\nDie Hauptsaison dauert von Juni bis September. Juli und August bringen die höchsten Temperaturen und größten Menschenmengen mit sich, die die zentralen Strände und die Hauptparkbereiche füllen. Mai und Ende September bieten günstigere Übernachtungspreise und ruhigere Straßen, obwohl die Meerestemperaturen möglicherweise zu niedrig zum Schwimmen sind.",
+  "quickFacts": [
+    {
+      "label": "Beste Monate",
+      "value": "Juni bis September"
+    },
+    {
+      "label": "Meerestemperatur im August",
+      "value": "25°C bis 27°C"
+    },
+    {
+      "label": "Nächstgelegener Flughafen",
+      "value": "Flughafen Split (SPU), 39 km"
+    },
+    {
+      "label": "Hauptstrandtyp",
+      "value": "Kies- und Felsstrand"
+    },
+    {
+      "label": "Preisniveau",
+      "value": "Durchschnittlich für die dalmatinische Küste"
+    },
+    {
+      "label": "Mobilität in der Altstadt",
+      "value": "Autofrei, nur für Fußgänger"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Altstadt (Halbinsel)",
+      "bestFor": "Paare, Gastronomie und historische Atmosphäre",
+      "parking": "Im Inneren verboten; erfordert die Nutzung kostenpflichtiger Parkplätze auf dem Festland",
+      "beach": "200m bis 500m Fußweg zur Mala Raduča",
+      "summary": "Das historische Zentrum liegt auf einer nur für Fußgänger zugänglichen Halbinsel. Es bietet die höchste Konzentration an Restaurants und Bars, erfordert aber das Schleppen von Gepäck von den Parkplätzen auf dem Festland."
+    },
+    {
+      "name": "Raduča",
+      "bestFor": "Familien und Strandzugang",
+      "parking": "Oft in Hotels inbegriffen; große öffentliche kostenpflichtige Parkplätze in der Nähe",
+      "beach": "Direkter Zugang zu den Kieselstränden Velika und Mala Raduča",
+      "summary": "Dieser Bereich umgibt die Hauptkieselstrände und Pinienwälder auf dem Festland. Unterkünfte hier liegen näher am Wasser und bieten im Allgemeinen einen einfacheren Fahrzeugzugang im Vergleich zur Altstadt."
+    },
+    {
+      "name": "Bilo",
+      "bestFor": "Ruhige Aufenthalte und Paare",
+      "parking": "In der Regel von privaten Apartments angeboten",
+      "beach": "Direkter Zugang zu felsigen Buchten und kleinen Kiesabschnitten",
+      "summary": "Eine kleine Küstensiedlung 5 Kilometer nördlich von Primošten. Sie bietet eine ruhigere Alternative mit Zugang zu felsiger Küste, erfordert aber ein Fahrzeug oder einen lokalen Bus, um Primoštens Restaurants zu erreichen."
+    },
+    {
+      "name": "Dolac",
+      "bestFor": "Budgetreisende und ruhige Familienaufenthalte",
+      "parking": "Typischerweise in der Unterkunft inbegriffen",
+      "beach": "Kiesbuchten und Betonterrassen innerhalb von 100m bis 400m",
+      "summary": "Ein Vorortdorf 3 Kilometer nördlich, verbunden mit Primošten durch die Küstenstraße. Es bietet Wohnungen und einige lokale Cafés, geeignet für diejenigen, die das belebte Zentrum meiden möchten."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "820 km, ~9 Stunden über Salzburg, Villach, Ljubljana, Zagreb und die Autobahn A1. Erfordert österreichische und slowenische Vignetten, sowie kroatische Mautgebühren.",
+      "other": "Direktflüge nach Split (SPU) dauern 1,5 Stunden."
+    },
+    {
+      "from": "Wien",
+      "car": "640 km, ~6,5 Stunden über Graz, Maribor, Zagreb und die Autobahn A1. Erfordert österreichische und slowenische Vignetten, sowie kroatische Mautgebühren.",
+      "other": "Direktflüge nach Split (SPU) dauern 1 Stunde."
+    },
+    {
+      "from": "Budapest",
+      "car": "680 km, ~6,5 Stunden über Letenye, Zagreb und die Autobahn A1. Erfordert ungarische Vignette, sowie kroatische Mautgebühren.",
+      "other": "Saisonale Flüge nach Split oder FlixBus-Verbindungen über Zagreb."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "400 km, ~4,5 Stunden über Novo Mesto, Karlovac und die Autobahn A1. Erfordert slowenische Vignette, sowie kroatische Mautgebühren.",
+      "other": "Direkte Busverbindungen existieren, dauern aber 8 bis 10 Stunden."
+    },
+    {
+      "from": "Prag",
+      "car": "970 km, ~10 Stunden über Linz, Graz, Maribor, Zagreb und die Autobahn A1. Erfordert tschechische, österreichische und slowenische Vignetten, sowie kroatische Mautgebühren.",
+      "other": "Saisonale Direktflüge nach Split dauern 1,5 Stunden."
+    },
+    {
+      "from": "Krakau",
+      "car": "1050 km, ~11 Stunden über Ostrava, Brünn, Wien, Graz, Zagreb und die Autobahn A1. Erfordert tschechische, österreichische und slowenische Vignetten, sowie kroatische Mautgebühren.",
+      "other": "Saisonale Flüge nach Split mit LOT Polish Airlines oder Billigfluggesellschaften."
+    }
+  ],
+  "whenToGo": "Die Touristensaison in Primošten erstreckt sich von Ende Mai bis Anfang Oktober. Juli und August sind die Spitzenmonate, mit Meerestemperaturen um 26°C, zuverlässigem Sonnenschein und allen lokalen Geschäften, die voll ausgelastet sind. In diesen Monaten sind auch die höchsten Preise und die größten Menschenmengen am Strand Mala Raduča zu verzeichnen. Juni und September bieten mildere Tagestemperaturen (23°C bis 28°C) und reduzierte Übernachtungspreise, wobei Ende September eine höhere Regenwahrscheinlichkeit besteht. Von Oktober bis April verwandelt sich Primošten in eine ruhige Wohnstadt; die meisten Hotels, saisonalen Restaurants und Strandbars schließen, und die Meerestemperaturen sinken unter 18°C.",
+  "faq": [
+    {
+      "question": "Ist Primošten einen Besuch wert?",
+      "answer": "Ja, Primošten ist einen Besuch wert für Reisende, die eine traditionelle Küstenstadt mit ausgedehnten Kieselstränden suchen. Es dient als ausgezeichneter Ausgangspunkt zur Erkundung Mitteldalmatiens, einschließlich des nahegelegenen Nationalparks Krka und der Stadt Šibenik."
+    },
+    {
+      "question": "Wie viele Tage brauche ich in Primošten?",
+      "answer": "Drei bis fünf Tage reichen aus, um die Stadt zu erkunden, Zeit an den Stränden zu verbringen und einen Tagesausflug in die Umgebung zu unternehmen. Besucher, die einen reinen Strandurlaub suchen, bleiben oft ein bis zwei Wochen."
+    },
+    {
+      "question": "Was ist der beste Strand in Primošten?",
+      "answer": "Mala Raduča gilt als der beste und beliebteste Strand aufgrund seiner zentralen Lage, glatten Kieselsteine und klaren Wassers. Velika Raduča ist eine größere Alternative direkt gegenüber der Halbinsel und bietet Wassersportmöglichkeiten sowie Schatten von Pinienbäumen."
+    },
+    {
+      "question": "Brauche ich ein Auto in Primošten?",
+      "answer": "Ein Auto ist nicht notwendig, wenn Sie im Stadtzentrum oder in der Nähe der Raduča-Strände wohnen, da die Dinge des täglichen Bedarfs zu Fuß erreichbar sind. Ein Fahrzeug ist jedoch sehr empfehlenswert, um nahegelegene Dörfer, Nationalparks oder größere Städte wie Split und Zadar zu erkunden."
+    },
+    {
+      "question": "Wo soll ich in Primošten parken?",
+      "answer": "Das Parken innerhalb der Altstadthalbinsel ist für Nicht-Anwohner verboten. Besucher müssen die großen kostenpflichtigen Parkplätze direkt außerhalb der Halbinseltore nutzen oder zugewiesene Parkplätze außerhalb der Straße mit ihrem Unterkunftsanbieter bestätigen."
+    },
+    {
+      "question": "Ist Primošten gut für Familien geeignet?",
+      "answer": "Ja, Primošten ist aufgrund seines ruhigen Wassers und der zugänglichen, sauberen Kieselstrände sehr gut für Familien geeignet. Die Anwesenheit von schattenspendenden Pinienbäumen, Tretbootverleih und ebenen Spazierwegen macht es für Kinder jeden Alters bequem."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Auf einen Blick",
+    "whereToStay": "Wo übernachten in Primošten",
+    "gettingThere": "Anreise nach Primošten",
+    "whenToGo": "Beste Reisezeit",
+    "guides": "Primošten Reiseführer",
+    "faq": "Primošten FAQ",
+    "groups": {
+      "gettingAround": "Parken & Fortbewegung",
+      "planning": "Planung & Unterkünfte",
+      "timing": "Beste Reisezeit",
+      "travelers": "Familien, Paare & Reisestile",
+      "activities": "Strände & Aktivitäten",
+      "food": "Essen & Trinken",
+      "comparisons": "Vergleiche",
+      "practical": "Praktische Informationen"
+    },
+    "car": "Mit dem Auto",
+    "other": "Weitere Optionen",
+    "bestFor": "Am besten für",
+    "parking": "Parken",
+    "beach": "Strand"
+  },
+  "destination": "primosten",
+  "language": "de",
+  "updatedAt": "2026-10-16T13:43:28.647Z"
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Novigrad Guida di Viaggio: Spiagge, Zone e Itinerari in Auto",
+  "metaDescription": "Organizza il tuo viaggio a Novigrad, Croazia. Scopri i migliori posti dove alloggiare, gli itinerari in auto dall'Europa, i consigli sul parcheggio e i dettagli sulle spiagge per questa città istriana.",
+  "intro": "Novigrad attrae famiglie e coppie in cerca di una destinazione costiera più tranquilla in Istria, evitando le grandi folle tipiche di Rovigno o Parenzo. Vanta un centro storico ben conservato situato su una piccola penisola, ampi lungomare e spiagge pulite di ciottoli e lastricate. La città funge da comoda base per esplorare l'Istria settentrionale e la vicina valle del fiume Quieto.\n\nLa stagione turistica principale va da fine giugno a inizio settembre, portando temperature del mare calde e ristoranti e strutture pienamente operativi. La primavera e l'inizio dell'autunno offrono un clima più mite adatto per il ciclismo e l'esplorazione dell'entroterra istriano, sebbene molte attività balneari chiudano tra novembre e aprile. I visitatori che arrivano in estate troveranno un'atmosfera rilassata incentrata sulla ristorazione e sulle attività all'aperto.",
+  "quickFacts": [
+    {
+      "label": "Mesi migliori",
+      "value": "Giugno a settembre"
+    },
+    {
+      "label": "Temperatura del mare ad agosto",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Aeroporto più vicino",
+      "value": "Pola (PUY), a 75 km"
+    },
+    {
+      "label": "Tipo di spiaggia principale",
+      "value": "Ciottoli, rocciosa e terrazze lastricate"
+    },
+    {
+      "label": "Livello di prezzo",
+      "value": "Nella media per l'Istria, leggermente sopra la media croata"
+    },
+    {
+      "label": "Pedonabilità",
+      "value": "Il centro storico è molto pedonabile e per lo più senza auto in estate"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centro Storico",
+      "bestFor": "Ristorazione, storia e coppie",
+      "parking": "È necessario parcheggiare fuori dal centro in parcheggi a pagamento",
+      "beach": "Spiagge cittadine lastricate e Rivarela appena fuori le mura",
+      "summary": "Il nucleo storico si trova su una penisola circondata da mura medievali. Offre la più alta concentrazione di ristoranti e caffè, ma limita l'accesso ai veicoli durante la stagione turistica."
+    },
+    {
+      "name": "Karpinjan",
+      "bestFor": "Famiglie e accesso alla spiaggia",
+      "parking": "Parcheggio in strada gratuito e a pagamento presso la maggior parte degli appartamenti",
+      "beach": "Tratto di spiaggia di ciottoli di 500m con ombra di pini",
+      "summary": "Un quartiere residenziale situato a 15 minuti a piedi a nord del centro storico. Vanta una popolare spiaggia di ciottoli adatta alle famiglie e tranquilli appartamenti in affitto."
+    },
+    {
+      "name": "Area Maestral & Sirena",
+      "bestFor": "Servizi del resort, campeggio e piscine",
+      "parking": "Parcheggio dedicato per hotel e campeggi",
+      "beach": "Spiagge di ciottoli e lastricate Bandiera Blu in loco",
+      "summary": "Situata appena a sud del centro città, questa zona è dominata da grandi hotel e un importante campeggio. Offre strutture balneari organizzate, piscine e campi sportivi."
+    },
+    {
+      "name": "Mareda",
+      "bestFor": "Natura, campeggio e soggiorni economici",
+      "parking": "Incluso all'interno del parco vacanze o campeggio",
+      "beach": "Spiagge rocciose e lastricate in loco",
+      "summary": "Situata a circa 4 chilometri a nord di Novigrad, questa zona è costituita principalmente da un grande villaggio turistico e un campeggio. È circondata da vigneti, boschi di querce e sentieri costieri."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monaco",
+      "car": "520 km, 6 ore via A8, A10 (Tauern), Tunnel del Karawanken, SI A2/A1. Pedaggi: vignetta AT, pedaggi Tauern & Karawanken, vignetta SI, pedaggio HR.",
+      "other": "FlixBus diretto o con uno scalo via Lubiana"
+    },
+    {
+      "from": "Vienna",
+      "car": "510 km, 5,5 ore via A2, A9 per Graz, SI A1 per Capodistria. Pedaggi: vignetta AT, vignetta SI, pedaggio HR.",
+      "other": "FlixBus diretto o volo per Pola"
+    },
+    {
+      "from": "Budapest",
+      "car": "600 km, 6 ore via M7, A4 per Zagabria, A6 per Fiume, Y Istriana (A8/A9). Pedaggi: vignetta HU, pedaggi HR.",
+      "other": "FlixBus o treno per Fiume, poi autobus locale"
+    },
+    {
+      "from": "Lubiana",
+      "car": "135 km, 1,5 ore via A1 per Capodistria, Strada 111, Y Istriana. Pedaggi: vignetta SI, pedaggio HR.",
+      "other": "Autobus diretto che impiega circa 2,5 ore"
+    },
+    {
+      "from": "Praga",
+      "car": "830 km, 9 ore via AT A1/A10, Tunnel del Karawanken, SI A2/A1. Pedaggi: vignette CZ, AT, SI, pedaggi tunnel, pedaggio HR.",
+      "other": "Volo per Pola o FlixBus notturno"
+    },
+    {
+      "from": "Cracovia",
+      "car": "1000 km, 10,5 ore via A4, CZ D1, AT A2/A9, SI A1. Pedaggi: vignette PL, CZ, AT, SI, pedaggio HR.",
+      "other": "Voli stagionali per Zara o Pola"
+    }
+  ],
+  "whenToGo": "La stagione turistica principale si svolge a luglio e agosto, con temperature del mare intorno ai 25°C - 27°C, prezzi massimi degli alloggi e le folle più numerose. Giugno e settembre offrono un buon equilibrio tra clima caldo per nuotare, tariffe alberghiere più basse e un numero gestibile di visitatori, con quasi tutte le strutture aperte. Maggio e ottobre offrono temperature più fresche adatte per il ciclismo e le degustazioni di vino, sebbene il mare sia generalmente troppo freddo per nuotare. Da novembre ad aprile, Novigrad è molto tranquilla; le temperature del mare scendono sotto i 15°C e una parte significativa di hotel, campeggi e ristoranti a vocazione turistica chiude per la stagione invernale.",
+  "faq": [
+    {
+      "question": "Vale la pena visitare Novigrad?",
+      "answer": "Sì, Novigrad merita una visita per i viaggiatori in cerca di una rilassata e storica città costiera senza le intense folle dei resort istriani più grandi. Offre eccellente pesce, spiagge pulite e un muro difensivo medievale ben conservato."
+    },
+    {
+      "question": "Quanti giorni mi servono a Novigrad?",
+      "answer": "Da tre a cinque giorni sono l'ideale per una visita standard. Questo permette abbastanza tempo per esplorare il centro storico, trascorrere qualche giorno in spiaggia e visitare il vicino parco acquatico Istralandia o i villaggi dell'entroterra."
+    },
+    {
+      "question": "Qual è la migliore spiaggia a Novigrad?",
+      "answer": "La spiaggia di Karpinjan è ampiamente considerata la migliore opzione per le famiglie grazie al suo ingresso di ciottoli poco profondo e all'ombra naturale dei pini. Per le strutture organizzate e il noleggio di lettini, la spiaggia Maestral a sud del centro è molto apprezzata."
+    },
+    {
+      "question": "Ho bisogno di un'auto a Novigrad?",
+      "answer": "Non hai bisogno di un'auto se prevedi di rimanere strettamente a Novigrad, poiché la città è piccola e facilmente percorribile a piedi. Tuttavia, avere un'auto è altamente consigliato per fare gite di un giorno nelle città istriane dell'entroterra come Montona o Grisignana."
+    },
+    {
+      "question": "Dove posso parcheggiare a Novigrad?",
+      "answer": "I visitatori possono parcheggiare in diversi grandi parcheggi pubblici appena fuori dal centro storico, poiché il centro storico limita il traffico veicolare. I più grandi parcheggi comunali a pagamento si trovano vicino alla marina e al palazzetto dello sport della città."
+    },
+    {
+      "question": "Novigrad è adatta alle famiglie?",
+      "answer": "Sì, Novigrad è altamente adatta alle famiglie grazie alla sua atmosfera calma, ai percorsi pedonali e ciclabili costieri pianeggianti e alle sicure spiagge di ciottoli. Si trova anche a meno di 10 chilometri da Istralandia, uno dei più grandi parchi acquatici della Croazia."
+    }
+  ],
+  "headings": {
+    "quickFacts": "In breve",
+    "whereToStay": "Dove alloggiare a Novigrad",
+    "gettingThere": "Come arrivare a Novigrad",
+    "whenToGo": "Quando andare",
+    "guides": "Guide di Novigrad",
+    "faq": "FAQ su Novigrad",
+    "groups": {
+      "gettingAround": "Parcheggio e spostamenti",
+      "planning": "Pianificazione e dove alloggiare",
+      "timing": "Quando andare",
+      "travelers": "Famiglie, coppie e stili di viaggio",
+      "activities": "Spiagge e cose da fare",
+      "food": "Cibo e bevande",
+      "comparisons": "Confronti",
+      "practical": "Informazioni pratiche"
+    },
+    "car": "In auto",
+    "other": "Altre opzioni",
+    "bestFor": "Ideale per",
+    "parking": "Parcheggio",
+    "beach": "Spiaggia"
+  },
+  "destination": "novigrad",
+  "language": "it",
+  "updatedAt": "2026-10-16T11:44:47.840Z"
+}

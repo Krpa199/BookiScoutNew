@@ -1,0 +1,146 @@
+{
+  "title": "Rijeka Guía de viaje: Áreas, Playas y Cómo Llegar",
+  "metaDescription": "Planifica tu viaje a Rijeka. Guía práctica que cubre rutas en coche desde Europa, dónde alojarse, opciones de aparcamiento, acceso a la playa y los mejores momentos para visitar.",
+  "intro": "Rijeka es la tercera ciudad más grande de Croacia y su puerto marítimo más concurrido, difiriendo significativamente de los típicos centros turísticos dálmatas. Atrae a viajeros interesados en la arquitectura austrohúngara, el patrimonio industrial y un ambiente de ciudad en funcionamiento. El céntrico paseo Korzo y las calles históricas circundantes sirven como punto focal principal, mientras que las playas se encuentran a varios kilómetros al este y al oeste del centro.\n\nDado que es un importante centro de transporte, Rijeka funciona bien como base para excursiones de un día a la península de Istria, las islas del Golfo de Kvarner y el Parque Nacional Risnjak. La ciudad es mejor visitarla entre mayo y septiembre, cuando el clima permite nadar y se programan eventos al aire libre, aunque permanece activa todo el año a diferencia de las ciudades costeras altamente estacionales.",
+  "quickFacts": [
+    {
+      "label": "Mejores meses",
+      "value": "Mayo a septiembre"
+    },
+    {
+      "label": "Temperatura del mar en agosto",
+      "value": "24°C a 26°C"
+    },
+    {
+      "label": "Aeropuerto más cercano",
+      "value": "Aeropuerto de Rijeka (RJK), 26 km / 30 min"
+    },
+    {
+      "label": "Tipo de playa principal",
+      "value": "Terrazas de guijarros y hormigón"
+    },
+    {
+      "label": "Nivel de precios",
+      "value": "10-20% más bajo que Split o Dubrovnik"
+    },
+    {
+      "label": "Facilidad para caminar",
+      "value": "Korzo y el casco antiguo inmediato son peatonales"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centro de la Ciudad / Korzo",
+      "bestFor": "Turismo, tránsito y vida nocturna",
+      "parking": "Difícil; confía en aparcamientos de pago como Delta o garajes",
+      "beach": "Ninguna; requiere un viaje en autobús de 10-15 minutos",
+      "summary": "El núcleo comercial e histórico de Rijeka, con el paseo peatonal Korzo, museos y la estación principal de autobuses."
+    },
+    {
+      "name": "Kantrida",
+      "bestFor": "Familias y bañistas",
+      "parking": "Aparcamiento en la calle y estacionamientos públicos disponibles cerca de las instalaciones deportivas",
+      "beach": "Playas de guijarros (Ploče, Kantrida) a poca distancia",
+      "summary": "Un suburbio costero occidental conocido por sus piscinas, estadio de fútbol y playas de guijarros accesibles."
+    },
+    {
+      "name": "Pećine",
+      "bestFor": "Estancias tranquilas con acceso rápido a la playa",
+      "parking": "Aparcamiento limitado y gratuito en la calle, a menudo concurrido en verano",
+      "beach": "Acceso directo a las playas de guijarros de Sablićevo y Glavanovo",
+      "summary": "Un barrio residencial oriental construido a lo largo de una pendiente, con villas históricas y pequeñas y pintorescas calas costeras."
+    },
+    {
+      "name": "Trsat",
+      "bestFor": "Amantes de la historia y vistas panorámicas",
+      "parking": "Más fácil que en el centro, con plazas gratuitas y un aparcamiento exclusivo",
+      "beach": "Sin playa; a 15 minutos en coche de la costa",
+      "summary": "Un barrio en la cima de una colina situado sobre el río Rječina, hogar del Castillo de Trsat y el Santuario de Nuestra Señora de Trsat."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Múnich",
+      "car": "510 km, 5.5-6.5 horas vía A8, A10, A2, A1, A7. Requiere viñeta austriaca, peaje del túnel de Karawanken, viñeta eslovena y peajes croatas.",
+      "other": "FlixBus o tren nocturno a Liubliana, conectando con un autobús."
+    },
+    {
+      "from": "Viena",
+      "car": "490 km, 5-6 horas vía A2, A1, A7. Requiere viñeta austriaca, viñeta eslovena y peajes croatas.",
+      "other": "FlixBus o tren ÖBB (directo o con transbordo en Liubliana)."
+    },
+    {
+      "from": "Budapest",
+      "car": "500 km, 5-5.5 horas vía M7, A4, A6. Requiere e-viñeta húngara y peajes croatas.",
+      "other": "FlixBus directo o tren vía Zagreb."
+    },
+    {
+      "from": "Liubliana",
+      "car": "115 km, 1.5-2 horas vía A1 hasta Postojna, luego ruta 6/8 hasta Ilirska Bistrica y A7. Requiere viñeta eslovena y peajes croatas.",
+      "other": "Autobús o tren directo (aprox. 2.5 horas)."
+    },
+    {
+      "from": "Praga",
+      "car": "820 km, 8.5-10 horas vía Viena o Linz/Graz. Requiere viñetas checa, austriaca y eslovena, además de peajes de túnel y croatas.",
+      "other": "Tren vía Viena/Zagreb o autobús nocturno."
+    },
+    {
+      "from": "Cracovia",
+      "car": "900 km, 9-10.5 horas vía Ostrava, Brno, Viena y Graz. Requiere peajes polacos, además de viñetas checa, austriaca y eslovena, y peajes croatas.",
+      "other": "Vuelo a Zagreb seguido de un autobús directo a Rijeka."
+    }
+  ],
+  "whenToGo": "La mejor época para visitar Rijeka es de junio a septiembre, cuando la temperatura del mar alcanza entre 24°C y 26°C y los lugares al aire libre están en pleno funcionamiento. Julio y agosto son los meses más cálidos y concurridos, aunque las multitudes y los precios son considerablemente más bajos que en la Dalmacia meridional. Mayo y octubre ofrecen temperaturas más frescas adecuadas para hacer senderismo en los parques nacionales cercanos, con tarifas de alojamiento más bajas. De noviembre a abril, la ciudad experimenta inviernos suaves pero lluviosos; aunque muchas instalaciones de playa enfocadas al turismo cierran, los museos, restaurantes céntricos y tiendas de la ciudad permanecen abiertos todo el año.",
+  "faq": [
+    {
+      "question": "¿Merece la pena visitar Rijeka?",
+      "answer": "Sí, si estás interesado en la historia industrial, la arquitectura austrohúngara y un ambiente de ciudad en funcionamiento. No se recomienda si buscas una ciudad turística tradicional centrada únicamente en el turismo de playa."
+    },
+    {
+      "question": "¿Cuántos días necesito en Rijeka?",
+      "answer": "Uno o dos días son suficientes para ver los principales lugares de interés en el centro de la ciudad y Trsat. Añade tres o cuatro días si planeas usar Rijeka como base para excursiones de un día a Istria, la isla de Krk o Gorski Kotar."
+    },
+    {
+      "question": "¿Cuál es la mejor playa en Rijeka?",
+      "answer": "La playa de Sablićevo en el barrio de Pećine y la playa de Ploče en Kantrida son las opciones más populares. Ambas ofrecen orillas de guijarros, agua clara e instalaciones básicas como duchas."
+    },
+    {
+      "question": "¿Necesito un coche en Rijeka?",
+      "answer": "No es necesario un coche para explorar el centro de la ciudad, que es transitable a pie y está bien conectado por autobuses locales. Sin embargo, tener un vehículo es muy recomendable para visitar los parques nacionales cercanos, las islas y la Istria rural."
+    },
+    {
+      "question": "¿Dónde es el mejor lugar para aparcar en Rijeka?",
+      "answer": "El aparcamiento Delta ofrece la mayor cantidad de plazas al aire libre a poca distancia de la zona peatonal. Para aparcamiento cubierto, los garajes Gomila y Zagrad son seguros y céntricos."
+    },
+    {
+      "question": "¿Es Rijeka buena para familias?",
+      "answer": "Sí, los niños mayores apreciarán atracciones como el Castillo de Trsat, el Museo de Historia Natural y las piscinas de Kantrida. Las familias con niños pequeños podrían encontrar desafiante la falta de playas de arena poco profundas."
+    }
+  ],
+  "headings": {
+    "quickFacts": "De un vistazo",
+    "whereToStay": "Dónde alojarse en Rijeka",
+    "gettingThere": "Cómo llegar a Rijeka",
+    "whenToGo": "Cuándo ir",
+    "guides": "Guías de Rijeka",
+    "faq": "Preguntas frecuentes sobre Rijeka",
+    "groups": {
+      "gettingAround": "Aparcamiento y cómo moverse",
+      "planning": "Planificación y dónde alojarse",
+      "timing": "Cuándo ir",
+      "travelers": "Familias, parejas y estilos de viaje",
+      "activities": "Playas y cosas que hacer",
+      "food": "Comida y bebida",
+      "comparisons": "Comparaciones",
+      "practical": "Información práctica"
+    },
+    "car": "En coche",
+    "other": "Otras opciones",
+    "bestFor": "Ideal para",
+    "parking": "Aparcamiento",
+    "beach": "Playa"
+  },
+  "destination": "rijeka",
+  "language": "es",
+  "updatedAt": "2026-10-16T09:51:10.746Z"
+}

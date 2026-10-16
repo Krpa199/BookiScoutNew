@@ -1,0 +1,146 @@
+{
+  "title": "Split Reisgids: Stranden, Parkeren & Waar te Verblijven",
+  "metaDescription": "Plan je reis naar Split, Kroatië. Lees feitelijk advies over de beste verblijfsgebieden, rijroutes, parkeren, stranden en veerdiensten voor dagtochten.",
+  "intro": "Split is de grootste stad aan de Dalmatische kust en functioneert zowel als een belangrijk transportknooppunt als een historische bestemming. Het is geschikt voor reizigers die op zoek zijn naar een mix van Romeinse architectuur, stedelijke infrastructuur en directe veerverbindingen naar nabijgelegen eilanden. Het middelpunt van de stad is het Paleis van Diocletianus, een sterk bewaard gebleven Romeins complex geïntegreerd in het moderne commerciële centrum.\n\nHet belangrijkste toeristenseizoen loopt van eind mei tot begin oktober. Juli en augustus brengen de hoogste temperaturen, grootste drukte en piektarieven voor accommodatie met zich mee. Degenen die sightseeing boven zwemmen verkiezen, kunnen het beste bezoeken in april, mei of oktober, wanneer de dagtemperaturen milder zijn, de straten minder druk zijn en de prijzen voor accommodatie merkbaar lager zijn.",
+  "quickFacts": [
+    {
+      "label": "Beste maanden",
+      "value": "Mei, juni, september, oktober"
+    },
+    {
+      "label": "Zeetemperatuur in augustus",
+      "value": "25°C tot 27°C"
+    },
+    {
+      "label": "Dichtstbijzijnde luchthaven",
+      "value": "Luchthaven Split (SPU), 24 km van het centrum"
+    },
+    {
+      "label": "Belangrijkste strandtype",
+      "value": "Voornamelijk kiezelstrand, met één centraal zandstrand"
+    },
+    {
+      "label": "Prijsniveau",
+      "value": "Boven het Kroatische gemiddelde"
+    },
+    {
+      "label": "Beloopbaarheid Oude Stad",
+      "value": "Volledig autovrij en voetgangersgebied"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Oude Stad (Grad)",
+      "bestFor": "Sightseeing en korte verblijven zonder auto",
+      "parking": "Geen parkeergelegenheid binnen; dure parkeerplaatsen aan de rand",
+      "beach": "15 minuten lopen naar Bačvice (zandstrand)",
+      "summary": "De historische kern gebouwd rond het Paleis van Diocletianus. Het is dichtbevolkt met restaurants, historische bezienswaardigheden en voetgangerssteegjes."
+    },
+    {
+      "name": "Bačvice & Firule",
+      "bestFor": "Nachtleven en centrale toegang tot het strand",
+      "parking": "Beperkte parkeergelegenheid op straat in Zone 2",
+      "beach": "Directe toegang tot zandstranden en ondiepe baaien",
+      "summary": "Woonwijken direct ten oosten van de veerhaven. Ze bieden snelle toegang tot de bekendste zandstranden van de stad en grote nachtclubs."
+    },
+    {
+      "name": "Meje",
+      "bestFor": "Rustige verblijven en toegang tot de natuur",
+      "parking": "Over het algemeen gratis parkeergelegenheid op straat beschikbaar",
+      "beach": "10 tot 20 minuten lopen naar Kašjuni (kiezelstrand)",
+      "summary": "Een chique woonwijk op de zuidelijke hellingen van de Marjan-heuvel. Het biedt afstand van stadse drukte terwijl het toch op loopafstand van het centrum blijft."
+    },
+    {
+      "name": "Žnjan",
+      "bestFor": "Gezinnen en reizigers met een auto",
+      "parking": "Overvloedige privé- en openbare parkeerplaatsen",
+      "beach": "Directe toegang tot een lange kiezelkustlijn",
+      "summary": "Een nieuwere kustwijk ten oosten van het centrum met moderne appartementencomplexen. Het gebied beschikt over het langste aaneengesloten kiezelstrand van de stad en cafés aan het strand."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "850 km, 8,5 tot 9,5 uur via A8, A10, A2 en A1. Vereist AT en SLO vignetten; tol voor AT tunnels en HR snelwegen.",
+      "other": "Directe vlucht (Lufthansa/Croatia Airlines) of directe FlixBus"
+    },
+    {
+      "from": "Wenen",
+      "car": "760 km, 7,5 tot 8 uur via A2, A9 en A1. Vereist AT en SLO vignetten; tol voor HR snelwegen.",
+      "other": "Directe vlucht (Austrian/Ryanair) of directe FlixBus"
+    },
+    {
+      "from": "Boedapest",
+      "car": "750 km, 7 tot 8 uur via M7, A4 en A1. Vereist HU vignet; tol voor HR snelwegen.",
+      "other": "Seizoensgebonden nachttrein of directe FlixBus"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "470 km, 5 uur via A2 en A1. Vereist SLO vignet; tol voor HR snelwegen.",
+      "other": "Directe FlixBus"
+    },
+    {
+      "from": "Praag",
+      "car": "1.050 km, 11 tot 12 uur via D1, A9 en A1. Vereist CZ, AT en SLO vignetten; tol voor AT tunnels en HR snelwegen.",
+      "other": "Directe vlucht (Smartwings/Croatia Airlines) of FlixBus"
+    },
+    {
+      "from": "Krakau",
+      "car": "1.050 km, 11 tot 12 uur via A4, SK, M7 en A1. Vereist SK en HU vignetten; tol voor PL en HR snelwegen.",
+      "other": "Directe vlucht (Ryanair/LOT) of FlixBus"
+    }
+  ],
+  "whenToGo": "Van juni tot augustus bereikt de zeetemperatuur 25°C tot 27°C, varen alle eilandferries volgens piekschema's, en zijn de prijzen voor accommodatie het hoogst. Mei en september bieden mildere dagtemperaturen rond 20°C tot 24°C, lagere prijzen en minder drukte, hoewel de zee merkbaar koeler is. Tussen november en april kunt u dagtemperaturen van 10°C tot 15°C verwachten; veel kustrestaurants en seizoensgebonden bedrijven sluiten, en veerdiensten zijn aanzienlijk verminderd, maar de prijzen voor accommodatie dalen met wel 50 procent.",
+  "faq": [
+    {
+      "question": "Is Split de moeite waard om te bezoeken?",
+      "answer": "Ja, als u een grote kuststad wilt met intacte Romeinse architectuur en belangrijke veerverbindingen. Het is niet geschikt voor reizigers die op zoek zijn naar een rustige, geïsoleerde strandplaats."
+    },
+    {
+      "question": "Hoeveel dagen heb ik nodig in Split?",
+      "answer": "Twee tot drie dagen zijn voldoende om de Oude Stad, de Marjan-heuvel en lokale stranden te zien. Verleng de reis naar vijf of zeven dagen als u de stad als uitvalsbasis gebruikt voor dagtochten naar Hvar, Brač of Nationaal Park Krka."
+    },
+    {
+      "question": "Wat is het beste strand in Split?",
+      "answer": "Kašjuni wordt algemeen beschouwd als het meest schilderachtige kiezelstrand, gelegen aan de voet van de Marjan-heuvel. Bačvice is het populairste zandstrand vanwege de centrale ligging, terwijl Žnjan het langste aaneengesloten kiezelstrand biedt."
+    },
+    {
+      "question": "Heb ik een auto nodig in Split?",
+      "answer": "U heeft geen auto nodig als u in het centrum verblijft en van plan bent eilanden te bezoeken via veerboot of catamaran. Een auto is alleen nodig als u accommodatie boekt in de buitenwijken of onafhankelijke reizen langs de vastelandskust plant."
+    },
+    {
+      "question": "Waar moet ik parkeren in Split?",
+      "answer": "Gebruik de grote betaald-parkeren parkeerplaatsen aan de rand van de Oude Stad, zoals Stari Plac of de parkeerplaatsen aan de Vukovarska-straat. Parkeren op straat in Zone 1 en Zone 2 is zeer concurrerend en vaak beperkt tot bewoners."
+    },
+    {
+      "question": "Is Split geschikt voor gezinnen?",
+      "answer": "Ja, vooral in de oostelijke buitenwijken zoals Žnjan of Stobreč waar stranden breed zijn en parkeren gemakkelijker is. Gezinnen met kinderwagens moeten de smalle, geplaveide straten van de directe Oude Stad vermijden."
+    }
+  ],
+  "headings": {
+    "quickFacts": "In één oogopslag",
+    "whereToStay": "Waar te verblijven in Split",
+    "gettingThere": "Naar Split reizen",
+    "whenToGo": "Wanneer te gaan",
+    "guides": "Split gidsen",
+    "faq": "Veelgestelde vragen over Split",
+    "groups": {
+      "gettingAround": "Parkeren & je verplaatsen",
+      "planning": "Planning & waar te verblijven",
+      "timing": "Wanneer te gaan",
+      "travelers": "Gezinnen, koppels & reisstijlen",
+      "activities": "Stranden & dingen te doen",
+      "food": "Eten & drinken",
+      "comparisons": "Vergelijkingen",
+      "practical": "Praktische info"
+    },
+    "car": "Met de auto",
+    "other": "Overige opties",
+    "bestFor": "Het beste voor",
+    "parking": "Parkeren",
+    "beach": "Strand"
+  },
+  "destination": "split",
+  "language": "nl",
+  "updatedAt": "2026-10-16T09:27:19.053Z"
+}

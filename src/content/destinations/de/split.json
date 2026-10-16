@@ -1,0 +1,146 @@
+{
+  "title": "Split Reiseführer: Strände, Parken & Unterkünfte",
+  "metaDescription": "Planen Sie Ihre Reise nach Split, Kroatien. Lesen Sie praktische Ratschläge zu den besten Gegenden für Unterkünfte, Fahrtrouten, Parkmöglichkeiten, Stränden und Fährverbindungen für Tagesausflüge.",
+  "intro": "Split ist die größte Stadt an der dalmatinischen Küste und dient sowohl als wichtiger Verkehrsknotenpunkt als auch als historisches Reiseziel. Sie eignet sich für Reisende, die eine Mischung aus römischer Architektur, städtischer Infrastruktur und direktem Fährzugang zu nahegelegenen Inseln suchen. Der Mittelpunkt der Stadt ist der Diokletianpalast, ein gut erhaltener römischer Komplex, der in das moderne Handelszentrum integriert ist.\n\nDie Hauptsaison dauert von Ende Mai bis Anfang Oktober. Juli und August bringen die höchsten Temperaturen, die größten Menschenmassen und die höchsten Unterkunftspreise. Wer Sightseeing dem Schwimmen vorzieht, sollte im April, Mai oder Oktober reisen, wenn die Tagestemperaturen milder, die Straßen weniger überfüllt und die Unterkunftspreise spürbar niedriger sind.",
+  "quickFacts": [
+    {
+      "label": "Beste Monate",
+      "value": "Mai, Juni, September, Oktober"
+    },
+    {
+      "label": "Wassertemperatur im August",
+      "value": "25°C bis 27°C"
+    },
+    {
+      "label": "Nächster Flughafen",
+      "value": "Flughafen Split (SPU), 24 km vom Zentrum"
+    },
+    {
+      "label": "Hauptstrandtyp",
+      "value": "Überwiegend Kies, mit einem zentralen Sandstrand"
+    },
+    {
+      "label": "Preisniveau",
+      "value": "Über dem kroatischen Durchschnitt"
+    },
+    {
+      "label": "Begehbarkeit der Altstadt",
+      "value": "Komplett autofrei und Fußgängerzone"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Altstadt (Grad)",
+      "bestFor": "Sightseeing und kurze Aufenthalte ohne Auto",
+      "parking": "Keine Parkplätze innerhalb; teure Parkplätze am Rande",
+      "beach": "15 Gehminuten nach Bačvice (Sandstrand)",
+      "summary": "Der historische Kern, der um den Diokletianpalast herum gebaut wurde. Er ist dicht mit Restaurants, historischen Stätten und Fußgängerzonen gefüllt."
+    },
+    {
+      "name": "Bačvice & Firule",
+      "bestFor": "Nachtleben und zentraler Strandzugang",
+      "parking": "Begrenzte Straßenparkplätze in Zone 2",
+      "beach": "Direkter Zugang zu sandigen und flachen Buchten",
+      "summary": "Wohnviertel unmittelbar östlich des Fährhafens. Sie bieten schnellen Zugang zu den bekanntesten Sandstränden und großen Nachtclubs der Stadt."
+    },
+    {
+      "name": "Meje",
+      "bestFor": "Ruhige Aufenthalte und Naturzugang",
+      "parking": "Im Allgemeinen kostenlose Straßenparkplätze verfügbar",
+      "beach": "10 bis 20 Gehminuten nach Kašjuni (Kiesstrand)",
+      "summary": "Ein gehobenes Wohnviertel an den Südhängen des Marjan-Hügels. Es bietet Abstand vom Stadttrubel, bleibt aber fußläufig zum Zentrum."
+    },
+    {
+      "name": "Žnjan",
+      "bestFor": "Familien und Reisende mit Auto",
+      "parking": "Reichlich private und öffentliche Parkplätze",
+      "beach": "Direkter Zugang zu einer langen Kiesküste",
+      "summary": "Ein neuerer Küstenvorort östlich des Zentrums mit modernen Apartmenthäusern. Die Gegend bietet den längsten zusammenhängenden Abschnitt von Kiesstränden und Strandcafés der Stadt."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "850 km, 8,5 bis 9,5 Stunden über A8, A10, A2 und A1. Benötigt AT- und SLO-Vignetten; Maut für AT-Tunnel und HR-Autobahnen.",
+      "other": "Direktflug (Lufthansa/Croatia Airlines) oder direkter FlixBus"
+    },
+    {
+      "from": "Wien",
+      "car": "760 km, 7,5 bis 8 Stunden über A2, A9 und A1. Benötigt AT- und SLO-Vignetten; Maut für HR-Autobahnen.",
+      "other": "Direktflug (Austrian/Ryanair) oder direkter FlixBus"
+    },
+    {
+      "from": "Budapest",
+      "car": "750 km, 7 bis 8 Stunden über M7, A4 und A1. Benötigt HU-Vignette; Maut für HR-Autobahnen.",
+      "other": "Saisonaler Nachtzug oder direkter FlixBus"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "470 km, 5 Stunden über A2 und A1. Benötigt SLO-Vignette; Maut für HR-Autobahnen.",
+      "other": "Direkter FlixBus"
+    },
+    {
+      "from": "Prag",
+      "car": "1.050 km, 11 bis 12 Stunden über D1, A9 und A1. Benötigt CZ-, AT- und SLO-Vignetten; Maut für AT-Tunnel und HR-Autobahnen.",
+      "other": "Direktflug (Smartwings/Croatia Airlines) oder FlixBus"
+    },
+    {
+      "from": "Krakau",
+      "car": "1.050 km, 11 bis 12 Stunden über A4, SK, M7 und A1. Benötigt SK- und HU-Vignetten; Maut für PL- und HR-Autobahnen.",
+      "other": "Direktflug (Ryanair/LOT) oder FlixBus"
+    }
+  ],
+  "whenToGo": "Von Juni bis August erreicht die Meerestemperatur 25°C bis 27°C, alle Inselfähren verkehren nach Hochsaison-Fahrplänen, und die Unterkunftspreise sind am höchsten. Mai und September bieten mildere Tagestemperaturen um 20°C bis 24°C, niedrigere Preise und weniger Menschenmassen, obwohl das Meer spürbar kühler ist. Zwischen November und April liegen die Tageshöchsttemperaturen bei 10°C bis 15°C; viele Küstenrestaurants und saisonale Geschäfte schließen, und die Fährverbindungen sind stark reduziert, aber die Unterkunftspreise sinken um bis zu 50 Prozent.",
+  "faq": [
+    {
+      "question": "Ist Split einen Besuch wert?",
+      "answer": "Ja, wenn Sie eine große Küstenstadt mit intakter römischer Architektur und wichtigen Fährverbindungen suchen. Es ist nicht geeignet für Reisende, die einen ruhigen, abgelegenen Strandort suchen."
+    },
+    {
+      "question": "Wie viele Tage brauche ich in Split?",
+      "answer": "Zwei bis drei Tage reichen aus, um die Altstadt, den Marjan-Hügel und die lokalen Strände zu sehen. Verlängern Sie die Reise auf fünf oder sieben Tage, wenn Sie die Stadt als Ausgangspunkt für Tagesausflüge nach Hvar, Brač oder den Nationalpark Krka nutzen."
+    },
+    {
+      "question": "Was ist der beste Strand in Split?",
+      "answer": "Kašjuni gilt weithin als der schönste Kiesstrand und liegt am Fuße des Marjan-Hügels. Bačvice ist aufgrund seiner zentralen Lage der beliebteste Sandstrand, während Žnjan den längsten Abschnitt an Kiesküste bietet."
+    },
+    {
+      "question": "Brauche ich ein Auto in Split?",
+      "answer": "Sie benötigen kein Auto, wenn Sie im Zentrum wohnen und Inseln mit der Fähre oder dem Katamaran besuchen möchten. Ein Auto ist nur notwendig, wenn Sie Unterkünfte in den äußeren Vororten buchen oder unabhängige Reisen entlang der Festlandküste planen."
+    },
+    {
+      "question": "Wo sollte ich in Split parken?",
+      "answer": "Nutzen Sie die großen kostenpflichtigen Parkplätze am Rande der Altstadt, wie Stari Plac oder die Parkplätze in der Vukovarska-Straße. Straßenparkplätze in Zone 1 und Zone 2 sind sehr begehrt und oft Anwohnern vorbehalten."
+    },
+    {
+      "question": "Ist Split gut für Familien geeignet?",
+      "answer": "Ja, besonders in den östlichen Vororten wie Žnjan oder Stobreč, wo die Strände breit und das Parken einfacher sind. Familien mit Kinderwagen sollten die engen, gestuften Gassen der unmittelbaren Altstadt meiden."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Auf einen Blick",
+    "whereToStay": "Wo übernachten in Split",
+    "gettingThere": "Anreise nach Split",
+    "whenToGo": "Beste Reisezeit",
+    "guides": "Split Reiseführer",
+    "faq": "Split FAQ",
+    "groups": {
+      "gettingAround": "Parken & Fortbewegung",
+      "planning": "Planung & Unterkünfte",
+      "timing": "Reisezeit",
+      "travelers": "Familien, Paare & Reisestile",
+      "activities": "Strände & Aktivitäten",
+      "food": "Essen & Trinken",
+      "comparisons": "Vergleiche",
+      "practical": "Praktische Infos"
+    },
+    "car": "Mit dem Auto",
+    "other": "Weitere Optionen",
+    "bestFor": "Am besten für",
+    "parking": "Parken",
+    "beach": "Strand"
+  },
+  "destination": "split",
+  "language": "de",
+  "updatedAt": "2026-10-16T09:24:22.225Z"
+}

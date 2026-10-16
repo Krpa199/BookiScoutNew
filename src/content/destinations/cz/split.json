@@ -1,0 +1,146 @@
+{
+  "title": "Split Průvodce: Pláže, Parkování a Kde se ubytovat",
+  "metaDescription": "Naplánujte si cestu do Splitu, Chorvatsko. Přečtěte si praktické rady ohledně nejlepších oblastí k ubytování, tras pro jízdu autem, parkování, pláží a trajektových spojení pro jednodenní výlety.",
+  "intro": "Split je největší město na dalmatském pobřeží, fungující jako hlavní dopravní uzel i historická destinace. Hodí se pro cestovatele hledající kombinaci římské architektury, městské infrastruktury a přímého trajektového spojení na blízké ostrovy. Ohniskem města je Diokleciánův palác, rozsáhle zachovalý římský komplex integrovaný do moderního komerčního centra.\n\nHlavní turistická sezóna trvá od konce května do začátku října. Červenec a srpen přinášejí nejvyšší teploty, největší davy a nejvyšší ceny ubytování. Ti, kteří upřednostňují prohlídky památek před koupáním, by měli navštívit město v dubnu, květnu nebo říjnu, kdy jsou denní teploty mírnější, ulice méně přeplněné a ceny ubytování znatelně nižší.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "Květen, červen, září, říjen"
+    },
+    {
+      "label": "Teplota moře v srpnu",
+      "value": "25°C až 27°C"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Letiště Split (SPU), 24 km od centra"
+    },
+    {
+      "label": "Hlavní typ pláže",
+      "value": "Převážně oblázkové, s jednou centrální písečnou pláží"
+    },
+    {
+      "label": "Cenová úroveň",
+      "value": "Nad chorvatským průměrem"
+    },
+    {
+      "label": "Procházitelnost Starého Města",
+      "value": "Plně pěší zóna a bez aut"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Staré Město (Grad)",
+      "bestFor": "Prohlídky památek a krátké pobyty bez auta",
+      "parking": "Uvnitř bez parkování; drahá parkoviště na okraji",
+      "beach": "15 minut chůze na Bačvice (písek)",
+      "summary": "Historické jádro postavené kolem Diokleciánova paláce. Je hustě zaplněné restauracemi, historickými památkami a pěšími uličkami."
+    },
+    {
+      "name": "Bačvice & Firule",
+      "bestFor": "Noční život a centrální přístup na pláž",
+      "parking": "Omezené parkování na ulici v Zóně 2",
+      "beach": "Okamžitý přístup k písečným a mělkým zátokám",
+      "summary": "Obytné čtvrti nacházející se hned východně od trajektového přístavu. Nabízejí rychlý přístup k nejznámějším písečným plážím města a hlavním nočním klubům."
+    },
+    {
+      "name": "Meje",
+      "bestFor": "Klidné pobyty a přístup k přírodě",
+      "parking": "Obecně dostupné bezplatné parkování na ulici",
+      "beach": "10 až 20 minut chůze na Kašjuni (oblázky)",
+      "summary": "Exkluzivní obytná čtvrť na jižních svazích kopce Marjan. Nabízí odstup od městských davů, přičemž zůstává v docházkové vzdálenosti od centra."
+    },
+    {
+      "name": "Žnjan",
+      "bestFor": "Rodiny a cestovatelé s auty",
+      "parking": "Dostatek soukromých i veřejných parkovišť",
+      "beach": "Okamžitý přístup k dlouhému oblázkovému pobřeží",
+      "summary": "Novější pobřežní předměstí východně od centra s moderními bytovými domy. Oblast nabízí nejdelší souvislý úsek oblázkových pláží a plážových kaváren ve městě."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Mnichov",
+      "car": "850 km, 8,5 až 9,5 hodiny přes A8, A10, A2 a A1. Vyžaduje rakouskou a slovinskou dálniční známku; poplatky za rakouské tunely a chorvatské dálnice.",
+      "other": "Přímý let (Lufthansa/Croatia Airlines) nebo přímý FlixBus"
+    },
+    {
+      "from": "Vídeň",
+      "car": "760 km, 7,5 až 8 hodin přes A2, A9 a A1. Vyžaduje rakouskou a slovinskou dálniční známku; poplatky za chorvatské dálnice.",
+      "other": "Přímý let (Austrian/Ryanair) nebo přímý FlixBus"
+    },
+    {
+      "from": "Budapešť",
+      "car": "750 km, 7 až 8 hodin přes M7, A4 a A1. Vyžaduje maďarskou dálniční známku; poplatky za chorvatské dálnice.",
+      "other": "Sezónní lůžkový vlak nebo přímý FlixBus"
+    },
+    {
+      "from": "Lublaň",
+      "car": "470 km, 5 hodin přes A2 a A1. Vyžaduje slovinskou dálniční známku; poplatky za chorvatské dálnice.",
+      "other": "Přímý FlixBus"
+    },
+    {
+      "from": "Praha",
+      "car": "1 050 km, 11 až 12 hodin přes D1, A9 a A1. Vyžaduje českou, rakouskou a slovinskou dálniční známku; poplatky za rakouské tunely a chorvatské dálnice.",
+      "other": "Přímý let (Smartwings/Croatia Airlines) nebo FlixBus"
+    },
+    {
+      "from": "Krakov",
+      "car": "1 050 km, 11 až 12 hodin přes A4, SK, M7 a A1. Vyžaduje slovenskou a maďarskou dálniční známku; poplatky za polské a chorvatské dálnice.",
+      "other": "Přímý let (Ryanair/LOT) nebo FlixBus"
+    }
+  ],
+  "whenToGo": "Od června do srpna dosahuje teplota moře 25°C až 27°C, všechny ostrovní trajekty jezdí podle hlavního jízdního řádu a ceny ubytování jsou na svém vrcholu. Květen a září nabízejí mírnější denní teploty kolem 20°C až 24°C, nižší ceny a menší davy, ačkoli moře je znatelně chladnější. Mezi listopadem a dubnem očekávejte denní maxima 10°C až 15°C; mnoho pobřežních restaurací a sezónních podniků je zavřených a trajektové linky jsou výrazně omezeny, ale ceny ubytování klesají až o 50 procent.",
+  "faq": [
+    {
+      "question": "Stojí Split za návštěvu?",
+      "answer": "Ano, pokud hledáte velké pobřežní město s neporušenou římskou architekturou a hlavními trajektovými spojeními. Není vhodný pro cestovatele hledající klidné, izolované plážové městečko."
+    },
+    {
+      "question": "Kolik dní potřebuji ve Splitu?",
+      "answer": "Dva až tři dny stačí k prohlídce Starého Města, kopce Marjan a místních pláží. Prodlužte si cestu na pět nebo sedm dní, pokud město používáte jako základnu pro jednodenní výlety na Hvar, Brač nebo do Národního parku Krka."
+    },
+    {
+      "question": "Jaká je nejlepší pláž ve Splitu?",
+      "answer": "Kašjuni je široce považována za nejmalebnější oblázkovou pláž, která se nachází na úpatí kopce Marjan. Bačvice je nejoblíbenější písečná pláž díky své centrální poloze, zatímco Žnjan nabízí nejdelší úsek oblázkového pobřeží."
+    },
+    {
+      "question": "Potřebuji auto ve Splitu?",
+      "answer": "Nepotřebujete auto, pokud se ubytujete v centru a plánujete navštívit ostrovy trajektem nebo katamaránem. Auto je nutné pouze v případě, že si rezervujete ubytování na vnějších předměstích nebo plánujete samostatné výlety podél pevninského pobřeží."
+    },
+    {
+      "question": "Kde bych měl(a) parkovat ve Splitu?",
+      "answer": "Použijte velká placená parkoviště na okraji Starého Města, jako je Stari Plac nebo parkoviště na ulici Vukovarska. Parkování na ulici v zóně 1 a zóně 2 je vysoce konkurenční a často omezené pouze pro rezidenty."
+    },
+    {
+      "question": "Je Split vhodný pro rodiny?",
+      "answer": "Ano, zejména ve východních předměstích jako Žnjan nebo Stobreč, kde jsou pláže široké a parkování je snazší. Rodiny s kočárky by se měly vyhnout úzkým, schodovitým ulicím bezprostředního Starého Města."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Stručné informace",
+    "whereToStay": "Kde se ubytovat ve Splitu",
+    "gettingThere": "Cesta do Splitu",
+    "whenToGo": "Kdy jet",
+    "guides": "Průvodci Split",
+    "faq": "Často kladené otázky o Splitu",
+    "groups": {
+      "gettingAround": "Parkování a doprava po městě",
+      "planning": "Plánování a kde se ubytovat",
+      "timing": "Kdy jet",
+      "travelers": "Rodiny, páry a styly cestování",
+      "activities": "Pláže a co dělat",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": "Praktické informace"
+    },
+    "car": "Autem",
+    "other": "Další možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "split",
+  "language": "cz",
+  "updatedAt": "2026-10-16T09:25:20.812Z"
+}

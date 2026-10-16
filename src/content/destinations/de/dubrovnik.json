@@ -1,0 +1,153 @@
+{
+  "title": "Dubrovnik Reiseführer: Stadtteile, Parken & Beste Reisezeit",
+  "metaDescription": "Planen Sie Ihre Reise nach Dubrovnik mit konkreten Details zu den besten Stadtteilen zum Übernachten, Fahrtrouten aus Mitteleuropa, Parkinformationen und lokalen Stränden.",
+  "intro": "Dubrovnik zieht vor allem Geschichtsliebhaber und Reisende an, die eine dramatische Küstenlandschaft suchen. Die Stadt ist berühmt für ihre stark befestigte Altstadt, die direkt an der Adria liegt und sie zu einem wichtigen Halt für Mittelmeer-Kreuzfahrten und Roadtripper gleichermaßen macht. Besucher kommen, um die mittelalterlichen Mauern zu begehen, Bootsausflüge zu den nahe gelegenen Elaphiten zu unternehmen und die umliegenden felsigen Buchten zu erkunden.\n\nDa sie Kroatiens berühmtestes Reiseziel ist, erfordert sie eine sorgfältige Planung, um hohe Kosten und dichte Sommermassen zu umgehen. Am besten besucht man die Stadt in der Nebensaison im Mai, Juni, September oder Oktober, wenn das Wetter noch warm genug zum Schwimmen ist, die engen Steingassen aber leichter zu durchqueren sind.",
+  "quickFacts": [
+    {
+      "label": "Beste Monate",
+      "value": "Mai, Juni, September, Oktober"
+    },
+    {
+      "label": "Wassertemperatur im August",
+      "value": "25°C bis 27°C (77°F bis 80°F)"
+    },
+    {
+      "label": "Nächstgelegener Flughafen",
+      "value": "Flughafen Dubrovnik (DBV), 20 km (12 Meilen)"
+    },
+    {
+      "label": "Hauptstrandtyp",
+      "value": "Kies- und Felsplateaus"
+    },
+    {
+      "label": "Preisniveau",
+      "value": "Deutlich höher als der kroatische Durchschnitt"
+    },
+    {
+      "label": "Begehbarkeit der Altstadt",
+      "value": "Vollständig Fußgängerzone, zahlreiche steile Treppen"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Altstadt (Grad)",
+      "bestFor": "Erstbesucher und Sightseeing",
+      "parking": "Keine Autos erlaubt; Parken außerhalb ist sehr teuer",
+      "beach": "10 Gehminuten zum Banje Strand (Kies)",
+      "summary": "Ein Aufenthalt innerhalb der Mauern bringt Sie nur wenige Schritte von den wichtigsten Sehenswürdigkeiten und Restaurants entfernt. Sie müssen jedoch Gepäck über Kopfsteinpflaster tragen und viele Treppen bewältigen."
+    },
+    {
+      "name": "Lapad",
+      "bestFor": "Familien und Resort-Aufenthalte",
+      "parking": "Einfacher als im Zentrum, viele Hotels bieten Parkplätze",
+      "beach": "Uvala Lapad (Kies/Sand) und felsige Buchten",
+      "summary": "Eine große Halbinsel nordwestlich des Zentrums mit entspanntem Urlaubsstadt-Gefühl. Sie ist über eine 15-minütige Busfahrt mit der Altstadt verbunden."
+    },
+    {
+      "name": "Ploče",
+      "bestFor": "Luxusreisende, die Meer- und Altstadtblick wünschen",
+      "parking": "Sehr begrenzte Straßenparkplätze; privater Stellplatz unerlässlich",
+      "beach": "Nur wenige Schritte vom Banje Strand und Sveti Jakov (Kies) entfernt",
+      "summary": "Dieses gehobene Viertel am Hang überblickt die Ostseite der Stadtmauern. Die Aussicht ist ausgezeichnet, aber das Erreichen des Gebiets erfordert das Gehen steiler Treppen hinauf."
+    },
+    {
+      "name": "Gruž",
+      "bestFor": "Budgetreisende und Fährnutzer",
+      "parking": "Öffentliche Parkplätze verfügbar und günstiger als zentrale Optionen",
+      "beach": "15 bis 20 Gehminuten zum Bellevue Strand (Kies)",
+      "summary": "Der Haupthafen und das Handelszentrum der Stadt bieten eine lokalere Atmosphäre und niedrigere Preise. Es ist die beste Basis, wenn Sie frühe Fähren zu den Inseln nehmen möchten."
+    },
+    {
+      "name": "Babin Kuk",
+      "bestFor": "Reisende, die ruhige Resortanlagen suchen",
+      "parking": "Reichlich vorhanden in großen Hotelkomplexen",
+      "beach": "Copacabana und Cava Strände (Kies)",
+      "summary": "An der Nordspitze der Halbinsel Lapad gelegen, wird dieses Gebiet von großen Resortanlagen und Grünflächen dominiert. Es bietet eine ruhige Flucht aus dem Stadtzentrum."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "940 km, 10-11 Stunden über A8, österreichische A10, slowenische A2 und kroatische A1. Erfordert AT/SI Vignetten und HR Mautgebühren.",
+      "other": "Direktflüge von MUC nach DBV verfügbar"
+    },
+    {
+      "from": "Wien",
+      "car": "800 km, 8.5-10 Stunden über A2 nach Graz, slowenische A1/A4 und kroatische A1. Erfordert AT/SI Vignetten und HR Mautgebühren.",
+      "other": "Direktflüge von VIE nach DBV verfügbar"
+    },
+    {
+      "from": "Budapest",
+      "car": "740 km, 8-9 Stunden über M7 zur Grenze, dann kroatische A4 und A1 nach Süden. Erfordert HU Vignette und HR Mautgebühren.",
+      "other": "Direktflüge (Ryanair) oder FlixBus"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "620 km, 6.5-7.5 Stunden über A2 zur Grenze, dann kroatische A1 nach Süden. Erfordert SI Vignette und HR Mautgebühren.",
+      "other": "FlixBus oder Fahrt mit dem Auto (keine Direktflüge)"
+    },
+    {
+      "from": "Prag",
+      "car": "1100 km, 11-13 Stunden über D1 nach Brünn, Österreich, Slowenien und kroatische A1. Erfordert CZ/AT/SI Vignetten und HR Mautgebühren.",
+      "other": "Direktflüge von PRG nach DBV verfügbar"
+    },
+    {
+      "from": "Krakau",
+      "car": "1100 km, 11.5-13 Stunden über die Slowakei, Ungarn (M3/M7) und kroatische A4/A1. Erfordert SK/HU Vignetten und HR Mautgebühren.",
+      "other": "Direktflüge (Ryanair) oder Fernbus"
+    }
+  ],
+  "whenToGo": "Juli und August sind die überfülltesten und teuersten Monate, die intensive Hitze und Spitzenseetemperaturen um 26°C (79°F) mit sich bringen. Mai, Juni, September und Oktober bieten eine angenehmere Balance, mit warmem Wetter, zum Schwimmen geeigneten Wassertemperaturen (besonders im frühen Herbst) und voll funktionsfähigen Fähren und Restaurants. Von November bis April ist Dubrovnik ruhig und viel billiger, aber das Meer ist zu kalt zum Schwimmen, viele Küstenbetriebe schließen für den Winter und die Fährpläne sind stark reduziert.",
+  "faq": [
+    {
+      "question": "Lohnt sich ein Besuch?",
+      "answer": "Ja, seine intakten mittelalterlichen Mauern und die historische Architektur machen es einzigartig in Europa. Es erfordert jedoch ein höheres Budget und Toleranz gegenüber Menschenmassen im Sommer."
+    },
+    {
+      "question": "Wie viele Tage brauche ich?",
+      "answer": "Zwei bis drei Tage reichen aus, um die Mauern zu begehen, das historische Zentrum zu erkunden und eine nahe gelegene Insel zu besuchen. Ein längerer Aufenthalt ermöglicht Tagesausflüge nach Montenegro oder Mostar."
+    },
+    {
+      "question": "Was ist der beste Strand?",
+      "answer": "Sveti Jakov ist die beste Option, um die dichtesten Menschenmassen zu vermeiden und gleichzeitig einen Blick auf die Altstadt zu behalten. Er erfordert einen langen Abstieg über Treppen südöstlich des Zentrums."
+    },
+    {
+      "question": "Brauche ich ein Auto?",
+      "answer": "Nein, ein Auto ist in Dubrovnik aufgrund strenger Parkbeschränkungen und Fußgängerzonen eine Belastung. Wenn Sie mit dem Auto nach Dubrovnik fahren, werden Sie Ihr Fahrzeug wahrscheinlich für die Dauer Ihres Aufenthalts geparkt lassen."
+    },
+    {
+      "question": "Wo soll ich parken?",
+      "answer": "Parken Sie an Ihrer Unterkunft, wenn diese einen speziellen Parkplatz bietet. Andernfalls nutzen Sie den Parkplatz des Hafens Gruž oder die öffentliche Garage Ilijina Glavica, wobei letztere im Sommer bis zu 70 € pro Tag kosten kann."
+    },
+    {
+      "question": "Ist es gut für Familien?",
+      "answer": "Ja, ältere Kinder werden es genießen, die Festungen zu erkunden und Bootsausflüge zu machen. Die endlosen Treppen der Altstadt machen sie jedoch für Reisende mit Kinderwagen sehr unpraktisch."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Auf einen Blick",
+    "whereToStay": "Wo man in Dubrovnik übernachten sollte",
+    "gettingThere": "Anreise nach Dubrovnik",
+    "whenToGo": "Beste Reisezeit",
+    "guides": "Dubrovnik Reiseführer",
+    "faq": "Dubrovnik FAQ",
+    "groups": {
+      "gettingAround": "Parken & Fortbewegung",
+      "planning": "Planung & Übernachtung",
+      "timing": "Beste Reisezeit",
+      "travelers": "Familien, Paare & Reisestile",
+      "activities": "Strände & Aktivitäten",
+      "food": "Essen & Trinken",
+      "comparisons": "Vergleiche",
+      "practical": "Praktische Infos"
+    },
+    "car": "Mit dem Auto",
+    "other": "Weitere Optionen",
+    "bestFor": "Am besten geeignet für",
+    "parking": "Parken",
+    "beach": "Strand"
+  },
+  "destination": "dubrovnik",
+  "language": "de",
+  "updatedAt": "2026-10-16T10:07:48.468Z"
+}

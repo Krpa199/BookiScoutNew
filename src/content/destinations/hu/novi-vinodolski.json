@@ -1,0 +1,146 @@
+{
+  "title": "Novi Vinodolski Útikalauz: Strandok, Parkolás és Szálláslehetőségek",
+  "metaDescription": "Tervezze meg utazását Novi Vinodolskiba, Horvátországba. Fedezze fel a legjobb strandokat, városrészeket, közép-európai autós útvonalakat, parkolási információkat és utazási tippeket.",
+  "intro": "Novi Vinodolski egy tengerparti város a Kvarner-öbölben, amely ötvözi a középkori óvárost egy nyüzsgő riviérával. Vonzó családok, párok és autóval utazók számára, akik klasszikus horvát nyaralásra vágynak, valamivel alacsonyabb áron, mint a szomszédos Crikvenica vagy Opatija. A város történelmi jelentőségéről ismert, mivel itt született a 13. századi Vinodol Statútum, és kavicsos strandok, valamint betonozott fürdőplatformok keverékével rendelkezik.\n\nA legnépszerűbb időszak a júniustól szeptemberig tartó időszak, amikor az Adria elég meleg az úszáshoz, és a szezonális éttermek és strandbárok teljes kapacitással működnek. Július és augusztus hozza a legmagasabb hőmérsékletet és a legtöbb turistát. A tavasz és az ősz alkalmas túrázásra és kerékpározásra a közeli Vinodol-völgyben, bár a tenger általában túl hideg a legtöbb úszó számára.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Júniustól szeptemberig"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "24°C - 25°C"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Rijeka (RJK), 30 km"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Kavicsos és betonozott platformok"
+    },
+    {
+      "label": "Árszínvonal",
+      "value": "Kissé az átlagos horvát tengerparti árszínvonal alatt"
+    },
+    {
+      "label": "Óváros",
+      "value": "Jól bejárható, nagyrészt autómentes, meredek utcákkal"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Városközpont és Óváros",
+      "bestFor": "Történelem, étkezés és esti séták",
+      "parking": "Fizetős nyilvános parkolók a szélén; autómentes központ",
+      "beach": "10-15 perc séta lefelé a tengerhez",
+      "summary": "A történelmi központ egy dombon fekszik, szűk kőutcákkal, a Frankopan-várral és a fő templommal. Azonnali hozzáférést biztosít a helyi éttermekhez és üzletekhez, de sétát igényel a strandokhoz."
+    },
+    {
+      "name": "Lišanj és Tengerparti sétány",
+      "bestFor": "Családoknak és strandolóknak",
+      "parking": "Szállodai garázsok és fizetős utcai parkolás",
+      "beach": "Azonnali hozzáférés a Lišanj strandhoz (kavicsos/betonos)",
+      "summary": "Az óvárostól délre található terület a fő szállodakomplexumok és a tengerparti sétány köré összpontosul. Közvetlen hozzáférést biztosít vízi sportokhoz, napozóágyakhoz és játszóterekhez."
+    },
+    {
+      "name": "Povile",
+      "bestFor": "Pároknak és csendes pihenésre vágyóknak",
+      "parking": "Általában ingyenes magánparkoló a szálláshelyeken",
+      "beach": "Azonnali hozzáférés a sziklás és kavicsos öblökhöz",
+      "summary": "Povile egy kis tengerparti falu, körülbelül 2 kilométerre délre Novi Vinodolskitól. Sokkal csendesebb hangulatot, egyszerű hozzáférést a tengerhez és kevesebb tömeget kínál a nyári főszezonban."
+    },
+    {
+      "name": "Bribir és Vinodol-völgy",
+      "bestFor": "Túrázóknak, kerékpározóknak és vidéki kikapcsolódásra vágyóknak",
+      "parking": "Bőséges ingyenes parkolás",
+      "beach": "10-15 perc autózás a tengerpartra",
+      "summary": "A tengerparttól beljebb fekvő Vinodol-völgy hegyvidéki hátteret nyújt vidéki házakkal és hűvösebb esti hőmérsékletekkel. Ideális az aktív utazók számára, akik nem bánják, ha autóval kell a strandra menniük."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "560 km, 6,5 óra az A8, A10 és A2 útvonalon. Osztrák és szlovén matricák, valamint Karawanken alagút díj szükséges.",
+      "other": "Szezonális járatok Rijekába vagy távolsági busz"
+    },
+    {
+      "from": "Bécs",
+      "car": "520 km, 5,5 óra az A2-es úton Graz, Maribor és Ljubljana felé. Osztrák és szlovén matricák szükségesek.",
+      "other": "Busz Rijekába, majd helyi buszcsatlakozás"
+    },
+    {
+      "from": "Budapest",
+      "car": "520 km, 5 óra az M7-esen Zágrábba, majd A1/A6 Rijekába. Magyar e-matrica és horvát útdíjak szükségesek.",
+      "other": "Busz vagy vonat Zágrábba, majd csatlakozás Novi Vinodolskiba"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "150 km, 2,5 óra az A1-es úton Postojnába, majd Rupa határátkelő. Szlovén matrica és kisebb horvát útdíj szükséges.",
+      "other": "Busz Rijekába, majd közvetlen helyi busz"
+    },
+    {
+      "from": "Prága",
+      "car": "850 km, 9 óra Bécs/Graz vagy Linz/Salzburg útvonalon. Cseh, osztrák és szlovén matricák szükségesek.",
+      "other": "Éjszakai vonat vagy busz Rijekába"
+    },
+    {
+      "from": "Krakkó",
+      "car": "930 km, 10 óra Szlovákián, Magyarországon (M1/M7) és Zágrábon keresztül. Szlovák és magyar matricák, valamint horvát útdíjak szükségesek.",
+      "other": "Repülőút Krakkóból Zadarba vagy Bécsbe, majd busz"
+    }
+  ],
+  "whenToGo": "A nyári szezon júniustól szeptemberig a legjobb időszak egy tengerparti nyaralásra, júliusban és augusztusban a legnagyobb a tömeg, a legmagasabbak az árak, és a tenger hőmérséklete eléri a 24-25°C-ot. Június és szeptember csendesebb légkört, valamivel alacsonyabb szállásárakat és kellemes tengerhőmérsékletet kínál, 22-23°C körül. Minden tengerparti létesítmény, étterem és túra teljes kapacitással működik ezekben a hónapokban. Októbertől májusig a város nagyon csendes, sok turisztikai vállalkozás bezár, és a tenger hőmérséklete 11-15°C-ra csökken, így ez az időszak csak túrázásra vagy átutazásra alkalmas.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni Novi Vinodolskit?",
+      "answer": "Igen, érdemes meglátogatni egy klasszikus Kvarner-öböl élményért. Egy történelmi óvárost jól felszerelt kavicsos és betonozott strandokkal kombinál, valamivel alacsonyabb áron, mint a közeli Opatija."
+    },
+    {
+      "question": "Hány napot érdemes Novi Vinodolskiban maradni?",
+      "answer": "Három-hét nap ideális. Egy háromnapos tartózkodás lehetővé teszi a város felfedezését és a strandon való pihenést, míg egy hét időt biztosít Krk szigetére vagy a Plitvicei-tavakhoz vezető egynapos kirándulásokra."
+    },
+    {
+      "question": "Melyik a legjobb strand Novi Vinodolskiban?",
+      "answer": "A Lišanj strand a legnépszerűbb opció. Kavicsok, homok és betonozott platformok keverékét kínálja, fenyőárnyékkal, játszóterekkel és vízi sportokkal együtt."
+    },
+    {
+      "question": "Szükséges autó Novi Vinodolskiban?",
+      "answer": "Az autó nem feltétlenül szükséges, ha a központ vagy a Lišanj strand közelében száll meg, mivel a fő területek gyalogosan bejárhatók. Azonban erősen ajánlott egy jármű a közeli falvak vagy a Vinodol hátországának felfedezéséhez."
+    },
+    {
+      "question": "Hol tudok parkolni Novi Vinodolskiban?",
+      "answer": "A városban körülbelül 15 nyilvános parkolóövezet található, beleértve a kikötőt és az óváros közelében lévő helyeket, amelyek mindegyike díjat számol fel júniustól szeptemberig. Mindig ellenőrizze, hogy szállása biztosít-e kijelölt parkolóhelyet, különösen mivel az óváros autómentes."
+    },
+    {
+      "question": "Jó Novi Vinodolski családok számára?",
+      "answer": "Igen, a város jól alkalmas családok számára. A fő strandok sekély bejárattal és aktivitási központokkal rendelkeznek, a tengerparti sétányok pedig biztonságosak és babakocsival is hozzáférhetők."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Áttekintés",
+    "whereToStay": "Hol szálljon meg Novi Vinodolskiban",
+    "gettingThere": "Hogyan juthat el Novi Vinodolskiba",
+    "whenToGo": "Mikor utazzon",
+    "guides": "Novi Vinodolski útikalauzok",
+    "faq": "Gyakran Ismételt Kérdések Novi Vinodolskiról",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor utazzon",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Étel és ital",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Ideális",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "novi-vinodolski",
+  "language": "hu",
+  "updatedAt": "2026-10-16T12:46:01.274Z"
+}

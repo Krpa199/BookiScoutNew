@@ -1,0 +1,153 @@
+{
+  "title": "Dubrovník: Průvodce cestováním – oblasti, parkování a kdy vyrazit",
+  "metaDescription": "Naplánujte si cestu do Dubrovníku s konkrétními detaily o nejlepších oblastech k ubytování, trasách jízdy ze střední Evropy, informacích o parkování a místních plážích.",
+  "intro": "Dubrovník láká především milovníky historie a cestovatele hledající dramatickou pobřežní scenérii. Město je proslulé svým silně opevněným Starým Městem, které se rozkládá přímo u Jaderského moře, což z něj činí hlavní zastávku pro středomořské plavby i cestovatele na road-tripech. Návštěvníci sem jezdí, aby se prošli po středověkých hradbách, podnikli výlety lodí na nedaleké Elafitské ostrovy a prozkoumali okolní skalnaté zátoky.\n\nProtože je to nejznámější destinace Chorvatska, vyžaduje pečlivé plánování, aby se člověk vypořádal s vysokými náklady a hustými letními davy. Nejlepší je navštívit jej v mimosezóně, v květnu, červnu, září nebo říjnu, kdy počasí zůstává dostatečně teplé na koupání, ale úzké kamenné uličky jsou snáze průchozí.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "Květen, červen, září, říjen"
+    },
+    {
+      "label": "Teplota moře v srpnu",
+      "value": "25°C až 27°C (77°F až 80°F)"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Letiště Dubrovník (DBV), 20 km (12 mil)"
+    },
+    {
+      "label": "Hlavní typ pláže",
+      "value": "Oblázkové a skalnaté terasy"
+    },
+    {
+      "label": "Cenová úroveň",
+      "value": "Výrazně vyšší než chorvatský průměr"
+    },
+    {
+      "label": "Průchodnost Starým Městem",
+      "value": "Plně pěší zóna, mnoho strmých schodů"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Staré Město (Grad)",
+      "bestFor": "První návštěvníci a prohlídka památek",
+      "parking": "Auta nejsou povolena; parkování venku je velmi drahé",
+      "beach": "10 minut chůze na pláž Banje (oblázková)",
+      "summary": "Ubytování uvnitř hradeb vás umístí jen pár kroků od hlavních památek a restaurací. Musíte si však nosit zavazadla přes dláždění a zdolávat mnoho schodů."
+    },
+    {
+      "name": "Lapad",
+      "bestFor": "Rodiny a pobyty v resortech",
+      "parking": "Snadnější než v centru, mnoho hotelů nabízí vlastní parkoviště",
+      "beach": "Uvala Lapad (oblázková/písečná) a skalnaté zátoky",
+      "summary": "Velký poloostrov severozápadně od centra s uvolněnou, prázdninovou atmosférou. S centrem je spojen 15minutovou jízdou autobusem."
+    },
+    {
+      "name": "Ploče",
+      "bestFor": "Luxusní cestovatelé toužící po výhledu na moře a Staré Město",
+      "parking": "Velmi omezené parkování na ulici; soukromé místo je nezbytné",
+      "beach": "Pár kroků od pláže Banje a Sveti Jakov (oblázkové)",
+      "summary": "Tato luxusní čtvrť na kopci s výhledem na východní stranu městských hradeb. Výhledy jsou vynikající, ale dosažení oblasti zahrnuje chůzi do strmých schodišť."
+    },
+    {
+      "name": "Gruž",
+      "bestFor": "Cestovatelé s omezeným rozpočtem a ti, kteří využívají trajekty",
+      "parking": "Dostupná veřejná parkoviště, levnější než možnosti v centru",
+      "beach": "15 až 20 minut chůze na pláž Bellevue (oblázková)",
+      "summary": "Hlavní přístav a obchodní centrum města nabízí místnější atmosféru a nižší ceny. Je to nejlepší základna, pokud plánujete brzké trajekty na ostrovy."
+    },
+    {
+      "name": "Babin Kuk",
+      "bestFor": "Cestovatelé hledající klidné komplexní resorty",
+      "parking": "Dostatek u velkých hotelových komplexů",
+      "beach": "Pláže Copacabana a Cava (oblázkové)",
+      "summary": "Tato oblast se nachází na severním cípu poloostrova Lapad a dominuje jí velké resorty a zelené plochy. Poskytuje klidný únik z centra města."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Mnichov",
+      "car": "940 km, 10-11 hodin přes A8, rakouskou A10, slovinskou A2 a chorvatskou A1. Vyžaduje rakouskou/slovinskou dálniční známku a chorvatské mýtné.",
+      "other": "Dostupné přímé lety z MUC do DBV"
+    },
+    {
+      "from": "Vídeň",
+      "car": "800 km, 8.5-10 hodin přes A2 do Štýrského Hradce, slovinskou A1/A4 a chorvatskou A1. Vyžaduje rakouskou/slovinskou dálniční známku a chorvatské mýtné.",
+      "other": "Dostupné přímé lety z VIE do DBV"
+    },
+    {
+      "from": "Budapešť",
+      "car": "740 km, 8-9 hodin přes M7 k hranici, poté chorvatské A4 a A1 na jih. Vyžaduje maďarskou dálniční známku a chorvatské mýtné.",
+      "other": "Přímé lety (Ryanair) nebo FlixBus"
+    },
+    {
+      "from": "Lublaň",
+      "car": "620 km, 6.5-7.5 hodin přes A2 k hranici, poté chorvatskou A1 na jih. Vyžaduje slovinskou dálniční známku a chorvatské mýtné.",
+      "other": "FlixBus nebo jízda autem (žádné přímé lety)"
+    },
+    {
+      "from": "Praha",
+      "car": "1100 km, 11-13 hodin přes D1 do Brna, Rakousko, Slovinsko a chorvatskou A1. Vyžaduje českou/rakouskou/slovinskou dálniční známku a chorvatské mýtné.",
+      "other": "Dostupné přímé lety z PRG do DBV"
+    },
+    {
+      "from": "Krakov",
+      "car": "1100 km, 11.5-13 hodin přes Slovensko, Maďarsko (M3/M7) a chorvatské A4/A1. Vyžaduje slovenskou/maďarskou dálniční známku a chorvatské mýtné.",
+      "other": "Přímé lety (Ryanair) nebo dálkový autobus"
+    }
+  ],
+  "whenToGo": "Červenec a srpen jsou nejrušnější a nejdražší měsíce, přinášející intenzivní vedro a maximální teploty moře kolem 26°C (79°F). Květen, červen, září a říjen nabízejí pohodlnější rovnováhu s teplým počasím, teplotami moře vhodnými ke koupání (zejména brzy na podzim) a plně funkčními trajekty a restauracemi. Od listopadu do dubna je Dubrovník klidný a mnohem levnější, ale moře je příliš studené na koupání, mnoho pobřežních podniků se na zimu zavírá a jízdní řády trajektů jsou výrazně omezeny.",
+  "faq": [
+    {
+      "question": "Stojí za to navštívit?",
+      "answer": "Ano, jeho neporušené středověké hradby a historická architektura ho činí v Evropě jedinečným. Vyžaduje však vyšší rozpočet a toleranci k davům během léta."
+    },
+    {
+      "question": "Kolik dní potřebuji?",
+      "answer": "Dva až tři dny stačí na procházku po hradbách, prozkoumání historického centra a návštěvu blízkého ostrova. Delší pobyt umožňuje jednodenní výlety do Černé Hory nebo Mostaru."
+    },
+    {
+      "question": "Která je nejlepší pláž?",
+      "answer": "Sveti Jakov je nejlepší volbou, jak se vyhnout nejhustším davům a zároveň si zachovat výhled na Staré Město. Vyžaduje chůzi po dlouhém schodišti jihovýchodně od centra."
+    },
+    {
+      "question": "Potřebuji auto?",
+      "answer": "Ne, auto je v Dubrovníku spíše přítěží kvůli silným omezením parkování a pěším zónám. Pokud jedete do Dubrovníku autem, pravděpodobně ho necháte zaparkované po celou dobu pobytu."
+    },
+    {
+      "question": "Kde mám zaparkovat?",
+      "answer": "Parkujte u svého ubytování, pokud poskytuje vyhrazené místo. Jinak využijte parkoviště v přístavu Gruž nebo veřejnou garáž Ilijina Glavica, i když ta může v létě stát až 70 € denně."
+    },
+    {
+      "question": "Je to vhodné pro rodiny?",
+      "answer": "Ano, starší děti si užijí prozkoumávání pevností a lodní výlety. Nicméně nekonečné schody Starého Města činí tuto oblast velmi nepraktickou pro cestovatele s kočárky."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Přehled",
+    "whereToStay": "Kde se ubytovat v Dubrovníku",
+    "gettingThere": "Jak se dostat do Dubrovníku",
+    "whenToGo": "Kdy vyrazit",
+    "guides": "Průvodci Dubrovníkem",
+    "faq": "Časté dotazy k Dubrovníku",
+    "groups": {
+      "gettingAround": "Parkování a pohyb po městě",
+      "planning": "Plánování a kde se ubytovat",
+      "timing": "Kdy vyrazit",
+      "travelers": "Rodiny, páry a styly cestování",
+      "activities": "Pláže a co dělat",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": "Praktické informace"
+    },
+    "car": "Autem",
+    "other": "Další možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "dubrovnik",
+  "language": "cz",
+  "updatedAt": "2026-10-16T10:08:53.417Z"
+}

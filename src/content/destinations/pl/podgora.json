@@ -1,0 +1,139 @@
+{
+  "title": "Podgora Przewodnik: Plaże, Parking, Noclegi",
+  "metaDescription": "Zaplanuj swoją podróż do Podgory w Chorwacji. Odkryj najlepsze żwirkowe plaże, gdzie zaparkować, przewodniki po dzielnicach Čaklje i Centar oraz trasy dojazdowe.",
+  "intro": "Podgora to nadmorska miejscowość wypoczynkowa na Riwierze Makarskiej, położona bezpośrednio między Morzem Adriatyckim a zboczami góry Biokovo. Historycznie wioska rybacka, obecnie służy prawie wyłącznie turystyce letniej. Linia brzegowa oferuje długą promenadę zacienioną przez sosny, wzdłuż której znajdują się kawiarnie, restauracje i długie odcinki białych żwirkowych plaż.\n\nJest doskonale przystosowana dla rodzin i par szukających prostych wakacji na plaży bez intensywnego życia nocnego pobliskiej Makarskiej. Turyści preferujący spokojne okolice często wybierają górną wioskę Gornja Podgora. Główny sezon trwa od czerwca do września, przy czym lipiec i sierpień przynoszą najcieplejsze temperatury morza wraz z największymi tłumami i cenami.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "Czerwiec do września"
+    },
+    {
+      "label": "Temperatura morza w sierpniu",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Split (SPU), 107 km"
+    },
+    {
+      "label": "Główny typ plaży",
+      "value": "Białe żwirki z cieniem sosen"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "Średni do nieco powyżej średniej"
+    },
+    {
+      "label": "Możliwość poruszania się pieszo",
+      "value": "Płaska nadmorska promenada; górna wioska wymaga samochodu"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centar / Luka",
+      "bestFor": "Dla początkujących chcących być blisko restauracji i wycieczek łodzią",
+      "parking": "Niezwykle ograniczony; płatne parkingi publiczne zapełniają się wcześnie",
+      "beach": "Bezpośrednio przylegająca do głównej żwirkowej plaży w Podgorze",
+      "summary": "Zajęte serce Podgory oferuje długą nadmorską promenadę, główną marinę i większość miejskich opcji gastronomicznych. Jest tu gwarno latem, ale wieczorem może być hałaśliwie z powodu przechodzących tłumów."
+    },
+    {
+      "name": "Čaklje",
+      "bestFor": "Dla rodzin i turystów szukających spokojniejszego doświadczenia plażowego",
+      "parking": "Głównie zapewniany przez prywatne apartamenty; mało miejsc parkingowych publicznych",
+      "beach": "Bezpośrednio przed; spokojniejsza żwirkowa plaża z łagodnym zejściem",
+      "summary": "Położona w południowej części Podgory, ta dzielnica jest w dużej mierze mieszkalna z prywatnymi apartamentami. Oferuje bardziej relaksujące środowisko, będąc jednocześnie połączona z centrum nadmorską ścieżką spacerową."
+    },
+    {
+      "name": "Gornja Podgora",
+      "bestFor": "Dla par, turystów pieszych i osób wynajmujących prywatne wille",
+      "parking": "Zazwyczaj wliczony w cenę i obfity w domach wakacyjnych",
+      "beach": "2 do 3 km w dół stromej, krętej drogi do wybrzeża",
+      "summary": "Oryginalna historyczna osada leży wysoko na zboczach góry Biokovo. Oferuje odrestaurowane kamienne domy, gaje oliwne i wyraźne widoki na morze, co czyni ją idealną dla tych, którzy chcą uniknąć nadmorskich tłumów."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monachium",
+      "car": "~880 km, 9,5 godziny przez A8, A10 (opłata Tauern), tunel Karawanken i chorwacką A1. Wymagane winiety AT i SI.",
+      "other": "Lot do Splitu (SPU), następnie transfer z lotniska lub autobus do Podgory"
+    },
+    {
+      "from": "Wiedeń",
+      "car": "~780 km, 8-9 godzin przez Graz, Maribor (winieta SI) i chorwacką A1.",
+      "other": "Lot do Splitu (SPU) lub bezpośredni FlixBus do Makarskiej/Podgory"
+    },
+    {
+      "from": "Budapeszt",
+      "car": "~830 km, 8-9 godzin przez M7 do Letenye, następnie chorwackie A4 i A1. Winieta HU i opłaty HR.",
+      "other": "Bezpośredni FlixBus do Podgory (ok. 15 godzin) lub lot do Splitu"
+    },
+    {
+      "from": "Lublana",
+      "car": "~500 km, 5,5 godziny przez Novo Mesto i chorwacką A1. Winieta SI i opłaty HR.",
+      "other": "Autobus lub pociąg do Zagrzebia, z przesiadką na autobus do Podgory"
+    },
+    {
+      "from": "Praga",
+      "car": "~1100 km, 11-12 godzin przez Wiedeń, Graz i Zagrzeb. Winiety CZ, AT, SI i opłaty HR.",
+      "other": "Lot do Splitu, lub sezonowy pociąg RegioJet do Splitu"
+    },
+    {
+      "from": "Kraków",
+      "car": "~1150 km, 12-13 godzin przez Słowację, Budapeszt i chorwacką A1. Winiety SK, HU i opłaty HR.",
+      "other": "Lot z Krakowa lub Katowic do Splitu, następnie autobus"
+    }
+  ],
+  "whenToGo": "Czerwiec przynosi ciepłą pogodę (25-28°C) i komfortowe temperatury morza około 22°C, z otwartymi wszystkimi restauracjami i umiarkowanymi tłumami. Lipiec i sierpień to szczyt sezonu, z morzem osiągającym 25-27°C, zatłoczonymi promenadami i najwyższymi cenami na Riwierze Makarskiej. Wrzesień jest bardzo polecany, ponieważ morze pozostaje wystarczająco ciepłe do pływania do późnego miesiąca, a tłumy się zmniejszają, a parkowanie staje się łatwiejsze. Od października do maja trwa poza sezonem; morze jest zbyt zimne do pływania, a większość obiektów turystycznych i restauracji w Podgorze zamyka się całkowicie.",
+  "faq": [
+    {
+      "question": "Czy warto odwiedzić Podgorę?",
+      "answer": "Tak, Podgora to doskonały wybór na klasyczne wakacje na plaży na Riwierze Makarskiej. Oferuje długie żwirkowe plaże i strome górskie krajobrazy bez dużych tłumów, jakie można znaleźć w mieście Makarska."
+    },
+    {
+      "question": "Ile dni powinienem spędzić w Podgorze?",
+      "answer": "Pięć do siedmiu dni to typowy czas na letnią podróż. Daje to wystarczająco dużo czasu na codzienne pływanie, spacery po promenadzie i jednodniową wycieczkę na górę Biokovo lub na pobliskie wyspy."
+    },
+    {
+      "question": "Która jest najlepsza plaża w Podgorze?",
+      "answer": "Plaża Čaklje w południowej części miasta jest powszechnie uważana za najlepszą, ponieważ jest spokojniejsza i ma bardzo czystą wodę. Główna plaża w Podgorze w centrum jest również dobra, ale staje się znacznie bardziej zatłoczona w lipcu i sierpniu."
+    },
+    {
+      "question": "Czy potrzebuję samochodu w Podgorze?",
+      "answer": "Nie, nie potrzebujesz samochodu, jeśli zatrzymasz się w obszarach nadmorskich, ponieważ plaże i restauracje są w zasięgu spaceru. Pojazd jest jednak konieczny, jeśli zarezerwujesz nocleg w Gornja Podgora lub planujesz rozległe wycieczki jednodniowe."
+    },
+    {
+      "question": "Gdzie mogę zaparkować w Podgorze?",
+      "answer": "Publiczne miejsca parkingowe są bardzo ograniczone i ściśle płatne, zwłaszcza wzdłuż nabrzeża i na parkingach miejskich. Odwiedzający powinni rezerwować noclegi, które wyraźnie obejmują prywatne miejsce parkingowe."
+    },
+    {
+      "question": "Czy Podgora to dobre miejsce dla rodzin?",
+      "answer": "Tak, Podgora jest bardzo popularna wśród rodzin podróżujących z dziećmi. Żwirkowe plaże mają łagodne wejście do morza, sosny zapewniają naturalny cień, a nadmorska promenada jest w pełni utwardzona dla wózków dziecięcych."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Gdzie zatrzymać się w Podgorze",
+    "gettingThere": "Dojazd do Podgory",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Podgorze",
+    "faq": "Podgora – Najczęściej zadawane pytania",
+    "groups": {
+      "gettingAround": "Parking i poruszanie się",
+      "planning": "Planowanie i noclegi",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróżowania",
+      "activities": "Plaże i atrakcje",
+      "food": "Jedzenie i picie",
+      "comparisons": "Porównania",
+      "practical": "Praktyczne informacje"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "podgora",
+  "language": "pl",
+  "updatedAt": "2026-10-16T13:37:15.685Z"
+}

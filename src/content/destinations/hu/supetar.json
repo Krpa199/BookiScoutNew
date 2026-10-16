@@ -1,0 +1,146 @@
+{
+  "title": "Supetar útikalauz: Strandok, kompok és hol szálljon meg",
+  "metaDescription": "Tervezze meg útját Supetarba, Bračra. Fedezze fel a legjobb szálláshelyeket, az európai útvonalakat, kompinformációkat, parkolási lehetőségeket és a helyi kavicsos strandokat.",
+  "intro": "Supetar a Brač sziget fő belépési pontja, és praktikus kiindulópont az autóval érkező utazók számára a szárazföldi Európából. Funkcionális keverékét kínálja szupermarketeknek, kompjáratoknak és szolgáltatásoknak, aktív vízparttal és könnyen megközelíthető kavicsos strandokkal kombinálva. A város ideális családok és autós utazók számára, akik szigeti életre vágynak anélkül, hogy a távolabbi úti célok elérésének logisztikai bonyolultságával kellene megküzdeniük.\n\nJúlius és augusztus nyári hónapjai hozzák a legintenzívebb kompforgalmat, meleg tengerhőmérsékletet és teljesen működő éttermeket a kikötő mentén. Május, június és szeptember csendesebb körülményeket és alacsonyabb szállásárakat kínál, bár a tenger hűvösebb az úszáshoz. Októbertől áprilisig sok szezonális vállalkozás bezár, de az alapvető szolgáltatások és a Splitbe tartó kompjáratok egész évben aktívak maradnak.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Júniustól szeptemberig"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "25°C - 26°C"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Brač repülőtér (30 km) vagy Split repülőtér (komp szükséges)"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Kavicsos, helyenként homokos sekély részekkel"
+    },
+    {
+      "label": "Árszint",
+      "value": "Horvátország átlagán, olcsóbb, mint Bol vagy Hvar"
+    },
+    {
+      "label": "Óváros / központ",
+      "value": "Gyalogosbarát, korlátozott autós hozzáférés a kikötő közelében"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Supetar Központ (Kikötő / Óváros)",
+      "bestFor": "Autó nélkül utazóknak, rövid tartózkodásokra és azoknak, akik éttermeket szeretnének a közelben",
+      "parking": "Fizetős nyilvános parkolók a kompállomás közelében; korlátozott utcai parkolás",
+      "beach": "10-15 perc sétára Banjtól vagy Vlačicától",
+      "summary": "A sziget kereskedelmi és közlekedési központja. Kőházakkal, kávézókkal a promenád mentén és közvetlen hozzáféréssel a Splitbe tartó autós komphoz."
+    },
+    {
+      "name": "Tri Mosta és Bili Rat",
+      "bestFor": "Üdülőknek, családoknak és strandközpontú tartózkodásokra",
+      "parking": "Saját szállodai parkoló és nagy fizetős nyilvános parkolók a strandok közelében",
+      "beach": "Közvetlen hozzáférés Tri Mostához (kavicsos) és Bili Rathoz",
+      "summary": "A központtól nyugatra található ez a terület, ahol Supetar legtöbb nagy szállodája és üdülőhelye található. Árnyas fenyveseket, strandbárokat és vízi sportlétesítményeket kínál."
+    },
+    {
+      "name": "Banj és Vlačica környéke",
+      "bestFor": "Kisgyermekes családoknak",
+      "parking": "Az utcai parkolás szűkös lehet; a szállások gyakran biztosítanak helyet",
+      "beach": "Közvetlen hozzáférés Banjhoz (homokos fenék) és Vlačicához (kavicsos)",
+      "summary": "Két legnépszerűbb öböl körül elhelyezkedő lakónegyed. Csendesebb légkört biztosít, mint a kikötő, miközben rövid sétára van a városi létesítményektől."
+    },
+    {
+      "name": "Mirca",
+      "bestFor": "Autóval érkező utazóknak, akik békét és nyugalmat keresnek",
+      "parking": "Többnyire ingyenes parkolás magánterületen",
+      "beach": "Nem zsúfolt helyi kavicsos strandok sétatávolságra",
+      "summary": "Egy kis falu 3 kilométerre Supetartól nyugatra. Hagyományos kőházakkal, olajligetekkel és sokkal lassabb tempóval, mint a főváros."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "850 km Splitig, ~9 óra az A8, A10 (Tauern) és A1 útvonalon. Szükséges osztrák matrica, díj a Tauern/Karawanken alagutakért, horvát útdíjak, plusz a Split-Supetar autós komp.",
+      "other": "Repülés Split repülőtérre (SPU), transzfer Split kikötőbe (25 km), majd kompozás."
+    },
+    {
+      "from": "Bécs",
+      "car": "760 km Splitig, ~8 óra az A2, A4 és A1 útvonalon. Szükséges osztrák és szlovén matrica, horvát útdíjak, plusz a Split-Supetar autós komp.",
+      "other": "Repülés Split repülőtérre (SPU), transzfer Split kikötőbe (25 km), majd kompozás."
+    },
+    {
+      "from": "Budapest",
+      "car": "750 km Splitig, ~7,5 óra az M7 és A1 útvonalon. Szükséges magyar matrica, horvát útdíjak, plusz a Split-Supetar autós komp.",
+      "other": "Repülés Split repülőtérre (SPU), transzfer Split kikötőbe (25 km), majd kompozás."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "470 km Splitig, ~5 óra az A1 (SLO) és A1 (HR) útvonalon. Szükséges szlovén matrica, horvát útdíjak, plusz a Split-Supetar autós komp.",
+      "other": "Busszal vagy vonattal Splitbe, majd az 50 perces személy- vagy autós komppal."
+    },
+    {
+      "from": "Prága",
+      "car": "1090 km Splitig, ~11,5 óra az A9 (AT), A1 (SLO) és A1 (HR) útvonalon. Szükséges cseh, osztrák, szlovén matrica, osztrák alagútdíjak, horvát útdíjak, plusz a Split-Supetar autós komp.",
+      "other": "Repülés Split repülőtérre (SPU), transzfer Split kikötőbe (25 km), majd kompozás."
+    },
+    {
+      "from": "Krakkó",
+      "car": "1050 km Splitig, ~11,5 óra a D1 (SK), M7 (HU) és A1 (HR) útvonalon. Szükséges szlovák és magyar matrica, horvát útdíjak, plusz a Split-Supetar autós komp.",
+      "other": "Repülés Split repülőtérre (SPU), transzfer Split kikötőbe (25 km), majd kompozás."
+    }
+  ],
+  "whenToGo": "Júniustól szeptemberig Supetar teljesen nyitva tart, a tenger hőmérséklete 23°C és 26°C között mozog. Július és augusztus hozza a legnagyobb tömegeket, a csúcsidőszaki kompvárakozásokat és a prémium szállásárakat, de garantálja, hogy minden étterem és strandlétesítmény működik. Május és október enyhe időjárást és alacsonyabb árakat kínál, bár a tenger gyakran túl hideg az úszáshoz, és néhány szezonális vállalkozás bezár. Novembertől áprilisig a város visszatér a csendes helyi ritmushoz; az árak a legalacsonyabbak, de a turisztikai infrastruktúra leáll, és a komp csökkentett téli menetrend szerint közlekedik.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni?",
+      "answer": "Igen, ha kényelmes, jól megközelíthető bázisra van szüksége Bračon. Supetar praktikus kényelmi szolgáltatásokat, könnyű kompkapcsolatot biztosít Splitbe és kellemes családi strandokat kínál, bár hiányzik belőle Bol drámai tája."
+    },
+    {
+      "question": "Hány napra van szükségem?",
+      "answer": "Három-öt nap elegendő Supetar felfedezéséhez és Brač többi részének kiindulópontként való használatához. Egy rövidebb, kétnapos tartózkodás is működik, ha csak átutazik más szigeti városokba."
+    },
+    {
+      "question": "Melyik a legjobb strand?",
+      "answer": "Tri Mostát széles körben a legjobb strandnak tartják tiszta kavicsai, fenyőárnyéka és elérhető szolgáltatásai miatt. A kisgyermekes családok gyakran Banj strandot részesítik előnyben a sekély, homokos feneke miatt."
+    },
+    {
+      "question": "Szükségem van autóra?",
+      "answer": "Nincs szüksége autóra, ha Supetarban tervez maradni, és csak a helyi strandokat látogatja meg. Azonban erősen ajánlott az autó, ha Brač többi részét is fel szeretné fedezni, például Vidova Gorát vagy Zlatni Ratot."
+    },
+    {
+      "question": "Hol tudok parkolni?",
+      "answer": "Nagy nyilvános fizetős parkolók találhatók a kompállomás közelében és a Tri Mosta strand mögötti területen. A belvárosi utcai parkolás fizetős zónákra van osztva, és a helyek gyorsan betelnek júliusban és augusztusban."
+    },
+    {
+      "question": "Jó családoknak?",
+      "answer": "Igen, Supetar az egyik leginkább családbarát úti cél Bračon. Sekély strandjai vannak homokos részekkel, felfújható vízi parkokkal és lapos tengerparti sétányokkal, amelyek babakocsik számára is alkalmasak."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Áttekintés",
+    "whereToStay": "Hol szálljon meg Supetarban",
+    "gettingThere": "Hogyan juthat el Supetarba",
+    "whenToGo": "Mikor utazzon",
+    "guides": "Supetar útikalauzok",
+    "faq": "Supetar GYIK",
+    "groups": {
+      "gettingAround": "Közlekedés és parkolás",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor utazzon",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Ételek és italok",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb erre",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "supetar",
+  "language": "hu",
+  "updatedAt": "2026-10-16T14:39:33.272Z"
+}

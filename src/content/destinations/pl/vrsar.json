@@ -1,0 +1,146 @@
+{
+  "title": "Vrsar Przewodnik Turystyczny: Plaże, Parking i Gdzie się Zatrzymać",
+  "metaDescription": "Zaplanuj swoją podróż do Vrsaru z tym praktycznym przewodnikiem. Porównaj dzielnice, trasy dojazdowe z Europy Środkowej, typy plaż, parking i najlepszy czas na wyjazd.",
+  "intro": "Vrsar to nadmorskie miasteczko w zachodniej Istrii, położone między Porečem a Kanałem Limskim. Przyciąga turystów szukających spokojniejszej bazy niż pobliski Rovinj, oferując historyczne stare miasto na wzgórzu, dużą marinę i archipelag 18 niezamieszkanych wysepek tuż przy wybrzeżu. Miejscowość jest skierowana przede wszystkim do par szukających relaksujących spacerów brzegiem morza oraz rodzin zatrzymujących się w okolicznych kurortach i na kempingach.\n\nTeren jest pagórkowaty, wymagający stromego spaceru z nabrzeża do historycznego centrum. Większość zakwaterowania to prywatne apartamenty, duże kompleksy wypoczynkowe, takie jak Belvedere, oraz rozległe pola kempingowe na północy i południu. Lato to główny sezon, a prawie wszystkie obiekty gastronomiczne i noclegowe działają od końca maja do września, zamykając się całkowicie na zimę.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "Czerwiec do września"
+    },
+    {
+      "label": "Temperatura morza w sierpniu",
+      "value": "25°C do 27°C"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Pula Airport (PUY), 52 km"
+    },
+    {
+      "label": "Główny typ plaż",
+      "value": "Żwirowe zatoczki i utwardzone płaskie powierzchnie"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "Średni dla Istrii, tańszy niż Rovinj"
+    },
+    {
+      "label": "Przystosowanie starego miasta do spacerów",
+      "value": "W większości bez samochodów, bardzo stromo, ale można spacerować"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Stare Miasto (Historyczne Centrum)",
+      "bestFor": "Pary i miłośnicy historii",
+      "parking": "Ograniczony dostęp; korzystaj z płatnych parkingów u podnóża wzgórza",
+      "beach": "10 do 15 minut spacerem w dół do plaży miejskiej (City Beach)",
+      "summary": "Średniowieczne centrum na wzgórzu charakteryzuje się wąskimi, brukowanymi uliczkami, punktami widokowymi i kościołem św. Marcina. Wymaga stromego spaceru, co czyni go mniej odpowiednim dla osób z ograniczoną mobilnością."
+    },
+    {
+      "name": "Marina i Nadbrzeże",
+      "bestFor": "Żeglarze, rodziny i osoby preferujące płaski teren",
+      "parking": "Duże płatne parkingi w pobliżu dworca autobusowego i portu",
+      "beach": "5 do 10 minut spacerem do Montraker lub plaży miejskiej (City Beach)",
+      "summary": "Płaski pas wybrzeża wzdłuż Obala Maršala Tita to centrum handlowe. Oferuje łatwy dostęp do piekarni, restauracji i wycieczek łodzią, bez stromych podjazdów starego miasta."
+    },
+    {
+      "name": "Petalon i Belvedere",
+      "bestFor": "Wczasowicze w kurortach i rodziny",
+      "parking": "Dedykowany prywatny parking dla gości resortu",
+      "beach": "Na miejscu: plaże skaliste i żwirowe",
+      "summary": "Położone na południe od głównego miasta, te specjalnie zbudowane półwyspy resortowe oferują zorganizowane udogodnienia, baseny i boiska sportowe. Spacer do nabrzeża Vrsaru zajmuje około 10 do 15 minut wzdłuż zacienionej ścieżki nadmorskiej."
+    },
+    {
+      "name": "Brođanka i Saline",
+      "bestFor": "Podróżujący z ograniczonym budżetem i osoby samodzielnie przygotowujące posiłki",
+      "parking": "Zazwyczaj wliczone w cenę wynajmu prywatnych apartamentów",
+      "beach": "10 do 20 minut spacerem do Valkanela lub plaży miejskiej (City Beach)",
+      "summary": "Ta dzielnica mieszkalna znajduje się nieco w głębi lądu i na północ od mariny. Składa się prawie wyłącznie z prywatnych apartamentów i pensjonatów, oferując ciche otoczenie, zaledwie krótki spacer od centrum."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monachium",
+      "car": "520 km, 5.5 do 6.5 godziny przez A8, A10 (Tauern), tunel Karawanken i Słowenię. Obowiązuje austriacka winieta, opłaty za Tauern/Karawanken, słoweńska winieta i chorwackie opłaty drogowe.",
+      "other": "Loty Lufthansy do Puli (PUY) lub autobus dalekobieżny do Rovinja."
+    },
+    {
+      "from": "Wiedeń",
+      "car": "510 km, 5.5 do 6 godzin przez A2 (Graz), Maribor i Lublanę. Obowiązuje austriacka winieta, słoweńska winieta i chorwackie opłaty drogowe.",
+      "other": "Bezpośrednie loty do Puli (Austrian Airlines/Ryanair) lub autobus dalekobieżny."
+    },
+    {
+      "from": "Budapeszt",
+      "car": "600 km, 6 do 6.5 godziny przez M7 do granicy, następnie chorwackie A4, A1, A6 i Y Istrii (A8/A9). Obowiązuje węgierska e-winieta i chorwackie opłaty drogowe.",
+      "other": "Autobus dalekobieżny do Rovinja lub Puli, z przesiadką do Vrsaru."
+    },
+    {
+      "from": "Lublana",
+      "car": "130 km, 1.5 do 2 godziny przez A1 do Kopru, przejście graniczne Dragonja i chorwackie A9. Obowiązuje słoweńska winieta i chorwackie opłaty drogowe.",
+      "other": "Bezpośredni sezonowy autobus lub prywatny transfer wahadłowy."
+    },
+    {
+      "from": "Praga",
+      "car": "830 km, 9 do 10 godzin przez Linz, Graz, Maribor i Lublanę. Obowiązują czeska, austriacka i słoweńska winieta, a także chorwackie opłaty drogowe.",
+      "other": "Loty do Puli (Smartwings/Ryanair) lub pociąg do Rijeki, a następnie autobus."
+    },
+    {
+      "from": "Kraków",
+      "car": "1050 km, 10.5 do 11.5 godziny przez A4, Czechy (D1), Wiedeń, Graz i Słowenię. Wymagane opłaty/winiety dla Polski, Czech, Austrii, Słowenii i Chorwacji.",
+      "other": "Loty z Krakowa lub Katowic do Puli, lub autobus dalekobieżny."
+    }
+  ],
+  "whenToGo": "Czerwiec do września to standardowy sezon na wizytę w Vrsarze, przy czym sierpień przynosi największe tłumy i szczytowe ceny zakwaterowania. Temperatura morza osiąga od 25°C do 27°C pod koniec lipca, co czyni sierpień idealnym do pływania. Maj i październik oferują chłodniejszą pogodę (od 18°C do 22°C) odpowiednią do jazdy na rowerze i zwiedzania, choć morze jest często zbyt zimne do pływania, a niektóre sezonowe restauracje lub obiekty resortowe mogą być zamknięte. Od listopada do kwietnia Vrsar w dużej mierze zamiera; większość hoteli, kempingów i restauracji nastawionych na turystów jest zamknięta, a miasto jest wyjątkowo ciche, z działającymi jedynie podstawowymi udogodnieniami dla mieszkańców.",
+  "faq": [
+    {
+      "question": "Czy warto odwiedzić Vrsar?",
+      "answer": "Tak, Vrsar to praktyczny wybór, jeśli wolisz spokojniejsze miasteczko nadmorskie od zatłoczonych centrów Rovinja czy Poreča. Oferuje historyczne stare miasto na wzgórzu, doskonałe trasy rowerowe i łatwy dostęp do Kanału Limskiego. Jednak osoby szukające intensywnego życia nocnego lub rozległych możliwości zakupów powinny poszukać gdzie indziej."
+    },
+    {
+      "question": "Ile dni potrzeba w Vrsarze?",
+      "answer": "Trzy do pięciu dni wystarczy, aby zwiedzić miasteczko, cieszyć się plażami i wybrać się na wycieczkę łodzią do Kanału Limskiego. Jeśli planujesz użyć Vrsaru jako bazy do odwiedzenia Puli, Motovunu i Rovinja, siedmiodniowy pobyt jest powszechny dla większości turystów podróżujących samochodem z Europy Środkowej."
+    },
+    {
+      "question": "Jaka jest najlepsza plaża w Vrsarze?",
+      "answer": "City Beach (Gradska plaža) to najbardziej centralna i dostępna opcja, oferująca żwirowe zatoczki i utwardzone miejsca do opalania. Dla rodzin, Valkanela oferuje długi odcinek płytkiej wody i piaszczystych fragmentów, natomiast Montraker jest znana ze swoich skalistych płyt i widoków na stare miasto."
+    },
+    {
+      "question": "Czy potrzebuję samochodu w Vrsarze?",
+      "answer": "Nie potrzebujesz samochodu, aby poruszać się po samym Vrsarze, ponieważ miasto, marina i główne plaże są łatwo dostępne pieszo. Jednak posiadanie samochodu jest wysoce zalecane, jeśli chcesz zwiedzać pozostałą część Istrii lub podróżować z najbliższego lotniska w Puli."
+    },
+    {
+      "question": "Gdzie najlepiej zaparkować w Vrsarze?",
+      "answer": "Główny miejski parking znajduje się w pobliżu dworca autobusowego (parking Saline) u podnóża starego miasta. Parkowanie w starym mieście jest surowo ograniczone dla nierezydentów, a od odwiedzających oczekuje się parkowania w pobliżu mariny lub korzystania z prywatnego parkingu zapewnionego przez ich zakwaterowanie."
+    },
+    {
+      "question": "Czy Vrsar jest odpowiedni dla rodzin?",
+      "answer": "Tak, Vrsar jest bardzo odpowiedni dla rodzin, zwłaszcza tych zatrzymujących się w dużych kompleksach resortowych lub na pobliskich kempingach. Obszar ten oferuje bezpieczne, dobrze wyposażone plaże, dedykowane ścieżki rowerowe i relaksującą atmosferę bez dużych tłumów większych miast Istrii."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Gdzie zatrzymać się w Vrsarze",
+    "gettingThere": "Dojazd do Vrsaru",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Vrsarze",
+    "faq": "Vrsar – często zadawane pytania",
+    "groups": {
+      "gettingAround": "Parking i poruszanie się",
+      "planning": "Planowanie i gdzie się zatrzymać",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróżowania",
+      "activities": "Plaże i co robić",
+      "food": "Jedzenie i napoje",
+      "comparisons": "Porównania",
+      "practical": "Informacje praktyczne"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "vrsar",
+  "language": "pl",
+  "updatedAt": "2026-10-16T11:51:18.435Z"
+}

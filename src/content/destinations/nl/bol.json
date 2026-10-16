@@ -1,0 +1,146 @@
+{
+  "title": "Bol Reisgids: Stranden, Parkeren & Waar te verblijven",
+  "metaDescription": "Plan je reis naar Bol, Kroatië. Ontdek de beste wijken om te verblijven, rijroutes, parkeertips en alles wat je moet weten over het Zlatni Rat strand.",
+  "intro": "Bol ligt aan de zuidkust van het eiland Brač, vooral bekend als de thuisbasis van het verschuivende kiezelstrand Zlatni Rat. Het is geschikt voor actieve reizigers, strandliefhebbers en gezinnen die een balans zoeken tussen spectaculaire zwemplekken en een goed ontwikkelde, beloopbare stad. De door pijnbomen omzoomde promenade die de haven met het hoofdstrand verbindt, zorgt voor een ontspannen, mediterrane sfeer met tal van restaurants, windsurfcentra en cafés.\n\nHet belangrijkste toeristenseizoen loopt van eind mei tot begin oktober, met een piek in juli en augustus wanneer de stad volledig operationeel maar erg druk is. Bezoekers die met de auto komen, arriveren meestal via de veerboot Split–Supetar, gevolgd door een rit van 40 minuten over het eiland. Wie een rustigere ervaring met warme zwemomstandigheden zoekt, kan het beste in september gaan.",
+  "quickFacts": [
+    {
+      "label": "Beste maanden",
+      "value": "Juni en september"
+    },
+    {
+      "label": "Zeetemp. in augustus",
+      "value": "25–26°C"
+    },
+    {
+      "label": "Dichtstbijzijnde luchthaven",
+      "value": "Brač (14 km) of Split (75 km via veerboot)"
+    },
+    {
+      "label": "Hoofdstrandtype",
+      "value": "Fijn kiezel en grind"
+    },
+    {
+      "label": "Prijsniveau",
+      "value": "Boven Kroatisch gemiddelde"
+    },
+    {
+      "label": "Belloopbaarheid",
+      "value": "Beloopbaar centrum, autovrije promenade"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Bol Centrum & Haven",
+      "bestFor": "Dineren, uitgaan en veerboottoegang",
+      "parking": "Zeer beperkt, voornamelijk betaalde parkeerplaatsen aan de rand",
+      "beach": "10-15 min. lopen naar Bijela Kuća of Martinica",
+      "summary": "Het historische hart van Bol kenmerkt zich door traditionele stenen huizen, de belangrijkste veerbootpier en een dichte concentratie van restaurants. Het is ideaal voor wie op loopafstand van avondvertier wil zijn, hoewel rijden en parkeren hier streng beperkt is."
+    },
+    {
+      "name": "Borik & Zlatni Rat Promenade",
+      "bestFor": "Strandgangers, gezinnen en windsurfers",
+      "parking": "Grote betaalde parkeerplaatsen nabij Zlatni Rat",
+      "beach": "Directe toegang tot Zlatni Rat en Borik (kiezel)",
+      "summary": "Dit stuk verbindt het stadscentrum met het beroemde Gouden Hoorn strand via een schaduwrijk, met pijnbomen omzoomd voetpad. Hotels hier bieden gemakkelijke toegang tot het strand, uitgebreide faciliteiten en een rustigere avondsfeer vergeleken met de bruisende haven."
+    },
+    {
+      "name": "Martinica (Oost-Bol)",
+      "bestFor": "Rustigere verblijven en historisch uitzicht",
+      "parking": "Gemakkelijker om privé parkeergelegenheid te vinden bij accommodaties",
+      "beach": "Directe toegang tot Martinica strand (kiezel)",
+      "summary": "Gelegen nabij het Dominicaner Klooster, is dit oostelijke deel van de stad rustiger en voelt het meer residentieel aan. Het biedt geweldige zwemplekken zonder de zware drukte van Zlatni Rat, terwijl het nog steeds op loopafstand van het centrum ligt."
+    },
+    {
+      "name": "Murvica",
+      "bestFor": "Stellen en afgelegen uitjes",
+      "parking": "Beperkte parkeergelegenheid op straat; vertrouw op plekken van de verhuurder",
+      "beach": "Steile wandeling naar Murvica strand (fijn kiezel)",
+      "summary": "Gelegen ongeveer 5 kilometer ten westen van Bol, is dit kleine eco-dorp omgeven door wijngaarden en ruig landschap. Het is perfect voor reizigers met een auto die een rustig, authentiek Dalmatisch toevluchtsoord willen, weg van de belangrijkste toeristische centra."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "975 km naar Bol (incl. veerboot), ~11u. A8/A10 naar Villach, A2/A1 naar Split, dan Jadrolinija veerboot naar Supetar. Oostenrijkse/Sloveense vignetten, Karawanken & Kroatische tol.",
+      "other": "Directe vluchten naar Split (SPU), dan bus/taxi naar de haven van Split en veerboot naar Brač."
+    },
+    {
+      "from": "Wenen",
+      "car": "800 km naar Bol (incl. veerboot), ~9u. A2/A9 naar Graz, A1/A4 via Maribor, A1 naar Split, dan Jadrolinija veerboot. Oostenrijkse & Sloveense vignetten, Kroatische tol.",
+      "other": "Directe vluchten naar Split, of directe nachttrein (Nightjet) naar Split in de zomer."
+    },
+    {
+      "from": "Boedapest",
+      "car": "785 km naar Bol (incl. veerboot), ~9u. M7 naar de grens, A4 naar Zagreb, A1 naar Split, dan Jadrolinija veerboot. Hongaars vignet, Kroatische tol.",
+      "other": "Directe zomervluchten naar Split, of directe trein (Adria InterCity) naar Split."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "500 km naar Bol (incl. veerboot), ~6.5u. A2 naar Novo Mesto, A1 naar Split, dan Jadrolinija veerboot naar Supetar. Sloveens vignet, Kroatische tol.",
+      "other": "Directe bus naar Split, gevolgd door de passagierscatamaran of autoveerboot naar Brač."
+    },
+    {
+      "from": "Praag",
+      "car": "1100 km naar Bol (incl. veerboot), ~13u. D1 naar Brno, A2/A9 door Oostenrijk, A1/A4 in Slovenië, A1 naar Split, dan veerboot. Tsjechische/Oostenrijkse/Sloveense vignetten, Kroatische tol.",
+      "other": "Directe vluchten naar Split (SPU) of RegioJet nachttrein naar Split in de zomer."
+    },
+    {
+      "from": "Krakau",
+      "car": "1150 km naar Bol (incl. veerboot), ~14u. Via Slowakije, M7 in Hongarije, A4/A1 in Kroatië naar Split, dan veerboot. Slowaakse/Hongaarse vignetten, Kroatische tol.",
+      "other": "Directe vluchten naar Split (SPU), dan luchthavenshuttle naar de haven en veerboot naar Brač."
+    }
+  ],
+  "whenToGo": "Mei brengt mild weer (20-23°C) en rustigere straten, met een zeetemperatuur van nog steeds een frisse 18°C en seizoensgebonden bedrijven die net openen. Juni kent warmere zeeën (22°C) en aangename drukte, waardoor het ideaal is voor actieve vakanties. Juli en augustus zijn het hoogseizoen; temperaturen stijgen boven de 30°C, de zee bereikt een warme 25-26°C, prijzen zijn op hun hoogst en het Zlatni Rat gebied bruist van de bezoekers. September biedt een perfecte balans met warme zeetemperaturen (23°C), minder drukte en lagere accommodatieprijzen, terwijl oktober het seizoen afsluit met koeler, onvoorspelbaar weer en veel restaurants aan het water die sluiten voor de winter.",
+  "faq": [
+    {
+      "question": "Is Bol de moeite waard om te bezoeken?",
+      "answer": "Ja, Bol is absoluut de moeite waard om te bezoeken vanwege het iconische Zlatni Rat strand, de betrouwbare windsurfomstandigheden en de schilderachtige promenade. Het biedt een geweldige balans tussen actieve watersporten en een charmante, goed ontwikkelde Dalmatische stadssfeer."
+    },
+    {
+      "question": "Hoeveel dagen moet ik in Bol doorbrengen?",
+      "answer": "Drie tot vijf dagen is ideaal voor een verblijf in Bol. Dit geeft voldoende tijd om te ontspannen op de belangrijkste stranden, Vidova Gora te beklimmen voor panoramische uitzichten en een boottocht te maken naar nabijgelegen eilanden."
+    },
+    {
+      "question": "Wat is het beste strand in Bol?",
+      "answer": "Zlatni Rat (Gouden Hoorn) is het beroemdste en meest opvallende strand, bekend om zijn verschuivende kiezelpunt en kristalheldere water. Voor een rustigere sfeer met minder drukte is het Martinica strand nabij het Dominicaner Klooster een uitstekend alternatief."
+    },
+    {
+      "question": "Heb ik een auto nodig in Bol?",
+      "answer": "Nee, je hebt geen auto nodig als je in de stad Bol verblijft, aangezien de haven, restaurants en belangrijkste stranden met elkaar verbonden zijn door een vlakke voetgangerspromenade. Een auto is alleen nodig als je van plan bent afgelegen dorpen en verborgen baaien op het eiland Brač te verkennen."
+    },
+    {
+      "question": "Waar is de beste plek om te parkeren in Bol?",
+      "answer": "Parkeren in het stadscentrum is extreem beperkt en grotendeels voorbehouden aan bewoners. Bezoekers dienen gebruik te maken van de grote, betaalde gemeentelijke parkeerplaatsen nabij Zlatni Rat of ervoor te zorgen dat hun accommodatie een gegarandeerde privéplek biedt."
+    },
+    {
+      "question": "Is Bol goed voor gezinnen?",
+      "answer": "Ja, Bol is zeer gezinsvriendelijk dankzij de verkeersvrije promenade, ondiepe waterranden bij Zlatni Rat en talrijke faciliteiten. Kinderen van alle leeftijden zullen genieten van de opblaasbare waterparken, toeristentrein en schaduwrijke pijnbomen."
+    }
+  ],
+  "headings": {
+    "quickFacts": "In één oogopslag",
+    "whereToStay": "Waar te verblijven in Bol",
+    "gettingThere": "Hoe kom je in Bol",
+    "whenToGo": "Wanneer te gaan",
+    "guides": "Bol gidsen",
+    "faq": "Veelgestelde vragen over Bol",
+    "groups": {
+      "gettingAround": "Parkeren & je verplaatsen",
+      "planning": "Planning & waar te verblijven",
+      "timing": "Wanneer te gaan",
+      "travelers": "Gezinnen, stellen & reisstijlen",
+      "activities": "Stranden & activiteiten",
+      "food": "Eten & drinken",
+      "comparisons": "Vergelijkingen",
+      "practical": "Praktische info"
+    },
+    "car": "Met de auto",
+    "other": "Andere opties",
+    "bestFor": "Het beste voor",
+    "parking": "Parkeren",
+    "beach": "Strand"
+  },
+  "destination": "bol",
+  "language": "nl",
+  "updatedAt": "2026-10-16T14:33:23.995Z"
+}

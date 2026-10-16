@@ -1,0 +1,153 @@
+{
+  "title": "Dubrovnik : Guide de voyage – Quartiers, stationnement et meilleure période",
+  "metaDescription": "Planifiez votre voyage à Dubrovnik avec des détails concrets sur les meilleurs quartiers où séjourner, les itinéraires depuis l'Europe centrale, les informations sur le stationnement et les plages locales.",
+  "intro": "Dubrovnik attire principalement les passionnés d'histoire et les voyageurs en quête de paysages côtiers spectaculaires. La ville est réputée pour sa vieille ville fortement fortifiée, située directement au bord de la mer Adriatique, ce qui en fait une étape majeure pour les croisières méditerranéennes et les voyageurs en voiture. Les visiteurs viennent pour parcourir les remparts médiévaux, faire des excursions en bateau vers les îles Élaphites voisines et explorer les criques rocheuses environnantes.\n\nÉtant la destination la plus célèbre de Croatie, elle exige une planification minutieuse pour gérer les coûts élevés et la foule estivale dense. Il est préférable de visiter pendant les intersaisons de mai, juin, septembre ou octobre, lorsque le temps reste suffisamment chaud pour la baignade mais que les rues étroites en pierre sont plus faciles à parcourir.",
+  "quickFacts": [
+    {
+      "label": "Meilleurs mois",
+      "value": "Mai, juin, septembre, octobre"
+    },
+    {
+      "label": "Température de la mer en août",
+      "value": "25°C à 27°C (77°F à 80°F)"
+    },
+    {
+      "label": "Aéroport le plus proche",
+      "value": "Aéroport de Dubrovnik (DBV), 20 km (12 miles)"
+    },
+    {
+      "label": "Type de plage principal",
+      "value": "Plages de galets et terrasses rocheuses"
+    },
+    {
+      "label": "Niveau de prix",
+      "value": "Sensiblement plus élevé que la moyenne croate"
+    },
+    {
+      "label": "Accessibilité piétonne de la Vieille Ville",
+      "value": "Entièrement piétonne, nombreuses marches raides"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Vieille Ville (Grad)",
+      "bestFor": "Premiers visiteurs et visites touristiques",
+      "parking": "Voitures interdites ; le stationnement extérieur est très cher",
+      "beach": "À 10 minutes à pied de la plage de Banje (galets)",
+      "summary": "Séjourner à l'intérieur des remparts vous place à quelques pas des principaux sites et restaurants. Cependant, vous devrez transporter vos bagages sur des pavés et emprunter de nombreux escaliers."
+    },
+    {
+      "name": "Lapad",
+      "bestFor": "Familles et séjours en complexe hôtelier",
+      "parking": "Plus facile que le centre, de nombreux hôtels proposent des parkings",
+      "beach": "Uvala Lapad (galets/sable) et criques rocheuses",
+      "summary": "Une grande péninsule au nord-ouest du centre avec une atmosphère détendue de ville de vacances. Elle est reliée à la Vieille Ville par un trajet en bus de 15 minutes."
+    },
+    {
+      "name": "Ploče",
+      "bestFor": "Voyageurs de luxe souhaitant des vues sur la mer et la Vieille Ville",
+      "parking": "Stationnement dans la rue très limité ; une place privée est essentielle",
+      "beach": "À quelques pas de la plage de Banje et de Sveti Jakov (galets)",
+      "summary": "Ce quartier résidentiel haut de gamme à flanc de colline surplombe le côté est des remparts de la ville. Les vues sont excellentes, mais l'accès au quartier implique de monter de nombreux escaliers raides."
+    },
+    {
+      "name": "Gruž",
+      "bestFor": "Voyageurs à petit budget et ceux utilisant les ferries",
+      "parking": "Parkings publics disponibles et moins chers que les options centrales",
+      "beach": "À 15 à 20 minutes à pied de la plage de Bellevue (galets)",
+      "summary": "Le principal port et centre commercial de la ville offre une atmosphère plus locale et des prix plus bas. C'est la meilleure base si vous prévoyez de prendre des ferries tôt le matin pour les îles."
+    },
+    {
+      "name": "Babin Kuk",
+      "bestFor": "Voyageurs recherchant des complexes hôteliers calmes",
+      "parking": "Abondant dans les grands complexes hôteliers",
+      "beach": "Plages de Copacabana et Cava (galets)",
+      "summary": "Située à l'extrémité nord de la péninsule de Lapad, cette zone est dominée par de grands complexes hôteliers et des espaces verts. Elle offre une échappée tranquille loin du centre-ville."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Munich",
+      "car": "940 km, 10-11 heures via A8, A10 autrichienne, A2 slovène et A1 croate. Nécessite des vignettes AT/SI et des péages HR.",
+      "other": "Vols directs disponibles de MUC à DBV"
+    },
+    {
+      "from": "Vienne",
+      "car": "800 km, 8,5-10 heures via A2 jusqu'à Graz, A1/A4 slovène et A1 croate. Nécessite des vignettes AT/SI et des péages HR.",
+      "other": "Vols directs disponibles de VIE à DBV"
+    },
+    {
+      "from": "Budapest",
+      "car": "740 km, 8-9 heures via M7 jusqu'à la frontière, puis A4 et A1 croates vers le sud. Nécessite une vignette HU et des péages HR.",
+      "other": "Vols directs (Ryanair) ou FlixBus"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "620 km, 6,5-7,5 heures via A2 jusqu'à la frontière, puis A1 croate vers le sud. Nécessite une vignette SI et des péages HR.",
+      "other": "FlixBus ou en voiture (pas de vols directs)"
+    },
+    {
+      "from": "Prague",
+      "car": "1100 km, 11-13 heures via D1 jusqu'à Brno, Autriche, Slovénie et A1 croate. Nécessite des vignettes CZ/AT/SI et des péages HR.",
+      "other": "Vols directs disponibles de PRG à DBV"
+    },
+    {
+      "from": "Cracovie",
+      "car": "1100 km, 11,5-13 heures via la Slovaquie, la Hongrie (M3/M7) et les A4/A1 croates. Nécessite des vignettes SK/HU et des péages HR.",
+      "other": "Vols directs (Ryanair) ou bus longue distance"
+    }
+  ],
+  "whenToGo": "Juillet et août sont les mois les plus encombrés et les plus chers, apportant une chaleur intense et des températures de la mer maximales d'environ 26°C (79°F). Mai, juin, septembre et octobre offrent un équilibre plus confortable, avec un temps chaud, des températures de la mer propices à la baignade (surtout au début de l'automne), et des ferries et restaurants entièrement opérationnels. De novembre à avril, Dubrovnik est calme et beaucoup moins chère, mais la mer est trop froide pour la baignade, de nombreuses entreprises côtières ferment pour l'hiver, et les horaires de ferry sont fortement réduits.",
+  "faq": [
+    {
+      "question": "Est-ce que ça vaut le coup de visiter ?",
+      "answer": "Oui, ses remparts médiévaux intacts et son architecture historique la rendent unique en Europe. Cependant, cela nécessite un budget plus élevé et une tolérance à la foule pendant l'été."
+    },
+    {
+      "question": "Combien de jours sont nécessaires ?",
+      "answer": "Deux à trois jours suffisent pour parcourir les remparts, explorer le centre historique et visiter une île voisine. Un séjour plus long permet des excursions d'une journée au Monténégro ou à Mostar."
+    },
+    {
+      "question": "Quelle est la meilleure plage ?",
+      "answer": "Sveti Jakov est la meilleure option pour éviter les foules les plus denses tout en conservant une vue sur la Vieille Ville. Elle nécessite de descendre un long escalier au sud-est du centre."
+    },
+    {
+      "question": "Ai-je besoin d'une voiture ?",
+      "answer": "Non, une voiture est un inconvénient à Dubrovnik en raison des sévères limitations de stationnement et des zones piétonnes. Si vous venez en voiture à Dubrovnik, vous laisserez probablement votre véhicule garé pendant toute la durée de votre séjour."
+    },
+    {
+      "question": "Où dois-je me garer ?",
+      "answer": "Garez-vous à votre hébergement s'il propose un espace dédié. Sinon, utilisez le parking du port de Gruž ou le parking public Ilijina Glavica, bien que ce dernier puisse coûter jusqu'à 70 € par jour en été."
+    },
+    {
+      "question": "Est-ce bien pour les familles ?",
+      "answer": "Oui, les enfants plus âgés apprécieront d'explorer les forteresses et de faire des excursions en bateau. Cependant, les innombrables escaliers de la Vieille Ville la rendent très peu pratique pour les voyageurs avec des poussettes."
+    }
+  ],
+  "headings": {
+    "quickFacts": "En bref",
+    "whereToStay": "Où séjourner à Dubrovnik",
+    "gettingThere": "Comment se rendre à Dubrovnik",
+    "whenToGo": "Quand partir",
+    "guides": "Guides de Dubrovnik",
+    "faq": "FAQ Dubrovnik",
+    "groups": {
+      "gettingAround": "Stationnement et déplacements",
+      "planning": "Planification et où séjourner",
+      "timing": "Quand partir",
+      "travelers": "Familles, couples et styles de voyage",
+      "activities": "Plages et choses à faire",
+      "food": "Restauration",
+      "comparisons": "Comparaisons",
+      "practical": "Infos pratiques"
+    },
+    "car": "En voiture",
+    "other": "Autres options",
+    "bestFor": "Idéal pour",
+    "parking": "Stationnement",
+    "beach": "Plage"
+  },
+  "destination": "dubrovnik",
+  "language": "fr",
+  "updatedAt": "2026-10-16T10:12:04.798Z"
+}

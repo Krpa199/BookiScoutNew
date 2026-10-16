@@ -1,0 +1,146 @@
+{
+  "title": "Krk: Vodič za putovanje – Plaže, parking i smještaj",
+  "metaDescription": "Planirajte putovanje na Krk, Hrvatska. Pronađite najbolje četvrti za boravak, rute vožnje iz Srednje Europe, vrste plaža i savjete za parking u starom gradu.",
+  "intro": "Krk je najveći otok na Jadranu i jedno od najpristupačnijih hrvatskih odredišta za vozače iz Srednje Europe. Odgovara obiteljima, parovima i putnicima koji traže povijesne gradove, borovinom osjenčane šljunčane plaže i čisto more bez potrebe za trajektnim prijevozom. Grad Krk služi kao kulturno i povijesno središte otoka, okružen obalnim šetnicama i velikim kampovima.\n\nLjeto donosi najtoplije temperature mora i najpouzdanije vrijeme, ali srpanj i kolovoz također bilježe najveće gužve i najviše cijene. Lipanj i rujan nude mirnije iskustvo s dovoljno toplom vodom za kupanje. Zime su vrlo tihe, a većina turističke infrastrukture zatvara se između studenog i travnja.",
+  "quickFacts": [
+    {
+      "label": "Najbolji mjeseci",
+      "value": "Lipanj do rujan"
+    },
+    {
+      "label": "Temperatura mora u kolovozu",
+      "value": "24°C do 26°C"
+    },
+    {
+      "label": "Najbliža zračna luka",
+      "value": "Zračna luka Rijeka (RJK), udaljena 27 km"
+    },
+    {
+      "label": "Glavna vrsta plaže",
+      "value": "Šljunčane, stjenovite i popločane terase"
+    },
+    {
+      "label": "Razina cijena",
+      "value": "Malo iznad hrvatskog prosjeka"
+    },
+    {
+      "label": "Stari Grad",
+      "value": "Pješačka zona (bez automobila)"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Stari Grad",
+      "bestFor": "Povijest, gastronomija i kratki boravci",
+      "parking": "Izvan gradskih zidina (javni parkinzi uz naplatu)",
+      "beach": "10-15 minuta hoda do Porporele ili Dražice",
+      "summary": "Povijesno središte unutar zidina sadrži uske kamene ulice, Frankopanski kaštel i brojne restorane. Potpuno je pješačka zona, što ga čini vrlo pogodnim za šetnju, ali zahtijeva nošenje prtljage s parkirališta na periferiji."
+    },
+    {
+      "name": "Dražica i Koralj",
+      "bestFor": "Obitelji, pristup plaži i hotelski resorti",
+      "parking": "Hotelski parking ili veliki javni parkinzi uz naplatu",
+      "beach": "Izravan pristup šljunčanim i popločanim plažama",
+      "summary": "Smješteno kratkom šetnjom istočno od Starog Grada, ovo područje je gusto obraslo borovima. Sadrži glavnu koncentraciju hotela i obiteljskih šljunčanih uvala."
+    },
+    {
+      "name": "Ježevac",
+      "bestFor": "Kamperi, obitelji i mirni dani na plaži",
+      "parking": "Parking unutar kampa ili ulični parking",
+      "beach": "Izravan pristup šljunčanoj plaži Ježevac",
+      "summary": "Smješteno zapadno od centra, ovim područjem dominira veliki premium kamp i njegova novoobnovljena plažna infrastruktura. Do Starog Grada je i dalje lagana šetnja od 10 minuta."
+    },
+    {
+      "name": "Kornić",
+      "bestFor": "Putnici s manjim budžetom i mirniji, predgrađski osjećaj",
+      "parking": "Besplatan privatni parking obično dostupan u apartmanima",
+      "beach": "2 km nizbrdo do plaže Dunat",
+      "summary": "Malo selo smješteno oko 6 km od grada Krka, s pogledom na zaljev Punat. Zahtijeva automobil ili bicikl za dolazak do plaže i glavnog grada, ali nudi povoljnije najmove apartmana."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "~520 km, 6.5 sati. Ruta preko Salzburga (A8), Villacha (A10), Ljubljane, Postojne, Rijeke. Zahtijeva AT vinjetu, cestarinu Tauern, SI vinjetu, HR cestarine (most Krk je besplatan).",
+      "other": "Let do Rijeke (RJK) ili izravan FlixBus do Krka."
+    },
+    {
+      "from": "Beč",
+      "car": "~510 km, 5.5 sati. Ruta preko Graza (A2), Maribora (A1), Zagreba, Rijeke. Zahtijeva AT vinjetu, SI vinjetu, HR cestarine.",
+      "other": "Izravan FlixBus ili let do Zagreba."
+    },
+    {
+      "from": "Budimpešta",
+      "car": "~510 km, 5 sati. Ruta preko Blatnog jezera (M7), Zagreba, Rijeke (A6). Zahtijeva HU e-vinjetu, HR cestarine.",
+      "other": "Izravan FlixBus, ili vlak do Rijeke praćen lokalnim autobusom."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "~150 km, 2 sata. Ruta preko Postojne, Ilirske Bistrice, Rupe, Rijeke. Zahtijeva SI vinjetu, HR cestarine.",
+      "other": "Izravan autobus do Krka ili Rijeke."
+    },
+    {
+      "from": "Prag",
+      "car": "~820 km, 9 sati. Ruta preko Českih Budějovica, Linza, Graza, Maribora, Zagreba. Zahtijeva CZ, AT, SI vinjete, HR cestarine.",
+      "other": "Kombinacija vlaka/autobusa RegioJet do Rijeke."
+    },
+    {
+      "from": "Krakov",
+      "car": "~960 km, 10.5 sati. Ruta preko Katovica, Ostrave, Brna, Beča, Graza, Maribora, Zagreba. Zahtijeva PL cestarine, CZ, AT, SI vinjete, HR cestarine.",
+      "other": "Let do Zagreba ili Zadra, zatim autobus ili unajmljeni automobil."
+    }
+  ],
+  "whenToGo": "Turistička sezona traje od svibnja do listopada. Srpanj i kolovoz su vrhunac sezone s temperaturama mora koje dosežu 25°C, visokim cijenama smještaja i gužvama na plažama. Lipanj i rujan nude idealan balans toplog vremena, temperatura mora oko 22°C do 23°C i manje gužve. Svibanj i listopad su znatno mirniji i jeftiniji, pogodni za biciklizam i planinarenje, iako je more često prehladno za kupanje. Većina restorana i hotela zatvara se od studenog do travnja, što zimske posjete čini vrlo ograničenima u pogledu sadržaja.",
+  "faq": [
+    {
+      "question": "Isplati li se posjetiti Krk?",
+      "answer": "Da, izvrstan je izbor za pristupačno iskustvo hrvatskog otoka. Nudi dobro očuvanu povijesnu jezgru, borovinom osjenčane plaže i izbjegava potrebu za putovanjem trajektom zahvaljujući mostovnoj vezi."
+    },
+    {
+      "question": "Koliko dana trebam na Krku?",
+      "answer": "Tri do pet dana dovoljno je za razgledavanje grada Krka, uživanje na lokalnim plažama i izlet brodom. Ako planirate istražiti cijeli otok, uključujući Bašku i Vrbnik, planirajte cijeli tjedan."
+    },
+    {
+      "question": "Koja je najbolja plaža na Krku?",
+      "answer": "Plaža Dražica je najpopularnija u gradu Krku zbog svoje čiste vode, borove hladovine i sadržaja. Izvan glavnog grada, Vela Plaža u Baškoj se široko smatra najpoznatijom plažom otoka."
+    },
+    {
+      "question": "Trebam li automobil na Krku?",
+      "answer": "Automobil nije nužan ako boravite u gradu Krku, jer su centar, plaže i restorani svi dostupni pješice. Međutim, posjedovanje vozila se toplo preporučuje ako želite istražiti druge gradove i plaže na otoku."
+    },
+    {
+      "question": "Gdje parkirati na Krku?",
+      "answer": "Posjetitelji ne mogu parkirati unutar pješačke zone Starog Grada. Morate koristiti velika javna parkirališta s naplatom smještena izvan gradskih zidina, ili rezervirati smještaj koji nudi namjenski parking izvan ulice."
+    },
+    {
+      "question": "Je li Krk dobar za obitelji?",
+      "answer": "Da, Krk je vrlo pogodan za obitelji. Grad nudi plaže s blagim šljunčanim ulazima, obiljem prirodne borove hladovine, igralištima i velikim kampovima-resortima s namjenskim dječjim sadržajima."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Ukratko",
+    "whereToStay": "Gdje odsjesti na Krku",
+    "gettingThere": "Dolazak na Krk",
+    "whenToGo": "Kada posjetiti",
+    "guides": "Vodiči za Krk",
+    "faq": "Česta pitanja o Krku",
+    "groups": {
+      "gettingAround": "Parking i kretanje",
+      "planning": "Planiranje i smještaj",
+      "timing": "Kada ići",
+      "travelers": "Obitelji, parovi i stilovi putovanja",
+      "activities": "Plaže i aktivnosti",
+      "food": "Hrana i piće",
+      "comparisons": "Usporedbe",
+      "practical": "Praktične informacije"
+    },
+    "car": "Automobilom",
+    "other": "Ostale opcije",
+    "bestFor": "Najbolje za",
+    "parking": "Parking",
+    "beach": "Plaža"
+  },
+  "destination": "krk",
+  "language": "hr",
+  "updatedAt": "2026-10-16T09:44:46.773Z"
+}

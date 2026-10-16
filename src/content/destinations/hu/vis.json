@@ -1,0 +1,146 @@
+{
+  "title": "Vis útikalauz: Városok, strandok és hol szálljon meg",
+  "metaDescription": "Tervezze meg utazását a horvát Vis szigetre. Fedezze fel, hol szálljon meg Vis városban és Komižán, hogyan juthat el oda, a kompjáratok részleteit és a strandinformációkat.",
+  "intro": "Vis a Horvátország szárazföldjétől legtávolabb eső lakott sziget, mely Splitből 2,5 órás kompjárattal érhető el. Olyan független utazók számára ideális, akik csendesebb, kevésbé kereskedelmileg fejlett alternatívát keresnek a szomszédos Hvar vagy Brač helyett. A sziget katonai történelméről, mezőgazdasági belső területeiről és sziklás öbleiről ismert. Nincsenek nagy üdülőszállodái, helyette magánapartmanokra, villákra és néhány kisebb butikszállásra támaszkodik.\n\nAz utazási szezon szigorúan szezonális, májustól októberig tart, a csúcsidőszaki kompjáratok és éttermi működés júliusban és augusztusban jellemző. A látogatók általában a két fő település egyikén – Vis városban vagy Komižán – szállnak meg, és autót vagy robogót használnak a déli part távoli strandjainak eléréséhez.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Júniustól szeptemberig"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "24°C és 26°C között"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Split repülőtér (SPU) + 2,5 órás kompjárat"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Kavicsos, lapos sziklák, elszigetelt homokos öblök"
+    },
+    {
+      "label": "Árszínvonal",
+      "value": "10-20%-kal magasabb, mint a horvát átlag"
+    },
+    {
+      "label": "Sétálhatóság",
+      "value": "Jól sétálható; Komiža és Kut egyes részei autómentesek"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Vis város (Luka és Kut)",
+      "bestFor": "Első alkalommal érkezőknek, komphoz való hozzáférés, éttermek",
+      "parking": "Nagy fizetős parkoló a komp kikötő közelében; korlátozott Kutban",
+      "beach": "A Prirovo (kavicsos) 10 perces sétára található",
+      "summary": "A fő kikötő, amely az újabb Lukára és a történelmi, csendesebb Kutra oszlik. A legjobb kompjáratokat és a legtöbb éttermet kínálja."
+    },
+    {
+      "name": "Komiža",
+      "bestFor": "Naplementék, hajókirándulások a Kék barlanghoz",
+      "parking": "Nagy fizetős önkormányzati parkoló a sétálóövezet felett",
+      "beach": "Kisebb kavicsos strandok (Gusarica, Kamenice) a közelben",
+      "summary": "Hagyományos halászváros a nyugati parton kőházakkal és kissé bohém hangulattal. Ez a fő kiindulópont a Biševón található Kék barlanghoz induló kirándulásokhoz."
+    },
+    {
+      "name": "Rukavac",
+      "bestFor": "Csendes tengerparti nyaralások, természet",
+      "parking": "Általában magánapartman bérléssel együtt",
+      "beach": "Sétálótávolságra Srebrna (lapos sziklák/kavicsok)",
+      "summary": "Egy kis, csendes üdülőfalu a délkeleti parton, mely főként magánapartmanokból áll. Nincs igazi városközpontja, de közel van a sziget legjobb déli strandjaihoz."
+    },
+    {
+      "name": "Milna & Ženka",
+      "bestFor": "Homokos partokat kereső utazóknak",
+      "parking": "Út menti vagy magánbejárók",
+      "beach": "Milna strand (homokos) és Zaglav (homokos) a közelben",
+      "summary": "Part menti települések a délkeleti parton, ritka homokos strandok közelségéről ismertek. A terület erősen lakott, minimális kereskedelmi infrastruktúrával."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "850 km Splitig (kb. 9,5 óra) + 2,5 óra komp, az A10/A1 útvonalon, AT/SI matricák, HR útdíjak",
+      "other": "Közvetlen járatok Splitbe (SPU)"
+    },
+    {
+      "from": "Bécs",
+      "car": "760 km Splitig (kb. 8 óra) + 2,5 óra komp, az A2/A1 útvonalon, AT/SI matricák, HR útdíjak",
+      "other": "Közvetlen járatok vagy hálókocsis vonat Splitbe"
+    },
+    {
+      "from": "Budapest",
+      "car": "750 km Splitig (kb. 7,5 óra) + 2,5 óra komp, az M7/A4/A1 útvonalon, HU matrica, HR útdíjak",
+      "other": "Közvetlen járatok vagy szezonális vonatok Splitbe"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "470 km Splitig (kb. 5 óra) + 2,5 óra komp, az A2/A1 útvonalon, SI matrica, HR útdíjak",
+      "other": "Közvetlen buszjárat Splitbe"
+    },
+    {
+      "from": "Prága",
+      "car": "1 090 km Splitig (kb. 11,5 óra) + 2,5 óra komp, CZ/AT/SI matricák, HR útdíjak",
+      "other": "Közvetlen járatok Splitbe"
+    },
+    {
+      "from": "Krakkó",
+      "car": "1 050 km Splitig (kb. 11 óra) + 2,5 óra komp, SK/HU matricák, HR útdíjak",
+      "other": "Közvetlen járatok Splitbe"
+    }
+  ],
+  "whenToGo": "A turistaszezon májustól októberig tart. Májusban és októberben a sziget nagyon csendes, egyes éttermek és hajókirándulások nem üzemelnek, és a tenger hőmérséklete hűvös (18°C és 20°C között van). Június és szeptember a legjobb egyensúlyt kínálja a látogatóknak, körülbelül 23°C-os tengerhőmérséklettel, teljesen nyitva tartó létesítményekkel és mérsékelt tömeggel. Július és augusztus a legforgalmasabb és legdrágább hónapok; a nappali hőmérséklet rendszeresen meghaladja a 30°C-ot, a tenger eléri a 25°C-ot, és a kompjegyek, szállások és éttermek előzetes foglalása kötelező. Ezeken a hónapokon kívül Vis téli menetrend szerint működik, minimális nyitva tartó turisztikai infrastruktúrával.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni Vist?",
+      "answer": "Igen, ha egy csendesebb, kevésbé fejlett dalmát szigetet részesít előnyben, autentikus halászfalvakkal és természettel. Nem ajánlott azoknak, akik nagy homokos strandokat, all-inclusive üdülőhelyeket vagy széleskörű éjszakai életet keresnek."
+    },
+    {
+      "question": "Hány napra van szükségem Visen?",
+      "answer": "Három-öt nap optimális egy visi látogatáshoz. Ez elegendő időt biztosít Vis város és Komiža megtekintésére, hajókirándulásra a Biševón található Kék barlanghoz, és egy-két nap eltöltésére a déli strandokon, mint Stiniva vagy Srebrna."
+    },
+    {
+      "question": "Melyik a legjobb strand Visen?",
+      "answer": "Stiniva a leghíresebb drámai, zárt kavicsos öblével, de egy meredek 30 perces túrát vagy hajóval való megközelítést igényel. Könnyebb hozzáférés és egész napos pihenés esetén Srebrna sima, lapos sziklákat és kavicsokat kínál, míg Zaglav ritka homokos partot biztosít."
+    },
+    {
+      "question": "Szükségem van autóra Visen?",
+      "answer": "Autó vagy robogó erősen ajánlott a sziget eldugott strandjainak, belső éttermeinek és katonai helyszíneinek eléréséhez. Bár egy nyilvános busz összeköti a két fő várost (Vis város és Komiža) a kompmenetrenddel összhangban, kizárólag a tömegközlekedésre támaszkodva korlátozott az felfedezés."
+    },
+    {
+      "question": "Hol parkoljak Visen?",
+      "answer": "Vis városban egy nagy fizetős parkoló található a kompterminál mellett, míg Komižán egy nagy önkormányzati fizetős parkoló közvetlenül a sétálóövezet fölött. Mindkét városban erősen korlátozott az utcai parkolás, és számos történelmi belvárosi magánapartman nem kínál helyszíni parkolást."
+    },
+    {
+      "question": "Alkalmas Vis családoknak?",
+      "answer": "Vis alkalmas családoknak, akik csendes, természetközpontú nyaralást keresnek, de hiányoznak belőle a dedikált családi üdülőhelyek és szórakoztató infrastruktúra. A legtöbb strand kavicsos vagy sziklás, és gyorsan mélyül a víz, bár Milna és Zaglav sekély homokos alternatívákat kínálnak."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Ránézésre",
+    "whereToStay": "Hol szálljon meg Visen",
+    "gettingThere": "Utazás Visre",
+    "whenToGo": "Mikor utazzon",
+    "guides": "Vis útmutatók",
+    "faq": "Vis GYIK",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és hol szálljon meg",
+      "timing": "Mikor utazzon",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Étel és ital",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "vis",
+  "language": "hu",
+  "updatedAt": "2026-10-16T14:16:19.006Z"
+}

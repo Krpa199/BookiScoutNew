@@ -1,0 +1,146 @@
+{
+  "title": "Split: Vodič za plaže, parkiranje i smještaj",
+  "metaDescription": "Planirajte svoje putovanje u Split, Hrvatska. Pročitajte praktične savjete o najboljim četvrtima za boravak, rutama vožnje, parkiranju, plažama i trajektnim vezama za jednodnevne izlete.",
+  "intro": "Split je najveći grad na dalmatinskoj obali, funkcionira kao glavno prometno čvorište i povijesna destinacija. Pogodan je za putnike koji traže spoj rimske arhitekture, urbane infrastrukture i izravnog trajektnog pristupa obližnjim otocima. Žarište grada je Dioklecijanova palača, dobro očuvan rimski kompleks integriran u moderni komercijalni centar.\n\nGlavna turistička sezona traje od kraja svibnja do početka listopada. Srpanj i kolovoz donose najviše temperature, najveće gužve i najviše cijene smještaja. Oni koji preferiraju razgledavanje umjesto kupanja trebali bi posjetiti grad u travnju, svibnju ili listopadu, kada su dnevne temperature blaže, ulice manje prometne, a cijene smještaja primjetno niže.",
+  "quickFacts": [
+    {
+      "label": "Najbolji mjeseci",
+      "value": "Svibanj, lipanj, rujan, listopad"
+    },
+    {
+      "label": "Temperatura mora u kolovozu",
+      "value": "25°C do 27°C"
+    },
+    {
+      "label": "Najbliža zračna luka",
+      "value": "Zračna luka Split (SPU), 24 km od centra"
+    },
+    {
+      "label": "Glavna vrsta plaže",
+      "value": "Uglavnom šljunčane, s jednom centralnom pješčanom plažom"
+    },
+    {
+      "label": "Razina cijena",
+      "value": "Iznad hrvatskog prosjeka"
+    },
+    {
+      "label": "Prohodnost Starog grada",
+      "value": "Potpuno pješačka zona i bez automobila"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Stari Grad (Grad)",
+      "bestFor": "Razgledavanje i kraći boravci bez automobila",
+      "parking": "Nema parkiranja unutra; skupa parkirališta na obodu",
+      "beach": "15 minuta hoda do Bačvica (pijesak)",
+      "summary": "Povijesna jezgra izgrađena oko Dioklecijanove palače. Gusto je ispunjena restoranima, povijesnim znamenitostima i pješačkim uličicama."
+    },
+    {
+      "name": "Bačvice i Firule",
+      "bestFor": "Noćni život i pristup centralnoj plaži",
+      "parking": "Ograničeno ulično parkiranje u Zoni 2",
+      "beach": "Izravan pristup pješčanim i plitkim uvalama",
+      "summary": "Stambene četvrti smještene istočno od trajektne luke. Nude brz pristup najpoznatijim gradskim pješčanim plažama i glavnim noćnim klubovima."
+    },
+    {
+      "name": "Meje",
+      "bestFor": "Mirni boravci i pristup prirodi",
+      "parking": "Općenito dostupno besplatno ulično parkiranje",
+      "beach": "10 do 20 minuta hoda do Kašjuna (šljunak)",
+      "summary": "Prestižno stambeno područje na južnim obroncima brda Marjan. Omogućuje udaljenost od gradskih gužvi, a istovremeno je unutar pješačke udaljenosti od centra."
+    },
+    {
+      "name": "Žnjan",
+      "bestFor": "Obitelji i putnici s automobilima",
+      "parking": "Obilje privatnih i javnih parkirališta",
+      "beach": "Izravan pristup dugoj šljunčanoj obali",
+      "summary": "Novo obalno predgrađe istočno od centra s modernim stambenim zgradama. Područje nudi najduži neprekinuti potez gradskih šljunčanih plaža i kafića uz plažu."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "850 km, 8.5 do 9.5 sati preko A8, A10, A2 i A1. Zahtijeva AT i SLO vinjete; naplatu cestarine za AT tunele i HR autoceste.",
+      "other": "Izravni let (Lufthansa/Croatia Airlines) ili izravni FlixBus"
+    },
+    {
+      "from": "Beč",
+      "car": "760 km, 7.5 do 8 sati preko A2, A9 i A1. Zahtijeva AT i SLO vinjete; naplatu cestarine za HR autoceste.",
+      "other": "Izravni let (Austrian/Ryanair) ili izravni FlixBus"
+    },
+    {
+      "from": "Budimpešta",
+      "car": "750 km, 7 do 8 sati preko M7, A4 i A1. Zahtijeva HU vinjetu; naplatu cestarine za HR autoceste.",
+      "other": "Sezonski spavaći vlak ili izravni FlixBus"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "470 km, 5 sati preko A2 i A1. Zahtijeva SLO vinjetu; naplatu cestarine za HR autoceste.",
+      "other": "Izravni FlixBus"
+    },
+    {
+      "from": "Prag",
+      "car": "1.050 km, 11 do 12 sati preko D1, A9 i A1. Zahtijeva CZ, AT i SLO vinjete; naplatu cestarine za AT tunele i HR autoceste.",
+      "other": "Izravni let (Smartwings/Croatia Airlines) ili FlixBus"
+    },
+    {
+      "from": "Krakov",
+      "car": "1.050 km, 11 do 12 sati preko A4, SK, M7 i A1. Zahtijeva SK i HU vinjete; naplatu cestarine za PL i HR autoceste.",
+      "other": "Izravni let (Ryanair/LOT) ili FlixBus"
+    }
+  ],
+  "whenToGo": "Od lipnja do kolovoza, temperatura mora doseže 25°C do 27°C, svi otočni trajekti prometuju po vrhunskim rasporedima, a cijene smještaja su najviše. Svibanj i rujan nude blaže dnevne temperature oko 20°C do 24°C, niže cijene i manje gužve, iako je more primjetno hladnije. Između studenog i travnja, očekujte dnevne maksimume od 10°C do 15°C; mnogi obalni restorani i sezonski objekti su zatvoreni, a trajektne rute su značajno smanjene, ali cijene smještaja padaju do 50 posto.",
+  "faq": [
+    {
+      "question": "Je li Split vrijedan posjeta?",
+      "answer": "Da, ako želite veliki obalni grad s netaknutom rimskom arhitekturom i glavnim trajektnim vezama. Nije pogodan za putnike koji traže tiho, izolirano primorsko mjesto."
+    },
+    {
+      "question": "Koliko dana trebam u Splitu?",
+      "answer": "Dva do tri dana su dovoljna za razgledavanje Starog grada, Marjana i lokalnih plaža. Produžite putovanje na pet do sedam dana ako grad koristite kao bazu za jednodnevne izlete na Hvar, Brač ili Nacionalni park Krka."
+    },
+    {
+      "question": "Koja je najbolja plaža u Splitu?",
+      "answer": "Kašjuni se općenito smatraju najslikovitijom šljunčanom plažom, smještenom u podnožju brda Marjan. Bačvice su najpopularnija pješčana plaža zbog svoje centralne lokacije, dok Žnjan nudi najduži potez šljunčane obale."
+    },
+    {
+      "question": "Trebam li automobil u Splitu?",
+      "answer": "Ne trebate automobil ako boravite u centru i planirate posjetiti otoke trajektom ili katamaranom. Automobil je potreban samo ako rezervirate smještaj u vanjskim predgrađima ili planirate samostalne izlete duž obale kopna."
+    },
+    {
+      "question": "Gdje trebam parkirati u Splitu?",
+      "answer": "Koristite velika parkirališta s naplatom na obodu Starog grada, poput Starog Placa ili parkirališta u Vukovarskoj ulici. Ulično parkiranje u Zoni 1 i Zoni 2 je vrlo konkurentno i često ograničeno na stanovnike."
+    },
+    {
+      "question": "Je li Split dobar za obitelji?",
+      "answer": "Da, posebno u istočnim predgrađima poput Žnjana ili Stobreča gdje su plaže široke, a parkiranje lakše. Obitelji s kolicima trebale bi izbjegavati uske, stepenaste ulice užeg Starog grada."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na prvi pogled",
+    "whereToStay": "Gdje odsjesti u Splitu",
+    "gettingThere": "Dolazak u Split",
+    "whenToGo": "Kada posjetiti",
+    "guides": "Split vodiči",
+    "faq": "Česta pitanja o Splitu",
+    "groups": {
+      "gettingAround": "Parkiranje i kretanje po gradu",
+      "planning": "Planiranje i smještaj",
+      "timing": "Kada posjetiti",
+      "travelers": "Obitelji, parovi i stilovi putovanja",
+      "activities": "Plaže i aktivnosti",
+      "food": "Hrana i piće",
+      "comparisons": "Usporedbe",
+      "practical": "Praktične informacije"
+    },
+    "car": "Automobilom",
+    "other": "Ostale opcije",
+    "bestFor": "Najbolje za",
+    "parking": "Parkiranje",
+    "beach": "Plaža"
+  },
+  "destination": "split",
+  "language": "hr",
+  "updatedAt": "2026-10-16T09:30:32.002Z"
+}

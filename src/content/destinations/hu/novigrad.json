@@ -1,0 +1,146 @@
+{
+  "title": "Novigrad Útikalauz: Strandok, környékek és autós útvonalak",
+  "metaDescription": "Tervezze meg utazását Novigradba, Horvátországba. Fedezze fel a legjobb szálláshelyeket, európai autós útvonalakat, parkolási tippeket és strandinformációkat ebben az isztriai városban.",
+  "intro": "Novigrad vonzza azokat a családokat és párokat, akik egy csendesebb isztriai tengerparti úti célt keresnek, elkerülve a Rovinjra vagy Porečre jellemző nagy tömeget. Jellemzője egy megőrzött történelmi központ, amely egy kis félszigeten található, kiterjedt tengerparti sétányok és tiszta kavicsos és burkolt strandok. A város kényelmes kiindulópont Észak-Isztria és a közeli Mirna folyó völgyének felfedezéséhez.\n\nA főszezon június végétől szeptember elejéig tart, meleg tengerhőmérsékletet és teljesen működő éttermeket és létesítményeket kínálva. A tavasz és a kora ősz enyhébb időjárást biztosít, amely alkalmas kerékpározásra és az isztriai belső területek felfedezésére, bár sok tengerparti üzlet november és április között bezár. A nyári látogatók nyugodt légkört találnak, amely az étkezésre és a szabadtéri tevékenységekre összpontosít.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Júniustól szeptemberig"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Pula (PUY), 75 km-re"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Kavicsos, sziklás és burkolt teraszok"
+    },
+    {
+      "label": "Árszínvonal",
+      "value": "Isztria átlaga, kissé a horvát átlag felett"
+    },
+    {
+      "label": "Sétálhatóság",
+      "value": "Az óváros rendkívül jól bejárható és nyáron nagyrészt autómentes"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Óváros",
+      "bestFor": "Étkezés, történelem és párok számára",
+      "parking": "A központon kívül, fizetős parkolókban kell parkolni",
+      "beach": "Burkolt városi strandok és Rivarela közvetlenül a falakon kívül",
+      "summary": "A történelmi mag egy félszigeten fekszik, középkori falakkal körülvéve. Itt található a legtöbb étterem és kávézó, de a főszezonban korlátozott a járműforgalom."
+    },
+    {
+      "name": "Karpinjan",
+      "bestFor": "Családoknak és strandoláshoz",
+      "parking": "Ingyenes és fizetős utcai parkolás a legtöbb apartmannál",
+      "beach": "500 méteres kavicsos partszakasz fenyőfák árnyékában",
+      "summary": "Egy lakónegyed, amely 15 perces sétára északra található az óvárostól. Népszerű, családbarát kavicsos stranddal és csendes apartmanokkal rendelkezik."
+    },
+    {
+      "name": "Maestral és Sirena körzet",
+      "bestFor": "Üdülési szolgáltatásokhoz, kempingezéshez és medencékhez",
+      "parking": "Külön szállodai és kemping parkoló",
+      "beach": "Kék zászlós kavicsos és burkolt strandok a helyszínen",
+      "summary": "Közvetlenül a városközponttól délre található, ezt a zónát nagy szállodák és egy jelentős kemping uralja. Szervezett strandlétesítményeket, úszómedencéket és sportpályákat kínál."
+    },
+    {
+      "name": "Mareda",
+      "bestFor": "Természetkedvelőknek, kempingezéshez és takarékos szálláshoz",
+      "parking": "Tartozék az üdülőparkban vagy a kempingben",
+      "beach": "Sziklás és burkolt strandok a helyszínen",
+      "summary": "Novigradtól körülbelül 4 kilométerre északra található, ez a terület főként egy nagy üdülőfaluból és kempingből áll. Szőlőültetvények, tölgyerdők és tengerparti ösvények veszik körül."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "520 km, 6 óra az A8, A10 (Tauern), Karawanken alagút, SI A2/A1 útvonalon. Útdíjak: AT matrica, Tauern és Karawanken díjak, SI matrica, HR útdíj.",
+      "other": "FlixBus közvetlenül vagy egy átszállással Ljubljanán keresztül"
+    },
+    {
+      "from": "Bécs",
+      "car": "510 km, 5,5 óra az A2, A9 Graz felé, SI A1 Koper felé útvonalon. Útdíjak: AT matrica, SI matrica, HR útdíj.",
+      "other": "Közvetlen FlixBus vagy repülőjárat Pulába"
+    },
+    {
+      "from": "Budapest",
+      "car": "600 km, 6 óra az M7, A4 Zágráb felé, A6 Fiume felé, Isztriai Y (A8/A9) útvonalon. Útdíjak: HU matrica, HR útdíj.",
+      "other": "FlixBus vagy vonat Fiumébe, majd helyi busz"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "135 km, 1,5 óra az A1 Koper felé, 111-es út, Isztriai Y útvonalon. Útdíjak: SI matrica, HR útdíj.",
+      "other": "Közvetlen busz, körülbelül 2,5 órás út"
+    },
+    {
+      "from": "Prága",
+      "car": "830 km, 9 óra az AT A1/A10, Karawanken alagút, SI A2/A1 útvonalon. Útdíjak: CZ, AT, SI matricák, alagútdíjak, HR útdíj.",
+      "other": "Repülőjárat Pulába vagy éjszakai FlixBus"
+    },
+    {
+      "from": "Krakkó",
+      "car": "1000 km, 10,5 óra az A4, CZ D1, AT A2/A9, SI A1 útvonalon. Útdíjak: PL, CZ, AT, SI matricák, HR útdíj.",
+      "other": "Szezonális járatok Zadarba vagy Pulába"
+    }
+  ],
+  "whenToGo": "A főszezon júliusban és augusztusban van, tengerhőmérséklete 25°C és 27°C között, csúcsidőszaki szállásárakkal és a legnagyobb tömeggel. Június és szeptember jó egyensúlyt kínál a meleg úszásra alkalmas időjárás, alacsonyabb szobaárak és kezelhető látogatószám között, szinte az összes létesítmény nyitva tart. Május és október hűvösebb hőmérsékletet biztosít, ami alkalmas kerékpározásra és borkóstolásra, bár a tenger általában túl hideg az úszáshoz. Novembertől áprilisig Novigrad nagyon csendes; a tenger hőmérséklete 15°C alá csökken, és a szállodák, kempingek és turisztikai célú éttermek jelentős része bezár a téli szezonra.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni Novigradot?",
+      "answer": "Igen, Novigrad érdemes meglátogatni azoknak az utazóknak, akik egy nyugodt, történelmi tengerparti várost keresnek, anélkül, hogy a nagyobb isztriai üdülőhelyek intenzív tömegével találkoznának. Kiváló tenger gyümölcseit, tiszta strandokat és egy jól megőrzött középkori védőfalat kínál."
+    },
+    {
+      "question": "Hány napra van szükségem Novigradban?",
+      "answer": "Három-öt nap ideális egy standard látogatáshoz. Ez elegendő időt biztosít az óváros felfedezésére, néhány nap eltöltésére a strandon, és a közeli Istralandia vízi park vagy a belső falvak meglátogatására."
+    },
+    {
+      "question": "Melyik a legjobb strand Novigradban?",
+      "answer": "A Karpinjan strandot széles körben a legjobb választásnak tartják családok számára sekély, kavicsos bejáratának és természetes fenyőárnyékának köszönhetően. Szervezett létesítményekhez és napágybérléshez a központtól délre fekvő Maestral strand magasan értékelt."
+    },
+    {
+      "question": "Szükségem van autóra Novigradban?",
+      "answer": "Nincs szüksége autóra, ha kizárólag Novigradban tervez maradni, mivel a város kicsi és könnyen bejárható gyalog. Azonban erősen ajánlott az autó a belső isztriai városokba, például Motovunba vagy Grožnjanba tett egynapos kirándulásokhoz."
+    },
+    {
+      "question": "Hol parkolhatok Novigradban?",
+      "answer": "A látogatók több nagy, nyilvános parkolóban parkolhatnak közvetlenül az óvároson kívül, mivel a történelmi központ korlátozza a járműforgalmat. A legnagyobb fizetős önkormányzati parkolók a kikötő és a városi sportcsarnok közelében találhatók."
+    },
+    {
+      "question": "Jó Novigrad családoknak?",
+      "answer": "Igen, Novigrad kiválóan alkalmas családok számára nyugodt légköre, sík tengerparti séta- és kerékpárútjai, valamint biztonságos kavicsos strandjai miatt. Emellett kevesebb mint 10 kilométerre található az Istralandia, Horvátország egyik legnagyobb vízi parkja."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Áttekintés",
+    "whereToStay": "Hol szálljon meg Novigradban",
+    "gettingThere": "Utazás Novigradba",
+    "whenToGo": "Mikor utazzon",
+    "guides": "Novigrad útikalauzok",
+    "faq": "Novigrad Gyakran Ismételt Kérdések",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor utazzon",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Ételek és italok",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "novigrad",
+  "language": "hu",
+  "updatedAt": "2026-10-16T11:45:27.890Z"
+}

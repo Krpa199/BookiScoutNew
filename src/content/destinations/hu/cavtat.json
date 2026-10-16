@@ -1,0 +1,146 @@
+{
+  "title": "Cavtat Útikalauz: Strandok, Parkolás és Szálláshelyek",
+  "metaDescription": "Tervezze meg utazását Cavtatba, Horvátországba. Tudja meg, hol érdemes megszállni, hogyan juthat el autóval Közép-Európából, parkolási információkat és a legjobb helyi strandokat.",
+  "intro": "Cavtat egy tengerparti város Dalmácia déli részén, 20 kilométerre délre Dubrovniktól. Azoknak a látogatóknak kínál csendesebb, nyugodtabb tengerparti élményt, akik könnyen megközelíthető helyet keresnek Dubrovnik történelmi központjához, rendszeres személyhajók és regionális buszjáratok segítségével. A város egy erdős félsziget köré épült, lapos, sétálóbarát promenáddal, amelyet éttermek, kávézók és fenyőfák szegélyeznek.\n\nA célpont jól megfelel családoknak, idősebb utazóknak és pároknak, akik a pihentető strandolást részesítik előnyben az aktív éjszakai élettel szemben. A nyár a legnépszerűbb időszak a látogatásra, bár május és szeptember is kellemes úszóidőjárást és alacsonyabb szállásárakat kínál. Autó szükségtelen, ha a város határain belül maradunk, de hasznos a szélesebb Konavle régió vagy a szomszédos Montenegró felfedezéséhez.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Május-szeptember"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "25°C – 27°C"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Dubrovniki Repülőtér (DBV), 6 km-re"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Kavicsos és betonozott teraszok"
+    },
+    {
+      "label": "Árszínvonal",
+      "value": "Átlag feletti, de 10-15%-kal olcsóbb, mint Dubrovnik"
+    },
+    {
+      "label": "Sétálhatóság",
+      "value": "Az óváros kiválóan bejárható gyalog, és nagyrészt autómentes"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Óváros (Rat-félsziget)",
+      "bestFor": "Először érkezőknek és pároknak, akik szeretik a könnyű hozzáférést az éttermekhez",
+      "parking": "Nagyon korlátozott; nyilvános parkoló a város bejáratánál",
+      "beach": "5-10 perc sétára sziklás és betonozott fürdőhelyek",
+      "summary": "A történelmi központ hagyományos kőházakkal, éttermekkel és a fő sétánnyal rendelkezik. Az itteni szállások gyakran csak pár lépésre vannak a víztől, de általában hiányzik a privát parkoló."
+    },
+    {
+      "name": "Tiha-öböl (Uvala Tiha)",
+      "bestFor": "Családoknak és utazóknak, akik azonnali strandhozzáférést keresnek",
+      "parking": "Könnyebb parkolót találni, sok apartman kínál privát helyeket",
+      "beach": "Közvetlenül a Žal strandon és a környező kavicsos partokon",
+      "summary": "Közvetlenül a félszigettől északra található ez a lakóövezet modern apartmanokat és kisebb szállodákat kínál. A fő kavicsos strandok ezen az öböl mentén helyezkednek el, ami rendkívül kényelmessé teszi az úszást."
+    },
+    {
+      "name": "Mećajac",
+      "bestFor": "Költségtudatos utazóknak, akik hajlandóak felfelé sétálni",
+      "parking": "Általában elérhető a legtöbb privát szálláshelyen",
+      "beach": "10-15 perc séta lefelé a fő öblökhöz",
+      "summary": "Ez a negyed az óváros feletti dombon fekszik, alacsonyabb árakat és gyakran magaslati tengeri kilátást kínál. A központból vagy a strandról való visszatérés meredek felfelé sétát igényel."
+    },
+    {
+      "name": "Obod",
+      "bestFor": "Autóval érkező utazóknak, akik csendesebb bázist preferálnak",
+      "parking": "Bőséges és általában benne van a szállás árában",
+      "beach": "15-20 perc séta lefelé, vagy rövid autóút",
+      "summary": "Egy kis település a tengerparti úton, közvetlenül Cavtat előtt. Nyugodt környezetet és könnyű hozzáférést biztosít a fő autópályához a napközbeni kirándulásokhoz, de közlekedési eszközt igényel Cavtat központjának eléréséhez."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "980 km, 11-12 óra az A8, A10, A1 útvonalon. Szükséges az osztrák és szlovén matrica, osztrák alagútdíjak, horvát autópályadíjak.",
+      "other": "Közvetlen járatok a Dubrovniki Repülőtérre (1,5 óra)"
+    },
+    {
+      "from": "Bécs",
+      "car": "820 km, 9-10 óra az A2, A4, A1 útvonalon. Szükséges az osztrák és szlovén matrica, horvát autópályadíjak. Az útvonal a Pelješac-hídon keresztül vezet.",
+      "other": "Közvetlen járatok a Dubrovniki Repülőtérre (1,5 óra)"
+    },
+    {
+      "from": "Budapest",
+      "car": "750 km, 8-9 óra az M7 és A1 útvonalon. Szükséges a magyar matrica és horvát autópályadíjak. Az útvonal a Pelješac-hídon keresztül vezet.",
+      "other": "Szezonális közvetlen járatok (1,5 óra) vagy buszjáratok"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "640 km, 7-8 óra az A2 és A1 útvonalon. Szükséges a szlovén matrica és horvát autópályadíjak. Az útvonal a Pelješac-hídon keresztül vezet.",
+      "other": "Szezonális járatok Dubrovnikba vagy busz Zágrábon keresztül"
+    },
+    {
+      "from": "Prága",
+      "car": "1150 km, 13-14 óra a CZ D1, AT A9, SLO A2, HR A1 útvonalon. Szükséges a cseh, osztrák, szlovén matrica, osztrák alagútdíjak, horvát útdíjak.",
+      "other": "Közvetlen járatok a Dubrovniki Repülőtérre (2 óra)"
+    },
+    {
+      "from": "Krakkó",
+      "car": "1160 km, 13-14 óra a SK D1, HU M1/M7, HR A1 útvonalon. Szükséges a lengyel útdíj, szlovák és magyar matrica, horvát útdíjak.",
+      "other": "Közvetlen járatok a Dubrovniki Repülőtérre Ryanair vagy LOT járattal"
+    }
+  ],
+  "whenToGo": "A nyár (július és augusztus) a főszezon, amikor a tenger hőmérséklete eléri a 27°C-ot, minden étterem és komp teljes kapacitással üzemel, és a szállásárak a legmagasabbak. Június és szeptember kényelmesebb egyensúlyt kínál, a nappali hőmérséklet 25-28°C körül alakul, kevesebb a tömeg, és a tenger még elég meleg az úszáshoz. Május és október jelentősen csendesebb és olcsóbb, de a tenger hőmérséklete 19-21°C körül ingadozik, és egyes szezonális vállalkozások vagy kompjáratok csökkenthetik menetrendjüket vagy teljesen bezárhatnak.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni Cavtatot?",
+      "answer": "Igen, erősen ajánlott azoknak, akik egy festői, nyugodt tengerparti várost keresnek egy forgalmas város helyett. Gyönyörű kikötővel, tiszta vízzel és könnyű hozzáféréssel rendelkezik Dubrovnikhoz a nagy turistatorlódás nélkül."
+    },
+    {
+      "question": "Hány napra van szükségem Cavtatban?",
+      "answer": "Három-öt nap ideális egy pihentető tengerparti tartózkodáshoz és egy egynapos kiránduláshoz Dubrovnikba. Ha Montenegrót, a Pelješac-félszigetet és az Elafiti-szigeteket is felfedezné, egy teljes hét kiváló bázisként szolgál."
+    },
+    {
+      "question": "Melyik a legjobb strand Cavtatban?",
+      "answer": "A Žal strand a legnépszerűbb választás, hosszú kavicsos szakasszal, sekély vízzel és közeli létesítményekkel. Egy vadregényesebb élményért Sustjepan betonozott teraszokat és sziklás fürdőhelyeket kínál, míg a híres, sziklafalon lévő Pasjača strand 15 perces autóútra található."
+    },
+    {
+      "question": "Szükségem van autóra Cavtatban?",
+      "answer": "Nem, nincs szüksége autóra, ha helyben szeretne maradni és a gyakori buszokat vagy kompokat használni Dubrovnik meglátogatásához. Autóra csak akkor van szükség, ha a szélesebb Konavle régiót, a közeli falvakat vagy Montenegrót szeretné önállóan felfedezni."
+    },
+    {
+      "question": "Hol parkolhatok Cavtatban?",
+      "answer": "A fő nyilvános parkoló az óváros bejáratánál, a buszpályaudvar mellett található, és óránkénti vagy napi díjakat számol fel. Mivel a történelmi félsziget nagyrészt forgalomkorlátozott, győződjön meg róla, hogy szállása tartalmaz privát parkolót, ha autóval érkezik."
+    },
+    {
+      "question": "Jó Cavtat családoknak?",
+      "answer": "Igen, ez az egyik legcsaládbarátabb úti cél a régióban. A sík, csak gyalogosoknak szánt promenád biztonságos a gyermekek számára, és a helyi kavicsos strandok nyugodt, sekély vize kiváló fiatal úszóknak."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Rövid áttekintés",
+    "whereToStay": "Hol szálljon meg Cavtatban",
+    "gettingThere": "Hogyan juthat el Cavtatba",
+    "whenToGo": "Mikor érdemes utazni",
+    "guides": "Cavtat útikalauzok",
+    "faq": "Gyakran Ismételt Kérdések Cavtatról",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szálláshelyek",
+      "timing": "Mikor érdemes utazni",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Étel és ital",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "cavtat",
+  "language": "hu",
+  "updatedAt": "2026-10-16T15:02:48.320Z"
+}

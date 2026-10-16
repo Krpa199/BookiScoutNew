@@ -1,0 +1,146 @@
+{
+  "title": "Pola: Guida di viaggio su spiagge, parcheggio e dove alloggiare",
+  "metaDescription": "Organizza un viaggio a Pola, Croazia. Scopri le migliori zone dove alloggiare, percorsi stradali dall'Europa, opzioni di parcheggio, spiagge e il periodo migliore per visitarla.",
+  "intro": "Pola funge da principale porta d'accesso alla penisola istriana, attraendo appassionati di storia e vacanzieri estivi. La città è definita dal suo anfiteatro romano ben conservato e da una costa caratterizzata da litorali rocciosi e baie di ciottoli. I visitatori in cerca di una combinazione di siti archeologici e resort costieri accessibili troveranno la zona adatta per un breve soggiorno o come base per un'esplorazione regionale più ampia.\n\nLe condizioni più favorevoli si verificano da fine maggio a settembre, quando i traghetti operano frequentemente e tutte le strutture turistiche rimangono aperte. L'estate porta alte temperature e notevoli folle, in particolare lungo la penisola di Verudela. I visitatori che privilegiano tariffe di alloggio più basse e un clima moderato dovrebbero puntare a giugno o settembre, evitando la congestione massima di luglio e agosto.",
+  "quickFacts": [
+    {
+      "label": "Mesi migliori",
+      "value": "Giugno e settembre"
+    },
+    {
+      "label": "Temperatura del mare ad agosto",
+      "value": "da 25°C a 27°C"
+    },
+    {
+      "label": "Aeroporto più vicino",
+      "value": "Aeroporto di Pola (PUY), a 8 km dal centro"
+    },
+    {
+      "label": "Tipo di spiaggia principale",
+      "value": "Ciottoli, roccia e lastre di cemento"
+    },
+    {
+      "label": "Livello di prezzo",
+      "value": "Nella media per l'Istria, leggermente inferiore a Dubrovnik"
+    },
+    {
+      "label": "Pedonabilità del centro storico",
+      "value": "Nucleo pedonale, accesso auto limitato"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centro di Pola / Città Vecchia",
+      "bestFor": "Viaggi incentrati sulla storia, ristorazione e collegamenti di trasporto",
+      "parking": "Difficile; richiede ampi parcheggi a pagamento fuori dalla zona pedonale",
+      "beach": "Da 2 a 3 km di distanza (richiede viaggio in autobus)",
+      "summary": "Il nucleo storico si concentra attorno all'anfiteatro romano e al foro. Manca di accesso immediato alla spiaggia ma offre la più alta concentrazione di ristoranti, bar e musei."
+    },
+    {
+      "name": "Penisola di Verudela",
+      "bestFor": "Famiglie e vacanze in stile resort",
+      "parking": "Abbonda presso hotel e parcheggi designati dei resort",
+      "beach": "Accesso immediato a calette di ciottoli (Hawaii Beach, Ambrela)",
+      "summary": "Situata 5 km a sud del centro, questa zona è costituita principalmente da grandi complessi resort e affitti di appartamenti. Presenta alcune delle spiagge di ciottoli più accessibili di Pola e l'acquario locale."
+    },
+    {
+      "name": "Penisola di Stoja",
+      "bestFor": "Campeggiatori e attività all'aperto",
+      "parking": "Facile parcheggio in strada e ampie strutture del campeggio",
+      "beach": "Accesso immediato a litorali rocciosi e alla spiaggia di ciottoli di Valkane",
+      "summary": "Stoja si trova a ovest del centro città e ospita un importante campeggio, un centro commerciale e sentieri costieri rocciosi. La zona è più tranquilla di Verudela e attrae i visitatori che preferiscono l'autogestione o il campeggio."
+    },
+    {
+      "name": "Pješčana Uvala",
+      "bestFor": "Coppie e famiglie che desiderano un'atmosfera più tranquilla da villaggio",
+      "parking": "Parcheggio pubblico limitato; meglio assicurato tramite l'alloggio",
+      "beach": "Breve passeggiata verso una baia protetta di ciottoli/sabbia mista",
+      "summary": "Un insediamento residenziale situato appena a sud di Pola, costruito attorno a una baia riparata. Offre un'alternativa più rilassante ai grandi resort, con una spiaggia locale di alta qualità e diversi ristoranti sul lungomare."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monaco di Baviera",
+      "car": "590 km, 6,5 ore via A10 e A1. Richiede vignette AT e SI, più tunnel del Karawanken e pedaggi HR",
+      "other": "Volo diretto con Lufthansa o Flixbus stagionale"
+    },
+    {
+      "from": "Vienna",
+      "car": "580 km, 6 ore via A2 e A1. Richiede vignette AT e SI, più pedaggi HR",
+      "other": "Volo diretto stagionale con Ryanair o Austrian Airlines"
+    },
+    {
+      "from": "Budapest",
+      "car": "610 km, 6,5 ore via M7 e HR A4/A6. Richiede e-vignetta HU e pedaggi HR",
+      "other": "Autobus diretto via Flixbus"
+    },
+    {
+      "from": "Lubiana",
+      "car": "200 km, 2,5 ore via A1. Richiede vignetta SI e pedaggi HR",
+      "other": "Autobus diretto giornaliero via Nomago o Flixbus"
+    },
+    {
+      "from": "Praga",
+      "car": "880 km, 10 ore via CZ D1, AT A9, SI A1. Richiede vignette CZ, AT, SI, più tunnel e pedaggi HR",
+      "other": "Volo diretto stagionale o treno per Fiume seguito da autobus"
+    },
+    {
+      "from": "Cracovia",
+      "car": "1050 km, 11 ore via PL A4, CZ D1, AT A1/A2, SI A1. Richiede vignette CZ, AT, SI, più pedaggi PL e HR",
+      "other": "Voli stagionali via LOT/Ryanair o percorsi in autobus con più tappe"
+    }
+  ],
+  "whenToGo": "Giugno e settembre offrono il miglior equilibrio tra temperature del mare calde (circa 23°C), prezzi moderati e meno folla. Luglio e agosto vedono le temperature del mare raggiungere il picco tra 25°C e 27°C, coincidendo con le tariffe massime degli alloggi, traffico intenso e orari dei traghetti completamente operativi. Maggio e ottobre offrono acque più fresche, intorno ai 18°C-20°C, rendendo il nuoto meno affidabile, anche se i principali siti archeologici rimangono aperti senza il caldo estivo. Durante i mesi invernali, da novembre ad aprile, le temperature scendono significativamente, portando a notevoli riduzioni dei prezzi ma causando la sospensione completa delle attività di molte attività costiere, hotel e rotte di volo stagionali.",
+  "faq": [
+    {
+      "question": "Vale la pena visitare Pola?",
+      "answer": "Sì, in particolare per la sua architettura romana ben conservata e i resort costieri accessibili. Funziona bene come destinazione autonoma o come punto di partenza per esplorazione della penisola istriana."
+    },
+    {
+      "question": "Quanti giorni mi servono a Pola?",
+      "answer": "Due o tre giorni sono sufficienti per visitare la città. Questo permette un giorno per visitare l'anfiteatro e il centro storico, e un altro giorno o due per le spiagge o una gita in barca alle Isole Brioni."
+    },
+    {
+      "question": "Qual è la migliore spiaggia di Pola?",
+      "answer": "Hawaii Beach sulla penisola di Verudela è ampiamente considerata l'opzione migliore. Presenta un litorale di ciottoli in pendenza, acqua cristallina ed è circondata da alte scogliere rocciose."
+    },
+    {
+      "question": "Ho bisogno di un'auto a Pola?",
+      "answer": "Un'auto non è necessaria se si soggiorna nel centro storico o nella penisola di Verudela, poiché gli autobus locali collegano queste aree in modo affidabile. Tuttavia, un veicolo è altamente consigliato per visitare i villaggi in collina e le spiagge remote nella più ampia regione istriana."
+    },
+    {
+      "question": "Dove dovrei parcheggiare a Pola?",
+      "answer": "I parcheggi Karolina e Mandrač sono le opzioni più pratiche per visitare il centro. Entrambi sono ampi, a pagamento e all'aperto, situati appena fuori dal centro storico pedonale, minimizzando la guida attraverso strette strade a senso unico."
+    },
+    {
+      "question": "Pola è adatta alle famiglie?",
+      "answer": "Sì, la zona offre eccellenti infrastrutture per viaggiare con i bambini. La penisola di Verudela presenta spiagge di ciottoli calme e adatte alle famiglie, zone di nuoto poco profonde e attrazioni come l'Acquario di Pola."
+    }
+  ],
+  "headings": {
+    "quickFacts": "In breve",
+    "whereToStay": "Dove alloggiare a Pola",
+    "gettingThere": "Come arrivare a Pola",
+    "whenToGo": "Quando andare",
+    "guides": "Guide di Pola",
+    "faq": "Domande frequenti su Pola",
+    "groups": {
+      "gettingAround": "Parcheggio e spostamenti",
+      "planning": "Pianificazione e dove alloggiare",
+      "timing": "Quando andare",
+      "travelers": "Famiglie, coppie e stili di viaggio",
+      "activities": "Spiagge e attività da fare",
+      "food": "Cibo e bevande",
+      "comparisons": "Confronti",
+      "practical": "Info pratiche"
+    },
+    "car": "In auto",
+    "other": "Altre opzioni",
+    "bestFor": "Ideale per",
+    "parking": "Parcheggio",
+    "beach": "Spiaggia"
+  },
+  "destination": "pula",
+  "language": "it",
+  "updatedAt": "2026-10-16T10:30:54.945Z"
+}

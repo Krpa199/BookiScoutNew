@@ -1,0 +1,146 @@
+{
+  "title": "Mljet : Guide de voyage – Parc national, ferries et où séjourner",
+  "metaDescription": "Organisez un voyage à Mljet, Croatie. Guide pratique couvrant l'accès au Parc national, les itinéraires en voiture, les ferries, les meilleurs villages où loger et des conseils pratiques.",
+  "intro": "Mljet est une île adriatique très boisée, idéale pour les voyageurs en quête de nature, de randonnée et de villages côtiers tranquilles. Le tiers ouest de l'île est un Parc national protégé abritant deux lacs salés, attirant aussi bien les excursionnistes que les visiteurs en séjour prolongé. Les parties est et centrale offrent des baies isolées et des plages de sable, distinctes du littoral croate typique de galets.\n\nLa saison touristique principale s'étend de fin mai à septembre. Juillet et août apportent les températures de mer les plus chaudes et le plus grand volume de trafic de yachts, notamment à Pomena et Polače. Mai et septembre offrent un temps plus doux pour faire du vélo et parcourir les sentiers du Parc national, avec moins de foule et des tarifs d'hébergement plus bas.",
+  "quickFacts": [
+    {
+      "label": "Meilleurs mois",
+      "value": "De mai à septembre"
+    },
+    {
+      "label": "Temp. mer en août",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Aéroport le plus proche",
+      "value": "Dubrovnik (DBV), 85 km (ferry inclus)"
+    },
+    {
+      "label": "Type de plages principal",
+      "value": "Lacs salés, baies rocheuses et sable rare"
+    },
+    {
+      "label": "Niveau de prix",
+      "value": "Supérieur à la moyenne (logistique insulaire et suppléments du parc)"
+    },
+    {
+      "label": "Accessibilité à pied",
+      "value": "Les villages sont petits/accessibles à pied ; le Parc national est sans voiture"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Pomena",
+      "bestFor": "Accès au Parc national et restauration",
+      "parking": "Stationnement en rue limité ; parking payant près de l'hôtel",
+      "beach": "10 minutes à pied de Malo Jezero (lac salé)",
+      "summary": "Un petit village portuaire à la pointe ouest, servant d'entrée principale au Parc national. Il possède le seul grand hôtel de l'île, un trafic de yachts important et de nombreux restaurants de fruits de mer."
+    },
+    {
+      "name": "Polače",
+      "bestFor": "Ruines historiques et mouillage abrité",
+      "parking": "Stationnement en rue disponible, congestionné en haute saison",
+      "beach": "Front de mer rocheux ; 3 km à pied/vélo jusqu'aux lacs",
+      "summary": "Présente d'importantes ruines romaines juste au bord de l'eau. Il sert d'entrée secondaire au Parc national et est situé dans une baie profonde et protégée avec plusieurs liaisons de ferry."
+    },
+    {
+      "name": "Saplunara",
+      "bestFor": "Plages de sable et détente tranquille",
+      "parking": "Places privées aux appartements, petits parkings non pavés",
+      "beach": "Accès direct à de rares plages de sable",
+      "summary": "Située à la pointe est isolée de l'île, connue pour ses baies sablonneuses. Il n'y a pas d'attractions du Parc national ici, ce qui la rend plus calme et entièrement dédiée aux plaisirs de la plage."
+    },
+    {
+      "name": "Sobra",
+      "bestFor": "Accès ferry et base pratique",
+      "parking": "Grand parking près du port de ferry et du centre du village",
+      "beach": "Petits coins de galets et de rochers dans le village",
+      "summary": "Le port principal où arrive le ferry-voiture du continent. Il est situé au centre, offrant des prix plus bas et une base stratégique pour se rendre aux deux extrémités de l'île."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Munich",
+      "car": "930 km jusqu'au port de Prapratno, ~10 heures via A8, A10, HR A1 et le pont de Pelješac. Vignette/péages AT, vignette SI, péages HR. Plus 45 min de ferry-voiture jusqu'à Sobra.",
+      "other": "Vol vers Dubrovnik (DBV) ou Split (SPU), puis bus/taxi jusqu'au port et catamaran passagers."
+    },
+    {
+      "from": "Vienne",
+      "car": "830 km jusqu'au port de Prapratno, ~9 heures via A2 (AT), HR A1 et le pont de Pelješac. Vignette AT, vignette SI, péages HR. Plus 45 min de ferry-voiture jusqu'à Sobra.",
+      "other": "Vol vers Dubrovnik (DBV), puis bus jusqu'au port de Gruž et catamaran passagers."
+    },
+    {
+      "from": "Budapest",
+      "car": "790 km jusqu'au port de Prapratno, ~8,5 heures via M7 (HU), HR A1 et le pont de Pelješac. Vignette HU, péages HR. Plus 45 min de ferry-voiture jusqu'à Sobra.",
+      "other": "Vol vers Split (SPU) ou Dubrovnik (DBV), puis catamaran passagers vers Mljet."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "610 km jusqu'au port de Prapratno, ~7 heures via A2 (SI), HR A1 et le pont de Pelješac. Vignette SI, péages HR. Plus 45 min de ferry-voiture jusqu'à Sobra.",
+      "other": "Bus pour Split ou Dubrovnik, puis catamaran passagers pour Pomena ou Sobra."
+    },
+    {
+      "from": "Prague",
+      "car": "1 150 km jusqu'au port de Prapratno, ~12,5 heures via A9 (AT) et HR A1. Vignettes CZ, AT, SI, péages HR. Plus 45 min de ferry-voiture jusqu'à Sobra.",
+      "other": "Vol vers Dubrovnik (DBV), puis bus jusqu'au port et catamaran passagers."
+    },
+    {
+      "from": "Cracovie",
+      "car": "1 120 km jusqu'au port de Prapratno, ~12,5 heures via SK, HU (M7) et HR A1. Vignettes SK, HU, péages HR. Plus 45 min de ferry-voiture jusqu'à Sobra.",
+      "other": "Vol vers Split (SPU) ou Dubrovnik (DBV), puis catamaran passagers."
+    }
+  ],
+  "whenToGo": "La saison touristique à Mljet s'étend de mai à octobre, coïncidant avec des horaires de ferry élargis et des restaurants ouverts. Juillet et août sont les mois les plus fréquentés et les plus chers, avec des températures de la mer atteignant 27°C et un grand nombre de yachts accostant à Pomena et Polače. Mai, juin et septembre offrent des températures ambiantes agréables autour de 20–25°C, rendant ces mois idéaux pour le vélo et la randonnée dans le Parc national, bien que la mer puisse être trop fraîche pour de longues baignades début mai. Entre novembre et avril, l'île est très calme ; les catamarans passagers fonctionnent selon des horaires réduits, et la plupart des installations touristiques, y compris de nombreux restaurants et hébergements, ferment pour l'hiver.",
+  "faq": [
+    {
+      "question": "Mljet vaut-elle le détour ?",
+      "answer": "Oui, pour les voyageurs en quête de nature, de randonnée et d'eaux claires, loin des grandes stations balnéaires. Le Parc national de l'île et ses lacs salés offrent un paysage distinct par rapport aux autres îles croates, bien qu'elle manque de vie nocturne et de commerces étendus."
+    },
+    {
+      "question": "Combien de jours faut-il pour visiter Mljet ?",
+      "answer": "Deux à trois jours suffisent pour faire le tour des lacs du Parc national à vélo, visiter l'île Sainte-Marie et explorer quelques villages côtiers. Les excursions d'une journée depuis Dubrovnik ou Korčula sont populaires, mais passer la nuit vous permet de découvrir le parc sans la foule de la mi-journée."
+    },
+    {
+      "question": "Quelle est la meilleure plage de Mljet ?",
+      "answer": "Velika Saplunara et Mala Saplunara, à la pointe est, sont les meilleures plages de sable. Dans le Parc national, les rives de Malo Jezero et Veliko Jezero (les lacs salés) sont très populaires pour la baignade grâce à leurs eaux chaudes et calmes et à l'ombre des pins."
+    },
+    {
+      "question": "Ai-je besoin d'une voiture à Mljet ?",
+      "answer": "Une voiture ou un scooter est fortement recommandé si vous prévoyez d'explorer l'île, car la distance entre le Parc national à l'ouest et Saplunara à l'est est de plus de 40 kilomètres. Si vous comptez uniquement rester à Pomena ou Polače et visiter le Parc national, une voiture n'est pas nécessaire."
+    },
+    {
+      "question": "Où puis-je me garer dans le Parc national de Mljet ?",
+      "answer": "Il y a un parking payant désigné dans le village de Vrbovica (près de Mali Most) juste à l'entrée du lac, ainsi que des places de stationnement en rue à Pomena et Polače. Les véhicules ne sont pas autorisés sur les sentiers pédestres entourant directement les lacs salés."
+    },
+    {
+      "question": "Mljet est-elle adaptée aux familles ?",
+      "answer": "Oui, surtout pour les familles actives qui aiment le vélo, la natation et les promenades dans la nature. Les lacs salés sont très sûrs pour les enfants grâce à l'absence de vagues, et les plages de sable de Saplunara présentent des entrées peu profondes et progressives."
+    }
+  ],
+  "headings": {
+    "quickFacts": "En bref",
+    "whereToStay": "Où loger à Mljet",
+    "gettingThere": "Comment se rendre à Mljet",
+    "whenToGo": "Quand partir",
+    "guides": "Guides sur Mljet",
+    "faq": "FAQ Mljet",
+    "groups": {
+      "gettingAround": "Stationnement et déplacements",
+      "planning": "Planification et hébergement",
+      "timing": "Quand partir",
+      "travelers": "Familles, couples et styles de voyage",
+      "activities": "Plages et activités",
+      "food": "Restauration",
+      "comparisons": "Comparaisons",
+      "practical": "Infos pratiques"
+    },
+    "car": "En voiture",
+    "other": "Autres options",
+    "bestFor": "Idéal pour",
+    "parking": "Stationnement",
+    "beach": "Plage"
+  },
+  "destination": "mljet",
+  "language": "fr",
+  "updatedAt": "2026-10-16T14:26:26.717Z"
+}

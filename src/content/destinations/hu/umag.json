@@ -1,0 +1,146 @@
+{
+  "title": "Umag útikalauz: Strandok, parkolás és hol érdemes megszállni",
+  "metaDescription": "Tervezze meg utazását Umagba, Horvátországba. Praktikus információk útvonalakról, szállásról, parkolásról, családi üdülőhelyekről és a legjobb látogatási időpontokról.",
+  "intro": "Umag Isztria legészakibb tengerparti városa, így a Közép-Európából érkezők első állomása. Nagyrészt üdülőturizmusra épül, nagy szállodakomplexumokat, kempingeket és kiterjedt sportlétesítményeket kínál, különösen az ATP Croatia Open tenisztornát. A tengerparton burkolt napozóteraszok, sziklás öblök és közvetlenül a tengerre nyúló fenyőerdők találhatók.\n\nA főszezon június végétől augusztusig tart, magas hőmérséklettel és a fő teniszlátogatókkal júliusban. Szeptember csendesebb, a tenger még elég meleg az úszáshoz, míg télen a legtöbb turisztikai létesítmény bezár. Umag családoknak és aktív utazóknak ajánlott, akik a kényelmes strandhozzáférést és a sportot részesítik előnyben a kiterjedt történelmi városnézés helyett.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Júniustól szeptemberig"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "25°C és 27°C között"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Pula (PUY), 85 km-re délre"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Betonozott platók, sziklás öblök és mesterséges kavicsok"
+    },
+    {
+      "label": "Árszínvonal",
+      "value": "Átlagos Isztriában, olcsóbb, mint Rovinj"
+    },
+    {
+      "label": "Óváros bejárható gyalogosan",
+      "value": "Igen, a történelmi félsziget gyalogos zóna"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Umag központja és óvárosa",
+      "bestFor": "Étkezés, séta és rövid tartózkodás",
+      "parking": "Fizetős nyilvános parkolók a gyalogos félszigeten kívül",
+      "beach": "700m a Gradsko Kupalištéhez (Városi strand)",
+      "summary": "Umag történelmi szíve egy kis félszigeten fekszik. Szűk utcákat, éttermeket és kikötőt kínál, de hiányoznak belőle a nagyobb üdülőkomplexumok medencéi és a közvetlen tengerparti hozzáférés, amelyek északabbra találhatók."
+    },
+    {
+      "name": "Punta",
+      "bestFor": "Közelség a központhoz és a strandokhoz",
+      "parking": "Utcai fizetős parkolás és magán szállodai parkolók",
+      "beach": "Azonnali hozzáférés betonozott és sziklás strandokhoz",
+      "summary": "Lakó- és szállodai övezet közvetlenül a kikötőtől északra. Összeköti a városközpontot az északi üdülőhelyekkel egy tengerparti sétányon keresztül, egyensúlyt teremtve a kényelem és a tengerparti hozzáférés között."
+    },
+    {
+      "name": "Stella Maris és Katoro",
+      "bestFor": "Családoknak, teniszrajongóknak és üdülőhelyi nyaralásokhoz",
+      "parking": "Nagy, dedikált parkolók üdülő- és napijegy-vendégek számára",
+      "beach": "Azonnali hozzáférés a Lagunához (kavicsos/homokos) és Polinéziához",
+      "summary": "A fő turisztikai övezet a várostól északra húzódik. Nagyméretű szállodák, apartmankomplexumok, teniszpályák és egy hosszú turisztikai kisvonat útvonal uralja, amely a központtal köti össze."
+    },
+    {
+      "name": "Savudrija",
+      "bestFor": "Pároknak, kempingezőknek és csendesebb tartózkodáshoz",
+      "parking": "Általában ingyenes vagy a szállással együtt",
+      "beach": "Sziklás partvonalak és burkolt teraszok",
+      "summary": "Egy csendesebb, fenyőfákkal árnyékolt falu 8 km-re Umagtól északra, ismert aktív világítótornyáról. Népszerű a kempingezők és azok körében, akik nyugodtabb tempóra vágynak a fő üdülőhelyektől távol."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "500 km, ~5,5 óra az A8, A10 (Tauern), Karavankák alagúton, Ljubljana és Koper érintésével. Osztrák és szlovén matricák, valamint alagútdíjak szükségesek.",
+      "other": "FlixBus vagy éjszakai vonat Ljubljanába, majd buszcsatlakozás"
+    },
+    {
+      "from": "Bécs",
+      "car": "510 km, ~5,5 óra az A2-n Graz, Maribor, Ljubljana és Koper felé. Osztrák és szlovén matricák szükségesek.",
+      "other": "Nyáron közvetlen FlixBus, vagy vonat Triesztbe/Ljubljanába"
+    },
+    {
+      "from": "Budapest",
+      "car": "600 km, ~6 óra az M7-en a Letenyei határig, A4/A6 Zágráb és Rijeka érintésével, majd az Isztriai Y-on keresztül. Magyar matrica és horvát útdíjak szükségesek.",
+      "other": "Közvetlen FlixBus Umagba (kb. 9 óra)"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "130 km, ~1,5-2 óra az A1-en Koperig, majd a 11-es út. Szlovén matrica szükséges. Nyáron gyakoriak a határátlépési késések Dragonjánál.",
+      "other": "Közvetlen busz (kb. 2,5 óra) vagy megosztott transzfer (pl. GoOpti)"
+    },
+    {
+      "from": "Prága",
+      "car": "800 km, ~9-10 óra Linz, Salzburg és az A10 érintésével. Cseh, osztrák és szlovén matricák, valamint osztrák alagútdíjak szükségesek.",
+      "other": "Vonat Rijekába vagy Ljubljanába, majd busz, vagy nyáron közvetlen busz"
+    },
+    {
+      "from": "Krakkó",
+      "car": "950 km, ~10,5 óra az A4, Ostrava, Bécs, Graz és Ljubljana érintésével. Lengyel útdíjak, valamint cseh, osztrák és szlovén matricák szükségesek.",
+      "other": "Repülőút Bécsbe vagy Velencébe, majd busz, vagy nyáron közvetlen busz"
+    }
+  ],
+  "whenToGo": "Umag turisztikai szezonja májustól októberig tart. Július és augusztus a legmelegebb hónapok, nappali hőmérsékletük 30°C körül van, a tenger hőmérséklete pedig eléri a 26°C-ot. Ez a legzsúfoltabb és legdrágább időszak is, különösen az ATP tenisztorna idején július végén. Június és szeptember jobb egyensúlyt kínál a meleg idő, alacsonyabb árak és kevesebb tömeg között, a szeptemberi tenger hőmérséklete még mindig kellemes az úszáshoz. November és április között a város nagyon csendes; a legtöbb üdülőszálloda, strandbár és szezonális étterem bezár, bár a tengerparti sétányok nyitva maradnak sétáláshoz és kerékpározáshoz.",
+  "faq": [
+    {
+      "question": "Érdemes-e meglátogatni Umagot?",
+      "answer": "Igen, különösen, ha üdülőhelyi típusú nyaralásra vágyik, vagy Közép-Európából érkezik autóval. Hiányzik belőle Rovinj vagy Poreč kiterjedt történelmi építészete, de kiváló sportlétesítményekben, családi üdülőhelyekben és hozzáférhető tengerpartokban."
+    },
+    {
+      "question": "Hány napra van szükségem Umagban?",
+      "answer": "Három-öt nap ideális egy átlagos strandolós és pihenős utazáshoz. Ha bázisként használja Isztria belső részének vagy a közeli tengerparti városok felfedezéséhez, akkor egy teljes hét ajánlott."
+    },
+    {
+      "question": "Melyik a legjobb strand Umagban?",
+      "answer": "A Laguna Stella Maris a legnépszerűbb, félhold alakú kavicsos és mesterséges homokos parttal, sekély vízzel. Katoro és Polinézia széles betonozott teraszokat és sziklás szakaszokat kínál tiszta vízzel."
+    },
+    {
+      "question": "Szükségem van autóra Umagban?",
+      "answer": "Nem szükséges autó, ha a fő üdülőövezetekben marad, mivel egy turisztikai kisvonat köti össze Katorót és Stella Marist a városközponttal. Azonban erősen ajánlott autóval bejárni Isztriát napközben."
+    },
+    {
+      "question": "Hol tudok parkolni Umagban?",
+      "answer": "A város zónásított nyilvános parkolási rendszert üzemeltet, nagy fizetős parkolók találhatók a buszpályaudvar és a marina közelében, közvetlenül a gyalogos óváros szélén. A legtöbb nagyobb szálloda és üdülőhely északabbra tartalmaz parkolót, bár néhány napi díjat számol fel."
+    },
+    {
+      "question": "Jó Umag családoknak?",
+      "answer": "Igen, Umag az egyik legcsaládbarátabb úti cél Isztriában. Az északi üdülőhelyek dedikált gyermekanimációt, sekély tengerparti szakaszokat, játszótereket és nagy medencekomplexumokat kínálnak, amelyek a fiatal látogatók igényeihez igazodnak."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Egy pillantásra",
+    "whereToStay": "Hol érdemes megszállni Umagban",
+    "gettingThere": "Hogyan juthat el Umagba",
+    "whenToGo": "Mikor érdemes utazni",
+    "guides": "Umag útikalauzok",
+    "faq": "Umag Gyakran Ismételt Kérdések",
+    "groups": {
+      "gettingAround": "Közlekedés és parkolás",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor érdemes utazni",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Ételek és italok",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "umag",
+  "language": "hu",
+  "updatedAt": "2026-10-16T11:38:12.125Z"
+}

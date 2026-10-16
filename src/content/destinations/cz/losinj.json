@@ -1,0 +1,153 @@
+{
+  "title": "Lošinj: Průvodce cestováním, pláže, oblasti a jak se tam dostat",
+  "metaDescription": "Naplánujte si cestu na Lošinj, Chorvatsko. Porovnejte nejlepší oblasti k pobytu, najděte cestovní trasy, informace o trajektech, podrobnosti o parkování a nejlepší pláže.",
+  "intro": "Lošinj je severochorvatský ostrov v Kvarnerském zálivu, známý svými hustými borovicovými lesy, křišťálově čistou vodou a historickými přímořskými městy. Láká cestovatele hledající přírodu, wellness a outdoorové aktivity, jako je cyklistika a plavání. Ostrov je spojen se sousedním Cresa malým otočným mostem v Osoru, takže návštěvníci musí nejprve jet trajektem z pevniny nebo ostrova Krk na Cres, než se vydají na jih.\n\nLetní měsíce od června do září nabízejí nejlepší počasí na koupání, i když jaro a podzim jsou ideální pro pěší turistiku a cyklistiku. Ubytování sahá od velkých lázeňských resortů v zátoce Čikat po soukromé apartmány v centrech Mali Lošinj a Veli Lošinj, kam je zakázán vjezd aut. Návštěvníci přijíždějící autem by měli počítat s čekacími dobami na trajekt o víkendech v červenci a srpnu.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "Červen až září"
+    },
+    {
+      "label": "Teplota moře v srpnu",
+      "value": "25°C až 26°C"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Letiště Rijeka (RJK), 85 km + trajekt"
+    },
+    {
+      "label": "Hlavní typ pláží",
+      "value": "Oblázkové, skalnaté a dlážděné terasy"
+    },
+    {
+      "label": "Cenová hladina",
+      "value": "O 15-20 % vyšší než chorvatský průměr"
+    },
+    {
+      "label": "Staré město/centrum",
+      "value": "Bez aut a velmi dobře průchozí"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centrum Mali Lošinj",
+      "bestFor": "Pro návštěvníky poprvé hledající přístup k restauracím a výletům",
+      "parking": "Velká placená veřejná parkoviště mimo pěší zónu",
+      "beach": "15-20 minut chůze na Valdarke nebo Sveti Martin",
+      "summary": "Největší město ostrova se pyšní rušným přístavem lemovaným restauracemi, kavárnami a obchody. Slouží jako hlavní centrum pro dopravu a lodní výlety, i když pobyt zde vyžaduje chůzi nebo jízdu na pláže."
+    },
+    {
+      "name": "Zátoka Čikat",
+      "bestFor": "Pro luxusní cestovatele a rodiny hledající okamžitý přístup k pláži",
+      "parking": "Soukromé hotelové parkování; veřejná parkoviště se rychle zaplní",
+      "beach": "Přímý přístup k písečným místům, oblázkům a betonovým terasám",
+      "summary": "Tato luxusní oblast, nacházející se západně od Mali Lošinj, je obklopena hustými borovicovými lesy a nabízí špičkové hotely. Přímořská promenáda spojuje pláže, nabízí přirozený stín a mělké oblasti pro plavání."
+    },
+    {
+      "name": "Veli Lošinj",
+      "bestFor": "Pro páry a cestovatele hledající klidnější prostředí",
+      "parking": "Centrální placené veřejné parkoviště u vjezdu do města",
+      "beach": "10 minut chůze na Rovenskou (oblázková) nebo skalnaté plošiny",
+      "summary": "Navzdory svému jménu, které znamená ‚velký‘, je toto město menší a tišší než Mali Lošinj. Je známé svým pastelovým přístavem, centrem mořské biologie a pomalejším tempem života."
+    },
+    {
+      "name": "Sunčana Uvala (Slunečná zátoka)",
+      "bestFor": "Pro rodiny s dětmi a hosty resortů",
+      "parking": "Většinou vyhrazeno pro hotelové hosty; omezený počet veřejných míst",
+      "beach": "Přímý přístup na Veli Žal (oblázková) a Borik (skalnatá)",
+      "summary": "Tato zátoka, nacházející se jižně od Mali Lošinj, je dominována velkými rodinnými resorty a rekreačními zařízeními. Pláže zde mají pozvolný vstup do moře, což je ideální pro mladší plavce."
+    },
+    {
+      "name": "Nerezine",
+      "bestFor": "Pro turisty a cestovatele s omezeným rozpočtem",
+      "parking": "Snadné parkování na ulici a obvykle dostupná bezplatná parkoviště",
+      "beach": "5-10 minut chůze na místní oblázkové a betonové pláže",
+      "summary": "Nerezine, první osada po překročení mostu z Cresu, je klidná pobřežní vesnice. Leží na úpatí hory Osoršćica a nabízí přímý přístup k nejlepším turistickým stezkám ostrova."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Mnichov",
+      "car": "580 km, ~8 hodin přes A10, tunel Karawanken, Rupa, trajekt Valbiska-Merag. Rakouské/slovinské dálniční známky, mýto za tunel, poplatek za trajekt.",
+      "other": "Let do Rijeky (RJK), následně autobus a trajekt"
+    },
+    {
+      "from": "Vídeň",
+      "car": "530 km, ~7.5 hodin přes Graz, Maribor, Záhřeb, trajekt Valbiska-Merag. Rakouské/slovinské dálniční známky, chorvatské mýtné, poplatek za trajekt.",
+      "other": "Flixbus do Rijeky, poté místní autobus nebo katamarán do Mali Lošinj"
+    },
+    {
+      "from": "Budapešť",
+      "car": "540 km, ~7.5 hodin přes M7 do Záhřebu, A6 do Rijeky, trajekt Valbiska-Merag. Maďarská dálniční známka, chorvatské mýtné, poplatek za trajekt.",
+      "other": "Vlakem do Záhřebu, poté meziměstský autobus do Mali Lošinj"
+    },
+    {
+      "from": "Lublaň",
+      "car": "200 km, ~4.5 hodin přes Postojnou, Ilirskou Bistrici, trajekt Brestova-Porozina. Slovinská dálniční známka, poplatek za trajekt.",
+      "other": "Přímý sezónní autobus do Mali Lošinj"
+    },
+    {
+      "from": "Praha",
+      "car": "850 km, ~11 hodin přes Vídeň, Graz, Maribor, Záhřeb, trajekt Valbiska-Merag. Více dálničních známek/mýtných poplatků, poplatek za trajekt.",
+      "other": "Let do Zadaru nebo Rijeky, následně autobus a trajekt"
+    },
+    {
+      "from": "Krakov",
+      "car": "950 km, ~12 hodin přes Brno, Vídeň, Graz, Maribor, Záhřeb, trajekt Valbiska-Merag. Více dálničních známek/mýtných poplatků, poplatek za trajekt.",
+      "other": "Let do Vídně nebo Zadaru, poté autobusové a trajektové spojení"
+    }
+  ],
+  "whenToGo": "Hlavní turistická sezóna trvá od června do září, kdy je otevřeno téměř všechna zařízení a teplota moře dosahuje 24 °C až 26 °C. Červenec a srpen přinášejí nejvyšší ceny, největší davy a potenciální zpoždění trajektů, takže včasná rezervace je nezbytná. Květen a říjen jsou výrazně klidnější s nižšími cenami ubytování, nabízejí ideální podmínky pro pěší turistiku a cyklistiku, i když moře je často příliš studené na pohodlné koupání. Mnoho hotelů a restaurací se zcela zavírá od listopadu do dubna.",
+  "faq": [
+    {
+      "question": "Stojí Lošinj za návštěvu?",
+      "answer": "Ano, Lošinj je vysoce doporučen pro cestovatele hledající kombinaci wellness, přírody a čistého moře. Jeho mikroklima, husté borovicové lesy a luxusní vybavení ho odlišují od vyprahlejších jaderských ostrovů."
+    },
+    {
+      "question": "Kolik dní potřebuji na Lošinj?",
+      "answer": "Čtyři až pět dní je ideální doba k prozkoumání Lošinje. To umožňuje dostatek času na návštěvu Mali a Veli Lošinj, strávení dne v zátoce Čikat a pěší túru na horu Osoršćica nebo výlet lodí."
+    },
+    {
+      "question": "Která je nejlepší pláž na Lošinji?",
+      "answer": "Veli Žal v Sunčana Uvala je široce považována za nejlepší pláž díky svým čistým oblázkům, vybavení a statusu Modré vlajky. Pro malé písčité plochy a stín borovic je nejlepší volbou zátoka Čikat."
+    },
+    {
+      "question": "Potřebuji auto na Lošinji?",
+      "answer": "Auto nepotřebujete, pokud bydlíte v Mali Lošinj nebo Veli Lošinj, protože města jsou průchozí a spojuje je přímořská promenáda. Auto je však velmi užitečné pro dosažení ostrova z pevniny a prozkoumání odlehlejších zátok."
+    },
+    {
+      "question": "Kde mohu zaparkovat v Mali Lošinj?",
+      "answer": "Veřejné parkoviště se nachází hned za pěší zónou centra města, především na velkém parkovišti u vjezdu do přístavu. Očekávejte, že zaplatíte hodinovou nebo denní sazbu a místa se mohou v červenci a srpnu rychle zaplnit."
+    },
+    {
+      "question": "Je Lošinj vhodný pro rodiny?",
+      "answer": "Ano, Lošinj je vynikající rodinná destinace díky svým bezpečným pěším stezkám, specializovaným rodinným resortům a stinným plážím. Sunčana Uvala a zátoka Čikat nabízejí mělké koupací oblasti a četné aktivity vhodné pro děti."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Stručný přehled",
+    "whereToStay": "Kde se ubytovat na Lošinji",
+    "gettingThere": "Jak se dostat na Lošinj",
+    "whenToGo": "Kdy jet",
+    "guides": "Průvodce Lošinj",
+    "faq": "Často kladené otázky o Lošinji",
+    "groups": {
+      "gettingAround": "Parkování a pohyb po ostrově",
+      "planning": "Plánování a kde se ubytovat",
+      "timing": "Kdy jet",
+      "travelers": "Rodiny, páry a styly cestování",
+      "activities": "Pláže a co dělat",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": "Praktické informace"
+    },
+    "car": "Autem",
+    "other": "Jiné možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "losinj",
+  "language": "cz",
+  "updatedAt": "2026-10-16T13:14:44.298Z"
+}

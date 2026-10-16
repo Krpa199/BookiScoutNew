@@ -1,0 +1,146 @@
+{
+  "title": "Makarska Reiseführer: Strände, Stadtteile & Anreise-Infos",
+  "metaDescription": "Planen Sie Ihre Reise nach Makarska, Kroatien. Entdecken Sie die besten Kiesstrände, die besten Viertel zum Übernachten, Anreiserouten aus Mitteleuropa und Parktipps.",
+  "intro": "Makarska ist ideal für Reisende, die lange Kiesstrände, ein aktives Nachtleben und direkten Zugang zum Berg Biokovo suchen. Sie dient als Handels- und Verkehrszentrum der Makarska Riviera und zieht Sommergäste aus ganz Mitteleuropa an. Die Hauptpromenade ist gesäumt von Cafés, Restaurants und alten Pinienbäumen, die an heißen Sommertagen bis zur Küstenlinie viel natürlichen Schatten spenden.\n\nDie Stadt eignet sich am besten für Familien und Gruppen, die organisierte Strände mit zahlreichen Einrichtungen den abgelegenen Buchten vorziehen. Besucher, die einen ruhigen Rückzugsort suchen, sollten sich in den kleineren umliegenden Dörfern umsehen oder im Mai und Oktober anreisen. Die Hauptsaison bringt starken Küstenverkehr und überfüllte Strände mit sich, womit Juni und September die optimalen Monate für ein Gleichgewicht aus warmen Meerestemperaturen und überschaubaren Besucherzahlen sind.",
+  "quickFacts": [
+    {
+      "label": "Beste Monate",
+      "value": "Juni und September"
+    },
+    {
+      "label": "Meerestemperatur im August",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Nächstgelegener Flughafen",
+      "value": "Split (SPU), 98 km"
+    },
+    {
+      "label": "Hauptstrandtyp",
+      "value": "Kies"
+    },
+    {
+      "label": "Preisniveau",
+      "value": "Etwas über dem kroatischen Durchschnitt"
+    },
+    {
+      "label": "Altstadt",
+      "value": "Begehbar, größtenteils autofreier Kern"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Altstadt (Zentrum)",
+      "bestFor": "Essen gehen, Nachtleben und kulturelle Besichtigungen",
+      "parking": "Sehr begrenzt, auf teure öffentliche Parkplätze (Osejava, Stadtpark) angewiesen",
+      "beach": "10-15 Minuten Fußweg zu den Hauptstränden",
+      "summary": "Der historische Kern zeichnet sich durch enge Steingassen, den Hauptplatz (Kačićev trg) und den Hafen aus. Hier finden sich die meisten Restaurants, aber es kann nachts laut sein."
+    },
+    {
+      "name": "Donja Luka",
+      "bestFor": "Strandzugang und Familien",
+      "parking": "Überfüllte kostenpflichtige Straßen; Hotels mit privaten Parkplätzen bevorzugen",
+      "beach": "Direkter Zugang zum 2 km langen Hauptkiesstrand von Makarska",
+      "summary": "Dieses Viertel erstreckt sich entlang der Hauptbucht nordwestlich des Zentrums. Es ist stark bebaut mit Hotels, Apartmenthäusern und Strandbars."
+    },
+    {
+      "name": "Zelenka",
+      "bestFor": "Preisbewusste Reisende und längere Aufenthalte",
+      "parking": "Einfacher, kostenlose oder inklusive Privatparkplätze zu finden als im Zentrum",
+      "beach": "10-20 Minuten Fußweg bergab (steiler Rückweg)",
+      "summary": "Ein Wohnviertel an den Hängen oberhalb der Hauptstraße. Unterkünfte sind hier in der Regel günstiger, aber der Rückweg vom Strand ist spürbar steil."
+    },
+    {
+      "name": "Veliko Brdo",
+      "bestFor": "Ruhige Aufenthalte, größere Gruppen und Reisende mit Auto",
+      "parking": "Ausreichend private Parkplätze bei den meisten Unterkünften",
+      "beach": "3-5 km Fahrt zu den nächsten Stränden",
+      "summary": "Hoch an den Ausläufern des Biokovo-Gebirges gelegen, besteht dieses Gebiet größtenteils aus modernen Villen mit Pools. Ein Auto ist für Einkäufe und den Strandzugang unerlässlich."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "885 km, 9-10 Stunden über A8, A10 und A1. Benötigt AT- und SLO-Vignetten, plus HR-Mautgebühren.",
+      "other": "Direktflüge nach Split (SPU), dann Bus oder Transfer."
+    },
+    {
+      "from": "Wien",
+      "car": "765 km, 7,5-8,5 Stunden über A2 und HR A1. Benötigt AT- und SLO-Vignetten, plus HR-Mautgebühren.",
+      "other": "Direktflüge nach Split (SPU) oder Nachtzug nach Split."
+    },
+    {
+      "from": "Budapest",
+      "car": "785 km, 7,5-8,5 Stunden über M7 und HR A1. Benötigt HU-Vignette, plus HR-Mautgebühren.",
+      "other": "FlixBus direkt nach Makarska oder Flug nach Split."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "515 km, 5,5-6 Stunden über A2 und HR A1. Benötigt SLO-Vignette, plus HR-Mautgebühren.",
+      "other": "Direktbus oder Zug nach Zagreb/Split, dann Bus nach Makarska."
+    },
+    {
+      "from": "Prag",
+      "car": "1.080 km, 11-12 Stunden über CZ D1, AT A1/A9 und HR A1. Benötigt CZ-, AT-, SLO-Vignetten, plus HR-Mautgebühren.",
+      "other": "Direktflüge nach Split (SPU) mit Smartwings oder Croatia Airlines."
+    },
+    {
+      "from": "Krakau",
+      "car": "1.060 km, 11-12 Stunden über SK D1, HU M7 und HR A1. Benötigt SK- und HU-Vignetten, plus HR-Mautgebühren.",
+      "other": "Flüge nach Split (SPU) mit LOT oder Wizz Air."
+    }
+  ],
+  "whenToGo": "Der Mai markiert den Saisonbeginn mit Tagestemperaturen um 22°C, aber das Meer bleibt kühl (18°C) und einige Strandbars sind noch geschlossen. Im Juni wird das Wasser wärmer (22°C-24°C) und die Einrichtungen sind vollständig geöffnet, ohne extreme Menschenmassen. Juli und August sind Hochsaison mit hohen Temperaturen (30°C+), Meerestemperaturen erreichen 27°C, starkem Verkehr, überfüllten Stränden und Höchstpreisen. Der September bietet eine Rückkehr zu den Besucherzahlen des Junis, aber mit immer noch warmem Meerwasser von der Sommerhitze. Bis Ende Oktober sinken die Temperaturen, die Niederschläge nehmen zu und die meisten saisonalen Restaurants und Hotels schließen für den Winter.",
+  "faq": [
+    {
+      "question": "Lohnt sich ein Besuch?",
+      "answer": "Ja, wenn Sie lange, organisierte Strände und eine lebhafte Abendatmosphäre wünschen. Es ist das Hauptzentrum der Makarska Riviera und bietet hervorragende Einrichtungen, ist aber nicht empfehlenswert für diejenigen, die in der Hochsaison einen ruhigen, abgelegenen Urlaub suchen."
+    },
+    {
+      "question": "Wie viele Tage?",
+      "answer": "Fünf bis sieben Tage sind typisch für einen Sommerbadeurlaub. Wenn Sie eine Roadtrip entlang der dalmatinischen Küste machen, reichen zwei oder drei Tage aus, um die Stadt zu sehen und den Berg Biokovo zu erwandern."
+    },
+    {
+      "question": "Bester Strand?",
+      "answer": "Donja Luka ist der wichtigste, familienfreundliche Kiesstrand mit Liegen und Schatten von Pinienbäumen. Für eine natürlichere Umgebung ist der Strand Nugal ein malerischer 30-minütiger Spaziergang durch den Osejava-Wald und wird als gemischter/FKK-Strand genutzt."
+    },
+    {
+      "question": "Brauche ich ein Auto?",
+      "answer": "Sie benötigen kein Auto, wenn Sie im Stadtzentrum oder in der Nähe von Donja Luka übernachten, da die Stadt sehr gut zu Fuß erkundbar ist. Ein Auto ist jedoch notwendig, wenn Sie eine Unterkunft in den Vororten am Hang buchen oder den Naturpark Biokovo auf eigene Faust erkunden möchten."
+    },
+    {
+      "question": "Wo parken?",
+      "answer": "Das Parken in Makarska ist im Sommer notorisch schwierig und teuer. Suchen Sie nach Unterkünften mit garantiertem Privatparkplatz; andernfalls müssen Sie auf kostenpflichtige öffentliche Parkplätze in der Nähe der Osejava-Halbinsel oder des städtischen Sportzentrums zurückgreifen."
+    },
+    {
+      "question": "Ist es gut für Familien?",
+      "answer": "Ja, Makarska ist bei Familien sehr beliebt, dank seiner flach abfallenden Kiesstrände und schattenspendenden Pinienwälder. Die Stadt bietet zahlreiche familienfreundliche Aktivitäten, Wasserparks und einfachen Zugang zu Supermärkten und Apotheken."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Auf einen Blick",
+    "whereToStay": "Wo übernachten in Makarska",
+    "gettingThere": "Anreise nach Makarska",
+    "whenToGo": "Beste Reisezeit",
+    "guides": "Makarska Guides",
+    "faq": "Makarska FAQ",
+    "groups": {
+      "gettingAround": "Parken & Fortbewegung",
+      "planning": "Planung & Unterkunft",
+      "timing": "Reisezeit",
+      "travelers": "Familien, Paare & Reisestile",
+      "activities": "Strände & Aktivitäten",
+      "food": "Essen & Trinken",
+      "comparisons": "Vergleiche",
+      "practical": "Praktische Informationen"
+    },
+    "car": "Mit dem Auto",
+    "other": "Weitere Optionen",
+    "bestFor": "Am besten für",
+    "parking": "Parken",
+    "beach": "Strand"
+  },
+  "destination": "makarska",
+  "language": "de",
+  "updatedAt": "2026-10-16T10:14:52.119Z"
+}

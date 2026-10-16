@@ -1,0 +1,146 @@
+{
+  "title": "Pula Útikalauz: Strandok, Parkolás és Szálláslehetőségek",
+  "metaDescription": "Tervezzen utat Pulába, Horvátországba. Ismerje meg a legjobb szálláshelyeket, az európai autós útvonalakat, a parkolási lehetőségeket, a strandokat és a látogatás legjobb idejét.",
+  "intro": "Pula az Isztriai-félsziget fő kapuja, mely vonzza a történelem kedvelőit és a nyári nyaralókat. A várost jól megőrzött római amfiteátruma és sziklás partszakaszokkal, valamint kavicsos öblökkel jellemezhető tengerpartja határozza meg. Azok a látogatók, akik régészeti lelőhelyek és könnyen megközelíthető tengerparti üdülőhelyek kombinációját keresik, úgy találják, hogy a terület kiválóan alkalmas rövid tartózkodásra vagy szélesebb körű regionális felfedezések kiindulópontjaként.\n\nA legkedvezőbb körülmények május végétől szeptemberig tartanak, amikor a kompok gyakran közlekednek, és minden turisztikai létesítmény nyitva tart. A nyár magas hőmérsékletet és jelentős tömeget hoz magával, különösen a Verudela-félszigeten. Azok a látogatók, akik az alacsonyabb szállásárakat és a mérsékelt időjárást részesítik előnyben, júniust vagy szeptembert célozzák meg, elkerülve a júliusi és augusztusi csúcsforgalmat.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Június és szeptember"
+    },
+    {
+      "label": "Augusztusi tengervíz hőmérséklet",
+      "value": "25°C és 27°C között"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Pulai repülőtér (PUY), 8 km a központtól"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Kavicsos, sziklás és betonozott"
+    },
+    {
+      "label": "Árszint",
+      "value": "Átlagos Isztriára, kissé Dubrovnik alatt"
+    },
+    {
+      "label": "Óváros bejárhatósága",
+      "value": "Gyalogos zóna, korlátozott autós forgalom"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Pula belváros / Óváros",
+      "bestFor": "Történelmi utazásokhoz, étkezéshez és tömegközlekedési kapcsolatokhoz",
+      "parking": "Nehézkes; nagy, fizetős parkolók szükségesek a gyalogos zónán kívül",
+      "beach": "2-3 km-re (buszút szükséges)",
+      "summary": "A történelmi mag a római amfiteátrum és a fórum köré összpontosul. Nincs közvetlen strandkapcsolata, de itt található a legtöbb étterem, bár és múzeum."
+    },
+    {
+      "name": "Verudela-félsziget",
+      "bestFor": "Családoknak és üdülőtelep-jellegű nyaraláshoz",
+      "parking": "Bőségesen elérhető a szállodáknál és a kijelölt üdülőparkolóknál",
+      "beach": "Közvetlen hozzáférés kavicsos öblökhöz (Hawaii strand, Ambrela)",
+      "summary": "5 km-re délre a központtól található, ez a terület főként nagy üdülőkomplexumokból és apartmanokból áll. Itt található Pula legkönnyebben megközelíthető kavicsos strandjai és a helyi akvárium."
+    },
+    {
+      "name": "Stoja-félsziget",
+      "bestFor": "Kempingezőknek és szabadtéri kikapcsolódáshoz",
+      "parking": "Egyszerű utcai parkolás és nagy kempinglétesítmények",
+      "beach": "Közvetlen hozzáférés sziklás partszakaszokhoz és a Valkane kavicsos strandhoz",
+      "summary": "Stoja a városközponttól nyugatra fekszik, és egy nagy kempingnek, egy bevásárlóközpontnak és sziklás tengerparti ösvényeknek ad otthont. A terület csendesebb, mint Verudela, és vonzza azokat a látogatókat, akik az önellátást vagy a kempingezést részesítik előnyben."
+    },
+    {
+      "name": "Pješčana Uvala",
+      "bestFor": "Pároknak és családoknak, akik csendesebb, falusias hangulatra vágynak",
+      "parking": "Korlátozott nyilvános parkolás; a legjobb szálláson keresztül biztosítani",
+      "beach": "Rövid séta egy védett kavicsos/homokos öbölhöz",
+      "summary": "Pula déli részén található lakóövezet, mely egy védett öböl köré épült. Nyugodtabb alternatívát kínál a nagy üdülőhelyekhez képest, kiváló minőségű helyi stranddal és több tengerparti étteremmel."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "590 km, 6,5 óra az A10 és A1 autópályán. Osztrák és szlovén autópálya-matrica, valamint Karawanks alagút és horvát útdíjak szükségesek.",
+      "other": "Közvetlen járat a Lufthansával vagy szezonális Flixbusz"
+    },
+    {
+      "from": "Bécs",
+      "car": "580 km, 6 óra az A2 és A1 autópályán. Osztrák és szlovén autópálya-matrica, valamint horvát útdíjak szükségesek.",
+      "other": "Közvetlen szezonális járat a Ryanairrel vagy az Austrian Airlines-szal"
+    },
+    {
+      "from": "Budapest",
+      "car": "610 km, 6,5 óra az M7 és HR A4/A6 autópályán. Magyar e-matrica és horvát útdíjak szükségesek.",
+      "other": "Közvetlen busz Flixbusz járattal"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "200 km, 2,5 óra az A1 autópályán. Szlovén autópálya-matrica és horvát útdíjak szükségesek.",
+      "other": "Közvetlen napi busz Nomagóval vagy Flixbusz járattal"
+    },
+    {
+      "from": "Prága",
+      "car": "880 km, 10 óra a CZ D1, AT A9, SI A1 autópályákon. Cseh, osztrák, szlovén autópálya-matrica, alagút és horvát útdíjak szükségesek.",
+      "other": "Szezonális közvetlen járat vagy vonat Rijekába, majd busz"
+    },
+    {
+      "from": "Krakkó",
+      "car": "1050 km, 11 óra a PL A4, CZ D1, AT A1/A2, SI A1 autópályákon. Cseh, osztrák, szlovén autópálya-matrica, valamint lengyel és horvát útdíjak szükségesek.",
+      "other": "Szezonális járatok a LOT/Ryanairrel vagy több átszállásos buszjáratok"
+    }
+  ],
+  "whenToGo": "Június és szeptember kínálja a legjobb egyensúlyt a meleg tengervíz (körülbelül 23°C), a mérsékelt árak és a kevesebb tömeg között. Júliusban és augusztusban a tengervíz hőmérséklete 25°C és 27°C között tetőzik, ami egybeesik a legmagasabb szállásárakkal, a nagy forgalommal és a teljes kapacitással üzemelő kompjáratokkal. Májusban és októberben a víz hűvösebb, 18°C és 20°C körül van, ami kevésbé megbízhatóvá teszi az úszást, bár a fő régészeti lelőhelyek nyitva maradnak a nyári hőség nélkül. A téli hónapokban, novembertől áprilisig a hőmérséklet jelentősen csökken, ami jelentős árcsökkentést hoz, de számos tengerparti vállalkozás, szálloda és szezonális repülőjárat teljesen felfüggeszti működését.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni Pulát?",
+      "answer": "Igen, különösen jól megőrzött római építészete és könnyen megközelíthető tengerparti üdülőhelyei miatt. Önálló úti célként vagy az Isztriai-félsziget felfedezésének kiindulópontjaként is jól funkcionál."
+    },
+    {
+      "question": "Hány napra van szükségem Pulában?",
+      "answer": "Két-három nap elegendő a város megtekintéséhez. Ez lehetővé tesz egy napot az amfiteátrum és az Óváros megtekintésére, és további egy-két napot a strandokra vagy egy hajókirándulásra a Brijuni-szigetekre."
+    },
+    {
+      "question": "Melyik a legjobb strand Pulában?",
+      "answer": "A Verudela-félszigeten található Hawaii strandot széles körben a legjobb választásnak tartják. Lejtős kavicsos parttal, tiszta vízzel rendelkezik, és magas sziklás sziklák veszik körül."
+    },
+    {
+      "question": "Szükségem van autóra Pulában?",
+      "answer": "Nincs szükség autóra, ha az Óvárosban vagy a Verudela-félszigeten száll meg, mivel a helyi buszok megbízhatóan összekötik ezeket a területeket. Azonban erősen ajánlott járművet bérelni a dombtetőn lévő falvak és a távoli strandok látogatásához a tágabb isztriai régióban."
+    },
+    {
+      "question": "Hol parkoljak Pulában?",
+      "answer": "A Karolina és Mandrač parkolók a legpraktikusabb lehetőségek a központ látogatásához. Mindkettő nagy, fizetős, szabadtéri parkoló az Óváros gyalogos zónáján kívül, minimalizálva a szűk, egyirányú utcákon való áthaladást."
+    },
+    {
+      "question": "Jó Pula családoknak?",
+      "answer": "Igen, a terület kiváló infrastruktúrát biztosít gyermekekkel való utazáshoz. A Verudela-félsziget nyugodt, családbarát kavicsos strandokkal, sekély úszózónákkal és olyan látványosságokkal rendelkezik, mint a Pulai Akvárium."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Áttekintés",
+    "whereToStay": "Hol szálljunk meg Pulában",
+    "gettingThere": "Odajutás Pulába",
+    "whenToGo": "Mikor utazzunk",
+    "guides": "Pula útikalauzok",
+    "faq": "Pula GYIK",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor utazzunk",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Étel és ital",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "pula",
+  "language": "hu",
+  "updatedAt": "2026-10-16T10:31:31.472Z"
+}

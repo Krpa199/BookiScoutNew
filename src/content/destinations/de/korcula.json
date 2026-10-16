@@ -1,0 +1,146 @@
+{
+  "title": "Korčula Reiseführer: Strände, Parken & Unterkünfte",
+  "metaDescription": "Planen Sie Ihre Reise nach Korčula, Kroatien. Entdecken Sie die besten Gegenden für Unterkünfte, Anfahrtswege aus Europa, Fährinformationen, Parkmöglichkeiten und Top-Strände.",
+  "intro": "Korčula zieht Reisende an, die historische Architektur, einzigartigen lokalen Wein und eine ruhigere Atmosphäre als das benachbarte Hvar suchen. Die Insel zeichnet sich durch dichte Pinienwälder, felsige Küsten und eine befestigte Hauptstadt auf einer kleinen Halbinsel aus. Besucher verbringen ihre Zeit damit, enge Steingassen zu erkunden, familiengeführte Weingüter im Inselinneren zu besuchen und in Kiesel- oder seltenen Sandbuchten zu schwimmen.\n\nDie Hauptsaison dauert von Spätfrühling bis Frühherbst. Die meisten mit dem Auto anreisenden Besucher erreichen die Insel über die Autofähre von Orebić, die nach Überquerung der Pelješac-Brücke erreicht wird, oder über die längere Autofähre von Split. Die Insel bietet sowohl kurze Aufenthalte, die sich auf Korčula-Stadt konzentrieren, als auch längere Ferien, die ein Auto erfordern, um westliche Siedlungen wie Vela Luka zu erkunden.",
+  "quickFacts": [
+    {
+      "label": "Beste Monate",
+      "value": "Juni bis September"
+    },
+    {
+      "label": "Meerestemperatur im August",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Nächster Flughafen",
+      "value": "Dubrovnik (DBV), 130 km + 15 Min. Fähre"
+    },
+    {
+      "label": "Hauptstrandtyp",
+      "value": "Kies, Felsplatten, seltener Sand (Lumbarda)"
+    },
+    {
+      "label": "Preisniveau",
+      "value": "Überdurchschnittlich für Kroatien"
+    },
+    {
+      "label": "Begehbarkeit",
+      "value": "Die Altstadt ist komplett autofrei"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Korčula Stadt",
+      "bestFor": "Erstbesucher und Geschichtsliebhaber",
+      "parking": "Kostenpflichtige Parkplätze außerhalb der Fußgängerzone; hohe Tagesgebühren",
+      "beach": "5 Gehminuten zum Banje (Kies) oder Felsbuchten",
+      "summary": "Das historische und kulturelle Zentrum der Insel. Es bietet die höchste Konzentration an Restaurants, Museen und Abfahrten für Bootstouren."
+    },
+    {
+      "name": "Lumbarda",
+      "bestFor": "Familien mit Kindern und Weinliebhaber",
+      "parking": "Generell kostenlose oder günstige Straßenparkplätze",
+      "beach": "Direkter Zugang zu Vela Pržina und Bilin Žal (Sand)",
+      "summary": "Ein entspanntes Dorf, 6 Kilometer von Korčula-Stadt entfernt. Es ist bekannt für die Grk-Weinproduktion und die einzigen natürlichen Sandstrände der Insel."
+    },
+    {
+      "name": "Vela Luka",
+      "bestFor": "Reisende, die eine ruhigere, lokalere Umgebung suchen",
+      "parking": "Reichlich und meist kostenlos rund um die Unterkünfte",
+      "beach": "Kurze Bootsfahrt zur Insel Proizd (klares Kies/Fels)",
+      "summary": "Die größte Stadt der Insel, am westlichen Ende gelegen. Sie dient als Haupthafen für Autofähren, die direkt von Split ankommen."
+    },
+    {
+      "name": "Žrnovo & Dörfer im Inselinneren",
+      "bestFor": "Wanderer, Feinschmecker und Ruhesuchende",
+      "parking": "Einfach und kostenlos bei den meisten Pensionen",
+      "beach": "10-15 Minuten Fahrt zu Kiesbuchten an der Südküste",
+      "summary": "Eine Ansammlung kleiner, traditioneller Weiler, die etwas abseits des Meeres liegen. Die Gegend ist bekannt für Agrotourismus, traditionelle Makkaronigerichte und bewaldete Wanderwege."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Munich",
+      "car": "1.050 km, 12-13 Stunden über A8, AT (Vignetten/Maut), SI (Vignette), HR A1 Maut, Pelješac-Brücke, Fähre Orebić",
+      "other": "Flug nach Split (SPU) oder Dubrovnik (DBV), dann Katamaran"
+    },
+    {
+      "from": "Vienna",
+      "car": "850 km, 10-11 Stunden über AT A2 (Vignette), SI (Vignette), HR A1 Maut, Pelješac-Brücke, Fähre Orebić",
+      "other": "Flug nach Split (SPU) oder Dubrovnik (DBV), dann Katamaran"
+    },
+    {
+      "from": "Budapest",
+      "car": "850 km, 10-11 Stunden über HU M7 (Vignette), HR A4/A1 Maut, Pelješac-Brücke, Fähre Orebić",
+      "other": "Flug nach Zadar oder Split, dann Bus und Katamaran"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "600 km, 7-8 Stunden über SI A2 (Vignette), HR A1 Maut, Pelješac-Brücke, Fähre Orebić",
+      "other": "Bus nach Split oder Dubrovnik, gefolgt von einem Fußpassagierkatamaran"
+    },
+    {
+      "from": "Prague",
+      "car": "1.150 km, 13-14 Stunden über CZ/AT/SI Vignetten, HR A1 Maut, Pelješac-Brücke, Fähre Orebić",
+      "other": "Flug nach Split (SPU), dann Autofähre nach Vela Luka"
+    },
+    {
+      "from": "Kraków",
+      "car": "1.200 km, 13-14 Stunden über SK/HU Vignetten, HR A4/A1 Maut, Pelješac-Brücke, Fähre Orebić",
+      "other": "Flug nach Split (SPU), dann Katamaran oder Autofähre nach Korčula"
+    }
+  ],
+  "whenToGo": "Juni und September bieten Meerestemperaturen um 23-25°C, mildes Wetter und vollen Service ohne Hochsaison-Andrang. Juli und August bringen Hochsommerhitze, 26°C Wassertemperaturen, die höchsten Unterkunftspreise und belebte Fähren. Oktober und Mai zeigen abkühlende Gewässer (19-21°C), reduzierte Fährpläne und viele saisonale Restaurants schließen, was diese Monate besser zum Wandern und für historische Besichtigungen als zum Schwimmen macht.",
+  "faq": [
+    {
+      "question": "Ist Korčula einen Besuch wert?",
+      "answer": "Ja, wegen ihrer gut erhaltenen mittelalterlichen Stadt, der einzigartigen Weinkultur und des klaren Küstenwassers. Sie bietet eine ruhigere, historischere Alternative zur Partyatmosphäre der Nachbarinseln."
+    },
+    {
+      "question": "Wie viele Tage braucht man in Korčula?",
+      "answer": "Drei bis vier Tage sind optimal für einen Besuch. Dies bietet genügend Zeit, Korčula-Stadt zu besichtigen, die Weinberge von Lumbarda zu besuchen und zu einigen südlichen Kiesstränden zu fahren."
+    },
+    {
+      "question": "Was ist der beste Strand in Korčula?",
+      "answer": "Vela Pržina und Bilin Žal in Lumbarda sind die besten Sandstrände und daher beliebt bei Familien. Pupnatska Luka an der Südküste gilt weithin als der beste Kieselstrand wegen seines klaren Wassers und der bewaldeten Kulisse."
+    },
+    {
+      "question": "Brauche ich ein Auto in Korčula?",
+      "answer": "Ein Auto ist nicht nötig, wenn Sie nur in Korčula-Stadt bleiben und Bootstouren machen möchten. Ein Fahrzeug ist jedoch sehr empfehlenswert, um die versteckten Buchten der Insel, die Weinberge im Inselinneren und die westlichen Städte zu erkunden."
+    },
+    {
+      "question": "Wo kann ich in Korčula-Stadt parken?",
+      "answer": "Korčula-Stadt verfügt über kostenpflichtige Parkplätze außerhalb der Fußgängerzone, wie den Parkplatz am Osthafen oder in der Nähe des Tommy-Supermarkts. Kleinere Städte und Dörfer auf der Insel bieten in der Regel kostenlose oder günstigere Straßenparkplätze."
+    },
+    {
+      "question": "Ist Korčula gut für Familien?",
+      "answer": "Ja, die Insel ist sehr sicher und bietet mehrere familienfreundliche Bereiche. Lumbarda ist besonders beliebt bei Familien wegen seiner flachen Sandstrände und der entspannten, begehbaren Umgebung."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Auf einen Blick",
+    "whereToStay": "Übernachten in Korčula",
+    "gettingThere": "Anreise nach Korčula",
+    "whenToGo": "Beste Reisezeit",
+    "guides": "Korčula Reiseführer",
+    "faq": "Korčula FAQ",
+    "groups": {
+      "gettingAround": "Parken & Fortbewegung",
+      "planning": "Planung & Unterkünfte",
+      "timing": "Wann reisen",
+      "travelers": "Familien, Paare & Reisestile",
+      "activities": "Strände & Aktivitäten",
+      "food": "Essen & Trinken",
+      "comparisons": "Vergleiche",
+      "practical": "Praktische Infos"
+    },
+    "car": "Mit dem Auto",
+    "other": "Weitere Optionen",
+    "bestFor": "Am besten für",
+    "parking": "Parken",
+    "beach": "Strand"
+  },
+  "destination": "korcula",
+  "language": "de",
+  "updatedAt": "2026-10-16T10:00:14.601Z"
+}

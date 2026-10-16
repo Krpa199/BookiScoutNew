@@ -1,0 +1,146 @@
+{
+  "title": "Pula: Turistički vodič – plaže, parking i gdje odsjesti",
+  "metaDescription": "Planirajte putovanje u Pulu, Hrvatska. Saznajte o najboljim područjima za boravak, cestovnim rutama iz Europe, mogućnostima parkiranja, plažama i najboljem vremenu za posjet.",
+  "intro": "Pula služi kao glavni ulaz na istarski poluotok, privlačeći ljubitelje povijesti i ljetne turiste. Grad je definiran svojim dobro očuvanim rimskim amfiteatrom i obalom koju karakteriziraju stjenovite obale i šljunčane uvale. Posjetitelji koji traže kombinaciju arheoloških nalazišta i dostupnih obalnih odmarališta naći će ovo područje dobro prilagođeno za kratki boravak ili kao bazu za šire regionalno istraživanje.\n\nNajpovoljniji uvjeti vladaju od kraja svibnja do rujna, kada trajekti često prometuju i svi turistički objekti ostaju otvoreni. Ljeto donosi visoke temperature i značajne gužve, posebno duž poluotoka Verudela. Posjetitelji koji daju prednost nižim cijenama smještaja i umjerenom vremenu trebali bi ciljati lipanj ili rujan, izbjegavajući vrhunac gužve u srpnju i kolovozu.",
+  "quickFacts": [
+    {
+      "label": "Najbolji mjeseci",
+      "value": "Lipanj i rujan"
+    },
+    {
+      "label": "Temperatura mora u kolovozu",
+      "value": "25°C do 27°C"
+    },
+    {
+      "label": "Najbliža zračna luka",
+      "value": "Zračna luka Pula (PUY), 8 km od centra"
+    },
+    {
+      "label": "Glavni tip plaže",
+      "value": "Šljunčana, stjenovita i betonske ploče"
+    },
+    {
+      "label": "Razina cijena",
+      "value": "Prosječna za Istru, nešto niža od Dubrovnika"
+    },
+    {
+      "label": "Prohodnost Starog grada",
+      "value": "Pješačka zona, ograničeno za automobile"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centar Pule / Stari grad",
+      "bestFor": "Putovanja usmjerena na povijest, gastronomija i prometne veze",
+      "parking": "Teško; zahtijeva velika plaćena parkirališta izvan pješačke zone",
+      "beach": "2 do 3 km udaljenosti (potrebna vožnja autobusom)",
+      "summary": "Povijesna jezgra usredotočena je oko Rimskog amfiteatra i foruma. Nedostaje joj neposredan pristup plaži, ali nudi najveću koncentraciju restorana, barova i muzeja."
+    },
+    {
+      "name": "Poluotok Verudela",
+      "bestFor": "Obitelji i odmor u odmaralištu",
+      "parking": "Dostupno u hotelima i namjenskim parkiralištima odmarališta",
+      "beach": "Neposredan pristup šljunčanim uvalama (Plaža Hawaii, Ambrela)",
+      "summary": "Nalazi se 5 km južno od centra, ovo se područje uglavnom sastoji od velikih odmarališnih kompleksa i apartmana za najam. Nudi neke od najpristupačnijih šljunčanih plaža u Puli i lokalni akvarij."
+    },
+    {
+      "name": "Poluotok Stoja",
+      "bestFor": "Kamperi i rekreacija na otvorenom",
+      "parking": "Jednostavno parkiranje na ulici i veliki kampovi",
+      "beach": "Neposredan pristup stjenovitim obalama i šljunčanoj plaži Valkane",
+      "summary": "Stoja se nalazi zapadno od centra grada i ugošćuje veliki kamp, trgovački centar i stjenovite obalne staze. Područje je tiše od Verudele i privlačno je posjetiteljima koji preferiraju samostalno kuhanje ili kampiranje."
+    },
+    {
+      "name": "Pješčana Uvala",
+      "bestFor": "Parovi i obitelji koji žele mirniji seoski ugođaj",
+      "parking": "Ograničen javni parking; najbolje osigurati putem smještaja",
+      "beach": "Kratka šetnja do zaštićene šljunčano-pješčane uvale",
+      "summary": "Stambeno naselje smješteno južno od Pule, izgrađeno oko zaštićene uvale. Pruža opušteniju alternativu velikim odmaralištima, s kvalitetnom lokalnom plažom i nekoliko restorana uz more."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "590 km, 6.5 sati preko A10 i A1. Zahtijeva AT i SI vinjete, plus tunel Karavanke i HR cestarine.",
+      "other": "Izravan let s Lufthansom ili sezonski Flixbus"
+    },
+    {
+      "from": "Beč",
+      "car": "580 km, 6 sati preko A2 i A1. Zahtijeva AT i SI vinjete, plus HR cestarine.",
+      "other": "Izravan sezonski let s Ryanairom ili Austrian Airlinesom"
+    },
+    {
+      "from": "Budimpešta",
+      "car": "610 km, 6.5 sati preko M7 i HR A4/A6. Zahtijeva HU e-vinjetu i HR cestarine.",
+      "other": "Izravan autobus putem Flixbusa"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "200 km, 2.5 sata preko A1. Zahtijeva SI vinjetu i HR cestarine.",
+      "other": "Izravan dnevni autobus putem Nomaga ili Flixbusa"
+    },
+    {
+      "from": "Prag",
+      "car": "880 km, 10 sati preko CZ D1, AT A9, SI A1. Zahtijeva CZ, AT, SI vinjete, plus tunel i HR cestarine.",
+      "other": "Sezonski izravan let ili vlak do Rijeke, zatim autobusom"
+    },
+    {
+      "from": "Krakov",
+      "car": "1050 km, 11 sati preko PL A4, CZ D1, AT A1/A2, SI A1. Zahtijeva CZ, AT, SI vinjete, plus PL i HR cestarine.",
+      "other": "Sezonski letovi putem LOT/Ryanaira ili višestruke autobusne rute"
+    }
+  ],
+  "whenToGo": "Lipanj i rujan nude najbolju ravnotežu toplih temperatura mora (oko 23°C), umjerenih cijena i manjih gužvi. Srpanj i kolovoz bilježe vrhunac temperature mora između 25°C i 27°C, što se podudara s maksimalnim cijenama smještaja, gustim prometom i potpuno operativnim redom plovidbe trajekata. Svibanj i listopad nude hladnije vode oko 18°C do 20°C, čineći plivanje manje pouzdanim, iako glavna arheološka nalazišta ostaju otvorena bez ljetnih vrućina. Tijekom zimskih mjeseci od studenog do travnja, temperature značajno padaju, donoseći značajna sniženja cijena, ali uzrokujući da mnogi obalni objekti, hoteli i sezonske zračne linije u potpunosti obustave rad.",
+  "faq": [
+    {
+      "question": "Je li Pula vrijedna posjeta?",
+      "answer": "Da, posebno zbog svoje dobro očuvane rimske arhitekture i dostupnih obalnih odmarališta. Dobro funkcionira kao samostalna destinacija ili kao polazište za istraživanje istarskog poluotoka."
+    },
+    {
+      "question": "Koliko dana trebam u Puli?",
+      "answer": "Dva do tri dana su dovoljna za razgledavanje grada. To omogućuje jedan dan za obilazak amfiteatra i Starog grada, a još jedan ili dva dana za plaže ili izlet brodom do Brijunskih otoka."
+    },
+    {
+      "question": "Koja je najbolja plaža u Puli?",
+      "answer": "Plaža Hawaii na poluotoku Verudela naširoko se smatra najboljom opcijom. Karakteriziraju je nagnuta šljunčana obala, čista voda i okružena je visokim stjenovitim liticama."
+    },
+    {
+      "question": "Trebam li auto u Puli?",
+      "answer": "Auto nije potreban ako boravite u Starom gradu ili na poluotoku Verudela, jer lokalni autobusi pouzdano povezuju ta područja. Međutim, vozilo se toplo preporučuje za posjet brdskim selima i udaljenim plažama u široj istarskoj regiji."
+    },
+    {
+      "question": "Gdje trebam parkirati u Puli?",
+      "answer": "Parkirališta Karolina i Mandrač su najpraktičnije opcije za posjet centru. Oba su velika, plaćena, otvorena parkirališta smještena neposredno izvan pješačkog Starog grada, minimizirajući vožnju kroz uske jednosmjerne ulice."
+    },
+    {
+      "question": "Je li Pula dobra za obitelji?",
+      "answer": "Da, područje nudi izvrsnu infrastrukturu za putovanje s djecom. Poluotok Verudela nudi mirne, obiteljske šljunčane plaže, plitke zone za kupanje i atrakcije poput Akvarija Pula."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na prvi pogled",
+    "whereToStay": "Gdje odsjesti u Puli",
+    "gettingThere": "Kako doći do Pule",
+    "whenToGo": "Kada posjetiti",
+    "guides": "Pula vodiči",
+    "faq": "Pula Česta pitanja",
+    "groups": {
+      "gettingAround": "Parking i kretanje",
+      "planning": "Planiranje i gdje odsjesti",
+      "timing": "Kada posjetiti",
+      "travelers": "Obitelji, parovi i stilovi putovanja",
+      "activities": "Plaže i stvari za raditi",
+      "food": "Hrana i piće",
+      "comparisons": "Usporedbe",
+      "practical": "Praktične informacije"
+    },
+    "car": "Automobilom",
+    "other": "Druge opcije",
+    "bestFor": "Najbolje za",
+    "parking": "Parking",
+    "beach": "Plaža"
+  },
+  "destination": "pula",
+  "language": "hr",
+  "updatedAt": "2026-10-16T10:35:14.579Z"
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Vis: Guida di Viaggio – Località, Spiagge e Dove Soggiornare",
+  "metaDescription": "Pianifica il tuo viaggio sull'isola croata di Vis. Scopri dove alloggiare a Vis (città) e Komiža, come arrivare, informazioni sui traghetti e dettagli sulle spiagge.",
+  "intro": "Vis è l'isola abitata più lontana dalla costa croata, accessibile tramite un traghetto di 2,5 ore da Split. Si rivolge a viaggiatori indipendenti che cercano un'alternativa più tranquilla e meno sviluppata commercialmente rispetto alle vicine Hvar o Brač. L'isola è nota per la sua storia militare, l'entroterra agricolo e le sue insenature rocciose. Non ci sono grandi hotel resort, ma si basa invece su appartamenti privati, ville e poche piccole strutture ricettive boutique.\n\nLa stagione turistica è strettamente stagionale, va da maggio a ottobre, con collegamenti in traghetto e attività di ristorazione al culmine a luglio e agosto. I visitatori si basano tipicamente in uno dei due insediamenti principali – Vis (città) o Komiža – e usano un'auto o uno scooter per accedere alle spiagge remote sulla costa meridionale.",
+  "quickFacts": [
+    {
+      "label": "Mesi migliori",
+      "value": "Giugno a settembre"
+    },
+    {
+      "label": "Temp. mare ad agosto",
+      "value": "Da 24°C a 26°C"
+    },
+    {
+      "label": "Aeroporto più vicino",
+      "value": "Aeroporto di Split (SPU) + traghetto di 2,5 ore"
+    },
+    {
+      "label": "Tipo di spiaggia principale",
+      "value": "Ciottoli, rocce piatte, calette sabbiose isolate"
+    },
+    {
+      "label": "Livello di prezzo",
+      "value": "10-20% più alto della media croata"
+    },
+    {
+      "label": "Accessibilità a piedi",
+      "value": "Percorribile a piedi; parti di Komiža e Kut sono pedonali"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Vis (città) (Luka & Kut)",
+      "bestFor": "Primi visitatori, accesso ai traghetti, ristorazione",
+      "parking": "Grande parcheggio a pagamento vicino al porto dei traghetti; limitato a Kut",
+      "beach": "Prirovo (ciottoli) a 10 minuti a piedi",
+      "summary": "Il porto principale diviso nella più recente Luka e nella storica e più tranquilla Kut. Offre i migliori collegamenti in traghetto e la più alta concentrazione di ristoranti."
+    },
+    {
+      "name": "Komiža",
+      "bestFor": "Tramonti, gite in barca alla Grotta Azzurra",
+      "parking": "Grande parcheggio comunale a pagamento sopra il centro pedonale",
+      "beach": "Piccole spiagge di ciottoli (Gusarica, Kamenice) nelle vicinanze",
+      "summary": "Una tradizionale città di pescatori sulla costa occidentale con case in pietra e un'atmosfera leggermente più bohémien. Serve come principale punto di partenza per le escursioni alla Grotta Azzurra su Biševo."
+    },
+    {
+      "name": "Rukavac",
+      "bestFor": "Vacanze tranquille al mare, natura",
+      "parking": "Solitamente incluso con l'affitto di appartamenti privati",
+      "beach": "A pochi passi da Srebrna (rocce piatte/ciottoli)",
+      "summary": "Un piccolo e tranquillo villaggio turistico sulla costa sud-orientale composto principalmente da appartamenti privati in affitto. Manca di un vero centro abitato ma offre la vicinanza alle migliori spiagge meridionali dell'isola."
+    },
+    {
+      "name": "Milna & Ženka",
+      "bestFor": "Viaggiatori in cerca di spiagge sabbiose",
+      "parking": "Bordo strada o passi carrai privati",
+      "beach": "Spiaggia di Milna (sabbia) e Zaglav (sabbia) nelle vicinanze",
+      "summary": "Insediamenti costieri sulla costa sud-orientale, noti per la vicinanza a rare spiagge sabbiose. L'area è prevalentemente residenziale con infrastrutture commerciali minime."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monaco",
+      "car": "850 km fino a Split (circa 9,5 ore) + 2,5 ore di traghetto, via A10/A1, vignette AT/SI, pedaggi HR",
+      "other": "Voli diretti per Split (SPU)"
+    },
+    {
+      "from": "Vienna",
+      "car": "760 km fino a Split (circa 8 ore) + 2,5 ore di traghetto, via A2/A1, vignette AT/SI, pedaggi HR",
+      "other": "Voli diretti o treno notturno per Split"
+    },
+    {
+      "from": "Budapest",
+      "car": "750 km fino a Split (circa 7,5 ore) + 2,5 ore di traghetto, via M7/A4/A1, vignetta HU, pedaggi HR",
+      "other": "Voli diretti o treni stagionali per Split"
+    },
+    {
+      "from": "Lubiana",
+      "car": "470 km fino a Split (circa 5 ore) + 2,5 ore di traghetto, via A2/A1, vignetta SI, pedaggi HR",
+      "other": "Autobus diretto per Split"
+    },
+    {
+      "from": "Praga",
+      "car": "1.090 km fino a Split (circa 11,5 ore) + 2,5 ore di traghetto, via vignette CZ/AT/SI, pedaggi HR",
+      "other": "Voli diretti per Split"
+    },
+    {
+      "from": "Cracovia",
+      "car": "1.050 km fino a Split (circa 11 ore) + 2,5 ore di traghetto, via vignette SK/HU, pedaggi HR",
+      "other": "Voli diretti per Split"
+    }
+  ],
+  "whenToGo": "La stagione turistica va da maggio a ottobre. A maggio e ottobre, l'isola è molto tranquilla, alcuni ristoranti e gite in barca non sono operativi e la temperatura del mare è fresca (da 18°C a 20°C). Giugno e settembre offrono il miglior equilibrio per i visitatori, con temperature del mare intorno ai 23°C, strutture completamente aperte e folle moderate. Luglio e agosto sono i mesi più affollati e costosi; le temperature diurne superano regolarmente i 30°C, il mare raggiunge i 25°C e la prenotazione anticipata di traghetti, alloggi e ristoranti è obbligatoria. Al di fuori di questi mesi, Vis opera con un programma invernale ridotto all'essenziale e con infrastrutture turistiche minime aperte.",
+  "faq": [
+    {
+      "question": "Vale la pena visitare Vis?",
+      "answer": "Sì, se preferisci un'isola dalmata più tranquilla e meno sviluppata, con autentici villaggi di pescatori e natura. Non è raccomandata per chi cerca grandi spiagge sabbiose, resort all-inclusive o una vivace vita notturna."
+    },
+    {
+      "question": "Quanti giorni servono a Vis?",
+      "answer": "Da tre a cinque giorni sono ottimali per una visita a Vis. Questo offre tempo sufficiente per vedere Vis (città) e Komiža, fare una gita in barca alla Grotta Azzurra su Biševo e trascorrere uno o due giorni nelle spiagge meridionali come Stiniva o Srebrna."
+    },
+    {
+      "question": "Qual è la migliore spiaggia di Vis?",
+      "answer": "Stiniva è la più famosa per la sua drammatica caletta di ciottoli chiusa, ma richiede un'escursione ripida di 30 minuti o l'accesso in barca. Per un accesso più facile e relax tutto il giorno, Srebrna offre rocce piatte e lisce e ciottoli, mentre Zaglav offre una rara costa sabbiosa."
+    },
+    {
+      "question": "Serve l'auto a Vis?",
+      "answer": "Un'auto o uno scooter sono vivamente consigliati per raggiungere le spiagge isolate dell'isola, i ristoranti nell'entroterra e i siti militari. Mentre un autobus pubblico collega le due città principali (Vis (città) e Komiža) in sincronia con l'orario dei traghetti, affidarsi esclusivamente ai trasporti pubblici limita l'esplorazione."
+    },
+    {
+      "question": "Dove parcheggio a Vis?",
+      "answer": "Vis (città) ha un ampio parcheggio a pagamento adiacente al terminal dei traghetti, mentre Komiža offre un grande parcheggio comunale a pagamento appena sopra il suo centro pedonale. Il parcheggio in strada in entrambe le città è severamente limitato e molti appartamenti privati nei centri storici non offrono parcheggio in loco."
+    },
+    {
+      "question": "Vis è adatta alle famiglie?",
+      "answer": "Vis è adatta alle famiglie che cercano una vacanza tranquilla e a contatto con la natura, ma manca di resort dedicati alle famiglie e di infrastrutture per l'intrattenimento. La maggior parte delle spiagge è fatta di ciottoli o rocce e degrada rapidamente in acque profonde, anche se Milna e Zaglav offrono alternative sabbiose e poco profonde."
+    }
+  ],
+  "headings": {
+    "quickFacts": "In breve",
+    "whereToStay": "Dove alloggiare a Vis",
+    "gettingThere": "Come arrivare a Vis",
+    "whenToGo": "Quando andare",
+    "guides": "Guide su Vis",
+    "faq": "Domande frequenti su Vis",
+    "groups": {
+      "gettingAround": "Parcheggio e spostamenti",
+      "planning": "Pianificazione e dove alloggiare",
+      "timing": "Quando andare",
+      "travelers": "Famiglie, coppie e stili di viaggio",
+      "activities": "Spiagge e attività",
+      "food": "Cibo e bevande",
+      "comparisons": "Confronti",
+      "practical": "Info pratiche"
+    },
+    "car": "In auto",
+    "other": "Altre opzioni",
+    "bestFor": "Ideale per",
+    "parking": "Parcheggio",
+    "beach": "Spiaggia"
+  },
+  "destination": "vis",
+  "language": "it",
+  "updatedAt": "2026-10-16T14:15:44.369Z"
+}

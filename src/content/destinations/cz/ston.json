@@ -1,0 +1,146 @@
+{
+  "title": "Ston: Průvodce – hradby, ústřice a ubytování",
+  "metaDescription": "Naplánujte si cestu do Stonu v Chorvatsku. Přečtěte si praktické rady o parkování, trasách autem ze střední Evropy, plážích a nejlepších oblastech k ubytování na Pelješci.",
+  "intro": "Ston je historické město na úpatí poloostrova Pelješac, známé svými 5,5 kilometru dlouhými obrannými hradbami ze 14. století, funkčními solnými pánvemi a blízkostí ústřicových farem v zátoce Malý Ston. Hodí se pro cestovatele hledající základnu k prozkoumávání jižní Dalmácie a ostrovů bez intenzivních davů a vysokých cen nedalekého Dubrovníku. Město se zaměřuje spíše na historii a gastronomii než na noční život nebo resortní komplexy.\n\nNejlepší doba k návštěvě je od května do září. Vrchol léta přináší horké počasí pro koupání na nedaleké pláži Prapratno, zatímco vedlejší sezóny v květnu, červnu a září nabízejí chladnější podmínky pro procházky po hradbách a prohlídky místních vinařství. Většina návštěvníků přijíždí autem, jelikož možnosti veřejné dopravy jsou omezeny na místní autobusové linky.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "Květen až září"
+    },
+    {
+      "label": "Teplota moře v srpnu",
+      "value": "25°C - 26°C"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Letiště Dubrovník (DBV), 72 km"
+    },
+    {
+      "label": "Hlavní typ pláže",
+      "value": "Písečná (Prapratno) a přírodní skalnatá"
+    },
+    {
+      "label": "Cenová úroveň",
+      "value": "Průměrná pro pobřeží, levnější než Dubrovník"
+    },
+    {
+      "label": "Pohyb ve starém městě",
+      "value": "Pouze pro pěší; parkování mimo hradby"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Ston (Centrum)",
+      "bestFor": "Historie, stolování a prohlídky památek",
+      "parking": "Placená veřejná parkoviště hned za hradbami",
+      "beach": "3 km k pláži Prapratno",
+      "summary": "Hlavní osada se pyšní kamennými domy, kavárnami a přímým přístupem k solným pánvím a vstupu na hradby. Nabízí nejvíce možností stravování a vybavení, ale postrádá přímý přístup k pláži."
+    },
+    {
+      "name": "Mali Ston",
+      "bestFor": "Degustace ústřic a klidné večery",
+      "parking": "Omezené parkování na ulici a malá placená parkoviště",
+      "beach": "Žádné tradiční pláže; skalnatý přístup k pobřeží",
+      "summary": "Malá vesnice na severní straně šíje, spojená se Stonem hradbami. Je známá svými ústřicovými farmami a tradičními nábřežními restauracemi s mořskými plody."
+    },
+    {
+      "name": "Prapratno",
+      "bestFor": "Rodiny a milovníci pláží",
+      "parking": "Velké parkoviště u trajektu a pláže",
+      "beach": "Přímý přístup k písečné zátoce",
+      "summary": "Tato oblast se nachází v zátoce jižně od Stonu a skládá se převážně z velkého kempu, několika apartmánů a trajektového přístavu na Mljet. Přírodní písečná pláž je mělká a dobře se hodí pro malé děti."
+    },
+    {
+      "name": "Broce",
+      "bestFor": "Odloučený odpočinek daleko od davů",
+      "parking": "Bezplatné parkování obvykle zajištěné penziony",
+      "beach": "Betonové desky a malé oblázkové zátoky",
+      "summary": "Klidná, tradiční rybářská vesnice kousek jízdy jižně od Stonu. Je obklopena borovými lesy a nabízí klidné prostředí s minimem komerčních zařízení."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Mnichov",
+      "car": "940 km, 10–11 hodin po A8, rakouské A10/A11 (dálniční známka + poplatky za tunely), slovinské A2 (dálniční známka) a chorvatské A1 (mýtné brány).",
+      "other": "Let do Dubrovníku, poté 1 hodina jízdy autem nebo autobusem."
+    },
+    {
+      "from": "Vídeň",
+      "car": "780 km, 8–9 hodin po rakouské A2/A9 (dálniční známka), slovinské A1/A4 (dálniční známka) a chorvatské A1 (mýtné brány).",
+      "other": "Přímý let do Dubrovníku, poté letištní transfer nebo půjčené auto."
+    },
+    {
+      "from": "Budapešť",
+      "car": "720 km, 7,5–8,5 hodiny po M7 (dálniční známka) s napojením na chorvatské A4 a A1 (mýtné brány).",
+      "other": "Let do Dubrovníku (k dispozici sezónní linky)."
+    },
+    {
+      "from": "Lublaň",
+      "car": "540 km, 6–6,5 hodiny po slovinské A2 (dálniční známka) a chorvatské A1 (mýtné brány).",
+      "other": "Omezená přímá doprava; nejlépe se dostanete autem."
+    },
+    {
+      "from": "Praha",
+      "car": "1 100 km, 11–12 hodin přes Rakousko (dálniční známka) a Slovinsko (dálniční známka) na chorvatskou A1.",
+      "other": "Let do Dubrovníku, poté místní autobus nebo půjčené auto."
+    },
+    {
+      "from": "Krakov",
+      "car": "1 140 km, 12–13 hodin přes Slovensko a Maďarsko (dálniční známky) na chorvatskou A1 (mýtné brány).",
+      "other": "Let z Krakova nebo Katovic do Dubrovníku."
+    }
+  ],
+  "whenToGo": "Turistická sezóna trvá od května do října. Červenec a srpen jsou nejteplejší a nejrušnější měsíce, s teplotami moře dosahujícími 26°C a s cenami ubytování na vrcholu, ačkoli Ston zůstává méně přeplněný než velká pobřežní města. Červen a září nabízejí ideální podmínky s teplou vodou, nižšími cenami a teplotami kolem 20 stupňů Celsia, což výrazně zpříjemňuje výstup na nezastíněné obranné hradby. Mnoho místních restaurací, prohlídek solných pánví a plavby s ochutnávkou ústřic fungují plně během těchto měsíců. Od listopadu do dubna je město velmi klidné; mnoho turisticky orientovaných podniků zavírá na zimu a počasí je příliš chladné na koupání, ačkoli hradby a několik místních restaurací zůstávají otevřené po celý rok.",
+  "faq": [
+    {
+      "question": "Stojí Ston za návštěvu?",
+      "answer": "Ano, Ston stojí za návštěvu díky svým 5,5 kilometru dlouhým středověkým hradbám, historickým solným pánvím a proslulému ústřicovému průmyslu. Slouží jako vynikající základna pro objevování poloostrova Pelješac bez vysokých nákladů na ubytování jako v Dubrovníku."
+    },
+    {
+      "question": "Kolik dní potřebuji ve Stonu?",
+      "answer": "Jeden až dva dny stačí k prohlídce hlavních atrakcí ve Stonu a Malém Stonu. Mnoho návštěvníků však zůstává čtyři až sedm dní, aby využili město jako praktickou základnu pro jednodenní výlety na Mljet, Korčulu a do místních vinařství."
+    },
+    {
+      "question": "Jaká je nejlepší pláž ve Stonu?",
+      "answer": "Pláž Prapratno, která se nachází tři kilometry od centra Stonu, je nejpopulárnější pláží v této oblasti. Vyznačuje se přírodním pískem a mělkou vodou, díky čemuž je v letních měsících mimořádně oblíbená."
+    },
+    {
+      "question": "Potřebuji ve Stonu auto?",
+      "answer": "Pro pobyt ve Stonu se velmi doporučuje auto. I když se můžete procházet mezi Stonem a Malým Stonem, vozidlo je nezbytné pro dosažení nejlepších pláží, návštěvu nedalekých vinařství nebo prozkoumávání zbytku poloostrova Pelješac."
+    },
+    {
+      "question": "Kde parkovat ve Stonu?",
+      "answer": "V těsné blízkosti historického centra určeného pouze pro pěší se nachází několik placených městských parkovišť. Poplatky za parkování platí během turistické sezóny a místa se mohou v červenci a srpnu v poledne rychle zaplnit."
+    },
+    {
+      "question": "Je Ston vhodný pro rodiny?",
+      "answer": "Ano, Ston je vhodný pro rodiny hledající klidnou dovolenou, zejména pro ty s malými dětmi, které si užijí písečné, mělké vody nedaleké pláže Prapratno. Chybí zde však velká rezortní zábava a aquaparky, které se nacházejí v komerčnějších pobřežních destinacích."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na první pohled",
+    "whereToStay": "Kde se ubytovat ve Stonu",
+    "gettingThere": "Jak se dostat do Stonu",
+    "whenToGo": "Kdy jet",
+    "guides": "Průvodci Stonem",
+    "faq": "Často kladené otázky o Stonu",
+    "groups": {
+      "gettingAround": "Parkování a pohyb po okolí",
+      "planning": "Plánování a kde se ubytovat",
+      "timing": "Kdy jet",
+      "travelers": "Rodiny, páry a styly cestování",
+      "activities": "Pláže a co dělat",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": "Praktické informace"
+    },
+    "car": "Autem",
+    "other": "Další možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "ston",
+  "language": "cz",
+  "updatedAt": "2026-10-16T15:16:50.796Z"
+}

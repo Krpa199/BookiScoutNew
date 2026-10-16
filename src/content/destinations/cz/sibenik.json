@@ -1,0 +1,146 @@
+{
+  "title": "Šibenik průvodce: Pláže, parkování a kde se ubytovat",
+  "metaDescription": "Naplánujte si cestu do Šibeniku v Chorvatsku. Najděte nejlepší oblasti k ubytování, trasy autem ze střední Evropy, informace o parkování a doporučení pláží.",
+  "intro": "Šibenik láká návštěvníky, kteří chtějí prozkoumat chorvatskou historii a středověkou architekturu a zároveň mít snadný přístup k národním parkům a plážím. Leží v centrální Dalmácii a slouží jako praktická základna pro návštěvu Národního parku Krka a Kornatských ostrovů. Město se vyznačuje čtyřmi pevnostmi a katedrálou sv. Jakuba, zapsanou na seznamu UNESCO.\n\nHlavní turistická sezóna trvá od května do října. Centrální staré město je zcela bez aut a skládá se ze strmých, úzkých kamenných uliček. Mimo historické centrum najdou návštěvníci oblázkové pláže a velké resortní komplexy určené pro rodiny. Město nabízí klidnější alternativu k nedalekému Splitu, s mírně nižšími průměrnými náklady na ubytování a stravování.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "květen, červen, září"
+    },
+    {
+      "label": "Teplota moře v srpnu",
+      "value": "24°C - 26°C"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Letiště Split (SPU), 50 km"
+    },
+    {
+      "label": "Hlavní typ pláže",
+      "value": "Oblázková a betonová"
+    },
+    {
+      "label": "Cenová úroveň",
+      "value": "Průměrná pro pobřežní Chorvatsko, mírně levnější než Split"
+    },
+    {
+      "label": "Staré město",
+      "value": "Přísně bez aut a pouze pro pěší"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Staré Město (Stari Grad)",
+      "bestFor": "První návštěvníci a prohlídka památek",
+      "parking": "Drahé a omezené; vyžaduje parkování na parkovištích mimo pěší zónu",
+      "beach": "15 minut chůze na pláž Banj",
+      "summary": "Historické jádro se pyšní středověkými kamennými budovami, pevnostmi a restauracemi. Vyžaduje chůzi po strmých schodech a nošení zavazadel z parkovišť."
+    },
+    {
+      "name": "Oblast Crnica a pláže Banj",
+      "bestFor": "Přístup na pláž v pěší vzdálenosti od centra",
+      "parking": "K dispozici parkování na ulici, v blízkosti velké parkoviště TEF",
+      "beach": "Přímý přístup na pláž Banj (oblázková)",
+      "summary": "Obytná čtvrť ležící severozápadně od centra. Nabízí panoramatické výhledy na staré město a snadnější přístup autem než historické jádro."
+    },
+    {
+      "name": "Amadria Park / Solaris",
+      "bestFor": "Rodiny s dětmi a návštěvníci resortů",
+      "parking": "Parkování v resortu, obvykle placené",
+      "beach": "Přímý přístup k několika udržovaným oblázkovým a písečným plážím",
+      "summary": "Velký resortní komplex ležící 6 km jižně od Šibeniku. Nabízí hotely, kempy, aquapark a rozsáhlé turistické vybavení."
+    },
+    {
+      "name": "Brodarica",
+      "bestFor": "Klidné pobřežní pobyty a cestovatelé s omezeným rozpočtem",
+      "parking": "Obvykle zajištěno soukromými pronajímateli apartmánů",
+      "beach": "Dlouhý úsek místních oblázkových pláží",
+      "summary": "Předměstská vesnice ležící 8 km jižně od Šibeniku podél pobřeží. Nabízí jednoduché pronájmy apartmánů a rychlý lodní přístup na ostrov Krapanj."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Mnichov",
+      "car": "800 km, 8,5 hodiny přes A8, A10 a A1. Vyžaduje rakouskou dálniční známku, mýtné na Tauern, slovinskou dálniční známku a chorvatské mýtné.",
+      "other": "Přímý let na letiště Split (SPU), poté 50 minut jízdy autem nebo autobusem."
+    },
+    {
+      "from": "Vídeň",
+      "car": "650 km, 6,5 hodiny přes A2, slovinskou A4 a chorvatskou A1. Vyžaduje rakouskou dálniční známku, slovinskou dálniční známku a chorvatské mýtné.",
+      "other": "Přímý let do Splitu (SPU) nebo Zadaru (ZAD), poté autobusem do Šibeniku."
+    },
+    {
+      "from": "Budapešť",
+      "car": "680 km, 6,5 hodiny přes M7, chorvatskou A4 a A1. Vyžaduje maďarskou e-dálniční známku a chorvatské mýtné.",
+      "other": "Přímý let do Zadaru (ZAD) se společností Ryanair, poté 1 hodina autobusem."
+    },
+    {
+      "from": "Lublaň",
+      "car": "400 km, 4,5 hodiny přes A2 a chorvatskou A1. Vyžaduje slovinskou dálniční známku a chorvatské mýtné.",
+      "other": "Přímý autobusový spoj trvá 6-7 hodin."
+    },
+    {
+      "from": "Praha",
+      "car": "980 km, 10,5 hodiny přes Rakousko a Slovinsko na chorvatskou A1. Vyžaduje dálniční známky pro Českou republiku, Rakousko, Slovinsko a chorvatské mýtné.",
+      "other": "Přímý let do Splitu (SPU), poté místním autobusem nebo transferem."
+    },
+    {
+      "from": "Krakov",
+      "car": "1050 km, 11,5 hodiny přes Slovensko a Maďarsko na chorvatskou A4/A1. Vyžaduje slovenskou a maďarskou dálniční známku a chorvatské mýtné.",
+      "other": "Přímý let do Zadaru (ZAD) nebo Splitu (SPU), poté místním autobusem."
+    }
+  ],
+  "whenToGo": "Cestovní sezóna v Šibeniku začíná v květnu s teplotami moře kolem 18°C a nižšími cenami ubytování. Červen a září nabízejí ideální podmínky, kombinující teplou vodu ke koupání (22°C až 24°C) s mírným počtem turistů a plně funkčními turistickými zařízeními. Červenec a srpen jsou vrcholné měsíce, přinášející vysoké teploty často přesahující 30°C, špičkové teploty moře kolem 25°C, vysoký počet návštěvníků a nejvyšší ceny. Od listopadu do dubna se mnoho sezónních hotelů, restaurací a prohlídek zavírá a počasí je obecně příliš chladné na koupání, ačkoli pevnosti a Národní park Krka zůstávají otevřené po celý rok pro prohlídky památek.",
+  "faq": [
+    {
+      "question": "Stojí za návštěvu?",
+      "answer": "Ano, Šibenik stojí za návštěvu pro své nepřeplněné středověké staré město a čtyři historické pevnosti. Slouží jako vynikající architektonická základna a nejpohodlnější pobřežní město pro přístup do Národního parku Krka."
+    },
+    {
+      "question": "Kolik dní?",
+      "answer": "Dva dny stačí k prohlédnutí hlavních památek, pevností a návštěvě Národního parku Krka. Pobyt na pět až sedm dní je praktický, pokud plánujete jednodenní výlety na sousední ostrovy, do Zadaru nebo Splitu."
+    },
+    {
+      "question": "Nejlepší pláž?",
+      "answer": "Pláž Banj je nejpohodlnější oblázková pláž, která se nachází kousek od starého města. Pro lepší vybavení a písečné úseky je preferovanou možností White Beach v resortní oblasti Amadria Park 6 km jižně."
+    },
+    {
+      "question": "Potřebuji auto?",
+      "answer": "Nepotřebujete auto, pokud se ubytujete ve starém městě a plánujete navštívit pouze centrum a absolvovat organizované lodní výlety. Auto je vysoce doporučeno pro pobyt na předměstí nebo pro samostatné prozkoumávání okolních oblastí, jako je Národní park Krka."
+    },
+    {
+      "question": "Kde parkovat?",
+      "answer": "Parkování v historickém centru je silně omezeno. Hlavními možnostmi pro návštěvníky jsou podzemní garáž Poljana pro centrální přístup nebo velké venkovní parkoviště Luka poblíž trajektového přístavu."
+    },
+    {
+      "question": "Je to vhodné pro rodiny?",
+      "answer": "Ano, oblast je vhodná pro rodiny, zejména resorty umístěné mimo staré město. Komplex Amadria Park je speciálně zaměřen na děti s aquaparkem, zatímco město každé léto pořádá Mezinárodní dětský festival."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Přehledně",
+    "whereToStay": "Kde se ubytovat v Šibeniku",
+    "gettingThere": "Jak se dostat do Šibeniku",
+    "whenToGo": "Kdy jet",
+    "guides": "Průvodci Šibenikem",
+    "faq": "FAQ Šibenik",
+    "groups": {
+      "gettingAround": "Parkování a doprava po městě",
+      "planning": "Plánování a ubytování",
+      "timing": "Kdy vyrazit",
+      "travelers": "Rodiny, páry a styly cestování",
+      "activities": "Pláže a co dělat",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": "Praktické informace"
+    },
+    "car": "Autem",
+    "other": "Další možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "sibenik",
+  "language": "cz",
+  "updatedAt": "2026-10-16T10:52:21.895Z"
+}

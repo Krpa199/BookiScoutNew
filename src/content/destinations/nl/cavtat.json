@@ -1,0 +1,146 @@
+{
+  "title": "Cavtat Reisgids: Stranden, Parkeren & Waar te Verblijven",
+  "metaDescription": "Plan uw reis naar Cavtat, Kroatië. Ontdek waar u kunt verblijven, hoe u vanuit Midden-Europa kunt rijden, parkeerinformatie en de beste lokale stranden.",
+  "intro": "Cavtat is een kustplaats in Zuid-Dalmatië, gelegen op 20 kilometer ten zuiden van Dubrovnik. Het biedt bezoekers een rustigere, meer ontspannen kustervaring, met behoud van gemakkelijke toegang tot het historische centrum van Dubrovnik via reguliere passagiersboten en regionale bussen. De stad concentreert zich rond een bebost schiereiland met een vlakke, voetgangersvriendelijke promenade omzoomd met restaurants, cafés en pijnbomen.\n\nDe bestemming is zeer geschikt voor gezinnen, oudere reizigers en stellen die de voorkeur geven aan ontspannen stranddagen boven een actief nachtleven. De zomer is de meest populaire tijd om te bezoeken, hoewel mei en september comfortabel zwemweer en lagere accommodatieprijzen bieden. Een auto is niet nodig als u binnen de stadsgrenzen blijft, maar wel handig voor het verkennen van de bredere Konavle-regio of het naburige Montenegro.",
+  "quickFacts": [
+    {
+      "label": "Beste maanden",
+      "value": "Mei tot september"
+    },
+    {
+      "label": "Zeetemperatuur in augustus",
+      "value": "25°C tot 27°C"
+    },
+    {
+      "label": "Dichtstbijzijnde luchthaven",
+      "value": "Luchthaven Dubrovnik (DBV), op 6 km afstand"
+    },
+    {
+      "label": "Hoofdstrandtype",
+      "value": "Kiezel- en betonplateaus"
+    },
+    {
+      "label": "Prijsniveau",
+      "value": "Bovengemiddeld, maar 10-15% goedkoper dan Dubrovnik"
+    },
+    {
+      "label": "Beloopbaarheid",
+      "value": "De oude stad is zeer goed beloopbaar en grotendeels autovrij"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Oude Stad (Schiereiland Rat)",
+      "bestFor": "Nieuwelingen en stellen die gemakkelijke toegang tot restaurants waarderen",
+      "parking": "Zeer beperkt; openbare parkeerplaats bij de ingang van de stad",
+      "beach": "5-10 minuten lopen naar rotsachtige en betonnen zwemplekken",
+      "summary": "Het historische centrum kenmerkt zich door traditionele stenen huizen, restaurants en de hoofdpromenade. Accommodaties hier liggen vaak direct aan het water, maar missen over het algemeen privé parkeergelegenheid."
+    },
+    {
+      "name": "Tiha Baai (Uvala Tiha)",
+      "bestFor": "Gezinnen en reizigers die op zoek zijn naar directe toegang tot het strand",
+      "parking": "Makkelijker te vinden, veel appartementen bieden privé parkeerplaatsen",
+      "beach": "Direct aan Žal Strand en de omliggende kiezelstranden",
+      "summary": "Net ten noorden van het schiereiland gelegen, biedt dit woongebied moderne appartementen en kleine hotels. De belangrijkste kiezelstranden bevinden zich langs deze baai, wat het zeer handig maakt om te zwemmen."
+    },
+    {
+      "name": "Mećajac",
+      "bestFor": "Budgetbewuste reizigers die bereid zijn bergopwaarts te lopen",
+      "parking": "Over het algemeen beschikbaar bij de meeste privé accommodaties",
+      "beach": "10-15 minuten bergafwaarts lopen naar de hoofdbaien",
+      "summary": "Deze wijk ligt op de heuvel boven de oude stad en biedt lagere prijzen en vaak een verhoogd uitzicht op zee. Terugkeren vanuit het centrum of vanaf het strand vereist een steile klim bergopwaarts."
+    },
+    {
+      "name": "Obod",
+      "bestFor": "Reizigers met een auto die een rustigere uitvalsbasis verkiezen",
+      "parking": "Ruim voldoende en meestal inbegrepen bij de accommodatie",
+      "beach": "15-20 minuten bergafwaarts lopen, of een korte rit",
+      "summary": "Een kleine nederzetting aan de kustweg vlak voor Cavtat. Het biedt een rustige omgeving en gemakkelijke toegang tot de hoofdsnelweg voor dagtochten, maar vereist vervoer om het centrum van Cavtat te bereiken."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "980 km, 11-12 uur via A8, A10, A1. Vereist vignetten voor AT en SLO, Oostenrijkse toltunnels, Kroatische snelwegtol.",
+      "other": "Directe vluchten naar Luchthaven Dubrovnik (1,5 uur)"
+    },
+    {
+      "from": "Wenen",
+      "car": "820 km, 9-10 uur via A2, A4, A1. Vereist vignetten voor AT en SLO, Kroatische snelwegtol. Route maakt gebruik van de Pelješac Brug.",
+      "other": "Directe vluchten naar Luchthaven Dubrovnik (1,5 uur)"
+    },
+    {
+      "from": "Boedapest",
+      "car": "750 km, 8-9 uur via M7 en A1. Vereist vignet voor HU en Kroatische snelwegtol. Route maakt gebruik van de Pelješac Brug.",
+      "other": "Seizoensgebonden directe vluchten (1,5 uur) of busverbindingen"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "640 km, 7-8 uur via A2 en A1. Vereist vignet voor SLO en Kroatische snelwegtol. Route maakt gebruik van de Pelješac Brug.",
+      "other": "Seizoensvluchten naar Dubrovnik of bus via Zagreb"
+    },
+    {
+      "from": "Praag",
+      "car": "1.150 km, 13-14 uur via CZ D1, AT A9, SLO A2, HR A1. Vereist vignetten voor CZ, AT, SLO, Oostenrijkse toltunnels, Kroatische tol.",
+      "other": "Directe vluchten naar Luchthaven Dubrovnik (2 uur)"
+    },
+    {
+      "from": "Krakau",
+      "car": "1.160 km, 13-14 uur via SK D1, HU M1/M7, HR A1. Vereist PL tol, SK en HU vignetten, HR tol.",
+      "other": "Directe vluchten naar Luchthaven Dubrovnik via Ryanair of LOT"
+    }
+  ],
+  "whenToGo": "De zomer (juli en augustus) is het hoogseizoen met zeetemperaturen tot 27°C, alle restaurants en veerboten werken op volle capaciteit en de accommodatieprijzen zijn het hoogst. Juni en september bieden een comfortabelere balans, met dagtemperaturen rond 25-28°C, minder drukte en de zee is nog steeds warm genoeg om te zwemmen. Mei en oktober zijn aanzienlijk rustiger en goedkoper, maar de zeetemperaturen schommelen rond 19-21°C en sommige seizoensgebonden bedrijven of veerlijnen kunnen hun schema's verminderen of volledig sluiten.",
+  "faq": [
+    {
+      "question": "Is Cavtat de moeite waard?",
+      "answer": "Ja, het is een aanrader voor wie een schilderachtige, ontspannen kustplaats zoekt in plaats van een drukke stad. Het biedt een prachtige haven, helder water en gemakkelijke toegang tot Dubrovnik zonder de zware toeristische drukte."
+    },
+    {
+      "question": "Hoeveel dagen heb ik nodig in Cavtat?",
+      "answer": "Drie tot vijf dagen is ideaal voor een ontspannen strandvakantie en een dagtocht naar Dubrovnik. Als u van plan bent Montenegro, het schiereiland Pelješac en de Elaphitische eilanden te verkennen, dient een hele week als een uitstekende uitvalsbasis."
+    },
+    {
+      "question": "Wat is het beste strand in Cavtat?",
+      "answer": "Žal Strand is de populairste optie, met een lang kiezelstrand, ondiep water en voorzieningen in de buurt. Voor een ruigere ervaring biedt Sustjepan betonnen terrassen en rotsachtige zwemplekken, terwijl het beroemde klifstrand Pasjača op 15 minuten rijden ligt."
+    },
+    {
+      "question": "Heb ik een auto nodig in Cavtat?",
+      "answer": "Nee, u heeft geen auto nodig als u van plan bent lokaal te blijven en de frequente bussen of veerboten gebruikt om Dubrovnik te bezoeken. Een auto is alleen nodig als u van plan bent de bredere Konavle-regio, nabijgelegen lokale dorpen of Montenegro onafhankelijk te verkennen."
+    },
+    {
+      "question": "Waar kan ik parkeren in Cavtat?",
+      "answer": "De belangrijkste openbare parkeerplaats bevindt zich bij de ingang van de oude stad, naast het busstation, en rekent uurtarieven of dagtarieven. Aangezien het historische schiereiland grotendeels verkeersbeperkt is, zorg ervoor dat uw accommodatie privé parkeergelegenheid biedt als u met de auto komt."
+    },
+    {
+      "question": "Is Cavtat geschikt voor gezinnen?",
+      "answer": "Ja, het is een van de meest gezinsvriendelijke bestemmingen in de regio. De vlakke, autovrije promenade is veilig voor kinderen en het kalme, ondiepe water bij de lokale kiezelstranden is uitstekend voor jonge zwemmers."
+    }
+  ],
+  "headings": {
+    "quickFacts": "In één oogopslag",
+    "whereToStay": "Waar te verblijven in Cavtat",
+    "gettingThere": "Naar Cavtat reizen",
+    "whenToGo": "Wanneer te gaan",
+    "guides": "Cavtat gidsen",
+    "faq": "Veelgestelde vragen Cavtat",
+    "groups": {
+      "gettingAround": "Parkeren & rondreizen",
+      "planning": "Planning & waar te verblijven",
+      "timing": "Wanneer te gaan",
+      "travelers": "Gezinnen, stellen & reisstijlen",
+      "activities": "Stranden & dingen om te doen",
+      "food": "Eten & drinken",
+      "comparisons": "Vergelijkingen",
+      "practical": "Praktische info"
+    },
+    "car": "Met de auto",
+    "other": "Andere opties",
+    "bestFor": "Geschikt voor",
+    "parking": "Parkeren",
+    "beach": "Strand"
+  },
+  "destination": "cavtat",
+  "language": "nl",
+  "updatedAt": "2026-10-16T15:03:56.044Z"
+}

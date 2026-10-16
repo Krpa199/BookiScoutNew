@@ -1,0 +1,146 @@
+{
+  "title": "Nin – Cestovní průvodce: Pláže, parkování a kde se ubytovat",
+  "metaDescription": "Naplánujte si cestu do Ninu, Chorvatsko. Objevte nejlepší písečné pláže, detaily parkování, trasy a nejlepší oblasti pro ubytování pro rodiny a kitesurfaře.",
+  "intro": "Nin je malé pobřežní město v severní Dalmácii známé svými vzácnými písečnými plážemi, mělkými vodami a historickým centrem na ostrově. Především láká rodiny s malými dětmi, kitesurfaře a cestovatele hledající klidnější alternativu k nedalekému Zadaru. Mělká zátoka se rychle prohřívá, což činí moře příjemným ke koupání dříve a později v sezóně než v hlubších pobřežních oblastech.\n\nNejlepší doba k návštěvě je od června do září, kdy jsou otevřena všechna plážová zařízení, kempy a místní restaurace. Červenec a srpen jsou nejrušnější a nejdražší měsíce, přitahující velké množství denních návštěvníků ze Zadaru. Květen a říjen nabízejí chladnější teploty a nižší ceny, ale mnoho sezónních podniků a půjčoven na pláži se v tomto období zavírá.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "Červen až září"
+    },
+    {
+      "label": "Teplota moře v srpnu",
+      "value": "25°C až 27°C"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Letiště Zadar (ZAD), 20 km"
+    },
+    {
+      "label": "Hlavní typ pláže",
+      "value": "Přírodní písek s dlouhými mělkými zónami"
+    },
+    {
+      "label": "Cenová úroveň",
+      "value": "Průměrná pro Dalmácii, levnější než Zadar"
+    },
+    {
+      "label": "Historické centrum",
+      "value": "Pouze pro pěší na malém ostrově spojeném mosty"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Historické centrum Ninu",
+      "bestFor": "Páry, nadšenci do historie a krátké pobyty",
+      "parking": "Placené městské parkoviště mimo mosty; na ostrově nejsou povoleny automobily",
+      "beach": "10-15 minut chůze na Ždrijac nebo Královninu pláž",
+      "summary": "Historické centrum leží na malém ostrově spojeném dvěma mosty. Nabízí tradiční kamenné domy, archeologická naleziště a nejvyšší koncentraci restaurací, ale chybí přímý přístup k pláži."
+    },
+    {
+      "name": "Ždrijac",
+      "bestFor": "Kitesurfaři, windsurfaři a návštěvníci pláží",
+      "parking": "Soukromé parkování u apartmánů; placené parkoviště u pláže",
+      "beach": "Přímý přístup na pláž Ždrijac (písečná)",
+      "summary": "Tato obytná oblast se rozkládá podél písečné zátoky severně od starého města. Je hlavním centrem pro kitesurfingové školy a nabízí četné apartmány s vlastním stravováním přímo u vody."
+    },
+    {
+      "name": "Sabunike",
+      "bestFor": "Rodiny hledající klidné dny na pláži a delší pobyty",
+      "parking": "Snadné parkování na ulici a soukromé příjezdové cesty",
+      "beach": "5-15 minut chůze na Královninu pláž (Kraljičina plaža)",
+      "summary": "Sabunike se nachází několik kilometrů severozápadně od Ninu a je účelově vybudovanou rekreační osadou. Nabízí klidnější prostředí, větší pozemky s apartmány a blízkost ke slavné Královnině pláži a jejímu terapeutickému bahnu."
+    },
+    {
+      "name": "Zaton",
+      "bestFor": "Hosté resortů, kempaři a rodiny s dětmi",
+      "parking": "Zabezpečené parkování v rámci resortových komplexů",
+      "beach": "Písečné a oblázkové pláže přímo v resortu s kompletním vybavením",
+      "summary": "Zaton, ležící jižně od Ninu, je ovládán obrovským rekreačním resortem a kempem. Nabízí bazény, animační týmy, minigolf a rozsáhlé možnosti stravování, což z něj činí samostatnou destinaci."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Mnichov",
+      "car": "740 km, 8 hodin přes A8, A10 a A1. Vyžaduje rakouské a slovinské dálniční známky, plus poplatek za tunel Tauern a chorvatské dálniční poplatky.",
+      "other": "Přímé lety do Zadaru (ZAD) s Lufthansou nebo Ryanair (Memmingen)"
+    },
+    {
+      "from": "Vídeň",
+      "car": "620 km, 6,5 hodiny přes A2 a A1. Vyžaduje rakouské a slovinské dálniční známky, plus chorvatské dálniční poplatky.",
+      "other": "Přímé lety Ryanair z Vídně do Zadaru"
+    },
+    {
+      "from": "Budapešť",
+      "car": "630 km, 6,5 hodiny přes M7 a A4/A1. Vyžaduje maďarskou e-dálniční známku a chorvatské dálniční poplatky.",
+      "other": "Přímé lety Ryanair z Budapešti do Zadaru"
+    },
+    {
+      "from": "Lublaň",
+      "car": "340 km, 4 hodiny přes A2 a A1. Vyžaduje slovinskou dálniční známku a chorvatské dálniční poplatky.",
+      "other": "Přímý FlixBus do Zadaru, poté místní autobus nebo taxi do Ninu"
+    },
+    {
+      "from": "Praha",
+      "car": "950 km, 10,5 hodiny přes Vídeň a Štýrský Hradec (Graz). Vyžaduje české, rakouské a slovinské dálniční známky, plus chorvatské dálniční poplatky.",
+      "other": "Přímé lety Ryanair z Prahy do Zadaru"
+    },
+    {
+      "from": "Krakov",
+      "car": "1 000 km, 11 hodin přes Slovensko a Maďarsko. Vyžaduje slovenské a maďarské dálniční známky, plus chorvatské dálniční poplatky.",
+      "other": "Přímé lety Ryanair z Krakova do Zadaru"
+    }
+  ],
+  "whenToGo": "Sezóna v Ninu trvá od května do října, s největšími davy a nejvyššími cenami ubytování v červenci a srpnu. Během těchto letních měsíců dosahuje teplota moře velmi příjemných 25°C až 27°C, takže mělké zátoky působí jako vana, a všechny plážové bary, kitesurfingové školy a restaurace jsou plně v provozu. Červen a září nabízejí lepší rovnováhu teplého počasí (teploty moře kolem 22°C až 24°C), nižších cen a zvládnutelného počtu návštěvníků. Od listopadu do dubna je Nin klidný, teplota moře klesá pod 15°C a většina turisticky orientovaných podniků, včetně nedalekého rekreačního resortu Zaton, se na zimu zavírá.",
+  "faq": [
+    {
+      "question": "Stojí Nin za návštěvu?",
+      "answer": "Ano, Nin stojí za návštěvu, zejména pokud dáváte přednost písečným plážím, které jsou v Chorvatsku vzácné. Je ideální pro rodiny s malými dětmi díky mělké vodě a nabízí jedinečná historická místa v kompaktním starém městě."
+    },
+    {
+      "question": "Kolik dní potřebuji v Ninu?",
+      "answer": "Dva až tři dny stačí k prozkoumání starého města, návštěvě solivarů a relaxaci na hlavních plážích. Mnoho návštěvníků jej však využívá jako základnu pro týdenní nebo dvoutýdenní plážovou dovolenou."
+    },
+    {
+      "question": "Jaká je nejlepší pláž v Ninu?",
+      "answer": "Královnina pláž (Kraljičina plaža) je nejznámější a všeobecně považována za nejlepší pláž v oblasti. Vyznačuje se dlouhým úsekem jemného písku, extrémně mělkou vodou a oblastmi s přirozeně se vyskytujícím léčivým peloidním bahnem."
+    },
+    {
+      "question": "Potřebuji auto v Ninu?",
+      "answer": "Auto není nezbytné, pokud bydlíte ve starém městě nebo v Ždrijaci a plánujete zůstat místní. Vozidlo se však důrazně doporučuje pro cesty do nedalekého Zadaru, k větším supermarketům nebo pro prozkoumání širšího dalmatského pobřeží."
+    },
+    {
+      "question": "Kde je nejlepší zaparkovat v Ninu?",
+      "answer": "Nejlepší místa k parkování jsou velká, placená městská parkoviště umístěná hned vedle dvou mostů vedoucích do starého města. Parkování je v létě přísně kontrolováno a automaty přijímají mince, karty nebo mobilní parkovací aplikace."
+    },
+    {
+      "question": "Je Nin vhodný pro rodiny?",
+      "answer": "Ano, Nin je jednou z nejlepších destinací v Chorvatsku pro rodiny s malými dětmi. Rozsáhlé písečné pláže a teplá voda po kolena poskytují bezpečné prostředí pro batolata a děti ke hře."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Rychlá fakta",
+    "whereToStay": "Kde se ubytovat v Ninu",
+    "gettingThere": "Jak se dostat do Ninu",
+    "whenToGo": "Kdy jet",
+    "guides": "Průvodci Ninem",
+    "faq": "Časté dotazy k Ninu",
+    "groups": {
+      "gettingAround": "Parkování a doprava",
+      "planning": "Plánování a ubytování",
+      "timing": "Kdy jet",
+      "travelers": "Rodiny, páry a styly cestování",
+      "activities": "Pláže a co dělat",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": "Praktické informace"
+    },
+    "car": "Autem",
+    "other": "Další možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "nin",
+  "language": "cz",
+  "updatedAt": "2026-10-16T13:51:42.636Z"
+}

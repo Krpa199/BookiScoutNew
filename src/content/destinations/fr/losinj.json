@@ -1,0 +1,153 @@
+{
+  "title": "Guide de voyage Lošinj : Plages, quartiers et comment s'y rendre",
+  "metaDescription": "Planifiez votre voyage à Lošinj, Croatie. Comparez les meilleurs quartiers où séjourner, trouvez les itinéraires de voyage, les informations sur les ferries, les détails de stationnement et les meilleures plages.",
+  "intro": "Lošinj est une île croate du nord située dans le golfe de Kvarner, connue pour ses denses forêts de pins, ses eaux claires et ses villes maritimes historiques. Elle attire les voyageurs en quête de nature, de bien-être et d'activités de plein air comme le vélo et la natation. L'île est reliée à la voisine Cres par un petit pont tournant à Osor, obligeant les visiteurs à prendre d'abord un ferry depuis le continent ou l'île de Krk jusqu'à Cres, avant de rouler vers le sud.\n\nLes mois d'été, de juin à septembre, offrent le meilleur temps pour la baignade, bien que le printemps et l'automne soient idéaux pour la randonnée et le vélo. Les hébergements vont des grands complexes hôteliers avec spa dans la baie de Čikat aux appartements privés dans les centres piétons de Mali Lošinj et Veli Lošinj. Les visiteurs arrivant en voiture doivent tenir compte des temps d'attente des ferries pendant les week-ends de pointe de juillet et août.",
+  "quickFacts": [
+    {
+      "label": "Meilleurs mois",
+      "value": "Juin à septembre"
+    },
+    {
+      "label": "Température de la mer en août",
+      "value": "25°C à 26°C"
+    },
+    {
+      "label": "Aéroport le plus proche",
+      "value": "Aéroport de Rijeka (RJK), 85 km + ferry"
+    },
+    {
+      "label": "Type de plage principal",
+      "value": "Galets, rochers et terrasses pavées"
+    },
+    {
+      "label": "Niveau de prix",
+      "value": "15-20% plus élevé que la moyenne croate"
+    },
+    {
+      "label": "Vieille ville/centre",
+      "value": "Piéton et très agréable à parcourir à pied"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centre de Mali Lošinj",
+      "bestFor": "Idéal pour les premières visites, accès aux restaurants et excursions",
+      "parking": "Grands parkings publics payants en dehors de la zone piétonne",
+      "beach": "15-20 minutes à pied de Valdarke ou Sveti Martin",
+      "summary": "La plus grande ville de l'île dispose d'un port animé bordé de restaurants, de cafés et de boutiques. C'est le principal centre de transport et de départs d'excursions en bateau, bien que séjourner ici nécessite de marcher ou de conduire jusqu'aux plages."
+    },
+    {
+      "name": "Baie de Čikat",
+      "bestFor": "Voyageurs de luxe et familles souhaitant un accès immédiat à la plage",
+      "parking": "Parking privé des hôtels ; le parking public se remplit rapidement",
+      "beach": "Accès direct à des zones de sable, de galets et des terrasses en béton",
+      "summary": "Située juste à l'ouest de Mali Lošinj, cette zone haut de gamme est entourée de denses forêts de pins et abrite des hôtels de luxe. Une promenade en bord de mer relie les plages, offrant de l'ombre naturelle et des zones de baignade peu profondes."
+    },
+    {
+      "name": "Veli Lošinj",
+      "bestFor": "Couples et voyageurs en quête d'un cadre plus calme",
+      "parking": "Grand parking public payant au centre, à l'entrée de la ville",
+      "beach": "10 minutes à pied de Rovenska (galets) ou de plateformes rocheuses",
+      "summary": "Malgré son nom signifiant 'grand', cette ville est plus petite et plus calme que Mali Lošinj. Elle est connue pour son port aux couleurs pastel, son centre de biologie marine et un rythme de vie plus lent."
+    },
+    {
+      "name": "Sunčana Uvala (Baie ensoleillée)",
+      "bestFor": "Familles avec enfants et clients de complexes hôteliers",
+      "parking": "Principalement réservé aux clients des hôtels ; places publiques limitées",
+      "beach": "Accès direct à Veli Žal (galets) et Borik (rochers)",
+      "summary": "Située au sud de Mali Lošinj, cette baie est dominée par de grands complexes hôteliers familiaux et des installations récréatives. Les plages ici ont des entrées progressives dans la mer, ce qui les rend idéales pour les jeunes nageurs."
+    },
+    {
+      "name": "Nerezine",
+      "bestFor": "Randonneurs et voyageurs soucieux de leur budget",
+      "parking": "Stationnement facile dans la rue et parkings gratuits généralement disponibles",
+      "beach": "5-10 minutes à pied des plages locales de galets et de béton",
+      "summary": "Première localité rencontrée après avoir traversé le pont depuis Cres, Nerezine est un village côtier calme. Il est situé au pied du Mont Osoršćica, offrant un accès direct aux meilleurs sentiers de randonnée de l'île."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Munich",
+      "car": "580 km, ~8 heures via A10, tunnel de Karawanken, Rupa, ferry Valbiska-Merag. Vignettes autrichienne/slovène, péage du tunnel, frais de ferry.",
+      "other": "Vol vers Rijeka (RJK), puis bus et ferry"
+    },
+    {
+      "from": "Vienne",
+      "car": "530 km, ~7,5 heures via Graz, Maribor, Zagreb, ferry Valbiska-Merag. Vignettes autrichienne/slovène, péages croates, frais de ferry.",
+      "other": "Flixbus jusqu'à Rijeka, puis bus local ou catamaran jusqu'à Mali Lošinj"
+    },
+    {
+      "from": "Budapest",
+      "car": "540 km, ~7,5 heures via M7 vers Zagreb, A6 vers Rijeka, ferry Valbiska-Merag. Vignette hongroise, péages croates, frais de ferry.",
+      "other": "Train jusqu'à Zagreb, puis bus interurbain jusqu'à Mali Lošinj"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "200 km, ~4,5 heures via Postojna, Ilirska Bistrica, ferry Brestova-Porozina. Vignette slovène, frais de ferry.",
+      "other": "Bus saisonnier direct jusqu'à Mali Lošinj"
+    },
+    {
+      "from": "Prague",
+      "car": "850 km, ~11 heures via Vienne, Graz, Maribor, Zagreb, ferry Valbiska-Merag. Plusieurs vignettes/péages, frais de ferry.",
+      "other": "Vol vers Zadar ou Rijeka, puis bus et ferry"
+    },
+    {
+      "from": "Kraków",
+      "car": "950 km, ~12 heures via Brno, Vienne, Graz, Maribor, Zagreb, ferry Valbiska-Merag. Plusieurs vignettes/péages, frais de ferry.",
+      "other": "Vol vers Vienne ou Zadar, puis liaisons en bus et ferry"
+    }
+  ],
+  "whenToGo": "La saison touristique principale s'étend de juin à septembre, période pendant laquelle presque toutes les installations sont ouvertes et la température de la mer atteint 24°C à 26°C. Juillet et août sont synonymes de prix les plus élevés, de foules les plus denses et de potentiels retards de ferry, rendant une réservation anticipée essentielle. Mai et octobre sont nettement plus calmes avec des tarifs d'hébergement plus bas, offrant des conditions idéales pour la randonnée et le vélo, bien que la mer soit souvent trop froide pour une baignade confortable. De nombreux hôtels et restaurants ferment complètement de novembre à avril.",
+  "faq": [
+    {
+      "question": "Lošinj vaut-elle le détour ?",
+      "answer": "Oui, Lošinj est fortement recommandée pour les voyageurs en quête d'un mélange de bien-être, de nature et de mers claires. Son microclimat, ses denses forêts de pins et ses commodités haut de gamme la distinguent des îles adriatiques plus arides."
+    },
+    {
+      "question": "Combien de jours faut-il à Lošinj ?",
+      "answer": "Quatre à cinq jours est la durée idéale pour explorer Lošinj. Cela laisse suffisamment de temps pour visiter Mali et Veli Lošinj, passer une journée à la baie de Čikat et faire une randonnée sur le Mont Osoršćica ou une excursion en bateau."
+    },
+    {
+      "question": "Quelle est la meilleure plage de Lošinj ?",
+      "answer": "Veli Žal à Sunčana Uvala est largement considérée comme la meilleure plage pour ses galets propres, ses installations et son statut de Pavillon Bleu. Pour les petites étendues de sable et l'ombre des pins, la baie de Čikat est le premier choix."
+    },
+    {
+      "question": "Faut-il une voiture à Lošinj ?",
+      "answer": "Vous n'avez pas besoin de voiture si vous séjournez à Mali Lošinj ou Veli Lošinj, car les villes sont accessibles à pied et reliées par une promenade en bord de mer. Cependant, une voiture est très utile pour atteindre l'île depuis le continent et explorer des baies plus reculées."
+    },
+    {
+      "question": "Où puis-je me garer à Mali Lošinj ?",
+      "answer": "Les parkings publics sont situés juste en dehors du centre-ville piéton, principalement sur le grand parking près de l'entrée du port. Attendez-vous à payer un tarif horaire ou journalier, et les places peuvent se remplir rapidement en juillet et août."
+    },
+    {
+      "question": "Lošinj est-elle adaptée aux familles ?",
+      "answer": "Oui, Lošinj est une excellente destination familiale grâce à ses sentiers de promenade sécurisés, ses complexes hôteliers dédiés aux familles et ses plages ombragées. Sunčana Uvala et la baie de Čikat offrent des zones de baignade peu profondes et de nombreuses activités adaptées aux enfants."
+    }
+  ],
+  "headings": {
+    "quickFacts": "En bref",
+    "whereToStay": "Où séjourner à Lošinj",
+    "gettingThere": "Comment se rendre à Lošinj",
+    "whenToGo": "Quand partir",
+    "guides": "Guides Lošinj",
+    "faq": "FAQ Lošinj",
+    "groups": {
+      "gettingAround": "Stationnement et déplacements",
+      "planning": "Planification et où séjourner",
+      "timing": "Quand partir",
+      "travelers": "Familles, couples et styles de voyage",
+      "activities": "Plages et activités",
+      "food": "Repas et boissons",
+      "comparisons": "Comparaisons",
+      "practical": "Infos pratiques"
+    },
+    "car": "En voiture",
+    "other": "Autres options",
+    "bestFor": "Idéal pour",
+    "parking": "Stationnement",
+    "beach": "Plage"
+  },
+  "destination": "losinj",
+  "language": "fr",
+  "updatedAt": "2026-10-16T13:18:10.663Z"
+}

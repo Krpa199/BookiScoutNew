@@ -1,0 +1,146 @@
+{
+  "title": "Fažana Útikönyv: Strandok, Parkolás és Szállás",
+  "metaDescription": "Tervezze meg utazását a horvátországi Fažanába. Fedezze fel a legjobb strandokat, környékeket, Közép-Európából induló útvonalakat és parkolási tippeket ehhez a tengerparti városhoz.",
+  "intro": "Fažana egy tengerparti város az Isztriai-félsziget délnyugati partján Horvátországban, elsősorban a Brijuni Nemzeti Park indulási pontjaként ismert. Családokat és idősebb párokat vonz, akik nyugodt légkört, könnyen megközelíthető kavicsos strandokat és sík sétányokat keresnek. A városban működő halászkikötő található, alacsony, történelmi épületekkel és egy széles, burkolt sétánnyal körülvéve.\n\nA legtöbb látogató autóval érkezik Közép-Eurábóól, kihasználva a központtól északra és délre található számos apartmant és nagy kempinget. A fő turisztikai szezon júniustól szeptemberig tart, július és augusztus hozza a legmagasabb hőmérsékletet és a legnagyobb tömeget. Május és október hűvösebb időt kínál kerékpározáshoz és túrázáshoz, bár sok szezonális vállalkozás bezár télre.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Júniustól szeptemberig"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "25°C és 27°C között"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Pulai repülőtér (PUY), 13 km"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Kavicsos és beton teraszok"
+    },
+    {
+      "label": "Árszínvonal",
+      "value": "Átlagos Isztria-szerte, olcsóbb, mint Rovinj"
+    },
+    {
+      "label": "Óváros",
+      "value": "Sétálóövezet, autómentes központ"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Fažana központ",
+      "bestFor": "Először érkezőknek és étkezési lehetőségeket kereső pároknak",
+      "parking": "Fizetős nyilvános parkolók a város szélén; a központ autómentes",
+      "beach": "A Dječje Igralište strand 5 perces sétára található",
+      "summary": "A történelmi mag a fő kikötő körül helyezkedik el, és itt található a legtöbb étterem és kávézó. Az itt való tartózkodás azt jelenti, hogy közel van a Brijuni komphoz és az esti sétányhoz, bár nyáron forgalmas a napközbeni látogatók miatt."
+    },
+    {
+      "name": "Valbandon",
+      "bestFor": "Családoknak és strandolást előnyben részesítő utazóknak",
+      "parking": "A legtöbb apartman és kemping saját parkolót kínál",
+      "beach": "Bi Val strand (hosszú, kavicsos strand szolgáltatásokkal)",
+      "summary": "Fažanától két kilométerre délre található ez a tengerparti falu, amely erősen a turizmusra fókuszál nagy kempingekkel és apartmankomplexumokkal. Egy széles, sík tengerparti út köti össze közvetlenül Fažana központjával."
+    },
+    {
+      "name": "Pineta",
+      "bestFor": "Természetkedvelőknek és kempingezőknek",
+      "parking": "Bőséges parkolás a kempingekben és magánszállásokon",
+      "beach": "Pineta strand (kavicsos, természetes fenyőárnyékkal)",
+      "summary": "Fažanától északra található ez a terület, amelyet sűrű fenyvesek jellemeznek, amelyek természetes árnyékot biztosítanak egészen a tengerpartig. Főként egy nagy kempingüdülőből és elszórt magánházakból áll."
+    },
+    {
+      "name": "Peroj",
+      "bestFor": "Költségtudatos utazóknak és nyugalomra vágyóknak",
+      "parking": "Az ingyenes parkolás általában benne van a szállás árában",
+      "beach": "Peroj strand (kavicsos, 10-15 perc séta a faluból)",
+      "summary": "Egy kis, Fažanától két kilométerre északra fekvő belső falu. Az itt található szállások valamivel olcsóbbak, bár a strand eléréséhez rövid autóút vagy lefelé vezető séta szükséges."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "590 km, 6,5 óra az A8-ason, Tauern Autobahnon (osztrák fizetős út), Karawanken alagúton (osztrák/szlovén fizetős út), szlovén A1-esen (matrica), horvát A9-esen (isztriai Y útdíj) keresztül.",
+      "other": "FlixBus közvetlenül Pulába (9-10 óra), majd helyi busszal Fažanába."
+    },
+    {
+      "from": "Bécs",
+      "car": "590 km, 6 óra az A2-esen (osztrák matrica), szlovén A1-esen (matrica), horvát A9-esen (isztriai Y útdíj) keresztül.",
+      "other": "Közvetlen Ryanair járat Pulába (1 óra) vagy FlixBus (8 óra)."
+    },
+    {
+      "from": "Budapest",
+      "car": "600 km, 6 óra az M7-esen (magyar matrica), horvát A4/A6-on (útdíj), A8/A9-en (isztriai Y útdíj) keresztül.",
+      "other": "FlixBus Pulába Zágrábon keresztül (8-10 óra), majd helyi busszal."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "200 km, 2,5 óra az A1-esen (szlovén matrica) Koperig, majd horvát A9-esen (isztriai Y útdíj).",
+      "other": "Közvetlen busz Pulába (3 óra), majd helyi busszal Fažanába."
+    },
+    {
+      "from": "Prága",
+      "car": "870 km, 9,5 óra a cseh D1-esen, osztrák A2-esen (cseh és osztrák matrica), szlovén A1-esen (matrica), horvát A9-esen (útdíj) keresztül.",
+      "other": "FlixBus Pulába (13-15 óra) vagy szezonális vonat Fiumébe, majd busz."
+    },
+    {
+      "from": "Krakkó",
+      "car": "1000 km, 11 óra az A4-en, cseh D1-en (cseh matrica), osztrák A2-en (osztrák matrica), szlovén A1-en (matrica), horvát A9-en (útdíj) keresztül.",
+      "other": "Szezonális járatok Pulába vagy busz Bécsen/Zágrábon keresztül (15+ óra)."
+    }
+  ],
+  "whenToGo": "A fő turisztikai szezon júniustól szeptemberig tart. Július és augusztus a legforgalmasabb és legdrágább hónapok, a tenger hőmérséklete 25°C és 27°C között tetőzik, a nappali hőmérséklet pedig rendszeresen meghaladja a 30°C-ot. Június és szeptember meleg vizet, alacsonyabb szállásárakat és kezelhető tömegeket kínál, így ideálisak úszásra és városnézésre. Októbertől májusig Fažana nagyon csendes; sok étterem, kemping és utazásszervező bezár télre, és a tenger hőmérséklete 15°C alá csökken, bár a Brijuni Nemzeti Park egész évben nyitva tart.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni?",
+      "answer": "Igen, különösen, ha egy nyugodt, családbarát tengerparti várost keres. Kiváló hozzáférést biztosít a Brijuni Nemzeti Parkhoz, és hosszú, könnyen megközelíthető kavicsos strandokkal rendelkezik, ami kevésbé zsúfolttá teszi, mint a szomszédos Pula vagy Rovinj."
+    },
+    {
+      "question": "Hány napra érdemes menni?",
+      "answer": "Három-öt nap ideális. Ez elegendő időt biztosít a Brijuni-szigetek meglátogatására, néhány nap strandolásra a helyi strandokon, és egy félnapos kirándulásra a pulai római romok felfedezésére."
+    },
+    {
+      "question": "Melyik a legjobb strand?",
+      "answer": "A valbandoni Bi Val strandot általában a legjobbnak tartják széleskörű szolgáltatásai, sekély vize és vízi sportlehetőségei miatt. Azok számára, akik a természetes árnyékot kedvelik, az északra található Pineta strand fenyőfákat kínál közvetlenül a kavicsok mellett."
+    },
+    {
+      "question": "Szükséges autó?",
+      "answer": "Nem szükséges autó, ha a városközpontban vagy Valbandonban száll meg, mivel a strandok, éttermek és a Brijuni komp gyalogosan is elérhetőek. Azonban erősen ajánlott autó az Isztria többi részének felfedezéséhez vagy a nagy szupermarketek eléréséhez."
+    },
+    {
+      "question": "Hol parkoljak?",
+      "answer": "Fizetős nyilvános parkolók állnak rendelkezésre kijelölt zónákban a sétálóövezet szélein. A főbb parkolók közé tartozik a Badel parkoló és a Vodnjanska Cesta menti parkoló, mindkettő óra- vagy napi díjat számol fel a nyári szezonban."
+    },
+    {
+      "question": "Alkalmas családoknak?",
+      "answer": "Igen, Fažana rendkívül alkalmas családok számára. A strandok többnyire finom kavicsosak, sekély bejáratokkal, a fő sétány sík és burkolt, és a városban nincsenek olyan meredek lépcsők, mint sok más történelmi horvát tengerparti városban."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Rövid tények",
+    "whereToStay": "Hol szálljon meg Fažanában",
+    "gettingThere": "Hogyan juthat el Fažanába",
+    "whenToGo": "Mikor utazzon",
+    "guides": "Fažana útikalauzok",
+    "faq": "Fažana GYIK",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor utazzon",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Étel és ital",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb választás",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "fazana",
+  "language": "hu",
+  "updatedAt": "2026-10-16T12:00:45.069Z"
+}

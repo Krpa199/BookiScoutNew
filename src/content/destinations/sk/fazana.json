@@ -1,0 +1,146 @@
+{
+  "title": "Fažana: Popotniški vodnik – Plaže, parkiranje in nastanitev",
+  "metaDescription": "Načrtujte potovanje v Fažano, Hrvaška. Odkrijte najboljše plaže, soseske, poti za vožnjo iz Srednje Evrope in nasvete za parkiranje v tem obalnem mestu.",
+  "intro": "Fažana je obalno mesto na jugozahodni obali Istrskega polotoka na Hrvaškem, znano predvsem kot izhodišče za Narodni park Brioni. Privablja družine in starejše pare, ki iščejo sproščeno vzdušje, dostopne prodnate plaže in ravne sprehajalne poti. Mesto ohranja delujoče ribiško pristanišče, obdano z nizkimi zgodovinskimi stavbami in široko, tlakovano promenado.\n\nVečina obiskovalcev prispe z avtomobilom iz Srednje Evrope, saj izkoriščajo številne najeme apartmajev in velike kampe, ki se nahajajo severno in južno od centra. Glavna turistična sezona traja od junija do septembra, pri čemer julij in avgust prinašata najvišje temperature in največje množice. Maj in oktober ponujata hladnejše vreme, primerno za kolesarjenje in pohodništvo, čeprav se številna sezonska podjetja zaprejo za zimo.",
+  "quickFacts": [
+    {
+      "label": "Najboljši meseci",
+      "value": "Junij do september"
+    },
+    {
+      "label": "Temperatura morja avgusta",
+      "value": "25°C do 27°C"
+    },
+    {
+      "label": "Najbližje letališče",
+      "value": "Letališče Pulj (PUY), 13 km"
+    },
+    {
+      "label": "Glavni tip plaže",
+      "value": "Prod in betonske terase"
+    },
+    {
+      "label": "Raven cen",
+      "value": "Povprečno za Istro, ceneje kot Rovinj"
+    },
+    {
+      "label": "Staro mesto",
+      "value": "Cona za pešce, center brez avtomobilov"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Center Fažane",
+      "bestFor": "Obiskovalci, ki so prvič tukaj, in pari, ki želijo veliko možnosti za prehranjevanje",
+      "parking": "Plačljiva javna parkirišča na obrobju; center je brez avtomobilov",
+      "beach": "Plaža Dječje Igralište je oddaljena 5 minut hoje",
+      "summary": "Zgodovinsko jedro obdaja glavno pristanišče in ponuja največjo koncentracijo restavracij in kavarn. Bivanje tukaj pomeni bližino trajekta za Brione in večerne promenade, čeprav je poleti živahno zaradi enodnevnih izletnikov."
+    },
+    {
+      "name": "Valbandon",
+      "bestFor": "Družine in popotniki, ki dajejo prednost času na plaži",
+      "parking": "Večina apartmajev in kampov ponuja zasebno parkirišče",
+      "beach": "Plaža Bi Val (dolga prodnata plaža z vso opremo)",
+      "summary": "Nahaja se dva kilometra južno od Fažane, to obalno naselje je močno usmerjeno v turizem z velikimi kampi in apartmajskimi kompleksi. Široka, ravna obalna pot ga neposredno povezuje s centrom Fažane."
+    },
+    {
+      "name": "Pineta",
+      "bestFor": "Ljubitelji narave in kampisti",
+      "parking": "Veliko parkirišč znotraj kampov in zasebnih najemov",
+      "beach": "Plaža Pineta (prodnata z naravno senco borovcev)",
+      "summary": "Nahaja se severno od Fažane, to območje odlikujejo gosti borovi gozdovi, ki zagotavljajo naravno senco vse do obale. Sestavljeno je predvsem iz velikega kampa in razpršenih zasebnih hiš."
+    },
+    {
+      "name": "Peroj",
+      "bestFor": "Popotniki, ki pazijo na proračun, in tisti, ki iščejo mir",
+      "parking": "Brezplačno parkirišče je običajno vključeno v nastanitev",
+      "beach": "Plaža Peroj (prodnata, 10-15 minut hoje iz vasi)",
+      "summary": "Majhna vas v notranjosti, dva kilometra severno od Fažane. Namestitve so tukaj nekoliko cenejše, čeprav je za doseganje plaže potrebna kratka vožnja ali hoja navzdol."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "590 km, 6,5 ure preko A8, Tauernske avtoceste (avstrijska cestnina), Karavanškega predora (avstrijska/slovenska cestnina), slovenske A1 (vinjeta), hrvaške A9 (istrski ipsilon cestnina).",
+      "other": "FlixBus neposredno do Pulja (9-10 ur), nato lokalni avtobus do Fažane."
+    },
+    {
+      "from": "Dunaj",
+      "car": "590 km, 6 ur preko A2 (avstrijska vinjeta), slovenske A1 (vinjeta), hrvaške A9 (istrski ipsilon cestnina).",
+      "other": "Neposreden let Ryanair do Pulja (1 ura) ali FlixBus (8 ur)."
+    },
+    {
+      "from": "Budimpešta",
+      "car": "600 km, 6 ur preko M7 (madžarska vinjeta), hrvaških A4/A6 (cestnine), A8/A9 (istrski ipsilon cestnine).",
+      "other": "FlixBus do Pulja preko Zagreba (8-10 ur), nato lokalni avtobus."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "200 km, 2,5 ure preko A1 (slovenska vinjeta) do Kopra, nato hrvaška A9 (istrski ipsilon cestnina).",
+      "other": "Neposreden avtobus do Pulja (3 ure), nato lokalni avtobus do Fažane."
+    },
+    {
+      "from": "Praga",
+      "car": "870 km, 9,5 ure preko češke D1, avstrijske A2 (češka in avstrijska vinjeta), slovenske A1 (vinjeta), hrvaške A9 (cestnina).",
+      "other": "FlixBus do Pulja (13-15 ur) ali sezonski vlak do Reke, nato avtobus."
+    },
+    {
+      "from": "Krakov",
+      "car": "1.000 km, 11 ur preko A4, češke D1 (češka vinjeta), avstrijske A2 (avstrijska vinjeta), slovenske A1 (vinjeta), hrvaške A9 (cestnina).",
+      "other": "Sezonski leti do Pulja ali avtobus preko Dunaja/Zagreba (15+ ur)."
+    }
+  ],
+  "whenToGo": "Glavna turistična sezona traja od junija do septembra. Julij in avgust sta najbolj obremenjena in najdražja meseca, s temperaturami morja, ki dosežejo vrhunec med 25 °C in 27 °C, in dnevnimi temperaturami, ki redno presegajo 30 °C. Junij in september ponujata ravnovesje tople vode, nižjih cen nastanitev in obvladljivih množic, zaradi česar sta idealna za plavanje in oglede. Od oktobra do maja je Fažana zelo mirna; številne restavracije, kampi in turistični operaterji se zaprejo za zimo, temperatura morja pa pade pod 15 °C, čeprav Narodni park Brioni ostaja odprt celo leto.",
+  "faq": [
+    {
+      "question": "Ali je vredno obiska?",
+      "answer": "Da, še posebej, če iščete sproščeno, družinsko usmerjeno obalno mesto. Ponuja odličen dostop do Narodnega parka Brioni in ima dolge odseke dostopnih prodnatih plaž, zaradi česar je manj živahno kot sosednja Pulj ali Rovinj."
+    },
+    {
+      "question": "Koliko dni?",
+      "answer": "Tri do pet dni je idealno. To zagotavlja dovolj časa za obisk Brionskih otokov, preživetje nekaj dni na lokalnih plažah in poldnevni izlet za raziskovanje rimskih ruševin v Pulju."
+    },
+    {
+      "question": "Najboljša plaža?",
+      "answer": "Plaža Bi Val v Valbandonu na splošno velja za najboljšo zaradi svoje obsežne opremljenosti, plitve vode in vodnih športov. Za tiste, ki imajo raje naravno senco, plaža Pineta na severu ponuja borovce tik ob prodišču."
+    },
+    {
+      "question": "Potrebujem avto?",
+      "answer": "Avtomobila ne potrebujete, če bivate v središču mesta ali v Valbandonu, saj so plaže, restavracije in trajekt za Brione dosegljivi peš. Vendar pa je avto zelo priporočljiv za raziskovanje preostale Istre ali doseganje velikih supermarketov."
+    },
+    {
+      "question": "Kje parkirati?",
+      "answer": "Plačljivo javno parkirišče je na voljo v določenih conah na obrobju območja za pešce. Glavna parkirišča vključujejo parkirišče Badel in parkirišče na Vodnjanski cesti, ki obe zaračunavata urno ali dnevno postavko med poletno sezono."
+    },
+    {
+      "question": "Je primerno za družine?",
+      "answer": "Da, Fažana je zelo primerna za družine. Plaže so večinoma drobno prodnate s plitvimi vhodi, glavna promenada je ravna in tlakovana, v mestu pa ni strmih stopnic, ki jih najdemo v mnogih drugih zgodovinskih hrvaških obalnih mestih."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na kratko",
+    "whereToStay": "Kje prenočiti v Fažani",
+    "gettingThere": "Pot do Fažane",
+    "whenToGo": "Kdaj obiskati",
+    "guides": "Vodiči po Fažani",
+    "faq": "Fažana: Pogosto zastavljena vprašanja",
+    "groups": {
+      "gettingAround": "Parkiranje in premikanje po mestu",
+      "planning": "Načrtovanje in nastanitev",
+      "timing": "Kdaj obiskati",
+      "travelers": "Družine, pari in stili potovanja",
+      "activities": "Plaže in stvari za početi",
+      "food": "Hrana in pijača",
+      "comparisons": "Primerjave",
+      "practical": "Praktične informacije"
+    },
+    "car": "Z avtomobilom",
+    "other": "Druge možnosti",
+    "bestFor": "Najbolj primerno za",
+    "parking": "Parkiranje",
+    "beach": "Plaža"
+  },
+  "destination": "fazana",
+  "language": "sk",
+  "updatedAt": "2026-10-16T12:01:22.382Z"
+}

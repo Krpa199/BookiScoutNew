@@ -1,0 +1,146 @@
+{
+  "title": "Korčula: Przewodnik – plaże, parkingi i gdzie się zatrzymać",
+  "metaDescription": "Zaplanuj swoją podróż na Korčulę w Chorwacji. Odkryj najlepsze miejsca na pobyt, trasy dojazdu z Europy, informacje o promach, parkingach i najlepszych plażach.",
+  "intro": "Korčula przyciąga podróżników szukających historycznej architektury, wyjątkowego lokalnego wina i spokojniejszej atmosfery niż sąsiedni Hvar. Wyspa charakteryzuje się gęstymi lasami sosnowymi, skalistymi wybrzeżami i ufortyfikowanym głównym miastem położonym na małym półwyspie. Odwiedzający spędzają czas na eksplorowaniu wąskich kamiennych uliczek, odwiedzaniu rodzinnych winiarni w głębi lądu oraz pływaniu w żwirowych lub rzadkich piaszczystych zatoczkach.\n\nGłówny sezon trwa od późnej wiosny do wczesnej jesieni. Większość podróżujących samochodem dociera promem samochodowym z Orebića, do którego dojeżdża się przez most Pelješac, lub dłuższym promem samochodowym ze Splitu. Wyspa umożliwia zarówno krótkie pobyty skoncentrowane na Mieście Korčula, jak i dłuższe wakacje wymagające samochodu do zwiedzania zachodnich osad, takich jak Vela Luka.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "Czerwiec – wrzesień"
+    },
+    {
+      "label": "Temperatura morza w sierpniu",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Dubrownik (DBV), 130 km + 15 min promem"
+    },
+    {
+      "label": "Główny typ plaż",
+      "value": "Żwirowe, skaliste, rzadko piaszczyste (Lumbarda)"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "Powyżej średniej dla Chorwacji"
+    },
+    {
+      "label": "Możliwość poruszania się pieszo",
+      "value": "Stare Miasto jest całkowicie wolne od samochodów"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Miasto Korčula",
+      "bestFor": "Dla początkujących podróżników i miłośników historii",
+      "parking": "Płatne parkingi poza murami strefy dla pieszych; wysokie stawki dzienne",
+      "beach": "5 minut spacerem do Banje (żwirowa) lub skalistych miejsc",
+      "summary": "Historyczne i kulturalne centrum wyspy. Oferuje największe skupisko restauracji, muzeów i miejsc wypływania na wycieczki łodzią."
+    },
+    {
+      "name": "Lumbarda",
+      "bestFor": "Dla rodzin z dziećmi i miłośników wina",
+      "parking": "Zazwyczaj bezpłatny lub niedrogi parking uliczny",
+      "beach": "Bezpośredni dostęp do Vela Pržina i Bilin Žal (piaszczyste)",
+      "summary": "Spokojna miejscowość położona 6 kilometrów od Miasta Korčula. Słynie z produkcji wina Grk i jedynych naturalnych piaszczystych plaż na wyspie."
+    },
+    {
+      "name": "Vela Luka",
+      "bestFor": "Dla podróżników szukających spokojniejszego, bardziej lokalnego środowiska",
+      "parking": "Obfite i w większości bezpłatne miejsca parkingowe wokół zakwaterowania",
+      "beach": "Krótka przejażdżka łodzią na wyspę Proizd (czysty żwir/skały)",
+      "summary": "Największe miasto na wyspie, położone na zachodnim krańcu. Służy jako główny port dla promów samochodowych przybywających bezpośrednio ze Splitu."
+    },
+    {
+      "name": "Žrnovo i wioski w głębi lądu",
+      "bestFor": "Dla piechurów, smakoszy i szukających odosobnienia",
+      "parking": "Łatwy i bezpłatny przy większości pensjonatów",
+      "beach": "10-15 minut jazdy do żwirowych zatoczek na południowym wybrzeżu",
+      "summary": "Skupisko małych, tradycyjnych wiosek położonych z dala od morza. Obszar ten znany jest z agroturystyki, tradycyjnych dań makaronowych i zalesionych szlaków turystycznych."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monachium",
+      "car": "1050 km, 12-13 godzin przez A8, AT (winiety/opłaty), SI (winieta), opłaty HR A1, Most Pelješac, prom Orebić",
+      "other": "Samolotem do Splitu (SPU) lub Dubrownika (DBV), następnie katamaranem"
+    },
+    {
+      "from": "Wiedeń",
+      "car": "850 km, 10-11 godzin przez AT A2 (winieta), SI (winieta), opłaty HR A1, Most Pelješac, prom Orebić",
+      "other": "Samolotem do Splitu (SPU) lub Dubrownika (DBV), następnie katamaranem"
+    },
+    {
+      "from": "Budapeszt",
+      "car": "850 km, 10-11 godzin przez HU M7 (winieta), opłaty HR A4/A1, Most Pelješac, prom Orebić",
+      "other": "Samolotem do Zadaru lub Splitu, następnie autobusem i katamaranem"
+    },
+    {
+      "from": "Lublana",
+      "car": "600 km, 7-8 godzin przez SI A2 (winieta), opłaty HR A1, Most Pelješac, prom Orebić",
+      "other": "Autobusem do Splitu lub Dubrownika, a następnie katamaranem pasażerskim"
+    },
+    {
+      "from": "Praga",
+      "car": "1150 km, 13-14 godzin przez CZ/AT/SI (winiety), opłaty HR A1, Most Pelješac, prom Orebić",
+      "other": "Samolotem do Splitu (SPU), następnie promem samochodowym do Vela Luka"
+    },
+    {
+      "from": "Kraków",
+      "car": "1200 km, 13-14 godzin przez SK/HU (winiety), opłaty HR A4/A1, Most Pelješac, prom Orebić",
+      "other": "Samolotem do Splitu (SPU), następnie katamaranem lub promem samochodowym na Korčulę"
+    }
+  ],
+  "whenToGo": "Czerwiec i wrzesień oferują temperatury morza około 23-25°C, łagodną pogodę i pełną obsługę bez szczytu tłumów. Lipiec i sierpień przynoszą szczyt upałów, wodę o temperaturze 26°C, najwyższe ceny zakwaterowania i zatłoczone promy. Październik i maj to chłodniejsze wody (19-21°C), zredukowane rozkłady rejsów promowych i zamykanie wielu sezonowych restauracji, co sprawia, że te miesiące są lepsze na piesze wędrówki i zwiedzanie zabytków niż na pływanie.",
+  "faq": [
+    {
+      "question": "Czy warto odwiedzić Korčulę?",
+      "answer": "Tak, ze względu na dobrze zachowane średniowieczne miasto, wyjątkową kulturę winiarską i czyste wody przybrzeżne. Oferuje spokojniejszą, bardziej historyczną alternatywę dla imprezowej atmosfery sąsiednich wysp."
+    },
+    {
+      "question": "Ile dni potrzeba na Korčuli?",
+      "answer": "Trzy do czterech dni to optymalny czas na wizytę. To wystarczająco dużo czasu, aby zobaczyć Miasto Korčula, odwiedzić winnice Lumbardy i dojechać do kilku południowych żwirowych plaż."
+    },
+    {
+      "question": "Jaka jest najlepsza plaża na Korčuli?",
+      "answer": "Vela Pržina i Bilin Žal w Lumbardzie to najlepsze piaszczyste plaże, popularne wśród rodzin. Pupnatska Luka na południowym wybrzeżu jest powszechnie uważana za najlepszą plażę żwirową ze względu na czystą wodę i zalesione tło."
+    },
+    {
+      "question": "Czy potrzebuję samochodu na Korčuli?",
+      "answer": "Samochód nie jest potrzebny, jeśli planujesz zostać tylko w Mieście Korčula i brać udział w wycieczkach łodzią. Jednak pojazd jest wysoce zalecany do odkrywania ukrytych zatoczek wyspy, winnic w głębi lądu i zachodnich miast."
+    },
+    {
+      "question": "Gdzie można zaparkować w Mieście Korčula?",
+      "answer": "Miasto Korčula ma płatne parkingi poza strefą dla pieszych, takie jak parking we wschodnim porcie lub w pobliżu supermarketu Tommy. Mniejsze miasteczka i wioski na wyspie zazwyczaj oferują bezpłatny lub tańszy parking uliczny."
+    },
+    {
+      "question": "Czy Korčula jest dobra dla rodzin?",
+      "answer": "Tak, wyspa jest bardzo bezpieczna i oferuje kilka obszarów przyjaznych rodzinom. Lumbarda jest szczególnie popularna wśród rodzin ze względu na płytkie piaszczyste plaże i spokojne, dostępne pieszo otoczenie."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Gdzie się zatrzymać na Korčuli",
+    "gettingThere": "Dojazd na Korčulę",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Korčuli",
+    "faq": "Korčula – FAQ",
+    "groups": {
+      "gettingAround": "Parking i poruszanie się",
+      "planning": "Planowanie i gdzie się zatrzymać",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróżowania",
+      "activities": "Plaże i atrakcje",
+      "food": "Jedzenie i picie",
+      "comparisons": "Porównania",
+      "practical": "Praktyczne informacje"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "korcula",
+  "language": "pl",
+  "updatedAt": "2026-10-16T10:00:55.280Z"
+}

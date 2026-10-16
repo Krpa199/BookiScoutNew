@@ -1,0 +1,146 @@
+{
+  "title": "Zágráb Útikönyv: Vezetés, Parkolás és Hol Szálljunk meg",
+  "metaDescription": "Tényeken alapuló útikönyv Zágrábhoz, Horvátországhoz. Találja meg a legjobb negyedeket a szállásához, parkolási részleteket, vezetési útvonalakat és a legjobb időpontot a látogatásra.",
+  "intro": "Zágráb egy közép-európai főváros, amely inkább a történelem, a múzeumok és az utcai kultúra iránt érdeklődő utazóknak felel meg, semmint a tengerparti üdülőhelyek kedvelőinek. A város két részre oszlik: a történelmi, domboldali Felsővárosra és a sík, osztrák-magyar Alsóvárosra. Mindkettőt nagy közparkok, sétálóutcák és a helyi villamoshálózat erős használata jellemzi.\n\nA látogatásra optimális idő a kellemes tavaszi és őszi hónapokban, vagy decemberben, az éves adventi vásárok idején van. A nyár magas hőséget hoz, sok lakos az Adria partjára utazik, ami nyugodtabbá teszi az utcákat, de néhány kisebb üzletet ideiglenesen bezár.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Május, június, szeptember, december"
+    },
+    {
+      "label": "Tenger hőmérséklete (augusztus)",
+      "value": "N/A (Belföldi város; a Jarun-tó kb. 25°C)"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Zágrábi Repülőtér (ZAG), 15 km a központtól"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Kavicsos/aprókavicsos tóparti strandok (Jarun és Bundek)"
+    },
+    {
+      "label": "Árszínvonal",
+      "value": "Átlagos vagy átlag alatti a horvát tengerparti árakhoz képest"
+    },
+    {
+      "label": "Óváros bejárható gyalogosan",
+      "value": "Igen, kiválóan bejárható gyalogosan, korlátozott autóbejárással"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Donji Grad (Alsóváros)",
+      "bestFor": "Első látogatóknak és városnézéshez",
+      "parking": "Drága utcai parkolás (1. zóna); nyilvános parkolóházakat igényel",
+      "beach": "6 km-re a Jarun-tótól",
+      "summary": "A város kereskedelmi szíve, múzeumokkal, parkokkal és 19. századi építészettel. A szállodák legszélesebb választékát és közvetlen hozzáférést biztosít a fő villamosvonalakhoz."
+    },
+    {
+      "name": "Gornji Grad (Felsőváros)",
+      "bestFor": "Történelem és nyugodt esték",
+      "parking": "Erősen korlátozott; a nem helyi lakosoknak az Alsóvárosban kell parkolniuk",
+      "beach": "6,5 km-re a Jarun-tótól",
+      "summary": "Zágráb legrégebbi része macskaköves utcákkal, kormányzati épületekkel és a Szent Márk-templommal. Ideális azoknak a látogatóknak, akik a történelmi hangulatot részesítik előnyben a közvetlen járműhozzáférés helyett."
+    },
+    {
+      "name": "Novi Zagreb",
+      "bestFor": "Költségtudatos utazók és autósok számára",
+      "parking": "Általában ingyenes vagy nagyon olcsó utcai parkolás",
+      "beach": "1-2 km-re a Bundek-tótól",
+      "summary": "A Száva folyótól délre található ez a terület, amely a század közepi lakóépületekből és bevásárlóközpontokból áll. Könnyen kapcsolódik a központhoz villamossal, és egyszerű parkolási lehetőségeket kínál."
+    },
+    {
+      "name": "Trešnjevka",
+      "bestFor": "Helyi élet és hosszabb tartózkodások",
+      "parking": "Vegyes; többnyire 3. zóna (olcsóbb) vagy ingyenes a lakóövezetekben",
+      "beach": "3 km-re a Jarun-tótól",
+      "summary": "A központtól nyugatra fekvő, sűrűn lakott negyed, amely a napi szabadtéri piacáról ismert. Hétköznapibb lakóövezeti élményt nyújt alacsonyabb szállásárakkal."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "540 km, 5,5-6,5 óra az A8, A10 és A2 úton keresztül. Osztrák autópályamatrica, Karavankák alagút díj, szlovén autópályamatrica és horvát útdíj szükséges.",
+      "other": "Közvetlen repülőjárat (Croatia Airlines/Lufthansa) vagy közvetlen FlixBus."
+    },
+    {
+      "from": "Bécs",
+      "car": "370 km, 4-4,5 óra az A2 és A9 úton keresztül. Osztrák autópályamatrica, szlovén autópályamatrica és horvát útdíj szükséges.",
+      "other": "Közvetlen napi ÖBB vonat vagy FlixBus."
+    },
+    {
+      "from": "Budapest",
+      "car": "340 km, 3,5-4 óra az M7 és A4 úton keresztül. Magyar e-matricás autópályamatrica és horvát útdíj szükséges.",
+      "other": "Közvetlen napi vonat vagy FlixBus."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "140 km, 1,5-2 óra az A2 és A3 úton keresztül. Szlovén autópályamatrica és horvát útdíj szükséges.",
+      "other": "Közvetlen vonat vagy busz (kb. 2,5 óra)."
+    },
+    {
+      "from": "Prága",
+      "car": "690 km, 7,5-8,5 óra Bécsen és Grazon keresztül. Cseh, osztrák és szlovén autópályamatrica, valamint horvát útdíj szükséges.",
+      "other": "Közvetlen repülőjárat (Smartwings/Ryanair) vagy éjszakai vonat Bécsen keresztül."
+    },
+    {
+      "from": "Krakkó",
+      "car": "750 km, 8-9 óra Szlovákián és Magyarországon keresztül. Lengyel útdíj, szlovák és magyar e-matricás autópályamatrica, valamint horvát útdíj szükséges.",
+      "other": "Közvetlen repülőjárat (Ryanair/LOT) vagy éjszakai busz."
+    }
+  ],
+  "whenToGo": "Zágrábban a tél hideg, a hőmérséklet gyakran 0°C és 5°C körül mozog, bár december továbbra is csúcsidőszak a turizmusban a város kiterjedt adventi vásárai miatt. A tavasz (április-június) és az ősz (szeptember-október) kínálja a legkellemesebb időjárást a városnézéshez, 15°C és 25°C közötti nappali hőmérsékletekkel, alacsonyabb szállásárakkal és teljes mértékben működő turisztikai létesítményekkel. A nyár (július és augusztus) rendszeresen 30°C fölé emelkedő hőmérsékleteket hoz; bár a város kevésbé zsúfolt, mert a lakosok a tengerpartra vándorolnak, a tengeri szellő hiánya érezhetővé teszi a városi hőséget, bár a Jarun-tó és a Bundek-tó strandjai helyi úszási lehetőségeket kínálnak.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni Zágrábot?",
+      "answer": "Igen, Zágrábot érdemes meglátogatni osztrák-magyar építészete, kiterjedt múzeumgyűjteménye és erős kávéházi kultúrája miatt. Kulturális és történelmi ellenpontot képez Horvátország tengerparti úti céljaival szemben."
+    },
+    {
+      "question": "Hány napra van szükségem Zágrábban?",
+      "answer": "Két-három nap elegendő a főbb látnivalók felfedezéséhez. Ez elég időt biztosít a Felső- és Alsóváros megtekintésére, a főbb múzeumok látogatására, és egy délután eltöltésére a Maksimir Parkban vagy a Jarun-tónál."
+    },
+    {
+      "question": "Melyik a legjobb strand Zágrábban?",
+      "answer": "A legjobb úszóhelyek a Jarun-tó kavicsos strandjai, amelyek a város délnyugati részén találhatók. A Bundek-tó is kínál karbantartott kavicsos strandokat és úszóhelyeket a nyári hónapokban."
+    },
+    {
+      "question": "Szükségem van autóra Zágrábban?",
+      "answer": "Nem, autóra nincs szükség, és gyakran akadályt jelent a városközpontban. Zágrábnak hatékony és átfogó villamos- és buszhálózata van, amely lefedi az összes főbb turisztikai területet."
+    },
+    {
+      "question": "Hol a legjobb parkolni Zágrábban?",
+      "answer": "A legmegbízhatóbb lehetőségek az olyan földalatti nyilvános parkolóházak, mint a Langov trg, a Tuškanac vagy a Petrinjska. Az utcai parkolás a központban (1. zóna) drága, legfeljebb két órára korlátozott, és szigorúan ellenőrzik."
+    },
+    {
+      "question": "Alkalmas Zágráb családoknak?",
+      "answer": "Igen, a város nagyon családbarát. Az illúziók múzeuma, a Zágrábi Állatkert a Maksimir Parkban és a rövid siklóút megbízható lehetőségek a fiatalabb látogatók számára."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Áttekintés",
+    "whereToStay": "Hol szálljunk meg Zágrábban",
+    "gettingThere": "Utazás Zágrábba",
+    "whenToGo": "Mikor utazzunk",
+    "guides": "Zágrábi útikalauzok",
+    "faq": "Zágráb GYIK",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor utazzunk",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Étel és ital",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "zagreb",
+  "language": "hu",
+  "updatedAt": "2026-10-16T11:31:19.392Z"
+}

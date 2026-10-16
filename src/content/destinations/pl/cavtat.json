@@ -1,0 +1,146 @@
+{
+  "title": "Cavtat: Plaże, parking i gdzie się zatrzymać – przewodnik turystyczny",
+  "metaDescription": "Zaplanuj swoją podróż do Cavtatu w Chorwacji. Dowiedz się, gdzie się zatrzymać, jak dojechać z Europy Środkowej, uzyskaj informacje o parkingu i najlepszych lokalnych plażach.",
+  "intro": "Cavtat to nadmorska miejscowość w południowej Dalmacji, położona 20 kilometrów na południe od Dubrownika. Jest idealnym miejscem dla turystów szukających spokojniejszego, bardziej relaksującego doświadczenia nad morzem, jednocześnie oferując łatwy dostęp do zabytkowego centrum Dubrownika dzięki regularnym łodziom pasażerskim i autobusom regionalnym. Miasteczko skupia się wokół zalesionego półwyspu z płaską, przyjazną dla pieszych promenadą, wysadzoną restauracjami, kawiarniami i sosnami.\n\nDestynacja ta jest doskonale przystosowana dla rodzin, starszych podróżnych i par, które preferują relaksujące dni na plaży zamiast aktywnego życia nocnego. Lato to najpopularniejszy czas na wizytę, choć maj i wrzesień oferują komfortową pogodę do pływania i niższe ceny zakwaterowania. Samochód jest niepotrzebny, jeśli zatrzymujesz się w granicach miasta, ale przydatny do zwiedzania szerszego regionu Konavle lub sąsiedniej Czarnogóry.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "Od maja do września"
+    },
+    {
+      "label": "Temperatura morza w sierpniu",
+      "value": "25°C do 27°C"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Lotnisko Dubrownik (DBV), 6 km stąd"
+    },
+    {
+      "label": "Główny typ plaży",
+      "value": "Żwirowe i betonowe tarasy"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "Powyżej średniej, ale 10-15% taniej niż w Dubrowniku"
+    },
+    {
+      "label": "Łatwość poruszania się pieszo",
+      "value": "Stare miasto jest bardzo przyjazne dla pieszych i w większości wolne od samochodów"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Stare Miasto (Półwysep Rat)",
+      "bestFor": "Dla osób odwiedzających po raz pierwszy i par preferujących łatwy dostęp do restauracji",
+      "parking": "Bardzo ograniczony; parking publiczny przy wjeździe do miasta",
+      "beach": "5-10 minut spacerem do skalistych i betonowych miejsc kąpielowych",
+      "summary": "Historyczne centrum charakteryzuje się tradycyjnymi kamiennymi domami, restauracjami i główną promenadą. Zakwaterowanie tutaj często znajduje się tuż przy wodzie, ale zazwyczaj brakuje mu prywatnego parkingu."
+    },
+    {
+      "name": "Zatoka Tiha (Uvala Tiha)",
+      "bestFor": "Dla rodzin i podróżnych szukających bezpośredniego dostępu do plaży",
+      "parking": "Łatwiejszy do znalezienia, wiele apartamentów oferuje prywatne miejsca",
+      "beach": "Bezpośrednio przy plaży Žal i okolicznych żwirowych brzegach",
+      "summary": "Położona na północ od półwyspu, ta dzielnica mieszkalna oferuje nowoczesne apartamenty i małe hotele. Główne żwirowe plaże znajdują się wzdłuż tej zatoki, co czyni ją bardzo dogodną do pływania."
+    },
+    {
+      "name": "Mećajac",
+      "bestFor": "Dla podróżnych dbających o budżet, gotowych na spacer pod górę",
+      "parking": "Zazwyczaj dostępny w większości prywatnych obiektów noclegowych",
+      "beach": "10-15 minut spacerem w dół do głównych zatok",
+      "summary": "Ta dzielnica położona jest na wzgórzu nad starym miastem, oferując niższe ceny i często podwyższony widok na morze. Powrót z centrum lub plaży wymaga stromego spaceru pod górę."
+    },
+    {
+      "name": "Obod",
+      "bestFor": "Dla podróżnych z samochodami, którzy preferują spokojniejszą bazę",
+      "parking": "Dużo miejsc i zazwyczaj wliczony w cenę zakwaterowania",
+      "beach": "15-20 minut spacerem w dół, lub krótka przejażdżka samochodem",
+      "summary": "Mała osada przy drodze nadbrzeżnej, tuż przed wjazdem do Cavtatu. Zapewnia spokojne otoczenie i łatwy dostęp do głównej autostrady na jednodniowe wycieczki, ale wymaga transportu, aby dotrzeć do centrum Cavtatu."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monachium",
+      "car": "980 km, 11-12 godzin przez A8, A10, A1. Wymaga winiet AT i SLO, opłat za tunele w AT, opłat za autostrady w HR",
+      "other": "Loty bezpośrednie na lotnisko w Dubrowniku (1,5 godziny)"
+    },
+    {
+      "from": "Wiedeń",
+      "car": "820 km, 9-10 godzin przez A2, A4, A1. Wymaga winiet AT i SLO, opłat za autostrady w HR. Trasa korzysta z Mostu Pelješac",
+      "other": "Loty bezpośrednie na lotnisko w Dubrowniku (1,5 godziny)"
+    },
+    {
+      "from": "Budapeszt",
+      "car": "750 km, 8-9 godzin przez M7 i A1. Wymaga winiety HU i opłat za autostrady w HR. Trasa korzysta z Mostu Pelješac",
+      "other": "Sezonowe loty bezpośrednie (1,5 godziny) lub połączenia autobusowe"
+    },
+    {
+      "from": "Lublana",
+      "car": "640 km, 7-8 godzin przez A2 i A1. Wymaga winiety SLO i opłat za autostrady w HR. Trasa korzysta z Mostu Pelješac",
+      "other": "Sezonowe loty do Dubrownika lub autobus przez Zagrzeb"
+    },
+    {
+      "from": "Praga",
+      "car": "1150 km, 13-14 godzin przez CZ D1, AT A9, SLO A2, HR A1. Wymaga winiet CZ, AT, SLO, opłat za tunele w AT, opłat w HR",
+      "other": "Loty bezpośrednie na lotnisko w Dubrowniku (2 godziny)"
+    },
+    {
+      "from": "Kraków",
+      "car": "1160 km, 13-14 godzin przez SK D1, HU M1/M7, HR A1. Wymaga opłat w PL, winiet SK i HU, opłat w HR",
+      "other": "Loty bezpośrednie na lotnisko w Dubrowniku liniami Ryanair lub LOT"
+    }
+  ],
+  "whenToGo": "Lato (lipiec i sierpień) to szczyt sezonu, z temperaturą morza sięgającą 27°C, wszystkimi restauracjami i promami działającymi z pełną wydajnością oraz najwyższymi cenami zakwaterowania. Czerwiec i wrzesień oferują bardziej komfortową równowagę, z dziennymi temperaturami około 25-28°C, mniejszymi tłumami i morzem wciąż wystarczająco ciepłym do pływania. Maj i październik są znacznie spokojniejsze i tańsze, ale temperatura morza waha się w granicach 19-21°C, a niektóre sezonowe firmy lub linie promowe mogą zredukować swoje rozkłady lub całkowicie zamknąć działalność.",
+  "faq": [
+    {
+      "question": "Czy warto odwiedzić Cavtat?",
+      "answer": "Tak, jest gorąco polecany dla tych, którzy szukają malowniczego, relaksującego nadmorskiego miasteczka, a nie zatłoczonego miasta. Oferuje piękny port, czystą wodę i łatwy dostęp do Dubrownika bez dużego natłoku turystów."
+    },
+    {
+      "question": "Ile dni potrzeba w Cavtacie?",
+      "answer": "Trzy do pięciu dni to idealny czas na relaksujący pobyt na plaży i jednodniową wycieczkę do Dubrownika. Jeśli planujesz zwiedzić Czarnogórę, półwysep Pelješac i Wyspy Elafickie, cały tydzień posłuży jako doskonała baza."
+    },
+    {
+      "question": "Jaka jest najlepsza plaża w Cavtacie?",
+      "answer": "Plaża Žal to najpopularniejsza opcja, oferująca długi pas żwiru, płytką wodę i pobliskie udogodnienia. Dla bardziej dzikiego doświadczenia, Sustjepan oferuje betonowe tarasy i skaliste miejsca do pływania, podczas gdy słynna plaża Pasjača, położona pod klifem, znajduje się 15 minut jazdy samochodem."
+    },
+    {
+      "question": "Czy potrzebuję samochodu w Cavtacie?",
+      "answer": "Nie, nie potrzebujesz samochodu, jeśli planujesz pozostać w okolicy i korzystać z częstych autobusów lub promów, aby odwiedzić Dubrownik. Samochód jest konieczny tylko wtedy, gdy zamierzasz samodzielnie zwiedzać szerszy region Konavle, pobliskie wioski lub Czarnogórę."
+    },
+    {
+      "question": "Gdzie mogę zaparkować w Cavtacie?",
+      "answer": "Główny parking publiczny znajduje się przy wjeździe do starego miasta, obok dworca autobusowego, i pobiera opłaty godzinowe lub dzienne. Ponieważ zabytkowy półwysep jest w dużej mierze objęty ograniczeniami ruchu, upewnij się, że Twoje zakwaterowanie obejmuje prywatny parking, jeśli przyjeżdżasz samochodem."
+    },
+    {
+      "question": "Czy Cavtat jest dobry dla rodzin?",
+      "answer": "Tak, jest to jedna z najbardziej przyjaznych rodzinom destynacji w regionie. Płaska, przeznaczona tylko dla pieszych promenada jest bezpieczna dla dzieci, a spokojne, płytkie wody na lokalnych plażach żwirowych są doskonałe dla młodych pływaków."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Gdzie się zatrzymać w Cavtacie",
+    "gettingThere": "Dojazd do Cavtatu",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Cavtacie",
+    "faq": "Cavtat: Często zadawane pytania",
+    "groups": {
+      "gettingAround": "Parking i poruszanie się",
+      "planning": "Planowanie i gdzie się zatrzymać",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróżowania",
+      "activities": "Plaże i co robić",
+      "food": "Jedzenie i napoje",
+      "comparisons": "Porównania",
+      "practical": "Praktyczne informacje"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "cavtat",
+  "language": "pl",
+  "updatedAt": "2026-10-16T15:00:54.603Z"
+}

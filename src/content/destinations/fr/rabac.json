@@ -1,0 +1,146 @@
+{
+  "title": "Rabac : Guide de voyage – Plages, parking et où séjourner",
+  "metaDescription": "Planifiez votre voyage à Rabac, Croatie. Trouvez des informations à jour sur les meilleures plages de galets, les zones de stationnement, les itinéraires routiers et les meilleurs quartiers où séjourner.",
+  "intro": "Rabac est une ville balnéaire située sur la côte est de la péninsule istrienne, juste en contrebas de la ville historique perchée de Labin. Anciennement un petit village de pêcheurs, elle est devenue une destination de vacances majeure, réputée pour ses grandes plages de galets blancs et ses eaux claires. La ville est construite à flanc de colline, descendant abruptement vers la mer, et est reliée par une longue promenade piétonne bordée de restaurants, cafés et hôtels.\n\nCette destination convient principalement aux familles et aux couples recherchant des vacances balnéaires dédiées avec un accès facile aux commodités modernes des complexes hôteliers. En raison du terrain vallonné, les visiteurs doivent souvent emprunter des escaliers pour atteindre les hébergements en retrait de l'eau. La haute saison touristique s'étend de juin à septembre, juillet et août offrant les températures de mer les plus chaudes et les niveaux d'affluence les plus élevés.",
+  "quickFacts": [
+    {
+      "label": "Meilleurs mois",
+      "value": "Juin à septembre"
+    },
+    {
+      "label": "Temp. de la mer en août",
+      "value": "24°C - 26°C"
+    },
+    {
+      "label": "Aéroport le plus proche",
+      "value": "Aéroport de Pula (PUY), 43 km"
+    },
+    {
+      "label": "Type de plage principal",
+      "value": "Galets blancs et terrasses en béton"
+    },
+    {
+      "label": "Niveau de prix",
+      "value": "Moyen pour l'Istrie"
+    },
+    {
+      "label": "Accessibilité à pied",
+      "value": "Promenade piétonne ; collines escarpées à l'intérieur des terres"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Port et Centre de Rabac",
+      "bestFor": "Restauration, excursions en bateau et être au cœur de l'action",
+      "parking": "Parking public payant sur Obala Maršala Tita (Zone 1/2)",
+      "beach": "À 5-10 minutes à pied des plages de la ville",
+      "summary": "La zone de la promenade centrale est la partie la plus animée de Rabac, bordée de restaurants, cafés et boutiques de souvenirs. Elle est idéale pour ceux qui souhaitent un accès immédiat aux repas et aux excursions en bateau, bien qu'elle puisse être bruyante les soirs d'été."
+    },
+    {
+      "name": "Girandella (Est de Rabac)",
+      "bestFor": "Familles, commodités des complexes hôteliers et amateurs de plage",
+      "parking": "Grands parkings payants près des plages ; parking d'hôtel dédié",
+      "beach": "Accès direct à la plage de Girandella (plage de galets Pavillon Bleu)",
+      "summary": "Située à l'extrémité est de la ville, cette zone est dominée par de grands complexes hôteliers et des hôtels familiaux. Elle offre un accès immédiat aux meilleures plages de galets et à de nombreux sports nautiques, ce qui en fait un choix très pratique pour des vacances balnéaires classiques."
+    },
+    {
+      "name": "Baie de Maslinica (Ouest de Rabac)",
+      "bestFor": "Camping, jeunes familles et eaux peu profondes",
+      "parking": "Parking sur place dans les campings et hôtels",
+      "beach": "Accès direct à la plage de Maslinica (grande plage de galets, entrée peu profonde dans l'eau)",
+      "summary": "Maslinica occupe l'extrémité ouest de Rabac et abrite de grands campings et des hôtels adaptés aux familles. La grande baie possède une longue plage de galets avec une entrée peu profonde dans l'eau, entourée d'une dense forêt de pins offrant une ombre naturelle."
+    },
+    {
+      "name": "Labin (Ville historique)",
+      "bestFor": "Histoire, galeries d'art et éviter les foules côtières",
+      "parking": "Parking public disponible à l'extérieur des remparts de la vieille ville",
+      "beach": "5 km en voiture jusqu'aux plages de Rabac",
+      "summary": "Perchée sur une colline à 5 kilomètres au-dessus de Rabac, Labin offre une vieille ville médiévale préservée avec ses rues pavées, ses galeries et ses cafés. Elle est nettement plus calme et moins chère que la côte, mais nécessite une voiture ou un trajet en bus pour atteindre la mer."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Munich",
+      "car": "510 km, 6-7 heures via A8, Tauern Autobahn (A10) et la Slovénie. Nécessite une vignette AT, péages Tauern/Karawanken, vignette SI, péages HR.",
+      "other": "Bus direct (Flixbus) vers Pula ou Rijeka, ou vol saisonnier vers l'aéroport de Pula"
+    },
+    {
+      "from": "Vienne",
+      "car": "500 km, 5,5-6 heures via A2 jusqu'à Graz, Maribor, Ljubljana et Rijeka. Nécessite une vignette AT, vignette SI, péages HR.",
+      "other": "Train direct (ÖBB) ou bus vers Rijeka, puis bus local vers Rabac"
+    },
+    {
+      "from": "Budapest",
+      "car": "510 km, 5,5-6 heures via M7 jusqu'à Zagreb, puis A6 jusqu'à Rijeka. Nécessite une e-vignette HU, péages HR.",
+      "other": "Bus direct (Flixbus) vers Rijeka, puis bus local Arriva vers Rabac"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "130 km, 2 heures via A1 jusqu'à Postojna, Ilirska Bistrica et Rijeka. Nécessite une vignette SI.",
+      "other": "Lignes de bus directes vers Rijeka ou Labin"
+    },
+    {
+      "from": "Prague",
+      "car": "830 km, 9-10 heures via Linz, Graz, Maribor et Ljubljana. Nécessite des vignettes CZ, AT, SI, péages HR.",
+      "other": "Train ou bus RegioJet vers Rijeka, suivi d'un bus local"
+    },
+    {
+      "from": "Cracovie",
+      "car": "960 km, 10-11 heures via Ostrava, Brno, Vienne, Graz et Maribor. Nécessite des péages PL, vignettes CZ, AT, SI, péages HR.",
+      "other": "Vols saisonniers vers l'aéroport de Pula ou bus via Vienne"
+    }
+  ],
+  "whenToGo": "Juin à septembre sont les mois privilégiés pour visiter Rabac, car la station balnéaire ferme en grande partie pendant la basse saison. En juillet et août, les températures de la mer atteignent 24°C à 26°C, ce qui est idéal pour la baignade, bien que ces mois entraînent des prix plus élevés et des plages très fréquentées. Juin et septembre offrent une expérience plus calme avec des tarifs d'hébergement inférieurs, même si l'eau peut être plus fraîche, surtout début juin. La plupart des hôtels, bars de plage et installations touristiques fonctionnent pleinement de fin mai à début octobre, tandis que les mois d'hiver voient la ville en grande partie fermée, les habitants dépendant de Labin, à proximité, pour les services.",
+  "faq": [
+    {
+      "question": "Vaut-il la peine de visiter Rabac ?",
+      "answer": "Oui, si vous recherchez des vacances balnéaires dédiées avec des eaux claires et de grandes plages de galets. Elle ne possède pas de vieille ville historique au bord de l'eau, mais la ville médiévale de Labin n'est qu'à une courte distance en voiture sur la colline."
+    },
+    {
+      "question": "Combien de jours faut-il à Rabac ?",
+      "answer": "4 à 7 jours est typique pour des vacances d'été à la plage ici. Cela laisse suffisamment de temps pour se détendre au bord de la mer et faire une excursion en bateau à Cres ou une excursion d'une journée à Pula, à proximité."
+    },
+    {
+      "question": "Quelle est la meilleure plage de Rabac ?",
+      "answer": "La plage de Girandella et la plage de Maslinica sont les options les plus populaires, toutes deux offrant le statut Pavillon Bleu, des galets blancs et toutes les commodités des complexes hôteliers. Des criques plus petites comme Sv. Andrea offrent des endroits plus calmes si vous marchez plus loin le long de la promenade."
+    },
+    {
+      "question": "Ai-je besoin d'une voiture à Rabac ?",
+      "answer": "Vous n'avez pas besoin de voiture si vous prévoyez de rester dans votre complexe hôtelier et le long de la promenade du front de mer, car tout est accessible à pied. Cependant, une voiture est fortement recommandée si vous souhaitez explorer le reste de l'Istrie ou visiter facilement Labin."
+    },
+    {
+      "question": "Où puis-je me garer à Rabac ?",
+      "answer": "Il y a de grands parkings publics payants près du port (Obala Maršala Tita) et près de la zone du complexe Girandella, fonctionnant sur un système de tarifs zonés pendant l'été. La plupart des hôtels et campings proposent un parking dédié à leurs clients."
+    },
+    {
+      "question": "Rabac est-il adapté aux familles ?",
+      "answer": "Rabac est exceptionnellement bien adapté aux familles avec enfants. L'entrée dans la mer est peu profonde, les plages sont de galets propres plutôt que de rochers, et la longue promenade du front de mer est entièrement piétonne."
+    }
+  ],
+  "headings": {
+    "quickFacts": "En bref",
+    "whereToStay": "Où séjourner à Rabac",
+    "gettingThere": "Se rendre à Rabac",
+    "whenToGo": "Quand partir",
+    "guides": "Guides de Rabac",
+    "faq": "FAQ Rabac",
+    "groups": {
+      "gettingAround": "Stationnement et se déplacer",
+      "planning": "Planification et hébergement",
+      "timing": "Quand partir",
+      "travelers": "Familles, couples et styles de voyage",
+      "activities": "Plages et activités",
+      "food": "Restauration",
+      "comparisons": "Comparaisons",
+      "practical": "Infos pratiques"
+    },
+    "car": "En voiture",
+    "other": "Autres options",
+    "bestFor": "Idéal pour",
+    "parking": "Parking",
+    "beach": "Plage"
+  },
+  "destination": "rabac",
+  "language": "fr",
+  "updatedAt": "2026-10-16T12:11:51.184Z"
+}

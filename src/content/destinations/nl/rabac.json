@@ -1,0 +1,146 @@
+{
+  "title": "Rabac Reisgids: Stranden, Parkeren & Waar te Verblijven",
+  "metaDescription": "Plan uw reis naar Rabac, Kroatië. Vind actuele informatie over de beste kiezelstranden, parkeerzones, autoroutes en de beste gebieden om te verblijven.",
+  "intro": "Rabac is een kustresortplaats aan de oostkust van het schiereiland Istrië, gelegen net onder de historische heuvelstad Labin. Oorspronkelijk een klein vissersdorpje, heeft het zich ontwikkeld tot een belangrijke vakantiebestemming die bekend staat om zijn grote witte kiezelstranden en heldere water. De stad is gebouwd tegen een steile helling die afloopt naar de zee, verbonden door een lange voetgangerspromenade vol met restaurants, cafés en hotels.\n\nDe bestemming is voornamelijk geschikt voor families en stellen die op zoek zijn naar een toegewijde strandvakantie met gemakkelijke toegang tot moderne resortfaciliteiten. Vanwege het heuvelachtige terrein moeten bezoekers vaak trappen beklimmen om accommodaties te bereiken die verder van het water liggen. Het belangrijkste toeristenseizoen loopt van juni tot september, waarbij juli en augustus de warmste zeetemperaturen en de hoogste drukte met zich meebrengen.",
+  "quickFacts": [
+    {
+      "label": "Beste maanden",
+      "value": "Juni tot september"
+    },
+    {
+      "label": "Zeetemperatuur in augustus",
+      "value": "24°C - 26°C"
+    },
+    {
+      "label": "Dichtstbijzijnde luchthaven",
+      "value": "Luchthaven Pula (PUY), 43 km"
+    },
+    {
+      "label": "Hoofdtype strand",
+      "value": "Witte kiezels en betonnen terrassen"
+    },
+    {
+      "label": "Prijsniveau",
+      "value": "Gemiddeld voor Istrië"
+    },
+    {
+      "label": "Loopbaarheid",
+      "value": "Verkeersvrije promenade; steile heuvels landinwaarts"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Haven & Centrum van Rabac",
+      "bestFor": "Dineren, boottochten en midden in de actie",
+      "parking": "Betaald openbaar parkeren aan Obala Maršala Tita (Zone 1/2)",
+      "beach": "Binnen 5-10 minuten loopafstand van stadsstranden",
+      "summary": "Het centrale promenadegebied is het drukste deel van Rabac, omzoomd met restaurants, cafés en souvenirwinkels. Het is ideaal voor diegenen die directe toegang willen tot eetgelegenheden en boottochten, hoewel het 's zomers 's avonds rumoerig kan zijn."
+    },
+    {
+      "name": "Girandella (Oost-Rabac)",
+      "bestFor": "Families, resortfaciliteiten en strandliefhebbers",
+      "parking": "Grote betaalde parkeerplaatsen bij de stranden; speciale hotelparkeergelegenheid",
+      "beach": "Directe toegang tot Girandella Strand (Blauwe Vlag kiezelstrand)",
+      "summary": "Dit gebied, gelegen aan de oostelijke rand van de stad, wordt gedomineerd door grote resortcomplexen en familiehotels. Het biedt directe toegang tot de beste kiezelstranden en talrijke watersporten, waardoor het een zeer gunstige keuze is voor een klassieke strandvakantie."
+    },
+    {
+      "name": "Maslinica Baai (West-Rabac)",
+      "bestFor": "Kamperen, jonge families en ondiep water",
+      "parking": "Parkeergelegenheid op locatie bij campings en hotels",
+      "beach": "Directe toegang tot Maslinica Strand (groot kiezelstrand, ondiepe toegang)",
+      "summary": "Maslinica beslaat het westelijke deel van Rabac en herbergt grote campings en gezinsvriendelijke hotels. De grote baai heeft een lang kiezelstrand met een ondiepe toegang, omgeven door een dicht dennenbos dat natuurlijke schaduw biedt."
+    },
+    {
+      "name": "Labin (Historische Stad)",
+      "bestFor": "Geschiedenis, kunstgalerijen en kustdrukte vermijden",
+      "parking": "Openbare parkeergelegenheid beschikbaar buiten de oude stadsmuren",
+      "beach": "5 km rijden naar de stranden van Rabac",
+      "summary": "Labin, gelegen op een heuvel 5 kilometer boven Rabac, biedt een goed bewaard gebleven middeleeuwse oude stad met geplaveide straatjes, galerijen en cafés. Het is merkbaar rustiger en goedkoper dan de kust, maar vereist een auto- of busrit om de zee te bereiken."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "510 km, 6-7 uur via A8, Tauern Autobahn (A10) en Slovenië. Vereist AT vignet, Tauern/Karawanken tolgelden, SI vignet, HR tolgelden.",
+      "other": "Directe bus (Flixbus) naar Pula of Rijeka, of seizoensvlucht naar Luchthaven Pula"
+    },
+    {
+      "from": "Wenen",
+      "car": "500 km, 5.5-6 uur via A2 naar Graz, Maribor, Ljubljana en Rijeka. Vereist AT vignet, SI vignet, HR tolgelden.",
+      "other": "Directe trein (ÖBB) of bus naar Rijeka, daarna lokale bus naar Rabac"
+    },
+    {
+      "from": "Boedapest",
+      "car": "510 km, 5.5-6 uur via M7 naar Zagreb, daarna A6 naar Rijeka. Vereist HU e-vignet, HR tolgelden.",
+      "other": "Directe bus (Flixbus) naar Rijeka, daarna lokale Arriva bus naar Rabac"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "130 km, 2 uur via A1 naar Postojna, Ilirska Bistrica en Rijeka. Vereist SI vignet.",
+      "other": "Directe busroutes naar Rijeka of Labin"
+    },
+    {
+      "from": "Praag",
+      "car": "830 km, 9-10 uur via Linz, Graz, Maribor en Ljubljana. Vereist CZ, AT, SI vignetten, HR tolgelden.",
+      "other": "RegioJet trein of bus naar Rijeka, gevolgd door lokale bus"
+    },
+    {
+      "from": "Krakau",
+      "car": "960 km, 10-11 uur via Ostrava, Brno, Wenen, Graz en Maribor. Vereist PL tolgelden, CZ, AT, SI vignetten, HR tolgelden.",
+      "other": "Seizoensvluchten naar Luchthaven Pula of bus via Wenen"
+    }
+  ],
+  "whenToGo": "Juni tot september zijn de belangrijkste maanden om Rabac te bezoeken, aangezien het resort aanzienlijk sluit tijdens het laagseizoen. In juli en augustus bereiken de zeetemperaturen 24°C tot 26°C, waardoor het ideaal is om te zwemmen, hoewel deze maanden piekprijzen en drukke stranden met zich meebrengen. Juni en september bieden een rustigere ervaring met lagere accommodatieprijzen, hoewel het water koeler kan zijn, vooral begin juni. De meeste hotels, strandbars en toeristische faciliteiten zijn volledig operationeel van eind mei tot begin oktober, terwijl de wintermaanden de stad grotendeels gesloten zien, waarbij de lokale bevolking voor diensten afhankelijk is van het nabijgelegen Labin.",
+  "faq": [
+    {
+      "question": "Is Rabac de moeite waard om te bezoeken?",
+      "answer": "Ja, als u op zoek bent naar een toegewijde strandvakantie met helder water en grote kiezelstranden. Het mist een historische oude stad aan het water, maar de middeleeuwse stad Labin ligt op slechts een korte rit de heuvel op."
+    },
+    {
+      "question": "Hoeveel dagen heb ik nodig in Rabac?",
+      "answer": "4 tot 7 dagen is typisch voor een zomerse strandvakantie hier. Dit geeft voldoende tijd om te ontspannen aan zee en een boottocht naar Cres of een dagtocht naar het nabijgelegen Pula te maken."
+    },
+    {
+      "question": "Wat is het beste strand in Rabac?",
+      "answer": "Girandella Strand en Maslinica Strand zijn de populairste opties, beide met Blauwe Vlag-status, witte kiezels en volledige resortfaciliteiten. Kleinere baaien zoals Sv. Andrea bieden rustigere plekjes als u verder langs de promenade loopt."
+    },
+    {
+      "question": "Heb ik een auto nodig in Rabac?",
+      "answer": "U heeft geen auto nodig als u van plan bent in uw resort en langs de promenade aan zee te blijven, aangezien alles te voet bereikbaar is. Een auto is echter sterk aanbevolen als u de rest van Istrië wilt verkennen of Labin gemakkelijk wilt bezoeken."
+    },
+    {
+      "question": "Waar kan ik parkeren in Rabac?",
+      "answer": "Er zijn grote openbare betaalde parkeerplaatsen bij de haven (Obala Maršala Tita) en bij het Girandella resortgebied, die tijdens de zomer werken met een zonetariefsysteem. De meeste hotels en campings bieden speciale parkeergelegenheid voor hun gasten."
+    },
+    {
+      "question": "Is Rabac goed voor families?",
+      "answer": "Rabac is uitzonderlijk geschikt voor families met kinderen. De toegang tot de zee is ondiep, de stranden zijn schone kiezels in plaats van rotsen, en de lange promenade aan zee is volledig verkeersvrij."
+    }
+  ],
+  "headings": {
+    "quickFacts": "In één oogopslag",
+    "whereToStay": "Waar te verblijven in Rabac",
+    "gettingThere": "Naar Rabac reizen",
+    "whenToGo": "Wanneer te gaan",
+    "guides": "Rabac gidsen",
+    "faq": "Veelgestelde vragen over Rabac",
+    "groups": {
+      "gettingAround": "Parkeren & je verplaatsen",
+      "planning": "Planning & waar te verblijven",
+      "timing": "Wanneer te gaan",
+      "travelers": "Families, stellen & reisstijlen",
+      "activities": "Stranden & dingen om te doen",
+      "food": "Eten & drinken",
+      "comparisons": "Vergelijkingen",
+      "practical": "Praktische info"
+    },
+    "car": "Met de auto",
+    "other": "Andere opties",
+    "bestFor": "Het beste voor",
+    "parking": "Parkeren",
+    "beach": "Strand"
+  },
+  "destination": "rabac",
+  "language": "nl",
+  "updatedAt": "2026-10-16T12:10:40.180Z"
+}

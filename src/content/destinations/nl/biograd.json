@@ -1,0 +1,146 @@
+{
+  "title": "Biograd na Moru Reisgids: Stranden & Waar te verblijven",
+  "metaDescription": "Plan je reis naar Biograd na Moru met feitelijk advies over autoroutes, wijken, parkeren en stranden. Ideaal voor gezinnen en roadtrippers.",
+  "intro": "Biograd na Moru is een kustplaats in Noord-Dalmatië, gelegen op een klein schiereiland halverwege Zadar en Šibenik. Het dient als een praktische uitvalsbasis voor gezinnen en watersporters dankzij de grote jachthavens, toegankelijke kiezelstranden omgeven door pijnbossen, en de nabijheid van de Kornaten en het Vranameer.\n\nDe stad is sterk seizoensgebonden en draait op volle capaciteit van juni tot september. Het is geschikt voor reizigers die op zoek zijn naar een traditionele Kroatische strandvakantie met ongecompliceerde logistiek, in plaats van mensen die high-end luxe of intens nachtleven zoeken. Het vlakke terrein en de schaduwrijke promenades maken het bijzonder handig voor bezoekers met jonge kinderen of beperkte mobiliteit.",
+  "quickFacts": [
+    {
+      "label": "Beste maanden",
+      "value": "Juni en september voor warm zeewater en minder drukte"
+    },
+    {
+      "label": "Zeetemperatuur in augustus",
+      "value": "25°C tot 27°C"
+    },
+    {
+      "label": "Dichtstbijzijnde luchthaven",
+      "value": "Luchthaven Zadar (ZAD), 28 km naar het noorden"
+    },
+    {
+      "label": "Hoofdzakelijk strandtype",
+      "value": "Kiezel en grind, met natuurlijke dennenbomen als schaduw"
+    },
+    {
+      "label": "Prijsniveau",
+      "value": "Gemiddeld voor Kroatië; goedkoper dan Split of Dubrovnik"
+    },
+    {
+      "label": "Beloopbaarheid oude stad",
+      "value": "Compact en volledig beloopbaar, grotendeels autovrij"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centrum & Oude Stad (Poluotok)",
+      "bestFor": "Dineren, boottochten en toegang tot de haven",
+      "parking": "Betaald parkeren op straat en grote gemeentelijke parkeerplaatsen; vaak vol in juli/augustus",
+      "beach": "10-15 minuten lopen naar Dražica of Bošana",
+      "summary": "Het historische schiereiland herbergt de belangrijkste restaurants, cafés en de veerhaven. Het is 's avonds levendig, maar mist directe toegang tot het strand."
+    },
+    {
+      "name": "Dražica & Soline (Zuid)",
+      "bestFor": "Gezinnen en strandgangers",
+      "parking": "Privé parkeerplaats bij hotel/appartement is essentieel; openbare plekken zijn schaars",
+      "beach": "Directe toegang tot Dražica (kiezel) en Soline (zand/kiezelmix)",
+      "summary": "Dit zuidelijke gedeelte wordt gekenmerkt door grote hotels, campings en een schaduwrijke promenade. Het biedt de beste strandfaciliteiten en directe toegang tot het water."
+    },
+    {
+      "name": "Bošana (Noord)",
+      "bestFor": "Budgetreizigers en rustigere verblijven",
+      "parking": "Makkelijker parkeren op straat dan in het centrum; de meeste appartementen hebben opritten",
+      "beach": "Directe toegang tot Bošana Strand (kiezel, minder schaduw)",
+      "summary": "Een woonwijk ten noorden van de jachthaven die voornamelijk privéappartementen verhuurt. Het plaatselijke strand mist de schaduw van pijnbomen zoals in het zuiden, maar is over het algemeen minder druk."
+    },
+    {
+      "name": "Kumenat",
+      "bestFor": "Stellen en mensen die rust zoeken",
+      "parking": "Meestal privé parkeerplaatsen die door de accommodatie worden aangeboden",
+      "beach": "Directe toegang tot Kumenat Strand (kleine kiezelbaai)",
+      "summary": "Gelegen twee kilometer ten zuiden van het centrum, is deze kleine woonwijk verwijderd van het stadsgeluid. Het biedt een rustigere, meer afgelegen kusteraring."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "760 km, 8-9 uur via A10 (Oostenrijk) en A1 (Kroatië). Oostenrijks vignet, tolgeld Tauern Tunnel, Sloveens vignet en Kroatische tolgelden vereist.",
+      "other": "Directe seizoensvluchten naar Zadar (ZAD), daarna 30 minuten met bus of taxi."
+    },
+    {
+      "from": "Wenen",
+      "car": "620 km, 6.5-7.5 uur via A2/A9 (Oostenrijk) en A1/A4 (Slovenië). Oostenrijks en Sloveens vignet, plus Kroatische tolgelden vereist.",
+      "other": "Directe seizoensvluchten naar Zadar (ZAD) of directe FlixBus naar Biograd."
+    },
+    {
+      "from": "Boedapest",
+      "car": "650 km, 6.5-7 uur via M7 (Hongarije) en A4/A1 (Kroatië). Hongaars e-vignet en Kroatische tolgelden vereist.",
+      "other": "Seizoensgebonden directe vluchten naar Zadar (ZAD) of trein naar Zagreb met een busverbinding."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "340 km, 4 uur via A2 (Slovenië) en A1 (Kroatië). Sloveens vignet en Kroatische tolgelden vereist.",
+      "other": "In de zomer rijden er directe busdiensten van ongeveer 5-6 uur."
+    },
+    {
+      "from": "Praag",
+      "car": "950 km, 10-11 uur via Wenen en Maribor. Tsjechisch, Oostenrijks en Sloveens vignet, plus Kroatische tolgelden vereist.",
+      "other": "Directe seizoensvluchten naar Zadar (ZAD) via low-cost maatschappijen."
+    },
+    {
+      "from": "Krakau",
+      "car": "1050 km, 11-12 uur via Slowakije en Hongarije. Slowaaks en Hongaars vignet, plus Kroatische tolgelden vereist.",
+      "other": "Directe vluchten naar Zadar (ZAD) via Ryanair, daarna lokaal vervoer."
+    }
+  ],
+  "whenToGo": "Juli en augustus zijn de piekmaanden van de zomer, met zeetemperaturen rond de 25°C tot 27°C, alle toeristische faciliteiten zijn open, maar met hoge prijzen en drukke stranden. Juni en september bieden een betere balans, met zeetemperaturen rond de 22°C tot 24°C, lagere accommodatietarieven en beheersbare drukte, hoewel af en toe regen mogelijk is. Van oktober tot mei is Biograd na Moru grotendeels inactief; de meeste hotels, seizoensgebonden restaurants en strandfaciliteiten sluiten, waardoor het alleen geschikt is voor doorreizende reizigers of mensen die complete rust zoeken.",
+  "faq": [
+    {
+      "question": "Is het de moeite waard om te bezoeken?",
+      "answer": "Ja, als je een ongecompliceerde familie strandvakantie wilt of een uitvalsbasis voor zeilen. Het mist de uitgebreide historische architectuur van Zadar of Šibenik, maar maakt dit goed met toegankelijke, door pijnbomen omzoomde stranden."
+    },
+    {
+      "question": "Hoeveel dagen?",
+      "answer": "Drie tot vijf dagen is optimaal voor een strandvakantie en het verkennen van de directe omgeving. Een volle week biedt tijd voor boottochten naar de Kornaten of een rit naar Nationaal Park Krka."
+    },
+    {
+      "question": "Beste strand?",
+      "answer": "Dražica Strand is het populairst vanwege zijn Blauwe Vlag-status, zachte kiezeltoegang en veel schaduw van pijnbomen. Soline Strand, iets verder naar het zuiden gelegen, biedt zandplekken die populair zijn bij kleine kinderen."
+    },
+    {
+      "question": "Heb ik een auto nodig?",
+      "answer": "Je hebt geen auto nodig als je in Biograd verblijft en alleen van plan bent naar de plaatselijke stranden te lopen. Een voertuig wordt echter sterk aanbevolen voor dagtochten naar nabijgelegen nationale parken, Zadar of het Vranameer."
+    },
+    {
+      "question": "Waar te parkeren?",
+      "answer": "Parkeren in het centrum is verdeeld in betaalde zones en wordt in de zomer strikt gehandhaafd. Het wordt sterk aangeraden om accommodatie te boeken inclusief gegarandeerd privé parkeren om dagelijkse kosten en de zoektocht naar een plek te vermijden."
+    },
+    {
+      "question": "Is het geschikt voor gezinnen?",
+      "answer": "Ja, het is een van de meest gezinsvriendelijke steden in Noord-Dalmatië. Het vlakke terrein, de uitgebreide wandelpromenades, schaduwrijke stranden en het nabijgelegen Dalmaland attractiepark zijn direct gericht op kinderen."
+    }
+  ],
+  "headings": {
+    "quickFacts": "In één oogopslag",
+    "whereToStay": "Waar te verblijven in Biograd na Moru",
+    "gettingThere": "Naar Biograd na Moru reizen",
+    "whenToGo": "Wanneer te gaan",
+    "guides": "Biograd na Moru gidsen",
+    "faq": "Veelgestelde vragen Biograd na Moru",
+    "groups": {
+      "gettingAround": "Parkeren & rondreizen",
+      "planning": "Planning & waar te verblijven",
+      "timing": "Wanneer te gaan",
+      "travelers": "Gezinnen, stellen & reisstijlen",
+      "activities": "Stranden & dingen om te doen",
+      "food": "Eten & drinken",
+      "comparisons": "Vergelijkingen",
+      "practical": "Praktische informatie"
+    },
+    "car": "Met de auto",
+    "other": "Andere opties",
+    "bestFor": "Het beste voor",
+    "parking": "Parkeren",
+    "beach": "Strand"
+  },
+  "destination": "biograd",
+  "language": "nl",
+  "updatedAt": "2026-10-16T09:56:36.290Z"
+}

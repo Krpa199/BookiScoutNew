@@ -1,0 +1,146 @@
+{
+  "title": "Korčula: Cestovní průvodce – pláže, parkování a kde se ubytovat",
+  "metaDescription": "Naplánujte si cestu na Korčulu, Chorvatsko. Objevte nejlepší oblasti k pobytu, trasy autem z Evropy, informace o trajektech, parkování a nejlepší pláže.",
+  "intro": "Korčula láká cestovatele hledající historickou architekturu, osobité místní víno a klidnější atmosféru než sousední Hvar. Ostrov se pyšní hustými borovými lesy, skalnatým pobřežím a opevněným hlavním městem ležícím na malém poloostrově. Návštěvníci tráví čas prozkoumáváním úzkých kamenných uliček, návštěvou rodinných vinařství ve vnitrozemí a koupáním v oblázkových nebo vzácných písečných zátokách.\n\nHlavní sezóna trvá od pozdního jara do začátku podzimu. Většina návštěvníků přijíždějících autem dorazí trajektem z Orebiće, kam se dostanou přes Pelješac Bridge, nebo delším trajektem ze Splitu. Ostrov nabízí ubytování jak pro krátké pobyty zaměřené na město Korčula, tak pro delší dovolené vyžadující auto k prozkoumání západních osad, jako je Vela Luka.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "Červen až září"
+    },
+    {
+      "label": "Teplota moře v srpnu",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Dubrovník (DBV), 130 km + 15 min trajektem"
+    },
+    {
+      "label": "Hlavní typ pláží",
+      "value": "Oblázkové, skalnaté plotny, vzácně písek (Lumbarda)"
+    },
+    {
+      "label": "Cenová úroveň",
+      "value": "Nadprůměrná pro Chorvatsko"
+    },
+    {
+      "label": "Pěší dostupnost",
+      "value": "Staré Město je zcela bez aut"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Město Korčula",
+      "bestFor": "Pro první návštěvníky a nadšence do historie",
+      "parking": "Placené parkoviště mimo pěší zóny; vysoké denní sazby",
+      "beach": "5 minut chůze na Banje (oblázková) nebo skalnatá místa",
+      "summary": "Historické a kulturní centrum ostrova. Nabízí nejvyšší koncentraci restaurací, muzeí a míst pro vyplutí na lodní výlety."
+    },
+    {
+      "name": "Lumbarda",
+      "bestFor": "Pro rodiny s dětmi a milovníky vína",
+      "parking": "Obecně zdarma nebo levné parkování na ulici",
+      "beach": "Přímý přístup na Vela Pržina a Bilin Žal (písečné)",
+      "summary": "Klidná vesnice ležící 6 kilometrů od města Korčula. Je známá produkcí vína Grk a jedinými přírodními písečnými plážemi na ostrově."
+    },
+    {
+      "name": "Vela Luka",
+      "bestFor": "Pro cestovatele hledající klidnější a místnější prostředí",
+      "parking": "Dostatek a většinou zdarma v okolí ubytování",
+      "beach": "Krátká plavba lodí na ostrov Proizd (čisté oblázky/skály)",
+      "summary": "Největší město na ostrově, ležící na západním konci. Slouží jako hlavní přístav pro trajekty s auty přijíždějící přímo ze Splitu."
+    },
+    {
+      "name": "Žrnovo a vnitrozemské vesnice",
+      "bestFor": "Pro turisty, gurmány a ty, kteří hledají samotu",
+      "parking": "Snadné a zdarma u většiny penzionů",
+      "beach": "10-15 minut jízdy k oblázkovým zátokám na jižním pobřeží",
+      "summary": "Skupina malých, tradičních osad ležících stranou od moře. Oblast je známá agroturistikou, tradičními makarónovými pokrmy a lesními turistickými stezkami."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Mnichov",
+      "car": "1 050 km, 12-13 hodin přes A8, AT (dálniční známky/mýtné), SI (dálniční známka), HR A1 mýtné, Pelješac Bridge, trajekt Orebić",
+      "other": "Letět do Splitu (SPU) nebo Dubrovníku (DBV), poté katamaránem"
+    },
+    {
+      "from": "Vídeň",
+      "car": "850 km, 10-11 hodin přes AT A2 (dálniční známka), SI (dálniční známka), HR A1 mýtné, Pelješac Bridge, trajekt Orebić",
+      "other": "Letět do Splitu (SPU) nebo Dubrovníku (DBV), poté katamaránem"
+    },
+    {
+      "from": "Budapešť",
+      "car": "850 km, 10-11 hodin přes HU M7 (dálniční známka), HR A4/A1 mýtné, Pelješac Bridge, trajekt Orebić",
+      "other": "Letět do Zadaru nebo Splitu, poté autobusem a katamaránem"
+    },
+    {
+      "from": "Lublaň",
+      "car": "600 km, 7-8 hodin přes SI A2 (dálniční známka), HR A1 mýtné, Pelješac Bridge, trajekt Orebić",
+      "other": "Autobusem do Splitu nebo Dubrovníku, poté katamaránem pro pěší"
+    },
+    {
+      "from": "Praha",
+      "car": "1 150 km, 13-14 hodin přes CZ/AT/SI dálniční známky, HR A1 mýtné, Pelješac Bridge, trajekt Orebić",
+      "other": "Letět do Splitu (SPU), poté trajektem s autem do Vela Luky"
+    },
+    {
+      "from": "Krakov",
+      "car": "1 200 km, 13-14 hodin přes SK/HU dálniční známky, HR A4/A1 mýtné, Pelješac Bridge, trajekt Orebić",
+      "other": "Letět do Splitu (SPU), poté katamaránem nebo trajektem s autem na Korčulu"
+    }
+  ],
+  "whenToGo": "Červen a září nabízejí teplotu moře kolem 23-25°C, mírné počasí a plný provoz služeb bez davů. Červenec a srpen přinášejí nejvyšší teploty, vodu 26°C, nejvyšší ceny ubytování a vytížené trajekty. V říjnu a květnu se voda ochlazuje (19-21°C), jízdní řády trajektů jsou omezené a mnoho sezónních restaurací zavírá, což tyto měsíce činí vhodnějšími pro pěší turistiku a prohlídku historických památek než pro koupání.",
+  "faq": [
+    {
+      "question": "Stojí Korčula za návštěvu?",
+      "answer": "Ano, pro své dobře zachovalé středověké město, osobitou vinařskou kulturu a čisté pobřežní vody. Nabízí klidnější a historičtější alternativu k party atmosféře sousedních ostrovů."
+    },
+    {
+      "question": "Kolik dní potřebujete na Korčule?",
+      "answer": "Tři až čtyři dny jsou optimální pro návštěvu. To poskytuje dostatek času na prohlídku města Korčula, návštěvu lumbardských vinic a jízdu k několika jižním oblázkovým plážím."
+    },
+    {
+      "question": "Která je nejlepší pláž na Korčule?",
+      "answer": "Vela Pržina a Bilin Žal v Lumbardě jsou nejlepší písečné pláže, díky čemuž jsou oblíbené u rodin. Pupnatska Luka na jižním pobřeží je všeobecně považována za nejlepší oblázkovou pláž pro svou čistou vodu a lesnaté pozadí."
+    },
+    {
+      "question": "Potřebuji auto na Korčule?",
+      "answer": "Auto není potřeba, pokud plánujete zůstat pouze ve městě Korčula a podnikat lodní výlety. Vozidlo je však vysoce doporučeno pro prozkoumávání skrytých zátok ostrova, vnitrozemských vinic a západních měst."
+    },
+    {
+      "question": "Kde mohu parkovat ve městě Korčula?",
+      "answer": "Město Korčula má placená parkoviště mimo pěší zónu, například parkoviště u východního přístavu nebo v blízkosti supermarketu Tommy. Menší města a vesnice po celém ostrově obvykle nabízejí bezplatné nebo levnější parkování na ulici."
+    },
+    {
+      "question": "Je Korčula vhodná pro rodiny?",
+      "answer": "Ano, ostrov je velmi bezpečný a nabízí několik rodinných oblastí. Lumbarda je obzvláště oblíbená u rodin díky svým mělkým písečným plážím a klidnému prostředí vhodnému pro procházky."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Přehled",
+    "whereToStay": "Kde se ubytovat na Korčule",
+    "gettingThere": "Jak se dostat na Korčulu",
+    "whenToGo": "Kdy jet",
+    "guides": "Průvodce po Korčule",
+    "faq": "Korčula: Často kladené otázky",
+    "groups": {
+      "gettingAround": "Parkování a pohyb po ostrově",
+      "planning": "Plánování a kde se ubytovat",
+      "timing": "Kdy jet",
+      "travelers": "Rodiny, páry a styly cestování",
+      "activities": "Pláže a co dělat",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": "Praktické informace"
+    },
+    "car": "Autem",
+    "other": "Další možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "korcula",
+  "language": "cz",
+  "updatedAt": "2026-10-16T10:01:34.779Z"
+}

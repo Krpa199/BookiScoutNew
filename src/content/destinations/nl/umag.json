@@ -1,0 +1,146 @@
+{
+  "title": "Umag Reisgids: Stranden, Parkeren & Waar te Verblijven",
+  "metaDescription": "Plan je reis naar Umag, Kroatië. Ontvang praktische details over rijroutes, accommodatie, parkeren, familieresorts en de beste reistijden.",
+  "intro": "Umag is de meest noordelijke kustplaats in Istrië, waardoor het de eerste stop is voor bezoekers die vanuit Midden-Europa komen. Het richt zich sterk op resorttoerisme, met grote hotelcomplexen, campings en uitgebreide sportfaciliteiten, met name het ATP Croatia Open tennistoernooi. De kustlijn kenmerkt zich door verharde zonneterrassen, rotsachtige baaien en pijnbossen die direct aan zee grenzen.\n\nHet hoogseizoen loopt van eind juni tot augustus, met hoge temperaturen en de belangrijkste tennisdrukte in juli. September is rustiger met de zee nog warm genoeg om te zwemmen, terwijl in de winter de meeste toeristische faciliteiten sluiten. Umag is geschikt voor gezinnen en actieve reizigers die gemakkelijke toegang tot het strand en sport boven uitgebreide historische bezienswaardigheden verkiezen.",
+  "quickFacts": [
+    {
+      "label": "Beste maanden",
+      "value": "Juni tot september"
+    },
+    {
+      "label": "Zeetemperatuur in augustus",
+      "value": "25°C tot 27°C"
+    },
+    {
+      "label": "Dichtstbijzijnde luchthaven",
+      "value": "Pula (PUY), 85 km ten zuiden"
+    },
+    {
+      "label": "Hoofdstrandtype",
+      "value": "Betonnen plateaus, rotsachtige baaien en kunstmatige kiezels"
+    },
+    {
+      "label": "Prijsniveau",
+      "value": "Gemiddeld voor Istrië, goedkoper dan Rovinj"
+    },
+    {
+      "label": "Oude stad beloopbaar",
+      "value": "Ja, het historische schiereiland is een voetgangerszone"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centrum van Umag & Oude Stad",
+      "bestFor": "Dineren, wandelen en korte verblijven",
+      "parking": "Betaalde openbare parkeerplaatsen buiten het voetgangersgebied van het schiereiland",
+      "beach": "700m naar Gradsko Kupalište (Stadsstrand)",
+      "summary": "Het historische hart van Umag ligt op een klein schiereiland. Het biedt smalle straatjes, restaurants en een jachthaven, maar mist de grote resortzwembaden en directe toegang tot het strand die verder naar het noorden te vinden zijn."
+    },
+    {
+      "name": "Punta",
+      "bestFor": "Nabijheid van zowel het centrum als de stranden",
+      "parking": "Betaald parkeren op straat en privé hotelparkeerplaatsen",
+      "beach": "Directe toegang tot betonnen en rotsachtige stranden",
+      "summary": "Een woon- en hotelwijk net ten noorden van de jachthaven. Het verbindt het stadscentrum met de noordelijke resorts via een kustpromenade, en combineert gemak met toegang tot het strand."
+    },
+    {
+      "name": "Stella Maris & Katoro",
+      "bestFor": "Gezinnen, tennisfans en resortvakanties",
+      "parking": "Grote speciale parkeerplaatsen voor resortgasten en daggasten",
+      "beach": "Directe toegang tot Laguna (kiezel/zand) en Polynesia",
+      "summary": "De belangrijkste toeristische zone die zich ten noorden van de stad uitstrekt. Gedomineerd door grote hotels, appartementencomplexen, tennisbanen en een lange toeristentreinroute die naar het centrum verbindt."
+    },
+    {
+      "name": "Savudrija",
+      "bestFor": "Stellen, kampeerders en rustigere verblijven",
+      "parking": "Over het algemeen gratis of inbegrepen bij de accommodatie",
+      "beach": "Rotsachtige kusten en verharde terrassen",
+      "summary": "Een rustiger, met pijnbomen omzoomd dorp 8 km ten noorden van Umag, bekend om zijn actieve vuurtoren. Populair bij kampeerders en degenen die een rustiger tempo zoeken, weg van de belangrijkste resorts."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "500 km, ~5,5 uur via A8, A10 (Tauern), Karawankentunnel, Ljubljana en Koper. Vereist Oostenrijkse en Sloveense vignetten, plus tolgelden voor de tunnel.",
+      "other": "FlixBus of nachttrein naar Ljubljana, daarna busverbinding"
+    },
+    {
+      "from": "Wenen",
+      "car": "510 km, ~5,5 uur via A2 naar Graz, Maribor, Ljubljana en Koper. Vereist Oostenrijkse en Sloveense vignetten.",
+      "other": "Directe FlixBus beschikbaar in de zomer, of trein naar Triëst/Ljubljana"
+    },
+    {
+      "from": "Boedapest",
+      "car": "600 km, ~6 uur via M7 naar de grens bij Letenye, A4/A6 via Zagreb en Rijeka, daarna de Istrische Y. Vereist Hongaars vignet en Kroatische tolgelden.",
+      "other": "Directe FlixBus naar Umag (ongeveer 9 uur)"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "130 km, ~1,5 tot 2 uur via A1 naar Koper, daarna Route 11. Vereist Sloveens vignet. Zomerse grensvertragingen bij Dragonja zijn gebruikelijk.",
+      "other": "Directe bus (ongeveer 2,5 uur) of gedeelde transfer (bijv. GoOpti)"
+    },
+    {
+      "from": "Praag",
+      "car": "800 km, ~9 tot 10 uur via Linz, Salzburg en A10. Vereist Tsjechische, Oostenrijkse en Sloveense vignetten, plus Oostenrijkse tunneltoeslagen.",
+      "other": "Trein naar Rijeka of Ljubljana, daarna bus, of directe zomerbus"
+    },
+    {
+      "from": "Krakau",
+      "car": "950 km, ~10,5 uur via A4, Ostrava, Wenen, Graz en Ljubljana. Vereist Poolse tolgelden, plus Tsjechische, Oostenrijkse en Sloveense vignetten.",
+      "other": "Vlucht naar Wenen of Venetië, daarna bus, of directe zomerbus"
+    }
+  ],
+  "whenToGo": "Het toeristenseizoen van Umag loopt van mei tot oktober. Juli en augustus zijn de warmste maanden met temperaturen overdag rond de 30°C en zeetemperaturen die pieken op 26°C. Dit is ook de drukste en duurste periode, vooral tijdens het ATP tennistoernooi eind juli. Juni en september bieden een betere balans tussen warm weer, lagere prijzen en minder drukte, waarbij de zeetemperaturen in september nog steeds comfortabel zijn om te zwemmen. Tussen november en april is de stad erg rustig; de meeste resorthotels, strandbars en seizoensgebonden restaurants sluiten, hoewel de kustpaden open blijven voor wandelen en fietsen.",
+  "faq": [
+    {
+      "question": "Is Umag een bezoek waard?",
+      "answer": "Ja, vooral als je een resortvakantie wilt of vanuit Midden-Europa komt. Het mist de uitgebreide historische architectuur van Rovinj of Poreč, maar blinkt uit in sportfaciliteiten, familieresorts en toegankelijke kustlijnen."
+    },
+    {
+      "question": "Hoeveel dagen heb ik nodig in Umag?",
+      "answer": "Drie tot vijf dagen is ideaal voor een standaard strand- en ontspanningsreis. Als je het als uitvalsbasis gebruikt om het binnenland van Istrië of nabijgelegen kustplaatsen te verkennen, is een hele week aan te raden."
+    },
+    {
+      "question": "Wat is het beste strand in Umag?",
+      "answer": "Laguna Stella Maris is het populairst, met een halvemaanvormige kiezel- en kunstzandkustlijn met ondiep water. Katoro en Polynesia bieden brede betonnen terrassen en rotsachtige gedeelten met helder water."
+    },
+    {
+      "question": "Heb ik een auto nodig in Umag?",
+      "answer": "Je hebt geen auto nodig als je binnen de belangrijkste resortgebieden verblijft, aangezien een toeristentrein Katoro en Stella Maris met het stadscentrum verbindt. Een auto wordt echter sterk aanbevolen voor dagtochten in Istrië."
+    },
+    {
+      "question": "Waar kan ik parkeren in Umag?",
+      "answer": "De stad hanteert een zone-gebaseerd openbaar parkeersysteem, met grote betaalde parkeerplaatsen nabij het busstation en de jachthaven, net buiten de autovrije oude stad. De meeste grote hotels en resorts verder naar het noorden bieden parkeergelegenheid, hoewel sommige een dagelijkse vergoeding vragen."
+    },
+    {
+      "question": "Is Umag goed voor gezinnen?",
+      "answer": "Ja, Umag is een van de meest gezinsvriendelijke bestemmingen in Istrië. De noordelijke resorts bieden speciale kinderanimatie, ondiepe strandgedeelten, speeltuinen en grote zwembadcomplexen, afgestemd op jonge bezoekers."
+    }
+  ],
+  "headings": {
+    "quickFacts": "In één oogopslag",
+    "whereToStay": "Waar te verblijven in Umag",
+    "gettingThere": "Naar Umag reizen",
+    "whenToGo": "Wanneer te gaan",
+    "guides": "Gidsen voor Umag",
+    "faq": "Veelgestelde vragen over Umag",
+    "groups": {
+      "gettingAround": "Parkeren & je verplaatsen",
+      "planning": "Planning & waar te verblijven",
+      "timing": "Wanneer te gaan",
+      "travelers": "Gezinnen, stellen & reisstijlen",
+      "activities": "Stranden & dingen om te doen",
+      "food": "Eten & drinken",
+      "comparisons": "Vergelijkingen",
+      "practical": "Praktische info"
+    },
+    "car": "Met de auto",
+    "other": "Andere opties",
+    "bestFor": "Geschikt voor",
+    "parking": "Parkeren",
+    "beach": "Strand"
+  },
+  "destination": "umag",
+  "language": "nl",
+  "updatedAt": "2026-10-16T11:39:13.047Z"
+}

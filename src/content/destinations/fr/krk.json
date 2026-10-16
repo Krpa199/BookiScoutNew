@@ -1,0 +1,146 @@
+{
+  "title": "Krk : Guide de voyage, plages, stationnement et hébergements",
+  "metaDescription": "Planifiez un voyage à Krk, Croatie. Découvrez les meilleurs quartiers où séjourner, les itinéraires depuis l'Europe centrale, les types de plages et des conseils de stationnement pour la vieille ville.",
+  "intro": "Krk est la plus grande île de l'Adriatique et l'une des destinations croates les plus accessibles pour les conducteurs d'Europe centrale. Elle convient aux familles, aux couples et aux voyageurs en road trip à la recherche de villes historiques, de plages de galets ombragées par des pins et d'eaux claires, sans avoir besoin de transferts en ferry. La ville de Krk est le centre culturel et historique de l'île, entourée de promenades côtières et de grands campings.\n\nL'été apporte les températures de mer les plus chaudes et le temps le plus fiable, mais juillet et août connaissent également l'affluence maximale et les prix les plus élevés. Juin et septembre offrent une expérience plus calme avec des eaux suffisamment chaudes pour la baignade. Les hivers sont très calmes, la plupart des infrastructures touristiques fermant entre novembre et avril.",
+  "quickFacts": [
+    {
+      "label": "Meilleurs mois",
+      "value": "Juin à septembre"
+    },
+    {
+      "label": "Température de la mer en août",
+      "value": "24°C à 26°C"
+    },
+    {
+      "label": "Aéroport le plus proche",
+      "value": "Aéroport de Rijeka (RJK), à 27 km"
+    },
+    {
+      "label": "Type de plage principal",
+      "value": "Galets, rochers et terrasses pavées"
+    },
+    {
+      "label": "Niveau de prix",
+      "value": "Légèrement supérieur à la moyenne croate"
+    },
+    {
+      "label": "Vieille ville",
+      "value": "Piétonne uniquement (sans voiture)"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Vieille ville (Stari Grad)",
+      "bestFor": "Histoire, restauration et courts séjours",
+      "parking": "À l'extérieur des remparts (parkings publics payants)",
+      "beach": "10-15 minutes à pied de Porporela ou Dražica",
+      "summary": "Le centre historique fortifié abrite des rues étroites en pierre, le château des Frankopan et de nombreux restaurants. Il est entièrement piéton, ce qui le rend très agréable à parcourir à pied mais nécessite de transporter les bagages depuis les parkings périphériques."
+    },
+    {
+      "name": "Dražica et Koralj",
+      "bestFor": "Familles, accès à la plage et hôtels-resorts",
+      "parking": "Parking d'hôtel ou grands parkings publics payants",
+      "beach": "Accès immédiat aux plages de galets et pavées",
+      "summary": "Situé à quelques pas à l'est de la vieille ville, ce quartier est densément boisé de pins. Il concentre la plupart des hôtels et des criques de galets adaptées aux familles."
+    },
+    {
+      "name": "Ježevac",
+      "bestFor": "Campeurs, familles et journées de plage tranquilles",
+      "parking": "Sur place au camping ou stationnement dans la rue",
+      "beach": "Accès immédiat à la plage de galets de Ježevac",
+      "summary": "Situé à l'ouest du centre, ce quartier est dominé par un grand camping haut de gamme et ses infrastructures de plage récemment rénovées. Il reste à 10 minutes à pied de la vieille ville."
+    },
+    {
+      "name": "Kornić",
+      "bestFor": "Voyageurs à petit budget et ambiance suburbaine plus calme",
+      "parking": "Parking privé gratuit généralement disponible dans les appartements",
+      "beach": "2 km en descendant la colline jusqu'à la plage de Dunat",
+      "summary": "Un petit village situé à environ 6 km de la ville de Krk, surplombant la baie de Punat. Il nécessite une voiture ou un vélo pour atteindre la plage et la ville principale, mais offre des locations d'appartements plus abordables."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Munich",
+      "car": "~520 km, 6,5 heures. Itinéraire via Salzbourg (A8), Villach (A10), Ljubljana, Postojna, Rijeka. Nécessite vignette AT, péage Tauern, vignette SI, péages HR (le pont de Krk est gratuit).",
+      "other": "Vol pour Rijeka (RJK) ou FlixBus direct pour Krk."
+    },
+    {
+      "from": "Vienne",
+      "car": "~510 km, 5,5 heures. Itinéraire via Graz (A2), Maribor (A1), Zagreb, Rijeka. Nécessite vignette AT, vignette SI, péages HR.",
+      "other": "FlixBus direct ou vol pour Zagreb."
+    },
+    {
+      "from": "Budapest",
+      "car": "~510 km, 5 heures. Itinéraire via le lac Balaton (M7), Zagreb, Rijeka (A6). Nécessite e-vignette HU, péages autoroutiers HR.",
+      "other": "FlixBus direct, ou train pour Rijeka suivi d'un bus local."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "~150 km, 2 heures. Itinéraire via Postojna, Ilirska Bistrica, Rupa, Rijeka. Nécessite vignette SI, péages HR.",
+      "other": "Bus direct pour Krk ou Rijeka."
+    },
+    {
+      "from": "Prague",
+      "car": "~820 km, 9 heures. Itinéraire via České Budějovice, Linz, Graz, Maribor, Zagreb. Nécessite vignettes CZ, AT, SI, péages HR.",
+      "other": "Combo train/bus RegioJet pour Rijeka."
+    },
+    {
+      "from": "Cracovie",
+      "car": "~960 km, 10,5 heures. Itinéraire via Katowice, Ostrava, Brno, Vienne, Graz, Maribor, Zagreb. Nécessite péages PL, vignettes CZ, AT, SI, péages HR.",
+      "other": "Vol pour Zagreb ou Zadar, puis bus ou voiture de location."
+    }
+  ],
+  "whenToGo": "La saison touristique s'étend de mai à octobre. Juillet et août sont les mois de pointe avec des températures de la mer atteignant 25°C, des prix d'hébergement élevés et des plages bondées. Juin et septembre offrent un équilibre idéal entre temps chaud, températures de la mer autour de 22°C à 23°C et moins de foule. Mai et octobre sont beaucoup plus calmes et moins chers, propices au cyclisme et à la randonnée, bien que la mer soit souvent trop froide pour la baignade. La plupart des restaurants et hôtels ferment de novembre à avril, rendant les visites hivernales très limitées en termes de commodités.",
+  "faq": [
+    {
+      "question": "Krk vaut-elle le détour ?",
+      "answer": "Oui, c'est un excellent choix pour une expérience insulaire croate accessible. Elle offre un centre historique bien préservé, des plages ombragées par des pins et évite le besoin de voyager en ferry grâce à sa connexion par pont."
+    },
+    {
+      "question": "Combien de jours faut-il à Krk ?",
+      "answer": "Trois à cinq jours suffisent pour visiter la ville de Krk, profiter des plages locales et faire une excursion en bateau. Si vous prévoyez d'explorer toute l'île, y compris Baška et Vrbnik, prévoyez une semaine complète."
+    },
+    {
+      "question": "Quelle est la meilleure plage de Krk ?",
+      "answer": "La plage de Dražica est la plus populaire dans la ville de Krk en raison de ses eaux claires, de l'ombre des pins et de ses commodités. En dehors de la ville principale, Vela Plaža à Baška est largement considérée comme la plage la plus célèbre de l'île."
+    },
+    {
+      "question": "Ai-je besoin d'une voiture à Krk ?",
+      "answer": "Une voiture n'est pas nécessaire si vous séjournez dans la ville de Krk, car le centre, les plages et les restaurants sont tous accessibles à pied. Cependant, avoir un véhicule est fortement recommandé si vous souhaitez explorer d'autres villes et plages de l'île."
+    },
+    {
+      "question": "Où se garer à Krk ?",
+      "answer": "Les visiteurs ne peuvent pas se garer à l'intérieur de la vieille ville piétonne. Vous devez utiliser les grands parkings publics payants situés à l'extérieur des remparts de la ville, ou réserver un hébergement qui offre un parking privé dédié."
+    },
+    {
+      "question": "Krk est-elle adaptée aux familles ?",
+      "answer": "Oui, Krk est très adaptée aux familles. La ville offre des plages avec des entrées douces en galets, une ombre naturelle abondante grâce aux pins, des aires de jeux et de grands campings-resorts avec des installations dédiées aux enfants."
+    }
+  ],
+  "headings": {
+    "quickFacts": "En bref",
+    "whereToStay": "Où séjourner à Krk",
+    "gettingThere": "Comment se rendre à Krk",
+    "whenToGo": "Quand partir",
+    "guides": "Guides de Krk",
+    "faq": "FAQ sur Krk",
+    "groups": {
+      "gettingAround": "Stationnement et déplacements",
+      "planning": "Planification et hébergement",
+      "timing": "Quand partir",
+      "travelers": "Familles, couples et styles de voyage",
+      "activities": "Plages et activités",
+      "food": "Restauration",
+      "comparisons": "Comparaisons",
+      "practical": "Informations pratiques"
+    },
+    "car": "En voiture",
+    "other": "Autres options",
+    "bestFor": "Idéal pour",
+    "parking": "Stationnement",
+    "beach": "Plage"
+  },
+  "destination": "krk",
+  "language": "fr",
+  "updatedAt": "2026-10-16T09:43:13.113Z"
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Bol Vodič za putovanja: Plaže, parking i gdje odsjesti",
+  "metaDescription": "Planirajte svoje putovanje u Bol, Hrvatska. Otkrijte najbolja područja za smještaj, rute vožnje, savjete za parking i sve što trebate znati o plaži Zlatni Rat.",
+  "intro": "Bol se nalazi na južnoj obali otoka Brača, najbolje poznat kao dom pomične šljunčane prevlake, Zlatnog Rata. Odgovara aktivnim putnicima, ljubiteljima plaža i obiteljima koje žele ravnotežu spektakularnih mjesta za kupanje i dobro razvijenog, pješački dostupnog grada. Promenada u sjeni borova koja povezuje luku s glavnom plažom pruža opuštenu, mediteransku atmosferu s mnoštvom restorana, centara za jedrenje na dasci i kafića.\n\nGlavna turistička sezona traje od kraja svibnja do početka listopada, s vrhuncem u srpnju i kolovozu kada je grad potpuno operativan, ali vrlo prometan. Posjetitelji koji dolaze automobilom obično stižu trajektom Split–Supetar, nakon čega slijedi 40-minutna vožnja preko otoka. Oni koji traže tiše iskustvo s toplim uvjetima za kupanje trebali bi ciljati na rujan.",
+  "quickFacts": [
+    {
+      "label": "Najbolji mjeseci",
+      "value": "Lipanj i rujan"
+    },
+    {
+      "label": "Temp. mora u kolovozu",
+      "value": "25–26°C"
+    },
+    {
+      "label": "Najbliža zračna luka",
+      "value": "Brač (14 km) ili Split (75 km trajektom)"
+    },
+    {
+      "label": "Vrsta glavne plaže",
+      "value": "Sitni šljunak i žal"
+    },
+    {
+      "label": "Razina cijena",
+      "value": "Iznad hrvatskog prosjeka"
+    },
+    {
+      "label": "Pješačka dostupnost",
+      "value": "Pješački centar, šetnica bez automobila"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centar Bola i luka",
+      "bestFor": "Restorani, noćni život i pristup trajektu",
+      "parking": "Vrlo ograničeno, uglavnom plaćena parkirališta na periferiji",
+      "beach": "10-15 min hoda do Bijele Kuće ili Martinice",
+      "summary": "Povijesno srce Bola obiluje tradicionalnim kamenim kućama, glavnim trajektnim pristaništem i gustom koncentracijom restorana. Idealno je za one koji žele biti blizu večernje zabave, iako su vožnja i parkiranje ovdje vrlo ograničeni."
+    },
+    {
+      "name": "Borik i šetnica Zlatni Rat",
+      "bestFor": "Ljubitelji plaža, obitelji i jedriličari na dasci",
+      "parking": "Velika plaćena parkirališta blizu Zlatnog Rata",
+      "beach": "Izravan pristup plažama Zlatni Rat i Borik (šljunak)",
+      "summary": "Ovaj potez povezuje centar grada s poznatom plažom Zlatni rat preko sjenovite pješačke staze okružene borovima. Hoteli ovdje nude jednostavan pristup plaži, opsežne sadržaje i mirniju večernju atmosferu u usporedbi s užurbanom lukom."
+    },
+    {
+      "name": "Martinica (Istočni Bol)",
+      "bestFor": "Mirniji boravak i povijesni pogledi",
+      "parking": "Lakše je pronaći privatni parking u smještajima",
+      "beach": "Izravan pristup plaži Martinica (šljunak)",
+      "summary": "Smještena blizu Dominikanskog samostana, ova istočna strana grada je mirnija i djeluje rezidencijalnije. Nudi izvrsna mjesta za kupanje bez velikih gužvi Zlatnog Rata, a pritom je još uvijek na pješačkoj udaljenosti od centra."
+    },
+    {
+      "name": "Murvica",
+      "bestFor": "Parovi i osamljeni odmori",
+      "parking": "Ograničeno ulično parkiranje; oslonite se na prostore domaćina",
+      "beach": "Strmi spust do plaže Murvica (sitni šljunak)",
+      "summary": "Smješteno oko 5 kilometara zapadno od Bola, ovo malo eko-selo okruženo je vinogradima i neravnim krajolikom. Savršeno je za putnike s automobilom koji žele mirno, autentično dalmatinsko utočište daleko od glavnih turističkih središta."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "975 km do Bola (uklj. trajekt), ~11h. A8/A10 do Villacha, A2/A1 do Splita, zatim trajekt Jadrolinije do Supetra. Austrijske/Slovenske vinjete, Karawanken & Hrvatske cestarine.",
+      "other": "Izravni letovi za Split (SPU), zatim autobus/taxi do splitske luke i trajekt za Brač."
+    },
+    {
+      "from": "Beč",
+      "car": "800 km do Bola (uklj. trajekt), ~9h. A2/A9 do Graza, A1/A4 preko Maribora, A1 do Splita, zatim trajekt Jadrolinije. Austrijske i Slovenske vinjete, Hrvatske cestarine.",
+      "other": "Izravni letovi za Split, ili izravni vlak za spavanje (Nightjet) za Split ljeti."
+    },
+    {
+      "from": "Budimpešta",
+      "car": "785 km do Bola (uklj. trajekt), ~9h. M7 do granice, A4 do Zagreba, A1 do Splita, zatim trajekt Jadrolinije. Mađarska vinjeta, Hrvatske cestarine.",
+      "other": "Izravni ljetni letovi za Split, ili izravni vlak (Adria InterCity) za Split."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "500 km do Bola (uklj. trajekt), ~6.5h. A2 do Novog Mesta, A1 do Splita, zatim trajekt Jadrolinije do Supetra. Slovenska vinjeta, Hrvatske cestarine.",
+      "other": "Izravni autobus za Split, nakon čega slijedi putnički katamaran ili trajekt za automobile za Brač."
+    },
+    {
+      "from": "Prag",
+      "car": "1100 km do Bola (uklj. trajekt), ~13h. D1 do Brna, A2/A9 kroz Austriju, A1/A4 u Sloveniji, A1 do Splita, zatim trajekt. Češke/Austrijske/Slovenske vinjete, Hrvatske cestarine.",
+      "other": "Izravni letovi za Split (SPU) ili vlak za spavanje RegioJet za Split ljeti."
+    },
+    {
+      "from": "Krakov",
+      "car": "1150 km do Bola (uklj. trajekt), ~14h. Preko Slovačke, M7 u Mađarskoj, A4/A1 u Hrvatskoj do Splita, zatim trajekt. Slovačke/Mađarske vinjete, Hrvatske cestarine.",
+      "other": "Izravni letovi za Split (SPU), zatim shuttle autobus do luke i trajekt za Brač."
+    }
+  ],
+  "whenToGo": "Svibanj donosi blago vrijeme (20-23°C) i mirnije ulice, s morem još uvijek svježih 18°C i sezonskim poslovima koji se tek otvaraju. U lipnju su mora toplija (22°C) i gužve ugodnije, što ga čini idealnim za aktivne odmore. Srpanj i kolovoz su vrhunac sezone; temperature se penju iznad 30°C, more dostiže toplih 25-26°C, cijene su najviše, a područje Zlatnog Rata vrvi posjetiteljima. Rujan nudi savršenu ravnotežu s toplim temperaturama mora (23°C), manje gužve i nižim cijenama smještaja, dok listopad završava sezonu hladnijim, nepredvidivim vremenom i mnogim restoranima na obali koji se zatvaraju za zimu.",
+  "faq": [
+    {
+      "question": "Vrijedi li posjetiti Bol?",
+      "answer": "Da, Bol je apsolutno vrijedan posjeta zbog svoje ikonične plaže Zlatni Rat, pouzdanih uvjeta za jedrenje na dasci i slikovite šetnice. Nudi sjajnu ravnotežu aktivnih vodenih sportova i šarmantne, dobro razvijene dalmatinske gradske atmosfere."
+    },
+    {
+      "question": "Koliko dana trebam provesti u Bolu?",
+      "answer": "Tri do pet dana je idealno za boravak u Bolu. To omogućuje dovoljno vremena za opuštanje na glavnim plažama, pješačenje do Vidove Gore za panoramske poglede i izlet brodom do obližnjih otoka."
+    },
+    {
+      "question": "Koja je najbolja plaža u Bolu?",
+      "answer": "Zlatni Rat je najpoznatija i najupečatljivija plaža, poznata po svom pomičnom šljunčanom rtu i kristalno čistom moru. Za mirniju atmosferu s manje gužve, plaža Martinica blizu Dominikanskog samostana je izvrsna alternativa."
+    },
+    {
+      "question": "Trebam li automobil u Bolu?",
+      "answer": "Ne, ne trebate automobil ako boravite u gradu Bolu, jer su luka, restorani i glavne plaže povezani ravnom pješačkom šetnicom. Automobil je potreban samo ako planirate istraživati udaljena sela i skrivene uvale diljem otoka Brača."
+    },
+    {
+      "question": "Gdje je najbolje parkirati u Bolu?",
+      "answer": "Parking u centru grada je izuzetno ograničen i uglavnom rezerviran za stanovnike. Posjetitelji bi trebali koristiti velika, plaćena općinska parkirališta blizu Zlatnog Rata ili osigurati da njihov smještaj pruža zajamčeno privatno mjesto."
+    },
+    {
+      "question": "Je li Bol dobar za obitelji?",
+      "answer": "Da, Bol je vrlo pogodan za obitelji zahvaljujući svojoj šetnici bez prometa, plitkim rubovima vode na Zlatnom Ratu i brojnim sadržajima. Djeca svih uzrasta uživat će u vodenim parkovima na napuhavanje, turističkom vlaku i sjenovitim borovim područjima."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Ukratko",
+    "whereToStay": "Gdje odsjesti u Bolu",
+    "gettingThere": "Kako doći do Bola",
+    "whenToGo": "Kada posjetiti",
+    "guides": "Vodiči za Bol",
+    "faq": "Česta pitanja o Bolu",
+    "groups": {
+      "gettingAround": "Parking i kretanje po mjestu",
+      "planning": "Planiranje i gdje odsjesti",
+      "timing": "Kada putovati",
+      "travelers": "Obitelji, parovi i stilovi putovanja",
+      "activities": "Plaže i što raditi",
+      "food": "Hrana i piće",
+      "comparisons": "Usporedbe",
+      "practical": "Praktične informacije"
+    },
+    "car": "Automobilom",
+    "other": "Ostale opcije",
+    "bestFor": "Najbolje za",
+    "parking": "Parking",
+    "beach": "Plaža"
+  },
+  "destination": "bol",
+  "language": "hr",
+  "updatedAt": "2026-10-16T14:36:24.887Z"
+}

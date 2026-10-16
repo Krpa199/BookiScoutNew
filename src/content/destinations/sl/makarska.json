@@ -1,0 +1,146 @@
+{
+  "title": "Makarska – Turistični vodnik: Plaže, predeli in informacije o prevozu",
+  "metaDescription": "Načrtujte svoje potovanje v Makarsko, Hrvaška. Odkrijte najboljše prodnate plaže, najboljše predele za bivanje, potovalne poti iz Srednje Evrope in nasvete za parkiranje.",
+  "intro": "Makarska je privlačna za popotnike, ki iščejo dolge prodnate plaže, živahno nočno življenje in neposreden dostop do gore Biokovo. Služi kot trgovsko in prometno središče Makarske riviere, ki privablja poletne množice iz vse Srednje Evrope. Glavna promenada je obdana s kavarnami, restavracijami in zrelimi borovci, ki nudijo obilo naravne sence vse do obale v vročih poletnih dneh.\n\nMesto je najbolj primerno za družine in skupine, ki imajo raje urejene plaže s številnimi storitvami kot pa osamljene zalive. Obiskovalci, ki načrtujejo miren oddih, naj poiščejo manjše okoliške vasi ali obiščejo Makarsko maja in oktobra. V glavni sezoni je promet ob obali gost in plaže so polne, zato sta junij in september optimalna meseca za ravnovesje toplih morskih temperatur in obvladljivega števila obiskovalcev.",
+  "quickFacts": [
+    {
+      "label": "Najboljši meseci",
+      "value": "Junij in september"
+    },
+    {
+      "label": "Temperatura morja avgusta",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Najbližje letališče",
+      "value": "Split (SPU), 98 km"
+    },
+    {
+      "label": "Glavni tip plaže",
+      "value": "Prod"
+    },
+    {
+      "label": "Cenovni nivo",
+      "value": "Malo nad hrvaškim povprečjem"
+    },
+    {
+      "label": "Staro mestno jedro",
+      "value": "Peš dostopno, večinoma brez avtomobilov jedro"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Staro mestno jedro (Centar)",
+      "bestFor": "Kulinarika, nočno življenje in kulturni ogledi",
+      "parking": "Zelo omejeno, odvisno od dragih javnih parkirišč (Osejava, City Park)",
+      "beach": "10-15 minut hoje do glavnih plaž",
+      "summary": "Zgodovinsko jedro odlikujejo ozke kamnite ulice, glavni trg (Kačićev trg) in pristanišče. Ponuja največjo koncentracijo restavracij, vendar je lahko ponoči hrupno."
+    },
+    {
+      "name": "Donja Luka",
+      "bestFor": "Dostop do plaže in družine",
+      "parking": "Zasedene ulice s plačljivim parkiranjem; dajte prednost hotelom z zasebnimi parkirišči",
+      "beach": "Neposreden dostop do glavne 2 km dolge prodnate plaže v Makarski",
+      "summary": "Ta predel se razprostira ob glavnem zalivu severozahodno od centra. Je močno razvit s hoteli, apartmajskimi bloki in bari ob plaži."
+    },
+    {
+      "name": "Zelenka",
+      "bestFor": "Popotnike z omejenim proračunom in daljše bivanje",
+      "parking": "Lažje je najti brezplačno ali vključeno zasebno parkirišče kot v centru",
+      "beach": "10-20 minut hoje navzdol (strm povratek)",
+      "summary": "Stanovanjsko naselje, ki se nahaja na pobočjih nad glavno avtocesto. Namestitev je tukaj običajno cenejša, vendar pot nazaj s plaže vključuje precejšen vzpon."
+    },
+    {
+      "name": "Veliko Brdo",
+      "bestFor": "Mirno bivanje, večje skupine in popotnike z avtomobili",
+      "parking": "Veliko zasebnih parkirišč pri večini nastanitev",
+      "beach": "3-5 km vožnje do najbližjih plaž",
+      "summary": "Nahaja se visoko na obronkih gore Biokovo, ta predel večinoma sestoji iz modernih vil z bazeni. Avtomobil je obvezen za nakupovanje živil in dostop do plaže."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "885 km, 9-10 ur preko A8, A10 in A1. Zahteva AT in SLO vinjeto ter HR cestnine.",
+      "other": "Neposredni leti do Splita (SPU), nato avtobus ali prevoz."
+    },
+    {
+      "from": "Dunaj",
+      "car": "765 km, 7.5-8.5 ur preko A2 in HR A1. Zahteva AT in SLO vinjeto ter HR cestnine.",
+      "other": "Neposredni leti do Splita (SPU) ali nočni vlak do Splita."
+    },
+    {
+      "from": "Budimpešta",
+      "car": "785 km, 7.5-8.5 ur preko M7 in HR A1. Zahteva HU vinjeto ter HR cestnine.",
+      "other": "FlixBus direktno do Makarske ali let do Splita."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "515 km, 5.5-6 ur preko A2 in HR A1. Zahteva SLO vinjeto ter HR cestnine.",
+      "other": "Direktni avtobus ali vlak do Zagreba/Splita, nato avtobus do Makarske."
+    },
+    {
+      "from": "Praga",
+      "car": "1.080 km, 11-12 ur preko CZ D1, AT A1/A9 in HR A1. Zahteva CZ, AT, SLO vinjeto ter HR cestnine.",
+      "other": "Neposredni leti do Splita (SPU) preko Smartwings ali Croatia Airlines."
+    },
+    {
+      "from": "Krakov",
+      "car": "1.060 km, 11-12 ur preko SK D1, HU M7 in HR A1. Zahteva SK in HU vinjeto ter HR cestnine.",
+      "other": "Leti do Splita (SPU) preko LOT ali Wizz Air."
+    }
+  ],
+  "whenToGo": "Maj zaznamuje začetek sezone z dnevnimi temperaturami okoli 22°C, vendar morje ostaja hladno 18°C in nekateri bari na plaži so še zaprti. Junij prinaša toplejše vode (22°C-24°C) in popolnoma odprte objekte brez izjemne gneče. Julij in avgust sta vrhunca sezone, z visokimi temperaturami (30°C+), temperaturami morja, ki dosežejo 27°C, gostim prometom, polnimi plažami in najvišjimi cenami. September ponuja vrnitev na raven gneče iz junija, vendar z morsko vodo, ki je še vedno topla od poletne vročine. Do konca oktobra se temperature znižajo, povečajo se padavine in večina sezonskih restavracij in hotelov se zapre za zimo.",
+  "faq": [
+    {
+      "question": "Ali je vredno obiskati?",
+      "answer": "Da, če želite dolge, urejene plaže in živahno večerno vzdušje. Je glavno središče Makarske riviere, ki ponuja odlične objekte, vendar ni priporočljivo za tiste, ki iščejo miren, osamljen dopust v višku poletja."
+    },
+    {
+      "question": "Koliko dni?",
+      "answer": "Pet do sedem dni je običajno za poletne počitnice na plaži. Če potujete z avtom po dalmatinski obali, sta dva ali tri dni dovolj za ogled mesta in pohod na Biokovo."
+    },
+    {
+      "question": "Najboljša plaža?",
+      "answer": "Donja Luka je glavna, družinam prijazna prodnata plaža z ležalniki in senco borovcev. Za bolj naravno okolje je plaža Nugal slikovita 30-minutna hoja skozi gozd Osejava in deluje kot mešana/FKK plaža."
+    },
+    {
+      "question": "Ali potrebujem avto?",
+      "answer": "Avtomobila ne potrebujete, če bivate v centru mesta ali blizu Donje Luke, saj je mesto zelo prehodno. Vendar pa je avto nujen, če rezervirate namestitev v hribovitih predmestjih ali nameravate samostojno raziskovati Naravni park Biokovo."
+    },
+    {
+      "question": "Kje parkirati?",
+      "answer": "Parkiranje v Makarski je poleti izjemno težko in drago. Poiščite nastanitev z zagotovljenim zasebnim parkiriščem; sicer se boste zanašali na plačljiva javna parkirišča blizu polotoka Osejava ali mestnega športnega centra."
+    },
+    {
+      "question": "Ali je primerno za družine?",
+      "answer": "Da, Makarska je zelo priljubljena pri družinah zaradi svojih nežno nagnjenih prodnatih plaž in senčnih borovih gozdov. Mesto ponuja številne družinam prijazne dejavnosti, vodne parke in enostaven dostop do supermarketov in lekarn."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na kratko",
+    "whereToStay": "Kje prenočiti v Makarski",
+    "gettingThere": "Prihod v Makarsko",
+    "whenToGo": "Kdaj obiskati",
+    "guides": "Vodnik za Makarsko",
+    "faq": "Makarska: Pogosta vprašanja",
+    "groups": {
+      "gettingAround": "Parkiranje in premikanje po mestu",
+      "planning": "Načrtovanje in kje prenočiti",
+      "timing": "Kdaj obiskati",
+      "travelers": "Družine, pari in potovalni stili",
+      "activities": "Plaže in stvari za početi",
+      "food": "Hrana in pijača",
+      "comparisons": "Primerjave",
+      "practical": "Praktične informacije"
+    },
+    "car": "Z avtom",
+    "other": "Druge možnosti",
+    "bestFor": "Najboljše za",
+    "parking": "Parkiranje",
+    "beach": "Plaža"
+  },
+  "destination": "makarska",
+  "language": "sl",
+  "updatedAt": "2026-10-16T10:18:33.655Z"
+}

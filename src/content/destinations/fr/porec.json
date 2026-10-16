@@ -1,0 +1,146 @@
+{
+  "title": "Poreč : Guide de voyage - Plages, parking et où séjourner",
+  "metaDescription": "Planifiez votre voyage à Poreč, Croatie. Trouvez les meilleurs endroits où séjourner, les itinéraires depuis l'Europe centrale, les types de plages et les options de stationnement dans cette ville d'Istrie.",
+  "intro": "Poreč séduit les voyageurs en quête de stations balnéaires organisées, d'une riche histoire romaine et de vacances actives à vélo. La ville est centrée sur une petite péninsule abritant la Basilique euphrasienne classée à l'UNESCO et d'anciens tracés de rues romaines, tandis que le littoral au nord et au sud est dominé par de grands complexes hôteliers ombragés par des pins. Le terrain est majoritairement plat, ce qui le rend très accessible pour la marche et le vélo le long des promenades côtières.\n\nLa haute saison s'étend de fin juin à août, lorsque les températures de la mer atteignent 26°C et que les grands complexes hôteliers familiaux fonctionnent à pleine capacité. Mai, septembre et début octobre offrent un temps plus doux et des tarifs d'hébergement plus bas, propices aux visites touristiques, à la dégustation de vin et au cyclisme, bien que la mer puisse être trop fraîche pour la baignade en dehors des mois d'été.",
+  "quickFacts": [
+    {
+      "label": "Meilleurs mois",
+      "value": "Juin à septembre"
+    },
+    {
+      "label": "Temp. mer en août",
+      "value": "25°C à 27°C"
+    },
+    {
+      "label": "Aéroport le plus proche",
+      "value": "Pula (PUY), 58 km"
+    },
+    {
+      "label": "Type de plage principal",
+      "value": "Terrasses pavées, rochers et galets"
+    },
+    {
+      "label": "Niveau de prix",
+      "value": "Légèrement au-dessus de la moyenne croate"
+    },
+    {
+      "label": "Accessibilité Vieille Ville",
+      "value": "Entièrement piétonne (sans voiture)"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Vieille Ville (Centre)",
+      "bestFor": "Visites touristiques, restaurants et courts séjours historiques",
+      "parking": "Parkings municipaux payants en dehors de la zone piétonne (ex : Veliki gradski parking)",
+      "beach": "10-15 minutes à pied de la plage de la Ville ou de Brulo",
+      "summary": "La péninsule historique abrite les principales attractions, les restaurants et les liaisons par ferry. L'hébergement se compose principalement d'appartements et de chambres de charme dans des bâtiments anciens, sans accès direct en véhicule."
+    },
+    {
+      "name": "Brulo",
+      "bestFor": "Couples et familles souhaitant la proximité de la vieille ville",
+      "parking": "Parking privé des hôtels disponible ; le stationnement dans la rue est strictement limité",
+      "beach": "2-5 minutes à pied de la plage de Brulo (galets et pavée, Pavillon Bleu)",
+      "summary": "Une zone de villégiature ombragée par des pins, immédiatement au sud du centre. Elle propose de grands hôtels et un accès facile à pied aux sites historiques et aux plages via une promenade côtière."
+    },
+    {
+      "name": "Zelena Laguna",
+      "bestFor": "Amateurs de complexes hôteliers, familles actives et passionnés de sport",
+      "parking": "Parking de complexe hôtelier dédié, généralement soumis à un tarif journalier",
+      "beach": "Accès immédiat aux plages de rochers, de galets et pavées du complexe hôtelier",
+      "summary": "Un immense complexe touristique autonome situé à 5 kilomètres au sud du centre. Il comprend de grands complexes hôteliers, des campings, des courts de tennis, des sports nautiques et de nombreuses options de restauration."
+    },
+    {
+      "name": "Špadići & Materada",
+      "bestFor": "Familles et couples recherchant des zones résidentielles plus calmes",
+      "parking": "Parking privé généralement fourni par les propriétaires d'appartements",
+      "beach": "5-10 minutes à pied de la plage de Materada ou des criques de galets de Špadići",
+      "summary": "Situé juste au nord de la vieille ville, ce quartier se compose en grande partie d'appartements privés et de maisons d'hôtes. Il est relié au centre par un train touristique et un sentier pédestre panoramique."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Munich",
+      "car": "580 km, ~6,5 heures via A8, A10 et A1 slovène. Nécessite une vignette autrichienne, les péages des tunnels Tauern/Karawanken, une vignette slovène et un péage croate.",
+      "other": "Bus direct ou transfert partagé (~8 heures)."
+    },
+    {
+      "from": "Vienne",
+      "car": "520 km, ~5,5 heures via A2, A9 et A1 slovène. Nécessite des vignettes autrichienne et slovène, plus un péage croate.",
+      "other": "Bus direct (~7,5 heures) ou vol saisonnier vers Pula."
+    },
+    {
+      "from": "Budapest",
+      "car": "600 km, ~6 heures via M7, A4 et A6. Nécessite une e-vignette hongroise et des péages croates.",
+      "other": "Bus direct (~10 heures) ou transfert via Zagreb."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "160 km, ~2 heures via A1 jusqu'à Koper et A9. Nécessite une vignette slovène et un péage croate.",
+      "other": "Bus direct ou transfert partagé (~2,5 heures)."
+    },
+    {
+      "from": "Prague",
+      "car": "730 km, ~8,5 heures via Brno, Vienne et Maribor. Nécessite des vignettes tchèque, autrichienne et slovène, plus un péage croate.",
+      "other": "Bus direct de nuit (~13 heures)."
+    },
+    {
+      "from": "Cracovie",
+      "car": "910 km, ~10,5 heures via Brno, Vienne et Maribor. Nécessite des péages polonais, des vignettes tchèque, autrichienne et slovène, plus un péage croate.",
+      "other": "Bus via Vienne ou Zagreb (~15 heures) ou vol vers Venise/Trieste."
+    }
+  ],
+  "whenToGo": "Mai marque le début de la saison avec des températures douces autour de 20°C et des prix plus bas, bien que la mer reste à un frais 17°C et que certaines installations des complexes hôteliers puissent encore être fermées. Juin apporte des conditions de baignade plus chaudes (22°C), une affluence croissante et l'ouverture de tous les parcs aquatiques et trains touristiques. Juillet et août sont les mois de pointe, avec des prix d'hébergement élevés, des plages bondées et des températures de la mer atteignant un pic entre 25°C et 27°C. Septembre est sans doute le meilleur moment pour visiter, offrant des mers chaudes (23°C), une affluence moindre et des tarifs hôteliers plus raisonnables alors que tout reste ouvert. En octobre, les prix baissent considérablement et les foules disparaissent, mais les températures de la mer tombent en dessous de 20°C et de nombreux restaurants saisonniers et bars de plage commencent à fermer pour l'hiver.",
+  "faq": [
+    {
+      "question": "Poreč vaut-elle le détour ?",
+      "answer": "Oui, Poreč vaut vraiment le détour pour son équilibre entre histoire classée à l'UNESCO et vastes équipements de villégiature. Elle offre d'excellentes pistes cyclables, des plages sûres et constitue une excellente base pour explorer le reste de l'Istrie."
+    },
+    {
+      "question": "Combien de jours devrais-je passer à Poreč ?",
+      "answer": "Trois à cinq jours sont idéaux pour un séjour à Poreč. Cela vous donne suffisamment de temps pour explorer le centre historique, vous détendre sur les plages voisines et faire une excursion d'une journée dans des villes istriennes de l'intérieur comme Motovun."
+    },
+    {
+      "question": "Quelle est la meilleure plage de Poreč ?",
+      "answer": "Zelena Laguna et la plage de Brulo sont largement considérées comme les meilleures options. Toutes deux bénéficient du statut Pavillon Bleu, d'eaux claires, d'une abondante ombre de pins et d'excellentes installations, y compris la location de transats et des douches."
+    },
+    {
+      "question": "Ai-je besoin d'une voiture à Poreč ?",
+      "answer": "Vous n'avez pas besoin de voiture si vous prévoyez de séjourner dans le centre-ville ou les principales stations balnéaires côtières. La région est très praticable à pied et bien desservie par les trains touristiques, bien qu'une voiture soit utile pour explorer la péninsule istrienne plus largement."
+    },
+    {
+      "question": "Où dois-je me garer à Poreč ?",
+      "answer": "Le meilleur endroit pour se garer est le grand parking municipal (Veliki gradski parking) situé juste à l'extérieur de la zone piétonne. Les hôtels de la vieille ville exigent généralement que vous vous gariez ici et proposent des services de navette vers votre hébergement."
+    },
+    {
+      "question": "Poreč est-elle adaptée aux familles ?",
+      "answer": "Oui, Poreč est exceptionnellement adaptée aux familles. Les grands complexes hôteliers au sud de la ville proposent des plages calmes et surveillées, des clubs pour enfants et un accès facile au populaire parc aquatique Aquacolors."
+    }
+  ],
+  "headings": {
+    "quickFacts": "En bref",
+    "whereToStay": "Où séjourner à Poreč",
+    "gettingThere": "Comment se rendre à Poreč",
+    "whenToGo": "Quand partir",
+    "guides": "Guides de Poreč",
+    "faq": "FAQ de Poreč",
+    "groups": {
+      "gettingAround": "Stationnement et déplacements",
+      "planning": "Planification et où séjourner",
+      "timing": "Quand partir",
+      "travelers": "Familles, couples et styles de voyage",
+      "activities": "Plages et choses à faire",
+      "food": "Manger et boire",
+      "comparisons": "Comparaisons",
+      "practical": "Infos pratiques"
+    },
+    "car": "En voiture",
+    "other": "Autres options",
+    "bestFor": "Idéal pour",
+    "parking": "Parking",
+    "beach": "Plage"
+  },
+  "destination": "porec",
+  "language": "fr",
+  "updatedAt": "2026-10-16T11:02:57.523Z"
+}

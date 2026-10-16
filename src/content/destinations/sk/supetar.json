@@ -1,0 +1,146 @@
+{
+  "title": "Supetar Potovalni Vodnik: Plaže, Trajekti in Kje prenočiti",
+  "metaDescription": "Načrtujte svoje potovanje v Supetar, Brač. Odkrijte najboljše predele za bivanje, vozne poti iz Evrope, podrobnosti o trajektih, možnosti parkiranja in lokalne prodnate plaže.",
+  "intro": "Supetar je glavna vstopna točka na otok Brač in praktično izhodišče za popotnike, ki prihajajo z avtomobilom iz celinske Evrope. Ponuja funkcionalno mešanico supermarketov, trajektnih povezav in storitev, skupaj z živahnim nabrežjem in dostopnimi prodnatimi plažami. Mesto je primerno za družine in popotnike, ki si želijo otoškega življenja brez logističnih zapletov doseganja bolj oddaljenih destinacij.\n\nPoletni meseci julij in avgust prinašajo največji trajektni promet, tople morske temperature in popolnoma delujoče restavracije ob pristanišču. Maj, junij in september ponujajo mirnejše razmere in nižje cene nastanitev, čeprav je morje hladnejše za kopanje. Od oktobra do aprila se veliko sezonskih podjetij zapre, vendar bistvene storitve in trajektne povezave s Splitom ostajajo aktivne skozi vse leto.",
+  "quickFacts": [
+    {
+      "label": "Najboljši meseci",
+      "value": "Junij do september"
+    },
+    {
+      "label": "Temperatura morja v avgustu",
+      "value": "25°C - 26°C"
+    },
+    {
+      "label": "Najbližje letališče",
+      "value": "Letališče Brač (30 km) ali Letališče Split (potreben trajekt)"
+    },
+    {
+      "label": "Glavna vrsta plaže",
+      "value": "Prodana z nekaj peščenimi plitvinami"
+    },
+    {
+      "label": "Cenovna raven",
+      "value": "Povprečna za Hrvaško, cenejša kot Bol ali Hvar"
+    },
+    {
+      "label": "Staro mestno jedro / center",
+      "value": "Prijazno za pešce, omejen dostop z avtomobilom blizu pristanišča"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Center Supetra (Pristanišče / Staro mestno jedro)",
+      "bestFor": "Popotniki brez avtomobila, kratka bivanja in tisti, ki želijo restavracije v bližini",
+      "parking": "Plačljiva javna parkirišča blizu trajektnega pristanišča; omejeno parkiranje na ulici",
+      "beach": "10-15 minut hoje do Banja ali Vlačice",
+      "summary": "Komercialno in prometno središče otoka. Ponuja kamnite hiše, kavarne ob promenadi in neposreden dostop do trajekta za avtomobile za Split."
+    },
+    {
+      "name": "Tri Mosta & Bili Rat",
+      "bestFor": "Obiskovalci resortov, družine in bivanja, osredotočena na plažo",
+      "parking": "Zasebno hotelsko parkirišče in velika plačljiva javna parkirišča blizu plaž",
+      "beach": "Neposreden dostop do Tri Mosta (prodnata) in Bili Rat",
+      "summary": "Ta predel, ki se nahaja zahodno od centra, gosti večino velikih hotelov in resortov Supetra. Ponuja senčne borove gozdove, bare na plaži in objekte za vodne športe."
+    },
+    {
+      "name": "Območje Banj & Vlačica",
+      "bestFor": "Družine z majhnimi otroki",
+      "parking": "Parkiranje na ulici je lahko omejeno; nastanitve pogosto zagotavljajo parkirna mesta",
+      "beach": "Neposreden dostop do Banja (peščeno dno) in Vlačice (prodnata)",
+      "summary": "Stanovanjska soseska, ki se nahaja okoli dveh najbolj priljubljenih zalivov mesta. Ponuja mirnejše vzdušje kot pristanišče, hkrati pa je le kratek sprehod od mestnih objektov."
+    },
+    {
+      "name": "Mirca",
+      "bestFor": "Popotniki z avtomobilom, ki iščejo mir in tišino",
+      "parking": "Večinoma brezplačno parkiranje na zasebnih posestvih",
+      "beach": "Nezasedene lokalne prodnate plaže v hoje dosegu",
+      "summary": "Majhna vasica 3 kilometre zahodno od Supetra. Ponuja tradicionalne kamnite hiše, oljčne nasade in precej počasnejši ritem kot glavno mesto."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "850 km do Splita, ~9 ur preko A8, A10 (Tauern) in A1. Zahteva AT vinjeto, cestnine za predore Tauern/Karavanke, HR cestnine, plus trajekt za avtomobile Split-Supetar.",
+      "other": "Let do Letališča Split (SPU), prevoz do pristanišča Split (25 km), nato s trajektom."
+    },
+    {
+      "from": "Dunaj",
+      "car": "760 km do Splita, ~8 ur preko A2, A4 in A1. Zahteva AT in SLO vinjete, HR cestnine, plus trajekt za avtomobile Split-Supetar.",
+      "other": "Let do Letališča Split (SPU), prevoz do pristanišča Split (25 km), nato s trajektom."
+    },
+    {
+      "from": "Budimpešta",
+      "car": "750 km do Splita, ~7.5 ur preko M7 in A1. Zahteva HU vinjeto, HR cestnine, plus trajekt za avtomobile Split-Supetar.",
+      "other": "Let do Letališča Split (SPU), prevoz do pristanišča Split (25 km), nato s trajektom."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "470 km do Splita, ~5 ur preko A1 (SLO) in A1 (HR). Zahteva SLO vinjeto, HR cestnine, plus trajekt za avtomobile Split-Supetar.",
+      "other": "Avtobus ali vlak do Splita, nato 50-minutni potniški ali avtomobilski trajekt."
+    },
+    {
+      "from": "Praga",
+      "car": "1,090 km do Splita, ~11.5 ur preko A9 (AT), A1 (SLO) in A1 (HR). Zahteva CZ, AT, SLO vinjete, AT cestnine za predore, HR cestnine, plus trajekt za avtomobile Split-Supetar.",
+      "other": "Let do Letališča Split (SPU), prevoz do pristanišča Split (25 km), nato s trajektom."
+    },
+    {
+      "from": "Krakov",
+      "car": "1,050 km do Splita, ~11.5 ur preko D1 (SK), M7 (HU) in A1 (HR). Zahteva SK in HU vinjete, HR cestnine, plus trajekt za avtomobile Split-Supetar.",
+      "other": "Let do Letališča Split (SPU), prevoz do pristanišča Split (25 km), nato s trajektom."
+    }
+  ],
+  "whenToGo": "Od junija do septembra je Supetar popolnoma odprt, temperature morja pa se gibljejo od 23°C do 26°C. Julij in avgust prinašata največje množice, največje čakalne vrste za trajekte in najvišje cene nastanitev, vendar zagotavljata, da vse restavracije in plažne objekte delujejo. Maj in oktober ponujata blago vreme in nižje cene, čeprav je morje pogosto prehladno za kopanje in nekatera sezonska podjetja so zaprta. Od novembra do aprila se mesto vrne v miren lokalni ritem; cene so najnižje, vendar je turistična infrastruktura zaprta, trajekt pa vozi po zmanjšanem zimskem voznem redu.",
+  "faq": [
+    {
+      "question": "Je vredno obiska?",
+      "answer": "Da, če potrebujete priročno in dobro povezano bazo na Braču. Supetar ponuja praktične ugodnosti, enostaven trajektni dostop do Splita in prijetne družinske plaže, čeprav mu manjka dramatične pokrajine Bola."
+    },
+    {
+      "question": "Koliko dni potrebujem?",
+      "answer": "Tri do pet dni je dovolj za raziskovanje Supetra in njegovo uporabo kot izhodišče za preostali del Brača. Krajše dvodnevno bivanje deluje, če ste le na poti v druga otoška mesta."
+    },
+    {
+      "question": "Katera je najboljša plaža?",
+      "answer": "Tri Mosta velja za najboljšo plažo zaradi čistih proden, borove sence in razpoložljivih objektov. Družine z majhnimi otroki pogosto raje izberejo plažo Banj zaradi plitkega peščenega dna."
+    },
+    {
+      "question": "Potrebujem avto?",
+      "answer": "Avtomobila ne potrebujete, če nameravate ostati v Supetru in obiskati le lokalne plaže. Vendar je avto zelo priporočljiv, če želite raziskati preostali del Brača, kot sta Vidova Gora ali Zlatni Rat."
+    },
+    {
+      "question": "Kje lahko parkiram?",
+      "answer": "Velika javna plačljiva parkirišča se nahajajo blizu trajektnega pristanišča in za območjem plaže Tri Mosta. Parkiranje na ulici v centru je razdeljeno na plačljive cone, in mesta se hitro zapolnijo julija in avgusta."
+    },
+    {
+      "question": "Je primerno za družine?",
+      "answer": "Da, Supetar je ena najbolj družinam prijaznih destinacij na Braču. Ima plitve plaže s peščenimi predeli, napihljive vodne parke in ravne obmorske promenade, primerne za otroške vozičke."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na kratko",
+    "whereToStay": "Kje prenočiti v Supetru",
+    "gettingThere": "Kako priti do Supetra",
+    "whenToGo": "Kdaj obiskati",
+    "guides": "Supetarski vodniki",
+    "faq": "Pogosta vprašanja o Supetru",
+    "groups": {
+      "gettingAround": "Parkiranje in premikanje",
+      "planning": "Načrtovanje in kje prenočiti",
+      "timing": "Kdaj obiskati",
+      "travelers": "Družine, pari in načini potovanja",
+      "activities": "Plaže in stvari za početi",
+      "food": "Hrana in pijača",
+      "comparisons": "Primerjave",
+      "practical": "Praktične informacije"
+    },
+    "car": "Z avtomobilom",
+    "other": "Druge možnosti",
+    "bestFor": "Najboljše za",
+    "parking": "Parkiranje",
+    "beach": "Plaža"
+  },
+  "destination": "supetar",
+  "language": "sk",
+  "updatedAt": "2026-10-16T14:40:06.566Z"
+}

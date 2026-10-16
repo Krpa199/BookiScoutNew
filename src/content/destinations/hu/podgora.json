@@ -1,0 +1,139 @@
+{
+  "title": "Podgora útikalauz: Strandok, parkolás és szállás",
+  "metaDescription": "Tervezze meg utazását Podgorára, Horvátországba. Fedezze fel a legjobb kavicsos strandokat, hol parkoljon, Čaklje és Centar negyed útmutatóit, valamint autós útvonalakat.",
+  "intro": "Podgora egy tengerparti üdülőváros a Makarska Riviérán, közvetlenül az Adriai-tenger és a Biokovo-hegy lejtői között fekszik. Történelmileg halászfalu volt, ma már szinte teljes egészében a nyári turizmusra épül. A tengerparton hosszú, fenyőfák árnyékolta sétány húzódik, kávézókkal, éttermekkel és hosszú, fehér kavicsos strandokkal.\n\nJól illeszkedik családoknak és pároknak, akik egy egyszerű tengerparti nyaralásra vágynak, anélkül, hogy a közeli Makarska pezsgő éjszakai életét keresnék. A csendesebb területeket kedvelő látogatók gyakran választják a felső falut, Gornja Podgorát. A főszezon júniustól szeptemberig tart, július és augusztus hozza a legmelegebb tengeri hőmérsékletet, a legnagyobb tömegeket és a legmagasabb árakat.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Június és szeptember"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Split (SPU), 107 km"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Fehér kavicsos, fenyőfák árnyékában"
+    },
+    {
+      "label": "Árszínvonal",
+      "value": "Átlagos vagy valamivel átlag feletti"
+    },
+    {
+      "label": "Sétálhatóság",
+      "value": "Sík tengerparti sétány; a felső falu autóval közelíthető meg"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centar / Luka",
+      "bestFor": "Első alkalommal érkezőknek, akik éttermek és hajókirándulások közelében szeretnének lenni",
+      "parking": "Rendkívül korlátozott; a fizetős nyilvános parkolók hamar megtelnek",
+      "beach": "Közvetlenül a fő podgorai kavicsos strand mellett",
+      "summary": "Podgora forgalmas szívében hosszú tengerparti sétány, a fő kikötő és a város étkezési lehetőségeinek többsége található. Nyáron élénk, de éjszaka zajos lehet az áthaladó tömeg miatt."
+    },
+    {
+      "name": "Čaklje",
+      "bestFor": "Családoknak és csendesebb tengerparti élményre vágyó látogatóknak",
+      "parking": "Főként magán apartmanok biztosítják; kevés nyilvános parkoló",
+      "beach": "Közvetlenül előtte; csendesebb kavicsos strand enyhe lejtővel",
+      "summary": "Podgora déli részén található ez a negyed, amely nagyrészt lakóövezet, magánapartmanokkal. Nyugodtabb környezetet kínál, miközben egy parti sétányon keresztül továbbra is összeköttetésben áll a központtal."
+    },
+    {
+      "name": "Gornja Podgora",
+      "bestFor": "Pároknak, túrázóknak és magánvillát bérlőknek",
+      "parking": "Általában benne van az árban és bőséges a nyaralókban",
+      "beach": "2-3 km-re lefelé egy meredek, kanyargós úton a tengerpartig",
+      "summary": "Az eredeti történelmi település magasan fekszik a Biokovo-hegy lejtőin. Felújított kőházakkal, olajligetekkel és tiszta tengerre néző kilátással rendelkezik, így ideális azok számára, akik el akarják kerülni a tengerparti tömeget."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "~880 km, 9,5 óra az A8, A10 (Tauern-alagút díjköteles), Karawanken-alagút és horvát A1 útvonalon. AT és SI matricák szükségesek.",
+      "other": "Repülőút Splitbe (SPU), majd reptéri transzfer vagy busz Podgorára."
+    },
+    {
+      "from": "Bécs",
+      "car": "~780 km, 8-9 óra Graz, Maribor (SI matrica) és horvát A1 útvonalon keresztül.",
+      "other": "Repülőút Splitbe (SPU) vagy közvetlen FlixBus Makarskára/Podgorára."
+    },
+    {
+      "from": "Budapest",
+      "car": "~830 km, 8-9 óra az M7-esen Letenyéig, majd horvát A4 és A1 útvonalon. HU matrica és HR útdíjak.",
+      "other": "Közvetlen FlixBus Podgorára (kb. 15 óra) vagy repülőút Splitbe."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "~500 km, 5,5 óra Novo Mesto és horvát A1 útvonalon keresztül. SI matrica és HR útdíjak.",
+      "other": "Busz vagy vonat Zágrábba, majd átszállás busszal Podgorára."
+    },
+    {
+      "from": "Prága",
+      "car": "~1100 km, 11-12 óra Bécs, Graz és Zágráb útvonalon. CZ, AT, SI matricák és HR útdíjak.",
+      "other": "Repülőút Splitbe, vagy szezonális RegioJet vonat Splitbe."
+    },
+    {
+      "from": "Krakkó",
+      "car": "~1150 km, 12-13 óra Szlovákián, Budapesten és horvát A1 útvonalon keresztül. SK, HU matricák és HR útdíjak.",
+      "other": "Repülőút Krakkóból vagy Katowicéből Splitbe, majd busz."
+    }
+  ],
+  "whenToGo": "Júniusban meleg idő (25-28°C) és kellemes, 22°C körüli tengeri hőmérséklet várható, minden étterem nyitva van és a tömeg mérsékelt. Július és augusztus a főszezon, a tenger eléri a 25-27°C-ot, a sétányok forgalmasak, és a Makarska Riviérán a legmagasabbak az árak. Szeptember erősen ajánlott, mivel a tenger még a hónap végéig is elég meleg az úszáshoz, miközben a tömeg megritkul és a parkolás könnyebbé válik. Októbertől májusig van az utószezon; a tenger túl hideg az úszáshoz, és a legtöbb podgorai turisztikai létesítmény és étterem teljesen bezár.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni Podgorát?",
+      "answer": "Igen, Podgora kiváló választás egy klasszikus Makarska Riviéra-i tengerparti nyaraláshoz. Hosszú kavicsos strandokat és meredek hegyi tájat kínál a Makarska városában található nagy tömeg nélkül."
+    },
+    {
+      "question": "Hány napot érdemes Podgorán tölteni?",
+      "answer": "Öt-hét nap tipikus egy nyári utazáshoz. Ez elegendő időt biztosít a napi úszásra, a sétányon való sétára, valamint egy egynapos kirándulásra a Biokovo-hegyre vagy a közeli szigetekre."
+    },
+    {
+      "question": "Melyik a legjobb strand Podgorán?",
+      "answer": "A város déli részén található Čaklje strandot széles körben a legjobbnak tartják, mert csendesebb és nagyon tiszta a vize. A fő podgorai strand a központban szintén jó, de júliusban és augusztusban sokkal forgalmasabbá válik."
+    },
+    {
+      "question": "Szükséges autó Podgorán?",
+      "answer": "Nem, nincs szüksége autóra, ha a tengerparti területeken száll meg, mivel a strandok és éttermek gyalogosan is elérhetők. Azonban járműre van szükség, ha Gornja Podgorán foglal szállást, vagy kiterjedt egynapos kirándulásokat tervez."
+    },
+    {
+      "question": "Hol tudok parkolni Podgorán?",
+      "answer": "A nyilvános parkolás nagyon korlátozott és szigorúan fizetős, különösen a vízpart mentén és az önkormányzati parkolókban. A látogatóknak olyan szállást kell foglalniuk, amely kifejezetten magán parkolóhelyet tartalmaz."
+    },
+    {
+      "question": "Jó úticél Podgora családoknak?",
+      "answer": "Igen, Podgora nagyon népszerű a gyermekekkel utazó családok körében. A kavicsos strandok enyhe bejutást biztosítanak a tengerbe, a fenyőfák természetes árnyékot adnak, és a tengerparti sétány teljesen burkolt babakocsik számára."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Röviden",
+    "whereToStay": "Hol szálljunk meg Podgorán",
+    "gettingThere": "Odautazás Podgorára",
+    "whenToGo": "Mikor utazzunk",
+    "guides": "Podgora útmutatók",
+    "faq": "Podgora Gyakran Ismételt Kérdések",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor utazzunk",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Étel és ital",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "podgora",
+  "language": "hu",
+  "updatedAt": "2026-10-16T13:38:48.862Z"
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Zagreb turistički vodič: Vožnja, parkiranje i smještaj",
+  "metaDescription": "Činjenični turistički vodič za Zagreb, Hrvatska. Pronađite najbolje četvrti za vaš boravak, detalje o parkiranju, rute vožnje i najbolje vrijeme za posjet.",
+  "intro": "Zagreb je srednjoeuropska prijestolnica pogodna za putnike zainteresirane za povijest, muzeje i uličnu kulturu, a ne za obalna ljetovališta. Grad je podijeljen na povijesni, brdoviti Gornji grad i ravni austrougarski Donji grad, oba karakterizirana velikim javnim parkovima, pješačkim zonama i snažnom oslanjanjem na lokalnu tramvajsku mrežu.\n\nOptimalno vrijeme za posjet je tijekom blagih proljetnih i jesenskih mjeseci ili u prosincu zbog godišnjih adventskih sajmova. Ljeto donosi visoke vrućine, što mnoge stanovnike potiče da odu na jadransku obalu, što ulice čini tišima, ali ostavlja neke manje tvrtke privremeno zatvorenima.",
+  "quickFacts": [
+    {
+      "label": "Najbolji mjeseci",
+      "value": "Svibanj, lipanj, rujan, prosinac"
+    },
+    {
+      "label": "Temperatura mora (kolovoz)",
+      "value": "N/P (Kopneni grad; Jezero Jarun je ~25°C)"
+    },
+    {
+      "label": "Najbliža zračna luka",
+      "value": "Zračna luka Zagreb (ZAG), 15 km od centra"
+    },
+    {
+      "label": "Glavna vrsta plaže",
+      "value": "Šljunčane/pjeskovite jezerske plaže (Jarun & Bundek)"
+    },
+    {
+      "label": "Razina cijena",
+      "value": "Prosječno do ispodprosječno u odnosu na hrvatsku obalu"
+    },
+    {
+      "label": "Stari grad prohodan",
+      "value": "Da, vrlo prohodan s ograničenim pristupom automobilima"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Donji Grad",
+      "bestFor": "Početnicima i razgledavanju",
+      "parking": "Skupo ulično parkiranje (Zona 1); zahtijeva javne garaže",
+      "beach": "6 km do jezera Jarun",
+      "summary": "Komercijalno srce grada, s muzejima, parkovima i arhitekturom 19. stoljeća. Nudi najširi izbor hotela i neposredan pristup glavnim tramvajskim linijama."
+    },
+    {
+      "name": "Gornji Grad",
+      "bestFor": "Povijest i mirne večeri",
+      "parking": "Jako ograničeno; nerezidenti moraju parkirati u Donjem gradu",
+      "beach": "6.5 km do jezera Jarun",
+      "summary": "Najstariji dio Zagreba s kaldrmiranim ulicama, vladinim zgradama i Crkvom sv. Marka. Idealan je za posjetitelje koji daju prednost povijesnoj atmosferi nad neposrednim pristupom vozilima."
+    },
+    {
+      "name": "Novi Zagreb",
+      "bestFor": "Putnicima s ograničenim budžetom i vozačima",
+      "parking": "Općenito besplatno ili vrlo jeftino ulično parkiranje",
+      "beach": "1 do 2 km do jezera Bundek",
+      "summary": "Smješteno južno od rijeke Save, ovo područje sastoji se od stambenih blokova iz sredine stoljeća i trgovačkih centara. Lako se povezuje s centrom tramvajem i nudi jednostavno parkiranje."
+    },
+    {
+      "name": "Trešnjevka",
+      "bestFor": "Lokalni život i dulji boravci",
+      "parking": "Mješovito; uglavnom Zona 3 (jeftinije) ili besplatno u stambenim dijelovima",
+      "beach": "3 km do jezera Jarun",
+      "summary": "Gusto naseljena četvrt zapadno od centra, poznata po svakodnevnoj tržnici na otvorenom. Pruža svakodnevno stambeno iskustvo s nižim cijenama smještaja."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "540 km, 5.5-6.5 sati preko A8, A10 i A2. Potrebna austrijska vinjeta, cestarina za tunel Karavanke, slovenska vinjeta i hrvatske cestarine.",
+      "other": "Direktan let (Croatia Airlines/Lufthansa) ili direktan FlixBus."
+    },
+    {
+      "from": "Beč",
+      "car": "370 km, 4-4.5 sati preko A2 i A9. Potrebna austrijska vinjeta, slovenska vinjeta i hrvatske cestarine.",
+      "other": "Direktan dnevni ÖBB vlak ili FlixBus."
+    },
+    {
+      "from": "Budimpešta",
+      "car": "340 km, 3.5-4 sata preko M7 i A4. Potrebna mađarska e-vinjeta i hrvatske cestarine.",
+      "other": "Direktan dnevni vlak ili FlixBus."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "140 km, 1.5-2 sata preko A2 i A3. Potrebna slovenska vinjeta i hrvatske cestarine.",
+      "other": "Direktan vlak ili autobus (cca 2.5 sata)."
+    },
+    {
+      "from": "Prag",
+      "car": "690 km, 7.5-8.5 sati preko Beča i Graza. Potrebne češka, austrijska i slovenska vinjeta, plus hrvatske cestarine.",
+      "other": "Direktan let (Smartwings/Ryanair) ili noćni vlak preko Beča."
+    },
+    {
+      "from": "Krakov",
+      "car": "750 km, 8-9 sati preko Slovačke i Mađarske. Potrebne poljske cestarine, slovačke i mađarske e-vinjete te hrvatske cestarine.",
+      "other": "Direktan let (Ryanair/LOT) ili noćni autobus."
+    }
+  ],
+  "whenToGo": "Zima u Zagrebu je hladna, s temperaturama koje se često kreću oko 0°C do 5°C, iako prosinac ostaje vrhunac turističke sezone zbog gradskih opsežnih adventskih sajmova. Proljeće (travanj do lipanj) i jesen (rujan do listopad) nude najugodnije vrijeme za razgledavanje, s dnevnim temperaturama između 15°C i 25°C, nižim cijenama smještaja i potpuno operativnim turističkim objektima. Ljeto (srpanj i kolovoz) donosi temperature koje redovito prelaze 30°C; iako je grad manje gužve jer se stanovnici sele na obalu, nedostatak morskog povjetarca čini gradsku vrućinu primjetnom, iako plaže na jezerima Jarun i Bundek nude lokalne mogućnosti kupanja.",
+  "faq": [
+    {
+      "question": "Vrijedi li posjetiti Zagreb?",
+      "answer": "Da, Zagreb vrijedi posjetiti zbog svoje austrougarske arhitekture, bogate muzejske zbirke i snažne kulture kafića. Služi kao kulturna i povijesna protuteža hrvatskim obalnim destinacijama."
+    },
+    {
+      "question": "Koliko dana mi treba u Zagrebu?",
+      "answer": "Dva do tri dana je dovoljno za istraživanje glavnih znamenitosti. To pruža dovoljno vremena za obilazak Gornjeg i Donjeg grada, posjet glavnim muzejima i provođenje poslijepodneva u Maksimirskom parku ili na jezeru Jarun."
+    },
+    {
+      "question": "Koja je najbolja plaža u Zagrebu?",
+      "answer": "Najbolja mjesta za kupanje su šljunčane plaže na jezeru Jarun, smještene na jugozapadu grada. Jezero Bundek također nudi uređene šljunčane plaže i kupališta tijekom ljetnih mjeseci."
+    },
+    {
+      "question": "Trebam li auto u Zagrebu?",
+      "answer": "Ne, automobil nije potreban i često je prepreka u centru grada. Zagreb ima učinkovitu i sveobuhvatnu mrežu tramvaja i autobusa koji pokrivaju sva glavna turistička područja."
+    },
+    {
+      "question": "Gdje je najbolje parkirati u Zagrebu?",
+      "answer": "Najpouzdanije opcije su podzemne javne garaže poput Langovog trga, Tuškanca ili Petrinjske. Ulično parkiranje u centru (Zona 1) je skupo, ograničeno na maksimalno dva sata i strogo se provodi."
+    },
+    {
+      "question": "Je li Zagreb dobar za obitelji?",
+      "answer": "Da, grad je vrlo pogodan za obitelji. Atrakcije poput Muzeja iluzija, Zoološkog vrta Zagreb u Maksimirskom parku i kratke vožnje uspinjačom pouzdane su opcije za mlađe posjetitelje."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Ukratko",
+    "whereToStay": "Gdje odsjesti u Zagrebu",
+    "gettingThere": "Dolazak u Zagreb",
+    "whenToGo": "Kada posjetiti",
+    "guides": "Vodiči za Zagreb",
+    "faq": "Česta pitanja o Zagrebu",
+    "groups": {
+      "gettingAround": "Parkiranje i kretanje",
+      "planning": "Planiranje i smještaj",
+      "timing": "Kada posjetiti",
+      "travelers": "Obitelji, parovi i stilovi putovanja",
+      "activities": "Plaže i aktivnosti",
+      "food": "Hrana i piće",
+      "comparisons": "Usporedbe",
+      "practical": "Praktične informacije"
+    },
+    "car": "Automobilom",
+    "other": "Druge opcije",
+    "bestFor": "Najbolje za",
+    "parking": "Parkiranje",
+    "beach": "Plaža"
+  },
+  "destination": "zagreb",
+  "language": "hr",
+  "updatedAt": "2026-10-16T11:34:53.437Z"
+}

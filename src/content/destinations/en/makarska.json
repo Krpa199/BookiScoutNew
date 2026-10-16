@@ -1,0 +1,146 @@
+{
+  "title": "Makarska Travel Guide: Beaches, Areas & Driving Info",
+  "metaDescription": "Plan your trip to Makarska, Croatia. Discover the best pebble beaches, top neighborhoods to stay, driving routes from Central Europe, and parking tips.",
+  "intro": "Makarska caters to travelers seeking long pebble beaches, active nightlife, and immediate access to Mount Biokovo. It serves as the commercial and transport hub of the Makarska Riviera, drawing summer crowds from across Central Europe. The main promenade is lined with cafes, restaurants, and mature pine trees, providing ample natural shade right up to the shoreline during hot summer days.\n\nThe town is best suited for families and groups who prefer organized beaches with numerous facilities over secluded coves. Visitors planning a quiet retreat should look to the smaller surrounding villages or visit in May and October. Peak season brings heavy coastal traffic and crowded beaches, making June and September the optimal months for a balance of warm sea temperatures and manageable visitor numbers.",
+  "quickFacts": [
+    {
+      "label": "Best months",
+      "value": "June and September"
+    },
+    {
+      "label": "Sea temp in August",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Nearest airport",
+      "value": "Split (SPU), 98 km"
+    },
+    {
+      "label": "Main beach type",
+      "value": "Pebble"
+    },
+    {
+      "label": "Price level",
+      "value": "Slightly above Croatian average"
+    },
+    {
+      "label": "Old town",
+      "value": "Walkable, largely car-free core"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Old Town (Centar)",
+      "bestFor": "Dining, nightlife, and cultural sightseeing",
+      "parking": "Very limited, relies on expensive public lots (Osejava, City Park)",
+      "beach": "10-15 minute walk to main beaches",
+      "summary": "The historic core features narrow stone streets, the main square (Kačićev trg), and the harbor. It offers the highest concentration of restaurants but can be noisy at night."
+    },
+    {
+      "name": "Donja Luka",
+      "bestFor": "Beach access and families",
+      "parking": "Crowded metered streets; prioritize hotels with private spaces",
+      "beach": "Direct access to Makarska's main 2-km pebble beach",
+      "summary": "This area stretches along the main bay northwest of the center. It is heavily developed with hotels, apartment blocks, and beachfront bars."
+    },
+    {
+      "name": "Zelenka",
+      "bestFor": "Budget-conscious travelers and longer stays",
+      "parking": "Easier to find free or included private parking than in the center",
+      "beach": "10-20 minute walk downhill (steep return)",
+      "summary": "A residential neighborhood located on the slopes above the main highway. Accommodation here is generally cheaper, but the walk back from the beach involves a noticeable incline."
+    },
+    {
+      "name": "Veliko Brdo",
+      "bestFor": "Quiet stays, larger groups, and travelers with cars",
+      "parking": "Ample private parking at most properties",
+      "beach": "3-5 km drive to the nearest beaches",
+      "summary": "Situated high on the foothills of Mount Biokovo, this area consists mostly of modern villas with pools. A car is mandatory for groceries and beach access."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Munich",
+      "car": "885 km, 9-10 hours via A8, A10, and A1. Requires AT and SLO vignettes, plus HR tolls.",
+      "other": "Direct flights to Split (SPU), then bus or transfer."
+    },
+    {
+      "from": "Vienna",
+      "car": "765 km, 7.5-8.5 hours via A2 and HR A1. Requires AT and SLO vignettes, plus HR tolls.",
+      "other": "Direct flights to Split (SPU) or overnight train to Split."
+    },
+    {
+      "from": "Budapest",
+      "car": "785 km, 7.5-8.5 hours via M7 and HR A1. Requires HU vignette, plus HR tolls.",
+      "other": "FlixBus direct to Makarska or flight to Split."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "515 km, 5.5-6 hours via A2 and HR A1. Requires SLO vignette, plus HR tolls.",
+      "other": "Direct bus or train to Zagreb/Split, then bus to Makarska."
+    },
+    {
+      "from": "Prague",
+      "car": "1,080 km, 11-12 hours via CZ D1, AT A1/A9, and HR A1. Requires CZ, AT, SLO vignettes, plus HR tolls.",
+      "other": "Direct flights to Split (SPU) via Smartwings or Croatia Airlines."
+    },
+    {
+      "from": "Kraków",
+      "car": "1,060 km, 11-12 hours via SK D1, HU M7, and HR A1. Requires SK and HU vignettes, plus HR tolls.",
+      "other": "Flights to Split (SPU) via LOT or Wizz Air."
+    }
+  ],
+  "whenToGo": "May marks the start of the season with daytime temperatures around 22°C, but the sea remains a chilly 18°C and some beach bars are still closed. June brings warmer waters (22°C-24°C) and fully open facilities without extreme crowding. July and August are peak season, featuring high temperatures (30°C+), sea temperatures peaking at 27°C, heavy traffic, crowded beaches, and peak pricing. September offers a return to June's crowd levels but with sea water still warm from the summer heat. By late October, temperatures drop, rainfall increases, and most seasonal restaurants and hotels close for the winter.",
+  "faq": [
+    {
+      "question": "Is it worth visiting?",
+      "answer": "Yes, if you want long, organized beaches and a lively evening atmosphere. It is the main hub of the Makarska Riviera, offering excellent facilities, but it is not recommended for those seeking a quiet, secluded holiday in peak summer."
+    },
+    {
+      "question": "How many days?",
+      "answer": "Five to seven days is typical for a summer beach holiday. If you are road-tripping along the Dalmatian coast, two or three days are sufficient to see the town and hike Mount Biokovo."
+    },
+    {
+      "question": "Best beach?",
+      "answer": "Donja Luka is the main, family-friendly pebble beach with sunbeds and shade from pine trees. For a more natural setting, Nugal Beach is a scenic 30-minute walk through the Osejava forest and operates as a mixed/FKK beach."
+    },
+    {
+      "question": "Do I need a car?",
+      "answer": "You do not need a car if you stay in the town center or near Donja Luka, as the town is highly walkable. However, a car is necessary if you book accommodation in the hillside suburbs or plan to explore the Biokovo Nature Park independently."
+    },
+    {
+      "question": "Where to park?",
+      "answer": "Parking in Makarska is notoriously difficult and expensive during summer. Look for accommodation with guaranteed private parking; otherwise, you will rely on paid public lots near the Osejava peninsula or the city sports center."
+    },
+    {
+      "question": "Is it good for families?",
+      "answer": "Yes, Makarska is very popular with families due to its gently sloping pebble beaches and shaded pine forests. The town offers numerous family-oriented activities, water parks, and easy access to supermarkets and pharmacies."
+    }
+  ],
+  "headings": {
+    "quickFacts": "At a glance",
+    "whereToStay": "Where to stay in Makarska",
+    "gettingThere": "Getting to Makarska",
+    "whenToGo": "When to go",
+    "guides": "Makarska guides",
+    "faq": "Makarska FAQ",
+    "groups": {
+      "gettingAround": "Parking & getting around",
+      "planning": "Planning & where to stay",
+      "timing": "When to go",
+      "travelers": "Families, couples & travel styles",
+      "activities": "Beaches & things to do",
+      "food": "Food & drink",
+      "comparisons": "Comparisons",
+      "practical": "Practical info"
+    },
+    "car": "By car",
+    "other": "Other options",
+    "bestFor": "Best for",
+    "parking": "Parking",
+    "beach": "Beach"
+  },
+  "destination": "makarska",
+  "language": "en",
+  "updatedAt": "2026-10-16T10:14:22.630Z"
+}

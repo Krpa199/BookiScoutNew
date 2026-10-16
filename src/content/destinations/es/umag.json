@@ -1,0 +1,146 @@
+{
+  "title": "Guía de viaje de Umag: Playas, aparcamiento y dónde alojarse",
+  "metaDescription": "Planifica tu viaje a Umag, Croacia. Obtén detalles prácticos sobre rutas en coche, dónde alojarte, aparcamiento, complejos familiares y las mejores épocas para visitar.",
+  "intro": "Umag es la ciudad costera más septentrional de Istria, lo que la convierte en la primera parada para los visitantes que llegan desde Europa Central. Se dedica en gran medida al turismo de complejos turísticos, ofreciendo grandes complejos hoteleros, campings e instalaciones deportivas extensas, destacando el torneo de tenis ATP Croatia Open. La costa presenta terrazas pavimentadas para tomar el sol, calas rocosas y pinares que dan directamente al mar.\n\nLa temporada alta se extiende desde finales de junio hasta agosto, trayendo altas temperaturas y la mayor afluencia de público al tenis en julio. Septiembre es más tranquilo, con el mar aún lo suficientemente cálido para bañarse, mientras que en invierno la mayoría de las instalaciones turísticas cierran. Umag es ideal para familias y viajeros activos que priorizan un acceso conveniente a la playa y los deportes sobre un turismo histórico extenso.",
+  "quickFacts": [
+    {
+      "label": "Mejores meses",
+      "value": "De junio a septiembre"
+    },
+    {
+      "label": "Temperatura del mar en agosto",
+      "value": "25°C a 27°C"
+    },
+    {
+      "label": "Aeropuerto más cercano",
+      "value": "Pula (PUY), 85 km al sur"
+    },
+    {
+      "label": "Tipo de playa principal",
+      "value": "Plataformas de hormigón, calas rocosas y guijarros artificiales"
+    },
+    {
+      "label": "Nivel de precios",
+      "value": "Medio para Istria, más barato que Rovinj"
+    },
+    {
+      "label": "Casco antiguo peatonal",
+      "value": "Sí, la península histórica es una zona peatonal"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centro de Umag y casco antiguo",
+      "bestFor": "Comer, pasear y estancias cortas",
+      "parking": "Aparcamientos públicos de pago fuera de la península peatonal",
+      "beach": "700m hasta Gradsko Kupalište (Playa de la Ciudad)",
+      "summary": "El corazón histórico de Umag se asienta sobre una pequeña península. Ofrece calles estrechas, restaurantes y un puerto deportivo, pero carece de las grandes piscinas de los complejos turísticos y del acceso directo a la playa que se encuentran más al norte."
+    },
+    {
+      "name": "Punta",
+      "bestFor": "Proximidad tanto al centro como a las playas",
+      "parking": "Aparcamiento de pago en la calle y aparcamientos privados de hoteles",
+      "beach": "Acceso inmediato a playas de hormigón y rocosas",
+      "summary": "Una zona residencial y hotelera justo al norte del puerto deportivo. Conecta el centro de la ciudad con los complejos turísticos del norte a través de un paseo marítimo, equilibrando la comodidad con el acceso a la playa."
+    },
+    {
+      "name": "Stella Maris y Katoro",
+      "bestFor": "Familias, aficionados al tenis y vacaciones en complejos turísticos",
+      "parking": "Grandes aparcamientos dedicados para huéspedes del complejo y visitantes diarios",
+      "beach": "Acceso inmediato a Laguna (guijarros/arena) y Polinesia",
+      "summary": "La principal zona turística que se extiende al norte de la ciudad. Dominada por grandes hoteles, complejos de apartamentos, pistas de tenis y una larga ruta de tren turístico que conecta con el centro."
+    },
+    {
+      "name": "Savudrija",
+      "bestFor": "Parejas, campistas y estancias más tranquilas",
+      "parking": "Generalmente gratuito o incluido con el alojamiento",
+      "beach": "Costas rocosas y terrazas pavimentadas",
+      "summary": "Un pueblo más tranquilo, sombreado por pinos, a 8 km al norte de Umag, conocido por su faro activo. Popular entre campistas y aquellos que buscan un ritmo más relajado lejos de los principales complejos turísticos."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Múnich",
+      "car": "500 km, ~5.5 horas vía A8, A10 (Tauern), túnel de Karawanken, Liubliana y Koper. Requiere viñetas austriacas y eslovenas, además de peajes de túnel.",
+      "other": "FlixBus o tren nocturno a Liubliana, luego conexión en autobús"
+    },
+    {
+      "from": "Viena",
+      "car": "510 km, ~5.5 horas vía A2 hasta Graz, Maribor, Liubliana y Koper. Requiere viñetas austriacas y eslovenas.",
+      "other": "FlixBus directo disponible en verano, o tren a Trieste/Liubliana"
+    },
+    {
+      "from": "Budapest",
+      "car": "600 km, ~6 horas vía M7 hasta la frontera de Letenye, A4/A6 vía Zagreb y Rijeka, luego la Y de Istria. Requiere viñeta húngara y peajes croatas.",
+      "other": "FlixBus directo a Umag (aprox. 9 horas)"
+    },
+    {
+      "from": "Liubliana",
+      "car": "130 km, ~1.5 a 2 horas vía A1 hasta Koper, luego Ruta 11. Requiere viñeta eslovena. Los retrasos fronterizos en Dragonja son comunes en verano.",
+      "other": "Autobús directo (aprox. 2.5 horas) o traslado compartido (ej. GoOpti)"
+    },
+    {
+      "from": "Praga",
+      "car": "800 km, ~9 a 10 horas vía Linz, Salzburgo y A10. Requiere viñetas checas, austriacas y eslovenas, además de peajes de túnel austriacos.",
+      "other": "Tren a Rijeka o Liubliana, luego autobús, o autobús directo en verano"
+    },
+    {
+      "from": "Cracovia",
+      "car": "950 km, ~10.5 horas vía A4, Ostrava, Viena, Graz y Liubliana. Requiere peajes polacos, además de viñetas checas, austriacas y eslovenas.",
+      "other": "Vuelo a Viena o Venecia y luego autobús, o autobús directo en verano"
+    }
+  ],
+  "whenToGo": "La temporada turística de Umag va de mayo a octubre. Julio y agosto son los meses más calurosos, con temperaturas diurnas alrededor de los 30°C y temperaturas del mar que alcanzan los 26°C. Esta es también la época más concurrida y cara, especialmente durante el torneo de tenis ATP a finales de julio. Junio y septiembre ofrecen un mejor equilibrio entre clima cálido, precios más bajos y menos gente, con temperaturas del mar en septiembre todavía agradables para nadar. Entre noviembre y abril, la ciudad está muy tranquila; la mayoría de los hoteles resort, bares de playa y restaurantes de temporada cierran, aunque los senderos costeros permanecen abiertos para caminar y andar en bicicleta.",
+  "faq": [
+    {
+      "question": "¿Merece la pena visitar Umag?",
+      "answer": "Sí, especialmente si buscas unas vacaciones tipo resort o si viajas en coche desde Europa Central. Carece de la extensa arquitectura histórica de Rovinj o Poreč, pero destaca en instalaciones deportivas, complejos familiares y costas accesibles."
+    },
+    {
+      "question": "¿Cuántos días necesito en Umag?",
+      "answer": "De tres a cinco días es ideal para un viaje estándar de playa y relax. Si lo usas como base para explorar el interior de Istria o las ciudades costeras cercanas, se recomienda una semana completa."
+    },
+    {
+      "question": "¿Cuál es la mejor playa de Umag?",
+      "answer": "Laguna Stella Maris es la más popular, con una orilla de guijarros y arena artificial en forma de media luna con aguas poco profundas. Katoro y Polinesia ofrecen amplias terrazas de hormigón y secciones rocosas con aguas cristalinas."
+    },
+    {
+      "question": "¿Necesito coche en Umag?",
+      "answer": "No necesitas coche si te alojas dentro de las principales zonas de resort, ya que un tren turístico conecta Katoro y Stella Maris con el centro de la ciudad. Sin embargo, se recomienda encarecidamente un coche para hacer excursiones por Istria."
+    },
+    {
+      "question": "¿Dónde puedo aparcar en Umag?",
+      "answer": "La ciudad opera un sistema de aparcamiento público por zonas, con grandes aparcamientos de pago situados cerca de la estación de autobuses y el puerto deportivo, justo fuera del casco antiguo peatonal. La mayoría de los grandes hoteles y complejos turísticos más al norte incluyen aparcamiento, aunque algunos cobran una tarifa diaria."
+    },
+    {
+      "question": "¿Es Umag bueno para familias?",
+      "answer": "Sí, Umag es uno de los destinos más familiares de Istria. Los complejos turísticos del norte ofrecen animación infantil dedicada, secciones de playa poco profundas, parques infantiles y grandes complejos de piscinas adaptados a los visitantes jóvenes."
+    }
+  ],
+  "headings": {
+    "quickFacts": "De un vistazo",
+    "whereToStay": "Dónde alojarse en Umag",
+    "gettingThere": "Cómo llegar a Umag",
+    "whenToGo": "Cuándo ir",
+    "guides": "Guías de Umag",
+    "faq": "Preguntas frecuentes sobre Umag",
+    "groups": {
+      "gettingAround": "Aparcamiento y cómo moverse",
+      "planning": "Planificación y dónde alojarse",
+      "timing": "Cuándo ir",
+      "travelers": "Familias, parejas y estilos de viaje",
+      "activities": "Playas y cosas que hacer",
+      "food": "Comida y bebida",
+      "comparisons": "Comparaciones",
+      "practical": "Información práctica"
+    },
+    "car": "En coche",
+    "other": "Otras opciones",
+    "bestFor": "Mejor para",
+    "parking": "Aparcamiento",
+    "beach": "Playa"
+  },
+  "destination": "umag",
+  "language": "es",
+  "updatedAt": "2026-10-16T11:40:51.950Z"
+}

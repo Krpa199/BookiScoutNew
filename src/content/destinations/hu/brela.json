@@ -1,0 +1,146 @@
+{
+  "title": "Brela Útikalauz: Strandok, Parkolás és Szálláslehetőségek",
+  "metaDescription": "Tervezzen utazást Brela-ba a Makarska Riviérán. Fedezze fel a legjobb strandokat, környékeket, parkolási szabályokat, autós útvonalakat és a legjobb időpontot a látogatásra.",
+  "intro": "Brela egy tengerparti város a Makarska Riviérán, amelyet sűrű fenyőerdők határoznak meg, melyek közvetlenül a fehér kavicsos strandokig nyúlnak. A Biokovo-hegység lábánál fekszik, és azokat a látogatókat célozza, akik tiszta vizet, természetes árnyékot és nyugodt üdülőhelyi hangulatot keresnek, nem pedig városi éjszakai életet. A település meredek terepen épült, ami azt jelenti, hogy a hat kilométeres gyalogos tengerpartra való eljutás általában dombos utcákon való közlekedést igényel.\n\nA főszezon júliusban és augusztusban van, amikor családokat és párokat vonz, akik garantált úszásra alkalmas időjárásra és teljesen működő szolgáltatásokra vágynak. Azonban június vége és szeptember kényelmesebb élményt nyújt. Ezekben a hónapokban a tenger elég meleg marad az úszáshoz, de jelentősen kevesebb a tömeg a híres Punta Rata strandon, és kisebb a forgalom a helyi utakon.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Júniustól szeptemberig"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "24°C és 28°C között"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Split (SPU), 68 km"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Fehér kavicsok fenyőárnyékkal"
+    },
+    {
+      "label": "Árszínvonal",
+      "value": "Prémium (az átlagos horvát árszínvonal felett)"
+    },
+    {
+      "label": "Sétálhatóság",
+      "value": "Jól sétálható promenád, meredek utcák"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Soline (Központ)",
+      "bestFor": "Először utazóknak és azoknak, akik közel szeretnének lenni a szolgáltatásokhoz",
+      "parking": "Rendkívül korlátozott, a nyilvános parkolók 4€/óra díjat számolnak fel",
+      "beach": "Közvetlen hozzáférés a Soline strandhoz",
+      "summary": "Soline Brela fő központja, ahol a legtöbb szálloda, étterem és kávézó található. A tengerparti promenádhoz innen a legkönnyebb hozzáférni, de ez a város legforgalmasabb része."
+    },
+    {
+      "name": "Podrače",
+      "bestFor": "Strandkedvelőknek és pároknak",
+      "parking": "Meredek, keskeny utak; magánparkoló elengedhetetlen",
+      "beach": "Lépésekre a Podrače és Punta Rata strandoktól",
+      "summary": "Közvetlenül a központtól északnyugatra található ez a festői terület, amely azonnali hozzáférést biztosít Brela legfotózottabb öbleihez. A terep meredek, ezért a legtöbb szálláshoz felfelé kell gyalogolni."
+    },
+    {
+      "name": "Stomarica",
+      "bestFor": "Családoknak és csendesebb környezetre vágyó látogatóknak",
+      "parking": "Többnyire a szálláshelyek által biztosított magánparkolók",
+      "beach": "Közvetlen hozzáférés a Stomarica strandhoz",
+      "summary": "Egy békés öböl a tengerpart mentén, amely alapvető szolgáltatásokat, például strandbárokat és éttermeket tart fenn. Elég messze van a központtól ahhoz, hogy elkerülje a nagy tömeget, de a promenádon keresztül könnyen megközelíthető."
+    },
+    {
+      "name": "Jakiruša",
+      "bestFor": "Természetkedvelőknek és azoknak, akik elkerülnék a tömeget",
+      "parking": "A szállásokhoz általában magánparkoló tartozik",
+      "beach": "Jakiruša strand (kavicsos és sziklás részek)",
+      "summary": "Brela északnyugati széle kínálja a legeldugottabb környezetet. Az itteni strandok csendesebbek, sűrű fenyőárnyékkal, de a terület hosszabb sétát igényel a főváros eléréséhez."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "850 km, 9-10 óra az A8-as, A10-es és A1-es utakon. Osztrák és szlovén autópályamatrica, plusz osztrák alagút- és horvát autópályadíjak szükségesek.",
+      "other": "Repülőút Splitbe (SPU), majd 1 órás busz vagy privát transzfer."
+    },
+    {
+      "from": "Bécs",
+      "car": "750 km, 7,5-8,5 óra az A2-es és horvát A1-es utakon. Osztrák és szlovén autópályamatrica, plusz horvát autópályadíjak szükségesek.",
+      "other": "Közvetlen repülőjárat Splitbe (SPU) vagy éjszakai vonat Splitbe, majd busz."
+    },
+    {
+      "from": "Budapest",
+      "car": "770 km, 7,5-8,5 óra az M7-es és horvát A4/A1-es utakon. Magyar e-matricát és horvát autópályadíjakat igényel.",
+      "other": "Közvetlen repülőjárat Splitbe (SPU) vagy közvetlen FlixBus a Makarska Riviérára."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "470 km, 5-6 óra az A2-es és horvát A1-es utakon. Szlovén autópályamatrica és horvát autópályadíjak szükségesek.",
+      "other": "Közvetlen busz Splitbe vagy Makarskára, megállással Brela-ban vagy annak közelében."
+    },
+    {
+      "from": "Prága",
+      "car": "1070 km, 11-12 óra Bécsen és Grazon keresztül. Cseh, osztrák és szlovén autópályamatrica, plusz horvát útdíjak szükségesek.",
+      "other": "Repülőút Splitbe (SPU), majd helyi busz vagy privát transzfer Brela-ba."
+    },
+    {
+      "from": "Krakkó",
+      "car": "1100 km, 11-12 óra Szlovákián és Magyarországon (M7) keresztül. Szlovák és magyar autópályamatrica, plusz horvát útdíjak szükségesek.",
+      "other": "Repülőút Splitbe (SPU) Krakkóból vagy Katowicéből, majd továbbszállítás."
+    }
+  ],
+  "whenToGo": "Június végétől szeptember elejéig a legmegbízhatóbb az időjárás, a tenger hőmérséklete augusztusban átlagosan 24°C és 28°C között van. Július és augusztus a főszezon, ami a legmagasabb árakat, teljesen nyitott szolgáltatásokat és sűrű tömeget jelent a szűk strandokon és parti utakon. Május és október alacsonyabb árakat és csendes utcákat kínál, de a tenger gyakran túl hideg az úszáshoz (kb. 18°C és 21°C között), és sok helyi étterem bezár a szezonra. Szeptember kínálja a legjobb egyensúlyt: meleg vizet, kevesebb látogatót és mérsékelt szállásárakat.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni Brelát?",
+      "answer": "Igen, Horvátország legtisztább vizű és legfestőibb, fenyővel szegélyezett kavicsos strandjai közé tartozik. Ideális azoknak a látogatóknak, akik pihentető tengerparti nyaralásra vágynak, nem pedig történelmi városnézésre."
+    },
+    {
+      "question": "Hány napot érdemes eltölteni Brelában?",
+      "answer": "A legtöbb látogató számára 4-7 napos tartózkodás ideális. Ez elegendő időt biztosít a promenád menti különböző öblök élvezésére és egy napos kirándulásra a Biokovo-hegyre vagy a közeli városokba, például Omišba."
+    },
+    {
+      "question": "Melyik a legjobb strand Brelában?",
+      "answer": "A Punta Rata a leghíresebb strand, ikonikus sziklájáról és sűrű fenyőárnyékáról ismert. Azonban a közeli Podrače és Stomarica strandok ugyanolyan tiszta vizet kínálnak, valamivel kevesebb tömeggel."
+    },
+    {
+      "question": "Szükséges autó Brelában?",
+      "answer": "Nem szükséges autó, ha a tengerparthoz közel száll meg, mivel a fő strandok és éttermek egy gyalogos promenádon keresztül kapcsolódnak. Csak akkor szükséges autó, ha a szélesebb dalmát partvidéket tervezi felfedezni, és a helyi meredek utcákon való vezetés kihívást jelenthet."
+    },
+    {
+      "question": "Hol érdemes parkolni Brelában?",
+      "answer": "Erősen ajánlott olyan szállást foglalni, amely garantált magánparkolóhelyet tartalmaz. A nyilvános parkolás nagyon korlátozott és drága, Soline központi területein körülbelül 4 euróba kerül óránként."
+    },
+    {
+      "question": "Alkalmas Brela családok számára?",
+      "answer": "Igen, a hosszú, autómentes promenád, a fenyőfák természetes árnyéka és a nyugodt vizek kiválóan alkalmassá teszik családok számára. Azonban a meredek utcák, amelyek néhány szálláshoz vezetnek, kihívást jelenthetnek babakocsival."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Áttekintés",
+    "whereToStay": "Hol szálljunk meg Brelában",
+    "gettingThere": "Odautazás Brelába",
+    "whenToGo": "Mikor utazzunk",
+    "guides": "Brela útmutatók",
+    "faq": "Gyakori kérdések Breláról",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor utazzunk",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Ételek és italok",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb választás",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "brela",
+  "language": "hu",
+  "updatedAt": "2026-10-16T10:24:35.030Z"
+}

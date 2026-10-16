@@ -1,0 +1,146 @@
+{
+  "title": "Supetar: Przewodnik – plaże, promy i noclegi",
+  "metaDescription": "Zaplanuj swoją podróż do Supetaru na Braču. Odkryj najlepsze miejsca na nocleg, trasy dojazdowe z Europy, szczegóły dotyczące promów, opcje parkowania i lokalne żwirowe plaże.",
+  "intro": "Supetar to główny punkt wjazdu na wyspę Brač i praktyczna baza dla podróżnych przybywających samochodem z kontynentalnej Europy. Oferuje funkcjonalne połączenie supermarketów, połączeń promowych i usług, a także tętniące życiem nabrzeże i dostępne żwirowe plaże. Miasteczko jest odpowiednie dla rodzin i osób podróżujących samochodem, którzy pragną życia na wyspie bez skomplikowanej logistyki dotarcia do bardziej odległych miejsc.\n\nMiesiące letnie, lipiec i sierpień, przynoszą szczytowy ruch promowy, ciepłe temperatury morza i w pełni działające restauracje wzdłuż portu. Maj, czerwiec i wrzesień zapewniają spokojniejsze warunki i niższe ceny zakwaterowania, choć morze jest chłodniejsze do pływania. Od października do kwietnia wiele sezonowych firm jest zamkniętych, ale podstawowe usługi i połączenia promowe ze Splitem pozostają aktywne przez cały rok.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "Czerwiec do września"
+    },
+    {
+      "label": "Temperatura morza w sierpniu",
+      "value": "25°C - 26°C"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Lotnisko Brač (30 km) lub Lotnisko Split (wymagany prom)"
+    },
+    {
+      "label": "Główny typ plaży",
+      "value": "Żwirowa z miejscowymi piaszczystymi płyciznami"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "Średni dla Chorwacji, tańszy niż Bol czy Hvar"
+    },
+    {
+      "label": "Stare miasto / centrum",
+      "value": "Przyjazne dla pieszych, ograniczony dostęp samochodów w pobliżu portu"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centrum Supetaru (Port / Stare Miasto)",
+      "bestFor": "Podróżujący bez samochodu, na krótkie pobyty oraz ci, którzy chcą mieć restauracje w pobliżu",
+      "parking": "Płatne parkingi publiczne w pobliżu portu promowego; ograniczone miejsca parkingowe na ulicy",
+      "beach": "10-15 minut spacerem do plaż Banj lub Vlačica",
+      "summary": "Handlowe i transportowe centrum wyspy. Charakteryzuje się kamiennymi domami, kawiarniami wzdłuż promenady i bezpośrednim dostępem do promu samochodowego do Splitu."
+    },
+    {
+      "name": "Tri Mosta i Bili Rat",
+      "bestFor": "Osoby preferujące resorty, rodziny i pobyty nastawione na plażowanie",
+      "parking": "Prywatne parkingi hotelowe i duże płatne parkingi publiczne w pobliżu plaż",
+      "beach": "Bezpośredni dostęp do plaż Tri Mosta (żwirowa) i Bili Rat",
+      "summary": "Położona na zachód od centrum, w tej okolicy znajduje się większość dużych hoteli i resortów Supetaru. Oferuje zacienione lasy sosnowe, bary plażowe i udogodnienia do sportów wodnych."
+    },
+    {
+      "name": "Okolice Banj i Vlačica",
+      "bestFor": "Rodziny z małymi dziećmi",
+      "parking": "Parkowanie na ulicy może być ciasne; obiekty noclegowe często zapewniają miejsca",
+      "beach": "Bezpośredni dostęp do plaż Banj (piaszczyste dno) i Vlačica (żwirowa)",
+      "summary": "Dzielnica mieszkalna położona wokół dwóch najpopularniejszych zatok miasta. Zapewnia spokojniejszą atmosferę niż port, pozostając jednocześnie w odległości krótkiego spaceru od udogodnień miejskich."
+    },
+    {
+      "name": "Mirca",
+      "bestFor": "Podróżujący samochodem szukający ciszy i spokoju",
+      "parking": "W większości bezpłatny parking na posesjach prywatnych",
+      "beach": "Niezatłoczone lokalne plaże żwirowe w zasięgu spaceru",
+      "summary": "Mała wioska 3 kilometry na zachód od Supetaru. Charakteryzuje się tradycyjnymi kamiennymi domami, gajami oliwnymi i znacznie wolniejszym tempem życia niż główne miasto."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monachium",
+      "car": "850 km do Splitu, ~9 godzin przez A8, A10 (Tauern) i A1. Wymaga winiety AT, opłat za tunele Tauern/Karawanken, opłat HR oraz promu samochodowego Split-Supetar.",
+      "other": "Lotnisko Split (SPU), transfer do portu w Splicie (25 km), następnie prom."
+    },
+    {
+      "from": "Wiedeń",
+      "car": "760 km do Splitu, ~8 godzin przez A2, A4 i A1. Wymaga winiet AT i SLO, opłat HR oraz promu samochodowego Split-Supetar.",
+      "other": "Lotnisko Split (SPU), transfer do portu w Splicie (25 km), następnie prom."
+    },
+    {
+      "from": "Budapeszt",
+      "car": "750 km do Splitu, ~7.5 godziny przez M7 i A1. Wymaga winiety HU, opłat HR oraz promu samochodowego Split-Supetar.",
+      "other": "Lotnisko Split (SPU), transfer do portu w Splicie (25 km), następnie prom."
+    },
+    {
+      "from": "Lublana",
+      "car": "470 km do Splitu, ~5 godzin przez A1 (SLO) i A1 (HR). Wymaga winiety SLO, opłat HR oraz promu samochodowego Split-Supetar.",
+      "other": "Autobus lub pociąg do Splitu, następnie 50-minutowy prom pasażerski lub samochodowy."
+    },
+    {
+      "from": "Praga",
+      "car": "1090 km do Splitu, ~11.5 godziny przez A9 (AT), A1 (SLO) i A1 (HR). Wymaga winiet CZ, AT, SLO, opłat za tunele AT, opłat HR oraz promu samochodowego Split-Supetar.",
+      "other": "Lotnisko Split (SPU), transfer do portu w Splicie (25 km), następnie prom."
+    },
+    {
+      "from": "Kraków",
+      "car": "1050 km do Splitu, ~11.5 godziny przez D1 (SK), M7 (HU) i A1 (HR). Wymaga winiet SK i HU, opłat HR oraz promu samochodowego Split-Supetar.",
+      "other": "Lotnisko Split (SPU), transfer do portu w Splicie (25 km), następnie prom."
+    }
+  ],
+  "whenToGo": "Od czerwca do września Supetar jest w pełni otwarty, a temperatury morza wahają się od 23°C do 26°C. Lipiec i sierpień to największe tłumy, szczytowe kolejki na promy i najwyższe ceny zakwaterowania, ale gwarantują, że wszystkie restauracje i udogodnienia plażowe działają. Maj i październik oferują łagodniejszą pogodę i niższe ceny, choć morze jest często zbyt zimne do pływania, a niektóre sezonowe firmy są zamknięte. Od listopada do kwietnia miasto wraca do spokojnego, lokalnego rytmu; ceny są najniższe, ale infrastruktura turystyczna jest zamknięta, a promy kursują według zmniejszonego zimowego rozkładu.",
+  "faq": [
+    {
+      "question": "Czy warto odwiedzić?",
+      "answer": "Tak, jeśli potrzebujesz wygodnej i dobrze skomunikowanej bazy na Braču. Supetar oferuje praktyczne udogodnienia, łatwy dostęp promowy do Splitu i przyjemne plaże rodzinne, choć brakuje mu dramatycznych krajobrazów Bol."
+    },
+    {
+      "question": "Ile dni potrzebuję?",
+      "answer": "Trzy do pięciu dni wystarczy, aby zwiedzić Supetar i użyć go jako bazy do dalszej eksploracji Braču. Krótszy dwudniowy pobyt sprawdzi się, jeśli tylko przejeżdżasz do innych miast na wyspie."
+    },
+    {
+      "question": "Jaka jest najlepsza plaża?",
+      "answer": "Tri Mosta jest powszechnie uważana za najlepszą plażę ze względu na czyste żwirki, sosnowy cień i dostępne udogodnienia. Rodziny z małymi dziećmi często preferują plażę Banj ze względu na jej płytkie, piaszczyste dno."
+    },
+    {
+      "question": "Czy potrzebuję samochodu?",
+      "answer": "Nie potrzebujesz samochodu, jeśli planujesz pozostać w Supetarze i odwiedzać tylko lokalne plaże. Jednak samochód jest wysoce zalecany, jeśli chcesz zwiedzić resztę Braču, takie jak Vidova Gora czy Zlatni Rat."
+    },
+    {
+      "question": "Gdzie mogę zaparkować?",
+      "answer": "Duże publiczne płatne parkingi znajdują się w pobliżu portu promowego oraz za obszarem plaży Tri Mosta. Parkowanie na ulicy w centrum jest podzielone na płatne strefy, a miejsca szybko się zapełniają w lipcu i sierpniu."
+    },
+    {
+      "question": "Czy jest dobre dla rodzin?",
+      "answer": "Tak, Supetar to jedno z najbardziej przyjaznych rodzinom miejsc na Braču. Ma płytkie plaże z piaszczystymi fragmentami, nadmuchiwane parki wodne i płaskie nadmorskie promenady odpowiednie dla wózków dziecięcych."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Gdzie zatrzymać się w Supetarze",
+    "gettingThere": "Dojazd do Supetaru",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Supetarze",
+    "faq": "Supetar: Najczęściej zadawane pytania",
+    "groups": {
+      "gettingAround": "Parking i poruszanie się",
+      "planning": "Planowanie i gdzie się zatrzymać",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróżowania",
+      "activities": "Plaże i atrakcje",
+      "food": "Jedzenie i picie",
+      "comparisons": "Porównania",
+      "practical": "Praktyczne informacje"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "supetar",
+  "language": "pl",
+  "updatedAt": "2026-10-16T14:38:05.452Z"
+}

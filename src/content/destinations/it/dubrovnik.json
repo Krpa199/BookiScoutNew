@@ -1,0 +1,153 @@
+{
+  "title": "Dubrovnik: Guida di Viaggio - Quartieri, Parcheggio e Quando Andare",
+  "metaDescription": "Pianifica il tuo viaggio a Dubrovnik con dettagli concreti sui migliori quartieri dove alloggiare, percorsi in auto dall'Europa Centrale, informazioni sul parcheggio e spiagge locali.",
+  "intro": "Dubrovnik attira principalmente gli appassionati di storia e i viaggiatori in cerca di paesaggi costieri spettacolari. La città è famosa per la sua Città Vecchia pesantemente fortificata, situata direttamente sul Mare Adriatico, il che la rende una tappa importante sia per le crociere mediterranee che per i viaggiatori in auto. I visitatori vengono per passeggiare sulle mura medievali, fare gite in barca alle vicine Isole Elafiti ed esplorare le insenature rocciose circostanti.\n\nEssendo la destinazione più famosa della Croazia, richiede un'attenta pianificazione per gestire i costi elevati e le dense folle estive. È meglio visitarla nelle stagioni intermedie di maggio, giugno, settembre o ottobre, quando il tempo rimane abbastanza caldo per nuotare ma le strette strade di pietra sono più facili da percorrere.",
+  "quickFacts": [
+    {
+      "label": "Mesi migliori",
+      "value": "Maggio, giugno, settembre, ottobre"
+    },
+    {
+      "label": "Temperatura del mare ad agosto",
+      "value": "25°C a 27°C (77°F a 80°F)"
+    },
+    {
+      "label": "Aeroporto più vicino",
+      "value": "Aeroporto di Dubrovnik (DBV), 20 km (12 miglia)"
+    },
+    {
+      "label": "Tipo di spiaggia principale",
+      "value": "Spiaggia di ciottoli e terrazze rocciose"
+    },
+    {
+      "label": "Livello di prezzi",
+      "value": "Notevolmente più alto della media croata"
+    },
+    {
+      "label": "Pedonabilità della Città Vecchia",
+      "value": "Completamente pedonale, numerose scale ripide"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Città Vecchia (Grad)",
+      "bestFor": "Primi visitatori e visite turistiche",
+      "parking": "Non sono ammesse auto; il parcheggio esterno è molto costoso",
+      "beach": "10 minuti a piedi dalla spiaggia di Banje (ciottoli)",
+      "summary": "Alloggiare all'interno delle mura ti pone a pochi passi dalle principali attrazioni e ristoranti. Tuttavia, devi trasportare i bagagli sui ciottoli e affrontare molte scale."
+    },
+    {
+      "name": "Lapad",
+      "bestFor": "Famiglie e soggiorni in resort",
+      "parking": "Più facile che in centro, molti hotel offrono parcheggi",
+      "beach": "Uvala Lapad (ciottoli/sabbia) e insenature rocciose",
+      "summary": "Una grande penisola a nord-ovest del centro con un'atmosfera rilassata da città di villeggiatura. Si collega alla Città Vecchia tramite un viaggio in autobus di 15 minuti."
+    },
+    {
+      "name": "Ploče",
+      "bestFor": "Viaggiatori di lusso che desiderano vista mare e sulla Città Vecchia",
+      "parking": "Parcheggio in strada molto limitato; posto privato essenziale",
+      "beach": "A pochi passi dalla spiaggia di Banje e Sveti Jakov (ciottoli)",
+      "summary": "Questo quartiere collinare di lusso si affaccia sul lato orientale delle mura cittadine. Le viste sono eccellenti, ma raggiungere la zona comporta salire ripide scalinate."
+    },
+    {
+      "name": "Gruž",
+      "bestFor": "Viaggiatori con budget limitato e coloro che usano i traghetti",
+      "parking": "Parcheggi pubblici disponibili e più economici rispetto alle opzioni centrali",
+      "beach": "15-20 minuti a piedi dalla spiaggia di Bellevue (ciottoli)",
+      "summary": "Il porto principale e il centro commerciale della città offrono un'atmosfera più locale e prezzi più bassi. È la base migliore se prevedi di prendere i traghetti mattutini per le isole."
+    },
+    {
+      "name": "Babin Kuk",
+      "bestFor": "Viaggiatori in cerca di complessi turistici tranquilli",
+      "parking": "Abbondante nei grandi complessi alberghieri",
+      "beach": "Spiagge di Copacabana e Cava (ciottoli)",
+      "summary": "Situata all'estremità settentrionale della penisola di Lapad, questa zona è dominata da grandi resort e spazi verdi. Offre una fuga tranquilla dal centro città."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monaco",
+      "car": "940 km, 10-11 ore via A8, A10 austriaca, A2 slovena e A1 croata. Richiede vignette AT/SI e pedaggi HR.",
+      "other": "Voli diretti disponibili da MUC a DBV"
+    },
+    {
+      "from": "Vienna",
+      "car": "800 km, 8.5-10 ore via A2 per Graz, A1/A4 slovena e A1 croata. Richiede vignette AT/SI e pedaggi HR.",
+      "other": "Voli diretti disponibili da VIE a DBV"
+    },
+    {
+      "from": "Budapest",
+      "car": "740 km, 8-9 ore via M7 fino al confine, poi A4 e A1 croate verso sud. Richiede vignetta HU e pedaggi HR.",
+      "other": "Voli diretti (Ryanair) o FlixBus"
+    },
+    {
+      "from": "Lubiana",
+      "car": "620 km, 6.5-7.5 ore via A2 fino al confine, poi A1 croata verso sud. Richiede vignetta SI e pedaggi HR.",
+      "other": "FlixBus o in auto (nessun volo diretto)"
+    },
+    {
+      "from": "Praga",
+      "car": "1100 km, 11-13 ore via D1 per Brno, Austria, Slovenia e A1 croata. Richiede vignette CZ/AT/SI e pedaggi HR.",
+      "other": "Voli diretti disponibili da PRG a DBV"
+    },
+    {
+      "from": "Cracovia",
+      "car": "1100 km, 11.5-13 ore via Slovacchia, Ungheria (M3/M7) e A4/A1 croata. Richiede vignette SK/HU e pedaggi HR.",
+      "other": "Voli diretti (Ryanair) o autobus a lunga percorrenza"
+    }
+  ],
+  "whenToGo": "Luglio e agosto sono i mesi più affollati e costosi, portando caldo intenso e temperature del mare massime intorno ai 26°C (79°F). Maggio, giugno, settembre e ottobre offrono un equilibrio più confortevole, con clima mite, temperature del mare adatte per nuotare (specialmente all'inizio dell'autunno) e traghetti e ristoranti pienamente operativi. Da novembre ad aprile, Dubrovnik è tranquilla e molto più economica, ma il mare è troppo freddo per nuotare, molte attività costiere chiudono per l'inverno e gli orari dei traghetti sono drasticamente ridotti.",
+  "faq": [
+    {
+      "question": "Vale la pena visitarla?",
+      "answer": "Sì, le sue mura medievali intatte e l'architettura storica la rendono unica in Europa. Tuttavia, richiede un budget più elevato e una tolleranza per la folla durante l'estate."
+    },
+    {
+      "question": "Quanti giorni sono necessari?",
+      "answer": "Due o tre giorni sono sufficienti per passeggiare sulle mura, esplorare il centro storico e visitare un'isola vicina. Un soggiorno più lungo permette escursioni giornaliere in Montenegro o a Mostar."
+    },
+    {
+      "question": "Qual è la migliore spiaggia?",
+      "answer": "Sveti Jakov è l'opzione migliore per evitare le folle più numerose mantenendo una vista sulla Città Vecchia. Richiede di scendere una lunga serie di scale a sud-est del centro."
+    },
+    {
+      "question": "Ho bisogno di un'auto?",
+      "answer": "No, un'auto è un inconveniente a Dubrovnik a causa delle severe limitazioni di parcheggio e delle zone pedonali. Se guidi fino a Dubrovnik, probabilmente lascerai il tuo veicolo parcheggiato per tutta la durata del tuo soggiorno."
+    },
+    {
+      "question": "Dove dovrei parcheggiare?",
+      "answer": "Parcheggia presso il tuo alloggio se forniscono uno spazio dedicato. Altrimenti, usa il parcheggio del porto di Gruž o il garage pubblico Ilijina Glavica, sebbene quest'ultimo possa costare fino a €70 al giorno in estate."
+    },
+    {
+      "question": "È adatta alle famiglie?",
+      "answer": "Sì, i bambini più grandi si divertiranno a esplorare le fortezze e a fare gite in barca. Tuttavia, le infinite scale della Città Vecchia la rendono altamente impraticabile per i viaggiatori con passeggini."
+    }
+  ],
+  "headings": {
+    "quickFacts": "A colpo d'occhio",
+    "whereToStay": "Dove alloggiare a Dubrovnik",
+    "gettingThere": "Come arrivare a Dubrovnik",
+    "whenToGo": "Quando andare",
+    "guides": "Guide di Dubrovnik",
+    "faq": "FAQ su Dubrovnik",
+    "groups": {
+      "gettingAround": "Parcheggio e spostamenti",
+      "planning": "Pianificazione e dove alloggiare",
+      "timing": "Quando andare",
+      "travelers": "Famiglie, coppie e stili di viaggio",
+      "activities": "Spiagge e cose da fare",
+      "food": "Cibo e bevande",
+      "comparisons": "Confronti",
+      "practical": "Informazioni pratiche"
+    },
+    "car": "In auto",
+    "other": "Altre opzioni",
+    "bestFor": "Ideale per",
+    "parking": "Parcheggio",
+    "beach": "Spiaggia"
+  },
+  "destination": "dubrovnik",
+  "language": "it",
+  "updatedAt": "2026-10-16T10:09:20.673Z"
+}

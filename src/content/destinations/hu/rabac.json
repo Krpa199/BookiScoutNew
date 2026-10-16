@@ -1,0 +1,146 @@
+{
+  "title": "Rabac Úti kalauz: Strandok, Parkolás és Hol szálljon meg",
+  "metaDescription": "Tervezze meg utazását Rabacba, Horvátországba. Találjon naprakész információkat a legjobb kavicsos strandokról, parkolási zónákról, útvonalakról és a legnépszerűbb szálláshelyekről.",
+  "intro": "Rabac egy tengerparti üdülőváros az Isztriai-félsziget keleti partján, közvetlenül a történelmi dombtetőn fekvő Labin városa alatt. Eredetileg egy kis halászfalu volt, mára jelentős üdülőhellyé fejlődött, amely nagy fehér kavicsos strandjairól és tiszta vizéről ismert. A város egy meredek domboldalra épült, amely lejt a tengerhez, és egy hosszú sétálóutcával kapcsolódik, melyet éttermek, kávézók és szállodák szegélyeznek.\n\nEz a desztináció elsősorban családoknak és pároknak alkalmas, akik egy dedikált tengerparti nyaralásra vágynak, modern üdülőhelyi kényelmi szolgáltatásokkal. A dombos terep miatt a látogatóknak gyakran lépcsőzniük kell, hogy elérjék a víztől távolabb fekvő szállásokat. A fő turistaszezon júniustól szeptemberig tart, júliusban és augusztusban a legmelegebb a tengervíz és a legnagyobb a tömeg.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Júniustól szeptemberig"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "24°C - 26°C"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Pulai Repülőtér (PUY), 43 km"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Fehér kavicsok és beton teraszok"
+    },
+    {
+      "label": "Árszint",
+      "value": "Átlagos Isztria viszonylatában"
+    },
+    {
+      "label": "Járhatóság",
+      "value": "Autómentes sétány; meredek dombok a szárazföld belsejében"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Rabaci kikötő és központ",
+      "bestFor": "Étkezés, hajókirándulások és a pezsgés központjában lenni",
+      "parking": "Fizetős nyilvános parkoló az Obala Maršala Tita (1/2. zóna) mentén",
+      "beach": "5-10 perc sétára a városi strandoktól",
+      "summary": "A központi sétány Rabac legforgalmasabb része, tele éttermekkel, kávézókkal és szuvenírboltokkal. Ideális azok számára, akik azonnali hozzáférést szeretnének az étkezési és hajókirándulási lehetőségekhez, bár a nyári estéken zajos lehet."
+    },
+    {
+      "name": "Girandella (Kelet-Rabac)",
+      "bestFor": "Családok, üdülőhelyi kényelmi szolgáltatások és strandkedvelők",
+      "parking": "Nagy fizetős parkolók a strandok közelében; dedikált szállodai parkoló",
+      "beach": "Közvetlen hozzáférés a Girandella strandhoz (Kék zászlós kavicsos strand)",
+      "summary": "A város keleti szélén található területet nagy üdülőkomplexumok és családi szállodák uralják. Közvetlen hozzáférést biztosít a legjobb kavicsos strandokhoz és számos vízi sporthoz, így rendkívül kényelmes választás egy klasszikus tengerparti nyaraláshoz."
+    },
+    {
+      "name": "Maslinica-öböl (Nyugat-Rabac)",
+      "bestFor": "Kempingezés, kisgyermekes családok és sekély vizek",
+      "parking": "Helyszíni parkoló a kempingekben és szállodákban",
+      "beach": "Közvetlen hozzáférés a Maslinica strandhoz (nagy kavicsos strand, sekély bejárat)",
+      "summary": "Maslinica Rabac nyugati részét foglalja el, és nagy kempingeknek, valamint családbarát szállodáknak ad otthont. A nagy öbölben hosszú, sekély bejáratú kavicsos strand található, amelyet sűrű fenyőerdő vesz körül, természetes árnyékot biztosítva."
+    },
+    {
+      "name": "Labin (Történelmi város)",
+      "bestFor": "Történelem, művészeti galériák és a tengerparti tömeg elkerülése",
+      "parking": "Nyilvános parkoló elérhető az óváros falain kívül",
+      "beach": "5 km-es autóút lefelé a rabaci strandokhoz",
+      "summary": "Rabac felett 5 kilométerre egy dombon fekszik Labin, amely egy megőrzött középkori óvárossal, macskaköves utcákkal, galériákkal és kávézókkal büszkélkedhet. Érezhetően csendesebb és olcsóbb, mint a tengerpart, de autóval vagy busszal kell utazni a tengerhez."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "510 km, 6-7 óra az A8-on, Tauern Autobahn (A10) és Szlovénia felé. Szükséges az AT matrica, Tauern/Karawanken útdíj, SI matrica, HR útdíj.",
+      "other": "Közvetlen busz (Flixbus) Pulába vagy Rijekába, vagy szezonális repülőjárat a Pulai Repülőtérre"
+    },
+    {
+      "from": "Bécs",
+      "car": "500 km, 5,5-6 óra az A2-n keresztül Grazba, Mariborba, Ljubljanába és Rijekába. Szükséges az AT matrica, SI matrica, HR útdíj.",
+      "other": "Közvetlen vonat (ÖBB) vagy busz Rijekába, majd helyi busz Rabacba"
+    },
+    {
+      "from": "Budapest",
+      "car": "510 km, 5,5-6 óra az M7-en keresztül Zágrábba, majd az A6-on Rijekába. Szükséges a HU e-matrica, HR útdíj.",
+      "other": "Közvetlen busz (Flixbus) Rijekába, majd helyi Arriva busz Rabacba"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "130 km, 2 óra az A1-en keresztül Postojnaba, Ilirska Bistricába és Rijekába. Szükséges a SI matrica.",
+      "other": "Közvetlen buszjáratok Rijekába vagy Labinba"
+    },
+    {
+      "from": "Prága",
+      "car": "830 km, 9-10 óra Linz, Graz, Maribor és Ljubljana felé. Szükséges a CZ, AT, SI matricák, HR útdíj.",
+      "other": "RegioJet vonat vagy busz Rijekába, majd helyi busz"
+    },
+    {
+      "from": "Krakkó",
+      "car": "960 km, 10-11 óra Ostrava, Brno, Bécs, Graz és Maribor felé. Szükséges a PL útdíj, CZ, AT, SI matricák, HR útdíj.",
+      "other": "Szezonális repülőjáratok a Pulai Repülőtérre vagy busz Bécsen keresztül"
+    }
+  ],
+  "whenToGo": "Júniustól szeptemberig a fő hónapok Rabac látogatására, mivel az üdülőhely a főszezonon kívül jelentősen bezár. Júliusban és augusztusban a tenger hőmérséklete eléri a 24°C-26°C-ot, ami ideálissá teszi az úszáshoz, bár ezek a hónapok a legmagasabb árakat és a zsúfolt strandokat hozzák magukkal. Június és szeptember csendesebb élményt kínál alacsonyabb szállásárakkal, bár a víz hűvösebb lehet, különösen június elején. A legtöbb szálloda, strandbár és turisztikai létesítmény május végétől október elejéig teljes mértékben működik, míg a téli hónapokban a város többnyire zárva tart, a helyiek a közeli Labinra támaszkodnak a szolgáltatásokért.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni Rabacot?",
+      "answer": "Igen, ha egy dedikált tengerparti nyaralásra vágyik tiszta vízzel és nagy kavicsos strandokkal. Hiányzik belőle egy történelmi óváros a vízparton, de a középkori Labin városa csak egy rövid autóútra van fel a dombon."
+    },
+    {
+      "question": "Hány napra van szükségem Rabacban?",
+      "answer": "4-7 nap jellemző egy nyári tengerparti nyaraláshoz itt. Ez elegendő időt biztosít a tengerparti pihenésre, egy hajókirándulásra Cresre vagy egy napos kirándulásra a közeli Pulába."
+    },
+    {
+      "question": "Melyik a legjobb strand Rabacban?",
+      "answer": "A Girandella strand és a Maslinica strand a legnépszerűbb választások, mindkettő Kék zászlós minősítésű, fehér kavicsos és teljes üdülőhelyi kényelmi szolgáltatásokkal rendelkezik. Kisebb öblök, mint például a Sv. Andrea, csendesebb helyeket kínálnak, ha tovább sétál a promenádon."
+    },
+    {
+      "question": "Szükségem van autóra Rabacban?",
+      "answer": "Nincs szüksége autóra, ha az üdülőhelyén és a tengerparti sétány mentén tervezi maradni, mivel minden gyalogosan elérhető. Azonban erősen ajánlott az autó, ha felfedezné Isztria többi részét, vagy könnyedén meglátogatná Labint."
+    },
+    {
+      "question": "Hol parkolhatok Rabacban?",
+      "answer": "Nagy nyilvános fizetős parkolók találhatók a kikötő közelében (Obala Maršala Tita) és a Girandella üdülőhely közelében, amelyek a nyári időszakban zónás díjszabási rendszerrel működnek. A legtöbb szálloda és kemping saját parkolót biztosít vendégeinek."
+    },
+    {
+      "question": "Jó Rabac családoknak?",
+      "answer": "Rabac kivételesen jól alkalmas gyermekes családok számára. A tenger sekély, a strandok tiszták, kavicsosak, nem sziklásak, és a hosszú tengerparti sétány teljesen autómentes."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Röviden",
+    "whereToStay": "Hol szálljon meg Rabacban",
+    "gettingThere": "Utazás Rabacba",
+    "whenToGo": "Mikor utazzon",
+    "guides": "Rabaci útikalauzok",
+    "faq": "Rabac GYIK",
+    "groups": {
+      "gettingAround": "Közlekedés és helyi járás",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor utazzon",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Étel és ital",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Mire a legjobb",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "rabac",
+  "language": "hu",
+  "updatedAt": "2026-10-16T12:08:46.810Z"
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Zara Guida di Viaggio: Spiagge, Parcheggio e Dove Soggiornare",
+  "metaDescription": "Pianifica il tuo viaggio a Zara con dettagli pratici su percorsi in auto, parcheggio, quartieri e le migliori spiagge di ciottoli. Una guida informativa alla città.",
+  "intro": "Zara funge da pratico punto di accesso alla Dalmazia settentrionale, offrendo un compatto centro romano e medievale accanto a spiagge di ciottoli accessibili. È adatta a famiglie, coppie e viaggiatori on the road in cerca di una base meno affollata e meno costosa di Split o Dubrovnik, pur fornendo accesso diretto alle Isole Kornati e ai Laghi di Plitvice.\n\nLa città principale è divisa tra la storica penisola pedonale e i quartieri residenziali costieri che si estendono a nord e a sud. L'alta stagione va da fine giugno ad agosto, quando il mare è più caldo e le linee dei traghetti operano a pieno regime. Chi privilegia le visite turistiche e costi di alloggio inferiori dovrebbe puntare a maggio, settembre o ottobre, quando il tempo rimane mite e le strade locali sono più tranquille.",
+  "quickFacts": [
+    {
+      "label": "Migliori mesi",
+      "value": "Da giugno a settembre"
+    },
+    {
+      "label": "Temperatura del mare ad agosto",
+      "value": "25°C - 26°C"
+    },
+    {
+      "label": "Aeroporto più vicino",
+      "value": "Aeroporto di Zara (ZAD), 12 km dal centro"
+    },
+    {
+      "label": "Tipo di spiaggia principale",
+      "value": "Ciottoli e terrazze in cemento"
+    },
+    {
+      "label": "Livello di prezzo",
+      "value": "Moderato (più economico di Split o Dubrovnik)"
+    },
+    {
+      "label": "Città vecchia",
+      "value": "Penisola pedonale (zona a traffico limitato)"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Città Vecchia (Poluotok)",
+      "bestFor": "Visite turistiche, ristorazione e brevi soggiorni.",
+      "parking": "Parcheggio pubblico a pagamento fuori dalle mura; molto limitato.",
+      "beach": "15-20 minuti a piedi dalla spiaggia di Kolovare.",
+      "summary": "Il cuore storico di Zara occupa una piccola penisola ricca di rovine romane, chiese e ristoranti. È interamente pedonale, rendendola difficile per gli automobilisti ma molto pratica per camminare."
+    },
+    {
+      "name": "Borik e Puntamika",
+      "bestFor": "Famiglie e vacanze al mare in stile resort.",
+      "parking": "La maggior parte degli hotel e degli appartamenti offre parcheggio privato.",
+      "beach": "Accesso diretto alla spiaggia di Borik (mix di ciottoli e sabbia).",
+      "summary": "Situata 4 km a nord del centro, quest'area ospita i principali resort e campeggi di Zara. Offre spiagge poco profonde e ombra di pini, sebbene raggiungere la Città Vecchia richieda un autobus o un'auto."
+    },
+    {
+      "name": "Diklo",
+      "bestFor": "Soggiorni più tranquilli in appartamenti con angolo cottura.",
+      "parking": "Il parcheggio gratuito in strada è comune; verificare con l'alloggio.",
+      "beach": "Accesso immediato a spiagge di ciottoli e cemento.",
+      "summary": "Un sobborgo residenziale che si estende a nord di Borik, caratterizzato da appartamenti fronte mare e piccoli caffè locali. La costa è per lo più terrazze in cemento e aree rocciose favorite dalla gente del posto."
+    },
+    {
+      "name": "Kolovare e Arbanasi",
+      "bestFor": "Accesso a piedi sia alla spiaggia che alla Città Vecchia.",
+      "parking": "Parcheggio in strada disponibile, molto congestionato in estate.",
+      "beach": "Accesso immediato alla spiaggia di Kolovare (ciottoli).",
+      "summary": "Situato appena a sud della Città Vecchia, questo quartiere si concentra attorno alla principale spiaggia pubblica della città. Offre un pratico compromesso tra tempo in spiaggia e passeggiate serali verso il centro."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monaco di Baviera",
+      "car": "730 km, 8-9 ore via A8, A10 (Tauern) e Croazia A1. I pedaggi includono vignetta AT, tunnel Tauern/Karawanken, vignetta SLO e pedaggi autostradali HR.",
+      "other": "Voli diretti con Croatia Airlines o Lufthansa."
+    },
+    {
+      "from": "Vienna",
+      "car": "600 km, 6-7 ore via Graz, Maribor e Zagabria (A1). Richiede vignetta AT e SLO, più pedaggi autostradali HR.",
+      "other": "Voli diretti via Austrian Airlines o Ryanair."
+    },
+    {
+      "from": "Budapest",
+      "car": "630 km, 6-7 ore via M7 fino al confine di Letenye, poi HR A4 e A1. Richiede vignetta HU e pedaggi autostradali HR.",
+      "other": "Voli diretti low-cost (Ryanair) o autobus a lunga percorrenza (Flixbus)."
+    },
+    {
+      "from": "Lubiana",
+      "car": "330 km, 3.5-4 ore via A2 a Novo Mesto, poi HR A1. Richiede vignetta SLO e pedaggi autostradali HR.",
+      "other": "Servizi di autobus diretti (circa 5-6 ore)."
+    },
+    {
+      "from": "Praga",
+      "car": "900 km, 10-11 ore via Brno, Vienna e Zagabria. Richiede vignetta CZ, AT e SLO, più pedaggi autostradali HR.",
+      "other": "Voli stagionali diretti (Ryanair) o treni RegioJet per le città costiere."
+    },
+    {
+      "from": "Cracovia",
+      "car": "1000 km, 10-11 ore via Slovacchia (D1) e Ungheria (M1/M7). Richiede vignetta SK e HU, più pedaggi autostradali HR.",
+      "other": "Voli stagionali diretti (Ryanair) o autobus a lunga percorrenza."
+    }
+  ],
+  "whenToGo": "Da fine giugno ad agosto è l'alta stagione, caratterizzata da temperature dell'aria che spesso superano i 30°C, temperature del mare che raggiungono i 26°C e i prezzi più alti per gli alloggi. Luglio e agosto portano folle dense nella Città Vecchia e sulle spiagge, mentre tutti i ristoranti, le rotte dei traghetti e gli operatori turistici funzionano a pieno regime. Settembre offre un equilibrio ottimale: il mare rimane abbastanza caldo per nuotare, ma le folle estive si diradano e le tariffe degli hotel diminuiscono del 20-30%. Da novembre a Pasqua, Zara entra in bassa stagione; molti resort costieri, ristoranti stagionali e collegamenti in traghetto per le isole riducono i loro servizi o chiudono del tutto, anche se il centro città rimane funzionale per i residenti.",
+  "faq": [
+    {
+      "question": "Vale la pena visitare Zara?",
+      "answer": "Sì, Zara merita una visita per il suo mix di storia romana, chiese medievali e opere d'arte pubbliche uniche come l'Organo Marino. Serve come alternativa pratica e meno affollata a Split e un'ottima base per visitare diversi parchi nazionali."
+    },
+    {
+      "question": "Quanti giorni servono a Zara?",
+      "answer": "Due giorni interi sono sufficienti per esplorare la Città Vecchia e godere delle spiagge locali. Se prevedi di fare escursioni giornaliere alle Isole Kornati o ai Laghi di Plitvice, prevedi quattro o cinque giorni."
+    },
+    {
+      "question": "Qual è la migliore spiaggia di Zara?",
+      "answer": "La spiaggia di Borik è molto apprezzata dalle famiglie grazie alle sue acque poco profonde e al mix di sabbia e ciottoli. La spiaggia di Kolovare è l'opzione più comoda se soggiorni vicino al centro città, offrendo lunghi tratti di ciottoli e ombra naturale."
+    },
+    {
+      "question": "Serve l'auto a Zara?",
+      "answer": "Non serve l'auto se prevedi di soggiornare nella Città Vecchia o di fare tour in barca organizzati. Tuttavia, un'auto è fortemente raccomandata se desideri esplorare la più ampia regione di Zara, visitare parchi nazionali o soggiornare nei sobborghi esterni come Diklo."
+    },
+    {
+      "question": "Dove si parcheggia meglio a Zara?",
+      "answer": "La Città Vecchia è una zona pedonale, quindi i visitatori devono parcheggiare fuori dalle mura della città. Le opzioni più pratiche sono i parcheggi pubblici lungo le mura orientali (Obala kralja Tomislava) o il parcheggio Ravnice nelle vicinanze, che applicano tariffe orarie o giornaliere."
+    },
+    {
+      "question": "Zara è adatta alle famiglie?",
+      "answer": "Sì, Zara è molto adatta alle famiglie grazie al suo centro pianeggiante e percorribile a piedi e all'atmosfera più tranquilla rispetto alle più grandi città dalmate. Aree come Borik offrono resort dedicati alle famiglie, acque poco profonde e ombra di pini."
+    }
+  ],
+  "headings": {
+    "quickFacts": "In breve",
+    "whereToStay": "Dove soggiornare a Zara",
+    "gettingThere": "Come arrivare a Zara",
+    "whenToGo": "Quando andare",
+    "guides": "Guide di Zara",
+    "faq": "FAQ su Zara",
+    "groups": {
+      "gettingAround": "Parcheggio e come muoversi",
+      "planning": "Pianificazione e dove soggiornare",
+      "timing": "Quando andare",
+      "travelers": "Famiglie, coppie e stili di viaggio",
+      "activities": "Spiagge e cose da fare",
+      "food": "Cibo e bevande",
+      "comparisons": "Confronti",
+      "practical": "Informazioni pratiche"
+    },
+    "car": "In auto",
+    "other": "Altre opzioni",
+    "bestFor": "Ideale per",
+    "parking": "Parcheggio",
+    "beach": "Spiaggia"
+  },
+  "destination": "zadar",
+  "language": "it",
+  "updatedAt": "2026-10-16T09:20:11.774Z"
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Biograd na Moru: Plaże i noclegi – Przewodnik turystyczny",
+  "metaDescription": "Zaplanuj swoją podróż do Biogradu na Moru, korzystając z praktycznych porad dotyczących tras samochodowych, dzielnic, parkingów i plaż. Idealne dla rodzin i podróżników samochodem.",
+  "intro": "Biograd na Moru to nadmorskie miasteczko w północnej Dalmacji, położone na niewielkim półwyspie, w połowie drogi między Zadarem a Szybenikiem. Służy jako praktyczna baza dla rodzin i żeglarzy dzięki dużym marinom, dostępnym żwirowym plażom osłoniętym lasami sosnowymi oraz bliskości Wysp Kornati i Jeziora Vrana.\n\nMiasteczko jest bardzo sezonowe, działając z pełną wydajnością od czerwca do września. Jest odpowiednie dla podróżnych szukających tradycyjnych chorwackich wakacji na plaży z prostą logistyką, a nie dla tych, którzy pragną luksusu czy intensywnego życia nocnego. Jego płaski teren i zacienione promenady sprawiają, że jest szczególnie dogodne dla osób z małymi dziećmi lub ograniczoną mobilnością.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "Czerwiec i wrzesień – dla ciepłego morza i mniejszych tłumów"
+    },
+    {
+      "label": "Temperatura morza w sierpniu",
+      "value": "25°C do 27°C"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Lotnisko Zadar (ZAD), 28 km na północ"
+    },
+    {
+      "label": "Główny typ plaży",
+      "value": "Żwirowa i kamienista, z naturalnym cieniem sosen"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "Średnie jak na Chorwację; taniej niż w Splicie czy Dubrowniku"
+    },
+    {
+      "label": "Przystosowanie starego miasta do spacerów",
+      "value": "Kompaktowe i w pełni dostępne pieszo, w większości bez samochodów"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centrum i Stare Miasto (Poluotok)",
+      "bestFor": "Wyjścia do restauracji, rejsy łodzią i dostęp do portu",
+      "parking": "Płatne parkingi uliczne i duże parkingi miejskie; często pełne w lipcu/sierpniu",
+      "beach": "10-15 minut spacerem do Dražicy lub Bošany",
+      "summary": "Historyczny półwysep mieści główne restauracje, kawiarnie i port promowy. Wieczorami jest tętniący życiem, ale brakuje mu bezpośredniego dostępu do plaży."
+    },
+    {
+      "name": "Dražica i Soline (Południe)",
+      "bestFor": "Rodziny i miłośnicy plażowania",
+      "parking": "Niezbędny prywatny parking hotelowy/apartamentowy; publiczne miejsca są rzadkością",
+      "beach": "Bezpośredni dostęp do plaży Dražica (żwirowa) i Soline (mieszanka piasku/żwiru)",
+      "summary": "Ten południowy odcinek charakteryzują duże hotele, kempingi i zacieniona promenada. Oferuje najlepsze udogodnienia plażowe i bezpośredni dostęp do wody."
+    },
+    {
+      "name": "Bošana (Północ)",
+      "bestFor": "Podróżujący z ograniczonym budżetem i szukający spokojniejszego pobytu",
+      "parking": "Łatwiejsze parkowanie uliczne niż w centrum; większość apartamentów ma podjazdy",
+      "beach": "Bezpośredni dostęp do plaży Bošana (żwirowa, mniej cienia)",
+      "summary": "Dzielnica mieszkalna na północ od mariny, oferująca głównie prywatne apartamenty do wynajęcia. Lokalna plaża nie ma sosnowego cienia jak na południu, ale jest zazwyczaj mniej zatłoczona."
+    },
+    {
+      "name": "Kumenat",
+      "bestFor": "Pary i osoby szukające izolacji",
+      "parking": "Głównie prywatne parkingi zapewniane przez zakwaterowanie",
+      "beach": "Bezpośredni dostęp do plaży Kumenat (mała żwirowa zatoczka)",
+      "summary": "Położone dwa kilometry na południe od centrum, to małe osiedle mieszkalne jest oddalone od zgiełku miasta. Oferuje spokojniejsze, bardziej odizolowane doświadczenie nadmorskie."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monachium",
+      "car": "760 km, 8-9 godzin przez A10 (Austria) i A1 (Chorwacja). Wymaga austriackiej winiety, opłaty za tunel Tauern, słoweńskiej winiety i chorwackich opłat drogowych.",
+      "other": "Bezpośrednie loty sezonowe do Zadaru (ZAD), następnie 30 minut autobusem lub taksówką."
+    },
+    {
+      "from": "Wiedeń",
+      "car": "620 km, 6.5-7.5 godziny przez A2/A9 (Austria) i A1/A4 (Słowenia). Wymaga austriackiej i słoweńskiej winiety oraz chorwackich opłat drogowych.",
+      "other": "Bezpośrednie loty sezonowe do Zadaru (ZAD) lub bezpośredni FlixBus do Biogradu."
+    },
+    {
+      "from": "Budapeszt",
+      "car": "650 km, 6.5-7 godziny przez M7 (Węgry) i A4/A1 (Chorwacja). Wymaga węgierskiej e-winiety i chorwackich opłat drogowych.",
+      "other": "Sezonowe loty bezpośrednie do Zadaru (ZAD) lub pociąg do Zagrzebia z przesiadką na autobus."
+    },
+    {
+      "from": "Lublana",
+      "car": "340 km, 4 godziny przez A2 (Słowenia) i A1 (Chorwacja). Wymaga słoweńskiej winiety i chorwackich opłat drogowych.",
+      "other": "Bezpośrednie połączenia autobusowe kursują latem, podróż trwa około 5-6 godzin."
+    },
+    {
+      "from": "Praga",
+      "car": "950 km, 10-11 godzin przez Wiedeń i Maribor. Wymaga czeskiej, austriackiej i słoweńskiej winiety oraz chorwackich opłat drogowych.",
+      "other": "Bezpośrednie loty sezonowe do Zadaru (ZAD) liniami niskokosztowymi."
+    },
+    {
+      "from": "Kraków",
+      "car": "1050 km, 11-12 godzin przez Słowację i Węgry. Wymaga słowackiej i węgierskiej winiety oraz chorwackich opłat drogowych.",
+      "other": "Bezpośrednie loty do Zadaru (ZAD) liniami Ryanair, następnie transport lokalny."
+    }
+  ],
+  "whenToGo": "Lipiec i sierpień to szczytowe miesiące letnie, z temperaturami morza około 25°C do 27°C, wszystkimi otwartymi obiektami turystycznymi, ale także wysokimi cenami i zatłoczonymi plażami. Czerwiec i wrzesień oferują lepszą równowagę, z temperaturami morza utrzymującymi się na poziomie 22°C do 24°C, niższymi cenami zakwaterowania i umiarkowanym poziomem tłumów, choć możliwe są sporadyczne opady deszczu. Od października do maja Biograd na Moru jest w dużej mierze uśpiony; większość hoteli, sezonowych restauracji i obiektów plażowych jest zamknięta, co czyni go odpowiednim tylko dla podróżujących przejazdem lub tych, którzy szukają całkowitej samotności.",
+  "faq": [
+    {
+      "question": "Czy warto odwiedzić Biograd na Moru?",
+      "answer": "Tak, jeśli szukasz prostego rodzinnego wypoczynku na plaży lub bazy wypadowej do żeglowania. Brakuje mu rozbudowanej architektury historycznej Zadaru czy Szybenika, ale nadrabia to dostępnymi, zacienionymi sosnami plażami."
+    },
+    {
+      "question": "Ile dni?",
+      "answer": "Trzy do pięciu dni to optymalny czas na wypoczynek na plaży i zwiedzanie najbliższej okolicy. Cały tydzień pozwala na rejsy łodzią na Wyspy Kornati lub przejazd do Parku Narodowego Krka."
+    },
+    {
+      "question": "Najlepsza plaża?",
+      "answer": "Plaża Dražica jest najpopularniejsza ze względu na status Błękitnej Flagi, łagodne wejście żwirowe i gęsty sosnowy cień. Plaża Soline, położona nieco dalej na południe, oferuje fragmenty piasku, które są popularne wśród małych dzieci."
+    },
+    {
+      "question": "Czy potrzebuję samochodu?",
+      "answer": "Nie potrzebujesz samochodu, jeśli zatrzymujesz się w Biogradzie i planujesz tylko spacerować po lokalnych plażach. Jednak pojazd jest wysoce zalecany do jednodniowych wycieczek do pobliskich parków narodowych, Zadaru lub Jeziora Vrana."
+    },
+    {
+      "question": "Gdzie zaparkować?",
+      "answer": "Parking w centrum jest podzielony na strefy płatne i jest ściśle egzekwowany latem. Zdecydowanie zaleca się rezerwowanie zakwaterowania, które obejmuje gwarantowany prywatny parking, aby uniknąć dziennych opłat i trudności ze znalezieniem miejsca."
+    },
+    {
+      "question": "Czy Biograd jest dobry dla rodzin?",
+      "answer": "Tak, to jedno z najbardziej przyjaznych rodzinom miast w północnej Dalmacji. Płaski teren, rozbudowane promenady dla pieszych, zacienione plaże i pobliski park rozrywki Dalmaland są bezpośrednio dostosowane do potrzeb dzieci."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Gdzie zatrzymać się w Biogradzie na Moru",
+    "gettingThere": "Dojazd do Biogradu na Moru",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Biogradzie na Moru",
+    "faq": "Biograd na Moru: Najczęściej zadawane pytania",
+    "groups": {
+      "gettingAround": "Parking i poruszanie się",
+      "planning": "Planowanie i gdzie się zatrzymać",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróżowania",
+      "activities": "Plaże i atrakcje",
+      "food": "Jedzenie i napoje",
+      "comparisons": "Porównania",
+      "practical": "Informacje praktyczne"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "biograd",
+  "language": "pl",
+  "updatedAt": "2026-10-16T09:53:47.904Z"
+}

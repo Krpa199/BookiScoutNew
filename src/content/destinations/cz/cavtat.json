@@ -1,0 +1,146 @@
+{
+  "title": "Cavtat Průvodce: Pláže, Parkování a Kde se ubytovat",
+  "metaDescription": "Naplánujte si cestu do Cavtatu v Chorvatsku. Zjistěte, kde se ubytovat, jak se tam dostat autem ze střední Evropy, informace o parkování a nejlepší místní pláže.",
+  "intro": "Cavtat je pobřežní město v jižní Dalmácii, ležící 20 kilometrů jižně od Dubrovníku. Slouží návštěvníkům, kteří hledají tišší a uvolněnější pobřežní zážitek, a zároveň si udržuje snadný přístup do historického centra Dubrovníku prostřednictvím pravidelných osobních lodí a regionálních autobusů. Město se soustředí kolem zalesněného poloostrova s rovnou, pěší promenádou lemovanou restauracemi, kavárnami a borovicemi.\n\nTato destinace je vhodná pro rodiny, starší cestovatele a páry, kteří preferují pohodové dny na pláži před aktivním nočním životem. Léto je nejoblíbenější dobou pro návštěvu, ačkoli květen a září nabízejí příjemné počasí ke koupání a nižší ceny ubytování. Auto je zbytečné, pokud se zdržujete v hranicích města, ale užitečné pro prozkoumání širšího regionu Konavle nebo sousední Černé Hory.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "Květen až září"
+    },
+    {
+      "label": "Teplota moře v srpnu",
+      "value": "25°C až 27°C"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Letiště Dubrovník (DBV), 6 km daleko"
+    },
+    {
+      "label": "Hlavní typ pláže",
+      "value": "Oblázkové a betonové terasy"
+    },
+    {
+      "label": "Cenová úroveň",
+      "value": "Nadprůměrná, ale o 10-15% levnější než Dubrovník"
+    },
+    {
+      "label": "Procházitelnost",
+      "value": "Staré město je velmi dobře procházitelné a převážně bez aut"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Staré Město (Poloostrov Rat)",
+      "bestFor": "Pro návštěvníky poprvé a páry preferující snadný přístup k restauracím",
+      "parking": "Velmi omezené; veřejné parkoviště u vjezdu do města",
+      "beach": "5-10 minut chůze k skalnatým a betonovým místům ke koupání",
+      "summary": "Historické centrum nabízí tradiční kamenné domy, restaurace a hlavní promenádu. Ubytování zde je často jen pár kroků od vody, ale obecně postrádá soukromé parkování."
+    },
+    {
+      "name": "Zátoka Tiha (Uvala Tiha)",
+      "bestFor": "Pro rodiny a cestovatele hledající okamžitý přístup na pláž",
+      "parking": "Snadnější k nalezení, mnoho apartmánů nabízí soukromá místa",
+      "beach": "Přímo na pláži Žal a okolních oblázkových březích",
+      "summary": "Tato rezidenční oblast ležící severně od poloostrova nabízí moderní apartmány a malé hotely. Hlavní oblázkové pláže se nacházejí podél této zátoky, což ji činí velmi pohodlnou pro koupání."
+    },
+    {
+      "name": "Mećajac",
+      "bestFor": "Pro cestovatele s omezeným rozpočtem, ochotné jít do kopce",
+      "parking": "Obecně dostupné u většiny soukromých ubytování",
+      "beach": "10-15 minut chůze dolů k hlavním zátokám",
+      "summary": "Tato čtvrť se nachází na kopci nad starým městem, nabízí nižší ceny a často vyvýšené výhledy na moře. Návrat z centra nebo z pláže vyžaduje strmou chůzi do kopce."
+    },
+    {
+      "name": "Obod",
+      "bestFor": "Pro cestovatele s auty, kteří preferují klidnější základnu",
+      "parking": "Dostatek a obvykle zahrnuto v ceně ubytování",
+      "beach": "15-20 minut chůze z kopce, nebo krátká jízda autem",
+      "summary": "Malá osada na pobřežní cestě těsně před vjezdem do Cavtatu. Poskytuje klidné prostředí a snadný přístup k hlavní dálnici pro denní výlety, ale k dosažení centra Cavtatu vyžaduje dopravu."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Mnichov",
+      "car": "980 km, 11-12 hodin přes A8, A10, A1. Vyžaduje rakouskou a slovinskou dálniční známku, rakouské tunelové mýtné, chorvatské dálniční mýtné",
+      "other": "Přímé lety na Letiště Dubrovník (1,5 hodiny)"
+    },
+    {
+      "from": "Vídeň",
+      "car": "820 km, 9-10 hodin přes A2, A4, A1. Vyžaduje rakouskou a slovinskou dálniční známku, chorvatské dálniční mýtné. Trasa využívá Pelješacký most",
+      "other": "Přímé lety na Letiště Dubrovník (1,5 hodiny)"
+    },
+    {
+      "from": "Budapešť",
+      "car": "750 km, 8-9 hodin přes M7 a A1. Vyžaduje maďarskou dálniční známku a chorvatské dálniční mýtné. Trasa využívá Pelješacký most",
+      "other": "Sezónní přímé lety (1,5 hodiny) nebo autobusové spoje"
+    },
+    {
+      "from": "Lublaň",
+      "car": "640 km, 7-8 hodin přes A2 a A1. Vyžaduje slovinskou dálniční známku a chorvatské dálniční mýtné. Trasa využívá Pelješacký most",
+      "other": "Sezónní lety do Dubrovníku nebo autobus přes Záhřeb"
+    },
+    {
+      "from": "Praha",
+      "car": "1 150 km, 13-14 hodin přes CZ D1, AT A9, SLO A2, HR A1. Vyžaduje českou, rakouskou a slovinskou dálniční známku, rakouské tunelové mýtné, chorvatské mýtné",
+      "other": "Přímé lety na Letiště Dubrovník (2 hodiny)"
+    },
+    {
+      "from": "Krakov",
+      "car": "1 160 km, 13-14 hodin přes SK D1, HU M1/M7, HR A1. Vyžaduje polské mýtné, slovenskou a maďarskou dálniční známku, chorvatské mýtné",
+      "other": "Přímé lety na Letiště Dubrovník s Ryanair nebo LOT"
+    }
+  ],
+  "whenToGo": "Léto (červenec a srpen) je vrcholná sezóna s teplotami moře dosahujícími 27 °C, kdy všechny restaurace a trajekty fungují na plný výkon a ceny ubytování jsou nejvyšší. Červen a září nabízejí příjemnější rovnováhu, s denními maximy kolem 25-28 °C, méně davy a mořem stále dostatečně teplým ke koupání. Květen a říjen jsou výrazně klidnější a levnější, ale teploty moře se pohybují kolem 19-21 °C a některé sezónní podniky nebo trajektové linky mohou omezit své jízdní řády nebo se zcela uzavřít.",
+  "faq": [
+    {
+      "question": "Stojí Cavtat za návštěvu?",
+      "answer": "Ano, je velmi doporučený pro ty, kteří hledají malebné, klidné pobřežní město spíše než rušnou metropoli. Nabízí krásný přístav, čistou vodu a snadný přístup do Dubrovníku bez velkých turistických zácp."
+    },
+    {
+      "question": "Kolik dní potřebuji v Cavtatu?",
+      "answer": "Tři až pět dní je ideálních pro relaxační pobyt na pláži a jednodenní výlet do Dubrovníku. Pokud plánujete prozkoumat Černou Horu, poloostrov Pelješac a Elafitské ostrovy, celý týden poslouží jako vynikající základna."
+    },
+    {
+      "question": "Jaká je nejlepší pláž v Cavtatu?",
+      "answer": "Pláž Žal je nejoblíbenější možností, nabízí dlouhý úsek oblázků, mělkou vodu a blízké vybavení. Pro drsnější zážitek Sustjepan nabízí betonové terasy a skalnatá místa ke koupání, zatímco slavná pláž Pasjača na útesu je vzdálená 15 minut jízdy autem."
+    },
+    {
+      "question": "Potřebuji v Cavtatu auto?",
+      "answer": "Ne, auto nepotřebujete, pokud plánujete zůstat místně a používat časté autobusy nebo trajekty k návštěvě Dubrovníku. Auto je nutné pouze v případě, že máte v úmyslu prozkoumat širší oblast Konavle, blízké místní vesnice nebo Černou Horu samostatně."
+    },
+    {
+      "question": "Kde mohu parkovat v Cavtatu?",
+      "answer": "Hlavní veřejné parkoviště se nachází u vjezdu do starého města, vedle autobusového nádraží, a účtuje hodinové nebo denní sazby. Vzhledem k tomu, že historický poloostrov je z velké části omezen pro dopravu, ujistěte se, že vaše ubytování zahrnuje soukromé parkování, pokud jedete autem."
+    },
+    {
+      "question": "Je Cavtat vhodný pro rodiny?",
+      "answer": "Ano, je to jedna z nejvíce rodinně-přátelských destinací v regionu. Rovná, pouze pro pěší určená promenáda je bezpečná pro děti a klidné, mělké vody na místních oblázkových plážích jsou vynikající pro malé plavce."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Přehled",
+    "whereToStay": "Kde se ubytovat v Cavtatu",
+    "gettingThere": "Jak se dostat do Cavtatu",
+    "whenToGo": "Kdy jet",
+    "guides": "Průvodce Cavtatem",
+    "faq": "Časté dotazy k Cavtatu",
+    "groups": {
+      "gettingAround": "Parkování a doprava",
+      "planning": "Plánování a kde se ubytovat",
+      "timing": "Kdy jet",
+      "travelers": "Rodiny, páry a styly cestování",
+      "activities": "Pláže a co dělat",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": "Praktické informace"
+    },
+    "car": "Autem",
+    "other": "Další možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "cavtat",
+  "language": "cz",
+  "updatedAt": "2026-10-16T15:01:39.814Z"
+}

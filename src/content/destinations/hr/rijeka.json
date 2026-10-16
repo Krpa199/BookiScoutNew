@@ -1,0 +1,146 @@
+{
+  "title": "Rijeka – Vodič: Područja, plaže i prijevoz",
+  "metaDescription": "Planirajte svoje putovanje u Rijeku. Činjenični vodič koji pokriva putne rute iz Europe, smještaj, opcije parkiranja, pristup plažama i najbolja vremena za posjet.",
+  "intro": "Rijeka je treći po veličini grad u Hrvatskoj i njezina najprometnija luka, značajno se razlikuje od tipičnih dalmatinskih turističkih mjesta. Privlačna je putnicima zainteresiranima za austro-ugarsku arhitekturu, industrijsku baštinu i atmosferu grada koji živi. Središnja šetnica Korzo i okolne povijesne ulice služe kao glavno žarište, dok se plaže nalaze nekoliko kilometara istočno i zapadno od centra.\n\nBudući da je glavno prometno čvorište, Rijeka dobro služi kao baza za jednodnevne izlete na Istarski poluotok, otoke Kvarnerskog zaljeva i Nacionalni park Risnjak. Grad je najbolje posjetiti između svibnja i rujna, kada vrijeme dopušta kupanje i zakazana su događanja na otvorenom, iako ostaje aktivan tijekom cijele godine za razliku od visoko sezonskih obalnih gradova.",
+  "quickFacts": [
+    {
+      "label": "Najbolji mjeseci",
+      "value": "Svibanj do rujan"
+    },
+    {
+      "label": "Temperatura mora u kolovozu",
+      "value": "24°C do 26°C"
+    },
+    {
+      "label": "Najbliža zračna luka",
+      "value": "Zračna luka Rijeka (RJK), 26 km / 30 min"
+    },
+    {
+      "label": "Glavna vrsta plaže",
+      "value": "Šljunčane i betonske terase"
+    },
+    {
+      "label": "Razina cijena",
+      "value": "10-20% niže nego u Splitu ili Dubrovniku"
+    },
+    {
+      "label": "Prohodnost",
+      "value": "Korzo i uži stari grad su bez automobila"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centar grada / Korzo",
+      "bestFor": "Razgledavanje, tranzit i noćni život",
+      "parking": "Teško; oslonite se na plaćena parkirališta poput Delte ili garaže",
+      "beach": "Nema; zahtijeva 10-15 minuta vožnje autobusom",
+      "summary": "Komercijalna i povijesna jezgra Rijeke, s pješačkom šetnicom Korzo, muzejima i glavnim autobusnim kolodvorom."
+    },
+    {
+      "name": "Kantrida",
+      "bestFor": "Obitelji i ljubitelje plaže",
+      "parking": "Ulično parkiranje i javna parkirališta dostupna u blizini sportskih objekata",
+      "beach": "Šljunčane plaže (Ploče, Kantrida) na pješačkoj udaljenosti",
+      "summary": "Zapadno obalno predgrađe poznato po bazenima, nogometnom stadionu i pristupačnim šljunčanim plažama."
+    },
+    {
+      "name": "Pećine",
+      "bestFor": "Mirni boravci s brzim pristupom plaži",
+      "parking": "Ograničeno besplatno ulično parkiranje, često gužva ljeti",
+      "beach": "Izravan pristup šljunčanim plažama Sablićevo i Glavanovo",
+      "summary": "Istočni stambeni kvart izgrađen uz padinu, s povijesnim vilama i malim, slikovitim uvalama uz obalu."
+    },
+    {
+      "name": "Trsat",
+      "bestFor": "Ljubitelje povijesti i panoramskih pogleda",
+      "parking": "Lakše nego u centru, s besplatnim mjestima i namjenskim parkiralištem",
+      "beach": "Nema plaže; 15-minutna vožnja do obale",
+      "summary": "Kvart na brdu smješten iznad rijeke Rječine, dom Trsatskog kaštela i Svetišta Majke Božje Trsatske."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "510 km, 5.5-6.5 sati preko A8, A10, A2, A1, A7. Potrebna austrijska vinjeta, cestarina tunela Karavanke, slovenska vinjeta i hrvatske cestarine.",
+      "other": "FlixBus ili noćni vlak do Ljubljane, s presjedanjem na autobus."
+    },
+    {
+      "from": "Beč",
+      "car": "490 km, 5-6 sati preko A2, A1, A7. Potrebna austrijska vinjeta, slovenska vinjeta i hrvatske cestarine.",
+      "other": "FlixBus ili ÖBB vlak (direktan ili s presjedanjem u Ljubljani)."
+    },
+    {
+      "from": "Budimpešta",
+      "car": "500 km, 5-5.5 sati preko M7, A4, A6. Potrebna mađarska e-vinjeta i hrvatske cestarine.",
+      "other": "Direktan FlixBus ili vlak preko Zagreba."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "115 km, 1.5-2 sata preko A1 do Postojne, zatim ruta 6/8 do Ilirske Bistrice i A7. Potrebna slovenska vinjeta i hrvatske cestarine.",
+      "other": "Direktan autobus ili vlak (cca 2.5 sata)."
+    },
+    {
+      "from": "Prag",
+      "car": "820 km, 8.5-10 sati preko Beča ili Linza/Graza. Potrebne češka, austrijska i slovenska vinjeta, plus cestarina za tunel i hrvatske cestarine.",
+      "other": "Vlak preko Beča/Zagreba ili noćni autobus."
+    },
+    {
+      "from": "Krakov",
+      "car": "900 km, 9-10.5 sati preko Ostrave, Brna, Beča i Graza. Potrebne poljske cestarine, plus češka, austrijska i slovenska vinjeta, te hrvatske cestarine.",
+      "other": "Let za Zagreb, a zatim direktan autobus za Rijeku."
+    }
+  ],
+  "whenToGo": "Najbolje vrijeme za posjet Rijeci je od lipnja do rujna, kada temperatura mora doseže 24°C do 26°C i kada su vanjski objekti u potpunosti operativni. Srpanj i kolovoz su najtopliji i najprometniji mjeseci, iako su gužve i cijene znatno niže nego u južnoj Dalmaciji. Svibanj i listopad nude niže temperature pogodne za planinarenje u obližnjim nacionalnim parkovima, uz niže cijene smještaja. Od studenog do travnja, grad doživljava blage, ali kišne zime; dok se mnogi turistički orijentirani objekti na plaži zatvaraju, gradski muzeji, centralni restorani i trgovine ostaju otvoreni tijekom cijele godine.",
+  "faq": [
+    {
+      "question": "Je li Rijeka vrijedna posjeta?",
+      "answer": "Da, ako vas zanimaju industrijska povijest, austro-ugarska arhitektura i atmosfera grada koji živi. Ne preporučuje se ako tražite tradicionalno ljetovalište isključivo usmjereno na turizam na plaži."
+    },
+    {
+      "question": "Koliko dana mi je potrebno u Rijeci?",
+      "answer": "Jedan do dva dana su dovoljna za razgledavanje glavnih znamenitosti u centru grada i Trsatu. Dodajte tri do četiri dana ako planirate koristiti Rijeku kao bazu za jednodnevne izlete u Istru, na otok Krk ili Gorski Kotar."
+    },
+    {
+      "question": "Koja je najbolja plaža u Rijeci?",
+      "answer": "Plaža Sablićevo u kvartu Pećine i plaža Ploče na Kantridi najpopularnije su opcije. Obje nude šljunčane obale, čistu vodu i osnovne sadržaje poput tuševa."
+    },
+    {
+      "question": "Trebam li auto u Rijeci?",
+      "answer": "Automobil nije nužan za istraživanje centra grada, koji je pješački i dobro povezan lokalnim autobusima. Međutim, posjedovanje vozila se toplo preporučuje za posjet obližnjim nacionalnim parkovima, otocima i ruralnoj Istri."
+    },
+    {
+      "question": "Gdje je najbolje parkirati u Rijeci?",
+      "answer": "Parkiralište Delta nudi najviše vanjskih mjesta unutar kratke šetnje do pješačke zone. Za unutarnje parkiranje, garaže Gomila i Zagrad su sigurne i centralno smještene."
+    },
+    {
+      "question": "Je li Rijeka dobra za obitelji?",
+      "answer": "Da, starija djeca će cijeniti atrakcije poput Trsatskog kaštela, Prirodoslovnog muzeja i bazena Kantrida. Obiteljima s malom djecom možda će biti izazovan nedostatak plitkih, pješčanih plaža."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na prvi pogled",
+    "whereToStay": "Gdje odsjesti u Rijeci",
+    "gettingThere": "Dolazak u Rijeku",
+    "whenToGo": "Kada posjetiti",
+    "guides": "Vodiči za Rijeku",
+    "faq": "Česta pitanja o Rijeci",
+    "groups": {
+      "gettingAround": "Parkiranje i kretanje po gradu",
+      "planning": "Planiranje i smještaj",
+      "timing": "Kada ići",
+      "travelers": "Obitelji, parovi i stilovi putovanja",
+      "activities": "Plaže i aktivnosti",
+      "food": "Hrana i piće",
+      "comparisons": "Usporedbe",
+      "practical": "Praktične informacije"
+    },
+    "car": "Automobilom",
+    "other": "Druge opcije",
+    "bestFor": "Najbolje za",
+    "parking": "Parkiranje",
+    "beach": "Plaža"
+  },
+  "destination": "rijeka",
+  "language": "hr",
+  "updatedAt": "2026-10-16T09:52:10.732Z"
+}

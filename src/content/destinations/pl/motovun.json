@@ -1,0 +1,146 @@
+{
+  "title": "Motovun: Przewodnik turystyczny – trufle, parking i noclegi",
+  "metaDescription": "Zaplanuj swoją podróż do Motovunu w Chorwacji. Znajdź najlepsze miejsca na nocleg, trasy dojazdu, informacje o parkingu i wskazówki dotyczące zwiedzania tego istryjskiego miasteczka na wzgórzu.",
+  "intro": "Motovun to średniowieczne miasteczko na wzgórzu w centralnej Istrii, położone nad doliną rzeki Mirny. Przyciąga smakoszy, miłośników wina i turystów szukających spokojnej bazy z dala od nadmorskich kurortów. Miasteczko jest powszechnie znane z otaczających je lasów bogatych w trufle, lokalnych winnic produkujących wina Teran i Malvasia, a także nienaruszonych XIII-wiecznych murów obronnych, które oferują widoki na cały region.\n\nPoruszanie się po miasteczku wymaga sprawności fizycznej, ponieważ historyczne centrum położone jest na stromym zboczu i jest całkowicie wyłączone z ruchu samochodowego. Większość turystów przybywa od późnej wiosny do wczesnej jesieni, przy czym październik jest szczególnie popularny ze względu na zbiory białych trufli. Ponieważ Motovun leży w głębi lądu, pojazd jest wysoce zalecany do dotarcia do miasteczka, zwiedzania okolicznych gospodarstw rolnych i odwiedzenia wybrzeża, które znajduje się około 40 minut jazdy samochodem.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "Wrzesień i październik (sezon na trufle, mniej tłumów)"
+    },
+    {
+      "label": "Temperatura morza w sierpniu",
+      "value": "25°C do 27°C (na wybrzeżu, 25 km dalej)"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Lotnisko Pula (PUY), 70 km"
+    },
+    {
+      "label": "Główny typ plaży",
+      "value": "N/D (w głębi lądu); najbliższe to kamieniste i skaliste w Novigradzie"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "Nieco wyższy niż średnia w głębi lądu (premia za trufle)"
+    },
+    {
+      "label": "Dostępność piesza",
+      "value": "Stare miasto jest całkowicie wyłączone z ruchu samochodowego, ze stromymi, brukowanymi uliczkami"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Stare Miasto Motovun",
+      "bestFor": "Miłośnicy historii i pary",
+      "parking": "Brak przy zakwaterowaniu; korzystaj z miejskich parkingów poniżej",
+      "beach": "25 km do plaż nadmorskich",
+      "summary": "Otoczone murami średniowieczne centrum na szczycie wzgórza. Dostęp wymaga wejścia stromą brukowaną ścieżką lub skorzystania z miejskiego busa wahadłowego z dolnych parkingów."
+    },
+    {
+      "name": "Kanal (Podnóże Motovunu)",
+      "bestFor": "Podróżujący samochodem i osoby z problemami ruchowymi",
+      "parking": "Łatwy, w większości bezpłatny prywatny parking przy obiektach",
+      "beach": "25 km do plaż nadmorskich",
+      "summary": "Osada położona u podnóża wzgórza, w pobliżu rzeki Mirny. Oferuje łatwy parking, płaski teren i szybki dostęp do dróg regionalnych, jednocześnie zachowując widok na stare miasto."
+    },
+    {
+      "name": "Livade",
+      "bestFor": "Smakosze i kupujący trufle",
+      "parking": "Łatwy, bezpłatny parking szeroko dostępny",
+      "beach": "30 km do plaż nadmorskich",
+      "summary": "Niewielka wioska położona bezpośrednio po drugiej stronie doliny od Motovunu. Służy jako centrum handlowe istryjskiego przemysłu białych trufli i posiada godne uwagi lokalne restauracje."
+    },
+    {
+      "name": "Kaldir",
+      "bestFor": "Agroturystyka i spokojne pobyty",
+      "parking": "Dużo prywatnych miejsc parkingowych na farmach i posiadłościach",
+      "beach": "35 km do plaż nadmorskich",
+      "summary": "Wiejska wioska 5 kilometrów na południowy wschód od Motovunu. Znana jest z sadów owocowych, winnic i tradycyjnych gospodarstw agroturystycznych (agroturizam)."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monachium",
+      "car": "520 km, 6 godzin przez A10 (Salzburg, Villach, Lublana, Koper). Wymagana winieta AT, opłaty drogowe Tauern/Karawanken, winieta SLO.",
+      "other": "Lot do Puli (PUY) lub Wenecji (VCE), następnie wynajem samochodu."
+    },
+    {
+      "from": "Wiedeń",
+      "car": "500 km, 5,5 godziny przez A2 (Graz, Maribor, Lublana, Koper). Wymagana winieta AT, winieta SLO.",
+      "other": "Pociąg lub autobus do Lublany, następnie lokalny autobus do Buzetu (15 km od Motovunu)."
+    },
+    {
+      "from": "Budapeszt",
+      "car": "570 km, 6 godzin przez M7 do Zagrzebia, A6 do Rijeki, A8 do Lupoglava. Wymagana winieta HU, opłaty za autostradę HR i tunel Učka.",
+      "other": "Lot do Zagrzebia (ZAG), następnie wynajem samochodu lub autobus do Pazina."
+    },
+    {
+      "from": "Lublana",
+      "car": "120 km, 1,5 - 2 godziny przez A1 do Kopru lub przez Postojną i Buzet. Wymagana winieta SLO.",
+      "other": "Bezpośredni autobus do Buzetu (15 km dalej) lub Pazina."
+    },
+    {
+      "from": "Praga",
+      "car": "800 km, 9 godzin przez Brno, Wiedeń, Graz, Lublanę, Koper. Wymagane winiety CZ, AT i SLO.",
+      "other": "Lot do Wenecji (VCE) lub Puli (PUY), następnie wynajem samochodu."
+    },
+    {
+      "from": "Kraków",
+      "car": "940 km, 10 godzin przez Ostrawę, Brno, Wiedeń, Graz, Lublanę. Wymagane opłaty drogowe PL, winiety CZ, AT i SLO.",
+      "other": "Lot do Wiednia (VIE) lub Puli (PUY), następnie wynajem samochodu."
+    }
+  ],
+  "whenToGo": "Lipiec i sierpień to najgorętsze miesiące z temperaturami w ciągu dnia często przekraczającymi 30°C i stanowią najbardziej ruchliwy okres dla jednodniowych wycieczkowiczów z nadmorskich kurortów. Temperatury morza na pobliskim wybrzeżu osiągają szczyt 25°C do 27°C. Maj, czerwiec i wrzesień oferują łagodniejsze temperatury w okolicach 20°C do 25°C, niższe ceny zakwaterowania i mniej tłumów. Październik i listopad to długo wyczekiwany sezon na białe trufle, przyciągający do regionu smakoszy; większość restauracji pozostaje otwarta, choć dni są znacznie krótsze i chłodniejsze. Od grudnia do marca pogoda jest zimna i wilgotna, wiele hoteli i restauracji jest zamkniętych na sezon, a miasteczko jest bardzo ciche.",
+  "faq": [
+    {
+      "question": "Czy Motovun jest wart odwiedzenia?",
+      "answer": "Tak, Motovun jest wart odwiedzenia ze względu na dobrze zachowaną średniowieczną architekturę, panoramiczne widoki na dolinę Mirny i unikalną lokalną kulturę kulinarną. Stanowi doskonały kontrapunkt w głębi lądu dla bardziej ruchliwych nadmorskich kurortów Istrii."
+    },
+    {
+      "question": "Ile dni potrzeba w Motovunie?",
+      "answer": "Jeden pełny dzień wystarczy, aby przejść się po murach miejskich, zwiedzić historyczne centrum i zjeść w lokalnej restauracji. Jednak wielu turystów zostaje na trzy do pięciu dni, wykorzystując miasteczko jako bazę wypadową do zwiedzania lokalnych winnic, gajów oliwnych i okolicznych wiosek na wzgórzach."
+    },
+    {
+      "question": "Jaka jest najlepsza plaża w pobliżu Motovunu?",
+      "answer": "Najbliższe plaże znajdują się w Novigradzie i Poreču, około 25 do 30 kilometrów dalej (30 do 40 minut jazdy samochodem). Plaża Karpinjan w Novigradzie oferuje żwir i cień sosnowy, podczas gdy Poreč ma liczne utwardzone i skaliste zatoczki."
+    },
+    {
+      "question": "Czy potrzebuję samochodu w Motovunie?",
+      "answer": "Posiadanie samochodu jest wysoce zalecane podczas pobytu w Motovunie. Chociaż samo miasteczko jest małe i przeznaczone wyłącznie dla pieszych, pojazd jest niezbędny do dotarcia do pobliskich winnic, regionalnych szlaków turystycznych i sąsiednich miejscowości."
+    },
+    {
+      "question": "Gdzie zaparkować w Motovunie?",
+      "answer": "Musisz zaparkować na wyznaczonych miejskich parkingach u podnóża wzgórza lub w połowie drogi, w pobliżu cmentarza. Z tych parkingów zwiedzający mogą albo iść stromą brukowaną ścieżką, albo skorzystać z często kursującego miejskiego busa wahadłowego do starego miasta."
+    },
+    {
+      "question": "Czy Motovun jest dobry dla rodzin?",
+      "answer": "Motovun może być wyzwaniem dla rodzin z niemowlętami lub małymi dziećmi ze względu na strome podjazdy i brukowane uliczki, które są trudne do pokonania wózkami. Starsze dzieci zazwyczaj lubią spacerować po średniowiecznych murach obronnych i odkrywać okoliczne szlaki przyrodnicze."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Gdzie zatrzymać się w Motovunie",
+    "gettingThere": "Dojazd do Motovunu",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Motovunie",
+    "faq": "Motovun: Najczęściej zadawane pytania",
+    "groups": {
+      "gettingAround": "Parking i poruszanie się",
+      "planning": "Planowanie i gdzie się zatrzymać",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróżowania",
+      "activities": "Plaże i rzeczy do zrobienia",
+      "food": "Jedzenie i picie",
+      "comparisons": "Porównania",
+      "practical": "Praktyczne informacje"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "motovun",
+  "language": "pl",
+  "updatedAt": "2026-10-16T12:22:25.752Z"
+}

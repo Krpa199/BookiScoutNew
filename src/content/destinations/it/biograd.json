@@ -1,0 +1,146 @@
+{
+  "title": "Biograd na Moru: Guida di viaggio, spiagge e dove soggiornare",
+  "metaDescription": "Pianifica il tuo viaggio a Biograd na Moru con consigli pratici su percorsi stradali, quartieri, parcheggio e spiagge. Ideale per famiglie e viaggiatori in auto.",
+  "intro": "Biograd na Moru è una città costiera nella Dalmazia settentrionale, situata su una piccola penisola a metà strada tra Zara e Sebenico. Serve come base pratica per famiglie e diportisti grazie ai suoi ampi porti turistici, alle spiagge di ciottoli accessibili e immerse in pinete, e alla vicinanza alle Isole Kornati e al Lago di Vrana.\n\nLa città è altamente stagionale, operando a pieno regime da giugno a settembre. È adatta a viaggiatori in cerca di una tradizionale vacanza al mare croata con logistica semplice, piuttosto che a coloro che cercano lusso di fascia alta o vita notturna intensa. Il suo terreno pianeggiante e i lungomare ombreggiati la rendono particolarmente comoda per i visitatori con bambini piccoli o mobilità ridotta.",
+  "quickFacts": [
+    {
+      "label": "Mesi migliori",
+      "value": "Giugno e settembre per mare caldo e meno folla"
+    },
+    {
+      "label": "Temperatura del mare ad agosto",
+      "value": "Da 25°C a 27°C"
+    },
+    {
+      "label": "Aeroporto più vicino",
+      "value": "Aeroporto di Zara (ZAD), 28 km a nord"
+    },
+    {
+      "label": "Tipo di spiaggia principale",
+      "value": "Ciottoli e ghiaia, con ombra naturale di pini"
+    },
+    {
+      "label": "Livello prezzi",
+      "value": "Nella media per la Croazia; più economico di Split o Dubrovnik"
+    },
+    {
+      "label": "Pedonabilità del centro storico",
+      "value": "Compatto e completamente pedonale, prevalentemente senza auto"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centro e Città Vecchia (Poluotok)",
+      "bestFor": "Ristorazione, gite in barca e accesso al porto",
+      "parking": "Parcheggio a pagamento in strada e grandi parcheggi comunali; spesso pieni a luglio/agosto",
+      "beach": "10-15 minuti a piedi da Dražica o Bošana",
+      "summary": "La penisola storica ospita i principali ristoranti, caffè e il porto dei traghetti. È attiva la sera ma manca di accesso immediato alla spiaggia."
+    },
+    {
+      "name": "Dražica e Soline (Sud)",
+      "bestFor": "Famiglie e amanti della spiaggia",
+      "parking": "Il parcheggio privato dell'hotel/appartamento è essenziale; i posti pubblici sono scarsi",
+      "beach": "Accesso immediato a Dražica (ciottoli) e Soline (mix sabbia/ciottoli)",
+      "summary": "Questo tratto meridionale è caratterizzato da grandi hotel, campeggi e un lungomare ombreggiato. Offre le migliori strutture balneari e accesso immediato all'acqua."
+    },
+    {
+      "name": "Bošana (Nord)",
+      "bestFor": "Viaggiatori a budget ridotto e soggiorni più tranquilli",
+      "parking": "Parcheggio in strada più facile rispetto al centro; la maggior parte degli appartamenti ha un vialetto privato",
+      "beach": "Accesso immediato alla spiaggia di Bošana (ciottoli, meno ombra)",
+      "summary": "Una zona residenziale a nord del porto turistico che offre principalmente affitti di appartamenti privati. La spiaggia locale manca dell'ombra dei pini del sud ma è generalmente meno affollata."
+    },
+    {
+      "name": "Kumenat",
+      "bestFor": "Coppie e coloro che cercano isolamento",
+      "parking": "Principalmente parcheggio privato fornito dall'alloggio",
+      "beach": "Accesso immediato alla spiaggia di Kumenat (piccola caletta di ciottoli)",
+      "summary": "Situato due chilometri a sud del centro, questo piccolo insediamento residenziale è lontano dal rumore della città. Offre un'esperienza costiera più tranquilla e isolata."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monaco di Baviera",
+      "car": "760 km, 8-9 ore via A10 (Austria) e A1 (Croazia). Richiede vignetta austriaca, pedaggio tunnel del Tauern, vignetta slovena e pedaggi croati.",
+      "other": "Voli diretti stagionali per Zara (ZAD), poi 30 minuti di autobus o taxi."
+    },
+    {
+      "from": "Vienna",
+      "car": "620 km, 6.5-7.5 ore via A2/A9 (Austria) e A1/A4 (Slovenia). Richiede vignetta austriaca e slovena, più pedaggi croati.",
+      "other": "Voli diretti stagionali per Zara (ZAD) o FlixBus diretto per Biograd."
+    },
+    {
+      "from": "Budapest",
+      "car": "650 km, 6.5-7 ore via M7 (Ungheria) e A4/A1 (Croazia). Richiede e-vignetta ungherese e pedaggi croati.",
+      "other": "Voli diretti stagionali per Zara (ZAD) o treno per Zagabria con collegamento in autobus."
+    },
+    {
+      "from": "Lubiana",
+      "car": "340 km, 4 ore via A2 (Slovenia) e A1 (Croazia). Richiede vignetta slovena e pedaggi croati.",
+      "other": "Servizi di autobus diretti attivi in estate che impiegano circa 5-6 ore."
+    },
+    {
+      "from": "Praga",
+      "car": "950 km, 10-11 ore via Vienna e Maribor. Richiede vignette ceca, austriaca e slovena, più pedaggi croati.",
+      "other": "Voli diretti stagionali per Zara (ZAD) tramite compagnie aeree low-cost."
+    },
+    {
+      "from": "Cracovia",
+      "car": "1050 km, 11-12 ore via Slovacchia e Ungheria. Richiede vignette slovacca e ungherese, più pedaggi croati.",
+      "other": "Voli diretti per Zara (ZAD) tramite Ryanair, poi trasporto locale."
+    }
+  ],
+  "whenToGo": "Luglio e agosto sono i mesi di punta dell'estate, con temperature del mare tra i 25°C e i 27°C, tutte le strutture turistiche aperte, ma prezzi elevati e spiagge affollate. Giugno e settembre offrono un migliore equilibrio, con temperature del mare che si mantengono tra i 22°C e i 24°C, tariffe di alloggio più basse e livelli di folla gestibili, sebbene sia possibile qualche pioggia occasionale. Da ottobre a maggio, Biograd na Moru è in gran parte dormiente; la maggior parte degli hotel, dei ristoranti stagionali e delle strutture balneari chiudono, rendendola adatta solo a viaggiatori di passaggio o a coloro che cercano completa solitudine.",
+  "faq": [
+    {
+      "question": "Vale la pena visitarla?",
+      "answer": "Sì, se desideri una vacanza al mare in famiglia semplice o una base per la vela. Manca dell'ampia architettura storica di Zara o Sebenico ma compensa con spiagge accessibili e ombreggiate da pini."
+    },
+    {
+      "question": "Quanti giorni?",
+      "answer": "Tre-cinque giorni sono ottimali per una vacanza al mare e per esplorare l'area circostante. Una settimana intera consente di fare gite in barca alle Isole Kornati o di guidare fino al Parco Nazionale di Krka."
+    },
+    {
+      "question": "Migliore spiaggia?",
+      "answer": "La spiaggia di Dražica è la più popolare grazie al suo status di Bandiera Blu, all'ingresso dolce di ciottoli e all'ombra fitta dei pini. La spiaggia di Soline, situata leggermente più a sud, offre tratti di sabbia molto apprezzati dai bambini piccoli."
+    },
+    {
+      "question": "Serve l'auto?",
+      "answer": "Non hai bisogno dell'auto se soggiorni a Biograd e intendi solo raggiungere a piedi le spiagge locali. Tuttavia, un veicolo è altamente raccomandato per gite di un giorno ai vicini parchi nazionali, a Zara o al Lago di Vrana."
+    },
+    {
+      "question": "Dove parcheggiare?",
+      "answer": "Il parcheggio in centro è diviso in zone a pagamento ed è strettamente controllato in estate. È altamente consigliabile prenotare un alloggio che includa un parcheggio privato garantito per evitare tariffe giornaliere e la difficoltà di trovare un posto."
+    },
+    {
+      "question": "È adatta alle famiglie?",
+      "answer": "Sì, è una delle città più adatte alle famiglie nella Dalmazia settentrionale. Il terreno pianeggiante, gli ampi lungomare pedonali, le spiagge ombreggiate e il vicino parco divertimenti Dalmaland si rivolgono direttamente ai bambini."
+    }
+  ],
+  "headings": {
+    "quickFacts": "In breve",
+    "whereToStay": "Dove soggiornare a Biograd na Moru",
+    "gettingThere": "Come arrivare a Biograd na Moru",
+    "whenToGo": "Quando andare",
+    "guides": "Guide di Biograd na Moru",
+    "faq": "FAQ su Biograd na Moru",
+    "groups": {
+      "gettingAround": "Parcheggio e spostamenti",
+      "planning": "Pianificazione e dove soggiornare",
+      "timing": "Quando andare",
+      "travelers": "Famiglie, coppie e stili di viaggio",
+      "activities": "Spiagge e cose da fare",
+      "food": "Cibo e bevande",
+      "comparisons": "Confronti",
+      "practical": "Informazioni pratiche"
+    },
+    "car": "In auto",
+    "other": "Altre opzioni",
+    "bestFor": "Ideale per",
+    "parking": "Parcheggio",
+    "beach": "Spiaggia"
+  },
+  "destination": "biograd",
+  "language": "it",
+  "updatedAt": "2026-10-16T09:54:51.626Z"
+}

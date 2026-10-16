@@ -1,0 +1,146 @@
+{
+  "title": "Vrsar útikalauz: Strandok, parkolás és szállás",
+  "metaDescription": "Tervezze meg vrsari utazását ezzel a praktikus útikalauzzal. Hasonlítsa össze a negyedeket, a Közép-Európából érkező útvonalakat, a strandtípusokat, a parkolási lehetőségeket és a legjobb időpontot az utazásra.",
+  "intro": "Vrsar egy tengerparti város Nyugat-Isztriában, Poreč és a Lim-fjord között található. Vonzó azok számára, akik csendesebb bázist keresnek, mint a közeli Rovinj, történelmi, dombtetőn fekvő óvárossal, egy nagy kikötővel és egy 18 lakatlan szigetből álló szigetvilággal, közvetlenül a part közelében. A célpont elsősorban a pihentető tengerparti sétát kereső pároknak, valamint a környező üdülőhelyeken és kempingekben megszálló családoknak szól.\n\nA terep dombos, meredek sétát igényel a tengerparttól a történelmi központig. A legtöbb szállás magánapartmanokból, nagy üdülőkomplexumokból, mint például a Belvedere, és kiterjedt kempingekből áll északra és délre. A nyár a fő szezon, szinte az összes vendéglátóipari egység május végétől szeptemberig üzemel, és télen teljesen bezár.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Június–szeptember"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "25°C–27°C"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Pulai repülőtér (PUY), 52 km"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Kavicsos öblök és burkolt platók"
+    },
+    {
+      "label": "Árszínvonal",
+      "value": "Átlagos Isztriában, olcsóbb, mint Rovinj"
+    },
+    {
+      "label": "Óváros bejárhatósága",
+      "value": "Többnyire autómentes, nagyon meredek, de járható"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Óváros (Történelmi központ)",
+      "bestFor": "Pároknak és történelemkedvelőknek",
+      "parking": "Korlátozott hozzáférés; használjon fizetős parkolókat a domb alján",
+      "beach": "10–15 perc séta lefelé a Városi Strandhoz",
+      "summary": "A középkori, dombtetőn fekvő központ szűk macskaköves utcákkal, kilátópontokkal és a Szent Márton templommal rendelkezik. Meredek gyaloglással jár, ezért kevésbé alkalmas mozgáskorlátozott látogatók számára."
+    },
+    {
+      "name": "Marina és Vízpart",
+      "bestFor": "Hajósoknak, családoknak és azoknak, akik a sík terepet kedvelik",
+      "parking": "Nagy fizetős parkolók a buszpályaudvar és a kikötő közelében",
+      "beach": "5–10 perc séta Montrakerhez vagy a Városi Strandhoz",
+      "summary": "Az Obala Maršala Tita menti sík tengerparti sáv a kereskedelmi központ. Könnyű hozzáférést biztosít pékségekhez, éttermekhez és hajókirándulásokhoz anélkül, hogy az óváros meredek emelkedőivel kellene számolni."
+    },
+    {
+      "name": "Petalon és Belvedere",
+      "bestFor": "Üdülőközpontban pihenőknek és családoknak",
+      "parking": "Dedikált saját parkoló az üdülővendégek számára",
+      "beach": "Helyszíni sziklás és kavicsos strandok",
+      "summary": "Közvetlenül a fő város déli részén találhatók ezek a célorientált üdülőfélszigetek, amelyek strukturált létesítményeket, úszómedencéket és sportpályákat kínálnak. A Vrsar vízpartjához vezető séta körülbelül 10–15 percet vesz igénybe egy árnyas tengerparti úton."
+    },
+    {
+      "name": "Brođanka és Saline",
+      "bestFor": "Költségtudatos utazóknak és önellátóknak",
+      "parking": "Általában benne van a magánapartman bérleti díjában",
+      "beach": "10–20 perc séta Valkaneláig vagy a Városi Strandhoz",
+      "summary": "Ez a lakónegyed kissé beljebb, a kikötőtől északra fekszik. Szinte teljes egészében magánapartmanokból és vendégházakból áll, csendes környezetet kínálva, mindössze rövid sétára a központtól."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "520 km, 5,5–6,5 óra az A8, A10 (Tauern), Karawanken alagút és Szlovénia érintésével. Osztrák autópálya-matrica, Tauern/Karawanken útdíj, szlovén autópálya-matrica és horvát útdíj fizetendő.",
+      "other": "Lufthansa járatok Pulába (PUY) vagy távolsági busz Rovinjba."
+    },
+    {
+      "from": "Bécs",
+      "car": "510 km, 5,5–6 óra az A2 (Graz), Maribor és Ljubljana érintésével. Osztrák autópálya-matrica, szlovén autópálya-matrica és horvát útdíj fizetendő.",
+      "other": "Közvetlen járatok Pulába (Austrian Airlines/Ryanair) vagy távolsági busz."
+    },
+    {
+      "from": "Budapest",
+      "car": "600 km, 6–6,5 óra az M7-esen a határig, majd horvát A4, A1, A6 és isztriai Y (A8/A9) érintésével. Magyar e-matrica és horvát útdíj fizetendő.",
+      "other": "Távolsági busz Rovinjba vagy Pulába, átszállással Vrsarba."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "130 km, 1,5–2 óra az A1-esen Koperig, Dragonja határátkelőhelyen keresztül, majd horvát A9. Szlovén autópálya-matrica és horvát útdíj fizetendő.",
+      "other": "Közvetlen szezonális busz vagy magán transzfer."
+    },
+    {
+      "from": "Prága",
+      "car": "830 km, 9–10 óra Linz, Graz, Maribor és Ljubljana érintésével. Cseh, osztrák és szlovén autópálya-matrica, plusz horvát útdíj fizetendő.",
+      "other": "Járatok Pulába (Smartwings/Ryanair) vagy vonat Fiumébe, majd busz."
+    },
+    {
+      "from": "Krakkó",
+      "car": "1050 km, 10,5–11,5 óra az A4-esen, Csehországon (D1), Bécsen, Grazon és Szlovénián keresztül. Útdíj/matrica szükséges Lengyelországban, Csehországban, Ausztriában, Szlovéniában és Horvátországban.",
+      "other": "Járatok Krakkóból vagy Katowicéből Pulába, vagy távolsági busz."
+    }
+  ],
+  "whenToGo": "Június–szeptember a szokásos szezon Vrsar látogatására, augusztusban a legnagyobb a tömeg és a legmagasabbak a szállásárak. A tenger hőmérséklete július végére eléri a 25–27°C-ot, így augusztus ideális az úszáshoz. Május és október hűvösebb időt (18–22°C) kínál, alkalmas kerékpározásra és városnézésre, bár a tenger gyakran túl hideg az úszáshoz, és néhány szezonális étterem vagy üdülőközpont zárva tarthat. Novembertől áprilisig Vrsar nagyrészt bezár; a legtöbb szálloda, kemping és turistákra szakosodott étterem bezár, a város pedig kivételesen csendes, csak az alapvető szolgáltatások működnek a helyiek számára.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni Vrsart?",
+      "answer": "Igen, Vrsar praktikus választás, ha egy csendesebb tengerparti várost kedvel Rovinj vagy Poreč forgalmas központjai helyett. Történelmi, dombtetőn fekvő óvárost, kiváló kerékpárutakat és könnyű hozzáférést kínál a Lim-fjordhoz. Azonban azoknak, akik jelentős éjszakai életet vagy széleskörű vásárlási lehetőségeket keresnek, máshol kell nézelődniük."
+    },
+    {
+      "question": "Hány napra van szükségem Vrsarban?",
+      "answer": "Három-öt nap elegendő a város felfedezésére, a strandok élvezetére és egy hajókirándulásra a Lim-fjordhoz. Ha Vrsart bázisként tervezi használni Pula, Motovun és Rovinj meglátogatásához, hét napos tartózkodás gyakori a Közép-Európából autóval érkező látogatók számára."
+    },
+    {
+      "question": "Melyik a legjobb strand Vrsarban?",
+      "answer": "A Városi Strand (Gradska plaža) a legközpontibb és legkönnyebben megközelíthető opció, kavicsos öblökkel és burkolt napozófelületekkel. Családok számára a Valkanela hosszú, sekély vizet és homokos szakaszokat kínál, míg Montraker a sziklás lapos partjáról és az óvárosra nyíló kilátásáról ismert."
+    },
+    {
+      "question": "Szükségem van autóra Vrsarban?",
+      "answer": "Vrsarban nincs szüksége autóra a közlekedéshez, mivel a város, a kikötő és a fő strandok könnyen gyalogosan bejárhatók. Azonban erősen ajánlott autóval érkezni, ha szeretné felfedezni Isztria többi részét, vagy a pulai repülőtérről szeretne utazni."
+    },
+    {
+      "question": "Hol a legjobb parkolni Vrsarban?",
+      "answer": "A fő önkormányzati parkoló a buszpályaudvar (Saline parkoló) közelében található, az óváros aljában. Az óvárosban a nem helyi lakosok számára súlyosan korlátozott a parkolás, a látogatóktól elvárható, hogy a kikötő közelében parkoljanak, vagy használják a szálláshelyük által biztosított magánparkolót."
+    },
+    {
+      "question": "Alkalmas Vrsar családok számára?",
+      "answer": "Igen, Vrsar kiválóan alkalmas családok számára, különösen azoknak, akik a közelben lévő nagy üdülőkomplexumokban vagy kempingekben szállnak meg. A terület biztonságos, jól felszerelt strandokat, dedikált kerékpárutakat és nyugodt légkört kínál a nagyobb isztriai városok zsúfoltsága nélkül."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Áttekintés",
+    "whereToStay": "Hol szálljunk meg Vrsarban",
+    "gettingThere": "Odajutás Vrsarba",
+    "whenToGo": "Mikor utazzunk",
+    "guides": "Vrsari útmutatók",
+    "faq": "Vrsar GYIK",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor utazzunk",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Étel és ital",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb számára",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "vrsar",
+  "language": "hu",
+  "updatedAt": "2026-10-16T11:53:01.117Z"
+}

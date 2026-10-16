@@ -1,0 +1,146 @@
+{
+  "title": "Novi Vinodolski Vodič: Plaže, Parking i Smještaj",
+  "metaDescription": "Planirajte svoje putovanje u Novi Vinodolski, Hrvatska. Otkrijte najbolje plaže, četvrti, rute vožnje iz Srednje Europe, detalje parkiranja i savjete za putovanje.",
+  "intro": "Novi Vinodolski je primorski grad u Kvarnerskom zaljevu, koji spaja srednjovjekovnu staru jezgru s živahnom rivijerom. Privlačan je obiteljima, parovima i putnicima s automobilom koji traže klasičan hrvatski ljetni odmor s nešto nižom cijenom od susjednih Crikvenice ili Opatije. Grad je poznat po svojoj povijesnoj važnosti kao dom Vinodolskog zakonika iz 13. stoljeća te po mješavini šljunčanih plaža i betonskih platoa za kupanje.\n\nNajpopularnije vrijeme za posjet je od lipnja do rujna, kada je Jadran dovoljno topao za kupanje, a sezonski restorani i barovi na plaži u potpunosti rade. Srpanj i kolovoz donose najviše temperature i najveće gužve. Proljeće i jesen pogodni su za planinarenje i biciklizam u obližnjoj Vinodolskoj dolini, iako je more obično prehladno za većinu kupača.",
+  "quickFacts": [
+    {
+      "label": "Najbolji mjeseci",
+      "value": "Lipanj do rujan"
+    },
+    {
+      "label": "Temperatura mora u kolovozu",
+      "value": "24°C - 25°C"
+    },
+    {
+      "label": "Najbliža zračna luka",
+      "value": "Rijeka (RJK), 30 km"
+    },
+    {
+      "label": "Glavni tip plaže",
+      "value": "Šljunčane i betonske platforme"
+    },
+    {
+      "label": "Razina cijena",
+      "value": "Nešto ispod hrvatskog obalnog prosjeka"
+    },
+    {
+      "label": "Stari grad",
+      "value": "Pješački, uglavnom bez automobila, sa strmim ulicama"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centar grada i Stari grad",
+      "bestFor": "Povijest, gastronomija i večernje šetnje",
+      "parking": "Javna parkirališta uz naplatu na rubu; jezgra bez automobila",
+      "beach": "10-15 minuta hoda nizbrdo do mora",
+      "summary": "Povijesna jezgra smještena je na brdu, s uskim kamenim ulicama, Frankopanskim kaštelom i glavnom crkvom. Nudi neposredan pristup lokalnim restoranima i trgovinama, ali zahtijeva šetnju do plaža."
+    },
+    {
+      "name": "Lišanj i obalna šetnica",
+      "bestFor": "Obitelji i kupači",
+      "parking": "Hotelske garaže i ulično parkiranje uz naplatu",
+      "beach": "Neposredan pristup plaži Lišanj (šljunčana/betonska)",
+      "summary": "Smješteno južno od starog grada, ovo područje je usredotočeno oko glavnih hotelskih kompleksa i obalne šetnice. Omogućuje izravan pristup vodenim sportovima, ležaljkama i igralištima."
+    },
+    {
+      "name": "Povile",
+      "bestFor": "Parovi i oni koji traže miran boravak",
+      "parking": "Obično besplatan privatni parking kod smještaja",
+      "beach": "Neposredan pristup stjenovitim i šljunčanim uvalama",
+      "summary": "Povile je malo primorsko selo smješteno oko 2 kilometra južno od Novog Vinodolskog. Nudi mnogo mirniju atmosferu, jednostavan pristup moru i manje gužve tijekom vrhunca ljetnih mjeseci."
+    },
+    {
+      "name": "Bribir i Vinodolska dolina",
+      "bestFor": "Planinari, biciklisti i ruralna utočišta",
+      "parking": "Dovoljno besplatnog parkinga",
+      "beach": "10-15 minuta vožnje do obale",
+      "summary": "Smještena u unutrašnjosti od obale, Vinodolska dolina pruža planinski krajolik s ruralnim kućama i svježijim večernjim temperaturama. Idealna je za aktivne putnike kojima ne smeta vožnja do plaže."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "560 km, 6.5 sati vožnje preko A8, A10 i A2. Potrebne su austrijska i slovenska vinjeta, plus cestarina za tunel Karavanke.",
+      "other": "Sezonski letovi za Rijeku ili međugradski autobus"
+    },
+    {
+      "from": "Beč",
+      "car": "520 km, 5.5 sati vožnje preko A2 do Graza, Maribora i Ljubljane. Potrebne su austrijska i slovenska vinjeta.",
+      "other": "Autobusom do Rijeke, zatim lokalnom autobusnom vezom"
+    },
+    {
+      "from": "Budimpešta",
+      "car": "520 km, 5 sati vožnje preko M7 do Zagreba, zatim A1/A6 do Rijeke. Potrebna je mađarska e-vinjeta i hrvatske cestarine.",
+      "other": "Autobusom ili vlakom do Zagreba, s vezom za Novi Vinodolski"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "150 km, 2.5 sata vožnje preko A1 do Postojne, zatim granični prijelaz Rupa. Potrebna je slovenska vinjeta i mala hrvatska cestarina.",
+      "other": "Autobusom do Rijeke, zatim izravnom lokalnom autobusnom linijom"
+    },
+    {
+      "from": "Prag",
+      "car": "850 km, 9 sati vožnje preko Beča/Graza ili Linza/Salzburga. Potrebne su češka, austrijska i slovenska vinjeta.",
+      "other": "Noćnim vlakom ili autobusom do Rijeke"
+    },
+    {
+      "from": "Krakov",
+      "car": "930 km, 10 sati vožnje preko Slovačke, Mađarske (M1/M7) i Zagreba. Potrebne su slovačka i mađarska vinjeta, plus hrvatske cestarine.",
+      "other": "Let iz Krakova za Zadar ili Beč, zatim autobus"
+    }
+  ],
+  "whenToGo": "Ljetna sezona od lipnja do rujna najbolje je vrijeme za odmor na plaži, pri čemu su srpanj i kolovoz mjeseci s najvećim gužvama, najvišim cijenama i temperaturama mora koje dostižu 24-25°C. Lipanj i rujan nude mirniju atmosferu, nešto niže cijene smještaja i ugodne temperature mora oko 22-23°C. Svi objekti na plaži, restorani i izleti u potpunosti rade tijekom tih mjeseci. Od listopada do svibnja, grad je vrlo tih, mnoge turističke tvrtke se zatvaraju, a temperatura mora pada na 11-15°C, što ga čini pogodnim samo za planinarenje ili prolazak.",
+  "faq": [
+    {
+      "question": "Isplati li se posjetiti Novi Vinodolski?",
+      "answer": "Da, isplati se posjetiti za klasično iskustvo Kvarnerskog zaljeva. Spaja povijesni stari grad s dobro opremljenim šljunčanim i betonskim plažama po nešto nižoj cijeni od obližnje Opatije."
+    },
+    {
+      "question": "Koliko dana bih trebao ostati u Novom Vinodolskom?",
+      "answer": "Tri do sedam dana je idealno. Trodnevni boravak omogućuje istraživanje grada i opuštanje na plaži, dok tjedan dana pruža dovoljno vremena za jednodnevne izlete na otok Krk ili Plitvička jezera."
+    },
+    {
+      "question": "Koja je najbolja plaža u Novom Vinodolskom?",
+      "answer": "Plaža Lišanj je najpopularnija opcija. Nudi kombinaciju šljunka, pijeska i betonskih platoa, uz borovu hladovinu, igrališta i vodene sportove."
+    },
+    {
+      "question": "Trebam li automobil u Novom Vinodolskom?",
+      "answer": "Automobil nije strogo neophodan ako boravite blizu centra ili plaže Lišanj, jer su glavna područja pješačka. Međutim, vozilo se preporučuje za istraživanje obližnjih sela ili zaleđa Vinodola."
+    },
+    {
+      "question": "Gdje mogu parkirati u Novom Vinodolskom?",
+      "answer": "Grad ima oko 15 zona javnog parkiranja, uključujući luku i mjesta u blizini starog grada, a sve se naplaćuju od lipnja do rujna. Uvijek provjerite nudi li vaš smještaj namjensko parkirno mjesto, pogotovo jer je stari grad bez automobila."
+    },
+    {
+      "question": "Je li Novi Vinodolski dobar za obitelji?",
+      "answer": "Da, grad je dobro prilagođen obiteljima. Glavne plaže imaju plitke ulaze i centre aktivnosti, a obalne šetnice su sigurne i pristupačne za dječja kolica."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Ukratko",
+    "whereToStay": "Smještaj u Novom Vinodolskom",
+    "gettingThere": "Kako doći do Novog Vinodolskog",
+    "whenToGo": "Kada posjetiti",
+    "guides": "Vodiči za Novi Vinodolski",
+    "faq": "Česta pitanja o Novom Vinodolskom",
+    "groups": {
+      "gettingAround": "Parking i kretanje",
+      "planning": "Planiranje i smještaj",
+      "timing": "Kada putovati",
+      "travelers": "Obitelji, parovi i stilovi putovanja",
+      "activities": "Plaže i aktivnosti",
+      "food": "Hrana i piće",
+      "comparisons": "Usporedbe",
+      "practical": "Praktične informacije"
+    },
+    "car": "Automobilom",
+    "other": "Druge opcije",
+    "bestFor": "Najbolje za",
+    "parking": "Parking",
+    "beach": "Plaža"
+  },
+  "destination": "novi-vinodolski",
+  "language": "hr",
+  "updatedAt": "2026-10-16T12:49:40.006Z"
+}

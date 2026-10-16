@@ -1,0 +1,146 @@
+{
+  "title": "Omiš Reiseführer: Strände, Parkplätze & Unterkünfte",
+  "metaDescription": "Planen Sie Ihre Reise nach Omiš, Kroatien. Vergleichen Sie Stadtteile, Sandstrände, Anfahrtsrouten aus Mitteleuropa und Parkmöglichkeiten für Ihren Urlaub.",
+  "intro": "Omiš ist eine Küstenstadt, 25 Kilometer südöstlich von Split gelegen, wo der Fluss Cetina auf die Adria trifft. Sie dient als praktische Basis für Reisende, die sowohl Stranderholung als auch aktive Outdoor-Optionen suchen, wie zum Beispiel Rafting auf dem Fluss oder Wanderungen zu den Festungen Mirabella und Fortica. Die unmittelbare Küste Kroatiens zeichnet sich durch ihre natürlichen Sandstrände aus, insbesondere im Stadtzentrum und im benachbarten Duće.\n\nDas Reiseziel spricht hauptsächlich Familien an, die flaches Wasser benötigen, und Roadtripper, die die dalmatinische Küste erkunden. Juli und August bringen Höchsttemperaturen und starken Verkehr entlang der Adria-Magistrale (D8), während Juni und September milderes Wetter, niedrigere Unterkunftspreise und einfacheres Parken bieten.",
+  "quickFacts": [
+    {
+      "label": "Beste Monate",
+      "value": "Juni und September"
+    },
+    {
+      "label": "Meerestemperatur im August",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Nächster Flughafen",
+      "value": "Flughafen Split (SPU), 42 km entfernt"
+    },
+    {
+      "label": "Hauptstrandtyp",
+      "value": "Sand und feiner Kiesel"
+    },
+    {
+      "label": "Preisniveau",
+      "value": "Mittel (etwas unter dem kroatischen Durchschnitt)"
+    },
+    {
+      "label": "Begehbarkeit der Altstadt",
+      "value": "Flach und komplett Fußgängerzone"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Zentrum Omiš (Donji Grad)",
+      "bestFor": "Erstbesucher und Reisende ohne Auto",
+      "parking": "Kostenpflichtige öffentliche Parkplätze, im Sommer rar",
+      "beach": "0-500m zum Velika Plaza (Sandstrand)",
+      "summary": "Der historische Kern zeichnet sich durch enge Gassen, Restaurants und direkten Zugang zum Hauptstrand der Stadt aus. Die Unterkünfte bestehen hauptsächlich aus Apartments, und das Navigieren durch die großen Menschenmengen im Sommer ist obligatorisch."
+    },
+    {
+      "name": "Priko",
+      "bestFor": "Familien, die ruhigere Abende in der Nähe des Zentrums wünschen",
+      "parking": "Großer öffentlicher Parkplatz verfügbar, einige private Stellplätze",
+      "beach": "500m bis 1km zu den Hauptstränden",
+      "summary": "Direkt gegenüber der Cetina-Brücke von der Altstadt gelegen. Bietet einfachere Parkmöglichkeiten und größere Apartmenthäuser, während es dennoch nur 10 Gehminuten vom historischen Zentrum entfernt ist."
+    },
+    {
+      "name": "Duće",
+      "bestFor": "Familien mit Kleinkindern und kleinen Kindern",
+      "parking": "Üblicherweise von den Unterkünften bereitgestellt",
+      "beach": "0-200m zu flachen Sandstränden",
+      "summary": "Ein 6 Kilometer langer Küstenabschnitt unmittelbar westlich von Omiš. Er ist gesäumt von durchgehenden Sandstränden und flachem Wasser, stark auf Ferienapartments und Strandbars ausgerichtet."
+    },
+    {
+      "name": "Nemira & Stanići",
+      "bestFor": "Paare und Reisende, die ruhige Kieselstrände suchen",
+      "parking": "Privater Parkplatz vor Ort ist unerlässlich",
+      "beach": "0-300m zu steilen Kiesbuchten",
+      "summary": "Dörfer 3 bis 5 Kilometer südlich von Omiš entlang der Riviera gelegen. Das Gelände ist steil und fällt zu malerischen Kieselstränden mit klarem Wasser ab, abseits der sandigen Flachwasserbereiche der Stadt."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "850 km, 9-10 Stunden über A8, Tauernautobahn (A10) und Kroatien A1. Erfordert AT- und SI-Vignetten, plus AT-Tunnel- und HR-Mautgebühren.",
+      "other": "Flug nach Split (SPU), dann Bus oder privater Transfer."
+    },
+    {
+      "from": "Wien",
+      "car": "770 km, 8 Stunden über A2, SI A1/A4 und Kroatien A1. Erfordert AT- und SI-Vignetten, plus HR-Mautgebühren.",
+      "other": "Flug nach Split (SPU) oder direkter FlixBus nach Split/Omiš."
+    },
+    {
+      "from": "Budapest",
+      "car": "760 km, 7,5 Stunden über M7 und Kroatien A4/A1. Erfordert HU-Vignette und HR-Mautgebühren.",
+      "other": "Direkter FlixBus nach Split oder saisonaler Flug nach Split (SPU)."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "500 km, 5,5 Stunden über A1 nach Zagreb, dann Kroatien A1. Erfordert SI-Vignette und HR-Mautgebühren.",
+      "other": "FlixBus oder Nomago Bus nach Split, dann lokaler Bus nach Omiš."
+    },
+    {
+      "from": "Prag",
+      "car": "1.070 km, 11-12 Stunden über Wien/Graz oder Linz/Graz, dann Kroatien A1. Erfordert CZ-, AT- und SI-Vignetten, plus HR-Mautgebühren.",
+      "other": "Flug nach Split (SPU) über Smartwings oder Croatia Airlines."
+    },
+    {
+      "from": "Krakau",
+      "car": "1.050 km, 11 Stunden über die Slowakei, Ungarn (M1/M7) und Kroatien A1. Erfordert SK- und HU-Vignetten, plus HR-Mautgebühren.",
+      "other": "Flug nach Split (SPU) über Ryanair oder Wizz Air."
+    }
+  ],
+  "whenToGo": "Das Meer erreicht im Juli und August 25°C bis 27°C, was die größten Menschenmengen und höchsten Unterkunftspreise anzieht, obwohl alle Restaurants, Strandbars und Flussexkursionen mit voller Kapazität betrieben werden. Juni und September bieten mildere Temperaturen um 23°C bis 25°C zum Schwimmen, deutlich reduzierten Verkehr auf der Küstenstraße D8 und niedrigere Zimmerpreise. Von November bis April schließt die Stadt weitgehend für den Tourismus; die Meerestemperaturen fallen unter 15°C, die meisten saisonalen Restaurants schließen, und häufige Bora-Winde machen die Küste kalt und ruhig.",
+  "faq": [
+    {
+      "question": "Lohnt sich ein Besuch?",
+      "answer": "Ja, wenn Sie eine Kombination aus Sandstränden, historischen Festungen und aktiven Flussexkursionen suchen. Die Nähe der Cetina-Flussschlucht zum Meer macht die Landschaft einzigartig im Vergleich zu typischen dalmatinischen Städten."
+    },
+    {
+      "question": "Wie viele Tage braucht man?",
+      "answer": "Drei bis fünf Tage reichen aus, um das historische Zentrum zu erkunden, die Festungen zu besuchen und eine Rafting-Tour auf dem Fluss zu unternehmen. Viele Besucher bleiben eine Woche oder länger und nutzen die Stadt als Basis für tägliche Stranderholung."
+    },
+    {
+      "question": "Welcher ist der beste Strand?",
+      "answer": "Velika Plaza (auch bekannt als Punta) ist der Hauptstrand der Stadt, bekannt für seinen ausgedehnten Sand und flachen Einstieg. Für durchgehende Sandabschnitte bietet das benachbarte Dorf Duće mehrere Kilometer familienfreundliche Küste."
+    },
+    {
+      "question": "Brauche ich ein Auto?",
+      "answer": "Ein Auto ist nicht erforderlich, wenn Ihre Unterkunft im Zentrum von Omiš oder in Duće liegt, da lokale Busse nach Split verkehren und Reiseveranstalter den Flusstransport organisieren. Ein Fahrzeug wird empfohlen, um die weitere Riviera zu erkunden oder wenn Sie in steileren Dörfern wie Stanići übernachten."
+    },
+    {
+      "question": "Wo kann man parken?",
+      "answer": "Der Hauptparkplatz der Stadt befindet sich entlang der Küstenstraße Fošal, während ein größerer unbefestigter Parkplatz auf der anderen Seite des Flusses in Priko liegt. Im Juli und August füllen sich diese Parkplätze oft vor 9:00 Uhr morgens, daher ist ein vorab arrangierter Parkplatz bei der Unterkunft entscheidend."
+    },
+    {
+      "question": "Ist es gut für Familien?",
+      "answer": "Ja, es ist aufgrund der seltenen Sandstrände mit flachen Badezonen sehr gut für Familien geeignet. Ältere Kinder genießen oft die Piratengeschichte der Festungen und das anfängerfreundliche Rafting auf dem Fluss Cetina."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Auf einen Blick",
+    "whereToStay": "Wo übernachten in Omiš",
+    "gettingThere": "Anreise nach Omiš",
+    "whenToGo": "Beste Reisezeit",
+    "guides": "Omiš Reiseführer",
+    "faq": "Omiš FAQ",
+    "groups": {
+      "gettingAround": "Parken & Fortbewegung",
+      "planning": "Planung & Unterkünfte",
+      "timing": "Beste Reisezeit",
+      "travelers": "Familien, Paare & Reisestile",
+      "activities": "Strände & Aktivitäten",
+      "food": "Essen & Trinken",
+      "comparisons": "Vergleiche",
+      "practical": "Praktische Informationen"
+    },
+    "car": "Mit dem Auto",
+    "other": "Weitere Optionen",
+    "bestFor": "Am besten für",
+    "parking": "Parken",
+    "beach": "Strand"
+  },
+  "destination": "omis",
+  "language": "de",
+  "updatedAt": "2026-10-16T11:22:23.930Z"
+}

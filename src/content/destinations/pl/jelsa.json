@@ -1,0 +1,146 @@
+{
+  "title": "Jelsa: Przewodnik po plażach, parkingu i noclegach",
+  "metaDescription": "Zaplanuj swoją podróż do Jelsy, Chorwacja, z naszym szczegółowym przewodnikiem. Odkryj najlepsze plaże, dzielnice, trasy dojazdu i wskazówki dotyczące parkowania na Twoje wakacje na Hvarze.",
+  "intro": "Jelsa to nadmorskie miasto położone po północnej stronie wyspy Hvar, stanowiące spokojniejszą, rodzinną alternatywę dla bardziej ruchliwego miasta Hvar. Charakteryzuje się skoncentrowanym centrum historycznym zbudowanym wokół chronionego portu, wspartego sosnowymi lasami i otoczonego winnicami oraz gajami oliwnymi. Miasto ma funkcjonującą całoroczną społeczność, która utrzymuje otwarte lokalne udogodnienia, takie jak piekarnie, apteki i supermarkety poza szczytem sezonu turystycznego.\n\nMiasto odpowiada odwiedzającym szukającym łatwego dostępu do plaży, płaskich nadmorskich tras spacerowych i rowerowych oraz relaksującej wieczornej atmosfery. Rodziny z małymi dziećmi często wybierają Jelsę ze względu na jej zatoki z piaszczystym dnem. Optymalny czas na wizytę to okres od czerwca do września, kiedy temperatury morza są wystarczająco ciepłe do pływania, a połączenia katamaranowe kursują według najczęstszych letnich rozkładów.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "Czerwiec do września"
+    },
+    {
+      "label": "Temperatura morza w sierpniu",
+      "value": "25°C do 27°C"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Split (SPU), 24 km do portu + 2 godziny promem"
+    },
+    {
+      "label": "Główny typ plaży",
+      "value": "Piasek i żwir"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "Nieco powyżej chorwackiej średniej"
+    },
+    {
+      "label": "Centrum miasta",
+      "value": "Tylko dla pieszych, bez samochodów"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centrum Jelsy (Stare Miasto)",
+      "bestFor": "Dla smakoszy, wieczornych spacerów i osób bez samochodu",
+      "parking": "Płatne parkingi miejskie poza strefą dla pieszych",
+      "beach": "10 minut spacerem do plaży Mina",
+      "summary": "Historyczne centrum charakteryzuje się kamiennymi domami, kawiarniami i restauracjami rozmieszczonymi wokół głównego placu (Pjaca) i portu. Pobyt tutaj oznacza natychmiastowy dostęp do codziennych udogodnień i połączeń katamaranowych, choć spokój i cisza mogą być ograniczone w lipcowe i sierpniowe wieczory."
+    },
+    {
+      "name": "Okolice plaży Mina",
+      "bestFor": "Dla rodzin z małymi dziećmi",
+      "parking": "Prywatny parking przy większości apartamentów, plus pobliskie płatne parkingi",
+      "beach": "Natychmiastowy dostęp do plaży Mina z piaszczystym dnem",
+      "summary": "Położona na wschód od centrum miasta, ta dzielnica jest zdominowana przez nadmorskie sosny i oferuje łatwy dostęp do najpopularniejszej rodzinnej plaży w Jelsie. Spacer do centrum zajmuje około 10 minut wzdłuż płaskiej, oświetlonej nadmorskiej promenady."
+    },
+    {
+      "name": "Vitarnja",
+      "bestFor": "Dla par i szukających spokoju",
+      "parking": "Zazwyczaj wliczony w cenę zakwaterowania",
+      "beach": "Bezpośredni dostęp do skalistych i żwirowych zatoczek",
+      "summary": "Rozciągająca się na zachód od Jelsy w kierunku sąsiedniej wioski Vrboska, Vitarnja to spokojny, mieszkalny odcinek wybrzeża. Oferuje prywatne miejsca do pływania ze skalistych platform i zacienioną nadmorską ścieżkę łączącą obie miejscowości."
+    },
+    {
+      "name": "Vrboska",
+      "bestFor": "Dla rowerzystów i dłuższych pobytów",
+      "parking": "Obfitość publicznych i prywatnych parkingów",
+      "beach": "2 km do plaży Soline lub rowerem do plaż Jelsy",
+      "summary": "Położona 4 kilometry na zachód od Jelsy, ta oddzielna wioska leży w głębokiej, wąskiej zatoce przeciętej kamiennymi mostami. Służy jako praktyczna alternatywna baza z własnymi restauracjami, mariną i głównie płaskim terenem idealnym do jazdy na rowerze wzdłuż wybrzeża."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monachium",
+      "car": "870 km do portu w Splicie + prom, łącznie 11-12 godzin (przez A8, Villach, Lublana, Zagrzeb, A1). Wymaga austriackiej i słoweńskiej winiety, chorwackich opłat drogowych i biletu na prom Jadrolinija.",
+      "other": "Bezpośrednie loty do Splitu (SPU), następnie autobus lotniskowy do portu i katamaran bezpośrednio do Jelsy."
+    },
+    {
+      "from": "Wiedeń",
+      "car": "800 km do portu w Splicie + prom, łącznie 10-11 godzin (przez Graz, Maribor, Zagrzeb, A1). Wymaga austriackiej i słoweńskiej winiety, chorwackich opłat drogowych i biletu na prom Jadrolinija.",
+      "other": "Bezpośrednie loty lub sezonowy pociąg nocny do Splitu, następnie katamaran bezpośrednio do Jelsy."
+    },
+    {
+      "from": "Budapeszt",
+      "car": "760 km do portu w Splicie + prom, łącznie 9-10 godzin (przez M7, Letenye, Zagrzeb, A1). Wymaga węgierskiej e-winiety, chorwackich opłat drogowych i biletu na prom Jadrolinija.",
+      "other": "Bezpośrednie loty do Splitu, następnie autobus lotniskowy do portu i katamaran bezpośrednio do Jelsy."
+    },
+    {
+      "from": "Lublana",
+      "car": "480 km do portu w Splicie + prom, łącznie 7-8 godzin (przez A2 do Zagrzebia, następnie A1 do Splitu). Wymaga słoweńskiej winiety, chorwackich opłat drogowych i biletu na prom Jadrolinija.",
+      "other": "Autobus lub pociąg do Splitu, następnie katamaran bezpośrednio do Jelsy lub prom do Stari Gradu."
+    },
+    {
+      "from": "Praga",
+      "car": "1120 km do portu w Splicie + prom, łącznie 13-14 godzin (przez Wiedeń, Graz, Maribor, Zagrzeb, A1). Wymaga czeskiej, austriackiej i słoweńskiej winiety, chorwackich opłat drogowych i biletu na prom Jadrolinija.",
+      "other": "Bezpośrednie loty do Splitu, następnie autobus lotniskowy do portu i katamaran bezpośrednio do Jelsy."
+    },
+    {
+      "from": "Kraków",
+      "car": "1100 km do portu w Splicie + prom, łącznie 12-14 godzin (przez Słowację, Budapeszt, Zagrzeb, A1). Wymaga słowackiej i węgierskiej winiety, chorwackich opłat drogowych i biletu na prom Jadrolinija.",
+      "other": "Bezpośrednie loty do Splitu, następnie autobus lotniskowy do portu i katamaran bezpośrednio do Jelsy."
+    }
+  ],
+  "whenToGo": "Temperatury morza zazwyczaj osiągają 21°C pod koniec maja i szczytują między 25°C a 27°C w lipcu i sierpniu, pozostając wystarczająco ciepłe do pływania aż do października. Lipiec i sierpień to najbardziej zatłoczone i najdroższe miesiące, przyciągające szczytowy ruch wakacyjny, i wtedy wszystkie restauracje, bary na plaży i wypożyczalnie łodzi działają w pełni. Czerwiec i wrzesień oferują najlepszą równowagę ciepłych mórz, bardziej znośnych tłumów i nieco niższych cen zakwaterowania, co czyni je optymalnymi do łączenia czasu na plaży z jazdą na rowerze lub zwiedzaniem. Od listopada do kwietnia Jelsa znacznie się uspokaja; podczas gdy lokalna społeczność pozostaje, większość firm turystycznych, hoteli i sezonowych tras promowych zamyka się na zimę.",
+  "faq": [
+    {
+      "question": "Czy warto odwiedzić?",
+      "answer": "Tak, Jelsę warto odwiedzić podróżnym szukającym spokojniejszej, rodzinnej alternatywy dla miasta Hvar. Oferuje płaskie nadmorskie ścieżki, plaże z piaszczystym dnem i dobrze zachowane centrum historyczne bez intensywnego życia nocnego."
+    },
+    {
+      "question": "Ile dni?",
+      "answer": "Trzy do pięciu dni to praktyczny okres na zwiedzanie Jelsy i jej bezpośredniego otoczenia. Pozwala to na spędzenie kilku dni na lokalnych plażach i odbycie krótkich wycieczek do pobliskiego Stari Gradu, Vrboska lub południowego wybrzeża Hvaru."
+    },
+    {
+      "question": "Najlepsza plaża?",
+      "answer": "Mina i Grebišće są powszechnie uważane za najlepsze plaże w Jelsie ze względu na ich płytkie, piaszczyste dno, które jest rzadkością na Hvarze. Mina jest najbliżej centrum (około 10 minut spacerem), podczas gdy Grebišće znajduje się 1,5 kilometra na wschód i oferuje więcej miejsca."
+    },
+    {
+      "question": "Czy potrzebuję samochodu?",
+      "answer": "Nie potrzebujesz samochodu, jeśli planujesz zostać w Jelsie i spędzić czas na lokalnych plażach, ponieważ miasto jest zwarte i bardzo przyjazne dla pieszych. Jednak posiadanie samochodu lub wynajęcie skutera jest zalecane, jeśli chcesz odkrywać ustronne zatoki, wioski w głębi lądu lub inne miasta na wyspie."
+    },
+    {
+      "question": "Gdzie zaparkować?",
+      "answer": "Parking w Jelsie jest zarządzany przez miejskie płatne parkingi położone tuż poza centrum przeznaczonym wyłącznie dla pieszych, z głównym parkingiem zlokalizowanym w pobliżu centralnego parku. W szczycie sezonu letniego parking kosztuje zazwyczaj 1,40 € za godzinę lub 14 € za bilet dzienny."
+    },
+    {
+      "question": "Czy jest dobre dla rodzin?",
+      "answer": "Tak, Jelsa jest wysoko ceniona jako cel podróży przyjazny rodzinom. Miasto oferuje strefy tylko dla pieszych, płaskie promenady odpowiednie dla wózków dziecięcych oraz bezpieczne, płytkie plaże z piaszczystym dnem, które są idealne dla małych dzieci."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Noclegi w Jelsie",
+    "gettingThere": "Dojazd do Jelsy",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Jelsie",
+    "faq": "Jelsa: Najczęściej zadawane pytania",
+    "groups": {
+      "gettingAround": "Parking i poruszanie się",
+      "planning": "Planowanie i noclegi",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróżowania",
+      "activities": "Plaże i atrakcje",
+      "food": "Jedzenie i napoje",
+      "comparisons": "Porównania",
+      "practical": "Praktyczne informacje"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "jelsa",
+  "language": "pl",
+  "updatedAt": "2026-10-16T14:52:22.374Z"
+}

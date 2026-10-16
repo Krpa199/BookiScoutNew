@@ -1,0 +1,146 @@
+{
+  "title": "Umag Przewodnik: Plaże, Parking i Gdzie się Zatrzymać",
+  "metaDescription": "Zaplanuj swoją podróż do Umag, Chorwacja. Poznaj praktyczne szczegóły dotyczące tras dojazdu, zakwaterowania, parkingów, rodzinnych kurortów i najlepszych terminów na wizytę.",
+  "intro": "Umag to najbardziej wysunięte na północ miasto nadmorskie na Istrii, co czyni je pierwszym przystankiem dla turystów jadących z Europy Środkowej. Mocno stawia na turystykę kurortową, oferując duże kompleksy hotelowe, kempingi i rozbudowane obiekty sportowe, a w szczególności turniej tenisowy ATP Croatia Open. Linia brzegowa charakteryzuje się utwardzonymi tarasami do opalania, skalistymi zatoczkami i lasami sosnowymi, które rozciągają się bezpośrednio przy morzu.\n\nSezon szczytowy trwa od końca czerwca do sierpnia, przynosząc wysokie temperatury i główne tłumy fanów tenisa w lipcu. Wrzesień jest spokojniejszy, a morze wciąż wystarczająco ciepłe do pływania, natomiast zimą większość obiektów turystycznych jest zamknięta. Umag jest odpowiedni dla rodzin i aktywnych podróżników, którzy przedkładają wygodny dostęp do plaży i sport nad rozległe zwiedzanie zabytków.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "Czerwiec do września"
+    },
+    {
+      "label": "Temperatura morza w sierpniu",
+      "value": "25°C do 27°C"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Pula (PUY), 85 km na południe"
+    },
+    {
+      "label": "Główny typ plaż",
+      "value": "Platformy betonowe, skaliste zatoczki i sztuczne kamyczki"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "Średnie dla Istrii, tańsze niż Rovinj"
+    },
+    {
+      "label": "Starówka dostępna pieszo",
+      "value": "Tak, historyczny półwysep jest strefą pieszą"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centrum Umagu i Stare Miasto",
+      "bestFor": "Restauracje, spacery i krótkie pobyty",
+      "parking": "Płatne parkingi publiczne poza pieszym półwyspem",
+      "beach": "700m do Gradsko Kupalište (Plaży Miejskiej)",
+      "summary": "Historyczne serce Umagu leży na małym półwyspie. Oferuje wąskie uliczki, restauracje i marinę, ale brakuje mu dużych basenów kurortowych i bezpośredniego dostępu do plaży, które znajdują się dalej na północ."
+    },
+    {
+      "name": "Punta",
+      "bestFor": "Bliskość zarówno centrum, jak i plaż",
+      "parking": "Płatne parkingi uliczne i prywatne parkingi hotelowe",
+      "beach": "Bezpośredni dostęp do betonowych i skalistych plaż",
+      "summary": "Dzielnica mieszkalno-hotelowa tuż na północ od mariny. Łączy centrum miasta z północnymi kurortami nadmorską promenadą, równoważąc wygodę z dostępem do plaży."
+    },
+    {
+      "name": "Stella Maris i Katoro",
+      "bestFor": "Rodziny, fani tenisa i wakacje w kurortach",
+      "parking": "Duże dedykowane parkingi dla gości kurortu i gości jednodniowych",
+      "beach": "Bezpośredni dostęp do Laguny (żwirek/piasek) i Polinezji",
+      "summary": "Główna strefa turystyczna rozciągająca się na północ od miasta. Dominują tu duże hotele, kompleksy apartamentowe, korty tenisowe i długa trasa pociągu turystycznego łącząca z centrum."
+    },
+    {
+      "name": "Savudrija",
+      "bestFor": "Pary, kempingowicze i spokojniejsze pobyty",
+      "parking": "Zazwyczaj bezpłatne lub wliczone w cenę zakwaterowania",
+      "beach": "Skaliste wybrzeża i utwardzone tarasy",
+      "summary": "Cichsza, zacieniona sosnami wioska 8 km na północ od Umagu, znana z aktywnej latarni morskiej. Popularna wśród kempingowiczy i tych, którzy szukają spokojniejszego tempa z dala od głównych kurortów."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monachium",
+      "car": "500 km, ~5.5 godziny przez A8, A10 (Tauern), tunel Karawanki, Lublanę i Koper. Wymaga winiet austriackich i słoweńskich, plus opłaty za tunele.",
+      "other": "FlixBus lub pociąg nocny do Lublany, następnie połączenie autobusowe"
+    },
+    {
+      "from": "Wiedeń",
+      "car": "510 km, ~5.5 godziny przez A2 do Grazu, Mariboru, Lublany i Koper. Wymaga winiet austriackich i słoweńskich.",
+      "other": "Bezpośredni FlixBus dostępny w lecie, lub pociąg do Triestu/Lublany"
+    },
+    {
+      "from": "Budapeszt",
+      "car": "600 km, ~6 godzin przez M7 do granicy Letenye, A4/A6 przez Zagrzeb i Rijekę, następnie Istrianka Y. Wymaga winiety węgierskiej i chorwackich opłat drogowych.",
+      "other": "Bezpośredni FlixBus do Umagu (ok. 9 godzin)"
+    },
+    {
+      "from": "Lublana",
+      "car": "130 km, ~1.5 do 2 godzin przez A1 do Koper, następnie Trasa 11. Wymaga słoweńskiej winiety. Letnie opóźnienia na granicy w Dragonji są częste.",
+      "other": "Bezpośredni autobus (ok. 2.5 godziny) lub wspólny transfer (np. GoOpti)"
+    },
+    {
+      "from": "Praga",
+      "car": "800 km, ~9 do 10 godzin przez Linz, Salzburg i A10. Wymaga winiet czeskich, austriackich i słoweńskich, plus austriackie opłaty za tunele.",
+      "other": "Pociąg do Rijeki lub Lublany, następnie autobus, lub letni bezpośredni autobus"
+    },
+    {
+      "from": "Kraków",
+      "car": "950 km, ~10.5 godziny przez A4, Ostrawę, Wiedeń, Graz i Lublanę. Wymaga polskich opłat drogowych, plus winiet czeskich, austriackich i słoweńskich.",
+      "other": "Lot do Wiednia lub Wenecji, następnie autobus, lub letni bezpośredni autobus"
+    }
+  ],
+  "whenToGo": "Sezon turystyczny w Umagu trwa od maja do października. Lipiec i sierpień to najgorętsze miesiące, z temperaturami dziennymi około 30°C i temperaturą morza osiągającą 26°C. Jest to również najbardziej zatłoczony i najdroższy okres, szczególnie podczas turnieju tenisowego ATP pod koniec lipca. Czerwiec i wrzesień oferują lepszą równowagę ciepłej pogody, niższych cen i mniejszych tłumów, a temperatura morza we wrześniu jest nadal komfortowa do pływania. Między listopadem a kwietniem miasteczko jest bardzo spokojne; większość hoteli kurortowych, barów plażowych i sezonowych restauracji jest zamknięta, choć nadmorskie ścieżki pozostają otwarte do spacerów i jazdy na rowerze.",
+  "faq": [
+    {
+      "question": "Czy warto odwiedzić Umag?",
+      "answer": "Tak, zwłaszcza jeśli szukasz wakacji w stylu kurortu lub podróżujesz samochodem z Europy Środkowej. Brakuje mu rozległej architektury historycznej Rovinja czy Poreča, ale wyróżnia się obiektami sportowymi, rodzinnymi kurortami i dostępnymi liniami brzegowymi."
+    },
+    {
+      "question": "Ile dni potrzeba w Umagu?",
+      "answer": "Trzy do pięciu dni to idealny czas na standardową wycieczkę plażową i relaks. Jeśli używasz go jako bazy do zwiedzania śródlądowej Istrii lub pobliskich miast nadmorskich, zalecany jest cały tydzień."
+    },
+    {
+      "question": "Jaka jest najlepsza plaża w Umagu?",
+      "answer": "Laguna Stella Maris jest najpopularniejsza, charakteryzuje się półksiężycowatą linią brzegową z kamyczków i sztucznego piasku z płytką wodą. Katoro i Polynesia oferują szerokie betonowe tarasy i skaliste odcinki z czystą wodą."
+    },
+    {
+      "question": "Czy potrzebuję samochodu w Umagu?",
+      "answer": "Nie potrzebujesz samochodu, jeśli zatrzymujesz się w głównych obszarach kurortowych, ponieważ pociąg turystyczny łączy Katoro i Stella Maris z centrum miasta. Jednak samochód jest bardzo zalecany do jednodniowych wycieczek po Istrii."
+    },
+    {
+      "question": "Gdzie mogę zaparkować w Umagu?",
+      "answer": "Miasto obsługuje strefowy system parkingów publicznych, z dużymi płatnymi parkingami zlokalizowanymi w pobliżu dworca autobusowego i mariny, tuż poza pieszą starówką. Większość dużych hoteli i kurortów dalej na północ oferuje parking, choć niektóre pobierają opłatę dzienną."
+    },
+    {
+      "question": "Czy Umag jest dobry dla rodzin?",
+      "answer": "Tak, Umag to jedno z najbardziej przyjaznych rodzinom miejsc na Istrii. Północne kurorty oferują dedykowane animacje dla dzieci, płytkie odcinki plaż, place zabaw i duże kompleksy basenowe dostosowane do młodszych gości."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Gdzie się zatrzymać w Umagu",
+    "gettingThere": "Dojazd do Umagu",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Umagu",
+    "faq": "Umag FAQ",
+    "groups": {
+      "gettingAround": "Parking i poruszanie się",
+      "planning": "Planowanie i zakwaterowanie",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróżowania",
+      "activities": "Plaże i atrakcje",
+      "food": "Jedzenie i napoje",
+      "comparisons": "Porównania",
+      "practical": "Informacje praktyczne"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "umag",
+  "language": "pl",
+  "updatedAt": "2026-10-16T11:36:40.579Z"
+}

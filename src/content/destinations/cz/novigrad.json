@@ -1,0 +1,146 @@
+{
+  "title": "Novigrad: Průvodce plážemi, čtvrtěmi a trasami autem",
+  "metaDescription": "Naplánujte si cestu do Novigradu v Chorvatsku. Objevte nejlepší místa k pobytu, trasy autem z Evropy, tipy na parkování a podrobnosti o plážích pro toto istrijské město.",
+  "intro": "Novigrad láká rodiny a páry hledající klidnější pobřežní destinaci na Istrii, vyhýbající se velkým davům typickým pro Rovinj nebo Poreč. Pyšní se zachovalým historickým centrem umístěným na malém poloostrově, rozsáhlými pobřežními promenádami a čistými oblázkovými a zpevněnými plážemi. Město slouží jako vhodná základna pro poznávání severní Istrie a nedalekého údolí řeky Mirny.\n\nHlavní turistická sezóna trvá od konce června do začátku září a přináší teplé mořské teploty a plně fungující restaurace a zařízení. Jaro a začátek podzimu nabízejí mírnější počasí vhodné pro cyklistiku a poznávání istrijského vnitrozemí, i když mnoho přímořských podniků zavírá mezi listopadem a dubnem. Návštěvníci přijíždějící v létě najdou uvolněnou atmosféru zaměřenou na stravování a venkovní aktivity.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "Červen až září"
+    },
+    {
+      "label": "Teplota moře v srpnu",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Pula (PUY), 75 km daleko"
+    },
+    {
+      "label": "Hlavní typ pláže",
+      "value": "Oblázkové, kamenité a dlážděné terasy"
+    },
+    {
+      "label": "Cenová úroveň",
+      "value": "Průměrná pro Istrii, mírně nad chorvatským průměrem"
+    },
+    {
+      "label": "Pěší dostupnost",
+      "value": "Staré město je dobře dostupné pěšky a v létě převážně bez aut"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Staré Město",
+      "bestFor": "Stravování, historie a páry",
+      "parking": "Parkovat se musí mimo centrum na placených parkovištích",
+      "beach": "Dlážděné městské pláže a Rivarela hned za hradbami",
+      "summary": "Historické jádro leží na poloostrově obklopeném středověkými hradbami. Nabízí nejvyšší koncentraci restaurací a kaváren, ale omezuje vjezd vozidel během turistické sezóny."
+    },
+    {
+      "name": "Karpinjan",
+      "bestFor": "Rodiny a přístup k pláži",
+      "parking": "Bezplatné a placené parkování na ulici u většiny apartmánů",
+      "beach": "500m úsek oblázkové pláže s borovým stínem",
+      "summary": "Obytná čtvrť, která se nachází 15 minut chůze severně od starého města. Nabízí oblíbenou, rodinnou oblázkovou pláž a klidné pronájmy apartmánů."
+    },
+    {
+      "name": "Oblast Maestral a Sirena",
+      "bestFor": "Vybavení resortu, kempování a bazény",
+      "parking": "Vyhrazené parkování u hotelu a kempu",
+      "beach": "Oblázkové a dlážděné pláže s Modrou vlajkou přímo v areálu",
+      "summary": "Tato zóna, ležící jižně od centra města, je ovládána velkými hotely a významným kempem. Poskytuje organizované plážové vybavení, bazény a sportovní hřiště."
+    },
+    {
+      "name": "Mareda",
+      "bestFor": "Příroda, kempování a levnější pobyty",
+      "parking": "Zahrnuto v rámci prázdninového parku nebo kempu",
+      "beach": "Kamenité a dlážděné pláže přímo v areálu",
+      "summary": "Tato oblast, ležící asi 4 kilometry severně od Novigradu, se skládá převážně z velké rekreační vesnice a kempu. Je obklopena vinicemi, dubovými lesy a pobřežními stezkami."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Mnichov",
+      "car": "520 km, 6 hodin přes A8, A10 (Taurská dálnice), tunel Karavanky, SI A2/A1. Poplatky: AT dálniční známka, mýto Taurská dálnice a Karavanky, SI dálniční známka, HR mýto.",
+      "other": "Přímý FlixBus nebo s jedním přestupem přes Lublaň"
+    },
+    {
+      "from": "Vídeň",
+      "car": "510 km, 5,5 hodiny přes A2, A9 do Grazu, SI A1 do Koperu. Poplatky: AT dálniční známka, SI dálniční známka, HR mýto.",
+      "other": "Přímý FlixBus nebo let do Puly"
+    },
+    {
+      "from": "Budapešť",
+      "car": "600 km, 6 hodin přes M7, A4 do Záhřebu, A6 do Rijeky, Istrijský Ypsilon (A8/A9). Poplatky: HU dálniční známka, HR mýto.",
+      "other": "FlixBus nebo vlak do Rijeky, poté místní autobus"
+    },
+    {
+      "from": "Lublaň",
+      "car": "135 km, 1,5 hodiny přes A1 do Koperu, silnice 111, Istrijský Ypsilon. Poplatky: SI dálniční známka, HR mýto.",
+      "other": "Přímý autobus trvající přibližně 2,5 hodiny"
+    },
+    {
+      "from": "Praha",
+      "car": "830 km, 9 hodin přes AT A1/A10, tunel Karavanky, SI A2/A1. Poplatky: CZ, AT, SI dálniční známka, mýto za tunel, HR mýto.",
+      "other": "Let do Puly nebo noční FlixBus"
+    },
+    {
+      "from": "Krakov",
+      "car": "1000 km, 10,5 hodiny přes A4, CZ D1, AT A2/A9, SI A1. Poplatky: PL, CZ, AT, SI dálniční známka, HR mýto.",
+      "other": "Sezónní lety do Zadaru nebo Puly"
+    }
+  ],
+  "whenToGo": "Hlavní turistická sezóna probíhá v červenci a srpnu, kdy se teploty moře pohybují kolem 25°C až 27°C, ceny ubytování jsou na vrcholu a davy největší. Červen a září nabízejí dobrou rovnováhu teplého počasí pro koupání, nižších cen pokojů a zvládnutelného počtu návštěvníků, přičemž téměř všechna zařízení jsou otevřená. Květen a říjen nabízejí chladnější teploty vhodné pro cyklistiku a ochutnávky vína, i když moře je obecně příliš studené na koupání. Od listopadu do dubna je Novigrad velmi klidný; teploty moře klesají pod 15°C a značná část hotelů, kempů a turisticky zaměřených restaurací se na zimní sezónu zavírá.",
+  "faq": [
+    {
+      "question": "Stojí Novigrad za návštěvu?",
+      "answer": "Ano, Novigrad stojí za návštěvu pro cestovatele hledající uvolněné, historické pobřežní město bez intenzivních davů větších istrijských letovisek. Nabízí vynikající mořské plody, čisté pláže a dobře zachovalou středověkou obrannou zeď."
+    },
+    {
+      "question": "Kolik dní potřebuji v Novigradu?",
+      "answer": "Tři až pět dní je ideální pro standardní návštěvu. To poskytuje dostatek času na prozkoumání starého města, strávení několika dní na pláži a návštěvu nedalekého vodního parku Istralandia nebo vnitrozemských vesnic."
+    },
+    {
+      "question": "Která je nejlepší pláž v Novigradu?",
+      "answer": "Pláž Karpinjan je všeobecně považována za nejlepší volbu pro rodiny díky mělkému oblázkovému vstupu a přirozenému stínu borovic. Pro organizované zázemí a pronájem lehátek je pláž Maestral jižně od centra vysoce hodnocena."
+    },
+    {
+      "question": "Potřebuji v Novigradu auto?",
+      "answer": "Pokud plánujete zůstat výhradně v Novigradu, auto nepotřebujete, protože město je malé a snadno se v něm chodí pěšky. Nicméně, auto je velmi doporučeno pro jednodenní výlety do vnitrozemských istrijských měst, jako jsou Motovun nebo Grožnjan."
+    },
+    {
+      "question": "Kde mohu v Novigradu zaparkovat?",
+      "answer": "Návštěvníci mohou zaparkovat na několika velkých veřejných parkovištích hned za starým městem, protože historické centrum omezuje automobilovou dopravu. Největší placená městská parkoviště se nacházejí v blízkosti přístavu a městské sportovní haly."
+    },
+    {
+      "question": "Je Novigrad vhodný pro rodiny?",
+      "answer": "Ano, Novigrad je vysoce vhodný pro rodiny díky své klidné atmosféře, rovinatým pobřežním procházkovým a cyklistickým stezkám a bezpečným oblázkovým plážím. Nachází se také méně než 10 kilometrů od Istralandie, jednoho z největších aquaparků v Chorvatsku."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na první pohled",
+    "whereToStay": "Kde se ubytovat v Novigradu",
+    "gettingThere": "Jak se dostat do Novigradu",
+    "whenToGo": "Kdy jet",
+    "guides": "Průvodci Novigradem",
+    "faq": "Časté dotazy k Novigradu",
+    "groups": {
+      "gettingAround": "Parkování a doprava po městě",
+      "planning": "Plánování a kde se ubytovat",
+      "timing": "Kdy jet",
+      "travelers": "Rodiny, páry a styly cestování",
+      "activities": "Pláže a co dělat",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": "Praktické informace"
+    },
+    "car": "Autem",
+    "other": "Další možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "novigrad",
+  "language": "cz",
+  "updatedAt": "2026-10-16T11:44:18.437Z"
+}

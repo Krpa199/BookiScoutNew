@@ -1,0 +1,146 @@
+{
+  "title": "Biograd na Moru – průvodce: Pláže a kde se ubytovat",
+  "metaDescription": "Naplánujte si cestu do Biogradu na Moru s praktickými radami ohledně tras, čtvrtí, parkování a pláží. Ideální pro rodiny a cestovatele s autem.",
+  "intro": "Biograd na Moru je pobřežní město v severní Dalmácii, ležící na malém poloostrově na půli cesty mezi Zadarem a Šibenikem. Slouží jako praktická základna pro rodiny a jachtaře díky svým velkým přístavům, přístupným oblázkovým plážím lemovaným borovicovými lesy a blízkosti Kornatských ostrovů a Vranského jezera.\n\nMěsto je vysoce sezónní, funguje na plnou kapacitu od června do září. Je vhodné pro cestovatele, kteří hledají tradiční chorvatskou plážovou dovolenou s jednoduchou logistikou, spíše než pro ty, kteří hledají luxusní zážitky nebo intenzivní noční život. Jeho rovinatý terén a stinné promenády ho činí obzvláště pohodlným pro návštěvníky s malými dětmi nebo omezenou pohyblivostí.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "Červen a září pro teplé moře a méně davů"
+    },
+    {
+      "label": "Teplota moře v srpnu",
+      "value": "25°C až 27°C"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Letiště Zadar (ZAD), 28 km severně"
+    },
+    {
+      "label": "Hlavní typ pláže",
+      "value": "Oblázkové a štěrkové, s přírodním stínem borovic"
+    },
+    {
+      "label": "Cenová úroveň",
+      "value": "Průměrná pro Chorvatsko; levnější než Split nebo Dubrovník"
+    },
+    {
+      "label": "Schůdnost starého města",
+      "value": "Kompaktní a plně průchozí, převážně bez aut"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centrum a Staré Město (Poluotok)",
+      "bestFor": "Stravování, výlety lodí a přístup do přístavu",
+      "parking": "Placené pouliční parkování a velká městská parkoviště; v červenci/srpnu často plná",
+      "beach": "10-15 minut chůze k pláži Dražica nebo Bošana",
+      "summary": "Historický poloostrov hostí hlavní restaurace, kavárny a trajektový přístav. Večer je živý, ale chybí mu bezprostřední přístup k pláži."
+    },
+    {
+      "name": "Dražica a Soline (Jih)",
+      "bestFor": "Rodiny a milovníci pláží",
+      "parking": "Soukromé parkování u hotelu/apartmánu je zásadní; veřejná místa jsou vzácná",
+      "beach": "Okamžitý přístup k pláži Dražica (oblázková) a Soline (smíšená písek/oblázky)",
+      "summary": "Tento jižní úsek je charakterizován velkými hotely, kempy a stinnou promenádou. Nabízí nejlepší plážové vybavení a okamžitý přístup k vodě."
+    },
+    {
+      "name": "Bošana (Sever)",
+      "bestFor": "Cestovatelé s omezeným rozpočtem a ti, kdo hledají klidnější pobyt",
+      "parking": "Snadnější pouliční parkování než v centru; většina apartmánů má příjezdové cesty",
+      "beach": "Okamžitý přístup k pláži Bošana (oblázková, méně stínu)",
+      "summary": "Obytná oblast severně od přístavu, nabízející především pronájmy soukromých apartmánů. Místní pláž postrádá borovicový stín jihu, ale je obecně méně přeplněná."
+    },
+    {
+      "name": "Kumenat",
+      "bestFor": "Páry a ti, kdo hledají izolaci",
+      "parking": "Většinou soukromé parkování zajištěné ubytováním",
+      "beach": "Okamžitý přístup k pláži Kumenat (malá oblázková zátoka)",
+      "summary": "Tato malá obytná osada se nachází dva kilometry jižně od centra a je oddělena od městského hluku. Nabízí klidnější a izolovanější pobřežní zážitek."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Mnichov",
+      "car": "760 km, 8-9 hodin přes A10 (Rakousko) a A1 (Chorvatsko). Vyžaduje rakouskou dálniční známku, mýtné za tunel Tauern, slovinskou dálniční známku a chorvatské mýtné.",
+      "other": "Přímé sezónní lety do Zadaru (ZAD), poté 30 minut autobusem nebo taxíkem."
+    },
+    {
+      "from": "Vídeň",
+      "car": "620 km, 6.5-7.5 hodiny přes A2/A9 (Rakousko) a A1/A4 (Slovinsko). Vyžaduje rakouskou a slovinskou dálniční známku, plus chorvatské mýtné.",
+      "other": "Přímé sezónní lety do Zadaru (ZAD) nebo přímý FlixBus do Biogradu."
+    },
+    {
+      "from": "Budapešť",
+      "car": "650 km, 6.5-7 hodin přes M7 (Maďarsko) a A4/A1 (Chorvatsko). Vyžaduje maďarskou e-známku a chorvatské mýtné.",
+      "other": "Sezónní přímé lety do Zadaru (ZAD) nebo vlakem do Záhřebu s autobusovým spojením."
+    },
+    {
+      "from": "Lublaň",
+      "car": "340 km, 4 hodiny přes A2 (Slovinsko) a A1 (Chorvatsko). Vyžaduje slovinskou dálniční známku a chorvatské mýtné.",
+      "other": "V létě jezdí přímé autobusové spoje, cesta trvá přibližně 5-6 hodin."
+    },
+    {
+      "from": "Praha",
+      "car": "950 km, 10-11 hodin přes Vídeň a Maribor. Vyžaduje českou, rakouskou a slovinskou dálniční známku, plus chorvatské mýtné.",
+      "other": "Přímé sezónní lety do Zadaru (ZAD) nízkonákladovými dopravci."
+    },
+    {
+      "from": "Krakov",
+      "car": "1050 km, 11-12 hodin přes Slovensko a Maďarsko. Vyžaduje slovenskou a maďarskou dálniční známku, plus chorvatské mýtné.",
+      "other": "Přímé lety do Zadaru (ZAD) společností Ryanair, poté místní doprava."
+    }
+  ],
+  "whenToGo": "Červenec a srpen jsou hlavními letními měsíci, kdy se teplota moře pohybuje kolem 25 °C až 27 °C, všechna turistická zařízení jsou otevřená, ale ceny jsou vysoké a pláže přeplněné. Červen a září nabízejí lepší rovnováhu, s teplotami moře kolem 22 °C až 24 °C, nižšími cenami ubytování a zvládnutelnými davy, i když občasný déšť je možný. Od října do května je Biograd na Moru převážně nečinný; většina hotelů, sezónních restaurací a plážových zařízení se zavírá, což ho činí vhodným pouze pro projíždějící cestovatele nebo ty, kteří hledají naprostou samotu.",
+  "faq": [
+    {
+      "question": "Stojí za to navštívit Biograd na Moru?",
+      "answer": "Ano, pokud chcete jednoduchou rodinnou plážovou dovolenou nebo základnu pro plachtění. Chybí mu rozsáhlá historická architektura Zadaru nebo Šibeniku, ale vynahrazuje to přístupnými plážemi ve stínu borovic."
+    },
+    {
+      "question": "Kolik dní?",
+      "answer": "Tři až pět dní je optimální pro plážovou dovolenou a prozkoumání bezprostředního okolí. Celý týden poskytuje čas na výlety lodí na Kornatské ostrovy nebo jízdu do Národního parku Krka."
+    },
+    {
+      "question": "Nejlepší pláž?",
+      "answer": "Pláž Dražica je nejoblíbenější díky statusu Modré vlajky, pozvolnému vstupu s oblázky a silnému stínu borovic. Pláž Soline, nacházející se o něco jižněji, nabízí písečné úseky, které jsou oblíbené u malých dětí."
+    },
+    {
+      "question": "Potřebuji auto?",
+      "answer": "Auto nepotřebujete, pokud zůstanete v Biogradu a plánujete se jen procházet na místní pláže. Vozidlo se však důrazně doporučuje pro jednodenní výlety do nedalekých národních parků, Zadaru nebo k Vranskému jezeru."
+    },
+    {
+      "question": "Kde zaparkovat?",
+      "answer": "Parkování v centru je rozděleno do placených zón a v létě je přísně kontrolováno. Důrazně se doporučuje rezervovat ubytování, které zahrnuje garantované soukromé parkování, abyste se vyhnuli denním poplatkům a snaze najít místo."
+    },
+    {
+      "question": "Je to vhodné pro rodiny?",
+      "answer": "Ano, je to jedno z nejvíce rodinně-přátelských měst v severní Dalmácii. Rovinatý terén, rozsáhlé pěší promenády, stinné pláže a nedaleký zábavní park Dalmaland jsou přímo zaměřeny na děti."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Přehledně",
+    "whereToStay": "Kde se ubytovat v Biogradu na Moru",
+    "gettingThere": "Jak se dostat do Biogradu na Moru",
+    "whenToGo": "Kdy jet",
+    "guides": "Průvodci Biogradem na Moru",
+    "faq": "Často kladené otázky o Biogradu na Moru",
+    "groups": {
+      "gettingAround": "Parkování a doprava po městě",
+      "planning": "Plánování a kde se ubytovat",
+      "timing": "Kdy jet",
+      "travelers": "Rodiny, páry a styly cestování",
+      "activities": "Pláže a co dělat",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": "Praktické informace"
+    },
+    "car": "Autem",
+    "other": "Další možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "biograd",
+  "language": "cz",
+  "updatedAt": "2026-10-16T09:54:19.174Z"
+}

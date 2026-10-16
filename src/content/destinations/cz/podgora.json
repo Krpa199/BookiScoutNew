@@ -1,0 +1,139 @@
+{
+  "title": "Podgora Průvodce: Pláže, parkování a kde se ubytovat",
+  "metaDescription": "Naplánujte si cestu do Podgory v Chorvatsku. Objevte nejlepší oblázkové pláže, kde zaparkovat, průvodce čtvrtěmi Čaklje a Centar a trasy pro jízdu autem.",
+  "intro": "Podgora je přímořské letovisko na Makarské riviéře, ležící přímo mezi Jaderským mořem a svahy hory Biokovo. Historicky rybářská vesnice se nyní téměř výhradně zaměřuje na letní turistiku. Pobřeží se pyšní dlouhou promenádou stíněnou borovicemi, lemovanou kavárnami, restauracemi a dlouhými úseky bílých oblázkových pláží.\n\nJe ideální pro rodiny a páry, které hledají přímočarou plážovou dovolenou bez rušného nočního života nedaleké Makarské. Návštěvníci, kteří preferují klidné oblasti, si často vybírají horní vesnici Gornja Podgora. Hlavní sezóna trvá od června do září, přičemž červenec a srpen přinášejí nejteplejší mořské teploty spolu s největšími davy a nejvyššími cenami.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "Červen až září"
+    },
+    {
+      "label": "Teplota moře v srpnu",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Split (SPU), 107 km"
+    },
+    {
+      "label": "Hlavní typ pláže",
+      "value": "Bílé oblázky se stínem borovic"
+    },
+    {
+      "label": "Cenová úroveň",
+      "value": "Průměrná až mírně nadprůměrná"
+    },
+    {
+      "label": "Pěší dostupnost",
+      "value": "Rovná pobřežní promenáda; horní vesnice vyžaduje auto"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centar / Luka",
+      "bestFor": "Pro nováčky, kteří chtějí být pár kroků od restaurací a lodních výletů",
+      "parking": "Extrémně omezené; placená veřejná parkoviště se brzy zaplní",
+      "beach": "Přímo sousedící s hlavní oblázkovou pláží Podgory",
+      "summary": "Rušné srdce Podgory nabízí dlouhou pobřežní promenádu, hlavní přístav a většinu stravovacích možností města. V létě je zde živo, ale v noci může být hlučno kvůli procházejícím davům."
+    },
+    {
+      "name": "Čaklje",
+      "bestFor": "Pro rodiny a návštěvníky hledající klidnější plážový zážitek",
+      "parking": "Většinou zajištěno soukromými apartmány k pronájmu; málo veřejných parkovacích míst",
+      "beach": "Přímo před domem; klidnější oblázková pláž s mírným svahem",
+      "summary": "Nachází se v jižní části Podgory, tato čtvrť je převážně rezidenční s soukromými apartmány. Nabízí uvolněnější prostředí a zároveň je propojena s centrem pobřežní pěší stezkou."
+    },
+    {
+      "name": "Gornja Podgora",
+      "bestFor": "Pro páry, turisty a ty, kteří si pronajímají soukromé vily",
+      "parking": "Obvykle v ceně a hojné u rekreačních domů",
+      "beach": "2 až 3 km po strmé, klikaté cestě k pobřeží",
+      "summary": "Původní historická osada se nachází vysoko na svazích hory Biokovo. Nabízí zrekonstruované kamenné domy, olivové háje a nádherný výhled na moře, což ji činí ideální pro ty, kteří se chtějí vyhnout pobřežním davům."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Mnichov",
+      "car": "~880 km, 9.5 hodiny přes A8, A10 (mýto Tauern), tunel Karavanky a chorvatskou A1. Jsou vyžadovány rakouská (AT) a slovinská (SI) dálniční známka.",
+      "other": "Let do Splitu (SPU), poté letištní transfer nebo autobus do Podgory"
+    },
+    {
+      "from": "Vídeň",
+      "car": "~780 km, 8-9 hodin přes Štýrský Hradec (Graz), Maribor (slovinská dálniční známka) a chorvatskou A1.",
+      "other": "Let do Splitu (SPU) nebo přímý FlixBus do Makarské/Podgory"
+    },
+    {
+      "from": "Budapešť",
+      "car": "~830 km, 8-9 hodin přes M7 do Letenye, poté chorvatské A4 a A1. Vyžadována maďarská (HU) dálniční známka a chorvatské mýtné.",
+      "other": "Přímý FlixBus do Podgory (cca 15 hodin) nebo let do Splitu"
+    },
+    {
+      "from": "Lublaň",
+      "car": "~500 km, 5.5 hodiny přes Novo Mesto a chorvatskou A1. Vyžadována slovinská (SI) dálniční známka a chorvatské mýtné.",
+      "other": "Autobus nebo vlak do Záhřebu s přestupem na autobus do Podgory"
+    },
+    {
+      "from": "Praha",
+      "car": "~1100 km, 11-12 hodin přes Vídeň, Štýrský Hradec (Graz) a Záhřeb. Vyžadovány české (CZ), rakouské (AT), slovinské (SI) dálniční známky a chorvatské mýtné.",
+      "other": "Let do Splitu, nebo sezónní vlak RegioJet do Splitu"
+    },
+    {
+      "from": "Krakov",
+      "car": "~1150 km, 12-13 hodin přes Slovensko, Budapešť a chorvatskou A1. Vyžadovány slovenské (SK), maďarské (HU) dálniční známky a chorvatské mýtné.",
+      "other": "Let z Krakova nebo Katovic do Splitu, poté autobus"
+    }
+  ],
+  "whenToGo": "Červen přináší teplé počasí (25-28°C) a příjemné teploty moře kolem 22°C, se všemi restauracemi otevřenými a mírnými davy. Červenec a srpen jsou hlavní sezónou, kdy moře dosahuje 25-27°C, promenády jsou rušné a ceny na Makarské riviéře jsou nejvyšší. Září je velmi doporučováno, jelikož moře zůstává dostatečně teplé ke koupání až do konce měsíce, zatímco davy prořídnou a parkování je snazší. Od října do května je mimosezóna; moře je příliš studené na koupání a většina turistických zařízení a restaurací v Podgoře je zcela zavřená.",
+  "faq": [
+    {
+      "question": "Stojí Podgora za návštěvu?",
+      "answer": "Ano, Podgora je vynikající volbou pro klasickou plážovou dovolenou na Makarské riviéře. Nabízí dlouhé oblázkové pláže a strmou horskou scenérii bez velkých davů, které najdete ve městě Makarska."
+    },
+    {
+      "question": "Kolik dní bych měl/a strávit v Podgoře?",
+      "answer": "Pět až sedm dní je typických pro letní výlet. To poskytuje dostatek času na každodenní koupání, procházky po promenádě a jednodenní výlet na horu Biokovo nebo na nedaleké ostrovy."
+    },
+    {
+      "question": "Která je nejlepší pláž v Podgoře?",
+      "answer": "Pláž Čaklje v jižní části města je všeobecně považována za nejlepší, protože je klidnější a má velmi čistou vodu. Hlavní pláž Podgora v centru je také dobrá, ale v červenci a srpnu je mnohem rušnější."
+    },
+    {
+      "question": "Potřebuji auto v Podgoře?",
+      "answer": "Ne, auto nepotřebujete, pokud zůstáváte v přímořských oblastech, protože pláže a restaurace jsou v docházkové vzdálenosti. Vozidlo je však nezbytné, pokud si rezervujete ubytování v Gornje Podgoře nebo plánujete rozsáhlé jednodenní výlety."
+    },
+    {
+      "question": "Kde mohu zaparkovat v Podgoře?",
+      "answer": "Veřejné parkování je velmi omezené a přísně placené, zejména podél nábřeží a na obecních parkovištích. Návštěvníci by si měli rezervovat ubytování, které výslovně zahrnuje soukromé parkovací místo."
+    },
+    {
+      "question": "Je Podgora dobrá destinace pro rodiny?",
+      "answer": "Ano, Podgora je velmi oblíbená u rodin cestujících s dětmi. Oblázkové pláže mají mírný vstup do moře, borovice poskytují přirozený stín a pobřežní promenáda je kompletně zpevněná pro kočárky."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na první pohled",
+    "whereToStay": "Kde se ubytovat v Podgoře",
+    "gettingThere": "Jak se dostat do Podgory",
+    "whenToGo": "Kdy jet",
+    "guides": "Průvodci Podgorou",
+    "faq": "Časté dotazy k Podgoře",
+    "groups": {
+      "gettingAround": "Parkování a doprava",
+      "planning": "Plánování a kde se ubytovat",
+      "timing": "Kdy jet",
+      "travelers": "Rodiny, páry a styly cestování",
+      "activities": "Pláže a co dělat",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": "Praktické informace"
+    },
+    "car": "Autem",
+    "other": "Další možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "podgora",
+  "language": "cz",
+  "updatedAt": "2026-10-16T13:37:47.471Z"
+}

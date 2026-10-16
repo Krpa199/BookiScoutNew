@@ -1,0 +1,146 @@
+{
+  "title": "Lovran Reisgids: Stranden, Parkeren & Waar te Verblijven",
+  "metaDescription": "Plan uw reis naar Lovran met onze praktische gids. Ontdek de beste gebieden om te verblijven, rijroutes, parkeertips en aanbevelingen voor lokale stranden.",
+  "intro": "Lovran is een ontspannen kustplaats aan de oostkust van het schiereiland Istrië, direct gelegen aan de Opatija Rivièra waar de hellingen van de Učka-berg de Adriatische Zee ontmoeten. Het is geschikt voor reizigers die op zoek zijn naar een rustiger, historischer alternatief voor het naburige Opatija. Bezoekers komen voor de goed bewaarde middeleeuwse oude stad, de grandeur van de Oostenrijks-Hongaarse villa's en de beroemde 12 kilometer lange Lungomare-kustpromenade die de kustplaatsen met elkaar verbindt.\n\nDe beste reistijd is van eind mei tot september. De zomer brengt optimaal strandweer en zeetemperaturen die perfect zijn om te zwemmen, terwijl de tussenseizoenen juni en september comfortabele wandelomstandigheden en lagere accommodatietarieven bieden. De stad spreekt sterk aan bij Europese automobilisten die de nabijheid, de loopbaarheid en het ontspannen mediterrane tempo waarderen.",
+  "quickFacts": [
+    {
+      "label": "Beste maanden",
+      "value": "Juni tot september"
+    },
+    {
+      "label": "Zeetemperatuur augustus",
+      "value": "25°C tot 27°C"
+    },
+    {
+      "label": "Dichtstbijzijnde luchthaven",
+      "value": "Luchthaven Rijeka (RJK), 50 km"
+    },
+    {
+      "label": "Hoofdstrandtype",
+      "value": "Betonnen terrassen en kleine kiezels"
+    },
+    {
+      "label": "Prijsniveau",
+      "value": "Gemiddeld tot iets boven het Kroatische gemiddelde"
+    },
+    {
+      "label": "Loopbaarheid oude stad",
+      "value": "Autovrij en alleen voor voetgangers"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Oude Stad (Stari Grad)",
+      "bestFor": "Stellen en geschiedenisliefhebbers die sfeer zoeken",
+      "parking": "Openbare betaalparkeerplaatsen buiten de muren",
+      "beach": "10 minuten lopen naar de stranden van Cipera of Kvarner",
+      "summary": "De historische kern kenmerkt zich door smalle, geplaveide straatjes, oude stenen huizen en middeleeuwse architectuur. Het is zeer goed te belopen en vol met kleine lokale cafés, hoewel u met de auto niet direct bij de meeste accommodaties kunt komen."
+    },
+    {
+      "name": "Peharovo",
+      "bestFor": "Gezinnen en strandgangers",
+      "parking": "Parkeren op straat en op privéterreinen van villa's",
+      "beach": "Directe toegang tot Peharovo Strand (kiezels/grind)",
+      "summary": "Gelegen net ten zuiden van het stadscentrum, omringt deze wijk een van de populairste gezinsstranden aan de rivièra. Het biedt een rustigere, residentiële sfeer met veel appartementen met eigen kookgelegenheid."
+    },
+    {
+      "name": "Ika",
+      "bestFor": "Wandelaars en mensen die een rustige uitvalsbasis dicht bij Opatija zoeken",
+      "parking": "Over het algemeen gemakkelijker dan het centrum van Lovran; voornamelijk privépercelen",
+      "beach": "Kleine lokale kiezelbaaien langs de Lungomare",
+      "summary": "Een vredig naburig dorpje in het noorden, Ika ligt direct aan de Lungomare-promenade. Het is een ontspannende plek die een schilderachtige, vlakke wandeling naar het centrum van Lovran biedt."
+    },
+    {
+      "name": "Liganj & Lovranska Draga",
+      "bestFor": "Natuurliefhebbers en wandelaars met een auto",
+      "parking": "Ruime gratis parkeergelegenheid bij pensions",
+      "beach": "10 tot 15 minuten rijden de berg af",
+      "summary": "Deze landelijke dorpjes liggen hoog op de hellingen van de Učka-berg achter Lovran. Ze bieden een weids uitzicht over de Kvarner Baai, directe toegang tot wandelpaden en een koeler klimaat."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "520 km, ~6 uur via A8, A10 en Slovenië (A2/A1). Oostenrijkse en Sloveense vignetten vereist, plus Karawanken tunnel en Kroatische tol.",
+      "other": "FlixBus naar Opatija, of seizoensvluchten naar Rijeka (RJK)"
+    },
+    {
+      "from": "Wenen",
+      "car": "510 km, ~5,5 uur via A2 naar Graz, daarna Maribor en Ljubljana (Slovenië). Oostenrijkse en Sloveense vignetten plus Kroatische tol van toepassing.",
+      "other": "Trein naar Rijeka (vaak via Graz) of langeafstandsbus naar Opatija"
+    },
+    {
+      "from": "Boedapest",
+      "car": "515 km, ~5 uur via M7 naar de Kroatische grens, daarna A4 naar Zagreb en A6 naar Rijeka. Vereist een Hongaars vignet en Kroatische tol.",
+      "other": "FlixBus rechtstreeks naar Rijeka, of seizoensgebonden trein naar Rijeka"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "120 km, ~1,5 tot 2 uur via A1 naar Postojna, daarna route 6 naar Ilirska Bistrica en de grens bij Rupa. Sloveens vignet vereist.",
+      "other": "Rechtstreekse bus naar Rijeka, daarna lokale bus 32 naar Lovran"
+    },
+    {
+      "from": "Praag",
+      "car": "840 km, ~9 uur via Brno, Wenen en Graz. Tsjechische, Oostenrijkse en Sloveense vignetten vereist.",
+      "other": "Seizoensvluchten naar Zadar of Zagreb, of RegioJet trein naar Rijeka"
+    },
+    {
+      "from": "Krakau",
+      "car": "910 km, ~10 uur via Ostrava, Brno, Wenen en Graz. Tsjechische, Oostenrijkse en Sloveense vignetten vereist.",
+      "other": "Vluchten naar Wenen of Zagreb met een doorgaande busverbinding"
+    }
+  ],
+  "whenToGo": "Zeetemperaturen pieken in augustus (gemiddeld 25°C tot 27°C), wanneer de stad het drukst is met Europese automobilisten en de accommodatieprijzen op hun hoogst zijn. Juli is vergelijkbaar warm en bruisend. Juni en september zijn de beste maanden om te bezoeken, met milder weer, lagere tarieven en comfortabele omstandigheden om de Učka-berg te bewandelen of over de Lungomare te lopen. Mei is rustig en fris, maar de zee (rond 18°C) is over het algemeen te koud om te zwemmen. De meeste restaurants blijven open van Pasen tot oktober, terwijl de winter (november tot maart) de stad aanzienlijk rustiger maakt met veel seizoensgebonden bedrijven die sluiten.",
+  "faq": [
+    {
+      "question": "Is Lovran de moeite waard om te bezoeken?",
+      "answer": "Ja, het biedt een rustiger, meer ontspannen alternatief voor het drukke Opatija, met een charmante middeleeuwse oude stad en de prachtige Lungomare-promenade. Het is ideaal voor een rustige kustvakantie zonder de grote drukte van grotere badplaatsen."
+    },
+    {
+      "question": "Hoeveel dagen heb ik nodig in Lovran?",
+      "answer": "Drie tot vijf dagen is ideaal. Dit geeft u voldoende tijd om het historische centrum te verkennen, te ontspannen op de stranden en een dagtocht te maken naar de Učka-berg of nabijgelegen Istrische steden."
+    },
+    {
+      "question": "Wat is het beste strand in Lovran?",
+      "answer": "Peharovo Strand is het populairste, met een mix van kleine kiezels en een zandige zeebodem die uitstekend is voor gezinnen. Kvarner Strand is ook een goede optie voor betonnen terrassen nabij het centrum."
+    },
+    {
+      "question": "Heb ik een auto nodig in Lovran?",
+      "answer": "Een auto is niet nodig als u van plan bent in de stad te blijven, aangezien het centrum, de stranden en de promenade volledig te voet bereikbaar zijn. Lokale bussen verbinden Lovran gemakkelijk met Rijeka en Opatija."
+    },
+    {
+      "question": "Waar kan ik parkeren in Lovran?",
+      "answer": "Er zijn aangewezen openbare betaalparkeerplaatsen rond de omtrek van de oude stad en nabij de haven. Een plekje bemachtigen in het hoogseizoen kan moeilijk zijn, dus het is sterk aan te raden te controleren of uw accommodatie parkeergelegenheid biedt."
+    },
+    {
+      "question": "Is Lovran geschikt voor gezinnen?",
+      "answer": "Ja, de kalme wateren, veilige voetgangersgebieden en gezinsvriendelijke faciliteiten op stranden zoals Peharovo maken het een comfortabele bestemming. De Lungomare-promenade is ook vlak en kinderwagenvriendelijk."
+    }
+  ],
+  "headings": {
+    "quickFacts": "In één oogopslag",
+    "whereToStay": "Waar te verblijven in Lovran",
+    "gettingThere": "Reizen naar Lovran",
+    "whenToGo": "Wanneer te gaan",
+    "guides": "Lovran gidsen",
+    "faq": "Veelgestelde vragen over Lovran",
+    "groups": {
+      "gettingAround": "Parkeren & rondreizen",
+      "planning": "Planning & waar te verblijven",
+      "timing": "Wanneer te gaan",
+      "travelers": "Gezinnen, stellen & reisstijlen",
+      "activities": "Stranden & activiteiten",
+      "food": "Eten & drinken",
+      "comparisons": "Vergelijkingen",
+      "practical": "Praktische info"
+    },
+    "car": "Met de auto",
+    "other": "Overige opties",
+    "bestFor": "Het beste voor",
+    "parking": "Parkeren",
+    "beach": "Strand"
+  },
+  "destination": "lovran",
+  "language": "nl",
+  "updatedAt": "2026-10-16T12:54:30.674Z"
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Primošten – Cestovní průvodce: Pláže, parkování a kde se ubytovat",
+  "metaDescription": "Naplánujte si cestu do Primoštenu, Chorvatsko. Objevte nejlepší oblázkové pláže, kde zaparkovat u starého města bez aut, a okolní oblasti pro rodiny a páry.",
+  "intro": "Primošten je pobřežní město ve střední Dalmácii, ležící 28 kilometrů jižně od Šibeniku. Známý pro svůj historický poloostrov a velké oblázkové pláže, láká rodiny, páry a cestovatele, kteří hledají tradiční středomořské prostředí bez masivního městského rozsahu nedalekého Splitu. Hlavním lákadlem je dostupnost jeho pobřeží, s plážemi přímo sousedícími s centrem města.\n\nHlavní sezóna trvá od června do září. Červenec a srpen přinášejí nejvyšší teploty a největší davy, zaplňující centrální pláže a hlavní parkoviště. Květen a konec září nabízejí nižší ceny ubytování a klidnější ulice, ačkoli teplota moře může být příliš nízká na koupání.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "Červen až září"
+    },
+    {
+      "label": "Teplota moře v srpnu",
+      "value": "25°C až 27°C"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Letiště Split (SPU), 39 km"
+    },
+    {
+      "label": "Hlavní typ pláže",
+      "value": "Oblázkové a skalnaté"
+    },
+    {
+      "label": "Cenová úroveň",
+      "value": "Průměrná pro dalmatské pobřeží"
+    },
+    {
+      "label": "Pohyb ve starém městě",
+      "value": "Bez aut, pouze pro pěší"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Staré Město (Poloostrov)",
+      "bestFor": "Páry, stravování a historická atmosféra",
+      "parking": "Uvnitř zakázáno; vyžaduje použití placených parkovišť na pevnině",
+      "beach": "200m až 500m pěšky k pláži Mala Raduča",
+      "summary": "Historické centrum se nachází na poloostrově pouze pro pěší. Nabízí nejvyšší koncentraci restaurací a barů, ale vyžaduje tahání zavazadel z parkovišť na pevnině."
+    },
+    {
+      "name": "Raduča",
+      "bestFor": "Rodiny a přístup k pláži",
+      "parking": "Často zahrnuto v hotelech; velká veřejná placená parkoviště v okolí",
+      "beach": "Přímý přístup k oblázkovým plážím Velika a Mala Raduča",
+      "summary": "Tato oblast obklopuje hlavní oblázkové pláže a borové lesy na pevnině. Ubytování zde je blíže k vodě a obecně poskytuje snazší přístup vozidlem ve srovnání se starým městem."
+    },
+    {
+      "name": "Bilo",
+      "bestFor": "Klidné pobyty a páry",
+      "parking": "Obvykle zajištěno soukromými apartmány",
+      "beach": "Okamžitý přístup ke skalnatým zátokám a malým oblázkovým plážím",
+      "summary": "Malá pobřežní osada nacházející se 5 kilometrů severně od Primoštenu. Nabízí klidnější alternativu s přístupem ke skalnatému pobřeží, ale k dosažení restaurací v Primoštenu je potřeba vozidlo nebo místní autobus."
+    },
+    {
+      "name": "Dolac",
+      "bestFor": "Cestovatelé s omezeným rozpočtem a klidné rodinné pobyty",
+      "parking": "Obvykle zahrnuto v ceně ubytování",
+      "beach": "Oblázkové zátoky a betonové terasy v dosahu 100m až 400m",
+      "summary": "Předměstská vesnice 3 kilometry severně, spojená s Primoštenem pobřežní dálnicí. Nabízí rezidenční apartmány a několik místních kaváren, vhodné pro ty, kteří se chtějí vyhnout rušnému centru."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Mnichov",
+      "car": "820 km, ~9 hodin přes Salcburk, Villach, Lublaň, Záhřeb a dálnici A1. Vyžaduje rakouskou a slovinskou dálniční známku, plus chorvatské mýtné.",
+      "other": "Přímé lety do Splitu (SPU) trvají 1,5 hodiny."
+    },
+    {
+      "from": "Vídeň",
+      "car": "640 km, ~6,5 hodiny přes Štýrský Hradec, Maribor, Záhřeb a dálnici A1. Vyžaduje rakouskou a slovinskou dálniční známku, plus chorvatské mýtné.",
+      "other": "Přímé lety do Splitu (SPU) trvají 1 hodinu."
+    },
+    {
+      "from": "Budapešť",
+      "car": "680 km, ~6,5 hodiny přes Letenye, Záhřeb a dálnici A1. Vyžaduje maďarskou dálniční známku, plus chorvatské mýtné.",
+      "other": "Sezónní lety do Splitu nebo spoje FlixBus přes Záhřeb."
+    },
+    {
+      "from": "Lublaň",
+      "car": "400 km, ~4,5 hodiny přes Novo Mesto, Karlovac a dálnici A1. Vyžaduje slovinskou dálniční známku, plus chorvatské mýtné.",
+      "other": "Přímé autobusové spoje existují, ale trvají 8 až 10 hodin."
+    },
+    {
+      "from": "Praha",
+      "car": "970 km, ~10 hodin přes Linec, Štýrský Hradec, Maribor, Záhřeb a dálnici A1. Vyžaduje českou, rakouskou a slovinskou dálniční známku, plus chorvatské mýtné.",
+      "other": "Sezónní přímé lety do Splitu trvají 1,5 hodiny."
+    },
+    {
+      "from": "Krakov",
+      "car": "1050 km, ~11 hodin přes Ostravu, Brno, Vídeň, Štýrský Hradec, Záhřeb a dálnici A1. Vyžaduje českou, rakouskou a slovinskou dálniční známku, plus chorvatské mýtné.",
+      "other": "Sezónní lety do Splitu prostřednictvím LOT Polish Airlines nebo nízkonákladových dopravců."
+    }
+  ],
+  "whenToGo": "Turistická sezóna v Primoštenu trvá od konce května do začátku října. Červenec a srpen jsou vrcholné měsíce, s teplotami moře kolem 26°C, spolehlivým sluncem a všemi místními podniky fungujícími na plnou kapacitu. Tyto měsíce také zaznamenávají nejvyšší ceny a největší davy na pláži Mala Raduča. Červen a září nabízejí mírnější denní teploty (23°C až 28°C) a snížené ceny ubytování, ačkoli konec září s sebou nese vyšší pravděpodobnost deště. Od října do dubna se Primošten mění v klidné rezidenční město; většina hotelů, sezónních restaurací a plážových barů se zavírá a teploty moře klesají pod 18°C.",
+  "faq": [
+    {
+      "question": "Stojí Primošten za návštěvu?",
+      "answer": "Ano, Primošten stojí za návštěvu pro cestovatele hledající tradiční pobřežní město s rozsáhlými oblázkovými plážemi. Slouží jako vynikající základna pro objevování střední Dalmácie, včetně nedalekého Národního parku Krka a města Šibenik."
+    },
+    {
+      "question": "Kolik dní potřebuji v Primoštenu?",
+      "answer": "Tři až pět dní je dostačující k prozkoumání města, strávení času na plážích a podniknutí jednodenního výletu do okolí. Návštěvníci hledající čistě plážovou dovolenou často zůstávají jeden až dva týdny."
+    },
+    {
+      "question": "Jaká je nejlepší pláž v Primoštenu?",
+      "answer": "Mala Raduča je považována za nejlepší a nejoblíbenější pláž díky své centrální poloze, hladkým oblázkům a čisté vodě. Velika Raduča je větší alternativou hned přes poloostrov, nabízející vodní sporty a stín borových stromů."
+    },
+    {
+      "question": "Potřebuji auto v Primoštenu?",
+      "answer": "Auto není nutné, pokud se ubytujete v centru města nebo v blízkosti pláží Raduča, protože denní potřeby jsou v docházkové vzdálenosti. Nicméně vozidlo je vysoce doporučeno pro objevování okolních vesnic, národních parků nebo větších měst jako Split a Zadar."
+    },
+    {
+      "question": "Kde parkovat v Primoštenu?",
+      "answer": "Parkování uvnitř poloostrova starého města je pro nerezidenty zakázáno. Návštěvníci musí využít velká placená parkoviště umístěná hned za branami poloostrova nebo si potvrdit vyhrazené parkování mimo ulici u svého poskytovatele ubytování."
+    },
+    {
+      "question": "Je Primošten vhodný pro rodiny?",
+      "answer": "Ano, Primošten je velmi vhodný pro rodiny díky svým klidným vodám a přístupným, čistým oblázkovým plážím. Přítomnost borovic poskytujících stín, půjčoven šlapadel a rovných vycházkových cest z něj činí pohodlné místo pro děti všech věkových kategorií."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Stručně",
+    "whereToStay": "Kde se ubytovat v Primoštenu",
+    "gettingThere": "Jak se dostat do Primoštenu",
+    "whenToGo": "Kdy jet",
+    "guides": "Průvodci po Primoštenu",
+    "faq": "Časté dotazy k Primoštenu",
+    "groups": {
+      "gettingAround": "Parkování a pohyb po městě",
+      "planning": "Plánování a kde se ubytovat",
+      "timing": "Kdy jet",
+      "travelers": "Rodiny, páry a styly cestování",
+      "activities": "Pláže a co dělat",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": "Praktické informace"
+    },
+    "car": "Autem",
+    "other": "Další možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "primosten",
+  "language": "cz",
+  "updatedAt": "2026-10-16T13:44:37.140Z"
+}

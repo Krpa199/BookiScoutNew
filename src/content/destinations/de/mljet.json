@@ -1,0 +1,146 @@
+{
+  "title": "Mljet Reiseführer: Nationalpark, Fähren & Unterkünfte",
+  "metaDescription": "Planen Sie eine Reise nach Mljet, Kroatien. Ein informativer Führer zu Nationalparkzugang, Fahrtrouten, Fähren, den besten Dörfern zum Übernachten und praktischen Tipps.",
+  "intro": "Mljet ist eine stark bewaldete Adria-Insel, die sich für Reisende eignet, die Natur, Wandern und ruhige Küstendörfer suchen. Das westliche Drittel der Insel ist ein geschützter Nationalpark mit zwei Salzwasserseen, der sowohl Tagesausflügler als auch Langzeitbesucher anzieht. Die östlichen und zentralen Teile bieten abgelegene Buchten und Sandstrände, die sich von der typisch kroatischen Kiesküste unterscheiden.\n\nDie Hauptreisezeit dauert von Ende Mai bis September. Juli und August bringen die wärmsten Meerestemperaturen und das höchste Aufkommen an Yachtverkehr, insbesondere in Pomena und Polače. Mai und September bieten milderes Wetter zum Radfahren und Wandern auf den Nationalparkwegen, mit weniger Menschenmassen und niedrigeren Unterkunftspreisen.",
+  "quickFacts": [
+    {
+      "label": "Beste Monate",
+      "value": "Mai bis September"
+    },
+    {
+      "label": "Meerestemperatur im August",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Nächster Flughafen",
+      "value": "Dubrovnik (DBV), 85 km (inkl. Fähre)"
+    },
+    {
+      "label": "Hauptstrandtyp",
+      "value": "Salzwasserseen, Felsbuchten und seltene Sandstrände"
+    },
+    {
+      "label": "Preisniveau",
+      "value": "Überdurchschnittlich (Insel-Logistik und Parkgebühren)"
+    },
+    {
+      "label": "Begehbarkeit der Zentren",
+      "value": "Dörfer sind klein/begehbar; Nationalpark ist autofrei"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Pomena",
+      "bestFor": "Zugang zum Nationalpark und Gastronomie",
+      "parking": "Begrenzte Parkplätze an der Straße; gebührenpflichtiger Parkplatz in Hotelnähe",
+      "beach": "10 Gehminuten zum Malo Jezero (Salzwassersee)",
+      "summary": "Ein kleines Hafendorf an der Westspitze, das als Haupteingang zum Nationalpark dient. Es verfügt über das einzige große Hotel der Insel, viel Yachtverkehr und zahlreiche Fischrestaurants."
+    },
+    {
+      "name": "Polače",
+      "bestFor": "Historische Ruinen und geschützter Ankerplatz",
+      "parking": "Parkplätze an der Straße vorhanden, in der Hochsaison überfüllt",
+      "beach": "Felsige Uferpromenade; 3 km Fußweg/Fahrradweg zu den Seen",
+      "summary": "Verfügt über markante römische Ruinen direkt am Wasser. Es dient als zweiter Eingang zum Nationalpark und liegt in einer tiefen, geschützten Bucht mit mehreren Fährverbindungen."
+    },
+    {
+      "name": "Saplunara",
+      "bestFor": "Sandstrände und ruhige Entspannung",
+      "parking": "Private Stellplätze an Apartments, kleine unbefestigte Parkplätze",
+      "beach": "Direkter Zugang zu seltenen Sandstränden",
+      "summary": "Liegt an der isolierten Ostspitze der Insel, bekannt für ihre Sandbuchten. Hier gibt es keine Nationalparkattraktionen, wodurch es ruhiger ist und sich ganz dem Strandleben widmet."
+    },
+    {
+      "name": "Sobra",
+      "bestFor": "Fährzugang und praktischer Ausgangspunkt",
+      "parking": "Ausreichend Parkplätze in der Nähe des Fährhafens und des Dorfzentrums",
+      "beach": "Kleine Kiesel- und Felsabschnitte im Dorf",
+      "summary": "Der Haupthafen, an dem die Autofähre vom Festland ankommt. Er ist zentral gelegen und bietet niedrigere Preise sowie einen strategischen Ausgangspunkt, um beide Enden der Insel zu erkunden."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "930 km zum Hafen Prapratno, ca. 10 Stunden über A8, A10, HR A1 und die Pelješac-Brücke. AT Vignette/Maut, SI Vignette, HR Maut. Plus 45-minütige Autofähre nach Sobra.",
+      "other": "Flug nach Dubrovnik (DBV) oder Split (SPU), dann Bus/Taxi zum Hafen und Passagierkatamaran."
+    },
+    {
+      "from": "Wien",
+      "car": "830 km zum Hafen Prapratno, ca. 9 Stunden über A2 (AT), HR A1 und die Pelješac-Brücke. AT Vignette, SI Vignette, HR Maut. Plus 45-minütige Autofähre nach Sobra.",
+      "other": "Flug nach Dubrovnik (DBV), dann Bus zum Hafen Gruž und Passagierkatamaran."
+    },
+    {
+      "from": "Budapest",
+      "car": "790 km zum Hafen Prapratno, ca. 8,5 Stunden über M7 (HU), HR A1 und die Pelješac-Brücke. HU Vignette, HR Maut. Plus 45-minütige Autofähre nach Sobra.",
+      "other": "Flug nach Split (SPU) oder Dubrovnik (DBV), dann Passagierkatamaran nach Mljet."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "610 km zum Hafen Prapratno, ca. 7 Stunden über A2 (SI), HR A1 und die Pelješac-Brücke. SI Vignette, HR Maut. Plus 45-minütige Autofähre nach Sobra.",
+      "other": "Bus nach Split oder Dubrovnik, dann Passagierkatamaran nach Pomena oder Sobra."
+    },
+    {
+      "from": "Prag",
+      "car": "1.150 km zum Hafen Prapratno, ca. 12,5 Stunden über A9 (AT) und HR A1. CZ, AT, SI Vignetten, HR Maut. Plus 45-minütige Autofähre nach Sobra.",
+      "other": "Flug nach Dubrovnik (DBV), dann Bus zum Hafen und Passagierkatamaran."
+    },
+    {
+      "from": "Krakau",
+      "car": "1.120 km zum Hafen Prapratno, ca. 12,5 Stunden über SK, HU (M7) und HR A1. SK, HU Vignetten, HR Maut. Plus 45-minütige Autofähre nach Sobra.",
+      "other": "Flug nach Split (SPU) oder Dubrovnik (DBV), dann Passagierkatamaran."
+    }
+  ],
+  "whenToGo": "Die Touristensaison auf Mljet dauert von Mai bis Oktober, im Einklang mit erweiterten Fährfahrplänen und geöffneten Restaurants. Juli und August sind die belebtesten und teuersten Monate, mit Meerestemperaturen von bis zu 27°C und einer großen Anzahl von Yachten, die in Pomena und Polače anlegen. Mai, Juni und September bieten angenehme Lufttemperaturen um 20–25°C, was diese Monate ideal zum Radfahren und Wandern im Nationalpark macht, obwohl das Meer Anfang Mai möglicherweise zu kühl für ausgedehntes Schwimmen ist. Zwischen November und April ist die Insel sehr ruhig; Passagierkatamarane verkehren nach reduziertem Fahrplan, und die meisten touristischen Einrichtungen, einschließlich vieler Restaurants und Unterkünfte, schließen für den Winter.",
+  "faq": [
+    {
+      "question": "Ist Mljet einen Besuch wert?",
+      "answer": "Ja, für Reisende, die Natur, Wandern und klares Wasser abseits großer Ferienorte suchen. Der Nationalpark der Insel und die Salzwasserseen bieten eine einzigartige Landschaft im Vergleich zu anderen kroatischen Inseln, obwohl es an Nachtleben und umfangreichen Einkaufsmöglichkeiten mangelt."
+    },
+    {
+      "question": "Wie viele Tage brauche ich auf Mljet?",
+      "answer": "Zwei bis drei Tage reichen aus, um um die Nationalparkseen zu radeln, die Insel St. Mary's zu besuchen und einige Küstendörfer zu erkunden. Tagesausflüge von Dubrovnik oder Korčula sind beliebt, aber eine Übernachtung ermöglicht es Ihnen, den Park ohne die Mittagsmassen zu erleben."
+    },
+    {
+      "question": "Welcher ist der beste Strand auf Mljet?",
+      "answer": "Velika Saplunara und Mala Saplunara an der Ostspitze sind die besten Sandstrände. Im Nationalpark sind die Ufer des Malo Jezero und Veliko Jezero (die Salzwasserseen) aufgrund ihres warmen, ruhigen Wassers und des Kiefernschattens sehr beliebt zum Schwimmen."
+    },
+    {
+      "question": "Brauche ich ein Auto auf Mljet?",
+      "answer": "Ein Auto oder Roller ist dringend empfohlen, wenn Sie die Insel erkunden möchten, da die Entfernung zwischen dem Nationalpark im Westen und Saplunara im Osten über 40 Kilometer beträgt. Wenn Sie nur in Pomena oder Polače bleiben und den Nationalpark besuchen möchten, ist ein Auto unnötig."
+    },
+    {
+      "question": "Wo parke ich im Mljet Nationalpark?",
+      "answer": "Es gibt einen ausgewiesenen gebührenpflichtigen Parkplatz im Dorf Vrbovica (nahe Mali Most) direkt am Seezugang, sowie Parkplätze an der Straße in Pomena und Polače. Fahrzeuge sind auf den Wanderwegen direkt um die Salzwasserseen nicht erlaubt."
+    },
+    {
+      "question": "Ist Mljet gut für Familien?",
+      "answer": "Ja, besonders für aktive Familien, die Radfahren, Schwimmen und Naturwanderungen genießen. Die Salzwasserseen sind aufgrund des Mangels an Wellen sehr sicher für Kinder, und die Sandstrände in Saplunara verfügen über flache, allmähliche Zugänge."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Auf einen Blick",
+    "whereToStay": "Unterkünfte auf Mljet",
+    "gettingThere": "Anreise nach Mljet",
+    "whenToGo": "Beste Reisezeit",
+    "guides": "Mljet Reiseführer",
+    "faq": "Mljet Häufig gestellte Fragen",
+    "groups": {
+      "gettingAround": "Parken & Fortbewegung",
+      "planning": "Planung & Unterkünfte",
+      "timing": "Beste Reisezeit",
+      "travelers": "Familien, Paare & Reisestile",
+      "activities": "Strände & Aktivitäten",
+      "food": "Essen & Trinken",
+      "comparisons": "Vergleiche",
+      "practical": "Praktische Infos"
+    },
+    "car": "Mit dem Auto",
+    "other": "Weitere Optionen",
+    "bestFor": "Am besten für",
+    "parking": "Parken",
+    "beach": "Strand"
+  },
+  "destination": "mljet",
+  "language": "de",
+  "updatedAt": "2026-10-16T14:20:51.722Z"
+}

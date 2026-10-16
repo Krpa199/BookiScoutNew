@@ -1,0 +1,146 @@
+{
+  "title": "Zadar: Pláže, parkování a kde se ubytovat – Průvodce cestováním",
+  "metaDescription": "Naplánujte si cestu do Zadaru s praktickými informacemi o trasách, parkování, čtvrtích a nejlepších oblázkových plážích. Průvodce městem plný faktů.",
+  "intro": "Zadar slouží jako praktická brána do Severní Dalmácie, nabízející kompaktní římské a středověké centrum spolu s dostupnými oblázkovými plážemi. Je vhodný pro rodiny, páry a cestovatele s autem, kteří hledají základnu méně přeplněnou a levnější než Split nebo Dubrovník, a zároveň poskytuje přímý přístup na Kornatské ostrovy a Plitvická jezera.\n\nHlavní město je rozděleno mezi historický, pěší poloostrov a pobřežní obytné čtvrti táhnoucí se na sever a jih. Hlavní sezóna trvá od konce června do srpna, kdy je moře nejteplejší a trajektové linky fungují na plnou kapacitu. Ti, kteří dávají přednost památkám a nižším nákladům na ubytování, by měli cílit na květen, září nebo říjen, kdy počasí zůstává mírné a místní silnice jsou klidnější.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "Červen až září"
+    },
+    {
+      "label": "Teplota moře v srpnu",
+      "value": "25°C - 26°C"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Letiště Zadar (ZAD), 12 km od centra"
+    },
+    {
+      "label": "Hlavní typ pláže",
+      "value": "Oblázkové a betonové terasy"
+    },
+    {
+      "label": "Cenová úroveň",
+      "value": "Střední (levnější než Split nebo Dubrovník)"
+    },
+    {
+      "label": "Staré město",
+      "value": "Pěší zóna na poloostrově (bez aut)"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Staré město (Poluotok)",
+      "bestFor": "Prohlídky památek, stravování a krátké pobyty.",
+      "parking": "Veřejné placené parkoviště mimo hradby; velmi omezené.",
+      "beach": "15-20 minut chůze na pláž Kolovare.",
+      "summary": "Historické srdce Zadaru zaujímá malý poloostrov plný římských ruin, kostelů a restaurací. Je zcela pěší zónou, což ztěžuje pohyb řidičům, ale je velmi praktické pro pěší."
+    },
+    {
+      "name": "Borik a Puntamika",
+      "bestFor": "Rodiny a plážové dovolené v letoviscích.",
+      "parking": "Většina hotelů a apartmánů poskytuje soukromé parkování.",
+      "beach": "Přímý přístup na pláž Borik (směs oblázků a písku).",
+      "summary": "Tato oblast se nachází 4 km severně od centra a nachází se zde hlavní letoviska a kempy Zadaru. Nabízí mělké pláže a stín borovic, i když k dosažení Starého města je potřeba autobus nebo auto."
+    },
+    {
+      "name": "Diklo",
+      "bestFor": "Klidenější pobyty v apartmánech s vlastním stravováním.",
+      "parking": "Běžné je bezplatné parkování na ulici; ověřte si u ubytování.",
+      "beach": "Přímý přístup k oblázkovým a betonovým plážím.",
+      "summary": "Obytná čtvrť rozkládající se na sever od Boriku, charakterizovaná apartmány u vody a malými místními kavárnami. Pobřeží tvoří převážně betonové terasy a skalnaté oblasti oblíbené místními."
+    },
+    {
+      "name": "Kolovare a Arbanasi",
+      "bestFor": "Pěší přístup jak na pláž, tak do Starého města.",
+      "parking": "Parkování na ulici je k dispozici, v létě velmi přeplněné.",
+      "beach": "Přímý přístup na pláž Kolovare (oblázková).",
+      "summary": "Tato čtvrť se nachází jižně od Starého města a soustředí se kolem hlavní veřejné pláže města. Nabízí praktický kompromis mezi časem stráveným na pláži a večerními procházkami do centra."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Mnichov",
+      "car": "730 km, 8-9 hodin přes A8, A10 (Tauern) a Chorvatskou A1. Mýtné zahrnuje rakouskou dálniční známku, tunely Tauern/Karawanky, slovinskou dálniční známku a chorvatské dálniční mýtné.",
+      "other": "Přímé lety s Croatia Airlines nebo Lufthansou."
+    },
+    {
+      "from": "Vídeň",
+      "car": "600 km, 6-7 hodin přes Štýrský Hradec, Maribor a Záhřeb (A1). Vyžaduje rakouskou a slovinskou dálniční známku, plus chorvatské dálniční mýtné.",
+      "other": "Přímé lety s Austrian Airlines nebo Ryanair."
+    },
+    {
+      "from": "Budapešť",
+      "car": "630 km, 6-7 hodin přes M7 k hranici Letenye, poté HR A4 a A1. Vyžaduje maďarskou dálniční známku a chorvatské dálniční mýtné.",
+      "other": "Přímé nízkonákladové lety (Ryanair) nebo dálkový autobus (Flixbus)."
+    },
+    {
+      "from": "Lublaň",
+      "car": "330 km, 3.5-4 hodiny přes A2 do Novo Mesto, poté HR A1. Vyžaduje slovinskou dálniční známku a chorvatské dálniční mýtné.",
+      "other": "Přímé autobusové spoje (cca 5-6 hodin)."
+    },
+    {
+      "from": "Praha",
+      "car": "900 km, 10-11 hodin přes Brno, Vídeň a Záhřeb. Vyžaduje českou, rakouskou a slovinskou dálniční známku, plus chorvatské dálniční mýtné.",
+      "other": "Přímé sezónní lety (Ryanair) nebo vlaky RegioJet do pobřežních měst."
+    },
+    {
+      "from": "Krakov",
+      "car": "1000 km, 10-11 hodin přes Slovensko (D1) a Maďarsko (M1/M7). Vyžaduje slovenskou a maďarskou dálniční známku, plus chorvatské dálniční mýtné.",
+      "other": "Přímé sezónní lety (Ryanair) nebo dálkový autobus."
+    }
+  ],
+  "whenToGo": "Od konce června do srpna je hlavní sezóna, charakterizovaná teplotami vzduchu často přesahujícími 30 °C, teplotami moře dosahujícími 26 °C a nejvyššími cenami ubytování. Červenec a srpen přinášejí husté davy do Starého města a na pláže, zatímco všechny restaurace, trajektové linky a cestovní kanceláře fungují na plnou kapacitu. Září nabízí optimální rovnováhu: moře zůstává dostatečně teplé na koupání, ale letní davy řídnou a ceny hotelů klesají o 20-30 %. Od listopadu do Velikonoc vstupuje Zadar do mimosezóny; mnoho pobřežních letovisek, sezónních restaurací a ostrovních trajektových spojení omezuje své služby nebo se zcela uzavírá, ačkoli centrum města zůstává funkční pro místní.",
+  "faq": [
+    {
+      "question": "Stojí Zadar za návštěvu?",
+      "answer": "Ano, Zadar stojí za návštěvu pro svou kombinaci římské historie, středověkých kostelů a unikátního veřejného umění, jako jsou Mořské varhany. Slouží jako praktická, méně přeplněná alternativa ke Splitu a jako vynikající základna pro návštěvu několika národních parků."
+    },
+    {
+      "question": "Kolik dní potřebujete v Zadaru?",
+      "answer": "Dva celé dny postačí k prozkoumání Starého města a užití si místních pláží. Pokud plánujete jednodenní výlety na Kornatské ostrovy nebo Plitvická jezera, počítejte se čtyřmi až pěti dny."
+    },
+    {
+      "question": "Jaká je nejlepší pláž v Zadaru?",
+      "answer": "Pláž Borik je vysoce hodnocena pro rodiny díky mělké vodě a směsi písku a oblázků. Pláž Kolovare je nejpohodlnější možností, pokud se ubytujete blízko centra města, nabízí dlouhé oblázkové úseky a přirozený stín."
+    },
+    {
+      "question": "Potřebuji auto v Zadaru?",
+      "answer": "Auto nepotřebujete, pokud plánujete zůstat ve Starém městě nebo se vydat na organizované lodní výlety. Nicméně auto je vysoce doporučeno, pokud chcete prozkoumat širší oblast Zadaru, navštívit národní parky nebo se ubytovat v okrajových čtvrtích, jako je Diklo."
+    },
+    {
+      "question": "Kde je nejlepší zaparkovat v Zadaru?",
+      "answer": "Staré město je pěší zóna, takže návštěvníci musí parkovat mimo městské hradby. Nejpraktičtějšími možnostmi jsou veřejná parkoviště podél východní zdi (Obala kralja Tomislava) nebo nedaleké parkoviště Ravnice, které účtují hodinové nebo denní sazby."
+    },
+    {
+      "question": "Je Zadar vhodný pro rodiny?",
+      "answer": "Ano, Zadar je vysoce vhodný pro rodiny díky svému plochému, pěšímu centru a klidnější atmosféře ve srovnání s většími dalmatskými městy. Oblasti jako Borik nabízejí specializovaná rodinná letoviska, mělké vody a stín borovic."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Přehledně",
+    "whereToStay": "Kde se ubytovat v Zadaru",
+    "gettingThere": "Cesta do Zadaru",
+    "whenToGo": "Kdy jet",
+    "guides": "Průvodci Zadarem",
+    "faq": "Časté dotazy Zadar",
+    "groups": {
+      "gettingAround": "Parkování a doprava",
+      "planning": "Plánování a kde se ubytovat",
+      "timing": "Kdy jet",
+      "travelers": "Rodiny, páry a styly cestování",
+      "activities": "Pláže a co dělat",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": "Praktické informace"
+    },
+    "car": "Autem",
+    "other": "Jiné možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "zadar",
+  "language": "cz",
+  "updatedAt": "2026-10-16T09:19:41.029Z"
+}

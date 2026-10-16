@@ -1,0 +1,146 @@
+{
+  "title": "Hvar: Przewodnik po wyspie – rejony, promy i noclegi",
+  "metaDescription": "Zaplanuj podróż na Hvar w Chorwacji. Odkryj najlepsze rejony na pobyt, trasy dojazdu z Europy Środkowej, informacje o promach i praktyczne wskazówki dla odwiedzających.",
+  "intro": "Hvar to wyspa u wybrzeży Dalmacji w Chorwacji, dostępna promami samochodowymi ze Splitu i Drvenika. Przyciąga szerokie grono odwiedzających – od tych szukających nocnej rozrywki w mieście Hvar, po rodziny i pary preferujące spokojniejsze, historyczne miejscowości Stari Grad i Jelsa. Krajobraz tworzą lasy sosnowe, pola lawendy i skaliste wybrzeże z kamienistymi plażami.\n\nNa wyspie panuje typowy klimat śródziemnomorski. Główny sezon turystyczny trwa od maja do października, przy czym lipiec i sierpień przynoszą najwyższe temperatury, największe tłumy i szczytowe ceny. Wrzesień oferuje ciepłe temperatury morza i spokojniejsze miejscowości, co czyni go praktyczną alternatywą dla osób z elastycznym harmonogramem. W miesiącach zimowych wiele restauracji i hoteli całkowicie się zamyka.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "Od czerwca do września"
+    },
+    {
+      "label": "Temperatura morza w sierpniu",
+      "value": "25°C do 27°C"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Lotnisko Split (SPU), 24 km do portu w Splicie + 2 godziny promem"
+    },
+    {
+      "label": "Główny typ plaży",
+      "value": "Żwirkowe i skaliste płyty"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "Wyższy niż średnia chorwacka (szczególnie w mieście Hvar)"
+    },
+    {
+      "label": "Centra bez samochodów",
+      "value": "Tak, centra miasta Hvar i Stari Grad są wyłącznie dla pieszych"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Hvar",
+      "bestFor": "Życie nocne, luksusowe hotele i osoby odwiedzające po raz pierwszy bez samochodu",
+      "parking": "Płatne parkingi publiczne poza centrum wolnym od samochodów; drogie latem",
+      "beach": "Pokonji Dol (żwirowa, 20 min spacerem) lub Wyspy Pakleni taksówką wodną",
+      "summary": "Najsłynniejsza i najdroższa miejscowość na wyspie, znana z zabytkowej architektury, luksusowych restauracji i aktywnego życia nocnego. Całe historyczne centrum jest przeznaczone wyłącznie dla pieszych."
+    },
+    {
+      "name": "Stari Grad",
+      "bestFor": "Rodziny, entuzjaści historii i podróżni szukający spokojniejszej bazy",
+      "parking": "Dużo płatnych parkingów na obrzeżach miasta; niektóre noclegi oferują prywatne miejsca",
+      "beach": "Lanterna (żwirowa i betonowa, 10 min spacerem) lub pobliskie zaciszne zatoczki",
+      "summary": "Jedno z najstarszych miast w Europie, oferujące relaksującą atmosferę z wąskimi brukowanymi uliczkami i tradycyjnymi konobami. Znajduje się blisko głównego terminalu promów samochodowych, co ułatwia przyjazd."
+    },
+    {
+      "name": "Jelsa",
+      "bestFor": "Rodziny z małymi dziećmi i podróżni dbający o budżet",
+      "parking": "Duży publiczny parking w pobliżu portu; głównie płatny w sezonie",
+      "beach": "Plaża Mina (płytkie, piaszczyste dno, 10 min spacerem od centrum)",
+      "summary": "Nadbrzeżne miasteczko po północnej stronie wyspy o silnym lokalnym charakterze i niższych cenach niż Hvar. Posiada szeroką promenadę i dostęp do płytkich zatok z piaszczystym dnem."
+    },
+    {
+      "name": "Zavala",
+      "bestFor": "Pary, miłośnicy przyrody i osoby szukające izolacji",
+      "parking": "Zazwyczaj zapewniany przez pensjonaty; minimalna dostępność miejsc publicznych",
+      "beach": "Długie odcinki drobnych żwirowych plaż bezpośrednio wzdłuż wybrzeża wioski",
+      "summary": "Położona na stromym południowym wybrzeżu, dostępna przez wąski, jednopasmowy tunel z Pitve. Oferuje czyste wody i spokój, z ograniczonymi opcjami gastronomicznymi i handlowymi."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monachium",
+      "car": "890 km, ~11-12 godzin autostradami A8, A10, A1 (HR) do Splitu, następnie 2 godziny promem samochodowym. Opłaty drogowe w AT, SLO, HR + bilet na prom.",
+      "other": "Bezpośrednie loty do Splitu (SPU), a następnie katamaran pasażerski na Hvar."
+    },
+    {
+      "from": "Wiedeń",
+      "car": "770 km, ~9-10 godzin autostradami A2, A9, A1 (HR) do Splitu, następnie 2 godziny promem samochodowym. Opłaty drogowe w AT, SLO, HR + bilet na prom.",
+      "other": "Bezpośrednie loty do Splitu lub pociąg nocny (Nightjet/EuroNight) do Splitu, następnie katamaran."
+    },
+    {
+      "from": "Budapeszt",
+      "car": "750 km, ~9-10 godzin autostradami M7, A4, A1 (HR) do Splitu, następnie 2 godziny promem samochodowym. Opłaty drogowe w HU, HR + bilet na prom.",
+      "other": "Bezpośrednie loty do Splitu lub sezonowy pociąg sypialny z Budapesztu do Splitu."
+    },
+    {
+      "from": "Lublana",
+      "car": "520 km, ~7-8 godzin autostradami A2, A1 (HR) do Splitu, następnie 2 godziny promem samochodowym. Opłaty drogowe w SLO, HR + bilet na prom.",
+      "other": "Bezpośredni autobus (FlixBus) na dworzec autobusowy w Splicie, a następnie prom lub katamaran."
+    },
+    {
+      "from": "Praga",
+      "car": "1070 km, ~13-14 godzin autostradami D1, A9 (AT), A1 (HR) do Splitu, następnie prom samochodowy. Opłaty drogowe w CZ, AT, SLO, HR + bilet na prom.",
+      "other": "Bezpośrednie loty do Splitu lub sezonowe połączenia kolejowe RegioJet do Splitu."
+    },
+    {
+      "from": "Kraków",
+      "car": "1100 km, ~13-14 godzin przez Słowację (D1), Węgry (M7), Chorwację (A1) do Splitu, następnie prom samochodowy. Opłaty drogowe w SK, HU, HR + bilet na prom.",
+      "other": "Bezpośrednie loty do Splitu z Krakowa lub pobliskich Katowic, następnie katamaran."
+    }
+  ],
+  "whenToGo": "W maju pogoda się ociepla i rozpoczyna się sezon turystyczny, choć morze pozostaje chłodne (około 18°C), a niektóre firmy nadal przygotowują się do otwarcia. Czerwiec przynosi pewne słońce, temperaturę morza osiągającą 22°C i umiarkowane tłumy. Lipiec i sierpień to miesiące szczytowe, charakteryzujące się dziennymi temperaturami od 30°C do 35°C, temperaturą morza do 27°C, pełnym funkcjonowaniem wszystkich promów, ale także szczytowymi cenami i dużym natężeniem ruchu w portach. Wrzesień to optymalny czas na wizytę, ponieważ morze zachowuje letnie ciepło, temperatury powietrza spadają do komfortowych 25°C, a ceny maleją. Od października do kwietnia Hvar wkracza w spokojną fazę zimową; rozkłady promów są znacznie ograniczone, a większość hoteli i restauracji nastawionych na turystów całkowicie się zamyka.",
+  "faq": [
+    {
+      "question": "Czy warto odwiedzić?",
+      "answer": "Tak, warto odwiedzić Hvar ze względu na połączenie zabytkowej architektury, czystych wód Morza Śródziemnego i niezawodnej letniej pogody. Oferuje on różne doświadczenia w zależności od miejsca pobytu, od luksusowych restauracji w mieście Hvar po spokojne miejsca na południowym wybrzeżu."
+    },
+    {
+      "question": "Ile dni?",
+      "answer": "Pobyt od 3 do 5 dni wystarczy, aby zwiedzić główne miejscowości, wybrać się na wycieczkę łodzią na Wyspy Pakleni i przejechać przez wnętrze wyspy. Jeśli chcesz zobaczyć tylko miasto Hvar, wystarczy wycieczka 1-2 dniowa."
+    },
+    {
+      "question": "Najlepsza plaża?",
+      "answer": "Dubovica jest powszechnie uważana za najlepszą plażę na wyspie, z szeroką żwirową zatoczką i czystą wodą. Wymaga 10-minutowej wędrówki w dół stromej, skalistej ścieżki z głównej autostrady, więc niezbędne jest solidne obuwie."
+    },
+    {
+      "question": "Czy potrzebuję samochodu?",
+      "answer": "Samochód jest niezbędny, jeśli planujesz zwiedzać różne miejscowości, wioski w głębi lądu i odległe plaże. Jeśli zamierzasz pozostać wyłącznie w mieście Hvar lub Stari Grad, samochód będzie przeszkodą ze względu na strefy tylko dla pieszych i wysokie opłaty parkingowe."
+    },
+    {
+      "question": "Gdzie zaparkować?",
+      "answer": "Parking jest dostępny na dużych, płatnych parkingach miejskich położonych na obrzeżach stref dla pieszych w mieście Hvar i Stari Grad. W lipcu i sierpniu parkingi te szybko się zapełniają, a dzienne stawki w mieście Hvar mogą przekroczyć 20 euro."
+    },
+    {
+      "question": "Czy jest dobre dla rodzin?",
+      "answer": "Tak, Hvar jest bardzo odpowiedni dla rodzin, szczególnie w miejscowościach takich jak Stari Grad i Jelsa, gdzie atmosfera jest spokojniejsza. Obszary te oferują płaskie promenady, łatwiejszy dostęp do płytkich plaż i apartamenty przyjazne rodzinom."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Gdzie się zatrzymać na Hvarze",
+    "gettingThere": "Dojazd na Hvar",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Hvarze",
+    "faq": "Hvar – najczęściej zadawane pytania",
+    "groups": {
+      "gettingAround": "Parking i poruszanie się",
+      "planning": "Planowanie i gdzie się zatrzymać",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróżowania",
+      "activities": "Plaże i atrakcje",
+      "food": "Jedzenie i picie",
+      "comparisons": "Porównania",
+      "practical": "Praktyczne informacje"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "hvar",
+  "language": "pl",
+  "updatedAt": "2026-10-16T13:59:10.686Z"
+}

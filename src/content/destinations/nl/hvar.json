@@ -1,0 +1,146 @@
+{
+  "title": "Hvar Reisgids: Gebieden, Veerboten & Waar te verblijven",
+  "metaDescription": "Plan een reis naar Hvar, Kroatië. Ontdek de beste gebieden om te verblijven, autoroutes vanuit Midden-Europa, veerbootinformatie en praktische tips voor bezoekers.",
+  "intro": "Hvar is een eiland voor de Dalmatische kust van Kroatië, bereikbaar via autoveerboten vanuit Split en Drvenik. Het trekt een breed scala aan bezoekers aan, van mensen die op zoek zijn naar uitgaansgelegenheden in Hvar-stad tot gezinnen en stellen die de voorkeur geven aan de rustigere, historische plaatsen Stari Grad en Jelsa. Het landschap bestaat uit dennenbossen, lavendelvelden en een rotsachtige kustlijn met kiezelstranden.\n\nHet eiland heeft een typisch mediterraan klimaat. Het belangrijkste reisseizoen loopt van mei tot oktober, waarbij juli en augustus de hoogste temperaturen, grootste drukte en piek prijzen met zich meebrengen. September biedt warme zeetemperaturen en rustigere plaatsen, waardoor het een praktisch alternatief is voor mensen met flexibele schema's. In de wintermaanden sluiten veel restaurants en hotels volledig.",
+  "quickFacts": [
+    {
+      "label": "Beste maanden",
+      "value": "Juni tot september"
+    },
+    {
+      "label": "Zeetemperatuur in augustus",
+      "value": "25°C tot 27°C"
+    },
+    {
+      "label": "Dichtstbijzijnde luchthaven",
+      "value": "Luchthaven Split (SPU), 24 km naar de haven van Split + 2 uur veerboot"
+    },
+    {
+      "label": "Hoofdstrandtype",
+      "value": "Kiezel en rotsplaten"
+    },
+    {
+      "label": "Prijsniveau",
+      "value": "Hoger dan het Kroatische gemiddelde (vooral Hvar-stad)"
+    },
+    {
+      "label": "Autovrije centra",
+      "value": "Ja, de centra van Hvar-stad en Stari Grad zijn alleen toegankelijk voor voetgangers"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Hvar-stad",
+      "bestFor": "Nachtleven, luxe hotels en bezoekers die voor het eerst komen zonder auto",
+      "parking": "Betaalde openbare parkeerplaatsen buiten het autovrije centrum; duur in de zomer",
+      "beach": "Pokonji Dol (kiezel, 20 min lopen) of Pakleni Eilanden via watertaxi",
+      "summary": "De bekendste en duurste plaats op het eiland, bekend om zijn historische architectuur, luxe restaurants en bruisende nachtleven. Het hele historische centrum is autovrij."
+    },
+    {
+      "name": "Stari Grad",
+      "bestFor": "Gezinnen, geschiedenisliefhebbers en reizigers die een rustigere uitvalsbasis zoeken",
+      "parking": "Volop betaald parkeren aan de rand van de stad; sommige accommodaties bieden privéparkeerplaatsen",
+      "beach": "Lanterna (kiezel en beton, 10 min lopen) of nabijgelegen afgelegen baaien",
+      "summary": "Een van Europa's oudste steden, met een ontspannen sfeer, smalle geplaveide straatjes en traditionele konoba's. Het ligt dicht bij de belangrijkste autoveerboothaven, waardoor aankomst eenvoudig is."
+    },
+    {
+      "name": "Jelsa",
+      "bestFor": "Gezinnen met jonge kinderen en prijsbewuste reizigers",
+      "parking": "Grote openbare parkeerplaats bij de haven; meestal betaald tijdens het seizoen",
+      "beach": "Mina strand (ondiepe zandbodem, 10 min lopen vanaf het centrum)",
+      "summary": "Een kustplaats aan de noordkant van het eiland met een sterk lokaal karakter en lagere prijzen dan Hvar-stad. Het beschikt over een brede promenade en toegang tot ondiepe baaien met zandbodem."
+    },
+    {
+      "name": "Zavala",
+      "bestFor": "Stellen, natuurliefhebbers en mensen die op zoek zijn naar isolement",
+      "parking": "Over het algemeen verzorgd door pensions; minimaal openbaar parkeren beschikbaar",
+      "beach": "Lange stroken fijne kiezelstranden direct langs de dorpskust",
+      "summary": "Gelegen aan de steile zuidkust en bereikbaar via een smalle, eenbaanstunnel vanuit Pitve. Het biedt helder water en rust, met beperkte eet- en winkelmogelijkheden."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "890 km, ~11-12 uur via A8, A10, A1 (HR) naar Split, daarna 2 uur autoveerboot. Tol in AT, SLO, HR + veerticket.",
+      "other": "Directe vluchten naar Split (SPU), gevolgd door een passagierscatamaran naar Hvar."
+    },
+    {
+      "from": "Wenen",
+      "car": "770 km, ~9-10 uur via A2, A9, A1 (HR) naar Split, daarna 2 uur autoveerboot. Tol in AT, SLO, HR + veerticket.",
+      "other": "Directe vluchten naar Split of nachttrein (Nightjet/EuroNight) naar Split, daarna catamaran."
+    },
+    {
+      "from": "Boedapest",
+      "car": "750 km, ~9-10 uur via M7, A4, A1 (HR) naar Split, daarna 2 uur autoveerboot. Tol in HU, HR + veerticket.",
+      "other": "Directe vluchten naar Split of seizoensgebonden slaaptrein van Boedapest naar Split."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "520 km, ~7-8 uur via A2, A1 (HR) naar Split, daarna 2 uur autoveerboot. Tol in SLO, HR + veerticket.",
+      "other": "Directe bus (FlixBus) naar het busstation van Split, gevolgd door veerboot of catamaran."
+    },
+    {
+      "from": "Praag",
+      "car": "1.070 km, ~13-14 uur via D1, A9 (AT), A1 (HR) naar Split, daarna autoveerboot. Tol in CZ, AT, SLO, HR + veerticket.",
+      "other": "Directe vluchten naar Split of seizoensgebonden RegioJet-treindienst naar Split."
+    },
+    {
+      "from": "Kraków",
+      "car": "1.100 km, ~13-14 uur via Slowakije (D1), Hongarije (M7), Kroatië (A1) naar Split, daarna autoveerboot. Tol in SK, HU, HR + veerticket.",
+      "other": "Directe vluchten naar Split vanuit Krakau of het nabijgelegen Katowice, daarna catamaran."
+    }
+  ],
+  "whenToGo": "In mei wordt het weer warmer en begint het toeristenseizoen, hoewel de zee koel blijft (rond 18°C) en sommige bedrijven nog bezig zijn met de voorbereidingen om te openen. Juni brengt betrouwbare zonneschijn, zeetemperaturen die 22°C bereiken en matige drukte. Juli en augustus zijn de topmaanden, gekenmerkt door dagelijkse maximumtemperaturen van 30°C tot 35°C, zeetemperaturen tot 27°C, volledige werking van alle veerboten, maar ook piekprijzen en druk verkeer in de havens. September is een optimale tijd om te bezoeken, aangezien de zee de zomerwarmte vasthoudt, de luchttemperaturen dalen tot een comfortabele 25°C en de prijzen dalen. Van oktober tot april gaat Hvar een rustige winterfase in; de veerdiensten zijn sterk verminderd en de meeste op toeristen gerichte hotels en restaurants sluiten volledig.",
+  "faq": [
+    {
+      "question": "Is het de moeite waard om te bezoeken?",
+      "answer": "Ja, Hvar is de moeite waard om te bezoeken vanwege de mix van historische architectuur, helder Mediterraan water en betrouwbaar zomerweer. Het biedt verschillende ervaringen, afhankelijk van waar u verblijft, van luxe dineren in Hvar-stad tot rustige retraites aan de zuidkust."
+    },
+    {
+      "question": "Hoeveel dagen?",
+      "answer": "Een verblijf van 3 tot 5 dagen is voldoende om de belangrijkste plaatsen te verkennen, een boottocht te maken naar de Pakleni Eilanden en door het binnenland te rijden. Als u alleen Hvar-stad wilt zien, is een trip van 1 tot 2 dagen voldoende."
+    },
+    {
+      "question": "Beste strand?",
+      "answer": "Dubovica wordt algemeen beschouwd als het beste strand van het eiland, met een brede kiezelbaai en helder water. Het vereist een wandeling van 10 minuten over een steil, rotsachtig pad vanaf de hoofdweg, dus stevig schoeisel is noodzakelijk."
+    },
+    {
+      "question": "Heb ik een auto nodig?",
+      "answer": "Een auto is noodzakelijk als u van plan bent verschillende steden, binnenlandse dorpen en afgelegen stranden te verkennen. Als u alleen in Hvar-stad of Stari Grad wilt verblijven, is een auto een belemmering vanwege autovrije zones en hoge parkeerkosten."
+    },
+    {
+      "question": "Waar te parkeren?",
+      "answer": "Parkeren is mogelijk op grote, betaalde gemeentelijke parkeerplaatsen aan de rand van de autovrije zones in Hvar-stad en Stari Grad. In juli en augustus raken deze plaatsen snel vol en kunnen de dagtarieven in Hvar-stad meer dan 20 euro bedragen."
+    },
+    {
+      "question": "Is het goed voor gezinnen?",
+      "answer": "Ja, Hvar is zeer geschikt voor gezinnen, vooral in plaatsen zoals Stari Grad en Jelsa waar de sfeer rustiger is. Deze gebieden bieden vlakke promenades, gemakkelijke toegang tot ondiepe stranden en gezinsvriendelijke appartementen."
+    }
+  ],
+  "headings": {
+    "quickFacts": "In één oogopslag",
+    "whereToStay": "Waar te verblijven op Hvar",
+    "gettingThere": "Naar Hvar reizen",
+    "whenToGo": "Wanneer te gaan",
+    "guides": "Hvar gidsen",
+    "faq": "Hvar veelgestelde vragen",
+    "groups": {
+      "gettingAround": "Parkeren & rondreizen",
+      "planning": "Planning & waar te verblijven",
+      "timing": "Wanneer te gaan",
+      "travelers": "Gezinnen, stellen & reisstijlen",
+      "activities": "Stranden & dingen om te doen",
+      "food": "Eten & drinken",
+      "comparisons": "Vergelijkingen",
+      "practical": "Praktische info"
+    },
+    "car": "Met de auto",
+    "other": "Andere opties",
+    "bestFor": "Het beste voor",
+    "parking": "Parkeren",
+    "beach": "Strand"
+  },
+  "destination": "hvar",
+  "language": "nl",
+  "updatedAt": "2026-10-16T14:02:25.039Z"
+}

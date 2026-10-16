@@ -1,0 +1,146 @@
+{
+  "title": "Split: Guida di viaggio, spiagge, parcheggio e dove alloggiare",
+  "metaDescription": "Organizza il tuo viaggio a Split, Croazia. Leggi consigli pratici sulle migliori zone dove alloggiare, percorsi stradali, parcheggio, spiagge e collegamenti in traghetto per gite di un giorno.",
+  "intro": "Split è la città più grande della costa dalmata, fungendo sia da importante snodo di trasporti che da destinazione storica. È adatta a viaggiatori in cerca di un mix di architettura romana, infrastrutture urbane e accesso diretto in traghetto alle isole vicine. Il punto focale della città è il Palazzo di Diocleziano, un complesso romano ben conservato e integrato nel moderno centro commerciale.\n\nLa stagione turistica principale va da fine maggio a inizio ottobre. Luglio e agosto portano le temperature più alte, la folla più numerosa e le tariffe di alloggio più elevate. Chi dà priorità alle visite turistiche rispetto al nuoto dovrebbe visitare Split ad aprile, maggio o ottobre, quando le temperature diurne sono più miti, le strade meno affollate e i prezzi degli alloggi notevolmente più bassi.",
+  "quickFacts": [
+    {
+      "label": "Mesi migliori",
+      "value": "Maggio, Giugno, Settembre, Ottobre"
+    },
+    {
+      "label": "Temperatura del mare ad agosto",
+      "value": "da 25°C a 27°C"
+    },
+    {
+      "label": "Aeroporto più vicino",
+      "value": "Aeroporto di Split (SPU), a 24 km dal centro"
+    },
+    {
+      "label": "Tipo di spiaggia principale",
+      "value": "Principalmente di ciottoli, con una spiaggia sabbiosa centrale"
+    },
+    {
+      "label": "Livello di prezzi",
+      "value": "Superiore alla media croata"
+    },
+    {
+      "label": "Pedonalità del centro storico",
+      "value": "Completamente pedonale e senza auto"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Città Vecchia (Grad)",
+      "bestFor": "Visite turistiche e soggiorni brevi senza auto",
+      "parking": "Nessun parcheggio all'interno; parcheggi costosi sul perimetro",
+      "beach": "15 minuti a piedi da Bačvice (sabbia)",
+      "summary": "Il nucleo storico costruito attorno al Palazzo di Diocleziano. È densamente popolato di ristoranti, siti storici e vicoli pedonali."
+    },
+    {
+      "name": "Bačvice & Firule",
+      "bestFor": "Vita notturna e accesso centrale alla spiaggia",
+      "parking": "Parcheggio in strada limitato nella Zona 2",
+      "beach": "Accesso immediato a baie sabbiose e poco profonde",
+      "summary": "Quartieri residenziali situati immediatamente a est del porto dei traghetti. Offrono un rapido accesso alle spiagge sabbiose più famose della città e ai principali locali notturni."
+    },
+    {
+      "name": "Meje",
+      "bestFor": "Soggiorni tranquilli e accesso alla natura",
+      "parking": "Generalmente disponibile parcheggio gratuito in strada",
+      "beach": "10-20 minuti a piedi da Kašjuni (ciottoli)",
+      "summary": "Un'elegante zona residenziale sulle pendici meridionali della collina di Marjan. Offre distanza dalla folla cittadina pur rimanendo a pochi passi dal centro."
+    },
+    {
+      "name": "Žnjan",
+      "bestFor": "Famiglie e viaggiatori con auto",
+      "parking": "Abbondanti parcheggi privati e pubblici",
+      "beach": "Accesso immediato a una lunga costa di ciottoli",
+      "summary": "Un nuovo sobborgo costiero a est del centro con moderni complessi di appartamenti. La zona presenta il tratto più lungo e continuo di spiagge di ciottoli e caffè sulla spiaggia della città."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monaco di Baviera",
+      "car": "850 km, da 8,5 a 9,5 ore via A8, A10, A2 e A1. Richiede vignette AT e SLO; pedaggi per i tunnel AT e le autostrade HR.",
+      "other": "Volo diretto (Lufthansa/Croatia Airlines) o FlixBus diretto"
+    },
+    {
+      "from": "Vienna",
+      "car": "760 km, da 7,5 a 8 ore via A2, A9 e A1. Richiede vignette AT e SLO; pedaggi per le autostrade HR.",
+      "other": "Volo diretto (Austrian/Ryanair) o FlixBus diretto"
+    },
+    {
+      "from": "Budapest",
+      "car": "750 km, da 7 a 8 ore via M7, A4 e A1. Richiede vignetta HU; pedaggi per le autostrade HR.",
+      "other": "Treno letto stagionale o FlixBus diretto"
+    },
+    {
+      "from": "Lubiana",
+      "car": "470 km, 5 ore via A2 e A1. Richiede vignetta SLO; pedaggi per le autostrade HR.",
+      "other": "FlixBus diretto"
+    },
+    {
+      "from": "Praga",
+      "car": "1.050 km, da 11 a 12 ore via D1, A9 e A1. Richiede vignette CZ, AT e SLO; pedaggi per i tunnel AT e le autostrade HR.",
+      "other": "Volo diretto (Smartwings/Croatia Airlines) o FlixBus"
+    },
+    {
+      "from": "Cracovia",
+      "car": "1.050 km, da 11 a 12 ore via A4, SK, M7 e A1. Richiede vignette SK e HU; pedaggi per le autostrade PL e HR.",
+      "other": "Volo diretto (Ryanair/LOT) o FlixBus"
+    }
+  ],
+  "whenToGo": "Da giugno ad agosto, la temperatura del mare raggiunge i 25°C-27°C, tutti i traghetti per le isole operano con orari di punta e i prezzi degli alloggi sono al massimo. Maggio e settembre offrono temperature diurne più miti, intorno ai 20°C-24°C, prezzi più bassi e meno folla, anche se il mare è notevolmente più freddo. Tra novembre e aprile, aspettatevi massime diurne di 10°C-15°C; molti ristoranti costieri e attività stagionali chiudono, e le rotte dei traghetti sono significativamente ridotte, ma i prezzi degli alloggi diminuiscono fino al 50 percento.",
+  "faq": [
+    {
+      "question": "Vale la pena visitare Split?",
+      "answer": "Sì, se desideri una grande città costiera con architettura romana intatta e importanti collegamenti in traghetto. Non è adatta a viaggiatori in cerca di una tranquilla e isolata località balneare."
+    },
+    {
+      "question": "Quanti giorni servono a Split?",
+      "answer": "Due o tre giorni sono sufficienti per visitare la Città Vecchia, la collina di Marjan e le spiagge locali. Estendi il viaggio a cinque o sette giorni se usi la città come base per gite di un giorno a Hvar, Brač o al Parco Nazionale di Krka."
+    },
+    {
+      "question": "Qual è la migliore spiaggia di Split?",
+      "answer": "Kašjuni è ampiamente considerata la spiaggia di ciottoli più scenografica, situata ai piedi della collina di Marjan. Bačvice è la spiaggia sabbiosa più popolare grazie alla sua posizione centrale, mentre Žnjan offre il tratto più lungo di costa di ciottoli."
+    },
+    {
+      "question": "Serve l'auto a Split?",
+      "answer": "Non serve l'auto se alloggi in centro e intendi visitare le isole via traghetto o catamarano. L'auto è necessaria solo se prenoti alloggio nei sobborghi esterni o se intendi fare viaggi indipendenti lungo la costa continentale."
+    },
+    {
+      "question": "Dove parcheggiare a Split?",
+      "answer": "Usa i grandi parcheggi a pagamento con display sul perimetro della Città Vecchia, come Stari Plac o i parcheggi di Vukovarska. Il parcheggio in strada nella Zona 1 e Zona 2 è molto competitivo e spesso riservato ai residenti."
+    },
+    {
+      "question": "Split è adatta alle famiglie?",
+      "answer": "Sì, soprattutto nei sobborghi orientali come Žnjan o Stobreč dove le spiagge sono ampie e il parcheggio è più facile. Le famiglie con passeggini dovrebbero evitare le strette strade a gradini del centro storico più immediato."
+    }
+  ],
+  "headings": {
+    "quickFacts": "In breve",
+    "whereToStay": "Dove alloggiare a Split",
+    "gettingThere": "Come arrivare a Split",
+    "whenToGo": "Quando andare",
+    "guides": "Guide su Split",
+    "faq": "FAQ su Split",
+    "groups": {
+      "gettingAround": "Parcheggio e spostamenti",
+      "planning": "Pianificazione e dove alloggiare",
+      "timing": "Quando andare",
+      "travelers": "Famiglie, coppie e stili di viaggio",
+      "activities": "Spiagge e cose da fare",
+      "food": "Cibo e bevande",
+      "comparisons": "Confronti",
+      "practical": "Informazioni pratiche"
+    },
+    "car": "In auto",
+    "other": "Altre opzioni",
+    "bestFor": "Ideale per",
+    "parking": "Parcheggio",
+    "beach": "Spiaggia"
+  },
+  "destination": "split",
+  "language": "it",
+  "updatedAt": "2026-10-16T09:25:48.506Z"
+}

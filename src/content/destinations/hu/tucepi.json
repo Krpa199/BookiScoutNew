@@ -1,0 +1,146 @@
+{
+  "title": "Tučepi Útikalauz: Strandok, Parkolás és Szállás",
+  "metaDescription": "Tervezze meg utazását Tučepibe tényeken alapuló útikalauzunkkal! Fedezze fel a legjobb városrészeket, parkolási tippeket, kavicsos strandokat és a Közép-Európából induló útvonalakat.",
+  "intro": "Tučepi egy tengerparti város a Makarska Riviérán, mely a régió leghosszabb folyamatos kavicsos strandjáról ismert. Négy kilométer hosszan húzódik, a tengerpartot fenyőfákkal árnyékolt sétány és a Biokovo-hegység meredek mészkősziklái szegélyezik. Elsősorban családoknak és pároknak vonzó, akik üdülőhelyi nyaralásra vágynak, közvetlen strandhozzáféréssel, egyszerű kényelmi szolgáltatásokkal, és inkább a tengerparti pihenésre, mintsem a történelmi városnézésre összpontosítanak.\n\nA város nagyrészt a D8-as parti főút alatt épült, így a tengerparti területek jól bejárhatók és nagyrészt elkülönülnek az átmenő forgalomtól. A nyár zsúfoltságot és csúcsárakat hoz, ezért június és szeptember az optimális hónap a fürdésre, kevesebb látogatóval. Az autóval érkezőknek prémium parkolási díjakkal kell számolniuk, ami miatt érdemes saját parkolóhelyet biztosító szállást foglalniuk.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Június és szeptember (meleg tenger, kevesebb tömeg)"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "25°C és 27°C"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Split (SPU), 83 km"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Folyamatos 4 km-es kavicsos strand"
+    },
+    {
+      "label": "Árszínvonal",
+      "value": "Kissé a horvát átlag felett"
+    },
+    {
+      "label": "Bejárhatóság",
+      "value": "Jól bejárható, autómentes tengerparti sétány"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Kraj (Központ és Marina)",
+      "bestFor": "Pároknak és első látogatóknak",
+      "parking": "Fizetős önkormányzati parkolók, nagyon korlátozott",
+      "beach": "Közvetlenül a Kraj strandon",
+      "summary": "Tučepi forgalmas központja a marina körül, tele éttermekkel, kávézókkal és kirándulóhajókkal. Ez a legkényelmesebb terület, ha mindent a közelben szeretne, de nyáron egyben a legforgalmasabb és legzajosabb is."
+    },
+    {
+      "name": "Slatina",
+      "bestFor": "Gyermekes családoknak",
+      "parking": "Nagy szállodai parkolók, könnyebb, mint a központban",
+      "beach": "Slatina strand (széles, sekély kavicsos)",
+      "summary": "A város nyugati részén található Slatina nagyméretű családi üdülőhelyekről és a Slatina Sportközpontról ismert. Az itteni strand nagyon széles, fenyőfákkal árnyékolt, és számos vízi sportot és felfújható játszóteret kínál."
+    },
+    {
+      "name": "Kamena",
+      "bestFor": "Pároknak és nyugalmat keresőknek",
+      "parking": "Általában biztosított privát apartman parkolás",
+      "beach": "Kamena strand (csendesebb, a Nugal ösvény közelében)",
+      "summary": "Tučepi legkeletibb városrésze, amely nyugodtabb légkört kínál távol a fő marina tömegétől. Közelebb van a Nugal naturista strandhoz vezető erdős ösvényhez."
+    },
+    {
+      "name": "Gornji Tučepi",
+      "bestFor": "Azoknak, akik nyugalmat, kilátást szeretnének és van autójuk",
+      "parking": "Könnyű és ingyenes a villáknál",
+      "beach": "5-6 km autóút lefelé a hegyről",
+      "summary": "A Biokovo-hegy lábánál fekvő történelmi felső falu. Hagyományos kőházakkal, olajligetekkel és panorámás kilátással rendelkezik az Adriára, tökéletes a nyugodt pihenésre."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "~860 km, 9-10 óra az A8, A10 (Tauern), Karawanken és horvát A1 autópályán keresztül; osztrák matricát, szlovén matricát és horvát útdíjat igényel",
+      "other": "Közvetlen repülőjárat Splitbe (SPU), majd 1,5 órás busz- vagy taxitranszfer"
+    },
+    {
+      "from": "Bécs",
+      "car": "~740 km, 7,5-8,5 óra az A2, Graz, Maribor és horvát A1 autópályán keresztül; osztrák és szlovén matricát, valamint horvát útdíjat igényel",
+      "other": "Közvetlen repülőjárat vagy FlixBus Splitbe, majd helyi busz"
+    },
+    {
+      "from": "Budapest",
+      "car": "~770 km, 7,5-8 óra az M7, Letenye és horvát A4/A1 autópályán keresztül; magyar matricát és horvát útdíjat igényel",
+      "other": "Nyári éjszakai vonat vagy FlixBus Splitbe, majd helyi transzfer"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "~540 km, 5,5-6,5 óra Novo Mesto, Bosiljevo és horvát A1 autópályán keresztül; szlovén matricát és horvát útdíjat igényel",
+      "other": "Közvetlen FlixBus Makarskába vagy Tučepibe"
+    },
+    {
+      "from": "Prága",
+      "car": "~1070 km, 11-12 óra Bécs, Maribor és horvát A1 autópályán keresztül; cseh, osztrák és szlovén matricát, valamint horvát útdíjat igényel",
+      "other": "Repülőjárat Splitbe (Smartwings) vagy RegioJet vonat Splitbe"
+    },
+    {
+      "from": "Krakkó",
+      "car": "~1100 km, 11,5-12,5 óra Szlovákián, Magyarországon (M7) és horvát A1 autópályán keresztül; szlovák és magyar matricát, valamint horvát útdíjat igényel",
+      "other": "Repülőjárat Krakkóból vagy Katowicéből Splitbe, majd busz Tučepibe"
+    }
+  ],
+  "whenToGo": "A nyár uralja Tučepit. Július és augusztus hozza a legmelegebb időt, 25°C és 27°C közötti csúcshőmérsékletű tengervizet, a legmagasabb árakat és sűrű tömeget a sétányon. Június és szeptember kínálja a legjobb egyensúlyt a meleg fürdővíz, a tágasabb strandok és valamivel alacsonyabb szállásárak között. Októbertől áprilisig a város kivételesen csendes; a legtöbb szezonális szálloda, étterem és strandbár bezár télre, csak néhány alapvető szolgáltatás marad nyitva a helyiek számára.",
+  "faq": [
+    {
+      "question": "Érdemes-e meglátogatni Tučepit?",
+      "answer": "Igen, érdemes meglátogatni, ha üdülőhelyi típusú nyaralásra vágyik, hosszú, folyamatos kavicsos stranddal és hegyvidéki háttérrel. Kevésbé alkalmas azok számára, akik történelmi óvárost keresnek, mivel elsősorban modern tengerparti célpont."
+    },
+    {
+      "question": "Hány napra van szükségem Tučepiben?",
+      "answer": "Egy 5-7 napos tartózkodás általános egy nyári tengerparti nyaraláshoz. Ez elegendő időt biztosít a tengerparti pihenésre, túrázásra a Biokovo Természetvédelmi Parkban, és hajókirándulásra a közeli Brač vagy Hvar szigetekre."
+    },
+    {
+      "question": "Melyik a legjobb strand Tučepiben?",
+      "answer": "A fő tengerpart lényegében egy hosszú, 4 kilométeres kavicsos strand. A nyugati Slatina strand a szélessége és fenyőárnyéka miatt a legjobb családok számára, míg a keleti Kamena strand csendesebb."
+    },
+    {
+      "question": "Szükségem van autóra Tučepiben?",
+      "answer": "Nem szükséges autó, ha a strand közelében szeretne maradni, és helyi buszokat vagy hajókat használna kirándulásokhoz. Az autó azonban nagyon hasznos, ha Gornji Tučepiben bérel villát, vagy önállóan szeretné felfedezni a tágabb Makarska Riviérát."
+    },
+    {
+      "question": "Hol parkolhatok Tučepiben?",
+      "answer": "A parkolás köztudottan szűkös és drága a központban, főként a D8-as főút menti fizetős önkormányzati parkolókra támaszkodik. Foglalás előtt mindig ellenőrizze, hogy a szállása tartalmaz-e saját parkolóhelyet."
+    },
+    {
+      "question": "Jó Tučepi családoknak?",
+      "answer": "Igen, Tučepi az egyik leginkább családbarát úticél a Makarska Riviérán. A strandok sekély, tiszta vízzel rendelkeznek, a 4 kilométeres sétány sík és babakocsival is járható, és számos játszótér található."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Rövid tények",
+    "whereToStay": "Hol szálljon meg Tučepiben",
+    "gettingThere": "Hogyan juthat el Tučepibe",
+    "whenToGo": "Mikor érdemes utazni",
+    "guides": "Tučepi útikalauzok",
+    "faq": "Tučepi GYIK",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor érdemes utazni",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Ételek és italok",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Ajánlott",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "tucepi",
+  "language": "hu",
+  "updatedAt": "2026-10-16T13:30:39.289Z"
+}

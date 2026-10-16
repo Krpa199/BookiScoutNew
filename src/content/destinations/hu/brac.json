@@ -1,0 +1,146 @@
+{
+  "title": "Brač útikalauz: Strandok, kompok és szálláshelyek",
+  "metaDescription": "Tervezzen utazást Bračra, Horvátországba. Fedezze fel a legjobb szálláshelyeket, az útvonalakat a spliti komphoz, strandinformációkat és gyakorlati utazási tanácsokat.",
+  "intro": "Brač egy nagy dalmát sziget, amely ideális utazóknak, akik megbízható strandokat, aktív vízi sportokat és hagyományos kőfalú falvakat keresnek. Kevésbé bulizós, mint a szomszédos Hvar, családok, szörfösök és a horvát tengerpartot felfedező autós utazók keverékét vonzza. A sziget leginkább a boli Zlatni Rat strandról és történelmi mészkőbányáiról ismert.\n\nA fő turistaidény május végétől október elejéig tart, a legmelegebb tengerhőmérsékletek júliusban és augusztusban érik el csúcspontjukat. Az érkezés általában autós komppal történik a szárazföldi Split kikötőjéből Supetarba, vagy Makarskából Sumartinba, így rendkívül jól megközelíthető sziget a Közép-Európán át vezető autósok számára.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Júniustól szeptemberig úszásra és meleg időre"
+    },
+    {
+      "label": "Tengerhőmérséklet augusztusban",
+      "value": "Körülbelül 25°C"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "A Brači repülőtér (BWK) 15 km-re van Boltól; a Spliti repülőtér (SPU) kompozást igényel"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Többségében kavicsos és apró zúzalékos, ritka homokos öblökkel"
+    },
+    {
+      "label": "Árszínvonal",
+      "value": "Kissé a horvát átlag felett, de alacsonyabb, mint Hvaron vagy Dubrovnikban"
+    },
+    {
+      "label": "Gyalogos megközelíthetőség",
+      "value": "Az óvárosok gyalogosak; az autót javasolt a sziget felfedezéséhez"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Bol",
+      "bestFor": "Szörfösöknek, strandolóknak és első alkalommal érkezőknek",
+      "parking": "Fizetős nyilvános parkolók a város szélén; a központi utcák korlátozottak",
+      "beach": "15 perc séta a híres Zlatni Rat strandig (finom kavicsos)",
+      "summary": "A déli parton található Bol a sziget leghíresebb célpontja. Hosszú tengerparti sétányt, számos éttermet és kiváló szörfözési feltételeket kínál."
+    },
+    {
+      "name": "Supetar",
+      "bestFor": "Családoknak és azoknak, akik könnyű kompközlekedést szeretnének Splitbe",
+      "parking": "Bőséges fizetős parkolóhelyek a kompátkelő és a szupermarketek közelében",
+      "beach": "Több városi strand kavicsokkal, beton teraszokkal és fenyőárnyékkal",
+      "summary": "Brač fő belépési pontjaként Supetar egy funkcionális és élénk város kiváló infrastruktúrával. Könnyű szárazföldi kapcsolatokat és családbarát tengerparti hangulatot biztosít."
+    },
+    {
+      "name": "Sutivan",
+      "bestFor": "Kerékpárosoknak és utazóknak, akik csendes, alacsony forgalmú környezetet keresnek",
+      "parking": "Ingyenes és fizetős parkolás a falu szélén",
+      "beach": "Kis kavicsos öblök közvetlenül elérhetőek a városközpontból",
+      "summary": "Békés falu az északnyugati parton, történelmi kőházaival és szigorú nyári forgalomkorlátozásaival ismert. Jól kapcsolódik kerékpárutakkal a közeli eldugott öblökhöz."
+    },
+    {
+      "name": "Postira",
+      "bestFor": "Pároknak és családoknak, akik mezőgazdasági örökséget és közeli homokot keresnek",
+      "parking": "Kijelölt nyilvános parkolók; szűk központi utcák korlátozott hozzáférésűek",
+      "beach": "3 km-re Lovrečina-öböl, a sziget kevés homokos strandjainak egyike",
+      "summary": "Hagyományos halász- és mezőgazdasági falu az északi parton olajfaligetekkel körülvéve. Csendes bázisként szolgál Lovrečina homokos partjaihoz való hozzáféréssel."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "850 km a spliti komphoz, ~9 óra az A8, A10 és horvát A1-es autópályákon keresztül. Ausztriához és Szlovéniához matricák szükségesek; Horvátországban útdíjat kell fizetni.",
+      "other": "Közvetlen járatok a Spliti repülőtérre, majd komp Bračra."
+    },
+    {
+      "from": "Bécs",
+      "car": "710 km a spliti komphoz, ~8 óra az A2 és horvát A1-es autópályákon keresztül. Ausztriához és Szlovéniához matricák szükségesek; Horvátországban útdíjat kell fizetni.",
+      "other": "EuroNight hálókocsis vonat vagy közvetlen járatok Splitbe."
+    },
+    {
+      "from": "Budapest",
+      "car": "750 km a spliti komphoz, ~8 óra az M7 és horvát A4/A1-es autópályákon keresztül. Magyarországhoz matrica szükséges; Horvátországban útdíjat kell fizetni.",
+      "other": "Közvetlen Adria InterCity hálókocsis vonat Splitbe (csak nyáron)."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "470 km a spliti komphoz, ~5 óra az A2 és horvát A1-es autópályákon keresztül. Szlovéniához matrica szükséges; Horvátországban útdíjat kell fizetni.",
+      "other": "Közvetlen buszjárat a Spliti buszpályaudvarra, amely a kompátkelő mellett található."
+    },
+    {
+      "from": "Prága",
+      "car": "1000 km a spliti komphoz, ~11 óra Bécsen és Grazon keresztül. Csehországhoz, Ausztriához, Szlovéniához matricák szükségesek; Horvátországban útdíjat kell fizetni.",
+      "other": "Közvetlen járatok Splitbe vagy RegioJet szezonális vonat."
+    },
+    {
+      "from": "Krakkó",
+      "car": "1100 km a spliti komphoz, ~12 óra Szlovákián, Magyarországon (M7) és Horvátországon (A1) keresztül. Szlovákiához, Magyarországhoz matricák szükségesek; Horvátországban útdíjat kell fizetni.",
+      "other": "Közvetlen fapados járatok a Spliti repülőtérre."
+    }
+  ],
+  "whenToGo": "A nyári szezon júniustól szeptemberig a legnépszerűbb időszak Brač meglátogatására, augusztusban átlagosan 25°C körüli tengerhőmérsékletekkel. Július és augusztus hozza a legmagasabb árakat, a legnagyobb tömeget, és az összes kompjárat, étterem és strandbár teljes üzemét. Május és október hűvösebb időt és alacsonyabb szállásárakat kínál, de a tenger általában túl hideg a kényelmes úszáshoz, és néhány szezonális vállalkozás zárva tart. Novembertől áprilisig a sziget nagyon csendes, sok szálloda télire bezár, és a kompjáratok is ritkábbak.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni?",
+      "answer": "Brač érdemes meglátogatni megbízható strandjai, hagyományos kőépítészete és kiváló szörfözési lehetőségei miatt. Nyugodtabb, családbarátabb alternatívát kínál a pezsgő éjszakai élettel rendelkező Hvar szigetével szemben."
+    },
+    {
+      "question": "Hány napot érdemes Bračon tölteni?",
+      "answer": "Három-öt nap optimális egy brači utazáshoz. Ez elegendő időt biztosít a Zlatni Raton való pihenésre, a Supetar és Sutivan nevű tengerparti falvak felfedezésére, valamint a Vidova Gora kilátóhoz való autózásra."
+    },
+    {
+      "question": "Melyik a legjobb strand a szigeten?",
+      "answer": "A boli Zlatni Rat a leghíresebb egyedi formájáról és sima kavicsairól. Homokos alternatívaként erősen ajánlott a Postira melletti Lovrečina-öböl, Murvica pedig csendesebb kavicsos partokat kínál."
+    },
+    {
+      "question": "Szükséges autó Bračon?",
+      "answer": "Az autó rendkívül előnyös a sziget belsejének, távoli öbleinek és változatos városainak felfedezéséhez. Bár a helyi buszok összekötik a főbb településeket, ritkán járnak, így a független közlekedés sokkal kényelmesebb."
+    },
+    {
+      "question": "Hol a legjobb parkolni?",
+      "answer": "A legtöbb brači városban kijelölt, fizetős önkormányzati parkolók találhatók a város szélén. A legjobb ezeket használni, mivel a történelmi központokban szűk, gyakran csak gyalogosoknak fenntartott kőutcák vannak, amelyek nehezen navigálhatók."
+    },
+    {
+      "question": "Brač jó úti cél családok számára?",
+      "answer": "Igen, Brač nagyon családbarát, nyugodt vizeket, kezelhető városokat és rengeteg önellátó apartmant kínál. Supetar és Postira különösen népszerűek a családok körében, mivel könnyen elérhetők a szolgáltatások és a strandok."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Röviden",
+    "whereToStay": "Hol szálljunk meg Bračon",
+    "gettingThere": "Hogyan juthatunk el Bračra",
+    "whenToGo": "Mikor érdemes utazni",
+    "guides": "Brač útikalauzok",
+    "faq": "Brač GyIK",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor utazzunk",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Ételek és italok",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Ideális",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "brac",
+  "language": "hu",
+  "updatedAt": "2026-10-16T14:08:52.139Z"
+}

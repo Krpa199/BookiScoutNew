@@ -1,0 +1,146 @@
+{
+  "title": "Tučepi : Guide de voyage – Plages, stationnement et hébergement",
+  "metaDescription": "Planifiez votre voyage à Tučepi avec notre guide pratique. Découvrez les meilleurs quartiers, des conseils de stationnement, les plages de galets et les itinéraires routiers depuis l'Europe centrale.",
+  "intro": "Tučepi est une ville côtière sur la Riviera de Makarska, réputée pour posséder la plus longue plage de galets continue de la région. S'étendant sur quatre kilomètres, le front de mer est bordé d'une promenade ombragée par des pins et des falaises calcaires abruptes de la chaîne de montagnes du Biokovo. Elle attire principalement les familles et les couples recherchant des vacances de type station balnéaire avec un accès immédiat à la plage, des commodités simples et une priorité donnée à la détente en bord de mer plutôt qu'à la visite de sites historiques.\n\nLa ville est principalement construite en contrebas de la route côtière D8, rendant les zones du front de mer très accessibles à pied et largement séparées du trafic de transit. L'été apporte des foules denses et des prix élevés, faisant de juin et septembre les mois optimaux pour la baignade avec moins de visiteurs. Ceux qui arrivent en voiture trouveront le stationnement à un prix élevé, nécessitant un hébergement avec des places privées dédiées.",
+  "quickFacts": [
+    {
+      "label": "Meilleurs mois",
+      "value": "Juin et septembre (mer chaude, moins de monde)"
+    },
+    {
+      "label": "Température de la mer en août",
+      "value": "25°C à 27°C"
+    },
+    {
+      "label": "Aéroport le plus proche",
+      "value": "Split (SPU), 83 km"
+    },
+    {
+      "label": "Type de plage principale",
+      "value": "Plage de galets continue de 4 km"
+    },
+    {
+      "label": "Niveau de prix",
+      "value": "Légèrement au-dessus de la moyenne croate"
+    },
+    {
+      "label": "Accessibilité à pied",
+      "value": "Très accessible à pied, promenade côtière sans voiture"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Kraj (Centre et Marina)",
+      "bestFor": "Couples et premières visites",
+      "parking": "Parkings municipaux payants, très limités",
+      "beach": "Directement sur la plage de Kraj",
+      "summary": "Le cœur animé de Tučepi autour de la marina, regorgeant de restaurants, de cafés et de bateaux d'excursion. C'est le quartier le plus pratique si vous voulez tout à portée de main, mais c'est aussi le plus fréquenté et le plus bruyant en été."
+    },
+    {
+      "name": "Slatina",
+      "bestFor": "Familles avec enfants",
+      "parking": "Grands parkings d'hôtels, plus facile qu'au centre",
+      "beach": "Plage de Slatina (large, galets peu profonds)",
+      "summary": "Située dans la partie ouest de la ville, Slatina se caractérise par de grands complexes hôteliers familiaux et le Centre sportif de Slatina. La plage y est très large, ombragée par des pins, et offre de nombreux sports nautiques et aires de jeux gonflables."
+    },
+    {
+      "name": "Kamena",
+      "bestFor": "Couples et amateurs de calme",
+      "parking": "Généralement fourni par les appartements privés",
+      "beach": "Plage de Kamena (plus calme, près du sentier de Nugal)",
+      "summary": "Le quartier le plus à l'est de Tučepi, offrant une atmosphère plus détendue loin des foules de la marina principale. Il est plus proche du sentier forestier menant à la plage naturiste de Nugal."
+    },
+    {
+      "name": "Gornji Tučepi",
+      "bestFor": "Ceux qui recherchent le calme, les vues et ont une voiture",
+      "parking": "Facile et gratuit dans les villas",
+      "beach": "5-6 km en voiture depuis la montagne",
+      "summary": "L'ancien village perché, situé au pied du mont Biokovo. Il se caractérise par des maisons en pierre traditionnelles, des oliveraies et des vues panoramiques sur l'Adriatique, parfait pour un séjour paisible."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Munich",
+      "car": "~860 km, 9-10 heures via A8, A10 (Tauern), Karawanken et A1 croate ; nécessite une vignette AT, une vignette SLO et des péages HR",
+      "other": "Vol direct pour Split (SPU), suivi d'un bus ou d'un taxi d'1h30"
+    },
+    {
+      "from": "Vienne",
+      "car": "~740 km, 7h30-8h30 via A2, Graz, Maribor et A1 croate ; nécessite des vignettes AT et SLO et des péages HR",
+      "other": "Vol direct ou FlixBus vers Split, puis bus local"
+    },
+    {
+      "from": "Budapest",
+      "car": "~770 km, 7h30-8 heures via M7, Letenye et A4/A1 croate ; nécessite une vignette HU et des péages HR",
+      "other": "Train de nuit estival ou FlixBus vers Split, puis transfert local"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "~540 km, 5h30-6h30 via Novo Mesto, Bosiljevo et A1 croate ; nécessite une vignette SLO et des péages HR",
+      "other": "FlixBus direct pour Makarska ou Tučepi"
+    },
+    {
+      "from": "Prague",
+      "car": "~1 070 km, 11-12 heures via Vienne, Maribor et A1 croate ; nécessite des vignettes CZ, AT et SLO, plus des péages HR",
+      "other": "Vol pour Split (Smartwings) ou train RegioJet pour Split"
+    },
+    {
+      "from": "Cracovie",
+      "car": "~1 100 km, 11h30-12h30 via la Slovaquie, la Hongrie (M7) et l'A1 croate ; nécessite des vignettes SK et HU, plus des péages HR",
+      "other": "Vol de Cracovie ou Katowice à Split, puis bus pour Tučepi"
+    }
+  ],
+  "whenToGo": "L'été domine à Tučepi. Juillet et août apportent le temps le plus chaud, des températures de mer maximales de 25°C à 27°C, les prix les plus élevés et des foules denses le long de la promenade. Juin et septembre offrent le meilleur équilibre entre une eau chaude pour la baignade, plus d'espace sur les plages et des tarifs d'hébergement légèrement inférieurs. D'octobre à avril, la ville est exceptionnellement calme ; la plupart des hôtels, restaurants et bars de plage saisonniers ferment pour l'hiver, ne laissant ouverts qu'une poignée de services essentiels pour les habitants.",
+  "faq": [
+    {
+      "question": "Vaut-il la peine de visiter Tučepi ?",
+      "answer": "Oui, cela vaut la peine si vous recherchez des vacances de type station balnéaire avec une longue plage de galets continue et un arrière-plan montagneux. C'est moins adapté à ceux qui cherchent une vieille ville historique, car c'est avant tout une destination balnéaire moderne."
+    },
+    {
+      "question": "Combien de jours faut-il passer à Tučepi ?",
+      "answer": "Un séjour de 5 à 7 jours est standard pour des vacances à la plage en été. Cela laisse suffisamment de temps pour se détendre au bord de la mer, faire de la randonnée dans le parc naturel du Biokovo et faire une excursion en bateau vers les îles voisines de Brač ou Hvar."
+    },
+    {
+      "question": "Quelle est la meilleure plage de Tučepi ?",
+      "answer": "Le littoral principal est essentiellement une longue plage de galets de 4 kilomètres. La plage de Slatina à l'ouest est la meilleure pour les familles en raison de sa largeur et de l'ombre des pins, tandis que la plage de Kamena à l'est est plus calme."
+    },
+    {
+      "question": "Ai-je besoin d'une voiture à Tučepi ?",
+      "answer": "Vous n'avez pas besoin de voiture si vous prévoyez de rester à la plage et d'utiliser les bus locaux ou les bateaux pour les excursions. Une voiture est très utile si vous louez une villa à Gornji Tučepi ou si vous souhaitez explorer la Riviera de Makarska de manière indépendante."
+    },
+    {
+      "question": "Où puis-je me garer à Tučepi ?",
+      "answer": "Le stationnement est notoirement difficile et coûteux au centre, s'appuyant principalement sur des parkings municipaux payants le long de la route D8. Confirmez toujours que votre hébergement inclut une place de parking dédiée avant de réserver."
+    },
+    {
+      "question": "Tučepi est-elle une bonne destination pour les familles ?",
+      "answer": "Oui, Tučepi est l'une des destinations les plus familiales de la Riviera de Makarska. Les plages ont une eau claire et peu profonde, la promenade de 4 kilomètres est plate et adaptée aux poussettes, et il y a de nombreuses aires de jeux."
+    }
+  ],
+  "headings": {
+    "quickFacts": "En bref",
+    "whereToStay": "Où séjourner à Tučepi",
+    "gettingThere": "Comment se rendre à Tučepi",
+    "whenToGo": "Quand partir",
+    "guides": "Guides sur Tučepi",
+    "faq": "FAQ Tučepi",
+    "groups": {
+      "gettingAround": "Se déplacer et stationnement",
+      "planning": "Planification et hébergement",
+      "timing": "Quand partir",
+      "travelers": "Familles, couples et types de voyage",
+      "activities": "Plages et activités",
+      "food": "Restauration et boissons",
+      "comparisons": "Comparaisons",
+      "practical": "Infos pratiques"
+    },
+    "car": "En voiture",
+    "other": "Autres options",
+    "bestFor": "Idéal pour",
+    "parking": "Stationnement",
+    "beach": "Plage"
+  },
+  "destination": "tucepi",
+  "language": "fr",
+  "updatedAt": "2026-10-16T13:32:46.487Z"
+}

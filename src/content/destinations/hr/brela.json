@@ -1,0 +1,146 @@
+{
+  "title": "Brela Vodič za putovanje: Plaže, parking i smještaj",
+  "metaDescription": "Planirajte putovanje u Brela na Makarskoj rivijeri. Otkrijte najbolje plaže, dijelove grada, pravila parkiranja, rute vožnje i najbolje vrijeme za posjet.",
+  "intro": "Brela su priobalni grad na Makarskoj rivijeri, definiran gustim borovim šumama koje se protežu izravno do bijelih šljunčanih plaža. Smještene u podnožju planine Biokovo, privlače posjetitelje koji traže čisto more, prirodni hlad i mirnu atmosferu ljetovališta, a ne urbani noćni život. Naselje je izgrađeno na strmom terenu, što znači da pristup šest kilometara dugom pješačkom šetalištu uz more obično uključuje kretanje po brdovitim ulicama.\n\nVrhunac sezone posjeta traje kroz srpanj i kolovoz, privlačeći obitelji i parove koji žele zajamčeno vrijeme za kupanje i potpuno funkcionalne sadržaje. Međutim, kraj lipnja i rujan nude ugodnije iskustvo. Tijekom ovih mjeseci more ostaje dovoljno toplo za kupanje, ali je znatno manje gužve na poznatoj plaži Punta Rata i manje zagušenja na lokalnim cestama.",
+  "quickFacts": [
+    {
+      "label": "Najbolji mjeseci",
+      "value": "Lipanj do rujan"
+    },
+    {
+      "label": "Temperatura mora u kolovozu",
+      "value": "24°C do 28°C"
+    },
+    {
+      "label": "Najbliža zračna luka",
+      "value": "Split (SPU), 68 km"
+    },
+    {
+      "label": "Glavna vrsta plaže",
+      "value": "Bijeli šljunak s borovim hladom"
+    },
+    {
+      "label": "Razina cijena",
+      "value": "Premium (iznad hrvatskog prosjeka)"
+    },
+    {
+      "label": "Mogućnost pješačenja",
+      "value": "Pješačka promenada, strme ulice"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Soline (Centar)",
+      "bestFor": "Za prvi put i one koji žele sadržaje u blizini",
+      "parking": "Izuzetno ograničeno, javna parkirališta naplaćuju 4 €/sat",
+      "beach": "Izravan pristup plaži Soline",
+      "summary": "Soline su glavno središte Brela, s najvećom koncentracijom hotela, restorana i kafića. Nude najlakši pristup šetalištu uz more, ali su najprometniji dio grada."
+    },
+    {
+      "name": "Podrače",
+      "bestFor": "Za ljubitelje plaža i parove",
+      "parking": "Strme, uske ceste; privatno parkiralište je ključno",
+      "beach": "Nekoliko koraka od plaža Podrače i Punta Rata",
+      "summary": "Smješteno sjeverozapadno od centra, ovo slikovito područje pruža izravan pristup najfotografiranijim uvalama Brela. Teren je strm, što znači da je uspon pješice neophodan za većinu smještaja."
+    },
+    {
+      "name": "Stomarica",
+      "bestFor": "Za obitelji i posjetitelje koji traže mirnije okruženje",
+      "parking": "Uglavnom privatna mjesta koja osigurava smještaj",
+      "beach": "Izravan pristup plaži Stomarica",
+      "summary": "Mirna uvala dalje uz obalu koja održava osnovne sadržaje poput barova na plaži i restorana. Dovoljno je daleko od centra da se izbjegnu veće gužve, ali ostaje lako dostupna putem šetališta."
+    },
+    {
+      "name": "Jakiruša",
+      "bestFor": "Za ljubitelje prirode i one koji bježe od gužve",
+      "parking": "Privatno parkiralište obično uključeno u smještaj",
+      "beach": "Plaža Jakiruša (šljunčani i stjenoviti dijelovi)",
+      "summary": "Sjeverozapadni rub Brela nudi najizoliranije okruženje. Plaže su ovdje tiše, s gustim borovim hladom, ali područje zahtijeva dužu šetnju do glavnog grada."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "850 km, 9-10 sati preko A8, A10 i A1. Zahtijeva austrijske i slovenske vinjete, plus austrijsku tunelarinu i hrvatske cestarine.",
+      "other": "Let za Split (SPU), zatim autobusom ili privatnim transferom od 1 sata."
+    },
+    {
+      "from": "Beč",
+      "car": "750 km, 7.5-8.5 sati preko A2 i hrvatske A1. Zahtijeva austrijske i slovenske vinjete, plus hrvatske cestarine.",
+      "other": "Izravan let za Split (SPU) ili noćni vlak do Splita, nakon čega slijedi autobus."
+    },
+    {
+      "from": "Budimpešta",
+      "car": "770 km, 7.5-8.5 sati preko M7 i hrvatske A4/A1. Zahtijeva mađarsku e-vinjetu i hrvatske cestarine.",
+      "other": "Izravan let za Split (SPU) ili izravan FlixBus do Makarske rivijere."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "470 km, 5-6 sati preko A2 i hrvatske A1. Zahtijeva slovensku vinjetu i hrvatske cestarine.",
+      "other": "Izravan autobus za Split ili Makarsku, sa zaustavljanjem u Brelima ili blizu njih."
+    },
+    {
+      "from": "Prag",
+      "car": "1.070 km, 11-12 sati preko Beča i Graza. Zahtijeva češke, austrijske i slovenske vinjete, plus hrvatske cestarine.",
+      "other": "Let za Split (SPU), zatim lokalni autobus ili privatni transfer do Brela."
+    },
+    {
+      "from": "Krakov",
+      "car": "1.100 km, 11-12 sati preko Slovačke i Mađarske (M7). Zahtijeva slovačke i mađarske vinjete, plus hrvatske cestarine.",
+      "other": "Let za Split (SPU) iz Krakova ili Katowica, zatim daljnji transfer."
+    }
+  ],
+  "whenToGo": "Kraj lipnja do početka rujna nudi najpouzdanije vrijeme, s temperaturama mora u kolovozu u prosjeku od 24°C do 28°C. Srpanj i kolovoz su vrhunac turističke sezone, donoseći najviše cijene, potpuno otvorene sadržaje i velike gužve na uskim plažama i obalnim cestama. Svibanj i listopad nude niže cijene i tiše ulice, ali more je često prehladno za kupanje (oko 18°C do 21°C) i mnogi lokalni restorani zatvaraju svoja vrata za sezonu. Rujan nudi najbolju ravnotežu, pružajući toplu vodu, manje posjetitelja i umjerene cijene smještaja.",
+  "faq": [
+    {
+      "question": "Jesu li Brela vrijedna posjeta?",
+      "answer": "Da, nude neke od najčišćih voda i najslikovitijih šljunčanih plaža obrubljenih borovima u Hrvatskoj. Idealne su za posjetitelje koji traže opuštajući odmor na obali, a ne razgledavanje povijesnih gradova."
+    },
+    {
+      "question": "Koliko dana bih trebao provesti u Brelima?",
+      "answer": "Boravak od 4 do 7 dana savršen je za većinu posjetitelja. Ovo pruža dovoljno vremena za uživanje u raznim uvalama duž šetališta i jednodnevni izlet na planinu Biokovo ili obližnje gradove poput Omiša."
+    },
+    {
+      "question": "Koja je najbolja plaža u Brelima?",
+      "answer": "Punta Rata je najpoznatija plaža, poznata po svojoj ikoničnoj stijeni i gustom borovom hladu. Međutim, obližnje Podrače i Stomarica nude jednako čisto more s nešto manje gužve."
+    },
+    {
+      "question": "Trebam li automobil u Brelima?",
+      "answer": "Ne trebate automobil ako boravite blizu mora, jer su glavne plaže i restorani povezani pješačkim šetalištem. Automobil je potreban samo ako planirate istraživati širu dalmatinsku obalu, a vožnja po lokalnim strmim ulicama može biti izazovna."
+    },
+    {
+      "question": "Gdje je najbolje parkirati u Brelima?",
+      "answer": "Izuzetno se preporučuje rezervirati smještaj koji uključuje zajamčeno privatno parkirno mjesto. Javno parkiranje je vrlo ograničeno i skupo, košta oko 4 € po satu u centralnim područjima poput Solina."
+    },
+    {
+      "question": "Jesu li Brela dobra za obitelji?",
+      "answer": "Da, dugačka, pješačka promenada, prirodni hlad od borova i mirne vode čine ih vrlo pogodnim za obitelji. Međutim, strme ulice koje vode do nekih smještaja mogu biti izazovne prilikom guranja dječjih kolica."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Ukratko",
+    "whereToStay": "Gdje odsjesti u Brelima",
+    "gettingThere": "Dolazak u Brela",
+    "whenToGo": "Kada ići",
+    "guides": "Vodiči za Brela",
+    "faq": "Česta pitanja o Brelima",
+    "groups": {
+      "gettingAround": "Parking i kretanje",
+      "planning": "Planiranje i gdje odsjesti",
+      "timing": "Kada ići",
+      "travelers": "Obitelji, parovi i stilovi putovanja",
+      "activities": "Plaže i aktivnosti",
+      "food": "Hrana i piće",
+      "comparisons": "Usporedbe",
+      "practical": "Praktične informacije"
+    },
+    "car": "Automobilom",
+    "other": "Ostale opcije",
+    "bestFor": "Najbolje za",
+    "parking": "Parking",
+    "beach": "Plaža"
+  },
+  "destination": "brela",
+  "language": "hr",
+  "updatedAt": "2026-10-16T10:27:58.137Z"
+}

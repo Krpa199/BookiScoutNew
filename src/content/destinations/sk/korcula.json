@@ -1,0 +1,146 @@
+{
+  "title": "Korčula: Potovalni vodnik – Plaže, parkiranje in prenočišča",
+  "metaDescription": "Načrtujte svoje potovanje na Korčulo, Hrvaška. Odkrijte najboljše predele za bivanje, potovalne poti iz Evrope z avtom, informacije o trajektih, parkiranje in najboljše plaže.",
+  "intro": "Korčula privablja popotnike, ki iščejo zgodovinsko arhitekturo, značilno lokalno vino in mirnejše vzdušje kot sosednji Hvar. Otok se ponaša z gostimi borovimi gozdovi, skalnatimi obalami in utrjenim glavnim mestom, ki leži na majhnem polotoku. Obiskovalci svoj čas preživijo z raziskovanjem ozkih kamnitih ulic, obiskovanjem družinskih vinskih kleti v notranjosti in kopanjem v prodnatih ali redkih peščenih zalivih.\n\nGlavna sezona traja od pozne pomladi do zgodnje jeseni. Večina obiskovalcev, ki pridejo z avtom, prispe z avtomobilskim trajektom iz Orebića, do katerega se pride preko Pelješkega mostu, ali z daljšim avtomobilskim trajektom iz Splita. Otok omogoča tako kratke obiske, osredotočene na mesto Korčula, kot tudi daljše počitnice, ki zahtevajo avto za raziskovanje zahodnih naselij, kot je Vela Luka.",
+  "quickFacts": [
+    {
+      "label": "Najboljši meseci",
+      "value": "Junij do september"
+    },
+    {
+      "label": "Temperatura morja avgusta",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Najbližje letališče",
+      "value": "Dubrovnik (DBV), 130 km + 15-min trajekt"
+    },
+    {
+      "label": "Glavni tipi plaž",
+      "value": "Prod, skalnate plošče, redek pesek (Lumbarda)"
+    },
+    {
+      "label": "Cenovni nivo",
+      "value": "Nadpovprečen za Hrvaško"
+    },
+    {
+      "label": "Dostopnost peš",
+      "value": "Staro mestno jedro je popolnoma brez avtomobilov"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Mesto Korčula",
+      "bestFor": "Za obiskovalce, ki prihajajo prvič, in ljubitelje zgodovine",
+      "parking": "Plačljiva parkirišča zunaj obzidja za pešce; visoke dnevne tarife",
+      "beach": "5 minut hoje do Banje (prod) ali skalnatih mest",
+      "summary": "Zgodovinsko in kulturno središče otoka. Ponuja največjo koncentracijo restavracij, muzejev in izhodišč za izlete z ladjo."
+    },
+    {
+      "name": "Lumbarda",
+      "bestFor": "Za družine z otroki in ljubitelje vina",
+      "parking": "Na splošno brezplačno ali poceni parkiranje na ulici",
+      "beach": "Neposreden dostop do Vela Pržina in Bilin Žal (peščene)",
+      "summary": "Sproščena vasica, ki se nahaja 6 kilometrov od mesta Korčula. Slovi po pridelavi vina Grk in edinih naravnih peščenih plažah na otoku."
+    },
+    {
+      "name": "Vela Luka",
+      "bestFor": "Za popotnike, ki iščejo mirnejše, bolj lokalno okolje",
+      "parking": "Obilno in večinoma brezplačno parkiranje v bližini nastanitev",
+      "beach": "Kratka vožnja z ladjo do otoka Proizd (čist prod/skale)",
+      "summary": "Največje mesto na otoku, ki se nahaja na zahodnem delu. Služi kot glavno pristanišče za avtomobilske trajekte, ki prihajajo neposredno iz Splita."
+    },
+    {
+      "name": "Žrnovo & Vasi v notranjosti",
+      "bestFor": "Za pohodnike, gurmane in tiste, ki iščejo osamo",
+      "parking": "Enostavno in brezplačno pri večini penzionov",
+      "beach": "10-15 minut vožnje do prodnatih zalivov na južni obali",
+      "summary": "Skupina majhnih, tradicionalnih zaselkov, umaknjenih od morja. Območje je znano po agroturizmu, tradicionalnih makaronovih jedeh in gozdnatih pohodniških poteh."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "1.050 km, 12-13 ur preko A8, AT (vinjete/cestnine), SI (vinjeta), HR A1 cestnine, Pelješki most, trajekt Orebić",
+      "other": "Letite v Split (SPU) ali Dubrovnik (DBV), nato katamaran"
+    },
+    {
+      "from": "Dunaj",
+      "car": "850 km, 10-11 ur preko AT A2 (vinjeta), SI (vinjeta), HR A1 cestnine, Pelješki most, trajekt Orebić",
+      "other": "Letite v Split (SPU) ali Dubrovnik (DBV), nato katamaran"
+    },
+    {
+      "from": "Budimpešta",
+      "car": "850 km, 10-11 ur preko HU M7 (vinjeta), HR A4/A1 cestnine, Pelješki most, trajekt Orebić",
+      "other": "Letite v Zadar ali Split, nato z avtobusom in katamaranom"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "600 km, 7-8 ur preko SI A2 (vinjeta), HR A1 cestnine, Pelješki most, trajekt Orebić",
+      "other": "Z avtobusom do Splita ali Dubrovnika, nato s katamaranom za pešce"
+    },
+    {
+      "from": "Praga",
+      "car": "1.150 km, 13-14 ur preko CZ/AT/SI vinjete, HR A1 cestnine, Pelješki most, trajekt Orebić",
+      "other": "Letite v Split (SPU), nato z avtomobilskim trajektom do Vela Luke"
+    },
+    {
+      "from": "Krakov",
+      "car": "1.200 km, 13-14 ur preko SK/HU vinjete, HR A4/A1 cestnine, Pelješki most, trajekt Orebić",
+      "other": "Letite v Split (SPU), nato s katamaranom ali avtomobilskim trajektom do Korčule"
+    }
+  ],
+  "whenToGo": "Junij in september ponujata temperature morja okoli 23-25°C, milo vreme in polne storitve brez največjih gneč. Julij in avgust prinašata vrhunsko vročino, 26°C toplo vodo, najvišje cene namestitev in polne trajekte. Oktober in maj prinašata hladnejšo vodo (19-21°C), zmanjšane urnike trajektov in zapiranje številnih sezonskih restavracij, zato so ti meseci bolj primerni za pohodništvo in oglede zgodovinskih znamenitosti kot za kopanje.",
+  "faq": [
+    {
+      "question": "Ali je Korčula vredna obiska?",
+      "answer": "Da, zaradi dobro ohranjenega srednjeveškega mesta, edinstvene vinske kulture in čistih obalnih voda. Ponuja mirnejšo, bolj zgodovinsko alternativo prazničnemu vzdušju sosednjih otokov."
+    },
+    {
+      "question": "Koliko dni potrebujete na Korčuli?",
+      "answer": "Trije do štirje dni so optimalni za obisk. To omogoča dovolj časa za ogled mesta Korčula, obisk vinogradov Lumbarde in vožnjo do nekaj južnih prodnatih plaž."
+    },
+    {
+      "question": "Katera je najboljša plaža na Korčuli?",
+      "answer": "Vela Pržina in Bilin Žal v Lumbardi sta najboljši peščeni plaži, zato sta priljubljeni pri družinah. Pupnatska Luka na južni obali je splošno velja za najboljšo prodnato plažo zaradi čiste vode in gozdnatega ozadja."
+    },
+    {
+      "question": "Ali potrebujem avto na Korčuli?",
+      "answer": "Avto ni potreben, če nameravate ostati samo v mestu Korčula in se udeleževati izletov z ladjo. Vendar je vozilo zelo priporočljivo za raziskovanje skritih zalivov otoka, notranjih vinogradov in zahodnih mest."
+    },
+    {
+      "question": "Kje lahko parkiram v mestu Korčula?",
+      "answer": "Mesto Korčula ima plačljiva parkirišča zunaj cone za pešce, kot je parkirišče v vzhodnem pristanišču ali blizu supermarketa Tommy. Manjša mesta in vasi po otoku običajno ponujajo brezplačno ali cenejše parkiranje na ulici."
+    },
+    {
+      "question": "Ali je Korčula primerna za družine?",
+      "answer": "Da, otok je zelo varen in ponuja več družinam prijaznih območij. Lumbarda je še posebej priljubljena pri družinah zaradi plitvih peščenih plaž in sproščenega, peš dostopnega okolja."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na kratko",
+    "whereToStay": "Kje bivati na Korčuli",
+    "gettingThere": "Kako priti na Korčulo",
+    "whenToGo": "Kdaj obiskati",
+    "guides": "Vodniki po Korčuli",
+    "faq": "Pogosta vprašanja o Korčuli",
+    "groups": {
+      "gettingAround": "Parkiranje in gibanje po otoku",
+      "planning": "Načrtovanje in kje prenočiti",
+      "timing": "Kdaj obiskati",
+      "travelers": "Družine, pari in načini potovanja",
+      "activities": "Plaže in stvari za početi",
+      "food": "Hrana in pijača",
+      "comparisons": "Primerjave",
+      "practical": "Praktične informacije"
+    },
+    "car": "Z avtom",
+    "other": "Druge možnosti",
+    "bestFor": "Najboljše za",
+    "parking": "Parkiranje",
+    "beach": "Plaža"
+  },
+  "destination": "korcula",
+  "language": "sk",
+  "updatedAt": "2026-10-16T10:03:22.204Z"
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Primošten útikalauz: Strandok, parkolás és szálláslehetőségek",
+  "metaDescription": "Tervezzen utazást Primoštenbe, Horvátországba. Fedezze fel a legjobb kavicsos strandokat, hol parkolhat az autómentes óváros közelében, és a közeli területeket családoknak és pároknak.",
+  "intro": "Primošten egy tengerparti város Közép-Dalmáciában, 28 kilométerre délre Šibeniktől. Történelmi félszigetéről és nagy kavicsos strandjairól ismert, családoknak, pároknak és autós utazóknak egyaránt vonzó, akik hagyományos mediterrán környezetet keresnek a közeli Split hatalmas városi léptéke nélkül. Fő vonzereje a tengerpart megközelíthetősége, strandjai közvetlenül a városközponttal határosak.\n\nA főszezon júniustól szeptemberig tart. Július és augusztus hozza a legmagasabb hőmérsékletet és a legnagyobb tömeget, megtöltve a központi strandokat és a főbb parkolóhelyeket. Május és szeptember vége alacsonyabb szállásárakat és csendesebb utcákat kínál, bár a tenger hőmérséklete ekkor még túl alacsony lehet az úszáshoz.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Júniustól szeptemberig"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "25°C és 27°C között"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Split Repülőtér (SPU), 39 km"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Kavicsos és sziklás"
+    },
+    {
+      "label": "Árszínvonal",
+      "value": "Átlagos a dalmát tengerpartra nézve"
+    },
+    {
+      "label": "Óvárosi mobilitás",
+      "value": "Autómentes, csak gyalogosoknak"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Óváros (Félsziget)",
+      "bestFor": "Pároknak, étkezéshez és történelmi hangulathoz",
+      "parking": "Tilalmazott a félszigeten belül; fizetős parkolók használata szükséges a szárazföldön",
+      "beach": "200-500 méteres séta Mala Raduča strandhoz",
+      "summary": "A történelmi központ egy csak gyalogosok számára fenntartott félszigeten található. Itt a legmagasabb az éttermek és bárok koncentrációja, de a csomagokat a szárazföldi parkolóhelyekről kell idáig húzni."
+    },
+    {
+      "name": "Raduča",
+      "bestFor": "Családoknak és strandközeli elhelyezkedéshez",
+      "parking": "Gyakran benne van a szállodai árban; nagy nyilvános fizetős parkolók a közelben",
+      "beach": "Közvetlen hozzáférés Velika és Mala Raduča kavicsos strandjaihoz",
+      "summary": "Ez a terület a szárazföld fő kavicsos strandjait és fenyőerdőit öleli körül. Az itteni szálláshelyek közelebb vannak a vízhez, és általában könnyebb járművel megközelíthetők, mint az óváros."
+    },
+    {
+      "name": "Bilo",
+      "bestFor": "Csendes pihenéshez és pároknak",
+      "parking": "Általában magánapartmanok biztosítják",
+      "beach": "Azonnali hozzáférés sziklás öblökhöz és kisebb kavicsos szakaszokhoz",
+      "summary": "Egy kis tengerparti település Primoštentől 5 kilométerre északra. Csendesebb alternatívát kínál sziklás partszakasszal, de járműre vagy helyi buszra van szükség Primošten éttermeinek eléréséhez."
+    },
+    {
+      "name": "Dolac",
+      "bestFor": "Költségtudatos utazóknak és csendes családi pihenéshez",
+      "parking": "Jellemzően a szállás árában benne van",
+      "beach": "Kavicsos öblök és beton teraszok 100-400 méteren belül",
+      "summary": "Egy elővárosi falu 3 kilométerre északra, amelyet a tengerparti autópálya köt össze Primoštennel. Lakóapartmanok és néhány helyi kávézó található itt, ideális azoknak, akik elkerülnék a forgalmas központot."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "820 km, ~9 óra Salzburgon, Villachon, Ljubljanán, Zágrábon és az A1-es autópályán keresztül. Osztrák és szlovén matricát, valamint horvát útdíjat igényel.",
+      "other": "Közvetlen járatok Splitbe (SPU) 1,5 órát vesznek igénybe."
+    },
+    {
+      "from": "Bécs",
+      "car": "640 km, ~6,5 óra Grazon, Mariboron, Zágrábon és az A1-es autópályán keresztül. Osztrák és szlovén matricát, valamint horvát útdíjat igényel.",
+      "other": "Közvetlen járatok Splitbe (SPU) 1 órát vesznek igénybe."
+    },
+    {
+      "from": "Budapest",
+      "car": "680 km, ~6,5 óra Letenyén, Zágrábon és az A1-es autópályán keresztül. Magyar matricát, valamint horvát útdíjat igényel.",
+      "other": "Szezonális járatok Splitbe, vagy FlixBus csatlakozások Zágrábon keresztül."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "400 km, ~4,5 óra Novo Meston, Karlovacon és az A1-es autópályán keresztül. Szlovén matricát, valamint horvát útdíjat igényel.",
+      "other": "Vannak közvetlen buszjáratok, de 8-10 órát vesznek igénybe."
+    },
+    {
+      "from": "Prága",
+      "car": "970 km, ~10 óra Linzen, Grazon, Mariboron, Zágrábon és az A1-es autópályán keresztül. Cseh, osztrák és szlovén matricát, valamint horvát útdíjat igényel.",
+      "other": "Szezonális közvetlen járatok Splitbe 1,5 órát vesznek igénybe."
+    },
+    {
+      "from": "Krakkó",
+      "car": "1050 km, ~11 óra Ostraván, Brnón, Bécsen, Grazon, Zágrábon és az A1-es autópályán keresztül. Cseh, osztrák és szlovén matricát, valamint horvát útdíjat igényel.",
+      "other": "Szezonális járatok Splitbe a LOT Polish Airlines vagy fapados légitársaságok járataival."
+    }
+  ],
+  "whenToGo": "A turisztikai szezon Primoštenben május végétől október elejéig tart. Július és augusztus a csúcsidőszak, amikor a tenger hőmérséklete 26°C körül van, megbízható a napsütés, és minden helyi vállalkozás teljes kapacitással működik. Ezekben a hónapokban a legmagasabbak az árak és a legnagyobb a tömeg Mala Raduča strandon. Június és szeptember enyhébb nappali hőmérsékletet (23°C és 28°C között) és alacsonyabb szállásárakat kínál, bár szeptember végén nagyobb az esély az esőre. Októbertől áprilisig Primošten csendes lakóvárossá változik; a legtöbb szálloda, szezonális étterem és strandbár bezár, a tenger hőmérséklete pedig 18°C alá csökken.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni Primoštent?",
+      "answer": "Igen, Primošten érdemes meglátogatni azoknak az utazóknak, akik egy hagyományos tengerparti várost keresnek kiterjedt kavicsos strandokkal. Kiváló kiindulópont Közép-Dalmácia felfedezéséhez, beleértve a közeli Krka Nemzeti Parkot és Šibenik városát."
+    },
+    {
+      "question": "Hány napra van szükségem Primoštenben?",
+      "answer": "Három-öt nap elegendő a város felfedezéséhez, a strandokon való időtöltéshez és egy egynapos kiránduláshoz a környező területekre. Azok, akik kifejezetten tengerparti nyaralásra vágynak, gyakran egy-két hetet maradnak."
+    },
+    {
+      "question": "Melyik a legjobb strand Primoštenben?",
+      "answer": "Mala Raduča számít a legjobb és legnépszerűbb strandnak központi elhelyezkedése, sima kavicsai és tiszta vize miatt. Velika Raduča egy nagyobb alternatíva közvetlenül a félsziget túloldalán, vízi sportokat és árnyékot kínálva a fenyőfáktól."
+    },
+    {
+      "question": "Szükséges autó Primoštenben?",
+      "answer": "Nem feltétlenül szükséges autó, ha a városközpontban vagy a Raduča strandok közelében száll meg, mivel a napi szükségletek gyalogosan elérhetők. Azonban erősen ajánlott jármű a közeli falvak, nemzeti parkok vagy nagyobb városok, mint Split és Zadar felfedezéséhez."
+    },
+    {
+      "question": "Hol parkoljak Primoštenben?",
+      "answer": "A parkolás tilos az óvárosi félszigeten a nem lakosok számára. A látogatóknak a félsziget kapuin kívül található nagy fizetős parkolókat kell használniuk, vagy megerősíteni a kijelölt utcán kívüli parkolást a szállásadójukkal."
+    },
+    {
+      "question": "Jó Primošten családoknak?",
+      "answer": "Igen, Primošten rendkívül alkalmas családok számára a nyugodt vizei és a könnyen megközelíthető, tiszta kavicsos strandjai miatt. Az árnyékot adó fenyőfák, a vizibicikli kölcsönzés és a sík sétányok kényelmessé teszik minden korosztályú gyermek számára."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Röviden",
+    "whereToStay": "Hol szálljunk meg Primoštenben",
+    "gettingThere": "Utazás Primoštenbe",
+    "whenToGo": "Mikor utazzunk",
+    "guides": "Primošten útmutatók",
+    "faq": "Gyakran ismételt kérdések Primoštenről",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szálláslehetőségek",
+      "timing": "Mikor utazzunk",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Ételek és italok",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "primosten",
+  "language": "hu",
+  "updatedAt": "2026-10-16T13:45:42.340Z"
+}

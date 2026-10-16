@@ -1,0 +1,146 @@
+{
+  "title": "Šibenik: Przewodnik turystyczny: plaże, parking i gdzie się zatrzymać",
+  "metaDescription": "Zaplanuj podróż do Šibenika, Chorwacja. Znajdź najlepsze miejsca do zatrzymania się, trasy dojazdowe z Europy Środkowej, informacje o parkingu i rekomendacje plaż.",
+  "intro": "Šibenik przyciąga turystów, którzy chcą odkrywać chorwacką historię i średniowieczną architekturę, jednocześnie mając bliski dostęp do parków narodowych i plaż. Położony w centralnej Dalmacji, stanowi praktyczną bazę wypadową do zwiedzania Parku Narodowego Krka i wysp Kornaty. Miasto wyróżniają cztery twierdze oraz wpisana na listę UNESCO Katedra św. Jakuba.\n\nGłówny sezon turystyczny trwa od maja do października. Centralne Stare Miasto jest całkowicie wolne od samochodów i składa się ze stromych, wąskich kamiennych uliczek. Poza historycznym centrum turyści znajdą żwirowe plaże i duże kompleksy wypoczynkowe, idealne dla rodzin. Miasto oferuje spokojniejszą alternatywę dla pobliskiego Splitu, ze średnio nieco niższymi kosztami zakwaterowania i wyżywienia.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "Maj, Czerwiec, Wrzesień"
+    },
+    {
+      "label": "Temperatura morza w sierpniu",
+      "value": "24°C - 26°C"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Lotnisko w Splicie (SPU), 50 km"
+    },
+    {
+      "label": "Główny typ plaż",
+      "value": "Żwirowe i betonowe"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "Średni dla Chorwacji przybrzeżnej, nieco tańszy niż Split"
+    },
+    {
+      "label": "Stare Miasto",
+      "value": "Całkowicie wolne od samochodów i tylko dla pieszych"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Stare Miasto (Stari Grad)",
+      "bestFor": "Dla osób odwiedzających po raz pierwszy i na zwiedzanie",
+      "parking": "Drogi i ograniczony; wymaga parkowania na parkingach poza strefą pieszą",
+      "beach": "15 minut spacerem do plaży Banj",
+      "summary": "Historyczne centrum oferuje średniowieczne kamienne budynki, twierdze i restauracje. Wymaga wchodzenia po stromych schodach i noszenia bagażu z parkingów."
+    },
+    {
+      "name": "Crnica i okolice plaży Banj",
+      "bestFor": "Dostęp do plaży w odległości spaceru od centrum",
+      "parking": "Dostępne miejsca parkingowe na ulicy, w pobliżu duży parking TEF",
+      "beach": "Bezpośredni dostęp do plaży Banj (żwirowa)",
+      "summary": "Dzielnica mieszkalna położona na północny zachód od centrum. Oferuje panoramiczne widoki na Stare Miasto i łatwiejszy dostęp samochodem niż historyczne centrum."
+    },
+    {
+      "name": "Amadria Park / Solaris",
+      "bestFor": "Dla rodzin z dziećmi i miłośników resortów",
+      "parking": "Parking na terenie resortu, zazwyczaj płatny",
+      "beach": "Bezpośredni dostęp do wielu utrzymanych plaż żwirowych i piaszczystych",
+      "summary": "Duży kompleks resortowy położony 6 km na południe od Šibenika. Oferuje hotele, kempingi, park wodny i rozbudowane udogodnienia turystyczne."
+    },
+    {
+      "name": "Brodarica",
+      "bestFor": "Na spokojny pobyt nad morzem i dla podróżujących z ograniczonym budżetem",
+      "parking": "Zazwyczaj zapewniony przez gospodarzy prywatnych apartamentów",
+      "beach": "Długi odcinek lokalnych plaż żwirowych",
+      "summary": "Podmiejska wioska położona 8 km na południe od Šibenika wzdłuż wybrzeża. Oferuje proste apartamenty do wynajęcia i szybki dostęp łodzią do wyspy Krapanj."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monachium",
+      "car": "800 km, 8,5 godziny przez A8, A10 i A1. Wymagana winieta austriacka, opłata za tunel Tauern, winieta słoweńska i chorwackie opłaty drogowe.",
+      "other": "Bezpośredni lot na lotnisko w Splicie (SPU), następnie 50 minut jazdy samochodem lub autobusem."
+    },
+    {
+      "from": "Wiedeń",
+      "car": "650 km, 6,5 godziny przez A2, słoweńską A4 i chorwacką A1. Wymagana winieta austriacka, słoweńska i chorwackie opłaty drogowe.",
+      "other": "Bezpośredni lot do Splitu (SPU) lub Zadaru (ZAD), następnie autobus do Šibenika."
+    },
+    {
+      "from": "Budapeszt",
+      "car": "680 km, 6,5 godziny przez M7, chorwackie A4 i A1. Wymagana węgierska e-winieta i chorwackie opłaty drogowe.",
+      "other": "Bezpośredni lot do Zadaru (ZAD) liniami Ryanair, następnie 1 godzina autobusem."
+    },
+    {
+      "from": "Lublana",
+      "car": "400 km, 4,5 godziny przez A2 i chorwacką A1. Wymagana słoweńska winieta i chorwackie opłaty drogowe.",
+      "other": "Bezpośredni autobus zajmuje 6-7 godzin."
+    },
+    {
+      "from": "Praga",
+      "car": "980 km, 10,5 godziny przez Austrię i Słowenię do chorwackiej A1. Wymagane winiety na Czechy, Austrię, Słowenię oraz chorwackie opłaty drogowe.",
+      "other": "Bezpośredni lot do Splitu (SPU), następnie lokalny autobus lub transfer."
+    },
+    {
+      "from": "Kraków",
+      "car": "1050 km, 11,5 godziny przez Słowację i Węgry do chorwackiej A4/A1. Wymagane winiety słowackie i węgierskie oraz chorwackie opłaty drogowe.",
+      "other": "Bezpośredni lot do Zadaru (ZAD) lub Splitu (SPU), następnie lokalny autobus."
+    }
+  ],
+  "whenToGo": "Sezon turystyczny w Šibeniku rozpoczyna się w maju, kiedy temperatura morza wynosi około 18°C, a ceny zakwaterowania są niższe. Czerwiec i wrzesień oferują idealne warunki, łącząc ciepłą wodę do pływania (22°C do 24°C) z umiarkowanym natężeniem ruchu turystycznego i w pełni działającymi obiektami turystycznymi. Lipiec i sierpień to miesiące szczytowe, przynoszące wysokie temperatury często przekraczające 30°C, szczytowe temperatury morza około 25°C, dużą liczbę odwiedzających i najwyższe ceny. Od listopada do kwietnia wiele sezonowych hoteli, restauracji i wycieczek jest zamkniętych, a pogoda jest zazwyczaj zbyt chłodna do pływania, choć twierdze i Park Narodowy Krka pozostają otwarte przez cały rok do zwiedzania.",
+  "faq": [
+    {
+      "question": "Czy warto odwiedzić?",
+      "answer": "Tak, Šibenik warto odwiedzić ze względu na jego niezbyt zatłoczone średniowieczne Stare Miasto i cztery historyczne twierdze. Stanowi doskonałą bazę architektoniczną i najbardziej dogodne miasto nadmorskie do dostępu do Parku Narodowego Krka."
+    },
+    {
+      "question": "Ile dni?",
+      "answer": "Dwa dni wystarczą, aby zobaczyć główne atrakcje, twierdze i odwiedzić Park Narodowy Krka. Pobyt od pięciu do siedmiu dni jest praktyczny, jeśli planujesz jednodniowe wycieczki na sąsiednie wyspy, do Zadaru lub Splitu."
+    },
+    {
+      "question": "Najlepsza plaża?",
+      "answer": "Plaża Banj to najdogodniejsza plaża żwirowa, położona w niewielkiej odległości spacerem od Starego Miasta. Dla lepszych udogodnień i piaszczystych odcinków, Plaża Biała w rejonie resortu Amadria Park, 6 km na południe, jest preferowaną opcją."
+    },
+    {
+      "question": "Czy potrzebuję samochodu?",
+      "answer": "Nie potrzebujesz samochodu, jeśli zatrzymujesz się na Starym Mieście i planujesz tylko odwiedzać centrum oraz brać udział w zorganizowanych wycieczkach łodzią. Samochód jest wysoce zalecany do pobytu na przedmieściach lub samodzielnego zwiedzania okolic, takich jak Park Narodowy Krka."
+    },
+    {
+      "question": "Gdzie zaparkować?",
+      "answer": "Parkowanie w historycznym centrum jest mocno ograniczone. Główne opcje dla odwiedzających to podziemny garaż Poljana dla dostępu do centrum lub duży parking odkryty Luka w pobliżu portu promowego."
+    },
+    {
+      "question": "Czy jest dobre dla rodzin?",
+      "answer": "Tak, okolica jest odpowiednia dla rodzin, szczególnie resorty położone poza Starym Miastem. Kompleks Amadria Park jest specjalnie dostosowany do dzieci z parkiem wodnym, a miasto co lato organizuje Międzynarodowy Festiwal Dziecięcy."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Gdzie zatrzymać się w Šibeniku",
+    "gettingThere": "Dojazd do Šibenika",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Šibeniku",
+    "faq": "Šibenik: Najczęściej zadawane pytania",
+    "groups": {
+      "gettingAround": "Parking i poruszanie się po mieście",
+      "planning": "Planowanie i gdzie się zatrzymać",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróżowania",
+      "activities": "Plaże i atrakcje",
+      "food": "Jedzenie i picie",
+      "comparisons": "Porównania",
+      "practical": "Praktyczne informacje"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "sibenik",
+  "language": "pl",
+  "updatedAt": "2026-10-16T10:51:49.052Z"
+}

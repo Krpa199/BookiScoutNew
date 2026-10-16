@@ -1,0 +1,146 @@
+{
+  "title": "Rijeka Útikalauz: Területek, Strandok és Odajutás",
+  "metaDescription": "Tervezze meg utazását Rijekába. Tényeken alapuló útikalauz, amely lefedi az európai autóútvonalakat, a szálláslehetőségeket, a parkolási lehetőségeket, a strandmegközelítést és a legjobb látogatási időpontokat.",
+  "intro": "Rijeka Horvátország harmadik legnagyobb városa és legforgalmasabb tengeri kikötője, jelentősen eltérve a tipikus dalmát turistaüdülőhelyektől. Vonzó az osztrák-magyar építészet, az ipari örökség és a dolgozó városi hangulat iránt érdeklődő utazók számára. A központi Korzó sétány és a környező történelmi utcák jelentik a fő fókuszpontot, míg a strandok a központtól több kilométerre keletre és nyugatra találhatók.\n\nMivel fontos közlekedési csomópont, Rijeka kiváló kiindulópont egynapos kirándulásokhoz az Isztriai-félszigetre, a Kvarner-öböl szigeteire és a Risnjak Nemzeti Parkba. A várost május és szeptember között érdemes a leginkább felkeresni, amikor az időjárás lehetővé teszi az úszást és szabadtéri rendezvényeket tartanak, bár egész évben aktív marad, ellentétben a nagyon szezonális tengerparti városokkal.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Május és szeptember"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "24°C és 26°C között"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Rijeka repülőtér (RJK), 26 km / 30 perc"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Kavicsos és betonozott teraszok"
+    },
+    {
+      "label": "Árszint",
+      "value": "10-20%-kal alacsonyabb, mint Splitben vagy Dubrovnikban"
+    },
+    {
+      "label": "Sétálhatóság",
+      "value": "A Korzó és a közvetlen óváros autómentes"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Belváros / Korzó",
+      "bestFor": "Városnézés, tranzit és éjszakai élet",
+      "parking": "Nehézkes; fizetős parkolókra, például a Deltára vagy parkolóházakra kell támaszkodni",
+      "beach": "Nincs; 10-15 perces buszút szükséges",
+      "summary": "Rijeka kereskedelmi és történelmi központja, a sétálóutcaként kialakított Korzó sétánnyal, múzeumokkal és a fő buszpályaudvarral."
+    },
+    {
+      "name": "Kantrida",
+      "bestFor": "Családoknak és strandolóknak",
+      "parking": "Utcai parkolás és nyilvános parkolók állnak rendelkezésre sportlétesítmények közelében",
+      "beach": "Kavicsos strandok (Ploče, Kantrida) sétatávolságra",
+      "summary": "Nyugati parti külváros, amely úszómedencéiről, futballstadionjáról és könnyen megközelíthető kavicsos strandjairól ismert."
+    },
+    {
+      "name": "Pećine",
+      "bestFor": "Csendes pihenés gyors strandhozzáféréssel",
+      "parking": "Korlátozott ingyenes utcai parkolás, nyáron gyakran zsúfolt",
+      "beach": "Közvetlen hozzáférés a Sablićevo és Glavanovo kavicsos strandokhoz",
+      "summary": "Keleti lakónegyed, amely egy lejtőn épült, történelmi villákkal és kis, festői tengerparti öblökkel."
+    },
+    {
+      "name": "Trsat",
+      "bestFor": "Történelemkedvelőknek és panorámás kilátásra vágyóknak",
+      "parking": "Könnyebb, mint a központban, ingyenes helyekkel és kijelölt parkolóval",
+      "beach": "Nincs strand; 15 perces autóút a tengerpartra",
+      "summary": "Fennsíkon fekvő negyed a Rječina folyó felett, ahol a Trsati vár és a Trsati Szűzanya kegyhelye található."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "510 km, 5,5-6,5 óra az A8, A10, A2, A1, A7 útvonalon. Szükséges az osztrák autópálya-matrica, a Karawanken alagút díja, a szlovén autópálya-matrica és a horvát útdíjak.",
+      "other": "FlixBus vagy éjszakai vonat Ljubljanába, csatlakozással busszal."
+    },
+    {
+      "from": "Bécs",
+      "car": "490 km, 5-6 óra az A2, A1, A7 útvonalon. Szükséges az osztrák autópálya-matrica, a szlovén autópálya-matrica és a horvát útdíjak.",
+      "other": "FlixBus vagy ÖBB vonat (közvetlen vagy átszállással Ljubljanában)."
+    },
+    {
+      "from": "Budapest",
+      "car": "500 km, 5-5,5 óra az M7, A4, A6 útvonalon. Szükséges a magyar e-matrica és a horvát útdíjak.",
+      "other": "Közvetlen FlixBus vagy vonat Zágráb érintésével."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "115 km, 1,5-2 óra az A1-es úton Postojnáig, majd 6/8-as úton Ilirska Bistricáig és A7-es úton. Szükséges a szlovén autópálya-matrica és a horvát útdíjak.",
+      "other": "Közvetlen busz vagy vonat (kb. 2,5 óra)."
+    },
+    {
+      "from": "Prága",
+      "car": "820 km, 8,5-10 óra Bécsen vagy Linzen/Grazon keresztül. Szükséges a cseh, osztrák és szlovén autópálya-matrica, plusz alagút- és horvát útdíjak.",
+      "other": "Vonat Bécs/Zágráb érintésével vagy éjszakai busz."
+    },
+    {
+      "from": "Krakkó",
+      "car": "900 km, 9-10,5 óra Ostraván, Brnón, Bécsen és Grazon keresztül. Szükségesek a lengyel útdíjak, valamint a cseh, osztrák és szlovén autópálya-matricák, és a horvát útdíjak.",
+      "other": "Repülőút Zágrábba, majd közvetlen busz Rijekába."
+    }
+  ],
+  "whenToGo": "A legjobb idő Rijeka látogatására júniustól szeptemberig van, amikor a tenger hőmérséklete eléri a 24°C és 26°C közötti értéket, és a szabadtéri helyszínek teljes mértékben működnek. Július és augusztus a legmelegebb és legzsúfoltabb hónapok, bár a tömeg és az árak jelentősen alacsonyabbak, mint Dél-Dalmáciában. Május és október hűvösebb hőmérsékletet kínál, ami alkalmas a közeli nemzeti parkokban való túrázásra, alacsonyabb szállásárakkal. Novembertől áprilisig a város enyhe, de esős teleket él át; bár sok turisztikai célú strandlétesítmény bezár, a város múzeumai, központi éttermei és üzletei egész évben nyitva tartanak.",
+  "faq": [
+    {
+      "question": "Érdemes-e felkeresni Rijekát?",
+      "answer": "Igen, ha érdekel az ipari történelem, az osztrák-magyar építészet és a dolgozó városi hangulat. Nem ajánlott, ha kizárólag a strandturizmusra fókuszáló hagyományos üdülővárost keres."
+    },
+    {
+      "question": "Hány napra van szükségem Rijekában?",
+      "answer": "Egy-két nap elegendő a belváros és Trsat főbb látnivalóinak megtekintésére. Három-négy nappal többet szánjon rá, ha Rijekát kiindulópontként tervezi használni egynapos kirándulásokhoz Isztriába, Krk szigetére vagy Gorski Kotarba."
+    },
+    {
+      "question": "Melyik a legjobb strand Rijekában?",
+      "answer": "A Pećine negyedben található Sablićevo strand és a Kantridánál lévő Ploče strand a legnépszerűbb választás. Mindkettő kavicsos partot, tiszta vizet és alapvető létesítményeket, például zuhanyzókat kínál."
+    },
+    {
+      "question": "Szükséges autó Rijekában?",
+      "answer": "Nem szükséges autó a belváros felfedezéséhez, amely gyalogosan bejárható és jól kapcsolódik a helyi buszokkal. Azonban erősen ajánlott járművel rendelkezni a közeli nemzeti parkok, szigetek és a vidéki Isztria meglátogatásához."
+    },
+    {
+      "question": "Hol érdemes parkolni Rijekában?",
+      "answer": "A Delta parkoló kínálja a legtöbb szabadtéri helyet, rövid sétára a sétálóövezettől. Beltéri parkoláshoz a Gomila és Zagrad garázsok biztonságosak és központi elhelyezkedésűek."
+    },
+    {
+      "question": "Alkalmas Rijeka családoknak?",
+      "answer": "Igen, az idősebb gyermekek értékelni fogják az olyan látványosságokat, mint a Trsati vár, a Természettudományi Múzeum és a kantridai uszodák. A kisgyermekes családok számára kihívást jelenthet a sekély, homokos strandok hiánya."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Röviden",
+    "whereToStay": "Hol szálljunk meg Rijekában",
+    "gettingThere": "Rijekába való eljutás",
+    "whenToGo": "Mikor utazzunk",
+    "guides": "Rijeka útikalauzok",
+    "faq": "Rijeka GYIK",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor utazzunk",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Ételek és italok",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Ajánlott",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "rijeka",
+  "language": "hu",
+  "updatedAt": "2026-10-16T09:48:18.823Z"
+}

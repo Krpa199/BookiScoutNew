@@ -1,0 +1,146 @@
+{
+  "title": "Guía de viaje de Orebić: Playas, vino y dónde alojarse",
+  "metaDescription": "Planifica tu viaje a Orebić con esta guía práctica. Descubre las mejores playas, las regiones vinícolas locales, las rutas en coche y los mejores barrios para alojarse.",
+  "intro": "Orebić es una histórica ciudad marítima en la costa suroeste de la península de Pelješac, situada directamente al otro lado de un estrecho canal frente a la isla de Korčula. Sirve como una excelente base para los viajeros que buscan la combinación clásica dálmata de playas a la sombra de pinos, aguas cristalinas y una destacada cultura vinícola local, sin las intensas multitudes de las grandes ciudades. La ciudad mira al sur, protegida por el monte Ilija, que proporciona un telón de fondo espectacular y protege la costa de los vientos del norte.\n\nEl destino atrae fuertemente a las familias que buscan lugares tranquilos para nadar con fondo arenoso como Trstenica, así como a parejas y grupos interesados en recorrer los viñedos cercanos de Dingač y Postup. La época más fiable para visitar es de junio a septiembre, cuando el mar está lo suficientemente cálido para nadar y todas las rutas de ferry y los restaurantes locales están en pleno funcionamiento.",
+  "quickFacts": [
+    {
+      "label": "Mejores meses",
+      "value": "Junio a Septiembre"
+    },
+    {
+      "label": "Temperatura del mar en agosto",
+      "value": "24°C - 26°C"
+    },
+    {
+      "label": "Aeropuerto más cercano",
+      "value": "Dubrovnik (DBV), 130 km"
+    },
+    {
+      "label": "Tipo de playa principal",
+      "value": "Guijarro fino con fondo marino arenoso"
+    },
+    {
+      "label": "Nivel de precios",
+      "value": "Medio (más barato que Dubrovnik)"
+    },
+    {
+      "label": "Centro sin coches",
+      "value": "Muy transitable, pero se permiten coches en la mayoría de las calles"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Orebić Centre & Promenade",
+      "bestFor": "Principiantes y quienes dependen de ferries o transporte público",
+      "parking": "Aparcamiento de pago en la calle y en estacionamientos cerca del ferry; a menudo concurrido",
+      "beach": "Pequeñas playas de guijarros a lo largo del paseo marítimo",
+      "summary": "El casco histórico cuenta con antiguas casas de capitanes de mar, un largo paseo marítimo y el principal puerto de ferry. Ofrece fácil acceso a pie a la mayoría de los restaurantes, panaderías y al ferry rápido de pasajeros a Korčula."
+    },
+    {
+      "name": "Trstenica Area",
+      "bestFor": "Familias con niños y amantes de la playa",
+      "parking": "Aparcamiento en la calle limitado; es esencial reservar alojamiento con plaza",
+      "beach": "Playa de Trstenica (arena y guijarro fino, entrada poco profunda)",
+      "summary": "Ubicado en el extremo este de la ciudad, este barrio residencial se construye alrededor de la playa más famosa de Orebić. Es más tranquilo que el centro pero aún a 15 minutos a pie del paseo principal."
+    },
+    {
+      "name": "Viganj & Kučište",
+      "bestFor": "Windsurfistas, kitesurfistas y viajeros activos",
+      "parking": "Generalmente más fácil, con aparcamientos más grandes en campings y apartamentos frente al mar",
+      "beach": "Largos tramos de playas de guijarro fino justo en la carretera",
+      "summary": "Situadas a pocos kilómetros al oeste de Orebić, estas aldeas costeras son famosas por sus fiables vientos de mistral por la tarde. El ambiente es relajado y deportivo, con numerosas escuelas de surf, chiringuitos y campings."
+    },
+    {
+      "name": "Mokalo & Postup",
+      "bestFor": "Entusiastas del vino y parejas que buscan aislamiento",
+      "parking": "Fácil y seguro, generalmente proporcionado por villas y resorts privados",
+      "beach": "Calas de guijarros aisladas respaldadas por viñedos empinados",
+      "summary": "Estas pequeñas aldeas al este de Orebić están encaramadas en laderas famosas por la denominación de origen Postup. Ofrecen alojamientos boutique, vistas panorámicas del archipiélago y una atmósfera muy tranquila lejos del pueblo principal."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Múnich",
+      "car": "1.050 km, 11-12 horas vía A8, Villach, Liubliana, Zagreb, A1 hasta Ploče, y el Puente de Pelješac sin peaje. Requiere viñetas austriacas y eslovenas, además de peajes de autopista croatas.",
+      "other": "Vuelo a Split (SPU) o Dubrovnik (DBV), luego coche de alquiler o autobús."
+    },
+    {
+      "from": "Viena",
+      "car": "860 km, 9-10 horas vía Graz, Maribor, Zagreb, A1 hasta Ploče, y el Puente de Pelješac. Requiere viñetas austriacas y eslovenas, además de peajes croatas.",
+      "other": "Vuelo directo a Split (SPU) o Dubrovnik (DBV)."
+    },
+    {
+      "from": "Budapest",
+      "car": "850 km, 9-10 horas vía M7 hasta Letenye, Zagreb, A1 sur hasta Ploče, y el Puente de Pelješac. Requiere viñeta húngara y peajes croatas.",
+      "other": "Vuelo a Split (SPU) o Dubrovnik (DBV) durante el verano."
+    },
+    {
+      "from": "Liubliana",
+      "car": "610 km, 6,5-7,5 horas vía Novo Mesto, Zagreb, A1 sur hasta Ploče, y el Puente de Pelješac. Requiere viñeta eslovena y peajes croatas.",
+      "other": "Autobús a Split o Dubrovnik, luego autobús local o ferry a Orebić."
+    },
+    {
+      "from": "Praga",
+      "car": "1.150 km, 12-14 horas vía Brno, Viena, Graz, Zagreb y A1 sur. Requiere viñetas checas, austriacas y eslovenas, además de peajes croatas.",
+      "other": "Vuelos directos a Split (SPU) o Dubrovnik (DBV)."
+    },
+    {
+      "from": "Cracovia",
+      "car": "1.200 km, 13-14 horas vía Eslovaquia, Budapest, Zagreb y A1 sur. Requiere viñetas eslovacas y húngaras, además de peajes croatas.",
+      "other": "Vuelos directos de verano a Split (SPU) o Dubrovnik (DBV)."
+    }
+  ],
+  "whenToGo": "La temporada comienza en mayo, cuando los restaurantes costeros reabren y los precios se mantienen bajos, aunque la temperatura del mar es de unos 18°C. Junio trae un clima más cálido y temperaturas del mar alrededor de los 22°C, lo que lo convierte en un buen momento para nadar a principios de verano con multitudes moderadas. La temporada alta abarca julio y agosto, cuando el mar alcanza una temperatura muy agradable de 24°C a 26°C; durante estos meses, la ciudad está en su momento de mayor actividad, los precios del alojamiento alcanzan su punto máximo y el aparcamiento en la playa es muy competitivo. Septiembre es ampliamente considerado el mes óptimo, ofreciendo aguas cálidas (alrededor de 23°C), menos multitudes y el comienzo de la vendimia local. A finales de octubre, la infraestructura turística cierra en gran medida por el invierno y la ciudad vuelve a un ritmo local y tranquilo.",
+  "faq": [
+    {
+      "question": "¿Merece la pena visitar Orebić?",
+      "answer": "Sí, Orebić merece mucho la pena por sus excelentes playas y su destacada cultura vinícola. Ofrece una alternativa mucho más relajada a las concurridas ciudades de Dalmacia, a la vez que proporciona fácil acceso a la isla de Korčula."
+    },
+    {
+      "question": "¿Cuántos días debería pasar en Orebić?",
+      "answer": "De tres a cinco días es una cantidad de tiempo ideal para una estancia en Orebić. Esto permite suficiente tiempo para disfrutar de la playa de Trstenica, recorrer los viñedos cercanos de Dingač y hacer una excursión de un día al otro lado del estrecho a Korčula."
+    },
+    {
+      "question": "¿Cuál es la mejor playa de Orebić?",
+      "answer": "Trstenica es ampliamente considerada la mejor playa de Orebić, especialmente para familias. Cuenta con una orilla de guijarro fino con fondo marino arenoso y aguas poco profundas, bordeada por pinos que proporcionan sombra natural."
+    },
+    {
+      "question": "¿Necesito coche en Orebić?",
+      "answer": "Aunque la ciudad es fácilmente transitable a pie, es muy recomendable tener un coche. Un vehículo es esencial para explorar las bodegas, los pueblos rurales y las calas escondidas de la península de Pelješac."
+    },
+    {
+      "question": "¿Dónde es el mejor lugar para aparcar en Orebić?",
+      "answer": "Hay un gran aparcamiento de pago cerca de la terminal principal de ferry, aunque se llena rápidamente en julio y agosto. Si te alojas en el centro o cerca de la playa de Trstenica, es crucial reservar un alojamiento que incluya una plaza de aparcamiento privado."
+    },
+    {
+      "question": "¿Es Orebić bueno para familias?",
+      "answer": "Orebić es un excelente destino para familias debido a su ambiente tranquilo y sus condiciones seguras para el baño. Las aguas poco profundas con fondo arenoso en la playa de Trstenica son particularmente adecuadas para niños pequeños."
+    }
+  ],
+  "headings": {
+    "quickFacts": "De un vistazo",
+    "whereToStay": "Dónde alojarse en Orebić",
+    "gettingThere": "Cómo llegar a Orebić",
+    "whenToGo": "Cuándo ir",
+    "guides": "Guías de Orebić",
+    "faq": "Preguntas frecuentes de Orebić",
+    "groups": {
+      "gettingAround": "Aparcamiento y cómo moverse",
+      "planning": "Planificación y dónde alojarse",
+      "timing": "Cuándo ir",
+      "travelers": "Familias, parejas y estilos de viaje",
+      "activities": "Playas y cosas que hacer",
+      "food": "Comida y bebida",
+      "comparisons": "Comparaciones",
+      "practical": "Información práctica"
+    },
+    "car": "En coche",
+    "other": "Otras opciones",
+    "bestFor": "Ideal para",
+    "parking": "Aparcamiento",
+    "beach": "Playa"
+  },
+  "destination": "orebic",
+  "language": "es",
+  "updatedAt": "2026-10-16T15:13:28.782Z"
+}

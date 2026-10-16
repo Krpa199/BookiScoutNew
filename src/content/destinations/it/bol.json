@@ -1,0 +1,146 @@
+{
+  "title": "Bol Guida di viaggio: Spiagge, Parcheggio e Dove Alloggiare",
+  "metaDescription": "Pianifica il tuo viaggio a Bol, Croazia. Scopri le migliori zone dove alloggiare, percorsi in auto, consigli sul parcheggio e tutto ciò che devi sapere sulla spiaggia di Zlatni Rat.",
+  "intro": "Bol si trova sulla costa meridionale dell'isola di Brač, meglio conosciuta come la patria della mutevole penisola di ciottoli, Zlatni Rat. È adatta a viaggiatori attivi, amanti della spiaggia e famiglie che desiderano un equilibrio tra spettacolari luoghi di balneazione e una città ben sviluppata e percorribile a piedi. Il lungomare ombreggiato dai pini che collega il porto alla spiaggia principale offre un'atmosfera rilassata e mediterranea con numerosi ristoranti, centri di windsurf e caffè.\n\nLa stagione turistica principale va da fine maggio a inizio ottobre, raggiungendo il picco a luglio e agosto, quando la città è pienamente operativa ma molto affollata. I visitatori in auto di solito arrivano tramite il traghetto per auto Split–Supetar, seguito da un viaggio di 40 minuti attraverso l'isola. Coloro che cercano un'esperienza più tranquilla con condizioni di nuoto calde dovrebbero puntare a settembre.",
+  "quickFacts": [
+    {
+      "label": "Mesi migliori",
+      "value": "Giugno e settembre"
+    },
+    {
+      "label": "Temp. mare ad agosto",
+      "value": "25–26°C"
+    },
+    {
+      "label": "Aeroporto più vicino",
+      "value": "Brač (14 km) o Split (75 km via traghetto)"
+    },
+    {
+      "label": "Tipo di spiaggia principale",
+      "value": "Ciottoli fini e ghiaia"
+    },
+    {
+      "label": "Livello di prezzo",
+      "value": "Sopra la media croata"
+    },
+    {
+      "label": "Pedonabilità",
+      "value": "Centro pedonale, lungomare senza auto"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centro di Bol e Porto",
+      "bestFor": "Ristoranti, vita notturna e accesso ai traghetti",
+      "parking": "Molto limitato, principalmente parcheggi a pagamento alla periferia",
+      "beach": "10-15 minuti a piedi da Bijela Kuća o Martinica",
+      "summary": "Il cuore storico di Bol presenta case in pietra tradizionali, il molo principale dei traghetti e una densa concentrazione di ristoranti. È l'ideale per coloro che vogliono essere a pochi passi dall'intrattenimento serale, anche se guidare e parcheggiare qui è fortemente limitato."
+    },
+    {
+      "name": "Borik e Lungomare di Zlatni Rat",
+      "bestFor": "Amanti della spiaggia, famiglie e windsurfisti",
+      "parking": "Ampi parcheggi a pagamento vicino a Zlatni Rat",
+      "beach": "Accesso diretto a Zlatni Rat e Borik (ciottoli)",
+      "summary": "Questo tratto collega il centro città alla famosa spiaggia del Corno d'Oro tramite un sentiero pedonale ombreggiato e fiancheggiato da pini. Gli hotel qui offrono un facile accesso alla spiaggia, strutture estese e un'atmosfera serale più tranquilla rispetto al vivace porto."
+    },
+    {
+      "name": "Martinica (Bol Est)",
+      "bestFor": "Soggiorni più tranquilli e viste storiche",
+      "parking": "Più facile trovare parcheggio privato presso gli alloggi",
+      "beach": "Accesso diretto alla spiaggia di Martinica (ciottoli)",
+      "summary": "Situato vicino al Monastero Domenicano, questo lato orientale della città è più calmo e si sente più residenziale. Offre ottimi punti per nuotare senza la folla di Zlatni Rat, pur essendo a una distanza percorribile a piedi dal centro."
+    },
+    {
+      "name": "Murvica",
+      "bestFor": "Coppie e fughe isolate",
+      "parking": "Parcheggio in strada limitato; affidarsi agli spazi dell'host",
+      "beach": "Ripida discesa a piedi verso la spiaggia di Murvica (ciottoli fini)",
+      "summary": "Situato a circa 5 chilometri a ovest di Bol, questo piccolo eco-villaggio è circondato da vigneti e paesaggi aspri. È perfetto per i viaggiatori con un'auto che desiderano un rifugio dalmata tranquillo e autentico lontano dai principali centri turistici."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monaco di Baviera",
+      "car": "975 km per Bol (incl. traghetto), ~11h. A8/A10 per Villach, A2/A1 per Split, poi traghetto Jadrolinija per Supetar. Vignette austriache/slovene, pedaggi Karawanken e croati.",
+      "other": "Voli diretti per Split (SPU), poi autobus/taxi per il porto di Split e traghetto per Brač."
+    },
+    {
+      "from": "Vienna",
+      "car": "800 km per Bol (incl. traghetto), ~9h. A2/A9 per Graz, A1/A4 via Maribor, A1 per Split, poi traghetto Jadrolinija. Vignette austriache e slovene, pedaggi croati.",
+      "other": "Voli diretti per Split, o treno notturno diretto (Nightjet) per Split in estate."
+    },
+    {
+      "from": "Budapest",
+      "car": "785 km per Bol (incl. traghetto), ~9h. M7 al confine, A4 per Zagabria, A1 per Split, poi traghetto Jadrolinija. Vignetta ungherese, pedaggi croati.",
+      "other": "Voli estivi diretti per Split, o treno diretto (Adria InterCity) per Split."
+    },
+    {
+      "from": "Lubiana",
+      "car": "500 km per Bol (incl. traghetto), ~6.5h. A2 per Novo Mesto, A1 per Split, poi traghetto Jadrolinija per Supetar. Vignetta slovena, pedaggi croati.",
+      "other": "Autobus diretto per Split, seguito dal catamarano passeggeri o dal traghetto per auto per Brač."
+    },
+    {
+      "from": "Praga",
+      "car": "1100 km per Bol (incl. traghetto), ~13h. D1 per Brno, A2/A9 attraverso l'Austria, A1/A4 in Slovenia, A1 per Split, poi traghetto. Vignette ceche/austriache/slovene, pedaggi croati.",
+      "other": "Voli diretti per Split (SPU) o treno notturno RegioJet per Split in estate."
+    },
+    {
+      "from": "Cracovia",
+      "car": "1150 km per Bol (incl. traghetto), ~14h. Via Slovacchia, M7 in Ungheria, A4/A1 in Croazia per Split, poi traghetto. Vignette slovacche/ungheresi, pedaggi croati.",
+      "other": "Voli diretti per Split (SPU), poi navetta aeroportuale per il porto e traghetto per Brač."
+    }
+  ],
+  "whenToGo": "Maggio porta un clima mite (20-23°C) e strade più tranquille, con il mare ancora a una vivace 18°C e le attività stagionali appena aperte. Giugno vede mari più caldi (22°C) e folle confortevoli, rendendolo ideale per vacanze attive. Luglio e agosto sono l'alta stagione; le temperature superano i 30°C, il mare raggiunge una calda 25-26°C, i prezzi sono al loro massimo e la zona di Zlatni Rat è brulicante di visitatori. Settembre offre un equilibrio perfetto con temperature del mare calde (23°C), meno folla e tariffe di alloggio più basse, mentre ottobre chiude la stagione con un clima più fresco e imprevedibile e molti ristoranti sul lungomare che chiudono per l'inverno.",
+  "faq": [
+    {
+      "question": "Bol merita una visita?",
+      "answer": "Sì, Bol merita assolutamente una visita per la sua iconica spiaggia di Zlatni Rat, le affidabili condizioni per il windsurf e il pittoresco lungomare. Offre un ottimo equilibrio tra sport acquatici attivi e un'atmosfera affascinante e ben sviluppata di città dalmata."
+    },
+    {
+      "question": "Quanti giorni dovrei trascorrere a Bol?",
+      "answer": "Da tre a cinque giorni sono l'ideale per un soggiorno a Bol. Questo permette abbastanza tempo per rilassarsi sulle spiagge principali, fare un'escursione sul Vidova Gora per viste panoramiche e fare un giro in barca verso le isole vicine."
+    },
+    {
+      "question": "Qual è la migliore spiaggia di Bol?",
+      "answer": "Zlatni Rat (Corno d'Oro) è la spiaggia più famosa e suggestiva, conosciuta per la sua punta di ciottoli mutevole e le acque cristalline. Per un'atmosfera più tranquilla con meno folla, la spiaggia di Martinica vicino al Monastero Domenicano è un'ottima alternativa."
+    },
+    {
+      "question": "Ho bisogno di un'auto a Bol?",
+      "answer": "No, non hai bisogno di un'auto se alloggi nella città di Bol, poiché il porto, i ristoranti e le spiagge principali sono collegati da una piana passeggiata pedonale. Un'auto è necessaria solo se prevedi di esplorare villaggi remoti e calette nascoste sull'isola di Brač."
+    },
+    {
+      "question": "Qual è il posto migliore per parcheggiare a Bol?",
+      "answer": "Il parcheggio nel centro città è estremamente limitato e in gran parte riservato ai residenti. I visitatori dovrebbero utilizzare gli ampi parcheggi comunali a pagamento vicino a Zlatni Rat o assicurarsi che il loro alloggio fornisca uno spazio privato garantito."
+    },
+    {
+      "question": "Bol è adatta alle famiglie?",
+      "answer": "Sì, Bol è altamente adatta alle famiglie grazie al suo lungomare senza traffico, ai bordi dell'acqua poco profondi a Zlatni Rat e a numerose strutture. I bambini di tutte le età apprezzeranno i parchi acquatici gonfiabili, il trenino turistico e le aree ombreggiate dai pini."
+    }
+  ],
+  "headings": {
+    "quickFacts": "In breve",
+    "whereToStay": "Dove alloggiare a Bol",
+    "gettingThere": "Come arrivare a Bol",
+    "whenToGo": "Quando andare",
+    "guides": "Guide di Bol",
+    "faq": "FAQ su Bol",
+    "groups": {
+      "gettingAround": "Parcheggio e spostamenti",
+      "planning": "Pianificazione e dove alloggiare",
+      "timing": "Quando andare",
+      "travelers": "Famiglie, coppie e stili di viaggio",
+      "activities": "Spiagge e cose da fare",
+      "food": "Cibo e bevande",
+      "comparisons": "Confronti",
+      "practical": "Info pratiche"
+    },
+    "car": "In auto",
+    "other": "Altre opzioni",
+    "bestFor": "Ideale per",
+    "parking": "Parcheggio",
+    "beach": "Spiaggia"
+  },
+  "destination": "bol",
+  "language": "it",
+  "updatedAt": "2026-10-16T14:31:35.851Z"
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Korčula útikönyv: Strandok, parkolás és szálláslehetőségek",
+  "metaDescription": "Tervezze meg utazását Korčula szigetére, Horvátországba. Fedezze fel a legjobb szálláshelyeket, az európai autóutakat, komp információkat, parkolást és a legjobb strandokat.",
+  "intro": "Korčula vonzza az utazókat, akik történelmi építészetet, különleges helyi borokat és a szomszédos Hvarnál csendesebb légkört keresnek. A szigeten sűrű fenyőerdők, sziklás partok és egy kis félszigeten fekvő erődített főváros található. A látogatók idejüket szűk kőutcák felfedezésével, a belső területeken található családi borászatok látogatásával, valamint kavicsos vagy ritka homokos öblökben való úszással töltik.\n\nA főszezon késő tavasztól kora őszig tart. A legtöbb autós látogató az Orebićből induló autós komppal érkezik, amelyet a Pelješac-hídon átkelve vagy a hosszabb, Splitből induló autós komppal lehet elérni. A sziget alkalmas rövid, Korčula városára koncentráló tartózkodásokra és hosszabb nyaralásokra is, melyekhez autó szükséges a nyugati települések, például Vela Luka felfedezéséhez.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Júniustól szeptemberig"
+    },
+    {
+      "label": "Tengerhőmérséklet augusztusban",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Dubrovnik (DBV), 130 km + 15 perces komp"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Kavicsos, sziklás lapos, ritkán homokos (Lumbarda)"
+    },
+    {
+      "label": "Árszínvonal",
+      "value": "Az átlagos horvátországi árszínvonal felett"
+    },
+    {
+      "label": "Sétálhatóság",
+      "value": "Az Óváros teljesen autómentes"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Korčula város",
+      "bestFor": "Első alkalommal érkezőknek és történelemrajongóknak",
+      "parking": "Fizetős parkolók a gyalogos falakon kívül; magas napi díjak",
+      "beach": "5 perces séta Banje (kavicsos) strandhoz vagy sziklás helyekhez",
+      "summary": "A sziget történelmi és kulturális központja. Itt található a legtöbb étterem, múzeum és hajókirándulás indulási pontja."
+    },
+    {
+      "name": "Lumbarda",
+      "bestFor": "Gyermekes családoknak és borrajongóknak",
+      "parking": "Általában ingyenes vagy olcsó utcai parkolás",
+      "beach": "Közvetlen hozzáférés Vela Pržina és Bilin Žal (homokos) strandokhoz",
+      "summary": "Egy nyugodt falu, 6 kilométerre Korčula várostól. Híres a Grk bortermelésről és a sziget egyetlen természetes homokos strandjairól."
+    },
+    {
+      "name": "Vela Luka",
+      "bestFor": "Azoknak az utazóknak, akik csendesebb, helyibb környezetet keresnek",
+      "parking": "Bőséges és többnyire ingyenes a szállások körül",
+      "beach": "Rövid hajóút Proizd szigetére (tiszta kavicsos/sziklás)",
+      "summary": "A sziget legnagyobb városa, a nyugati végén található. Fő kikötőként szolgál a Splitből közvetlenül érkező autós kompok számára."
+    },
+    {
+      "name": "Žrnovo és a belső falvak",
+      "bestFor": "Túrázóknak, ínyenceknek és a visszavonultságot keresőknek",
+      "parking": "Könnyű és ingyenes a legtöbb vendégháznál",
+      "beach": "10-15 perces autóút a déli part kavicsos öbleihez",
+      "summary": "Egy kis, hagyományos falvak csoportja a tengertől távolabb. A terület az agroturizmusról, a hagyományos makaróni ételekről és az erdős túraútvonalakról ismert."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "1050 km, 12-13 óra az A8-ason keresztül, AT (matricák/útdíjak), SI (matrica), HR A1 útdíjak, Pelješac híd, Orebić komp",
+      "other": "Repüljön Splitbe (SPU) vagy Dubrovnikba (DBV), majd katamaránnal"
+    },
+    {
+      "from": "Bécs",
+      "car": "850 km, 10-11 óra az AT A2-n keresztül (matrica), SI (matrica), HR A1 útdíjak, Pelješac híd, Orebić komp",
+      "other": "Repüljön Splitbe (SPU) vagy Dubrovnikba (DBV), majd katamaránnal"
+    },
+    {
+      "from": "Budapest",
+      "car": "850 km, 10-11 óra a HU M7-esen keresztül (matrica), HR A4/A1 útdíjak, Pelješac híd, Orebić komp",
+      "other": "Repüljön Zadarba vagy Splitbe, majd busszal és katamaránnal"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "600 km, 7-8 óra a SI A2-n keresztül (matrica), HR A1 útdíjak, Pelješac híd, Orebić komp",
+      "other": "Busszal Splitbe vagy Dubrovnikba, majd gyalogos katamaránnal"
+    },
+    {
+      "from": "Prága",
+      "car": "1150 km, 13-14 óra a CZ/AT/SI matricákon keresztül, HR A1 útdíjak, Pelješac híd, Orebić komp",
+      "other": "Repüljön Splitbe (SPU), majd autós komppal Vela Lukába"
+    },
+    {
+      "from": "Krakkó",
+      "car": "1200 km, 13-14 óra az SK/HU matricákon keresztül, HR A4/A1 útdíjak, Pelješac híd, Orebić komp",
+      "other": "Repüljön Splitbe (SPU), majd katamaránnal vagy autós komppal Korčulára"
+    }
+  ],
+  "whenToGo": "Június és szeptember 23-25°C körüli tengerhőmérsékletet, enyhe időjárást és teljes körű szolgáltatásokat kínál főszezonbeli tömeg nélkül. Július és augusztus hozza a csúcshőséget, 26°C-os vizet, a legmagasabb szállásárakat és a zsúfolt kompokat. Október és május hűlő vizet (19-21°C), csökkentett kompmenetrendet és sok szezonális étterem bezárását jelenti, így ezek a hónapok inkább túrázásra és történelmi városnézésre alkalmasak, mint úszásra.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni Korčulát?",
+      "answer": "Igen, jól megőrzött középkori városáért, jellegzetes borkultúrájáért és tiszta tengerparti vizeiért. Csendesebb, történelmibb alternatívát kínál a szomszédos szigetek bulihangulatával szemben."
+    },
+    {
+      "question": "Hány napra van szükség Korčulán?",
+      "answer": "Három-négy nap optimális egy látogatáshoz. Ez elegendő időt biztosít Korčula városának megtekintésére, Lumbarda szőlőültetvényeinek meglátogatására és néhány déli kavicsos strandhoz való eljutásra."
+    },
+    {
+      "question": "Melyik a legjobb strand Korčulán?",
+      "answer": "Vela Pržina és Bilin Žal Lumbardában a legjobb homokos strandok, ezért népszerűek a családok körében. Pupnatska Luka a déli parton széles körben a legjobb kavicsos strandnak számít tiszta vizéért és erdős hátteréért."
+    },
+    {
+      "question": "Szükségem van autóra Korčulán?",
+      "answer": "Nincs szükség autóra, ha csak Korčula városában szeretne maradni és hajókirándulásokat tenni. Azonban erősen ajánlott egy jármű a sziget rejtett öbleinek, belső szőlőültetvényeinek és nyugati városainak felfedezéséhez."
+    },
+    {
+      "question": "Hol tudok parkolni Korčula városában?",
+      "answer": "Korčula városában fizetős parkolók találhatók a gyalogos zónán kívül, például a keleti kikötői parkolóban vagy a Tommy szupermarket közelében. Kisebb városok és falvak a szigeten általában ingyenes vagy olcsóbb utcai parkolást kínálnak."
+    },
+    {
+      "question": "Jó Korčula családoknak?",
+      "answer": "Igen, a sziget nagyon biztonságos, és számos családbarát területet kínál. Lumbarda különösen népszerű a családok körében sekély homokos strandjai és nyugodt, gyalogosan bejárható környezete miatt."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Röviden",
+    "whereToStay": "Hol szálljon meg Korčulán",
+    "gettingThere": "Útvonal Korčulára",
+    "whenToGo": "Mikor utazzon",
+    "guides": "Korčula útmutatók",
+    "faq": "GYIK Korčuláról",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor utazzon",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és programok",
+      "food": "Ételek és italok",
+      "comparisons": "Összehasonlítások",
+      "practical": "Hasznos információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Ajánlott",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "korcula",
+  "language": "hu",
+  "updatedAt": "2026-10-16T10:02:40.612Z"
+}

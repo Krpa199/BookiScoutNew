@@ -1,0 +1,146 @@
+{
+  "title": "Nin Turistični vodnik: Plaže, parkirišča in nastanitve",
+  "metaDescription": "Načrtujte svoje potovanje v Nin, Hrvaška. Odkrijte najboljše peščene plaže, podrobnosti o parkiranju, potovalne poti in najboljše predele za nastanitev za družine in kajtarje.",
+  "intro": "Nin je majhno obalno mesto v severni Dalmaciji, znano po redkih peščenih plažah, plitvih vodah in zgodovinskem otoškem središču. Predvsem privablja družine z majhnimi otroki, kajtarje in popotnike, ki iščejo tišjo alternativo bližnjemu Zadru. Plitev zaliv se hitro segreje, zato je morje prijetno za kopanje prej in kasneje v sezoni kot v globljih obalnih predelih.\n\nNajboljši čas za obisk je od junija do septembra, ko so odprti vsi objekti na plaži, kampi in lokalne restavracije. Julij in avgust sta najbolj obiskana in najdražja meseca, ki privabljata veliko število dnevnih obiskovalcev iz Zadra. Maj in oktober ponujata hladnejše temperature in nižje cene, vendar se v tem obdobju zaprejo številna sezonska podjetja in najemi na plaži.",
+  "quickFacts": [
+    {
+      "label": "Najboljši meseci",
+      "value": "Junij – september"
+    },
+    {
+      "label": "Temperatura morja v avgustu",
+      "value": "25°C do 27°C"
+    },
+    {
+      "label": "Najbližje letališče",
+      "value": "Letališče Zadar (ZAD), 20 km"
+    },
+    {
+      "label": "Glavni tip plaže",
+      "value": "Naravni pesek z dolgimi plitvinami"
+    },
+    {
+      "label": "Raven cen",
+      "value": "Povprečno za Dalmacijo, ceneje kot Zadar"
+    },
+    {
+      "label": "Staro mestno jedro",
+      "value": "Samo za pešce na majhnem otoku, povezanem z mostovi"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Staro mesto Nin",
+      "bestFor": "Pari, ljubitelji zgodovine in kratkih bivanja",
+      "parking": "Plačljiva občinska parkirišča pred mostovi; avtomobili niso dovoljeni na otoku",
+      "beach": "10-15 minut hoje do Ždrijaca ali Kraljičine plaže",
+      "summary": "Zgodovinsko središče leži na majhnem otoku, povezanem z dvema mostovoma. Ponuja tradicionalne kamnite hiše, arheološka najdišča in največjo koncentracijo restavracij, vendar nima neposrednega dostopa do plaže."
+    },
+    {
+      "name": "Ždrijac",
+      "bestFor": "Kajtarji, deskarji na vetru in obiskovalci plaže",
+      "parking": "Zasebna parkirišča pri apartmajih; plačljivo parkirišče blizu plaže",
+      "beach": "Neposreden dostop do plaže Ždrijac (pesek)",
+      "summary": "To stanovanjsko območje je zgrajeno vzdolž peščene ožine severno od starega mestnega jedra. Je glavno središče šol kajtanja in ponuja številne apartmaje za samostojno pripravo hrane, tik ob vodi."
+    },
+    {
+      "name": "Sabunike",
+      "bestFor": "Družine, ki iščejo mirne dni na plaži in daljša bivanja",
+      "parking": "Enostavno parkiranje na ulici in zasebni dovozi",
+      "beach": "5-15 minut hoje do Kraljičine plaže",
+      "summary": "Sabunike, ki se nahajajo nekaj kilometrov severozahodno od Nina, so namensko zgrajeno počitniško naselje. Zagotavlja mirnejše okolje, večje parcele za apartmaje in bližino slavne Kraljičine plaže ter njenega terapevtskega blata."
+    },
+    {
+      "name": "Zaton",
+      "bestFor": "Obiskovalci resortov, kampisti in družine z otroki",
+      "parking": "Varovano parkiranje v sklopu resortnih kompleksov",
+      "beach": "Peščene in prodnate plaže na samem mestu z vsemi storitvami",
+      "summary": "Zaton, ki se nahaja južno od Nina, prevladuje ogromen počitniški resort in kamp. Ponuja bazene, animacijske ekipe, mini golf in bogato izbiro restavracij, kar ga dela samostojno destinacijo."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "740 km, 8 ur preko A8, A10 in A1. Zahteva avstrijsko in slovensko vinjeto ter cestnino za predor Tauern in hrvaške avtoceste.",
+      "other": "Direktni leti v Zadar (ZAD) preko Lufthanse ali Ryanaira (Memmingen)"
+    },
+    {
+      "from": "Dunaj",
+      "car": "620 km, 6.5 ure preko A2 in A1. Zahteva avstrijsko in slovensko vinjeto ter hrvaške cestnine.",
+      "other": "Direktni leti Ryanaira z Dunaja v Zadar"
+    },
+    {
+      "from": "Budimpešta",
+      "car": "630 km, 6.5 ure preko M7 in A4/A1. Zahteva madžarsko e-vinjeto in hrvaške cestnine.",
+      "other": "Direktni leti Ryanaira iz Budimpešte v Zadar"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "340 km, 4 ure preko A2 in A1. Zahteva slovensko vinjeto in hrvaške cestnine.",
+      "other": "Direktni FlixBus do Zadra, nato lokalni avtobus ali taksi do Nina"
+    },
+    {
+      "from": "Praga",
+      "car": "950 km, 10.5 ure preko Dunaja in Gradca. Zahteva češko, avstrijsko in slovensko vinjeto ter hrvaške cestnine.",
+      "other": "Direktni leti Ryanaira iz Prage v Zadar"
+    },
+    {
+      "from": "Krakov",
+      "car": "1.000 km, 11 ur preko Slovaške in Madžarske. Zahteva slovaško in madžarsko vinjeto ter hrvaške cestnine.",
+      "other": "Direktni leti Ryanaira iz Krakova v Zadar"
+    }
+  ],
+  "whenToGo": "Sezona v Ninu traja od maja do oktobra, z največjimi gnečami in najvišjimi cenami namestitev v juliju in avgustu. V teh sredi poletnih mesecih temperatura morja doseže zelo toplih 25°C do 27°C, zaradi česar so plitvi zalivi kot kopalna voda, vsi bari na plaži, šole kajtanja in restavracije pa so v celoti delujoči. Junij in september ponujata boljše ravnovesje toplega vremena (temperature morja okoli 22°C do 24°C), nižjih cen in obvladljivega števila obiskovalcev. Od novembra do aprila je Nin miren, morje pade pod 15°C in večina turistično usmerjenih podjetij, vključno z bližnjim počitniškim naseljem Zaton, se zapre za zimo.",
+  "faq": [
+    {
+      "question": "Je Nin vreden obiska?",
+      "answer": "Da, Nin je vreden obiska, še posebej, če imate raje peščene plaže, ki so na Hrvaškem redkost. Idealen je za družine z majhnimi otroki zaradi plitke vode in ponuja edinstvene zgodovinske znamenitosti v kompaktnem starem mestnem jedru."
+    },
+    {
+      "question": "Koliko dni potrebujem v Ninu?",
+      "answer": "Dva do tri dni so dovolj za raziskovanje starega mestnega jedra, obisk solin in sproščanje na glavnih plažah. Vendar pa ga mnogi obiskovalci uporabljajo kot izhodišče za eno- ali dvotedenske počitnice na plaži."
+    },
+    {
+      "question": "Katera je najboljša plaža v Ninu?",
+      "answer": "Kraljičina plaža je najbolj znana in splošno velja za najboljšo plažo v okolici. Odlikuje jo dolga peščena obala, izjemno plitka voda in območja z naravno prisotnim zdravilnim peloidnim blatom."
+    },
+    {
+      "question": "Potrebujem avto v Ninu?",
+      "answer": "Avto ni nujno potreben, če bivate v starem mestnem jedru ali Ždrijacu in nameravate ostati v lokalnem okolju. Vendar pa je vozilo zelo priporočljivo za vožnjo v bližnji Zadar, do večjih supermarketov ali za raziskovanje širše dalmatinske obale."
+    },
+    {
+      "question": "Kje je najbolje parkirati v Ninu?",
+      "answer": "Najboljša mesta za parkiranje so velika, plačljiva občinska parkirišča, ki se nahajajo tik ob dveh mostovih, ki vodijo v staro mestno jedro. Parkiranje je poleti strogo nadzorovano, avtomati sprejemajo kovance, kartice ali mobilne aplikacije za parkiranje."
+    },
+    {
+      "question": "Je Nin primeren za družine?",
+      "answer": "Da, Nin je ena najboljših destinacij na Hrvaškem za družine z majhnimi otroki. Prostrane peščene plaže in topla voda do kolen zagotavljajo varno okolje za igro malčkov in otrok."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na kratko",
+    "whereToStay": "Kje prenočiti v Ninu",
+    "gettingThere": "Pot do Nina",
+    "whenToGo": "Kdaj obiskati",
+    "guides": "Vodiči za Nin",
+    "faq": "Pogosta vprašanja o Ninu",
+    "groups": {
+      "gettingAround": "Parkiranje in premikanje",
+      "planning": "Načrtovanje in nastanitve",
+      "timing": "Kdaj potovati",
+      "travelers": "Družine, pari in stili potovanj",
+      "activities": "Plaže in stvari za početi",
+      "food": "Hrana in pijača",
+      "comparisons": "Primerjave",
+      "practical": "Praktične informacije"
+    },
+    "car": "Z avtom",
+    "other": "Druge možnosti",
+    "bestFor": "Najboljše za",
+    "parking": "Parkiranje",
+    "beach": "Plaža"
+  },
+  "destination": "nin",
+  "language": "sk",
+  "updatedAt": "2026-10-16T13:54:18.153Z"
+}

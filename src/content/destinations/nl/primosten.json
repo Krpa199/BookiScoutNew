@@ -1,0 +1,146 @@
+{
+  "title": "Primošten Reisgids: Stranden, Parkeren & Waar te verblijven",
+  "metaDescription": "Plan een reis naar Primošten, Kroatië. Ontdek de beste kiezelstranden, waar te parkeren bij de autovrije oude stad, en nabijgelegen gebieden voor gezinnen en stellen.",
+  "intro": "Primošten is een kustplaats in Midden-Dalmatië, gelegen op 28 kilometer ten zuiden van Šibenik. Bekend om zijn historische schiereiland en grote kiezelstranden, spreekt het gezinnen, stellen en road-trippers aan die op zoek zijn naar een traditionele mediterrane omgeving zonder de enorme stedelijke schaal van het nabijgelegen Split. De belangrijkste trekpleister is de toegankelijkheid van de kustlijn, met stranden die direct aan het stadscentrum grenzen.\n\nHet hoofdseizoen loopt van juni tot september. Juli en augustus brengen de hoogste temperaturen en grootste drukte met zich mee, waardoor de centrale stranden en de belangrijkste parkeerplaatsen volstromen. Mei en eind september bieden lagere accommodatietarieven en rustigere straten, hoewel de zeetemperatuur te laag kan zijn om te zwemmen.",
+  "quickFacts": [
+    {
+      "label": "Beste maanden",
+      "value": "Juni tot september"
+    },
+    {
+      "label": "Zeetemperatuur in augustus",
+      "value": "25°C tot 27°C"
+    },
+    {
+      "label": "Dichtstbijzijnde luchthaven",
+      "value": "Luchthaven Split (SPU), 39 km"
+    },
+    {
+      "label": "Hoofdstrandtype",
+      "value": "Kiezel en rotsachtig"
+    },
+    {
+      "label": "Prijsniveau",
+      "value": "Gemiddeld voor de Dalmatische kust"
+    },
+    {
+      "label": "Mobiliteit oude stad",
+      "value": "Autovrij, alleen voor voetgangers"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Oude Stad (Schiereiland)",
+      "bestFor": "Stellen, dineren en historische sfeer",
+      "parking": "Verboden binnenin; vereist gebruik van betaalde parkeerplaatsen op het vasteland",
+      "beach": "200m tot 500m lopen naar Mala Raduča",
+      "summary": "Het historische centrum ligt op een autovrij schiereiland, alleen voor voetgangers. Het biedt de hoogste concentratie restaurants en bars, maar vereist het slepen van bagage vanaf de parkeerplaatsen op het vasteland."
+    },
+    {
+      "name": "Raduča",
+      "bestFor": "Gezinnen en strandtoegang",
+      "parking": "Vaak inbegrepen bij hotels; grote openbare betaalde parkeerplaatsen in de buurt",
+      "beach": "Directe toegang tot de kiezelstranden Velika en Mala Raduča",
+      "summary": "Dit gebied omringt de belangrijkste kiezelstranden en dennenbossen op het vasteland. Accommodaties hier liggen dichter bij het water en bieden over het algemeen gemakkelijkere toegang met de auto dan in de oude stad."
+    },
+    {
+      "name": "Bilo",
+      "bestFor": "Rustige verblijven en stellen",
+      "parking": "Meestal voorzien door privé-appartementen",
+      "beach": "Onmiddellijke toegang tot rotsachtige baaien en kleine kiezelplekjes",
+      "summary": "Een kleine kustnederzetting gelegen op 5 kilometer ten noorden van Primošten. Het biedt een rustiger alternatief met toegang tot de rotsachtige kustlijn, maar vereist een voertuig of lokale bus om de restaurants van Primošten te bereiken."
+    },
+    {
+      "name": "Dolac",
+      "bestFor": "Budgetreizigers en rustige gezinsverblijven",
+      "parking": "Meestal inbegrepen bij accommodatie",
+      "beach": "Kiezelbaaien en betonnen terrassen binnen 100m tot 400m",
+      "summary": "Een voorstedelijk dorp 3 kilometer ten noorden, verbonden met Primošten via de kustweg. Het beschikt over residentiële appartementen en een paar lokale cafés, geschikt voor wie de drukte van het centrum wil vermijden."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "820 km, ~9 uur via Salzburg, Villach, Ljubljana, Zagreb en de A1 snelweg. Vereist Oostenrijkse en Sloveense vignetten, plus Kroatische tolgelden.",
+      "other": "Directe vluchten naar Split (SPU) duren 1,5 uur."
+    },
+    {
+      "from": "Wenen",
+      "car": "640 km, ~6,5 uur via Graz, Maribor, Zagreb en de A1 snelweg. Vereist Oostenrijkse en Sloveense vignetten, plus Kroatische tolgelden.",
+      "other": "Directe vluchten naar Split (SPU) duren 1 uur."
+    },
+    {
+      "from": "Boedapest",
+      "car": "680 km, ~6,5 uur via Letenye, Zagreb en de A1 snelweg. Vereist Hongaars vignet, plus Kroatische tolgelden.",
+      "other": "Seizoensvluchten naar Split of FlixBus-verbindingen via Zagreb."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "400 km, ~4,5 uur via Novo Mesto, Karlovac en de A1 snelweg. Vereist Sloveens vignet, plus Kroatische tolgelden.",
+      "other": "Er zijn directe busverbindingen, maar deze duren 8 tot 10 uur."
+    },
+    {
+      "from": "Praag",
+      "car": "970 km, ~10 uur via Linz, Graz, Maribor, Zagreb en de A1 snelweg. Vereist Tsjechische, Oostenrijkse en Sloveense vignetten, plus Kroatische tolgelden.",
+      "other": "Seizoensgebonden directe vluchten naar Split duren 1,5 uur."
+    },
+    {
+      "from": "Krakau",
+      "car": "1050 km, ~11 uur via Ostrava, Brno, Wenen, Graz, Zagreb en de A1 snelweg. Vereist Tsjechische, Oostenrijkse en Sloveense vignetten, plus Kroatische tolgelden.",
+      "other": "Seizoensvluchten naar Split via LOT Polish Airlines of budgetmaatschappijen."
+    }
+  ],
+  "whenToGo": "Het toeristenseizoen in Primošten loopt van eind mei tot begin oktober. Juli en augustus zijn de topmaanden, met zeetemperaturen rond 26°C, betrouwbare zonneschijn en alle lokale bedrijven die op volle capaciteit draaien. Deze maanden kennen ook de hoogste prijzen en de grootste drukte op het strand van Mala Raduča. Juni en september bieden mildere dagtemperaturen (23°C tot 28°C) en verlaagde accommodatieprijzen, hoewel eind september een grotere kans op regen met zich meebrengt. Van oktober tot april verandert Primošten in een rustige residentiële stad; de meeste hotels, seizoensgebonden restaurants en strandbars sluiten, en de zeetemperaturen dalen onder de 18°C.",
+  "faq": [
+    {
+      "question": "Is Primošten een bezoek waard?",
+      "answer": "Ja, Primošten is een bezoek waard voor reizigers die op zoek zijn naar een traditionele kustplaats met uitgestrekte kiezelstranden. Het dient als een uitstekende uitvalsbasis voor het verkennen van Midden-Dalmatië, inclusief het nabijgelegen Nationaal Park Krka en de stad Šibenik."
+    },
+    {
+      "question": "Hoeveel dagen heb ik nodig in Primošten?",
+      "answer": "Drie tot vijf dagen is voldoende om de stad te verkennen, tijd door te brengen op de stranden en een dagtocht naar de omliggende gebieden te maken. Bezoekers die op zoek zijn naar een toegewijde strandvakantie blijven vaak één tot twee weken."
+    },
+    {
+      "question": "Wat is het beste strand in Primošten?",
+      "answer": "Mala Raduča wordt beschouwd als het beste en meest populaire strand vanwege de centrale ligging, gladde kiezels en helder water. Velika Raduča is een groter alternatief aan de overkant van het schiereiland, met watersportmogelijkheden en schaduw van pijnbomen."
+    },
+    {
+      "question": "Heb ik een auto nodig in Primošten?",
+      "answer": "Een auto is niet nodig als u in het stadscentrum of bij de stranden van Raduča verblijft, aangezien de dagelijkse benodigdheden op loopafstand zijn. Een voertuig wordt echter sterk aanbevolen voor het verkennen van nabijgelegen dorpen, nationale parken of grotere steden zoals Split en Zadar."
+    },
+    {
+      "question": "Waar moet ik parkeren in Primošten?",
+      "answer": "Parkeren binnen het schiereiland van de oude stad is verboden voor niet-bewoners. Bezoekers moeten gebruikmaken van de grote betaalde parkeerplaatsen net buiten de toegangspoorten van het schiereiland of speciale parkeergelegenheid op eigen terrein bevestigen met hun accommodatieaanbieder."
+    },
+    {
+      "question": "Is Primošten goed voor gezinnen?",
+      "answer": "Ja, Primošten is zeer geschikt voor gezinnen vanwege het kalme water en de toegankelijke, schone kiezelstranden. De aanwezigheid van schaduwgevende pijnbomen, waterfietsverhuur en vlakke wandelpaden maakt het gemakkelijk voor kinderen van alle leeftijden."
+    }
+  ],
+  "headings": {
+    "quickFacts": "In één oogopslag",
+    "whereToStay": "Waar te verblijven in Primošten",
+    "gettingThere": "Naar Primošten reizen",
+    "whenToGo": "Wanneer te gaan",
+    "guides": "Primošten gidsen",
+    "faq": "Veelgestelde vragen over Primošten",
+    "groups": {
+      "gettingAround": "Parkeren & je verplaatsen",
+      "planning": "Planning & waar te verblijven",
+      "timing": "Wanneer te gaan",
+      "travelers": "Gezinnen, stellen & reisstijlen",
+      "activities": "Stranden & dingen te doen",
+      "food": "Eten & drinken",
+      "comparisons": "Vergelijkingen",
+      "practical": "Praktische informatie"
+    },
+    "car": "Met de auto",
+    "other": "Andere opties",
+    "bestFor": "Geschikt voor",
+    "parking": "Parkeren",
+    "beach": "Strand"
+  },
+  "destination": "primosten",
+  "language": "nl",
+  "updatedAt": "2026-10-16T13:46:48.425Z"
+}

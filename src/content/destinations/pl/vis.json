@@ -1,0 +1,146 @@
+{
+  "title": "Vis: Przewodnik turystyczny: Miasta, plaże i noclegi",
+  "metaDescription": "Zaplanuj swoją podróż na chorwacką wyspę Vis. Dowiedz się, gdzie zatrzymać się w mieście Vis i Komižy, jak tam dotrzeć, uzyskaj informacje o promach i szczegółach dotyczących plaż.",
+  "intro": "Vis to najbardziej oddalona zamieszkana wyspa od chorwackiego lądu stałego, dostępna po 2,5-godzinnej podróży promem ze Splitu. Jest idealna dla niezależnych podróżników szukających spokojniejszej, mniej komercyjnie rozwiniętej alternatywy dla sąsiedniego Hvaru czy Brača. Wyspa słynie z historii wojskowej, rolniczego wnętrza i skalistych zatoczek. Nie ma tu dużych hoteli-kurortów, a zamiast nich dostępne są prywatne apartamenty, wille i kilka małych butikowych obiektów noclegowych.\n\nSezon turystyczny jest ściśle sezonowy, trwa od maja do października, a szczyt połączeń promowych i działalności restauracji przypada na lipiec i sierpień. Turyści zazwyczaj zatrzymują się w jednej z dwóch głównych miejscowości — mieście Vis lub Komižy — i używają samochodu lub skutera, aby dotrzeć do odległych plaż na południowym wybrzeżu.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "Czerwiec do września"
+    },
+    {
+      "label": "Temperatura morza w sierpniu",
+      "value": "24°C do 26°C"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Lotnisko w Splicie (SPU) + 2,5 godz. promem"
+    },
+    {
+      "label": "Główny typ plaży",
+      "value": "Żwir, płaskie skały, odizolowane piaszczyste zatoczki"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "10-20% wyższy niż średnia chorwacka"
+    },
+    {
+      "label": "Piesza dostępność",
+      "value": "Piesza dostępność; części Komižy i Kut są strefami bez ruchu samochodowego"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Miasto Vis (Luka i Kut)",
+      "bestFor": "Odwiedzający po raz pierwszy, dostęp do promu, restauracje",
+      "parking": "Duży płatny parking w pobliżu portu promowego; ograniczony w Kut",
+      "beach": "Prirovo (żwirowa) to 10-minutowy spacer",
+      "summary": "Główny port podzielony na nowszą Lukę i historyczny, spokojniejszy Kut. Oferuje najlepsze połączenia promowe i największą koncentrację restauracji."
+    },
+    {
+      "name": "Komiža",
+      "bestFor": "Zachody słońca, wycieczki łodzią do Błękitnej Jaskini",
+      "parking": "Duży płatny parking miejski nad centrum dla pieszych",
+      "beach": "Małe żwirowe plaże (Gusarica, Kamenice) w pobliżu",
+      "summary": "Tradycyjne miasteczko rybackie na zachodnim wybrzeżu z kamiennymi domami i nieco bardziej swobodną atmosferą. Służy jako główny punkt wypadowy na wycieczki do Błękitnej Jaskini na Biševie."
+    },
+    {
+      "name": "Rukavac",
+      "bestFor": "Spokojne wakacje na plaży, natura",
+      "parking": "Zazwyczaj wliczone w wynajem prywatnych apartamentów",
+      "beach": "W odległości spaceru od Srebrnej (płaskie skały/żwir)",
+      "summary": "Mała, spokojna wioska wypoczynkowa na południowo-wschodnim wybrzeżu, składająca się głównie z prywatnych apartamentów do wynajęcia. Brakuje jej prawdziwego centrum miasta, ale oferuje bliskość do najlepszych południowych plaż wyspy."
+    },
+    {
+      "name": "Milna i Ženka",
+      "bestFor": "Podróżni szukający piaszczystych brzegów",
+      "parking": "Przy drodze lub prywatne podjazdy",
+      "beach": "Plaża Milna (piaszczysta) i Zaglav (piaszczysta) w pobliżu",
+      "summary": "Nadmorskie osady na południowo-wschodnim wybrzeżu, znane z bliskości rzadkich piaszczystych plaż. Obszar jest gęsto mieszkalny z minimalną infrastrukturą komercyjną."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monachium",
+      "car": "850 km do Splitu (ok. 9,5 godz.) + 2,5 godz. promem, przez A10/A1, winiety AT/SI, opłaty HR",
+      "other": "Bezpośrednie loty do Splitu (SPU)"
+    },
+    {
+      "from": "Wiedeń",
+      "car": "760 km do Splitu (ok. 8 godz.) + 2,5 godz. promem, przez A2/A1, winiety AT/SI, opłaty HR",
+      "other": "Bezpośrednie loty lub pociąg sypialny do Splitu"
+    },
+    {
+      "from": "Budapeszt",
+      "car": "750 km do Splitu (ok. 7,5 godz.) + 2,5 godz. promem, przez M7/A4/A1, winieta HU, opłaty HR",
+      "other": "Bezpośrednie loty lub pociągi sezonowe do Splitu"
+    },
+    {
+      "from": "Lublana",
+      "car": "470 km do Splitu (ok. 5 godz.) + 2,5 godz. promem, przez A2/A1, winieta SI, opłaty HR",
+      "other": "Bezpośredni autobus do Splitu"
+    },
+    {
+      "from": "Praga",
+      "car": "1090 km do Splitu (ok. 11,5 godz.) + 2,5 godz. promem, przez winiety CZ/AT/SI, opłaty HR",
+      "other": "Bezpośrednie loty do Splitu"
+    },
+    {
+      "from": "Kraków",
+      "car": "1050 km do Splitu (ok. 11 godz.) + 2,5 godz. promem, przez winiety SK/HU, opłaty HR",
+      "other": "Bezpośrednie loty do Splitu"
+    }
+  ],
+  "whenToGo": "Sezon turystyczny trwa od maja do października. W maju i październiku wyspa jest bardzo spokojna, niektóre restauracje i wycieczki łodzią nie działają, a temperatura morza jest niska (18°C do 20°C). Czerwiec i wrzesień oferują najlepszą równowagę dla odwiedzających, z temperaturą morza około 23°C, w pełni otwartymi obiektami i umiarkowaną liczbą turystów. Lipiec i sierpień to najbardziej ruchliwe i najdroższe miesiące; temperatury w ciągu dnia regularnie przekraczają 30°C, morze osiąga 25°C, a wcześniejsza rezerwacja promów, noclegów i restauracji jest obowiązkowa. Poza tymi miesiącami Vis działa w oparciu o szkieletowy rozkład zimowy z minimalną otwartą infrastrukturą turystyczną.",
+  "faq": [
+    {
+      "question": "Czy warto odwiedzić Vis?",
+      "answer": "Tak, jeśli wolisz spokojniejszą, mniej rozwiniętą wyspę dalmatyńską z autentycznymi wioskami rybackimi i naturą. Nie jest polecana dla osób szukających dużych piaszczystych plaż, kurortów all-inclusive ani rozległego życia nocnego."
+    },
+    {
+      "question": "Ile dni potrzebuję na Visie?",
+      "answer": "Trzy do pięciu dni to optymalny czas na wizytę na Visie. Daje to wystarczająco dużo czasu na zwiedzanie miasta Vis i Komižy, wycieczkę łodzią do Błękitnej Jaskini na Biševie oraz spędzenie dnia lub dwóch na południowych plażach, takich jak Stiniva czy Srebrna."
+    },
+    {
+      "question": "Jaka jest najlepsza plaża na Visie?",
+      "answer": "Stiniva jest najbardziej znana ze swojej dramatycznej, zamkniętej żwirowej zatoki, ale wymaga 30-minutowej stromej wędrówki lub dostępu łodzią. Dla łatwiejszego dostępu i całodziennego wypoczynku Srebrna oferuje gładkie, płaskie skały i żwir, natomiast Zaglav zapewnia rzadko spotykaną piaszczystą linię brzegową."
+    },
+    {
+      "question": "Czy potrzebuję samochodu na Visie?",
+      "answer": "Samochód lub skuter jest wysoce zalecany do dotarcia do odosobnionych plaż wyspy, restauracji w głębi lądu i miejsc wojskowych. Chociaż autobus publiczny łączy dwie główne miejscowości (miasto Vis i Komižę) zgodnie z rozkładem promów, poleganie wyłącznie na transporcie publicznym ogranicza eksplorację."
+    },
+    {
+      "question": "Gdzie zaparkować w Vis?",
+      "answer": "Miasto Vis posiada duży płatny parking przylegający do terminalu promowego, podczas gdy Komiža ma duży miejski płatny parking tuż nad swoim centrum dla pieszych. Parkowanie na ulicy w obu miastach jest surowo ograniczone, a wiele prywatnych apartamentów w historycznych centrach nie oferuje parkingu na miejscu."
+    },
+    {
+      "question": "Czy Vis jest dobry dla rodzin?",
+      "answer": "Vis jest odpowiedni dla rodzin szukających spokojnego, nastawionego na naturę urlopu, ale brakuje mu dedykowanych kurortów rodzinnych i infrastruktury rozrywkowej. Większość plaż składa się z kamyków lub skał i szybko opada w głęboką wodę, choć Milna i Zaglav oferują płytkie, piaszczyste alternatywy."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Gdzie zatrzymać się na Visie",
+    "gettingThere": "Dojazd na Vis",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Vis",
+    "faq": "Vis: Najczęściej zadawane pytania",
+    "groups": {
+      "gettingAround": "Parking i poruszanie się",
+      "planning": "Planowanie i gdzie się zatrzymać",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróżowania",
+      "activities": "Plaże i co robić",
+      "food": "Jedzenie i napoje",
+      "comparisons": "Porównania",
+      "practical": "Informacje praktyczne"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "vis",
+  "language": "pl",
+  "updatedAt": "2026-10-16T14:14:40.158Z"
+}

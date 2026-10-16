@@ -1,0 +1,146 @@
+{
+  "title": "Supetar Reisgids: Stranden, Veerboten & Waar te Verblijven",
+  "metaDescription": "Plan je reis naar Supetar, Brač. Ontdek de beste verblijfsgebieden, autoroutes vanuit Europa, veerbootinformatie, parkeermogelijkheden en lokale kiezelstranden.",
+  "intro": "Supetar is het belangrijkste toegangspunt tot het eiland Brač en een praktische uitvalsbasis voor reizigers die met de auto vanuit continentaal Europa aankomen. Het biedt een functionele mix van supermarkten, veerbootverbindingen en diensten, gecombineerd met een levendige waterkant en toegankelijke kiezelstranden. De stad is geschikt voor gezinnen en roadtrippers die van het eilandleven willen genieten zonder de logistieke complexiteit van het bereiken van meer afgelegen bestemmingen.\n\nDe zomermaanden juli en augustus brengen piekverkeer van veerboten, warme zeetemperaturen en volledig operationele restaurants langs de haven. Mei, juni en september bieden rustigere omstandigheden en lagere accommodatietarieven, hoewel de zee koeler is om in te zwemmen. Van oktober tot april sluiten veel seizoensgebonden bedrijven, maar essentiële diensten en veerbootverbindingen naar Split blijven het hele jaar door actief.",
+  "quickFacts": [
+    {
+      "label": "Beste maanden",
+      "value": "Juni tot september"
+    },
+    {
+      "label": "Zeetemperatuur in augustus",
+      "value": "25°C - 26°C"
+    },
+    {
+      "label": "Dichtstbijzijnde luchthaven",
+      "value": "Luchthaven Brač (30 km) of Luchthaven Split (veerboot vereist)"
+    },
+    {
+      "label": "Hoofdstrandtype",
+      "value": "Kiezel met enkele zanderige ondiepten"
+    },
+    {
+      "label": "Prijsniveau",
+      "value": "Gemiddeld voor Kroatië, goedkoper dan Bol of Hvar"
+    },
+    {
+      "label": "Oude stad / centrum",
+      "value": "Voetgangersvriendelijk, beperkte autotoegang nabij de haven"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centrum van Supetar (Haven / Oude Stad)",
+      "bestFor": "Reizigers zonder auto, korte verblijven en degenen die restaurants in de buurt willen",
+      "parking": "Betaalde openbare parkeerplaatsen nabij de veerhaven; beperkte parkeergelegenheid op straat",
+      "beach": "10-15 minuten lopen naar Banj of Vlačica",
+      "summary": "Het commerciële en transportknooppunt van het eiland. Het beschikt over stenen huizen, cafés langs de promenade en directe toegang tot de autoveerboot naar Split."
+    },
+    {
+      "name": "Tri Mosta & Bili Rat",
+      "bestFor": "Resortgangers, gezinnen en strandgerichte verblijven",
+      "parking": "Privé hotelparking en grote betaalde openbare parkeerplaatsen nabij de stranden",
+      "beach": "Directe toegang tot Tri Mosta (kiezel) en Bili Rat",
+      "summary": "Gelegen ten westen van het centrum, herbergt dit gebied de meeste grote hotels en resorts van Supetar. Het biedt schaduwrijke dennenbossen, strandbars en watersportfaciliteiten."
+    },
+    {
+      "name": "Gebied Banj & Vlačica",
+      "bestFor": "Gezinnen met jonge kinderen",
+      "parking": "Parkeren op straat kan krap zijn; accommodaties bieden vaak plaatsen",
+      "beach": "Directe toegang tot Banj (zandbodem) en Vlačica (kiezel)",
+      "summary": "Een woonwijk gelegen rond twee van de populairste baaien van de stad. Het biedt een rustigere sfeer dan de haven, terwijl het toch op korte loopafstand van de stadsvoorzieningen blijft."
+    },
+    {
+      "name": "Mirca",
+      "bestFor": "Reizigers met een auto die rust en stilte zoeken",
+      "parking": "Meestal gratis parkeren op privéterrein",
+      "beach": "Rustige lokale kiezelstranden op loopafstand",
+      "summary": "Een klein dorp 3 kilometer ten westen van Supetar. Het beschikt over traditionele stenen huizen, olijfgaarden en een veel langzamer tempo dan de hoofdplaats."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "850 km naar Split, ~9 uur via A8, A10 (Tauern) en A1. Vereist AT vignet, tol voor Tauern/Karawanken tunnels, HR tol, plus de autoveerboot Split-Supetar.",
+      "other": "Vlieg naar Luchthaven Split (SPU), transfer naar de haven van Split (25 km), neem dan de veerboot."
+    },
+    {
+      "from": "Wenen",
+      "car": "760 km naar Split, ~8 uur via A2, A4 en A1. Vereist AT en SLO vignetten, HR tol, plus de autoveerboot Split-Supetar.",
+      "other": "Vlieg naar Luchthaven Split (SPU), transfer naar de haven van Split (25 km), neem dan de veerboot."
+    },
+    {
+      "from": "Boedapest",
+      "car": "750 km naar Split, ~7.5 uur via M7 en A1. Vereist HU vignet, HR tol, plus de autoveerboot Split-Supetar.",
+      "other": "Vlieg naar Luchthaven Split (SPU), transfer naar de haven van Split (25 km), neem dan de veerboot."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "470 km naar Split, ~5 uur via A1 (SLO) en A1 (HR). Vereist SLO vignet, HR tol, plus de autoveerboot Split-Supetar.",
+      "other": "Bus of trein naar Split, gevolgd door de 50 minuten durende passagiers- of autoveerboot."
+    },
+    {
+      "from": "Praag",
+      "car": "1.090 km naar Split, ~11.5 uur via A9 (AT), A1 (SLO) en A1 (HR). Vereist CZ, AT, SLO vignetten, AT tunnel tol, HR tol, plus de autoveerboot Split-Supetar.",
+      "other": "Vlieg naar Luchthaven Split (SPU), transfer naar de haven van Split (25 km), neem dan de veerboot."
+    },
+    {
+      "from": "Krakau",
+      "car": "1.050 km naar Split, ~11.5 uur via D1 (SK), M7 (HU) en A1 (HR). Vereist SK en HU vignetten, HR tol, plus de autoveerboot Split-Supetar.",
+      "other": "Vlieg naar Luchthaven Split (SPU), transfer naar de haven van Split (25 km), neem dan de veerboot."
+    }
+  ],
+  "whenToGo": "Van juni tot en met september is Supetar volledig geopend, met zeetemperaturen variërend van 23°C tot 26°C. Juli en augustus trekken de grootste drukte, piek in veerbootwachtrijen en hogere accommodatieprijzen, maar garanderen wel dat alle restaurants en strandvoorzieningen operationeel zijn. Mei en oktober bieden mild weer en lagere tarieven, hoewel de zee vaak te koud is om te zwemmen en sommige seizoensgebonden bedrijven sluiten. Van november tot april keert de stad terug naar een rustig lokaal ritme; prijzen zijn op hun laagst, maar de toeristische infrastructuur sluit en de veerboot vaart volgens een gereduceerd winterdienstregeling.",
+  "faq": [
+    {
+      "question": "Is het de moeite waard om te bezoeken?",
+      "answer": "Ja, als u een handige, goed verbonden uitvalsbasis op Brač nodig heeft. Supetar biedt praktische voorzieningen, gemakkelijke veerboottoegang tot Split en aangename gezinsstranden, hoewel het de dramatische landschappen van Bol mist."
+    },
+    {
+      "question": "Hoeveel dagen heb ik nodig?",
+      "answer": "Drie tot vijf dagen is voldoende om Supetar te verkennen en als uitvalsbasis te gebruiken voor de rest van Brač. Een korter verblijf van twee dagen werkt als u alleen op doorreis bent naar andere eilandplaatsen."
+    },
+    {
+      "question": "Wat is het beste strand?",
+      "answer": "Tri Mosta wordt algemeen beschouwd als het beste strand vanwege de schone kiezels, pijnbomen schaduw en beschikbare faciliteiten. Gezinnen met kleine kinderen geven vaak de voorkeur aan het strand van Banj vanwege de ondiepe zandbodem."
+    },
+    {
+      "question": "Heb ik een auto nodig?",
+      "answer": "U heeft geen auto nodig als u van plan bent in Supetar te blijven en alleen de lokale stranden te bezoeken. Een auto is echter ten zeerste aanbevolen als u de rest van Brač wilt verkennen, zoals Vidova Gora of Zlatni Rat."
+    },
+    {
+      "question": "Waar kan ik parkeren?",
+      "answer": "Grote openbare betaalde parkeerplaatsen bevinden zich nabij de veerhaven en achter het Tri Mosta strandgebied. Parkeren op straat in het centrum is verdeeld in betaalde zones, en plaatsen vullen snel op in juli en augustus."
+    },
+    {
+      "question": "Is het goed voor gezinnen?",
+      "answer": "Ja, Supetar is een van de meest gezinsvriendelijke bestemmingen op Brač. Het heeft ondiepe stranden met zandplekken, opblaasbare waterparken en vlakke strandpromenades die geschikt zijn voor kinderwagens."
+    }
+  ],
+  "headings": {
+    "quickFacts": "In één oogopslag",
+    "whereToStay": "Waar te verblijven in Supetar",
+    "gettingThere": "Naar Supetar reizen",
+    "whenToGo": "Wanneer te gaan",
+    "guides": "Supetar gidsen",
+    "faq": "Supetar veelgestelde vragen",
+    "groups": {
+      "gettingAround": "Parkeren & je verplaatsen",
+      "planning": "Planning & waar te verblijven",
+      "timing": "Wanneer te gaan",
+      "travelers": "Gezinnen, koppels & reisstijlen",
+      "activities": "Stranden & dingen om te doen",
+      "food": "Eten & drinken",
+      "comparisons": "Vergelijkingen",
+      "practical": "Praktische info"
+    },
+    "car": "Met de auto",
+    "other": "Andere opties",
+    "bestFor": "Het beste voor",
+    "parking": "Parkeren",
+    "beach": "Strand"
+  },
+  "destination": "supetar",
+  "language": "nl",
+  "updatedAt": "2026-10-16T14:40:32.525Z"
+}

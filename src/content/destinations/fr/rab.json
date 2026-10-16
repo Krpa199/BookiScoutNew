@@ -1,0 +1,146 @@
+{
+  "title": "Guide de voyage de Rab : Plages, stationnement et hébergements",
+  "metaDescription": "Planifiez votre voyage à Rab, Croatie. Comparez les zones d'hébergement, trouvez des itinéraires routiers depuis l'Europe centrale et obtenez des informations pratiques sur le stationnement et les plages de sable.",
+  "intro": "Rab attire les voyageurs en quête de plages de sable, de forêts de pins et d'une vieille ville médiévale préservée. Contrairement à de nombreuses îles croates dominées par des rivages rocheux ou de galets, Rab possède de vastes baies sablonneuses, en particulier dans la péninsule de Lopar au nord, ce qui la rend très pratique pour les familles avec de jeunes enfants. Le littoral sud-ouest offre des forêts de pins denses et des criques isolées adaptées aux couples et aux voyageurs actifs.\n\nLa principale saison touristique s'étend de juin à septembre. Juillet et août offrent les températures de mer les plus chaudes et le fonctionnement complet des restaurants, mais entraînent des routes encombrées et des temps d'attente maximum pour les ferries continentaux. Mai et octobre conviennent aux voyageurs axés sur la randonnée et le vélo, bien que les températures de la mer restent fraîches et que certaines entreprises locales fonctionnent avec des horaires réduits.",
+  "quickFacts": [
+    {
+      "label": "Meilleurs mois",
+      "value": "Juin à septembre"
+    },
+    {
+      "label": "Température de la mer en août",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Aéroport le plus proche",
+      "value": "Rijeka (RJK), 60 km (ferry inclus)"
+    },
+    {
+      "label": "Type de plage principal",
+      "value": "Sable au nord, rochers/galets ailleurs"
+    },
+    {
+      "label": "Niveau de prix",
+      "value": "Modéré (similaire à Krk, moins cher que Hvar)"
+    },
+    {
+      "label": "Centre de la vieille ville",
+      "value": "Piétonnier uniquement (sans voiture)"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Ville de Rab",
+      "bestFor": "Histoire, gastronomie et ambiance nocturne",
+      "parking": "Parkings municipaux payants en dehors des murs de la ville",
+      "beach": "La plage de la ville est petite/de galets ; de meilleures plages nécessitent un trajet en voiture ou en bateau-taxi",
+      "summary": "Le centre historique et culturel de l'île. Séjourner ici signifie un accès immédiat aux restaurants et aux sites touristiques, mais nécessite de se garer en dehors de la zone piétonne."
+    },
+    {
+      "name": "Lopar",
+      "bestFor": "Familles avec de jeunes enfants",
+      "parking": "La plupart des hébergements disposent d'un parking gratuit sur place",
+      "beach": "Adjacente à Rajska Plaža (Plage du Paradis), une plage de sable de 1,5 km",
+      "summary": "Située au nord, cette zone fonctionne comme une station balnéaire. Elle manque d'architecture historique mais offre les rivages sablonneux peu profonds les plus accessibles de Croatie."
+    },
+    {
+      "name": "Suha Punta",
+      "bestFor": "Couples, amoureux de la nature et amateurs d'ombre",
+      "parking": "Généralement beaucoup de places de parking gratuites dans les hôtels et appartements",
+      "beach": "Criques rocheuses et de galets, beaucoup ombragées par des pins",
+      "summary": "Une péninsule tranquille et boisée avec des sentiers naturels et des eaux claires. Il faut une voiture ou un vélo pour atteindre les principales options de restauration de la ville de Rab."
+    },
+    {
+      "name": "Banjol & Barbat",
+      "bestFor": "Vues sur la mer et voyageurs avec bateaux",
+      "parking": "Généralement inclus dans les appartements privés",
+      "beach": "Plages de galets et petites sections de sable",
+      "summary": "Ces localités côtières voisines s'étendent au sud de la ville de Rab. Elles sont reliées au centre par une promenade côtière, offrant un équilibre entre l'accès à la plage et la proximité de la ville."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Munich",
+      "car": "550 km, ~7,5 heures via Salzbourg, Villach, Ljubljana, Rijeka et le ferry de Stinica. Nécessite les vignettes AT et SI, le péage du tunnel des Karawanks, les péages HR.",
+      "other": "Train ou FlixBus jusqu'à Rijeka, puis catamaran Jadrolinija jusqu'à la ville de Rab."
+    },
+    {
+      "from": "Vienne",
+      "car": "530 km, ~6,5 heures via Graz, Maribor, Zagreb, A1 jusqu'à Žuta Lokva et le ferry de Stinica. Nécessite les vignettes AT et SI, les péages HR.",
+      "other": "Train ou bus jusqu'à Zagreb, puis autocar direct jusqu'à Rab."
+    },
+    {
+      "from": "Budapest",
+      "car": "520 km, ~6 heures via la M7 jusqu'à Letenye, Zagreb, A1 jusqu'à Žuta Lokva et le ferry de Stinica. Nécessite la vignette électronique HU, les péages HR.",
+      "other": "FlixBus jusqu'à Zagreb, puis bus de correspondance pour Rab."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "160 km, ~3 heures via Postojna, Ilirska Bistrica, Rijeka et le ferry de Stinica. Nécessite la vignette SI, les péages HR.",
+      "other": "Bus jusqu'à Rijeka, puis catamaran jusqu'à la ville de Rab."
+    },
+    {
+      "from": "Prague",
+      "car": "850 km, ~10 heures via Brno, Vienne, Graz, Zagreb, A1 et le ferry de Stinica. Nécessite les vignettes CZ, AT et SI, les péages HR.",
+      "other": "Train ou bus jusqu'à Rijeka/Zagreb, puis bus/catamaran pour Rab."
+    },
+    {
+      "from": "Cracovie",
+      "car": "920 km, ~10,5 heures via Ostrava, Brno, Vienne, Zagreb, A1 et le ferry de Stinica. Nécessite les vignettes/péages PL, CZ, AT et SI, les péages HR.",
+      "other": "Vol vers Zadar (ZAD), puis bus jusqu'à Senj et ferry, ou voiture de location."
+    }
+  ],
+  "whenToGo": "De juin à septembre sont les mois les plus fiables pour la baignade, avec des températures de la mer atteignant un sommet entre 25°C et 27°C en août. Juillet et août connaissent les prix les plus élevés, une affluence maximale à Paradise Beach et des temps d'attente potentiels pour les ferries de Stinica et Valbiska. Juin et septembre offrent un équilibre entre eau chaude, tarifs d'hébergement plus bas et restaurants entièrement opérationnels sans la congestion du milieu de l'été. De novembre à avril, l'île est calme, de nombreux restaurants et hôtels axés sur le tourisme ferment, et le temps est souvent trop froid ou venteux pour les activités de plage.",
+  "faq": [
+    {
+      "question": "Est-ce que Rab vaut la peine d'être visitée ?",
+      "answer": "Oui, principalement pour son paysage distinct de plages de sable et de forêts de pins denses. Elle offre une ville médiévale bien préservée ainsi que des baies peu profondes, rares sur les autres îles croates."
+    },
+    {
+      "question": "Combien de jours faut-il passer à Rab ?",
+      "answer": "Quatre à sept jours sont idéaux. Cela laisse suffisamment de temps pour explorer la ville de Rab, passer quelques jours sur différentes plages à Lopar et Suha Punta, et faire une excursion en bateau local."
+    },
+    {
+      "question": "Quelle est la meilleure plage de Rab ?",
+      "answer": "Rajska Plaža (Plage du Paradis) à Lopar est la plus populaire pour ses 1,5 kilomètres de sable peu profond. Pour des endroits plus calmes et ombragés, les criques rocheuses et de galets de la péninsule de Suha Punta sont préférées."
+    },
+    {
+      "question": "Ai-je besoin d'une voiture à Rab ?",
+      "answer": "Une voiture est fortement recommandée pour se déplacer entre la vieille ville, les plages de sable au nord et les zones boisées. Bien que la ville de Rab soit accessible à pied, dépendre uniquement des bus locaux limite la flexibilité."
+    },
+    {
+      "question": "Où se garer dans la ville de Rab ?",
+      "answer": "Les visiteurs doivent utiliser les grands parkings municipaux payants situés juste en dehors des murs de la ville. Le centre historique lui-même est une zone piétonne avec un accès restreint aux véhicules."
+    },
+    {
+      "question": "Rab est-elle une bonne destination pour les familles ?",
+      "answer": "Oui, Rab est l'une des îles les plus adaptées aux familles en Croatie. Les plages de sable peu profondes de Lopar permettent aux jeunes enfants de patauger en toute sécurité, et l'île manque généralement des accès escarpés et à flanc de falaise que l'on trouve ailleurs."
+    }
+  ],
+  "headings": {
+    "quickFacts": "En bref",
+    "whereToStay": "Où séjourner à Rab",
+    "gettingThere": "Comment se rendre à Rab",
+    "whenToGo": "Quand partir",
+    "guides": "Guides de Rab",
+    "faq": "FAQ sur Rab",
+    "groups": {
+      "gettingAround": "Se déplacer et stationnement",
+      "planning": "Planification et hébergement",
+      "timing": "Quand partir",
+      "travelers": "Familles, couples et styles de voyage",
+      "activities": "Plages et activités",
+      "food": "Nourriture et boissons",
+      "comparisons": "Comparaisons",
+      "practical": "Informations pratiques"
+    },
+    "car": "En voiture",
+    "other": "Autres options",
+    "bestFor": "Idéal pour",
+    "parking": "Stationnement",
+    "beach": "Plage"
+  },
+  "destination": "rab",
+  "language": "fr",
+  "updatedAt": "2026-10-16T13:02:52.526Z"
+}

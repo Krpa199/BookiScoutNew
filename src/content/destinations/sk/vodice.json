@@ -1,0 +1,146 @@
+{
+  "title": "Vodice Potovalni Vodnik: Plaže, Parkiranje in Kje Bivati",
+  "metaDescription": "Načrtujte potovanje v Vodice, Hrvaška. Odkrijte najboljša območja za bivanje, potovalne poti iz Evrope, nasvete za parkiranje, vodnike po plažah in idealen čas za obisk.",
+  "intro": "Vodice so obalno mesto v Srednji Dalmaciji, ki leži med Zadrom in Splitom. Služi predvsem kot turistična destinacija, znana po svoji veliki marini, obsežnih prodnatih plažah in živahnem nočnem življenju. Mesto ustreza različnim stilom potovanj, privablja družine, ki izkoriščajo plitvo vodo Plave plaže, in skupine, ki se osredotočajo na klube na plaži v bližini plaže Hangar.\n\nGlavna sezona traja od konca junija do avgusta, ko mesto deluje s polno zmogljivostjo in temperature redno presegajo 30°C. Obiskovalci, ki iščejo mirnejše okolje in blažje vreme za raziskovanje bližnjega Nacionalnega parka Krka ali Šibenika, običajno načrtujejo potovanja v maju, septembru ali zgodnjem oktobru. Osrednje pristaniško območje je kompaktno in prijazno pešcem, podprto z dolgo obalno promenado, ki povezuje sosednje vasi.",
+  "quickFacts": [
+    {
+      "label": "Najboljši meseci",
+      "value": "Maj do september"
+    },
+    {
+      "label": "Temperatura morja v avgustu",
+      "value": "25°C do 26°C"
+    },
+    {
+      "label": "Najbližje letališče",
+      "value": "Zadar (ZAD) na 62 km ali Split (SPU) na 70 km"
+    },
+    {
+      "label": "Glavni tipi plaž",
+      "value": "Prod, droben pesek in betonske terase"
+    },
+    {
+      "label": "Cenovni razred",
+      "value": "Povprečen za obalno Hrvaško; nekoliko nižje kot v Splitu"
+    },
+    {
+      "label": "Mestno središče",
+      "value": "Pristanišče in staro mestno jedro, prilagojeno pešcem; zelo primerno za hojo"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Mestno središče (Centar)",
+      "bestFor": "Za prve obiskovalce, pare in tiste brez avtomobila",
+      "parking": "Težko in drago; uporabite velika javna parkirišča na obrobju",
+      "beach": "5-10 minut hoje do plaž Plava ali Hangar",
+      "summary": "Zgodovinsko jedro in območje marine ponujata visoko koncentracijo restavracij, pekarn in izhodišč za izlete z ladjo. Namestitve so večinoma zasebni apartmaji v ozkih kamnitih ulicah."
+    },
+    {
+      "name": "Območje Plava Plaža (Modra plaža)",
+      "bestFor": "Za družine z majhnimi otroki",
+      "parking": "Parkirišča zunaj ulice pogosto nudijo apartmaji",
+      "beach": "Neposreden dostop do plitvega prodnatega/peščenega morskega dna",
+      "summary": "Nahaja se zahodno od centra, to stanovanjsko območje se naslanja na najbolj družinam prijazno plažo Vodic. Okolje je mirnejše kot v mestnem jedru, močno zasenčeno z borovci."
+    },
+    {
+      "name": "Plaža Hangar / Vzhodne Vodice",
+      "bestFor": "Za mlajše popotnike in goste letovišč",
+      "parking": "Velika hotelska parkirišča in namenska parkirišča ob plaži",
+      "beach": "Ob prodnatih plažah s plažnimi klubi in izposojo",
+      "summary": "Temu vzhodnemu delu prevladujejo veliki hotelski kompleksi, kot sta Olympia in Imperial, in ponuja živahne plažne bare, vodne športe in nočne zabave. Ostaja živahno pozno v noč."
+    },
+    {
+      "name": "Srima",
+      "bestFor": "Za popotnike, ki iščejo mirnejše, bolj sproščene počitnice",
+      "parking": "Na splošno enostavno; večina nastanitev vključuje zasebna parkirna mesta",
+      "beach": "Le nekaj korakov od neprekinjenega odseka prodnate plaže",
+      "summary": "Mirna obalna vas vzhodno od Vodic, povezana z 2-kilometrsko promenado. Sestavljajo jo skoraj izključno moderne apartmajske zgradbe s pogledom na morje z osnovnimi lokalnimi storitvami."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "750 km, 8-9 ur preko A8, A10 in hrvaške A1. Zahteva avstrijsko in slovensko vinjeto ter cestnine za tunele Tauern/Karavanke in hrvaške avtoceste.",
+      "other": "Neposredni sezonski leti v Zadar ali Split, nato prevoz z letališča."
+    },
+    {
+      "from": "Dunaj",
+      "car": "620 km, 6-7 ur preko A2, A9 in hrvaške A1. Zahteva avstrijsko in slovensko vinjeto ter cestnine za tunele Gleinalm/Bosruck in hrvaške avtoceste.",
+      "other": "Neposredni leti v Zadar ali Split (sezonsko) ali FlixBus do Vodic."
+    },
+    {
+      "from": "Budimpešta",
+      "car": "650 km, 6-7 ur preko M7 in hrvaške A4/A1. Zahteva madžarsko e-vinjeto in hrvaške cestnine. Mejni prehod Letenye/Goričan.",
+      "other": "FlixBus vozi direktne linije do avtobusne postaje Vodice poleti."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "350 km, 4 ure preko A2 do Novega Mesta ali A1 do Reke, nato hrvaška A1. Zahteva slovensko vinjeto in hrvaške cestnine.",
+      "other": "Neposredne avtobusne linije pogosto vozijo med Ljubljano in Vodicami."
+    },
+    {
+      "from": "Praga",
+      "car": "950 km, 10-11 ur preko Dunaja ali Linza/Graza, nato hrvaška A1. Zahteva češko, avstrijsko in slovensko vinjeto ter avstrijske tunele in hrvaške cestnine.",
+      "other": "Neposredni sezonski leti v Zadar (Ryanair/Smartwings) ali vlak do Splita."
+    },
+    {
+      "from": "Krakov",
+      "car": "1050 km, 10-12 ur preko Slovaške (D1/D2) in Madžarske (M1/M7), nato hrvaška A1. Zahteva slovaško in madžarsko vinjeto ter hrvaške cestnine.",
+      "other": "Sezonski leti iz Krakova v Zadar ali Split preko Ryanaira."
+    }
+  ],
+  "whenToGo": "Maj in oktober ponujata dnevne temperature okoli 20-23°C, idealne za oglede in kolesarjenje, čeprav morje ostaja hladno (18-20°C) in so nekateri sezonski objekti na plaži zaprti. Junij in september sta optimalna meseca za uravnoteženo potovanje, saj ponujata toplo morje (22-24°C), nižje cene nastanitev in popolnoma delujoče restavracije brez vrhunskih gneč. Julij in avgust predstavljata glavno sezono z maksimalno vročino (pogosto nad 30°C), temperaturami morja, ki dosegajo vrh okoli 26°C, najvišjimi cenami in velikimi množicami ob promenadah in plažah. Od novembra do aprila so Vodice večinoma mirne, saj so večina hotelov, turističnih restavracij in plažnih klubov zaprti za zimo.",
+  "faq": [
+    {
+      "question": "Ali so Vodice vredne obiska?",
+      "answer": "Da, če si želite letoviško mesto z obsežnimi turističnimi objekti, živahnim nočnim življenjem in enostavnim dostopom do nacionalnih parkov. Tisti, ki iščejo izolirano, mirno ali zelo zgodovinsko destinacijo, bodo morda raje izbrali otoke ali manjše vasi."
+    },
+    {
+      "question": "Koliko dni potrebujete v Vodicah?",
+      "answer": "Tri do pet dni je dovolj za uživanje na plažah in izlete v Šibenik ali Nacionalni park Krka. Družine, ki se osredotočajo izključno na počitnice na plaži, pogosto rezervirajo za sedem do štirinajst dni."
+    },
+    {
+      "question": "Katera je najboljša plaža v Vodicah?",
+      "answer": "Plava Plaža (Modra plaža) je najbolj priljubljena zaradi plitve vode in mešanega prodnato-peščenega morskega dna. Plažo Hangar imajo raje starejši najstniki in odrasli, ki iščejo vodne športe, plažne bare in glasbo."
+    },
+    {
+      "question": "Potrebujem avto v Vodicah?",
+      "answer": "Avto ni potreben, če bivate blizu centra, saj so plaže, restavracije in izleti z ladjo dostopni peš. Vendar pa je vozilo koristno za raziskovanje širše dalmatinske obale in obiskovanje notranjih nacionalnih parkov."
+    },
+    {
+      "question": "Kje je najbolje parkirati v Vodicah?",
+      "answer": "Glavna javna parkirišča se nahajajo v bližini centralne tržnice in avtobusne postaje (Ulica Artina). Julija in avgusta se hitro napolnijo, zato je toplo priporočljivo rezervirati nastanitev z zagotovljenim zasebnim parkirnim mestom."
+    },
+    {
+      "question": "So Vodice primerne za družine?",
+      "answer": "Da, zelo so ocenjene kot primerne za družine zaradi plitvega vstopa na Plavi Plaži in obilice namenskih otroških dejavnosti, igrišč in vodnih parkov. Dolge, ravne promenade so prav tako zelo prijazne za vozičke."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na kratko",
+    "whereToStay": "Kje bivati v Vodicah",
+    "gettingThere": "Pot do Vodic",
+    "whenToGo": "Kdaj obiskati",
+    "guides": "Vodniki za Vodice",
+    "faq": "Pogosta vprašanja o Vodicah",
+    "groups": {
+      "gettingAround": "Parkiranje in premikanje",
+      "planning": "Načrtovanje in kje bivati",
+      "timing": "Kdaj obiskati",
+      "travelers": "Družine, pari in stili potovanja",
+      "activities": "Plaže in dejavnosti",
+      "food": "Hrana in pijača",
+      "comparisons": "Primerjave",
+      "practical": "Praktične informacije"
+    },
+    "car": "Z avtom",
+    "other": "Druge možnosti",
+    "bestFor": "Najboljše za",
+    "parking": "Parkiranje",
+    "beach": "Plaža"
+  },
+  "destination": "vodice",
+  "language": "sk",
+  "updatedAt": "2026-10-16T11:17:44.656Z"
+}

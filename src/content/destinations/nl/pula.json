@@ -1,0 +1,146 @@
+{
+  "title": "Pula reisgids: Stranden, parkeren en waar te verblijven",
+  "metaDescription": "Plan een reis naar Pula, Kroatië. Ontdek de beste wijken om te verblijven, rijroutes vanuit Europa, parkeermogelijkheden, stranden en de beste reistijd.",
+  "intro": "Pula fungeert als de belangrijkste toegangspoort tot het Istrische schiereiland en trekt zowel geschiedenisliefhebbers als zomervakantiegangers aan. De stad wordt gekenmerkt door haar goed bewaarde Romeinse amfitheater en een kustlijn die bestaat uit rotsachtige oevers en kiezelbaaien. Bezoekers die op zoek zijn naar een combinatie van archeologische vindplaatsen en toegankelijke kustresorts, zullen het gebied goed geschikt vinden voor een kort verblijf of als uitvalsbasis voor bredere regionale verkenning.\n\nDe meest gunstige omstandigheden doen zich voor van eind mei tot en met september, wanneer veerboten frequent varen en alle toeristische faciliteiten geopend zijn. De zomer brengt hoge temperaturen en aanzienlijke drukte met zich mee, vooral langs het schiereiland Verudela. Bezoekers die lagere accommodatieprijzen en gematigd weer verkiezen, moeten juni of september als reisperiode overwegen, om de piekdrukte van juli en augustus te vermijden.",
+  "quickFacts": [
+    {
+      "label": "Beste maanden",
+      "value": "Juni en september"
+    },
+    {
+      "label": "Zeetemperatuur in augustus",
+      "value": "25°C tot 27°C"
+    },
+    {
+      "label": "Dichtstbijzijnde luchthaven",
+      "value": "Luchthaven Pula (PUY), 8 km van het centrum"
+    },
+    {
+      "label": "Hoofdstrandtype",
+      "value": "Kiezel, rotsachtig en betonplaten"
+    },
+    {
+      "label": "Prijsniveau",
+      "value": "Gemiddeld voor Istrië, iets lager dan Dubrovnik"
+    },
+    {
+      "label": "Beloopbaarheid oude stad",
+      "value": "Voetgangerszone, beperkt toegankelijk voor auto's"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Pula Centrum / Oude Stad",
+      "bestFor": "Historische reizen, dineren en OV-verbindingen",
+      "parking": "Moeilijk; vereist grote betaalde parkeerplaatsen buiten de voetgangerszone",
+      "beach": "2 tot 3 km verwijderd (busrit vereist)",
+      "summary": "De historische kern concentreert zich rond het Romeinse amfitheater en het forum. Het heeft geen directe toegang tot het strand, maar biedt de grootste concentratie aan restaurants, bars en musea."
+    },
+    {
+      "name": "Verudela-schiereiland",
+      "bestFor": "Gezinnen en resortvakanties",
+      "parking": "Volop bij hotels en aangewezen resortparkeerplaatsen",
+      "beach": "Directe toegang tot kiezelbaaien (Hawaii Beach, Ambrela)",
+      "summary": "Dit gebied, gelegen 5 km ten zuiden van het centrum, bestaat voornamelijk uit grote resortcomplexen en appartementen. Het beschikt over enkele van Pula's meest toegankelijke kiezelstranden en het plaatselijke aquarium."
+    },
+    {
+      "name": "Stoja-schiereiland",
+      "bestFor": "Kampeerders en buitenrecreatie",
+      "parking": "Eenvoudig parkeren op straat en grote campingfaciliteiten",
+      "beach": "Directe toegang tot rotsachtige kusten en het kiezelstrand Valkane",
+      "summary": "Stoja ligt ten westen van het stadscentrum en herbergt een grote camping, een winkelcentrum en rotsachtige kustpaden. Het gebied is rustiger dan Verudela en spreekt bezoekers aan die de voorkeur geven aan self-catering of kamperen."
+    },
+    {
+      "name": "Pješčana Uvala",
+      "bestFor": "Koppels en gezinnen die een rustigere dorpssfeer zoeken",
+      "parking": "Beperkte openbare parkeergelegenheid; best te regelen via accommodatie",
+      "beach": "Korte wandeling naar een beschermde baai met kiezel/zandmix",
+      "summary": "Een woonwijk net ten zuiden van Pula, gebouwd rond een beschutte baai. Het biedt een meer ontspannen alternatief voor de grote resorts, met een hoogwaardig lokaal strand en diverse restaurants aan het water."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "590 km, 6,5 uur via A10 en A1. Vereist vignetten voor AT en SI, plus Karawankentunnel en HR-tol",
+      "other": "Directe vlucht met Lufthansa of seizoensgebonden Flixbus"
+    },
+    {
+      "from": "Wenen",
+      "car": "580 km, 6 uur via A2 en A1. Vereist vignetten voor AT en SI, plus HR-tol",
+      "other": "Directe seizoensvlucht met Ryanair of Austrian Airlines"
+    },
+    {
+      "from": "Boedapest",
+      "car": "610 km, 6,5 uur via M7 en HR A4/A6. Vereist HU e-vignet en HR-tol",
+      "other": "Directe bus via Flixbus"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "200 km, 2,5 uur via A1. Vereist SI-vignet en HR-tol",
+      "other": "Directe dagelijkse bus via Nomago of Flixbus"
+    },
+    {
+      "from": "Praag",
+      "car": "880 km, 10 uur via CZ D1, AT A9, SI A1. Vereist vignetten voor CZ, AT, SI, plus tunnel en HR-tol",
+      "other": "Seizoensgebonden directe vlucht of trein naar Rijeka, gevolgd door bus"
+    },
+    {
+      "from": "Krakau",
+      "car": "1050 km, 11 uur via PL A4, CZ D1, AT A1/A2, SI A1. Vereist vignetten voor CZ, AT, SI, plus PL en HR-tol",
+      "other": "Seizoensvluchten via LOT/Ryanair of busroutes met meerdere etappes"
+    }
+  ],
+  "whenToGo": "Juni en september bieden de beste balans tussen warme zeetemperaturen (rond 23°C), gematigde prijzen en minder drukte. Juli en augustus zien zeetemperaturen pieken tussen 25°C en 27°C, samenvallend met maximale accommodatieprijzen, druk verkeer en volledig operationele veerdiensten. Mei en oktober bieden koeler water rond 18°C tot 20°C, wat zwemmen minder betrouwbaar maakt, hoewel de belangrijkste archeologische vindplaatsen open blijven zonder de zomerse hitte. Tijdens de wintermaanden van november tot april dalen de temperaturen aanzienlijk, wat leidt tot aanzienlijke prijsverlagingen, maar veel kustbedrijven, hotels en seizoensgebonden vliegroutes volledig sluiten.",
+  "faq": [
+    {
+      "question": "Is Pula een bezoek waard?",
+      "answer": "Ja, vooral vanwege de goed bewaarde Romeinse architectuur en toegankelijke kustresorts. Het functioneert goed als een op zichzelf staande bestemming of als startpunt voor het verkennen van het Istrische schiereiland."
+    },
+    {
+      "question": "Hoeveel dagen heb ik nodig in Pula?",
+      "answer": "Twee tot drie dagen zijn voldoende om de stad te bezichtigen. Dit maakt één dag mogelijk om het amfitheater en de Oude Stad te verkennen, en nog een dag of twee voor stranden of een boottocht naar de Brijuni-eilanden."
+    },
+    {
+      "question": "Wat is het beste strand in Pula?",
+      "answer": "Hawaii Beach op het schiereiland Verudela wordt algemeen beschouwd als de beste optie. Het heeft een glooiende kiezelkustlijn, helder water en is omgeven door hoge rotskliffen."
+    },
+    {
+      "question": "Heb ik een auto nodig in Pula?",
+      "answer": "Een auto is niet nodig als u in de Oude Stad of op het schiereiland Verudela verblijft, aangezien lokale bussen deze gebieden betrouwbaar verbinden. Echter, een voertuig wordt sterk aanbevolen voor het bezoeken van heuveltopdorpen en afgelegen stranden in de bredere regio Istrië."
+    },
+    {
+      "question": "Waar kan ik parkeren in Pula?",
+      "answer": "De parkeerplaatsen Karolina en Mandrač zijn de meest praktische opties voor een bezoek aan het centrum. Beide zijn grote, betaalde, openluchtparkeerplaatsen net buiten de autovrije Oude Stad, waardoor rijden door smalle eenrichtingsstraten wordt geminimaliseerd."
+    },
+    {
+      "question": "Is Pula geschikt voor gezinnen?",
+      "answer": "Ja, het gebied biedt uitstekende infrastructuur voor reizen met kinderen. Het schiereiland Verudela beschikt over rustige, gezinsvriendelijke kiezelstranden, ondiepe zwemzones en attracties zoals het Pula Aquarium."
+    }
+  ],
+  "headings": {
+    "quickFacts": "In één oogopslag",
+    "whereToStay": "Waar te verblijven in Pula",
+    "gettingThere": "Hoe kom je in Pula",
+    "whenToGo": "Wanneer te gaan",
+    "guides": "Pula gidsen",
+    "faq": "Pula veelgestelde vragen",
+    "groups": {
+      "gettingAround": "Parkeren en rondreizen",
+      "planning": "Planning en waar te verblijven",
+      "timing": "Wanneer te gaan",
+      "travelers": "Gezinnen, koppels en reisstijlen",
+      "activities": "Stranden en activiteiten",
+      "food": "Eten en drinken",
+      "comparisons": "Vergelijkingen",
+      "practical": "Praktische info"
+    },
+    "car": "Met de auto",
+    "other": "Andere opties",
+    "bestFor": "Beste voor",
+    "parking": "Parkeren",
+    "beach": "Strand"
+  },
+  "destination": "pula",
+  "language": "nl",
+  "updatedAt": "2026-10-16T10:32:32.708Z"
+}

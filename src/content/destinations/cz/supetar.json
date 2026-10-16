@@ -1,0 +1,146 @@
+{
+  "title": "Supetar – Průvodce: Pláže, trajekty a kde se ubytovat",
+  "metaDescription": "Naplánujte si cestu do Supetaru, Brač. Objevte nejlepší oblasti k ubytování, trasy z Evropy autem, podrobnosti o trajektech, možnosti parkování a místní oblázkové pláže.",
+  "intro": "Supetar je hlavní vstupní bránou na ostrov Brač a praktickou základnou pro cestovatele přijíždějící autem z pevninské Evropy. Nabízí funkční kombinaci supermarketů, trajektových spojení a služeb, v kombinaci s živým nábřežím a přístupnými oblázkovými plážemi. Město vyhovuje rodinám a cestovatelům autem, kteří chtějí ostrovní život bez logistické složitosti dosažení vzdálenějších destinací.\n\nLetní měsíce červenec a srpen přinášejí největší trajektový provoz, teplé mořské teploty a plně fungující restaurace podél přístavu. Květen, červen a září nabízejí klidnější podmínky a nižší ceny ubytování, ačkoli moře je na koupání chladnější. Od října do dubna mnoho sezónních podniků zavírá, ale základní služby a trajektové spojení do Splitu zůstávají aktivní po celý rok.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "Červen až září"
+    },
+    {
+      "label": "Teplota moře v srpnu",
+      "value": "25°C - 26°C"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Letiště Brač (30 km) nebo Letiště Split (nutný trajekt)"
+    },
+    {
+      "label": "Hlavní typ pláže",
+      "value": "Oblázková s písčitými mělčinami"
+    },
+    {
+      "label": "Cenová úroveň",
+      "value": "Průměrná pro Chorvatsko, levnější než Bol nebo Hvar"
+    },
+    {
+      "label": "Staré město / centrum",
+      "value": "Pěší zóna, omezený přístup aut v blízkosti přístavu"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centrum Supetaru (Přístav / Staré Město)",
+      "bestFor": "Cestovatelé bez auta, krátké pobyty a ti, kteří chtějí mít restaurace blízko",
+      "parking": "Placená veřejná parkoviště u trajektového přístavu; omezené parkování na ulici",
+      "beach": "10-15 minut pěšky na Banj nebo Vlačicu",
+      "summary": "Obchodní a dopravní centrum ostrova. Nabízí kamenné domy, kavárny podél promenády a okamžitý přístup k trajektu pro auta do Splitu."
+    },
+    {
+      "name": "Tri Mosta a Bili Rat",
+      "bestFor": "Návštěvníci resortů, rodiny a pobyty zaměřené na pláže",
+      "parking": "Soukromé hotelové parkoviště a velká placená veřejná parkoviště u pláží",
+      "beach": "Přímý přístup na Tri Mosta (oblázková) a Bili Rat",
+      "summary": "Nachází se západně od centra, tato oblast zahrnuje většinu velkých hotelů a resortů v Supetaru. Nabízí stinné borové lesy, plážové bary a zařízení pro vodní sporty."
+    },
+    {
+      "name": "Oblast Banj a Vlačica",
+      "bestFor": "Rodiny s malými dětmi",
+      "parking": "Parkování na ulici může být stísněné; nemovitosti často nabízejí místa",
+      "beach": "Okamžitý přístup na Banj (písčité dno) a Vlačicu (oblázková)",
+      "summary": "Obytná čtvrť situovaná kolem dvou nejpopulárnějších zálivů města. Poskytuje klidnější atmosféru než přístav a zároveň je jen kousek pěšky od městských zařízení."
+    },
+    {
+      "name": "Mirca",
+      "bestFor": "Cestovatelé s autem hledající klid a pohodu",
+      "parking": "Většinou bezplatné parkování na soukromém pozemku",
+      "beach": "Nepřeplněné místní oblázkové pláže v docházkové vzdálenosti",
+      "summary": "Malá vesnice 3 kilometry západně od Supetaru. Zahrnuje tradiční kamenné domy, olivové háje a mnohem pomalejší tempo než hlavní město."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Mnichov",
+      "car": "850 km do Splitu, ~9 hodin přes A8, A10 (Tauern) a A1. Vyžaduje AT dálniční známku, mýto za tunely Tauern/Karawanken, HR mýto, plus trajekt pro auto Split-Supetar.",
+      "other": "Letět na letiště Split (SPU), transfer do přístavu Split (25 km), poté trajektem."
+    },
+    {
+      "from": "Vídeň",
+      "car": "760 km do Splitu, ~8 hodin přes A2, A4 a A1. Vyžaduje AT a SLO dálniční známky, HR mýto, plus trajekt pro auto Split-Supetar.",
+      "other": "Letět na letiště Split (SPU), transfer do přístavu Split (25 km), poté trajektem."
+    },
+    {
+      "from": "Budapešť",
+      "car": "750 km do Splitu, ~7.5 hodin přes M7 a A1. Vyžaduje HU dálniční známku, HR mýto, plus trajekt pro auto Split-Supetar.",
+      "other": "Letět na letiště Split (SPU), transfer do přístavu Split (25 km), poté trajektem."
+    },
+    {
+      "from": "Lublaň",
+      "car": "470 km do Splitu, ~5 hodin přes A1 (SLO) a A1 (HR). Vyžaduje SLO dálniční známku, HR mýto, plus trajekt pro auto Split-Supetar.",
+      "other": "Autobusem nebo vlakem do Splitu, následně 50minutovým osobním nebo automobilovým trajektem."
+    },
+    {
+      "from": "Praha",
+      "car": "1 090 km do Splitu, ~11.5 hodin přes A9 (AT), A1 (SLO) a A1 (HR). Vyžaduje CZ, AT, SLO dálniční známky, AT tunelové mýto, HR mýto, plus trajekt pro auto Split-Supetar.",
+      "other": "Letět na letiště Split (SPU), transfer do přístavu Split (25 km), poté trajektem."
+    },
+    {
+      "from": "Krakov",
+      "car": "1 050 km do Splitu, ~11.5 hodin přes D1 (SK), M7 (HU) a A1 (HR). Vyžaduje SK a HU dálniční známky, HR mýto, plus trajekt pro auto Split-Supetar.",
+      "other": "Letět na letiště Split (SPU), transfer do přístavu Split (25 km), poté trajektem."
+    }
+  ],
+  "whenToGo": "Od června do září je Supetar plně otevřený s teplotami moře od 23°C do 26°C. Červenec a srpen přinášejí největší davy, nejdelší fronty na trajekt a nejvyšší ceny ubytování, ale zaručují, že všechny restaurace a plážová zařízení fungují. Květen a říjen nabízejí mírné počasí a nižší ceny, ačkoli moře je často příliš studené na koupání a některé sezónní podniky zavírají. Od listopadu do dubna se město vrací do klidného místního rytmu; ceny jsou nejnižší, ale turistická infrastruktura se zavírá a trajekt jezdí podle omezeného zimního jízdního řádu.",
+  "faq": [
+    {
+      "question": "Stojí za to navštívit Supetar?",
+      "answer": "Ano, pokud potřebujete pohodlnou, dobře propojenou základnu na Brači. Supetar nabízí praktické vybavení, snadný přístup trajektem do Splitu a příjemné rodinné pláže, i když mu chybí dramatická scenérie Bolu."
+    },
+    {
+      "question": "Kolik dní potřebuji?",
+      "answer": "Tři až pět dní stačí k prozkoumání Supetaru a jeho využití jako základny pro zbytek Brače. Kratší dvoudenní pobyt funguje, pokud jen projíždíte do jiných ostrovních měst."
+    },
+    {
+      "question": "Která je nejlepší pláž?",
+      "answer": "Tri Mosta je obecně považována za nejlepší pláž díky svým čistým oblázkům, stínu borovic a dostupným zařízením. Rodiny s malými dětmi často preferují pláž Banj kvůli jejímu mělkému písčitému dnu."
+    },
+    {
+      "question": "Potřebuji auto?",
+      "answer": "Nepotřebujete auto, pokud plánujete zůstat v Supetaru a jen navštívit místní pláže. Nicméně, auto je velmi doporučeno, pokud chcete prozkoumat zbytek Brače, jako je Vidova Gora nebo Zlatni Rat."
+    },
+    {
+      "question": "Kde mohu zaparkovat?",
+      "answer": "Velká placená veřejná parkoviště se nacházejí u trajektového přístavu a za oblastí pláže Tri Mosta. Parkování na ulici v centru je rozděleno do placených zón a místa se rychle zaplní v červenci a srpnu."
+    },
+    {
+      "question": "Je vhodný pro rodiny?",
+      "answer": "Ano, Supetar je jednou z nejvíce rodinně-přátelských destinací na Brači. Má mělké pláže s písčitými úseky, nafukovací vodní parky a rovné pobřežní promenády vhodné pro kočárky."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Přehled",
+    "whereToStay": "Kde se ubytovat v Supetaru",
+    "gettingThere": "Jak se dostat do Supetaru",
+    "whenToGo": "Kdy jet",
+    "guides": "Průvodci Supetarem",
+    "faq": "Často kladené otázky o Supetaru",
+    "groups": {
+      "gettingAround": "Parkování a pohyb po městě",
+      "planning": "Plánování a kde se ubytovat",
+      "timing": "Kdy jet",
+      "travelers": "Rodiny, páry a styly cestování",
+      "activities": "Pláže a aktivity",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": "Praktické informace"
+    },
+    "car": "Autem",
+    "other": "Jiné možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "supetar",
+  "language": "cz",
+  "updatedAt": "2026-10-16T14:38:35.274Z"
+}

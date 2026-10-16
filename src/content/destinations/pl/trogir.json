@@ -1,0 +1,146 @@
+{
+  "title": "Trogir: Przewodnik turystyczny – plaże, parking i noclegi",
+  "metaDescription": "Zaplanuj swoją podróż do Trogiru w Chorwacji. Porównaj dzielnice, znajdź parking i plaże oraz poznaj najlepsze trasy dojazdowe z Europy Środkowej.",
+  "intro": "Trogir przyciąga podróżnych szukających dobrze zachowanego średniowiecznego miasteczka nadmorskiego z bezpośrednim dostępem do żwirowych plaż i wycieczek na wyspy. Położony 30 kilometrów na zachód od Splitu i pięć kilometrów od lotniska w Splicie, stanowi praktyczną bazę do zwiedzania środkowej Dalmacji bez konieczności poruszania się po dużym mieście. Centrum wpisane na listę UNESCO znajduje się na małej wysepce między stałym lądem a wyspą Čiovo, połączonej krótkimi mostami dla pojazdów i pieszych.\n\nKierunek ten dobrze sprawdza się dla podróżujących samochodem i rodzin, które chcą połączyć zwiedzanie z dniami na plaży na sąsiedniej wyspie Čiovo lub na Riwierze na stałym lądzie. Lato przynosi duże tłumy na wąskich uliczkach i drogach przybrzeżnych, co sprawia, że czerwiec i wrzesień są optymalne ze względu na cieplejszą temperaturę morza, otwarte udogodnienia i znośny ruch.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "Czerwiec i wrzesień"
+    },
+    {
+      "label": "Temperatura morza w sierpniu",
+      "value": "25°C do 27°C"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Lotnisko Split (SPU), 5 km"
+    },
+    {
+      "label": "Główny typ plaży",
+      "value": "Żwirowe i betonowe tarasy"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "Nieznacznie powyżej średniej chorwackiej"
+    },
+    {
+      "label": "Dostępność piesza",
+      "value": "Wysepka Starego Miasta jest całkowicie wolna od samochodów"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Stare Miasto (wysepka)",
+      "bestFor": "Krótkie pobyty i zwiedzanie",
+      "parking": "Brak parkingu na wysepce; płatne parkingi na stałym lądzie",
+      "beach": "1,5 km do publicznych plaż żwirowych",
+      "summary": "Historyczne centrum charakteryzuje się średniowieczną architekturą, restauracjami i marinami. Jest dostępne wyłącznie dla pieszych, co oznacza, że odwiedzający muszą iść z bagażem z pobliskich parkingów na stałym lądzie."
+    },
+    {
+      "name": "Wyspa Čiovo (Okrug Gornji)",
+      "bestFor": "Wakacje na plaży i dla rodzin",
+      "parking": "Często prywatne parkingi, duży ruch w lecie",
+      "beach": "0-1 km, głównie żwirowe (Plaża Copacabana)",
+      "summary": "Połączona mostami z Trogirem, ta okolica oferuje dwukilometrową żwirową plażę z barami i sportami wodnymi. Nowszy most umożliwia kierowcom ominięcie zabytkowego centrum."
+    },
+    {
+      "name": "Seget Donji",
+      "bestFor": "Spokojniejsze pobyty i udogodnienia resortowe",
+      "parking": "Wystarczająca liczba miejsc parkingowych w hotelach i prywatnych apartamentach",
+      "beach": "0-1 km, długi odcinek żwirowy (Plaża Medena)",
+      "summary": "Położony na zachód od Trogiru na stałym lądzie, Seget Donji ma relaksującą atmosferę z trzykilometrową promenadą nadmorską. Zapewnia łatwiejszy dostęp drogowy do Primošten i Šibenika."
+    },
+    {
+      "name": "Mastrinka i Arbanija (Čiovo)",
+      "bestFor": "Podróżni z ograniczonym budżetem i spokojny dostęp do morza",
+      "parking": "Zazwyczaj wliczone w cenę zakwaterowania",
+      "beach": "0-500m, wąskie żwirowe i skaliste brzegi",
+      "summary": "Położone na północnym wybrzeżu wyspy Čiovo, te ciche, mieszkalne wioski oferują spokojne wody z widokiem na stały ląd. Zakwaterowanie składa się głównie z prywatnych apartamentów z niższymi stawkami niż w Okrug Gornji."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monachium",
+      "car": "840 km, 9-10 godzin przez A8, A10 i A1. Wymaga winiety AT, opłaty za tunel Tauern, winiety SI i chorwackich opłat drogowych.",
+      "other": "Bezpośrednie loty na lotnisko Split (1,5 godz.), następnie 10-minutowy autobus lub taksówka."
+    },
+    {
+      "from": "Wiedeń",
+      "car": "740 km, 8 godzin przez A2, A4 i A1. Wymaga winiety AT, winiety SI i chorwackich opłat drogowych.",
+      "other": "Bezpośrednie loty na lotnisko Split (1,5 godz.) lub nocny pociąg do Splitu."
+    },
+    {
+      "from": "Budapeszt",
+      "car": "740 km, 7,5 godziny przez M7 i A4/A1. Wymaga winiety HU i chorwackich opłat drogowych.",
+      "other": "Bezpośrednie loty na lotnisko Split (1 godz.) lub sezonowy pociąg letni do Splitu."
+    },
+    {
+      "from": "Lublana",
+      "car": "450 km, 5 godzin przez A2 i A1. Wymaga winiety SI i chorwackich opłat drogowych.",
+      "other": "Bezpośredni autobus do Trogiru (8 godzin) lub bezpośredni dojazd samochodem."
+    },
+    {
+      "from": "Praga",
+      "car": "1050 km, 11-12 godzin przez Wiedeń, Graz i Zagrzeb. Wymaga winiet CZ, AT, SI i chorwackich opłat drogowych.",
+      "other": "Bezpośrednie loty na lotnisko Split (1,5 godz.)."
+    },
+    {
+      "from": "Kraków",
+      "car": "1050 km, 11-12 godzin przez Słowację i Węgry. Wymaga winiet SK, HU i chorwackich opłat drogowych.",
+      "other": "Bezpośrednie loty na lotnisko Split (1,5 godz.) liniami niskokosztowymi."
+    }
+  ],
+  "whenToGo": "Lipiec i sierpień to szczytowe miesiące letnie, charakteryzujące się temperaturą morza około 26°C, długimi słonecznymi dniami oraz w pełni działającymi rozkładami promów i wycieczek, ale także najwyższymi cenami zakwaterowania i dużym natężeniem ruchu na drogach przybrzeżnych. Czerwiec i wrzesień oferują bardziej zrównoważone wrażenia z temperaturą morza około 23°C do 25°C, co czyni pływanie komfortowym, jednocześnie unikając dotkliwych upałów w środku lata i największych tłumów. W maju i październiku obserwuje się znaczne spadki cen i chłodniejsze wody (18°C do 20°C); większość historycznych miejsc pozostaje otwarta, ale bary plażowe, sporty wodne i częste wycieczki łodzią zaczynają zamykać się lub działać według ograniczonych harmonogramów. Miesiące zimowe są ciche i zimne, a wiele hoteli i restauracji w obszarach turystycznych zamyka się całkowicie aż do wiosny.",
+  "faq": [
+    {
+      "question": "Czy warto odwiedzić Trogir?",
+      "answer": "Tak, Trogir jest wart odwiedzenia ze względu na dobrze zachowaną architekturę romańsko-gotycką i kompaktowy układ. Funkcjonuje efektywnie zarówno jako półdniowy przystanek, jak i centralna baza do zwiedzania okolicznych wysp Dalmacji."
+    },
+    {
+      "question": "Ile dni potrzebuję?",
+      "answer": "Dwa do trzech dni wystarczą na zwiedzanie historycznego centrum i spędzenie czasu na lokalnych plażach. Dla tych, którzy używają Trogiru jako bazy wypadowej do Splitu, Parku Narodowego Krka lub na wyspy, idealne jest pięć do siedmiu dni."
+    },
+    {
+      "question": "Która plaża jest najlepsza?",
+      "answer": "Okrug Gornji na wyspie Čiovo to najpopularniejsza plaża ze względu na jej udogodnienia, bary i sporty wodne. Dla cichszej atmosfery z cieniem sosen, Plaża Medena w Seget Donji jest dobrą alternatywą."
+    },
+    {
+      "question": "Czy potrzebuję samochodu?",
+      "answer": "Nie potrzebujesz samochodu, jeśli planujesz zostać na Starym Mieście lub polegać na łodziach i autobusach, aby dotrzeć do plaż i Splitu. Jednak samochód jest wysoce zalecany, jeśli zamierzasz zwiedzać dalej wzdłuż wybrzeża lub odbywać jednodniowe wycieczki w głąb lądu."
+    },
+    {
+      "question": "Gdzie mogę zaparkować?",
+      "answer": "Stare Miasto jest przeznaczone wyłącznie dla pieszych, więc odwiedzający muszą korzystać z dużych płatnych parkingów na stałym lądzie tuż przed mostem dla pieszych. Parkingi T1, T2 i T3 pobierają opłaty godzinowe lub dzienne, które stają się drogie latem."
+    },
+    {
+      "question": "Czy jest to dobre dla rodzin?",
+      "answer": "Tak, Trogir jest odpowiedni dla rodzin ze względu na spokojne żwirowe plaże, dostępne udogodnienia i krótki czas transferu z lotniska w Splicie. Pobyt na stałym lądzie w Seget Donji lub na wyspie Čiovo zapewnia najbardziej praktyczny dostęp do miejsc kąpielowych przyjaznych rodzinom."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Gdzie zatrzymać się w Trogirze",
+    "gettingThere": "Dojazd do Trogiru",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Trogirze",
+    "faq": "Najczęściej zadawane pytania o Trogirze",
+    "groups": {
+      "gettingAround": "Parking i poruszanie się",
+      "planning": "Planowanie i gdzie się zatrzymać",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróżowania",
+      "activities": "Plaże i atrakcje",
+      "food": "Jedzenie i picie",
+      "comparisons": "Porównania",
+      "practical": "Informacje praktyczne"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "trogir",
+  "language": "pl",
+  "updatedAt": "2026-10-16T09:32:09.671Z"
+}

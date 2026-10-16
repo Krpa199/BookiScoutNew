@@ -1,0 +1,146 @@
+{
+  "title": "Šibenik Potovalni vodnik: Plaže, parkiranje in kje prenočiti",
+  "metaDescription": "Načrtujte potovanje v Šibenik na Hrvaškem. Poiščite najboljše predele za bivanje, potovalne poti iz Srednje Evrope, informacije o parkiranju in priporočila za plaže.",
+  "intro": "Šibenik privablja obiskovalce, ki želijo raziskovati hrvaško zgodovino in srednjeveško arhitekturo, hkrati pa imajo enostaven dostop do narodnih parkov in plaž. Nahaja se v osrednji Dalmaciji in služi kot praktično izhodišče za obisk Narodnega parka Krka in Kornatskih otokov. Mesto odlikujejo štiri trdnjave in katedrala sv. Jakoba, uvrščena na Unescov seznam.\n\nGlavna potovalna sezona traja od maja do oktobra. Osrednje staro mestno jedro je popolnoma brez avtomobilov, sestavljeno iz strmih, ozkih kamnitih ulic. Zunaj zgodovinskega središča obiskovalci najdejo prodnate plaže in velike letoviške komplekse, namenjene družinam. Mesto ponuja tišjo alternativo bližnjemu Splitu, z nekoliko nižjimi povprečnimi stroški namestitve in prehrane.",
+  "quickFacts": [
+    {
+      "label": "Najboljši meseci",
+      "value": "Maj, junij, september"
+    },
+    {
+      "label": "Temperatura morja v avgustu",
+      "value": "24°C - 26°C"
+    },
+    {
+      "label": "Najbližje letališče",
+      "value": "Letališče Split (SPU), 50 km"
+    },
+    {
+      "label": "Glavni tip plaže",
+      "value": "Prodnata in betonska"
+    },
+    {
+      "label": "Cenovni razred",
+      "value": "Povprečen za obalno Hrvaško, nekoliko cenejši kot Split"
+    },
+    {
+      "label": "Staro mestno jedro",
+      "value": "Strogo brez avtomobilov in samo za pešce"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Staro mestno jedro (Stari Grad)",
+      "bestFor": "Obiskovalci, ki so prvič v mestu, in ogledi znamenitosti",
+      "parking": "Drago in omejeno; zahteva parkiranje na parkiriščih izven pešcone",
+      "beach": "15 minut hoje do plaže Banj",
+      "summary": "Zgodovinsko jedro odlikujejo srednjeveške kamnite stavbe, trdnjave in restavracije. Zahteva hojo po strmih stopnicah in prenašanje prtljage s parkirišč."
+    },
+    {
+      "name": "Crnica in predel plaže Banj",
+      "bestFor": "Dostop do plaže v hoje od centra",
+      "parking": "Na voljo ulično parkiranje, v bližini veliko parkirišče TEF",
+      "beach": "Neposreden dostop do plaže Banj (prodnata)",
+      "summary": "Stanovanjski predel, ki se nahaja severozahodno od centra. Ponuja panoramski razgled na staro mestno jedro in lažji dostop z avtom kot zgodovinsko jedro."
+    },
+    {
+      "name": "Amadria Park / Solaris",
+      "bestFor": "Družine z otroki in obiskovalci letovišč",
+      "parking": "Parkirišče znotraj letovišča, običajno plačljivo",
+      "beach": "Neposreden dostop do več urejenih prodnatih in peščenih plaž",
+      "summary": "Velik letoviški kompleks, ki se nahaja 6 km južno od Šibenika. Vključuje hotele, kampe, vodni park in obsežne turistične objekte."
+    },
+    {
+      "name": "Brodarica",
+      "bestFor": "Mirno bivanje ob obali in popotniki z omejenim proračunom",
+      "parking": "Običajno ga zagotovijo zasebni najemodajalci apartmajev",
+      "beach": "Dolg pas lokalnih prodnatih plaž",
+      "summary": "Predmestna vasica, ki se nahaja 8 km južno od Šibenika ob obali. Ponuja preproste apartmaje in hiter dostop s čolnom do otoka Krapanj."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "800 km, 8,5 ur preko A8, A10 in A1. Potrebna avstrijska vinjeta, cestnina za Tauern, slovenska vinjeta in hrvaške cestnine.",
+      "other": "Direkten let do letališča Split (SPU), nato 50-minutna vožnja z avtom ali avtobusom."
+    },
+    {
+      "from": "Dunaj",
+      "car": "650 km, 6,5 ur preko A2, slovenske A4 in hrvaške A1. Potrebna avstrijska vinjeta, slovenska vinjeta in hrvaške cestnine.",
+      "other": "Direkten let do Splita (SPU) ali Zadra (ZAD), nato avtobus do Šibenika."
+    },
+    {
+      "from": "Budimpešta",
+      "car": "680 km, 6,5 ur preko M7, hrvaške A4 in A1. Potrebna madžarska e-vinjeta in hrvaške cestnine.",
+      "other": "Direkten let do Zadra (ZAD) preko Ryanaira, nato 1-urna vožnja z avtobusom."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "400 km, 4,5 ure preko A2 in hrvaške A1. Potrebna slovenska vinjeta in hrvaške cestnine.",
+      "other": "Neposredna avtobusna linija traja 6-7 ur."
+    },
+    {
+      "from": "Praga",
+      "car": "980 km, 10,5 ur preko Avstrije in Slovenije do hrvaške A1. Potrebne vinjete za Češko, Avstrijo, Slovenijo in hrvaške cestnine.",
+      "other": "Direkten let do Splita (SPU), nato lokalni avtobus ali prevoz."
+    },
+    {
+      "from": "Krakov",
+      "car": "1050 km, 11,5 ur preko Slovaške in Madžarske do hrvaške A4/A1. Potrebne slovaška in madžarska vinjeta ter hrvaške cestnine.",
+      "other": "Direkten let do Zadra (ZAD) ali Splita (SPU), nato lokalni avtobus."
+    }
+  ],
+  "whenToGo": "Potovalna sezona v Šibeniku se začne maja s temperaturami morja okoli 18°C in nižjimi cenami namestitev. Junij in september ponujata idealne pogoje, saj uravnotežita toplo vodo za kopanje (22°C do 24°C) z zmernimi množicami in popolnoma delujočimi turističnimi objekti. Julij in avgust sta vrhunca sezone, saj prinašata visoke temperature, ki pogosto presegajo 30°C, najvišje temperature morja okoli 25°C, veliko število obiskovalcev in najvišje cene. Od novembra do aprila se zapre veliko sezonskih hotelov, restavracij in tur, vreme pa je običajno prehladno za kopanje, čeprav so trdnjave in Narodni park Krka odprti skozi vse leto za oglede.",
+  "faq": [
+    {
+      "question": "Ali je vredno obiska?",
+      "answer": "Da, Šibenik je vreden obiska zaradi svojega nemnožičnega srednjeveškega starega mestnega jedra in štirih zgodovinskih trdnjav. Služi kot odlična arhitekturna osnova in najugodnejše obalno mesto za dostop do Narodnega parka Krka."
+    },
+    {
+      "question": "Koliko dni?",
+      "answer": "Dva dni sta dovolj za ogled osrednjih znamenitosti, trdnjav in obisk Narodnega parka Krka. Bivanje pet do sedem dni je praktično, če načrtujete enodnevne izlete na sosednje otoke, v Zadar ali Split."
+    },
+    {
+      "question": "Najboljša plaža?",
+      "answer": "Plaža Banj je najugodnejša prodnata plaža, ki se nahaja kratek sprehod od starega mestnega jedra. Za boljše objekte in peščene dele je White Beach v letoviškem območju Amadria Park 6 km južno prednostna možnost."
+    },
+    {
+      "question": "Ali potrebujem avto?",
+      "answer": "Ne potrebujete avtomobila, če bivate v starem mestnem jedru in nameravate obiskati le center ter se udeležiti organiziranih izletov z ladjo. Avto je zelo priporočljiv za bivanje v predmestjih ali samostojno raziskovanje okolice, kot je Narodni park Krka."
+    },
+    {
+      "question": "Kje parkirati?",
+      "answer": "Parkiranje v zgodovinskem središču je močno omejeno. Glavne možnosti za obiskovalce so podzemna garaža Poljana za osrednji dostop ali veliko odprto parkirišče Luka blizu trajektnega pristanišča."
+    },
+    {
+      "question": "Je primerno za družine?",
+      "answer": "Da, območje je primerno za družine, še posebej letovišča, ki se nahajajo zunaj starega mestnega jedra. Kompleks Amadria Park je posebej namenjen otrokom z vodnim parkom, medtem ko mesto vsako poletje gosti Mednarodni otroški festival."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na kratko",
+    "whereToStay": "Kje prenočiti v Šibeniku",
+    "gettingThere": "Kako priti v Šibenik",
+    "whenToGo": "Kdaj obiskati",
+    "guides": "Šibenik vodniki",
+    "faq": "Pogosta vprašanja o Šibeniku",
+    "groups": {
+      "gettingAround": "Parkiranje in gibanje po mestu",
+      "planning": "Načrtovanje in kje prenočiti",
+      "timing": "Kdaj obiskati",
+      "travelers": "Družine, pari in načini potovanja",
+      "activities": "Plaže in stvari za početi",
+      "food": "Hrana in pijača",
+      "comparisons": "Primerjave",
+      "practical": "Praktične informacije"
+    },
+    "car": "Z avtom",
+    "other": "Druge možnosti",
+    "bestFor": "Najboljše za",
+    "parking": "Parkiranje",
+    "beach": "Plaža"
+  },
+  "destination": "sibenik",
+  "language": "sk",
+  "updatedAt": "2026-10-16T10:54:01.630Z"
+}

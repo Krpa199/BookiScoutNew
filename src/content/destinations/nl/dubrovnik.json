@@ -1,0 +1,153 @@
+{
+  "title": "Dubrovnik Reishandleiding: Wijken, Parkeren en Beste Reistijd",
+  "metaDescription": "Plan uw reis naar Dubrovnik met concrete details over de beste wijken om te verblijven, autoroutes vanuit Midden-Europa, parkeerinformatie en lokale stranden.",
+  "intro": "Dubrovnik spreekt voornamelijk geschiedenisliefhebbers en reizigers aan die op zoek zijn naar dramatische kustlandschappen. De stad is beroemd om zijn zwaar versterkte oude stad, direct gelegen aan de Adriatische Zee, waardoor het een belangrijke stop is voor zowel mediterrane cruises als roadtrippers. Bezoekers komen om over de middeleeuwse muren te wandelen, boottochten te maken naar de nabijgelegen Elaphitische Eilanden en de omliggende rotsachtige baaien te verkennen.\n\nOmdat het Kroatië's beroemdste bestemming is, vereist het een zorgvuldige planning om hoge kosten en dichte zomerdrukte te omzeilen. Het is het beste om te bezoeken in de schouderseizoenen mei, juni, september of oktober, wanneer het weer warm genoeg blijft om te zwemmen, maar de smalle stenen straatjes gemakkelijker te navigeren zijn.",
+  "quickFacts": [
+    {
+      "label": "Beste maanden",
+      "value": "Mei, juni, september, oktober"
+    },
+    {
+      "label": "Zeetemperatuur in augustus",
+      "value": "25°C tot 27°C (77°F tot 80°F)"
+    },
+    {
+      "label": "Dichtstbijzijnde luchthaven",
+      "value": "Luchthaven Dubrovnik (DBV), 20 km (12 mijl)"
+    },
+    {
+      "label": "Hoofdstrandtype",
+      "value": "Kiezels en rotsachtige terrassen"
+    },
+    {
+      "label": "Prijsniveau",
+      "value": "Aanzienlijk hoger dan het Kroatische gemiddelde"
+    },
+    {
+      "label": "Beloopbaarheid oude stad",
+      "value": "Volledig autovrij, talrijke steile trappen"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Oude Stad (Grad)",
+      "bestFor": "Eerste bezoekers en bezienswaardigheden",
+      "parking": "Geen auto's toegestaan; parkeren buiten is erg duur",
+      "beach": "10 minuten lopen naar Banje Strand (kiezel)",
+      "summary": "Verblijven binnen de muren plaatst u op steenworp afstand van belangrijke bezienswaardigheden en restaurants. U moet echter bagage over kinderkopjes dragen en veel trappen trotseren."
+    },
+    {
+      "name": "Lapad",
+      "bestFor": "Gezinnen en resortverblijven",
+      "parking": "Gemakkelijker dan het centrum, veel hotels bieden parkeerplaatsen",
+      "beach": "Uvala Lapad (kiezel/zand) en rotsachtige baaien",
+      "summary": "Een groot schiereiland ten noordwesten van het centrum met een ontspannen, vakantieoord-gevoel. Het is verbonden met de Oude Stad via een busrit van 15 minuten."
+    },
+    {
+      "name": "Ploče",
+      "bestFor": "Luxe reizigers die uitzicht op zee en de Oude Stad willen",
+      "parking": "Zeer beperkte parkeergelegenheid op straat; privéplek essentieel",
+      "beach": "Op steenworp afstand van Banje Strand en Sveti Jakov (kiezel)",
+      "summary": "Deze luxe wijk op een heuvel kijkt uit over de oostelijke kant van de stadsmuren. De uitzichten zijn uitstekend, maar om het gebied te bereiken moet u steile trappen oplopen."
+    },
+    {
+      "name": "Gruž",
+      "bestFor": "Budgetreizigers en degenen die veerboten gebruiken",
+      "parking": "Openbare parkeerplaatsen beschikbaar en goedkoper dan centrale opties",
+      "beach": "15 tot 20 minuten lopen naar Bellevue Strand (kiezel)",
+      "summary": "De belangrijkste haven en het commerciële centrum van de stad biedt een meer lokale sfeer en lagere prijzen. Het is de beste uitvalsbasis als u van plan bent vroege veerboten naar de eilanden te nemen."
+    },
+    {
+      "name": "Babin Kuk",
+      "bestFor": "Reizigers die op zoek zijn naar rustige resortcomplexen",
+      "parking": "Overvloedig aanwezig bij grote hotelcomplexen",
+      "beach": "Copacabana en Cava stranden (kiezel)",
+      "summary": "Gelegen aan de noordelijke punt van het schiereiland Lapad, wordt dit gebied gedomineerd door grootschalige resorts en groene ruimtes. Het biedt een rustige ontsnapping uit het stadscentrum."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "940 km, 10-11 uur via A8, Oostenrijkse A10, Sloveense A2 en Kroatische A1. Vereist AT/SI vignetten en HR tolgelden.",
+      "other": "Directe vluchten beschikbaar van MUC naar DBV"
+    },
+    {
+      "from": "Wenen",
+      "car": "800 km, 8.5-10 uur via A2 naar Graz, Sloveense A1/A4 en Kroatische A1. Vereist AT/SI vignetten en HR tolgelden.",
+      "other": "Directe vluchten beschikbaar van VIE naar DBV"
+    },
+    {
+      "from": "Boedapest",
+      "car": "740 km, 8-9 uur via M7 naar de grens, daarna Kroatische A4 en A1 zuidwaarts. Vereist HU vignet en HR tolgelden.",
+      "other": "Directe vluchten (Ryanair) of FlixBus"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "620 km, 6.5-7.5 uur via A2 naar de grens, daarna Kroatische A1 zuidwaarts. Vereist SI vignet en HR tolgelden.",
+      "other": "FlixBus of met de auto (geen directe vluchten)"
+    },
+    {
+      "from": "Praag",
+      "car": "1100 km, 11-13 uur via D1 naar Brno, Oostenrijk, Slovenië en Kroatische A1. Vereist CZ/AT/SI vignetten en HR tolgelden.",
+      "other": "Directe vluchten beschikbaar van PRG naar DBV"
+    },
+    {
+      "from": "Krakau",
+      "car": "1100 km, 11.5-13 uur via Slowakije, Hongarije (M3/M7) en Kroatische A4/A1. Vereist SK/HU vignetten en HR tolgelden.",
+      "other": "Directe vluchten (Ryanair) of langeafstandbus"
+    }
+  ],
+  "whenToGo": "Juli en augustus zijn de drukste en duurste maanden, met intense hitte en piektemperaturen van de zee rond 26°C (79°F). Mei, juni, september en oktober bieden een comfortabeler evenwicht, met warm weer, zeetemperaturen geschikt om te zwemmen (vooral in het vroege najaar) en volledig operationele veerboten en restaurants. Van november tot en met april is Dubrovnik rustig en veel goedkoper, maar de zee is te koud om te zwemmen, veel kustbedrijven sluiten voor de winter en de veerdiensten zijn sterk verminderd.",
+  "faq": [
+    {
+      "question": "Is het de moeite waard om te bezoeken?",
+      "answer": "Ja, de intacte middeleeuwse muren en historische architectuur maken het uniek in Europa. Het vereist echter een hoger budget en tolerantie voor drukte tijdens de zomer."
+    },
+    {
+      "question": "Hoeveel dagen heb ik nodig?",
+      "answer": "Twee tot drie dagen is voldoende om de muren te bewandelen, het historische centrum te verkennen en een nabijgelegen eiland te bezoeken. Een langer verblijf maakt dagtochten naar Montenegro of Mostar mogelijk."
+    },
+    {
+      "question": "Wat is het beste strand?",
+      "answer": "Sveti Jakov is de beste optie om de grootste drukte te vermijden, terwijl u toch uitzicht op de Oude Stad behoudt. Het vereist het aflopen van een lange reeks trappen ten zuidoosten van het centrum."
+    },
+    {
+      "question": "Heb ik een auto nodig?",
+      "answer": "Nee, een auto is een last binnen Dubrovnik vanwege ernstige parkeerbeperkingen en autovrije zones. Als u met de auto naar Dubrovnik rijdt, zult u uw voertuig waarschijnlijk gedurende uw hele verblijf geparkeerd laten."
+    },
+    {
+      "question": "Waar moet ik parkeren?",
+      "answer": "Parkeer bij uw accommodatie als deze een toegewezen plek biedt. Gebruik anders de parkeerplaats van de haven van Gruž of de openbare garage Ilijina Glavica, hoewel de laatste in de zomer tot €70 per dag kan kosten."
+    },
+    {
+      "question": "Is het goed voor gezinnen?",
+      "answer": "Ja, oudere kinderen zullen genieten van het verkennen van de forten en het maken van boottochten. De eindeloze trappen van de Oude Stad maken het echter zeer onpraktisch voor reizigers met kinderwagens."
+    }
+  ],
+  "headings": {
+    "quickFacts": "In één oogopslag",
+    "whereToStay": "Waar te verblijven in Dubrovnik",
+    "gettingThere": "Naar Dubrovnik reizen",
+    "whenToGo": "Wanneer te gaan",
+    "guides": "Dubrovnik gidsen",
+    "faq": "Veelgestelde vragen over Dubrovnik",
+    "groups": {
+      "gettingAround": "Parkeren & rondreizen",
+      "planning": "Planning & waar te verblijven",
+      "timing": "Wanneer te gaan",
+      "travelers": "Gezinnen, stellen & reisstijlen",
+      "activities": "Stranden & dingen om te doen",
+      "food": "Eten & drinken",
+      "comparisons": "Vergelijkingen",
+      "practical": "Praktische info"
+    },
+    "car": "Met de auto",
+    "other": "Andere opties",
+    "bestFor": "Het beste voor",
+    "parking": "Parkeren",
+    "beach": "Strand"
+  },
+  "destination": "dubrovnik",
+  "language": "nl",
+  "updatedAt": "2026-10-16T10:10:57.295Z"
+}

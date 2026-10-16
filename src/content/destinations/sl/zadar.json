@@ -1,0 +1,146 @@
+{
+  "title": "Zadar – Potovalni vodnik: Plaže, parkiranje in nastanitev",
+  "metaDescription": "Načrtujte vaše potovanje v Zadar s praktičnimi informacijami o voznih poteh, parkiranju, soseskah in najboljših prodnatih plažah. Dejanski vodnik po mestu.",
+  "intro": "Zadar služi kot praktična vstopna točka v Severno Dalmacijo, saj ponuja kompaktno rimsko in srednjeveško središče poleg dostopnih prodnatih plaž. Primeren je za družine, pare in popotnike z avtom, ki iščejo manj oblegano in cenejšo bazo kot Split ali Dubrovnik, hkrati pa zagotavlja neposreden dostop do Kornatskih otokov in Plitviških jezer.\n\nGlavno mesto je razdeljeno med zgodovinski, pešcem namenjen polotok in obalne stanovanjske soseske, ki se raztezajo proti severu in jugu. Glavna sezona traja od konca junija do avgusta, ko je morje najtoplejše in trajektne linije delujejo s polno zmogljivostjo. Tisti, ki dajejo prednost ogledom znamenitosti in nižjim stroškom nastanitve, naj izberejo maj, september ali oktober, ko je vreme še vedno milo in lokalne ceste so manj prometne.",
+  "quickFacts": [
+    {
+      "label": "Najboljši meseci",
+      "value": "Od junija do septembra"
+    },
+    {
+      "label": "Temperatura morja v avgustu",
+      "value": "25°C - 26°C"
+    },
+    {
+      "label": "Najbližje letališče",
+      "value": "Letališče Zadar (ZAD), 12 km od centra"
+    },
+    {
+      "label": "Glavni tip plaže",
+      "value": "Prod in betonske terase"
+    },
+    {
+      "label": "Cenovni razred",
+      "value": "Zmerno (ceneje kot Split ali Dubrovnik)"
+    },
+    {
+      "label": "Staro mestno jedro",
+      "value": "Pešcona na polotoku (območje brez avtomobilov)"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Staro mestno jedro (Poluotok)",
+      "bestFor": "Ogledi znamenitosti, prehranjevanje in kratki oddihi.",
+      "parking": "Javno plačljivo parkirišče zunaj obzidja; zelo omejeno.",
+      "beach": "15-20 minut hoje do plaže Kolovare.",
+      "summary": "Zgodovinsko srce Zadra zavzema majhen polotok, poln rimskih ruševin, cerkva in restavracij. Je v celoti pešcono, kar je težavno za voznike, a zelo praktično za peš hojo."
+    },
+    {
+      "name": "Borik & Puntamika",
+      "bestFor": "Družine in počitnice na plaži v letoviškem stilu.",
+      "parking": "Večina hotelov in apartmajev ponuja zasebno parkirišče.",
+      "beach": "Neposreden dostop do plaže Borik (mešanica proda in peska).",
+      "summary": "Nahaja se 4 km severno od centra, to območje vključuje glavna zadarska letovišča in kampe. Ponuja plitve plaže in borovo senco, čeprav je za dostop do starega mestnega jedra potreben avtobus ali avto."
+    },
+    {
+      "name": "Diklo",
+      "bestFor": "Mirnejši oddihi v apartmajih s samostojno pripravo hrane.",
+      "parking": "Brezplačno ulično parkiranje je pogosto; preverite pri nastanitvi.",
+      "beach": "Neposreden dostop do prodnatih in betonskih plaž.",
+      "summary": "Stanovanjsko predmestje, ki se razteza severno od Borika, zaznamovano z apartmaji ob morju in majhnimi lokalnimi kavarnami. Obala je večinoma betonske terase in skalnata območja, priljubljena med domačini."
+    },
+    {
+      "name": "Kolovare & Arbanasi",
+      "bestFor": "Peš dostop tako do plaže kot do starega mestnega jedra.",
+      "parking": "Na voljo je ulično parkiranje, poleti močno zgoščeno.",
+      "beach": "Neposreden dostop do plaže Kolovare (prod).",
+      "summary": "Nahaja se južno od starega mestnega jedra, ta soseska se osredotoča okoli glavne mestne javne plaže. Ponuja praktičen kompromis med časom na plaži in večernimi sprehodi v center."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "730 km, 8-9 ur preko A8, A10 (Tauern) in hrvaške A1. Cestnine vključujejo avstrijsko vinjeto, tunele Tauern/Karavanke, slovensko vinjeto in hrvaške avtocestne cestnine.",
+      "other": "Direktni leti s Croatia Airlines ali Lufthansa."
+    },
+    {
+      "from": "Dunaj",
+      "car": "600 km, 6-7 ur preko Gradca, Maribora in Zagreba (A1). Zahteva avstrijsko in slovensko vinjeto ter hrvaške avtocestne cestnine.",
+      "other": "Direktni leti preko Austrian Airlines ali Ryanair."
+    },
+    {
+      "from": "Budimpešta",
+      "car": "630 km, 6-7 ur preko M7 do mejnega prehoda Letenye, nato HR A4 in A1. Zahteva madžarsko vinjeto in hrvaške avtocestne cestnine.",
+      "other": "Direktni nizkocenovni leti (Ryanair) ali medkrajevni avtobus (Flixbus)."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "330 km, 3,5-4 ure preko A2 do Novega mesta, nato HR A1. Zahteva slovensko vinjeto in hrvaške avtocestne cestnine.",
+      "other": "Direktne avtobusne linije (približno 5-6 ur)."
+    },
+    {
+      "from": "Praga",
+      "car": "900 km, 10-11 ur preko Brna, Dunaja in Zagreba. Zahteva češko, avstrijsko in slovensko vinjeto ter hrvaške avtocestne cestnine.",
+      "other": "Direktni sezonski leti (Ryanair) ali vlaki RegioJet do obalnih mest."
+    },
+    {
+      "from": "Krakov",
+      "car": "1000 km, 10-11 ur preko Slovaške (D1) in Madžarske (M1/M7). Zahteva slovaško in madžarsko vinjeto ter hrvaške avtocestne cestnine.",
+      "other": "Direktni sezonski leti (Ryanair) ali medkrajevni avtobus."
+    }
+  ],
+  "whenToGo": "Od konca junija do avgusta je glavna sezona, za katero so značilne temperature zraka, ki pogosto presegajo 30 °C, temperature morja dosegajo 26 °C in najvišje cene nastanitev. Julij in avgust prinašata velike množice v staro mestno jedro in na plaže, medtem ko vse restavracije, trajektne linije in turistični operaterji delujejo s polno zmogljivostjo. September ponuja optimalno ravnovesje: morje ostaja dovolj toplo za kopanje, vendar se poletna gneča zmanjša in cene hotelov padejo za 20-30%. Od novembra do velike noči Zadar vstopi v nizko sezono; številna obalna letovišča, sezonske restavracije in trajektne povezave z otoki zmanjšajo svoje storitve ali se v celoti zaprejo, čeprav mestno središče ostaja funkcionalno za domačine.",
+  "faq": [
+    {
+      "question": "Je Zadar vreden obiska?",
+      "answer": "Da, Zadar je vreden obiska zaradi mešanice rimske zgodovine, srednjeveških cerkva in edinstvene javne umetnosti, kot so Morske orgulje. Služi kot praktična, manj oblegana alternativa Splitu in odlična baza za obisk več nacionalnih parkov."
+    },
+    {
+      "question": "Koliko dni potrebujete v Zadru?",
+      "answer": "Dva polna dneva sta dovolj za raziskovanje starega mestnega jedra in uživanje na lokalnih plažah. Če načrtujete enodnevne izlete na Kornatske otoke ali Plitviška jezera, si vzemite štiri do pet dni."
+    },
+    {
+      "question": "Katera je najboljša plaža v Zadru?",
+      "answer": "Plaža Borik je visoko ocenjena za družine zaradi plitve vode in mešanice peska in proda. Plaža Kolovare je najprimernejša možnost, če bivate blizu mestnega središča, saj ponuja dolge prodnate odseke in naravno senco."
+    },
+    {
+      "question": "Ali potrebujem avto v Zadru?",
+      "answer": "Avtomobila ne potrebujete, če nameravate ostati v starem mestnem jedru ali se udeležiti organiziranih izletov z ladjo. Vendar je avto zelo priporočljiv, če želite raziskovati širšo zadarsko regijo, obiskati nacionalne parke ali bivati v zunanjih predmestjih, kot je Diklo."
+    },
+    {
+      "question": "Kje je najbolje parkirati v Zadru?",
+      "answer": "Staro mestno jedro je pešcona, zato morajo obiskovalci parkirati zunaj mestnega obzidja. Najbolj praktične možnosti so javna parkirišča ob vzhodnem obzidju (Obala kralja Tomislava) ali bližnje parkirišče Ravnice, ki zaračunavata urno ali dnevno postavko."
+    },
+    {
+      "question": "Je Zadar primeren za družine?",
+      "answer": "Da, Zadar je zelo primeren za družine zaradi svojega ravnega, sprehajalnega centra in mirnejšega vzdušja v primerjavi z večjimi dalmatinskimi mesti. Območja, kot je Borik, ponujajo namenska družinska letovišča, plitve vode in senco borovcev."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na kratko",
+    "whereToStay": "Kje bivati v Zadru",
+    "gettingThere": "Pot do Zadra",
+    "whenToGo": "Kdaj obiskati",
+    "guides": "Zadarski vodniki",
+    "faq": "Pogosta vprašanja o Zadru",
+    "groups": {
+      "gettingAround": "Parkiranje in premikanje po mestu",
+      "planning": "Načrtovanje in nastanitev",
+      "timing": "Kdaj obiskati",
+      "travelers": "Družine, pari in načini potovanja",
+      "activities": "Plaže in stvari za početi",
+      "food": "Hrana in pijača",
+      "comparisons": "Primerjave",
+      "practical": "Praktične informacije"
+    },
+    "car": "Z avtom",
+    "other": "Druge možnosti",
+    "bestFor": "Najboljše za",
+    "parking": "Parkiranje",
+    "beach": "Plaža"
+  },
+  "destination": "zadar",
+  "language": "sl",
+  "updatedAt": "2026-10-16T09:21:49.472Z"
+}

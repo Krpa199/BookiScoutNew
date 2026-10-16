@@ -1,0 +1,146 @@
+{
+  "title": "Lovran Vodič: Plaže, parking i smještaj",
+  "metaDescription": "Planirajte svoje putovanje u Lovran uz naš praktični vodič. Otkrijte najbolje dijelove za smještaj, rute vožnje, savjete za parkiranje i preporuke za lokalne plaže.",
+  "intro": "Lovran je opušteni primorski grad na istočnoj obali istarskog poluotoka, smješten izravno na Opatijskoj rivijeri gdje se obronci planine Učke susreću s Jadranskim morem. Odgovara putnicima koji traže mirniju, povijesniju alternativu susjednoj Opatiji. Posjetitelji dolaze zbog dobro očuvane srednjovjekovne jezgre, grandioznih austro-ugarskih vila i poznate 12-kilometarske obalne šetnice Lungomare koja povezuje primorska mjesta.\n\nNajbolje vrijeme za posjet je od kraja svibnja do rujna. Ljeto donosi idealno vrijeme za plažu i temperature mora savršene za kupanje, dok prijelazne sezone u lipnju i rujnu nude ugodne uvjete za planinarenje i niže cijene smještaja. Grad je posebno privlačan europskim vozačima koji cijene njegovu blizinu, mogućnost pješačenja i opušteni mediteranski ritam.",
+  "quickFacts": [
+    {
+      "label": "Najbolji mjeseci",
+      "value": "Lipanj do rujan"
+    },
+    {
+      "label": "Temperatura mora u kolovozu",
+      "value": "25°C do 27°C"
+    },
+    {
+      "label": "Najbliža zračna luka",
+      "value": "Zračna luka Rijeka (RJK), 50 km"
+    },
+    {
+      "label": "Glavni tip plaže",
+      "value": "Betonske terase i sitni šljunak"
+    },
+    {
+      "label": "Razina cijena",
+      "value": "Prosječno do nešto iznad hrvatskog prosjeka"
+    },
+    {
+      "label": "Prohodnost starog grada",
+      "value": "Bez automobila i samo za pješake"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Stari Grad",
+      "bestFor": "Parovi i ljubitelji povijesti koji traže atmosferu",
+      "parking": "Javni parking s naplatom izvan zidina",
+      "beach": "10 minuta hoda do plaža Cipera ili Kvarner",
+      "summary": "Povijesna jezgra krase uske, popločane ulice, stare kamene kuće i srednjovjekovna arhitektura. Vrlo je prohodna i puna malih lokalnih kafića, iako ne možete doći automobilom izravno do većine smještaja."
+    },
+    {
+      "name": "Peharovo",
+      "bestFor": "Obitelji i ljubitelji plaža",
+      "parking": "Ulični parking i privatna parkirališta vila",
+      "beach": "Izravan pristup plaži Peharovo (šljunak/pijesak)",
+      "summary": "Smještena južno od centra grada, ova četvrt okružuje jednu od najpopularnijih obiteljskih plaža na rivijeri. Nudi mirniji, stambeni ugođaj s mnogo apartmana za samostalan boravak."
+    },
+    {
+      "name": "Ika",
+      "bestFor": "Šetači i oni koji žele mirnu bazu blizu Opatije",
+      "parking": "Općenito lakše nego u centru Lovrana; uglavnom privatna parkirališta",
+      "beach": "Male lokalne šljunčane uvale duž Lungomare šetnice",
+      "summary": "Mirno susjedno selo na sjeveru, Ika se nalazi izravno na šetnici Lungomare. To je opuštajuće mjesto koje nudi slikovitu, ravnu šetnju do centra Lovrana."
+    },
+    {
+      "name": "Liganj i Lovranska Draga",
+      "bestFor": "Ljubitelji prirode i planinari s automobilom",
+      "parking": "Dovoljno besplatnog parkinga kod pansiona",
+      "beach": "10 do 15 minuta vožnje niz planinu",
+      "summary": "Ova ruralna sela smještena su visoko na obroncima planine Učke iza Lovrana. Nude panoramske poglede na Kvarnerski zaljev, neposredan pristup planinarskim stazama i hladniju klimu."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "520 km, ~6 sati preko A8, A10 i Slovenije (A2/A1). Potrebne su austrijske i slovenske vinjete, plus tunel Karavanke i hrvatske cestarine.",
+      "other": "FlixBus do Opatije, ili sezonski letovi za Rijeku (RJK)"
+    },
+    {
+      "from": "Beč",
+      "car": "510 km, ~5.5 sati preko A2 do Graza, zatim Maribor i Ljubljana (Slovenija). Primjenjuju se austrijske i slovenske vinjete plus hrvatske cestarine.",
+      "other": "Vlakom do Rijeke (često preko Graza) ili međugradskim autobusom do Opatije"
+    },
+    {
+      "from": "Budimpešta",
+      "car": "515 km, ~5 sati preko M7 do hrvatske granice, zatim A4 do Zagreba i A6 do Rijeke. Potrebna je mađarska vinjeta i hrvatske cestarine.",
+      "other": "FlixBus izravno za Rijeku, ili sezonski vlak za Rijeku"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "120 km, ~1.5 do 2 sata preko A1 do Postojne, zatim cestom 6 do Ilirske Bistrice i graničnog prijelaza Rupa. Potrebna slovenska vinjeta.",
+      "other": "Izravni autobus za Rijeku, zatim lokalni autobus 32 za Lovran"
+    },
+    {
+      "from": "Prag",
+      "car": "840 km, ~9 sati preko Brna, Beča i Graza. Potrebne su češke, austrijske i slovenske vinjete.",
+      "other": "Sezonski letovi za Zadar ili Zagreb, ili vlakom RegioJet do Rijeke"
+    },
+    {
+      "from": "Krakov",
+      "car": "910 km, ~10 sati preko Ostrave, Brna, Beča i Graza. Potrebne su češke, austrijske i slovenske vinjete.",
+      "other": "Letovi za Beč ili Zagreb s daljnjim autobusnim vezama"
+    }
+  ],
+  "whenToGo": "Temperature mora vrhunac dosežu u kolovozu (u prosjeku 25°C do 27°C), kada je grad najprometniji europskim vozačima, a cijene smještaja su najviše. Srpanj je slično topao i živahan. Lipanj i rujan su najbolji mjeseci za posjet, nudeći blaže vrijeme, niže cijene i ugodne uvjete za planinarenje Učkom ili šetnju Lungomarem. Svibanj je miran i svjež, ali more (oko 18°C) je općenito prehladno za kupanje. Većina restorana ostaje otvorena od Uskrsa do listopada, dok zimi (studeni do ožujak) grad značajno utihne, a mnogi sezonski obrti se zatvaraju.",
+  "faq": [
+    {
+      "question": "Isplati li se posjetiti Lovran?",
+      "answer": "Da, nudi mirniju, opušteniju alternativu užurbanoj Opatiji s šarmantnim srednjovjekovnim starim gradom i prekrasnom šetnicom Lungomare. Idealan je za miran odmor na obali bez velikih gužvi većih turističkih mjesta."
+    },
+    {
+      "question": "Koliko dana mi je potrebno u Lovranu?",
+      "answer": "Tri do pet dana je idealno. To vam daje dovoljno vremena za istraživanje povijesnog centra, opuštanje na plažama i jednodnevni izlet na planinu Učku ili obližnje istarske gradove."
+    },
+    {
+      "question": "Koja je najbolja plaža u Lovranu?",
+      "answer": "Plaža Peharovo je najpopularnija, nudeći kombinaciju sitnog šljunka i pješčanog dna, što je izvrsno za obitelji. Plaža Kvarner je također dobra opcija za betonske terase u blizini centra."
+    },
+    {
+      "question": "Trebam li automobil u Lovranu?",
+      "answer": "Automobil nije nužan ako planirate boraviti u gradu, jer su centar, plaže i šetnica u potpunosti prohodni pješice. Lokalni autobusi lako povezuju Lovran s Rijekom i Opatijom."
+    },
+    {
+      "question": "Gdje mogu parkirati u Lovranu?",
+      "answer": "Postoje određena javna parkirališta s naplatom oko perimetra starog grada i blizu luke. Pronalaženje mjesta u srcu ljeta može biti teško, stoga je provjera uključuje li vaš smještaj parking toplo preporučljiva."
+    },
+    {
+      "question": "Je li Lovran dobar za obitelji?",
+      "answer": "Da, mirno more, sigurne pješačke zone i obiteljski sadržaji na plažama poput Peharova čine ga ugodnom destinacijom. Šetnica Lungomare je također ravna i pogodna za dječja kolica."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Ukratko",
+    "whereToStay": "Gdje odsjesti u Lovranu",
+    "gettingThere": "Dolazak u Lovran",
+    "whenToGo": "Kada ići",
+    "guides": "Vodiči za Lovran",
+    "faq": "Česta pitanja o Lovranu",
+    "groups": {
+      "gettingAround": "Parking i kretanje",
+      "planning": "Planiranje i smještaj",
+      "timing": "Kada posjetiti",
+      "travelers": "Obitelji, parovi i stilovi putovanja",
+      "activities": "Plaže i stvari za raditi",
+      "food": "Hrana i piće",
+      "comparisons": "Usporedbe",
+      "practical": "Praktične informacije"
+    },
+    "car": "Automobilom",
+    "other": "Ostale opcije",
+    "bestFor": "Najbolje za",
+    "parking": "Parking",
+    "beach": "Plaža"
+  },
+  "destination": "lovran",
+  "language": "hr",
+  "updatedAt": "2026-10-16T12:57:05.317Z"
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Labin útikalauz: Strandok, parkolás és szállás",
+  "metaDescription": "Tervezze meg utazását Labinba, Horvátországba. Találja meg a legjobb útvonalakat, parkolóhelyeket az óvárosban, a közeli strandokat Rabacban, és hol foglaljon szállást.",
+  "intro": "Labin egy középkori dombtetőn fekvő város az isztriai félsziget keleti partján, Horvátországban. Körülbelül három kilométerre fekszik a népszerű tengerparti üdülőhelytől, Rabactól. A város azoknak a látogatóknak vonzó, akik történelmi bázist preferálnak, gyors hozzáféréssel az Adriai-tengerhez, elkerülve a közvetlenül a vízparton található szállások magasabb árait és a túlzott tömeget.\n\nLabinba autóval a legpraktikusabb eljutni, így a közép-európai autós utazók gyakori célpontja. A fő turisztikai szezon júniustól szeptemberig tart, amikor minden étterem nyitva van, és a tenger elég meleg az úszáshoz. Akik a városnézést előnyben részesítik a strandolással szemben, gyakran májust vagy októbert választják az enyhébb időjárás és könnyebb parkolás miatt.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Júniustól szeptemberig"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Pulai repülőtér (PUY), 40 km"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Kavicsos (a közeli Rabacban)"
+    },
+    {
+      "label": "Árszínvonal",
+      "value": "Összhangban a horvát tengerparti átlaggal"
+    },
+    {
+      "label": "Óváros elrendezése",
+      "value": "Nagyrészt sétálóövezet, meredek macskaköves utcák"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Labini Óváros (Stari Grad)",
+      "bestFor": "Párok, történelem iránt érdeklődők, étkezés",
+      "parking": "Fizetős nyilvános parkolók a peremén; belül korlátozott",
+      "beach": "5 km (Rabac)",
+      "summary": "A történelmi mag egy dombon fekszik, keskeny, macskaköves utcákkal és középkori építészettel. A szállások kizárólag vendégházakból és apartmanokból állnak felújított kőépületekben."
+    },
+    {
+      "name": "Podlabin (Alsóváros)",
+      "bestFor": "Hosszabb tartózkodások, költségkímélő utazók",
+      "parking": "Ingyenes és bőséges utcai parkolás",
+      "beach": "5 km (Rabac)",
+      "summary": "Labin modern, lakóövezeti része a domb aljában. Hiányzik belőle a történelmi báj, de szupermarketeket, pékségeket és olcsóbb apartmanbérléseket kínál."
+    },
+    {
+      "name": "Rabac",
+      "bestFor": "Strandolók, gyermekes családok",
+      "parking": "Fizetős nyilvános parkolók; szállodai parkolás gyakran a vendégek számára fenntartott",
+      "beach": "0 km (kavicsos)",
+      "summary": "Egy forgalmas tengerparti üdülőhely, Labintól ötperces autóútra lefelé a dombon. Nagyméretű üdülőszállodákat, kempingeket és közvetlen hozzáférést kínál népszerű kavicsos strandokhoz."
+    },
+    {
+      "name": "Kapelica és Salakovci",
+      "bestFor": "Csoportok, nyugodt tartózkodások, autós utazók",
+      "parking": "Privát autóbeállók a bérleményekhez mellékelve",
+      "beach": "6-8 km",
+      "summary": "Csendes lakóövezeti falvak Labintól közvetlenül délre. Ezek a területek sűrűn beépítettek modern nyaralókkal és privát medencés villákkal."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "540 km, kb. 6,5 óra az A8, A10 és A2 útvonalon. Osztrák és szlovén autópálya-matrica, plusz Karawanken alagút-díj szükséges.",
+      "other": "Repülőút Pulába (szezonális), majd helyi busz vagy taxi."
+    },
+    {
+      "from": "Bécs",
+      "car": "510 km, kb. 5,5 óra az A2 és szlovén A1 útvonalon. Osztrák és szlovén autópálya-matrica szükséges.",
+      "other": "Közvetlen busz Rijekán keresztül vagy szezonális repülőút Pulába."
+    },
+    {
+      "from": "Budapest",
+      "car": "570 km, kb. 6 óra az M7, horvát A4 és A6 útvonalon Rijekába, majd D66-os tengerparti úton. Magyar autópálya-matrica és horvát útdíjak szükségesek.",
+      "other": "Busz (Flixbus) Zágrábon és Rijekán keresztül."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "130 km, kb. 2 óra az A1 útvonalon Črni Kalig, majd a 208-as helyi úton a határig. Szlovén autópálya-matrica szükséges.",
+      "other": "Közvetlen buszjárat."
+    },
+    {
+      "from": "Prága",
+      "car": "840 km, kb. 9 óra az A9/A1 (AT) és A1 (SLO) útvonalon. Cseh, osztrák és szlovén autópálya-matrica, plusz osztrák alagút-díjak szükségesek.",
+      "other": "Repülőút Pulába (szezonális), majd reptéri transzfer."
+    },
+    {
+      "from": "Krakkó",
+      "car": "1000 km, kb. 11 óra az A4, cseh D1, osztrák A1/A9 és szlovén A1 útvonalon. Lengyel útdíjak, plusz cseh, osztrák és szlovén autópálya-matricák szükségesek.",
+      "other": "Repülőút Krakkóból/Katowicéből Pulába (szezonális)."
+    }
+  ],
+  "whenToGo": "Júniustól szeptemberig a tenger hőmérséklete eléri a 24°C-27°C-ot, ami a főszezont jelenti a fürdésre és napozásra a közeli Rabacban. Júliusban és augusztusban a látogatók száma a legmagasabb, ami nagy forgalmat eredményez a Labint és Rabacot összekötő úton, korlátozott parkolási lehetőségeket és csúcsidőszaki szállásárakat. Májusban és októberben kevesebb a tömeg és alacsonyabbak az árak, a nappali hőmérséklet 18°C-22°C körül van, ami ideális túrázáshoz vagy kerékpározáshoz, bár a tenger gyakran túl hideg az úszáshoz. Az óvárosban a legtöbb turistákra specializálódott étterem és szezonális bolt november és április között zárva tart, csak az alapvető szolgáltatások működnek az alsóvárosban (Podlabin).",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni Labint?",
+      "answer": "Igen, Labint érdemes meglátogatni megőrzött középkori építészete, művészeti galériái és a Kvarner-öbölre nyíló magaslati kilátása miatt. Nyugodtabb, történelmibb alternatívát kínál a forgalmas tengerparti üdülőhelyeken való közvetlen tartózkodáshoz képest, miközben a strandok rövid autóútra találhatók."
+    },
+    {
+      "question": "Hány napra van szükségem Labinban?",
+      "answer": "Két-három nap elegendő az óváros felfedezéséhez, a helyi bányászati múzeum meglátogatásához és időt tölteni Rabac strandjain. Az utazók gyakran egy hétre bázisként használják, hogy egynapos kirándulásokat tegyenek Pulába, a Kamenjak-fokra és Közép-Isztriába."
+    },
+    {
+      "question": "Melyik a legjobb strand Labin közelében?",
+      "answer": "A Rabacban található Girandella strand a legnépszerűbb, fehér kavicsokkal, tiszta vízzel és számos szolgáltatással. Nyugodtabb lehetőségként a Sveta Marina 15 perces autóútra délre található, és jól ismert úszásra és búvárkodásra."
+    },
+    {
+      "question": "Szükségem van autóra Labinban?",
+      "answer": "Autóval nagyon ajánlott utazni Labin, a rabaci strandok és a környező isztriai vidék között. Bár egy helyi busz összeköti az óvárost és a tengerpartot, egy jármű biztosítja a szükséges rugalmasságot az egynapos kirándulásokhoz és a bevásárláshoz."
+    },
+    {
+      "question": "Hol parkolhatok Labinban?",
+      "answer": "Az óváros fő parkolója a Titov Trg (Tito tér) címen található, egy kiegészítő parkolóval a temető közelében. Itt a parkolás óra- vagy napidíjhoz kötött a nyári hónapokban, és a helyek gyorsan megtelnek délelőtt közepére."
+    },
+    {
+      "question": "Alkalmas Labin családok számára?",
+      "answer": "Labin nagyon alkalmas családok számára, különösen azoknak, akik a külvárosban medencés villát bérelnek, vagy le akarnak autózni a rabaci strandokra. Azonban a babakocsival utazó családok nehezen boldogulnak majd a dombtetőn fekvő óvárosban meredek, macskaköves utcái és lépcsői miatt."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Röviden",
+    "whereToStay": "Hol szálljunk meg Labinban",
+    "gettingThere": "Eljutás Labinba",
+    "whenToGo": "Mikor utazzunk",
+    "guides": "Labin útikalauzok",
+    "faq": "Gyakran Ismételt Kérdések Labinról",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor utazzunk",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Étel és ital",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb választás",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "labin",
+  "language": "hu",
+  "updatedAt": "2026-10-16T12:17:01.350Z"
+}

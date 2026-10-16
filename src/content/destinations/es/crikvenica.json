@@ -1,0 +1,146 @@
+{
+  "title": "Guía de Viaje de Crikvenica: Playas, Zonas y Rutas de Conducción",
+  "metaDescription": "Planifique un viaje a Crikvenica, Croacia. Descubra las mejores zonas para alojarse, rutas en coche desde Europa Central, tipos de playa e información de aparcamiento.",
+  "intro": "Crikvenica es una ciudad costera en el golfo de Kvarner, caracterizada por un largo paseo marítimo y una mezcla de playas de guijarros y arena. Sirve como un destino de verano práctico y accesible para familias y parejas que viajan en coche desde Europa Central. La ciudad se fusiona a la perfección con asentamientos vecinos como Dramalj y Selce, creando una franja costera continua de 28 kilómetros conocida como la Riviera de Crikvenica.\n\nEl destino es adecuado para viajeros que buscan unas vacaciones de playa sencillas con acceso inmediato al mar, en lugar de aquellos que buscan calas aisladas o una arquitectura histórica extensa. Los visitantes generalmente llegan entre junio y septiembre para nadar y tomar el sol. El alojamiento consiste principalmente en apartamentos privados, casas de huéspedes y hoteles resort de gama media situados directamente a lo largo de la carretera costera o en la ladera con vistas al agua.",
+  "quickFacts": [
+    {
+      "label": "Mejores meses",
+      "value": "De junio a septiembre"
+    },
+    {
+      "label": "Temp. del mar (Ago)",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Aeropuerto más cercano",
+      "value": "Rijeka (RJK), 20 km"
+    },
+    {
+      "label": "Tipo de playa principal",
+      "value": "Guijarros y arena parcial"
+    },
+    {
+      "label": "Nivel de precios",
+      "value": "Promedio para la costa croata"
+    },
+    {
+      "label": "Transitabilidad del centro",
+      "value": "Llano, apto para peatones"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centar (Centro)",
+      "bestFor": "Proximidad a restaurantes y transporte",
+      "parking": "Alta demanda, principalmente aparcamientos públicos de pago",
+      "beach": "5 minutos a pie de Gradska (Playa de la Ciudad)",
+      "summary": "El núcleo comercial de la Riviera ofrece la mayor concentración de restaurantes, tiendas y conexiones de transporte. Permanece animado hasta la noche y proporciona una base llana y transitable para los visitantes."
+    },
+    {
+      "name": "Crni Molo",
+      "bestFor": "Familias con niños pequeños",
+      "parking": "Aparcamiento en la calle, se llena pronto en verano",
+      "beach": "Acceso directo a playa poco profunda de arena/guijarros",
+      "summary": "Una zona muy popular centrada en una de las pocas playas de arena poco profundas de la región. Los alojamientos aquí se agotan rápidamente en temporada alta debido a la proximidad inmediata a la playa."
+    },
+    {
+      "name": "Dramalj",
+      "bestFor": "Estancias más tranquilas y parejas",
+      "parking": "Más fácil que en el centro, a menudo en el mismo alojamiento",
+      "beach": "Terrazas de guijarros y hormigón a 10 minutos a pie",
+      "summary": "Situado al noroeste del centro, Dramalj ofrece un ritmo más relajado y un alojamiento ligeramente más económico. El paseo marítimo lo conecta directamente con Crikvenica para paseos nocturnos."
+    },
+    {
+      "name": "Selce",
+      "bestFor": "Un ambiente de pueblo",
+      "parking": "Limitado en el centro antiguo, mejor en las afueras",
+      "beach": "Guijarros y hormigón, en su mayoría a 5-15 minutos a pie",
+      "summary": "Antiguamente un pueblo pesquero separado al sureste de Crikvenica, Selce tiene un centro distintivo y de menor escala. Cuenta con su propio puerto deportivo, cafeterías y tramos costeros ligeramente menos comercializados."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Múnich",
+      "car": "530 km, ~6.5 horas vía A8, A10 (Tauern), Karawanks, Liubliana, Rijeka. Peajes: viñeta AT, peajes de Tauern/Karawanks, viñeta SI, peaje HR.",
+      "other": "FlixBus directo a Crikvenica (aprox. 9 horas) o vuelo al Aeropuerto de Rijeka."
+    },
+    {
+      "from": "Viena",
+      "car": "510 km, ~6 horas vía A2 a Graz, Maribor, Zagreb, A6 a Rijeka. Peajes: viñeta AT, viñeta SI, peajes HR.",
+      "other": "FlixBus directo a Crikvenica (aprox. 8-9 horas)."
+    },
+    {
+      "from": "Budapest",
+      "car": "510 km, ~5.5 horas vía M7 hasta la frontera de Letenye, A4 a Zagreb, A6 a Rijeka. Peajes: viñeta HU, peajes HR.",
+      "other": "FlixBus directo (aprox. 7 horas) o tren a Zagreb seguido de un autobús."
+    },
+    {
+      "from": "Liubliana",
+      "car": "130 km, ~2 horas vía A1 a Postojna, Ilirska Bistrica, frontera de Rupa, Rijeka. Peajes: viñeta SI, peaje HR.",
+      "other": "Autobús directo desde la estación de autobuses de Liubliana (aprox. 3 horas)."
+    },
+    {
+      "from": "Praga",
+      "car": "830 km, ~9.5 horas vía Viena, Graz, Maribor, Zagreb, Rijeka. Peajes: viñetas CZ, AT, SI, peajes HR.",
+      "other": "Tren RegioJet o combinación de autobús a Rijeka, luego autobús local."
+    },
+    {
+      "from": "Cracovia",
+      "car": "900 km, ~10 horas vía A4, Ostrava, Brno, Viena, Graz, Maribor, Zagreb. Peajes: peaje PL, viñetas CZ, AT, SI, peajes HR.",
+      "other": "Vuelo a Zagreb o Zadar, seguido de un autobús nacional."
+    }
+  ],
+  "whenToGo": "De junio a septiembre marca la temporada alta de baño, con temperaturas del mar en agosto que alcanzan los 26°C. Julio y agosto traen los precios más altos, las mayores aglomeraciones y bares de playa, excursiones en barco y restaurantes completamente operativos. Junio y septiembre ofrecen temperaturas más suaves y costes de alojamiento más bajos, aunque el mar está ligeramente más fresco a principios de junio. De octubre a mayo es temporada baja; el mar baja de los 18°C, las multitudes desaparecen y una parte significativa de los restaurantes y hoteles de temporada cierran, dejando abiertos solo los servicios locales esenciales.",
+  "faq": [
+    {
+      "question": "¿Vale la pena visitar Crikvenica?",
+      "answer": "Crikvenica vale la pena para los viajeros que buscan unas vacaciones de playa accesibles y sencillas con una infraestructura bien desarrollada. Es muy práctica para familias que viajan en coche desde Europa Central, pero menos adecuada para quienes buscan una arquitectura histórica dramática o naturaleza aislada."
+    },
+    {
+      "question": "¿Cuántos días necesito en Crikvenica?",
+      "answer": "De tres a cinco días son suficientes para explorar la Riviera y disfrutar de las playas. Una semana completa permite tiempo para excursiones de un día a la isla de Krk, los Lagos de Plitvice o la península de Istria."
+    },
+    {
+      "question": "¿Cuál es la mejor playa de Crikvenica?",
+      "answer": "Crni Molo es la playa más popular debido a su fondo marino poco profundo y arenoso y a sus amplios servicios. Gradska kupalište (Playa de la Ciudad) es un extenso tramo de guijarros cerca del centro, mientras que Podvorska es ampliamente reconocida como una excelente playa apta para perros."
+    },
+    {
+      "question": "¿Necesito un coche en Crikvenica?",
+      "answer": "No necesita coche si se aloja cerca del centro o a lo largo del paseo marítimo, ya que los restaurantes y las playas están a poca distancia a pie. Un coche es útil para llegar a apartamentos en la ladera, visitar grandes supermercados o hacer excursiones de un día por la región de Kvarner."
+    },
+    {
+      "question": "¿Cuál es el mejor lugar para aparcar en Crikvenica?",
+      "answer": "Los visitantes pueden aparcar en grandes aparcamientos públicos de pago, como las zonas cercanas a Petak o la plaza Stjepan Radić en el centro. Durante julio y agosto, los espacios públicos se llenan rápidamente, por lo que es muy recomendable reservar alojamiento que incluya aparcamiento privado."
+    },
+    {
+      "question": "¿Es Crikvenica buena para familias?",
+      "answer": "Crikvenica es muy adecuada para familias debido a sus aguas poco profundas, secciones de arena y un amplio paseo marítimo apto para cochecitos. La ciudad ofrece numerosos parques infantiles, fácil acceso a instalaciones médicas y condiciones marítimas generalmente tranquilas."
+    }
+  ],
+  "headings": {
+    "quickFacts": "De un vistazo",
+    "whereToStay": "Dónde alojarse en Crikvenica",
+    "gettingThere": "Cómo llegar a Crikvenica",
+    "whenToGo": "Cuándo ir",
+    "guides": "Guías de Crikvenica",
+    "faq": "Preguntas frecuentes sobre Crikvenica",
+    "groups": {
+      "gettingAround": "Aparcamiento y cómo moverse",
+      "planning": "Planificación y dónde alojarse",
+      "timing": "Cuándo ir",
+      "travelers": "Familias, parejas y estilos de viaje",
+      "activities": "Playas y cosas que hacer",
+      "food": "Comida y bebida",
+      "comparisons": "Comparaciones",
+      "practical": "Información práctica"
+    },
+    "car": "En coche",
+    "other": "Otras opciones",
+    "bestFor": "Mejor para",
+    "parking": "Aparcamiento",
+    "beach": "Playa"
+  },
+  "destination": "crikvenica",
+  "language": "es",
+  "updatedAt": "2026-10-16T10:49:03.365Z"
+}

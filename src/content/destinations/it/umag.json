@@ -1,0 +1,146 @@
+{
+  "title": "Guida di Viaggio a Umago: Spiagge, Parcheggio e Dove Alloggiare",
+  "metaDescription": "Pianifica il tuo viaggio a Umago, Croazia. Trova dettagli pratici su percorsi in auto, dove alloggiare, parcheggio, resort per famiglie e i periodi migliori per visitare.",
+  "intro": "Umago è la città costiera più settentrionale dell'Istria, il che la rende la prima tappa per i visitatori che arrivano dall'Europa centrale. Si rivolge prevalentemente al turismo da resort, offrendo grandi complessi alberghieri, campeggi e ampie strutture sportive, in particolare il torneo di tennis ATP Croatia Open. La costa presenta terrazze pavimentate per prendere il sole, calette rocciose e pinete che si affacciano direttamente sul mare.\n\nL'alta stagione va da fine giugno ad agosto, portando temperature elevate e le principali folle di appassionati di tennis a luglio. Settembre è più tranquillo con il mare ancora abbastanza caldo per nuotare, mentre in inverno la maggior parte delle strutture turistiche chiude. Umago è adatta a famiglie e viaggiatori attivi che privilegiano un comodo accesso alla spiaggia e lo sport rispetto a un'ampia visita turistica storica.",
+  "quickFacts": [
+    {
+      "label": "Mesi migliori",
+      "value": "Da giugno a settembre"
+    },
+    {
+      "label": "Temperatura del mare ad agosto",
+      "value": "Da 25°C a 27°C"
+    },
+    {
+      "label": "Aeroporto più vicino",
+      "value": "Pola (PUY), 85 km a sud"
+    },
+    {
+      "label": "Tipo di spiaggia principale",
+      "value": "Piattaforme in cemento, calette rocciose e ghiaia artificiale"
+    },
+    {
+      "label": "Livello dei prezzi",
+      "value": "Nella media per l'Istria, più economico di Rovigno"
+    },
+    {
+      "label": "Centro storico pedonale",
+      "value": "Sì, la penisola storica è una zona pedonale"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centro di Umago e Città Vecchia",
+      "bestFor": "Ristorazione, passeggiate e soggiorni brevi",
+      "parking": "Parcheggi pubblici a pagamento fuori dalla penisola pedonale",
+      "beach": "700m da Gradsko Kupalište (Spiaggia della Città)",
+      "summary": "Il cuore storico di Umago si trova su una piccola penisola. Offre stradine strette, ristoranti e un porto turistico, ma manca delle grandi piscine dei resort e dell'accesso diretto alla spiaggia che si trovano più a nord."
+    },
+    {
+      "name": "Punta",
+      "bestFor": "Vicinanza al centro e alle spiagge",
+      "parking": "Parcheggio a pagamento in strada e parcheggi privati degli hotel",
+      "beach": "Accesso immediato a spiagge in cemento e rocciose",
+      "summary": "Una zona residenziale e alberghiera appena a nord del porto turistico. Collega il centro città ai resort settentrionali tramite una passeggiata costiera, bilanciando comodità e accesso alla spiaggia."
+    },
+    {
+      "name": "Stella Maris & Katoro",
+      "bestFor": "Famiglie, appassionati di tennis e vacanze in resort",
+      "parking": "Grandi parcheggi dedicati per gli ospiti del resort e giornalieri",
+      "beach": "Accesso immediato a Laguna (ghiaia/sabbia) e Polynesia",
+      "summary": "La principale zona turistica che si estende a nord della città. Dominata da grandi hotel, complessi di appartamenti, campi da tennis e un lungo percorso per un trenino turistico che collega al centro."
+    },
+    {
+      "name": "Savudrija",
+      "bestFor": "Coppie, campeggiatori e soggiorni più tranquilli",
+      "parking": "Generalmente gratuito o incluso con l'alloggio",
+      "beach": "Coste rocciose e terrazze pavimentate",
+      "summary": "Un villaggio più tranquillo e ombreggiato da pini a 8 km a nord di Umago, noto per il suo faro attivo. Popolare tra i campeggiatori e coloro che cercano un ritmo più rilassato lontano dai principali resort."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monaco",
+      "car": "500 km, ~5,5 ore via A8, A10 (Tauern), tunnel del Karawanken, Lubiana e Capodistria. Richiede vignette austriache e slovene, più pedaggi per i tunnel.",
+      "other": "FlixBus o treno notturno per Lubiana, poi coincidenza in autobus"
+    },
+    {
+      "from": "Vienna",
+      "car": "510 km, ~5,5 ore via A2 per Graz, Maribor, Lubiana e Capodistria. Richiede vignette austriache e slovene.",
+      "other": "FlixBus diretto disponibile in estate, o treno per Trieste/Lubiana"
+    },
+    {
+      "from": "Budapest",
+      "car": "600 km, ~6 ore via M7 fino al confine di Letenye, A4/A6 via Zagabria e Fiume, poi la Y istriana. Richiede vignetta ungherese e pedaggi croati.",
+      "other": "FlixBus diretto per Umago (circa 9 ore)"
+    },
+    {
+      "from": "Lubiana",
+      "car": "130 km, ~1,5-2 ore via A1 per Capodistria, poi Strada 11. Richiede vignetta slovena. I ritardi al confine di Dragonja sono comuni in estate.",
+      "other": "Autobus diretto (circa 2,5 ore) o trasferimento condiviso (es. GoOpti)"
+    },
+    {
+      "from": "Praga",
+      "car": "800 km, ~9-10 ore via Linz, Salisburgo e A10. Richiede vignette ceche, austriache e slovene, più pedaggi per i tunnel austriaci.",
+      "other": "Treno per Fiume o Lubiana, poi autobus, o autobus diretto estivo"
+    },
+    {
+      "from": "Cracovia",
+      "car": "950 km, ~10,5 ore via A4, Ostrava, Vienna, Graz e Lubiana. Richiede pedaggi polacchi, più vignette ceche, austriache e slovene.",
+      "other": "Volo per Vienna o Venezia poi autobus, o autobus diretto estivo"
+    }
+  ],
+  "whenToGo": "La stagione turistica di Umago va da maggio a ottobre. Luglio e agosto sono i mesi più caldi con temperature diurne intorno ai 30°C e temperature del mare che raggiungono i 26°C. Questo è anche il periodo più affollato e costoso, soprattutto durante il torneo di tennis ATP a fine luglio. Giugno e settembre offrono un migliore equilibrio tra clima caldo, prezzi più bassi e meno folla, con temperature del mare a settembre ancora confortevoli per nuotare. Tra novembre e aprile, la città è molto tranquilla; la maggior parte degli hotel resort, dei bar sulla spiaggia e dei ristoranti stagionali chiudono, anche se i sentieri costieri rimangono aperti per passeggiate e ciclismo.",
+  "faq": [
+    {
+      "question": "Vale la pena visitare Umago?",
+      "answer": "Sì, soprattutto se desideri una vacanza in stile resort o se arrivi in auto dall'Europa centrale. Manca dell'ampia architettura storica di Rovigno o Parenzo, ma eccelle nelle strutture sportive, nei resort per famiglie e nelle coste accessibili."
+    },
+    {
+      "question": "Quanti giorni servono a Umago?",
+      "answer": "Da tre a cinque giorni sono l'ideale per un viaggio standard di spiaggia e relax. Se la usi come base per esplorare l'Istria interna o le vicine città costiere, è consigliabile una settimana intera."
+    },
+    {
+      "question": "Qual è la migliore spiaggia di Umago?",
+      "answer": "Laguna Stella Maris è la più popolare, con una costa a mezzaluna di ciottoli e sabbia artificiale con acque poco profonde. Katoro e Polynesia offrono ampie terrazze in cemento e tratti rocciosi con acqua limpida."
+    },
+    {
+      "question": "Ho bisogno di un'auto a Umago?",
+      "answer": "Non hai bisogno di un'auto se rimani nelle principali aree dei resort, poiché un trenino turistico collega Katoro e Stella Maris al centro città. Tuttavia, un'auto è altamente consigliata per fare gite di un giorno in Istria."
+    },
+    {
+      "question": "Dove posso parcheggiare a Umago?",
+      "answer": "La città gestisce un sistema di parcheggio pubblico a zone, con ampi parcheggi a pagamento situati vicino alla stazione degli autobus e al porto turistico, appena fuori dal centro storico pedonale. La maggior parte dei grandi hotel e resort più a nord include il parcheggio, anche se alcuni applicano una tariffa giornaliera."
+    },
+    {
+      "question": "Umago è adatta alle famiglie?",
+      "answer": "Sì, Umago è una delle destinazioni più adatte alle famiglie in Istria. I resort settentrionali offrono animazione dedicata ai bambini, tratti di spiaggia poco profondi, parchi giochi e grandi complessi di piscine pensati per i giovani visitatori."
+    }
+  ],
+  "headings": {
+    "quickFacts": "In breve",
+    "whereToStay": "Dove alloggiare a Umago",
+    "gettingThere": "Come arrivare a Umago",
+    "whenToGo": "Quando andare",
+    "guides": "Guide su Umago",
+    "faq": "FAQ su Umago",
+    "groups": {
+      "gettingAround": "Parcheggio e spostamenti",
+      "planning": "Pianificazione e dove alloggiare",
+      "timing": "Quando andare",
+      "travelers": "Famiglie, coppie e stili di viaggio",
+      "activities": "Spiagge e cose da fare",
+      "food": "Cibo e bevande",
+      "comparisons": "Confronti",
+      "practical": "Info pratiche"
+    },
+    "car": "In auto",
+    "other": "Altre opzioni",
+    "bestFor": "Ideale per",
+    "parking": "Parcheggio",
+    "beach": "Spiaggia"
+  },
+  "destination": "umag",
+  "language": "it",
+  "updatedAt": "2026-10-16T11:37:40.495Z"
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Orebić Útikalauz: Strandok, bor és szálláshelyek",
+  "metaDescription": "Tervezze meg utazását Orebićbe ezzel a praktikus útmutatóval. Fedezze fel a legjobb strandokat, helyi borvidékeket, autós útvonalakat és a legjobb környékeket a szálláshoz.",
+  "intro": "Orebić egy történelmi tengerparti város a Pelješac-félsziget délnyugati partján, közvetlenül egy keskeny szoros túloldalán fekszik Korčula szigetével szemben. Kiváló kiindulópont azoknak az utazóknak, akik a dalmát térség klasszikus jellemzőit keresik: fenyőfákkal árnyékolt strandokat, tiszta vizet és kiemelkedő helyi borkultúrát, a nagyvárosok intenzív tömegei nélkül. A város dél felé néz, és az Ilija-hegy védi, amely drámai hátteret biztosít, és megóvja a partot az északi szelektől.\n\nA célállomás nagy vonzereje a családoknak, akik nyugodt, homokos fenekű fürdőhelyeket keresnek, mint például Trstenica, valamint pároknak és csoportoknak, akiket a közeli Dingač és Postup szőlőültetvények felfedezése érdekel. A legmegbízhatóbb időszak a látogatásra júniustól szeptemberig tart, amikor a tenger elég meleg a fürdéshez, és minden kompjárat és helyi étterem teljes mértékben üzemel.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Júniustól szeptemberig"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "24°C - 26°C"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Dubrovnik (DBV), 130 km"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Apró kavicsos, homokos tengerfenékkel"
+    },
+    {
+      "label": "Árszint",
+      "value": "Átlagos (olcsóbb, mint Dubrovnik)"
+    },
+    {
+      "label": "Autómentes központ",
+      "value": "Jól bejárható gyalog, de a legtöbb utcán engedélyezettek az autók"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Orebić központja és sétánya",
+      "bestFor": "Először érkezőknek és azoknak, akik kompra vagy tömegközlekedésre támaszkodnak",
+      "parking": "Fizetős utcai parkolás és parkolók a kompkikötő közelében; gyakran zsúfolt",
+      "beach": "Kis kavicsos strandok a sétány mentén",
+      "summary": "A történelmi magban régi tengerészkapitányok házai, egy hosszú tengerparti sétány és a fő kompkikötő található. Könnyű gyalogos hozzáférést biztosít a legtöbb étteremhez, pékséghez és a Korčulára induló gyors személykomphoz."
+    },
+    {
+      "name": "Trstenica környéke",
+      "bestFor": "Gyermekes családoknak és strandkedvelőknek",
+      "parking": "Korlátozott utcai parkolás; a szálláshely foglalása saját parkolóhellyel elengedhetetlen",
+      "beach": "Trstenica strand (homokos és apró kavicsos, sekély bejárat)",
+      "summary": "A város keleti szélén található ez a lakónegyed Orebić leghíresebb strandja köré épült. Csendesebb, mint a központ, de mégis 15 perces sétára van a fő sétánytól."
+    },
+    {
+      "name": "Viganj és Kučište",
+      "bestFor": "Szörfösöknek, kiteszörfösöknek és aktív utazóknak",
+      "parking": "Általában könnyebb, nagyobb parkolókkal a kempingeknél és a tengerparti apartmanoknál",
+      "beach": "Hosszú, finom kavicsos strandok közvetlenül az út mentén",
+      "summary": "Orebićtől néhány kilométerre nyugatra fekvő tengerparti falvak, amelyek megbízható délutáni misztrál szeleikről híresek. A hangulat laza és sportos, számos szörfiskolával, strandbárral és kempinggel."
+    },
+    {
+      "name": "Mokalo és Postup",
+      "bestFor": "Borrajongóknak és elvonulásra vágyó pároknak",
+      "parking": "Könnyű és biztonságos, jellemzően magánvillák és üdülőhelyek biztosítják",
+      "beach": "Eldugott kavicsos öblök meredek szőlőültetvényekkel a háttérben",
+      "summary": "Orebićtől keletre fekvő kis települések, amelyek a Postup borvidékről híres domboldalakon helyezkednek el. Butikszállásokat, lenyűgöző kilátást nyújtanak a szigetvilágra, és nagyon csendes légkört biztosítanak a fővárostól távol."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "1050 km, 11-12 óra az A8-on, Villach, Ljubljana, Zágráb, A1-es autópálya Pločéig, majd az ingyenes Pelješac hídon keresztül. Osztrák és szlovén autópályamatrica, valamint horvát autópályadíj szükséges.",
+      "other": "Repülőút Splitbe (SPU) vagy Dubrovnikba (DBV), majd bérelt autó vagy busz."
+    },
+    {
+      "from": "Bécs",
+      "car": "860 km, 9-10 óra Grazon, Mariboron, Zágrábon, A1-es autópályán Pločéig, majd a Pelješac hídon keresztül. Osztrák és szlovén autópályamatrica, valamint horvát autópályadíj szükséges.",
+      "other": "Közvetlen repülőjárat Splitbe (SPU) vagy Dubrovnikba (DBV)."
+    },
+    {
+      "from": "Budapest",
+      "car": "850 km, 9-10 óra az M7-en Letenyéig, Zágráb, A1-es autópályán délre Pločéig, majd a Pelješac hídon keresztül. Magyar autópályamatrica és horvát autópályadíj szükséges.",
+      "other": "Repülőút Splitbe (SPU) vagy Dubrovnikba (DBV) nyáron."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "610 km, 6.5-7.5 óra Novo Meston, Zágrábon, A1-es autópályán délre Pločéig, majd a Pelješac hídon keresztül. Szlovén autópályamatrica és horvát autópályadíj szükséges.",
+      "other": "Busszal Splitbe vagy Dubrovnikba, majd helyi busszal vagy komppal Orebićbe."
+    },
+    {
+      "from": "Prága",
+      "car": "1150 km, 12-14 óra Brnón, Bécsen, Grazon, Zágrábon és az A1-es autópályán délre. Cseh, osztrák és szlovén autópályamatrica, valamint horvát autópályadíj szükséges.",
+      "other": "Közvetlen repülőjáratok Splitbe (SPU) vagy Dubrovnikba (DBV)."
+    },
+    {
+      "from": "Krakkó",
+      "car": "1200 km, 13-14 óra Szlovákián, Budapesten, Zágrábon és az A1-es autópályán délre. Szlovák és magyar autópályamatrica, valamint horvát autópályadíj szükséges.",
+      "other": "Közvetlen nyári repülőjáratok Splitbe (SPU) vagy Dubrovnikba (DBV)."
+    }
+  ],
+  "whenToGo": "A szezon májusban kezdődik, amikor a tengerparti éttermek újra nyitnak, és az árak alacsonyak maradnak, bár a tenger hőmérséklete még frissítő 18°C. Június melegebb időt és 22°C körüli tengerhőmérsékletet hoz, így kiváló időpont a kora nyári fürdésre, mérsékelt tömeggel. A főszezon júliusra és augusztusra esik, amikor a tenger nagyon kellemes 24-26°C-ot ér el; ezekben a hónapokban a város a legforgalmasabb, a szállásárak a csúcson vannak, és a strandparkolás rendkívül versengő. Szeptember széles körben az optimális hónapnak számít, meleg vizet (körülbelül 23°C), ritkuló tömeget és a helyi szőlőbetakarítás kezdetét kínálva. Október végére a turisztikai infrastruktúra nagyrészt bezár télen, és a város visszatér a csendes, helyi ritmushoz.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni Orebićet?",
+      "answer": "Igen, Orebićet nagyon érdemes meglátogatni kiváló strandjai és kiemelkedő borkultúrája miatt. Sokkal pihentetőbb alternatívát kínál Dalmácia zsúfolt városaihoz képest, miközben könnyű hozzáférést biztosít Korčula szigetéhez."
+    },
+    {
+      "question": "Hány napot érdemes Orebićen tölteni?",
+      "answer": "Három-öt nap ideális időtartam az Orebićen való tartózkodásra. Ez elegendő időt biztosít Trstenica strandjának élvezetére, a közeli Dingač szőlőültetvények bejárására, és egy egynapos kirándulásra a szoros túloldalán fekvő Korčulára."
+    },
+    {
+      "question": "Melyik a legjobb strand Orebićen?",
+      "answer": "Trstenica széles körben Orebić legjobb strandjának számít, különösen családok számára. Apró kavicsos parttal, homokos tengerfenékkel és sekély vízzel rendelkezik, amelyet fenyőfák szegélyeznek, természetes árnyékot biztosítva."
+    },
+    {
+      "question": "Szükségem van autóra Orebićen?",
+      "answer": "Bár maga a város könnyen bejárható gyalog, az autó nagyon ajánlott. Egy jármű elengedhetetlen a Pelješac-félsziget borászatainak, falvainak és rejtett öbleinek felfedezéséhez."
+    },
+    {
+      "question": "Hol a legjobb parkolni Orebićen?",
+      "answer": "A fő kompkikötő közelében van egy nagy fizetős parkoló, bár júliusban és augusztusban gyorsan megtelik. Ha a központban vagy a Trstenica strand közelében száll meg, elengedhetetlen, hogy olyan szállást foglaljon, amely saját parkolóhelyet biztosít."
+    },
+    {
+      "question": "Orebić jó választás családoknak?",
+      "answer": "Orebić kiváló úti cél családok számára nyugodt légköre és biztonságos fürdőzési feltételei miatt. A Trstenica strand sekély, homokos fenekű vize különösen alkalmas kisgyermekek számára."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Ránézésre",
+    "whereToStay": "Hol szálljunk meg Orebićen?",
+    "gettingThere": "Hogyan juthatunk el Orebićbe?",
+    "whenToGo": "Mikor érdemes utazni?",
+    "guides": "Orebić útikalauzok",
+    "faq": "Gyakran ismételt kérdések Orebićről",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor utazzunk",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Étel és ital",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "orebic",
+  "language": "hu",
+  "updatedAt": "2026-10-16T15:10:37.262Z"
+}

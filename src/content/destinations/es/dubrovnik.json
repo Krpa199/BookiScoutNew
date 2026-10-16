@@ -1,0 +1,153 @@
+{
+  "title": "Guía de Viaje de Dubrovnik: Zonas, Aparcamiento y Cuándo Ir",
+  "metaDescription": "Planifica tu viaje a Dubrovnik con detalles concretos sobre las mejores zonas para alojarse, rutas en coche desde Europa Central, información sobre aparcamiento y playas locales.",
+  "intro": "Dubrovnik atrae principalmente a entusiastas de la historia y a viajeros que buscan paisajes costeros espectaculares. La ciudad es famosa por su Casco Antiguo fuertemente fortificado, situado directamente junto al mar Adriático, lo que la convierte en una parada importante tanto para cruceros mediterráneos como para viajeros por carretera. Los visitantes vienen a caminar por las murallas medievales, hacer excursiones en barco a las cercanas Islas Elaphiti y explorar las calas rocosas circundantes.\n\nDebido a que es el destino más famoso de Croacia, requiere una planificación cuidadosa para sortear los altos costos y las densas multitudes de verano. Lo mejor es visitar la ciudad en las temporadas intermedias de mayo, junio, septiembre u octubre, cuando el clima sigue siendo lo suficientemente cálido para nadar, pero las estrechas calles de piedra son más fáciles de transitar.",
+  "quickFacts": [
+    {
+      "label": "Mejores meses",
+      "value": "Mayo, junio, septiembre, octubre"
+    },
+    {
+      "label": "Temperatura del mar en agosto",
+      "value": "25°C a 27°C (77°F a 80°F)"
+    },
+    {
+      "label": "Aeropuerto más cercano",
+      "value": "Aeropuerto de Dubrovnik (DBV), 20 km (12 millas)"
+    },
+    {
+      "label": "Tipo de playa principal",
+      "value": "Terrazas de guijarros y rocas"
+    },
+    {
+      "label": "Nivel de precios",
+      "value": "Significativamente más alto que el promedio croata"
+    },
+    {
+      "label": "Transitabilidad del Casco Antiguo",
+      "value": "Totalmente peatonal, numerosas escaleras empinadas"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Casco Antiguo (Grad)",
+      "bestFor": "Visitantes primerizos y turismo",
+      "parking": "No se permiten coches; el aparcamiento exterior es muy caro",
+      "beach": "A 10 minutos a pie de la playa de Banje (guijarros)",
+      "summary": "Alojarse dentro de las murallas te sitúa a pocos pasos de los principales lugares de interés y restaurantes. Sin embargo, deberás cargar el equipaje sobre adoquines y sortear muchas escaleras."
+    },
+    {
+      "name": "Lapad",
+      "bestFor": "Familias y estancias en resorts",
+      "parking": "Más fácil que en el centro, muchos hoteles ofrecen aparcamiento",
+      "beach": "Uvala Lapad (guijarros/arena) y calas rocosas",
+      "summary": "Una gran península al noroeste del centro con un ambiente relajado de ciudad vacacional. Se conecta con el Casco Antiguo mediante un viaje en autobús de 15 minutos."
+    },
+    {
+      "name": "Ploče",
+      "bestFor": "Viajeros de lujo que buscan vistas al mar y al Casco Antiguo",
+      "parking": "Aparcamiento en la calle muy limitado; plaza privada esencial",
+      "beach": "A pocos pasos de la playa de Banje y Sveti Jakov (guijarros)",
+      "summary": "Este exclusivo barrio en la colina domina el lado este de las murallas de la ciudad. Las vistas son excelentes, pero llegar a la zona implica subir por escaleras empinadas."
+    },
+    {
+      "name": "Gruž",
+      "bestFor": "Viajeros con presupuesto limitado y aquellos que usan ferries",
+      "parking": "Aparcamientos públicos disponibles y más baratos que las opciones céntricas",
+      "beach": "A 15 o 20 minutos a pie de la playa de Bellevue (guijarros)",
+      "summary": "El principal puerto y centro comercial de la ciudad ofrece un ambiente más local y precios más bajos. Es la mejor base si planeas tomar ferries temprano a las islas."
+    },
+    {
+      "name": "Babin Kuk",
+      "bestFor": "Viajeros que buscan complejos turísticos tranquilos",
+      "parking": "Abundante en grandes complejos hoteleros",
+      "beach": "Playas de Copacabana y Cava (guijarros)",
+      "summary": "Situada en el extremo norte de la península de Lapad, esta zona está dominada por grandes complejos turísticos y espacios verdes. Ofrece una tranquila escapada del centro de la ciudad."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Múnich",
+      "car": "940 km, 10-11 horas vía A8, A10 austriaca, A2 eslovena y A1 croata. Requiere viñetas AT/SI y peajes HR.",
+      "other": "Vuelos directos disponibles desde MUC a DBV"
+    },
+    {
+      "from": "Viena",
+      "car": "800 km, 8.5-10 horas vía A2 hasta Graz, A1/A4 eslovena y A1 croata. Requiere viñetas AT/SI y peajes HR.",
+      "other": "Vuelos directos disponibles desde VIE a DBV"
+    },
+    {
+      "from": "Budapest",
+      "car": "740 km, 8-9 horas vía M7 hasta la frontera, luego A4 y A1 croatas hacia el sur. Requiere viñeta HU y peajes HR.",
+      "other": "Vuelos directos (Ryanair) o FlixBus"
+    },
+    {
+      "from": "Liubliana",
+      "car": "620 km, 6.5-7.5 horas vía A2 hasta la frontera, luego A1 croata hacia el sur. Requiere viñeta SI y peajes HR.",
+      "other": "FlixBus o en coche (no hay vuelos directos)"
+    },
+    {
+      "from": "Praga",
+      "car": "1100 km, 11-13 horas vía D1 hasta Brno, Austria, Eslovenia y A1 croata. Requiere viñetas CZ/AT/SI y peajes HR.",
+      "other": "Vuelos directos disponibles desde PRG a DBV"
+    },
+    {
+      "from": "Cracovia",
+      "car": "1100 km, 11.5-13 horas vía Eslovaquia, Hungría (M3/M7) y A4/A1 croata. Requiere viñetas SK/HU y peajes HR.",
+      "other": "Vuelos directos (Ryanair) o autobús de larga distancia"
+    }
+  ],
+  "whenToGo": "Julio y agosto son los meses más concurridos y caros, con calor intenso y temperaturas máximas del mar alrededor de 26°C (79°F). Mayo, junio, septiembre y octubre ofrecen un equilibrio más cómodo, con clima cálido, temperaturas del mar adecuadas para nadar (especialmente a principios de otoño) y ferries y restaurantes en pleno funcionamiento. De noviembre a abril, Dubrovnik está tranquila y es mucho más barata, pero el mar está demasiado frío para nadar, muchos negocios costeros cierran por el invierno y los horarios de los ferries se reducen drásticamente.",
+  "faq": [
+    {
+      "question": "¿Vale la pena visitarla?",
+      "answer": "Sí, sus murallas medievales intactas y su arquitectura histórica la hacen única en Europa. Sin embargo, requiere un presupuesto más elevado y tolerancia a las multitudes durante el verano."
+    },
+    {
+      "question": "¿Cuántos días necesito?",
+      "answer": "Dos o tres días son suficientes para caminar por las murallas, explorar el centro histórico y visitar una isla cercana. Una estancia más larga permite excursiones de un día a Montenegro o Mostar."
+    },
+    {
+      "question": "¿Cuál es la mejor playa?",
+      "answer": "Sveti Jakov es la mejor opción para evitar las mayores multitudes mientras se mantiene una vista del Casco Antiguo. Requiere bajar un largo tramo de escaleras al sureste del centro."
+    },
+    {
+      "question": "¿Necesito un coche?",
+      "answer": "No, un coche es una desventaja en Dubrovnik debido a las severas limitaciones de aparcamiento y las zonas peatonales. Si conduces hasta Dubrovnik, probablemente dejarás tu vehículo aparcado durante toda tu estancia."
+    },
+    {
+      "question": "¿Dónde debo aparcar?",
+      "answer": "Aparca en tu alojamiento si te proporcionan un espacio dedicado. De lo contrario, utiliza el aparcamiento del puerto de Gruž o el garaje público Ilijina Glavica, aunque este último puede costar hasta 70 € al día en verano."
+    },
+    {
+      "question": "¿Es bueno para familias?",
+      "answer": "Sí, los niños mayores disfrutarán explorando las fortalezas y haciendo excursiones en barco. Sin embargo, las interminables escaleras del Casco Antiguo lo hacen muy poco práctico para viajeros con cochecitos de bebé."
+    }
+  ],
+  "headings": {
+    "quickFacts": "De un vistazo",
+    "whereToStay": "Dónde alojarse en Dubrovnik",
+    "gettingThere": "Cómo llegar a Dubrovnik",
+    "whenToGo": "Cuándo ir",
+    "guides": "Guías de Dubrovnik",
+    "faq": "Preguntas frecuentes sobre Dubrovnik",
+    "groups": {
+      "gettingAround": "Aparcamiento y cómo moverse",
+      "planning": "Planificación y dónde alojarse",
+      "timing": "Cuándo ir",
+      "travelers": "Familias, parejas y estilos de viaje",
+      "activities": "Playas y cosas que hacer",
+      "food": "Comida y bebida",
+      "comparisons": "Comparaciones",
+      "practical": "Información práctica"
+    },
+    "car": "En coche",
+    "other": "Otras opciones",
+    "bestFor": "Mejor para",
+    "parking": "Aparcamiento",
+    "beach": "Playa"
+  },
+  "destination": "dubrovnik",
+  "language": "es",
+  "updatedAt": "2026-10-16T10:12:31.575Z"
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Vrsar Putni Vodič: Plaže, Parking i Gdje Odsjesti",
+  "metaDescription": "Planirajte svoje putovanje u Vrsar uz ovaj praktični vodič. Usporedite kvartove, rute vožnje iz Srednje Europe, vrste plaža, parking i najbolje vrijeme za posjet.",
+  "intro": "Vrsar je obalni grad u zapadnoj Istri, smješten između Poreča i Limskog kanala. Privlači posjetitelje koji traže mirniju bazu od obližnjeg Rovinja, nudeći povijesni stari grad na brdu, veliku marinu i arhipelag od 18 nenaseljenih otočića tik uz obalu. Destinacija prvenstveno privlači parove koji traže opuštene šetnje uz obalu i obitelji koje borave u okolnim odmaralištima i kampovima.\n\nTeren je brdovit, zahtijevajući strmu šetnju od rive do povijesnog centra. Većina smještaja sastoji se od privatnih apartmana, velikih odmarališnih kompleksa poput Belvederea i prostranih kampova na sjeveru i jugu. Ljeto je glavna sezona, s gotovo svim ugostiteljskim objektima koji posluju od kraja svibnja do rujna i potpuno se zatvaraju tijekom zime.",
+  "quickFacts": [
+    {
+      "label": "Najbolji mjeseci",
+      "value": "Lipanj do rujan"
+    },
+    {
+      "label": "Temperatura mora u kolovozu",
+      "value": "25°C do 27°C"
+    },
+    {
+      "label": "Najbliža zračna luka",
+      "value": "Zračna luka Pula (PUY), 52 km"
+    },
+    {
+      "label": "Glavna vrsta plaže",
+      "value": "Šljunčane uvale i popločana platoa"
+    },
+    {
+      "label": "Razina cijena",
+      "value": "Prosječna za Istru, jeftinije od Rovinja"
+    },
+    {
+      "label": "Prohodnost starog grada",
+      "value": "Uglavnom bez automobila, vrlo strmo, ali prohodno pješice"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Stari grad (Povijesni centar)",
+      "bestFor": "Parovi i ljubitelji povijesti",
+      "parking": "Ograničen pristup; koristite plaćena parkirališta na dnu brda",
+      "beach": "10 do 15 minuta hoda nizbrdo do Gradske plaže",
+      "summary": "Srednjovjekovni centar na brdu karakteriziraju uske kaldrmisane ulice, vidikovci i Crkva sv. Martina. Uključuje strmo hodanje, što ga čini manje prikladnim za posjetitelje s ograničenom pokretljivošću."
+    },
+    {
+      "name": "Marina i Riva",
+      "bestFor": "Nautičari, obitelji i oni koji preferiraju ravan teren",
+      "parking": "Velika plaćena parkirališta u blizini autobusnog kolodvora i luke",
+      "beach": "5 do 10 minuta hoda do Montrakera ili Gradske plaže",
+      "summary": "Ravan obalni pojas duž Obale Maršala Tita je komercijalno središte. Nudi jednostavan pristup pekarama, restoranima i izletima brodom bez strmih uspona starog grada."
+    },
+    {
+      "name": "Petalon i Belvedere",
+      "bestFor": "Gosti odmarališta i obitelji",
+      "parking": "Namjenski privatni parking za goste odmarališta",
+      "beach": "Stjenovite i šljunčane plaže u sklopu objekta",
+      "summary": "Smještene južno od glavnog grada, ove namjenski izgrađene odmarališne poluotočne zone nude strukturirane sadržaje, bazene i sportske terene. Šetnja do vrsarske rive traje oko 10 do 15 minuta uz sjenovitu obalnu stazu."
+    },
+    {
+      "name": "Brođanka i Saline",
+      "bestFor": "Putnici s manjim budžetom i oni koji se sami hrane",
+      "parking": "Obično uključeno u najam privatnih apartmana",
+      "beach": "10 do 20 minuta hoda do Valkanela ili Gradske plaže",
+      "summary": "Ovaj stambeni kvart smješten je malo dalje od obale i sjeverno od marine. Gotovo u potpunosti se sastoji od privatnih apartmana i pansiona, nudeći mirno okruženje na samo kratkoj pješačkoj udaljenosti od centra."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "520 km, 5,5 do 6,5 sati preko A8, A10 (Tauern), tunela Karavanke i Slovenije. Potrebna je austrijska vinjeta, cestarine za Tauern/Karavanke, slovenska vinjeta i hrvatske cestarine.",
+      "other": "Letovi Lufthanse za Pulu (PUY) ili međugradski autobus za Rovinj."
+    },
+    {
+      "from": "Beč",
+      "car": "510 km, 5,5 do 6 sati preko A2 (Graz), Maribora i Ljubljane. Potrebna je austrijska vinjeta, slovenska vinjeta i hrvatske cestarine.",
+      "other": "Izravni letovi za Pulu (Austrian Airlines/Ryanair) ili međugradski autobus."
+    },
+    {
+      "from": "Budimpešta",
+      "car": "600 km, 6 do 6,5 sati preko M7 do granice, zatim hrvatske A4, A1, A6 i Istarskog ipsilona (A8/A9). Primjenjuje se mađarska e-vinjeta i hrvatske cestarine.",
+      "other": "Međugradski autobus za Rovinj ili Pulu, s presjedanjem za Vrsar."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "130 km, 1,5 do 2 sata preko A1 do Kopra, graničnog prijelaza Dragonja i hrvatske A9. Primjenjuje se slovenska vinjeta i hrvatske cestarine.",
+      "other": "Izravni sezonski autobus ili privatni shuttle transfer."
+    },
+    {
+      "from": "Prag",
+      "car": "830 km, 9 do 10 sati preko Linza, Graza, Maribora i Ljubljane. Primjenjuju se češka, austrijska i slovenska vinjeta, te hrvatske cestarine.",
+      "other": "Letovi za Pulu (Smartwings/Ryanair) ili vlakom do Rijeke, a zatim autobusom."
+    },
+    {
+      "from": "Krakov",
+      "car": "1050 km, 10,5 do 11,5 sati preko A4, Češke (D1), Beča, Graza i Slovenije. Potrebne su cestarine/vinjete za Poljsku, Češku, Austriju, Sloveniju i Hrvatsku.",
+      "other": "Letovi iz Krakova ili Katowica za Pulu, ili međugradski autobus."
+    }
+  ],
+  "whenToGo": "Lipanj do rujan je standardna sezona za posjet Vrsaru, dok kolovoz donosi najveće gužve i vrhunske cijene smještaja. Temperatura mora doseže 25°C do 27°C do kraja srpnja, čineći kolovoz idealnim za kupanje. Svibanj i listopad nude hladnije vrijeme (18°C do 22°C) pogodno za biciklizam i razgledavanje, iako je more često prehladno za kupanje, a neki sezonski restorani ili hotelski sadržaji mogu biti zatvoreni. Od studenog do travnja Vrsar se uglavnom zatvara; većina hotela, kampova i turističkih restorana se zatvara, a grad je izuzetno tih s samo osnovnim sadržajima koji rade za lokalno stanovništvo.",
+  "faq": [
+    {
+      "question": "Vrijedi li posjetiti Vrsar?",
+      "answer": "Da, Vrsar je praktičan izbor ako preferirate mirniji obalni grad umjesto užurbanih centara Rovinja ili Poreča. Nudi povijesni stari grad na brdu, izvrsne biciklističke rute i jednostavan pristup Limskom kanalu. Međutim, oni koji traže bogat noćni život ili opsežnu kupovinu trebali bi potražiti drugdje."
+    },
+    {
+      "question": "Koliko dana mi je potrebno u Vrsaru?",
+      "answer": "Tri do pet dana dovoljno je za istraživanje grada, uživanje na plažama i izlet brodom do Limskog kanala. Ako planirate koristiti Vrsar kao bazu za posjet Puli, Motovunu i Rovinju, boravak od sedam dana je uobičajen za većinu posjetitelja koji dolaze automobilom iz Srednje Europe."
+    },
+    {
+      "question": "Koja je najbolja plaža u Vrsaru?",
+      "answer": "Gradska plaža je najcentralnija i najpristupačnija opcija, koju karakteriziraju šljunčane uvale i popločana sunčališta. Za obitelji, Valkanela nudi dugačak pojas plitke vode i pješčanih dijelova, dok je Montraker poznat po stjenovitim pločama i pogledu na stari grad."
+    },
+    {
+      "question": "Trebam li automobil u Vrsaru?",
+      "answer": "Ne treba vam automobil za kretanje po samom Vrsaru, jer su grad, marina i glavne plaže lako dostupni pješice. Međutim, automobil se preporučuje ako želite istražiti ostatak Istre ili putovati iz najbliže zračne luke u Puli."
+    },
+    {
+      "question": "Gdje je najbolje parkirati u Vrsaru?",
+      "answer": "Glavno općinsko parkiralište nalazi se u blizini autobusnog kolodvora (parking Saline) na dnu starog grada. Parkiranje u starom gradu strogo je ograničeno za nerezidente, a posjetitelji se očekuje da parkiraju u blizini marine ili koriste privatni parking koji nudi njihov smještaj."
+    },
+    {
+      "question": "Je li Vrsar dobar za obitelji?",
+      "answer": "Da, Vrsar je vrlo pogodan za obitelji, posebno za one koji borave u velikim odmarališnim kompleksima ili obližnjim kampovima. Područje nudi sigurne, dobro opremljene plaže, namjenske biciklističke staze i opuštenu atmosferu bez velikih gužvi većih istarskih gradova."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na prvi pogled",
+    "whereToStay": "Gdje odsjesti u Vrsaru",
+    "gettingThere": "Kako doći do Vrsara",
+    "whenToGo": "Kada posjetiti",
+    "guides": "Vodiči za Vrsar",
+    "faq": "Česta pitanja o Vrsaru",
+    "groups": {
+      "gettingAround": "Parking i kretanje po mjestu",
+      "planning": "Planiranje i gdje odsjesti",
+      "timing": "Kada posjetiti",
+      "travelers": "Obitelji, parovi i stilovi putovanja",
+      "activities": "Plaže i stvari za raditi",
+      "food": "Hrana i piće",
+      "comparisons": "Usporedbe",
+      "practical": "Praktične informacije"
+    },
+    "car": "Automobilom",
+    "other": "Druge opcije",
+    "bestFor": "Najbolje za",
+    "parking": "Parking",
+    "beach": "Plaža"
+  },
+  "destination": "vrsar",
+  "language": "hr",
+  "updatedAt": "2026-10-16T11:57:16.320Z"
+}

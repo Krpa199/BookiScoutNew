@@ -1,0 +1,146 @@
+{
+  "title": "Biograd na Moru Útikönyv: Strandok és szálláslehetőségek",
+  "metaDescription": "Tervezze meg utazását Biograd na Moruba gyakorlati tanácsokkal az útvonalakról, városrészekről, parkolásról és strandokról. Ideális családok és autós utazók számára.",
+  "intro": "Biograd na Moru egy tengerparti város Észak-Dalmáciában, egy kis félszigeten fekszik, félúton Zadar és Šibenik között. Praktikus bázisként szolgál családok és hajósok számára a nagy kikötői, könnyen megközelíthető, fenyőerdőkkel övezett kavicsos strandjai, valamint a Kornati-szigetek és a Vrana-tó közelsége miatt.\n\nA város erősen szezonális, júniustól szeptemberig teljes kapacitással működik. Inkább azoknak az utazóknak felel meg, akik egy hagyományos horvát tengerparti nyaralást keresnek egyszerű logisztikával, mintsem azoknak, akik magas színvonalú luxust vagy intenzív éjszakai életet várnak. Sík terepe és árnyékos sétányai különösen kényelmessé teszik kisgyermekes vagy mozgáskorlátozott látogatók számára.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Június és szeptember a meleg tenger és a kevesebb tömeg miatt"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "25°C és 27°C között"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Zadari Repülőtér (ZAD), 28 km-re északra"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Kavicsos és aprókavicsos, természetes fenyőárnyékkal"
+    },
+    {
+      "label": "Árszínvonal",
+      "value": "Átlagos Horvátországban; olcsóbb, mint Split vagy Dubrovnik"
+    },
+    {
+      "label": "Óváros bejárhatósága",
+      "value": "Kompakt és teljesen bejárható, nagyrészt autómentes"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Központ és Óváros (Poluotok)",
+      "bestFor": "Étkezéshez, hajókirándulásokhoz és kikötői hozzáféréshez",
+      "parking": "Fizetős utcai parkolás és nagy önkormányzati parkolók; júliusban/augusztusban gyakran telített",
+      "beach": "10-15 perc sétára Dražicától vagy Bošanától",
+      "summary": "A történelmi félszigeten találhatók a főbb éttermek, kávézók és a komp kikötője. Esténként aktív, de közvetlen tengerparti hozzáférés hiányzik."
+    },
+    {
+      "name": "Dražica és Soline (Dél)",
+      "bestFor": "Családoknak és strandolóknak",
+      "parking": "Magán szállodai/apartman parkolás elengedhetetlen; a nyilvános helyek szűkösek",
+      "beach": "Közvetlen hozzáférés a Dražica (kavicsos) és Soline (homok/kavics keverék) strandokhoz",
+      "summary": "Ez a déli szakasz nagy szállodákkal, kempingekkel és árnyékos sétányokkal jellemezhető. A legjobb strandlétesítményeket és közvetlen vízparti hozzáférést kínálja."
+    },
+    {
+      "name": "Bošana (Észak)",
+      "bestFor": "Költségtudatos utazóknak és csendesebb pihenésre vágyóknak",
+      "parking": "Könnyebb utcai parkolás, mint a központban; a legtöbb apartmanhoz saját behajtó tartozik",
+      "beach": "Közvetlen hozzáférés a Bošana strandhoz (kavicsos, kevesebb árnyék)",
+      "summary": "A kikötőtől északra fekvő lakóövezet, elsősorban magán apartmanokat kínál. A helyi strandon hiányzik a déli rész fenyőárnyéka, de általában kevésbé zsúfolt."
+    },
+    {
+      "name": "Kumenat",
+      "bestFor": "Pároknak és elvonulásra vágyóknak",
+      "parking": "Többnyire a szállás által biztosított magánparkoló",
+      "beach": "Közvetlen hozzáférés a Kumenat strandhoz (kis kavicsos öböl)",
+      "summary": "A központtól két kilométerre délre található ez a kis lakónegyed, távol a város zajától. Csendesebb, elszigeteltebb tengerparti élményt nyújt."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "760 km, 8-9 óra az A10-es (Ausztria) és A1-es (Horvátország) autópályán keresztül. Osztrák autópálya-matrica, Tauern-alagút díj, szlovén autópálya-matrica és horvát útdíjak szükségesek.",
+      "other": "Közvetlen szezonális járatok Zadarba (ZAD), majd 30 perces busz- vagy taxitranszfer."
+    },
+    {
+      "from": "Bécs",
+      "car": "620 km, 6,5-7,5 óra az A2/A9-es (Ausztria) és A1/A4-es (Szlovénia) autópályán keresztül. Osztrák és szlovén autópálya-matrica, valamint horvát útdíjak szükségesek.",
+      "other": "Közvetlen szezonális járatok Zadarba (ZAD) vagy közvetlen FlixBus Biogradba."
+    },
+    {
+      "from": "Budapest",
+      "car": "650 km, 6,5-7 óra az M7-es (Magyarország) és A4/A1-es (Horvátország) autópályán keresztül. Magyar e-matrica és horvát útdíjak szükségesek.",
+      "other": "Szezonális közvetlen járatok Zadarba (ZAD) vagy vonat Zágrábba buszcsatlakozással."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "340 km, 4 óra az A2-es (Szlovénia) és A1-es (Horvátország) autópályán keresztül. Szlovén autópálya-matrica és horvát útdíjak szükségesek.",
+      "other": "Nyáron közvetlen buszjáratok indulnak, körülbelül 5-6 óra menetidővel."
+    },
+    {
+      "from": "Prága",
+      "car": "950 km, 10-11 óra Bécsen és Mariboron keresztül. Cseh, osztrák és szlovén autópálya-matrica, valamint horvát útdíjak szükségesek.",
+      "other": "Közvetlen szezonális járatok Zadarba (ZAD) fapados légitársaságokkal."
+    },
+    {
+      "from": "Krakkó",
+      "car": "1050 km, 11-12 óra Szlovákián és Magyarországon keresztül. Szlovák és magyar autópálya-matrica, valamint horvát útdíjak szükségesek.",
+      "other": "Közvetlen járatok Zadarba (ZAD) a Ryanairrel, majd helyi tömegközlekedés."
+    }
+  ],
+  "whenToGo": "Július és augusztus a nyári főszezon, ahol a tenger hőmérséklete 25°C és 27°C körül mozog, minden turisztikai létesítmény nyitva tart, de magasak az árak és zsúfoltak a strandok. Június és szeptember jobb egyensúlyt kínál, a tenger hőmérséklete 22°C és 24°C között van, alacsonyabbak a szállásárak és kezelhetőbb a tömeg, bár alkalmanként eső is lehetséges. Októbertől májusig Biograd na Moru nagyrészt nyugvó állapotban van; a legtöbb szálloda, szezonális étterem és strandlétesítmény bezár, így csak átutazóknak vagy teljes elvonulást keresőknek alkalmas.",
+  "faq": [
+    {
+      "question": "Megéri meglátogatni?",
+      "answer": "Igen, ha egy egyszerű családi tengerparti nyaralásra vagy vitorlázáshoz keres bázist. Hiányzik belőle Zadar vagy Šibenik kiterjedt történelmi építészete, de ezt kárpótolják a könnyen megközelíthető, fenyővel árnyékolt strandok."
+    },
+    {
+      "question": "Hány napra érdemes menni?",
+      "answer": "Három-öt nap optimális egy tengerparti nyaraláshoz és a közvetlen környék felfedezéséhez. Egy teljes hét lehetőséget ad hajókirándulásokra a Kornati-szigetekre vagy autós kirándulásra a Krka Nemzeti Parkba."
+    },
+    {
+      "question": "Melyik a legjobb strand?",
+      "answer": "A Dražica strand a legnépszerűbb Kék Zászló minősítése, lassan mélyülő kavicsos bejárata és sűrű fenyőárnyéka miatt. A Soline strand, amely kicsit délebbre található, homokos részeket is kínál, amelyek népszerűek a kisgyermekek körében."
+    },
+    {
+      "question": "Szükségem van autóra?",
+      "answer": "Nincs szüksége autóra, ha Biogradban száll meg, és csak a helyi strandokra szeretne sétálni. Azonban erősen ajánlott egy jármű a közeli nemzeti parkokba, Zadarba vagy a Vrana-tóhoz való egynapos kirándulásokhoz."
+    },
+    {
+      "question": "Hol parkoljak?",
+      "answer": "A központban a parkolás fizetős zónákra oszlik, és nyáron szigorúan ellenőrzik. Erősen javasolt olyan szállást foglalni, amely garantált saját parkolóhelyet biztosít, elkerülve a napi díjakat és a parkolóhely kereséssel járó küzdelmet."
+    },
+    {
+      "question": "Alkalmas családoknak?",
+      "answer": "Igen, ez az egyik leginkább családbarát város Észak-Dalmáciában. A sík terep, a kiterjedt sétányok, az árnyékos strandok és a közeli Dalmaland vidámpark közvetlenül a gyermekek igényeit szolgálja ki."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Röviden",
+    "whereToStay": "Hol szálljunk meg Biograd na Moruban",
+    "gettingThere": "Utazás Biograd na Moruba",
+    "whenToGo": "Mikor utazzunk",
+    "guides": "Biograd na Moru útikalauzok",
+    "faq": "Biograd na Moru GYIK",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor utazzunk",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Étel és ital",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati tudnivalók"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "biograd",
+  "language": "hu",
+  "updatedAt": "2026-10-16T09:55:27.371Z"
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Omiš utazási útmutató: Strandok, parkolás és hol érdemes megszállni",
+  "metaDescription": "Tervezze meg utazását Omišba, Horvátországba. Hasonlítsa össze a városrészeket, homokos strandokat, autós útvonalakat Közép-Európából és a parkolási lehetőségeket nyaralásához.",
+  "intro": "Omiš egy tengerparti város, Split-től 25 kilométerre délkeletre található, ott, ahol a Cetina folyó az Adriai-tengerbe ömlik. Praktikus bázisként szolgál azoknak az utazóknak, akik tengerparti pihenésre és aktív szabadtéri programokra egyaránt vágynak, mint például folyami raftingra vagy túrázásra a Mirabella és Fortica erődökhöz. Az azonnali tengerpart Horvátországban kiemelkedő a természetes homokos strandjaival, különösen a városközpontban és a szomszédos Duće-ban.\n\nA célállomás elsősorban a sekély vizű helyeket igénylő családokat és a dalmát tengerpartot körbeutazó autós turistákat vonzza. Július és augusztus hozza el a csúcshőmérsékleteket és a nagy forgalmat az Adriai főúton (D8), míg június és szeptember enyhébb időjárást, alacsonyabb szállásárakat és könnyebb parkolást kínál.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Június és szeptember"
+    },
+    {
+      "label": "Augusztusi tengerhőmérséklet",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Split Airport (SPU), 42 km-re"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Homokos és apró kavicsos"
+    },
+    {
+      "label": "Árszint",
+      "value": "Közepes (kissé a horvát átlag alatt)"
+    },
+    {
+      "label": "Óváros bejárhatósága",
+      "value": "Sík és teljesen gyalogosövezet"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Omiš Központ (Donji Grad)",
+      "bestFor": "Először utazóknak és autóval nem rendelkezőknek",
+      "parking": "Fizetős nyilvános parkolók, nyáron ritkásak",
+      "beach": "0-500m-re a Velika Plazától (homokos)",
+      "summary": "A történelmi mag keskeny sikátorokkal, éttermekkel és közvetlen hozzáféréssel rendelkezik a fő városi strandhoz. A szállás elsősorban apartmanokból áll, és a nyári tömegek közötti navigálás elengedhetetlen."
+    },
+    {
+      "name": "Priko",
+      "bestFor": "Csendesebb estéket kedvelő családoknak a központ közelében",
+      "parking": "Nagy nyilvános parkoló elérhető, néhány privát hely",
+      "beach": "500m-től 1km-re a fő strandoktól",
+      "summary": "Közvetlenül az óvárossal szemben, a Cetina folyó hídján túl található. Könnyebb parkolást és nagyobb apartmanházakat kínál, miközben 10 perces sétára van a történelmi központtól."
+    },
+    {
+      "name": "Duće",
+      "bestFor": "Kisgyermekes családoknak",
+      "parking": "Általában a szállás biztosítja",
+      "beach": "0-200m-re sekély homokos strandoktól",
+      "summary": "Omiš-tól közvetlenül nyugatra fekvő 6 kilométeres tengerparti szakasz. Folytonos homokos strandokkal és sekély vizekkel, nagy hangsúlyt fektetve az apartmanokra és strandbárokra."
+    },
+    {
+      "name": "Nemira & Stanići",
+      "bestFor": "Pároknak és békés kavicsos strandokat kereső utazóknak",
+      "parking": "Helyszíni privát parkolás elengedhetetlen",
+      "beach": "0-300m-re meredek kavicsos öblöktől",
+      "summary": "Omiš-tól 3-5 kilométerre délre, a Riviéra mentén található falvak. A terep meredek, festői kavicsos strandokra vezet le tiszta vízzel, távol a város homokos sekélyeitől."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "850 km, 9-10 óra az A8, Tauernautobahn (A10) és horvát A1 útvonalon. Szükséges osztrák és szlovén autópályamatrica, plusz osztrák alagútdíj és horvát útdíjak.",
+      "other": "Repülőút Splitbe (SPU), majd busz vagy privát transzfer."
+    },
+    {
+      "from": "Bécs",
+      "car": "770 km, 8 óra az A2, szlovén A1/A4 és horvát A1 útvonalon. Szükséges osztrák és szlovén autópályamatrica, plusz horvát útdíjak.",
+      "other": "Repülőút Splitbe (SPU) vagy közvetlen FlixBus Splitbe/Omišba."
+    },
+    {
+      "from": "Budapest",
+      "car": "760 km, 7,5 óra az M7 és horvát A4/A1 útvonalon. Szükséges magyar autópályamatrica és horvát útdíjak.",
+      "other": "Közvetlen FlixBus Splitbe, vagy szezonális repülőút Splitbe (SPU)."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "500 km, 5,5 óra az A1-en Zágrábba, majd horvát A1-en. Szükséges szlovén autópályamatrica és horvát útdíjak.",
+      "other": "FlixBus vagy Nomago busz Splitbe, majd helyi busz Omišba."
+    },
+    {
+      "from": "Prága",
+      "car": "1 070 km, 11-12 óra Bécsen/Grazon vagy Linzen/Grazon keresztül, majd horvát A1-en. Szükséges cseh, osztrák és szlovén autópályamatrica, plusz horvát útdíjak.",
+      "other": "Repülőút Splitbe (SPU) a Smartwings vagy Croatia Airlines járataival."
+    },
+    {
+      "from": "Krakkó",
+      "car": "1 050 km, 11 óra Szlovákián, Magyarországon (M1/M7) és horvát A1-en keresztül. Szükséges szlovák és magyar autópályamatrica, plusz horvát útdíjak.",
+      "other": "Repülőút Splitbe (SPU) a Ryanair vagy Wizz Air járataival."
+    }
+  ],
+  "whenToGo": "A tenger júliusban és augusztusban eléri a 25°C-27°C-ot, vonzva a legnagyobb tömegeket és a legmagasabb szállásárakat, bár minden étterem, strandbár és folyami túra teljes kapacitással működik. Június és szeptember enyhébb hőmérsékletet kínál, körülbelül 23°C-25°C-ot úszáshoz, jelentősen csökkentett forgalmat a D8-as tengerparti úton és alacsonyabb szobaárakat. Novembertől áprilisig a város nagyrészt bezár a turizmus számára; a tenger hőmérséklete 15°C alá csökken, a legtöbb szezonális étterem bezár, és a gyakori bóra szelek hideggé és csendessé teszik a partot.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni?",
+      "answer": "Igen, ha homokos strandok, történelmi erődök és aktív folyami kirándulások kombinációjára vágyik. A Cetina folyó szurdokának közelsége a tengerhez egyedivé teszi a tájat a tipikus dalmát városokhoz képest."
+    },
+    {
+      "question": "Hány napra van szükség?",
+      "answer": "Három-öt nap elegendő időt biztosít a történelmi központ felfedezésére, az erődök meglátogatására és egy folyami rafting túrára. Sok látogató egy hétig vagy tovább marad, a várost használva bázisként a napi strandoláshoz."
+    },
+    {
+      "question": "Melyik a legjobb strand?",
+      "answer": "A Velika Plaža (más néven Punta) a fő városi strand, amely kiterjedt homokjáról és sekély bejáratáról ismert. Az összefüggő homokos szakaszokért a szomszédos Duće falu több kilométernyi családbarát tengerpartot kínál."
+    },
+    {
+      "question": "Szükséges autó?",
+      "answer": "Nem szükséges autó, ha szállása Omiš központjában vagy Duće-ban van, mivel a helyi buszok Splitbe visznek, és a túraszervezők gondoskodnak a folyami transzferről. Javasolt a jármű a szélesebb Riviéra felfedezéséhez, vagy ha meredekebb falvakban, mint Stanići, száll meg."
+    },
+    {
+      "question": "Hol parkoljak?",
+      "answer": "A fő önkormányzati parkoló a Fošal parti út mentén található, míg egy nagyobb, burkolatlan parkoló a folyó túloldalán, Priko-ban van. Júliusban és augusztusban ezek a parkolók gyakran megtelnek reggel 9:00 előtt, ezért kulcsfontosságú az előre lefoglalt szálláshelyi parkolás."
+    },
+    {
+      "question": "Jó családoknak?",
+      "answer": "Igen, kiválóan alkalmas családoknak a ritka homokos strandok és sekély gázlóövezetek miatt. Az idősebb gyermekek gyakran élvezik az erődök kalóz történetét és a Cetina folyón történő kezdőbarát raftingot."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Rövid tények",
+    "whereToStay": "Hol szálljon meg Omišban",
+    "gettingThere": "Utazás Omišba",
+    "whenToGo": "Mikor utazzon",
+    "guides": "Omiš útikalauzok",
+    "faq": "Gyakran Ismételt Kérdések Omišról",
+    "groups": {
+      "gettingAround": "Közlekedés és parkolás",
+      "planning": "Tervezés és hol szálljon meg",
+      "timing": "Mikor utazzon",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és programok",
+      "food": "Étel és ital",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "omis",
+  "language": "hu",
+  "updatedAt": "2026-10-16T11:24:27.086Z"
+}

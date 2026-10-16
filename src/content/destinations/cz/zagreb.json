@@ -1,0 +1,146 @@
+{
+  "title": "Záhřeb: Průvodce cestováním – doprava, parkování a ubytování",
+  "metaDescription": "Faktický cestovní průvodce pro Záhřeb v Chorvatsku. Najděte nejlepší čtvrti pro váš pobyt, podrobnosti o parkování, trasy jízdy a nejlepší dobu k návštěvě.",
+  "intro": "Záhřeb je středoevropské hlavní město vhodné pro cestovatele se zájmem o historii, muzea a pouliční kulturu, nikoli o pobřežní letoviska. Město je rozděleno na historické, na kopci ležící Horní Město a rovinaté Rakousko-uherské Dolní Město, obě se vyznačují velkými veřejnými parky, pěšími zónami a silným spoléháním na místní tramvajovou síť.\n\nOptimální doba k návštěvě je během mírných jarních a podzimních měsíců nebo v prosinci kvůli každoročním adventním trhům. Léto přináší vysoké teploty, což vede mnoho obyvatel k odjezdu na pobřeží Jaderského moře, což ulice utišuje, ale některé menší podniky dočasně uzavírá.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "Květen, červen, září, prosinec"
+    },
+    {
+      "label": "Teplota moře (srpen)",
+      "value": "N/A (Vnitrozemské město; jezero Jarun má ~25°C)"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Letiště Záhřeb (ZAG), 15 km od centra"
+    },
+    {
+      "label": "Hlavní typ pláže",
+      "value": "Kamenité/štěrkové jezerní pláže (Jarun & Bundek)"
+    },
+    {
+      "label": "Cenová úroveň",
+      "value": "Průměrná až podprůměrná oproti chorvatskému pobřeží"
+    },
+    {
+      "label": "Staré město vhodné k procházkám",
+      "value": "Ano, velmi dobře průchozí s omezeným přístupem aut"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Donji Grad (Dolní Město)",
+      "bestFor": "Poprvé návštěvníci a prohlídky památek",
+      "parking": "Drahé parkování na ulici (Zóna 1); vyžaduje veřejné garáže",
+      "beach": "6 km k jezeru Jarun",
+      "summary": "Komerční srdce města, s muzei, parky a architekturou 19. století. Nabízí nejširší výběr hotelů a okamžitý přístup k hlavním tramvajovým linkám."
+    },
+    {
+      "name": "Gornji Grad (Horní Město)",
+      "bestFor": "Historie a klidné večery",
+      "parking": "Silně omezeno; nerezidenti musí parkovat v Dolním Městě",
+      "beach": "6,5 km k jezeru Jarun",
+      "summary": "Nejstarší část Záhřebu s dlážděnými ulicemi, vládními budovami a kostelem sv. Marka. Je ideální pro návštěvníky, kteří upřednostňují historickou atmosféru před okamžitým přístupem vozidlem."
+    },
+    {
+      "name": "Novi Zagreb",
+      "bestFor": "Cestovatelé s omezeným rozpočtem a řidiči",
+      "parking": "Obecně zdarma nebo velmi levné parkování na ulici",
+      "beach": "1 až 2 km k jezeru Bundek",
+      "summary": "Nachází se jižně od řeky Sávy a skládá se z obytných bloků z poloviny století a nákupních center. Snadno se spojuje s centrem tramvají a nabízí jednoduché parkování."
+    },
+    {
+      "name": "Trešnjevka",
+      "bestFor": "Místní život a delší pobyty",
+      "parking": "Smíšené; většinou Zóna 3 (levnější) nebo zdarma v obytných částech",
+      "beach": "3 km k jezeru Jarun",
+      "summary": "Hustě obydlená čtvrť západně od centra, známá svým denním trhem pod širým nebem. Poskytuje běžnější rezidenční zážitek s nižšími cenami ubytování."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Mnichov",
+      "car": "540 km, 5,5-6,5 hodiny přes A8, A10 a A2. Vyžaduje rakouskou dálniční známku, mýtné za tunel Karavanky, slovinskou dálniční známku a chorvatské mýtné.",
+      "other": "Přímý let (Croatia Airlines/Lufthansa) nebo přímý FlixBus."
+    },
+    {
+      "from": "Vídeň",
+      "car": "370 km, 4-4,5 hodiny přes A2 a A9. Vyžaduje rakouskou dálniční známku, slovinskou dálniční známku a chorvatské mýtné.",
+      "other": "Přímý denní vlak ÖBB nebo FlixBus."
+    },
+    {
+      "from": "Budapešť",
+      "car": "340 km, 3,5-4 hodiny přes M7 a A4. Vyžaduje maďarskou e-dálniční známku a chorvatské mýtné.",
+      "other": "Přímý denní vlak nebo FlixBus."
+    },
+    {
+      "from": "Lublaň",
+      "car": "140 km, 1,5-2 hodiny přes A2 a A3. Vyžaduje slovinskou dálniční známku a chorvatské mýtné.",
+      "other": "Přímý vlak nebo autobus (cca 2,5 hodiny)."
+    },
+    {
+      "from": "Praha",
+      "car": "690 km, 7,5-8,5 hodiny přes Vídeň a Graz. Vyžaduje českou, rakouskou a slovinskou dálniční známku, plus chorvatské mýtné.",
+      "other": "Přímý let (Smartwings/Ryanair) nebo noční vlak přes Vídeň."
+    },
+    {
+      "from": "Krakov",
+      "car": "750 km, 8-9 hodin přes Slovensko a Maďarsko. Vyžaduje polské mýtné, slovenskou a maďarskou e-dálniční známku a chorvatské mýtné.",
+      "other": "Přímý let (Ryanair/LOT) nebo noční autobus."
+    }
+  ],
+  "whenToGo": "Zima v Záhřebu je chladná, s teplotami často kolem 0°C až 5°C, i když prosinec zůstává vrcholem turistické sezóny díky rozsáhlým adventním trhům města. Jaro (duben až červen) a podzim (září až říjen) nabízejí nejpohodlnější počasí pro prohlídky památek, s denními maximy mezi 15°C a 25°C, nižšími cenami ubytování a plně funkčními turistickými zařízeními. Léto (červenec a srpen) přináší teploty, které pravidelně přesahují 30°C; zatímco město je méně přeplněné, protože obyvatelé migrují na pobřeží, nedostatek mořského vánku činí městské horko znatelným, ačkoli pláže u jezera Jarun a jezera Bundek nabízejí místní možnosti koupání.",
+  "faq": [
+    {
+      "question": "Stojí Záhřeb za návštěvu?",
+      "answer": "Ano, Záhřeb stojí za návštěvu pro svou rakousko-uherskou architekturu, rozsáhlou muzejní sbírku a silnou kavárenskou kulturu. Slouží jako kulturní a historický protipól chorvatských pobřežních destinací."
+    },
+    {
+      "question": "Kolik dní potřebuji v Záhřebu?",
+      "answer": "Dva až tři dny jsou dostatečné k prozkoumání hlavních památek. To poskytuje dostatek času k prohlídce Horního a Dolního Města, návštěvě hlavních muzeí a strávení odpoledne v parku Maksimir nebo u jezera Jarun."
+    },
+    {
+      "question": "Jaká je nejlepší pláž v Záhřebu?",
+      "answer": "Nejlepší místa ke koupání jsou oblázkové pláže u jezera Jarun, které se nachází na jihozápadě města. Jezero Bundek také nabízí udržované štěrkové pláže a koupací plochy během letních měsíců."
+    },
+    {
+      "question": "Potřebuji auto v Záhřebu?",
+      "answer": "Ne, auto není nutné a v centru města je často překážkou. Záhřeb má efektivní a komplexní síť tramvají a autobusů, která pokrývá všechny hlavní turistické oblasti."
+    },
+    {
+      "question": "Kde je nejlepší parkovat v Záhřebu?",
+      "answer": "Nejspolehlivějšími možnostmi jsou podzemní veřejné garáže jako Langov trg, Tuškanac nebo Petrinjska. Parkování na ulici v centru (Zóna 1) je drahé, omezené na maximálně dvě hodiny a přísně kontrolované."
+    },
+    {
+      "question": "Je Záhřeb vhodný pro rodiny?",
+      "answer": "Ano, město je velmi vstřícné k rodinám. Atrakce jako Muzeum iluzí, Záhřebská zoo v parku Maksimir a krátká jízda lanovkou jsou spolehlivé možnosti pro mladší návštěvníky."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Přehledně",
+    "whereToStay": "Kde se ubytovat v Záhřebu",
+    "gettingThere": "Jak se dostat do Záhřebu",
+    "whenToGo": "Kdy jet",
+    "guides": "Průvodci Záhřebem",
+    "faq": "Časté dotazy k Záhřebu",
+    "groups": {
+      "gettingAround": "Parkování a doprava po městě",
+      "planning": "Plánování a ubytování",
+      "timing": "Kdy jet",
+      "travelers": "Rodiny, páry a styly cestování",
+      "activities": "Pláže a aktivity",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": "Praktické informace"
+    },
+    "car": "Autem",
+    "other": "Další možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "zagreb",
+  "language": "cz",
+  "updatedAt": "2026-10-16T11:30:17.433Z"
+}

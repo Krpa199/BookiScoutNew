@@ -1,0 +1,146 @@
+{
+  "title": "Crikvenica Reisgids: Stranden, Gebieden & Autoroutes",
+  "metaDescription": "Plan een reis naar Crikvenica, Kroatië. Ontdek de beste gebieden om te verblijven, autoroutes vanuit Midden-Europa, strandtypes en parkeerinformatie.",
+  "intro": "Crikvenica is een kustplaats in de Kvarnerbaai, gekenmerkt door een lange boulevard langs de zee en een mix van kiezel- en zandstranden. Het dient als een praktische, toegankelijke zomervakantiebestemming voor gezinnen en koppels die met de auto uit Midden-Europa komen. De stad vloeit naadloos samen met naburige nederzettingen zoals Dramalj en Selce, waardoor een ononderbroken kuststrook van 28 kilometer ontstaat, bekend als de Crikvenica Rivièra.\n\nDe bestemming is geschikt voor reizigers die op zoek zijn naar een ongecompliceerde strandvakantie met directe toegang tot de zee, in plaats van voor degenen die geïsoleerde baaien of uitgebreide historische architectuur zoeken. Bezoekers komen over het algemeen tussen juni en september om te zwemmen en te zonnen. Accommodatie bestaat voornamelijk uit privé-appartementen, pensions en middenklasse resorthotels direct gelegen langs de kustweg of op de heuvel met uitzicht op het water.",
+  "quickFacts": [
+    {
+      "label": "Beste maanden",
+      "value": "Juni tot september"
+    },
+    {
+      "label": "Zeetemp (aug)",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Dichtstbijzijnde luchthaven",
+      "value": "Rijeka (RJK), 20 km"
+    },
+    {
+      "label": "Hoofdstrandtype",
+      "value": "Kiezel en deels zand"
+    },
+    {
+      "label": "Prijsniveau",
+      "value": "Gemiddeld voor de Kroatische kust"
+    },
+    {
+      "label": "Beloopbaarheid centrum",
+      "value": "Vlak, voetgangersvriendelijk"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centrum",
+      "bestFor": "Nabijheid van restaurants en vervoer",
+      "parking": "Grote vraag, voornamelijk betaalde openbare parkeerplaatsen",
+      "beach": "5 minuten lopen naar Gradska (Stadsstrand)",
+      "summary": "De commerciële kern van de Rivièra biedt de grootste concentratie aan eetgelegenheden, winkels en vervoersverbindingen. Het blijft 's avonds druk en biedt een vlakke, beloopbare uitvalsbasis voor bezoekers."
+    },
+    {
+      "name": "Crni Molo",
+      "bestFor": "Gezinnen met jonge kinderen",
+      "parking": "Parkeren op straat, vroeg vol in de zomer",
+      "beach": "Directe toegang tot ondiep zand-/kiezelstrand",
+      "summary": "Een zeer populaire zone rondom een van de weinige ondiepe zandstranden in de regio. Accommodaties hier zijn snel vol in het hoogseizoen vanwege de directe nabijheid van het strand."
+    },
+    {
+      "name": "Dramalj",
+      "bestFor": "Rustigere verblijven en stellen",
+      "parking": "Makkelijker dan in het centrum, vaak op eigen terrein",
+      "beach": "Kiezel- en betonnen terrassen op 10 minuten lopen",
+      "summary": "Dramalj, gelegen ten noordwesten van het centrum, biedt een rustiger tempo en iets goedkopere accommodatie. De boulevard verbindt het direct met Crikvenica voor avondwandelingen."
+    },
+    {
+      "name": "Selce",
+      "bestFor": "Een dorpse sfeer",
+      "parking": "Beperkt in het oude centrum, beter aan de randen",
+      "beach": "Kiezel en beton, meestal 5-15 minuten lopen",
+      "summary": "Ooit een apart vissersdorp ten zuidoosten van Crikvenica, heeft Selce een eigen, kleinschaliger centrum. Het beschikt over een eigen jachthaven, cafés en iets minder gecommercialiseerde kustgedeelten."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "530 km, ~6.5 uur via A8, A10 (Tauern), Karawankentunnel, Ljubljana, Rijeka. Tol: AT vignet, Tauern/Karawankentunnel tol, SI vignet, HR tol.",
+      "other": "Directe FlixBus naar Crikvenica (ca. 9 uur) of vlucht naar luchthaven Rijeka."
+    },
+    {
+      "from": "Wenen",
+      "car": "510 km, ~6 uur via A2 naar Graz, Maribor, Zagreb, A6 naar Rijeka. Tol: AT vignet, SI vignet, HR tol.",
+      "other": "Directe FlixBus naar Crikvenica (ca. 8-9 uur)."
+    },
+    {
+      "from": "Boedapest",
+      "car": "510 km, ~5.5 uur via M7 naar grensovergang Letenye, A4 naar Zagreb, A6 naar Rijeka. Tol: HU vignet, HR tol.",
+      "other": "Directe FlixBus (ca. 7 uur) of trein naar Zagreb gevolgd door een bus."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "130 km, ~2 uur via A1 naar Postojna, Ilirska Bistrica, grensovergang Rupa, Rijeka. Tol: SI vignet, HR tol.",
+      "other": "Directe bus vanaf busstation Ljubljana (ca. 3 uur)."
+    },
+    {
+      "from": "Praag",
+      "car": "830 km, ~9.5 uur via Wenen, Graz, Maribor, Zagreb, Rijeka. Tol: CZ, AT, SI vignetten, HR tol.",
+      "other": "RegioJet trein- of buscombinatie naar Rijeka, daarna lokale bus."
+    },
+    {
+      "from": "Krakau",
+      "car": "900 km, ~10 uur via A4, Ostrava, Brno, Wenen, Graz, Maribor, Zagreb. Tol: PL tol, CZ, AT, SI vignetten, HR tol.",
+      "other": "Vlucht naar Zagreb of Zadar, gevolgd door een binnenlandse bus."
+    }
+  ],
+  "whenToGo": "Juni tot en met september markeren het topzwemseizoen, met zeetemperaturen in augustus die pieken rond de 26°C. Juli en augustus brengen de hoogste prijzen, topdrukte en volledig operationele strandtenten, boottochten en restaurants met zich mee. Juni en september bieden mildere temperaturen en lagere accommodatiekosten, hoewel de zee begin juni iets koeler is. Oktober tot en met mei is het laagseizoen; de zee daalt onder de 18°C, de drukte verdwijnt en een aanzienlijk deel van de seizoensgebonden restaurants en hotels sluit, waardoor alleen essentiële lokale diensten open blijven.",
+  "faq": [
+    {
+      "question": "Is Crikvenica een bezoek waard?",
+      "answer": "Crikvenica is een bezoek waard voor reizigers die op zoek zijn naar een toegankelijke, ongecompliceerde strandvakantie met een goed ontwikkelde infrastructuur. Het is zeer praktisch voor gezinnen die met de auto uit Midden-Europa komen, maar minder geschikt voor degenen die op zoek zijn naar dramatische historische architectuur of geïsoleerde natuur."
+    },
+    {
+      "question": "Hoeveel dagen heb ik nodig in Crikvenica?",
+      "answer": "Drie tot vijf dagen zijn voldoende om de Rivièra te verkennen en van de stranden te genieten. Een hele week biedt tijd voor dagtochten naar het eiland Krk, de Plitvice Meren of het Istrische schiereiland."
+    },
+    {
+      "question": "Wat is het beste strand in Crikvenica?",
+      "answer": "Crni Molo is het populairste strand vanwege de ondiepe, zanderige zeebodem en uitgebreide voorzieningen. Gradska kupalište (Stadsstrand) is een groot kiezelstrand dicht bij het centrum, terwijl Podvorska algemeen erkend wordt als een uitstekend hondvriendelijk strand."
+    },
+    {
+      "question": "Heb ik een auto nodig in Crikvenica?",
+      "answer": "Je hebt geen auto nodig als je in de buurt van het centrum of langs de promenade verblijft, aangezien restaurants en stranden op loopafstand liggen. Een auto is handig om appartementen op de heuvel te bereiken, grote supermarkten te bezoeken of dagtochten door de Kvarner regio te maken."
+    },
+    {
+      "question": "Waar kan ik het beste parkeren in Crikvenica?",
+      "answer": "Bezoekers kunnen parkeren op grote betaalde openbare parkeerplaatsen, zoals de gebieden nabij Petak of het Stjepan Radić plein in het centrum. In juli en augustus zijn openbare plaatsen snel vol, waardoor het sterk aan te raden is om accommodatie te boeken inclusief privé parkeergelegenheid."
+    },
+    {
+      "question": "Is Crikvenica goed voor gezinnen?",
+      "answer": "Crikvenica is zeer geschikt voor gezinnen vanwege de ondiepe wateren, zandgedeelten en brede, kinderwagenvriendelijke boulevard. De stad biedt tal van speeltuinen, gemakkelijke toegang tot medische voorzieningen en over het algemeen kalme zeecondities."
+    }
+  ],
+  "headings": {
+    "quickFacts": "In één oogopslag",
+    "whereToStay": "Waar te verblijven in Crikvenica",
+    "gettingThere": "Naar Crikvenica reizen",
+    "whenToGo": "Wanneer te gaan",
+    "guides": "Crikvenica gidsen",
+    "faq": "Veelgestelde vragen Crikvenica",
+    "groups": {
+      "gettingAround": "Parkeren & rondreizen",
+      "planning": "Planning & waar te verblijven",
+      "timing": "Wanneer te gaan",
+      "travelers": "Gezinnen, koppels & reisstijlen",
+      "activities": "Stranden & dingen om te doen",
+      "food": "Eten & drinken",
+      "comparisons": "Vergelijkingen",
+      "practical": "Praktische info"
+    },
+    "car": "Met de auto",
+    "other": "Andere opties",
+    "bestFor": "Het beste voor",
+    "parking": "Parkeren",
+    "beach": "Strand"
+  },
+  "destination": "crikvenica",
+  "language": "nl",
+  "updatedAt": "2026-10-16T10:47:23.593Z"
+}

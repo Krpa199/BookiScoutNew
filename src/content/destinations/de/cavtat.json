@@ -1,0 +1,146 @@
+{
+  "title": "Cavtat Reiseführer: Strände, Parken und Wo übernachten",
+  "metaDescription": "Planen Sie Ihre Reise nach Cavtat, Kroatien. Erfahren Sie, wo Sie übernachten können, wie Sie von Mitteleuropa anreisen, erhalten Sie Parkinformationen und entdecken Sie die besten Strände vor Ort.",
+  "intro": "Cavtat ist eine Küstenstadt in Süddalmatien, 20 Kilometer südlich von Dubrovnik gelegen. Sie bietet Besuchern ein ruhigeres, entspannteres Küstenerlebnis und gleichzeitig einfachen Zugang zum historischen Zentrum Dubrovniks über regelmäßige Passagierboote und regionale Busse. Die Stadt konzentriert sich um eine bewaldete Halbinsel mit einer flachen, fußgängerfreundlichen Promenade, gesäumt von Restaurants, Cafés und Pinien.\n\nDas Reiseziel ist gut geeignet für Familien, ältere Reisende und Paare, die entspannte Strandtage einem aktiven Nachtleben vorziehen. Der Sommer ist die beliebteste Reisezeit, obwohl Mai und September angenehmes Badewetter und niedrigere Unterkunftspreise bieten. Ein Auto ist unnötig, wenn man innerhalb der Stadtgrenzen bleibt, aber nützlich, um die weitere Konavle-Region oder das benachbarte Montenegro zu erkunden.",
+  "quickFacts": [
+    {
+      "label": "Beste Monate",
+      "value": "Mai bis September"
+    },
+    {
+      "label": "Meerestemperatur im August",
+      "value": "25°C bis 27°C"
+    },
+    {
+      "label": "Nächster Flughafen",
+      "value": "Flughafen Dubrovnik (DBV), 6 km entfernt"
+    },
+    {
+      "label": "Hauptstrandtyp",
+      "value": "Kies- und Betonterrassen"
+    },
+    {
+      "label": "Preisniveau",
+      "value": "Überdurchschnittlich, aber 10-15% günstiger als Dubrovnik"
+    },
+    {
+      "label": "Begehbarkeit",
+      "value": "Die Altstadt ist sehr gut zu Fuß erreichbar und größtenteils autofrei"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Altstadt (Halbinsel Rat)",
+      "bestFor": "Erstbesucher und Paare, die einfachen Zugang zu Restaurants bevorzugen",
+      "parking": "Sehr begrenzt; öffentlicher Parkplatz am Stadteingang",
+      "beach": "5-10 Gehminuten zu felsigen und betonierten Badestellen",
+      "summary": "Das historische Zentrum bietet traditionelle Steinhäuser, Restaurants und die Hauptpromenade. Unterkünfte hier sind oft nur wenige Schritte vom Wasser entfernt, verfügen aber in der Regel nicht über private Parkplätze."
+    },
+    {
+      "name": "Bucht Tiha (Uvala Tiha)",
+      "bestFor": "Familien und Reisende, die direkten Strandzugang suchen",
+      "parking": "Leichter zu finden, viele Apartments bieten private Stellplätze",
+      "beach": "Direkt am Žal Strand und den umliegenden Kiesufern",
+      "summary": "Nördlich der Halbinsel gelegen, bietet dieses Wohngebiet moderne Apartments und kleine Hotels. Die Hauptkiesstrände befinden sich entlang dieser Bucht, was sie sehr praktisch zum Schwimmen macht."
+    },
+    {
+      "name": "Mećajac",
+      "bestFor": "Preisbewusste Reisende, die bereit sind, bergauf zu gehen",
+      "parking": "Generell bei den meisten Privatunterkünften verfügbar",
+      "beach": "10-15 Gehminuten hinunter zu den Hauptbuchten",
+      "summary": "Dieses Viertel liegt auf dem Hügel oberhalb der Altstadt und bietet niedrigere Preise und oft erhöhte Meerblicke. Die Rückkehr vom Zentrum oder vom Strand erfordert einen steilen Anstieg."
+    },
+    {
+      "name": "Obod",
+      "bestFor": "Reisende mit Auto, die eine ruhigere Basis bevorzugen",
+      "parking": "Reichlich vorhanden und normalerweise in der Unterkunft inbegriffen",
+      "beach": "15-20 Gehminuten bergab, oder eine kurze Autofahrt",
+      "summary": "Eine kleine Siedlung an der Küstenstraße kurz vor Cavtat. Sie bietet eine ruhige Umgebung und einfachen Zugang zur Hauptstraße für Tagesausflüge, erfordert aber einen Transport, um das Zentrum von Cavtat zu erreichen."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "980 km, 11-12 Stunden über A8, A10, A1. Benötigt AT und SLO Vignetten, AT Tunnelgebühren, HR Autobahngebühren",
+      "other": "Direktflüge zum Flughafen Dubrovnik (1,5 Stunden)"
+    },
+    {
+      "from": "Wien",
+      "car": "820 km, 9-10 Stunden über A2, A4, A1. Benötigt AT und SLO Vignetten, HR Autobahngebühren. Die Route nutzt die Pelješac-Brücke",
+      "other": "Direktflüge zum Flughafen Dubrovnik (1,5 Stunden)"
+    },
+    {
+      "from": "Budapest",
+      "car": "750 km, 8-9 Stunden über M7 und A1. Benötigt HU Vignette und HR Autobahngebühren. Die Route nutzt die Pelješac-Brücke",
+      "other": "Saisonale Direktflüge (1,5 Stunden) oder Busverbindungen"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "640 km, 7-8 Stunden über A2 und A1. Benötigt SLO Vignette und HR Autobahngebühren. Die Route nutzt die Pelješac-Brücke",
+      "other": "Saisonale Flüge nach Dubrovnik oder Bus über Zagreb"
+    },
+    {
+      "from": "Prag",
+      "car": "1.150 km, 13-14 Stunden über CZ D1, AT A9, SLO A2, HR A1. Benötigt CZ, AT, SLO Vignetten, AT Tunnelgebühren, HR Maut",
+      "other": "Direktflüge zum Flughafen Dubrovnik (2 Stunden)"
+    },
+    {
+      "from": "Krakau",
+      "car": "1.160 km, 13-14 Stunden über SK D1, HU M1/M7, HR A1. Benötigt PL Maut, SK und HU Vignetten, HR Maut",
+      "other": "Direktflüge zum Flughafen Dubrovnik via Ryanair oder LOT"
+    }
+  ],
+  "whenToGo": "Der Sommer (Juli und August) ist Hochsaison mit Meerestemperaturen von bis zu 27°C, allen Restaurants und Fähren in vollem Betrieb und den höchsten Unterkunftspreisen. Juni und September bieten ein angenehmeres Gleichgewicht, mit Tagestemperaturen um 25-28°C, weniger Menschenmassen und immer noch warmem Meerwasser zum Schwimmen. Mai und Oktober sind deutlich ruhiger und günstiger, aber die Meerestemperaturen liegen bei 19-21°C und einige saisonale Geschäfte oder Fährverbindungen können ihre Fahrpläne reduzieren oder ganz schließen.",
+  "faq": [
+    {
+      "question": "Ist Cavtat einen Besuch wert?",
+      "answer": "Ja, es ist sehr empfehlenswert für diejenigen, die eine malerische, entspannte Küstenstadt statt einer geschäftigen Metropole suchen. Es bietet einen schönen Hafen, klares Wasser und einfachen Zugang zu Dubrovnik ohne die starke Touristenüberlastung."
+    },
+    {
+      "question": "Wie viele Tage sollte ich in Cavtat verbringen?",
+      "answer": "Drei bis fünf Tage sind ideal für einen entspannten Strandurlaub und einen Tagesausflug nach Dubrovnik. Wenn Sie Montenegro, die Halbinsel Pelješac und die Elaphiten-Inseln erkunden möchten, dient eine ganze Woche als hervorragende Basis."
+    },
+    {
+      "question": "Was ist der beste Strand in Cavtat?",
+      "answer": "Der Žal Strand ist die beliebteste Option und bietet einen langen Kiesabschnitt, flaches Wasser und nahegelegene Einrichtungen. Für ein raueres Erlebnis bietet Sustjepan Betonterrassen und felsige Badestellen, während der berühmte Klippenstrand Pasjača 15 Autominuten entfernt liegt."
+    },
+    {
+      "question": "Brauche ich ein Auto in Cavtat?",
+      "answer": "Nein, Sie benötigen kein Auto, wenn Sie vor Ort bleiben und die häufigen Busse oder Fähren für einen Besuch in Dubrovnik nutzen möchten. Ein Auto ist nur notwendig, wenn Sie die weitere Konavle-Region, nahegelegene lokale Dörfer oder Montenegro unabhängig erkunden möchten."
+    },
+    {
+      "question": "Wo kann ich in Cavtat parken?",
+      "answer": "Der Hauptparkplatz befindet sich am Eingang zur Altstadt, neben dem Busbahnhof, und ist stunden- oder tageweise kostenpflichtig. Da die historische Halbinsel größtenteils verkehrsberuhigt ist, stellen Sie sicher, dass Ihre Unterkunft private Parkplätze bietet, wenn Sie mit dem Auto anreisen."
+    },
+    {
+      "question": "Ist Cavtat gut für Familien?",
+      "answer": "Ja, es ist eines der familienfreundlichsten Reiseziele in der Region. Die flache, reine Fußgängerpromenade ist sicher für Kinder, und das ruhige, flache Wasser an den lokalen Kiesstränden ist hervorragend für junge Schwimmer."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Auf einen Blick",
+    "whereToStay": "Wo übernachten in Cavtat",
+    "gettingThere": "Anreise nach Cavtat",
+    "whenToGo": "Beste Reisezeit",
+    "guides": "Cavtat Reiseführer",
+    "faq": "Häufig gestellte Fragen zu Cavtat",
+    "groups": {
+      "gettingAround": "Parken & Fortbewegung",
+      "planning": "Planung & Wo übernachten",
+      "timing": "Beste Reisezeit",
+      "travelers": "Familien, Paare & Reisestile",
+      "activities": "Strände & Aktivitäten",
+      "food": "Essen & Trinken",
+      "comparisons": "Vergleiche",
+      "practical": "Praktische Infos"
+    },
+    "car": "Mit dem Auto",
+    "other": "Andere Optionen",
+    "bestFor": "Am besten geeignet für",
+    "parking": "Parken",
+    "beach": "Strand"
+  },
+  "destination": "cavtat",
+  "language": "de",
+  "updatedAt": "2026-10-16T15:00:16.961Z"
+}

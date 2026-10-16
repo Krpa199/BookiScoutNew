@@ -1,0 +1,146 @@
+{
+  "title": "Guide de voyage Vrsar : Plages, parking et où séjourner",
+  "metaDescription": "Planifiez votre voyage à Vrsar avec ce guide pratique. Comparez les quartiers, les itinéraires depuis l'Europe centrale, les types de plages, le stationnement et la meilleure période pour partir.",
+  "intro": "Vrsar est une ville côtière de l'ouest de l'Istrie, située entre Poreč et le fjord de Lim. Elle attire les visiteurs à la recherche d'une base plus tranquille que la ville voisine de Rovinj, offrant une vieille ville historique perchée sur une colline, une grande marina et un archipel de 18 îlots inhabités juste au large. La destination s'adresse principalement aux couples recherchant des promenades côtières décontractées et aux familles séjournant dans les complexes hôteliers et campings environnants.\n\nLe terrain est vallonné, nécessitant une marche raide du front de mer au centre historique. La plupart des hébergements sont constitués d'appartements privés, de grands complexes hôteliers comme Belvedere et de vastes terrains de camping au nord et au sud. L'été est la saison principale, avec presque toutes les entreprises d'hôtellerie fonctionnant de fin mai à septembre et fermant entièrement pendant l'hiver.",
+  "quickFacts": [
+    {
+      "label": "Meilleurs mois",
+      "value": "Juin à septembre"
+    },
+    {
+      "label": "Température de la mer en août",
+      "value": "25°C à 27°C"
+    },
+    {
+      "label": "Aéroport le plus proche",
+      "value": "Aéroport de Pula (PUY), 52 km"
+    },
+    {
+      "label": "Principal type de plage",
+      "value": "Criques de galets et plateformes pavées"
+    },
+    {
+      "label": "Niveau de prix",
+      "value": "Moyen pour l'Istrie, moins cher que Rovinj"
+    },
+    {
+      "label": "Accessibilité à pied de la vieille ville",
+      "value": "Majoritairement sans voiture, très raide mais accessible à pied"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Vieille ville (Centre historique)",
+      "bestFor": "Couples et amateurs d'histoire",
+      "parking": "Accès restreint ; utilisez les parkings payants au pied de la colline",
+      "beach": "10 à 15 minutes de marche en descente jusqu'à la plage de la ville",
+      "summary": "Le centre médiéval perché sur une colline est caractérisé par des rues pavées étroites, des points de vue et l'église Saint-Martin. La marche est raide, ce qui le rend moins adapté aux visiteurs à mobilité réduite."
+    },
+    {
+      "name": "Marina et front de mer",
+      "bestFor": "Navigateurs, familles et ceux qui préfèrent un terrain plat",
+      "parking": "Grands parkings payants près de la gare routière et du port",
+      "beach": "5 à 10 minutes de marche jusqu'à Montraker ou la plage de la ville",
+      "summary": "La bande côtière plate le long d'Obala Maršala Tita est le centre commercial. Elle offre un accès facile aux boulangeries, restaurants et excursions en bateau sans les fortes pentes de la vieille ville."
+    },
+    {
+      "name": "Petalon et Belvedere",
+      "bestFor": "Vacanciers en complexe hôtelier et familles",
+      "parking": "Parking privé dédié aux clients des complexes hôteliers",
+      "beach": "Plages rocheuses et de galets sur place",
+      "summary": "Situées juste au sud de la ville principale, ces péninsules hôtelières conçues à cet effet offrent des installations structurées, des piscines et des terrains de sport. La marche jusqu'au front de mer de Vrsar prend environ 10 à 15 minutes le long d'un sentier côtier ombragé."
+    },
+    {
+      "name": "Brođanka et Saline",
+      "bestFor": "Voyageurs soucieux de leur budget et ceux qui préfèrent la cuisine autonome",
+      "parking": "Généralement inclus avec la location d'appartements privés",
+      "beach": "10 à 20 minutes de marche jusqu'à Valkanela ou la plage de la ville",
+      "summary": "Ce quartier résidentiel est situé légèrement à l'intérieur des terres et au nord de la marina. Il se compose presque entièrement d'appartements privés et de maisons d'hôtes, offrant un environnement calme à quelques pas du centre."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Munich",
+      "car": "520 km, 5,5 à 6,5 heures via A8, A10 (Tauern), tunnel de Karawanken et Slovénie. Vignette autrichienne, péages Tauern/Karawanken, vignette slovène et péages croates applicables.",
+      "other": "Vols Lufthansa vers Pula (PUY) ou bus longue distance vers Rovinj."
+    },
+    {
+      "from": "Vienne",
+      "car": "510 km, 5,5 à 6 heures via A2 (Graz), Maribor et Ljubljana. Vignette autrichienne, vignette slovène et péages croates applicables.",
+      "other": "Vols directs vers Pula (Austrian Airlines/Ryanair) ou bus longue distance."
+    },
+    {
+      "from": "Budapest",
+      "car": "600 km, 6 à 6,5 heures via M7 jusqu'à la frontière, puis A4, A1, A6 croates et Y istrien (A8/A9). E-vignette hongroise et péages croates applicables.",
+      "other": "Bus longue distance vers Rovinj ou Pula, avec correspondance pour Vrsar."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "130 km, 1,5 à 2 heures via A1 jusqu'à Koper, passage frontalier de Dragonja et A9 croate. Vignette slovène et péages croates applicables.",
+      "other": "Bus saisonnier direct ou transfert en navette privée."
+    },
+    {
+      "from": "Prague",
+      "car": "830 km, 9 à 10 heures via Linz, Graz, Maribor et Ljubljana. Vignettes tchèque, autrichienne et slovène, plus péages croates applicables.",
+      "other": "Vols vers Pula (Smartwings/Ryanair) ou train jusqu'à Rijeka suivi d'un bus."
+    },
+    {
+      "from": "Cracovie",
+      "car": "1 050 km, 10,5 à 11,5 heures via A4, Tchéquie (D1), Vienne, Graz et Slovénie. Péages/vignettes requis pour la Pologne, la Tchéquie, l'Autriche, la Slovénie et la Croatie.",
+      "other": "Vols de Cracovie ou Katowice vers Pula, ou bus longue distance."
+    }
+  ],
+  "whenToGo": "De juin à septembre est la saison standard pour visiter Vrsar, août étant le mois où l'affluence est la plus forte et les prix d'hébergement les plus élevés. La température de la mer atteint 25°C à 27°C fin juillet, ce qui rend août idéal pour la baignade. Mai et octobre offrent un temps plus frais (18°C à 22°C) adapté au cyclisme et au tourisme, bien que la mer soit souvent trop froide pour la baignade et que certains restaurants saisonniers ou installations de complexes hôteliers puissent être fermés. De novembre à avril, Vrsar est en grande partie fermée ; la plupart des hôtels, campings et restaurants touristiques ferment, et la ville est exceptionnellement calme avec seulement les commodités de base fonctionnant pour les habitants.",
+  "faq": [
+    {
+      "question": "Vrsar vaut-il la peine d'être visité ?",
+      "answer": "Oui, Vrsar est un choix pratique si vous préférez une ville côtière plus calme aux centres animés de Rovinj ou Poreč. Elle offre une vieille ville historique perchée sur une colline, d'excellentes pistes cyclables et un accès facile au fjord de Lim. Cependant, ceux qui recherchent une vie nocturne animée ou de nombreux magasins devraient chercher ailleurs."
+    },
+    {
+      "question": "Combien de jours faut-il pour visiter Vrsar ?",
+      "answer": "Trois à cinq jours suffisent pour explorer la ville, profiter des plages et faire une excursion en bateau jusqu'au fjord de Lim. Si vous prévoyez d'utiliser Vrsar comme base pour visiter Pula, Motovun et Rovinj, un séjour de sept jours est courant pour la plupart des visiteurs venant d'Europe centrale en voiture."
+    },
+    {
+      "question": "Quelle est la meilleure plage de Vrsar ?",
+      "answer": "La plage de la ville (Gradska plaža) est l'option la plus centrale et la plus accessible, avec des criques de galets et des zones de bronzage pavées. Pour les familles, Valkanela offre une longue étendue d'eau peu profonde et des zones sablonneuses, tandis que Montraker est connue pour ses dalles rocheuses et ses vues sur la vieille ville."
+    },
+    {
+      "question": "Faut-il une voiture à Vrsar ?",
+      "answer": "Vous n'avez pas besoin de voiture pour vous déplacer à Vrsar même, car la ville, la marina et les principales plages sont facilement accessibles à pied. Cependant, il est fortement recommandé d'avoir une voiture si vous souhaitez explorer le reste de l'Istrie ou voyager depuis l'aéroport le plus proche à Pula."
+    },
+    {
+      "question": "Où est le meilleur endroit pour se garer à Vrsar ?",
+      "answer": "Le parking municipal principal est situé près de la gare routière (parking Saline) au bas de la vieille ville. Le stationnement dans la vieille ville est strictement limité aux non-résidents, et les visiteurs sont censés se garer près de la marina ou utiliser le parking privé fourni par leur hébergement."
+    },
+    {
+      "question": "Vrsar est-il adapté aux familles ?",
+      "answer": "Oui, Vrsar est très adapté aux familles, en particulier celles séjournant dans les grands complexes hôteliers ou campings à proximité. La région offre des plages sûres et bien équipées, des pistes cyclables dédiées et une atmosphère détendue sans les foules importantes des grandes villes istriennes."
+    }
+  ],
+  "headings": {
+    "quickFacts": "En un coup d'œil",
+    "whereToStay": "Où séjourner à Vrsar",
+    "gettingThere": "Se rendre à Vrsar",
+    "whenToGo": "Quand partir",
+    "guides": "Guides Vrsar",
+    "faq": "FAQ Vrsar",
+    "groups": {
+      "gettingAround": "Parking et déplacements",
+      "planning": "Planification et où séjourner",
+      "timing": "Quand partir",
+      "travelers": "Familles, couples et styles de voyage",
+      "activities": "Plages et activités",
+      "food": "Restauration",
+      "comparisons": "Comparaisons",
+      "practical": "Infos pratiques"
+    },
+    "car": "En voiture",
+    "other": "Autres options",
+    "bestFor": "Idéal pour",
+    "parking": "Parking",
+    "beach": "Plage"
+  },
+  "destination": "vrsar",
+  "language": "fr",
+  "updatedAt": "2026-10-16T11:55:16.538Z"
+}

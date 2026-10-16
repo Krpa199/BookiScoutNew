@@ -1,0 +1,146 @@
+{
+  "title": "Nin útikalauz: Strandok, parkolás és szállás",
+  "metaDescription": "Tervezze meg utazását Ninbe, Horvátországba. Találja meg a legjobb homokos strandokat, parkolási információkat, útvonalakat és a legjobb szálláshelyeket családok és kitesurfösök számára.",
+  "intro": "Nin egy kis tengerparti város Észak-Dalmáciában, ritka homokos strandjairól, sekély vizéről és történelmi szigeti központjáról ismert. Elsősorban kisgyermekes családokat, kitesurfösöket és olyan utazókat vonz, akik nyugodtabb alternatívát keresnek a közeli Zárához képest. A sekély öböl gyorsan felmelegszik, így a tenger korábban és később is kellemesebb az úszásra, mint a mélyebb part menti területeken.\n\nA legjobb időszak a látogatásra júniustól szeptemberig tart, amikor minden strandlétesítmény, kemping és helyi étterem nyitva van. Július és augusztus a legforgalmasabb és legdrágább hónapok, nagy számú nappali látogatót vonzva Zárából. Május és október hűvösebb hőmérsékletet és alacsonyabb árakat kínál, de sok szezonális vállalkozás és strandkölcsönző bezár ebben az időszakban.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Júniustól szeptemberig"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "25°C – 27°C"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Zárai repülőtér (ZAD), 20 km"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Természetes homok hosszú, sekély zónákkal"
+    },
+    {
+      "label": "Árszint",
+      "value": "Átlagos Dalmáciában, olcsóbb, mint Zára"
+    },
+    {
+      "label": "Óváros központja",
+      "value": "Csak gyalogosok számára, kis szigeten, hidakkal összekötve"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Nin óváros",
+      "bestFor": "Pároknak, történelem iránt érdeklődőknek és rövid tartózkodásra",
+      "parking": "Fizetős önkormányzati parkolók a hidakon kívül; autók nem engedélyezettek a szigeten",
+      "beach": "10-15 perc séta a Ždrijac vagy a Királynő strandjához",
+      "summary": "A történelmi központ egy kis szigeten fekszik, két híd köti össze. Hagyományos kőházakat, régészeti lelőhelyeket és a legtöbb éttermet kínálja, de hiányzik az azonnali strand hozzáférés."
+    },
+    {
+      "name": "Ždrijac",
+      "bestFor": "Kitesurfösöknek, windsurfösöknek és strandolóknak",
+      "parking": "Privát parkolás az apartmanoknál; fizetős parkoló a strand közelében",
+      "beach": "Közvetlen hozzáférés a Ždrijac strandhoz (homok)",
+      "summary": "Ez a lakóövezet egy homokos félsziget mentén épült, közvetlenül az óvárostól északra. Ez a kitesurf iskolák fő központja, és számos önellátó apartmant kínál közvetlenül a vízparton."
+    },
+    {
+      "name": "Sabunike",
+      "bestFor": "Csendes strandnapokat és hosszabb tartózkodást kereső családoknak",
+      "parking": "Könnyű utcai parkolás és privát beállók",
+      "beach": "5-15 perc séta a Királynő strandjához (Kraljičina plaža)",
+      "summary": "Nin északnyugati részén, néhány kilométerre található Sabunike, egy kifejezetten nyaralásra épült falu. Csendesebb környezetet, nagyobb apartman telkeket és közel van a híres Királynő strandhoz és gyógyiszapjához."
+    },
+    {
+      "name": "Zaton",
+      "bestFor": "Üdülőhelyi nyaralóknak, kempingezőknek és gyermekes családoknak",
+      "parking": "Biztonságos parkolás az üdülőkomplexumokon belül",
+      "beach": "Helyszíni homokos és kavicsos strandok teljes kényelemmel",
+      "summary": "Nintől délre található Zaton, melyet egy hatalmas üdülő- és kempingpark ural. Medencékkel, animációs csapatokkal, minigolffal és széles étkezési lehetőségekkel rendelkezik, így önellátó úti cél."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "740 km, 8 óra az A8, A10 és A1 útvonalon. Osztrák és szlovén autópálya-matrica, Tauern alagút és horvát autópályadíjak szükségesek.",
+      "other": "Közvetlen járatok Zárai (ZAD) repülőtérre a Lufthansa vagy a Ryanair (Memmingen) légitársasággal."
+    },
+    {
+      "from": "Bécs",
+      "car": "620 km, 6,5 óra az A2 és A1 útvonalon. Osztrák és szlovén autópálya-matrica, plusz horvát útdíjak szükségesek.",
+      "other": "Közvetlen Ryanair járatok Bécsből Zárába."
+    },
+    {
+      "from": "Budapest",
+      "car": "630 km, 6,5 óra az M7 és A4/A1 útvonalon. Magyar e-matrica és horvát autópályadíjak szükségesek.",
+      "other": "Közvetlen Ryanair járatok Budapestről Zárába."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "340 km, 4 óra az A2 és A1 útvonalon. Szlovén autópálya-matrica és horvát autópályadíjak szükségesek.",
+      "other": "Közvetlen FlixBus Zárába, majd helyi busz vagy taxi Ninbe."
+    },
+    {
+      "from": "Prága",
+      "car": "950 km, 10,5 óra Bécsen és Grazon keresztül. Cseh, osztrák és szlovén autópálya-matrica, plusz horvát útdíjak szükségesek.",
+      "other": "Közvetlen Ryanair járatok Prágából Zárába."
+    },
+    {
+      "from": "Krakkó",
+      "car": "1000 km, 11 óra Szlovákián és Magyarországon keresztül. Szlovák és magyar autópálya-matrica, plusz horvát útdíjak szükségesek.",
+      "other": "Közvetlen Ryanair járatok Krakkóból Zárába."
+    }
+  ],
+  "whenToGo": "A szezon Ninben májustól októberig tart, a csúcspont a tömeg és a legmagasabb szállásárak júliusban és augusztusban vannak. Ezekben a nyár közepi hónapokban a tenger hőmérséklete nagyon kellemes 25°C és 27°C közé emelkedik, így a sekély öblök fürdővíznek érződnek, és minden strandbár, kitesurf iskola és étterem teljes mértékben üzemel. Június és szeptember jobb egyensúlyt kínál a meleg időjárás (tengerhőmérséklet 22°C-24°C körül), alacsonyabb árak és kezelhető látogatószám tekintetében. Novembertől áprilisig Nin csendes, a tenger hőmérséklete 15°C alá csökken, és a legtöbb turistákra specializálódott vállalkozás, beleértve a közeli Zaton üdülőhelyet is, bezár télire.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni Nint?",
+      "answer": "Igen, Nint érdemes meglátogatni, különösen, ha a homokos strandokat kedveli, amelyek ritkák Horvátországban. Ideális kisgyermekes családok számára a sekély víz miatt, és egyedi történelmi helyszíneket kínál egy kompakt óvárosban."
+    },
+    {
+      "question": "Hány napra van szükségem Ninben?",
+      "answer": "Két-három nap elegendő az óváros felfedezéséhez, a sólepárlók meglátogatásához és a főbb strandokon való pihenéshez. Azonban sok látogató egy-két hetes tengerparti nyaralás bázisaként használja."
+    },
+    {
+      "question": "Melyik a legjobb strand Ninben?",
+      "answer": "A Királynő strand (Kraljičina plaža) a leghíresebb és általánosan a legjobb strandnak tartott a környéken. Hosszú, finom homokos szakasszal, rendkívül sekély vízzel és természetesen előforduló gyógyiszapos területekkel rendelkezik."
+    },
+    {
+      "question": "Szükséges autó Ninben?",
+      "answer": "Nem szükséges autó, ha az óvárosban vagy Ždrijacban száll meg, és helyben marad. Azonban erősen ajánlott jármű a közeli Zárába való utazáshoz, nagyobb szupermarketek eléréséhez vagy a tágabb dalmát tengerpart felfedezéséhez."
+    },
+    {
+      "question": "Hol a legjobb parkolni Ninben?",
+      "answer": "A legjobb parkolóhelyek a nagy, fizetős önkormányzati parkolók, amelyek közvetlenül az óvárosba vezető két híd mellett találhatók. A parkolás szigorúan ellenőrzött nyáron, és a gépek érméket, kártyákat vagy mobilparkoló alkalmazásokat fogadnak el."
+    },
+    {
+      "question": "Jó Nin családoknak?",
+      "answer": "Igen, Nin az egyik legjobb úti cél Horvátországban kisgyermekes családok számára. A hatalmas homokos strandok és a meleg, térdig érő víz biztonságos környezetet biztosít a kisgyermekek és gyerekek számára a játékhoz."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Röviden",
+    "whereToStay": "Hol szálljon meg Ninben",
+    "gettingThere": "Hogyan juthat el Ninbe",
+    "whenToGo": "Mikor utazzon",
+    "guides": "Nin útikalauzok",
+    "faq": "Gyakran ismételt kérdések Ninről",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor utazzon",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Ételek és italok",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb választás",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "nin",
+  "language": "hu",
+  "updatedAt": "2026-10-16T13:53:41.183Z"
+}

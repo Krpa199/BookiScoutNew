@@ -1,0 +1,146 @@
+{
+  "title": "Mljet Reisgids: Nationaal Park, Veerboten & Waar te verblijven",
+  "metaDescription": "Plan een reis naar Mljet, Kroatië. Feitelijke gids over toegang tot het Nationaal Park, rijroutes, veerboten, de beste dorpen om te verblijven en praktische tips.",
+  "intro": "Mljet is een dichtbebost Adriatisch eiland, geschikt voor reizigers die op zoek zijn naar natuur, wandelen en rustige kustdorpen. Het westelijke derde deel van het eiland is een beschermd Nationaal Park met twee zoutwatermeren, dat zowel dagjesmensen als langere verblijven trekt. De oostelijke en centrale delen bieden afgelegen baaien en zandstranden, die afwijken van de typische Kroatische kiezelkust.\n\nHet hoofdseizoen loopt van eind mei tot september. Juli en augustus brengen de warmste zeetemperaturen en het grootste jachtverkeer, vooral in Pomena en Polače. Mei en september bieden milder weer om te fietsen en te wandelen over de paden van het Nationaal Park, met minder drukte en lagere accommodatietarieven.",
+  "quickFacts": [
+    {
+      "label": "Beste maanden",
+      "value": "Mei tot september"
+    },
+    {
+      "label": "Zeetemp. augustus",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Dichtstbijzijnde luchthaven",
+      "value": "Dubrovnik (DBV), 85 km (incl. veerboot)"
+    },
+    {
+      "label": "Hoofdstrandtype",
+      "value": "Zoutwatermeren, rotsachtige baaien en zeldzaam zand"
+    },
+    {
+      "label": "Prijsniveau",
+      "value": "Bovengemiddeld (eilandlogistiek en parktoeslagen)"
+    },
+    {
+      "label": "Wandelbaarheid centra",
+      "value": "Dorpen zijn klein/bewandelbaar; Nationaal Park is autovrij"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Pomena",
+      "bestFor": "Toegang tot Nationaal Park en dineren",
+      "parking": "Beperkte parkeergelegenheid op straat; betaald parkeerterrein bij het hotel",
+      "beach": "10 minuten lopen naar Malo Jezero (zoutwatermeer)",
+      "summary": "Een klein havenplaatsje aan de westelijke punt, dat dient als de hoofdingang tot het Nationaal Park. Het heeft het enige grote hotel van het eiland, veel jachtverkeer en talloze visrestaurants."
+    },
+    {
+      "name": "Polače",
+      "bestFor": "Historische ruïnes en beschutte ankerplaats",
+      "parking": "Parkeergelegenheid op straat beschikbaar, druk in het hoogseizoen",
+      "beach": "Rotsachtige waterkant; 3 km lopen/fietsen naar de meren",
+      "summary": "Met prominente Romeinse ruïnes direct aan het water. Het fungeert als de secundaire ingang tot het Nationaal Park en ligt in een diepe, beschermde baai met verschillende veerverbindingen."
+    },
+    {
+      "name": "Saplunara",
+      "bestFor": "Zandstranden en rustige ontspanning",
+      "parking": "Privéplekken bij appartementen, kleine onverharde parkeerplaatsen",
+      "beach": "Directe toegang tot zeldzame zandstranden",
+      "summary": "Gelegen op de geïsoleerde oostelijke punt van het eiland, bekend om zijn zanderige baaien. Er zijn hier geen attracties van het Nationaal Park, wat het rustiger maakt en volledig gericht op strandbezoek."
+    },
+    {
+      "name": "Sobra",
+      "bestFor": "Veerbootoegang en praktische uitvalsbasis",
+      "parking": "Ruime parkeergelegenheid nabij de veerhaven en het dorpscentrum",
+      "beach": "Kleine kiezel- en rotsachtige plekjes in het dorp",
+      "summary": "De belangrijkste haven waar de autoveerboot vanaf het vasteland aankomt. Het is centraal gelegen en biedt lagere prijzen en een strategische uitvalsbasis om naar beide uiteinden van het eiland te rijden."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "930 km naar de haven van Prapratno, ~10 uur via A8, A10, HR A1 en de Pelješac Brug. AT vignet/tol, SI vignet, HR tol. Plus 45 min. autoveerboot naar Sobra.",
+      "other": "Vlucht naar Dubrovnik (DBV) of Split (SPU), daarna bus/taxi naar de haven en passagierscatamaran."
+    },
+    {
+      "from": "Wenen",
+      "car": "830 km naar de haven van Prapratno, ~9 uur via A2 (AT), HR A1 en de Pelješac Brug. AT vignet, SI vignet, HR tol. Plus 45 min. autoveerboot naar Sobra.",
+      "other": "Vlucht naar Dubrovnik (DBV), daarna bus naar de haven van Gruž en passagierscatamaran."
+    },
+    {
+      "from": "Boedapest",
+      "car": "790 km naar de haven van Prapratno, ~8,5 uur via M7 (HU), HR A1 en de Pelješac Brug. HU vignet, HR tol. Plus 45 min. autoveerboot naar Sobra.",
+      "other": "Vlucht naar Split (SPU) of Dubrovnik (DBV), daarna passagierscatamaran naar Mljet."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "610 km naar de haven van Prapratno, ~7 uur via A2 (SI), HR A1 en de Pelješac Brug. SI vignet, HR tol. Plus 45 min. autoveerboot naar Sobra.",
+      "other": "Bus naar Split of Dubrovnik, daarna passagierscatamaran naar Pomena of Sobra."
+    },
+    {
+      "from": "Praag",
+      "car": "1.150 km naar de haven van Prapratno, ~12,5 uur via A9 (AT) en HR A1. CZ, AT, SI vignetten, HR tol. Plus 45 min. autoveerboot naar Sobra.",
+      "other": "Vlucht naar Dubrovnik (DBV), daarna bus naar de haven en passagierscatamaran."
+    },
+    {
+      "from": "Krakau",
+      "car": "1.120 km naar de haven van Prapratno, ~12,5 uur via SK, HU (M7) en HR A1. SK, HU vignetten, HR tol. Plus 45 min. autoveerboot naar Sobra.",
+      "other": "Vlucht naar Split (SPU) of Dubrovnik (DBV), daarna passagierscatamaran."
+    }
+  ],
+  "whenToGo": "Het toeristenseizoen op Mljet loopt van mei tot oktober, samenvallend met uitgebreide veerdiensten en geopende restaurants. Juli en augustus zijn de drukste en duurste maanden, met zeetemperaturen tot 27°C en grote aantallen jachten die aanmeren in Pomena en Polače. Mei, juni en september bieden aangename luchttemperaturen rond 20–25°C, wat deze maanden ideaal maakt om te fietsen en te wandelen in het Nationaal Park, hoewel de zee begin mei te koel kan zijn voor langdurig zwemmen. Tussen november en april is het eiland erg rustig; passagierscatamarans varen volgens een gereduceerd schema, en de meeste toeristische faciliteiten, waaronder veel restaurants en accommodaties, sluiten voor de winter.",
+  "faq": [
+    {
+      "question": "Is Mljet een bezoek waard?",
+      "answer": "Ja, voor reizigers die op zoek zijn naar natuur, wandelen en helder water, weg van grote badplaatsen. Het Nationaal Park van het eiland en de zoutwatermeren bieden een onderscheidend landschap vergeleken met andere Kroatische eilanden, hoewel het geen nachtleven en uitgebreide winkelmogelijkheden heeft."
+    },
+    {
+      "question": "Hoeveel dagen heb ik nodig op Mljet?",
+      "answer": "Twee tot drie dagen zijn voldoende om rond de meren van het Nationaal Park te fietsen, het eiland St. Mary's te bezoeken en enkele kustdorpen te verkennen. Dagtochten vanuit Dubrovnik of Korčula zijn populair, maar overnachten stelt u in staat om het park te ervaren zonder de middagdrukte."
+    },
+    {
+      "question": "Wat is het beste strand op Mljet?",
+      "answer": "Velika Saplunara en Mala Saplunara op de oostelijke punt zijn de beste zandstranden. In het Nationaal Park zijn de oevers van Malo Jezero en Veliko Jezero (de zoutwatermeren) erg populair om te zwemmen vanwege hun warme, kalme water en de schaduw van de pijnbomen."
+    },
+    {
+      "question": "Heb ik een auto nodig op Mljet?",
+      "answer": "Een auto of scooter wordt sterk aanbevolen als u van plan bent het eiland te verkennen, aangezien de afstand tussen het Nationaal Park in het westen en Saplunara in het oosten meer dan 40 kilometer bedraagt. Als u alleen van plan bent in Pomena of Polače te verblijven en het Nationaal Park te bezoeken, is een auto overbodig."
+    },
+    {
+      "question": "Waar parkeer ik in het Nationaal Park Mljet?",
+      "answer": "Er is een aangewezen betaalde parkeerplaats in het dorp Vrbovica (nabij Mali Most) direct bij de ingang van het meer, evenals parkeergelegenheid op straat in Pomena en Polače. Voertuigen zijn niet toegestaan op de wandelpaden direct rondom de zoutwatermeren."
+    },
+    {
+      "question": "Is Mljet geschikt voor gezinnen?",
+      "answer": "Ja, vooral voor actieve gezinnen die houden van fietsen, zwemmen en natuurwandelingen. De zoutwatermeren zijn erg veilig voor kinderen vanwege het ontbreken van golven, en de zandstranden in Saplunara hebben ondiepe, geleidelijke toegang."
+    }
+  ],
+  "headings": {
+    "quickFacts": "In één oogopslag",
+    "whereToStay": "Waar te verblijven op Mljet",
+    "gettingThere": "Naar Mljet reizen",
+    "whenToGo": "Wanneer te gaan",
+    "guides": "Mljet gidsen",
+    "faq": "Mljet FAQ",
+    "groups": {
+      "gettingAround": "Parkeren & vervoer",
+      "planning": "Planning & waar te verblijven",
+      "timing": "Wanneer te gaan",
+      "travelers": "Gezinnen, stellen & reisstijlen",
+      "activities": "Stranden & dingen om te doen",
+      "food": "Eten & drinken",
+      "comparisons": "Vergelijkingen",
+      "practical": "Praktische info"
+    },
+    "car": "Met de auto",
+    "other": "Andere opties",
+    "bestFor": "Het beste voor",
+    "parking": "Parkeren",
+    "beach": "Strand"
+  },
+  "destination": "mljet",
+  "language": "nl",
+  "updatedAt": "2026-10-16T14:25:12.091Z"
+}

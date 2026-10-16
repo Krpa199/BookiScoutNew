@@ -1,0 +1,146 @@
+{
+  "title": "Krk Reisgids: Stranden, Parkeren & Overnachten",
+  "metaDescription": "Plan een reis naar Krk, Kroatië. Vind de beste wijken om te verblijven, autoroutes vanuit Midden-Europa, strandtypes en parkeertips voor de oude stad.",
+  "intro": "Krk is het grootste eiland in de Adriatische Zee en een van de meest toegankelijke Kroatische bestemmingen voor Midden-Europese automobilisten. Het is geschikt voor gezinnen, stellen en reizigers die op zoek zijn naar historische stadjes, kiezelstranden met pijnboomschaduw en helder water zonder de noodzaak van veertochten. De stad Krk dient als het culturele en historische centrum van het eiland, omringd door kustpromenades en grote campings.\n\nDe zomer brengt de warmste zeetemperaturen en het meest betrouwbare weer, maar juli en augustus kennen ook de drukste periodes en hoogste prijzen. Juni en september bieden een rustigere ervaring met water dat warm genoeg is om te zwemmen. De winters zijn erg stil, waarbij de meeste toeristische infrastructuur tussen november en april gesloten is.",
+  "quickFacts": [
+    {
+      "label": "Beste maanden",
+      "value": "Juni tot september"
+    },
+    {
+      "label": "Zeetemperatuur in augustus",
+      "value": "24°C tot 26°C"
+    },
+    {
+      "label": "Dichtstbijzijnde luchthaven",
+      "value": "Luchthaven Rijeka (RJK), 27 km verderop"
+    },
+    {
+      "label": "Hoofdstrandtype",
+      "value": "Kiezel, rotsachtig en geplaveide terrassen"
+    },
+    {
+      "label": "Prijsniveau",
+      "value": "Iets boven het Kroatische gemiddelde"
+    },
+    {
+      "label": "Oude Stad",
+      "value": "Alleen voor voetgangers (autovrij)"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Oude Stad (Stari Grad)",
+      "bestFor": "Geschiedenis, dineren en korte verblijven",
+      "parking": "Buiten de stadsmuren (betaalde openbare parkeerplaatsen)",
+      "beach": "10-15 minuten lopen naar Porporela of Dražica",
+      "summary": "Het historische ommuurde centrum bevat smalle stenen straatjes, het Frankopan Kasteel en tal van restaurants. Het is volledig autovrij, waardoor het uitstekend te voet te verkennen is, maar bagage moet wel vanaf de parkeerplaatsen aan de rand worden gedragen."
+    },
+    {
+      "name": "Dražica & Koralj",
+      "bestFor": "Gezinnen, toegang tot het strand en resorthotels",
+      "parking": "Hotelparkeerplaatsen of grote betaalde openbare parkeerplaatsen",
+      "beach": "Directe toegang tot kiezel- en geplaveide stranden",
+      "summary": "Dit gebied, op korte loopafstand ten oosten van de Oude Stad, is dichtbebost met pijnbomen. Het bevat de belangrijkste concentratie hotels en gezinsvriendelijke kiezelbaaien."
+    },
+    {
+      "name": "Ježevac",
+      "bestFor": "Kampeerders, gezinnen en rustige stranddagen",
+      "parking": "Op de camping of parkeren op straat",
+      "beach": "Directe toegang tot het kiezelstrand van Ježevac",
+      "summary": "Dit gebied, gelegen ten westen van het centrum, wordt gedomineerd door een grote premium camping en de onlangs gerenoveerde strandinfrastructuur. Het blijft een gemakkelijke 10 minuten lopen naar de Oude Stad."
+    },
+    {
+      "name": "Kornić",
+      "bestFor": "Budgetreizigers en een rustigere, meer buitenstedelijke sfeer",
+      "parking": "Gratis privéparking meestal beschikbaar bij appartementen",
+      "beach": "2 km bergafwaarts naar strand Dunat",
+      "summary": "Een klein dorp op ongeveer 6 km van de stad Krk, met uitzicht op de baai van Punat. Een auto of fiets is nodig om het strand en de hoofdplaats te bereiken, maar het biedt betaalbare appartementen."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "~520 km, 6,5 uur. Route via Salzburg (A8), Villach (A10), Ljubljana, Postojna, Rijeka. Vereist AT-vignet, Tauern-tol, SI-vignet, HR-tollen (Krk-brug is tolvrij).",
+      "other": "Vlucht naar Rijeka (RJK) of directe FlixBus naar Krk."
+    },
+    {
+      "from": "Wenen",
+      "car": "~510 km, 5,5 uur. Route via Graz (A2), Maribor (A1), Zagreb, Rijeka. Vereist AT-vignet, SI-vignet, HR-tollen.",
+      "other": "Directe FlixBus of vlucht naar Zagreb."
+    },
+    {
+      "from": "Boedapest",
+      "car": "~510 km, 5 uur. Route via het Balatonmeer (M7), Zagreb, Rijeka (A6). Vereist HU e-vignet, HR-snelwegtollen.",
+      "other": "Directe FlixBus, of trein naar Rijeka gevolgd door lokale bus."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "~150 km, 2 uur. Route via Postojna, Ilirska Bistrica, Rupa, Rijeka. Vereist SI-vignet, HR-tollen.",
+      "other": "Directe bus naar Krk of Rijeka."
+    },
+    {
+      "from": "Praag",
+      "car": "~820 km, 9 uur. Route via České Budějovice, Linz, Graz, Maribor, Zagreb. Vereist CZ, AT, SI-vignetten, HR-tollen.",
+      "other": "RegioJet trein/bus-combi naar Rijeka."
+    },
+    {
+      "from": "Krakau",
+      "car": "~960 km, 10,5 uur. Route via Katowice, Ostrava, Brno, Wenen, Graz, Maribor, Zagreb. Vereist PL-tollen, CZ, AT, SI-vignetten, HR-tollen.",
+      "other": "Vlucht naar Zagreb of Zadar, daarna bus of huurauto."
+    }
+  ],
+  "whenToGo": "Het toeristische seizoen loopt van mei tot oktober. Juli en augustus zijn de piekmaanden met zeetemperaturen tot 25°C, hoge accommodatieprijzen en drukke stranden. Juni en september bieden een ideale balans tussen warm weer, zeetemperaturen rond 22°C tot 23°C en minder drukte. Mei en oktober zijn aanzienlijk rustiger en goedkoper, geschikt om te fietsen en wandelen, hoewel de zee vaak te koud is om te zwemmen. De meeste restaurants en hotels sluiten van november tot april, waardoor winterbezoeken zeer beperkt zijn wat voorzieningen betreft.",
+  "faq": [
+    {
+      "question": "Is Krk de moeite waard om te bezoeken?",
+      "answer": "Ja, het is een uitstekende keuze voor een toegankelijke Kroatische eilandervaring. Het biedt een goed bewaard gebleven historisch centrum, met pijnbomen omzoomde stranden en vermijdt de noodzaak van veerreizen dankzij de brugverbinding."
+    },
+    {
+      "question": "Hoeveel dagen heb ik nodig in Krk?",
+      "answer": "Drie tot vijf dagen zijn voldoende om de stad Krk te zien, van de lokale stranden te genieten en een boottocht te maken. Als u van plan bent het hele eiland te verkennen, inclusief Baška en Vrbnik, plan dan een hele week."
+    },
+    {
+      "question": "Wat is het beste strand in Krk?",
+      "answer": "Dražica Strand is het populairst in de stad Krk vanwege het heldere water, de schaduw van pijnbomen en de voorzieningen. Buiten de hoofdplaats wordt Vela Plaža in Baška algemeen beschouwd als het beroemdste strand van het eiland."
+    },
+    {
+      "question": "Heb ik een auto nodig in Krk?",
+      "answer": "Een auto is niet nodig als u in de stad Krk verblijft, aangezien het centrum, de stranden en restaurants allemaal op loopafstand zijn. Echter, een voertuig wordt sterk aanbevolen als u andere steden en stranden op het eiland wilt verkennen."
+    },
+    {
+      "question": "Waar kan ik parkeren in Krk?",
+      "answer": "Bezoekers kunnen niet parkeren in de autovrije Oude Stad. U moet gebruikmaken van de grote openbare betaalde parkeerplaatsen buiten de stadsmuren, of accommodatie boeken die speciale parkeergelegenheid buiten de straat biedt."
+    },
+    {
+      "question": "Is Krk goed voor gezinnen?",
+      "answer": "Ja, Krk is zeer gezinsvriendelijk. De stad biedt stranden met zachte kiezeltoegangen, overvloedige natuurlijke schaduw van pijnbomen, speeltuinen en grote resortcampings met speciale kinderfaciliteiten."
+    }
+  ],
+  "headings": {
+    "quickFacts": "In één oogopslag",
+    "whereToStay": "Waar te verblijven in Krk",
+    "gettingThere": "Naar Krk reizen",
+    "whenToGo": "Wanneer te gaan",
+    "guides": "Krk gidsen",
+    "faq": "Krk veelgestelde vragen",
+    "groups": {
+      "gettingAround": "Parkeren & rondreizen",
+      "planning": "Planning & waar te verblijven",
+      "timing": "Wanneer te gaan",
+      "travelers": "Gezinnen, stellen & reisstijlen",
+      "activities": "Stranden & dingen om te doen",
+      "food": "Eten & drinken",
+      "comparisons": "Vergelijkingen",
+      "practical": "Praktische info"
+    },
+    "car": "Met de auto",
+    "other": "Andere opties",
+    "bestFor": "Het beste voor",
+    "parking": "Parkeren",
+    "beach": "Strand"
+  },
+  "destination": "krk",
+  "language": "nl",
+  "updatedAt": "2026-10-16T09:42:12.609Z"
+}

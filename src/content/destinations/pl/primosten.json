@@ -1,0 +1,146 @@
+{
+  "title": "Primošten: Przewodnik turystyczny – plaże, parking i gdzie się zatrzymać",
+  "metaDescription": "Zaplanuj podróż do Primoštenu w Chorwacji. Odkryj najlepsze żwirowe plaże, gdzie zaparkować w pobliżu starówki bez samochodów oraz okoliczne miejsca dla rodzin i par.",
+  "intro": "Primošten to nadmorskie miasteczko w Dalmacji Środkowej, położone 28 kilometrów na południe od Szybenika. Znane z historycznego półwyspu i dużych żwirowych plaż, przyciąga rodziny, pary i podróżników szukających tradycyjnego śródziemnomorskiego otoczenia, ale bez masowej, miejskiej skali pobliskiego Splitu. Główną atrakcją jest dostępność linii brzegowej, z plażami bezpośrednio graniczącymi z centrum miasta.\n\nGłówny sezon trwa od czerwca do września. Lipiec i sierpień przynoszą najwyższe temperatury i największe tłumy, zapełniając centralne plaże i główne parkingi. Maj i koniec września oferują niższe ceny zakwaterowania i spokojniejsze ulice, choć temperatura morza może być zbyt niska do pływania.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "Czerwiec do września"
+    },
+    {
+      "label": "Temperatura morza w sierpniu",
+      "value": "25°C do 27°C"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Lotnisko Split (SPU), 39 km"
+    },
+    {
+      "label": "Główny typ plaż",
+      "value": "Żwirowe i kamieniste"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "Średni jak na wybrzeże Dalmacji"
+    },
+    {
+      "label": "Mobilność na starówce",
+      "value": "Bez samochodów, tylko dla pieszych"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Stare Miasto (Półwysep)",
+      "bestFor": "Dla par, jedzenia i historycznej atmosfery",
+      "parking": "Zabroniony wewnątrz; wymaga korzystania z płatnych parkingów na stałym lądzie",
+      "beach": "200m do 500m spacerem do Mala Raduča",
+      "summary": "Historyczne centrum znajduje się na półwyspie przeznaczonym wyłącznie dla pieszych. Oferuje największe zagęszczenie restauracji i barów, ale wymaga przenoszenia bagażu z parkingów na stałym lądzie."
+    },
+    {
+      "name": "Raduča",
+      "bestFor": "Dla rodzin i dostępu do plaży",
+      "parking": "Często wliczony w cenę w hotelach; duże, publiczne, płatne parkingi w pobliżu",
+      "beach": "Bezpośredni dostęp do żwirowych plaż Velika i Mala Raduča",
+      "summary": "Obszar ten otacza główne żwirowe plaże i sosnowe lasy na stałym lądzie. Zakwaterowanie tutaj jest bliżej wody i zazwyczaj zapewnia łatwiejszy dostęp pojazdem w porównaniu do starego miasta."
+    },
+    {
+      "name": "Bilo",
+      "bestFor": "Na spokojny pobyt i dla par",
+      "parking": "Zazwyczaj zapewniany przez prywatne apartamenty",
+      "beach": "Bezpośredni dostęp do skalistych zatoczek i małych żwirowych fragmentów",
+      "summary": "Mała osada nadbrzeżna położona 5 kilometrów na północ od Primoštenu. Oferuje spokojniejszą alternatywę z dostępem do skalistego wybrzeża, ale wymaga pojazdu lub lokalnego autobusu, aby dotrzeć do restauracji w Primoštenie."
+    },
+    {
+      "name": "Dolac",
+      "bestFor": "Dla podróżujących z ograniczonym budżetem i na spokojny rodzinny pobyt",
+      "parking": "Zazwyczaj wliczony w cenę zakwaterowania",
+      "beach": "Żwirowe zatoki i betonowe tarasy w odległości 100m do 400m",
+      "summary": "Przedmiejska wioska 3 kilometry na północ, połączona z Primoštenem autostradą przybrzeżną. Oferuje apartamenty mieszkalne i kilka lokalnych kawiarni, odpowiednia dla tych, którzy unikają ruchliwego centrum."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monachium",
+      "car": "820 km, ~9 godzin przez Salzburg, Villach, Lublanę, Zagrzeb i autostradę A1. Wymaga austriackiej i słoweńskiej winiety oraz chorwackich opłat drogowych.",
+      "other": "Bezpośrednie loty do Splitu (SPU) trwają 1,5 godziny."
+    },
+    {
+      "from": "Wiedeń",
+      "car": "640 km, ~6,5 godziny przez Graz, Maribor, Zagrzeb i autostradę A1. Wymaga austriackiej i słoweńskiej winiety oraz chorwackich opłat drogowych.",
+      "other": "Bezpośrednie loty do Splitu (SPU) trwają 1 godzinę."
+    },
+    {
+      "from": "Budapeszt",
+      "car": "680 km, ~6,5 godziny przez Letenye, Zagrzeb i autostradę A1. Wymaga węgierskiej winiety oraz chorwackich opłat drogowych.",
+      "other": "Sezonowe loty do Splitu lub połączenia FlixBusem przez Zagrzeb."
+    },
+    {
+      "from": "Lublana",
+      "car": "400 km, ~4,5 godziny przez Novo Mesto, Karlovac i autostradę A1. Wymaga słoweńskiej winiety oraz chorwackich opłat drogowych.",
+      "other": "Istnieją bezpośrednie połączenia autobusowe, ale trwają od 8 do 10 godzin."
+    },
+    {
+      "from": "Praga",
+      "car": "970 km, ~10 godzin przez Linz, Graz, Maribor, Zagrzeb i autostradę A1. Wymaga czeskiej, austriackiej i słoweńskiej winiety oraz chorwackich opłat drogowych.",
+      "other": "Sezonowe bezpośrednie loty do Splitu trwają 1,5 godziny."
+    },
+    {
+      "from": "Kraków",
+      "car": "1050 km, ~11 godzin przez Ostrawę, Brno, Wiedeń, Graz, Zagrzeb i autostradę A1. Wymaga czeskiej, austriackiej i słoweńskiej winiety oraz chorwackich opłat drogowych.",
+      "other": "Sezonowe loty do Splitu liniami LOT Polish Airlines lub tanimi przewoźnikami."
+    }
+  ],
+  "whenToGo": "Sezon turystyczny w Primoštenie trwa od końca maja do początku października. Lipiec i sierpień to miesiące szczytowe, charakteryzujące się temperaturą morza około 26°C, niezawodnym słońcem i wszystkimi lokalnymi firmami działającymi na pełnych obrotach. W tych miesiącach odnotowuje się również najwyższe ceny i największe tłumy na plaży Mala Raduča. Czerwiec i wrzesień oferują łagodniejsze temperatury w ciągu dnia (23°C do 28°C) i obniżone ceny zakwaterowania, choć koniec września niesie ze sobą większe prawdopodobieństwo deszczu. Od października do kwietnia Primošten zmienia się w spokojne miasteczko mieszkalne; większość hoteli, sezonowych restauracji i barów plażowych zostaje zamknięta, a temperatura morza spada poniżej 18°C.",
+  "faq": [
+    {
+      "question": "Czy warto odwiedzić Primošten?",
+      "answer": "Tak, warto odwiedzić Primošten, jeśli szukasz tradycyjnego nadmorskiego miasteczka z rozległymi żwirowymi plażami. Stanowi ono doskonałą bazę wypadową do zwiedzania Dalmacji Środkowej, w tym pobliskiego Parku Narodowego Krka i miasta Szybenik."
+    },
+    {
+      "question": "Ile dni potrzeba w Primoštenie?",
+      "answer": "Trzy do pięciu dni wystarczy, aby zwiedzić miasto, spędzić czas na plażach i wybrać się na jednodniową wycieczkę po okolicznych terenach. Osoby szukające typowo plażowych wakacji często zatrzymują się na jeden do dwóch tygodni."
+    },
+    {
+      "question": "Jaka jest najlepsza plaża w Primoštenie?",
+      "answer": "Mala Raduča jest uważana za najlepszą i najpopularniejszą plażę ze względu na centralne położenie, gładkie kamyczki i czystą wodę. Velika Raduča to większa alternatywa tuż po drugiej stronie półwyspu, oferująca sporty wodne i cień od sosnowych drzew."
+    },
+    {
+      "question": "Czy potrzebuję samochodu w Primoštenie?",
+      "answer": "Samochód nie jest konieczny, jeśli zatrzymasz się w centrum miasta lub w pobliżu plaż Raduča, ponieważ codzienne potrzeby są w zasięgu spaceru. Jednak pojazd jest wysoce zalecany do zwiedzania pobliskich wiosek, parków narodowych lub większych miast, takich jak Split i Zadar."
+    },
+    {
+      "question": "Gdzie zaparkować w Primoštenie?",
+      "answer": "Parkowanie w obrębie półwyspu starego miasta jest zabronione dla osób niebędących mieszkańcami. Odwiedzający muszą korzystać z dużych płatnych parkingów znajdujących się tuż za bramami półwyspu lub potwierdzić dedykowane miejsca parkingowe poza ulicą u swojego dostawcy zakwaterowania."
+    },
+    {
+      "question": "Czy Primošten jest odpowiedni dla rodzin?",
+      "answer": "Tak, Primošten jest bardzo odpowiedni dla rodzin ze względu na spokojne wody i dostępne, czyste żwirowe plaże. Obecność dających cień sosen, wypożyczalni rowerów wodnych i płaskich ścieżek spacerowych sprawia, że jest to wygodne dla dzieci w każdym wieku."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Gdzie się zatrzymać w Primoštenie",
+    "gettingThere": "Jak dotrzeć do Primoštenu",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Primoštenie",
+    "faq": "FAQ Primošten",
+    "groups": {
+      "gettingAround": "Parking i poruszanie się",
+      "planning": "Planowanie i gdzie się zatrzymać",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróżowania",
+      "activities": "Plaże i atrakcje",
+      "food": "Jedzenie i picie",
+      "comparisons": "Porównania",
+      "practical": "Praktyczne informacje"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "primosten",
+  "language": "pl",
+  "updatedAt": "2026-10-16T13:44:05.058Z"
+}

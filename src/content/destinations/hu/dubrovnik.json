@@ -1,0 +1,153 @@
+{
+  "title": "Dubrovnik útikönyv: Kerületek, parkolás és mikor utazzunk",
+  "metaDescription": "Tervezze meg utazását Dubrovnikba konkrét részletekkel a legjobb szálláshelyekről, a Közép-Európából induló útvonalakról, a parkolási tudnivalókról és a helyi strandokról.",
+  "intro": "Dubrovnik elsősorban a történelem kedvelőit és a drámai tengerparti tájakat kereső utazókat vonzza. A város híres erősen erődített Óvárosáról, amely közvetlenül az Adriai-tenger partján fekszik, így a mediterrán hajóutak és az autós túrák kedvelt megállója. A látogatók a középkori falakon sétálhatnak, hajókirándulásokat tehetnek a közeli Elafiti-szigetekre, és felfedezhetik a környező sziklás öblöket.\n\nMivel Horvátország leghíresebb úti célja, gondos tervezést igényel a magas költségek és a sűrű nyári tömeg elkerülése érdekében. A legjobb májusban, júniusban, szeptemberben vagy októberben látogatni, az úgynevezett elő- és utószezonban, amikor az idő még elég meleg az úszáshoz, de a keskeny kőutcákon könnyebb navigálni.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Május, június, szeptember, október"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "25°C és 27°C között (77°F és 80°F)"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Dubrovniki Repülőtér (DBV), 20 km (12 mérföld)"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Kavicsos és sziklás teraszok"
+    },
+    {
+      "label": "Árszínvonal",
+      "value": "Jelentősen magasabb a horvát átlagnál"
+    },
+    {
+      "label": "Óváros bejárhatósága",
+      "value": "Teljesen gyalogos övezet, számos meredek lépcső"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Óváros (Grad)",
+      "bestFor": "Első látogatóknak és városnézésre",
+      "parking": "Autóval tilos behajtani; a külső parkolás nagyon drága",
+      "beach": "10 perc séta a Banje strandig (kavicsos)",
+      "summary": "A falakon belül szállva pár lépésre lesz a fő látványosságoktól és éttermektől. Azonban a poggyászt a macskaköveken kell cipelni, és sok lépcsővel kell megküzdeni."
+    },
+    {
+      "name": "Lapad",
+      "bestFor": "Családoknak és üdülőhelyi tartózkodásra",
+      "parking": "Könnyebb, mint a központban, sok szálloda kínál parkolóhelyet",
+      "beach": "Uvala Lapad (kavicsos/homokos) és sziklás öblök",
+      "summary": "Egy nagy félsziget a központtól északnyugatra, nyugodt, üdülővárosi hangulattal. Az Óváros busszal 15 perc alatt elérhető."
+    },
+    {
+      "name": "Ploče",
+      "bestFor": "Luxusutazóknak, akik tengerre és Óvárosra néző kilátást szeretnének",
+      "parking": "Nagyon korlátozott utcai parkolás; saját parkolóhely elengedhetetlen",
+      "beach": "Pár lépésre a Banje strandtól és a Sveti Jakovtól (kavicsos)",
+      "summary": "Ez az elegáns domboldali negyed a városfalak keleti oldalára néz. A kilátás kiváló, de a terület elérése meredek lépcsőkön való felgyaloglást jelent."
+    },
+    {
+      "name": "Gruž",
+      "bestFor": "Költségtudatos utazóknak és komppal utazóknak",
+      "parking": "Nyilvános parkolók állnak rendelkezésre, olcsóbbak, mint a központi lehetőségek",
+      "beach": "15-20 perc séta a Bellevue strandig (kavicsos)",
+      "summary": "A város fő kikötője és kereskedelmi központja helyibb hangulatot és alacsonyabb árakat kínál. Ez a legjobb kiindulópont, ha korán reggel komppal szeretne a szigetekre utazni."
+    },
+    {
+      "name": "Babin Kuk",
+      "bestFor": "Nyugodt üdülőkomplexumokat kereső utazóknak",
+      "parking": "Bőségesen elérhető a nagy szállodakomplexumokban",
+      "beach": "Copacabana és Cava strandok (kavicsos)",
+      "summary": "A Lapad-félsziget északi csücskén található területet nagyszabású üdülőhelyek és zöld területek uralják. Nyugodt menekülést kínál a városközponttól."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "940 km, 10-11 óra az A8-on, osztrák A10-en, szlovén A2-n és horvát A1-en keresztül. Osztrák/szlovén autópálya-matrica és horvát útdíj szükséges.",
+      "other": "Közvetlen járatok elérhetők MUC-ból DBV-be"
+    },
+    {
+      "from": "Bécs",
+      "car": "800 km, 8,5-10 óra az A2-n Grazig, szlovén A1/A4-en és horvát A1-en keresztül. Osztrák/szlovén autópálya-matrica és horvát útdíj szükséges.",
+      "other": "Közvetlen járatok elérhetők VIE-ből DBV-be"
+    },
+    {
+      "from": "Budapest",
+      "car": "740 km, 8-9 óra az M7-en a határig, majd horvát A4 és A1 dél felé. Magyar autópálya-matrica és horvát útdíj szükséges.",
+      "other": "Közvetlen járatok (Ryanair) vagy FlixBus"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "620 km, 6,5-7,5 óra az A2-n a határig, majd horvát A1 dél felé. Szlovén autópálya-matrica és horvát útdíj szükséges.",
+      "other": "FlixBus vagy autóval (nincsenek közvetlen járatok)"
+    },
+    {
+      "from": "Prága",
+      "car": "1100 km, 11-13 óra a D1-en Brnóig, Ausztrián, Szlovénián és horvát A1-en keresztül. Cseh/osztrák/szlovén autópálya-matrica és horvát útdíj szükséges.",
+      "other": "Közvetlen járatok elérhetők PRG-ből DBV-be"
+    },
+    {
+      "from": "Krakkó",
+      "car": "1100 km, 11,5-13 óra Szlovákián, Magyarországon (M3/M7) és horvát A4/A1-en keresztül. Szlovák/magyar autópálya-matrica és horvát útdíj szükséges.",
+      "other": "Közvetlen járatok (Ryanair) vagy távolsági busz"
+    }
+  ],
+  "whenToGo": "Július és augusztus a legforgalmasabb és legdrágább hónapok, intenzív hőséggel és 26°C (79°F) körüli csúcshőmérsékletű tengerrel. Május, június, szeptember és október kényelmesebb egyensúlyt kínál, meleg időjárással, úszásra alkalmas tengerhőmérséklettel (különösen kora ősszel), és teljesen működő kompokkal és éttermekkel. Novembertől áprilisig Dubrovnik csendes és sokkal olcsóbb, de a tenger túl hideg az úszáshoz, sok tengerparti üzlet télen bezár, és a kompjáratok jelentősen lecsökkennek.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni?",
+      "answer": "Igen, sértetlen középkori falai és történelmi építészete egyedülállóvá teszik Európában. Azonban magasabb költségvetést és a nyári tömeg elviselését igényli."
+    },
+    {
+      "question": "Hány napra van szükségem?",
+      "answer": "Két-három nap elegendő a falakon való sétához, a történelmi központ felfedezéséhez és egy közeli sziget meglátogatásához. Hosszabb tartózkodás esetén napos kirándulásokat tehet Montenegróba vagy Mostarba."
+    },
+    {
+      "question": "Melyik a legjobb strand?",
+      "answer": "A Sveti Jakov a legjobb választás a legnagyobb tömeg elkerülésére, miközben megmarad az Óvárosra nyíló kilátás. Hosszú lépcsősoron kell lefelé sétálni a központtól délkeletre."
+    },
+    {
+      "question": "Szükségem van autóra?",
+      "answer": "Nem, az autó hátrányt jelent Dubrovnikban a súlyos parkolási korlátozások és a gyalogos zónák miatt. Ha autóval érkezik Dubrovnikba, valószínűleg a tartózkodása idejére parkolva hagyja járművét."
+    },
+    {
+      "question": "Hol parkoljak?",
+      "answer": "Parkoljon a szállásánál, ha biztosítanak dedikált helyet. Ellenkező esetben használja a Gruž kikötői parkolót vagy az Ilijina Glavica nyilvános garázst, bár utóbbi nyáron akár napi 70 euróba is kerülhet."
+    },
+    {
+      "question": "Alkalmas családoknak?",
+      "answer": "Igen, az idősebb gyermekek élvezni fogják az erődök felfedezését és a hajókirándulásokat. Az Óváros végtelen lépcsői azonban rendkívül alkalmatlanná teszik a babakocsit használó utazók számára."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Áttekintés",
+    "whereToStay": "Hol szálljunk meg Dubrovnikban",
+    "gettingThere": "Hogyan juthatunk el Dubrovnikba",
+    "whenToGo": "Mikor utazzunk",
+    "guides": "Dubrovniki útmutatók",
+    "faq": "Dubrovnik GYIK",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és hol szálljunk meg",
+      "timing": "Mikor utazzunk",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Étel és ital",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "dubrovnik",
+  "language": "hu",
+  "updatedAt": "2026-10-16T10:09:53.778Z"
+}

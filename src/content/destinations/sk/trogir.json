@@ -1,0 +1,146 @@
+{
+  "title": "Trogir Potovalni vodnik: Plaže, parkiranje in prenočišča",
+  "metaDescription": "Načrtujte svoje potovanje v Trogir, Hrvaška. Primerjajte soseske, poiščite parkirišča in plaže ter spoznajte najboljše poti iz srednje Evrope.",
+  "intro": "Trogir privablja popotnike, ki iščejo ohranjeno srednjeveško obalno mesto z neposrednim dostopom do prodnatih plaž in otoških izletov. Nahaja se 30 kilometrov zahodno od Splita in pet kilometrov od Letališča Split, zato služi kot praktično izhodišče za raziskovanje srednje Dalmacije brez navigacije po velikem mestu. Center, ki je na Unescovem seznamu, leži na majhnem otočku med celino in otokom Čiovo, povezan s kratkimi mostovi za vozila in pešce.\n\nMesto je primerno za potovanja z avtom in družine, ki so pripravljene uravnotežiti oglede z dnevi na plaži na sosednjem otoku Čiovo ali na celinski rivieri. Poletje prinaša velike množice na ozke ulice in obalne ceste, zato sta junij in september optimalna za toplejše temperature morja, odprte objekte in obvladljiv promet.",
+  "quickFacts": [
+    {
+      "label": "Najboljši meseci",
+      "value": "Junij in september"
+    },
+    {
+      "label": "Temperatura morja avgusta",
+      "value": "25°C do 27°C"
+    },
+    {
+      "label": "Najbližje letališče",
+      "value": "Letališče Split (SPU), 5 km"
+    },
+    {
+      "label": "Glavna vrsta plaže",
+      "value": "Prodnata in betonska terasa"
+    },
+    {
+      "label": "Cenovni nivo",
+      "value": "Nekoliko nad hrvaškim povprečjem"
+    },
+    {
+      "label": "Peš dostopnost",
+      "value": "Otoček Starega mesta je popolnoma brez avtomobilov"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Staro mesto (Otoček)",
+      "bestFor": "Kratka bivanja in ogledi",
+      "parking": "Na otočku ni parkiranja; plačljiva parkirišča na celini",
+      "beach": "1,5 km do javnih prodnatih plaž",
+      "summary": "Zgodovinsko središče se ponaša s srednjeveško arhitekturo, restavracijami in marinami. Omejeno je na pešce, kar pomeni, da morajo obiskovalci prtljago nesti s sosednjih celinskih parkirišč."
+    },
+    {
+      "name": "Otok Čiovo (Okrug Gornji)",
+      "bestFor": "Počitnice na plaži in družine",
+      "parking": "Običajno zasebno parkirišče, močan poletni promet",
+      "beach": "0-1 km, večinoma prodnata (Plaža Copacabana)",
+      "summary": "Povezano z mostovi s Trogirjem, to območje ponuja 2-kilometrsko prodnato plažo z bari in vodnimi športi. Novejši most omogoča voznikom obvoznico okoli zgodovinskega središča."
+    },
+    {
+      "name": "Seget Donji",
+      "bestFor": "Mirnejša bivanja in letoviške storitve",
+      "parking": "Dovolj parkirišč pri hotelih in zasebnih apartmajih",
+      "beach": "0-1 km, dolg prodnat odsek (Plaža Medena)",
+      "summary": "Seget Donji, ki se nahaja zahodno od Trogirja na celini, ima sproščeno vzdušje s 3-kilometrsko obalno promenado. Omogoča lažji cestni dostop proti Primoštenu in Šibeniku."
+    },
+    {
+      "name": "Mastrinka & Arbanija (Čiovo)",
+      "bestFor": "Popotniki z omejenim proračunom in miren dostop do morja",
+      "parking": "Običajno vključeno v nastanitev",
+      "beach": "0-500 m, ozke prodnate in skalnate obale",
+      "summary": "Ti mirni bivalni kraji, ki se nahajajo na severni obali otoka Čiovo, ponujajo mirne vode, obrnjene proti celini. Nastanitve so večinoma zasebni apartmaji z nižjimi cenami kot v Okrugu Gornjem."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "840 km, 9-10 ur preko A8, A10 in A1. Zahteva AT vinjeto, cestnino za predor Tauern, SI vinjeto in HR cestnine.",
+      "other": "Direktni leti do Letališča Split (1,5 ure), nato 10-minutni avtobus ali taksi."
+    },
+    {
+      "from": "Dunaj",
+      "car": "740 km, 8 ur preko A2, A4 in A1. Zahteva AT vinjeto, SI vinjeto in HR cestnine.",
+      "other": "Direktni leti do Letališča Split (1,5 ure) ali nočni vlak do Splita."
+    },
+    {
+      "from": "Budimpešta",
+      "car": "740 km, 7,5 ur preko M7 in A4/A1. Zahteva HU vinjeto in HR cestnine.",
+      "other": "Direktni leti do Letališča Split (1 ura) ali sezonski poletni vlak do Splita."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "450 km, 5 ur preko A2 in A1. Zahteva SI vinjeto in HR cestnine.",
+      "other": "Direkten avtobus do Trogirja (8 ur) ali direktna vožnja."
+    },
+    {
+      "from": "Praga",
+      "car": "1050 km, 11-12 ur preko Dunaja, Gradca in Zagreba. Zahteva CZ, AT, SI vinjete in HR cestnine.",
+      "other": "Direktni leti do Letališča Split (1,5 ure)."
+    },
+    {
+      "from": "Krakov",
+      "car": "1050 km, 11-12 ur preko Slovaške in Madžarske. Zahteva SK, HU vinjete in HR cestnine.",
+      "other": "Direktni leti do Letališča Split (1,5 ure) z nizkocenovnimi letalskimi družbami."
+    }
+  ],
+  "whenToGo": "Julij in avgust sta vrhunca poletnih mesecev, ko so temperature morja okoli 26°C, dnevi dolgi in sončni, urniki trajektov in izletov pa popolnoma operativni, vendar so takrat tudi najvišje cene namestitev in velik promet na obalnih cestah. Junij in september ponujata bolj uravnoteženo izkušnjo s temperaturami morja okoli 23°C do 25°C, kar omogoča udobno plavanje, hkrati pa se izognete hudi sredini poletja in največjim množicam. Maja in oktobra se cene občutno znižajo in vode so hladnejše (18°C do 20°C); večina zgodovinskih znamenitosti ostaja odprtih, vendar se plažni bari, vodni športi in pogosti izleti z ladjo začnejo zapirati ali delovati po zmanjšanih urnikih. Zimski meseci so tihi in hladni, številni hoteli in restavracije v turističnih območjih pa se popolnoma zaprejo do pomladi.",
+  "faq": [
+    {
+      "question": "Ali je vredno obiska?",
+      "answer": "Da, Trogir je vreden obiska zaradi svoje dobro ohranjene romantično-gotske arhitekture in kompaktne zasnove. Učinkovito deluje kot postanek za pol dneva ali kot osrednja baza za raziskovanje okoliških dalmatinskih otokov."
+    },
+    {
+      "question": "Koliko dni potrebujem?",
+      "answer": "Dva do tri dni so dovolj za raziskovanje zgodovinskega središča in preživljanje časa na lokalnih plažah. Za tiste, ki uporabljajo Trogir kot izhodišče za enodnevne izlete v Split, Nacionalni park Krka ali na otoke, je idealnih pet do sedem dni."
+    },
+    {
+      "question": "Katera je najboljša plaža?",
+      "answer": "Okrug Gornji na otoku Čiovo je najbolj priljubljena plaža zaradi svojih objektov, barov in vodnih športov. Za mirnejše vzdušje s senco borovcev je Plaža Medena v Segetu Donjem močna alternativa."
+    },
+    {
+      "question": "Potrebujem avto?",
+      "answer": "Avta ne potrebujete, če nameravate bivati v Starem mestu ali se zanašate na čolne in avtobuse za dostop do plaž in Splita. Vendar je avto zelo priporočljiv, če nameravate raziskovati naprej ob obali ali se odpraviti na enodnevne izlete v notranjost."
+    },
+    {
+      "question": "Kje lahko parkiram?",
+      "answer": "Staro mesto je strogo namenjeno pešcem, zato morajo obiskovalci uporabiti velika plačljiva parkirišča na celini tik pred mostom za pešce. Parkirišča T1, T2 in T3 zaračunavajo urne ali dnevne tarife, ki poleti postanejo drage."
+    },
+    {
+      "question": "Je primerno za družine?",
+      "answer": "Da, Trogir je primeren za družine zaradi svojih mirnih prodnatih plaž, dostopnih storitev in kratkega časa prenosa z Letališča Split. Bivanje na celini v Segetu Donjem ali na otoku Čiovo omogoča najbolj praktičen dostop do družinam prijaznih kopalnih območij."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na kratko",
+    "whereToStay": "Kje prenočiti v Trogirju",
+    "gettingThere": "Kako priti do Trogirja",
+    "whenToGo": "Kdaj obiskati",
+    "guides": "Vodiči za Trogir",
+    "faq": "Pogosta vprašanja o Trogirju",
+    "groups": {
+      "gettingAround": "Parkiranje in premikanje",
+      "planning": "Načrtovanje in prenočišča",
+      "timing": "Kdaj obiskati",
+      "travelers": "Družine, pari in načini potovanja",
+      "activities": "Plaže in stvari za početi",
+      "food": "Hrana in pijača",
+      "comparisons": "Primerjave",
+      "practical": "Praktične informacije"
+    },
+    "car": "Z avtom",
+    "other": "Druge možnosti",
+    "bestFor": "Najboljše za",
+    "parking": "Parkiranje",
+    "beach": "Plaža"
+  },
+  "destination": "trogir",
+  "language": "sk",
+  "updatedAt": "2026-10-16T09:34:34.554Z"
+}

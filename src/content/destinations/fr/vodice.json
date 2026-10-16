@@ -1,0 +1,146 @@
+{
+  "title": "Vodice : Guide de voyage – Plages, parking et où séjourner",
+  "metaDescription": "Planifiez un voyage à Vodice, Croatie. Découvrez les meilleurs quartiers où séjourner, les itinéraires depuis l'Europe, des conseils de stationnement, des guides des plages et la période idéale pour visiter.",
+  "intro": "Vodice est une ville côtière de la Dalmatie centrale, située entre Zadar et Split. Elle sert principalement de destination de villégiature, connue pour sa grande marina, ses vastes plages de galets et sa vie nocturne animée. La ville s'adapte à divers styles de voyageurs, attirant les familles qui profitent des eaux peu profondes de la Plage de Plava et les groupes qui se concentrent sur les clubs de plage près de la Plage de Hangar.\n\nLa haute saison s'étend de fin juin à août, lorsque la ville fonctionne à pleine capacité et que les températures dépassent régulièrement les 30°C. Les visiteurs recherchant un environnement plus calme et un temps plus doux pour explorer le Parc national de Krka ou Šibenik, situés à proximité, planifient généralement leurs voyages en mai, septembre ou début octobre. La zone du port central est compacte et piétonne, soutenue par une longue promenade côtière reliant les villages voisins.",
+  "quickFacts": [
+    {
+      "label": "Meilleurs mois",
+      "value": "Mai à septembre"
+    },
+    {
+      "label": "Température de la mer en août",
+      "value": "25°C à 26°C"
+    },
+    {
+      "label": "Aéroport le plus proche",
+      "value": "Zadar (ZAD) à 62 km ou Split (SPU) à 70 km"
+    },
+    {
+      "label": "Type de plage principal",
+      "value": "Galets, gravillons fins et terrasses en béton"
+    },
+    {
+      "label": "Niveau des prix",
+      "value": "Moyen pour la côte croate ; légèrement inférieur à Split"
+    },
+    {
+      "label": "Centre-ville",
+      "value": "Port et vieille ville piétonniers ; très facile à parcourir à pied"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centre-ville (Centar)",
+      "bestFor": "Premiers visiteurs, couples et ceux sans voiture",
+      "parking": "Difficile et cher ; utilisez les grands parkings publics en périphérie",
+      "beach": "5-10 minutes à pied des plages de Plava ou Hangar",
+      "summary": "Le cœur historique et la zone de la marina offrent une forte concentration de restaurants, boulangeries et départs d'excursions en bateau. Les hébergements sont principalement des appartements privés dans des rues pavées étroites."
+    },
+    {
+      "name": "Quartier de Plava Plaža (Plage Bleue)",
+      "bestFor": "Familles avec jeunes enfants",
+      "parking": "Stationnement hors rue généralement fourni par les appartements",
+      "beach": "Accès direct à un fond marin peu profond de galets/sable",
+      "summary": "Située à l'ouest du centre, cette zone résidentielle borde la plage la plus familiale de Vodice. L'environnement y est plus calme que le centre-ville, fortement ombragé par des pins."
+    },
+    {
+      "name": "Plage de Hangar / Est de Vodice",
+      "bestFor": "Jeunes voyageurs et clients des complexes hôteliers",
+      "parking": "Grands parkings d'hôtels et zones de stationnement dédiées à la plage",
+      "beach": "À côté des plages de galets avec clubs de plage et locations",
+      "summary": "Dominée par de grands complexes hôteliers comme Olympia et Imperial, cette étendue orientale propose des bars de plage animés, des sports nautiques et des lieux de vie nocturne. L'ambiance y reste animée jusque tard dans la nuit."
+    },
+    {
+      "name": "Srima",
+      "bestFor": "Voyageurs recherchant des vacances plus calmes et plus lentes",
+      "parking": "Généralement facile ; la plupart des propriétés incluent des places privées",
+      "beach": "À quelques pas d'une étendue continue de plage de galets",
+      "summary": "Un village côtier tranquille directement à l'est de Vodice, relié par une promenade de 2 kilomètres. Il se compose presque entièrement d'immeubles d'appartements modernes face à la mer avec des commodités locales de base."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Munich",
+      "car": "750 km, 8-9 heures via les A8, A10 et l'A1 croate. Nécessite les vignettes autrichienne et slovène, ainsi que les péages pour les tunnels de Tauern/Karawanken et les autoroutes croates.",
+      "other": "Vols saisonniers directs vers Zadar ou Split, puis transfert aéroport."
+    },
+    {
+      "from": "Vienne",
+      "car": "620 km, 6-7 heures via les A2, A9 et l'A1 croate. Nécessite les vignettes autrichienne et slovène, ainsi que les péages pour les tunnels de Gleinalm/Bosruck et les autoroutes croates.",
+      "other": "Vols directs vers Zadar ou Split (saisonniers), ou FlixBus vers Vodice."
+    },
+    {
+      "from": "Budapest",
+      "car": "650 km, 6-7 heures via la M7 et les A4/A1 croates. Nécessite une e-vignette hongroise et les péages autoroutiers croates. Passage frontalier à Letenye/Goričan.",
+      "other": "FlixBus opère des liaisons directes vers la gare routière de Vodice pendant l'été."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "350 km, 4 heures via l'A2 vers Novo Mesto ou l'A1 vers Rijeka, puis l'A1 croate. Nécessite la vignette slovène et les péages autoroutiers croates.",
+      "other": "Des services de bus directs circulent fréquemment entre Ljubljana et Vodice."
+    },
+    {
+      "from": "Prague",
+      "car": "950 km, 10-11 heures via Vienne ou Linz/Graz, puis l'A1 croate. Nécessite les vignettes tchèque, autrichienne et slovène, ainsi que les péages des tunnels autrichiens et des autoroutes croates.",
+      "other": "Vols saisonniers directs vers Zadar (Ryanair/Smartwings) ou train vers Split."
+    },
+    {
+      "from": "Cracovie",
+      "car": "1050 km, 10-12 heures via la Slovaquie (D1/D2) et la Hongrie (M1/M7), puis l'A1 croate. Nécessite les vignettes slovaque et hongroise, ainsi que les péages autoroutiers croates.",
+      "other": "Vols saisonniers de Cracovie vers Zadar ou Split via Ryanair."
+    }
+  ],
+  "whenToGo": "Mai et octobre offrent des températures diurnes d'environ 20-23°C, idéales pour le tourisme et le vélo, bien que la mer reste fraîche (18-20°C) et que certaines installations balnéaires saisonnières soient fermées. Juin et septembre sont les mois optimaux pour un voyage équilibré, avec des mers chaudes (22-24°C), des tarifs d'hébergement plus bas et des restaurants entièrement opérationnels sans affluence maximale. Juillet et août représentent la haute saison avec une chaleur maximale (souvent plus de 30°C), des températures de la mer atteignant environ 26°C, des prix au plus haut et de fortes foules le long des promenades et des plages. De novembre à avril, Vodice est largement en sommeil, la plupart des hôtels, restaurants touristiques et clubs de plage étant fermés pour l'hiver.",
+  "faq": [
+    {
+      "question": "Vodice vaut-elle le détour ?",
+      "answer": "Oui, si vous recherchez une ville balnéaire avec de nombreuses installations touristiques, une vie nocturne animée et un accès facile aux parcs nationaux. Ceux qui recherchent une destination isolée, calme ou très historique pourraient préférer les îles ou les petits villages."
+    },
+    {
+      "question": "Combien de jours faut-il à Vodice ?",
+      "answer": "Trois à cinq jours sont suffisants pour profiter des plages et faire des excursions d'une journée à Šibenik ou au Parc national de Krka. Les familles se concentrant uniquement sur des vacances à la plage réservent souvent pour sept à quatorze jours."
+    },
+    {
+      "question": "Quelle est la meilleure plage à Vodice ?",
+      "answer": "La Plava Plaža (Plage Bleue) est la plus populaire pour ses eaux peu profondes et son fond marin mixte de galets et de sable. La Plage de Hangar est préférée par les adolescents plus âgés et les adultes à la recherche de sports nautiques, de bars de plage et de musique."
+    },
+    {
+      "question": "Ai-je besoin d'une voiture à Vodice ?",
+      "answer": "Une voiture n'est pas nécessaire si vous séjournez près du centre, car les plages, les restaurants et les excursions en bateau sont tous accessibles à pied. Cependant, avoir un véhicule est utile pour explorer la côte dalmate plus largement et visiter les parcs nationaux intérieurs."
+    },
+    {
+      "question": "Où est le meilleur endroit pour se garer à Vodice ?",
+      "answer": "Les principaux parkings publics sont situés près du marché central et de la gare routière (Rue Artina). En juillet et août, ils se remplissent rapidement, il est donc fortement recommandé de réserver un hébergement avec une place de parking privée garantie."
+    },
+    {
+      "question": "Vodice est-elle adaptée aux familles ?",
+      "answer": "Oui, elle est très bien notée pour les familles grâce à l'entrée peu profonde de la Plava Plaža et à l'abondance d'activités dédiées aux enfants, de terrains de jeux et de parcs aquatiques. Les longues promenades plates la rendent également très adaptée aux poussettes."
+    }
+  ],
+  "headings": {
+    "quickFacts": "En bref",
+    "whereToStay": "Où séjourner à Vodice",
+    "gettingThere": "Comment se rendre à Vodice",
+    "whenToGo": "Quand partir",
+    "guides": "Guides de Vodice",
+    "faq": "FAQ Vodice",
+    "groups": {
+      "gettingAround": "Se déplacer et stationnement",
+      "planning": "Planification et où séjourner",
+      "timing": "Quand partir",
+      "travelers": "Familles, couples et styles de voyage",
+      "activities": "Plages et choses à faire",
+      "food": "Nourriture et boissons",
+      "comparisons": "Comparaisons",
+      "practical": "Infos pratiques"
+    },
+    "car": "En voiture",
+    "other": "Autres options",
+    "bestFor": "Idéal pour",
+    "parking": "Parking",
+    "beach": "Plage"
+  },
+  "destination": "vodice",
+  "language": "fr",
+  "updatedAt": "2026-10-16T11:19:21.014Z"
+}

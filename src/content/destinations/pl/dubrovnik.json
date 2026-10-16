@@ -1,0 +1,153 @@
+{
+  "title": "Dubrownik Przewodnik: Dzielnice, Parking i Kiedy Jechać",
+  "metaDescription": "Zaplanuj swoją podróż do Dubrownika z konkretnymi informacjami o najlepszych dzielnicach do zamieszkania, trasach dojazdowych z Europy Środkowej, parkingach i lokalnych plażach.",
+  "intro": "Dubrownik przyciąga przede wszystkim miłośników historii i podróżników szukających dramatycznych krajobrazów wybrzeża. Miasto słynie z silnie ufortyfikowanego Starego Miasta, położonego bezpośrednio nad Morzem Adriatyckim, co czyni je ważnym przystankiem zarówno dla rejsów śródziemnomorskich, jak i podróżujących samochodem. Odwiedzający przyjeżdżają, aby spacerować po średniowiecznych murach, wybrać się na wycieczki łodzią na pobliskie Wyspy Elafitów i odkrywać otaczające skaliste zatoczki.\n\nPonieważ jest to najsłynniejsze miejsce w Chorwacji, wymaga starannego planowania, aby poradzić sobie z wysokimi kosztami i gęstymi letnimi tłumami. Najlepiej odwiedzić go w sezonach przejściowych – w maju, czerwcu, wrześniu lub październiku – kiedy pogoda jest wystarczająco ciepła do pływania, a wąskie kamienne uliczki są łatwiejsze do pokonania.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "Maj, czerwiec, wrzesień, październik"
+    },
+    {
+      "label": "Temperatura morza w sierpniu",
+      "value": "25°C do 27°C (77°F do 80°F)"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Lotnisko Dubrownik (DBV), 20 km (12 mil)"
+    },
+    {
+      "label": "Główny typ plaży",
+      "value": "Żwirowe i skaliste tarasy"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "Znacznie wyższy niż średnia chorwacka"
+    },
+    {
+      "label": "Dostępność Starego Miasta dla pieszych",
+      "value": "W pełni piesze, liczne strome schody"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Stare Miasto (Grad)",
+      "bestFor": "Dla początkujących i zwiedzających",
+      "parking": "Brak wjazdu dla samochodów; parking zewnętrzny jest bardzo drogi",
+      "beach": "10 minut spacerem do plaży Banje (żwirowa)",
+      "summary": "Zakwaterowanie w obrębie murów miasta stawia Cię o krok od głównych zabytków i restauracji. Musisz jednak przenosić bagaż po bruku i pokonywać wiele schodów."
+    },
+    {
+      "name": "Lapad",
+      "bestFor": "Dla rodzin i pobytów w ośrodkach",
+      "parking": "Łatwiejszy niż w centrum, wiele hoteli oferuje parkingi",
+      "beach": "Uvala Lapad (żwirowo-piaszczysta) i skaliste zatoczki",
+      "summary": "Duży półwysep na północny zachód od centrum z relaksującą, wakacyjną atmosferą. Łączy się ze Starym Miastem 15-minutową podróżą autobusem."
+    },
+    {
+      "name": "Ploče",
+      "bestFor": "Dla luksusowych podróżników pragnących widoków na morze i Stare Miasto",
+      "parking": "Bardzo ograniczony parking uliczny; prywatne miejsce niezbędne",
+      "beach": "O krok od plaż Banje i Sveti Jakov (żwirowe)",
+      "summary": "Ta ekskluzywna dzielnica na wzgórzu z widokiem na wschodnią stronę murów miasta. Widoki są doskonałe, ale dotarcie do tej okolicy wiąże się z wchodzeniem po stromych schodach."
+    },
+    {
+      "name": "Gruž",
+      "bestFor": "Dla podróżników z ograniczonym budżetem i korzystających z promów",
+      "parking": "Dostępne publiczne parkingi i tańsze niż opcje w centrum",
+      "beach": "15 do 20 minut spacerem do plaży Bellevue (żwirowa)",
+      "summary": "Główny port i centrum handlowe miasta oferuje bardziej lokalną atmosferę i niższe ceny. To najlepsza baza wypadowa, jeśli planujesz wziąć wczesne promy na wyspy."
+    },
+    {
+      "name": "Babin Kuk",
+      "bestFor": "Dla podróżników szukających spokojnych kompleksów wypoczynkowych",
+      "parking": "Obfity w dużych kompleksach hotelowych",
+      "beach": "Plaże Copacabana i Cava (żwirowe)",
+      "summary": "Znajdująca się na północnym krańcu półwyspu Lapad, ta okolica jest zdominowana przez duże ośrodki wypoczynkowe i tereny zielone. Zapewnia spokojną ucieczkę od centrum miasta."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monachium",
+      "car": "940 km, 10-11 godzin przez A8, austriacką A10, słoweńską A2 i chorwacką A1. Wymaga winiet AT/SI i opłat drogowych HR.",
+      "other": "Dostępne bezpośrednie loty z MUC do DBV"
+    },
+    {
+      "from": "Wiedeń",
+      "car": "800 km, 8.5-10 godzin przez A2 do Grazu, słoweńską A1/A4 i chorwacką A1. Wymaga winiet AT/SI i opłat drogowych HR.",
+      "other": "Dostępne bezpośrednie loty z VIE do DBV"
+    },
+    {
+      "from": "Budapeszt",
+      "car": "740 km, 8-9 godzin przez M7 do granicy, następnie chorwacką A4 i A1 na południe. Wymaga winiety HU i opłat drogowych HR.",
+      "other": "Bezpośrednie loty (Ryanair) lub FlixBus"
+    },
+    {
+      "from": "Lublana",
+      "car": "620 km, 6.5-7.5 godzin przez A2 do granicy, następnie chorwacką A1 na południe. Wymaga winiety SI i opłat drogowych HR.",
+      "other": "FlixBus lub samochód (brak bezpośrednich lotów)"
+    },
+    {
+      "from": "Praga",
+      "car": "1100 km, 11-13 godzin przez D1 do Brna, Austrię, Słowenię i chorwacką A1. Wymaga winiet CZ/AT/SI i opłat drogowych HR.",
+      "other": "Dostępne bezpośrednie loty z PRG do DBV"
+    },
+    {
+      "from": "Kraków",
+      "car": "1100 km, 11.5-13 godzin przez Słowację, Węgry (M3/M7) i chorwacką A4/A1. Wymaga winiet SK/HU i opłat drogowych HR.",
+      "other": "Bezpośrednie loty (Ryanair) lub autobus dalekobieżny"
+    }
+  ],
+  "whenToGo": "Lipiec i sierpień to miesiące najbardziej zatłoczone i najdroższe, przynoszące intensywne upały i szczytowe temperatury morza około 26°C (79°F). Maj, czerwiec, wrzesień i październik oferują bardziej komfortową równowagę, z ciepłą pogodą, temperaturami morza odpowiednimi do pływania (zwłaszcza wczesną jesienią) oraz w pełni działającymi promami i restauracjami. Od listopada do kwietnia Dubrownik jest cichy i znacznie tańszy, ale morze jest zbyt zimne do pływania, wiele nadmorskich firm zamyka się na zimę, a rozkłady promów są znacznie ograniczone.",
+  "faq": [
+    {
+      "question": "Czy warto odwiedzić?",
+      "answer": "Tak, jego nienaruszone średniowieczne mury i zabytkowa architektura czynią go wyjątkowym w Europie. Wymaga jednak wyższego budżetu i tolerancji na tłumy w lecie."
+    },
+    {
+      "question": "Ile dni potrzebuję?",
+      "answer": "Dwa do trzech dni wystarczą, aby przejść się po murach, zwiedzić zabytkowe centrum i odwiedzić pobliską wyspę. Dłuższy pobyt pozwala na jednodniowe wycieczki do Czarnogóry lub Mostaru."
+    },
+    {
+      "question": "Jaka jest najlepsza plaża?",
+      "answer": "Sveti Jakov to najlepsza opcja, aby uniknąć największych tłumów, zachowując jednocześnie widok na Stare Miasto. Wymaga zejścia po długich schodach na południowy wschód od centrum."
+    },
+    {
+      "question": "Czy potrzebuję samochodu?",
+      "answer": "Nie, samochód w Dubrowniku to raczej kłopot ze względu na poważne ograniczenia parkingowe i strefy wyłącznie dla pieszych. Jeśli przyjedziesz samochodem do Dubrownika, prawdopodobnie zostawisz go zaparkowanego na czas całego pobytu."
+    },
+    {
+      "question": "Gdzie powinienem zaparkować?",
+      "answer": "Zaparkuj w miejscu zakwaterowania, jeśli oferują dedykowane miejsce. W przeciwnym razie skorzystaj z parkingu portu Gruž lub publicznego garażu Ilijina Glavica, chociaż ten ostatni może kosztować do 70 € dziennie w lecie."
+    },
+    {
+      "question": "Czy jest dobry dla rodzin?",
+      "answer": "Tak, starsze dzieci będą cieszyć się zwiedzaniem fortec i wycieczkami łodzią. Jednak niekończące się schody Starego Miasta sprawiają, że jest to bardzo niepraktyczne dla podróżujących z wózkami."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Gdzie się zatrzymać w Dubrowniku",
+    "gettingThere": "Dojazd do Dubrownika",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Dubrowniku",
+    "faq": "Najczęściej zadawane pytania o Dubrowniku",
+    "groups": {
+      "gettingAround": "Parking i poruszanie się",
+      "planning": "Planowanie i gdzie się zatrzymać",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróżowania",
+      "activities": "Plaże i co robić",
+      "food": "Jedzenie i napoje",
+      "comparisons": "Porównania",
+      "practical": "Praktyczne informacje"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "dubrovnik",
+  "language": "pl",
+  "updatedAt": "2026-10-16T10:08:19.020Z"
+}

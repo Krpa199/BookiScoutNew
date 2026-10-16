@@ -1,0 +1,146 @@
+{
+  "title": "Zadar : Guide de voyage – Plages, stationnement et hébergement",
+  "metaDescription": "Planifiez votre voyage à Zadar avec des détails pratiques sur les itinéraires routiers, le stationnement, les quartiers et les meilleures plages de galets. Un guide factuel de la ville.",
+  "intro": "Zadar est une porte d'entrée pratique vers la Dalmatie du Nord, offrant un centre romain et médiéval compact ainsi que des plages de galets accessibles. Elle convient aux familles, aux couples et aux voyageurs en voiture recherchant un point de chute moins fréquenté et moins cher que Split ou Dubrovnik, tout en offrant un accès direct aux îles Kornati et aux lacs de Plitvice.\n\nLa ville principale est divisée entre la péninsule historique et piétonne et les quartiers résidentiels côtiers s'étendant au nord et au sud. La haute saison s'étend de fin juin à août, lorsque la mer est la plus chaude et que les lignes de ferry fonctionnent à pleine capacité. Ceux qui privilégient les visites touristiques et des coûts d'hébergement plus bas devraient viser mai, septembre ou octobre, lorsque le temps reste doux et que les routes locales sont plus calmes.",
+  "quickFacts": [
+    {
+      "label": "Meilleurs mois",
+      "value": "Juin à septembre"
+    },
+    {
+      "label": "Température de la mer en août",
+      "value": "25°C - 26°C"
+    },
+    {
+      "label": "Aéroport le plus proche",
+      "value": "Aéroport de Zadar (ZAD), à 12 km du centre"
+    },
+    {
+      "label": "Type de plage principal",
+      "value": "Plages de galets et terrasses en béton"
+    },
+    {
+      "label": "Niveau de prix",
+      "value": "Modéré (moins cher que Split ou Dubrovnik)"
+    },
+    {
+      "label": "Vieille ville",
+      "value": "Péninsule piétonne (zone sans voiture)"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Vieille ville (Poluotok)",
+      "bestFor": "Visites touristiques, restaurants et courts séjours.",
+      "parking": "Stationnement public payant à l'extérieur des murs ; très limité.",
+      "beach": "15-20 min à pied de la plage de Kolovare.",
+      "summary": "Le cœur historique de Zadar occupe une petite péninsule remplie de ruines romaines, d'églises et de restaurants. Il est entièrement piéton, ce qui le rend difficile pour les automobilistes mais très pratique pour la marche."
+    },
+    {
+      "name": "Borik & Puntamika",
+      "bestFor": "Familles et vacances balnéaires de type station balnéaire.",
+      "parking": "La plupart des hôtels et appartements proposent un stationnement privé.",
+      "beach": "Accès direct à la plage de Borik (mélange de galets et de sable).",
+      "summary": "Située à 4 km au nord du centre, cette zone abrite les principales stations balnéaires et campings de Zadar. Elle offre des plages peu profondes et de l'ombre de pins, bien que l'accès à la Vieille ville nécessite un bus ou une voiture."
+    },
+    {
+      "name": "Diklo",
+      "bestFor": "Séjours plus calmes en appartement avec cuisine.",
+      "parking": "Le stationnement gratuit dans la rue est courant ; vérifiez auprès de l'hébergement.",
+      "beach": "Accès immédiat aux plages de galets et de béton.",
+      "summary": "Un quartier résidentiel s'étendant au nord de Borik, caractérisé par des appartements en front de mer et de petits cafés locaux. Le littoral est principalement constitué de terrasses en béton et de zones rocheuses prisées par les locaux."
+    },
+    {
+      "name": "Kolovare & Arbanasi",
+      "bestFor": "Accès à pied à la fois à la plage et à la Vieille ville.",
+      "parking": "Stationnement dans la rue disponible, très encombré en été.",
+      "beach": "Accès immédiat à la plage de Kolovare (galets).",
+      "summary": "Situé juste au sud de la Vieille ville, ce quartier s'articule autour de la principale plage publique de la ville. Il offre un compromis pratique entre le temps passé à la plage et les promenades nocturnes vers le centre."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Munich",
+      "car": "730 km, 8-9 heures via A8, A10 (Tauern) et Croatie A1. Les péages comprennent la vignette autrichienne, les tunnels de Tauern/Karawanken, la vignette slovène et les péages autoroutiers croates.",
+      "other": "Vols directs avec Croatia Airlines ou Lufthansa."
+    },
+    {
+      "from": "Vienne",
+      "car": "600 km, 6-7 heures via Graz, Maribor et Zagreb (A1). Nécessite les vignettes autrichienne et slovène, plus les péages autoroutiers croates.",
+      "other": "Vols directs via Austrian Airlines ou Ryanair."
+    },
+    {
+      "from": "Budapest",
+      "car": "630 km, 6-7 heures via M7 jusqu'à la frontière de Letenye, puis A4 et A1 croates. Nécessite la vignette hongroise et les péages autoroutiers croates.",
+      "other": "Vols directs à bas prix (Ryanair) ou bus longue distance (Flixbus)."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "330 km, 3,5-4 heures via A2 jusqu'à Novo Mesto, puis A1 croate. Nécessite la vignette slovène et les péages autoroutiers croates.",
+      "other": "Services de bus directs (env. 5-6 heures)."
+    },
+    {
+      "from": "Prague",
+      "car": "900 km, 10-11 heures via Brno, Vienne et Zagreb. Nécessite les vignettes tchèque, autrichienne et slovène, plus les péages autoroutiers croates.",
+      "other": "Vols saisonniers directs (Ryanair) ou trains RegioJet vers les villes côtières."
+    },
+    {
+      "from": "Cracovie",
+      "car": "1000 km, 10-11 heures via la Slovaquie (D1) et la Hongrie (M1/M7). Nécessite les vignettes slovaque et hongroise, plus les péages autoroutiers croates.",
+      "other": "Vols saisonniers directs (Ryanair) ou bus longue distance."
+    }
+  ],
+  "whenToGo": "La fin juin à août est la haute saison, caractérisée par des températures de l'air dépassant souvent les 30°C, des températures de la mer atteignant 26°C, et les prix d'hébergement les plus élevés. Juillet et août attirent une foule dense dans la Vieille ville et sur les plages, tandis que tous les restaurants, les lignes de ferry et les voyagistes fonctionnent à pleine capacité. Septembre offre un équilibre optimal : la mer reste suffisamment chaude pour la baignade, mais les foules estivales se dispersent et les tarifs hôteliers diminuent de 20 à 30 %. De novembre à Pâques, Zadar entre en basse saison ; de nombreuses stations balnéaires côtières, restaurants saisonniers et liaisons par ferry vers les îles réduisent leurs services ou ferment entièrement, bien que le centre-ville reste fonctionnel pour les habitants.",
+  "faq": [
+    {
+      "question": "Zadar vaut-elle la peine d'être visitée ?",
+      "answer": "Oui, Zadar vaut la peine d'être visitée pour son mélange d'histoire romaine, d'églises médiévales et d'art public unique comme l'Orgue marin. Elle constitue une alternative pratique et moins fréquentée à Split et une excellente base pour visiter plusieurs parcs nationaux."
+    },
+    {
+      "question": "Combien de jours faut-il pour visiter Zadar ?",
+      "answer": "Deux jours complets suffisent pour explorer la Vieille ville et profiter des plages locales. Si vous prévoyez des excursions d'une journée aux îles Kornati ou aux lacs de Plitvice, prévoyez quatre à cinq jours."
+    },
+    {
+      "question": "Quelle est la meilleure plage de Zadar ?",
+      "answer": "La plage de Borik est très appréciée des familles grâce à ses eaux peu profondes et son mélange de sable et de galets. La plage de Kolovare est l'option la plus pratique si vous séjournez près du centre-ville, offrant de longues étendues de galets et de l'ombre naturelle."
+    },
+    {
+      "question": "Ai-je besoin d'une voiture à Zadar ?",
+      "answer": "Vous n'avez pas besoin de voiture si vous prévoyez de séjourner dans la Vieille ville ou de faire des excursions en bateau organisées. Cependant, une voiture est fortement recommandée si vous souhaitez explorer la région de Zadar plus largement, visiter des parcs nationaux ou séjourner dans des banlieues éloignées comme Diklo."
+    },
+    {
+      "question": "Où est le meilleur endroit pour se garer à Zadar ?",
+      "answer": "La Vieille ville est une zone piétonne, les visiteurs doivent donc se garer à l'extérieur des murs de la ville. Les options les plus pratiques sont les parkings publics le long du mur est (Obala kralja Tomislava) ou le parking Ravnice à proximité, qui facturent des tarifs horaires ou journaliers."
+    },
+    {
+      "question": "Zadar est-elle une bonne destination pour les familles ?",
+      "answer": "Oui, Zadar est très adaptée aux familles grâce à son centre plat et piéton et à son atmosphère plus calme par rapport aux grandes villes dalmates. Des zones comme Borik offrent des stations balnéaires dédiées aux familles, des eaux peu profondes et l'ombre des pins."
+    }
+  ],
+  "headings": {
+    "quickFacts": "En bref",
+    "whereToStay": "Où séjourner à Zadar",
+    "gettingThere": "Comment se rendre à Zadar",
+    "whenToGo": "Quand partir",
+    "guides": "Guides de Zadar",
+    "faq": "FAQ Zadar",
+    "groups": {
+      "gettingAround": "Stationnement et déplacements",
+      "planning": "Planification et hébergement",
+      "timing": "Quand partir",
+      "travelers": "Familles, couples et styles de voyage",
+      "activities": "Plages et activités",
+      "food": "Cuisine et boissons",
+      "comparisons": "Comparaisons",
+      "practical": "Informations pratiques"
+    },
+    "car": "En voiture",
+    "other": "Autres options",
+    "bestFor": "Idéal pour",
+    "parking": "Stationnement",
+    "beach": "Plage"
+  },
+  "destination": "zadar",
+  "language": "fr",
+  "updatedAt": "2026-10-16T09:22:19.866Z"
+}

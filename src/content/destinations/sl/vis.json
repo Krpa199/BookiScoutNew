@@ -1,0 +1,146 @@
+{
+  "title": "Vis: Mesta, plaže in kje bivati",
+  "metaDescription": "Načrtujte svoje potovanje na hrvaški otok Vis. Odkrijte, kje bivati v mestu Vis in Komiži, kako priti tja, informacije o trajektih in podrobnosti o plažah.",
+  "intro": "Vis je najbolj oddaljen naseljen otok od hrvaške celine, dostopen z 2,5-urno vožnjo s trajektom iz Splita. Primeren je za neodvisne popotnike, ki iščejo tišjo, manj komercialno razvito alternativo sosednjima Hvaru ali Braču. Otok je znan po svoji vojaški zgodovini, kmetijski notranjosti in skalnatih zalivih. Nima velikih hotelskih kompleksov, temveč se zanaša na zasebne apartmaje, vile in nekaj majhnih butičnih namestitev.\n\nTuristična sezona je strogo sezonska, traja od maja do oktobra, z vrhuncem trajektnih povezav in delovanja restavracij julija in avgusta. Obiskovalci se običajno namestijo v enem od dveh glavnih naselij – mestu Vis ali Komiži – in uporabljajo avto ali skuter za dostop do oddaljenih plaž na južni obali.",
+  "quickFacts": [
+    {
+      "label": "Najboljši meseci",
+      "value": "Junij do september"
+    },
+    {
+      "label": "Temperatura morja avgusta",
+      "value": "24°C do 26°C"
+    },
+    {
+      "label": "Najbližje letališče",
+      "value": "Letališče Split (SPU) + 2,5-urna vožnja s trajektom"
+    },
+    {
+      "label": "Glavni tip plaže",
+      "value": "Prod, ravne skale, osamljeni peščeni zalivi"
+    },
+    {
+      "label": "Raven cen",
+      "value": "10-20% višje od hrvaškega povprečja"
+    },
+    {
+      "label": "Možnost hoje",
+      "value": "Peš dostopno; deli Komiže in Kuta so brez avtomobilov"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Mesto Vis (Luka in Kut)",
+      "bestFor": "Za prve obiskovalce, dostop s trajektom, kulinarika",
+      "parking": "Veliko plačljivo parkirišče blizu trajektnega pristanišča; omejeno v Kutu",
+      "beach": "Prirovo (prodnata) je oddaljena 10 minut hoje",
+      "summary": "Glavno pristanišče, razdeljeno na novejšo Luko in zgodovinski, tišji Kut. Ponuja najboljše trajektne povezave in največjo koncentracijo restavracij."
+    },
+    {
+      "name": "Komiža",
+      "bestFor": "Za sončne zahode, izleti z ladjo v Modro špiljo",
+      "parking": "Veliko plačljivo občinsko parkirišče nad peš cono",
+      "beach": "Majhne prodnate plaže (Gusarica, Kamenice) v bližini",
+      "summary": "Tradicionalno ribiško mesto na zahodni obali s kamnitimi hišami in nekoliko bolj boemskim vzdušjem. Služi kot glavno izhodišče za izlete v Modro špiljo na Biševu."
+    },
+    {
+      "name": "Rukavac",
+      "bestFor": "Za mirne počitnice na plaži, naravo",
+      "parking": "Običajno vključeno v najem zasebnih apartmajev",
+      "beach": "Peš dostop do Srebrne (ravne skale/prod)",
+      "summary": "Majhna, tiha počitniška vasica na jugovzhodni obali, ki jo večinoma sestavljajo zasebni apartmaji za najem. Nima pravega mestnega središča, vendar ponuja bližino najboljših južnih plaž na otoku."
+    },
+    {
+      "name": "Milna & Ženka",
+      "bestFor": "Za popotnike, ki iščejo peščene obale",
+      "parking": "Ob cesti ali na zasebnih dovozih",
+      "beach": "Plaža Milna (pesek) in Zaglav (pesek) v bližini",
+      "summary": "Obalni naselji na jugovzhodni obali, znani po bližini redkih peščenih plaž. Območje je pretežno stanovanjsko z minimalno komercialno infrastrukturo."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "850 km do Splita (približno 9,5 ure) + 2,5h trajekt, preko A10/A1, AT/SI vinjete, HR cestnine",
+      "other": "Direktni leti v Split (SPU)"
+    },
+    {
+      "from": "Dunaj",
+      "car": "760 km do Splita (približno 8 ur) + 2,5h trajekt, preko A2/A1, AT/SI vinjete, HR cestnine",
+      "other": "Direktni leti ali spalni vlak v Split"
+    },
+    {
+      "from": "Budimpešta",
+      "car": "750 km do Splita (približno 7,5 ure) + 2,5h trajekt, preko M7/A4/A1, HU vinjeta, HR cestnine",
+      "other": "Direktni leti ali sezonski vlaki v Split"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "470 km do Splita (približno 5 ur) + 2,5h trajekt, preko A2/A1, SI vinjeta, HR cestnine",
+      "other": "Direktni avtobus v Split"
+    },
+    {
+      "from": "Praga",
+      "car": "1.090 km do Splita (približno 11,5 ure) + 2,5h trajekt, preko CZ/AT/SI vinjete, HR cestnine",
+      "other": "Direktni leti v Split"
+    },
+    {
+      "from": "Krakov",
+      "car": "1.050 km do Splita (približno 11 ur) + 2,5h trajekt, preko SK/HU vinjete, HR cestnine",
+      "other": "Direktni leti v Split"
+    }
+  ],
+  "whenToGo": "Turistična sezona traja od maja do oktobra. Maja in oktobra je otok zelo miren, nekatere restavracije in izleti z ladjo ne obratujejo, temperatura morja pa je hladna (18°C do 20°C). Junij in september ponujata najboljše ravnovesje za obiskovalce, s temperaturami morja okoli 23°C, popolnoma odprtimi objekti in zmerno gnečo. Julij in avgust sta najbolj prometna in najdražja meseca; dnevne temperature redno presegajo 30°C, morje doseže 25°C, obvezna pa je predhodna rezervacija trajektov, namestitev in restavracij. Izven teh mesecev Vis deluje po zimskem urniku z minimalno odprto turistično infrastrukturo.",
+  "faq": [
+    {
+      "question": "Ali je Vis vreden obiska?",
+      "answer": "Da, če imate raje mirnejši, manj razvit dalmatinski otok z avtentičnimi ribiškimi vasicami in naravo. Ni priporočljiv za tiste, ki iščejo velike peščene plaže, all-inclusive letovišča ali bogato nočno življenje."
+    },
+    {
+      "question": "Koliko dni potrebujem na Visu?",
+      "answer": "Tri do pet dni je optimalno za obisk Visa. To omogoča dovolj časa za ogled mesta Vis in Komiže, izlet z ladjo v Modro špiljo na Biševu in preživljanje enega ali dveh dni na južnih plažah, kot sta Stiniva ali Srebrna."
+    },
+    {
+      "question": "Katera je najboljša plaža na Visu?",
+      "answer": "Stiniva je najbolj znana po svojem dramatičnem, zaprtem prodnatem zalivu, vendar zahteva strmo 30-minutno hojo ali dostop z ladjo. Za lažji dostop in celodnevno poležavanje Srebrna ponuja gladke, ravne skale in prod, medtem ko Zaglav nudi redko peščeno obalo."
+    },
+    {
+      "question": "Potrebujem avto na Visu?",
+      "answer": "Avto ali skuter je zelo priporočljiv za doseganje osamljenih plaž na otoku, restavracij v notranjosti in vojaških lokacij. Medtem ko javni avtobus povezuje dve glavni mesti (mesto Vis in Komižo) v skladu z voznim redom trajektov, se zanašanje izključno na javni prevoz omejuje raziskovanje."
+    },
+    {
+      "question": "Kje parkiram na Visu?",
+      "answer": "Mesto Vis ima veliko plačljivo parkirišče ob trajektnem terminalu, medtem ko Komiža ponuja veliko občinsko plačljivo parkirišče tik nad svojim pešcem namenjenim središčem. Ulično parkiranje v obeh mestih je močno omejeno, in mnogi zasebni apartmaji v zgodovinskih središčih ne ponujajo parkirišča na lokaciji."
+    },
+    {
+      "question": "Je Vis primeren za družine?",
+      "answer": "Vis je primeren za družine, ki iščejo miren dopust, osredotočen na naravo, vendar mu primanjkuje namenskih družinskih letovišč in zabavne infrastrukture. Večina plaž je prodnatih ali skalnatih in se hitro spuščajo v globoko vodo, čeprav Milna in Zaglav ponujata plitve peščene alternative."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na kratko",
+    "whereToStay": "Kje bivati na Visu",
+    "gettingThere": "Kako priti na Vis",
+    "whenToGo": "Kdaj obiskati",
+    "guides": "Vodiči po Visu",
+    "faq": "Pogosta vprašanja o Visu",
+    "groups": {
+      "gettingAround": "Parkiranje in premikanje",
+      "planning": "Načrtovanje in kje bivati",
+      "timing": "Kdaj obiskati",
+      "travelers": "Družine, pari in potovalni stili",
+      "activities": "Plaže in aktivnosti",
+      "food": "Hrana in pijača",
+      "comparisons": "Primerjave",
+      "practical": "Praktične informacije"
+    },
+    "car": "Z avtom",
+    "other": "Druge možnosti",
+    "bestFor": "Najboljše za",
+    "parking": "Parkiranje",
+    "beach": "Plaža"
+  },
+  "destination": "vis",
+  "language": "sl",
+  "updatedAt": "2026-10-16T14:17:58.718Z"
+}

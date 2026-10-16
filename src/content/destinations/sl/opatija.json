@@ -1,0 +1,146 @@
+{
+  "title": "Opatija: Vodnik za potovanje – Predeli, parkiranje in dostop",
+  "metaDescription": "Načrtujte svoje potovanje v Opatijo. Preberite o najboljših predelih za bivanje, nasvetih za parkiranje, plažah, voznih poteh iz Evrope in najboljšem času za obisk.",
+  "intro": "Opatija je obalno mesto v Kvarnerskem zalivu, znano po avstro-ogrski arhitekturi, zgodovinskih parkih in 12-kilometrski promenadi Lungomare. Namenjena je predvsem odraslim popotnikom, parom in seniorjem, ki jih zanima kulinarika, spa tretmaji in sprehodi ob morju, namesto poznonočnega klubiranja ali peščenih plaž.\n\nMesto se strmo spušča proti Jadranu, kar pomeni, da je veliko namestitev na pobočjih nad glavno obalno cesto. Poletje prinaša visoke temperature, primerne za plavanje na mestnih betonskih in skalnatih terasah, medtem ko pomlad in jesen privabljata obiskovalce na pohodništvo in wellness oddihe. Ker je priljubljena vikend destinacija iz Srednje Evrope, je promet in parkiranje v vrhuncu sezone potrebno načrtovati vnaprej.",
+  "quickFacts": [
+    {
+      "label": "Najboljši meseci",
+      "value": "Maj do september"
+    },
+    {
+      "label": "Avgustovska temperatura morja",
+      "value": "24°C do 26°C"
+    },
+    {
+      "label": "Najbližje letališče",
+      "value": "Letališče Reka (RJK), 42 km"
+    },
+    {
+      "label": "Glavni tip plaže",
+      "value": "Betonske terase in skalnate obale"
+    },
+    {
+      "label": "Cenovni razred",
+      "value": "Višji od hrvaškega povprečja"
+    },
+    {
+      "label": "Pohodnost",
+      "value": "Prehodna promenada; glavna cesta ni brez avtomobilov"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Opatija center",
+      "bestFor": "Prvič obiskovalci in pari, ki želijo dostop do kulinarike in zgodovinskih parkov",
+      "parking": "Drago in omejeno; uporabite javne garaže, kot sta Slatina ali Gorovo",
+      "beach": "Slatina (betonske terase) in Tomaševac (delno peščena/betonska)",
+      "summary": "Zgodovinsko jedro z vilami iz 19. stoletja, urejenimi vrtovi in največjo koncentracijo restavracij in hotelov. Glavna ulica, Ulica Maršala Tita, poteka skozi središče in ima poleti močan promet."
+    },
+    {
+      "name": "Volosko",
+      "bestFor": "Ljubitelji kulinarike in tisti, ki iščejo mirnejše, vaško vzdušje",
+      "parking": "Zelo omejena javna parkirišča; večinoma rezervirana za prebivalce",
+      "beach": "Majhna betonska kopališča ob Lungomare",
+      "summary": "Nekdanja ribiška vasica severno od centra, ki označuje začetek Lungomare. Znana je po ozkih tlakovanih ulicah, restavracijah z morsko hrano in lokalnih tavernaha, zgrajenih okoli majhnega pristanišča."
+    },
+    {
+      "name": "Ičići",
+      "bestFor": "Družine in obiskovalci, ki si želijo standardne prodnate plaže in dostop do marine",
+      "parking": "Plačljivo parkiranje na ulici blizu plaže; pogosto polno do sredine dopoldneva v juliju",
+      "beach": "Plaža Ičići (velik prodnat zaliv z betonskimi površinami za sončenje)",
+      "summary": "Nahaja se tri kilometre južno od centra Opatije in ponuja bolj tipično sredozemsko poletno počitniško okolje. Ponaša se z veliko ACI Marino in je neposredno povezana z Opatijo preko obalne promenade."
+    },
+    {
+      "name": "Lovran",
+      "bestFor": "Popotniki, ki iščejo počasnejši tempo in srednjeveško arhitekturo",
+      "parking": "Več plačljivih občinskih parkirišč blizu starega mestnega jedra in pristanišča",
+      "beach": "Peharovo (prodnata) in Kvarner (betonska)",
+      "summary": "Lovran je samostojno mesto na južnem koncu Lungomare, približno šest kilometrov od Opatije. Ohranja srednjeveško zgodovinsko jedro in ponuja bolj sproščeno, nekoliko manj drago alternativo Opatiji."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "510 km, ~6 ur preko A8, avtoceste Tauern (A10) in Slovenije. Zahteva avstrijsko vinjeto, cestnine za predora Tauern/Karavanke, slovensko vinjeto in hrvaško cestnino",
+      "other": "Neposredni nočni vlak (Nightjet) do Reke, nato lokalni avtobus"
+    },
+    {
+      "from": "Dunaj",
+      "car": "490 km, ~5 ur preko A2 do Gradca, nato A9 in slovenska A1. Zahteva avstrijsko vinjeto, slovensko vinjeto in hrvaško cestnino",
+      "other": "Neposredni avtobus (FlixBus) ali vlak (ÖBB) do Reke, nato lokalni avtobus"
+    },
+    {
+      "from": "Budimpešta",
+      "car": "510 km, ~5 ur preko M7 do meje, nato hrvaške A4, A1 in A6 do Reke. Zahteva madžarsko vinjeto in hrvaške cestnine",
+      "other": "Neposredni vlak ali FlixBus do Reke, s povezavo do Opatije"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "110 km, ~1,5 ure preko A1 do Postojne, nato cesta 6 do Ilirske Bistrice/Rupe. Zahteva slovensko vinjeto in hrvaško cestnino",
+      "other": "Neposredni avtobus ali vlak do Reke, nato lokalni avtobus"
+    },
+    {
+      "from": "Praga",
+      "car": "750 km, ~8,5 ur preko Dunaja in Gradca (A2/A9). Zahteva češko, avstrijsko in slovensko vinjeto ter hrvaške cestnine",
+      "other": "Vlak RegioJet do Reke (samo poleti) ali let do Dunaja/Zagreba"
+    },
+    {
+      "from": "Krakov",
+      "car": "850 km, ~9,5 ur preko Brna, Dunaja in Gradca. Zahteva češko, avstrijsko in slovensko vinjeto ter hrvaške cestnine",
+      "other": "Let do Zagreba ali Zadra, nato medkrajevni avtobus"
+    }
+  ],
+  "whenToGo": "Od junija do septembra ponuja najboljše vreme za kopanje, s temperaturami morja, ki do avgusta dosežejo 26°C. Julij in avgust sta najbolj obiskana in najdražja meseca, kar prinaša prenatrpane promenade in gost promet. Maj in oktober ponujata hladnejše temperature, idealne za pohodništvo na Učko ali sprehode po Lungomare, čeprav je morje običajno prehladno za kopanje. Večina večjih hotelov in restavracij ostaja odprtih skozi vse leto, saj Opatija skrbi tudi za zimske wellness oddihe in konference, vendar se nekateri manjši objekti zaprejo od novembra do velike noči.",
+  "faq": [
+    {
+      "question": "Je Opatija vredna obiska?",
+      "answer": "Da, če cenite zgodovinsko arhitekturo, urejene vrtove in obalne promenade. Manjkajo ji peščene plaže in zabavni predeli, privlači pa predvsem odrasle, ki iščejo sproščujoč, prestižen oddih ob morju."
+    },
+    {
+      "question": "Koliko dni naj preživim v Opatiji?",
+      "answer": "Dva do tri dni zadostujejo za sprehod po Lungomare, raziskovanje mestnega centra in obisk sosednjih vasi, kot sta Volosko ali Lovran. Služi tudi kot priročna baza za enodnevne izlete v Istro ali na Kvarnerske otoke."
+    },
+    {
+      "question": "Katera je najboljša plaža v Opatiji?",
+      "answer": "Slatina je najbolj centralna plaža z betonskimi terasami in možnostjo najema ležalnikov. Za tradicionalno prodnato plažo se odpravite tri kilometre južno do Ičićev ali še dlje ob obali do Medveje."
+    },
+    {
+      "question": "Potrebujem avto v Opatiji?",
+      "answer": "Ne, avto ni potreben, če nameravate ostati v mestu, saj je center prehoden, Lungomare pa povezuje glavne obalne vasi. Lokalni avtobusi pogosto vozijo med Reko, Opatijo in Lovranom."
+    },
+    {
+      "question": "Kje lahko parkiram v Opatiji?",
+      "answer": "Parkiranje na ulici je razdeljeno na plačljive cone in se hitro zapolni med poletnimi vikendi. Najzanesljivejše možnosti so javne večetažne garaže, kot so Garaža Slatina, Garaža Gorovo ali Garaža Gervais, čeprav je priporočljivo, da si parkirišče zagotovite preko hotela."
+    },
+    {
+      "question": "Je Opatija primerna za družine?",
+      "answer": "Primerna je za družine, vendar manj idealna za malčke, saj so plaže večinoma betonske plošče ali globoki skalni zalivi in ne plitki pesek. Starejši otroci lahko uživajo v vodnih športih, starši pa bodo cenili tlakovano, otroškim vozičkom prijazno promenado."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na kratko",
+    "whereToStay": "Kje bivati v Opatiji",
+    "gettingThere": "Kako priti v Opatijo",
+    "whenToGo": "Kdaj obiskati",
+    "guides": "Vodiči za Opatijo",
+    "faq": "Pogosta vprašanja o Opatiji",
+    "groups": {
+      "gettingAround": "Parkiranje in premikanje",
+      "planning": "Načrtovanje in kje bivati",
+      "timing": "Kdaj obiskati",
+      "travelers": "Družine, pari in stili potovanja",
+      "activities": "Plaže in dejavnosti",
+      "food": "Hrana in pijača",
+      "comparisons": "Primerjave",
+      "practical": "Praktične informacije"
+    },
+    "car": "Z avtomobilom",
+    "other": "Druge možnosti",
+    "bestFor": "Najboljše za",
+    "parking": "Parkiranje",
+    "beach": "Plaža"
+  },
+  "destination": "opatija",
+  "language": "sl",
+  "updatedAt": "2026-10-16T12:40:11.585Z"
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Guía de Viaje de Medulin: Playas, Aparcamiento y Dónde Alojarse",
+  "metaDescription": "Planifica tu viaje a Medulin con información sobre rutas en coche, aparcamiento, mejores zonas y playas. Descubre cuándo visitar y dónde alojarte en la costa de Istria.",
+  "intro": "Medulin es una ciudad costera en el extremo sur de la península de Istria, ideal principalmente para familias y viajeros que buscan unas vacaciones sencillas en la playa. Antiguamente un pueblo pesquero tradicional, se ha convertido en un importante centro turístico caracterizado por un animado paseo marítimo, amplias instalaciones de camping y una bahía de arena poco profunda. La ciudad sirve como base funcional más que como destino cultural, centrándose en gran medida en el turismo de verano.\n\nLos visitantes que conducen desde Europa central utilizan Medulin como un punto de entrada accesible al Adriático, beneficiándose de su proximidad a Pula y a la reserva natural protegida del Cabo Kamenjak. La infraestructura está diseñada para la temporada alta de verano, lo que significa que el destino funciona a plena capacidad desde junio hasta principios de septiembre antes de volver a un ritmo residencial tranquilo en invierno.",
+  "quickFacts": [
+    {
+      "label": "Mejores meses",
+      "value": "Junio y septiembre"
+    },
+    {
+      "label": "Temperatura del mar en agosto",
+      "value": "25°C a 27°C"
+    },
+    {
+      "label": "Aeropuerto más cercano",
+      "value": "Aeropuerto de Pula (PUY), 13 km"
+    },
+    {
+      "label": "Tipo de playa principal",
+      "value": "Arena poco profunda (Bijeca) y guijarros"
+    },
+    {
+      "label": "Nivel de precios",
+      "value": "Promedio para Istria, más barato que Rovinj"
+    },
+    {
+      "label": "Accesibilidad a pie del centro",
+      "value": "Centro transitable a pie, paseo marítimo solo peatonal"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Bijeca y Paseo Marítimo",
+      "bestFor": "Familias con niños pequeños que buscan acceso inmediato a la playa.",
+      "parking": "Estacionamientos municipales de pago; mucho tráfico en verano.",
+      "beach": "Acceso directo a Bijeca (arena poco profunda).",
+      "summary": "Esta es la zona más comercializada, repleta de restaurantes, puestos de souvenirs y atracciones. Espera mucho tránsito peatonal y ruido durante los meses pico de verano."
+    },
+    {
+      "name": "Pošesi",
+      "bestFor": "Parejas y familias que buscan una estancia más tranquila.",
+      "parking": "La mayoría de los apartamentos y hoteles ofrecen aparcamiento privado.",
+      "beach": "100-300 metros de Alba Chiara y Belvedere (guijarro/roca).",
+      "summary": "Un barrio residencial más nuevo en el extremo occidental de Medulin, con edificios de apartamentos modernos y acceso a playas de guijarros más limpias. Permanece a poca distancia del paseo principal."
+    },
+    {
+      "name": "Casco Antiguo de Medulin (Colina)",
+      "bestFor": "Viajeros que priorizan el presupuesto sobre el acceso directo al mar.",
+      "parking": "Calles estrechas con aparcamiento limitado en la calle; consulta con el alojamiento.",
+      "beach": "Caminata cuesta abajo de 1 a 1.5 km hasta Bijeca.",
+      "summary": "Centrado alrededor de la iglesia de Santa Inés, el núcleo histórico es más tranquilo y menos turístico que la franja costera. Ofrece tarifas de alojamiento más bajas, pero requiere caminar o conducir hasta el mar."
+    },
+    {
+      "name": "Premantura",
+      "bestFor": "Amantes de la naturaleza, excursionistas y windsurfistas.",
+      "parking": "Aparcamiento público gratuito disponible, pero la entrada al Cabo Kamenjak requiere un peaje para coches.",
+      "beach": "1 a 3 km hasta playas de roca escarpadas y naturales en Kamenjak.",
+      "summary": "Un pequeño pueblo 10 km al sur de Medulin que sirve como puerta de entrada a la reserva natural del Cabo Kamenjak. Reemplaza las playas de arena comerciales con bosques de pinos protegidos y espectaculares calas rocosas."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Múnich",
+      "car": "590 km, 6.5 horas vía A10 y Eslovenia A1. Requiere viñetas AT y SI, además de peajes de túnel Tauern/Karawanken y HR.",
+      "other": "Vuelo directo de temporada a Pula o Flixbus directo."
+    },
+    {
+      "from": "Viena",
+      "car": "510 km, 5.5 horas vía A2, Maribor y Liubliana. Requiere viñetas AT y SI, además de peajes HR.",
+      "other": "Vuelo directo de temporada a Pula o Flixbus directo."
+    },
+    {
+      "from": "Budapest",
+      "car": "610 km, 6.5 horas vía M7, Zagreb y Rijeka. Requiere viñeta HU y peajes HR.",
+      "other": "Flixbus directo o tren vía Zagreb."
+    },
+    {
+      "from": "Liubliana",
+      "car": "210 km, 2.5 horas vía A1 a Koper y la Y de Istria. Requiere viñeta SI y peajes HR.",
+      "other": "Autobús directo vía Flixbus o Nomago."
+    },
+    {
+      "from": "Praga",
+      "car": "850 km, 9.5 horas vía Linz, Salzburgo y Liubliana. Requiere viñetas CZ, AT, SI, peajes de túnel y peajes HR.",
+      "other": "Vuelo a Pula vía Múnich/Fráncfort, o combinación tren/autobús RegioJet."
+    },
+    {
+      "from": "Cracovia",
+      "car": "1000 km, 11 horas vía A4, Ostrava, Viena y Graz. Requiere peajes PL, viñetas CZ, AT, SI y peajes HR.",
+      "other": "Vuelo a Pula vía Varsovia (LOT) o vuelos estacionales de Ryanair."
+    }
+  ],
+  "whenToGo": "La temporada en Medulin gira completamente en torno a los meses de verano. Junio trae temperaturas máximas diurnas agradables de 26°C y una temperatura del mar de 22°C, con todos los restaurantes e instalaciones turísticas completamente abiertos pero sin la masificación máxima. Julio y agosto son los meses más concurridos y caros; el mar alcanza una temperatura cálida de 25°C a 27°C, y las playas, particularmente Bijeca, se llenan extremadamente. Septiembre a menudo se considera el mejor momento para visitar, ofreciendo tarifas de alojamiento más bajas, menos aglomeraciones y temperaturas del mar que se mantienen cómodas para nadar. Desde finales de octubre hasta abril, Medulin cierra efectivamente, con la mayoría de los hoteles, campings y negocios del paseo marítimo cerrando por completo durante el invierno.",
+  "faq": [
+    {
+      "question": "¿Vale la pena visitar Medulin?",
+      "answer": "Sí, si viajas con niños pequeños o buscas una base cerca del Cabo Kamenjak. Su principal atractivo es la playa de arena poco profunda y la abundante infraestructura turística, más que su encanto histórico."
+    },
+    {
+      "question": "¿Cuántos días debo pasar en Medulin?",
+      "answer": "Tres a cinco días son suficientes para explorar la ciudad, pasar tiempo en las playas y hacer una excursión de un día al Cabo Kamenjak. Una semana completa es lo habitual para familias que priorizan unas vacaciones de playa tranquilas."
+    },
+    {
+      "question": "¿Cuál es la mejor playa de Medulin?",
+      "answer": "Bijeca es la más famosa por su arena y su entrada poco profunda, lo que la hace ideal para niños pequeños. Para aguas más limpias y menos aglomeraciones, las playas de guijarros en Belvedere y Alba Chiara son alternativas superiores."
+    },
+    {
+      "question": "¿Necesito un coche en Medulin?",
+      "answer": "No necesitas un coche si planeas quedarte completamente dentro de Medulin, ya que las playas, supermercados y restaurantes son accesibles a pie. Sin embargo, un coche es muy recomendable para explorar las cercanías de Pula, Rovinj y las playas del Cabo Kamenjak."
+    },
+    {
+      "question": "¿Dónde puedo aparcar en Medulin?",
+      "answer": "Medulin cuenta con varias zonas de aparcamiento municipal grandes y de pago a lo largo del paseo marítimo y cerca de la playa de Bijeca. El pago es obligatorio durante la temporada de verano y se puede gestionar a través de máquinas en la calle, SMS o la aplicación de aparcamiento PayDo."
+    },
+    {
+      "question": "¿Es Medulin bueno para familias?",
+      "answer": "Sí, Medulin es ampliamente considerado uno de los destinos más familiares de Istria. La franja de arena de 1 kilómetro de la playa de Bijeca presenta agua hasta los tobillos que se extiende lejos en la bahía, y la ciudad ofrece numerosos parques infantiles, parques de atracciones y complejos turísticos orientados a la familia."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Un vistazo",
+    "whereToStay": "Dónde alojarse en Medulin",
+    "gettingThere": "Cómo llegar a Medulin",
+    "whenToGo": "Cuándo ir",
+    "guides": "Guías de Medulin",
+    "faq": "Preguntas frecuentes sobre Medulin",
+    "groups": {
+      "gettingAround": "Aparcamiento y cómo moverse",
+      "planning": "Planificación y dónde alojarse",
+      "timing": "Cuándo ir",
+      "travelers": "Familias, parejas y estilos de viaje",
+      "activities": "Playas y cosas que hacer",
+      "food": "Comida y bebida",
+      "comparisons": "Comparaciones",
+      "practical": "Información práctica"
+    },
+    "car": "En coche",
+    "other": "Otras opciones",
+    "bestFor": "Ideal para",
+    "parking": "Aparcamiento",
+    "beach": "Playa"
+  },
+  "destination": "medulin",
+  "language": "es",
+  "updatedAt": "2026-10-16T11:12:29.697Z"
+}

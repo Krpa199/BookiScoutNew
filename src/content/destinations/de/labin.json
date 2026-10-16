@@ -1,0 +1,146 @@
+{
+  "title": "Labin Reiseführer: Strände, Parken & Unterkünfte",
+  "metaDescription": "Planen Sie Ihre Reise nach Labin, Kroatien. Finden Sie die besten Anfahrtswege, Parkmöglichkeiten in der Altstadt, nahegelegene Strände in Rabac und wo Sie Unterkünfte buchen können.",
+  "intro": "Labin ist eine mittelalterliche Hügelstadt an der Ostküste der istrischen Halbinsel in Kroatien. Sie liegt etwa drei Kilometer landeinwärts vom beliebten Küstenort Rabac.\nDie Stadt zieht Besucher an, die eine historische Basis mit schnellem Zugang zur Adria bevorzugen und dabei die höheren Preise und intensiven Menschenmassen von Unterkünften direkt am Wasser vermeiden möchten.\n\nDer praktischste Weg, Labin zu erreichen, ist mit dem Auto, was es zu einem beliebten Ziel für Roadtripper aus Mitteleuropa macht. Die Hauptsaison läuft von Juni bis September, wenn alle Restaurants geöffnet sind und das Meer warm genug zum Schwimmen ist. Wer Besichtigungen den Strandtagen vorzieht, wählt oft Mai oder Oktober für milderes Wetter und einfachere Parkmöglichkeiten.",
+  "quickFacts": [
+    {
+      "label": "Beste Monate",
+      "value": "Juni bis September"
+    },
+    {
+      "label": "Meerestemperatur im August",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Nächstgelegener Flughafen",
+      "value": "Flughafen Pula (PUY), 40 km"
+    },
+    {
+      "label": "Hauptstrandtyp",
+      "value": "Kies (im nahegelegenen Rabac)"
+    },
+    {
+      "label": "Preisniveau",
+      "value": "Im Einklang mit dem kroatischen Küstendurchschnitt"
+    },
+    {
+      "label": "Layout der Altstadt",
+      "value": "Größtenteils Fußgängerzone, steile Kopfsteinpflastergassen"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Labin Altstadt (Stari Grad)",
+      "bestFor": "Paare, Geschichtsliebhaber, Restaurants",
+      "parking": "Kostenpflichtige öffentliche Parkplätze am Rande; eingeschränkt innerhalb",
+      "beach": "5 km (Rabac)",
+      "summary": "Der historische Kern liegt auf einem Hügel mit engen Kopfsteinpflastergassen und mittelalterlicher Architektur. Unterkünfte bestehen ausschließlich aus Pensionen und Apartments in restaurierten Steingebäuden."
+    },
+    {
+      "name": "Podlabin (Unterstadt)",
+      "bestFor": "Längere Aufenthalte, preisbewusste Reisende",
+      "parking": "Kostenlose und reichliche Parkplätze an der Straße",
+      "beach": "5 km (Rabac)",
+      "summary": "Der moderne Wohnteil von Labin am Fuße des Hügels. Es mangelt an historischem Charme, bietet aber Supermärkte, Bäckereien und günstigere Apartmentmieten."
+    },
+    {
+      "name": "Rabac",
+      "bestFor": "Strandurlauber, Familien mit Kindern",
+      "parking": "Kostenpflichtige öffentliche Parkplätze; Hotelparkplätze oft für Gäste reserviert",
+      "beach": "0 km (Kies)",
+      "summary": "Ein belebter Küstenort, eine fünfminütige Fahrt den Hügel hinunter von Labin entfernt. Er bietet große Resorthotels, Campingplätze und direkten Zugang zu beliebten Kiesstränden."
+    },
+    {
+      "name": "Kapelica & Salakovci",
+      "bestFor": "Gruppen, ruhige Aufenthalte, Reisende mit Auto",
+      "parking": "Private Einfahrten in den Mietpreisen enthalten",
+      "beach": "6-8 km",
+      "summary": "Ruhige Wohngegenden unmittelbar südlich von Labin. Diese Gebiete sind dicht besiedelt mit modernen Ferienhäusern und Villen mit privaten Pools."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "540 km, ca. 6,5 Stunden über A8, A10 und A2. Erfordert österreichische und slowenische Vignetten sowie die Maut für den Karawankentunnel.",
+      "other": "Flug nach Pula (saisonal), dann lokaler Bus oder Taxi."
+    },
+    {
+      "from": "Wien",
+      "car": "510 km, ca. 5,5 Stunden über A2 und slowenische A1. Erfordert österreichische und slowenische Vignetten.",
+      "other": "Direktbus über Rijeka oder saisonaler Flug nach Pula."
+    },
+    {
+      "from": "Budapest",
+      "car": "570 km, ca. 6 Stunden über M7, kroatische A4 und A6 nach Rijeka, dann Küstenstraße D66. Erfordert ungarische Vignette und kroatische Mautgebühren.",
+      "other": "Bus (Flixbus) über Zagreb und Rijeka."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "130 km, ca. 2 Stunden über A1 nach Črni Kal, dann Landstraße 208 zur Grenze. Erfordert slowenische Vignette.",
+      "other": "Direkte Busverbindung."
+    },
+    {
+      "from": "Prag",
+      "car": "840 km, ca. 9 Stunden über A9/A1 (AT) und A1 (SLO). Erfordert tschechische, österreichische und slowenische Vignetten sowie österreichische Tunnelmautgebühren.",
+      "other": "Flug nach Pula (saisonal), dann Flughafentransfer."
+    },
+    {
+      "from": "Krakau",
+      "car": "1000 km, ca. 11 Stunden über A4, tschechische D1, österreichische A1/A9 und slowenische A1. Erfordert polnische Mautgebühren sowie tschechische, österreichische und slowenische Vignetten.",
+      "other": "Flug von Krakau/Katowice nach Pula (saisonal)."
+    }
+  ],
+  "whenToGo": "Von Juni bis September erreicht die Meerestemperatur 24°C bis 27°C, was die Hauptsaison für Schwimmen und Sonnenbaden im nahegelegenen Rabac ist. Im Juli und August sind die Besucherzahlen am höchsten, was zu starkem Verkehr auf der Straße zwischen Labin und Rabac, begrenzten Parkmöglichkeiten und Höchstpreisen für Unterkünfte führt. Mai und Oktober bieten weniger Menschenmassen und niedrigere Preise, mit Tagestemperaturen um 18°C bis 22°C, was ideal zum Wandern oder Radfahren ist, obwohl das Meer oft zu kalt zum Schwimmen ist. Die meisten auf Touristen ausgerichteten Restaurants und saisonalen Geschäfte in der Altstadt schließen zwischen November und April, so dass in der Unterstadt (Podlabin) nur noch grundlegende Dienstleistungen geöffnet sind.",
+  "faq": [
+    {
+      "question": "Ist Labin einen Besuch wert?",
+      "answer": "Ja, Labin ist einen Besuch wert wegen seiner erhaltenen mittelalterlichen Architektur, Kunstgalerien und erhöhten Ausblicke über die Kvarner Bucht. Es bietet eine ruhigere, historischere Alternative zum direkten Aufenthalt in den belebten Küstenorten, während die Strände immer noch nur eine kurze Autofahrt entfernt sind."
+    },
+    {
+      "question": "Wie viele Tage brauche ich in Labin?",
+      "answer": "Zwei bis drei Tage sind ausreichend, um die Altstadt zu erkunden, das örtliche Bergbaumuseum zu besuchen und Zeit an den Stränden in Rabac zu verbringen. Reisende nutzen es oft als Ausgangspunkt für eine Woche, um Tagesausflüge nach Pula, Kap Kamenjak und Zentralistrien zu unternehmen."
+    },
+    {
+      "question": "Was ist der beste Strand in der Nähe von Labin?",
+      "answer": "Der Girandella Strand in Rabac ist der beliebteste, mit weißen Kieseln, klarem Wasser und zahlreichen Einrichtungen. Für eine ruhigere Option liegt Sveta Marina eine 15-minütige Fahrt südlich und ist gut zum Schwimmen und Tauchen geeignet."
+    },
+    {
+      "question": "Brauche ich ein Auto in Labin?",
+      "answer": "Ein Auto ist sehr empfehlenswert, um zwischen Labin, den Stränden in Rabac und der umliegenden istrischen Landschaft zu reisen. Während ein lokaler Bus die Altstadt und die Küste verbindet, bietet ein Fahrzeug die nötige Flexibilität für Tagesausflüge und Lebensmitteleinkäufe."
+    },
+    {
+      "question": "Wo kann ich in Labin parken?",
+      "answer": "Der Hauptparkplatz für die Altstadt befindet sich am Titov Trg (Tito-Platz), mit einem Ausweichparkplatz in der Nähe des Friedhofs. Parken hier ist in den Sommermonaten gebührenpflichtig (stündlich oder täglich), und die Plätze füllen sich bis zum Vormittag schnell."
+    },
+    {
+      "question": "Ist Labin gut für Familien?",
+      "answer": "Labin ist sehr gut für Familien geeignet, insbesondere für diejenigen, die eine Villa mit Pool am Stadtrand mieten oder planen, zu den Stränden von Rabac zu fahren. Familien mit Kinderwagen werden die Altstadt auf dem Hügel jedoch aufgrund ihrer steilen Kopfsteinpflastergassen und Treppen schwierig zu navigieren finden."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Auf einen Blick",
+    "whereToStay": "Wo in Labin übernachten",
+    "gettingThere": "Anreise nach Labin",
+    "whenToGo": "Beste Reisezeit",
+    "guides": "Labin Reiseführer",
+    "faq": "Labin FAQ",
+    "groups": {
+      "gettingAround": "Parken & Fortbewegung",
+      "planning": "Planung & Unterkünfte",
+      "timing": "Wann reisen",
+      "travelers": "Familien, Paare & Reisestile",
+      "activities": "Strände & Aktivitäten",
+      "food": "Essen & Trinken",
+      "comparisons": "Vergleiche",
+      "practical": "Praktische Infos"
+    },
+    "car": "Mit dem Auto",
+    "other": "Andere Optionen",
+    "bestFor": "Am besten für",
+    "parking": "Parken",
+    "beach": "Strand"
+  },
+  "destination": "labin",
+  "language": "de",
+  "updatedAt": "2026-10-16T12:14:40.031Z"
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Opatija Reisgids: Wijken, Parkeren & Bereikbaarheid",
+  "metaDescription": "Plan je reis naar Opatija. Lees over de beste wijken om te verblijven, parkeertips, stranden, routes vanuit Europa en de beste reistijd.",
+  "intro": "Opatija is een kustplaats aan de Kvarner Golf, bekend om zijn Oostenrijks-Hongaarse architectuur, historische parken en de 12 kilometer lange Lungomare-promenade. Het richt zich voornamelijk op volwassen reizigers, stellen en senioren die geïnteresseerd zijn in dineren, spabehandelingen en wandelingen langs de kust, in plaats van nachtelijk uitgaan of zandstranden.\n\nDe stad loopt steil af naar de Adriatische Zee, wat betekent dat veel accommodaties op heuvels boven de belangrijkste kustweg liggen. De zomer brengt hoge temperaturen met zich mee, geschikt om te zwemmen vanaf de betonnen en rotsachtige terrassen van de stad, terwijl de lente en herfst bezoekers trekken voor wandelingen en wellnessvakanties. Omdat het een populaire weekendbestemming is vanuit Midden-Europa, vereisen verkeer en parkeren in de topmaanden voorafgaande planning.",
+  "quickFacts": [
+    {
+      "label": "Beste maanden",
+      "value": "Mei tot september"
+    },
+    {
+      "label": "Zeetemperatuur augustus",
+      "value": "24°C tot 26°C"
+    },
+    {
+      "label": "Dichtstbijzijnde luchthaven",
+      "value": "Luchthaven Rijeka (RJK), 42 km"
+    },
+    {
+      "label": "Hoofdtype strand",
+      "value": "Betonnen terrassen en rotsachtige kusten"
+    },
+    {
+      "label": "Prijsniveau",
+      "value": "Hoger dan het Kroatische gemiddelde"
+    },
+    {
+      "label": "Wandelbaarheid",
+      "value": "Wandelpromenade; hoofdweg is niet autovrij"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Opatija Centrum",
+      "bestFor": "Eerste keer bezoekers en stellen die toegang willen tot restaurants en historische parken",
+      "parking": "Duur en schaars; gebruik openbare garages zoals Slatina of Gorovo",
+      "beach": "Slatina (betonnen terrassen) en Tomaševac (deels zand/beton)",
+      "summary": "De historische kern omvat 19e-eeuwse villa's, verzorgde tuinen en de grootste concentratie aan restaurants en hotels. De hoofdstraat, Ulica Maršala Tita, loopt erdoorheen en heeft 's zomers veel verkeer."
+    },
+    {
+      "name": "Volosko",
+      "bestFor": "Voedingsliefhebbers en zij die een rustigere, dorpse sfeer zoeken",
+      "parking": "Zeer beperkte openbare parkeerplaatsen; meestal alleen voor bewoners",
+      "beach": "Kleine betonnen zwemplekken langs de Lungomare",
+      "summary": "Een voormalig vissersdorp net ten noorden van het centrum, dat het begin markeert van de Lungomare. Het staat bekend om zijn smalle geplaveide straatjes, visrestaurants en lokale tavernes gebouwd rond een kleine haven."
+    },
+    {
+      "name": "Ičići",
+      "bestFor": "Families en bezoekers die standaard kiezelstranden en toegang tot de jachthaven willen",
+      "parking": "Betaald parkeren op straat nabij het strand; vaak vol tegen halverwege de ochtend in juli",
+      "beach": "Strand Ičići (grote kiezelbaai met betonnen ligweides)",
+      "summary": "Drie kilometer ten zuiden van het centrum van Opatija gelegen, biedt Ičići een meer typisch mediterrane zomervakantieomgeving. Het beschikt over een grote ACI Marina en is direct verbonden met Opatija via de kustpromenade."
+    },
+    {
+      "name": "Lovran",
+      "bestFor": "Reizigers die een rustiger tempo en middeleeuwse architectuur zoeken",
+      "parking": "Verschillende betaalde gemeentelijke parkeerplaatsen nabij de oude stad en haven",
+      "beach": "Peharovo (kiezel) en Kvarner (beton)",
+      "summary": "Lovran is een aparte stad aan het zuidelijke uiteinde van de Lungomare, ongeveer zes kilometer van Opatija. Het behoudt een middeleeuwse historische kern en biedt een meer ontspannen, iets minder dure alternatief voor Opatija zelf."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "510 km, ~6 uur via A8, Tauern Autobahn (A10) en Slovenië. Vereist Oostenrijks vignet, Tauern/Karawanken tunnel tol, Sloveens vignet en Kroatisch tol.",
+      "other": "Directe nachttrein (Nightjet) naar Rijeka, daarna lokale bus"
+    },
+    {
+      "from": "Wenen",
+      "car": "490 km, ~5 uur via A2 naar Graz, daarna A9 en Sloveense A1. Vereist Oostenrijks vignet, Sloveens vignet en Kroatisch tol.",
+      "other": "Directe bus (FlixBus) of trein (ÖBB) naar Rijeka, daarna lokale bus"
+    },
+    {
+      "from": "Boedapest",
+      "car": "510 km, ~5 uur via M7 naar de grens, daarna Kroatische A4, A1 en A6 naar Rijeka. Vereist Hongaars vignet en Kroatische tol.",
+      "other": "Directe trein of FlixBus naar Rijeka, met aansluiting naar Opatija"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "110 km, ~1,5 uur via A1 naar Postojna, daarna Route 6 naar Ilirska Bistrica/Rupa. Vereist Sloveens vignet en Kroatisch tol.",
+      "other": "Directe bus of trein naar Rijeka, daarna lokale bus"
+    },
+    {
+      "from": "Praag",
+      "car": "750 km, ~8,5 uur via Wenen en Graz (A2/A9). Vereist Tsjechisch, Oostenrijks en Sloveens vignet, plus Kroatische tol.",
+      "other": "RegioJet trein naar Rijeka (alleen 's zomers) of vlucht naar Wenen/Zagreb"
+    },
+    {
+      "from": "Krakau",
+      "car": "850 km, ~9,5 uur via Brno, Wenen en Graz. Vereist Tsjechisch, Oostenrijks en Sloveens vignet, plus Kroatische tol.",
+      "other": "Vlucht naar Zagreb of Zadar, gevolgd door een langeafstandsbus"
+    }
+  ],
+  "whenToGo": "Juni tot september biedt het beste weer om te zwemmen, met zeetemperaturen die in augustus 26°C bereiken. Juli en augustus zijn de drukste en duurste maanden, met drukke promenades en veel verkeer. Mei en oktober bieden koelere temperaturen, ideaal om de berg Učka te beklimmen of over de Lungomare te wandelen, hoewel de zee dan doorgaans te koud is om te zwemmen. De meeste grote hotels en restaurants blijven het hele jaar open, aangezien Opatija ook voorziet in winterse wellnessvakanties en conferenties, maar sommige kleinere etablissementen sluiten van november tot Pasen.",
+  "faq": [
+    {
+      "question": "Is Opatija de moeite waard om te bezoeken?",
+      "answer": "Ja, als je historische architectuur, verzorgde tuinen en kustpromenades waardeert. Het mist zandstranden en uitgaansgebieden, en spreekt voornamelijk volwassenen aan die op zoek zijn naar een ontspannen, luxe strandvakantie."
+    },
+    {
+      "question": "Hoeveel dagen moet ik in Opatija doorbrengen?",
+      "answer": "Twee tot drie dagen is voldoende om over de Lungomare te wandelen, het stadscentrum te verkennen en naburige dorpen zoals Volosko of Lovran te bezoeken. Het dient ook als een handige uitvalsbasis voor dagtochten naar Istrië of de Kvarner-eilanden."
+    },
+    {
+      "question": "Wat is het beste strand in Opatija?",
+      "answer": "Slatina is het meest centrale strand, met betonnen terrassen en verhuur van ligstoelen. Voor een traditioneel kiezelstrand ga je drie kilometer naar het zuiden naar Ičići of verder langs de kust naar Medveja."
+    },
+    {
+      "question": "Heb ik een auto nodig in Opatija?",
+      "answer": "Nee, een auto is onnodig als je van plan bent in de stad te blijven, aangezien het centrum beloopbaar is en de Lungomare de belangrijkste kustdorpen verbindt. Lokale bussen rijden frequent tussen Rijeka, Opatija en Lovran."
+    },
+    {
+      "question": "Waar kan ik parkeren in Opatija?",
+      "answer": "Parkeren op straat is verdeeld in betaalde zones en raakt snel vol tijdens zomerweekenden. De meest betrouwbare opties zijn de openbare parkeergarages, zoals Garage Slatina, Garage Gorovo of Garage Gervais, hoewel het wordt aanbevolen om parkeergelegenheid via je hotel te regelen."
+    },
+    {
+      "question": "Is Opatija goed voor gezinnen?",
+      "answer": "Het is geschikt voor gezinnen, maar minder ideaal voor peuters omdat de stranden meestal betonnen platen of diepe rotsachtige baaien zijn in plaats van ondiep zand. Oudere kinderen kunnen genieten van watersporten, en ouders zullen de geplaveide, kinderwagenvriendelijke promenade waarderen."
+    }
+  ],
+  "headings": {
+    "quickFacts": "In één oogopslag",
+    "whereToStay": "Waar te verblijven in Opatija",
+    "gettingThere": "Bereikbaarheid van Opatija",
+    "whenToGo": "Beste reistijd",
+    "guides": "Opatija gidsen",
+    "faq": "Veelgestelde vragen over Opatija",
+    "groups": {
+      "gettingAround": "Parkeren & rondreizen",
+      "planning": "Planning & waar te verblijven",
+      "timing": "Beste reistijd",
+      "travelers": "Gezinnen, stellen & reisstijlen",
+      "activities": "Stranden & dingen om te doen",
+      "food": "Eten & drinken",
+      "comparisons": "Vergelijkingen",
+      "practical": "Praktische info"
+    },
+    "car": "Met de auto",
+    "other": "Andere opties",
+    "bestFor": "Het beste voor",
+    "parking": "Parkeren",
+    "beach": "Strand"
+  },
+  "destination": "opatija",
+  "language": "nl",
+  "updatedAt": "2026-10-16T12:39:44.300Z"
+}

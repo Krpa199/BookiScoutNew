@@ -1,0 +1,146 @@
+{
+  "title": "Rijeka Przewodnik Turystyczny: Dzielnice, Plaże i Dojazd",
+  "metaDescription": "Zaplanuj swoją podróż do Rijeki. Praktyczny przewodnik obejmujący trasy dojazdowe z Europy, miejsca noclegowe, opcje parkowania, dostęp do plaż i najlepsze pory na wizytę.",
+  "intro": "Rijeka to trzecie co do wielkości miasto Chorwacji i jej najbardziej ruchliwy port morski, znacznie różniący się od typowych dalmatyńskich kurortów turystycznych. Przyciąga podróżnych zainteresowanych architekturą austro-węgierską, dziedzictwem przemysłowym i atmosferą tętniącego życiem miasta. Głównym punktem centralnym jest deptak Korzo i otaczające go historyczne ulice, natomiast plaże znajdują się kilka kilometrów na wschód i zachód od centrum.\n\nPonieważ Rijeka jest głównym węzłem komunikacyjnym, doskonale sprawdza się jako baza wypadowa na jednodniowe wycieczki na półwysep Istria, wyspy Zatoki Kvarner i do Parku Narodowego Risnjak. Miasto najlepiej odwiedzać między majem a wrześniem, kiedy pogoda sprzyja kąpielom, a zaplanowane są wydarzenia plenerowe, choć pozostaje aktywne przez cały rok, w przeciwieństwie do wysoce sezonowych miast nadmorskich.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "Maj do września"
+    },
+    {
+      "label": "Temperatura morza w sierpniu",
+      "value": "24°C do 26°C"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Lotnisko Rijeka (RJK), 26 km / 30 min"
+    },
+    {
+      "label": "Główny typ plaży",
+      "value": "Żwirowe i betonowe tarasy"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "10-20% niższe niż w Splicie lub Dubrowniku"
+    },
+    {
+      "label": "Przystosowanie do pieszych",
+      "value": "Korzo i najbliższe Stare Miasto są strefami bez samochodów"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centrum miasta / Korzo",
+      "bestFor": "Zwiedzanie, tranzyt i życie nocne",
+      "parking": "Trudne; polegaj na płatnych parkingach takich jak Delta lub garażach",
+      "beach": "Brak; wymaga 10-15 minut jazdy autobusem",
+      "summary": "Handlowe i historyczne centrum Rijeki, z deptakiem Korzo, muzeami i głównym dworcem autobusowym."
+    },
+    {
+      "name": "Kantrida",
+      "bestFor": "Rodziny i plażowicze",
+      "parking": "Parking uliczny i publiczne parkingi dostępne w pobliżu obiektów sportowych",
+      "beach": "Żwirowe plaże (Ploče, Kantrida) w zasięgu spaceru",
+      "summary": "Zachodnie przedmieście nadmorskie, znane z basenów, stadionu piłkarskiego i dostępnych żwirowych plaż."
+    },
+    {
+      "name": "Pećine",
+      "bestFor": "Spokojny pobyt z szybkim dostępem do plaży",
+      "parking": "Ograniczone bezpłatne miejsca parkingowe na ulicy, często zatłoczone latem",
+      "beach": "Bezpośredni dostęp do żwirowych plaż Sablićevo i Glavanovo",
+      "summary": "Wschodnia dzielnica mieszkalna zbudowana na zboczu, z zabytkowymi willami i małymi, malowniczymi zatoczkami nadmorskimi."
+    },
+    {
+      "name": "Trsat",
+      "bestFor": "Miłośnicy historii i widoków panoramicznych",
+      "parking": "Łatwiejsze niż w centrum, z darmowymi miejscami i dedykowanym parkingiem",
+      "beach": "Brak plaży; 15 minut jazdy samochodem do wybrzeża",
+      "summary": "Wzgórzowa dzielnica położona nad rzeką Rječina, będąca siedzibą Zamku Trsat i Sanktuarium Matki Bożej z Trsatu."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Z Monachium",
+      "car": "510 km, 5.5-6.5 godziny przez A8, A10, A2, A1, A7. Wymaga austriackiej winiety, opłaty za tunel Karawanken, słoweńskiej winiety i chorwackich opłat drogowych.",
+      "other": "FlixBus lub pociąg nocny do Lublany, z przesiadką na autobus."
+    },
+    {
+      "from": "Z Wiednia",
+      "car": "490 km, 5-6 godzin przez A2, A1, A7. Wymaga austriackiej winiety, słoweńskiej winiety i chorwackich opłat drogowych.",
+      "other": "FlixBus lub pociąg ÖBB (bezpośredni lub z przesiadką w Lublanie)."
+    },
+    {
+      "from": "Z Budapesztu",
+      "car": "500 km, 5-5.5 godziny przez M7, A4, A6. Wymaga węgierskiej e-winiety i chorwackich opłat drogowych.",
+      "other": "Bezpośredni FlixBus lub pociąg przez Zagrzeb."
+    },
+    {
+      "from": "Z Lublany",
+      "car": "115 km, 1.5-2 godziny przez A1 do Postojnej, następnie drogą 6/8 do Ilirskiej Bistricy i A7. Wymaga słoweńskiej winiety i chorwackich opłat drogowych.",
+      "other": "Bezpośredni autobus lub pociąg (około 2.5 godziny)."
+    },
+    {
+      "from": "Z Pragi",
+      "car": "820 km, 8.5-10 godzin przez Wiedeń lub Linz/Graz. Wymaga czeskiej, austriackiej i słoweńskiej winiety, a także opłat za tunel i chorwackich opłat drogowych.",
+      "other": "Pociąg przez Wiedeń/Zagrzeb lub autobus nocny."
+    },
+    {
+      "from": "Z Krakowa",
+      "car": "900 km, 9-10.5 godziny przez Ostrawę, Brno, Wiedeń i Graz. Wymaga polskich opłat drogowych, a także czeskiej, austriackiej i słoweńskiej winiety oraz chorwackich opłat drogowych.",
+      "other": "Lot do Zagrzebia, a następnie bezpośredni autobus do Rijeki."
+    }
+  ],
+  "whenToGo": "Najlepszy czas na wizytę w Rijece to okres od czerwca do września, kiedy temperatura morza osiąga 24°C do 26°C, a obiekty plenerowe działają w pełni. Lipiec i sierpień to najcieplejsze i najbardziej zatłoczone miesiące, choć tłumy i ceny są znacznie niższe niż w południowej Dalmacji. Maj i październik oferują chłodniejsze temperatury, odpowiednie do wędrówek po pobliskich parkach narodowych, z niższymi cenami zakwaterowania. Od listopada do kwietnia miasto doświadcza łagodnych, ale deszczowych zim; chociaż wiele turystycznych obiektów plażowych jest zamkniętych, muzea, centralne restauracje i sklepy w mieście pozostają otwarte przez cały rok.",
+  "faq": [
+    {
+      "question": "Czy warto odwiedzić Rijekę?",
+      "answer": "Tak, jeśli interesuje Cię historia przemysłowa, architektura austro-węgierska i atmosfera tętniącego życiem miasta. Nie jest to zalecane, jeśli szukasz tradycyjnego kurortu skupionego wyłącznie na turystyce plażowej."
+    },
+    {
+      "question": "Ile dni potrzebuję w Rijece?",
+      "answer": "Jeden do dwóch dni wystarczy, aby zobaczyć główne atrakcje w centrum miasta i na Trsacie. Dodaj trzy do czterech dni, jeśli planujesz wykorzystać Rijekę jako bazę wypadową na jednodniowe wycieczki na Istrię, wyspę Krk lub do Gorskiego Kotaru."
+    },
+    {
+      "question": "Jaka jest najlepsza plaża w Rijece?",
+      "answer": "Plaża Sablićevo w dzielnicy Pećine i plaża Ploče w Kantridzie to najpopularniejsze opcje. Obie oferują żwirowe wybrzeże, czystą wodę i podstawowe udogodnienia, takie jak prysznice."
+    },
+    {
+      "question": "Czy potrzebuję samochodu w Rijece?",
+      "answer": "Samochód nie jest konieczny do zwiedzania centrum miasta, które jest dostępne pieszo i dobrze skomunikowane lokalnymi autobusami. Jednak posiadanie pojazdu jest wysoce zalecane do odwiedzania pobliskich parków narodowych, wysp i wiejskiej Istrii."
+    },
+    {
+      "question": "Gdzie najlepiej zaparkować w Rijece?",
+      "answer": "Parking Delta oferuje najwięcej miejsc na zewnątrz w niewielkiej odległości od strefy dla pieszych. W przypadku parkingu krytego, garaże Gomila i Zagrad są bezpieczne i centralnie położone."
+    },
+    {
+      "question": "Czy Rijeka jest dobra dla rodzin?",
+      "answer": "Tak, starsze dzieci docenią atrakcje takie jak Zamek Trsat, Muzeum Historii Naturalnej i baseny Kantrida. Rodziny z małymi dziećmi mogą uznać brak płytkich, piaszczystych plaż za wyzwanie."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Gdzie się zatrzymać w Rijece",
+    "gettingThere": "Dojazd do Rijeki",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Rijece",
+    "faq": "Rijeka FAQ",
+    "groups": {
+      "gettingAround": "Parking i poruszanie się",
+      "planning": "Planowanie i gdzie się zatrzymać",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróżowania",
+      "activities": "Plaże i atrakcje",
+      "food": "Jedzenie i napoje",
+      "comparisons": "Porównania",
+      "practical": "Informacje praktyczne"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "rijeka",
+  "language": "pl",
+  "updatedAt": "2026-10-16T09:46:40.435Z"
+}

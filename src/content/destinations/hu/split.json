@@ -1,0 +1,146 @@
+{
+  "title": "Split Útikalauz: Strandok, parkolás és szállás",
+  "metaDescription": "Tervezze meg útját Splitbe, Horvátországba. Olvasson tényeken alapuló tanácsokat a legjobb szálláshelyekről, útvonalakról, parkolásról, strandokról és kompjáratokról egynapos kirándulásokhoz.",
+  "intro": "Split a dalmát tengerpart legnagyobb városa, amely egyaránt fontos közlekedési csomópont és történelmi úti cél. Ideális azoknak az utazóknak, akik a római építészet, a városi infrastruktúra és a közeli szigetekre való közvetlen kompjáratok keverékét keresik. A város központi eleme a Diocletianus-palota, egy nagyrészt megőrzött római komplexum, amely a modern kereskedelmi központba integrálódott.\n\nA főszezon május végétől október elejéig tart. Július és augusztus hozza a legmagasabb hőmérsékletet, a legnagyobb tömeget és a legmagasabb szállásárakat. Azok, akik a városnézést előnyben részesítik az úszással szemben, áprilisban, májusban vagy októberben látogassanak el, amikor a nappali hőmérséklet enyhébb, az utcák kevésbé zsúfoltak, és a szállásárak észrevehetően alacsonyabbak.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Május, június, szeptember, október"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "25°C és 27°C között"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Split repülőtér (SPU), 24 km-re a központtól"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Főként kavicsos, egy központi homokos stranddal"
+    },
+    {
+      "label": "Árszínvonal",
+      "value": "A horvát átlag felett"
+    },
+    {
+      "label": "Óváros bejárhatósága",
+      "value": "Teljesen sétálóutcás és autómentes"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Óváros (Grad)",
+      "bestFor": "Városnézéshez és rövid, autó nélküli tartózkodáshoz",
+      "parking": "Belül nincs parkolás; drága parkolók a peremén",
+      "beach": "15 perc sétára Bačvice-től (homokos)",
+      "summary": "A történelmi mag, amely a Diocletianus-palota köré épült. Éttermekkel, történelmi helyszínekkel és sétálóutcákkal sűrűn tele van."
+    },
+    {
+      "name": "Bačvice és Firule",
+      "bestFor": "Éjszakai élethez és központi strandhozzáféréshez",
+      "parking": "Korlátozott utcai parkolás a 2-es zónában",
+      "beach": "Közvetlen hozzáférés homokos és sekély öblökhöz",
+      "summary": "Lakónegyedek közvetlenül a komp kikötőjétől keletre. Gyors hozzáférést biztosítanak a város leghíresebb homokos strandjaihoz és főbb éjszakai klubjaihoz."
+    },
+    {
+      "name": "Meje",
+      "bestFor": "Csendes tartózkodáshoz és természetközeli élményhez",
+      "parking": "Általában elérhető ingyenes utcai parkolás",
+      "beach": "10-20 perc sétára Kašjuni-tól (kavicsos)",
+      "summary": "Egy előkelő lakónegyed a Marjan-domb déli lejtőin. Távol tartja a városi tömegtől, miközben a központ gyalogosan is elérhető."
+    },
+    {
+      "name": "Žnjan",
+      "bestFor": "Családoknak és autós utazóknak",
+      "parking": "Bőséges magán és nyilvános parkolóhelyek",
+      "beach": "Közvetlen hozzáférés egy hosszú kavicsos tengerparthoz",
+      "summary": "Egy újabb tengerparti előváros a központtól keletre, modern lakóházakkal. A területen található a város leghosszabb összefüggő kavicsos strandja és tengerparti kávézók."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "850 km, 8,5-9,5 óra az A8, A10, A2 és A1 útvonalakon. Osztrák és szlovén autópályamatrica szükséges; díjköteles osztrák alagutak és horvát autópályák.",
+      "other": "Közvetlen járat (Lufthansa/Croatia Airlines) vagy közvetlen FlixBus"
+    },
+    {
+      "from": "Bécs",
+      "car": "760 km, 7,5-8 óra az A2, A9 és A1 útvonalakon. Osztrák és szlovén autópályamatrica szükséges; díjköteles horvát autópályák.",
+      "other": "Közvetlen járat (Austrian/Ryanair) vagy közvetlen FlixBus"
+    },
+    {
+      "from": "Budapest",
+      "car": "750 km, 7-8 óra az M7, A4 és A1 útvonalakon. Magyar autópályamatrica szükséges; díjköteles horvát autópályák.",
+      "other": "Szezonális hálókocsis vonat vagy közvetlen FlixBus"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "470 km, 5 óra az A2 és A1 útvonalakon. Szlovén autópályamatrica szükséges; díjköteles horvát autópályák.",
+      "other": "Közvetlen FlixBus"
+    },
+    {
+      "from": "Prága",
+      "car": "1050 km, 11-12 óra a D1, A9 és A1 útvonalakon. Cseh, osztrák és szlovén autópályamatrica szükséges; díjköteles osztrák alagutak és horvát autópályák.",
+      "other": "Közvetlen járat (Smartwings/Croatia Airlines) vagy FlixBus"
+    },
+    {
+      "from": "Krakkó",
+      "car": "1050 km, 11-12 óra az A4, SK, M7 és A1 útvonalakon. Szlovák és magyar autópályamatrica szükséges; díjköteles lengyel és horvát autópályák.",
+      "other": "Közvetlen járat (Ryanair/LOT) vagy FlixBus"
+    }
+  ],
+  "whenToGo": "Júniustól augusztusig a tenger hőmérséklete eléri a 25°C-27°C-ot, az összes szigeti komp csúcsidőszaki menetrend szerint közlekedik, és a szállásárak a legmagasabbak. Május és szeptember enyhébb nappali hőmérsékletet kínál, körülbelül 20°C-24°C-ot, alacsonyabb árakat és kevesebb tömeget, bár a tenger érezhetően hidegebb. November és április között 10°C-15°C közötti nappali maximumokra lehet számítani; sok tengerparti étterem és szezonális üzlet bezár, és a kompjáratok jelentősen lecsökkennek, de a szállásárak akár 50 százalékkal is csökkenhetnek.",
+  "faq": [
+    {
+      "question": "Érdemes Splitbe látogatni?",
+      "answer": "Igen, ha egy nagy tengerparti várost keres, érintetlen római építészettel és fontos kompjáratokkal. Nem alkalmas olyan utazóknak, akik csendes, elszigetelt tengerparti várost keresnek."
+    },
+    {
+      "question": "Hány napra van szükségem Splitben?",
+      "answer": "Két-három nap elegendő az Óváros, a Marjan-domb és a helyi strandok megtekintéséhez. Hosszabbítsa meg az utazást öt-hét napra, ha a várost bázisként használja Hvar, Brač vagy Krka Nemzeti Park egynapos kirándulásaihoz."
+    },
+    {
+      "question": "Melyik a legjobb strand Splitben?",
+      "answer": "A Kašjuni széles körben a legszebb kavicsos strandnak számít, a Marjan-domb lábánál található. A Bačvice a legnépszerűbb homokos strand központi elhelyezkedése miatt, míg Žnjan kínálja a leghosszabb összefüggő kavicsos partszakaszt."
+    },
+    {
+      "question": "Szükségem van autóra Splitben?",
+      "answer": "Nincs szüksége autóra, ha a központban száll meg, és szigeteket tervez felkeresni komppal vagy katamaránnal. Autóra csak akkor van szükség, ha a külső külvárosokban foglal szállást, vagy önálló kirándulásokat tervez a szárazföldi part mentén."
+    },
+    {
+      "question": "Hol parkoljak Splitben?",
+      "answer": "Használja az Óváros peremén található nagy fizetős parkolókat, mint például a Stari Plac vagy a Vukovarska utcai parkolók. Az utcai parkolás az 1-es és 2-es zónában rendkívül versenyképes és gyakran csak a lakosok számára engedélyezett."
+    },
+    {
+      "question": "Alkalmas Split családok számára?",
+      "answer": "Igen, különösen a keleti külvárosokban, mint Žnjan vagy Stobreč, ahol a strandok szélesek és a parkolás könnyebb. Babakocsival érkező családoknak kerülniük kell az azonnali Óváros keskeny, lépcsős utcáit."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Röviden",
+    "whereToStay": "Hol szálljon meg Splitben",
+    "gettingThere": "Hogyan juthat el Splitbe",
+    "whenToGo": "Mikor utazzon",
+    "guides": "Split útikönyvek",
+    "faq": "Split Gyakran Ismételt Kérdések",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor utazzon",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Étel és ital",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "split",
+  "language": "hu",
+  "updatedAt": "2026-10-16T09:26:21.318Z"
+}

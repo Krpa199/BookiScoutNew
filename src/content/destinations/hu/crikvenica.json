@@ -1,0 +1,146 @@
+{
+  "title": "Crikvenica utazási útmutató: Strandok, környékek és autós útvonalak",
+  "metaDescription": "Tervezzen utazást Crikvenicára, Horvátországba. Fedezze fel a legjobb szálláshelyeket, autós útvonalakat Közép-Európából, strandtípusokat és parkolási információkat.",
+  "intro": "Crikvenica egy tengerparti város a Kvarner-öbölben, hosszú tengerparti sétány és kavicsos, homokos strandok jellemzik. Praktikus, könnyen megközelíthető nyári úti cél családok és párok számára, akik Közép-Európából érkeznek autóval. A város zökkenőmentesen összeolvad a szomszédos településekkel, mint Dramalj és Selce, így egy összefüggő, 28 kilométeres tengerparti sávot alkotva, melyet Crikvenicai Riviéraként ismernek.\n\nAz úti cél azoknak az utazóknak ideális, akik egyszerű tengerparti nyaralásra vágynak, közvetlen tengeri hozzáféréssel, nem pedig elszigetelt öblöket vagy kiterjedt történelmi építészetet keresnek. A látogatók általában június és szeptember között érkeznek úszni és napozni. A szállások többsége magánapartmanokból, vendégházakból és középkategóriás üdülőszállodákból áll, melyek közvetlenül a tengerparti út mentén vagy a vízre néző domboldalon helyezkednek el.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Júniustól szeptemberig"
+    },
+    {
+      "label": "Tenger hőm. (aug.)",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Legközelebbi reptér",
+      "value": "Rijeka (RJK), 20 km"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Kavicsos és részben homokos"
+    },
+    {
+      "label": "Árszint",
+      "value": "Átlagos a horvát tengerparthoz képest"
+    },
+    {
+      "label": "Belvárosi gyaloglás",
+      "value": "Sík, gyalogosbarát"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centrum (Belváros)",
+      "bestFor": "Éttermek és közlekedés közelsége miatt",
+      "parking": "Nagy kereslet, többnyire fizetős nyilvános parkolók",
+      "beach": "5 perc séta a Gradska (Városi Strand) strandig",
+      "summary": "A Riviéra kereskedelmi központja kínálja a legtöbb étkezési, vásárlási és közlekedési lehetőséget. Esténként is forgalmas, és sík, könnyen bejárható kiindulópontot biztosít a látogatóknak."
+    },
+    {
+      "name": "Crni Molo",
+      "bestFor": "Kisgyermekes családoknak",
+      "parking": "Utcai parkolás, nyáron hamar megtelik",
+      "beach": "Közvetlen hozzáférés sekély homokos/kavicsos strandhoz",
+      "summary": "Rendkívül népszerű övezet, a régió kevés sekély homokos strandjainak egyike körül. A szállások itt gyorsan telnek főszezonban a közvetlen strandközelség miatt."
+    },
+    {
+      "name": "Dramalj",
+      "bestFor": "Csendesebb tartózkodásra és pároknak",
+      "parking": "Könnyebb, mint a belvárosban, gyakran helyben",
+      "beach": "Kavicsos és beton teraszok 10 perces sétára",
+      "summary": "A központtól északnyugatra fekvő Dramalj nyugodtabb tempót és kissé olcsóbb szállást kínál. A tengerparti sétány közvetlenül összeköti Crikvenicával az esti sétákhoz."
+    },
+    {
+      "name": "Selce",
+      "bestFor": "Falusias hangulatért",
+      "parking": "Korlátozott az óvárosban, jobb a külvárosban",
+      "beach": "Kavicsos és beton, többnyire 5-15 perc gyalog",
+      "summary": "Valaha önálló halászfalu volt Crikvenicától délkeletre, Selce különálló, kisebb léptékű központtal rendelkezik. Saját kikötővel, kávézókkal és kissé kevésbé elüzletiesedett tengerparti szakaszokkal."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "530 km, ~6,5 óra az A8, A10 (Tauern), Karawanken alagút, Ljubljana, Rijeka útvonalon. Útdíjak: AT matrica, Tauern/Karawanken alagút díj, SI matrica, HR útdíj.",
+      "other": "Közvetlen FlixBus Crikvenicára (kb. 9 óra) vagy repülőjárat a Rijeka repülőtérre."
+    },
+    {
+      "from": "Bécs",
+      "car": "510 km, ~6 óra az A2-n keresztül Grazba, Mariborba, Zágrábba, majd az A6-on Rijekába. Útdíjak: AT matrica, SI matrica, HR útdíjak.",
+      "other": "Közvetlen FlixBus Crikvenicára (kb. 8-9 óra)."
+    },
+    {
+      "from": "Budapest",
+      "car": "510 km, ~5,5 óra az M7-en Letenye határig, A4 Zágrábba, A6 Rijekába. Útdíjak: HU matrica, HR útdíjak.",
+      "other": "Közvetlen FlixBus (kb. 7 óra) vagy vonat Zágrábba, majd busz."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "130 km, ~2 óra az A1-en keresztül Postojnába, Ilirska Bistricába, Rupa határátkelőig, Rijekába. Útdíjak: SI matrica, HR útdíj.",
+      "other": "Közvetlen busz a ljubljanai buszpályaudvarról (kb. 3 óra)."
+    },
+    {
+      "from": "Prága",
+      "car": "830 km, ~9,5 óra Bécsen, Grazon, Mariboron, Zágrábon, Rijekán keresztül. Útdíjak: CZ, AT, SI matricák, HR útdíjak.",
+      "other": "RegioJet vonat vagy busz kombináció Rijekába, majd helyi busz."
+    },
+    {
+      "from": "Krakkó",
+      "car": "900 km, ~10 óra az A4-en keresztül Ostraván, Brnón, Bécsen, Grazon, Mariboron, Zágrábon át. Útdíjak: PL útdíj, CZ, AT, SI matricák, HR útdíjak.",
+      "other": "Repülőjárat Zágrábba vagy Zadarba, majd belföldi busz."
+    }
+  ],
+  "whenToGo": "Júniustól szeptemberig tart a főszezon az úszásra, augusztusban a tenger hőmérséklete körülbelül 26°C-ra emelkedik. Július és augusztus hozza a legmagasabb árakat, a legnagyobb tömeget és a teljesen működő tengerparti bárokat, hajókirándulásokat és éttermeket. Június és szeptember enyhébb hőmérsékletet és alacsonyabb szállásköltségeket kínál, bár június elején a tenger kissé hűvösebb. Októbertől májusig van az utószezon; a tenger hőmérséklete 18°C alá csökken, a tömeg eltűnik, és a szezonális éttermek és szállodák jelentős része bezár, csak az alapvető helyi szolgáltatások maradnak nyitva.",
+  "faq": [
+    {
+      "question": "Érdemes-e meglátogatni Crikvenicát?",
+      "answer": "Crikvenica érdemes meglátogatni azoknak az utazóknak, akik egy könnyen megközelíthető, egyszerű tengerparti nyaralásra vágynak, fejlett infrastruktúrával. Különösen praktikus a Közép-Európából autóval érkező családok számára, de kevésbé alkalmas azoknak, akik drámai történelmi építészetet vagy elszigetelt természetet keresnek."
+    },
+    {
+      "question": "Hány napra van szükségem Crikvenicán?",
+      "answer": "Három-öt nap elegendő a Riviéra felfedezéséhez és a strandok élvezetéhez. Egy teljes hét elegendő időt biztosít Krk szigetére, a Plitvicei-tavakhoz vagy az Isztriai-félszigetre tett egynapos kirándulásokhoz."
+    },
+    {
+      "question": "Melyik a legjobb strand Crikvenicán?",
+      "answer": "Crni Molo a legnépszerűbb strand sekély, homokos aljzata és széleskörű szolgáltatásai miatt. A Gradska kupalište (Városi Strand) egy nagy kavicsos szakasz a központ közelében, míg a Podvorska széles körben elismert, mint kiváló kutyabarát strand."
+    },
+    {
+      "question": "Szükségem van autóra Crikvenicán?",
+      "answer": "Nincs szüksége autóra, ha a központ közelében vagy a sétány mentén száll meg, mivel az éttermek és strandok sétatávolságra vannak. Autó hasznos lehet a domboldali apartmanok eléréséhez, nagyobb szupermarketek meglátogatásához vagy egynapos kirándulásokhoz a Kvarner régióban."
+    },
+    {
+      "question": "Hol a legjobb parkolni Crikvenicán?",
+      "answer": "A látogatók nagy, fizetős nyilvános parkolókban parkolhatnak, például a Petak vagy a Stjepan Radić tér közelében a központban. Júliusban és augusztusban a nyilvános helyek gyorsan megtelnek, ezért erősen ajánlott olyan szállást foglalni, amely magában foglalja a privát parkolást."
+    },
+    {
+      "question": "Jó Crikvenica családoknak?",
+      "answer": "Crikvenica kiválóan alkalmas családok számára sekély vizei, homokos szakaszai és széles, babakocsibarát tengerparti sétánya miatt. A város számos játszóteret, könnyű hozzáférést biztosít orvosi létesítményekhez, és általában nyugodt tengeri viszonyokat kínál."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Röviden",
+    "whereToStay": "Hol szálljunk meg Crikvenicán",
+    "gettingThere": "Hogyan juthatunk el Crikvenicára",
+    "whenToGo": "Mikor utazzunk",
+    "guides": "Crikvenica útmutatók",
+    "faq": "Crikvenica GYIK",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor érdemes menni",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Étel és ital",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati infók"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "crikvenica",
+  "language": "hu",
+  "updatedAt": "2026-10-16T10:46:11.638Z"
+}

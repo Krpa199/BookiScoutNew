@@ -1,0 +1,146 @@
+{
+  "title": "Zadar Reisgids: Stranden, Parkeren & Waar te verblijven",
+  "metaDescription": "Plan je reis naar Zadar met praktische details over rijroutes, parkeren, wijken en de beste kiezelstranden. Een feitelijke gids voor de stad.",
+  "intro": "Zadar dient als een praktische toegangspoort tot Noord-Dalmatië, met een compact Romeins en middeleeuws centrum naast toegankelijke kiezelstranden. Het is geschikt voor gezinnen, stellen en roadtrippers die op zoek zijn naar een uitvalsbasis die minder druk en minder duur is dan Split of Dubrovnik, terwijl het directe toegang biedt tot de Kornati-eilanden en de Plitvice-meren.\n\nDe stad is verdeeld tussen het historische, autovrije schiereiland en de residentiële kustwijken die zich naar het noorden en zuiden uitstrekken. Het hoogseizoen loopt van eind juni tot augustus, wanneer de zee het warmst is en veerverbindingen op volle capaciteit varen. Wie sightseeing en lagere accommodatiekosten prioriteit geeft, kan het beste in mei, september of oktober gaan, wanneer het weer mild blijft en de lokale wegen rustiger zijn.",
+  "quickFacts": [
+    {
+      "label": "Beste maanden",
+      "value": "Juni t/m september"
+    },
+    {
+      "label": "Zeetemperatuur in augustus",
+      "value": "25°C - 26°C"
+    },
+    {
+      "label": "Dichtstbijzijnde luchthaven",
+      "value": "Luchthaven Zadar (ZAD), 12 km van het centrum"
+    },
+    {
+      "label": "Hoofdstrandtype",
+      "value": "Kiezel en betonnen terrassen"
+    },
+    {
+      "label": "Prijsniveau",
+      "value": "Gemiddeld (goedkoper dan Split of Dubrovnik)"
+    },
+    {
+      "label": "Oude stad",
+      "value": "Autovrij schiereiland (autovrije zone)"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Oude Stad (Poluotok)",
+      "bestFor": "Sightseeing, dineren en korte verblijven.",
+      "parking": "Openbaar betaald parkeren buiten de muren; zeer beperkt.",
+      "beach": "15-20 min lopen naar Kolovare Strand.",
+      "summary": "Het historische hart van Zadar beslaat een klein schiereiland vol Romeinse ruïnes, kerken en restaurants. Het is volledig autovrij, wat het moeilijk maakt voor automobilisten maar zeer praktisch is om te voet te verkennen."
+    },
+    {
+      "name": "Borik & Puntamika",
+      "bestFor": "Gezinnen en strandvakanties in resortstijl.",
+      "parking": "De meeste hotels en appartementen bieden eigen parkeergelegenheid.",
+      "beach": "Directe toegang tot Borik Strand (mix van kiezel en zand).",
+      "summary": "Gelegen 4 km ten noorden van het centrum, herbergt dit gebied de belangrijkste resorts en kampeerfaciliteiten van Zadar. Het biedt ondiepe stranden en pijnboomschaduw, hoewel het bereiken van de Oude Stad een bus of auto vereist."
+    },
+    {
+      "name": "Diklo",
+      "bestFor": "Rustigere verblijven in zelfstandige appartementen.",
+      "parking": "Gratis parkeren op straat is gebruikelijk; informeer bij de accommodatie.",
+      "beach": "Directe toegang tot kiezel- en betonstranden.",
+      "summary": "Een residentiële buitenwijk ten noorden van Borik, gekenmerkt door appartementen aan het water en kleine lokale cafés. De kustlijn bestaat voornamelijk uit betonnen terrassen en rotsachtige gebieden die geliefd zijn bij de lokale bevolking."
+    },
+    {
+      "name": "Kolovare & Arbanasi",
+      "bestFor": "Loopafstand van zowel het strand als de Oude Stad.",
+      "parking": "Parkeren op straat beschikbaar, zwaar overbelast in de zomer.",
+      "beach": "Directe toegang tot Kolovare Strand (kiezel).",
+      "summary": "Net ten zuiden van de Oude Stad gelegen, draait deze wijk om het belangrijkste openbare strand van de stad. Het biedt een praktisch compromis tussen strandtijd en avondwandelingen naar het centrum."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "730 km, 8-9 uur via A8, A10 (Tauern) en Kroatië A1. Tol omvat AT vignet, Tauern/Karawanken tunnels, SLO vignet en HR snelwegtol.",
+      "other": "Directe vluchten met Croatia Airlines of Lufthansa."
+    },
+    {
+      "from": "Wenen",
+      "car": "600 km, 6-7 uur via Graz, Maribor en Zagreb (A1). Vereist AT en SLO vignetten, plus HR snelwegtol.",
+      "other": "Directe vluchten via Austrian Airlines of Ryanair."
+    },
+    {
+      "from": "Boedapest",
+      "car": "630 km, 6-7 uur via M7 naar de grens bij Letenye, dan HR A4 en A1. Vereist HU vignet en HR snelwegtol.",
+      "other": "Directe budgetvluchten (Ryanair) of langeafstandsbus (Flixbus)."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "330 km, 3,5-4 uur via A2 naar Novo Mesto, dan HR A1. Vereist SLO vignet en HR snelwegtol.",
+      "other": "Directe busverbindingen (ca. 5-6 uur)."
+    },
+    {
+      "from": "Praag",
+      "car": "900 km, 10-11 uur via Brno, Wenen en Zagreb. Vereist CZ, AT en SLO vignetten, plus HR snelwegtol.",
+      "other": "Directe seizoensvluchten (Ryanair) of RegioJet treinen naar kuststeden."
+    },
+    {
+      "from": "Krakau",
+      "car": "1000 km, 10-11 uur via Slowakije (D1) en Hongarije (M1/M7). Vereist SK en HU vignetten, plus HR snelwegtol.",
+      "other": "Directe seizoensvluchten (Ryanair) of langeafstandsbus."
+    }
+  ],
+  "whenToGo": "Eind juni tot en met augustus is het hoogseizoen, gekenmerkt door luchttemperaturen die vaak boven de 30°C uitkomen, zeetemperaturen die 26°C bereiken en de hoogste accommodatieprijzen. Juli en augustus brengen dichte menigten naar de Oude Stad en stranden, terwijl alle restaurants, veerroutes en touroperators op volle capaciteit draaien. September biedt een optimale balans: de zee blijft warm genoeg om te zwemmen, maar de zomerdrukte neemt af en hotelprijzen dalen met 20-30%. Van november tot Pasen gaat Zadar het laagseizoen in; veel kustresorts, seizoensgebonden restaurants en veerverbindingen naar eilanden verminderen hun diensten of sluiten volledig, hoewel het stadscentrum functioneel blijft voor de lokale bevolking.",
+  "faq": [
+    {
+      "question": "Is Zadar de moeite waard om te bezoeken?",
+      "answer": "Ja, Zadar is de moeite waard om te bezoeken vanwege de mix van Romeinse geschiedenis, middeleeuwse kerken en unieke openbare kunst zoals het Zeeorgel. Het dient als een praktisch, minder druk alternatief voor Split en een uitstekende uitvalsbasis voor een bezoek aan verschillende nationale parken."
+    },
+    {
+      "question": "Hoeveel dagen heb je nodig in Zadar?",
+      "answer": "Twee volle dagen zijn voldoende om de Oude Stad te verkennen en te genieten van de lokale stranden. Als je van plan bent dagtochten te maken naar de Kornati-eilanden of de Plitvice-meren, reken dan op vier tot vijf dagen."
+    },
+    {
+      "question": "Wat is het beste strand in Zadar?",
+      "answer": "Borik Strand wordt hoog gewaardeerd voor gezinnen vanwege het ondiepe water en de mix van zand en kiezels. Kolovare Strand is de handigste optie als je dicht bij het stadscentrum verblijft, met lange kiezelstroken en natuurlijke schaduw."
+    },
+    {
+      "question": "Heb ik een auto nodig in Zadar?",
+      "answer": "Je hebt geen auto nodig als je van plan bent in de Oude Stad te verblijven of georganiseerde boottochten te maken. Een auto wordt echter sterk aanbevolen als je de bredere regio Zadar wilt verkennen, nationale parken wilt bezoeken, of in buitenwijken zoals Diklo wilt verblijven."
+    },
+    {
+      "question": "Waar kan ik het beste parkeren in Zadar?",
+      "answer": "De Oude Stad is een voetgangerszone, dus bezoekers moeten buiten de stadsmuren parkeren. De meest praktische opties zijn de openbare parkeerplaatsen langs de oostelijke muur (Obala kralja Tomislava) of de nabijgelegen parkeerplaats Ravnice, die uurtarieven of dagtarieven hanteren."
+    },
+    {
+      "question": "Is Zadar goed voor gezinnen?",
+      "answer": "Ja, Zadar is zeer geschikt voor gezinnen vanwege het vlakke, beloopbare centrum en de rustigere sfeer in vergelijking met grotere Dalmatische steden. Gebieden zoals Borik bieden speciale gezinsresorts, ondiepe wateren en schaduw van pijnbomen."
+    }
+  ],
+  "headings": {
+    "quickFacts": "In één oogopslag",
+    "whereToStay": "Waar te verblijven in Zadar",
+    "gettingThere": "Naar Zadar reizen",
+    "whenToGo": "Wanneer te gaan",
+    "guides": "Zadar gidsen",
+    "faq": "Zadar Veelgestelde vragen",
+    "groups": {
+      "gettingAround": "Parkeren & je verplaatsen",
+      "planning": "Planning & waar te verblijven",
+      "timing": "Wanneer te gaan",
+      "travelers": "Gezinnen, stellen & reisstijlen",
+      "activities": "Stranden & dingen om te doen",
+      "food": "Eten & drinken",
+      "comparisons": "Vergelijkingen",
+      "practical": "Praktische info"
+    },
+    "car": "Met de auto",
+    "other": "Andere opties",
+    "bestFor": "Het beste voor",
+    "parking": "Parkeren",
+    "beach": "Strand"
+  },
+  "destination": "zadar",
+  "language": "nl",
+  "updatedAt": "2026-10-16T09:21:18.552Z"
+}

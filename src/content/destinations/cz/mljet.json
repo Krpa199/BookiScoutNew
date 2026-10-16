@@ -1,0 +1,146 @@
+{
+  "title": "Mljet: Průvodce cestováním – Národní park, trajekty a kde se ubytovat",
+  "metaDescription": "Naplánujte si cestu na Mljet, Chorvatsko. Faktický průvodce pokrývající přístup do Národního parku, trasy pro jízdu, trajekty, nejlepší vesnice k ubytování a praktické tipy.",
+  "intro": "Mljet je hustě zalesněný jadranský ostrov vhodný pro cestovatele hledající přírodu, turistiku a klidné pobřežní vesnice. Západní třetina ostrova je chráněným Národním parkem se dvěma slanými jezery, který láká jednodenní výletníky i návštěvníky s delšími pobyty. Východní a centrální části nabízejí izolované zátoky a písečné pláže, odlišné od typického chorvatského oblázkového pobřeží.\n\nHlavní cestovní sezóna trvá od konce května do září. Červenec a srpen přinášejí nejteplejší mořské teploty a největší objem jachtového provozu, zejména v Pomeně a Polače. Květen a září nabízejí mírnější počasí pro cyklistiku a procházky po stezkách Národního parku, s menšími davy a nižšími cenami ubytování.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "Květen až září"
+    },
+    {
+      "label": "Teplota moře v srpnu",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Dubrovník (DBV), 85 km (včetně trajektu)"
+    },
+    {
+      "label": "Hlavní typ pláže",
+      "value": "Slaná jezera, skalnaté zátoky a vzácný písek"
+    },
+    {
+      "label": "Cenová úroveň",
+      "value": "Nadprůměrná (logistika ostrova a poplatky za park)"
+    },
+    {
+      "label": "Pěší dostupnost v centrech",
+      "value": "Vesnice jsou malé a dostupné pěšky; Národní park je bez aut"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Pomena",
+      "bestFor": "Přístup do Národního parku a stravování",
+      "parking": "Omezené parkování na ulici; placené parkoviště u hotelu",
+      "beach": "10 minut chůze k Malému Jezeru (slaného jezera)",
+      "summary": "Malá přístavní vesnice na západním cípu, sloužící jako hlavní vstup do Národního parku. Má jediný velký hotel na ostrově, vysoký jachtový provoz a četné restaurace s mořskými plody."
+    },
+    {
+      "name": "Polače",
+      "bestFor": "Historické ruiny a chráněné kotviště",
+      "parking": "Parkování na ulici k dispozici, přetížené v hlavní sezóně",
+      "beach": "Skalnaté pobřeží; 3 km chůze/jízdy na kole k jezerům",
+      "summary": "Představuje prominentní římské ruiny přímo u vody. Slouží jako sekundární vstup do Národního parku a leží v hluboké, chráněné zátoce s několika trajektovými spoji."
+    },
+    {
+      "name": "Saplunara",
+      "bestFor": "Písečné pláže a klidná relaxace",
+      "parking": "Soukromá místa u apartmánů, malá nezpevněná parkoviště",
+      "beach": "Přímý přístup k vzácným písečným plážím",
+      "summary": "Nachází se na izolovaném východním cípu ostrova, známém svými písečnými zátokami. Nejsou zde žádné atrakce Národního parku, což z něj činí klidnější místo zcela zaměřené na plážovou rekreaci."
+    },
+    {
+      "name": "Sobra",
+      "bestFor": "Přístup k trajektu a praktická základna",
+      "parking": "Dostatečné parkování u trajektového přístavu a centra vesnice",
+      "beach": "Malé oblázkové a skalnaté pláže ve vesnici",
+      "summary": "Hlavní přístav, kam připlouvá trajekt pro auta z pevniny. Je centrálně umístěn, nabízí nižší ceny a strategickou základnu pro jízdu na oba konce ostrova."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Mnichov",
+      "car": "930 km do přístavu Prapratno, ~10 hodin přes A8, A10, HR A1 a Pelješacský most. Dálniční známka/mýto AT, dálniční známka SI, mýto HR. Plus 45minutový trajekt pro auta do Sobry.",
+      "other": "Let do Dubrovníku (DBV) nebo Splitu (SPU), poté autobus/taxi do přístavu a osobní katamarán."
+    },
+    {
+      "from": "Vídeň",
+      "car": "830 km do přístavu Prapratno, ~9 hodin přes A2 (AT), HR A1 a Pelješacský most. Dálniční známka AT, dálniční známka SI, mýto HR. Plus 45minutový trajekt pro auta do Sobry.",
+      "other": "Let do Dubrovníku (DBV), poté autobus do přístavu Gruž a osobní katamarán."
+    },
+    {
+      "from": "Budapešť",
+      "car": "790 km do přístavu Prapratno, ~8.5 hodin přes M7 (HU), HR A1 a Pelješacský most. Dálniční známka HU, mýto HR. Plus 45minutový trajekt pro auta do Sobry.",
+      "other": "Let do Splitu (SPU) nebo Dubrovníku (DBV), poté osobní katamarán na Mljet."
+    },
+    {
+      "from": "Lublaň",
+      "car": "610 km do přístavu Prapratno, ~7 hodin přes A2 (SI), HR A1 a Pelješacský most. Dálniční známka SI, mýto HR. Plus 45minutový trajekt pro auta do Sobry.",
+      "other": "Autobus do Splitu nebo Dubrovníku, poté osobní katamarán do Pomeny nebo Sobry."
+    },
+    {
+      "from": "Praha",
+      "car": "1 150 km do přístavu Prapratno, ~12.5 hodin přes A9 (AT) a HR A1. Dálniční známky CZ, AT, SI, mýto HR. Plus 45minutový trajekt pro auta do Sobry.",
+      "other": "Let do Dubrovníku (DBV), poté autobus do přístavu a osobní katamarán."
+    },
+    {
+      "from": "Krakov",
+      "car": "1 120 km do přístavu Prapratno, ~12.5 hodin přes SK, HU (M7) a HR A1. Dálniční známky SK, HU, mýto HR. Plus 45minutový trajekt pro auta do Sobry.",
+      "other": "Let do Splitu (SPU) nebo Dubrovníku (DBV), poté osobní katamarán."
+    }
+  ],
+  "whenToGo": "Turistická sezóna na Mljetu trvá od května do října, v souladu s rozšířenými jízdními řády trajektů a otevřenými restauracemi. Červenec a srpen jsou nejrušnější a nejdražší měsíce, s teplotami moře dosahujícími 27°C a velkým počtem jachet kotvících v Pomeně a Polače. Květen, červen a září nabízejí příjemné teploty vzduchu kolem 20–25°C, což z těchto měsíců činí ideální dobu pro cyklistiku a turistiku v Národním parku, ačkoli moře může být na začátku května příliš chladné pro delší plavání. Mezi listopadem a dubnem je ostrov velmi klidný; osobní katamarány jezdí podle omezených jízdních řádů a většina turistických zařízení, včetně mnoha restaurací a ubytování, na zimu zavírá.",
+  "faq": [
+    {
+      "question": "Stojí Mljet za návštěvu?",
+      "answer": "Ano, pro cestovatele hledající přírodu, turistiku a čistou vodu daleko od velkých letovisek. Národní park ostrova a slaná jezera nabízejí odlišnou krajinu ve srovnání s ostatními chorvatskými ostrovy, ačkoli zde chybí noční život a rozsáhlé možnosti nákupů."
+    },
+    {
+      "question": "Kolik dní potřebuji na Mljetu?",
+      "answer": "Dva až tři dny jsou dostačující k projetí Národního parku na kole, návštěvě ostrova sv. Marie a prozkoumání několika pobřežních vesnic. Jednodenní výlety z Dubrovníku nebo Korčuly jsou oblíbené, ale přenocování vám umožní zažít park bez poledních davů."
+    },
+    {
+      "question": "Která je nejlepší pláž na Mljetu?",
+      "answer": "Velika Saplunara a Mala Saplunara na východním cípu jsou nejlepší písečné pláže. V Národním parku jsou břehy Malého Jezera a Velkého Jezera (slaných jezer) velmi oblíbené pro koupání díky teplým, klidným vodám a stínu borovic."
+    },
+    {
+      "question": "Potřebuji auto na Mljetu?",
+      "answer": "Auto nebo skútr je velmi doporučen, pokud plánujete prozkoumat ostrov, protože vzdálenost mezi Národním parkem na západě a Saplunary na východě je přes 40 kilometrů. Pokud hodláte zůstat pouze v Pomeně nebo Polače a navštívit Národní park, auto je zbytečné."
+    },
+    {
+      "question": "Kde parkovat v Národním parku Mljet?",
+      "answer": "V obci Vrbovica (u Mali Most) je přímo u vchodu k jezeru vyhrazené placené parkoviště, stejně jako parkování na ulici v Pomeně a Polače. Vozidla nejsou povolena na pěších stezkách přímo kolem slaných jezer."
+    },
+    {
+      "question": "Je Mljet vhodný pro rodiny?",
+      "answer": "Ano, zejména pro aktivní rodiny, které si užívají cyklistiku, plavání a procházky v přírodě. Slaná jezera jsou velmi bezpečná pro děti díky absenci vln a písečné pláže v Saplunara se vyznačují mělkými, pozvolnými vstupy."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na první pohled",
+    "whereToStay": "Kde se ubytovat na Mljetu",
+    "gettingThere": "Doprava na Mljet",
+    "whenToGo": "Kdy jet",
+    "guides": "Průvodci Mljetem",
+    "faq": "Mljet: Často kladené dotazy",
+    "groups": {
+      "gettingAround": "Parkování a doprava po ostrově",
+      "planning": "Plánování a kde se ubytovat",
+      "timing": "Kdy jet",
+      "travelers": "Rodiny, páry a styly cestování",
+      "activities": "Pláže a co dělat",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": "Praktické informace"
+    },
+    "car": "Autem",
+    "other": "Jiné možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "mljet",
+  "language": "cz",
+  "updatedAt": "2026-10-16T14:22:03.320Z"
+}

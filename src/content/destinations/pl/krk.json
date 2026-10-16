@@ -1,0 +1,146 @@
+{
+  "title": "Krk: Przewodnik – plaże, parking, noclegi",
+  "metaDescription": "Zaplanuj podróż na Krk w Chorwacji. Znajdź najlepsze miejsca na nocleg, trasy dojazdu z Europy Środkowej, typy plaż oraz wskazówki dotyczące parkowania na starym mieście.",
+  "intro": "Krk to największa wyspa na Adriatyku i jedno z najbardziej dostępnych chorwackich miejsc dla kierowców z Europy Środkowej. Jest idealna dla rodzin, par i podróżników szukających zabytkowych miast, żwirowych plaż w cieniu sosen i czystych wód bez konieczności przepraw promowych. Miasto Krk pełni funkcję kulturalnego i historycznego centrum wyspy, otoczone nadmorskimi promenadami i dużymi kempingami.\n\nLato przynosi najcieplejsze temperatury morza i najbardziej stabilną pogodę, ale lipiec i sierpień to także szczyt sezonu turystycznego i najwyższe ceny. Czerwiec i wrzesień oferują spokojniejsze wrażenia z wystarczająco ciepłą wodą do pływania. Zimy są bardzo spokojne, większość infrastruktury turystycznej jest zamknięta od listopada do kwietnia.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "Czerwiec – wrzesień"
+    },
+    {
+      "label": "Temperatura morza w sierpniu",
+      "value": "24°C do 26°C"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Lotnisko Rijeka (RJK), 27 km"
+    },
+    {
+      "label": "Główny typ plaż",
+      "value": "Żwirowe, skaliste i utwardzone tarasy"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "Nieznacznie powyżej średniej chorwackiej"
+    },
+    {
+      "label": "Stare Miasto",
+      "value": "Tylko dla pieszych (bez samochodów)"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Stare Miasto (Stari Grad)",
+      "bestFor": "Historia, restauracje i krótkie pobyty",
+      "parking": "Poza murami miasta (płatne parkingi publiczne)",
+      "beach": "10-15 minut spacerem do Porporeli lub Dražicy",
+      "summary": "Historyczne, otoczone murami centrum mieści wąskie kamienne uliczki, Zamek Frankopanów i liczne restauracje. Jest całkowicie strefą dla pieszych, co sprawia, że jest bardzo przyjemne do spacerowania, ale wymaga noszenia bagażu z parkingów obwodowych."
+    },
+    {
+      "name": "Dražica i Koralj",
+      "bestFor": "Rodziny, dostęp do plaży i hotele resortowe",
+      "parking": "Parking hotelowy lub duże płatne parkingi publiczne",
+      "beach": "Bezpośredni dostęp do żwirowych i utwardzonych plaż",
+      "summary": "Położona krótki spacer na wschód od Starego Miasta, ta okolica jest gęsto zalesiona sosnami. Znajduje się tu główne skupisko hoteli i przyjaznych rodzinom żwirowych zatoczek."
+    },
+    {
+      "name": "Ježevac",
+      "bestFor": "Kempingowicze, rodziny i spokojne dni na plaży",
+      "parking": "Na terenie kempingu lub parking uliczny",
+      "beach": "Bezpośredni dostęp do żwirowej plaży Ježevac",
+      "summary": "Położona na zachód od centrum, ta okolica jest zdominowana przez duży, luksusowy kemping i jego nowo wyremontowaną infrastrukturę plażową. Pozostaje łatwym 10-minutowym spacerem do Starego Miasta."
+    },
+    {
+      "name": "Kornić",
+      "bestFor": "Podróżujący z ograniczonym budżetem i spokojna, podmiejska atmosfera",
+      "parking": "Zazwyczaj dostępny bezpłatny prywatny parking przy apartamentach",
+      "beach": "2 km w dół do plaży Dunat",
+      "summary": "Mała wioska położona około 6 km od miasta Krk, z widokiem na zatokę Punat. Wymaga samochodu lub roweru, aby dotrzeć do plaży i głównego miasta, ale oferuje bardziej przystępne cenowo apartamenty."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monachium",
+      "car": "~520 km, 6,5 godziny. Trasa przez Salzburg (A8), Villach (A10), Lublanę, Postojną, Rijekę. Wymaga winiety AT, opłaty Tauern, winiety SI, opłat HR (most na Krk jest bezpłatny).",
+      "other": "Lot do Rijeki (RJK) lub bezpośredni FlixBus do Krk."
+    },
+    {
+      "from": "Wiedeń",
+      "car": "~510 km, 5,5 godziny. Trasa przez Graz (A2), Maribor (A1), Zagrzeb, Rijekę. Wymaga winiety AT, winiety SI, opłat HR.",
+      "other": "Bezpośredni FlixBus lub lot do Zagrzebia."
+    },
+    {
+      "from": "Budapeszt",
+      "car": "~510 km, 5 godzin. Trasa przez Balaton (M7), Zagrzeb, Rijekę (A6). Wymaga e-winiety HU, chorwackich opłat drogowych.",
+      "other": "Bezpośredni FlixBus lub pociąg do Rijeki, a następnie lokalny autobus."
+    },
+    {
+      "from": "Lublana",
+      "car": "~150 km, 2 godziny. Trasa przez Postojną, Ilirską Bistricę, Rupę, Rijekę. Wymaga winiety SI, opłat HR.",
+      "other": "Bezpośredni autobus do Krk lub Rijeki."
+    },
+    {
+      "from": "Praga",
+      "car": "~820 km, 9 godzin. Trasa przez Czeskie Budziejowice, Linz, Graz, Maribor, Zagrzeb. Wymaga winiet CZ, AT, SI, opłat HR.",
+      "other": "Kombinacja pociąg/autobus RegioJet do Rijeki."
+    },
+    {
+      "from": "Kraków",
+      "car": "~960 km, 10,5 godziny. Trasa przez Katowice, Ostrawę, Brno, Wiedeń, Graz, Maribor, Zagrzeb. Wymaga opłat PL, winiet CZ, AT, SI, opłat HR.",
+      "other": "Lot do Zagrzebia lub Zadaru, następnie autobus lub wynajęty samochód."
+    }
+  ],
+  "whenToGo": "Sezon turystyczny trwa od maja do października. Lipiec i sierpień to szczytowe miesiące z temperaturami morza osiągającymi 25°C, wysokimi cenami zakwaterowania i zatłoczonymi plażami. Czerwiec i wrzesień oferują idealną równowagę ciepłej pogody, temperatur morza w okolicach 22°C do 23°C i mniejszą liczbę turystów. Maj i październik są znacznie spokojniejsze i tańsze, odpowiednie do jazdy na rowerze i wędrówek, choć morze jest często zbyt zimne do pływania. Większość restauracji i hoteli jest zamknięta od listopada do kwietnia, co sprawia, że zimowe wizyty są bardzo ograniczone pod względem udogodnień.",
+  "faq": [
+    {
+      "question": "Czy warto odwiedzić Krk?",
+      "answer": "Tak, to doskonały wybór na dostępną chorwacką wyspę. Oferuje dobrze zachowane centrum historyczne, plaże w cieniu sosen i unika potrzeby podróżowania promem dzięki połączeniu mostowemu."
+    },
+    {
+      "question": "Ile dni potrzeba na Krk?",
+      "answer": "Trzy do pięciu dni wystarczą, aby zobaczyć miasto Krk, cieszyć się lokalnymi plażami i wybrać się na wycieczkę łodzią. Jeśli planujesz zwiedzić całą wyspę, włączając Baškę i Vrbnik, zaplanuj cały tydzień."
+    },
+    {
+      "question": "Jaka jest najlepsza plaża na Krk?",
+      "answer": "Plaża Dražica jest najpopularniejsza w mieście Krk ze względu na czystą wodę, cień sosen i udogodnienia. Poza głównym miastem, Vela Plaža w Bašce jest powszechnie uważana za najsłynniejszą plażę wyspy."
+    },
+    {
+      "question": "Czy potrzebuję samochodu na Krk?",
+      "answer": "Samochód nie jest konieczny, jeśli zatrzymasz się w mieście Krk, ponieważ centrum, plaże i restauracje są dostępne pieszo. Jednak posiadanie pojazdu jest wysoce zalecane, jeśli chcesz zwiedzić inne miasta i plaże na wyspie."
+    },
+    {
+      "question": "Gdzie zaparkować na Krk?",
+      "answer": "Turyści nie mogą parkować wewnątrz Starego Miasta, które jest strefą dla pieszych. Należy korzystać z dużych publicznych parkingów płatnych, położonych poza murami miasta, lub zarezerwować nocleg oferujący dedykowany parking poza ulicą."
+    },
+    {
+      "question": "Czy Krk jest dobry dla rodzin?",
+      "answer": "Tak, Krk jest bardzo przyjazny rodzinom. Miasto oferuje plaże z łagodnym wejściem żwirowym, obfity cień sosen, place zabaw i duże kempingi resortowe z dedykowanymi udogodnieniami dla dzieci."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Gdzie zatrzymać się na Krk",
+    "gettingThere": "Dojazd na Krk",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Krk",
+    "faq": "Krk: Najczęściej zadawane pytania",
+    "groups": {
+      "gettingAround": "Parking i poruszanie się",
+      "planning": "Planowanie i gdzie się zatrzymać",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróżowania",
+      "activities": "Plaże i atrakcje",
+      "food": "Jedzenie i picie",
+      "comparisons": "Porównania",
+      "practical": "Praktyczne informacje"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "krk",
+  "language": "pl",
+  "updatedAt": "2026-10-16T09:39:16.639Z"
+}

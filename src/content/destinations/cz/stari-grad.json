@@ -1,0 +1,146 @@
+{
+  "title": "Stari Grad: Průvodce plážemi, parkováním a ubytováním",
+  "metaDescription": "Naplánujte si cestu do Stari Gradu na ostrově Hvar. Objevte nejlepší pláže, kde parkovat, průvodce čtvrtěmi a trasy autem ze střední Evropy.",
+  "intro": "Stari Grad láká cestovatele hledající relaxační, historickou základnu na ostrově Hvar. Jako jedno z nejstarších měst v Evropě nabízí pěší centrum s kamennými ulicemi, tradičními restauracemi a dlouhý přístav lemovaný borovicovými oblázkovými plážemi. Atmosféra je podstatně klidnější než ve městě Hvar, takže je vhodný pro rodiny, páry a ty, kteří se zaměřují na pomalé cestování nebo objevování UNESCO chráněné Starigradské pláně.\n\nHlavní sezóna pro návštěvu je od května do září. Červenec a srpen přinášejí nejteplejší počasí a optimální podmínky pro koupání, i když jsou to také nejrušnější a nejdražší měsíce. Červen a září nabízejí příjemné teploty kolem 20-25 °C, méně davů a teplou mořskou vodu, přičemž většina místních podniků zůstává otevřena.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "Červen až září"
+    },
+    {
+      "label": "Teplota moře v srpnu",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Split (SPU), 15 km k přístavu + 2h trajektem"
+    },
+    {
+      "label": "Hlavní typ pláže",
+      "value": "Oblázkové a betonové terasy se stínem borovic"
+    },
+    {
+      "label": "Cenová úroveň",
+      "value": "Mírně nad chorvatským průměrem, levnější než Hvar Town"
+    },
+    {
+      "label": "Pěší dostupnost",
+      "value": "Staré město je plně pěší zónou a bez aut"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Staré město Stari Grad",
+      "bestFor": "Pro milovníky historie a pro první návštěvníky",
+      "parking": "Zakázáno uvnitř; použijte obecní parkoviště venku",
+      "beach": "15-20 min pěšky na pláž Bonj nebo Lanterna",
+      "summary": "Atmosférické centrum města bez aut. Nabízí úzké dlážděné uličky, tradiční konoby a starobylá místa jako hrad Tvrdalj."
+    },
+    {
+      "name": "Priko (Severní zátoka)",
+      "bestFor": "Pro rodiny a milovníky pláží",
+      "parking": "K dispozici parkování na ulici a soukromá místa u vil",
+      "beach": "Okamžitý přístup k pláži Bonj a klidným zátokám",
+      "summary": "Obytná část podél severní strany zátoky. Nabízí snadný pěší přístup jak do starého města, tak k vodě."
+    },
+    {
+      "name": "Jižní zátoka a Borik",
+      "bestFor": "Pro klidný pobyt u borovic",
+      "parking": "Obecně zajištěno místními apartmány",
+      "beach": "Jen pár kroků od pláže Lanterna",
+      "summary": "Zelená, klidná oblast na jižním okraji přístavu. Návštěvníci zde pobývají pro hustý stín borového lesa a výhledy na západ slunce nad Jadranem."
+    },
+    {
+      "name": "Rudina a Basina",
+      "bestFor": "Pro samotu a pomalé cestování",
+      "parking": "Dostatek bezplatného soukromého parkování",
+      "beach": "Krátká procházka k nedotčeným skalnatým zátokám",
+      "summary": "Malé, rustikální osady ležící několik kilometrů od města. Poskytují naprostý klid mezi olivovými háji a tradičními kamennými domy."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Mnichov",
+      "car": "860 km, 10-11 hodin do Splitu přes A8, A10 a A1. Vyžaduje rakouskou a slovinskou dálniční známku, plus chorvatské mýtné, poté 2hodinový trajekt.",
+      "other": "Let do Splitu (SPU), poté autobusem nebo taxíkem do přístavu a trajektem."
+    },
+    {
+      "from": "Vídeň",
+      "car": "760 km, 8-9 hodin do Splitu přes A2, A9 a chorvatskou A1. Vyžaduje rakouskou a slovinskou dálniční známku, plus chorvatské mýtné, poté 2hodinový trajekt.",
+      "other": "Přímý let nebo Flixbus do Splitu, poté trajektem."
+    },
+    {
+      "from": "Budapešť",
+      "car": "750 km, 7-8 hodin do Splitu přes M7 a chorvatskou A4/A1. Vyžaduje maďarskou e-známku a chorvatské mýtné, poté 2hodinový trajekt.",
+      "other": "Přímý lůžkový vlak nebo let do Splitu, poté trajektem."
+    },
+    {
+      "from": "Lublaň",
+      "car": "470 km, 5-6 hodin do Splitu přes A1/A2 a chorvatskou A1. Vyžaduje slovinskou dálniční známku a chorvatské mýtné, poté 2hodinový trajekt.",
+      "other": "Autobusem nebo vlakem do Splitu, poté trajektem."
+    },
+    {
+      "from": "Praha",
+      "car": "1050 km, 11-13 hodin do Splitu přes Vídeň nebo Linec. Vyžaduje rakouskou, slovinskou a českou dálniční známku, chorvatské mýtné, poté 2hodinový trajekt.",
+      "other": "Přímý let v létě do Splitu (SPU), poté trajektem."
+    },
+    {
+      "from": "Krakov",
+      "car": "1050 km, 11-13 hodin do Splitu přes Slovensko a Maďarsko. Vyžaduje slovenskou a maďarskou dálniční známku, chorvatské mýtné, poté 2hodinový trajekt.",
+      "other": "Let (LOT nebo Ryanair) do Splitu, poté trajektem."
+    }
+  ],
+  "whenToGo": "Květen značí začátek turistické sezóny, s mírným počasím a nižšími cenami, i když moře je často příliš studené na koupání. Červen přináší teplejší mořské teploty dosahující 22°C, zvládnutelné davy a plně funkční restaurace a trajekty. Červenec a srpen jsou vrcholné měsíce; očekávejte teploty moře kolem 25°C až 27°C, nejvyšší ceny ubytování a rušné pláže. Září je silný vedlejší měsíc, s teplým mořem a otevřenými zařízeními, ale s výrazně menšími davy a sníženými cenami. Od října do dubna Stari Grad vstupuje do mimosezóny; většina hotelů a restaurací se zavře, teploty moře klesnou pod 18°C a město se vrací do klidného, místního tempa.",
+  "faq": [
+    {
+      "question": "Stojí Stari Grad za návštěvu?",
+      "answer": "Stari Grad stojí za návštěvu pro svou 2400 let dlouhou historii a uvolněné tempo. Nabízí autentickou, klidnou alternativu k rušné party scéně města Hvar."
+    },
+    {
+      "question": "Kolik dní bych měl zůstat?",
+      "answer": "Vyhraďte si dva až tři dny na prozkoumání města a relaxaci na místních plážích. Pokud ho používáte jako základnu k prozkoumání zbytku ostrova Hvar, ideální je pobyt na pět až sedm dní."
+    },
+    {
+      "question": "Která je nejlepší pláž ve Stari Gradu?",
+      "answer": "Lanterna je vysoce ceněna pro svůj přirozený stín borovic a oblázkové břehy. Bonj je nejlépe dostupná z centra, zatímco četné skalnaté zátoky lze dosáhnout krátkou procházkou."
+    },
+    {
+      "question": "Potřebuji auto ve Stari Gradu?",
+      "answer": "Auto není nezbytné pro pobyt ve Stari Gradu, protože centrum města a nedaleké pláže jsou v docházkové vzdálenosti. Nicméně, pronájem auta nebo skútru se doporučuje, pokud plánujete navštívit jižní pláže ostrova nebo skryté vesnice."
+    },
+    {
+      "question": "Kde bych měl parkovat?",
+      "answer": "Staré město je přísně pěší zóna, takže návštěvníci musí parkovat na vyhrazených obecních parkovištích na okraji. Hlavní veřejná parkoviště se nacházejí v blízkosti vjezdů do města a trajektového přístavu, s denním poplatkem během léta."
+    },
+    {
+      "question": "Je Stari Grad vhodný pro rodiny?",
+      "answer": "Ano, je to vynikající destinace pro rodiny. Rovná nábřežní promenáda, klidné vody zátoky a hojnost přirozeného stínu na plážích činí pobyt bezpečným a pohodlným pro děti."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Přehledně",
+    "whereToStay": "Kde se ubytovat ve Stari Gradu",
+    "gettingThere": "Jak se dostat do Stari Gradu",
+    "whenToGo": "Kdy vyrazit",
+    "guides": "Průvodci Stari Gradem",
+    "faq": "Stari Grad: Časté dotazy",
+    "groups": {
+      "gettingAround": "Parkování a doprava",
+      "planning": "Plánování a ubytování",
+      "timing": "Kdy jet",
+      "travelers": "Rodiny, páry a styly cestování",
+      "activities": "Pláže a aktivity",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": "Praktické informace"
+    },
+    "car": "Autem",
+    "other": "Jiné možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "stari-grad",
+  "language": "cz",
+  "updatedAt": "2026-10-16T14:45:37.192Z"
+}

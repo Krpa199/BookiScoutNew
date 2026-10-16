@@ -1,0 +1,146 @@
+{
+  "title": "Ston utazási útmutató: Falak, osztrigák és szálláslehetőségek",
+  "metaDescription": "Tervezze meg utazását Stonba, Horvátországba. Olvasson gyakorlati tanácsokat parkolásról, közép-európai útvonalakról, strandokról és a legjobb szálláshelyekről a Pelješac-félszigeten.",
+  "intro": "Ston egy történelmi város a Pelješac-félsziget tövében, amely 5,5 kilométer hosszú 14. századi védőfalairól, működő sólepárlóiról és a Mali Ston-i öböl osztrigatenyészeteinek közelségéről ismert. Ideális azoknak az utazóknak, akik bázist keresnek Dél-Dalmácia és a szigetek felfedezéséhez a közeli Dubrovnik zsúfoltsága és magas árai nélkül. A város inkább a történelemre és a gasztronómiára összpontosít, semmint az éjszakai életre vagy a üdülőkomplexumokra.\n\nA legjobb időszak a látogatásra május és szeptember között van. A nyár forró időjárást hoz a közeli Prapratno strandon való úszáshoz, míg a májusi, júniusi és szeptemberi átmeneti időszakok hűvösebb körülményeket biztosítanak a falakon való sétáláshoz és a régió borászatainak bejárásához. A legtöbb látogató autóval érkezik, mivel a tömegközlekedési lehetőségek a helyi buszjáratokra korlátozódnak.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Május és szeptember"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "25°C - 26°C"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Dubrovnik Repülőtér (DBV), 72 km"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Homokos (Prapratno) és természetes szikla"
+    },
+    {
+      "label": "Árszínvonal",
+      "value": "Átlagos a tengerpartra, olcsóbb, mint Dubrovnik"
+    },
+    {
+      "label": "Óvárosi közlekedés",
+      "value": "Autómentes központ; parkolás a falakon kívül"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Ston (Központ)",
+      "bestFor": "Történelem, étkezés és városnézés",
+      "parking": "Fizetős nyilvános parkolók közvetlenül a falakon kívül",
+      "beach": "3 km-re a Prapratno strandtól",
+      "summary": "A fő település kőházakat, kávézókat és közvetlen hozzáférést kínál a sólepárlókhoz és a fal bejáratához. A legtöbb étkezési lehetőséget és szolgáltatást nyújtja, de nincs közvetlen tengerparti hozzáférése."
+    },
+    {
+      "name": "Mali Ston",
+      "bestFor": "Osztriga kóstolás és csendes esték",
+      "parking": "Korlátozott utcai parkolás és kisebb fizetős parkolók",
+      "beach": "Nincsenek hagyományos strandok; sziklás tengerparti hozzáférés",
+      "summary": "Egy kis falu az iszthmusz északi oldalán, falakkal összekötve Stonnal. Híres osztrigatenyészeteiről és hagyományos tengerparti haléttermeiről."
+    },
+    {
+      "name": "Prapratno",
+      "bestFor": "Családok és strandolók",
+      "parking": "Nagy parkoló a komp és a strand közelében",
+      "beach": "Közvetlen hozzáférés egy homokos öbölhöz",
+      "summary": "Stontól délre, egy öbölben található, ez a terület főként egy nagy kempingből, néhány apartmanból és a Mljetre induló komp kikötőjéből áll. A természetes homokos strand sekély és jól alkalmas kisgyermekek számára."
+    },
+    {
+      "name": "Broce",
+      "bestFor": "Elzárt pihenés a tömegtől távol",
+      "parking": "Ingyenes parkolás, jellemzően a vendégházak biztosítják",
+      "beach": "Betonlapok és kis kavicsos öblök",
+      "summary": "Egy csendes, hagyományos halászfalu rövid autóútra Stontól délre. Fenyőerdők veszik körül, és lassú tempójú környezetet kínál minimális kereskedelmi létesítményekkel."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "940 km, 10-11 óra az A8, osztrák A10/A11 (autópályamatrica + alagútdíjak), szlovén A2 (autópályamatrica) és horvát A1 (útdíjak) útvonalon.",
+      "other": "Repülőút Dubrovnikba, majd 1 órás autóút vagy busz."
+    },
+    {
+      "from": "Bécs",
+      "car": "780 km, 8-9 óra az osztrák A2/A9 (autópályamatrica), szlovén A1/A4 (autópályamatrica) és horvát A1 (útdíjak) útvonalon.",
+      "other": "Közvetlen repülőút Dubrovnikba, majd reptéri transzfer vagy bérautó."
+    },
+    {
+      "from": "Budapest",
+      "car": "720 km, 7.5-8.5 óra az M7-esen (autópályamatrica), amely a horvát A4 és A1 (útdíjak) autópályákra csatlakozik.",
+      "other": "Repülőút Dubrovnikba (szezonális járatok elérhetők)."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "540 km, 6-6.5 óra a szlovén A2 (autópályamatrica) és horvát A1 (útdíjak) útvonalon.",
+      "other": "Korlátozott közvetlen tömegközlekedés; autóval a legcélszerűbb."
+    },
+    {
+      "from": "Prága",
+      "car": "1100 km, 11-12 óra Ausztrián (autópályamatrica) és Szlovénián (autópályamatrica) keresztül a horvát A1-re.",
+      "other": "Repülőút Dubrovnikba, majd helyi busz vagy bérautó."
+    },
+    {
+      "from": "Krakkó",
+      "car": "1140 km, 12-13 óra Szlovákián és Magyarországon (autópályamatricák) keresztül a horvát A1-re (útdíjak).",
+      "other": "Repülőút Krakkóból vagy Katowicéből Dubrovnikba."
+    }
+  ],
+  "whenToGo": "A turistaszezon májustól októberig tart. Július és augusztus a legmelegebb és legforgalmasabb hónapok, a tenger hőmérséklete eléri a 26°C-ot, és a szállásárak a csúcson vannak, bár Ston továbbra is kevésbé zsúfolt, mint a nagyobb tengerparti városok. Június és szeptember ideális körülményeket kínál meleg vízzel, alacsonyabb árakkal és 20-25°C körüli hőmérséklettel, ami sokkal kényelmesebbé teszi az árnyék nélküli védőfalak megmászását. Sok helyi étterem, sólepárló-túra és osztrigakóstoló hajóút teljes mértékben működik ezekben a hónapokban. Novembertől áprilisig a város nagyon csendes; sok turistaorientált üzlet bezár télre, és az időjárás túl hűvös az úszáshoz, bár a falak és néhány helyi étterem egész évben nyitva tart.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni Stont?",
+      "answer": "Igen, Stont érdemes meglátogatni az 5,5 kilométeres középkori fala, történelmi sólepárlói és híres osztrigaipara miatt. Kiváló bázisként szolgál a Pelješac-félsziget felfedezéséhez Dubrovnik magas szállásköltségei nélkül."
+    },
+    {
+      "question": "Hány napra van szükségem Stonban?",
+      "answer": "Egy-két nap elegendő Ston és Mali Ston fő látnivalóinak megtekintéséhez. Azonban sok látogató négy-hét napig marad, hogy a várost praktikus bázisként használja Mljet, Korčula és a helyi borászatok felfedezésére."
+    },
+    {
+      "question": "Melyik a legjobb strand Stonban?",
+      "answer": "A Prapratno strand, amely három kilométerre található Ston központjától, a környék legnépszerűbb strandja. Természetes homokkal és sekély vízzel rendelkezik, így rendkívül népszerű a nyári hónapokban."
+    },
+    {
+      "question": "Szükségem van autóra Stonban?",
+      "answer": "Autó erősen ajánlott a stoni tartózkodáshoz. Bár Ston és Mali Ston között gyalog is közlekedhet, járműre van szükség a legjobb strandok eléréséhez, a közeli borászatok látogatásához vagy a Pelješac-félsziget többi részének felfedezéséhez."
+    },
+    {
+      "question": "Hol parkoljak Stonban?",
+      "answer": "Számos fizetős önkormányzati parkoló található közvetlenül az autómentes történelmi központ mellett. Parkolási díjat kell fizetni a turistaszezonban, és a helyek gyorsan megtelhetnek a nap közepén júliusban és augusztusban."
+    },
+    {
+      "question": "Alkalmas Ston családok számára?",
+      "answer": "Igen, Ston jó választás a csendes nyaralásra vágyó családoknak, különösen azoknak, akik kisgyermekekkel utaznak, akik élvezni fogják a közeli Prapratno strand homokos, sekély vizét. Azonban hiányoznak belőle a nagyobb üdülőközpontokban található szórakozási lehetőségek és vízi parkok, amelyek a kommercializáltabb tengerparti úti célokon jellemzőek."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Rövid tények",
+    "whereToStay": "Hol szálljunk meg Stonban",
+    "gettingThere": "Hogyan juthatunk el Stonba",
+    "whenToGo": "Mikor érdemes utazni",
+    "guides": "Ston útmutatók",
+    "faq": "Ston GYIK",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor érdemes utazni",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Étel és ital",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb erre",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "ston",
+  "language": "hu",
+  "updatedAt": "2026-10-16T15:18:00.652Z"
+}

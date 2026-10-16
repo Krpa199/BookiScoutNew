@@ -1,0 +1,146 @@
+{
+  "title": "Omiš Travel Guide: Beaches, Parking & Where to Stay",
+  "metaDescription": "Plan your trip to Omiš, Croatia. Compare neighborhoods, sandy beaches, driving routes from Central Europe, and parking options for your holiday.",
+  "intro": "Omiš is a coastal town located 25 kilometers southeast of Split, positioned where the Cetina River meets the Adriatic Sea. It serves as a practical base for travelers who want both beach relaxation and active outdoor options, such as river rafting or hiking to the Mirabella and Fortica fortresses. The immediate coastline stands out in Croatia for its natural sandy beaches, particularly in the town center and neighboring Duće.\n\nThe destination appeals primarily to families needing shallow waters and road-trippers touring the Dalmatian coast. July and August bring peak temperatures and heavy traffic along the Adriatic Highway (D8), while June and September offer milder weather, lower accommodation rates, and easier parking.",
+  "quickFacts": [
+    {
+      "label": "Best months",
+      "value": "June and September"
+    },
+    {
+      "label": "August sea temperature",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Nearest airport",
+      "value": "Split Airport (SPU), 42 km away"
+    },
+    {
+      "label": "Main beach type",
+      "value": "Sand and fine pebble"
+    },
+    {
+      "label": "Price level",
+      "value": "Moderate (slightly below Croatian average)"
+    },
+    {
+      "label": "Old town walkability",
+      "value": "Flat and entirely pedestrianized"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Omiš Centre (Donji Grad)",
+      "bestFor": "First-time visitors and travelers without a car",
+      "parking": "Paid public lots, scarce in summer",
+      "beach": "0-500m to Velika Plaza (sand)",
+      "summary": "The historical core features narrow alleys, restaurants, and direct access to the main city beach. Accommodation consists primarily of apartments, and navigating heavy summer crowds is mandatory."
+    },
+    {
+      "name": "Priko",
+      "bestFor": "Families wanting quieter evenings near the center",
+      "parking": "Large public lot available, some private spots",
+      "beach": "500m to 1km to main beaches",
+      "summary": "Located just across the Cetina River bridge from the old town. It offers easier parking and larger apartment buildings while remaining within a 10-minute walk of the historic center."
+    },
+    {
+      "name": "Duće",
+      "bestFor": "Families with toddlers and small children",
+      "parking": "Usually provided by accommodations",
+      "beach": "0-200m to shallow sand beaches",
+      "summary": "A 6-kilometer stretch of coastline immediately west of Omiš. It is lined with continuous sandy beaches and shallow waters, heavily focused on holiday apartments and beach bars."
+    },
+    {
+      "name": "Nemira & Stanići",
+      "bestFor": "Couples and travelers seeking peaceful pebble beaches",
+      "parking": "On-site private parking is essential",
+      "beach": "0-300m to steep pebble coves",
+      "summary": "Villages located 3 to 5 kilometers south of Omiš along the Riviera. The terrain is steep, dropping down to scenic pebble beaches with clear water, away from the sandy shallows of the town."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Munich",
+      "car": "850 km, 9-10 hours via A8, Tauernautobahn (A10), and Croatia A1. Requires AT and SI vignettes, plus AT tunnel and HR tolls.",
+      "other": "Flight to Split (SPU) then bus or private transfer."
+    },
+    {
+      "from": "Vienna",
+      "car": "770 km, 8 hours via A2, SI A1/A4, and Croatia A1. Requires AT and SI vignettes, plus HR tolls.",
+      "other": "Flight to Split (SPU) or direct FlixBus to Split/Omiš."
+    },
+    {
+      "from": "Budapest",
+      "car": "760 km, 7.5 hours via M7 and Croatia A4/A1. Requires HU vignette and HR tolls.",
+      "other": "Direct FlixBus to Split, or seasonal flight to Split (SPU)."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "500 km, 5.5 hours via A1 to Zagreb, then Croatia A1. Requires SI vignette and HR tolls.",
+      "other": "FlixBus or Nomago bus to Split, then local bus to Omiš."
+    },
+    {
+      "from": "Prague",
+      "car": "1,070 km, 11-12 hours via Vienna/Graz or Linz/Graz, then Croatia A1. Requires CZ, AT, and SI vignettes, plus HR tolls.",
+      "other": "Flight to Split (SPU) via Smartwings or Croatia Airlines."
+    },
+    {
+      "from": "Kraków",
+      "car": "1,050 km, 11 hours via Slovakia, Hungary (M1/M7), and Croatia A1. Requires SK and HU vignettes, plus HR tolls.",
+      "other": "Flight to Split (SPU) via Ryanair or Wizz Air."
+    }
+  ],
+  "whenToGo": "The sea reaches 25°C to 27°C in July and August, drawing the largest crowds and highest accommodation prices, though all restaurants, beach bars, and river tours operate at full capacity. June and September offer milder temperatures around 23°C to 25°C for swimming, significantly reduced traffic on the D8 coastal road, and lower room rates. From November to April, the town largely shuts down for tourism; sea temperatures drop below 15°C, most seasonal restaurants close, and frequent Bora winds make the coast cold and quiet.",
+  "faq": [
+    {
+      "question": "Is it worth visiting?",
+      "answer": "Yes, if you want a combination of sandy beaches, historical fortresses, and active river excursions. The proximity of the Cetina River gorge to the sea makes the landscape distinct from typical Dalmatian towns."
+    },
+    {
+      "question": "How many days do you need?",
+      "answer": "Three to five days provides enough time to explore the historic center, visit the fortresses, and take a river rafting trip. Many visitors stay for a week or longer, using the town as a base for daily beach relaxation."
+    },
+    {
+      "question": "Which is the best beach?",
+      "answer": "Velika Plaza (also known as Punta) is the main city beach, noted for its extensive sand and shallow entry. For consecutive sandy stretches, the neighboring village of Duće offers several kilometers of family-friendly shoreline."
+    },
+    {
+      "question": "Do I need a car?",
+      "answer": "A car is not required if your accommodation is in Omiš center or Duće, as local buses connect to Split and tour operators handle river transport. A vehicle is recommended for exploring the wider Riviera or if staying in steeper villages like Stanići."
+    },
+    {
+      "question": "Where to park?",
+      "answer": "The main municipal parking operates along the Fošal coastal road, while a larger unpaved lot sits across the river in Priko. During July and August, these lots often fill up before 9:00 AM, making pre-arranged accommodation parking crucial."
+    },
+    {
+      "question": "Is it good for families?",
+      "answer": "Yes, it is highly suitable for families due to the rare sandy beaches with shallow wading zones. Older children often enjoy the pirate history of the fortresses and beginner-friendly rafting on the Cetina River."
+    }
+  ],
+  "headings": {
+    "quickFacts": "At a glance",
+    "whereToStay": "Where to stay in Omiš",
+    "gettingThere": "Getting to Omiš",
+    "whenToGo": "When to go",
+    "guides": "Omiš guides",
+    "faq": "Omiš FAQ",
+    "groups": {
+      "gettingAround": "Parking & getting around",
+      "planning": "Planning & where to stay",
+      "timing": "When to go",
+      "travelers": "Families, couples & travel styles",
+      "activities": "Beaches & things to do",
+      "food": "Food & drink",
+      "comparisons": "Comparisons",
+      "practical": "Practical info"
+    },
+    "car": "By car",
+    "other": "Other options",
+    "bestFor": "Best for",
+    "parking": "Parking",
+    "beach": "Beach"
+  },
+  "destination": "omis",
+  "language": "en",
+  "updatedAt": "2026-10-16T11:21:54.735Z"
+}

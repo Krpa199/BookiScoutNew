@@ -1,0 +1,146 @@
+{
+  "title": "Stari Grad: Przewodnik turystyczny po plażach, parkingu i noclegach",
+  "metaDescription": "Zaplanuj swoją podróż do Stari Grad na wyspie Hvar. Odkryj najlepsze plaże, gdzie zaparkować, przewodniki po dzielnicach i trasy dojazdu z Europy Środkowej.",
+  "intro": "Stari Grad przyciąga podróżnych szukających relaksującej, historycznej bazy na wyspie Hvar. Jako jedno z najstarszych miast w Europie, oferuje deptak w centrum z kamiennymi uliczkami, tradycyjnymi restauracjami i długim portem otoczonym sosnowymi, żwirowymi plażami. Atmosfera jest znacznie spokojniejsza niż w Hvar Town, co czyni go idealnym miejscem dla rodzin, par i osób preferujących 'slow travel' lub zwiedzanie równiny Stari Grad, wpisanej na listę UNESCO.\n\nNajlepszy okres na wizytę trwa od maja do września. Lipiec i sierpień przynoszą najgorętszą pogodę i optymalne warunki do pływania, choć są to również najbardziej zatłoczone i najdroższe miesiące. Czerwiec i wrzesień oferują przyjemne temperatury w granicach 20-25°C, mniej tłumów i ciepłą wodę w morzu, a większość lokalnych firm pozostaje otwarta.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "Od czerwca do września"
+    },
+    {
+      "label": "Temperatura morza w sierpniu",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Split (SPU), 15 km do portu + 2h promem"
+    },
+    {
+      "label": "Główny typ plaży",
+      "value": "Żwirowe i betonowe tarasy z sosnowym cieniem"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "Nieco powyżej chorwackiej średniej, taniej niż w Hvar Town"
+    },
+    {
+      "label": "Przystosowanie do pieszych",
+      "value": "Stare miasto jest w pełni wyłączone z ruchu samochodowego i przeznaczone dla pieszych"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Stare Miasto Stari Grad",
+      "bestFor": "Dla miłośników historii i osób odwiedzających po raz pierwszy",
+      "parking": "Zakazane w środku; korzystaj z miejskich parkingów na zewnątrz",
+      "beach": "15-20 min spacerem do Bonj lub Lanterna",
+      "summary": "Klimatyczne, wolne od samochodów centrum miasta. Charakteryzuje się wąskimi, brukowanymi uliczkami, tradycyjnymi konobami i zabytkami, takimi jak zamek Tvrdalj."
+    },
+    {
+      "name": "Priko (Zatoka Północna)",
+      "bestFor": "Dla rodzin i plażowiczów",
+      "parking": "Dostępne miejsca parkingowe na ulicy i prywatne przy willach",
+      "beach": "Bezpośredni dostęp do Bonj i cichych zatoczek",
+      "summary": "Pas zabudowy mieszkalnej wzdłuż północnej strony zatoki. Oferuje łatwy dostęp pieszo zarówno do starego miasta, jak i do wody."
+    },
+    {
+      "name": "Zatoka Południowa i Borik",
+      "bestFor": "Dla spokojnych pobytów wśród sosen",
+      "parking": "Zazwyczaj zapewniony przez lokalne apartamenty",
+      "beach": "Kilka kroków od plaży Lanterna",
+      "summary": "Zielona, spokojna okolica na południowym skraju portu. Goście zatrzymują się tu dla gęstego cienia sosnowego lasu i widoków zachodu słońca nad Adriatykiem."
+    },
+    {
+      "name": "Rudina i Basina",
+      "bestFor": "Dla odosobnienia i 'slow travel'",
+      "parking": "Dużo bezpłatnych prywatnych miejsc parkingowych",
+      "beach": "Krótki spacer do dziewiczych skalistych zatok",
+      "summary": "Małe, rustykalne wioski położone kilka kilometrów poza miastem. Zapewniają całkowity spokój wśród gajów oliwnych i tradycyjnych kamiennych domów."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monachium",
+      "car": "860 km, 10-11 godzin do Splitu przez A8, A10 i A1. Wymaga winiet austriackich i słoweńskich, a także opłat drogowych w Chorwacji, następnie 2-godzinny prom.",
+      "other": "Lot do Splitu (SPU), następnie autobus lub taksówka do portu i prom."
+    },
+    {
+      "from": "Wiedeń",
+      "car": "760 km, 8-9 godzin do Splitu przez A2, A9 i chorwacką A1. Wymaga winiet austriackich i słoweńskich, a także opłat drogowych w Chorwacji, następnie 2-godzinny prom.",
+      "other": "Bezpośredni lot lub Flixbus do Splitu, a następnie prom."
+    },
+    {
+      "from": "Budapeszt",
+      "car": "750 km, 7-8 godzin do Splitu przez M7 i chorwacką A4/A1. Wymaga węgierskiej e-winiety i opłat drogowych w Chorwacji, następnie 2-godzinny prom.",
+      "other": "Bezpośredni pociąg sypialny lub lot do Splitu, a następnie prom."
+    },
+    {
+      "from": "Lublana",
+      "car": "470 km, 5-6 godzin do Splitu przez A1/A2 i chorwacką A1. Wymaga winiety słoweńskiej i opłat drogowych w Chorwacji, następnie 2-godzinny prom.",
+      "other": "Autobus lub pociąg do Splitu, a następnie prom samochodowy."
+    },
+    {
+      "from": "Praga",
+      "car": "1050 km, 11-13 godzin do Splitu przez Wiedeń lub Linz. Wymaga winiet austriackich, słoweńskich i czeskich, opłat drogowych w Chorwacji, następnie 2-godzinny prom.",
+      "other": "Bezpośredni lot sezonowy do Splitu (SPU), następnie prom."
+    },
+    {
+      "from": "Kraków",
+      "car": "1050 km, 11-13 godzin do Splitu przez Słowację i Węgry. Wymaga winiet słowackich i węgierskich, opłat drogowych w Chorwacji, następnie 2-godzinny prom.",
+      "other": "Lot (LOT lub Ryanair) do Splitu, a następnie prom."
+    }
+  ],
+  "whenToGo": "Maj wyznacza początek sezonu turystycznego, z łagodną pogodą i niższymi cenami, choć morze jest często zbyt zimne do kąpieli. Czerwiec przynosi cieplejsze temperatury morza sięgające 22°C, umiarkowane tłumy oraz w pełni działające restauracje i promy. Lipiec i sierpień to miesiące szczytowe; spodziewaj się temperatur morza około 25°C do 27°C, najwyższych cen zakwaterowania i zatłoczonych plaż. Wrzesień to mocny miesiąc przejściowy, utrzymujący ciepłe morze i otwarte udogodnienia, ale z zauważalnie mniejszymi tłumami i obniżonymi cenami. Od października do kwietnia Stari Grad wchodzi w sezon poza szczytem; większość hoteli i restauracji zamyka się, temperatury morza spadają poniżej 18°C, a miasto wraca do cichego, lokalnego rytmu.",
+  "faq": [
+    {
+      "question": "Czy warto odwiedzić Stari Grad?",
+      "answer": "Stari Grad warto odwiedzić ze względu na jego 2400-letnią historię i spokojne tempo. Stanowi autentyczną, cichą alternatywę dla tętniącej życiem sceny imprezowej Hvar Town."
+    },
+    {
+      "question": "Ile dni powinienem zostać?",
+      "answer": "Poświęć dwa do trzech dni na zwiedzanie miasta i relaks na lokalnych plażach. Jeśli używasz go jako bazy do zwiedzania reszty wyspy Hvar, pobyt od pięciu do siedmiu dni jest idealny."
+    },
+    {
+      "question": "Która jest najlepsza plaża w Stari Grad?",
+      "answer": "Lanterna jest wysoko ceniona za naturalny cień sosnowy i żwirowe brzegi. Bonj jest najbardziej dostępna z centrum, natomiast liczne skaliste zatoczki można osiągnąć krótkim spacerem."
+    },
+    {
+      "question": "Czy potrzebuję samochodu w Stari Grad?",
+      "answer": "Samochód nie jest konieczny, aby poruszać się po Stari Grad, ponieważ centrum miasta i pobliskie plaże są dostępne pieszo. Jednak wynajęcie samochodu lub skutera jest zalecane, jeśli planujesz odwiedzić południowe plaże wyspy lub ukryte wioski."
+    },
+    {
+      "question": "Gdzie powinienem zaparkować?",
+      "answer": "Stare miasto to ścisła strefa dla pieszych, więc odwiedzający muszą parkować na wyznaczonych miejskich parkingach na obrzeżach. Główne publiczne parkingi znajdują się w pobliżu wejść do miasta i portu promowego, wymagają dziennej opłaty w sezonie letnim."
+    },
+    {
+      "question": "Czy Stari Grad jest dobry dla rodzin?",
+      "answer": "Tak, to doskonałe miejsce dla rodzin. Płaska promenada nadmorska, spokojne wody zatoki i obfitość naturalnego cienia na plaży sprawiają, że jest to bezpieczne i komfortowe dla dzieci."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Gdzie zatrzymać się w Stari Grad",
+    "gettingThere": "Dojazd do Stari Grad",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Stari Grad",
+    "faq": "FAQ Stari Grad",
+    "groups": {
+      "gettingAround": "Parking i poruszanie się",
+      "planning": "Planowanie i gdzie się zatrzymać",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróżowania",
+      "activities": "Plaże i atrakcje",
+      "food": "Jedzenie i napoje",
+      "comparisons": "Porównania",
+      "practical": "Praktyczne informacje"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "stari-grad",
+  "language": "pl",
+  "updatedAt": "2026-10-16T14:45:03.948Z"
+}

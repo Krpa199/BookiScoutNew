@@ -1,0 +1,146 @@
+{
+  "title": "Jelsa – Cestovní průvodce: Pláže, parkování a kde se ubytovat",
+  "metaDescription": "Naplánujte si cestu do Jelsy v Chorvatsku s naším podrobným průvodcem. Objevte nejlepší pláže, čtvrti, trasy pro jízdu autem a tipy na parkování pro vaši dovolenou na Hvaru.",
+  "intro": "Jelsa je pobřežní město na severní straně ostrova Hvar, sloužící jako klidnější, rodinně orientovaná alternativa k rušnějšímu městu Hvar. Má koncentrované historické centrum postavené kolem chráněného přístavu, obklopené borovými lesy a vinicemi a olivovými háji. Město má funkční celoroční komunitu, která udržuje místní vybavení, jako jsou pekárny, lékárny a supermarkety, otevřené i mimo hlavní turistickou sezónu.\n\nMěsto vyhovuje návštěvníkům, kteří hledají snadný přístup na pláž, rovinaté pobřežní trasy pro pěší a cyklistiku a uvolněnou večerní atmosféru. Rodiny s malými dětmi si často vybírají Jelsu kvůli jejím zátokám s písčitým dnem. Optimální doba k návštěvě je od června do září, kdy jsou teploty moře dostatečně teplé na koupání a katamaránové spoje jezdí podle nejčastějších letních jízdních řádů.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "Červen až září"
+    },
+    {
+      "label": "Teplota moře v srpnu",
+      "value": "25°C až 27°C"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Split (SPU), 24 km k přístavu + 2 hodiny trajektem"
+    },
+    {
+      "label": "Hlavní typ pláže",
+      "value": "Písek a oblázky"
+    },
+    {
+      "label": "Cenová úroveň",
+      "value": "Mírně nad chorvatským průměrem"
+    },
+    {
+      "label": "Centrum města",
+      "value": "Pouze pro pěší, bez aut"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centrum Jelsy (Staré Město)",
+      "bestFor": "Stravování, večerní procházky a pro ty bez auta",
+      "parking": "Placené městské parkoviště mimo pěší zónu",
+      "beach": "10 minut chůze na pláž Mina",
+      "summary": "Historické jádro se vyznačuje kamennými domy, kavárnami a restauracemi kolem hlavního náměstí (Pjaca) a přístavu. Ubytování zde znamená okamžitý přístup k dennímu vybavení a katamaránovým spojením, ačkoli klid a pohoda mohou být v červenci a srpnu večer omezené."
+    },
+    {
+      "name": "Oblast pláže Mina",
+      "bestFor": "Rodiny s malými dětmi",
+      "parking": "Soukromé parkování u většiny apartmánů, plus nedaleká placená parkoviště",
+      "beach": "Okamžitý přístup na pláž Mina s písčitým dnem",
+      "summary": "Tato čtvrť se nachází východně od centra města a dominuje jí pobřežní borovice a snadný přístup k nejoblíbenější rodinné pláži Jelsy. Procházka do centra trvá asi 10 minut po rovinaté, osvětlené přímořské promenádě."
+    },
+    {
+      "name": "Vitarnja",
+      "bestFor": "Páry a ti, kteří hledají klid",
+      "parking": "Obvykle v ceně ubytování",
+      "beach": "Okamžitý přístup do skalnatých a oblázkových zátok",
+      "summary": "Vitarnja se táhne západně od Jelsy směrem k sousední vesnici Vrboska a je to klidný, obytný úsek pobřeží. Nabízí soukromá místa ke koupání u skalnatých plošin a stinnou pobřežní stezku, která spojuje obě města."
+    },
+    {
+      "name": "Vrboska",
+      "bestFor": "Cyklisté a delší pobyty",
+      "parking": "Dostatek veřejných a soukromých parkovacích míst",
+      "beach": "2 km na pláž Soline, nebo na kole na pláže Jelsy",
+      "summary": "Tato samostatná vesnice se nachází 4 kilometry západně od Jelsy, v hluboké, úzké zátoce překlenuté kamennými mosty. Slouží jako praktická alternativní základna s vlastními restauracemi, přístavem a převážně rovinatým terénem ideálním pro cyklistiku podél pobřeží."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Mnichov",
+      "car": "870 km do přístavu Split + trajekt, celkem 11-12 hodin (přes A8, Villach, Lublaň, Záhřeb, A1). Vyžaduje rakouskou a slovinskou dálniční známku, chorvatské mýto a lístek na trajekt Jadrolinija.",
+      "other": "Přímé lety do Splitu (SPU), poté letištní autobus do přístavu a katamarán přímo do Jelsy."
+    },
+    {
+      "from": "Vídeň",
+      "car": "800 km do přístavu Split + trajekt, celkem 10-11 hodin (přes Graz, Maribor, Záhřeb, A1). Vyžaduje rakouskou a slovinskou dálniční známku, chorvatské mýto a lístek na trajekt Jadrolinija.",
+      "other": "Přímé lety nebo sezónní noční vlak do Splitu, poté katamarán přímo do Jelsy."
+    },
+    {
+      "from": "Budapešť",
+      "car": "760 km do přístavu Split + trajekt, celkem 9-10 hodin (přes M7, Letenye, Záhřeb, A1). Vyžaduje maďarskou e-dálniční známku, chorvatské mýto a lístek na trajekt Jadrolinija.",
+      "other": "Přímé lety do Splitu, poté letištní autobus do přístavu a katamarán přímo do Jelsy."
+    },
+    {
+      "from": "Lublaň",
+      "car": "480 km do přístavu Split + trajekt, celkem 7-8 hodin (přes A2 do Záhřebu, poté A1 do Splitu). Vyžaduje slovinskou dálniční známku, chorvatské mýto a lístek na trajekt Jadrolinija.",
+      "other": "Autobus nebo vlak do Splitu, poté katamarán přímo do Jelsy nebo trajekt do Stari Gradu."
+    },
+    {
+      "from": "Praha",
+      "car": "1 120 km do přístavu Split + trajekt, celkem 13-14 hodin (přes Vídeň, Graz, Maribor, Záhřeb, A1). Vyžaduje CZ, AT, SI dálniční známky, chorvatské mýto a lístek na trajekt Jadrolinija.",
+      "other": "Přímé lety do Splitu, poté letištní autobus do přístavu a katamarán přímo do Jelsy."
+    },
+    {
+      "from": "Krakov",
+      "car": "1 100 km do přístavu Split + trajekt, celkem 12-14 hodin (přes Slovensko, Budapešť, Záhřeb, A1). Vyžaduje SK a HU dálniční známky, chorvatské mýto a lístek na trajekt Jadrolinija.",
+      "other": "Přímé lety do Splitu, poté letištní autobus do přístavu a katamarán přímo do Jelsy."
+    }
+  ],
+  "whenToGo": "Teploty moře obvykle dosahují 21 °C koncem května a vrcholí mezi 25 °C a 27 °C v červenci a srpnu, přičemž zůstávají dostatečně teplé na koupání hluboko do října. Červenec a srpen jsou nejrušnější a nejdražší měsíce, kdy vrcholí letní prázdninový provoz, a v tuto dobu jsou všechny restaurace, plážové bary a půjčovny lodí plně v provozu. Červen a září nabízejí nejlepší rovnováhu teplého moře, zvládnutelnějšího počtu lidí a mírně nižších cen ubytování, což je činí optimálními pro kombinaci času stráveného na pláži s cyklistikou nebo prohlídkou památek. Od listopadu do dubna se Jelsa výrazně zklidní; zatímco místní komunita zůstává, většina turisticky zaměřených podniků, hotelů a sezónních trajektových linek na zimu zavírá.",
+  "faq": [
+    {
+      "question": "Stojí za to navštívit?",
+      "answer": "Ano, Jelsa stojí za návštěvu pro cestovatele hledající klidnější, rodinně orientovanou alternativu k městu Hvar. Nabízí rovinaté pobřežní stezky, pláže s písčitým dnem a dobře zachovalé historické centrum bez intenzivního nočního života."
+    },
+    {
+      "question": "Kolik dní?",
+      "answer": "Tři až pět dní je praktický časový rámec pro prozkoumání Jelsy a jejího bezprostředního okolí. To poskytuje dostatek času strávit několik dní na místních plážích a podniknout krátké výlety do nedalekého Stari Gradu, Vrbosky nebo na jižní pobřeží Hvaru."
+    },
+    {
+      "question": "Nejlepší pláž?",
+      "answer": "Mina a Grebišće jsou obecně považovány za nejlepší pláže v Jelse díky svým mělkým písčitým dnům, které jsou na Hvaru vzácné. Mina je nejblíže centru (asi 10 minut chůze), zatímco Grebišće leží 1,5 kilometru východně a nabízí více prostoru."
+    },
+    {
+      "question": "Potřebuji auto?",
+      "answer": "Auto nepotřebujete, pokud plánujete zůstat v Jelse a trávit čas na místních plážích, protože město je kompaktní a snadno průchozí. Nicméně, mít auto nebo si půjčit skútr se doporučuje, pokud chcete prozkoumat odlehlé zátoky, vnitrozemské vesnice nebo jiná města na ostrově."
+    },
+    {
+      "question": "Kde parkovat?",
+      "answer": "Parkování v Jelse je spravováno prostřednictvím městských placených parkovišť, která se nacházejí těsně mimo pěší zónu centra, přičemž hlavní parkoviště je u centrálního parku. V hlavní letní sezóně parkování obvykle stojí 1,40 € za hodinu nebo 14 € za denní lístek."
+    },
+    {
+      "question": "Je to vhodné pro rodiny?",
+      "answer": "Ano, Jelsa je vysoce ceněna jako destinace vhodná pro rodiny. Město nabízí zóny pouze pro pěší, rovinaté promenády vhodné pro kočárky a bezpečné, mělké pláže s písčitým dnem, které jsou speciálně určeny pro malé děti."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na první pohled",
+    "whereToStay": "Kde se ubytovat v Jelse",
+    "gettingThere": "Jak se dostat do Jelsy",
+    "whenToGo": "Kdy jet",
+    "guides": "Průvodci Jelsou",
+    "faq": "Časté dotazy o Jelse",
+    "groups": {
+      "gettingAround": "Parkování a doprava po Jelse",
+      "planning": "Plánování a kde se ubytovat",
+      "timing": "Kdy jet",
+      "travelers": "Rodiny, páry a styly cestování",
+      "activities": "Pláže a co dělat",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": "Praktické informace"
+    },
+    "car": "Autem",
+    "other": "Další možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "jelsa",
+  "language": "cz",
+  "updatedAt": "2026-10-16T14:52:57.908Z"
+}

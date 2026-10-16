@@ -1,0 +1,146 @@
+{
+  "title": "Krk: Průvodce po Krku – pláže, parkování a kde se ubytovat",
+  "metaDescription": "Naplánujte si cestu na chorvatský ostrov Krk. Najděte nejlepší oblasti k ubytování, trasy pro jízdu autem ze střední Evropy, typy pláží a tipy na parkování ve starém městě.",
+  "intro": "Krk je největší ostrov v Jaderském moři a jedna z nejdostupnějších chorvatských destinací pro řidiče ze střední Evropy. Hodí se pro rodiny, páry i cestovatele na road-tripu, kteří hledají historická města, oblázkové pláže ve stínu borovic a průzračné vody bez nutnosti trajektových přesunů. Město Krk slouží jako kulturní a historické centrum ostrova, obklopené pobřežními promenádami a velkými kempy.\n\nLéto přináší nejteplejší teploty moře a nejstabilnější počasí, ale červenec a srpen také znamenají největší davy a nejvyšší ceny. Červen a září nabízejí klidnější zážitek s dostatečně teplou vodou ke koupání. Zimy jsou velmi klidné, většina turistické infrastruktury se zavírá mezi listopadem a dubnem.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "Červen až září"
+    },
+    {
+      "label": "Teplota moře v srpnu",
+      "value": "24°C až 26°C"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Letiště Rijeka (RJK), 27 km daleko"
+    },
+    {
+      "label": "Hlavní typ pláže",
+      "value": "Oblázkové, kamenité a dlážděné terasy"
+    },
+    {
+      "label": "Cenová úroveň",
+      "value": "Mírně nad chorvatským průměrem"
+    },
+    {
+      "label": "Staré Město",
+      "value": "Pouze pro pěší (bez aut)"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Staré Město (Stari Grad)",
+      "bestFor": "Historie, gastronomie a krátkodobé pobyty",
+      "parking": "Mimo městské hradby (placená veřejná parkoviště)",
+      "beach": "10-15 minut chůze na Porporela nebo Dražica",
+      "summary": "Historické opevněné centrum obsahuje úzké kamenné uličky, hrad Frankopan a četné restaurace. Je zcela pěší zónou, což usnadňuje procházky, ale vyžaduje přenášení zavazadel z okrajových parkovišť."
+    },
+    {
+      "name": "Dražica a Koralj",
+      "bestFor": "Rodiny, přístup na pláž a resort hotely",
+      "parking": "Parkování u hotelu nebo velká placená veřejná parkoviště",
+      "beach": "Okamžitý přístup k oblázkovým a dlážděným plážím",
+      "summary": "Nachází se kousek na východ od Starého Města, tato oblast je hustě zalesněna borovicemi. Obsahuje hlavní koncentraci hotelů a rodinných oblázkových zátok."
+    },
+    {
+      "name": "Ježevac",
+      "bestFor": "Kempaři, rodiny a klidné plážové dny",
+      "parking": "Na místě v kempu nebo pouliční parkování",
+      "beach": "Okamžitý přístup na oblázkovou pláž Ježevac",
+      "summary": "Nachází se západně od centra, tato oblast je ovládnuta velkým prémiovým kempem a jeho nově zrekonstruovanou plážovou infrastrukturou. Zůstává snadnou 10minutovou procházkou do Starého Města."
+    },
+    {
+      "name": "Kornić",
+      "bestFor": "Cestovatelé s omezeným rozpočtem a klidnější předměstská atmosféra",
+      "parking": "Obvykle k dispozici bezplatné soukromé parkování u apartmánů",
+      "beach": "2 km z kopce k pláži Dunat",
+      "summary": "Malá vesnice ležící asi 6 km od města Krk s výhledem na zátoku Punat. Vyžaduje auto nebo kolo k dosažení pláže a hlavního města, ale nabízí cenově dostupnější pronájmy apartmánů."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Mnichov",
+      "car": "~520 km, 6,5 hodiny. Trasa přes Salcburk (A8), Villach (A10), Lublaň, Postojnou, Rijeku. Vyžaduje rakouskou dálniční známku, mýtné za Tauern tunel, slovinskou dálniční známku, chorvatské mýtné (most Krk je bez mýtného).",
+      "other": "Let do Rijeky (RJK) nebo přímý FlixBus na Krk."
+    },
+    {
+      "from": "Vídeň",
+      "car": "~510 km, 5,5 hodiny. Trasa přes Štýrský Hradec (A2), Maribor (A1), Záhřeb, Rijeku. Vyžaduje rakouskou dálniční známku, slovinskou dálniční známku, chorvatské mýtné.",
+      "other": "Přímý FlixBus nebo let do Záhřebu."
+    },
+    {
+      "from": "Budapešť",
+      "car": "~510 km, 5 hodin. Trasa přes Balaton (M7), Záhřeb, Rijeku (A6). Vyžaduje maďarskou e-dálniční známku, chorvatské dálniční mýtné.",
+      "other": "Přímý FlixBus, nebo vlakem do Rijeky a poté místním autobusem."
+    },
+    {
+      "from": "Lublaň",
+      "car": "~150 km, 2 hodiny. Trasa přes Postojnou, Ilirskou Bistrici, Rupu, Rijeku. Vyžaduje slovinskou dálniční známku, chorvatské mýtné.",
+      "other": "Přímý autobus na Krk nebo do Rijeky."
+    },
+    {
+      "from": "Praha",
+      "car": "~820 km, 9 hodin. Trasa přes České Budějovice, Linec, Štýrský Hradec, Maribor, Záhřeb. Vyžaduje české, rakouské, slovinské dálniční známky, chorvatské mýtné.",
+      "other": "Kombinace vlak/autobus RegioJet do Rijeky."
+    },
+    {
+      "from": "Krakov",
+      "car": "~960 km, 10,5 hodiny. Trasa přes Katowice, Ostravu, Brno, Vídeň, Štýrský Hradec, Maribor, Záhřeb. Vyžaduje polské mýtné, české, rakouské, slovinské dálniční známky, chorvatské mýtné.",
+      "other": "Let do Záhřebu nebo Zadaru, poté autobusem nebo půjčeným autem."
+    }
+  ],
+  "whenToGo": "Turistická sezóna trvá od května do října. Červenec a srpen jsou hlavními měsíci, kdy teploty moře dosahují 25°C, ceny ubytování jsou vysoké a pláže přeplněné. Červen a září nabízejí ideální rovnováhu teplého počasí, teplot moře kolem 22°C až 23°C a méně davů. Květen a říjen jsou podstatně klidnější a levnější, vhodné pro cyklistiku a pěší turistiku, ačkoli moře je často příliš studené na koupání. Většina restaurací a hotelů je zavřená od listopadu do dubna, což zimní návštěvy značně omezuje z hlediska vybavení.",
+  "faq": [
+    {
+      "question": "Stojí Krk za návštěvu?",
+      "answer": "Ano, je to skvělá volba pro dostupný zážitek z chorvatského ostrova. Nabízí dobře zachovalé historické centrum, pláže ve stínu borovic a díky mostnímu spojení se vyhnete trajektové dopravě."
+    },
+    {
+      "question": "Kolik dní potřebuji na Krku?",
+      "answer": "Tři až pět dní stačí na prohlídku města Krk, užívání místních pláží a výlet lodí. Pokud plánujete prozkoumat celý ostrov, včetně Bašky a Vrbniku, počítejte s celým týdnem."
+    },
+    {
+      "question": "Jaká je nejlepší pláž na Krku?",
+      "answer": "Pláž Dražica je nejoblíbenější ve městě Krk díky své průzračné vodě, stínu borovic a vybavení. Mimo hlavní město je Vela Plaža v Bašce všeobecně považována za nejslavnější pláž ostrova."
+    },
+    {
+      "question": "Potřebuji na Krku auto?",
+      "answer": "Auto není nutné, pokud se ubytujete ve městě Krk, protože centrum, pláže a restaurace jsou dostupné pěšky. Nicméně, mít vozidlo je vysoce doporučeno, pokud chcete prozkoumat další města a pláže na ostrově."
+    },
+    {
+      "question": "Kde parkovat na Krku?",
+      "answer": "Návštěvníci nemohou parkovat uvnitř pěší zóny Starého Města. Musíte využít velká veřejná placená parkoviště umístěná vně městských hradeb, nebo si zarezervovat ubytování, které nabízí vyhrazené parkování mimo ulici."
+    },
+    {
+      "question": "Je Krk vhodný pro rodiny?",
+      "answer": "Ano, Krk je velmi vhodný pro rodiny. Město nabízí pláže s pozvolným oblázkovým vstupem, hojným přirozeným stínem borovic, dětskými hřišti a velkými resort kempy s vyhrazenými dětskými zařízeními."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Přehled",
+    "whereToStay": "Kde se ubytovat na Krku",
+    "gettingThere": "Jak se dostat na Krk",
+    "whenToGo": "Kdy jet",
+    "guides": "Průvodci po Krku",
+    "faq": "Často kladené otázky o Krku",
+    "groups": {
+      "gettingAround": "Parkování a doprava po ostrově",
+      "planning": "Plánování a kde se ubytovat",
+      "timing": "Kdy vyrazit",
+      "travelers": "Rodiny, páry a styly cestování",
+      "activities": "Pláže a aktivity",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": "Praktické informace"
+    },
+    "car": "Autem",
+    "other": "Další možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "krk",
+  "language": "cz",
+  "updatedAt": "2026-10-16T09:39:57.209Z"
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Ston: Przewodnik turystyczny – mury, ostrygi i noclegi",
+  "metaDescription": "Zaplanuj swoją podróż do Stonu w Chorwacji. Znajdź praktyczne porady dotyczące parkowania, tras dojazdowych z Europy Środkowej, plaż i najlepszych miejsc na pobyt na półwyspie Pelješac.",
+  "intro": "Ston to historyczne miasto u podnóża półwyspu Pelješac, znane z 5,5-kilometrowych XIV-wiecznych murów obronnych, działających salin i bliskości farm ostryg w zatoce Mali Ston. Jest to idealne miejsce dla podróżnych szukających bazy wypadowej do zwiedzania Południowej Dalmacji i wysp, bez intensywnych tłumów i wysokich cen pobliskiego Dubrownika. Miasto koncentruje się na historii i gastronomii, a nie na życiu nocnym czy kompleksach wypoczynkowych.\n\nNajlepszy czas na wizytę to okres od maja do września. Wysokie lato przynosi upalną pogodę idealną do pływania na pobliskiej plaży Prapratno, natomiast sezony przejściowe, czyli maj, czerwiec i wrzesień, oferują chłodniejsze warunki do spacerowania po murach i zwiedzania regionalnych winnic. Większość turystów przyjeżdża samochodem, ponieważ opcje transportu publicznego ograniczają się do lokalnych połączeń autobusowych.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "Maj do września"
+    },
+    {
+      "label": "Temperatura morza w sierpniu",
+      "value": "25°C - 26°C"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Lotnisko Dubrownik (DBV), 72 km"
+    },
+    {
+      "label": "Główny typ plaży",
+      "value": "Piaskowa (Prapratno) i naturalne skały"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "Średni jak na wybrzeże, taniej niż w Dubrowniku"
+    },
+    {
+      "label": "Poruszanie się po starym mieście",
+      "value": "Centrum tylko dla pieszych; parking poza murami"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Ston (Centrum)",
+      "bestFor": "Historia, gastronomia i zwiedzanie",
+      "parking": "Płatne parkingi publiczne tuż poza murami",
+      "beach": "3 km do plaży Prapratno",
+      "summary": "Główna osada charakteryzuje się kamiennymi domami, kawiarniami i bezpośrednim dostępem do salin oraz wejścia na mury. Oferuje najwięcej opcji gastronomicznych i udogodnień, ale brakuje bezpośredniego dostępu do plaży."
+    },
+    {
+      "name": "Mali Ston",
+      "bestFor": "Degustacja ostryg i spokojne wieczory",
+      "parking": "Ograniczone miejsca parkingowe na ulicach i małe płatne parkingi",
+      "beach": "Brak tradycyjnych plaż; dostęp do wybrzeża skalistego",
+      "summary": "Mała wioska po północnej stronie przesmyku, połączona ze Stonem murami. Słynie z farm ostryg i tradycyjnych restauracji z owocami morza nad wodą."
+    },
+    {
+      "name": "Prapratno",
+      "bestFor": "Rodziny i miłośnicy plażowania",
+      "parking": "Duży parking w pobliżu promu i plaży",
+      "beach": "Bezpośredni dostęp do piaszczystej zatoki",
+      "summary": "Położona w zatoce na południe od Stonu, obszar ten składa się głównie z dużego kempingu, kilku apartamentów i portu promowego na Mljet. Naturalna piaszczysta plaża jest płytka i doskonale nadaje się dla małych dzieci."
+    },
+    {
+      "name": "Broce",
+      "bestFor": "Ustronny relaks z dala od tłumów",
+      "parking": "Bezpłatny parking zazwyczaj zapewniany przez pensjonaty",
+      "beach": "Betonowe płyty i małe żwirowe zatoczki",
+      "summary": "Spokojna, tradycyjna wioska rybacka, krótki przejazd na południe od Stonu. Otoczona jest sosnowymi lasami i oferuje spokojne środowisko z minimalnymi udogodnieniami komercyjnymi."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monachium",
+      "car": "940 km, 10-11 godzin przez A8, austriackie A10/A11 (winieta + opłaty za tunele), słoweńskie A2 (winieta) i chorwackie A1 (bramki poboru opłat).",
+      "other": "Lot do Dubrownika, następnie 1 godzina jazdy samochodem lub autobusem."
+    },
+    {
+      "from": "Wiedeń",
+      "car": "780 km, 8-9 godzin przez austriackie A2/A9 (winieta), słoweńskie A1/A4 (winieta) i chorwackie A1 (bramki poboru opłat).",
+      "other": "Bezpośredni lot do Dubrownika, następnie transfer z lotniska lub wynajem samochodu."
+    },
+    {
+      "from": "Budapeszt",
+      "car": "720 km, 7,5-8,5 godziny przez M7 (winieta) łączącą się z chorwackimi A4 i A1 (bramki poboru opłat).",
+      "other": "Lot do Dubrownika (dostępne połączenia sezonowe)."
+    },
+    {
+      "from": "Lublana",
+      "car": "540 km, 6-6,5 godziny przez słoweńskie A2 (winieta) i chorwackie A1 (bramki poboru opłat).",
+      "other": "Ograniczone bezpośrednie połączenia; najlepiej dojechać samochodem."
+    },
+    {
+      "from": "Praga",
+      "car": "1100 km, 11-12 godzin przez Austrię (winieta) i Słowenię (winieta) do chorwackiej A1.",
+      "other": "Lot do Dubrownika, następnie lokalny autobus lub wynajem samochodu."
+    },
+    {
+      "from": "Kraków",
+      "car": "1140 km, 12-13 godzin przez Słowację i Węgry (winiety) do chorwackiej A1 (bramki poboru opłat).",
+      "other": "Lot z Krakowa lub Katowic do Dubrownika."
+    }
+  ],
+  "whenToGo": "Sezon turystyczny trwa od maja do października. Lipiec i sierpień to najgorętsze i najbardziej ruchliwe miesiące, z temperaturą morza osiągającą 26°C i cenami zakwaterowania na najwyższym poziomie, choć Ston pozostaje mniej zatłoczony niż większe miasta nadbrzeżne. Czerwiec i wrzesień oferują idealne warunki z ciepłą wodą, niższymi cenami i temperaturami w połowie 20 stopni Celsjusza, co znacznie ułatwia wspinanie się po niezacienionych murach obronnych. Wiele lokalnych restauracji, wycieczek po salinach i rejsów degustacyjnych ostryg działa w pełni w tych miesiącach. Od listopada do kwietnia miasto jest bardzo spokojne; wiele firm zorientowanych na turystów zamyka się na zimę, a pogoda jest zbyt chłodna na pływanie, choć mury i kilka lokalnych restauracji pozostają otwarte przez cały rok.",
+  "faq": [
+    {
+      "question": "Czy warto odwiedzić Ston?",
+      "answer": "Tak, Ston warto odwiedzić ze względu na jego 5,5-kilometrowy średniowieczny mur, historyczne saliny i słynną branżę ostryg. Służy jako doskonała baza wypadowa do zwiedzania półwyspu Pelješac bez wysokich kosztów zakwaterowania w Dubrowniku."
+    },
+    {
+      "question": "Ile dni potrzeba na zwiedzanie Stonu?",
+      "answer": "Jeden do dwóch dni wystarczy, aby zobaczyć główne atrakcje Stonu i Mali Stonu. Wielu turystów zostaje jednak na cztery do siedmiu dni, aby wykorzystać miasto jako praktyczną bazę wypadową na jednodniowe wycieczki na Mljet, Korčulę i do lokalnych winnic."
+    },
+    {
+      "question": "Jaka jest najlepsza plaża w Stonie?",
+      "answer": "Plaża Prapratno, położona trzy kilometry od centrum Stonu, jest najpopularniejszą plażą w okolicy. Charakteryzuje się naturalnym piaskiem i płytką wodą, co czyni ją niezwykle popularną w miesiącach letnich."
+    },
+    {
+      "question": "Czy potrzebuję samochodu w Stonie?",
+      "answer": "Samochód jest wysoce zalecany podczas pobytu w Stonie. Chociaż można spacerować między Stonem a Mali Stonem, pojazd jest niezbędny do dotarcia do najlepszych plaż, odwiedzenia pobliskich winnic lub zwiedzania reszty półwyspu Pelješac."
+    },
+    {
+      "question": "Gdzie zaparkować w Stonie?",
+      "answer": "Istnieje kilka płatnych miejskich parkingów położonych tuż poza historycznym centrum, które jest strefą tylko dla pieszych. Opłaty za parking obowiązują w sezonie turystycznym, a miejsca mogą szybko się zapełnić w środku dnia w lipcu i sierpniu."
+    },
+    {
+      "question": "Czy Ston jest odpowiedni dla rodzin?",
+      "answer": "Tak, Ston jest odpowiedni dla rodzin szukających spokojnego wypoczynku, zwłaszcza tych z małymi dziećmi, które będą cieszyć się piaszczystymi, płytkimi wodami pobliskiej plaży Prapratno. Brakuje tu jednak dużych rozrywek kurortowych i parków wodnych, które można znaleźć w bardziej skomercjalizowanych miejscowościach nadmorskich."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Gdzie zatrzymać się w Stonie",
+    "gettingThere": "Dojazd do Stonu",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Stonie",
+    "faq": "Ston: Najczęściej zadawane pytania",
+    "groups": {
+      "gettingAround": "Parking i poruszanie się",
+      "planning": "Planowanie podróży i noclegi",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróżowania",
+      "activities": "Plaże i co robić",
+      "food": "Jedzenie i picie",
+      "comparisons": "Porównania",
+      "practical": "Praktyczne informacje"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "ston",
+  "language": "pl",
+  "updatedAt": "2026-10-16T15:16:13.403Z"
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Jelsa Reisgids: Stranden, Parkeren & Waar te Verblijven",
+  "metaDescription": "Plan uw reis naar Jelsa, Kroatië met onze praktische gids. Ontdek de beste stranden, wijken, autoroutes en parkeertips voor uw vakantie op Hvar.",
+  "intro": "Jelsa is een kustplaats aan de noordzijde van het eiland Hvar, en dient als een rustiger, gezinsvriendelijker alternatief voor het drukkere Hvar-stad. Het beschikt over een geconcentreerd historisch centrum gebouwd rond een beschermde haven, ondersteund door dennenbossen en omgeven door wijngaarden en olijfgaarden. De stad heeft een functionele jaarrond gemeenschap, die lokale voorzieningen zoals bakkerijen, apotheken en supermarkten buiten het hoogseizoen openhoudt.\n\nDe stad is geschikt voor bezoekers die op zoek zijn naar gemakkelijke toegang tot het strand, vlakke kustwandel- en fietsroutes, en een ontspannen avondsfeer. Gezinnen met jonge kinderen kiezen Jelsa vaak vanwege de baaien met zandbodem. De optimale reistijd is van juni tot september, wanneer de zeetemperaturen warm genoeg zijn om te zwemmen en de catamaranverbindingen hun meest frequente zomerschema's volgen.",
+  "quickFacts": [
+    {
+      "label": "Beste maanden",
+      "value": "Juni tot september"
+    },
+    {
+      "label": "Zeetemperatuur in augustus",
+      "value": "25°C tot 27°C"
+    },
+    {
+      "label": "Dichtstbijzijnde luchthaven",
+      "value": "Split (SPU), 24 km naar de haven + 2 uur veerboot"
+    },
+    {
+      "label": "Hoofdstrandtype",
+      "value": "Zand en kiezel"
+    },
+    {
+      "label": "Prijsniveau",
+      "value": "Iets boven Kroatisch gemiddelde"
+    },
+    {
+      "label": "Stadscentrum",
+      "value": "Alleen voor voetgangers, autovrij"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centrum van Jelsa (Oude Stad)",
+      "bestFor": "Dineren, avondwandelingen en niet-bestuurders",
+      "parking": "Betaalde gemeentelijke parkeerplaatsen buiten de voetgangerszone",
+      "beach": "10 minuten lopen naar Mina Beach",
+      "summary": "De historische kern omvat stenen huizen, cafés en restaurants rond het centrale plein (Pjaca) en de haven. Hier verblijven betekent directe toegang tot dagelijkse voorzieningen en catamaranverbindingen, hoewel rust en stilte in juli en augustus 's avonds beperkt kunnen zijn."
+    },
+    {
+      "name": "Mina Strandgebied",
+      "bestFor": "Gezinnen met jonge kinderen",
+      "parking": "Privéparking bij de meeste appartementen, plus nabijgelegen betaalde parkeerplaatsen",
+      "beach": "Directe toegang tot het zandstrand Mina Beach",
+      "summary": "Gelegen direct ten oosten van het stadscentrum, wordt deze wijk gedomineerd door kustdennen en biedt het gemakkelijke toegang tot Jelsa's populairste gezinsstrand. De wandeling naar het centrum duurt ongeveer 10 minuten langs een vlakke, verlichte kustpromenade."
+    },
+    {
+      "name": "Vitarnja",
+      "bestFor": "Stellen en mensen die rust zoeken",
+      "parking": "Meestal inbegrepen bij de accommodatie",
+      "beach": "Directe toegang tot rotsachtige en kiezelbaaien",
+      "summary": "Vitarnja strekt zich uit ten westen van Jelsa richting het naburige dorp Vrboska en is een rustig, residentieel kustgebied. Het biedt privézwemplekken vanaf rotsplateaus en een schaduwrijk kustpad dat de twee plaatsen verbindt."
+    },
+    {
+      "name": "Vrboska",
+      "bestFor": "Fietsers en langere verblijven",
+      "parking": "Ruime openbare en privé parkeergelegenheid",
+      "beach": "2 km naar Soline strand, of fiets naar de stranden van Jelsa",
+      "summary": "Dit aparte dorp, 4 kilometer ten westen van Jelsa gelegen, ligt in een diepe, smalle baai die wordt doorkruist door stenen bruggen. Het dient als een praktische alternatieve uitvalsbasis met eigen restaurants, een jachthaven en voornamelijk vlak terrein, ideaal om langs de kust te fietsen."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "870 km naar Split haven + veerboot, 11-12 uur totaal (via A8, Villach, Ljubljana, Zagreb, A1). Vereist Oostenrijkse en Sloveense vignetten, Kroatische tolgelden en een Jadrolinija veerticket.",
+      "other": "Directe vluchten naar Split (SPU), dan luchthavenbus naar de haven en catamaran direct naar Jelsa."
+    },
+    {
+      "from": "Wenen",
+      "car": "800 km naar Split haven + veerboot, 10-11 uur totaal (via Graz, Maribor, Zagreb, A1). Vereist Oostenrijkse en Sloveense vignetten, Kroatische tolgelden en een Jadrolinija veerticket.",
+      "other": "Directe vluchten of seizoensgebonden nachttrein naar Split, dan catamaran direct naar Jelsa."
+    },
+    {
+      "from": "Boedapest",
+      "car": "760 km naar Split haven + veerboot, 9-10 uur totaal (via M7, Letenye, Zagreb, A1). Vereist Hongaars e-vignet, Kroatische tolgelden en een Jadrolinija veerticket.",
+      "other": "Directe vluchten naar Split, dan luchthavenbus naar de haven en catamaran direct naar Jelsa."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "480 km naar Split haven + veerboot, 7-8 uur totaal (via A2 naar Zagreb, dan A1 naar Split). Vereist Sloveens vignet, Kroatische tolgelden en een Jadrolinija veerticket.",
+      "other": "Bus of trein naar Split, dan catamaran direct naar Jelsa of veerboot naar Stari Grad."
+    },
+    {
+      "from": "Praag",
+      "car": "1.120 km naar Split haven + veerboot, 13-14 uur totaal (via Wenen, Graz, Maribor, Zagreb, A1). Vereist CZ, AT, SI vignetten, Kroatische tolgelden en een Jadrolinija veerticket.",
+      "other": "Directe vluchten naar Split, dan luchthavenbus naar de haven en catamaran direct naar Jelsa."
+    },
+    {
+      "from": "Krakau",
+      "car": "1.100 km naar Split haven + veerboot, 12-14 uur totaal (via Slowakije, Boedapest, Zagreb, A1). Vereist SK en HU vignetten, Kroatische tolgelden en een Jadrolinija veerticket.",
+      "other": "Directe vluchten naar Split, dan luchthavenbus naar de haven en catamaran direct naar Jelsa."
+    }
+  ],
+  "whenToGo": "De zeetemperaturen bereiken doorgaans 21°C tegen eind mei en pieken tussen 25°C en 27°C in juli en augustus, en blijven warm genoeg om te zwemmen tot ver in oktober. Juli en augustus zijn de drukste en duurste maanden, met topdrukte door zomervakanties, en dit is wanneer alle restaurants, strandbars en bootverhuurbedrijven volledig operationeel zijn. Juni en september bieden de beste balans tussen warme zeeën, beheersbare drukte en iets lagere accommodatieprijzen, waardoor ze optimaal zijn om strandtijd te combineren met fietsen of bezienswaardigheden bekijken. Tussen november en april wordt Jelsa aanzienlijk rustiger; hoewel de lokale gemeenschap blijft, sluiten de meeste op toeristen gerichte bedrijven, hotels en seizoensgebonden veerbootroutes voor de winter.",
+  "faq": [
+    {
+      "question": "Is het de moeite waard om te bezoeken?",
+      "answer": "Ja, Jelsa is de moeite waard voor reizigers die een rustiger, gezinsvriendelijker alternatief zoeken voor Hvar-stad. Het biedt vlakke kustpaden, zandstranden en een goed bewaard gebleven historisch centrum zonder het intense nachtleven."
+    },
+    {
+      "question": "Hoeveel dagen?",
+      "answer": "Drie tot vijf dagen is een praktische termijn om Jelsa en de directe omgeving te verkennen. Dit geeft voldoende tijd om een paar dagen op de lokale stranden door te brengen en korte uitstapjes te maken naar het nabijgelegen Stari Grad, Vrboska of de zuidkust van Hvar."
+    },
+    {
+      "question": "Beste strand?",
+      "answer": "Mina en Grebišće worden algemeen beschouwd als de beste stranden in Jelsa vanwege hun ondiepe zandbodems, die zeldzaam zijn op Hvar. Mina ligt het dichtst bij het centrum (ongeveer 10 minuten lopen), terwijl Grebišće 1,5 kilometer naar het oosten ligt en meer ruimte biedt."
+    },
+    {
+      "question": "Heb ik een auto nodig?",
+      "answer": "U heeft geen auto nodig als u van plan bent in Jelsa te verblijven en uw tijd door te brengen op de lokale stranden, aangezien de stad compact en zeer beloopbaar is. Het hebben van een auto of het huren van een scooter is echter aan te raden als u afgelegen baaien, binnenlandse dorpen of andere steden op het eiland wilt verkennen."
+    },
+    {
+      "question": "Waar te parkeren?",
+      "answer": "Parkeren in Jelsa wordt beheerd via gemeentelijke betaalde parkeerplaatsen net buiten het voetgangersgebied, met de hoofdparkeerplaats nabij het centrale park. In het hoogseizoen kost parkeren doorgaans €1,40 per uur of €14 voor een dagticket."
+    },
+    {
+      "question": "Is het goed voor gezinnen?",
+      "answer": "Ja, Jelsa wordt zeer gewaardeerd als een gezinsvriendelijke bestemming. De stad beschikt over autovrije zones, vlakke promenades die geschikt zijn voor kinderwagens, en veilige, ondiepe zandstranden die specifiek gericht zijn op jonge kinderen."
+    }
+  ],
+  "headings": {
+    "quickFacts": "In één oogopslag",
+    "whereToStay": "Waar te verblijven in Jelsa",
+    "gettingThere": "Naar Jelsa reizen",
+    "whenToGo": "Wanneer te gaan",
+    "guides": "Jelsa gidsen",
+    "faq": "Veelgestelde vragen Jelsa",
+    "groups": {
+      "gettingAround": "Parkeren & je verplaatsen",
+      "planning": "Planning & waar te verblijven",
+      "timing": "Wanneer te gaan",
+      "travelers": "Gezinnen, stellen & reisstijlen",
+      "activities": "Stranden & dingen te doen",
+      "food": "Eten & drinken",
+      "comparisons": "Vergelijkingen",
+      "practical": "Praktische info"
+    },
+    "car": "Met de auto",
+    "other": "Andere opties",
+    "bestFor": "Het beste voor",
+    "parking": "Parkeren",
+    "beach": "Strand"
+  },
+  "destination": "jelsa",
+  "language": "nl",
+  "updatedAt": "2026-10-16T14:56:02.908Z"
+}

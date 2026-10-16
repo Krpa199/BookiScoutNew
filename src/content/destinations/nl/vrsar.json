@@ -1,0 +1,146 @@
+{
+  "title": "Vrsar Reisgids: Stranden, Parkeren & Waar te verblijven",
+  "metaDescription": "Plan uw reis naar Vrsar met deze praktische gids. Vergelijk wijken, autoroutes vanuit Midden-Europa, strandtypes, parkeren en de beste reistijd.",
+  "intro": "Vrsar is een kustplaats in het westen van Istrië, gelegen tussen Poreč en de Lim Fjord. Het trekt bezoekers aan die een rustigere uitvalsbasis zoeken dan het nabijgelegen Rovinj, met een historische oude stad op een heuveltop, een grote jachthaven en een archipel van 18 onbewoonde eilandjes voor de kust. De bestemming richt zich voornamelijk op stellen die ontspannen kustwandelingen zoeken en gezinnen die verblijven in de omliggende resorts en campings.\n\nHet terrein is heuvelachtig, waardoor een steile wandeling nodig is van de waterkant naar het historische centrum. De meeste accommodatie bestaat uit privé-appartementen, grote resortcomplexen zoals Belvedere en uitgestrekte campings in het noorden en zuiden. De zomer is het belangrijkste seizoen, waarbij bijna alle horecabedrijven open zijn van eind mei tot september en 's winters volledig sluiten.",
+  "quickFacts": [
+    {
+      "label": "Beste maanden",
+      "value": "Juni tot september"
+    },
+    {
+      "label": "Zeetemperatuur in augustus",
+      "value": "25°C tot 27°C"
+    },
+    {
+      "label": "Dichtstbijzijnde luchthaven",
+      "value": "Luchthaven Pula (PUY), 52 km"
+    },
+    {
+      "label": "Belangrijkste strandtype",
+      "value": "Kiezelbaaien en geplaveide plateaus"
+    },
+    {
+      "label": "Prijsniveau",
+      "value": "Gemiddeld voor Istrië, goedkoper dan Rovinj"
+    },
+    {
+      "label": "Beloopbaarheid oude stad",
+      "value": "Grotendeels autovrij, erg steil maar beloopbaar"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Oude Stad (Historisch Centrum)",
+      "bestFor": "Stellen en geschiedenisliefhebbers",
+      "parking": "Beperkte toegang; gebruik betaalde parkeerplaatsen onderaan de heuvel",
+      "beach": "10 tot 15 minuten bergafwaarts lopen naar Stadsstrand",
+      "summary": "Het middeleeuwse centrum op de heuveltop heeft smalle geplaveide straatjes, uitkijkpunten en de kerk van St. Martinus. Het omvat steile wandelingen, waardoor het minder geschikt is voor bezoekers met beperkte mobiliteit."
+    },
+    {
+      "name": "Jachthaven & Waterkant",
+      "bestFor": "Watersporters, gezinnen en mensen die de voorkeur geven aan vlak terrein",
+      "parking": "Grote betaalde parkeerplaatsen nabij het busstation en de haven",
+      "beach": "5 tot 10 minuten lopen naar Montraker of Stadsstrand",
+      "summary": "De vlakke kuststrook langs Obala Maršala Tita is het commerciële centrum. Het biedt gemakkelijke toegang tot bakkerijen, restaurants en boottochten zonder de steile hellingen van de oude stad."
+    },
+    {
+      "name": "Petalon & Belvedere",
+      "bestFor": "Resortvakantiegangers en gezinnen",
+      "parking": "Speciale privéparkeerplaats voor resortgasten",
+      "beach": "Eigen rots- en kiezelstranden",
+      "summary": "Deze speciaal gebouwde resort-schiereilanden liggen net ten zuiden van de hoofdplaats en bieden gestructureerde faciliteiten, zwembaden en sportvelden. De wandeling naar de waterkant van Vrsar duurt ongeveer 10 tot 15 minuten langs een schaduwrijk kustpad."
+    },
+    {
+      "name": "Brođanka & Saline",
+      "bestFor": "Prijsbewuste reizigers en zelfstandige vakantiegangers",
+      "parking": "Meestal inbegrepen bij huur van privé-appartementen",
+      "beach": "10 tot 20 minuten lopen naar Valkanela of Stadsstrand",
+      "summary": "Deze woonwijk ligt iets landinwaarts en ten noorden van de jachthaven. Het bestaat bijna geheel uit privé-appartementen en pensions, en biedt een rustige omgeving op korte loopafstand van het centrum."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "520 km, 5,5 tot 6,5 uur via A8, A10 (Tauern), Karawanken-tunnel en Slovenië. Oostenrijks vignet, Tauern/Karawanken tolgeld, Sloveens vignet en Kroatische tol zijn van toepassing.",
+      "other": "Lufthansa vluchten naar Pula (PUY) of langeafstandsbus naar Rovinj."
+    },
+    {
+      "from": "Wenen",
+      "car": "510 km, 5,5 tot 6 uur via A2 (Graz), Maribor en Ljubljana. Oostenrijks vignet, Sloveens vignet en Kroatische tol zijn van toepassing.",
+      "other": "Rechtstreekse vluchten naar Pula (Austrian Airlines/Ryanair) of langeafstandsbus."
+    },
+    {
+      "from": "Boedapest",
+      "car": "600 km, 6 tot 6,5 uur via M7 naar de grens, daarna Kroatische A4, A1, A6 en Istrische Y (A8/A9). Hongaars e-vignet en Kroatische tol zijn van toepassing.",
+      "other": "Langeafstandsbus naar Rovinj of Pula, met aansluiting naar Vrsar."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "130 km, 1,5 tot 2 uur via A1 naar Koper, grensovergang Dragonja en Kroatische A9. Sloveens vignet en Kroatische tol zijn van toepassing.",
+      "other": "Rechtstreekse seizoensbus of privéshuttletransfer."
+    },
+    {
+      "from": "Praag",
+      "car": "830 km, 9 tot 10 uur via Linz, Graz, Maribor en Ljubljana. Tsjechische, Oostenrijkse en Sloveense vignetten, plus Kroatische tol zijn van toepassing.",
+      "other": "Vluchten naar Pula (Smartwings/Ryanair) of trein naar Rijeka gevolgd door bus."
+    },
+    {
+      "from": "Krakau",
+      "car": "1.050 km, 10,5 tot 11,5 uur via A4, Tsjechië (D1), Wenen, Graz en Slovenië. Tol/vignetten vereist voor Polen, Tsjechië, Oostenrijk, Slovenië en Kroatië.",
+      "other": "Vluchten van Krakau of Katowice naar Pula, of langeafstandsbus."
+    }
+  ],
+  "whenToGo": "Juni tot september is het standaardseizoen om Vrsar te bezoeken, waarbij augustus de meeste drukte en de hoogste accommodatieprijzen met zich meebrengt. Zeetemperaturen bereiken eind juli 25°C tot 27°C, waardoor augustus ideaal is om te zwemmen. Mei en oktober bieden koeler weer (18°C tot 22°C), geschikt om te fietsen en bezienswaardigheden te bekijken, hoewel de zee vaak te koud is om te zwemmen en sommige seizoensgebonden restaurants of resortfaciliteiten gesloten kunnen zijn. Van november tot april sluit Vrsar grotendeels; de meeste hotels, campings en toeristisch georiënteerde restaurants sluiten, en de stad is uitzonderlijk rustig met alleen basisvoorzieningen die voor de lokale bevolking werken.",
+  "faq": [
+    {
+      "question": "Is Vrsar een bezoek waard?",
+      "answer": "Ja, Vrsar is een praktische keuze als u de voorkeur geeft aan een rustiger kustplaats boven de drukke centra van Rovinj of Poreč. Het biedt een historische oude stad op een heuveltop, uitstekende fietsroutes en gemakkelijke toegang tot de Lim Fjord. Wie echter op zoek is naar een bruisend nachtleven of uitgebreide winkelmogelijkheden, moet elders zoeken."
+    },
+    {
+      "question": "Hoeveel dagen heb ik nodig in Vrsar?",
+      "answer": "Drie tot vijf dagen is voldoende om de stad te verkennen, van de stranden te genieten en een boottocht naar de Lim Fjord te maken. Als u Vrsar als uitvalsbasis wilt gebruiken om Pula, Motovun en Rovinj te bezoeken, is een verblijf van zeven dagen gebruikelijk voor de meeste bezoekers die vanuit Midden-Europa reizen."
+    },
+    {
+      "question": "Wat is het beste strand in Vrsar?",
+      "answer": "Stadsstrand (Gradska plaža) is de meest centrale en toegankelijke optie, met kiezelbaaien en geplaveide zonneterrassen. Voor gezinnen biedt Valkanela een lang stuk ondiep water en zandplekken, terwijl Montraker bekend staat om zijn rotsplaten en uitzicht op de oude stad."
+    },
+    {
+      "question": "Heb ik een auto nodig in Vrsar?",
+      "answer": "U heeft geen auto nodig om in Vrsar zelf rond te reizen, aangezien de stad, de jachthaven en de belangrijkste stranden gemakkelijk te voet bereikbaar zijn. Het hebben van een auto is echter sterk aanbevolen als u de rest van Istrië wilt verkennen of wilt reizen vanaf de dichtstbijzijnde luchthaven in Pula."
+    },
+    {
+      "question": "Waar kan ik het beste parkeren in Vrsar?",
+      "answer": "De belangrijkste gemeentelijke parkeerplaats bevindt zich nabij het busstation (Saline-terrein) onderaan de oude stad. Parkeren in de oude stad is streng beperkt voor niet-ingezetenen, en bezoekers wordt verwacht te parkeren nabij de jachthaven of gebruik te maken van privéparking die door hun accommodatie wordt aangeboden."
+    },
+    {
+      "question": "Is Vrsar geschikt voor gezinnen?",
+      "answer": "Ja, Vrsar is zeer geschikt voor gezinnen, met name voor degenen die verblijven in de grote resortcomplexen of campings in de buurt. Het gebied biedt veilige, goed uitgeruste stranden, speciale fietspaden en een ontspannen sfeer zonder de grote drukte van grotere Istrische steden."
+    }
+  ],
+  "headings": {
+    "quickFacts": "In één oogopslag",
+    "whereToStay": "Waar te verblijven in Vrsar",
+    "gettingThere": "Naar Vrsar reizen",
+    "whenToGo": "Wanneer te reizen",
+    "guides": "Vrsar gidsen",
+    "faq": "Veelgestelde vragen over Vrsar",
+    "groups": {
+      "gettingAround": "Parkeren & rondreizen",
+      "planning": "Planning & waar te verblijven",
+      "timing": "Wanneer te gaan",
+      "travelers": "Gezinnen, stellen & reisstijlen",
+      "activities": "Stranden & bezienswaardigheden",
+      "food": "Eten & drinken",
+      "comparisons": "Vergelijkingen",
+      "practical": "Praktische informatie"
+    },
+    "car": "Met de auto",
+    "other": "Andere opties",
+    "bestFor": "Het meest geschikt voor",
+    "parking": "Parkeren",
+    "beach": "Strand"
+  },
+  "destination": "vrsar",
+  "language": "nl",
+  "updatedAt": "2026-10-16T11:54:08.225Z"
+}

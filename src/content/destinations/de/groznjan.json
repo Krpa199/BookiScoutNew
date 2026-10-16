@@ -1,0 +1,146 @@
+{
+  "title": "Grožnjan Reiseführer: Kunst, Dörfer & das istrische Hinterland",
+  "metaDescription": "Planen Sie eine Reise nach Grožnjan, Kroatien. Lesen Sie über die beste Reisezeit, Unterkünfte, Parkmöglichkeiten, Fahrtrouten und die Erkundung des istrischen Hinterlandes.",
+  "intro": "Grožnjan ist ein auf einem Hügel gelegenes Dorf in Zentralistrien, das sich durch seine mittelalterliche Steinarchitektur und einen starken Fokus auf Kunst und Musik auszeichnet. Es zieht Reisende an, die kulturelle Veranstaltungen, ländliche Ruhe und die Nähe zu istrischen Weingütern suchen, anstatt eines traditionellen Strandurlaubs. Das Dorf ist kompakt und beherbergt von Frühling bis Herbst zahlreiche Sommermusikakademien und Galerien.\n\nDie beste Reisezeit ist von Mai bis September, wenn die örtlichen Geschäfte voll in Betrieb sind. Besucher nutzen Grožnjan typischerweise als Basis, um die Binnenregion mit dem Fahrrad oder Auto zu erkunden und Tagesausflüge zu Küstenstädten wie Umag und Novigrad zu unternehmen, die nur eine kurze Autofahrt entfernt sind. Die steilen, gepflasterten Straßen erfordern bequeme Wanderschuhe.",
+  "quickFacts": [
+    {
+      "label": "Beste Monate",
+      "value": "Mai bis September"
+    },
+    {
+      "label": "Meerestemperatur im August",
+      "value": "N/Z (Binnenland), nächste Küste 25-27°C"
+    },
+    {
+      "label": "Nächster Flughafen",
+      "value": "Triest (TRS), 60 km"
+    },
+    {
+      "label": "Hauptstrandtyp",
+      "value": "Keine (20 km zur Kies-/Felsküste)"
+    },
+    {
+      "label": "Preisniveau",
+      "value": "Mäßig höher als der kroatische Durchschnitt"
+    },
+    {
+      "label": "Begehbarkeit der Altstadt",
+      "value": "Vollständig Fußgängerzone, autofrei"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Altstadt Grožnjan",
+      "bestFor": "Kunstliebhaber, Paare",
+      "parking": "Kostenpflichtiger Parkplatz außerhalb der Stadtmauern",
+      "beach": "20 km (Umag)",
+      "summary": "Das historische Fußgängerzentrum ist gefüllt mit Kunstgalerien, Cafés und Steinhäusern. Hier zu übernachten bedeutet, in ruhigen mittelalterlichen Gassen aufzuwachen, allerdings muss das Gepäck vom Randparkplatz getragen werden."
+    },
+    {
+      "name": "Triban & Krasica",
+      "bestFor": "Ländliche Aufenthalte, Radfahrer, Familien",
+      "parking": "Kostenloser Privatparkplatz typisch für Villen",
+      "beach": "20-25 km",
+      "summary": "Diese kleinen landwirtschaftlichen Weiler umgeben Grožnjan und bieten renovierte Bauernhäuser und Villen mit Pools. Sie bieten eine ruhige Basis auf dem Land mit einfachem Zugang zum Radweg Parenzana."
+    },
+    {
+      "name": "Buje",
+      "bestFor": "Preisbewusste Reisende, längere Aufenthalte",
+      "parking": "Im Allgemeinen einfach und kostenlos außerhalb des historischen Zentrums",
+      "beach": "15 km (Kanegra)",
+      "summary": "Eine größere Stadt 8 Kilometer von Grožnjan entfernt, Buje hat Supermärkte, Apotheken und mehr Speisemöglichkeiten. Es dient als praktisches, zentrales Zentrum zur Erkundung Nordwestistriens."
+    },
+    {
+      "name": "Završje",
+      "bestFor": "Abgeschiedenheit, Geschichtsliebhaber, Fotografen",
+      "parking": "Kostenlose Parkplätze vorhanden",
+      "beach": "25 km",
+      "summary": "Ein teilweise verlassenes mittelalterliches Dorf in der Nähe von Grožnjan, bekannt für seine dramatische Hügellage und historischen Ruinen. Unterkünfte sind auf wenige restaurierte Häuser beschränkt und bieten absolute Ruhe."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "500 km, ca. 5,5 Stunden über A8, A10 (österreichische Vignette + Tauernmaut), Karawankentunnel, Slowenien A1 nach Koper",
+      "other": "Flug nach Triest, dann Mietwagen"
+    },
+    {
+      "from": "Wien",
+      "car": "490 km, ca. 5 Stunden über A2, Slowenien A1 (österreichische und slowenische Vignette erforderlich) über Graz und Koper",
+      "other": "Zug nach Triest, dann Bus nach Buje"
+    },
+    {
+      "from": "Budapest",
+      "car": "580 km, ca. 6 Stunden über M7 (Vignette), Kroatien A4/A1 nach Rijeka (Maut), istrische Ypsilon nach Abfahrt Buje",
+      "other": "Flug nach Zagreb, dann Bus nach Buje"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "120 km, ca. 1,5 Stunden über A1 nach Koper (Vignette), Landstraße 11 zum Grenzübergang Kaštel",
+      "other": "Direktbus von Ljubljana nach Buje (1,5 Stunden), dann Taxi"
+    },
+    {
+      "from": "Prag",
+      "car": "820 km, ca. 9 Stunden über A3, A9 (österreichische Vignette + Pyhrnmaut), Slowenien A1 nach Koper",
+      "other": "Flug nach Triest (über Frankfurt/München), dann Fahrt"
+    },
+    {
+      "from": "Krakau",
+      "car": "950 km, ca. 10 Stunden über A1 (CZ Vignette), Österreich A2, Slowenien A1 nach Koper",
+      "other": "Flug nach Wien oder Treviso, dann Fahrt"
+    }
+  ],
+  "whenToGo": "Von Mai bis September ist Grožnjan lebhaft, mit geöffneten Galerien, laufenden Sommermusikakademien und geöffneten Straßencafés. Juli und August sind die geschäftigsten und teuersten Monate, wobei die Menschenmassen im Vergleich zu Küstenorten noch überschaubar sind. Frühling (April und Mai) und Herbst (September und Oktober) bieten mildes Wetter, ideal zum Radfahren auf dem Parenzana-Weg und zur Erkundung von Weingütern, mit niedrigeren Unterkunftspreisen. Von November bis März ist das Dorf extrem ruhig; die meisten Galerien, Restaurants und touristischen Einrichtungen schließen vollständig, und das Wetter ist oft feucht und kühl.",
+  "faq": [
+    {
+      "question": "Lohnt sich ein Besuch?",
+      "answer": "Ja, Grožnjan ist sehr empfehlenswert für Reisende, die sich für Kunst, mittelalterliche Architektur und die Landschaft des istrischen Hinterlandes interessieren. Es bietet eine ruhige, kulturelle Alternative zu den belebten Küstenorten."
+    },
+    {
+      "question": "Wie viele Tage brauche ich?",
+      "answer": "Ein oder zwei Tage reichen aus, um das Dorf selbst zu erkunden. Es dient jedoch als hervorragende Basis für eine 4- bis 7-tägige Reise zur Erkundung des restlichen istrischen Hinterlandes, lokaler Weingüter und des Parenzana-Radwegs."
+    },
+    {
+      "question": "Wo ist der beste Strand?",
+      "answer": "Grožnjan hat keine Strände, da es 20 Kilometer im Landesinneren liegt. Die nächsten Küstenzugänge befinden sich in Umag und Novigrad, wo Besucher gepflasterte Terrassen und felsige Buchten, wie den Strand Kanegra, finden."
+    },
+    {
+      "question": "Brauche ich ein Auto?",
+      "answer": "Ja, ein Auto ist unerlässlich, um Grožnjan zu erreichen und die Umgebung zu erkunden. Öffentliche Verkehrsmittel direkt ins Dorf sind sehr begrenzt, obwohl Intercity-Busse die nahegelegene Stadt Buje bedienen."
+    },
+    {
+      "question": "Wo kann ich parken?",
+      "answer": "Besucher müssen auf den ausgewiesenen kostenpflichtigen Parkplätzen außerhalb der Dorfmauern parken. Das historische Zentrum ist vollständig Fußgängerzone und für unbefugte Fahrzeuge gesperrt."
+    },
+    {
+      "question": "Ist es gut für Familien?",
+      "answer": "Es ist geeignet für Familien, die einen ruhigen Villenurlaub suchen, aber es gibt wenige kinderspezifische Attraktionen im Dorf. Kleinkinder könnten mit den unebenen Kopfsteinpflastern zu kämpfen haben, und das Fehlen eines direkten Strandes erfordert tägliches Fahren."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Auf einen Blick",
+    "whereToStay": "Wo übernachten in Grožnjan",
+    "gettingThere": "Anreise nach Grožnjan",
+    "whenToGo": "Wann reisen",
+    "guides": "Grožnjan Reiseführer",
+    "faq": "Grožnjan FAQ",
+    "groups": {
+      "gettingAround": "Parken & Fortbewegung",
+      "planning": "Planung & Unterkünfte",
+      "timing": "Wann reisen",
+      "travelers": "Familien, Paare & Reisestile",
+      "activities": "Strände & Aktivitäten",
+      "food": "Essen & Trinken",
+      "comparisons": "Vergleiche",
+      "practical": "Praktische Infos"
+    },
+    "car": "Mit dem Auto",
+    "other": "Weitere Optionen",
+    "bestFor": "Am besten für",
+    "parking": "Parken",
+    "beach": "Strand"
+  },
+  "destination": "groznjan",
+  "language": "de",
+  "updatedAt": "2026-10-16T12:29:06.017Z"
+}

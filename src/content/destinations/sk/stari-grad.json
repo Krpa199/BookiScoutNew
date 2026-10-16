@@ -1,0 +1,146 @@
+{
+  "title": "Stari Grad - Potovalni vodnik: Plaže, parkirišča in nastanitev",
+  "metaDescription": "Načrtujte svoje potovanje v Stari Grad na otoku Hvar. Odkrijte najboljše plaže, parkirišča, vodnike po soseskah in poti iz Srednje Evrope.",
+  "intro": "Stari Grad privablja popotnike, ki iščejo sproščeno, zgodovinsko izhodišče na otoku Hvar. Kot eno najstarejših mest v Evropi se ponaša s peš cono s kamnitimi ulicami, tradicionalnimi restavracijami in dolgim pristaniščem, obdanim z borovimi gozdički in prodnatimi plažami. Vzdušje je bistveno mirnejše kot v mestu Hvar, zaradi česar je primerno za družine, pare in tiste, ki se osredotočajo na počasno potovanje ali raziskovanje Unescovega Starega Grada.\n\nNajboljši čas za obisk je od maja do septembra. Julij in avgust prinašata najvišje temperature in optimalne pogoje za kopanje, vendar sta tudi najbolj zasedena in najdražja meseca. Junij in september ponujata prijetne temperature v nizkih do srednjih 20 stopinjah Celzija, manj gneče in toplo morsko vodo, hkrati pa zagotavljata, da večina lokalnih podjetij ostane odprta.",
+  "quickFacts": [
+    {
+      "label": "Najboljši meseci",
+      "value": "Junij do september"
+    },
+    {
+      "label": "Temperatura morja avgusta",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Najbližje letališče",
+      "value": "Split (SPU), 15 km do pristanišča + 2 uri trajekt"
+    },
+    {
+      "label": "Glavni tip plaže",
+      "value": "Prod in betonske terase z borovo senco"
+    },
+    {
+      "label": "Cenovni nivo",
+      "value": "Nekoliko nad hrvaškim povprečjem, ceneje kot mesto Hvar"
+    },
+    {
+      "label": "Prehodnost",
+      "value": "Staro mestno jedro je popolnoma peš cona in brez avtomobilov"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Staro mestno jedro Stari Grad",
+      "bestFor": "Ljubitelje zgodovine in prve obiskovalce",
+      "parking": "Prepovedano znotraj; uporabite občinska parkirišča zunaj",
+      "beach": "15-20 min hoje do Bonja ali Lanterne",
+      "summary": "Živahno, avtomobilov prosto središče mesta. Ponaša se z ozkimi kamnitimi ulicami, tradicionalnimi konobami in starodavnimi znamenitostmi, kot je grad Tvrdalj."
+    },
+    {
+      "name": "Priko (Severni zaliv)",
+      "bestFor": "Družine in ljubitelje plaž",
+      "parking": "Ulična parkirišča in zasebna mesta pri vilah",
+      "beach": "Takojšen dostop do Bonja in mirnih zalivov",
+      "summary": "Stanovanjski predel ob severni strani zaliva. Ponuja enostaven dostop do starega mestnega jedra in vode."
+    },
+    {
+      "name": "Južni zaliv in Borik",
+      "bestFor": "Mirne nastanitve blizu borovcev",
+      "parking": "Običajno zagotovljeno pri lokalnih apartmajih",
+      "beach": "Koraki do plaže Lanterna",
+      "summary": "Zeleno, mirno območje na južnem robu pristanišča. Obiskovalci tukaj bivajo zaradi goste sence borovega gozda in razgleda na sončni zahod nad Jadranom."
+    },
+    {
+      "name": "Rudina in Basina",
+      "bestFor": "Samoto in počasno potovanje",
+      "parking": "Veliko brezplačnih zasebnih parkirišč",
+      "beach": "Kratek sprehod do nedotaknjenih skalnatih zalivov",
+      "summary": "Majhne, rustikalne vasice, ki se nahajajo nekaj kilometrov izven mesta. Ponujajo popolno mirnost med oljčnimi nasadi in tradicionalnimi kamnitimi hišami."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "860 km, 10-11 ur do Splita preko A8, A10 in A1. Potrebujete avstrijsko in slovensko vinjeto ter hrvaške cestnine, nato 2-urni trajekt.",
+      "other": "Let do Splita (SPU), nato avtobus ali taksi do pristanišča in trajekt."
+    },
+    {
+      "from": "Dunaj",
+      "car": "760 km, 8-9 ur do Splita preko A2, A9 in hrvaške A1. Potrebujete avstrijsko in slovensko vinjeto ter hrvaške cestnine, nato 2-urni trajekt.",
+      "other": "Neposreden let ali Flixbus do Splita, nato trajekt."
+    },
+    {
+      "from": "Budimpešta",
+      "car": "750 km, 7-8 ur do Splita preko M7 in hrvaške A4/A1. Potrebujete madžarsko e-vinjeto in hrvaške cestnine, nato 2-urni trajekt.",
+      "other": "Neposreden spalni vlak ali let do Splita, nato trajekt."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "470 km, 5-6 ur do Splita preko A1/A2 in hrvaške A1. Potrebujete slovensko vinjeto in hrvaške cestnine, nato 2-urni trajekt.",
+      "other": "Avtobus ali vlak do Splita, nato trajekt."
+    },
+    {
+      "from": "Praga",
+      "car": "1050 km, 11-13 ur do Splita preko Dunaja ali Linza. Potrebujete avstrijsko, slovensko in češko vinjeto, hrvaške cestnine, nato 2-urni trajekt.",
+      "other": "Neposredni polet v Split (SPU) poleti, nato trajekt."
+    },
+    {
+      "from": "Krakov",
+      "car": "1050 km, 11-13 ur do Splita preko Slovaške in Madžarske. Potrebujete slovaško in madžarsko vinjeto, hrvaške cestnine, nato 2-urni trajekt.",
+      "other": "Let (LOT ali Ryanair) do Splita, nato trajekt."
+    }
+  ],
+  "whenToGo": "Maj označuje začetek turistične sezone, z blagim vremenom in nižjimi cenami, čeprav je morje pogosto prehladno za kopanje. Junij prinaša toplejše morske temperature, ki dosežejo 22°C, obvladljivo množico in popolnoma delujoče restavracije in trajekte. Julij in avgust sta vrhunca sezone; pričakujte temperature morja okoli 25°C do 27°C, najvišje cene nastanitev in zasedene plaže. September je močan ramenski mesec, saj ohranja toplo morje in odprte objekte, vendar z opazno manjšo množico in znižanimi cenami. Od oktobra do aprila Stari Grad vstopi v izvensezonsko obdobje; večina hotelov in restavracij se zapre, temperature morja padejo pod 18°C, mesto pa se vrne v miren, lokalen ritem.",
+  "faq": [
+    {
+      "question": "Je Stari Grad vreden obiska?",
+      "answer": "Stari Grad je vreden obiska zaradi svoje 2400-letne zgodovine in sproščenega ritma. Ponuja pristno, mirno alternativo živahnemu nočnemu življenju mesta Hvar."
+    },
+    {
+      "question": "Koliko dni naj ostanem?",
+      "answer": "Vzemite si dva do tri dni za raziskovanje mesta in sproščanje na lokalnih plažah. Če ga uporabljate kot izhodišče za raziskovanje preostanka otoka Hvar, je idealno bivanje pet do sedem dni."
+    },
+    {
+      "question": "Katera je najboljša plaža v Starem Gradu?",
+      "answer": "Lanterna je zelo cenjena zaradi naravne sence borovcev in prodnatih obal. Bonj je najbolj dostopen iz centra, medtem ko so številni skalnati zalivi dosegljivi s kratkim sprehodom."
+    },
+    {
+      "question": "Ali potrebujem avto v Starem Gradu?",
+      "answer": "Avto ni potreben za bivanje znotraj Starega Grada, saj sta mestno središče in bližnje plaže dosegljive peš. Vendar je priporočljivo najeti avto ali skuter, če nameravate obiskati južne plaže otoka ali skrite vasice."
+    },
+    {
+      "question": "Kje naj parkiram?",
+      "answer": "Staro mestno jedro je stroga peš cona, zato morajo obiskovalci parkirati na določenih občinskih parkiriščih na obrobju. Glavna javna parkirišča so blizu vhodov v mesto in trajektnega pristanišča, v poletnih mesecih pa je treba plačati dnevno pristojbino."
+    },
+    {
+      "question": "Je Stari Grad primeren za družine?",
+      "answer": "Da, je odlična destinacija za družine. Ravna obalna promenada, mirne zalivske vode in obilica naravne sence na plaži ga delajo varnega in udobnega za otroke."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na hitro",
+    "whereToStay": "Kje bivati v Starem Gradu",
+    "gettingThere": "Kako priti v Stari Grad",
+    "whenToGo": "Kdaj obiskati",
+    "guides": "Vodnik po Starem Gradu",
+    "faq": "Pogosta vprašanja o Starem Gradu",
+    "groups": {
+      "gettingAround": "Parkiranje in gibanje po mestu",
+      "planning": "Načrtovanje in nastanitev",
+      "timing": "Čas potovanja",
+      "travelers": "Družine, pari in potovalni stili",
+      "activities": "Plaže in aktivnosti",
+      "food": "Hrana in pijača",
+      "comparisons": "Primerjave",
+      "practical": "Praktične informacije"
+    },
+    "car": "Z avtomobilom",
+    "other": "Druge možnosti",
+    "bestFor": "Najboljše za",
+    "parking": "Parkiranje",
+    "beach": "Plaža"
+  },
+  "destination": "stari-grad",
+  "language": "sk",
+  "updatedAt": "2026-10-16T14:47:08.872Z"
+}

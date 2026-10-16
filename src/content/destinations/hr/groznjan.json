@@ -1,0 +1,146 @@
+{
+  "title": "Grožnjan putni vodič: Umjetnost, sela i unutrašnja Istra",
+  "metaDescription": "Planirajte putovanje u Grožnjan, Hrvatska. Pročitajte o najboljem vremenu za posjet, gdje odsjesti, detaljima parkiranja, rutama vožnje i istraživanju unutrašnje Istre.",
+  "intro": "Grožnjan je brdsko selo u središnjoj Istri, karakteristično po svojoj srednjovjekovnoj kamenoj arhitekturi i snažnom fokusu na umjetnost i glazbu. Privlači putnike koji traže kulturne događaje, ruralni mir i blizinu istarskih vinarija, umjesto tradicionalnog odmora na plaži. Selo je kompaktno i u njemu se od proljeća do jeseni održavaju brojne ljetne glazbene akademije i galerije.\n\nNajbolje vrijeme za posjet je od svibnja do rujna, kada su lokalni objekti u potpunosti operativni. Posjetitelji se obično smjeste ovdje kako bi istražili unutrašnju regiju biciklom ili automobilom, poduzimajući jednodnevne izlete do obalnih gradova poput Umaga i Novigrada, koji su udaljeni kratkom vožnjom. Strme, popločane ulice zahtijevaju udobnu obuću za hodanje.",
+  "quickFacts": [
+    {
+      "label": "Najbolji mjeseci",
+      "value": "Svibanj do rujan"
+    },
+    {
+      "label": "Temperatura mora u kolovozu",
+      "value": "N/A (unutrašnjost), najbliža obala 25-27°C"
+    },
+    {
+      "label": "Najbliža zračna luka",
+      "value": "Trst (TRS), 60 km"
+    },
+    {
+      "label": "Glavna vrsta plaže",
+      "value": "Nema (20 km do šljunčane/stjenovite obale)"
+    },
+    {
+      "label": "Razina cijena",
+      "value": "Umjereno više od hrvatskog prosjeka"
+    },
+    {
+      "label": "Prohodnost starog grada",
+      "value": "Potpuno pješačka zona, bez automobila"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Stari grad Grožnjan",
+      "bestFor": "Ljubitelji umjetnosti, parovi",
+      "parking": "Plaćeno parkiralište izvan gradskih zidina",
+      "beach": "20 km (Umag)",
+      "summary": "Povijesno pješačko središte ispunjeno je umjetničkim galerijama, kafićima i kamenim kućama. Boravak ovdje znači buđenje u tihim srednjovjekovnim ulicama, iako se prtljaga mora nositi s perifernog parkirališta."
+    },
+    {
+      "name": "Triban i Krasica",
+      "bestFor": "Ruralni boravak, biciklisti, obitelji",
+      "parking": "Tipično besplatno privatno parkiralište u vilama",
+      "beach": "20-25 km",
+      "summary": "Ova mala poljoprivredna naselja okružuju Grožnjan i nude renovirane seoske kuće i vile s bazenima. Pružaju mirnu seosku bazu s lakim pristupom biciklističkoj stazi Parenzana."
+    },
+    {
+      "name": "Buje",
+      "bestFor": "Putnici s manjim budžetom, duži boravci",
+      "parking": "Općenito lako i besplatno izvan povijesne jezgre",
+      "beach": "15 km (Kanegra)",
+      "summary": "Veći grad 8 kilometara od Grožnjana, Buje ima supermarkete, ljekarne i više opcija za objedovanje. Služi kao praktično, centralno središte za istraživanje sjeverozapadne Istre."
+    },
+    {
+      "name": "Završje",
+      "bestFor": "Izolacija, ljubitelji povijesti, fotografi",
+      "parking": "Dostupno besplatno parkiralište",
+      "beach": "25 km",
+      "summary": "Djelomično napušteno srednjovjekovno selo u blizini Grožnjana, poznato po dramatičnom položaju na brdu i povijesnim ruševinama. Smještaj je ograničen na nekoliko obnovljenih kuća, nudeći potpuni mir i tišinu."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "500 km, približno 5.5 sati preko A8, A10 (austrijska vinjeta + Tauern cestarina), tunela Karavanke, Slovenija A1 do Kopra",
+      "other": "Let za Trst, zatim najam automobila"
+    },
+    {
+      "from": "Beč",
+      "car": "490 km, približno 5 sati preko A2, Slovenija A1 (potrebne austrijska i slovenska vinjeta) preko Graza i Kopra",
+      "other": "Vlakom do Trsta, zatim autobusom do Buja"
+    },
+    {
+      "from": "Budimpešta",
+      "car": "580 km, približno 6 sati preko M7 (vinjeta), Hrvatska A4/A1 do Rijeke (cestarina), Istarski ipsilon do izlaza Buje",
+      "other": "Let za Zagreb, zatim autobusom do Buja"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "120 km, približno 1.5 sati preko A1 do Kopra (vinjeta), lokalna cesta 11 do graničnog prijelaza Kaštel",
+      "other": "Direktan autobus iz Ljubljane do Buja (1.5 sati), zatim taksi"
+    },
+    {
+      "from": "Prag",
+      "car": "820 km, približno 9 sati preko A3, A9 (austrijska vinjeta + cestarine Pyhrn), Slovenija A1 do Kopra",
+      "other": "Let za Trst (preko Frankfurta/Münchena), zatim vožnja automobilom"
+    },
+    {
+      "from": "Krakov",
+      "car": "950 km, približno 10 sati preko A1 (češka vinjeta), Austrija A2, Slovenija A1 do Kopra",
+      "other": "Let za Beč ili Treviso, zatim vožnja automobilom"
+    }
+  ],
+  "whenToGo": "Od svibnja do rujna, Grožnjan je živahan, s otvorenim galerijama, aktivnim ljetnim glazbenim akademijama i otvorenim kafićima. Srpanj i kolovoz su najprometniji i najskuplji mjeseci, iako su gužve još uvijek podnošljive u usporedbi s obalnim ljetovalištima. Proljeće (travanj i svibanj) i jesen (rujan i listopad) nude blago vrijeme idealno za bicikliranje Parenzanom i istraživanje vinarija, s nižim cijenama smještaja. Od studenog do ožujka, selo je izuzetno tiho; većina galerija, restorana i turističkih sadržaja potpuno se zatvara, a vrijeme je često vlažno i hladno.",
+  "faq": [
+    {
+      "question": "Isplati li se posjetiti?",
+      "answer": "Da, Grožnjan se toplo preporučuje putnicima zainteresiranima za umjetnost, srednjovjekovnu arhitekturu i unutrašnje istarske krajolike. Pruža tihu, kulturnu alternativu užurbanim obalnim ljetovalištima."
+    },
+    {
+      "question": "Koliko dana mi je potrebno?",
+      "answer": "Jedan ili dva dana su dovoljni za istraživanje samog sela. Međutim, služi kao izvrsna baza za putovanje od 4 do 7 dana za istraživanje ostatka unutrašnje Istre, lokalnih vinarija i biciklističke rute Parenzana."
+    },
+    {
+      "question": "Gdje je najbolja plaža?",
+      "answer": "Grožnjan nema plaže jer se nalazi 20 kilometara u unutrašnjosti. Najbliže točke za pristup obali su u Umagu i Novigradu, gdje će posjetitelji pronaći popločane terase i stjenovite uvale, poput plaže Kanegra."
+    },
+    {
+      "question": "Trebam li automobil?",
+      "answer": "Da, automobil je neophodan za dolazak u Grožnjan i istraživanje okolice. Javni prijevoz izravno do sela je vrlo ograničen, iako međugradski autobusi voze do obližnjeg grada Buja."
+    },
+    {
+      "question": "Gdje mogu parkirati?",
+      "answer": "Posjetitelji moraju parkirati na određenim plaćenim parkiralištima smještenim odmah izvan zidina sela. Povijesno središte je u potpunosti pješačka zona i zabranjeno za neovlaštena vozila."
+    },
+    {
+      "question": "Je li dobro za obitelji?",
+      "answer": "Pogodno je za obitelji koje traže miran odmor u vili, ali u selu ima malo atrakcija specifičnih za djecu. Mala djeca se mogu mučiti s neravnim kaldrmama, a nedostatak neposredne plaže zahtijeva svakodnevnu vožnju."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Ukratko",
+    "whereToStay": "Gdje odsjesti u Grožnjanu",
+    "gettingThere": "Dolazak u Grožnjan",
+    "whenToGo": "Kada posjetiti",
+    "guides": "Vodiči za Grožnjan",
+    "faq": "Česta pitanja o Grožnjanu",
+    "groups": {
+      "gettingAround": "Parkiranje i kretanje",
+      "planning": "Planiranje i smještaj",
+      "timing": "Kada ići",
+      "travelers": "Obitelji, parovi i stilovi putovanja",
+      "activities": "Plaže i aktivnosti",
+      "food": "Hrana i piće",
+      "comparisons": "Usporedbe",
+      "practical": "Praktične informacije"
+    },
+    "car": "Automobilom",
+    "other": "Ostale opcije",
+    "bestFor": "Najbolje za",
+    "parking": "Parkiranje",
+    "beach": "Plaža"
+  },
+  "destination": "groznjan",
+  "language": "hr",
+  "updatedAt": "2026-10-16T12:35:00.062Z"
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Rijeka Průvodce: Oblasti, pláže a doprava",
+  "metaDescription": "Naplánujte si cestu do Rijeky. Praktický průvodce pokrývající trasy z Evropy, kde se ubytovat, možnosti parkování, přístup na pláže a nejlepší doby k návštěvě.",
+  "intro": "Rijeka je třetí největší město Chorvatska a jeho nejrušnější námořní přístav, výrazně se lišící od typických dalmatských turistických letovisek. Osloví cestovatele se zájmem o rakousko-uherskou architekturu, industriální dědictví a atmosféru živého města. Hlavním ohniskem je centrální promenáda Korzo a okolní historické ulice, zatímco pláže se nacházejí několik kilometrů východně a západně od centra.\n\nProtože je Rijeka hlavním dopravním uzlem, je skvělým výchozím bodem pro jednodenní výlety na Istrijský poloostrov, Kvarnerské ostrovy a do Národního parku Risnjak. Město je nejlepší navštívit mezi květnem a zářím, kdy počasí umožňuje koupání a konají se venkovní akce, i když zůstává aktivní po celý rok, na rozdíl od vysoce sezónních pobřežních měst.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "Květen až září"
+    },
+    {
+      "label": "Teplota moře v srpnu",
+      "value": "24°C až 26°C"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Letiště Rijeka (RJK), 26 km / 30 min"
+    },
+    {
+      "label": "Hlavní typ pláže",
+      "value": "Oblázkové a betonové terasy"
+    },
+    {
+      "label": "Cenová úroveň",
+      "value": "O 10-20 % nižší než ve Splitu nebo Dubrovníku"
+    },
+    {
+      "label": "Procházitelnost",
+      "value": "Korzo a přilehlé staré město jsou bez aut"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centrum města / Korzo",
+      "bestFor": "Prohlídky památek, tranzit a noční život",
+      "parking": "Obtížné; spoléhejte na placená parkoviště jako Delta nebo garáže",
+      "beach": "Žádné; vyžaduje 10-15 minut jízdy autobusem",
+      "summary": "Obchodní a historické jádro Rijeky s pěší zónou Korzo, muzei a hlavním autobusovým nádražím."
+    },
+    {
+      "name": "Kantrida",
+      "bestFor": "Rodiny a milovníci pláží",
+      "parking": "Parkování na ulici a veřejná parkoviště k dispozici v blízkosti sportovišť",
+      "beach": "Oblázkové pláže (Ploče, Kantrida) v docházkové vzdálenosti",
+      "summary": "Západní pobřežní předměstí známé svými bazény, fotbalovým stadionem a dostupnými oblázkovými plážemi."
+    },
+    {
+      "name": "Pećine",
+      "bestFor": "Klidné pobyty s rychlým přístupem na pláž",
+      "parking": "Omezené bezplatné parkování na ulici, v létě často přeplněné",
+      "beach": "Přímý přístup k oblázkovým plážím Sablićevo a Glavanovo",
+      "summary": "Východní obytná čtvrť postavená podél svahu, s historickými vilami a malými, malebnými pobřežními zátokami."
+    },
+    {
+      "name": "Trsat",
+      "bestFor": "Pro milovníky historie a panoramatických výhledů",
+      "parking": "Snadnější než v centru, s volnými místy a vyhrazeným parkovištěm",
+      "beach": "Žádná pláž; 15 minut jízdy autem k pobřeží",
+      "summary": "Sídliště na kopci nad řekou Rječina, domov hradu Trsat a Svatyně Panny Marie Trsatské."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Mnichov",
+      "car": "510 km, 5,5-6,5 hodiny přes A8, A10, A2, A1, A7. Vyžaduje rakouskou dálniční známku, mýtné za tunel Karavanky, slovinskou dálniční známku a chorvatské mýtné.",
+      "other": "FlixBus nebo noční vlak do Lublaně s přestupem na autobus."
+    },
+    {
+      "from": "Vídeň",
+      "car": "490 km, 5-6 hodin přes A2, A1, A7. Vyžaduje rakouskou dálniční známku, slovinskou dálniční známku a chorvatské mýtné.",
+      "other": "FlixBus nebo vlak ÖBB (přímý nebo s přestupem v Lublani)."
+    },
+    {
+      "from": "Budapešť",
+      "car": "500 km, 5-5,5 hodiny přes M7, A4, A6. Vyžaduje maďarskou e-známku a chorvatské mýtné.",
+      "other": "Přímý FlixBus nebo vlak přes Záhřeb."
+    },
+    {
+      "from": "Lublaň",
+      "car": "115 km, 1,5-2 hodiny přes A1 do Postojné, poté trasa 6/8 do Ilirske Bistrice a A7. Vyžaduje slovinskou dálniční známku a chorvatské mýtné.",
+      "other": "Přímý autobus nebo vlak (cca 2,5 hodiny)."
+    },
+    {
+      "from": "Praha",
+      "car": "820 km, 8,5-10 hodin přes Vídeň nebo Linec/Štýrský Hradec. Vyžaduje českou, rakouskou a slovinskou dálniční známku, plus mýtné za tunely a chorvatské mýtné.",
+      "other": "Vlak přes Vídeň/Záhřeb nebo noční autobus."
+    },
+    {
+      "from": "Krakov",
+      "car": "900 km, 9-10,5 hodiny přes Ostravu, Brno, Vídeň a Štýrský Hradec. Vyžaduje polské mýtné, plus českou, rakouskou a slovinskou dálniční známku a chorvatské mýtné.",
+      "other": "Let do Záhřebu následovaný přímým autobusem do Rijeky."
+    }
+  ],
+  "whenToGo": "Nejlepší doba k návštěvě Rijeky je od června do září, kdy teplota moře dosahuje 24°C až 26°C a venkovní zařízení jsou plně v provozu. Červenec a srpen jsou nejteplejší a nejrušnější měsíce, ačkoli davy turistů a ceny jsou podstatně nižší než v jižní Dalmácii. Květen a říjen nabízejí chladnější teploty vhodné pro pěší turistiku v nedalekých národních parcích, s nižšími cenami ubytování. Od listopadu do dubna zažívá město mírné, ale deštivé zimy; zatímco mnoho turisticky zaměřených plážových zařízení se zavírá, městská muzea, centrální restaurace a obchody zůstávají otevřené po celý rok.",
+  "faq": [
+    {
+      "question": "Stojí Rijeka za návštěvu?",
+      "answer": "Ano, pokud vás zajímá průmyslová historie, rakousko-uherská architektura a atmosféra živého města. Nedoporučuje se, pokud hledáte tradiční letovisko zaměřené výhradně na plážovou turistiku."
+    },
+    {
+      "question": "Kolik dní potřebuji v Rijece?",
+      "answer": "Jeden až dva dny postačí na prohlídku hlavních památek v centru města a na Trsatu. Přidejte tři až čtyři dny, pokud plánujete využít Rijeku jako základnu pro jednodenní výlety na Istrii, ostrov Krk nebo do Gorského Kotaru."
+    },
+    {
+      "question": "Která je nejlepší pláž v Rijece?",
+      "answer": "Pláž Sablićevo v oblasti Pećine a pláž Ploče v Kantridě jsou nejoblíbenějšími možnostmi. Obě nabízejí oblázkové pobřeží, čistou vodu a základní vybavení jako sprchy."
+    },
+    {
+      "question": "Potřebuji auto v Rijece?",
+      "answer": "Auto není nezbytné pro poznávání centra města, které je snadno průchozí a dobře propojené místními autobusy. Vlastnictví vozidla se však velmi doporučuje pro návštěvu nedalekých národních parků, ostrovů a venkovské Istrie."
+    },
+    {
+      "question": "Kde je nejlepší parkovat v Rijece?",
+      "answer": "Parkoviště Delta nabízí nejvíce venkovních míst v krátké docházkové vzdálenosti od pěší zóny. Pro vnitřní parkování jsou bezpečné a centrálně umístěné garáže Gomila a Zagrad."
+    },
+    {
+      "question": "Je Rijeka vhodná pro rodiny?",
+      "answer": "Ano, starší děti ocení atrakce jako hrad Trsat, Přírodovědné muzeum a bazény Kantrida. Rodiny s batolaty by však mohly považovat nedostatek mělkých písčitých pláží za problém."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Stručné informace",
+    "whereToStay": "Kde se ubytovat v Rijece",
+    "gettingThere": "Jak se dostat do Rijeky",
+    "whenToGo": "Kdy jet",
+    "guides": "Průvodci Rijekou",
+    "faq": "Časté dotazy k Rijece",
+    "groups": {
+      "gettingAround": "Parkování a doprava",
+      "planning": "Plánování a ubytování",
+      "timing": "Kdy jet",
+      "travelers": "Rodiny, páry a styly cestování",
+      "activities": "Pláže a co dělat",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": " praktické informace"
+    },
+    "car": "Autem",
+    "other": "Další možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "rijeka",
+  "language": "cz",
+  "updatedAt": "2026-10-16T09:47:12.163Z"
+}

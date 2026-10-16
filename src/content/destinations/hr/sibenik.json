@@ -1,0 +1,146 @@
+{
+  "title": "Šibenik: Putni vodič – Plaže, parkiranje i smještaj",
+  "metaDescription": "Planirajte putovanje u Šibenik, Hrvatska. Pronađite najbolje dijelove za boravak, rute vožnje iz Srednje Europe, informacije o parkiranju i preporuke za plaže.",
+  "intro": "Šibenik privlači posjetitelje koji žele istražiti hrvatsku povijest i srednjovjekovnu arhitekturu, istovremeno uživajući u blizini nacionalnih parkova i plaža. Smješten u srednjoj Dalmaciji, služi kao praktična baza za posjet Nacionalnom parku Krka i Kornatskim otocima. Grad se ističe po svoje četiri tvrđave i Katedrali sv. Jakova koja je pod zaštitom UNESCO-a.\n\nGlavna turistička sezona traje od svibnja do listopada. Središnja stara gradska jezgra potpuno je bez automobila, a sastoji se od strmih, uskih kamenih ulica. Izvan povijesnog centra, posjetitelji pronalaze šljunčane plaže i velike odmarališne komplekse prilagođene obiteljima. Grad nudi mirniju alternativu obližnjem Splitu, s nešto nižim prosječnim troškovima smještaja i prehrane.",
+  "quickFacts": [
+    {
+      "label": "Najbolji mjeseci",
+      "value": "Svibanj, Lipanj, Rujan"
+    },
+    {
+      "label": "Temperatura mora u kolovozu",
+      "value": "24°C - 26°C"
+    },
+    {
+      "label": "Najbliža zračna luka",
+      "value": "Zračna luka Split (SPU), 50 km"
+    },
+    {
+      "label": "Glavni tip plaže",
+      "value": "Šljunčana i betonska"
+    },
+    {
+      "label": "Razina cijena",
+      "value": "Prosječno za obalnu Hrvatsku, nešto jeftinije od Splita"
+    },
+    {
+      "label": "Stari grad",
+      "value": "Strogo bez automobila i samo za pješake"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Stari grad",
+      "bestFor": "Za prvi posjet i razgledavanje",
+      "parking": "Skupo i ograničeno; zahtijeva parkiranje na parkiralištima izvan pješačke zone",
+      "beach": "15 minuta hoda do plaže Banj",
+      "summary": "Povijesna jezgra sadrži srednjovjekovne kamene zgrade, tvrđave i restorane. Zahtijeva hodanje strmim stubama i nošenje prtljage s parkirališta."
+    },
+    {
+      "name": "Crnica i područje plaže Banj",
+      "bestFor": "Pristup plaži unutar pješačke udaljenosti od centra",
+      "parking": "Dostupno ulično parkiranje, veliko TEF parkiralište u blizini",
+      "beach": "Izravan pristup plaži Banj (šljunčana)",
+      "summary": "Stambeno područje smješteno sjeverozapadno od centra. Nudi panoramske poglede na stari grad i lakši pristup automobilom nego povijesna jezgra."
+    },
+    {
+      "name": "Amadria Park / Solaris",
+      "bestFor": "Za obitelji s djecom i posjetitelje odmarališta",
+      "parking": "Parkiranje unutar odmarališta, obično uz naplatu",
+      "beach": "Izravan pristup višestrukim uređenim šljunčanim i pješčanim plažama",
+      "summary": "Veliki odmarališni kompleks smješten 6 km južno od Šibenika. Sadrži hotele, kampove, vodeni park i opsežne turističke sadržaje."
+    },
+    {
+      "name": "Brodarica",
+      "bestFor": "Za mirne obalne boravke i putnike s ograničenim budžetom",
+      "parking": "Obično osigurano od strane iznajmljivača privatnih apartmana",
+      "beach": "Dugačak niz lokalnih šljunčanih plaža",
+      "summary": "Prigradsko naselje smješteno 8 km južno od Šibenika uz obalu. Nudi jednostavan najam apartmana i brz pristup brodom otoku Krapanj."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "800 km, 8.5 sati via A8, A10 i A1. Zahtijeva austrijsku vinjetu, cestarinu Tauern, slovensku vinjetu i hrvatske cestarine.",
+      "other": "Izravan let za Zračnu luku Split (SPU), zatim 50 minuta vožnje ili autobusom."
+    },
+    {
+      "from": "Beč",
+      "car": "650 km, 6.5 sati via A2, slovenska A4 i hrvatska A1. Zahtijeva austrijsku vinjetu, slovensku vinjetu i hrvatske cestarine.",
+      "other": "Izravan let za Split (SPU) ili Zadar (ZAD), zatim autobusom do Šibenika."
+    },
+    {
+      "from": "Budimpešta",
+      "car": "680 km, 6.5 sati via M7, hrvatska A4 i A1. Zahtijeva mađarsku e-vinjetu i hrvatske cestarine.",
+      "other": "Izravan let za Zadar (ZAD) preko Ryanaira, zatim 1 sat autobusom."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "400 km, 4.5 sati via A2 i hrvatska A1. Zahtijeva slovensku vinjetu i hrvatske cestarine.",
+      "other": "Izravna autobusna linija traje 6-7 sati."
+    },
+    {
+      "from": "Prag",
+      "car": "980 km, 10.5 sati preko Austrije i Slovenije do hrvatske A1. Zahtijeva vinjete za Češku, Austriju, Sloveniju, plus hrvatske cestarine.",
+      "other": "Izravan let za Split (SPU), zatim lokalni autobus ili transfer."
+    },
+    {
+      "from": "Krakov",
+      "car": "1050 km, 11.5 sati preko Slovačke i Mađarske do hrvatske A4/A1. Zahtijeva slovačku i mađarsku vinjetu, plus hrvatske cestarine.",
+      "other": "Izravan let za Zadar (ZAD) ili Split (SPU), zatim lokalni autobus."
+    }
+  ],
+  "whenToGo": "Turistička sezona u Šibeniku počinje u svibnju s temperaturama mora oko 18°C i nižim cijenama smještaja. Lipanj i rujan nude idealne uvjete, uravnotežujući toplu vodu za kupanje (22°C do 24°C) s umjerenim gužvama i potpuno funkcionalnim turističkim sadržajima. Srpanj i kolovoz su vrhunac sezone, donoseći visoke temperature često iznad 30°C, vrhunske temperature mora oko 25°C, velik broj posjetitelja i najviše cijene. Od studenog do travnja mnogi sezonski hoteli, restorani i izleti su zatvoreni, a vrijeme je općenito previše hladno za kupanje, iako tvrđave i Nacionalni park Krka ostaju otvoreni tijekom cijele godine za razgledavanje.",
+  "faq": [
+    {
+      "question": "Vrijedi li posjetiti?",
+      "answer": "Da, Šibenik vrijedi posjetiti zbog svoje nepretrpanog srednjovjekovnog starog grada i četiri povijesne tvrđave. Služi kao izvrsna arhitektonska baza i najprikladniji obalni grad za pristup Nacionalnom parku Krka."
+    },
+    {
+      "question": "Koliko dana?",
+      "answer": "Dva dana su dovoljna za razgledavanje središnjih znamenitosti, tvrđava i posjet Nacionalnom parku Krka. Boravak od pet do sedam dana praktičan je ako planirate jednodnevne izlete na susjedne otoke, Zadar ili Split."
+    },
+    {
+      "question": "Najbolja plaža?",
+      "answer": "Plaža Banj je najprikladnija šljunčana plaža smještena nedaleko od starog grada. Za bolje sadržaje i pješčane dijelove, White Beach u području odmarališta Amadria Park, 6 km južno, je preferirana opcija."
+    },
+    {
+      "question": "Trebam li automobil?",
+      "answer": "Ne trebate automobil ako boravite u starom gradu i planirate posjetiti samo centar i ići na organizirane izlete brodom. Automobil se toplo preporučuje za boravak u predgrađima ili samostalno istraživanje okolnih područja poput Nacionalnog parka Krka."
+    },
+    {
+      "question": "Gdje parkirati?",
+      "answer": "Parkiranje u povijesnom centru je strogo ograničeno. Glavne opcije za posjetitelje su podzemna garaža Poljana za pristup centru ili veliko vanjsko parkiralište Luka blizu trajektne luke."
+    },
+    {
+      "question": "Je li dobro za obitelji?",
+      "answer": "Da, područje je pogodno za obitelji, posebno odmarališta smještena izvan starog grada. Kompleks Amadria Park posebno je namijenjen djeci s vodenim parkom, dok grad svakog ljeta ugošćuje Međunarodni dječji festival."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Ukratko",
+    "whereToStay": "Smještaj u Šibeniku",
+    "gettingThere": "Dolazak u Šibenik",
+    "whenToGo": "Kada posjetiti",
+    "guides": "Vodiči za Šibenik",
+    "faq": "Često postavljana pitanja o Šibeniku",
+    "groups": {
+      "gettingAround": "Parkiranje i kretanje po gradu",
+      "planning": "Planiranje i smještaj",
+      "timing": "Kada posjetiti",
+      "travelers": "Obitelji, parovi i stilovi putovanja",
+      "activities": "Plaže i stvari za raditi",
+      "food": "Hrana i piće",
+      "comparisons": "Usporedbe",
+      "practical": "Praktične informacije"
+    },
+    "car": "Automobilom",
+    "other": "Ostale opcije",
+    "bestFor": "Najbolje za",
+    "parking": "Parkiranje",
+    "beach": "Plaža"
+  },
+  "destination": "sibenik",
+  "language": "hr",
+  "updatedAt": "2026-10-16T10:56:51.858Z"
+}

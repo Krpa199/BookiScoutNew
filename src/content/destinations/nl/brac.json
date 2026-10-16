@@ -1,0 +1,146 @@
+{
+  "title": "Brač Reisgids: Stranden, veerboten en waar te verblijven",
+  "metaDescription": "Plan een reis naar Brač, Kroatië. Vind de beste gebieden om te verblijven, rijroutes naar de veerboot van Split, strandinformatie en praktisch reisadvies.",
+  "intro": "Brač is een groot Dalmatisch eiland, geschikt voor reizigers die op zoek zijn naar betrouwbare stranden, actieve watersporten en traditionele stenen dorpjes. Het is minder gericht op feesten dan het naburige Hvar, en trekt een mix van families, windsurfers en roadtrippers die de Kroatische kust verkennen. Het eiland is het meest bekend om het strand Zlatni Rat in Bol en zijn historische kalksteengroeven.\n\nHet belangrijkste toeristenseizoen loopt van eind mei tot begin oktober, met de warmste zeetemperaturen die hun hoogtepunt bereiken in juli en augustus. Aankomst omvat meestal een autoveerboot vanuit de vastelandshaven van Split naar Supetar, of van Makarska naar Sumartin, waardoor het een zeer toegankelijk eiland is voor diegenen die vanuit Midden-Europa naar beneden rijden.",
+  "quickFacts": [
+    {
+      "label": "Beste maanden",
+      "value": "Juni tot september voor zwemmen en warm weer"
+    },
+    {
+      "label": "Zeetemperatuur in augustus",
+      "value": "Rond 25°C"
+    },
+    {
+      "label": "Dichtstbijzijnde luchthaven",
+      "value": "Luchthaven Brač (BWK) ligt op 15 km van Bol; Luchthaven Split (SPU) vereist een veerboot"
+    },
+    {
+      "label": "Belangrijkste strandtype",
+      "value": "Voornamelijk kiezels en fijn grind, met zeldzame zandbaaien"
+    },
+    {
+      "label": "Prijsniveau",
+      "value": "Iets boven het Kroatische gemiddelde, maar lager dan Hvar of Dubrovnik"
+    },
+    {
+      "label": "Loopbaarheid",
+      "value": "Oude stadscentra zijn alleen voor voetgangers; een auto wordt aanbevolen voor eilandverkenning"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Bol",
+      "bestFor": "Windsurfers, strandgangers en nieuwe bezoekers",
+      "parking": "Betaalde openbare parkeerplaatsen aan de rand van de stad; centrale straten zijn beperkt toegankelijk",
+      "beach": "15 minuten lopen naar het beroemde Zlatni Rat (fijne kiezels)",
+      "summary": "Gelegen aan de zuidkust, is Bol de meest beroemde bestemming van het eiland. Het biedt een lange boulevard, tal van restaurants en uitstekende windsurfomstandigheden."
+    },
+    {
+      "name": "Supetar",
+      "bestFor": "Families en mensen die gemakkelijk toegang willen tot de veerboot naar Split",
+      "parking": "Voldoende betaalde parkeerplaatsen bij de veerhaven en supermarkten",
+      "beach": "Verschillende stadsstranden met kiezels, betonnen terrassen en pijnbomen in de schaduw",
+      "summary": "Als belangrijkste toegangspunt tot Brač is Supetar een functionele en levendige stad met uitstekende infrastructuur. Het biedt gemakkelijke verbindingen met het vasteland en een gezinsvriendelijke kustatmosfeer."
+    },
+    {
+      "name": "Sutivan",
+      "bestFor": "Fietsers en reizigers die een rustige, verkeersluwe omgeving zoeken",
+      "parking": "Gratis en betaald parkeren beschikbaar aan de rand van het dorp",
+      "beach": "Kleine kiezelbaaien direct toegankelijk vanuit het dorpscentrum",
+      "summary": "Een vredig dorp aan de noordwestkust, bekend om zijn historische stenen huizen en strikte verkeersbeperkingen in de zomer. Het is goed verbonden door fietspaden met nabijgelegen afgelegen baaien."
+    },
+    {
+      "name": "Postira",
+      "bestFor": "Koppels en families op zoek naar agrarisch erfgoed en zand in de buurt",
+      "parking": "Aangewezen openbare parkeerplaatsen; smalle centrale straten hebben beperkte toegang",
+      "beach": "3 km naar Lovrečina Baai, een van de weinige zandstranden op het eiland",
+      "summary": "Een traditioneel vissers- en boerendorp aan de noordkust, omgeven door olijfgaarden. Het dient als een rustige uitvalsbasis met toegang tot de zandstranden van Lovrečina."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "850 km naar de veerboot van Split, ~9 uur via de A8, A10 en Kroatische A1. Vignetten verplicht voor Oostenrijk en Slovenië; tolgelden van toepassing in Kroatië.",
+      "other": "Directe vluchten naar Luchthaven Split, daarna veerboot naar Brač."
+    },
+    {
+      "from": "Wenen",
+      "car": "710 km naar de veerboot van Split, ~8 uur via de A2 en Kroatische A1. Vignetten nodig voor Oostenrijk en Slovenië; tolgelden van toepassing in Kroatië.",
+      "other": "EuroNight nachttrein of directe vluchten naar Split."
+    },
+    {
+      "from": "Boedapest",
+      "car": "750 km naar de veerboot van Split, ~8 uur via de M7 en Kroatische A4/A1. Vignet verplicht voor Hongarije; tolgelden van toepassing in Kroatië.",
+      "other": "Directe Adria InterCity nachttrein naar Split (alleen in de zomer)."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "470 km naar de veerboot van Split, ~5 uur via de A2 en Kroatische A1. Vignet verplicht voor Slovenië; tolgelden van toepassing in Kroatië.",
+      "other": "Directe busdienst naar het busstation van Split, gelegen naast de veerhaven."
+    },
+    {
+      "from": "Praag",
+      "car": "1.000 km naar de veerboot van Split, ~11 uur via Wenen en Graz. Vignetten verplicht voor Tsjechië, Oostenrijk, Slovenië; tolgelden van toepassing in Kroatië.",
+      "other": "Directe vluchten naar Split of de seizoensgebonden trein van RegioJet."
+    },
+    {
+      "from": "Krakau",
+      "car": "1.100 km naar de veerboot van Split, ~12 uur via Slowakije, Hongarije (M7) en Kroatië (A1). Vignetten verplicht voor Slowakije, Hongarije; tolgelden van toepassing in Kroatië.",
+      "other": "Directe budgetvluchten naar Luchthaven Split."
+    }
+  ],
+  "whenToGo": "Het zomerseizoen van juni tot september is de populairste tijd om Brač te bezoeken, met zeetemperaturen in augustus die gemiddeld rond de 25°C liggen. Juli en augustus brengen de hoogste prijzen, grootste drukte en volledige werking van alle veerroutes, restaurants en strandbars met zich mee. Mei en oktober bieden koeler weer en lagere accommodatietarieven, maar de zee is meestal te koud om comfortabel te zwemmen en sommige seizoensgebonden bedrijven zullen gesloten zijn. Van november tot april is het eiland erg rustig, met veel hotels die gesloten zijn voor de winter en gereduceerde veerdiensten.",
+  "faq": [
+    {
+      "question": "Is het de moeite waard om te bezoeken?",
+      "answer": "Brač is de moeite waard om te bezoeken vanwege zijn betrouwbare stranden, traditionele stenen architectuur en uitstekende windsurfen. Het biedt een meer ontspannen, gezinsgerichte alternatief voor het nachtleven-georiënteerde eiland Hvar."
+    },
+    {
+      "question": "Hoeveel dagen moet ik op Brač doorbrengen?",
+      "answer": "Drie tot vijf dagen is optimaal voor een reis naar Brač. Dit geeft voldoende tijd om te ontspannen op Zlatni Rat, kustplaatsen zoals Supetar en Sutivan te verkennen, en naar het uitkijkpunt Vidova Gora te rijden."
+    },
+    {
+      "question": "Wat is het beste strand op het eiland?",
+      "answer": "Zlatni Rat in Bol is het beroemst vanwege zijn unieke vorm en gladde kiezels. Voor een zanderig alternatief is Lovrečina Baai bij Postira een aanrader, terwijl Murvica rustigere grindstranden biedt."
+    },
+    {
+      "question": "Heb ik een auto nodig op Brač?",
+      "answer": "Een auto is zeer voordelig voor het verkennen van het binnenland van het eiland, afgelegen baaien en verschillende steden. Hoewel lokale bussen de belangrijkste nederzettingen verbinden, rijden ze onregelmatig, waardoor onafhankelijk vervoer veel handiger is."
+    },
+    {
+      "question": "Waar is de beste plek om te parkeren?",
+      "answer": "De meeste steden op Brač hebben aangewezen, betaalde gemeentelijke parkeerplaatsen aan de rand. Het is het beste om deze te gebruiken, aangezien de historische centra smalle, vaak uitsluitend voor voetgangers toegankelijke, stenen straatjes hebben die moeilijk te navigeren zijn."
+    },
+    {
+      "question": "Is Brač een goede bestemming voor families?",
+      "answer": "Ja, Brač is zeer gezinsvriendelijk en biedt rustig water, beheersbare steden en veel zelfstandige appartementen. Supetar en Postira zijn bijzonder populair bij families vanwege hun gemakkelijke toegang tot voorzieningen en stranden."
+    }
+  ],
+  "headings": {
+    "quickFacts": "In één oogopslag",
+    "whereToStay": "Waar te verblijven op Brač",
+    "gettingThere": "Naar Brač reizen",
+    "whenToGo": "Wanneer te gaan",
+    "guides": "Brač gidsen",
+    "faq": "Veelgestelde vragen over Brač",
+    "groups": {
+      "gettingAround": "Parkeren & vervoer",
+      "planning": "Planning & waar te verblijven",
+      "timing": "Wanneer te gaan",
+      "travelers": "Families, koppels & reisstijlen",
+      "activities": "Stranden & activiteiten",
+      "food": "Eten & drinken",
+      "comparisons": "Vergelijkingen",
+      "practical": "Praktische informatie"
+    },
+    "car": "Met de auto",
+    "other": "Andere opties",
+    "bestFor": "Het meest geschikt voor",
+    "parking": "Parkeren",
+    "beach": "Strand"
+  },
+  "destination": "brac",
+  "language": "nl",
+  "updatedAt": "2026-10-16T14:09:58.565Z"
+}

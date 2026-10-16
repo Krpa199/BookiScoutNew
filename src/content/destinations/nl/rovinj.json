@@ -1,0 +1,146 @@
+{
+  "title": "Rovinj Reisgids: Stranden, Parkeren & Waar te Verblijven",
+  "metaDescription": "Plan je reis naar Rovinj. Een feitelijke gids voor autoroutes, parkeren, wijken en stranden voor bezoekers die naar Istrië, Kroatië komen.",
+  "intro": "Rovinj trekt stellen, families en roadtrippers aan die op zoek zijn naar een goed bewaard gebleven historisch centrum en toegankelijke kustnatuur. De stad beschikt over een dichte, autovrije Venetiaanse kern gebouwd op een klein schiereiland, omgeven door dennenbossen en een rotsachtige kustlijn.\n\nHet belangrijkste bezoekersseizoen loopt van mei tot september, met een piek in juli en augustus wanneer het mediterrane klimaat warme, droge dagen biedt die ideaal zijn om te zwemmen. Buiten de zomermaanden sluiten veel restaurants en hotels, waardoor de stad rustiger is maar minder geschikt voor een klassieke strandvakantie.",
+  "quickFacts": [
+    {
+      "label": "Beste maanden",
+      "value": "Juni tot september"
+    },
+    {
+      "label": "Zeetemperatuur in augustus",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Dichtstbijzijnde luchthaven",
+      "value": "Luchthaven Pula (PUY), 40 km"
+    },
+    {
+      "label": "Hoofdstrandtype",
+      "value": "Kiezels, rotsen en betonnen plateaus"
+    },
+    {
+      "label": "Prijsniveau",
+      "value": "Hoger dan het Kroatische gemiddelde"
+    },
+    {
+      "label": "Oude stad",
+      "value": "Strikt autovrij (voetgangerszone)"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Oude Stad (Poluotok)",
+      "bestFor": "Eerstekeerbezoekers en stellen die geschiedenis en dineren willen",
+      "parking": "Geen in het centrum; gebruik betaalde commerciële parkeerplaatsen op 10-15 minuten afstand",
+      "beach": "Monte Strand (rotsachtige richels) ter plaatse; grotere stranden op 20 minuten lopen",
+      "summary": "De historische kern kenmerkt zich door smalle geplaveide straatjes, Venetiaanse architectuur en talrijke restaurants. Het is druk in de zomer en vereist lopen of een golfkarretje nemen om bij uw accommodatie te komen."
+    },
+    {
+      "name": "Lone Baai & Punta Corrente (Zuid)",
+      "bestFor": "Luxereizigers en strandgangers die toegang tot de natuur willen",
+      "parking": "Privé hotelparkeergelegenheid gangbaar; openbare parkeerplaatsen vullen snel",
+      "beach": "0-10 minuten lopen naar kiezelbaaien en schaduwrijke rotskusten",
+      "summary": "Gelegen ten zuiden van de oude stad, wordt dit gebied gekenmerkt door luxe hotels en het bosrijke park Zlatni Rt. Bezoekers hebben directe toegang tot dennenboom-schaduwrijke wandelpaden en de populairste stranden van de stad."
+    },
+    {
+      "name": "Centener & Cuvi",
+      "bestFor": "Gezinnen en prijsbewuste reizigers",
+      "parking": "Gemakkelijker parkeren op straat en op opritten van woningen",
+      "beach": "10-15 minuten lopen naar Cuvi Strand (kiezels en zandplekken)",
+      "summary": "Een rustigere woonwijk gelegen ten zuidoosten van het centrum. Het biedt appartementenverhuur tegen lagere prijzen, terwijl het op loopafstand blijft van gezinsvriendelijke stranden en supermarkten."
+    },
+    {
+      "name": "Borik",
+      "bestFor": "Bezoekers die een rustiger, voorstedelijk gevoel met uitzicht op zee zoeken",
+      "parking": "Meestal inbegrepen bij appartementverhuur; parkeren op straat beschikbaar",
+      "beach": "5-10 minuten lopen naar de stranden van Valdaliso en Amarin",
+      "summary": "Borik ligt ten noorden van het stadscentrum en biedt een ontspannen omgeving weg van de zomerdrukte. Om de oude stad te bereiken is een wandeling van 30 minuten, een fietstocht of een korte watertaxi nodig."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "600 km, ~6.5 uur via A8, A10, A11, SI A2 naar Koper, Istrische Y. Vereist AT vignet, Tauern & Karawanken tol, SI vignet, HR tol.",
+      "other": "Seizoensgebonden directe vluchten naar Pula of directe Flixbus."
+    },
+    {
+      "from": "Wenen",
+      "car": "500 km, ~5.5 uur via A2 naar Graz, SI A1 (Maribor-Ljubljana-Koper), Istrische Y. Vereist AT vignet, SI vignet, HR tol.",
+      "other": "Directe Flixbus of seizoensgebonden vluchten naar Pula."
+    },
+    {
+      "from": "Boedapest",
+      "car": "600 km, ~6 uur via M7, HR A4 naar Zagreb, A6 naar Rijeka, Učka tunnel, Istrische Y. Vereist HU e-vignet, HR tol.",
+      "other": "Flixbus of trein naar Rijeka gevolgd door een lokale bus."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "180 km, ~2.5 uur via A1 naar Koper, Istrische Y (A9). Vereist SI vignet, HR tol.",
+      "other": "Directe busdiensten (Flixbus, Nomago)."
+    },
+    {
+      "from": "Praag",
+      "car": "850 km, ~9 uur via Linz, Graz, Maribor, Ljubljana, Koper. Vereist CZ, AT, SI vignetten, HR tol.",
+      "other": "Seizoensgebonden RegioJet trein-/busverbindingen of vluchten naar Pula."
+    },
+    {
+      "from": "Krakau",
+      "car": "1.000 km, ~10.5 uur via CZ (Brno), AT (Wenen, Graz), SI (Maribor, Koper). Vereist CZ, AT, SI vignetten, HR tol.",
+      "other": "Vluchten naar Pula (meestal via Warschau) of langeafstandsbus."
+    }
+  ],
+  "whenToGo": "Het bezoekersseizoen loopt van eind mei tot september. Juli en augustus brengen het warmste weer met luchttemperaturen rond de 30°C en zeetemperaturen die pieken op 25-27°C, samen met de hoogste prijzen en topdrukte. Juni en september bieden mildere temperaturen (lage tot midden 20 graden), iets koelere zwemomstandigheden en betere beschikbaarheid van accommodaties. Van oktober tot april is Rovinj rustig; de zee is te koud om te zwemmen (dalend tot 10-14°C), en veel op toeristen gerichte restaurants, hotels en veerdiensten sluiten volledig.",
+  "faq": [
+    {
+      "question": "Is Rovinj de moeite waard om te bezoeken?",
+      "answer": "Ja, het wordt algemeen beschouwd als een van de aantrekkelijkste kustplaatsen in Istrië. Bezoekers komen voor de goed bewaarde Venetiaanse oude stad, het uitgestrekte dennenbospark en de hoogwaardige eetgelegenheden."
+    },
+    {
+      "question": "Hoeveel dagen heb ik nodig in Rovinj?",
+      "answer": "Drie tot vijf dagen is ideaal voor de meeste bezoekers. Dit geeft voldoende tijd om de oude stad te verkennen, een dag door te brengen op de stranden in Punta Corrente, en een boottocht te maken of een nabijgelegen Istrische heuveltopstad te bezoeken."
+    },
+    {
+      "question": "Wat is het beste strand in Rovinj?",
+      "answer": "De stranden in het bosrijke park Zlatni Rt (Punta Corrente), met name Lone Baai, zijn het populairst. Ze bieden een mix van kiezels en rotsen met uitgebreide natuurlijke schaduw van de omringende dennenbomen."
+    },
+    {
+      "question": "Heb ik een auto nodig in Rovinj?",
+      "answer": "U heeft geen auto nodig als u in de oude stad of de directe omgeving verblijft, aangezien alles op loopafstand is. Een auto is echter ten zeerste aanbevolen als u de rest van het schiereiland Istrië wilt verkennen of landelijke wijnhuizen en olijfolielandgoederen wilt bezoeken."
+    },
+    {
+      "question": "Waar moet ik parkeren bij een bezoek aan Rovinj?",
+      "answer": "De grootste openbare parkeerplaatsen zijn Valdibora (Noord) en Ampelea (Zuid), gelegen net buiten de voetgangerszone. Deze parkeerplaatsen zijn per uur of per dag betaald en kunnen vol raken in juli en augustus, dus vroeg aankomen is aanbevolen."
+    },
+    {
+      "question": "Is Rovinj goed voor gezinnen?",
+      "answer": "Ja, vooral in de resorts en woonwijken buiten de oude stad. De stranden hebben ondiepe kiezelgedeelten die geschikt zijn voor kinderen, en nabijgelegen gezinsgerichte campings bieden zwembaden, speeltuinen en georganiseerde activiteiten."
+    }
+  ],
+  "headings": {
+    "quickFacts": "In één oogopslag",
+    "whereToStay": "Waar te verblijven in Rovinj",
+    "gettingThere": "Naar Rovinj reizen",
+    "whenToGo": "Wanneer te gaan",
+    "guides": "Rovinj gidsen",
+    "faq": "Veelgestelde vragen over Rovinj",
+    "groups": {
+      "gettingAround": "Parkeren & je verplaatsen",
+      "planning": "Planning & waar te verblijven",
+      "timing": "Wanneer te gaan",
+      "travelers": "Gezinnen, stellen & reisstijlen",
+      "activities": "Stranden & dingen om te doen",
+      "food": "Eten & drinken",
+      "comparisons": "Vergelijkingen",
+      "practical": "Praktische info"
+    },
+    "car": "Met de auto",
+    "other": "Andere opties",
+    "bestFor": "Het meest geschikt voor",
+    "parking": "Parkeren",
+    "beach": "Strand"
+  },
+  "destination": "rovinj",
+  "language": "nl",
+  "updatedAt": "2026-10-16T10:39:48.555Z"
+}

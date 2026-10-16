@@ -1,0 +1,146 @@
+{
+  "title": "Cres útikalauz: Strandok, parkolás és hol szálljunk meg",
+  "metaDescription": "Tervezze meg utazását Cresre, Horvátországba. Fedezze fel a legjobb szálláshelyeket, a legközelebbi strandokat, a Közép-Euróbából induló útvonalakat és a gyakorlati parkolási információkat.",
+  "intro": "Cres azoknak az utazóknak vonzó, akik Horvátország erősen fejlett tengerparti üdülőhelyeivel szemben egy csendesebb, természetközpontú alternatívát keresnek. A sziget meredek szikláiról, kavicsos öbleiről és sűrű erdeiről ismert, míg Cres városa a velencei stílusú építészetével és aktív halászkikötőjével a fő központ. A látogatók jellemzően a várost használják bázisul a távoli strandok és a szigeten átívelő túraútvonalak felfedezéséhez.\n\nA fő turisztikai szezon júniustól szeptemberig tart. Július és augusztus hozza a legmelegebb tengeri hőmérsékleteket és a legmegbízhatóbb kompjáratokat, de egyben a legmagasabb árakat és a legnagyobb tömeget is. Május és október hűvösebb időjárást kínál, ami alkalmas túrázásra és kerékpározásra, bár a tenger hőmérséklete gyakran túl alacsony az úszáshoz, és néhány szezonális étterem bezár.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Júniustól szeptemberig"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "24°C és 26°C között"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Rijeka repülőtér (RJK), 45 km (komppal együtt)"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Kavicsos és sziklás öblök"
+    },
+    {
+      "label": "Árszínvonal",
+      "value": "Enyhén a horvát szigeti átlag alatt"
+    },
+    {
+      "label": "Óváros",
+      "value": "Teljesen sétálóövezet / autómentes"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Cres óvárosa",
+      "bestFor": "Étkezés, történelem és autótlan utazók számára",
+      "parking": "Fizetős nyilvános parkolók a sétálóövezeten kívül",
+      "beach": "10-15 perc séta Melinre vagy Grabarra",
+      "summary": "A történelmi központra szűk sikátorok, velencei homlokzatok és kávézókkal szegélyezett kikötő jellemző. Itt található a legtöbb étterem és üzlet, bár a szállások többnyire apartmanok, nem pedig nagy szállodák."
+    },
+    {
+      "name": "Melin",
+      "bestFor": "Családoknak és strandolóknak",
+      "parking": "A legtöbb apartman saját parkolót kínál",
+      "beach": "Közvetlen hozzáférés a Melin strandhoz (kavicsos/beton)",
+      "summary": "Az Óvárostól északnyugatra található ez a lakónegyed egy jól karbantartott tengerparti sétány mentén fekszik. Könnyű hozzáférést biztosít családbarát kavicsos strandokhoz és a közeli kemping szolgáltatásaihoz."
+    },
+    {
+      "name": "Grabar",
+      "bestFor": "Csendesebb tartózkodás tengeri kilátással",
+      "parking": "A magánbeállók gyakoriak",
+      "beach": "2-5 perc séta a Grabar kavicsos öblökig",
+      "summary": "A városközponttól délre fekvő Grabar egy domboldali negyed, mely többnyire modern apartmanokból áll. Közel van a csendesebb kavicsos strandokhoz, míg az Óváros 15 perc sétára található a tengerparti úton."
+    },
+    {
+      "name": "Valun",
+      "bestFor": "Pároknak, digitális detoxra, tömeg elől menekülőknek",
+      "parking": "Nagy fizetős parkoló a falu bejáratánál",
+      "beach": "Két kavicsos strand a faluban",
+      "summary": "Egy kis halászfalu, amely 15 kilométerre délre található Cres várostól. Teljesen autómentes, és néhány tengeri étteremmel rendelkezik, így ideális egy rendkívül pihentető, statikus tengerparti nyaraláshoz."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "550 km, ~6,5 óra Salzburgon, Villachon, Ljubljanán, valamint a Brestova-Porozina kompon keresztül. Osztrák autópálya-matrica, Karavankák alagút díj, szlovén autópálya-matrica és komp jegy szükséges.",
+      "other": "Vonattal Rijekába, majd katamaránnal Cres városába"
+    },
+    {
+      "from": "Bécs",
+      "car": "520 km, ~6 óra Grazon, Mariboron, Zágrábon, a Krk-hídon és a Valbiska-Merag kompon keresztül. Osztrák és szlovén autópálya-matrica, horvát útdíj és komp jegy szükséges.",
+      "other": "Közvetlen repülőjárat Rijekába (Krk), majd busszal a komphoz"
+    },
+    {
+      "from": "Budapest",
+      "car": "550 km, ~6 óra Zágrábon, Rijekán, a Krk-hídon és a Valbiska-Merag kompon keresztül. Magyar autópálya-matrica, horvát útdíj és komp jegy szükséges.",
+      "other": "FlixBusszal Rijekába, majd helyi katamaránnal Cresre"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "160 km, ~2,5 óra Postojna, Ilirska Bistrica, és a Brestova-Porozina kompon keresztül. Szlovén autópálya-matrica és komp jegy szükséges.",
+      "other": "Busszal Rijekába (~2,5 óra), majd személyszállító komppal"
+    },
+    {
+      "from": "Prága",
+      "car": "850 km, ~9,5 óra Brünnön, Bécsen, Grazon, Zágrábon, a Krk-hídon és a Valbiska-Merag kompon keresztül. Cseh, osztrák, szlovén autópálya-matrica, horvát útdíj és komp jegy szükséges.",
+      "other": "RegioJet vonattal/busszal Rijekába (nyáron), majd komppal"
+    },
+    {
+      "from": "Krakkó",
+      "car": "950 km, ~10,5 óra Ostraván, Brünnön, Bécsen, Grazon, Zágrábon, a Krk-hídon és a Valbiska-Merag kompon keresztül. Lengyel útdíj, cseh, osztrák, szlovén autópálya-matrica, horvát útdíj és komp jegy szükséges.",
+      "other": "Repülővel Bécsbe/Münchenbe, majd csatlakozás Rijekába, onnan komppal"
+    }
+  ],
+  "whenToGo": "Cresen a szezon júliusban és augusztusban éri el csúcspontját, ekkor van a legmelegebb idő, a tenger hőmérséklete eléri a 26°C-ot, a turisztikai létesítmények teljes kapacitással üzemelnek, és a szállásárak is a legmagasabbak. A tömeg észrevehető, de általában kisebb, mint a szomszédos Krk vagy Lošinj szigeteken. Június és szeptember kiváló egyensúlyt kínál a meleg időjárás, a kellemes tengeri hőmérséklet az úszáshoz, és az alacsonyabb bérleti díjak között. Májusban és októberben jelentősen csökken a látogatók száma; bár ideális a sziget zord belsejének túrázására és kerékpározására, a tenger gyakran túl hideg az úszáshoz, és sok helyi étterem és utazásszervező bezár az elő-/utószezonra.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni Creset?",
+      "answer": "Igen, Cres nagyon ajánlott azoknak az utazóknak, akik a természetet, a túrázást és a csendes kavicsos öblöket részesítik előnyben a nyüzsgő éjszakai élet és a nagy üdülőhelyek helyett. A sziget megőrzi vad, érintetlen jellegét Horvátország kereskedelmibb szigeteihez képest."
+    },
+    {
+      "question": "Hány napra van szükségem Cresen?",
+      "answer": "Három-öt nap az ideális időtartam egy átlagos látogatáshoz. Ez elegendő időt biztosít Cres városának felfedezésére, a Lubenice dombtetői falu meglátogatására, és néhány nap pihenésre távoli strandokon, mint például Mali Bok vagy Sveti Ivan."
+    },
+    {
+      "question": "Melyik a legjobb strand Cresen?",
+      "answer": "Sveti Ivan, amely Lubenice falu alatt található, széles körben a sziget legjobb strandjának számít. Megközelítéséhez egy meredek, 45 perces túrára van szükség, ami biztosítja, hogy még főszezonban is ritkán legyen túlzsúfolt."
+    },
+    {
+      "question": "Szükséges autó Cresen?",
+      "answer": "Igen, az autó gyakorlatilag elengedhetetlen, ha fel szeretné fedezni a sziget távoli falvait, kilátóit és híres rejtett strandjait. Léteznek tömegközlekedési buszok, de ritkán járnak, és nem érik el a legszebb tengerparti helyeket."
+    },
+    {
+      "question": "Hol parkoljunk Cres városában?",
+      "answer": "Az Óváros csak gyalogosok számára járható, így a látogatóknak a történelmi központon kívül kell parkolniuk. A fő önkormányzati parkoló a buszpályaudvar és a kikötő közelében található, és óránkénti vagy napi díjat számol fel a nyári hónapokban."
+    },
+    {
+      "question": "Cres jó családok számára?",
+      "answer": "Igen, különösen azoknak a családoknak, akik szeretik a kempingezést és a szabadtéri tevékenységeket. Az olyan területek, mint Melin, kiváló családbarát infrastruktúrát, sekély kavicsos strandokat és biztonságos, autómentes sétányokat kínálnak."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Röviden",
+    "whereToStay": "Hol szálljunk meg Cresen",
+    "gettingThere": "Hogyan juthatunk el Cresre",
+    "whenToGo": "Mikor utazzunk",
+    "guides": "Cres útmutatók",
+    "faq": "Gyakran ismételt kérdések Cresről",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szálláshelyek",
+      "timing": "Mikor utazzunk",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Étel és ital",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "cres",
+  "language": "hu",
+  "updatedAt": "2026-10-16T13:08:25.206Z"
+}

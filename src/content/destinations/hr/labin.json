@@ -1,0 +1,146 @@
+{
+  "title": "Labin - Turistički vodič: Plaže, parking i smještaj",
+  "metaDescription": "Planirajte svoje putovanje u Labin, Hrvatska. Pronađite najbolje rute za vožnju, parking u starom gradu, obližnje plaže u Rapcu i gdje rezervirati smještaj.",
+  "intro": "Labin je srednjovjekovni gradić smješten na brežuljku, na istočnoj obali istarskog poluotoka u Hrvatskoj. Nalazi se otprilike tri kilometra unutar kopna od popularnog obalnog ljetovališta Rabac. Grad privlači posjetitelje koji preferiraju povijesnu bazu s brzim pristupom Jadranskom moru, izbjegavajući više cijene i velike gužve smještaja smještenog direktno na moru.\n\nNajpraktičniji način dolaska do Labina je automobilom, što ga čini popularnom destinacijom za putnike iz Srednje Europe. Glavna turistička sezona traje od lipnja do rujna, kada su svi restorani otvoreni i more je dovoljno toplo za kupanje. Oni koji prioritet daju razgledavanju umjesto danima na plaži, često biraju svibanj ili listopad zbog blažeg vremena i lakšeg parkinga.",
+  "quickFacts": [
+    {
+      "label": "Najbolji mjeseci",
+      "value": "Lipanj do rujan"
+    },
+    {
+      "label": "Temp. mora u kolovozu",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Najbliža zračna luka",
+      "value": "Zračna luka Pula (PUY), 40 km"
+    },
+    {
+      "label": "Glavna vrsta plaže",
+      "value": "Šljunčana (u obližnjem Rapcu)"
+    },
+    {
+      "label": "Razina cijena",
+      "value": "U skladu s hrvatskim obalnim prosjekom"
+    },
+    {
+      "label": "Raspored starog grada",
+      "value": "Uglavnom pješačka zona, strme popločane ulice"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Stari grad Labin",
+      "bestFor": "Parove, ljubitelje povijesti, gurmane",
+      "parking": "Plaćena javna parkirališta na obodu; unutra ograničeno",
+      "beach": "5 km (Rabac)",
+      "summary": "Povijesna jezgra smještena je na brežuljku s uskim, popločanim ulicama i srednjovjekovnom arhitekturom. Smještaj se u potpunosti sastoji od pansiona i apartmana u obnovljenim kamenim zgradama."
+    },
+    {
+      "name": "Podlabin (Donji grad)",
+      "bestFor": "Duže boravke, putnike s ograničenim budžetom",
+      "parking": "Besplatan i obilan parking na ulici",
+      "beach": "5 km (Rabac)",
+      "summary": "Moderni, stambeni dio Labina smješten u podnožju brežuljka. Nedostaje mu povijesni šarm, ali nudi supermarkete, pekare i jeftiniji najam apartmana."
+    },
+    {
+      "name": "Rabac",
+      "bestFor": "Ljubitelje plaža, obitelji s djecom",
+      "parking": "Plaćena javna parkirališta; hotelski parking često rezerviran za goste",
+      "beach": "0 km (šljunčana)",
+      "summary": "Užurbano obalno ljetovalište smješteno pet minuta vožnje nizbrdo od Labina. Sadrži velike hotelske resorte, kampove i direktan pristup popularnim šljunčanim plažama."
+    },
+    {
+      "name": "Kapelica & Salakovci",
+      "bestFor": "Grupe, miran boravak, putnike s automobilima",
+      "parking": "Privatni prilazi uključeni u najam",
+      "beach": "6-8 km",
+      "summary": "Mirna stambena naselja neposredno južno od Labina. Ove su zone gusto naseljene modernim kućama za odmor i vilama s privatnim bazenima."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "540 km, oko 6.5 sati vožnje preko A8, A10 i A2. Potrebne austrijska i slovenska vinjeta, plus cestarina za tunel Karavanke.",
+      "other": "Let za Pulu (sezonski), zatim lokalni autobus ili taksi."
+    },
+    {
+      "from": "Beč",
+      "car": "510 km, oko 5.5 sati vožnje preko A2 i slovenske A1. Potrebne austrijska i slovenska vinjeta.",
+      "other": "Direktan autobus preko Rijeke ili sezonski let za Pulu."
+    },
+    {
+      "from": "Budimpešta",
+      "car": "570 km, oko 6 sati vožnje preko M7, hrvatskih A4 i A6 do Rijeke, zatim obalnom cestom D66. Potrebne mađarska vinjeta i hrvatske cestarine.",
+      "other": "Autobus (Flixbus) preko Zagreba i Rijeke."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "130 km, oko 2 sata vožnje preko A1 do Črnog Kala, zatim lokalnom cestom 208 do granice. Potrebna slovenska vinjeta.",
+      "other": "Direktna autobusna veza."
+    },
+    {
+      "from": "Prag",
+      "car": "840 km, oko 9 sati vožnje preko A9/A1 (AT) i A1 (SLO). Potrebne češka, austrijska i slovenska vinjeta, plus austrijske cestarine za tunele.",
+      "other": "Let za Pulu (sezonski), zatim prijevoz iz zračne luke."
+    },
+    {
+      "from": "Krakov",
+      "car": "1000 km, oko 11 sati vožnje preko A4, češke D1, austrijskih A1/A9 i slovenske A1. Potrebne poljske cestarine, plus češka, austrijska i slovenska vinjeta.",
+      "other": "Let iz Krakova/Katowica za Pulu (sezonski)."
+    }
+  ],
+  "whenToGo": "Od lipnja do rujna, temperatura mora doseže 24°C do 27°C, što ga čini vrhuncem sezone za kupanje i sunčanje u obližnjem Rapcu. Tijekom srpnja i kolovoza, broj posjetitelja je najveći, što dovodi do gustog prometa na cesti koja povezuje Labin i Rabac, ograničenog parkinga i najviših cijena smještaja. U svibnju i listopadu je manje gužve i niže cijene, s dnevnim temperaturama oko 18°C do 22°C, što je idealno za planinarenje ili vožnju biciklom, iako je more često prehladno za kupanje. Većina turistički orijentiranih restorana i sezonskih trgovina u starom gradu zatvara se između studenog i travnja, ostavljajući samo osnovne usluge otvorenima u donjem gradu (Podlabin).",
+  "faq": [
+    {
+      "question": "Vrijedi li posjetiti Labin?",
+      "answer": "Da, Labin vrijedi posjetiti zbog svoje očuvane srednjovjekovne arhitekture, umjetničkih galerija i uzvišenih pogleda na Kvarnerski zaljev. Nudi mirniju, povijesniju alternativu boravku direktno u užurbanim obalnim ljetovalištima, dok su plaže i dalje nadohvat ruke autom."
+    },
+    {
+      "question": "Koliko dana mi treba u Labinu?",
+      "answer": "Dva do tri dana je dovoljno za istraživanje starog grada, posjet lokalnom rudarskom muzeju i boravak na plažama u Rapcu. Putnici ga često koriste kao bazu za tjedan dana kako bi išli na jednodnevne izlete u Pulu, Kamenjak i središnju Istru."
+    },
+    {
+      "question": "Koja je najbolja plaža u blizini Labina?",
+      "answer": "Plaža Girandella u Rapcu je najpopularnija, s bijelim šljunkom, čistom vodom i brojnim sadržajima. Za mirniju opciju, Sveta Marina se nalazi 15 minuta vožnje južno i visoko je cijenjena za kupanje i ronjenje."
+    },
+    {
+      "question": "Trebam li auto u Labinu?",
+      "answer": "Imati automobil je visoko preporučljivo za putovanje između Labina, plaža u Rapcu i okolne istarske unutrašnjosti. Iako lokalni autobus povezuje stari grad i obalu, vozilo pruža potrebnu fleksibilnost za jednodnevne izlete i kupovinu namirnica."
+    },
+    {
+      "question": "Gdje mogu parkirati u Labinu?",
+      "answer": "Glavno parkiralište za stari grad nalazi se na Titovom trgu, s dodatnim parkingom u blizini groblja. Parkiranje ovdje podliježe satnim ili dnevnim naknadama tijekom ljetnih mjeseci, a mjesta se brzo popune do sredine jutra."
+    },
+    {
+      "question": "Je li Labin pogodan za obitelji?",
+      "answer": "Labin je vrlo pogodan za obitelji, posebno one koje iznajmljuju vilu s bazenom na periferiji ili planiraju voziti do plaža u Rapcu. Međutim, obitelji koje putuju s kolicima će smatrati stari grad na brežuljku teškim za navigaciju zbog strmih, popločanih ulica i stepenica."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Ukratko",
+    "whereToStay": "Gdje odsjesti u Labinu",
+    "gettingThere": "Kako doći do Labina",
+    "whenToGo": "Kada posjetiti",
+    "guides": "Vodiči za Labin",
+    "faq": "Često postavljana pitanja o Labinu",
+    "groups": {
+      "gettingAround": "Parking i kretanje",
+      "planning": "Planiranje i smještaj",
+      "timing": "Kada ići",
+      "travelers": "Obitelji, parovi i stilovi putovanja",
+      "activities": "Plaže i aktivnosti",
+      "food": "Hrana i piće",
+      "comparisons": "Usporedbe",
+      "practical": "Praktične informacije"
+    },
+    "car": "Automobilom",
+    "other": "Ostale opcije",
+    "bestFor": "Najbolje za",
+    "parking": "Parking",
+    "beach": "Plaža"
+  },
+  "destination": "labin",
+  "language": "hr",
+  "updatedAt": "2026-10-16T12:20:28.631Z"
+}

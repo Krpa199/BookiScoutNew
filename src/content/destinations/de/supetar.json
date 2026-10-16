@@ -1,0 +1,146 @@
+{
+  "title": "Supetar Reiseführer: Strände, Fähren & Unterkünfte",
+  "metaDescription": "Planen Sie Ihre Reise nach Supetar, Brač. Entdecken Sie die besten Viertel zum Übernachten, Anreiserouten aus Europa, Fährverbindungen, Parkmöglichkeiten und lokale Kiesstrände.",
+  "intro": "Supetar ist der wichtigste Zugangspunkt zur Insel Brač und ein praktischer Ausgangspunkt für Reisende, die mit dem Auto vom europäischen Festland anreisen. Es bietet eine funktionale Mischung aus Supermärkten, Fährverbindungen und Dienstleistungen, kombiniert mit einer lebhaften Uferpromenade und leicht zugänglichen Kiesstränden. Die Stadt eignet sich für Familien und Roadtripper, die das Inselleben ohne die logistische Komplexität abgelegenerer Ziele genießen möchten.\n\nDie Sommermonate Juli und August bringen Spitzenverkehr bei den Fähren, warme Meerestemperaturen und voll funktionsfähige Restaurants entlang des Hafens. Mai, Juni und September bieten ruhigere Bedingungen und günstigere Übernachtungspreise, obwohl das Meer zum Schwimmen kühler ist. Von Oktober bis April schließen viele saisonale Geschäfte, aber die wichtigsten Dienstleistungen und Fährverbindungen nach Split bleiben das ganze Jahr über aktiv.",
+  "quickFacts": [
+    {
+      "label": "Beste Monate",
+      "value": "Juni bis September"
+    },
+    {
+      "label": "Meerestemperatur im August",
+      "value": "25°C - 26°C"
+    },
+    {
+      "label": "Nächster Flughafen",
+      "value": "Flughafen Brač (30 km) oder Flughafen Split (Fähre erforderlich)"
+    },
+    {
+      "label": "Hauptstrandtyp",
+      "value": "Kies mit einigen sandigen Untiefen"
+    },
+    {
+      "label": "Preisniveau",
+      "value": "Durchschnittlich für Kroatien, günstiger als Bol oder Hvar"
+    },
+    {
+      "label": "Altstadt / Zentrum",
+      "value": "Fußgängerfreundlich, eingeschränkter Autozugang in Hafennähe"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Supetar Zentrum (Hafen / Altstadt)",
+      "bestFor": "Reisende ohne Auto, Kurzaufenthalte und diejenigen, die Restaurants in der Nähe wünschen",
+      "parking": "Kostenpflichtige öffentliche Parkplätze in Fährhafennähe; begrenzte Straßenparkplätze",
+      "beach": "10-15 Gehminuten zu Banj oder Vlačica",
+      "summary": "Das Handels- und Verkehrszentrum der Insel. Es verfügt über Steinhäuser, Cafés entlang der Promenade und direkten Zugang zur Autofähre nach Split."
+    },
+    {
+      "name": "Tri Mosta & Bili Rat",
+      "bestFor": "Resortbesucher, Familien und Strandurlauber",
+      "parking": "Private Hotelparkplätze und große kostenpflichtige öffentliche Parkplätze in Strandnähe",
+      "beach": "Direkter Zugang zu Tri Mosta (Kies) und Bili Rat",
+      "summary": "Westlich des Zentrums gelegen, beherbergt dieses Gebiet die meisten großen Hotels und Resorts von Supetar. Es bietet schattige Pinienwälder, Strandbars und Wassersportmöglichkeiten."
+    },
+    {
+      "name": "Banj & Vlačica Gebiet",
+      "bestFor": "Familien mit kleinen Kindern",
+      "parking": "Straßenparkplätze können eng sein; Unterkünfte bieten oft Stellplätze",
+      "beach": "Direkter Zugang zu Banj (sandiger Boden) und Vlačica (Kies)",
+      "summary": "Ein Wohnviertel, das sich um zwei der beliebtesten Buchten der Stadt erstreckt. Es bietet eine ruhigere Atmosphäre als der Hafen und ist dennoch nur einen kurzen Spaziergang von den Einrichtungen der Stadt entfernt."
+    },
+    {
+      "name": "Mirca",
+      "bestFor": "Reisende mit Auto, die Ruhe suchen",
+      "parking": "Meist kostenlose Parkplätze auf Privatgrundstücken",
+      "beach": "Unüberfüllte lokale Kiesstrände in Gehweite",
+      "summary": "Ein kleines Dorf 3 Kilometer westlich von Supetar. Es bietet traditionelle Steinhäuser, Olivenhaine und ein viel langsameres Tempo als die Hauptstadt."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "850 km bis Split, ~9 Stunden über A8, A10 (Tauern) und A1. Erfordert AT Vignette, Maut für Tauern-/Karawanken-Tunnel, HR Maut, plus die Autofähre Split-Supetar.",
+      "other": "Flug zum Flughafen Split (SPU), Transfer zum Hafen von Split (25 km), dann Fähre nehmen."
+    },
+    {
+      "from": "Wien",
+      "car": "760 km bis Split, ~8 Stunden über A2, A4 und A1. Erfordert AT und SLO Vignetten, HR Maut, plus die Autofähre Split-Supetar.",
+      "other": "Flug zum Flughafen Split (SPU), Transfer zum Hafen von Split (25 km), dann Fähre nehmen."
+    },
+    {
+      "from": "Budapest",
+      "car": "750 km bis Split, ~7.5 Stunden über M7 und A1. Erfordert HU Vignette, HR Maut, plus die Autofähre Split-Supetar.",
+      "other": "Flug zum Flughafen Split (SPU), Transfer zum Hafen von Split (25 km), dann Fähre nehmen."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "470 km bis Split, ~5 Stunden über A1 (SLO) und A1 (HR). Erfordert SLO Vignette, HR Maut, plus die Autofähre Split-Supetar.",
+      "other": "Bus oder Zug nach Split, gefolgt von der 50-minütigen Personen- oder Autofähre."
+    },
+    {
+      "from": "Prag",
+      "car": "1.090 km bis Split, ~11.5 Stunden über A9 (AT), A1 (SLO) und A1 (HR). Erfordert CZ, AT, SLO Vignetten, AT Tunnelmaut, HR Maut, plus die Autofähre Split-Supetar.",
+      "other": "Flug zum Flughafen Split (SPU), Transfer zum Hafen von Split (25 km), dann Fähre nehmen."
+    },
+    {
+      "from": "Krakau",
+      "car": "1.050 km bis Split, ~11.5 Stunden über D1 (SK), M7 (HU) und A1 (HR). Erfordert SK und HU Vignetten, HR Maut, plus die Autofähre Split-Supetar.",
+      "other": "Flug zum Flughafen Split (SPU), Transfer zum Hafen von Split (25 km), dann Fähre nehmen."
+    }
+  ],
+  "whenToGo": "Von Juni bis September ist Supetar vollständig geöffnet, mit Meerestemperaturen zwischen 23°C und 26°C. Juli und August bringen die größten Menschenmengen, Spitzenzeiten bei den Fährwarteschlangen und höhere Unterkunftspreise mit sich, garantieren aber, dass alle Restaurants und Strandanlagen geöffnet sind. Mai und Oktober bieten mildes Wetter und günstigere Preise, obwohl das Meer oft zu kalt zum Schwimmen ist und einige saisonale Geschäfte schließen. Von November bis April kehrt die Stadt zu einem ruhigen lokalen Rhythmus zurück; die Preise sind am niedrigsten, aber die touristische Infrastruktur ist geschlossen und die Fähre fährt nach einem reduzierten Winterfahrplan.",
+  "faq": [
+    {
+      "question": "Lohnt sich ein Besuch?",
+      "answer": "Ja, wenn Sie einen bequemen, gut angebundenen Ausgangspunkt auf Brač benötigen. Supetar bietet praktische Annehmlichkeiten, einfachen Fährzugang nach Split und angenehme Familienstrände, auch wenn es die dramatische Landschaft von Bol vermissen lässt."
+    },
+    {
+      "question": "Wie viele Tage brauche ich?",
+      "answer": "Drei bis fünf Tage sind ausreichend, um Supetar zu erkunden und es als Ausgangspunkt für den Rest von Brač zu nutzen. Ein kürzerer zweitägiger Aufenthalt ist möglich, wenn Sie nur auf dem Weg zu anderen Inselstädten sind."
+    },
+    {
+      "question": "Was ist der beste Strand?",
+      "answer": "Tri Mosta gilt weithin als der beste Strand wegen seiner sauberen Kieselsteine, des Pinien-Schattens und der vorhandenen Einrichtungen. Familien mit kleinen Kindern bevorzugen oft den Strand Banj wegen seines flachen Sandbodens."
+    },
+    {
+      "question": "Brauche ich ein Auto?",
+      "answer": "Sie benötigen kein Auto, wenn Sie in Supetar bleiben und nur die lokalen Strände besuchen möchten. Ein Auto ist jedoch sehr empfehlenswert, wenn Sie den Rest von Brač erkunden möchten, wie zum Beispiel Vidova Gora oder Zlatni Rat."
+    },
+    {
+      "question": "Wo kann ich parken?",
+      "answer": "Große öffentliche, kostenpflichtige Parkplätze befinden sich in der Nähe des Fährhafens und hinter dem Strandbereich Tri Mosta. Straßenparkplätze im Zentrum sind in kostenpflichtige Zonen unterteilt, und die Plätze füllen sich im Juli und August schnell."
+    },
+    {
+      "question": "Ist es gut für Familien?",
+      "answer": "Ja, Supetar ist eines der familienfreundlichsten Reiseziele auf Brač. Es verfügt über flache Strände mit Sandabschnitten, aufblasbare Wasserparks und ebene Strandpromenaden, die für Kinderwagen geeignet sind."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Auf einen Blick",
+    "whereToStay": "Unterkünfte in Supetar",
+    "gettingThere": "Anreise nach Supetar",
+    "whenToGo": "Beste Reisezeit",
+    "guides": "Supetar-Führer",
+    "faq": "FAQ zu Supetar",
+    "groups": {
+      "gettingAround": "Parken & Fortbewegung",
+      "planning": "Planung & Unterkünfte",
+      "timing": "Beste Reisezeit",
+      "travelers": "Familien, Paare & Reisestile",
+      "activities": "Strände & Aktivitäten",
+      "food": "Essen & Trinken",
+      "comparisons": "Vergleiche",
+      "practical": "Praktische Informationen"
+    },
+    "car": "Mit dem Auto",
+    "other": "Weitere Optionen",
+    "bestFor": "Am besten für",
+    "parking": "Parken",
+    "beach": "Strand"
+  },
+  "destination": "supetar",
+  "language": "de",
+  "updatedAt": "2026-10-16T14:37:34.356Z"
+}

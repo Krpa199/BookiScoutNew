@@ -1,0 +1,146 @@
+{
+  "title": "Grisignana: Guida di viaggio tra arte, borghi e Istria interna",
+  "metaDescription": "Organizza un viaggio a Grisignana, Croazia. Scopri il periodo migliore per visitarla, dove alloggiare, i dettagli sul parcheggio, gli itinerari in auto e come esplorare l'Istria interna.",
+  "intro": "Grisignana è un borgo collinare nell'Istria centrale, caratterizzato dalla sua architettura medievale in pietra e da una forte vocazione per l'arte e la musica. Attira i viaggiatori in cerca di eventi culturali, tranquillità rurale e vicinanza alle cantine istriane, piuttosto che una tradizionale vacanza al mare. Il borgo è compatto e ospita numerose accademie di musica estive e gallerie dalla primavera all'autunno.\n\nIl periodo migliore per visitarla va da maggio a settembre, quando le attività locali sono pienamente operative. I visitatori si basano tipicamente qui per esplorare la regione interna in bicicletta o in auto, facendo gite di un giorno verso città costiere come Umago e Cittanova, che sono a breve distanza in auto. Le strade ripide e acciottolate richiedono scarpe comode per camminare.",
+  "quickFacts": [
+    {
+      "label": "Mesi migliori",
+      "value": "Da maggio a settembre"
+    },
+    {
+      "label": "Temperatura del mare ad agosto",
+      "value": "N/D (entroterra), costa più vicina 25-27°C"
+    },
+    {
+      "label": "Aeroporto più vicino",
+      "value": "Trieste (TRS), 60 km"
+    },
+    {
+      "label": "Tipo di spiaggia principale",
+      "value": "Nessuna (20 km dalla costa di ciottoli/scogli)"
+    },
+    {
+      "label": "Livello di prezzo",
+      "value": "Moderatamente più alto della media croata"
+    },
+    {
+      "label": "Accessibilità a piedi del centro storico",
+      "value": "Interamente pedonale, senza auto"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centro storico di Grisignana",
+      "bestFor": "Amanti dell'arte, coppie",
+      "parking": "Parcheggio a pagamento fuori le mura del borgo",
+      "beach": "20 km (Umago)",
+      "summary": "Il centro storico pedonale è ricco di gallerie d'arte, caffè e case in pietra. Alloggiare qui significa svegliarsi tra le tranquille strade medievali, anche se i bagagli devono essere trasportati dal parcheggio periferico."
+    },
+    {
+      "name": "Tribano e Krasica",
+      "bestFor": "Soggiorni rurali, ciclisti, famiglie",
+      "parking": "Parcheggio privato gratuito tipico nelle ville",
+      "beach": "20-25 km",
+      "summary": "Questi piccoli borghi agricoli circondano Grisignana e offrono agriturismi e ville ristrutturate con piscina. Forniscono una tranquilla base in campagna con facile accesso alla pista ciclabile della Parenzana."
+    },
+    {
+      "name": "Buie",
+      "bestFor": "Viaggiatori attenti al budget, soggiorni più lunghi",
+      "parking": "Generalmente facile e gratuito fuori dal centro storico",
+      "beach": "15 km (Canegra)",
+      "summary": "Una città più grande a 8 chilometri da Grisignana, Buie ha supermercati, farmacie e più opzioni di ristorazione. Serve come base pratica e centrale per esplorare l'Istria nord-occidentale."
+    },
+    {
+      "name": "Završje",
+      "bestFor": "Isolamento, appassionati di storia, fotografi",
+      "parking": "Parcheggio gratuito disponibile",
+      "beach": "25 km",
+      "summary": "Un borgo medievale parzialmente abbandonato vicino a Grisignana, noto per la sua spettacolare posizione collinare e le rovine storiche. L'alloggio è limitato a poche case restaurate, offrendo pace e tranquillità totali."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monaco",
+      "car": "500 km, circa 5.5 ore via A8, A10 (vignetta austriaca + pedaggio del Tauern), tunnel delle Caravanche, Slovenia A1 fino a Capodistria",
+      "other": "Volo per Trieste, poi noleggio auto"
+    },
+    {
+      "from": "Vienna",
+      "car": "490 km, circa 5 ore via A2, Slovenia A1 (vignette austriaca e slovena richieste) via Graz e Capodistria",
+      "other": "Treno per Trieste, poi autobus per Buie"
+    },
+    {
+      "from": "Budapest",
+      "car": "580 km, circa 6 ore via M7 (vignetta), Croazia A4/A1 fino a Fiume (pedaggio), Y istriana fino all'uscita per Buie",
+      "other": "Volo per Zagabria, poi autobus per Buie"
+    },
+    {
+      "from": "Lubiana",
+      "car": "120 km, circa 1.5 ore via A1 fino a Capodistria (vignetta), strada locale 11 fino al confine di Kaštel",
+      "other": "Autobus diretto da Lubiana a Buie (1.5 ore), poi taxi"
+    },
+    {
+      "from": "Praga",
+      "car": "820 km, circa 9 ore via A3, A9 (vignetta austriaca + pedaggi Pyhrn), Slovenia A1 fino a Capodistria",
+      "other": "Volo per Trieste (via Francoforte/Monaco), poi in auto"
+    },
+    {
+      "from": "Cracovia",
+      "car": "950 km, circa 10 ore via A1 (vignetta CZ), Austria A2, Slovenia A1 fino a Capodistria",
+      "other": "Volo per Vienna o Treviso, poi in auto"
+    }
+  ],
+  "whenToGo": "Da maggio a settembre, Grisignana è vivace, con gallerie aperte, accademie di musica estive in attività e caffè all'aperto funzionanti. Luglio e agosto sono i mesi più affollati e costosi, anche se le folle sono comunque gestibili rispetto alle località costiere. La primavera (aprile e maggio) e l'autunno (settembre e ottobre) offrono un clima mite ideale per percorrere la Parenzana in bicicletta ed esplorare le cantine, con prezzi degli alloggi più bassi. Da novembre a marzo, il borgo è estremamente tranquillo; la maggior parte delle gallerie, dei ristoranti e delle strutture turistiche chiudono completamente, e il tempo è spesso umido e fresco.",
+  "faq": [
+    {
+      "question": "Vale la pena visitarla?",
+      "answer": "Sì, Grisignana è altamente raccomandata per i viaggiatori interessati all'arte, all'architettura medievale e al paesaggio istriano interno. Offre un'alternativa tranquilla e culturale alle affollate località costiere."
+    },
+    {
+      "question": "Quanti giorni servono?",
+      "answer": "Uno o due giorni sono sufficienti per esplorare il borgo stesso. Tuttavia, serve come ottima base per un viaggio di 4-7 giorni per esplorare il resto dell'Istria interna, le cantine locali e la pista ciclabile della Parenzana."
+    },
+    {
+      "question": "Dov'è la spiaggia migliore?",
+      "answer": "Grisignana non ha spiagge in quanto si trova a 20 chilometri nell'entroterra. I punti di accesso costiero più vicini si trovano a Umago e Cittanova, dove i visitatori troveranno terrazze pavimentate e baie rocciose, come la spiaggia di Canegra."
+    },
+    {
+      "question": "Serve l'auto?",
+      "answer": "Sì, l'auto è essenziale per raggiungere Grisignana ed esplorare l'area circostante. Il trasporto pubblico diretto al borgo è molto limitato, anche se gli autobus interurbani servono la vicina città di Buie."
+    },
+    {
+      "question": "Dove posso parcheggiare?",
+      "answer": "I visitatori devono parcheggiare nei parcheggi a pagamento designati situati appena fuori le mura del borgo. Il centro storico è interamente pedonale e interdetto ai veicoli non autorizzati."
+    },
+    {
+      "question": "È adatta alle famiglie?",
+      "answer": "È adatta alle famiglie che cercano una vacanza tranquilla in villa, ma ci sono poche attrazioni specifiche per bambini nel borgo. I più piccoli potrebbero avere difficoltà con i ciottoli irregolari, e la mancanza di una spiaggia immediata richiede spostamenti giornalieri in auto."
+    }
+  ],
+  "headings": {
+    "quickFacts": "In breve",
+    "whereToStay": "Dove alloggiare a Grisignana",
+    "gettingThere": "Come arrivare a Grisignana",
+    "whenToGo": "Quando andare",
+    "guides": "Guide su Grisignana",
+    "faq": "Domande frequenti su Grisignana",
+    "groups": {
+      "gettingAround": "Parcheggio e spostamenti",
+      "planning": "Pianificazione e dove alloggiare",
+      "timing": "Quando andare",
+      "travelers": "Famiglie, coppie e stili di viaggio",
+      "activities": "Spiagge e cose da fare",
+      "food": "Cibo e bevande",
+      "comparisons": "Confronti",
+      "practical": "Info pratiche"
+    },
+    "car": "In auto",
+    "other": "Altre opzioni",
+    "bestFor": "Ideale per",
+    "parking": "Parcheggio",
+    "beach": "Spiaggia"
+  },
+  "destination": "groznjan",
+  "language": "it",
+  "updatedAt": "2026-10-16T12:30:36.502Z"
+}

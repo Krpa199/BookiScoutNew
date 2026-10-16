@@ -1,0 +1,146 @@
+{
+  "title": "Vodice útikalauz: Strandok, parkolás és szálláslehetőségek",
+  "metaDescription": "Tervezzen utazást Vodicébe, Horvátországba. Fedezze fel a legjobb szálláshelyeket, autós útvonalakat Európából, parkolási tippeket, strandútmutatókat és az ideális időpontot a látogatáshoz.",
+  "intro": "Vodice egy tengerparti város Közép-Dalmáciában, Zadar és Split között található. Elsősorban üdülőhelyként funkcionál, nagyméretű kikötőjéről, kiterjedt kavicsos strandjairól és élénk éjszakai életéről ismert. A város sokféle utazási stílusnak kedvez, vonzza a családokat, akik kihasználják a Plava strand sekély vizét, és a csoportokat, akik a Hangar strand melletti beach clubokra összpontosítanak.\n\nA főszezon június végétől augusztusig tart, amikor a város teljes kapacitással működik, és a hőmérséklet rendszeresen meghaladja a 30°C-ot. Azok a látogatók, akik csendesebb környezetre és enyhébb időre vágynak a közeli Krka Nemzeti Park vagy Šibenik felfedezéséhez, általában májusban, szeptemberben vagy október elején tervezik útjukat. A központi kikötői terület kompakt és gyalogosbarát, hosszú tengerparti sétány köti össze a szomszédos falvakkal.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Május és szeptember"
+    },
+    {
+      "label": "Augusztusi tengerhőmérséklet",
+      "value": "25°C és 26°C között"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Zadar (ZAD) 62 km-re vagy Split (SPU) 70 km-re"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Kavicsos, finom murvás és betonozott teraszok"
+    },
+    {
+      "label": "Árszint",
+      "value": "Átlagos a horvát tengerpartra; kicsit alacsonyabb, mint Splitben"
+    },
+    {
+      "label": "Városközpont",
+      "value": "Gyalogosbarát kikötő és óváros; kiválóan alkalmas gyalogos felfedezésre"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Városközpont (Centar)",
+      "bestFor": "Első alkalommal érkezőknek, pároknak és autóval nem rendelkezőknek",
+      "parking": "Nehézkes és drága; használjon nagy nyilvános parkolókat a szélén",
+      "beach": "5-10 perc sétára a Plava vagy Hangar strandoktól",
+      "summary": "A történelmi mag és a kikötői terület éttermek, pékségek és hajókirándulások indulási pontjainak magas koncentrációját kínálja. A szálláshelyek főként magánapartmanok szűk kőutcákban."
+    },
+    {
+      "name": "Plava Plaža (Kék Strand) terület",
+      "bestFor": "Kisgyermekes családoknak",
+      "parking": "Gyakran biztosítanak utcán kívüli parkolást az apartmanok",
+      "beach": "Közvetlen hozzáférés a sekély kavicsos/homokos tengerfenékhez",
+      "summary": "A központtól nyugatra található, ez a lakóövezet Vodice legcsaládbarátabb strandjára nyílik. A környezet csendesebb, mint a városmag, sűrűn árnyékolják fenyőfák."
+    },
+    {
+      "name": "Hangar strand / Kelet-Vodice",
+      "bestFor": "Fiatalabb utazóknak és üdülőknek",
+      "parking": "Nagy szállodai parkolók és dedikált strandparkoló területek",
+      "beach": "Kavicsos strandok mellett, strandklubokkal és kölcsönzési lehetőségekkel",
+      "summary": "Olyan nagy szállodakomplexumok, mint az Olympia és az Imperial uralják ezt a keleti szakaszt, amely aktív strandbárokat, vízi sportokat és éjszakai szórakozóhelyeket kínál. Késő éjszakáig élénk marad."
+    },
+    {
+      "name": "Srima",
+      "bestFor": "Csendesebb, lassabb tempójú nyaralásra vágyó utazóknak",
+      "parking": "Általában könnyű; a legtöbb szálláshely magánparkolóval rendelkezik",
+      "beach": "Lépésekre egy folyamatos kavicsos strandtól",
+      "summary": "Egy csendes tengerparti falu közvetlenül Vodicétől keletre, egy 2 kilométeres sétány köti össze. Szinte teljes egészében modern, tengerre néző apartmanházakból áll, alapvető helyi szolgáltatásokkal."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "750 km, 8-9 óra az A8, A10 és horvát A1-es úton keresztül. Osztrák és szlovén autópályamatrica, valamint díj a Tauern/Karawanken alagutakért és a horvát autópályákért szükséges.",
+      "other": "Közvetlen szezonális járatok Zadarba vagy Splitbe, majd reptéri transzfer."
+    },
+    {
+      "from": "Bécs",
+      "car": "620 km, 6-7 óra az A2, A9 és horvát A1-es úton keresztül. Osztrák és szlovén autópályamatrica, valamint díj a Gleinalm/Bosruck alagutakért és a horvát autópályákért szükséges.",
+      "other": "Közvetlen járatok Zadarba vagy Splitbe (szezonális), vagy FlixBus Vodicébe."
+    },
+    {
+      "from": "Budapest",
+      "car": "650 km, 6-7 óra az M7-esen és horvát A4/A1-es úton keresztül. Magyar e-matricát és horvát autópályadíjat igényel. Határátkelés Letenye/Goričan-nál.",
+      "other": "A FlixBus közvetlen járatokat üzemeltet a vodicei buszpályaudvarra nyáron."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "350 km, 4 óra az A2-es úton Novo Mestóba vagy az A1-es úton Rijekába, majd horvát A1-es. Szlovén autópályamatrica és horvát autópályadíj szükséges.",
+      "other": "Közvetlen buszjáratok közlekednek gyakran Ljubljana és Vodice között."
+    },
+    {
+      "from": "Prága",
+      "car": "950 km, 10-11 óra Bécsen vagy Linzen/Grazon keresztül, majd horvát A1-es. Cseh, osztrák és szlovén autópályamatrica, valamint osztrák alagút- és horvát autópályadíj szükséges.",
+      "other": "Közvetlen szezonális járatok Zadarba (Ryanair/Smartwings) vagy vonat Splitbe."
+    },
+    {
+      "from": "Krakkó",
+      "car": "1050 km, 10-12 óra Szlovákián (D1/D2) és Magyarországon (M1/M7) keresztül, majd horvát A1-es. Szlovák és magyar autópályamatrica, valamint horvát autópályadíj szükséges.",
+      "other": "Szezonális járatok Krakkóból Zadarba vagy Splitbe a Ryanairrel."
+    }
+  ],
+  "whenToGo": "Május és október nappali hőmérséklete 20-23°C körül alakul, ideális városnézésre és kerékpározásra, bár a tenger hűvös marad (18-20°C), és néhány szezonális strandlétesítmény zárva tart. Június és szeptember az optimális hónapok egy kiegyensúlyozott utazáshoz, meleg tengervízzel (22-24°C), alacsonyabb szállásárakkal és teljes mértékben működő éttermekkel, csúcsidőszaki tömeg nélkül. Július és augusztus a főszezon, maximális hőséggel (gyakran 30°C+), a tengerhőmérséklet csúcsán 26°C körül alakul, csúcsárakkal és nagy tömeggel a sétányokon és a strandokon. Novembertől áprilisig Vodice nagyrészt inaktív, a legtöbb szálloda, turista étterem és strandklub zárva tart télen.",
+  "faq": [
+    {
+      "question": "Érdemes-e ellátogatni Vodicébe?",
+      "answer": "Igen, ha olyan üdülőhelyet keres, amely kiterjedt turisztikai létesítményekkel, aktív éjszakai élettel és könnyű hozzáféréssel rendelkezik a nemzeti parkokhoz. Azok, akik elszigetelt, csendes vagy rendkívül történelmi célpontot keresnek, inkább a szigeteket vagy kisebb falvakat részesíthetik előnyben."
+    },
+    {
+      "question": "Hány napra van szükség Vodicében?",
+      "answer": "Három-öt nap elegendő a strandok élvezetéhez és egynapos kirándulásokhoz Šibenikbe vagy a Krka Nemzeti Parkba. Azok a családok, akik kizárólag tengerparti nyaralásra összpontosítanak, gyakran hét-tizennégy napra foglalnak."
+    },
+    {
+      "question": "Melyik a legjobb strand Vodicében?",
+      "answer": "A Plava Plaža (Kék Strand) a legnépszerűbb sekély vize és vegyes kavicsos-homokos tengerfeneke miatt. A Hangar strandot az idősebb tinédzserek és felnőttek kedvelik, akik vízi sportokat, strandbárokat és zenét keresnek."
+    },
+    {
+      "question": "Szükséges-e autó Vodicében?",
+      "answer": "Nem szükséges autó, ha a központ közelében száll meg, mivel a strandok, éttermek és hajókirándulások mind gyalogosan elérhetők. Azonban egy jármű hasznos a szélesebb dalmát tengerpart felfedezéséhez és a belföldi nemzeti parkok látogatásához."
+    },
+    {
+      "question": "Hol a legjobb parkolni Vodicében?",
+      "answer": "A főbb nyilvános parkolók a központi piac és a buszpályaudvar (Artina utca) közelében találhatók. Júliusban és augusztusban ezek gyorsan megtelnek, ezért erősen ajánlott olyan szállást foglalni, amely garantált magánparkolóhellyel rendelkezik."
+    },
+    {
+      "question": "Jó Vodice családoknak?",
+      "answer": "Igen, magasra értékelt családok számára a Plava Plaža sekély bejárata, valamint a számos dedikált gyerekprogram, játszótér és vízipark miatt. A hosszú, sík sétányok is nagyon babakocsi-baráttá teszik."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Röviden",
+    "whereToStay": "Hol szálljunk meg Vodicében",
+    "gettingThere": "Utazás Vodicébe",
+    "whenToGo": "Mikor utazzunk",
+    "guides": "Vodice útmutatók",
+    "faq": "Vodice GYIK",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor utazzunk",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Ételek és italok",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb választás",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "vodice",
+  "language": "hu",
+  "updatedAt": "2026-10-16T11:17:11.140Z"
+}

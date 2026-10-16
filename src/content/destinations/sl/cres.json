@@ -1,0 +1,146 @@
+{
+  "title": "Cres – Potovalni vodnik: Plaže, parkiranje in namestitev",
+  "metaDescription": "Načrtujte svoje potovanje na Cres, Hrvaška. Odkrijte najboljše predele za bivanje, najbližje plaže, potovalne poti iz Srednje Evrope in praktične informacije o parkiranju.",
+  "intro": "Cres privablja popotnike, ki iščejo tišjo, naravno usmerjeno alternativo močno razvitim obalnim letoviščem Hrvaške. Otok je znan po strmih klifih, prodnatih zalivih in gostih gozdovih, medtem ko mesto Cres služi kot glavno središče z beneško arhitekturo in aktivnim ribiškim pristaniščem. Obiskovalci običajno uporabljajo mesto kot izhodišče za raziskovanje oddaljenih plaž in pohodniških poti po otoku.\n\nGlavna turistična sezona traja od junija do septembra. Julij in avgust prinašata najvišje temperature morja in najbolj zanesljive trajektne vozne rede, a tudi najvišje cene in največjo gnečo. Maj in oktober ponujata hladnejše vreme, primerno za pohodništvo in kolesarjenje, čeprav so temperature morja pogosto prenizke za kopanje in nekatere sezonske restavracije se zaprejo.",
+  "quickFacts": [
+    {
+      "label": "Najboljši meseci",
+      "value": "Junij do september"
+    },
+    {
+      "label": "Temperatura morja v avgustu",
+      "value": "24°C do 26°C"
+    },
+    {
+      "label": "Najbližje letališče",
+      "value": "Letališče Reka (RJK), 45 km (vključuje trajekt)"
+    },
+    {
+      "label": "Glavni tip plaž",
+      "value": "Prod in skalnati zalivi"
+    },
+    {
+      "label": "Cenovni razred",
+      "value": "Nekoliko pod povprečjem hrvaških otokov"
+    },
+    {
+      "label": "Staro mestno jedro",
+      "value": "Popolnoma pešcona / brez avtomobilov"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Staro mestno jedro Cresa",
+      "bestFor": "Kulinarika, zgodovina in popotniki brez avtomobila",
+      "parking": "Plačljiva javna parkirišča izven pešcone",
+      "beach": "10-15 minut hoje do Melina ali Grabarja",
+      "summary": "Zgodovinsko središče zaznamujejo ozke ulice, beneške fasade in pristanišče z vrsto kavarn. Ponuja najvišjo koncentracijo restavracij in trgovin, čeprav so namestitve večinoma apartmaji in ne veliki hoteli."
+    },
+    {
+      "name": "Melin",
+      "bestFor": "Družine in ljubitelji plaž",
+      "parking": "Večina apartmajev ponuja zasebno parkirišče",
+      "beach": "Neposreden dostop do plaže Melin (prodnata/betonska)",
+      "summary": "Nahaja se severozahodno od starega mestnega jedra, ta stanovanjska soseska leži ob urejeni obmorski promenadi. Omogoča enostaven dostop do družinam prijaznih prodnatih plaž in bližnjih kampovskih storitev."
+    },
+    {
+      "name": "Grabar",
+      "bestFor": "Tišje bivanje z razgledom na morje",
+      "parking": "Zasebni dovozi so pogosti",
+      "beach": "2-5 minut hoje do prodnatih zalivov Grabar",
+      "summary": "Grabar, ki se nahaja južno od centra mesta, je hribovita soseska, ki jo večinoma sestavljajo sodobni apartmaji za najem. Ponuja bližino tišjih prodnatih plaž, medtem ko je staro mestno jedro oddaljeno 15 minut hoje po obalni poti."
+    },
+    {
+      "name": "Valun",
+      "bestFor": "Pari, digitalni detoks, izogibanje gneči",
+      "parking": "Veliko plačljivo parkirišče na vhodu v vas",
+      "beach": "Dve prodnati plaži v vasi",
+      "summary": "Majhna ribiška vasica, ki se nahaja 15 kilometrov južno od mesta Cres. Je popolnoma brez avtomobilov in ima nekaj restavracij z morsko hrano, zaradi česar je idealna za zelo sproščene, statične počitnice na plaži."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "550 km, ~6.5 ur preko Salzburga, Beljaka, Ljubljane in trajekta Brestova-Porozina. Zahteva avstrijsko vinjeto, cestnino Karavanke, slovensko vinjeto in vozovnico za trajekt.",
+      "other": "Vlak do Reke, nato katamaran do mesta Cres"
+    },
+    {
+      "from": "Dunaj",
+      "car": "520 km, ~6 ur preko Gradca, Maribora, Zagreba, Krškega mostu in trajekta Valbiska-Merag. Zahteva avstrijsko in slovensko vinjeto, hrvaške cestnine in vozovnico za trajekt.",
+      "other": "Neposreden let do Reke (Krk), nato avtobus do trajekta"
+    },
+    {
+      "from": "Budimpešta",
+      "car": "550 km, ~6 ur preko Zagreba, Reke, Krškega mostu in trajekta Valbiska-Merag. Zahteva madžarsko vinjeto, hrvaške cestnine in vozovnico za trajekt.",
+      "other": "FlixBus do Reke, nato lokalni katamaran do Cresa"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "160 km, ~2.5 ure preko Postojne, Ilirske Bistrice in trajekta Brestova-Porozina. Zahteva slovensko vinjeto in vozovnico za trajekt.",
+      "other": "Avtobus do Reke (~2.5 ure), nato potniški trajekt"
+    },
+    {
+      "from": "Praga",
+      "car": "850 km, ~9.5 ur preko Brna, Dunaja, Gradca, Zagreba, Krškega mostu in trajekta Valbiska-Merag. Zahteva češko, avstrijsko, slovensko vinjeto, hrvaške cestnine in vozovnico za trajekt.",
+      "other": "RegioJet vlak/avtobus do Reke (poleti), nato trajekt"
+    },
+    {
+      "from": "Krakov",
+      "car": "950 km, ~10.5 ur preko Ostrave, Brna, Dunaja, Gradca, Zagreba, Krškega mostu in trajekta Valbiska-Merag. Zahteva poljske cestnine, češko, avstrijsko, slovensko vinjeto, hrvaške cestnine in vozovnico za trajekt.",
+      "other": "Let do Dunaja/Münchna, povezava do Reke, nato trajekt"
+    }
+  ],
+  "whenToGo": "Sezona na Cresu doseže vrhunec julija in avgusta, ko prinaša najtoplejše vreme, temperature morja do 26°C, popolnoma delujoče turistične objekte in najvišje cene namestitev. Gneča je opazna, vendar na splošno manjša kot na sosednjih Krku ali Lošinju. Junij in september ponujata odlično ravnovesje toplega vremena, prijetnih temperatur morja za kopanje in nižjih cen najema. Maja in oktobra se število obiskovalcev močno zmanjša; čeprav je idealno za pohodništvo in kolesarjenje po razgibani notranjosti otoka, je morje pogosto prehladno za kopanje in številne lokalne restavracije ter organizatorji izletov se zaprejo za izven sezone.",
+  "faq": [
+    {
+      "question": "Ali je Cres vreden obiska?",
+      "answer": "Da, Cres je zelo priporočljiv za popotnike, ki imajo raje naravo, pohodništvo in mirne prodnate zalive pred nočnim življenjem in velikimi letovišči. Ohranja divji, nerazvit značaj v primerjavi z bolj komercializiranimi hrvaškimi otoki."
+    },
+    {
+      "question": "Koliko dni potrebujem na Cresu?",
+      "answer": "Tri do pet dni je idealen časovni okvir za standardni obisk. To omogoča dovolj časa za raziskovanje mesta Cres, obisk hribovske vasice Lubenice in nekaj dni sproščanja na oddaljenih plažah, kot sta Mali Bok ali Sveti Ivan."
+    },
+    {
+      "question": "Katera je najboljša plaža na Cresu?",
+      "answer": "Sveti Ivan, ki se nahaja pod vasico Lubenice, velja za najboljšo plažo na otoku. Za dostop je potreben strm 45-minutni pohod, kar zagotavlja, da redko postane prenatrpana tudi v poletni sezoni."
+    },
+    {
+      "question": "Ali potrebujem avto na Cresu?",
+      "answer": "Da, avto je praktično nujen, če želite raziskovati oddaljene vasice, razgledne točke in znane skrite plaže otoka. Javni avtobusi obstajajo, vendar vozijo redko in ne dosežejo najbolj slikovitih obalnih točk."
+    },
+    {
+      "question": "Kje parkirati v mestu Cres?",
+      "answer": "Staro mestno jedro je namenjeno samo pešcem, zato morajo obiskovalci parkirati zunaj zgodovinskega središča. Glavno mestno parkirišče se nahaja v bližini avtobusne postaje in pristanišča, v poletnih mesecih pa zaračunava urnino ali dnevno pristojbino."
+    },
+    {
+      "question": "Je Cres primeren za družine?",
+      "answer": "Da, še posebej za družine, ki uživajo v kampiranju in aktivnostih na prostem. Predeli, kot je Melin, ponujajo odlično družinam prijazno infrastrukturo, plitve prodnate plaže in varne, avtomobilov proste promenade."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na kratko",
+    "whereToStay": "Kje prenočiti na Cresu",
+    "gettingThere": "Kako priti na Cres",
+    "whenToGo": "Kdaj obiskati",
+    "guides": "Vodiči po Cresu",
+    "faq": "Cres: Pogosta vprašanja",
+    "groups": {
+      "gettingAround": "Parkiranje in premikanje po otoku",
+      "planning": "Načrtovanje in kje prenočiti",
+      "timing": "Kdaj obiskati",
+      "travelers": "Družine, pari in načini potovanja",
+      "activities": "Plaže in stvari za početi",
+      "food": "Hrana in pijača",
+      "comparisons": "Primerjave",
+      "practical": "Praktične informacije"
+    },
+    "car": "Z avtomobilom",
+    "other": "Druge možnosti",
+    "bestFor": "Najboljše za",
+    "parking": "Parkirišče",
+    "beach": "Plaža"
+  },
+  "destination": "cres",
+  "language": "sl",
+  "updatedAt": "2026-10-16T13:10:05.899Z"
+}

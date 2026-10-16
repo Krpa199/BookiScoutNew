@@ -1,0 +1,146 @@
+{
+  "title": "Novigrad Turistički vodič: Plaže, četvrti i rute vožnje",
+  "metaDescription": "Planirajte svoje putovanje u Novigrad, Hrvatska. Otkrijte najbolja mjesta za boravak, rute vožnje iz Europe, savjete za parkiranje i detalje o plažama za ovaj istarski grad.",
+  "intro": "Novigrad privlači obitelji i parove koji traže mirniju obalnu destinaciju u Istri, izbjegavajući velike gužve tipične za Rovinj ili Poreč. Karakterizira ga očuvana povijesna jezgra smještena na malom poluotoku, prostrane šetnice uz more te čiste šljunčane i popločane plaže. Grad služi kao prikladna baza za istraživanje sjeverne Istre i obližnje doline rijeke Mirne.\n\nGlavna turistička sezona traje od kraja lipnja do početka rujna, donoseći tople morske temperature te potpuno funkcionalne restorane i sadržaje. Proljeće i rana jesen nude blaže vrijeme pogodno za biciklizam i istraživanje istarske unutrašnjosti, iako se mnoga obalna poduzeća zatvaraju između studenog i travnja. Posjetitelji koji stignu ljeti pronaći će opuštenu atmosferu usmjerenu na gastronomiju i aktivnosti na otvorenom.",
+  "quickFacts": [
+    {
+      "label": "Najbolji mjeseci",
+      "value": "Lipanj do rujan"
+    },
+    {
+      "label": "Temperatura mora u kolovozu",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Najbliža zračna luka",
+      "value": "Pula (PUY), udaljena 75 km"
+    },
+    {
+      "label": "Glavni tip plaže",
+      "value": "Šljunčane, stjenovite i popločane terase"
+    },
+    {
+      "label": "Razina cijena",
+      "value": "Prosječna za Istru, nešto iznad hrvatskog prosjeka"
+    },
+    {
+      "label": "Prohodnost",
+      "value": "Stari grad je vrlo prohodan i uglavnom bez automobila ljeti"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Stari grad",
+      "bestFor": "Gastronomija, povijest i parovi",
+      "parking": "Mora se parkirati izvan centra na naplatnim parkiralištima",
+      "beach": "Popločane gradske plaže i Rivarela odmah izvan zidina",
+      "summary": "Povijesna jezgra smještena je na poluotoku okruženom srednjovjekovnim zidinama. Nudi najveću koncentraciju restorana i kafića, ali ograničava pristup vozilima tijekom turističke sezone."
+    },
+    {
+      "name": "Karpinjan",
+      "bestFor": "Obitelji i pristup plaži",
+      "parking": "Besplatan i naplatni parking na ulici kod većine apartmana",
+      "beach": "500 m duga šljunčana plaža s borovom hladovinom",
+      "summary": "Stambena četvrt smještena 15 minuta hoda sjeverno od starog grada. Karakterizira je popularna, obiteljska šljunčana plaža i mirni apartmani za najam."
+    },
+    {
+      "name": "Područje Maestral i Sirena",
+      "bestFor": "Resort sadržaji, kampiranje i bazeni",
+      "parking": "Namjenski parking hotela i kampa",
+      "beach": "Šljunčane i popločane plaže s Plavom zastavom na licu mjesta",
+      "summary": "Smješteno južno od centra grada, ovo područje dominiraju veliki hoteli i veliki kamp. Pruža organizirane plažne sadržaje, bazene i sportske terene."
+    },
+    {
+      "name": "Mareda",
+      "bestFor": "Priroda, kampiranje i povoljan smještaj",
+      "parking": "Uključeno unutar turističkog naselja ili kampa",
+      "beach": "Stjenovite i popločane plaže na licu mjesta",
+      "summary": "Smješteno oko 4 kilometra sjeverno od Novigrada, ovo područje se uglavnom sastoji od velikog turističkog naselja i kampa. Okruženo je vinogradima, hrastovim šumama i obalnim stazama."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "520 km, 6 sati preko A8, A10 (Tauern), tunela Karawanken, SI A2/A1. Cestarine: AT vinjeta, cestarine za Tauern i Karawanke, SI vinjeta, HR cestarina.",
+      "other": "FlixBus izravno ili s jednim presjedanjem preko Ljubljane"
+    },
+    {
+      "from": "Beč",
+      "car": "510 km, 5,5 sati preko A2, A9 do Graza, SI A1 do Kopra. Cestarine: AT vinjeta, SI vinjeta, HR cestarina.",
+      "other": "Izravni FlixBus ili let do Pule"
+    },
+    {
+      "from": "Budimpešta",
+      "car": "600 km, 6 sati preko M7, A4 do Zagreba, A6 do Rijeke, Istarski ipsilon (A8/A9). Cestarine: HU vinjeta, HR cestarine.",
+      "other": "FlixBus ili vlak do Rijeke, zatim lokalni autobus"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "135 km, 1,5 sati preko A1 do Kopra, Ruta 111, Istarski ipsilon. Cestarine: SI vinjeta, HR cestarina.",
+      "other": "Izravni autobus koji traje otprilike 2,5 sata"
+    },
+    {
+      "from": "Prag",
+      "car": "830 km, 9 sati preko AT A1/A10, tunela Karawanken, SI A2/A1. Cestarine: CZ, AT, SI vinjete, cestarine za tunele, HR cestarina.",
+      "other": "Let do Pule ili noćni FlixBus"
+    },
+    {
+      "from": "Krakov",
+      "car": "1000 km, 10,5 sati preko A4, CZ D1, AT A2/A9, SI A1. Cestarine: PL, CZ, AT, SI vinjete, HR cestarina.",
+      "other": "Sezonski letovi za Zadar ili Pulu"
+    }
+  ],
+  "whenToGo": "Glavna turistička sezona je u srpnju i kolovozu, s temperaturama mora oko 25°C do 27°C, najvišim cijenama smještaja i najvećim gužvama. Lipanj i rujan pružaju dobru ravnotežu toplog vremena za kupanje, nižih cijena smještaja i podnošljivog broja posjetitelja, s gotovo svim otvorenim sadržajima. Svibanj i listopad nude hladnije temperature pogodne za biciklizam i kušanje vina, iako je more općenito prehladno za kupanje. Od studenog do travnja Novigrad je vrlo tih; temperature mora padaju ispod 15°C, a znatan dio hotela, kampova i turističkih restorana zatvara se za zimsku sezonu.",
+  "faq": [
+    {
+      "question": "Je li Novigrad vrijedan posjeta?",
+      "answer": "Da, Novigrad je vrijedan posjeta za putnike koji traže opušteni, povijesni obalni grad bez intenzivnih gužvi većih istarskih ljetovališta. Nudi izvrsne morske plodove, čiste plaže i dobro očuvane srednjovjekovne obrambene zidine."
+    },
+    {
+      "question": "Koliko dana mi treba u Novigradu?",
+      "answer": "Tri do pet dana idealno je za standardni posjet. To omogućuje dovoljno vremena za istraživanje starog grada, provođenje nekoliko dana na plaži i posjet obližnjem vodenom parku Istralandia ili unutrašnjim selima."
+    },
+    {
+      "question": "Koja je najbolja plaža u Novigradu?",
+      "answer": "Plaža Karpinjan se široko smatra najboljom opcijom za obitelji zbog plitkog šljunčanog ulaza i prirodne borove hladovine. Za organizirane sadržaje i najam ležaljki, plaža Maestral južno od centra je visoko ocijenjena."
+    },
+    {
+      "question": "Trebam li automobil u Novigradu?",
+      "answer": "Ne treba vam automobil ako planirate ostati strogo unutar Novigrada, budući da je grad malen i lako prohodan. Međutim, posjedovanje automobila toplo se preporučuje za jednodnevne izlete u istarske unutrašnje gradove poput Motovuna ili Grožnjana."
+    },
+    {
+      "question": "Gdje mogu parkirati u Novigradu?",
+      "answer": "Posjetitelji mogu parkirati na nekoliko velikih javnih parkirališta odmah izvan starog grada, budući da povijesno središte ograničava promet vozilima. Najveća naplatna gradska parkirališta nalaze se u blizini marine i gradske sportske dvorane."
+    },
+    {
+      "question": "Je li Novigrad dobar za obitelji?",
+      "answer": "Da, Novigrad je vrlo pogodan za obitelji zbog svoje mirne atmosfere, ravnih obalnih pješačkih i biciklističkih staza te sigurnih šljunčanih plaža. Također se nalazi manje od 10 kilometara od Istralandije, jednog od najvećih vodenih parkova u Hrvatskoj."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Ukratko",
+    "whereToStay": "Gdje odsjesti u Novigradu",
+    "gettingThere": "Kako doći do Novigrada",
+    "whenToGo": "Kada posjetiti",
+    "guides": "Vodiči za Novigrad",
+    "faq": "Česta pitanja o Novigradu",
+    "groups": {
+      "gettingAround": "Parking i kretanje po gradu",
+      "planning": "Planiranje i gdje odsjesti",
+      "timing": "Kada ići",
+      "travelers": "Obitelji, parovi i stilovi putovanja",
+      "activities": "Plaže i aktivnosti",
+      "food": "Hrana i piće",
+      "comparisons": "Usporedbe",
+      "practical": "Praktične informacije"
+    },
+    "car": "Automobilom",
+    "other": "Ostale opcije",
+    "bestFor": "Najbolje za",
+    "parking": "Parking",
+    "beach": "Plaža"
+  },
+  "destination": "novigrad",
+  "language": "hr",
+  "updatedAt": "2026-10-16T11:49:19.985Z"
+}

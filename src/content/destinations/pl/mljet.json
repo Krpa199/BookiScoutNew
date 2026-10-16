@@ -1,0 +1,146 @@
+{
+  "title": "Mljet: Przewodnik po Parku Narodowym, promach i noclegach",
+  "metaDescription": "Zaplanuj podróż na Mljet, Chorwacja. Praktyczny przewodnik zawierający informacje o dostępie do Parku Narodowego, trasach dojazdowych, promach, najlepszych wioskach na pobyt i praktyczne wskazówki.",
+  "intro": "Mljet to silnie zalesiona wyspa adriatycka, idealna dla podróżników szukających natury, pieszych wędrówek i spokojnych nadmorskich wiosek. Zachodnia jedna trzecia wyspy to chroniony Park Narodowy z dwoma słonymi jeziorami, przyciągający zarówno jednodniowych turystów, jak i gości na dłuższy pobyt. Wschodnie i centralne części oferują odosobnione zatoki i piaszczyste plaże, odróżniające się od typowego chorwackiego żwirowego wybrzeża.\n\nGłówny sezon turystyczny trwa od końca maja do września. Lipiec i sierpień przynoszą najcieplejsze temperatury morza i największy ruch jachtów, szczególnie w Pomenie i Polače. Maj i wrzesień oferują łagodniejszą pogodę do jazdy na rowerze i spacerów po szlakach Parku Narodowego, z mniejszymi tłumami i niższymi cenami zakwaterowania.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "Maj – wrzesień"
+    },
+    {
+      "label": "Temperatura morza w sierpniu",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Dubrownik (DBV), 85 km (łącznie z promem)"
+    },
+    {
+      "label": "Główne typy plaż",
+      "value": "Słone jeziora, skaliste zatoki i rzadko spotykany piasek"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "Powyżej średniej (logistyka wyspy i opłaty za park)"
+    },
+    {
+      "label": "Możliwość poruszania się pieszo",
+      "value": "Wioski są małe/można poruszać się pieszo; Park Narodowy jest strefą bez samochodów"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Pomena",
+      "bestFor": "Dostęp do Parku Narodowego i restauracje",
+      "parking": "Ograniczony parking uliczny; płatny parking przy hotelu",
+      "beach": "10 minut spacerem do Malo Jezero (słone jezioro)",
+      "summary": "Mała wioska portowa na zachodnim krańcu, służąca jako główne wejście do Parku Narodowego. Znajduje się tu jedyny duży hotel na wyspie, duży ruch jachtów i liczne restauracje z owocami morza."
+    },
+    {
+      "name": "Polače",
+      "bestFor": "Zabytkowe ruiny i osłonięte miejsce do cumowania",
+      "parking": "Dostępny parking uliczny, zatłoczony w szczycie sezonu",
+      "beach": "Kamienista linia brzegowa; 3 km spacerem/rowerem do jezior",
+      "summary": "Charakteryzuje się widocznymi rzymskimi ruinami tuż przy wodzie. Służy jako drugie wejście do Parku Narodowego i leży w głębokiej, chronionej zatoce z kilkoma połączeniami promowymi."
+    },
+    {
+      "name": "Saplunara",
+      "bestFor": "Piaszczyste plaże i cichy relaks",
+      "parking": "Prywatne miejsca przy apartamentach, małe nieutwardzone parkingi",
+      "beach": "Bezpośredni dostęp do rzadko spotykanych piaszczystych plaż",
+      "summary": "Położona na odizolowanym wschodnim krańcu wyspy, znana z piaszczystych zatok. Nie ma tu atrakcji Parku Narodowego, co czyni ją cichszą i całkowicie skupioną na plażowaniu."
+    },
+    {
+      "name": "Sobra",
+      "bestFor": "Dostęp promowy i praktyczna baza",
+      "parking": "Duży parking w pobliżu portu promowego i centrum wioski",
+      "beach": "Małe kamieniste i skaliste miejsca w wiosce",
+      "summary": "Główny port, do którego przypływa prom samochodowy z lądu stałego. Jest centralnie położona, oferując niższe ceny i strategiczną bazę wypadową do jazdy na oba krańce wyspy."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monachium",
+      "car": "930 km do portu Prapratno, ~10 godzin przez A8, A10, chorwacką A1 i most Pelješac. Winiety/opłaty AT, winieta SI, opłaty HR. Plus 45-minutowy prom samochodowy do Sobry.",
+      "other": "Lot do Dubrownika (DBV) lub Splitu (SPU), następnie autobus/taxi do portu i katamaran pasażerski."
+    },
+    {
+      "from": "Wiedeń",
+      "car": "830 km do portu Prapratno, ~9 godzin przez A2 (AT), chorwacką A1 i most Pelješac. Winieta AT, winieta SI, opłaty HR. Plus 45-minutowy prom samochodowy do Sobry.",
+      "other": "Lot do Dubrownika (DBV), następnie autobus do portu Gruž i katamaran pasażerski."
+    },
+    {
+      "from": "Budapeszt",
+      "car": "790 km do portu Prapratno, ~8,5 godziny przez M7 (HU), chorwacką A1 i most Pelješac. Winieta HU, opłaty HR. Plus 45-minutowy prom samochodowy do Sobry.",
+      "other": "Lot do Splitu (SPU) lub Dubrownika (DBV), następnie katamaran pasażerski na Mljet."
+    },
+    {
+      "from": "Lublana",
+      "car": "610 km do portu Prapratno, ~7 godzin przez A2 (SI), chorwacką A1 i most Pelješac. Winieta SI, opłaty HR. Plus 45-minutowy prom samochodowy do Sobry.",
+      "other": "Autobus do Splitu lub Dubrownika, następnie katamaran pasażerski do Pomeny lub Sobry."
+    },
+    {
+      "from": "Praga",
+      "car": "1150 km do portu Prapratno, ~12,5 godziny przez A9 (AT) i chorwacką A1. Winiety CZ, AT, SI, opłaty HR. Plus 45-minutowy prom samochodowy do Sobry.",
+      "other": "Lot do Dubrownika (DBV), następnie autobus do portu i katamaran pasażerski."
+    },
+    {
+      "from": "Kraków",
+      "car": "1120 km do portu Prapratno, ~12,5 godziny przez SK, HU (M7) i chorwacką A1. Winiety SK, HU, opłaty HR. Plus 45-minutowy prom samochodowy do Sobry.",
+      "other": "Lot do Splitu (SPU) lub Dubrownika (DBV), następnie katamaran pasażerski."
+    }
+  ],
+  "whenToGo": "Sezon turystyczny na Mljecie trwa od maja do października, co pokrywa się z rozszerzonym rozkładem promów i otwartymi restauracjami. Lipiec i sierpień to miesiące najbardziej oblegane i najdroższe, z temperaturą morza sięgającą 27°C i dużą liczbą jachtów cumujących w Pomenie i Polače. Maj, czerwiec i wrzesień oferują przyjemne temperatury powietrza około 20–25°C, co czyni te miesiące idealnymi do jazdy na rowerze i pieszych wędrówek po Parku Narodowym, choć morze może być zbyt chłodne na dłuższe pływanie na początku maja. Między listopadem a kwietniem wyspa jest bardzo cicha; katamarany pasażerskie kursują według ograniczonego rozkładu, a większość obiektów turystycznych, w tym wiele restauracji i miejsc noclegowych, jest zamknięta na zimę.",
+  "faq": [
+    {
+      "question": "Czy warto odwiedzić Mljet?",
+      "answer": "Tak, dla podróżników szukających natury, pieszych wędrówek i czystej wody z dala od dużych kurortów. Park Narodowy wyspy i słone jeziora oferują unikalny krajobraz w porównaniu do innych chorwackich wysp, choć brakuje tu życia nocnego i rozbudowanych sklepów."
+    },
+    {
+      "question": "Ile dni potrzebuję na Mljecie?",
+      "answer": "Dwa do trzech dni wystarczą, aby objechać jeziora Parku Narodowego rowerem, odwiedzić Wyspę Świętej Marii i zwiedzić kilka nadmorskich wiosek. Jednodniowe wycieczki z Dubrownika lub Korčuli są popularne, ale pozostanie na noc pozwala doświadczyć parku bez południowych tłumów."
+    },
+    {
+      "question": "Która jest najlepsza plaża na Mljecie?",
+      "answer": "Velika Saplunara i Mala Saplunara na wschodnim krańcu to najlepsze piaszczyste plaże. W Parku Narodowym brzegi Malo Jezero i Veliko Jezero (słone jeziora) są bardzo popularne do pływania ze względu na ich ciepłe, spokojne wody i cień sosnowy."
+    },
+    {
+      "question": "Czy potrzebuję samochodu na Mljecie?",
+      "answer": "Samochód lub skuter jest bardzo zalecany, jeśli planujesz zwiedzać wyspę, ponieważ odległość między Parkiem Narodowym na zachodzie a Saplunarem na wschodzie wynosi ponad 40 kilometrów. Jeśli zamierzasz pozostać tylko w Pomenie lub Polače i odwiedzić Park Narodowy, samochód jest zbędny."
+    },
+    {
+      "question": "Gdzie zaparkować w Parku Narodowym Mljet?",
+      "answer": "W wiosce Vrbovica (koło Mali Most) znajduje się wyznaczony płatny parking tuż przy wejściu do jeziora, a także parkingi uliczne w Pomenie i Polače. Pojazdy nie są dozwolone na ścieżkach spacerowych bezpośrednio otaczających słone jeziora."
+    },
+    {
+      "question": "Czy Mljet jest dobry dla rodzin?",
+      "answer": "Tak, zwłaszcza dla aktywnych rodzin, które lubią jazdę na rowerze, pływanie i spacery na łonie natury. Słone jeziora są bardzo bezpieczne dla dzieci ze względu na brak fal, a piaszczyste plaże w Saplunarze mają płytkie, łagodne wejścia."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Gdzie zatrzymać się na Mljecie",
+    "gettingThere": "Dojazd na Mljet",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Mljecie",
+    "faq": "Mljet: Często zadawane pytania",
+    "groups": {
+      "gettingAround": "Parking i poruszanie się",
+      "planning": "Planowanie i gdzie się zatrzymać",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróżowania",
+      "activities": "Plaże i atrakcje",
+      "food": "Jedzenie i picie",
+      "comparisons": "Porównania",
+      "practical": "Praktyczne informacje"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "mljet",
+  "language": "pl",
+  "updatedAt": "2026-10-16T14:21:31.690Z"
+}

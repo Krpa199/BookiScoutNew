@@ -1,0 +1,146 @@
+{
+  "title": "Grožnjan útikalauz: Művészet, falvak és Belső-Isztria",
+  "metaDescription": "Tervezze meg utazását Grožnjanba, Horvátországba. Olvasson a legjobb utazási időszakról, szálláslehetőségekről, parkolási információkról, útvonalakról és Belső-Isztria felfedezéséről.",
+  "intro": "Grožnjan egy dombtetőn fekvő falu Közép-Isztriában, melyet középkori kőépítészete és a művészetekre, zenére való erős hangsúly jellemez. Olyan utazókat vonz, akik kulturális eseményeket, vidéki nyugalmat és isztriai borászatok közelségét keresik, nem pedig hagyományos tengerparti nyaralást. A falu kompakt, és számos nyári zenei akadémiának, valamint galériának ad otthont tavasztól őszig.\n\nA legjobb időszak a látogatásra májustól szeptemberig tart, amikor a helyi vállalkozások teljes körűen működnek. A látogatók jellemzően innen fedezik fel a belső régiót kerékpárral vagy autóval, egynapos kirándulásokat téve az olyan tengerparti városokba, mint Umag és Novigrad, amelyek rövid autóútra vannak. A meredek, macskaköves utcák kényelmes sétacipőt igényelnek.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Május–szeptember"
+    },
+    {
+      "label": "Augusztusi tengerhőmérséklet",
+      "value": "Nem releváns (belső terület), a legközelebbi part 25-27°C"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Trieszt (TRS), 60 km"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Nincs (20 km-re van kavicsos/sziklás part)"
+    },
+    {
+      "label": "Árszint",
+      "value": "Mérsékelten magasabb, mint a horvát átlag"
+    },
+    {
+      "label": "Óváros bejárhatósága",
+      "value": "Teljesen sétálóövezet, autómentes"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Grožnjan óváros",
+      "bestFor": "Művészetkedvelőknek, pároknak",
+      "parking": "Fizetős parkoló a városfalakon kívül",
+      "beach": "20 km (Umag)",
+      "summary": "A történelmi sétálóövezet művészeti galériákkal, kávézókkal és kőházakkal van tele. Az itt tartózkodás csendes középkori utcákra ébredést jelent, bár a poggyászt a külső parkolóból be kell vinni."
+    },
+    {
+      "name": "Triban és Krasica",
+      "bestFor": "Vidéki tartózkodáshoz, kerékpárosoknak, családoknak",
+      "parking": "Tipikus ingyenes saját parkoló a villáknál",
+      "beach": "20-25 km",
+      "summary": "Ezek a kis mezőgazdasági falvak Grožnjan körül helyezkednek el, és felújított tanyaházakat és medencés villákat kínálnak. Nyugodt vidéki bázist biztosítanak, könnyű hozzáféréssel a Parenzana kerékpárúthoz."
+    },
+    {
+      "name": "Buje",
+      "bestFor": "Költségtudatos utazóknak, hosszabb tartózkodásra",
+      "parking": "Általában könnyű és ingyenes a történelmi magon kívül",
+      "beach": "15 km (Kanegra)",
+      "summary": "Buje egy nagyobb város, 8 kilométerre Grožnjantól, szupermarketekkel, gyógyszertárakkal és több étkezési lehetőséggel. Gyakorlatias, központi bázisként szolgál Északnyugat-Isztria felfedezéséhez."
+    },
+    {
+      "name": "Završje",
+      "bestFor": "Elszigeteltségre vágyóknak, történelem kedvelőknek, fotósoknak",
+      "parking": "Ingyenes parkolás lehetséges",
+      "beach": "25 km",
+      "summary": "Egy részben elhagyatott középkori falu Grožnjan közelében, drámai dombtetői fekvéséről és történelmi romjairól ismert. A szállás néhány felújított házra korlátozódik, teljes nyugalmat és csendet kínálva."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "500 km, kb. 5,5 óra az A8, A10 (osztrák matrica + Tauern díj), Karawanken alagút, szlovén A1 Koper felé",
+      "other": "Repülőút Triesztbe, majd autóbérlés"
+    },
+    {
+      "from": "Bécs",
+      "car": "490 km, kb. 5 óra az A2, szlovén A1 (osztrák és szlovén matrica szükséges) Grazon és Koperen keresztül",
+      "other": "Vonat Triesztbe, majd busz Bujéba"
+    },
+    {
+      "from": "Budapest",
+      "car": "580 km, kb. 6 óra az M7-esen (matrica), horvát A4/A1 Rijekába (útidíj), isztriai Y-on a Buje kijáratig",
+      "other": "Repülőút Zágrábba, majd busz Bujéba"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "120 km, kb. 1,5 óra az A1-esen Koper felé (matrica), 11-es helyi út a Kaštel határig",
+      "other": "Közvetlen busz Ljubljanából Bujéba (1,5 óra), majd taxi"
+    },
+    {
+      "from": "Prága",
+      "car": "820 km, kb. 9 óra az A3, A9 (osztrák matrica + Pyhrn útdíj), szlovén A1 Koper felé",
+      "other": "Repülőút Triesztbe (Frankfurt/München átszállással), majd autóval"
+    },
+    {
+      "from": "Krakkó",
+      "car": "950 km, kb. 10 óra az A1-esen (CZ matrica), osztrák A2, szlovén A1 Koper felé",
+      "other": "Repülőút Bécsbe vagy Trevisóba, majd autóval"
+    }
+  ],
+  "whenToGo": "Május és szeptember között Grožnjan nyüzsgő, a galériák nyitva tartanak, nyári zenei akadémiák működnek, és a szabadtéri kávézók üzemelnek. Július és augusztus a legforgalmasabb és legdrágább hónapok, bár a tömeg még mindig kezelhető a tengerparti üdülőhelyekhez képest. Tavasz (április és május) és ősz (szeptember és október) enyhe időjárást kínál, ideális a Parenzana kerékpárút bejárásához és a borászatok felfedezéséhez, alacsonyabb szállásárakkal. Novembertől márciusig a falu rendkívül csendes; a legtöbb galéria, étterem és turisztikai létesítmény teljesen bezár, az időjárás pedig gyakran nyirkos és hűvös.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni?",
+      "answer": "Igen, Grožnjan erősen ajánlott azoknak az utazóknak, akiket érdekel a művészet, a középkori építészet és a belső-isztriai táj. Csendes, kulturális alternatívát kínál a zsúfolt tengerparti üdülőhelyekkel szemben."
+    },
+    {
+      "question": "Hány napra van szükségem?",
+      "answer": "Egy-két nap elegendő a falu felfedezéséhez. Azonban kiváló bázisként szolgál egy 4-7 napos utazáshoz, amely során felfedezheti Isztria belsejét, a helyi borászatokat és a Parenzana kerékpárutat."
+    },
+    {
+      "question": "Hol van a legjobb strand?",
+      "answer": "Grožnjannak nincsenek strandjai, mivel 20 kilométerre fekszik a parttól. A legközelebbi tengerparti hozzáférési pontok Umagban és Novigradban találhatók, ahol a látogatók burkolt teraszokat és sziklás öblöket, például a Kanegra strandot találják."
+    },
+    {
+      "question": "Szükségem van autóra?",
+      "answer": "Igen, autó elengedhetetlen Grožnjan megközelítéséhez és a környező területek felfedezéséhez. A faluba közvetlenül vezető tömegközlekedés nagyon korlátozott, bár a közeli Buje városát távolsági buszok szolgálják."
+    },
+    {
+      "question": "Hol tudok parkolni?",
+      "answer": "A látogatóknak a fal falain kívül található kijelölt, fizetős parkolókban kell parkolniuk. A történelmi központ teljesen sétálóövezet, és illetéktelen járművek számára tiltott."
+    },
+    {
+      "question": "Alkalmas családoknak?",
+      "answer": "Alkalmas olyan családoknak, akik csendes villa-nyaralásra vágynak, de a faluban kevés gyermekeknek szóló attrakció található. A kisgyermekek nehezen boldogulhatnak az egyenetlen macskaköveken, és a közvetlen strand hiánya napi autózást igényel."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Röviden",
+    "whereToStay": "Hol szálljunk meg Grožnjanban",
+    "gettingThere": "Hogyan juthatunk el Grožnjanba",
+    "whenToGo": "Mikor érdemes utazni",
+    "guides": "Grožnjan útikalauzok",
+    "faq": "Grožnjan GYIK",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor érdemes utazni",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Ételek és italok",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "groznjan",
+  "language": "hu",
+  "updatedAt": "2026-10-16T12:31:16.224Z"
+}

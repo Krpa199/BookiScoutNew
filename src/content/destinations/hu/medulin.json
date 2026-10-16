@@ -1,0 +1,146 @@
+{
+  "title": "Medulin útikönyv: Strandok, parkolás és szálláshelyek",
+  "metaDescription": "Tervezze meg medulini utazását az útvonalakkal, parkolással, legjobb környékekkel és strandokkal kapcsolatos tényekkel. Tudja meg, mikor érdemes látogatni, és hol szálljon meg az isztriai tengerparton.",
+  "intro": "Medulin egy tengerparti város az Isztriai-félsziget déli csúcsán, elsősorban családoknak és egyszerű tengerparti nyaralást kereső utazóknak alkalmas. Egykor hagyományos halászfalu volt, mára jelentős turisztikai központtá fejlődött, amelyet nyüzsgő tengerparti sétány, kiterjedt kempingek és egy sekély homokos öböl jellemez. A város inkább funkcionális bázisként szolgál, semmint kulturális célpontként, erősen a nyári turizmusra összpontosítva.\n\nKözép-Európából érkező látogatók Medulint használják könnyen megközelíthető belépési pontként az Adriára, kihasználva Pula és a Kamenjak-fok védett természetvédelmi terület közelségét. Az infrastruktúra a nyári csúcsidőszakra épült, ami azt jelenti, hogy a célállomás júniustól szeptember elejéig teljes kapacitással működik, mielőtt télen visszatérne a csendes lakóövezeti tempójához.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Június és szeptember"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "25°C és 27°C között"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Pulai repülőtér (PUY), 13 km"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Sekély homok (Bijeca) és kavicsos"
+    },
+    {
+      "label": "Árszint",
+      "value": "Átlagos Isztria viszonylatában, olcsóbb, mint Rovinj"
+    },
+    {
+      "label": "Városközpont sétálhatósága",
+      "value": "Jól sétálható központ, kizárólag gyalogos tengerpart"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Bijeca és tengerparti sétány",
+      "bestFor": "Kisgyermekes családoknak, akik azonnali strandhozzáférést szeretnének.",
+      "parking": "Fizetős önkormányzati parkolók; nagy forgalom nyáron.",
+      "beach": "Közvetlen hozzáférés a Bijecához (sekély homok).",
+      "summary": "Ez a leginkább kereskedelmi célra használt övezet, tele éttermekkel, ajándékboltokkal és szórakoztató attrakciókkal. Számítson nagy gyalogosforgalomra és zajra a nyári csúcsidőszakban."
+    },
+    {
+      "name": "Pošesi",
+      "bestFor": "Pároknak és családoknak, akik csendesebb pihenésre vágynak.",
+      "parking": "A legtöbb apartman és szálloda saját parkolót biztosít.",
+      "beach": "100-300 méterre az Alba Chiara és Belvedere (kavicsos/sziklás) strandoktól.",
+      "summary": "Egy újabb lakónegyed Medulin nyugati szélén, modern apartmanházakkal és tisztább kavicsos strandokkal. Gyalogosan is megközelíthető a fő sétánytól."
+    },
+    {
+      "name": "Medulin óváros (dombtetőn)",
+      "bestFor": "Utazóknak, akik a költségvetést priorizálják a közvetlen tengerparti hozzáférés helyett.",
+      "parking": "Szűk utcák korlátozott utcai parkolással; érdeklődjön a szálláshelyen.",
+      "beach": "1-1,5 km lefelé séta a Bijecáig.",
+      "summary": "Szent Ágnes temploma köré épülve a történelmi mag csendesebb és kevésbé turizmus-központú, mint a tengerparti sáv. Alacsonyabb szállásárakat kínál, de sétálni vagy autózni kell a tengerhez."
+    },
+    {
+      "name": "Premantura",
+      "bestFor": "Természetkedvelőknek, túrázóknak és szörfösöknek.",
+      "parking": "Ingyenes nyilvános parkolás elérhető, de a Kamenjak-fok belépéshez autók esetén útdíjat kell fizetni.",
+      "beach": "1-3 km-re durva, természetes sziklás strandokhoz Kamenjakban.",
+      "summary": "Egy kis falu 10 km-re délre Medulintól, amely a Kamenjak-fok természetvédelmi terület kapujaként szolgál. Kereskedelmi homokos strandok helyett védett fenyőerdőket és drámai sziklás öblöket kínál."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "590 km, 6,5 óra az A10-esen és a szlovén A1-en keresztül. Osztrák és szlovén autópályamatrica, valamint Tauern/Karawanken alagút és horvát útdíj szükséges.",
+      "other": "Közvetlen szezonális repülőjárat Pulába vagy közvetlen Flixbus."
+    },
+    {
+      "from": "Bécs",
+      "car": "510 km, 5,5 óra az A2-esen, Mariboron és Ljubljanán keresztül. Osztrák és szlovén autópályamatrica, valamint horvát útdíj szükséges.",
+      "other": "Közvetlen szezonális repülőjárat Pulába vagy közvetlen Flixbus."
+    },
+    {
+      "from": "Budapest",
+      "car": "610 km, 6,5 óra az M7-esen, Zágrábon és Rijekán keresztül. Magyar autópályamatrica és horvát útdíj szükséges.",
+      "other": "Közvetlen Flixbus vagy vonat Zágrábon keresztül."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "210 km, 2,5 óra az A1-en Koperig és az Isztriai Y úton. Szlovén autópályamatrica és horvát útdíj szükséges.",
+      "other": "Közvetlen busz Flixbusszal vagy Nomagóval."
+    },
+    {
+      "from": "Prága",
+      "car": "850 km, 9,5 óra Linzen, Salzburgon és Ljubljanán keresztül. Cseh, osztrák, szlovén autópályamatrica, alagút díjak és horvát útdíjak szükségesek.",
+      "other": "Repülőjárat Pulába Münchenen/Frankfurton keresztül, vagy RegioJet vonat/busz kombináció."
+    },
+    {
+      "from": "Krakkó",
+      "car": "1000 km, 11 óra az A4-en, Ostraván, Bécsen és Grazon keresztül. Lengyel útdíjak, cseh, osztrák, szlovén autópályamatrica és horvát útdíjak szükségesek.",
+      "other": "Repülőjárat Pulába Varsón (LOT) keresztül vagy szezonális Ryanair járatok."
+    }
+  ],
+  "whenToGo": "A medulini szezon teljes mértékben a nyári hónapok köré épül. Június kellemes nappali 26°C-os hőmérsékletet és 22°C-os tengerhőmérsékletet hoz, minden étterem és turisztikai létesítmény teljes mértékben nyitva tart, de csúcsforgalom nélkül. Július és augusztus a legforgalmasabb és legdrágább hónapok; a tenger 25°C és 27°C közé melegszik, és a strandok, különösen a Bijeca, rendkívül zsúfolttá válnak. Szeptember gyakran a legjobb időpont a látogatásra, alacsonyabb szállásárakat, kevesebb tömeget és még mindig kellemes hőmérsékletű tengert kínálva. Október végétől áprilisig Medulin gyakorlatilag leáll, a legtöbb szálloda, kemping és tengerparti üzlet teljesen bezár télen.",
+  "faq": [
+    {
+      "question": "Érdemes Medulint meglátogatni?",
+      "answer": "Igen, ha kisgyermekekkel utazik, vagy a Kamenjak-fok közelében keres bázist. Fő vonzereje a sekély homokos strand és a bőséges turisztikai infrastruktúra, nem pedig a történelmi báj."
+    },
+    {
+      "question": "Hány napot érdemes Medulinban tölteni?",
+      "answer": "Három-öt nap elegendő a város felfedezéséhez, a strandokon való időtöltéshez és egy egynapos kiránduláshoz a Kamenjak-fokra. Egy teljes hét standard a lassú tempójú tengerparti nyaralást előnyben részesítő családok számára."
+    },
+    {
+      "question": "Melyik a legjobb strand Medulinban?",
+      "answer": "A Bijeca a leghíresebb homokjáról és sekély bejáratáról, ami ideálissá teszi kisgyermekek számára. Tisztább víz és kevesebb tömeg esetén a Belvedere és Alba Chiara kavicsos strandjai kiválóbb alternatívák."
+    },
+    {
+      "question": "Szükséges autó Medulinban?",
+      "answer": "Nem szükséges autó, ha teljes egészében Medulinban tervez maradni, mivel a strandok, szupermarketek és éttermek gyalogosan is megközelíthetők. Azonban erősen ajánlott autóval felfedezni a közeli Pulát, Rovinjt és a Kamenjak-fok strandjait."
+    },
+    {
+      "question": "Hol tudok parkolni Medulinban?",
+      "answer": "Medulinban több nagy, fizetős önkormányzati parkoló található a vízpart mentén és a Bijeca strand közelében. A nyári szezonban fizetés szükséges, és utcai automatákon, SMS-en vagy a PayDo parkoló alkalmazáson keresztül rendezhető."
+    },
+    {
+      "question": "Jó Medulin családoknak?",
+      "answer": "Igen, Medulin széles körben az Isztria egyik leginkább családbarát célpontjának számít. A Bijeca strand 1 kilométeres homokos szakasza bokáig érő vizet kínál messze az öbölbe nyúlva, és a város számos játszóteret, vidámparkot és családorientált üdülőhelyet kínál."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Röviden",
+    "whereToStay": "Hol szálljunk meg Medulinban",
+    "gettingThere": "Hogyan juthatunk el Medulinba",
+    "whenToGo": "Mikor utazzunk",
+    "guides": "Medulin útmutatók",
+    "faq": "Medulin GYIK",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor utazzunk",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Ételek és italok",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb számára",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "medulin",
+  "language": "hu",
+  "updatedAt": "2026-10-16T11:09:06.449Z"
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Motovun útikalauz: Szarvasgombák, parkolás és szállás",
+  "metaDescription": "Tervezze meg utazását Motovunba, Horvátországba. Találja meg a legjobb szálláshelyeket, vezetési útvonalakat, parkolási információkat és tippeket ennek az isztriai dombtetőn fekvő városnak a meglátogatásához.",
+  "intro": "Motovun egy középkori dombtetőn fekvő város közép-Isztriában, a Mirna folyó völgye fölött. Vonzza az ínyenceket, a borrajongókat és azokat a látogatókat, akik csendes bázist keresnek távol a tengerparti üdülőhelyektől. A város széles körben ismert a környező szarvasgomba-erdőiről, a Teran és Malvasia borokat termelő helyi szőlőültetvényeiről, valamint a sértetlen 13. századi védőfalairól, amelyek panorámás kilátást nyújtanak a régióra.\n\nA város bejárása fizikai mozgékonyságot igényel, mivel a történelmi központ meredek lejtőn helyezkedik el és szigorúan autómentes. A legtöbb látogató késő tavasz és kora ősz között érkezik, október pedig különösen népszerű a fehér szarvasgomba betakarítása miatt. Mivel a szárazföld belsejében található, erősen ajánlott járművel érkezni a városba, felfedezni a környező mezőgazdasági birtokokat, és meglátogatni a tengerpartot, amely körülbelül 40 perces autóútra van.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Szeptember és október (szarvasgomba szezon, kevesebb tömeg)"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "25°C és 27°C között (a tengerparton, 25 km-re)"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Pulai repülőtér (PUY), 70 km"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Nem alkalmazható (belföldi); a legközelebbi kavicsos és sziklás Novigradban található"
+    },
+    {
+      "label": "Árszint",
+      "value": "Kissé magasabb, mint a szárazföldi átlag (prémium a szarvasgombákért)"
+    },
+    {
+      "label": "Sétálhatóság",
+      "value": "Az óváros szigorúan autómentes, meredek, macskaköves utcákkal"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Motovun óvárosa",
+      "bestFor": "Történelemrajongóknak és pároknak",
+      "parking": "Nincs a szálláshelyeken; használja az alábbi önkormányzati parkolókat",
+      "beach": "25 km-re a tengerparti strandoktól",
+      "summary": "A domb tetején lévő fallal körülvett középkori központ. A megközelítés meredek macskaköves úton való gyaloglást vagy önkormányzati transzferbusz igénybevételét igényli az alsó parkolókból."
+    },
+    {
+      "name": "Kanal (Motovun lábánál)",
+      "bestFor": "Utazóknak és mozgáskorlátozott látogatóknak",
+      "parking": "Könnyű, többnyire ingyenes magánparkoló a szálláshelyeken",
+      "beach": "25 km-re a tengerparti strandoktól",
+      "summary": "A domb lábánál, a Mirna folyó közelében található település. Egyszerű parkolást, sík terepet és gyors hozzáférést biztosít a regionális utakhoz, miközben az óvárosra rálátást biztosít."
+    },
+    {
+      "name": "Livade",
+      "bestFor": "Ínyenceknek és szarvasgomba-vásárlóknak",
+      "parking": "Könnyű, széles körben elérhető ingyenes parkolás",
+      "beach": "30 km-re a tengerparti strandoktól",
+      "summary": "Egy kis falu közvetlenül Motovunnal szemben, a völgy túloldalán. Az isztriai fehér szarvasgomba-ipar kereskedelmi központjaként szolgál, és figyelemre méltó helyi éttermekkel rendelkezik."
+    },
+    {
+      "name": "Kaldir",
+      "bestFor": "Agroturizmusra és csendes tartózkodásra",
+      "parking": "Bőséges magánparkoló a farmokon és birtokokon",
+      "beach": "35 km-re a tengerparti strandoktól",
+      "summary": "Egy vidéki falu 5 kilométerre délkeletre Motovuntól. Gyümölcsöskertjeiről, szőlőültetvényeiről és hagyományos tanyasi szálláshelyeiről (agroturizam) ismert."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "520 km, 6 óra az A10-esen keresztül (Salzburg, Villach, Ljubljana, Koper). Osztrák autópálya-matrica, Tauern/Karavanke útdíjak, szlovén autópálya-matrica szükséges.",
+      "other": "Repülőút Pulába (PUY) vagy Velencébe (VCE), majd autóbérlés."
+    },
+    {
+      "from": "Bécs",
+      "car": "500 km, 5,5 óra az A2-esen keresztül (Graz, Maribor, Ljubljana, Koper). Osztrák autópálya-matrica, szlovén autópálya-matrica szükséges.",
+      "other": "Vonat vagy busz Ljubljanába, majd helyi busz Buzetbe (15 km Motovuntól)."
+    },
+    {
+      "from": "Budapest",
+      "car": "570 km, 6 óra az M7-esen keresztül Zágrábba, A6 Rijekába, A8 Lupoglavba. Magyar autópálya-matrica, horvát autópálya és Učka alagút díjai szükségesek.",
+      "other": "Repülőút Zágrábba (ZAG), majd autóbérlés vagy busz Pazinba."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "120 km, 1,5 - 2 óra az A1-esen keresztül Koperbe, vagy Postojna és Buzet felé. Szlovén autópálya-matrica szükséges.",
+      "other": "Közvetlen busz Buzetbe (15 km-re) vagy Pazinba."
+    },
+    {
+      "from": "Prága",
+      "car": "800 km, 9 óra Brnón, Bécsen, Grazon, Ljubljanán, Koperen keresztül. Cseh, osztrák és szlovén autópálya-matrica szükséges.",
+      "other": "Repülőút Velencébe (VCE) vagy Pulába (PUY), majd autóbérlés."
+    },
+    {
+      "from": "Krakkó",
+      "car": "940 km, 10 óra Ostraván, Brnón, Bécsen, Grazon, Ljubljanán keresztül. Lengyel útdíjak, cseh, osztrák és szlovén autópálya-matrica szükséges.",
+      "other": "Repülőút Bécsbe (VIE) vagy Pulába (PUY), majd autóbérlés."
+    }
+  ],
+  "whenToGo": "Július és augusztus a legmelegebb hónapok, gyakran 30°C fölötti nappali hőmérséklettel, és ekkor van a legnagyobb forgalom a tengerparti üdülőhelyekről érkező egynapos kirándulók részéről. A közeli tengerparton a tenger hőmérséklete eléri a 25°C és 27°C közötti csúcsot. Május, június és szeptember enyhébb, 20°C és 25°C körüli hőmérsékletet, alacsonyabb szállásárakat és kevesebb tömeget kínál. Október és november a nagyon várt fehér szarvasgomba szezonja, amely ínyenceket vonz a régióba; a legtöbb étterem nyitva marad, bár a napok lényegesen rövidebbek és hűvösebbek. Decembertől márciusig az időjárás hideg és nyirkos, sok szálloda és étterem bezár a szezonra, és a város nagyon csendes.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni Motovunt?",
+      "answer": "Igen, Motovunt érdemes meglátogatni jól megőrzött középkori építészete, a Mirna-völgyre nyíló panorámás kilátása és jellegzetes helyi gasztronómiai kultúrája miatt. Kiváló belső-isztriai kontrasztot kínál Isztria forgalmasabb tengerparti üdülőhelyeihez képest."
+    },
+    {
+      "question": "Hány napra van szükség Motovunban?",
+      "answer": "Egy teljes nap elegendő a városfalakon való sétához, a történelmi központ felfedezéséhez és egy helyi étteremben való étkezéshez. Azonban sok látogató három-öt napot tölt itt, a várost központi bázisként használva a helyi szőlőültetvények, olajfaligetek és környező dombtetőn fekvő falvak meglátogatásához."
+    },
+    {
+      "question": "Melyik a legjobb strand Motovun közelében?",
+      "answer": "A legközelebbi strandok Novigradban és Porečben találhatók, körülbelül 25-30 kilométerre (30-40 perces autóútra). A Novigradi Karpinjan strand kavicsos és fenyőárnyékos, míg Poreč számos burkolt és sziklás öblöt kínál."
+    },
+    {
+      "question": "Szükséges autó Motovunban?",
+      "answer": "Autóval érkezni erősen ajánlott motovuni tartózkodás esetén. Bár maga a város kicsi és csak gyalogosok számára járható, jármű szükséges a közeli borászatok, regionális túraútvonalak és a szomszédos városok eléréséhez."
+    },
+    {
+      "question": "Hol lehet parkolni Motovunban?",
+      "answer": "A domb alján vagy félúton a temető közelében található kijelölt önkormányzati parkolókban kell parkolni. Ezekről a parkolókból a látogatók gyalogolhatnak fel a meredek macskaköves úton, vagy gyakran közlekedő önkormányzati transzferbuszt vehetnek igénybe az óvárosba."
+    },
+    {
+      "question": "Alkalmas Motovun családok számára?",
+      "answer": "Motovun kihívást jelenthet csecsemővel vagy kisgyermekkel utazó családok számára a meredek lejtők és a macskaköves utcák miatt, amelyek nehezen járhatók babakocsival. Az idősebb gyermekek általában élvezik a középkori védőfalakon való sétát és a környező túraútvonalak felfedezését."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Áttekintés",
+    "whereToStay": "Hol szálljunk meg Motovunban",
+    "gettingThere": "Hogyan juthatunk el Motovunba",
+    "whenToGo": "Mikor érdemes utazni",
+    "guides": "Motovuni útikalauzok",
+    "faq": "Gyakran ismételt kérdések Motovunról",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor utazzunk",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Ételek és italok",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "motovun",
+  "language": "hu",
+  "updatedAt": "2026-10-16T12:24:09.401Z"
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Zadar Przewodnik Turystyczny: Plaże, Parking i Gdzie się Zatrzymać",
+  "metaDescription": "Zaplanuj swoją podróż do Zadaru z praktycznymi szczegółami dotyczącymi tras dojazdu, parkingów, dzielnic i najlepszych kamienistych plaż. Faktyczny przewodnik po mieście.",
+  "intro": "Zadar stanowi praktyczną bramę do Północnej Dalmacji, oferując zwarte rzymskie i średniowieczne centrum wraz z dostępnymi kamienistymi plażami. Jest odpowiedni dla rodzin, par i podróżujących samochodem, szukających bazy mniej zatłoczonej i tańszej niż Split czy Dubrownik, jednocześnie zapewniając bezpośredni dostęp do archipelagu Kornatów i Jezior Plitwickich.\n\nGłówne miasto podzielone jest na historyczny, wyłączony z ruchu pieszego półwysep oraz nadmorskie dzielnice mieszkalne rozciągające się na północ i południe. Szczyt sezonu trwa od końca czerwca do sierpnia, kiedy morze jest najcieplejsze, a linie promowe działają z pełną wydajnością. Ci, którzy priorytetowo traktują zwiedzanie i niższe koszty zakwaterowania, powinni celować w maj, wrzesień lub październik, kiedy pogoda pozostaje łagodna, a lokalne drogi są spokojniejsze.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "Czerwiec do września"
+    },
+    {
+      "label": "Temperatura morza w sierpniu",
+      "value": "25°C - 26°C"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Lotnisko Zadar (ZAD), 12 km od centrum"
+    },
+    {
+      "label": "Główny typ plaży",
+      "value": "Plaże kamieniste i betonowe tarasy"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "Umiarkowany (taniej niż Split lub Dubrownik)"
+    },
+    {
+      "label": "Stare Miasto",
+      "value": "Półwysep tylko dla pieszych (strefa bez samochodów)"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Stare Miasto (Poluotok)",
+      "bestFor": "Zwiedzanie, jedzenie i krótkie pobyty.",
+      "parking": "Publiczny płatny parking poza murami; bardzo ograniczony.",
+      "beach": "15-20 minut spacerem do plaży Kolovare.",
+      "summary": "Historyczne serce Zadaru zajmuje mały półwysep pełen rzymskich ruin, kościołów i restauracji. Jest całkowicie wyłączone z ruchu pieszego, co utrudnia poruszanie się kierowcom, ale jest bardzo praktyczne do spacerów."
+    },
+    {
+      "name": "Borik & Puntamika",
+      "bestFor": "Rodziny i wakacje na plaży w stylu resortowym.",
+      "parking": "Większość hoteli i apartamentów zapewnia prywatny parking.",
+      "beach": "Bezpośredni dostęp do plaży Borik (mieszanka żwiru i piasku).",
+      "summary": "Położona 4 km na północ od centrum, ta okolica mieści główne kurorty i kempingi Zadaru. Oferuje płytkie plaże i cień sosnowy, choć dotarcie do Starego Miasta wymaga autobusu lub samochodu."
+    },
+    {
+      "name": "Diklo",
+      "bestFor": "Spokojniejsze pobyty w apartamentach z własnym wyżywieniem.",
+      "parking": "Powszechne jest bezpłatne parkowanie na ulicy; sprawdź z zakwaterowaniem.",
+      "beach": "Natychmiastowy dostęp do plaż kamienistych i betonowych.",
+      "summary": "Dzielnica mieszkalna rozciągająca się na północ od Boriku, charakteryzująca się apartamentami nad wodą i małymi lokalnymi kawiarniami. Linia brzegowa to głównie betonowe tarasy i skaliste obszary preferowane przez mieszkańców."
+    },
+    {
+      "name": "Kolovare & Arbanasi",
+      "bestFor": "Dostęp pieszy zarówno do plaży, jak i do Starego Miasta.",
+      "parking": "Dostępne miejsca parkingowe na ulicy, bardzo zatłoczone latem.",
+      "beach": "Natychmiastowy dostęp do plaży Kolovare (żwirowej).",
+      "summary": "Położona tuż na południe od Starego Miasta, ta dzielnica koncentruje się wokół głównej publicznej plaży miasta. Oferuje praktyczny kompromis między czasem spędzonym na plaży a wieczornymi spacerami do centrum."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monachium",
+      "car": "730 km, 8-9 godzin przez A8, A10 (Tauern) i chorwacką A1. Opłaty obejmują austriacką winietę, tunele Tauern/Karawanken, słoweńską winietę i chorwackie opłaty autostradowe.",
+      "other": "Bezpośrednie loty z Croatia Airlines lub Lufthansa."
+    },
+    {
+      "from": "Wiedeń",
+      "car": "600 km, 6-7 godzin przez Graz, Maribor i Zagrzeb (A1). Wymaga austriackiej i słoweńskiej winiety oraz chorwackich opłat autostradowych.",
+      "other": "Bezpośrednie loty z Austrian Airlines lub Ryanair."
+    },
+    {
+      "from": "Budapeszt",
+      "car": "630 km, 6-7 godzin przez M7 do granicy w Letenye, następnie chorwacką A4 i A1. Wymaga węgierskiej winiety i chorwackich opłat autostradowych.",
+      "other": "Bezpośrednie tanie loty (Ryanair) lub autobusy dalekobieżne (Flixbus)."
+    },
+    {
+      "from": "Lublana",
+      "car": "330 km, 3.5-4 godziny przez A2 do Novo Mesto, następnie chorwacką A1. Wymaga słoweńskiej winiety i chorwackich opłat autostradowych.",
+      "other": "Bezpośrednie połączenia autobusowe (ok. 5-6 godzin)."
+    },
+    {
+      "from": "Praga",
+      "car": "900 km, 10-11 godzin przez Brno, Wiedeń i Zagrzeb. Wymaga czeskiej, austriackiej i słoweńskiej winiety oraz chorwackich opłat autostradowych.",
+      "other": "Bezpośrednie sezonowe loty (Ryanair) lub pociągi RegioJet do miast nadmorskich."
+    },
+    {
+      "from": "Kraków",
+      "car": "1000 km, 10-11 godzin przez Słowację (D1) i Węgry (M1/M7). Wymaga słowackiej i węgierskiej winiety oraz chorwackich opłat autostradowych.",
+      "other": "Bezpośrednie sezonowe loty (Ryanair) lub autobus dalekobieżny."
+    }
+  ],
+  "whenToGo": "Od końca czerwca do sierpnia trwa szczyt sezonu, charakteryzujący się temperaturami powietrza często przekraczającymi 30°C, temperaturami morza osiągającymi 26°C oraz najwyższymi cenami zakwaterowania. Lipiec i sierpień przynoszą duże tłumy do Starego Miasta i na plaże, podczas gdy wszystkie restauracje, trasy promowe i operatorzy wycieczek działają z pełną wydajnością. Wrzesień oferuje optymalną równowagę: morze pozostaje wystarczająco ciepłe do pływania, ale letnie tłumy rzedną, a ceny hoteli spadają o 20-30%. Od listopada do Wielkanocy Zadar wkracza w niski sezon; wiele nadmorskich kurortów, sezonowych restauracji i połączeń promowych z wyspami ogranicza swoje usługi lub całkowicie się zamyka, choć centrum miasta pozostaje funkcjonalne dla mieszkańców.",
+  "faq": [
+    {
+      "question": "Czy warto odwiedzić Zadar?",
+      "answer": "Tak, Zadar warto odwiedzić ze względu na połączenie rzymskiej historii, średniowiecznych kościołów i unikalnej sztuki publicznej, takiej jak Organy Morskie. Służy jako praktyczna, mniej zatłoczona alternatywa dla Splitu i doskonała baza wypadowa do kilku parków narodowych."
+    },
+    {
+      "question": "Ile dni potrzeba w Zadarze?",
+      "answer": "Dwa pełne dni wystarczą na zwiedzanie Starego Miasta i korzystanie z lokalnych plaż. Jeśli planujesz jednodniowe wycieczki na wyspy Kornati lub Jeziora Plitwickie, zarezerwuj cztery do pięciu dni."
+    },
+    {
+      "question": "Jaka jest najlepsza plaża w Zadarze?",
+      "answer": "Plaża Borik jest wysoko oceniana dla rodzin ze względu na płytką wodę i mieszankę piasku i żwiru. Plaża Kolovare to najwygodniejsza opcja, jeśli zatrzymujesz się w pobliżu centrum miasta, oferując długie żwirowe odcinki i naturalny cień."
+    },
+    {
+      "question": "Czy potrzebuję samochodu w Zadarze?",
+      "answer": "Nie potrzebujesz samochodu, jeśli planujesz pozostać w Starym Mieście lub korzystać ze zorganizowanych wycieczek łodzią. Jednak samochód jest zdecydowanie zalecany, jeśli chcesz zwiedzić szerszy region Zadaru, odwiedzić parki narodowe lub zatrzymać się na przedmieściach, takich jak Diklo."
+    },
+    {
+      "question": "Gdzie najlepiej zaparkować w Zadarze?",
+      "answer": "Stare Miasto jest strefą dla pieszych, więc odwiedzający muszą parkować poza murami miasta. Najbardziej praktyczne opcje to publiczne parkingi wzdłuż wschodniego muru (Obala kralja Tomislava) lub pobliski parking Ravnice, które pobierają opłaty godzinowe lub dzienne."
+    },
+    {
+      "question": "Czy Zadar jest dobry dla rodzin?",
+      "answer": "Tak, Zadar jest bardzo odpowiedni dla rodzin ze względu na płaskie, łatwe do spacerowania centrum i spokojniejszą atmosferę w porównaniu do większych miast Dalmacji. Obszary takie jak Borik oferują dedykowane rodzinne kurorty, płytkie wody i cień drzew sosnowych."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Gdzie zatrzymać się w Zadarze",
+    "gettingThere": "Dojazd do Zadaru",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Zadarze",
+    "faq": "Zadar FAQ",
+    "groups": {
+      "gettingAround": "Parking i poruszanie się",
+      "planning": "Planowanie i gdzie się zatrzymać",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróżowania",
+      "activities": "Plaże i atrakcje",
+      "food": "Jedzenie i picie",
+      "comparisons": "Porównania",
+      "practical": "Informacje praktyczne"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "zadar",
+  "language": "pl",
+  "updatedAt": "2026-10-16T09:19:09.055Z"
+}

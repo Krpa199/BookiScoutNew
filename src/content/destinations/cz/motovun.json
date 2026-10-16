@@ -1,0 +1,146 @@
+{
+  "title": "Motovun Průvodce: Lanýže, parkování a kde se ubytovat",
+  "metaDescription": "Naplánujte si cestu do Motovunu v Chorvatsku. Najděte nejlepší ubytování, trasy, informace o parkování a tipy pro návštěvu tohoto istrijského města na kopci.",
+  "intro": "Motovun je středověké městečko na kopci v centrální Istrii, ležící nad údolím řeky Mirny. Oslovuje milovníky jídla, vína a návštěvníky hledající klidnou základnu mimo pobřežní letoviska. Město je široce známé díky okolním lanýžovým lesům, místním vinicím produkujícím vína Teran a Malvasia a zachovalým obranným hradbám ze 13. století, které nabízejí výhledy na celý region.\n\nProcházení městem vyžaduje fyzickou zdatnost, jelikož historické centrum se nachází na strmém svahu a je přísně bez aut. Většina návštěvníků přijíždí mezi pozdním jarem a začátkem podzimu, přičemž říjen je obzvláště oblíbený pro sklizeň bílých lanýžů. Vzhledem k tomu, že se nachází ve vnitrozemí, je vozidlo velmi doporučeno pro dosažení města, prozkoumávání okolních zemědělských statků a návštěvu pobřeží, které je zhruba 40 minut jízdy autem.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "Září a říjen (lanýžová sezóna, méně davů)"
+    },
+    {
+      "label": "Teplota moře v srpnu",
+      "value": "25°C až 27°C (u pobřeží, 25 km daleko)"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Letiště Pula (PUY), 70 km"
+    },
+    {
+      "label": "Hlavní typ pláže",
+      "value": "N/A (ve vnitrozemí); nejbližší jsou oblázkové a skalnaté v Novigradu"
+    },
+    {
+      "label": "Cenová úroveň",
+      "value": "Mírně vyšší než vnitrozemský průměr (prémie za lanýže)"
+    },
+    {
+      "label": "Pěší dostupnost",
+      "value": "Staré město je přísně bez aut se strmými dlážděnými ulicemi"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Motovun Staré Město",
+      "bestFor": "Pro milovníky historie a páry",
+      "parking": "Žádné u ubytování; použijte městská parkoviště dole",
+      "beach": "25 km k pobřežním plážím",
+      "summary": "Opevněné středověké centrum na vrcholu kopce. Přístup vyžaduje chůzi po strmé dlážděné cestě nebo využití městské kyvadlové dopravy z dolních parkovacích ploch."
+    },
+    {
+      "name": "Kanal (Úpatí Motovunu)",
+      "bestFor": "Pro cestovatele autem a návštěvníky s omezenou pohyblivostí",
+      "parking": "Snadné, většinou bezplatné soukromé parkování u nemovitostí",
+      "beach": "25 km k pobřežním plážím",
+      "summary": "Osada ležící na úpatí kopce poblíž řeky Mirny. Nabízí snadné parkování, rovinatý terén a rychlý přístup k regionálním silnicím, přičemž staré město zůstává na dohled."
+    },
+    {
+      "name": "Livade",
+      "bestFor": "Pro gurmány a kupce lanýžů",
+      "parking": "Snadné, bezplatné parkování široce dostupné",
+      "beach": "30 km k pobřežním plážím",
+      "summary": "Malá vesnice ležící přímo přes údolí od Motovunu. Slouží jako obchodní centrum istrijského průmyslu s bílými lanýži a nabízí významné místní restaurace."
+    },
+    {
+      "name": "Kaldir",
+      "bestFor": "Pro agroturistiku a klidné pobyty",
+      "parking": "Dostatečné soukromé parkování na farmách a statcích",
+      "beach": "35 km k pobřežním plážím",
+      "summary": "Venkovská vesnice 5 kilometrů jihovýchodně od Motovunu. Je známá svými ovocnými sady, vinicemi a tradičními farmářskými pobyty (agroturismem)."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Mnichov",
+      "car": "520 km, 6 hodin přes A10 (Salzburg, Villach, Lublaň, Koper). Je vyžadována rakouská dálniční známka, mýtné za Tauern/Karavanke tunely, slovinská dálniční známka.",
+      "other": "Let do Puly (PUY) nebo Benátek (VCE), poté si pronajměte auto."
+    },
+    {
+      "from": "Vídeň",
+      "car": "500 km, 5,5 hodiny přes A2 (Graz, Maribor, Lublaň, Koper). Je vyžadována rakouská dálniční známka, slovinská dálniční známka.",
+      "other": "Vlakem nebo autobusem do Lublaně, poté místním autobusem do Buzetu (15 km od Motovunu)."
+    },
+    {
+      "from": "Budapešť",
+      "car": "570 km, 6 hodin přes M7 do Záhřebu, A6 do Rijeky, A8 do Lupoglavu. Je vyžadována maďarská dálniční známka, chorvatské dálniční a Učka tunelové mýtné.",
+      "other": "Let do Záhřebu (ZAG), poté si pronajměte auto nebo jeďte autobusem do Pazinu."
+    },
+    {
+      "from": "Lublaň",
+      "car": "120 km, 1,5 - 2 hodiny přes A1 do Koperu nebo přes Postojnou a Buzet. Je vyžadována slovinská dálniční známka.",
+      "other": "Přímý autobus do Buzetu (15 km daleko) nebo Pazinu."
+    },
+    {
+      "from": "Praha",
+      "car": "800 km, 9 hodin přes Brno, Vídeň, Graz, Lublaň, Koper. Jsou vyžadovány české, rakouské a slovinské dálniční známky.",
+      "other": "Let do Benátek (VCE) nebo Puly (PUY), poté si pronajměte auto."
+    },
+    {
+      "from": "Krakov",
+      "car": "940 km, 10 hodin přes Ostravu, Brno, Vídeň, Graz, Lublaň. Jsou vyžadovány polské mýtné, české, rakouské a slovinské dálniční známky.",
+      "other": "Let do Vídně (VIE) nebo Puly (PUY), poté si pronajměte auto."
+    }
+  ],
+  "whenToGo": "Červenec a srpen jsou nejteplejší měsíce s denními teplotami často přesahujícími 30 °C a představují nejrušnější období pro jednodenní výletníky z pobřežních letovisek. Teplota moře na blízkém pobřeží dosahuje vrcholu 25 °C až 27 °C. Květen, červen a září nabízejí mírnější teploty kolem 20 °C až 25 °C, nižší ceny ubytování a méně davů. Říjen a listopad znamenají netrpělivě očekávanou sezónu bílých lanýžů, která do regionu přivádí gurmány; většina restaurací zůstává otevřená, i když dny jsou výrazně kratší a chladnější. Od prosince do března je počasí chladné a vlhké, mnoho hotelů a restaurací je mimo sezónu zavřených a město je velmi klidné.",
+  "faq": [
+    {
+      "question": "Stojí Motovun za návštěvu?",
+      "answer": "Ano, Motovun stojí za návštěvu pro svou dobře zachovanou středověkou architekturu, panoramatické výhledy na údolí Mirny a osobitou místní gastronomickou kulturu. Slouží jako vynikající vnitrozemský kontrast k rušnějším pobřežním letoviskům Istrie."
+    },
+    {
+      "question": "Kolik dní potřebujete v Motovunu?",
+      "answer": "Jeden celý den stačí na procházku po městských hradbách, prozkoumání historického centra a jídlo v místní restauraci. Mnoho návštěvníků však zůstává tři až pět dní a používá město jako centrální základnu pro návštěvu místních vinic, olivových hájů a okolních vesnic na kopcích."
+    },
+    {
+      "question": "Jaká je nejlepší pláž poblíž Motovunu?",
+      "answer": "Nejbližší pláže se nacházejí v Novigradu a Poreči, přibližně 25 až 30 kilometrů daleko (30 až 40 minut jízdy autem). Pláž Karpinjan v Novigradu nabízí oblázky a stín borovic, zatímco Poreč nabízí četné zpevněné a skalnaté zátoky."
+    },
+    {
+      "question": "Potřebuji auto v Motovunu?",
+      "answer": "Mít auto je pro pobyt v Motovunu velmi doporučeno. Zatímco samotné město je malé a pouze pro pěší, vozidlo je nezbytné pro dosažení blízkých vinařství, regionálních turistických stezek a sousedních měst."
+    },
+    {
+      "question": "Kde parkovat v Motovunu?",
+      "answer": "Musíte parkovat na vyhrazených městských parkovištích na úpatí kopce nebo v polovině cesty u hřbitova. Z těchto parkovišť se návštěvníci buď projdou po strmé dlážděné cestě, nebo využijí častou městskou kyvadlovou dopravu do starého města."
+    },
+    {
+      "question": "Je Motovun vhodný pro rodiny?",
+      "answer": "Motovun může být náročný pro rodiny s kojenci nebo batolaty kvůli strmým svahům a dlážděným ulicím, které jsou obtížné pro kočárky. Starší děti si obvykle užívají procházky po středověkých obranných hradbách a prozkoumávání okolních přírodních stezek."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Stručně",
+    "whereToStay": "Kde se ubytovat v Motovunu",
+    "gettingThere": "Jak se dostat do Motovunu",
+    "whenToGo": "Kdy jet",
+    "guides": "Průvodci Motovunem",
+    "faq": "Časté dotazy k Motovunu",
+    "groups": {
+      "gettingAround": "Parkování a pohyb po městě",
+      "planning": "Plánování a kde se ubytovat",
+      "timing": "Kdy jet",
+      "travelers": "Rodiny, páry a styly cestování",
+      "activities": "Pláže a co dělat",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": "Praktické informace"
+    },
+    "car": "Autem",
+    "other": "Další možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "motovun",
+  "language": "cz",
+  "updatedAt": "2026-10-16T12:22:59.997Z"
+}

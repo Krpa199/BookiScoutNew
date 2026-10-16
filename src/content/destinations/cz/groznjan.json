@@ -1,0 +1,146 @@
+{
+  "title": "Grožnjan: Průvodce po umění, vesnicích a vnitrozemí Istrie",
+  "metaDescription": "Naplánujte si cestu do Grožnjanu, Chorvatsko. Přečtěte si o nejlepší době k návštěvě, kde se ubytovat, podrobnosti o parkování, trasy jízdy a prozkoumávání vnitrozemí Istrie.",
+  "intro": "Grožnjan je vesnice na kopci v centrální Istrii, charakteristická svou středověkou kamennou architekturou a silným zaměřením na umění a hudbu. Oslovuje cestovatele hledající kulturní akce, venkovský klid a blízkost istrijských vinařství, spíše než tradiční plážovou dovolenou. Vesnice je kompaktní a od jara do podzimu hostí řadu letních hudebních akademií a galerií.\n\nNejlepší doba k návštěvě je od května do září, kdy jsou místní podniky plně v provozu. Návštěvníci se zde obvykle ubytovávají, aby prozkoumali vnitrozemský region na kole nebo autem, podnikají jednodenní výlety do pobřežních měst jako Umag a Novigrad, která jsou jen kousek jízdy. Strmé, dlážděné ulice vyžadují pohodlnou obuv.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "Květen až září"
+    },
+    {
+      "label": "Teplota moře v srpnu",
+      "value": "N/A (vnitrozemí), nejbližší pobřeží 25-27°C"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Terst (TRS), 60 km"
+    },
+    {
+      "label": "Hlavní typ pláže",
+      "value": "Žádná (20 km k oblázkovému/skalnatému pobřeží)"
+    },
+    {
+      "label": "Cenová úroveň",
+      "value": "Mírně vyšší než chorvatský průměr"
+    },
+    {
+      "label": "Procházitelnost starého města",
+      "value": "Plně pěší zóna, bez aut"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Staré Město Grožnjan",
+      "bestFor": "Milovníci umění, páry",
+      "parking": "Placené parkoviště mimo městské hradby",
+      "beach": "20 km (Umag)",
+      "summary": "Historické pěší centrum je plné uměleckých galerií, kaváren a kamenných domů. Ubytování zde znamená probouzet se do tichých středověkých uliček, zavazadla je však nutné nést z okrajového parkoviště."
+    },
+    {
+      "name": "Triban & Krasica",
+      "bestFor": "Venkovské pobyty, cyklisté, rodiny",
+      "parking": "Typické bezplatné soukromé parkování u vil",
+      "beach": "20-25 km",
+      "summary": "Tyto malé zemědělské osady obklopují Grožnjan a nabízejí zrekonstruované statky a vily s bazény. Poskytují klidnou venkovskou základnu se snadným přístupem k cyklostezce Parenzana."
+    },
+    {
+      "name": "Buje",
+      "bestFor": "Cestovatelé s omezeným rozpočtem, delší pobyty",
+      "parking": "Obecně snadné a bezplatné parkování mimo historické jádro",
+      "beach": "15 km (Kanegra)",
+      "summary": "Větší město 8 kilometrů od Grožnjanu, Buje má supermarkety, lékárny a více možností stravování. Slouží jako praktické, centrální centrum pro objevování severozápadní Istrie."
+    },
+    {
+      "name": "Završje",
+      "bestFor": "Izolace, nadšenci do historie, fotografové",
+      "parking": "K dispozici bezplatné parkování",
+      "beach": "25 km",
+      "summary": "Částečně opuštěná středověká vesnice poblíž Grožnjanu, známá svou dramatickou polohou na kopci a historickými ruinami. Ubytování je omezeno na několik zrekonstruovaných domů, nabízející naprostý klid a mír."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Mnichov",
+      "car": "500 km, cca 5,5 hodiny přes A8, A10 (rakouská dálniční známka + mýtné Tauern), tunel Karawanken, slovinská A1 do Koperu",
+      "other": "Let do Terstu, poté pronájem auta"
+    },
+    {
+      "from": "Vídeň",
+      "car": "490 km, cca 5 hodin přes A2, slovinská A1 (vyžadovány rakouské a slovinské dálniční známky) přes Štýrský Hradec a Koper",
+      "other": "Vlakem do Terstu, poté autobusem do Buje"
+    },
+    {
+      "from": "Budapešť",
+      "car": "580 km, cca 6 hodin přes M7 (dálniční známka), chorvatská A4/A1 do Rijeky (mýtné), Istrijský Y k výjezdu Buje",
+      "other": "Let do Záhřebu, poté autobusem do Buje"
+    },
+    {
+      "from": "Lublaň",
+      "car": "120 km, cca 1,5 hodiny přes A1 do Koperu (dálniční známka), místní silnice 11 k hraničnímu přechodu Kaštel",
+      "other": "Přímý autobus z Lublaně do Buje (1,5 hodiny), poté taxi"
+    },
+    {
+      "from": "Praha",
+      "car": "820 km, cca 9 hodin přes A3, A9 (rakouská dálniční známka + mýtné Pyhrn), slovinská A1 do Koperu",
+      "other": "Let do Terstu (přes Frankfurt/Mnichov), poté autem"
+    },
+    {
+      "from": "Krakov",
+      "car": "950 km, cca 10 hodin přes A1 (CZ dálniční známka), rakouská A2, slovinská A1 do Koperu",
+      "other": "Let do Vídně nebo Trevisa, poté autem"
+    }
+  ],
+  "whenToGo": "Od května do září je Grožnjan živý, galerie jsou otevřené, probíhají letní hudební akademie a fungují venkovní kavárny. Červenec a srpen jsou nejrušnější a nejdražší měsíce, i když davy jsou stále zvládnutelné ve srovnání s pobřežními letovisky. Jaro (duben a květen) a podzim (září a říjen) nabízejí mírné počasí ideální pro cyklistiku po stezce Parenzana a objevování vinařství, s nižšími cenami ubytování. Od listopadu do března je vesnice extrémně tichá; většina galerií, restaurací a turistických zařízení je zcela uzavřena a počasí je často vlhké a chladné.",
+  "faq": [
+    {
+      "question": "Stojí za návštěvu?",
+      "answer": "Ano, Grožnjan je vysoce doporučen pro cestovatele se zájmem o umění, středověkou architekturu a vnitrozemskou istrijskou krajinu. Poskytuje klidnou, kulturní alternativu k rušným pobřežním letoviskům."
+    },
+    {
+      "question": "Kolik dní potřebuji?",
+      "answer": "Jeden nebo dva dny stačí k prozkoumání samotné vesnice. Nicméně, slouží jako vynikající základna pro 4 až 7denní výlet k prozkoumání zbytku vnitrozemí Istrie, místních vinařství a cyklostezky Parenzana."
+    },
+    {
+      "question": "Kde je nejlepší pláž?",
+      "answer": "Grožnjan nemá žádné pláže, protože leží 20 kilometrů ve vnitrozemí. Nejbližší přístupové body k pobřeží jsou v Umagu a Novigradu, kde návštěvníci najdou dlážděné terasy a skalnaté zátoky, jako je pláž Kanegra."
+    },
+    {
+      "question": "Potřebuji auto?",
+      "answer": "Ano, auto je nezbytné pro dosažení Grožnjanu a prozkoumání okolí. Veřejná doprava přímo do vesnice je velmi omezená, i když meziměstské autobusy obsluhují nedaleké město Buje."
+    },
+    {
+      "question": "Kde mohu parkovat?",
+      "answer": "Návštěvníci musí parkovat na určených placených parkovištích, která se nacházejí hned za hradbami vesnice. Historické centrum je plně pěší zónou a je nepřístupné pro neoprávněná vozidla."
+    },
+    {
+      "question": "Je to vhodné pro rodiny?",
+      "answer": "Je to vhodné pro rodiny hledající klidnou dovolenou ve vile, ale ve vesnici je málo atrakcí specifických pro děti. Malé děti mohou mít potíže s nerovnými dlažebními kostkami a nedostatek okamžité pláže vyžaduje každodenní jízdu autem."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Přehled",
+    "whereToStay": "Kde se ubytovat v Grožnjanu",
+    "gettingThere": "Jak se dostat do Grožnjanu",
+    "whenToGo": "Kdy jet",
+    "guides": "Průvodci po Grožnjanu",
+    "faq": "Často kladené dotazy Grožnjan",
+    "groups": {
+      "gettingAround": "Parkování a doprava po okolí",
+      "planning": "Plánování a kde se ubytovat",
+      "timing": "Kdy jet",
+      "travelers": "Rodiny, páry a styly cestování",
+      "activities": "Pláže a co dělat",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": "Praktické informace"
+    },
+    "car": "Autem",
+    "other": "Další možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "groznjan",
+  "language": "cz",
+  "updatedAt": "2026-10-16T12:30:05.619Z"
+}

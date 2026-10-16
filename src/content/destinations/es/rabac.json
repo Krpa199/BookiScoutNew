@@ -1,0 +1,146 @@
+{
+  "title": "Guía de Viaje de Rabac: Playas, Aparcamiento y Dónde Alojarse",
+  "metaDescription": "Planifica tu viaje a Rabac, Croacia. Encuentra información actualizada sobre las mejores playas de guijarros, zonas de aparcamiento, rutas de conducción y las mejores áreas para alojarse.",
+  "intro": "Rabac es una ciudad turística costera en la costa este de la península de Istria, situada justo debajo de la histórica ciudad en la cima de una colina de Labin. Originalmente un pequeño pueblo de pescadores, se ha convertido en un importante destino de vacaciones conocido por sus grandes playas de guijarros blancos y sus aguas cristalinas. La ciudad está construida en una ladera empinada que desciende hacia el mar, conectada por un largo paseo marítimo peatonal bordeado de restaurantes, cafeterías y hoteles.\n\nEl destino es ideal principalmente para familias y parejas que buscan unas vacaciones de playa dedicadas con fácil acceso a las comodidades modernas de un resort. Debido al terreno montañoso, los visitantes a menudo deben subir escaleras para llegar a los alojamientos que están más alejados del agua. La temporada turística principal va de junio a septiembre, siendo julio y agosto los meses con las temperaturas más cálidas del mar y los mayores niveles de afluencia.",
+  "quickFacts": [
+    {
+      "label": "Mejores meses",
+      "value": "De junio a septiembre"
+    },
+    {
+      "label": "Temperatura del mar en agosto",
+      "value": "24°C - 26°C"
+    },
+    {
+      "label": "Aeropuerto más cercano",
+      "value": "Aeropuerto de Pula (PUY), 43 km"
+    },
+    {
+      "label": "Tipo de playa principal",
+      "value": "Guijarros blancos y terrazas de hormigón"
+    },
+    {
+      "label": "Nivel de precios",
+      "value": "Medio para Istria"
+    },
+    {
+      "label": "Facilidad para caminar",
+      "value": "Paseo marítimo sin tráfico; colinas empinadas tierra adentro"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Puerto y Centro de Rabac",
+      "bestFor": "Cenas, excursiones en barco y estar en el centro de la acción",
+      "parking": "Aparcamiento público de pago en Obala Maršala Tita (Zona 1/2)",
+      "beach": "A 5-10 minutos a pie de las playas de la ciudad",
+      "summary": "El área del paseo marítimo central es la parte más concurrida de Rabac, bordeada de restaurantes, cafeterías y tiendas de souvenirs. Es ideal para quienes desean acceso inmediato a restaurantes y excursiones en barco, aunque puede ser ruidoso durante las noches de verano."
+    },
+    {
+      "name": "Girandella (Rabac Oriental)",
+      "bestFor": "Familias, comodidades del resort y amantes de la playa",
+      "parking": "Grandes aparcamientos de pago cerca de las playas; aparcamiento exclusivo del hotel",
+      "beach": "Acceso directo a la playa de Girandella (playa de guijarros con Bandera Azul)",
+      "summary": "Ubicada en el extremo oriental de la ciudad, esta zona está dominada por grandes complejos turísticos y hoteles familiares. Ofrece acceso inmediato a las mejores playas de guijarros y numerosos deportes acuáticos, lo que la convierte en una opción muy conveniente para unas vacaciones de playa clásicas."
+    },
+    {
+      "name": "Bahía de Maslinica (Rabac Occidental)",
+      "bestFor": "Camping, familias jóvenes y aguas poco profundas",
+      "parking": "Aparcamiento en el sitio en campings y hoteles",
+      "beach": "Acceso directo a la playa de Maslinica (gran playa de guijarros, entrada poco profunda)",
+      "summary": "Maslinica ocupa el extremo occidental de Rabac y alberga importantes campings y hoteles familiares. La gran bahía tiene una larga playa de guijarros con una entrada poco profunda, rodeada por un denso bosque de pinos que proporciona sombra natural."
+    },
+    {
+      "name": "Labin (Ciudad Histórica)",
+      "bestFor": "Historia, galerías de arte y evitar las multitudes de la costa",
+      "parking": "Aparcamiento público disponible fuera de las murallas del casco antiguo",
+      "beach": "5 km en coche hasta las playas de Rabac",
+      "summary": "Encaramada en una colina a 5 kilómetros por encima de Rabac, Labin ofrece un casco antiguo medieval conservado con calles empedradas, galerías y cafeterías. Es notablemente más tranquila y económica que la costa, pero requiere un coche o un viaje en autobús para llegar al mar."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Múnich",
+      "car": "510 km, 6-7 horas vía A8, Tauern Autobahn (A10) y Eslovenia. Requiere viñeta AT, peajes de Tauern/Karawanken, viñeta SI, peajes HR.",
+      "other": "Autobús directo (Flixbus) a Pula o Rijeka, o vuelo estacional al Aeropuerto de Pula"
+    },
+    {
+      "from": "Viena",
+      "car": "500 km, 5.5-6 horas vía A2 a Graz, Maribor, Liubliana y Rijeka. Requiere viñeta AT, viñeta SI, peajes HR.",
+      "other": "Tren directo (ÖBB) o autobús a Rijeka, luego autobús local a Rabac"
+    },
+    {
+      "from": "Budapest",
+      "car": "510 km, 5.5-6 horas vía M7 a Zagreb, luego A6 a Rijeka. Requiere e-viñeta HU, peajes HR.",
+      "other": "Autobús directo (Flixbus) a Rijeka, luego autobús local de Arriva a Rabac"
+    },
+    {
+      "from": "Liubliana",
+      "car": "130 km, 2 horas vía A1 a Postojna, Ilirska Bistrica y Rijeka. Requiere viñeta SI.",
+      "other": "Rutas de autobús directas a Rijeka o Labin"
+    },
+    {
+      "from": "Praga",
+      "car": "830 km, 9-10 horas vía Linz, Graz, Maribor y Liubliana. Requiere viñetas CZ, AT, SI, peajes HR.",
+      "other": "Tren o autobús RegioJet a Rijeka, seguido de autobús local"
+    },
+    {
+      "from": "Cracovia",
+      "car": "960 km, 10-11 horas vía Ostrava, Brno, Viena, Graz y Maribor. Requiere peajes PL, viñetas CZ, AT, SI, peajes HR.",
+      "other": "Vuelos estacionales al Aeropuerto de Pula o autobús vía Viena"
+    }
+  ],
+  "whenToGo": "De junio a septiembre son los meses principales para visitar Rabac, ya que el resort cierra significativamente durante la temporada baja. En julio y agosto, las temperaturas del mar alcanzan los 24°C a 26°C, lo que lo hace ideal para nadar, aunque estos meses traen precios máximos y playas concurridas. Junio y septiembre ofrecen una experiencia más tranquila con tarifas de alojamiento más bajas, aunque el agua puede ser más fría, especialmente a principios de junio. La mayoría de los hoteles, chiringuitos y servicios turísticos operan completamente desde finales de mayo hasta principios de octubre, mientras que en los meses de invierno la ciudad está mayormente cerrada, y los lugareños dependen de la cercana Labin para los servicios.",
+  "faq": [
+    {
+      "question": "¿Vale la pena visitar Rabac?",
+      "answer": "Sí, si buscas unas vacaciones de playa dedicadas con aguas cristalinas y grandes playas de guijarros. Carece de un casco antiguo histórico junto al agua, pero la ciudad medieval de Labin está a poca distancia en coche colina arriba."
+    },
+    {
+      "question": "¿Cuántos días necesito en Rabac?",
+      "answer": "De 4 a 7 días es lo típico para unas vacaciones de playa de verano aquí. Esto permite tiempo suficiente para relajarse junto al mar y hacer una excursión en barco a Cres o una excursión de un día a la cercana Pula."
+    },
+    {
+      "question": "¿Cuál es la mejor playa de Rabac?",
+      "answer": "La playa de Girandella y la playa de Maslinica son las opciones más populares, ambas ofrecen el estatus de Bandera Azul, guijarros blancos y todas las comodidades del resort. Calas más pequeñas como Sv. Andrea ofrecen lugares más tranquilos si caminas más a lo largo del paseo marítimo."
+    },
+    {
+      "question": "¿Necesito un coche en Rabac?",
+      "answer": "No necesitas un coche si planeas quedarte en tu resort y a lo largo del paseo marítimo, ya que todo es accesible a pie. Sin embargo, se recomienda encarecidamente un coche si quieres explorar el resto de Istria o visitar fácilmente Labin."
+    },
+    {
+      "question": "¿Dónde puedo aparcar en Rabac?",
+      "answer": "Hay grandes aparcamientos públicos de pago cerca del puerto (Obala Maršala Tita) y cerca de la zona del resort Girandella, que funcionan con un sistema de tarifas por zonas durante el verano. La mayoría de los hoteles y campings ofrecen aparcamiento exclusivo para sus huéspedes."
+    },
+    {
+      "question": "¿Es Rabac bueno para familias?",
+      "answer": "Rabac es excepcionalmente adecuado para familias con niños. La entrada al mar es poco profunda, las playas son de guijarros limpios en lugar de rocas, y el largo paseo marítimo es completamente libre de tráfico."
+    }
+  ],
+  "headings": {
+    "quickFacts": "De un vistazo",
+    "whereToStay": "Dónde alojarse en Rabac",
+    "gettingThere": "Cómo llegar a Rabac",
+    "whenToGo": "Cuándo ir",
+    "guides": "Guías de Rabac",
+    "faq": "Preguntas frecuentes de Rabac",
+    "groups": {
+      "gettingAround": "Aparcamiento y cómo moverse",
+      "planning": "Planificación y dónde alojarse",
+      "timing": "Cuándo ir",
+      "travelers": "Familias, parejas y estilos de viaje",
+      "activities": "Playas y cosas que hacer",
+      "food": "Comida y bebida",
+      "comparisons": "Comparaciones",
+      "practical": "Información práctica"
+    },
+    "car": "En coche",
+    "other": "Otras opciones",
+    "bestFor": "Ideal para",
+    "parking": "Aparcamiento",
+    "beach": "Playa"
+  },
+  "destination": "rabac",
+  "language": "es",
+  "updatedAt": "2026-10-16T12:12:22.677Z"
+}

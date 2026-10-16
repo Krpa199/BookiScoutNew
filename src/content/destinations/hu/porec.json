@@ -1,0 +1,146 @@
+{
+  "title": "Poreč Útikalauz: Strandok, Parkolás és Szálláslehetőségek",
+  "metaDescription": "Tervezze meg utazását Porečbe, Horvátországba. Találja meg a legjobb szálláshelyeket, autós útvonalakat Közép-Európából, strandtípusokat és parkolási lehetőségeket ebben az isztriai városban.",
+  "intro": "Poreč vonzó az utazók számára, akik szervezett tengerparti üdülőhelyeket, gazdag római történelmet és aktív kerékpáros nyaralásokat keresnek. A város egy kis félszigeten terül el, ahol az UNESCO-listás Euphrasius-bazilika és eredeti római utcahálózat található, míg az északi és déli partvidéket nagy, fenyőárnyékos szállodakomplexumok uralják. A terep nagyrészt sík, így kiválóan alkalmas sétálásra és kerékpározásra a tengerparti sétányokon.\n\nA főszezon június végétől augusztus végéig tart, amikor a tenger hőmérséklete eléri a 26°C-ot, és a nagy családi üdülőhelyek teljes kapacitással működnek. Május, szeptember és október eleje enyhébb időjárást és alacsonyabb szállásárakat kínál, ideális városnézésre, borkóstolásra és kerékpározásra, bár a tenger túl hideg lehet a fürdéshez a nyári hónapokon kívül.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Júniustól szeptemberig"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "25°C és 27°C között"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Pula (PUY), 58 km"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Burkolt teraszok, sziklák és kavicsok"
+    },
+    {
+      "label": "Árszint",
+      "value": "Kissé a horvát átlag felett"
+    },
+    {
+      "label": "Óváros bejárhatósága",
+      "value": "Teljesen sétálóövezet (autómentes)"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Óváros (Központ)",
+      "bestFor": "Városnézés, étkezés és rövid történelmi tartózkodás",
+      "parking": "Fizetős városi parkolók a sétálóövezeten kívül (pl. Veliki gradski parking)",
+      "beach": "10-15 perc séta a Városi strandhoz vagy Brulóhoz",
+      "summary": "A történelmi félszigeten találhatók a főbb látványosságok, éttermek és kompkapcsolatok. A szálláshelyek főként apartmanokból és butikszobákból állnak régebbi épületekben, közvetlen járművel való megközelítés nélkül."
+    },
+    {
+      "name": "Brulo",
+      "bestFor": "Pároknak és családoknak, akik közel akarnak lenni az óvároshoz",
+      "parking": "Magán szállodai parkolás elérhető; az utcai parkolás szigorúan korlátozott",
+      "beach": "2-5 perc séta a Brulo strandhoz (kavicsos és burkolt, Kék Zászló minősítésű)",
+      "summary": "Egy fenyőárnyékos üdülőterület közvetlenül a központtól délre. Nagy szállodákat és könnyű sétálási lehetőséget kínál mind a történelmi látnivalókhoz, mind a strandokhoz egy tengerparti sétányon keresztül."
+    },
+    {
+      "name": "Zelena Laguna",
+      "bestFor": "Üdülőzőknek, aktív családoknak és sportrajongóknak",
+      "parking": "Dedikált üdülőhelyi parkoló, általában napi díj ellenében",
+      "beach": "Azonnali hozzáférés sziklás, kavicsos és burkolt üdülőhelyi strandokhoz",
+      "summary": "Egy hatalmas, önellátó turistaparadicsom, amely 5 kilométerre délre található a központtól. Nagy szállodakomplexumokat, kempingeket, teniszpályákat, vízi sportokat és számos étkezési lehetőséget kínál."
+    },
+    {
+      "name": "Špadići & Materada",
+      "bestFor": "Családoknak és pároknak, akik csendesebb lakóövezetet keresnek",
+      "parking": "Magánparkolás, amelyet általában az apartman tulajdonosok biztosítanak",
+      "beach": "5-10 perc séta a Materada strandhoz vagy a Špadići kavicsos öblökhöz",
+      "summary": "Közvetlenül az óvárostól északra található ez a negyed, amely nagyrészt magánapartmanokból és vendégházakból áll. Turistavonattal és festői sétánnyal kapcsolódik a központhoz."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "580 km, ~6,5 óra az A8, A10 és szlovén A1 úton. Osztrák autópálya-matrica, Tauern/Karawanken alagút díjai, szlovén autópálya-matrica és horvát útdíj szükséges.",
+      "other": "Közvetlen busz vagy közös transzfer (~8 óra)."
+    },
+    {
+      "from": "Bécs",
+      "car": "520 km, ~5,5 óra az A2, A9 és szlovén A1 úton. Osztrák és szlovén autópálya-matricák, plusz horvát útdíj szükséges.",
+      "other": "Közvetlen busz (~7,5 óra) vagy szezonális repülőjárat Pulába."
+    },
+    {
+      "from": "Budapest",
+      "car": "600 km, ~6 óra az M7, A4 és A6 úton. Magyar e-matrica és horvát útdíjak szükségesek.",
+      "other": "Közvetlen busz (~10 óra) vagy transzfer Zágrábon keresztül."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "160 km, ~2 óra az A1 úton Koperig és az A9-en. Szlovén autópálya-matrica és horvát útdíj szükséges.",
+      "other": "Közvetlen busz vagy közös transzfer (~2,5 óra)."
+    },
+    {
+      "from": "Prága",
+      "car": "730 km, ~8,5 óra Brünnon, Bécsen és Mariboron keresztül. Cseh, osztrák és szlovén autópálya-matricák, plusz horvát útdíj szükséges.",
+      "other": "Közvetlen éjszakai busz (~13 óra)."
+    },
+    {
+      "from": "Krakkó",
+      "car": "910 km, ~10,5 óra Brünnon, Bécsen és Mariboron keresztül. Lengyel útdíjak, cseh, osztrák és szlovén autópálya-matricák, plusz horvát útdíj szükséges.",
+      "other": "Busz Bécsen vagy Zágrábon keresztül (~15 óra) vagy repülőjárat Velencébe/Triesztbe."
+    }
+  ],
+  "whenToGo": "Májusban indul a szezon enyhe, 20°C körüli hőmérséklettel és alacsonyabb árakkal, bár a tenger még hideg, 17°C-os, és néhány üdülőhelyi létesítmény még zárva lehet. Június melegebb fürdőzési körülményeket (22°C), növekvő tömegeket és az összes vízi park, valamint turistavonat megnyitását hozza. Július és augusztus a főszezon, magas szállásárakkal, zsúfolt strandokkal és a tenger hőmérsékletével, amely 25°C és 27°C között tetőzik. Szeptember vitathatatlanul a legjobb időpont a látogatásra, meleg tengert (23°C), ritkuló tömegeket és kedvezőbb szállodai árakat kínál, miközben minden nyitva marad. Októberre az árak jelentősen csökkennek, és a tömegek eltűnnek, de a tenger hőmérséklete 20°C alá esik, és sok szezonális étterem és strandbár bezár télire.",
+  "faq": [
+    {
+      "question": "Érdemes-e meglátogatni Porečet?",
+      "answer": "Igen, Poreč nagyon is érdemes meglátogatni az UNESCO-listás történelme és kiterjedt üdülőhelyi szolgáltatásai egyensúlya miatt. Kiváló kerékpárutakat, biztonságos strandokat kínál, és nagyszerű kiindulópont Isztria többi részének felfedezéséhez."
+    },
+    {
+      "question": "Hány napot érdemes Porečben tölteni?",
+      "answer": "Három-öt nap ideális egy poreči tartózkodáshoz. Ez elegendő időt ad az óváros felfedezésére, a közeli strandokon való pihenésre, és egy egynapos kirándulásra az isztriai szárazföldi városokba, mint például Motovun."
+    },
+    {
+      "question": "Melyik a legjobb strand Porečben?",
+      "answer": "A Zelena Laguna és a Brulo strandot széles körben a legjobb választásnak tartják. Mindkettő Kék Zászló minősítésű, tiszta vizű, bőséges fenyőárnyékot és kiváló létesítményeket kínál, beleértve a napágy bérlést és zuhanyzókat."
+    },
+    {
+      "question": "Szükséges autó Porečben?",
+      "answer": "Nincs szüksége autóra, ha a városközpontban vagy a főbb tengerparti üdülőhelyeken tervez megszállni. A terület kiválóan bejárható gyalog, és jól kapcsolódik turistavonatokkal, bár egy autó hasznos az Isztriai-félsziget szélesebb felfedezéséhez."
+    },
+    {
+      "question": "Hol parkoljak Porečben?",
+      "answer": "A legjobb hely a parkolásra a nagy városi parkoló (Veliki gradski parking), amely közvetlenül a sétálóövezeten kívül található. Az óvárosi szállodák általában megkövetelik, hogy itt parkoljon, és transzferszolgáltatást kínálnak a szálláshelyére."
+    },
+    {
+      "question": "Jó Poreč családoknak?",
+      "answer": "Igen, Poreč rendkívül családbarát. A várostól délre található nagy üdülőhelyek nyugodt, felügyelt strandokat, gyerekklubokat és könnyű hozzáférést biztosítanak a népszerű Aquacolors vízi parkhoz."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Röviden",
+    "whereToStay": "Hol szálljunk meg Porečben",
+    "gettingThere": "Utazás Porečbe",
+    "whenToGo": "Mikor utazzunk",
+    "guides": "Poreč útmutatók",
+    "faq": "Gyakran Ismételt Kérdések Porečről",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor utazzunk",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Étel és ital",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Ajánlott",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "porec",
+  "language": "hu",
+  "updatedAt": "2026-10-16T11:00:38.457Z"
+}

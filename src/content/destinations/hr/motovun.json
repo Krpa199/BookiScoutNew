@@ -1,0 +1,146 @@
+{
+  "title": "Motovun: Vodič za putovanje – Tartufi, parkiranje i smještaj",
+  "metaDescription": "Planirajte svoje putovanje u Motovun, Hrvatska. Pronađite najbolja mjesta za boravak, rute vožnje, informacije o parkiranju i savjete za posjet ovom istarskom gradiću na brdu.",
+  "intro": "Motovun je srednjovjekovni gradić na brdu u središnjoj Istri, smješten iznad doline rijeke Mirne. Privlači gurmane, ljubitelje vina i posjetitelje koji traže mirnu bazu daleko od obalnih odmarališta. Grad je nadaleko poznat po okolnim šumama tartufa, lokalnim vinogradima koji proizvode vina Teran i Malvazija, te netaknutim obrambenim zidinama iz 13. stoljeća koje nude pogled na cijelu regiju.\n\nGrad zahtijeva fizičku pokretljivost za kretanje, budući da se povijesno središte nalazi na strmoj padini i strogo je bez automobila. Većina posjetitelja dolazi između kasnog proljeća i rane jeseni, s listopadom koji je posebno popularan zbog berbe bijelih tartufa. Budući da se nalazi u unutrašnjosti, vozilo je izuzetno preporučljivo za dolazak do grada, istraživanje susjednih poljoprivrednih imanja i posjet obali, koja je udaljena otprilike 40 minuta vožnje.",
+  "quickFacts": [
+    {
+      "label": "Najbolji mjeseci",
+      "value": "Rujan i listopad (sezona tartufa, manje gužve)"
+    },
+    {
+      "label": "Temperatura mora u kolovozu",
+      "value": "25°C do 27°C (na obali, udaljenoj 25 km)"
+    },
+    {
+      "label": "Najbliža zračna luka",
+      "value": "Zračna luka Pula (PUY), 70 km"
+    },
+    {
+      "label": "Glavna vrsta plaže",
+      "value": "N/A (u unutrašnjosti); najbliže su šljunčane i stjenovite u Novigradu"
+    },
+    {
+      "label": "Razina cijena",
+      "value": "Nešto viša od prosjeka u unutrašnjosti (premium za tartufe)"
+    },
+    {
+      "label": "Prohodnost",
+      "value": "Stari grad je strogo bez automobila, sa strmim, kaldrmiranim ulicama"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Stari grad Motovun",
+      "bestFor": "Ljubitelji povijesti i parovi",
+      "parking": "Nema na smještaju; koristite općinska parkirališta ispod",
+      "beach": "25 km do obalnih plaža",
+      "summary": "Opasano srednjovjekovno središte na vrhu brda. Pristup zahtijeva pješačenje strmom kaldrmiranom stazom ili korištenje općinskog shuttle autobusa s donjih parkirališta."
+    },
+    {
+      "name": "Kanal (podnožje Motovuna)",
+      "bestFor": "Putnici automobilom i posjetitelji s poteškoćama u kretanju",
+      "parking": "Jednostavno, uglavnom besplatno privatno parkiralište kod objekata",
+      "beach": "25 km do obalnih plaža",
+      "summary": "Naselje smješteno u podnožju brda blizu rijeke Mirne. Nudi jednostavno parkiranje, ravan teren i brzi pristup regionalnim cestama, s pogledom na stari grad."
+    },
+    {
+      "name": "Livade",
+      "bestFor": "Gurmani i kupci tartufa",
+      "parking": "Jednostavno, široko dostupno besplatno parkiralište",
+      "beach": "30 km do obalnih plaža",
+      "summary": "Malo selo smješteno izravno preko doline od Motovuna. Služi kao komercijalno središte istarske industrije bijelih tartufa i ima poznate lokalne restorane."
+    },
+    {
+      "name": "Kaldir",
+      "bestFor": "Agroturizam i miran boravak",
+      "parking": "Dovoljno privatnog parkirališta na farmama i imanjima",
+      "beach": "35 km do obalnih plaža",
+      "summary": "Ruralno selo 5 kilometara jugoistočno od Motovuna. Poznato je po voćnjacima, vinogradima i tradicionalnom seoskom turizmu (agroturizam)."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "520 km, 6 sati putem A10 (Salzburg, Villach, Ljubljana, Koper). Potrebna austrijska vinjeta, cestarine Tauern/Karavanke, slovenska vinjeta.",
+      "other": "Let za Pulu (PUY) ili Veneciju (VCE), zatim najam automobila."
+    },
+    {
+      "from": "Beč",
+      "car": "500 km, 5,5 sati putem A2 (Graz, Maribor, Ljubljana, Koper). Potrebna austrijska vinjeta, slovenska vinjeta.",
+      "other": "Vlakom ili autobusom do Ljubljane, zatim lokalnim autobusom do Buzeta (15 km od Motovuna)."
+    },
+    {
+      "from": "Budimpešta",
+      "car": "570 km, 6 sati putem M7 do Zagreba, A6 do Rijeke, A8 do Lupoglava. Potrebna mađarska vinjeta, hrvatske autoceste i cestarine za tunel Učka.",
+      "other": "Let za Zagreb (ZAG), zatim najam automobila ili autobus do Pazina."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "120 km, 1,5 - 2 sata putem A1 do Kopra ili preko Postojne i Buzeta. Potrebna slovenska vinjeta.",
+      "other": "Izravan autobus do Buzeta (udaljenog 15 km) ili Pazina."
+    },
+    {
+      "from": "Prag",
+      "car": "800 km, 9 sati putem Brna, Beča, Graza, Ljubljane, Kopra. Potrebne češka, austrijska i slovenska vinjeta.",
+      "other": "Let za Veneciju (VCE) ili Pulu (PUY), zatim najam automobila."
+    },
+    {
+      "from": "Krakov",
+      "car": "940 km, 10 sati putem Ostrave, Brna, Beča, Graza, Ljubljane. Potrebne poljske cestarine, češka, austrijska i slovenska vinjeta.",
+      "other": "Let za Beč (VIE) ili Pulu (PUY), zatim najam automobila."
+    }
+  ],
+  "whenToGo": "Srpanj i kolovoz su najtopliji mjeseci s dnevnim temperaturama koje često prelaze 30°C, i predstavljaju najprometnije vrijeme za jednodnevne izletnike koji dolaze iz obalnih odmarališta. Temperature mora na obližnjoj obali dostižu vrhunac od 25°C do 27°C. Svibanj, lipanj i rujan nude blaže temperature oko 20°C do 25°C, niže cijene smještaja i manje gužve. Listopad i studeni obilježavaju dugo očekivanu sezonu bijelih tartufa, privlačeći gurmane u regiju; većina restorana ostaje otvorena, iako su dani znatno kraći i hladniji. Od prosinca do ožujka vrijeme je hladno i vlažno, mnogi hoteli i restorani zatvaraju se za sezonu, a grad je vrlo miran.",
+  "faq": [
+    {
+      "question": "Isplati li se posjetiti Motovun?",
+      "answer": "Da, Motovun se isplati posjetiti zbog svoje dobro očuvane srednjovjekovne arhitekture, panoramskih pogleda na dolinu Mirne i posebne lokalne gastronomske kulture. Služi kao izvrstan unutarnji kontrast užurbanijim istarskim obalnim odmaralištima."
+    },
+    {
+      "question": "Koliko dana je potrebno za Motovun?",
+      "answer": "Jedan cijeli dan dovoljan je za šetnju gradskim zidinama, istraživanje povijesnog centra i jelo u lokalnom restoranu. Međutim, mnogi posjetitelji ostaju tri do pet dana, koristeći grad kao centralnu bazu za posjet lokalnim vinogradima, maslinicima i okolnim gradićima na brdu."
+    },
+    {
+      "question": "Koja je najbolja plaža blizu Motovuna?",
+      "answer": "Najbliže plaže nalaze se u Novigradu i Poreču, udaljene otprilike 25 do 30 kilometara (30 do 40 minuta vožnje). Plaža Karpinjan u Novigradu ima šljunak i borovu hladovinu, dok Poreč nudi brojne popločane i stjenovite uvale."
+    },
+    {
+      "question": "Trebam li automobil u Motovunu?",
+      "answer": "Automobil je izuzetno preporučljiv za boravak u Motovunu. Iako je sam grad malen i namijenjen samo pješacima, vozilo je neophodno za dolazak do obližnjih vinarija, regionalnih pješačkih staza i susjednih gradova."
+    },
+    {
+      "question": "Gdje parkirati u Motovunu?",
+      "answer": "Morate parkirati na označenim općinskim parkiralištima u podnožju brda ili na pola puta blizu groblja. S ovih parkirališta posjetitelji mogu pješačiti strmom kaldrmiranom stazom ili koristiti česti općinski shuttle autobus do starog grada."
+    },
+    {
+      "question": "Je li Motovun dobar za obitelji?",
+      "answer": "Motovun može biti izazovan za obitelji s dojenčadi ili malom djecom zbog strmih nagiba i kaldrmiranih ulica koje su teške za kolica. Starija djeca obično uživaju u šetnji srednjovjekovnim obrambenim zidinama i istraživanju okolnih prirodnih staza."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Ukratko",
+    "whereToStay": "Gdje odsjesti u Motovunu",
+    "gettingThere": "Dolazak u Motovun",
+    "whenToGo": "Kada posjetiti",
+    "guides": "Vodiči za Motovun",
+    "faq": "Česta pitanja o Motovunu",
+    "groups": {
+      "gettingAround": "Parking i kretanje",
+      "planning": "Planiranje i smještaj",
+      "timing": "Kada posjetiti",
+      "travelers": "Obitelji, parovi i stilovi putovanja",
+      "activities": "Plaže i aktivnosti",
+      "food": "Hrana i piće",
+      "comparisons": "Usporedbe",
+      "practical": "Praktične informacije"
+    },
+    "car": "Automobilom",
+    "other": "Ostale opcije",
+    "bestFor": "Najbolje za",
+    "parking": "Parking",
+    "beach": "Plaža"
+  },
+  "destination": "motovun",
+  "language": "hr",
+  "updatedAt": "2026-10-16T12:27:56.772Z"
+}

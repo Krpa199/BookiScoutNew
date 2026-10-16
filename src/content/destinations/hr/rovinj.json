@@ -1,0 +1,146 @@
+{
+  "title": "Rovinj Vodič za putovanje: Plaže, parking i gdje odsjesti",
+  "metaDescription": "Planirajte svoje putovanje u Rovinj. Činjenični vodič za rute vožnje, parkiranje, četvrti i plaže za posjetitelje koji dolaze u Istru, Hrvatska.",
+  "intro": "Rovinj privlači parove, obitelji i putnike koji traže dobro očuvanu povijesnu jezgru i pristupačnu obalnu prirodu. Grad ima gustu, isključivo pješačku venecijansku jezgru izgrađenu na malom poluotoku, okruženu borovim šumama i stjenovitom obalom.\n\nPrimarna turistička sezona traje od svibnja do rujna, s vrhuncem u srpnju i kolovozu kada mediteranska klima nudi vruće, suhe dane idealne za kupanje. Izvan ljetnih mjeseci, mnogi restorani i hoteli zatvaraju se, čineći grad tišim, ali manje pogodnim za klasičan odmor na plaži.",
+  "quickFacts": [
+    {
+      "label": "Najbolji mjeseci",
+      "value": "Lipanj do rujan"
+    },
+    {
+      "label": "Temperatura mora u kolovozu",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Najbliža zračna luka",
+      "value": "Zračna luka Pula (PUY), 40 km"
+    },
+    {
+      "label": "Glavni tip plaže",
+      "value": "Šljunčane, stjenovite i betonske ploče"
+    },
+    {
+      "label": "Razina cijena",
+      "value": "Viša od hrvatskog prosjeka"
+    },
+    {
+      "label": "Stari grad",
+      "value": "Isključivo pješačka zona (bez automobila)"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Stari grad (Poluotok)",
+      "bestFor": "Posjetitelji prvi put i parovi koji traže povijest i gastronomiju",
+      "parking": "Nema u centru; koristite plaćena javna parkirališta udaljena 10-15 minuta",
+      "beach": "Plaža Monte (stjenovite ploče) na licu mjesta; veće plaže 20 minuta hoda",
+      "summary": "Povijesna jezgra ima uske popločane ulice, venecijansku arhitekturu i brojne restorane. Ljeti je prometna i zahtijeva hodanje ili vožnju golf vozilom do smještaja."
+    },
+    {
+      "name": "Uvala Lone i Zlatni rt (Jug)",
+      "bestFor": "Luksuzni putnici i posjetitelji plaža koji žele pristup prirodi",
+      "parking": "Privatni hotelski parking uobičajen; javna parkirališta se brzo popunjavaju",
+      "beach": "0-10 minuta hoda do šljunčanih uvala i sjenovitih stjenovitih obala",
+      "summary": "Smješteno južno od starog grada, ovo područje definiraju luksuzni hoteli i park-šuma Zlatni rt. Posjetitelji imaju neposredan pristup borovim sjenovitim pješačkim stazama i najpopularnijim plažama u gradu."
+    },
+    {
+      "name": "Centener i Cuvi",
+      "bestFor": "Obitelji i putnici s ograničenim budžetom",
+      "parking": "Lakše ulično parkiranje i privatni kolni ulazi",
+      "beach": "10-15 minuta hoda do plaže Cuvi (šljunak i pješčane površine)",
+      "summary": "Mirna stambena četvrt smještena jugoistočno od centra. Nudi najam apartmana po nižim cijenama, a i dalje je unutar pješačke udaljenosti od obiteljskih plaža i supermarketa."
+    },
+    {
+      "name": "Borik",
+      "bestFor": "Posjetitelji koji traže mirniji prigradski osjećaj s pogledom na more",
+      "parking": "Obično uključeno uz najam apartmana; dostupno ulično parkiranje",
+      "beach": "5-10 minuta hoda do plaža Valdaliso i Amarin",
+      "summary": "Borik se nalazi sjeverno od centra grada, nudeći opušteno okruženje daleko od ljetnih gužvi. Dolazak do starog grada zahtijeva 30-minutnu šetnju, vožnju biciklom ili kratku vožnju vodenim taksijem."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "600 km, ~6.5 sati preko A8, A10, A11, SI A2 do Kopra, Istarski ipsilon. Zahtijeva AT vinjetu, cestarine Tauern i Karawanken, SI vinjetu, HR cestarinu.",
+      "other": "Sezonski izravni letovi za Pulu ili izravni Flixbus."
+    },
+    {
+      "from": "Beč",
+      "car": "500 km, ~5.5 sati preko A2 do Graza, SI A1 (Maribor-Ljubljana-Kopar), Istarski ipsilon. Zahtijeva AT vinjetu, SI vinjetu, HR cestarinu.",
+      "other": "Izravni Flixbus ili sezonski letovi za Pulu."
+    },
+    {
+      "from": "Budimpešta",
+      "car": "600 km, ~6 sati preko M7, HR A4 do Zagreba, A6 do Rijeke, tunel Učka, Istarski ipsilon. Zahtijeva HU e-vinjetu, HR cestarine.",
+      "other": "Flixbus ili vlak do Rijeke, zatim lokalni autobus."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "180 km, ~2.5 sata preko A1 do Kopra, Istarski ipsilon (A9). Zahtijeva SI vinjetu, HR cestarinu.",
+      "other": "Izravne autobusne linije (Flixbus, Nomago)."
+    },
+    {
+      "from": "Prag",
+      "car": "850 km, ~9 sati preko Linza, Graza, Maribora, Ljubljane, Kopra. Zahtijeva CZ, AT, SI vinjete, HR cestarine.",
+      "other": "Sezonske RegioJet željezničke/autobusne veze ili letovi za Pulu."
+    },
+    {
+      "from": "Krakov",
+      "car": "1.000 km, ~10.5 sati preko CZ (Brno), AT (Beč, Graz), SI (Maribor, Koper). Zahtijeva CZ, AT, SI vinjete, HR cestarine.",
+      "other": "Letovi za Pulu (obično preko Varšave) ili dugolinijski autobus."
+    }
+  ],
+  "whenToGo": "Sezona posjeta traje od kraja svibnja do rujna. Srpanj i kolovoz donose najtoplije vrijeme s temperaturama zraka oko 30°C i temperaturama mora koje dostižu vrhunac od 25-27°C, uz najviše cijene i najveće gužve. Lipanj i rujan nude blaže temperature (niske do srednje 20-ih), nešto hladnije uvjete za kupanje i bolju dostupnost smještaja. Od listopada do travnja Rovinj je miran; more je prehladno za kupanje (pada na 10-14°C), a mnogi turistički orijentirani restorani, hoteli i trajektne linije potpuno se zatvaraju.",
+  "faq": [
+    {
+      "question": "Je li Rovinj vrijedan posjeta?",
+      "answer": "Da, široko se smatra jednim od najatraktivnijih obalnih gradova u Istri. Posjetitelji dolaze zbog dobro očuvanog venecijanskog starog grada, prostrane park-šume i visokokvalitetnih gastronomskih ponuda."
+    },
+    {
+      "question": "Koliko dana mi je potrebno u Rovinju?",
+      "answer": "Tri do pet dana idealno je za većinu posjetitelja. To omogućuje dovoljno vremena za istraživanje starog grada, provođenje dana na plažama u Zlatnom rtu (Punta Corrente) i izlet brodom ili posjet obližnjem istarskom gradiću na vrhu brda."
+    },
+    {
+      "question": "Koja je najbolja plaža u Rovinju?",
+      "answer": "Plaže u park-šumi Zlatni rt (Punta Corrente), posebno uvala Lone, najpopularnije su. Nude kombinaciju šljunka i stijena s prostranom prirodnom hladovinom od okolnih borova."
+    },
+    {
+      "question": "Trebam li auto u Rovinju?",
+      "answer": "Ne trebate automobil ako boravite u starom gradu ili njegovoj neposrednoj okolici, jer je sve dostupno pješice. Međutim, automobil je vrlo preporučljiv ako planirate istražiti ostatak istarskog poluotoka ili posjetiti ruralne vinarije i OPG-ove s maslinovim uljem."
+    },
+    {
+      "question": "Gdje trebam parkirati kada posjećujem Rovinj?",
+      "answer": "Najveća javna parkirališta su Valdibora (Sjever) i Ampelea (Jug), smještena neposredno izvan pješačke zone. Ova parkirališta se plaćaju po satu ili danu i mogu biti puna tijekom srpnja i kolovoza, stoga se preporučuje rani dolazak."
+    },
+    {
+      "question": "Je li Rovinj dobar za obitelji?",
+      "answer": "Da, posebno u odmaralištima i stambenim četvrtima izvan starog grada. Plaže imaju plitke šljunčane dijelove pogodne za djecu, a obližnji kampovi usmjereni na obitelji nude bazene, igrališta i organizirane aktivnosti."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Ukratko",
+    "whereToStay": "Gdje odsjesti u Rovinju",
+    "gettingThere": "Dolazak u Rovinj",
+    "whenToGo": "Kada posjetiti",
+    "guides": "Vodiči za Rovinj",
+    "faq": "Česta pitanja o Rovinju",
+    "groups": {
+      "gettingAround": "Parking i kretanje po gradu",
+      "planning": "Planiranje i gdje odsjesti",
+      "timing": "Kada posjetiti",
+      "travelers": "Obitelji, parovi i stilovi putovanja",
+      "activities": "Plaže i stvari za raditi",
+      "food": "Hrana i piće",
+      "comparisons": "Usporedbe",
+      "practical": "Praktične informacije"
+    },
+    "car": "Automobilom",
+    "other": "Ostale opcije",
+    "bestFor": "Najbolje za",
+    "parking": "Parking",
+    "beach": "Plaža"
+  },
+  "destination": "rovinj",
+  "language": "hr",
+  "updatedAt": "2026-10-16T10:42:33.359Z"
+}

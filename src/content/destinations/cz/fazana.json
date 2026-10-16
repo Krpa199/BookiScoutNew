@@ -1,0 +1,146 @@
+{
+  "title": "Fažana: Cestovní průvodce – Pláže, parkování a kde se ubytovat",
+  "metaDescription": "Naplánujte si cestu do Fažany, Chorvatsko. Objevte nejlepší pláže, čtvrti, trasy ze střední Evropy a tipy na parkování v tomto pobřežním městě.",
+  "intro": "Fažana je pobřežní město na jihozápadním pobřeží Istrijského poloostrova v Chorvatsku, známé především jako výchozí bod pro Národní park Brijuni. Přitahuje rodiny a starší páry hledající uvolněnou atmosféru, dostupné oblázkové pláže a rovné procházkové cesty. Město si udržuje fungující rybářský přístav obklopený nízkopodlažními historickými budovami a širokou dlážděnou promenádou.\n\nVětšina návštěvníků přijíždí autem ze střední Evropy a využívá četné pronájmy apartmánů a velké kempy, které se nacházejí severně a jižně od centra. Hlavní turistická sezóna probíhá od června do září, přičemž červenec a srpen přinášejí nejvyšší teploty a největší davy. Květen a říjen nabízejí chladnější počasí vhodné pro cyklistiku a pěší turistiku, ačkoli mnoho sezónních podniků na zimu zavírá.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "Červen až září"
+    },
+    {
+      "label": "Teplota moře v srpnu",
+      "value": "25 °C až 27 °C"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Letiště Pula (PUY), 13 km"
+    },
+    {
+      "label": "Hlavní typ pláže",
+      "value": "Oblázkové a betonové terasy"
+    },
+    {
+      "label": "Cenová úroveň",
+      "value": "Průměrná pro Istrii, levnější než Rovinj"
+    },
+    {
+      "label": "Staré město",
+      "value": "Pěší zóna, centrum bez aut"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centrum Fažany",
+      "bestFor": "Pro prvonávštěvníky a páry hledající možnosti stravování",
+      "parking": "Placené veřejné parkoviště na okraji; centrum je bez aut",
+      "beach": "Pláž Dječje Igralište je 5 minut chůze",
+      "summary": "Historické jádro obklopuje hlavní přístav a nabízí nejvyšší koncentraci restaurací a kaváren. Pobyt zde znamená blízkost trajektu na Brijuni a večerní promenády, i když v létě bývá rušno s jednodenními výletníky."
+    },
+    {
+      "name": "Valbandon",
+      "bestFor": "Pro rodiny a cestovatele upřednostňující čas na pláži",
+      "parking": "Většina apartmánů a kempů nabízí soukromé parkování",
+      "beach": "Pláž Bi Val (dlouhá oblázková pláž s vybavením)",
+      "summary": "Nachází se dva kilometry jižně od Fažany, tato pobřežní vesnice je silně zaměřena na cestovní ruch s velkými kempy a apartmánovými komplexy. Široká, rovná pobřežní cesta ji přímo spojuje s centrem Fažany."
+    },
+    {
+      "name": "Pineta",
+      "bestFor": "Pro milovníky přírody a kempaře",
+      "parking": "Dostatek parkovacích míst v kempech a soukromých pronájmech",
+      "beach": "Pláž Pineta (oblázková s přirozeným stínem borovic)",
+      "summary": "Nachází se severně od Fažany, tato oblast se vyznačuje hustými borovými lesy, které poskytují přirozený stín až k pobřeží. Skládá se převážně z velkého kempového resortu a roztroušených soukromých domů."
+    },
+    {
+      "name": "Peroj",
+      "bestFor": "Pro cestovatele s omezeným rozpočtem a ty, kteří hledají klid",
+      "parking": "Bezplatné parkování je obvykle zahrnuto v ceně ubytování",
+      "beach": "Pláž Peroj (oblázková, 10-15 minut chůze z vesnice)",
+      "summary": "Malá vnitrozemská vesnice dva kilometry severně od Fažany. Ubytování je zde o něco levnější, i když dosažení pláže vyžaduje krátkou jízdu autem nebo procházku z kopce."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Mnichov",
+      "car": "590 km, 6,5 hodiny přes A8, Tauern Autobahn (AT mýto), tunel Karavanky (AT/SLO mýto), SLO A1 (dálniční známka), CRO A9 (mýto Istrian Y).",
+      "other": "FlixBus přímo do Puly (9-10 hodin), poté místní autobus do Fažany."
+    },
+    {
+      "from": "Vídeň",
+      "car": "590 km, 6 hodin přes A2 (AT dálniční známka), SLO A1 (dálniční známka), CRO A9 (mýto Istrian Y).",
+      "other": "Přímý let Ryanair do Puly (1 hodina) nebo FlixBus (8 hodin)."
+    },
+    {
+      "from": "Budapešť",
+      "car": "600 km, 6 hodin přes M7 (HU dálniční známka), CRO A4/A6 (mýta), A8/A9 (mýta Istrian Y).",
+      "other": "FlixBus do Puly přes Záhřeb (8-10 hodin), poté místní autobus."
+    },
+    {
+      "from": "Lublaň",
+      "car": "200 km, 2,5 hodiny přes A1 (SLO dálniční známka) do Koperu, poté CRO A9 (mýto Istrian Y).",
+      "other": "Přímý autobus do Puly (3 hodiny), poté místní autobus do Fažany."
+    },
+    {
+      "from": "Praha",
+      "car": "870 km, 9,5 hodiny přes CZ D1, AT A2 (CZ a AT dálniční známka), SLO A1 (dálniční známka), CRO A9 (mýto).",
+      "other": "FlixBus do Puly (13-15 hodin) nebo sezónní vlak do Rijeky, poté autobus."
+    },
+    {
+      "from": "Krakov",
+      "car": "1 000 km, 11 hodin přes A4, CZ D1 (CZ dálniční známka), AT A2 (AT dálniční známka), SLO A1 (dálniční známka), CRO A9 (mýto).",
+      "other": "Sezónní lety do Puly nebo autobus přes Vídeň/Záhřeb (15+ hodin)."
+    }
+  ],
+  "whenToGo": "Hlavní turistická sezóna je od června do září. Červenec a srpen jsou nejrušnější a nejdražší měsíce, s teplotami moře vrcholícími mezi 25 °C a 27 °C a denními maximy pravidelně přesahujícími 30 °C. Červen a září nabízejí rovnováhu teplé vody, nižších cen ubytování a zvladatelných davů, což z nich činí ideální měsíce pro koupání a prohlídku památek. Od října do května je Fažana velmi klidná; mnoho restaurací, kempů a cestovních kanceláří na zimu zavírá a teplota moře klesá pod 15 °C, ačkoli Národní park Brijuni zůstává otevřený po celý rok.",
+  "faq": [
+    {
+      "question": "Stojí za to navštívit Fažanu?",
+      "answer": "Ano, zejména pokud hledáte uvolněné, rodinné pobřežní město. Nabízí vynikající přístup do Národního parku Brijuni a dlouhé úseky dostupných oblázkových pláží, což ji činí méně hektickou než sousední Pula nebo Rovinj."
+    },
+    {
+      "question": "Kolik dní?",
+      "answer": "Tři až pět dní je ideální. To poskytuje dostatek času na návštěvu Brijunských ostrovů, strávení několika dní na místních plážích a půldenní výlet k prozkoumání římských ruin v Pule."
+    },
+    {
+      "question": "Nejlepší pláž?",
+      "answer": "Pláž Bi Val ve Valbandonu je obecně považována za nejlepší díky svému rozsáhlému vybavení, mělké vodě a vodním sportům. Pro ty, kteří dávají přednost přirozenému stínu, nabízí pláž Pineta na severu borovice přímo u oblázků."
+    },
+    {
+      "question": "Potřebuji auto?",
+      "answer": "Auto nepotřebujete, pokud bydlíte v centru města nebo ve Valbandonu, protože pláže, restaurace a trajekt na Brijuni jsou v docházkové vzdálenosti. Auto se však velmi doporučuje pro prozkoumání zbytku Istrie nebo pro cestu do velkých supermarketů."
+    },
+    {
+      "question": "Kde parkovat?",
+      "answer": "Placené veřejné parkování je k dispozici ve vyhrazených zónách na okrajích pěšího centra. Mezi hlavní parkoviště patří parkoviště Badel a parkoviště na Vodnjanské cestě, obě účtují hodinové nebo denní sazby během letní sezóny."
+    },
+    {
+      "question": "Je vhodná pro rodiny?",
+      "answer": "Ano, Fažana je pro rodiny velmi vhodná. Pláže jsou převážně z jemných oblázků s pozvolným vstupem do vody, hlavní promenáda je rovná a dlážděná a městu chybí strmá schodiště, která se nacházejí v mnoha jiných historických chorvatských pobřežních městech."
+    }
+  ],
+  "headings": {
+    "quickFacts": "V kostce",
+    "whereToStay": "Kde se ubytovat ve Fažaně",
+    "gettingThere": "Cesta do Fažany",
+    "whenToGo": "Kdy jet",
+    "guides": "Průvodci Fažanou",
+    "faq": "Fažana: Často kladené otázky",
+    "groups": {
+      "gettingAround": "Parkování a doprava",
+      "planning": "Plánování a ubytování",
+      "timing": "Kdy jet",
+      "travelers": "Rodiny, páry a styly cestování",
+      "activities": "Pláže a aktivity",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": "Praktické informace"
+    },
+    "car": "Autem",
+    "other": "Další možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "fazana",
+  "language": "cz",
+  "updatedAt": "2026-10-16T11:59:32.536Z"
+}

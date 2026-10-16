@@ -1,0 +1,146 @@
+{
+  "title": "Hvar Putni Vodič: Područja, Trajekti i Gdje Boraviti",
+  "metaDescription": "Planirajte putovanje na Hvar, Hrvatska. Otkrijte najbolja područja za boravak, vozne rute iz Srednje Europe, informacije o trajektima i praktične savjete za posjetitelje.",
+  "intro": "Hvar je otok uz dalmatinsku obalu Hrvatske, dostupan automobilskim trajektima iz Splita i Drvenika. Privlači širok raspon posjetitelja, od onih koji traže noćnu zabavu u gradu Hvaru do obitelji i parova koji preferiraju mirnija, povijesna naselja Stari Grad i Jelsa. Krajolik se sastoji od borovih šuma, polja lavande i stjenovite obale sa šljunčanim plažama.\n\nOtok ima tipičnu mediteransku klimu. Glavna turistička sezona traje od svibnja do listopada, s srpnjem i kolovozom koji donose najviše temperature, najveće gužve i najviše cijene. Rujan nudi tople temperature mora i mirnije gradove, što ga čini praktičnom alternativom za one s fleksibilnim rasporedom. Zimski mjeseci dovode do potpunog zatvaranja mnogih restorana i hotela.",
+  "quickFacts": [
+    {
+      "label": "Najbolji mjeseci",
+      "value": "Lipanj do rujan"
+    },
+    {
+      "label": "Temperatura mora u kolovozu",
+      "value": "25°C do 27°C"
+    },
+    {
+      "label": "Najbliža zračna luka",
+      "value": "Zračna luka Split (SPU), 24 km do luke Split + 2 sata trajektom"
+    },
+    {
+      "label": "Glavni tip plaže",
+      "value": "Šljunčane i stjenovite ploče"
+    },
+    {
+      "label": "Razina cijena",
+      "value": "Više od hrvatskog prosjeka (posebno grad Hvar)"
+    },
+    {
+      "label": "Centri bez automobila",
+      "value": "Da, centri Hvara i Starog Grada su pješačke zone"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Grad Hvar",
+      "bestFor": "Noćni život, luksuzni hoteli i posjetitelji prvi put bez automobila",
+      "parking": "Javna parkirališta uz naplatu izvan centra bez automobila; skupa ljeti",
+      "beach": "Pokonji Dol (šljunčana, 20 min hoda) ili Pakleni otoci vodenim taksijem",
+      "summary": "Najpoznatije i najskuplje naselje na otoku, poznato po povijesnoj arhitekturi, vrhunskim restoranima i aktivnom noćnom životu. Cijeli povijesni centar je pješačka zona."
+    },
+    {
+      "name": "Stari Grad",
+      "bestFor": "Obitelji, ljubitelji povijesti i putnici koji traže mirniju bazu",
+      "parking": "Dosta parkirališta uz naplatu na periferiji grada; neki smještaji uključuju privatna mjesta",
+      "beach": "Lanterna (šljunčana i betonska, 10 min hoda) ili obližnje osamljene uvale",
+      "summary": "Jedan od najstarijih gradova u Europi, nudi opuštenu atmosferu s uskim popločanim ulicama i tradicionalnim konobama. Nalazi se blizu glavnog terminala za automobilske trajekte, što dolazak čini jednostavnim."
+    },
+    {
+      "name": "Jelsa",
+      "bestFor": "Obitelji s malom djecom i putnici s ograničenim proračunom",
+      "parking": "Veliko javno parkiralište blizu luke; uglavnom se plaća tijekom sezone",
+      "beach": "Plaža Mina (plitko pješčano dno, 10 min hoda od centra)",
+      "summary": "Obalni grad na sjevernoj strani otoka s jakim lokalnim ugođajem i nižim cijenama od grada Hvara. Ima široku promenadu i pristup plitkim uvalama s pješčanim dnom."
+    },
+    {
+      "name": "Zavala",
+      "bestFor": "Parovi, ljubitelji prirode i oni koji traže izolaciju",
+      "parking": "Uglavnom osiguravaju pansioni; minimalno dostupno javno parkiralište",
+      "beach": "Duge dionice finih šljunčanih plaža izravno uz obalu sela",
+      "summary": "Smještena na strmoj južnoj obali i dostupna uskim, jednosmjernim tunelom iz Pitvi. Nudi čiste vode i mir, s ograničenim mogućnostima za jelo i kupovinu."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "890 km, ~11-12 sati preko A8, A10, A1 (HR) do Splita, zatim 2 sata automobilskim trajektom. Cestarine u AT, SLO, HR + karta za trajekt.",
+      "other": "Izravni letovi za Split (SPU), nakon čega slijedi putnički katamaran za Hvar."
+    },
+    {
+      "from": "Beč",
+      "car": "770 km, ~9-10 sati preko A2, A9, A1 (HR) do Splita, zatim 2 sata automobilskim trajektom. Cestarine u AT, SLO, HR + karta za trajekt.",
+      "other": "Izravni letovi za Split ili noćni vlak (Nightjet/EuroNight) do Splita, zatim katamaran."
+    },
+    {
+      "from": "Budimpešta",
+      "car": "750 km, ~9-10 sati preko M7, A4, A1 (HR) do Splita, zatim 2 sata automobilskim trajektom. Cestarine u HU, HR + karta za trajekt.",
+      "other": "Izravni letovi za Split ili sezonski spavaći vlak iz Budimpešte za Split."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "520 km, ~7-8 sati preko A2, A1 (HR) do Splita, zatim 2 sata automobilskim trajektom. Cestarine u SLO, HR + karta za trajekt.",
+      "other": "Izravni autobus (FlixBus) do autobusnog kolodvora u Splitu, nakon čega slijedi trajekt ili katamaran."
+    },
+    {
+      "from": "Prag",
+      "car": "1.070 km, ~13-14 sati preko D1, A9 (AT), A1 (HR) do Splita, zatim automobilskim trajektom. Cestarine u CZ, AT, SLO, HR + karta za trajekt.",
+      "other": "Izravni letovi za Split ili sezonska željeznička linija RegioJet do Splita."
+    },
+    {
+      "from": "Krakov",
+      "car": "1.100 km, ~13-14 sati preko Slovačke (D1), Mađarske (M7), Hrvatske (A1) do Splita, zatim automobilskim trajektom. Cestarine u SK, HU, HR + karta za trajekt.",
+      "other": "Izravni letovi za Split iz Krakova ili obližnjih Katovica, zatim katamaran."
+    }
+  ],
+  "whenToGo": "U svibnju se vrijeme zagrijava i počinje turistička sezona, iako more ostaje hladno (oko 18°C), a neki se objekti još pripremaju za otvaranje. Lipanj donosi pouzdano sunce, temperature mora dosežu 22°C i umjerene gužve. Srpanj i kolovoz su vrhunac sezone, karakterizirani dnevnim temperaturama od 30°C do 35°C, temperaturama mora do 27°C, punim radom svih trajekata, ali i najvišim cijenama i velikim prometom u lukama. Rujan je optimalno vrijeme za posjet, jer more zadržava ljetnu toplinu, temperature zraka padaju na ugodnih 25°C, a cijene se smanjuju. Od listopada do travnja Hvar ulazi u mirnu zimsku fazu; rasporedi trajekata su znatno smanjeni, a većina turistički orijentiranih hotela i restorana potpuno se zatvara.",
+  "faq": [
+    {
+      "question": "Isplati li se posjetiti?",
+      "answer": "Da, Hvar vrijedi posjetiti zbog spoja povijesne arhitekture, čistih mediteranskih voda i pouzdanog ljetnog vremena. Nudi različita iskustva ovisno o tome gdje odsjedate, od vrhunske kuhinje u gradu Hvaru do mirnih utočišta na južnoj obali."
+    },
+    {
+      "question": "Koliko dana?",
+      "answer": "Boravak od 3 do 5 dana dovoljan je za istraživanje glavnih gradova, izlet brodom na Paklene otoke i vožnju unutrašnjošću. Ako želite vidjeti samo grad Hvar, putovanje od 1 do 2 dana je dovoljno."
+    },
+    {
+      "question": "Najbolja plaža?",
+      "answer": "Dubovica se široko smatra najboljom plažom na otoku, s prostranom šljunčanom uvalom i čistom vodom. Zahtijeva 10-minutno pješačenje strmom, kamenitom stazom s glavne ceste, stoga je potrebna čvrsta obuća."
+    },
+    {
+      "question": "Trebam li auto?",
+      "answer": "Automobil je potreban ako planirate istraživati različite gradove, sela u unutrašnjosti i udaljene plaže. Ako namjeravate boraviti isključivo u Hvaru ili Starom Gradu, automobil je smetnja zbog pješačkih zona i visokih naknada za parkiranje."
+    },
+    {
+      "question": "Gdje parkirati?",
+      "answer": "Parkiranje je dostupno na velikim, plaćenim općinskim parkiralištima smještenim na rubu pješačkih zona u Hvaru i Starom Gradu. Tijekom srpnja i kolovoza, ova se parkirališta brzo popune, a dnevne cijene u Hvaru mogu premašiti 20 eura."
+    },
+    {
+      "question": "Je li dobro za obitelji?",
+      "answer": "Da, Hvar je vrlo pogodan za obitelji, posebno u gradovima poput Starog Grada i Jelse gdje je atmosfera mirnija. Ova područja nude ravne promenade, lakši pristup plitkim plažama i obiteljski smještaj u apartmanima."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Ukratko",
+    "whereToStay": "Gdje boraviti na Hvaru",
+    "gettingThere": "Dolazak na Hvar",
+    "whenToGo": "Kada ići",
+    "guides": "Hvarski vodiči",
+    "faq": "Česta pitanja o Hvaru",
+    "groups": {
+      "gettingAround": "Parkiranje i kretanje",
+      "planning": "Planiranje i gdje boraviti",
+      "timing": "Kada ići",
+      "travelers": "Obitelji, parovi i stilovi putovanja",
+      "activities": "Plaže i stvari za raditi",
+      "food": "Hrana i piće",
+      "comparisons": "Usporedbe",
+      "practical": "Praktične informacije"
+    },
+    "car": "Automobilom",
+    "other": "Ostale opcije",
+    "bestFor": "Najbolje za",
+    "parking": "Parkiranje",
+    "beach": "Plaža"
+  },
+  "destination": "hvar",
+  "language": "hr",
+  "updatedAt": "2026-10-16T14:05:10.623Z"
+}

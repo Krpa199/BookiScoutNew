@@ -1,0 +1,146 @@
+{
+  "title": "Rovinj Reiseführer: Strände, Parken & Unterkünfte",
+  "metaDescription": "Planen Sie Ihre Rovinj-Reise. Ein sachlicher Leitfaden zu Anreiserouten, Parkmöglichkeiten, Stadtteilen und Stränden für Besucher, die nach Istrien, Kroatien, kommen.",
+  "intro": "Rovinj zieht Paare, Familien und Roadtripper an, die ein gut erhaltenes historisches Zentrum und zugängliche Küstennatur suchen. Die Stadt verfügt über einen dichten, nur für Fußgänger zugänglichen venezianischen Kern, der auf einer kleinen Halbinsel erbaut wurde, umgeben von Pinienwäldern und felsiger Küste.\n\nDie Hauptbesuchersaison dauert von Mai bis September und erreicht im Juli und August ihren Höhepunkt, wenn das mediterrane Klima heiße, trockene Tage bietet, die ideal zum Schwimmen sind. Außerhalb der Sommermonate schließen viele Restaurants und Hotels, was die Stadt ruhiger, aber weniger geeignet für einen klassischen Strandurlaub macht.",
+  "quickFacts": [
+    {
+      "label": "Beste Monate",
+      "value": "Juni bis September"
+    },
+    {
+      "label": "Meerestemperatur im August",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Nächstgelegener Flughafen",
+      "value": "Flughafen Pula (PUY), 40 km"
+    },
+    {
+      "label": "Hauptstrandtyp",
+      "value": "Kies, Felsen und Betonplateaus"
+    },
+    {
+      "label": "Preisniveau",
+      "value": "Höher als der kroatische Durchschnitt"
+    },
+    {
+      "label": "Altstadt",
+      "value": "Streng fußgängerfreundlich (autofrei)"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Altstadt (Poluotok)",
+      "bestFor": "Erstbesucher und Paare, die Geschichte und Gastronomie suchen",
+      "parking": "Keine im Zentrum; nutzen Sie kostenpflichtige Gewerbeparkplätze 10-15 Minuten entfernt",
+      "beach": "Monte Strand (felsige Vorsprünge) vor Ort; größere Strände 20 Minuten zu Fuß",
+      "summary": "Der historische Kern zeichnet sich durch enge Kopfsteinpflastergassen, venezianische Architektur und zahlreiche Restaurants aus. Er ist im Sommer belebt und erfordert zu Fuß gehen oder die Nutzung eines Golfcarts, um Ihre Unterkunft zu erreichen."
+    },
+    {
+      "name": "Lone Bucht & Punta Corrente (Süden)",
+      "bestFor": "Luxusreisende und Strandurlauber, die Zugang zur Natur wünschen",
+      "parking": "Private Hotelparkplätze üblich; öffentliche Parkplätze füllen sich schnell",
+      "beach": "0-10 Minuten zu Fuß zu Kiesbuchten und schattigen Felsstränden",
+      "summary": "Südlich der Altstadt gelegen, ist dieses Gebiet durch gehobene Hotels und den Waldpark Zlatni Rt geprägt. Besucher haben direkten Zugang zu von Pinien beschatteten Wanderwegen und den beliebtesten Stränden der Stadt."
+    },
+    {
+      "name": "Centener & Cuvi",
+      "bestFor": "Familien und preisbewusste Reisende",
+      "parking": "Einfachere Straßenparkplätze und private Einfahrten",
+      "beach": "10-15 Minuten zu Fuß zum Cuvi Strand (Kies und Sandabschnitte)",
+      "summary": "Ein ruhigeres Wohnviertel südöstlich des Zentrums. Es bietet Apartmentvermietungen zu niedrigeren Preisen und liegt gleichzeitig in Gehdistanz zu familienfreundlichen Stränden und Supermärkten."
+    },
+    {
+      "name": "Borik",
+      "bestFor": "Besucher, die eine ruhigere Vorstadtatmosphäre mit Meerblick suchen",
+      "parking": "Normalerweise in Apartmentmieten enthalten; Straßenparkplätze verfügbar",
+      "beach": "5-10 Minuten zu Fuß zu den Stränden Valdaliso und Amarin",
+      "summary": "Borik liegt nördlich des Stadtzentrums und bietet eine entspannte Umgebung abseits der Sommer crowds. Die Altstadt ist in 30 Minuten zu Fuß, mit dem Fahrrad oder einer kurzen Wassertaxifahrt erreichbar."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "600 km, ~6,5 Stunden über A8, A10, A11, SI A2 nach Koper, Istrische Y. Erfordert AT Vignette, Tauern- & Karawanken-Maut, SI Vignette, HR Maut.",
+      "other": "Saisonale Direktflüge nach Pula oder direkter Flixbus."
+    },
+    {
+      "from": "Wien",
+      "car": "500 km, ~5,5 Stunden über A2 nach Graz, SI A1 (Maribor-Ljubljana-Koper), Istrische Y. Erfordert AT Vignette, SI Vignette, HR Maut.",
+      "other": "Direkter Flixbus oder saisonale Flüge nach Pula."
+    },
+    {
+      "from": "Budapest",
+      "car": "600 km, ~6 Stunden über M7, HR A4 nach Zagreb, A6 nach Rijeka, Učka-Tunnel, Istrische Y. Erfordert HU E-Vignette, HR Maut.",
+      "other": "Flixbus oder Zug nach Rijeka, gefolgt von einem lokalen Bus."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "180 km, ~2,5 Stunden über A1 nach Koper, Istrische Y (A9). Erfordert SI Vignette, HR Maut.",
+      "other": "Direkte Busverbindungen (Flixbus, Nomago)."
+    },
+    {
+      "from": "Prag",
+      "car": "850 km, ~9 Stunden über Linz, Graz, Maribor, Ljubljana, Koper. Erfordert CZ, AT, SI Vignetten, HR Maut.",
+      "other": "Saisonale RegioJet Zug-/Busverbindungen oder Flüge nach Pula."
+    },
+    {
+      "from": "Krakau",
+      "car": "1.000 km, ~10,5 Stunden über CZ (Brünn), AT (Wien, Graz), SI (Maribor, Koper). Erfordert CZ, AT, SI Vignetten, HR Maut.",
+      "other": "Flüge nach Pula (meist über Warschau) oder Fernbus."
+    }
+  ],
+  "whenToGo": "Die Besuchersaison dauert von Ende Mai bis September. Juli und August bringen das heißeste Wetter mit Lufttemperaturen um 30°C und Meerestemperaturen von bis zu 25-27°C, zusammen mit den höchsten Preisen und der größten Menschenmenge. Juni und September bieten mildere Temperaturen (niedrige bis mittlere 20er), etwas kühlere Badebedingungen und eine bessere Verfügbarkeit von Unterkünften. Von Oktober bis April ist Rovinj ruhig; das Meer ist zum Schwimmen zu kalt (sinkt auf 10-14°C), und viele auf Touristen ausgerichtete Restaurants, Hotels und Fährlinien schließen komplett.",
+  "faq": [
+    {
+      "question": "Ist Rovinj einen Besuch wert?",
+      "answer": "Ja, sie gilt weithin als eine der attraktivsten Küstenstädte Istriens. Besucher kommen wegen der gut erhaltenen venezianischen Altstadt, des weitläufigen Pinienwaldparks und der hochwertigen Gastronomie."
+    },
+    {
+      "question": "Wie viele Tage brauche ich in Rovinj?",
+      "answer": "Drei bis fünf Tage sind für die meisten Besucher ideal. Dies ermöglicht genügend Zeit, die Altstadt zu erkunden, einen Tag an den Stränden in Punta Corrente zu verbringen und einen Bootsausflug zu unternehmen oder eine nahegelegene istrische Bergstadt zu besuchen."
+    },
+    {
+      "question": "Was ist der beste Strand in Rovinj?",
+      "answer": "Die Strände im Waldpark Zlatni Rt (Punta Corrente), insbesondere die Lone Bucht, sind die beliebtesten. Sie bieten eine Mischung aus Kies und Felsen mit ausgiebigem natürlichem Schatten von den umliegenden Pinien."
+    },
+    {
+      "question": "Brauche ich ein Auto in Rovinj?",
+      "answer": "Sie benötigen kein Auto, wenn Sie in der Altstadt oder deren unmittelbarer Umgebung wohnen, da alles zu Fuß erreichbar ist. Ein Auto ist jedoch sehr empfehlenswert, wenn Sie den Rest der istrischen Halbinsel erkunden oder ländliche Weingüter und Olivenölfarmen besuchen möchten."
+    },
+    {
+      "question": "Wo sollte ich parken, wenn ich Rovinj besuche?",
+      "answer": "Die größten öffentlichen Parkplätze sind Valdibora (Nord) und Ampelea (Süd), die sich direkt außerhalb der Fußgängerzone befinden. Diese Parkplätze sind stunden- oder tagesweise kostenpflichtig und können im Juli und August voll werden, daher wird empfohlen, frühzeitig anzukommen."
+    },
+    {
+      "question": "Ist Rovinj gut für Familien?",
+      "answer": "Ja, besonders in den Resorts und Wohngebieten außerhalb der Altstadt. Die Strände haben flache Kiesabschnitte, die für Kinder geeignet sind, und nahegelegene familienorientierte Campingplätze bieten Pools, Spielplätze und organisierte Aktivitäten."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Auf einen Blick",
+    "whereToStay": "Wo übernachten in Rovinj",
+    "gettingThere": "Anreise nach Rovinj",
+    "whenToGo": "Beste Reisezeit",
+    "guides": "Rovinj Reiseführer",
+    "faq": "Rovinj FAQ",
+    "groups": {
+      "gettingAround": "Parken & Fortbewegung",
+      "planning": "Planung & Unterkünfte",
+      "timing": "Beste Reisezeit",
+      "travelers": "Familien, Paare & Reisestile",
+      "activities": "Strände & Aktivitäten",
+      "food": "Essen & Trinken",
+      "comparisons": "Vergleiche",
+      "practical": "Praktische Infos"
+    },
+    "car": "Mit dem Auto",
+    "other": "Andere Optionen",
+    "bestFor": "Am besten für",
+    "parking": "Parken",
+    "beach": "Strand"
+  },
+  "destination": "rovinj",
+  "language": "de",
+  "updatedAt": "2026-10-16T10:36:25.366Z"
+}

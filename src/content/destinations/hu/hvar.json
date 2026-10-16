@@ -1,0 +1,146 @@
+{
+  "title": "Hvar útikönyv: Területek, kompok és szálláslehetőségek",
+  "metaDescription": "Tervezzen utazást a horvátországi Hvarra. Fedezze fel a legjobb szálláshelyeket, autós útvonalakat Közép-Európából, kompinformációkat és gyakorlati tippeket a látogatóknak.",
+  "intro": "Hvar egy sziget Horvátország dalmát partján, amely autókomppal közelíthető meg Splitből és Drvenikből. Sokféle látogatót vonz, azoktól kezdve, akik éjszakai szórakozást keresnek Hvar városban, egészen a családokig és párokig, akik inkább Stari Grad és Jelsa csendesebb, történelmi településeit kedvelik. A táj fenyvesekből, levendulamezőkből és sziklás tengerpartból áll, kavicsos strandokkal.\n\nA sziget tipikus mediterrán éghajlattal rendelkezik. A fő utazási szezon májustól októberig tart, július és augusztus hozza a legmagasabb hőmérsékletet, a legnagyobb tömegeket és a csúcsárakat. Szeptemberben kellemesen meleg a tenger, és csendesebbek a városok, így praktikus alternatíva a rugalmas időbeosztással rendelkezők számára. A téli hónapokban sok étterem és szálloda teljesen bezár.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Júniustól szeptemberig"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "25°C és 27°C között"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Spliti repülőtér (SPU), 24 km Split kikötőjéig + 2 órás kompút"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Kavicsos és sziklás platók"
+    },
+    {
+      "label": "Árszínvonal",
+      "value": "Magasabb, mint a horvát átlag (különösen Hvar városban)"
+    },
+    {
+      "label": "Autómentes központok",
+      "value": "Igen, Hvar város és Stari Grad központjai gyalogosok számára vannak fenntartva"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Hvar város",
+      "bestFor": "Éjszakai élet, luxusszállodák és első alkalommal érkező látogatók autó nélkül",
+      "parking": "Fizetős nyilvános parkolók az autómentes központon kívül; drága nyáron",
+      "beach": "Pokonji Dol (kavicsos, 20 perc séta) vagy Pakleni-szigetek vízitaxival",
+      "summary": "A sziget leghíresebb és legdrágább települése, történelmi építészetéről, elegáns éttermeiről és aktív éjszakai életéről ismert. Az egész történelmi központ gyalogos övezet."
+    },
+    {
+      "name": "Stari Grad",
+      "bestFor": "Családok, történelem iránt érdeklődők és csendesebb bázist kereső utazók",
+      "parking": "Bőséges fizetős parkoló a város szélén; egyes szállások magánparkolót is biztosítanak",
+      "beach": "Lanterna (kavicsos és beton, 10 perc séta) vagy közeli eldugott öblök",
+      "summary": "Európa egyik legrégebbi városa, amely nyugodt légkört kínál szűk macskaköves utcákkal és hagyományos konobákkal. Közel van a fő autókomp-terminálhoz, ami egyszerűvé teszi az érkezést."
+    },
+    {
+      "name": "Jelsa",
+      "bestFor": "Kisgyermekes családok és költségtudatos utazók",
+      "parking": "Nagy nyilvános parkoló a kikötő közelében; szezonban többnyire fizetős",
+      "beach": "Mina strand (sekély homokos fenék, 10 perc séta a központtól)",
+      "summary": "Egy tengerparti város a sziget északi oldalán, erős helyi hangulattal és alacsonyabb árakkal, mint Hvar városban. Széles sétányt és hozzáférést kínál sekély, homokos fenekű öblökhöz."
+    },
+    {
+      "name": "Zavala",
+      "bestFor": "Párok, természetkedvelők és elvonulásra vágyók",
+      "parking": "Általában a vendégházak biztosítják; minimális nyilvános parkolási lehetőség áll rendelkezésre",
+      "beach": "Hosszú, finom kavicsos strandok közvetlenül a falu partján",
+      "summary": "A meredek déli parton található, és Pitvéből egy szűk, egysávos alagúton keresztül közelíthető meg. Tiszta vizet és nyugalmat kínál, korlátozott étkezési és vásárlási lehetőségekkel."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "890 km, ~11-12 óra az A8, A10, A1 (HR) útvonalon Splitig, majd 2 órás autókomp. Útdíjak AT-ban, SLO-ban, HR-ben + kompjegy.",
+      "other": "Közvetlen járatok Splitbe (SPU), majd személyszállító katamarán Hvarra."
+    },
+    {
+      "from": "Bécs",
+      "car": "770 km, ~9-10 óra az A2, A9, A1 (HR) útvonalon Splitig, majd 2 órás autókomp. Útdíjak AT-ban, SLO-ban, HR-ben + kompjegy.",
+      "other": "Közvetlen járatok Splitbe vagy éjszakai vonat (Nightjet/EuroNight) Splitbe, majd katamarán."
+    },
+    {
+      "from": "Budapest",
+      "car": "750 km, ~9-10 óra az M7, A4, A1 (HR) útvonalon Splitig, majd 2 órás autókomp. Útdíjak HU-ban, HR-ben + kompjegy.",
+      "other": "Közvetlen járatok Splitbe vagy szezonális hálókocsis vonat Budapestről Splitbe."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "520 km, ~7-8 óra az A2, A1 (HR) útvonalon Splitig, majd 2 órás autókomp. Útdíjak SLO-ban, HR-ben + kompjegy.",
+      "other": "Közvetlen busz (FlixBus) a spliti buszpályaudvarra, majd komp vagy katamarán."
+    },
+    {
+      "from": "Prága",
+      "car": "1 070 km, ~13-14 óra a D1, A9 (AT), A1 (HR) útvonalon Splitig, majd autókomp. Útdíjak CZ-ben, AT-ban, SLO-ban, HR-ben + kompjegy.",
+      "other": "Közvetlen járatok Splitbe vagy szezonális RegioJet vonatszolgáltatás Splitbe."
+    },
+    {
+      "from": "Krakkó",
+      "car": "1 100 km, ~13-14 óra Szlovákián (D1), Magyarországon (M7), Horvátországon (A1) keresztül Splitig, majd autókomp. Útdíjak SK-ban, HU-ban, HR-ben + kompjegy.",
+      "other": "Közvetlen járatok Splitbe Krakkóból vagy a közeli Katowicéből, majd katamarán."
+    }
+  ],
+  "whenToGo": "Májusban az időjárás melegszik, és megkezdődik a turisztikai szezon, bár a tenger még hűvös marad (kb. 18°C), és néhány üzlet még csak készül a nyitásra. Júniusban megbízhatóan süt a nap, a tenger hőmérséklete eléri a 22°C-ot, és mérsékelt a tömeg. Július és augusztus a csúcsidőszak, amelyet napi 30°C és 35°C közötti csúcshőmérséklet, akár 27°C-os tengervíz, az összes komp teljes működése jellemez, de egyben csúcsárak és nagy forgalom is a kikötőkben. Szeptember optimális idő a látogatásra, mivel a tenger megtartja a nyári meleget, a levegő hőmérséklete kellemes 25°C-ra csökken, és az árak is mérséklődnek. Októbertől áprilisig Hvar csendes téli fázisba lép; a kompmenetrendek jelentősen ritkulnak, és a legtöbb turisztikai célú szálloda és étterem teljesen bezár.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni?",
+      "answer": "Igen, Hvar érdemes meglátogatni történelmi építészetének, tiszta mediterrán vizének és megbízható nyári időjárásának köszönhetően. Különböző élményeket kínál attól függően, hogy hol száll meg, a Hvar városi elegáns éttermektől a déli parton található csendes menedékhelyekig."
+    },
+    {
+      "question": "Hány nap?",
+      "answer": "3-5 nap elegendő a fő városok felfedezésére, egy hajókirándulásra a Pakleni-szigetekre, és a belső területek bejárására. Ha csak Hvar várost szeretné látni, 1-2 napos utazás is elegendő."
+    },
+    {
+      "question": "Legjobb strand?",
+      "answer": "A Dubovica széles körben a sziget legjobb strandjának számít, széles kavicsos öböllel és tiszta vízzel. A főútról egy meredek, sziklás ösvényen kell leereszkedni 10 percet, így strapabíró lábbeli szükséges."
+    },
+    {
+      "question": "Szükségem van autóra?",
+      "answer": "Autóra akkor van szüksége, ha különböző városokat, belső falvakat és távoli strandokat szeretne felfedezni. Ha kizárólag Hvar városban vagy Stari Gradban szándékozik maradni, az autó inkább akadály a gyalogos övezetek és a magas parkolási díjak miatt."
+    },
+    {
+      "question": "Hol parkoljak?",
+      "answer": "Parkolásra nagy, fizetős önkormányzati parkolók állnak rendelkezésre Hvar város és Stari Grad gyalogos zónáinak szélén. Júliusban és augusztusban ezek a parkolók gyorsan megtelnek, és a napi díjak Hvar városban meghaladhatják a 20 eurót."
+    },
+    {
+      "question": "Jó családoknak?",
+      "answer": "Igen, Hvar kiválóan alkalmas családok számára, különösen olyan városokban, mint Stari Grad és Jelsa, ahol a légkör nyugodtabb. Ezeken a területeken sík sétányok, könnyebb hozzáférés a sekély strandokhoz és családbarát apartmanok állnak rendelkezésre."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Áttekintés",
+    "whereToStay": "Hol szálljon meg Hvaron",
+    "gettingThere": "Hogyan juthat el Hvarra",
+    "whenToGo": "Mikor érdemes utazni",
+    "guides": "Hvar útikalauzok",
+    "faq": "Hvar GYIK",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor érdemes utazni",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Étel és ital",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati infók"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "hvar",
+  "language": "hu",
+  "updatedAt": "2026-10-16T14:01:12.690Z"
+}

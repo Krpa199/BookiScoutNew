@@ -1,0 +1,146 @@
+{
+  "title": "Novi Vinodolski: Popotniški Vodnik – Plaže, Parkirišče in Kje Bivati",
+  "metaDescription": "Načrtujte potovanje v Novi Vinodolski, Hrvaška. Odkrijte najboljše plaže, soseske, vozne poti iz Srednje Evrope, podrobnosti o parkiranju in potovalne nasvete.",
+  "intro": "Novi Vinodolski je obalno mesto v Kvarnerskem zalivu, ki združuje srednjeveško staro mestno jedro z živahno riviero. Privlačno je za družine, pare in popotnike z avtomobilom, ki iščejo klasične hrvaške poletne počitnice po nekoliko nižji ceni kot v sosednji Crikvenici ali Opatiji. Mesto je znano po svojem zgodovinskem pomenu kot dom Vinodolskega zakonika iz 13. stoletja in po mešanici prodnatih plaž in betonskih kopalnih ploščadi.\n\nNajbolj priljubljen čas za obisk je od junija do septembra, ko je Jadransko morje dovolj toplo za kopanje in so sezonske restavracije ter bari na plaži v polnem delovanju. Julij in avgust prinašata najvišje temperature in največje množice. Pomlad in jesen sta primerna za pohodništvo in kolesarjenje v bližnji Vinodolski dolini, čeprav je morje običajno prehladno za večino kopalcev.",
+  "quickFacts": [
+    {
+      "label": "Najboljši meseci",
+      "value": "Junij do september"
+    },
+    {
+      "label": "Temperatura morja v avgustu",
+      "value": "24°C - 25°C"
+    },
+    {
+      "label": "Najbližje letališče",
+      "value": "Rijeka (RJK), 30 km"
+    },
+    {
+      "label": "Glavni tip plaže",
+      "value": "Prod in betonske ploščadi"
+    },
+    {
+      "label": "Cenovni nivo",
+      "value": "Nekoliko pod hrvaškim obalnim povprečjem"
+    },
+    {
+      "label": "Staro mestno jedro",
+      "value": "Sprehajalno, večinoma brez avtomobilov s strmimi ulicami"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Mestno središče in staro mestno jedro",
+      "bestFor": "Zgodovina, prehranjevanje in večerni sprehodi",
+      "parking": "Plačljiva javna parkirišča na robu; jedro brez avtomobilov",
+      "beach": "10-15 minut hoje navzdol do morja",
+      "summary": "Zgodovinsko središče leži na hribu, z ozkimi kamnitimi ulicami, gradom Frankopanov in glavno cerkvijo. Ponuja neposreden dostop do lokalnih restavracij in trgovin, vendar je do plaž potrebno pešačiti navzdol."
+    },
+    {
+      "name": "Lišanj in Obalna promenada",
+      "bestFor": "Družine in ljubitelji plaže",
+      "parking": "Hotelske garaže in plačljivo ulično parkirišče",
+      "beach": "Neposreden dostop do plaže Lišanj (prod/beton)",
+      "summary": "Nahaja se južno od starega mestnega jedra, to območje je osredotočeno okoli glavnih hotelskih kompleksov in obalne promenade. Zagotavlja neposreden dostop do vodnih športov, ležalnikov in otroških igrišč."
+    },
+    {
+      "name": "Povile",
+      "bestFor": "Pari in tisti, ki iščejo miren oddih",
+      "parking": "Ponavadi brezplačno zasebno parkirišče pri namestitvah",
+      "beach": "Neposreden dostop do skalnatih in prodnatih zalivov",
+      "summary": "Povile je majhna obalna vas, ki se nahaja približno 2 kilometra južno od Novega Vinodolskega. Ponuja veliko mirnejše vzdušje, enostaven dostop do morja in manj gneče v vrhuncu poletnih mesecev."
+    },
+    {
+      "name": "Bribir in Vinodolska dolina",
+      "bestFor": "Pohodniki, kolesarji in podeželski oddih",
+      "parking": "Veliko brezplačnih parkirnih mest",
+      "beach": "10-15 minut vožnje do obale",
+      "summary": "Vinodolska dolina, ki se nahaja v notranjosti, ponuja gorsko kuliso s podeželskimi hišami in hladnejšimi večernimi temperaturami. Idealna je za aktivne popotnike, ki jim vožnja do plaže ni problem."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "560 km, 6.5 ur preko A8, A10 in A2. Zahteva avstrijsko in slovensko vinjeto ter cestnino za predor Karavanke.",
+      "other": "Sezonski leti do Reke ali medkrajevni avtobus"
+    },
+    {
+      "from": "Dunaj",
+      "car": "520 km, 5.5 ur preko A2 do Gradca, Maribora in Ljubljane. Zahteva avstrijsko in slovensko vinjeto.",
+      "other": "Avtobus do Reke, nato lokalna avtobusna povezava"
+    },
+    {
+      "from": "Budimpešta",
+      "car": "520 km, 5 ur preko M7 do Zagreba, nato A1/A6 do Reke. Zahteva madžarsko e-vinjeto in hrvaške cestnine.",
+      "other": "Avtobus ali vlak do Zagreba, s povezavo do Novega Vinodolskega"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "150 km, 2.5 ure preko A1 do Postojne, nato mejni prehod Rupa. Zahteva slovensko vinjeto in manjšo hrvaško cestnino.",
+      "other": "Avtobus do Reke, nato neposreden lokalni avtobus"
+    },
+    {
+      "from": "Praga",
+      "car": "850 km, 9 ur preko Dunaja/Gradca ali Linza/Salzburga. Zahteva CZ, AT in SLO vinjete.",
+      "other": "Nočni vlak ali avtobus do Reke"
+    },
+    {
+      "from": "Krakov",
+      "car": "930 km, 10 ur preko Slovaške, Madžarske (M1/M7) in Zagreba. Zahteva SK in HU vinjete ter hrvaške cestnine.",
+      "other": "Let iz Krakova do Zadra ali Dunaja, nato avtobus"
+    }
+  ],
+  "whenToGo": "Poletna sezona od junija do septembra je najboljši čas za počitnice na plaži, pri čemer julij in avgust prinašata največje množice, najvišje cene in temperature morja, ki dosegajo 24-25°C. Junij in september ponujata mirnejše vzdušje, nekoliko nižje cene namestitev in prijetne temperature morja okoli 22-23°C. Vse obalne storitve, restavracije in izleti so v teh mesecih v celoti operativni. Od oktobra do maja je mesto zelo mirno, mnoge turistično usmerjene dejavnosti se zaprejo, temperatura morja pa pade na 11-15°C, zaradi česar je primerno le za pohodništvo ali prehod.",
+  "faq": [
+    {
+      "question": "Ali je Novi Vinodolski vreden obiska?",
+      "answer": "Da, vreden je obiska za klasično izkušnjo Kvarnerskega zaliva. Združuje zgodovinsko staro mestno jedro z dobro opremljenimi prodnatimi in betonskimi plažami po nekoliko nižji ceni kot bližnja Opatija."
+    },
+    {
+      "question": "Koliko dni naj ostanem v Novem Vinodolskem?",
+      "answer": "Tri do sedem dni je idealno. Tridnevno bivanje omogoča raziskovanje mesta in sprostitev na plaži, medtem ko teden dni nudi čas za enodnevne izlete na otok Krk ali Plitvička jezera."
+    },
+    {
+      "question": "Katera je najboljša plaža v Novem Vinodolskem?",
+      "answer": "Plaža Lišanj je najbolj priljubljena možnost. Ponuja mešanico proda, peska in betonskih ploščadi, skupaj z borovo senco, igrišči in vodnimi športi."
+    },
+    {
+      "question": "Ali potrebujem avto v Novem Vinodolskem?",
+      "answer": "Avto ni strogo potreben, če bivate blizu centra ali plaže Lišanj, saj so glavna območja dosegljiva peš. Vendar je vozilo zelo priporočljivo za raziskovanje bližnjih vasi ali vinodolskega zaledja."
+    },
+    {
+      "question": "Kje lahko parkiram v Novem Vinodolskem?",
+      "answer": "Mesto ima približno 15 javnih parkirnih con, vključno s pristaniščem in prostori v bližini starega mestnega jedra, za vse pa se zaračunava parkirnina od junija do septembra. Vedno preverite, ali vaša namestitev zagotavlja določeno parkirno mesto, še posebej ker je staro mestno jedro brez avtomobilov."
+    },
+    {
+      "question": "Ali je Novi Vinodolski primeren za družine?",
+      "answer": "Da, mesto je zelo primerno za družine. Glavne plaže imajo plitke vhode in centre aktivnosti, obalne promenade pa so varne in dostopne za otroške vozičke."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na kratko",
+    "whereToStay": "Kje bivati v Novem Vinodolskem",
+    "gettingThere": "Pot do Novega Vinodolskega",
+    "whenToGo": "Kdaj obiskati",
+    "guides": "Vodnik za Novi Vinodolski",
+    "faq": "Novi Vinodolski: Pogosta vprašanja",
+    "groups": {
+      "gettingAround": "Parkiranje in premikanje po mestu",
+      "planning": "Načrtovanje in kje bivati",
+      "timing": "Kdaj iti",
+      "travelers": "Družine, pari in načini potovanja",
+      "activities": "Plaže in stvari za početi",
+      "food": "Hrana in pijača",
+      "comparisons": "Primerjave",
+      "practical": "Praktične informacije"
+    },
+    "car": "Z avtomobilom",
+    "other": "Druge možnosti",
+    "bestFor": "Najboljše za",
+    "parking": "Parkiranje",
+    "beach": "Plaža"
+  },
+  "destination": "novi-vinodolski",
+  "language": "sl",
+  "updatedAt": "2026-10-16T12:47:34.889Z"
+}

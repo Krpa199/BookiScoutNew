@@ -1,0 +1,153 @@
+{
+  "title": "Lošinj Vodič za putovanje: Plaže, područja i kako doći",
+  "metaDescription": "Planirajte svoje putovanje na Lošinj, Hrvatska. Usporedite najbolja područja za boravak, pronađite putne rute, informacije o trajektima, detalje o parkiranju i najbolje plaže.",
+  "intro": "Lošinj je sjevernohrvatski otok u Kvarnerskom zaljevu, poznat po gustim borovim šumama, bistrom moru i povijesnim pomorskim gradovima. Privlači putnike koji traže prirodu, wellness i aktivnosti na otvorenom poput biciklizma i plivanja. Otok je povezan sa susjednim Cresom malim pokretnim mostom u Osoru, što zahtijeva od posjetitelja da prvo dođu trajektom s kopna ili otoka Krka na Cres, prije nego što krenu prema jugu.\n\nLjetni mjeseci od lipnja do rujna nude najbolje vrijeme za kupanje, iako su proljeće i jesen idealni za planinarenje i biciklizam. Smještaj se kreće od velikih spa resorta u uvali Čikat do privatnih apartmana u pješačkim centrima Malog Lošinja i Velog Lošinja. Posjetitelji koji dolaze automobilom trebali bi uračunati vrijeme čekanja na trajekt tijekom vrhunca srpanjskih i kolovoških vikenda.",
+  "quickFacts": [
+    {
+      "label": "Najbolji mjeseci",
+      "value": "Lipanj do rujan"
+    },
+    {
+      "label": "Temperatura mora u kolovozu",
+      "value": "25°C do 26°C"
+    },
+    {
+      "label": "Najbliža zračna luka",
+      "value": "Zračna luka Rijeka (RJK), 85 km + trajekt"
+    },
+    {
+      "label": "Glavni tip plaže",
+      "value": "Šljunčane, stjenovite i popločane terase"
+    },
+    {
+      "label": "Razina cijena",
+      "value": "15-20% više od hrvatskog prosjeka"
+    },
+    {
+      "label": "Stari grad/centar",
+      "value": "Bez automobila i vrlo pješački"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Mali Lošinj Centar",
+      "bestFor": "Posjetitelji koji dolaze prvi put i žele pristup restoranima i izletima",
+      "parking": "Velika plaćena javna parkirališta izvan pješačke zone",
+      "beach": "15-20 minuta hoda do Valdarki ili Svetog Martina",
+      "summary": "Najveći grad na otoku ima živahnu luku s restoranima, kafićima i trgovinama. Služi kao glavno središte za prijevoz i izlete brodom, iako boravak ovdje zahtijeva hodanje ili vožnju do plaža."
+    },
+    {
+      "name": "Uvala Čikat",
+      "bestFor": "Luksuzni putnici i obitelji koji žele izravan pristup plaži",
+      "parking": "Privatni hotelski parking; javni parking se brzo popuni",
+      "beach": "Izravan pristup pješčanim dijelovima, šljunku i betonskim terasama",
+      "summary": "Smješteno zapadno od Malog Lošinja, ovo luksuzno područje okruženo je gustim borovim šumama i nudi vrhunske hotele. Šetnica uz more povezuje plaže, nudeći prirodnu hladovinu i plitka kupališta."
+    },
+    {
+      "name": "Veli Lošinj",
+      "bestFor": "Parovi i putnici koji traže mirnije okruženje",
+      "parking": "Centralno plaćeno javno parkiralište na ulazu u grad",
+      "beach": "10 minuta hoda do Rovenske (šljunčana) ili stjenovitih platformi",
+      "summary": "Unatoč imenu koje znači 'veliki', ovaj je grad manji i mirniji od Malog Lošinja. Poznat je po svojoj pastelnim bojama obojenoj luci, centru za morsku biologiju i sporijem tempu života."
+    },
+    {
+      "name": "Sunčana Uvala",
+      "bestFor": "Obitelji s djecom i gosti resorta",
+      "parking": "Uglavnom rezervirano za hotelske goste; ograničen broj javnih mjesta",
+      "beach": "Izravan pristup Velom Žalu (šljunčana) i Boriku (stjenovita)",
+      "summary": "Smještena južno od Malog Lošinja, ova uvala je dominirana velikim obiteljskim resortima i rekreacijskim sadržajima. Plaže ovdje imaju blage ulaze u more, što ih čini idealnim za mlađe plivače."
+    },
+    {
+      "name": "Nerezine",
+      "bestFor": "Planinari i putnici s ograničenim budžetom",
+      "parking": "Lako ulično parkiranje i besplatna parkirališta obično dostupna",
+      "beach": "5-10 minuta hoda do lokalnih šljunčanih i betonskih plaža",
+      "summary": "Prvo naselje do kojeg se dolazi nakon prelaska mosta s Cresa, Nerezine su mirno obalno selo. Nalazi se u podnožju planine Osoršćice, nudeći izravan pristup najboljim pješačkim stazama na otoku."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "580 km, ~8 sati preko A10, tunela Karavanke, Rupe, trajekta Valbiska-Merag. Austrijske/slovenske vinjete, cestarina za tunel, naknada za trajekt.",
+      "other": "Let za Rijeku (RJK), zatim autobusom i trajektom"
+    },
+    {
+      "from": "Beč",
+      "car": "530 km, ~7.5 sati preko Graza, Maribora, Zagreba, trajekta Valbiska-Merag. Austrijske/slovenske vinjete, hrvatske cestarine, naknada za trajekt.",
+      "other": "Flixbus do Rijeke, zatim lokalni autobus ili katamaran do Malog Lošinja"
+    },
+    {
+      "from": "Budimpešta",
+      "car": "540 km, ~7.5 sati preko M7 do Zagreba, A6 do Rijeke, trajekta Valbiska-Merag. Mađarska vinjeta, hrvatske cestarine, naknada za trajekt.",
+      "other": "Vlakom do Zagreba, zatim međugradskim autobusom do Malog Lošinja"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "200 km, ~4.5 sati preko Postojne, Ilirske Bistrice, trajekta Brestova-Porozina. Slovenska vinjeta, naknada za trajekt.",
+      "other": "Izravna sezonska autobusna linija do Malog Lošinja"
+    },
+    {
+      "from": "Prag",
+      "car": "850 km, ~11 sati preko Beča, Graza, Maribora, Zagreba, trajekta Valbiska-Merag. Višestruke vinjete/cestarine, naknada za trajekt.",
+      "other": "Let za Zadar ili Rijeku, zatim autobusom i trajektom"
+    },
+    {
+      "from": "Krakov",
+      "car": "950 km, ~12 sati preko Brna, Beča, Graza, Maribora, Zagreba, trajekta Valbiska-Merag. Višestruke vinjete/cestarine, naknada za trajekt.",
+      "other": "Let za Beč ili Zadar, zatim autobusne i trajektne veze"
+    }
+  ],
+  "whenToGo": "Glavna turistička sezona traje od lipnja do rujna kada su gotovo svi objekti otvoreni, a temperatura mora doseže 24°C do 26°C. Srpanj i kolovoz donose najviše cijene, najveće gužve i potencijalna kašnjenja trajekata, zbog čega je rana rezervacija ključna. Svibanj i listopad su znatno mirniji s nižim cijenama smještaja, nudeći idealne uvjete za planinarenje i biciklizam, iako je more često prehladno za ugodno kupanje. Mnogi hoteli i restorani potpuno su zatvoreni od studenog do travnja.",
+  "faq": [
+    {
+      "question": "Vrijedi li posjetiti Lošinj?",
+      "answer": "Da, Lošinj se toplo preporučuje putnicima koji traže spoj wellnessa, prirode i bistrog mora. Njegova mikroklima, guste borove šume i luksuzni sadržaji izdvajaju ga od ostalih ogoljenih jadranskih otoka."
+    },
+    {
+      "question": "Koliko dana trebam na Lošinju?",
+      "answer": "Četiri do pet dana je idealno vrijeme za istraživanje Lošinja. To omogućuje dovoljno vremena za posjet Malom i Velom Lošinju, provesti dan u uvali Čikat i planinariti Osoršćicom ili ići na izlet brodom."
+    },
+    {
+      "question": "Koja je najbolja plaža na Lošinju?",
+      "answer": "Veli Žal u Sunčanoj Uvali široko je smatran najboljom plažom zbog čistih oblutaka, sadržaja i statusa Plave zastave. Za male pješčane dijelove i borovu hladovinu, uvala Čikat je najbolji izbor."
+    },
+    {
+      "question": "Trebam li auto na Lošinju?",
+      "answer": "Ne trebate automobil ako boravite u Malom Lošinju ili Velom Lošinju, jer su gradovi pješački i povezani šetnicom uz more. Međutim, automobil je vrlo koristan za dolazak na otok s kopna i istraživanje udaljenijih uvala."
+    },
+    {
+      "question": "Gdje mogu parkirati u Malom Lošinju?",
+      "answer": "Javni parking nalazi se neposredno izvan pješačkog centra grada, prvenstveno na velikom parkiralištu blizu ulaza u luku. Očekujte plaćanje po satu ili dnevnoj tarifi, a mjesta se mogu brzo popuniti u srpnju i kolovozu."
+    },
+    {
+      "question": "Je li Lošinj dobar za obitelji?",
+      "answer": "Da, Lošinj je izvrsna obiteljska destinacija zbog svojih sigurnih pješačkih staza, namjenskih obiteljskih resorta i zasjenjenih plaža. Sunčana Uvala i Uvala Čikat nude plitka kupališta i brojne aktivnosti prilagođene djeci."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Ukratko",
+    "whereToStay": "Gdje odsjesti na Lošinju",
+    "gettingThere": "Dolazak na Lošinj",
+    "whenToGo": "Kada posjetiti",
+    "guides": "Vodiči za Lošinj",
+    "faq": "Česta pitanja o Lošinju",
+    "groups": {
+      "gettingAround": "Parkiranje i kretanje",
+      "planning": "Planiranje i gdje odsjesti",
+      "timing": "Kada posjetiti",
+      "travelers": "Obitelji, parovi i stilovi putovanja",
+      "activities": "Plaže i aktivnosti",
+      "food": "Hrana i piće",
+      "comparisons": "Usporedbe",
+      "practical": "Praktične informacije"
+    },
+    "car": "Automobilom",
+    "other": "Druge opcije",
+    "bestFor": "Najbolje za",
+    "parking": "Parking",
+    "beach": "Plaža"
+  },
+  "destination": "losinj",
+  "language": "hr",
+  "updatedAt": "2026-10-16T13:19:41.654Z"
+}

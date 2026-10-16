@@ -1,0 +1,146 @@
+{
+  "title": "Rabac potovalni vodnik: Plaže, parkiranje in nastanitev",
+  "metaDescription": "Načrtujte potovanje v Rabac, Hrvaška. Poiščite najnovejše informacije o najboljših prodnatih plažah, parkirnih conah, poteh za vožnjo in najboljših predelih za bivanje.",
+  "intro": "Rabac je obalno letoviško mesto na vzhodni obali istrskega polotoka, ki leži tik pod zgodovinskim mestom Labin na hribu. Prvotno majhna ribiška vasica se je razvila v pomembno počitniško destinacijo, znano po velikih belih prodnatih plažah in čisti vodi. Mesto je zgrajeno na strmem pobočju, ki se spušča proti morju, in je povezano z dolgo sprehajalno promenado, ob kateri so restavracije, kavarne in hoteli.\n\nDestinacija je primerna predvsem za družine in pare, ki iščejo sproščujoče počitnice na plaži z enostavnim dostopom do sodobnih letoviških storitev. Zaradi hribovitega terena morajo obiskovalci pogosto prehoditi stopnice do nastanitev, ki so bolj oddaljene od vode. Glavna turistična sezona traja od junija do septembra, pri čemer julij in avgust prinašata najvišje temperature morja in največjo gnečo.",
+  "quickFacts": [
+    {
+      "label": "Najboljši meseci",
+      "value": "Junij do september"
+    },
+    {
+      "label": "Temperatura morja avgusta",
+      "value": "24°C - 26°C"
+    },
+    {
+      "label": "Najbližje letališče",
+      "value": "Letališče Pula (PUY), 43 km"
+    },
+    {
+      "label": "Glavni tip plaže",
+      "value": "Beli prod in betonske terase"
+    },
+    {
+      "label": "Cenovni razred",
+      "value": "Povprečno za Istro"
+    },
+    {
+      "label": "Dostopnost peš",
+      "value": "Promenada brez prometa; strmi hribi v notranjosti"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Pristanišče in center Rabca",
+      "bestFor": "Restavracije, izleti z ladjo in dogajanje v centru",
+      "parking": "Plačljivo javno parkirišče na Obali Maršala Tita (Cona 1/2)",
+      "beach": "Dostop do mestnih plaž v 5-10 minutah hoje",
+      "summary": "Osrednja promenada je najbolj živahna del Rabca, ob njej so restavracije, kavarne in trgovine s spominki. Idealna je za tiste, ki si želijo takojšen dostop do restavracij in izletov z ladjo, čeprav je lahko poleti zvečer hrupna."
+    },
+    {
+      "name": "Girandella (Vzhodni Rabac)",
+      "bestFor": "Družine, letoviške storitve in ljubitelji plaž",
+      "parking": "Velika plačljiva parkirišča blizu plaž; namenska parkirišča hotelov",
+      "beach": "Neposreden dostop do plaže Girandella (prodnata plaža z Modro zastavo)",
+      "summary": "Ta predel, ki se nahaja na vzhodnem robu mesta, zaznamujejo veliki letoviški kompleksi in družinski hoteli. Ponuja takojšen dostop do najboljših prodnatih plaž in številnih vodnih športov, zaradi česar je zelo priročna izbira za klasične počitnice na plaži."
+    },
+    {
+      "name": "Zaliv Maslinica (Zahodni Rabac)",
+      "bestFor": "Kampiranje, mlade družine in plitka voda",
+      "parking": "Parkirišče znotraj kampov in hotelov",
+      "beach": "Neposreden dostop do plaže Maslinica (velika prodnata plaža, plitev vstop v vodo)",
+      "summary": "Maslinica zavzema zahodni del Rabca in je dom velikih kampov ter družinam prijaznih hotelov. Velik zaliv ima dolgo prodnato plažo s plitvim vstopom v vodo, obkroženo z gostim borovim gozdom, ki zagotavlja naravno senco."
+    },
+    {
+      "name": "Labin (Zgodovinsko mesto)",
+      "bestFor": "Zgodovina, umetniške galerije in izogibanje obalni gneči",
+      "parking": "Javno parkirišče na voljo zunaj obzidja starega mestnega jedra",
+      "beach": "5 km vožnje do plaž v Rabcu",
+      "summary": "Labin, ki se nahaja na hribu 5 kilometrov nad Rabcem, ponuja ohranjeno srednjeveško staro mestno jedro s kamnitimi ulicami, galerijami in kavarnami. Je opazno tišji in cenejši od obale, vendar je za dosego morja potreben avto ali avtobus."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "510 km, 6-7 ur preko A8, Tauerne avtoceste (A10) in Slovenije. Potrebna AT vinjeta, cestnine za Tauerne/Karavanke, SI vinjeta, HR cestnine.",
+      "other": "Direkten avtobus (Flixbus) do Pule ali Reke, ali sezonski let na letališče Pula"
+    },
+    {
+      "from": "Dunaj",
+      "car": "500 km, 5,5-6 ur preko A2 do Gradca, Maribora, Ljubljane in Reke. Potrebna AT vinjeta, SI vinjeta, HR cestnine.",
+      "other": "Direkten vlak (ÖBB) ali avtobus do Reke, nato lokalni avtobus do Rabca"
+    },
+    {
+      "from": "Budimpešta",
+      "car": "510 km, 5,5-6 ur preko M7 do Zagreba, nato A6 do Reke. Potrebna HU e-vinjeta, HR cestnine.",
+      "other": "Direkten avtobus (Flixbus) do Reke, nato lokalni avtobus Arriva do Rabca"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "130 km, 2 uri preko A1 do Postojne, Ilirske Bistrice in Reke. Potrebna SI vinjeta.",
+      "other": "Direktne avtobusne linije do Reke ali Labina"
+    },
+    {
+      "from": "Praga",
+      "car": "830 km, 9-10 ur preko Linza, Gradca, Maribora in Ljubljane. Potrebne CZ, AT, SI vinjete, HR cestnine.",
+      "other": "Vlak ali avtobus RegioJet do Reke, nato lokalni avtobus"
+    },
+    {
+      "from": "Krakov",
+      "car": "960 km, 10-11 ur preko Ostrave, Brna, Dunaja, Gradca in Maribora. Potrebne PL cestnine, CZ, AT, SI vinjete, HR cestnine.",
+      "other": "Sezonski leti na letališče Pula ali avtobus preko Dunaja"
+    }
+  ],
+  "whenToGo": "Junij do september so glavni meseci za obisk Rabca, saj se letovišče izven sezone v veliki meri zapre. Julija in avgusta temperature morja dosežejo od 24°C do 26°C, kar je idealno za plavanje, čeprav ti meseci prinašajo najvišje cene in zasedene plaže. Junij in september ponujata tišje doživetje z nižjimi cenami nastanitev, čeprav je voda lahko hladnejša, zlasti v začetku junija. Večina hotelov, barov na plaži in turističnih objektov deluje v celoti od konca maja do začetka oktobra, medtem ko so v zimskih mesecih mesto večinoma zaprto, prebivalci pa se zanašajo na bližnji Labin za storitve.",
+  "faq": [
+    {
+      "question": "Se splača obiskati Rabac?",
+      "answer": "Da, če iščete sproščujoče počitnice na plaži s čisto vodo in velikimi prodnatimi plažami. Nima zgodovinskega starega mestnega jedra ob morju, vendar je srednjeveško mesto Labin le kratek sprehod ali vožnja navzgor po hribu."
+    },
+    {
+      "question": "Koliko dni potrebujem v Rabcu?",
+      "answer": "4 do 7 dni je običajno za poletne počitnice na plaži tukaj. To omogoča dovolj časa za sprostitev ob morju in izlet z ladjo na Cres ali dnevni izlet v bližnjo Pulo."
+    },
+    {
+      "question": "Katera je najboljša plaža v Rabcu?",
+      "answer": "Plaža Girandella in plaža Maslinica sta najbolj priljubljeni možnosti, obe ponujata status Modre zastave, bele prode in vse letoviške storitve. Manjši zalivi, kot je Sv. Andrej, ponujajo mirnejše kotičke, če se sprehodite dlje po promenadi."
+    },
+    {
+      "question": "Potrebujem avto v Rabcu?",
+      "answer": "Ne potrebujete avtomobila, če nameravate ostati v svojem letovišču in ob obalni promenadi, saj je vse dostopno peš. Vendar pa je avto zelo priporočljiv, če želite raziskati preostanek Istre ali enostavno obiskati Labin."
+    },
+    {
+      "question": "Kje lahko parkiram v Rabcu?",
+      "answer": "Velika javna plačljiva parkirišča so blizu pristanišča (Obala Maršala Tita) in blizu letoviškega območja Girandella, ki poleti delujejo po sistemu conskih tarif. Večina hotelov in kampov zagotavlja namenska parkirišča za svoje goste."
+    },
+    {
+      "question": "Je Rabac primeren za družine?",
+      "answer": "Rabac je izjemno primeren za družine z otroki. Vstop v morje je plitev, plaže so čisti prod, ne pa kamenje, in dolga obalna promenada je popolnoma brez prometa."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na kratko",
+    "whereToStay": "Kje prenočiti v Rabcu",
+    "gettingThere": "Pot do Rabca",
+    "whenToGo": "Kdaj obiskati",
+    "guides": "Vodiči za Rabac",
+    "faq": "Rabac – Pogosta vprašanja",
+    "groups": {
+      "gettingAround": "Parkiranje in premikanje",
+      "planning": "Načrtovanje in nastanitev",
+      "timing": "Kdaj obiskati",
+      "travelers": "Družine, pari in načini potovanja",
+      "activities": "Plaže in aktivnosti",
+      "food": "Hrana in pijača",
+      "comparisons": "Primerjave",
+      "practical": "Praktične informacije"
+    },
+    "car": "Z avtom",
+    "other": "Druge možnosti",
+    "bestFor": "Najboljše za",
+    "parking": "Parkiranje",
+    "beach": "Plaža"
+  },
+  "destination": "rabac",
+  "language": "sk",
+  "updatedAt": "2026-10-16T12:09:22.682Z"
+}

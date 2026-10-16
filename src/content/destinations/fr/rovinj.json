@@ -1,0 +1,146 @@
+{
+  "title": "Rovinj : Guide de voyage – Plages, stationnement et où séjourner",
+  "metaDescription": "Planifiez votre voyage à Rovinj. Un guide pratique sur les itinéraires routiers, le stationnement, les quartiers et les plages pour les visiteurs venant en Istrie, Croatie.",
+  "intro": "Rovinj attire les couples, les familles et les voyageurs en road trip à la recherche d'un centre historique bien préservé et d'une nature côtière accessible. La ville présente un cœur vénitien dense, entièrement piéton, bâti sur une petite péninsule, entouré de forêts de pins et d'une côte rocheuse.\n\nLa principale saison touristique s'étend de mai à septembre, avec un pic en juillet et août lorsque le climat méditerranéen offre des journées chaudes et sèches idéales pour la baignade. En dehors des mois d'été, de nombreux restaurants et hôtels ferment, rendant la ville plus calme mais moins adaptée à des vacances balnéaires classiques.",
+  "quickFacts": [
+    {
+      "label": "Meilleurs mois",
+      "value": "Juin à septembre"
+    },
+    {
+      "label": "Température de la mer en août",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Aéroport le plus proche",
+      "value": "Aéroport de Pula (PUY), 40 km"
+    },
+    {
+      "label": "Type de plage principal",
+      "value": "Galets, rochers et plateformes bétonnées"
+    },
+    {
+      "label": "Niveau de prix",
+      "value": "Plus élevé que la moyenne croate"
+    },
+    {
+      "label": "Vieille ville",
+      "value": "Strictement piétonne (sans voiture)"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Vieille ville (Poluotok)",
+      "bestFor": "Premiers visiteurs et couples recherchant histoire et gastronomie",
+      "parking": "Aucun au centre ; utilisez les parkings commerciaux payants à 10-15 minutes",
+      "beach": "Plage Monte (rochers) sur place ; plages plus grandes à 20 min à pied",
+      "summary": "Le cœur historique est caractérisé par des rues pavées étroites, une architecture vénitienne et de nombreux restaurants. Il est animé en été et nécessite de marcher ou de prendre une voiturette de golf pour atteindre votre hébergement."
+    },
+    {
+      "name": "Baie de Lone & Punta Corrente (Sud)",
+      "bestFor": "Voyageurs de luxe et amateurs de plage souhaitant un accès à la nature",
+      "parking": "Parking privé d'hôtel courant ; les parkings publics se remplissent rapidement",
+      "beach": "0-10 minutes à pied des criques de galets et des rivages rocheux ombragés",
+      "summary": "Située au sud de la vieille ville, cette zone est caractérisée par des hôtels haut de gamme et le parc forestier de Zlatni Rt. Les visiteurs ont un accès immédiat aux sentiers de promenade ombragés par les pins et aux plages les plus populaires de la ville."
+    },
+    {
+      "name": "Centener & Cuvi",
+      "bestFor": "Familles et voyageurs soucieux de leur budget",
+      "parking": "Stationnement plus facile dans la rue et sur les allées résidentielles",
+      "beach": "10-15 minutes à pied de la plage de Cuvi (galets et parcelles de sable)",
+      "summary": "Un quartier résidentiel plus calme situé au sud-est du centre. Il propose des locations d'appartements à des prix plus bas tout en restant à distance de marche des plages familiales et des supermarchés."
+    },
+    {
+      "name": "Borik",
+      "bestFor": "Visiteurs recherchant une atmosphère de banlieue plus calme avec vue sur la mer",
+      "parking": "Généralement inclus avec les locations d'appartements ; stationnement dans la rue disponible",
+      "beach": "5-10 minutes à pied des plages de Valdaliso et Amarin",
+      "summary": "Borik se trouve au nord du centre-ville, offrant un environnement détendu loin des foules estivales. Atteindre la vieille ville nécessite 30 minutes de marche, une balade à vélo ou un court trajet en bateau-taxi."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Munich",
+      "car": "600 km, ~6,5 heures via A8, A10, A11, SI A2 jusqu'à Koper, Y Istrien. Nécessite vignette AT, péages Tauern & Karawanken, vignette SI, péage HR.",
+      "other": "Vols directs saisonniers vers Pula ou Flixbus direct."
+    },
+    {
+      "from": "Vienne",
+      "car": "500 km, ~5,5 heures via A2 jusqu'à Graz, SI A1 (Maribor-Ljubljana-Koper), Y Istrien. Nécessite vignette AT, vignette SI, péage HR.",
+      "other": "Flixbus direct ou vols saisonniers vers Pula."
+    },
+    {
+      "from": "Budapest",
+      "car": "600 km, ~6 heures via M7, HR A4 jusqu'à Zagreb, A6 jusqu'à Rijeka, tunnel d'Učka, Y Istrien. Nécessite e-vignette HU, péages HR.",
+      "other": "Flixbus ou train jusqu'à Rijeka suivi d'un bus local."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "180 km, ~2,5 heures via A1 jusqu'à Koper, Y Istrien (A9). Nécessite vignette SI, péage HR.",
+      "other": "Services de bus directs (Flixbus, Nomago)."
+    },
+    {
+      "from": "Prague",
+      "car": "850 km, ~9 heures via Linz, Graz, Maribor, Ljubljana, Koper. Nécessite vignettes CZ, AT, SI, péages HR.",
+      "other": "Correspondances train/bus RegioJet saisonnières ou vols vers Pula."
+    },
+    {
+      "from": "Cracovie",
+      "car": "1 000 km, ~10,5 heures via CZ (Brno), AT (Vienne, Graz), SI (Maribor, Koper). Nécessite vignettes CZ, AT, SI, péages HR.",
+      "other": "Vols vers Pula (généralement via Varsovie) ou bus longue distance."
+    }
+  ],
+  "whenToGo": "La saison touristique s'étend de fin mai à septembre. Juillet et août apportent le temps le plus chaud avec des températures de l'air autour de 30°C et des températures de la mer atteignant 25-27°C, ainsi que les prix les plus élevés et les foules les plus importantes. Juin et septembre offrent des températures plus douces (entre 20 et 25°C), des conditions de baignade légèrement plus fraîches et une meilleure disponibilité pour les hébergements. D'octobre à avril, Rovinj est calme ; la mer est trop froide pour la baignade (chutant à 10-14°C), et de nombreux restaurants, hôtels et lignes de ferry axés sur le tourisme ferment entièrement.",
+  "faq": [
+    {
+      "question": "Vaut-il la peine de visiter Rovinj ?",
+      "answer": "Oui, elle est largement considérée comme l'une des villes côtières les plus attrayantes d'Istrie. Les visiteurs viennent pour sa vieille ville vénitienne bien préservée, son vaste parc forestier de pins et ses options de restauration de haute qualité."
+    },
+    {
+      "question": "Combien de jours faut-il passer à Rovinj ?",
+      "answer": "Trois à cinq jours sont idéaux pour la plupart des visiteurs. Cela laisse suffisamment de temps pour explorer la vieille ville, passer une journée sur les plages de Punta Corrente et faire une excursion en bateau ou visiter une ville perchée istrienne voisine."
+    },
+    {
+      "question": "Quelle est la meilleure plage de Rovinj ?",
+      "answer": "Les plages du parc forestier de Zlatni Rt (Punta Corrente), en particulier la baie de Lone, sont les plus populaires. Elles offrent un mélange de galets et de rochers avec une ombre naturelle abondante des pins environnants."
+    },
+    {
+      "question": "Faut-il une voiture à Rovinj ?",
+      "answer": "Vous n'avez pas besoin de voiture si vous séjournez dans la vieille ville ou ses environs immédiats, car tout est accessible à pied. Cependant, une voiture est fortement recommandée si vous prévoyez d'explorer le reste de la péninsule istrienne ou de visiter des vignobles et des oliveraies ruraux."
+    },
+    {
+      "question": "Où se garer lors d'une visite à Rovinj ?",
+      "answer": "Les plus grands parkings publics sont Valdibora (Nord) et Ampelea (Sud), situés juste à l'extérieur de la zone piétonne. Ces parkings sont payants à l'heure ou à la journée et peuvent être complets en juillet et août, il est donc recommandé d'arriver tôt."
+    },
+    {
+      "question": "Rovinj est-elle adaptée aux familles ?",
+      "answer": "Oui, en particulier dans les stations balnéaires et les zones résidentielles en dehors de la vieille ville. Les plages ont des sections de galets peu profondes adaptées aux enfants, et les campings familiaux à proximité proposent des piscines, des aires de jeux et des activités organisées."
+    }
+  ],
+  "headings": {
+    "quickFacts": "En bref",
+    "whereToStay": "Où loger à Rovinj",
+    "gettingThere": "Se rendre à Rovinj",
+    "whenToGo": "Quand partir",
+    "guides": "Guides de Rovinj",
+    "faq": "FAQ Rovinj",
+    "groups": {
+      "gettingAround": "Stationnement et déplacements",
+      "planning": "Planification et hébergement",
+      "timing": "Quand partir",
+      "travelers": "Familles, couples et styles de voyage",
+      "activities": "Plages et activités",
+      "food": "Restauration et boissons",
+      "comparisons": "Comparaisons",
+      "practical": "Infos pratiques"
+    },
+    "car": "En voiture",
+    "other": "Autres options",
+    "bestFor": "Idéal pour",
+    "parking": "Stationnement",
+    "beach": "Plage"
+  },
+  "destination": "rovinj",
+  "language": "fr",
+  "updatedAt": "2026-10-16T10:40:55.354Z"
+}

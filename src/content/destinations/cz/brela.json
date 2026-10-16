@@ -1,0 +1,146 @@
+{
+  "title": "Brela: Průvodce plážemi, parkováním a ubytováním",
+  "metaDescription": "Naplánujte si cestu do Brel na Makarské riviéře. Objevte nejlepší pláže, oblasti, pravidla parkování, dopravní trasy a nejlepší čas k návštěvě.",
+  "intro": "Brela je pobřežní město na Makarské riviéře, charakterizované hustými borovými lesy, které se táhnou přímo k bílým oblázkovým plážím. Leží na úpatí pohoří Biokovo a vyhovuje návštěvníkům hledajícím čistou vodu, přírodní stín a klidnou letoviskovou atmosféru spíše než rušný noční život. Osada je postavena na strmém terénu, což znamená, že přístup k šestikilometrové pěší pobřežní promenádě obvykle zahrnuje procházení kopcovitými ulicemi.\n\nHlavní návštěvnická sezóna probíhá v červenci a srpnu a přitahuje rodiny a páry, které chtějí zaručené koupací počasí a plně funkční vybavení. Nicméně, konec června a září nabízejí pohodlnější zážitek. Během těchto měsíců zůstává moře dostatečně teplé ke koupání, ale je zde výrazně méně lidí na slavné pláži Punta Rata a menší provoz na místních silnicích.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "Červen až září"
+    },
+    {
+      "label": "Teplota moře v srpnu",
+      "value": "24°C až 28°C"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Split (SPU), 68 km"
+    },
+    {
+      "label": "Hlavní typ pláže",
+      "value": "Bílé oblázky s borovým stínem"
+    },
+    {
+      "label": "Cenová úroveň",
+      "value": "Prémiová (nad chorvatským průměrem)"
+    },
+    {
+      "label": "Pěší dostupnost",
+      "value": "Pěší promenáda, strmé ulice"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Soline (Centrum)",
+      "bestFor": "Pro ty, kteří jsou zde poprvé, a ty, kteří chtějí mít vybavení poblíž",
+      "parking": "Extrémně omezené, veřejná parkoviště účtují 4 €/hod.",
+      "beach": "Přímý přístup na pláž Soline",
+      "summary": "Soline je hlavním centrem Brel, s největší koncentrací hotelů, restaurací a kaváren. Nabízí nejsnadnější přístup k pobřežní promenádě, ale je to nejrušnější část města."
+    },
+    {
+      "name": "Podrače",
+      "bestFor": "Pro milovníky pláží a páry",
+      "parking": "Strmé, úzké silnice; soukromé parkování je nezbytné",
+      "beach": "Jen pár kroků od pláží Podrače a Punta Rata",
+      "summary": "Tato malebná oblast, ležící severozápadně od centra, poskytuje okamžitý přístup k nejfotografovanějším zátokám Brel. Terén je strmý, což znamená, že chůze do kopce je nutná pro většinu ubytování."
+    },
+    {
+      "name": "Stomarica",
+      "bestFor": "Pro rodiny a návštěvníky hledající klidnější prostředí",
+      "parking": "Převážně soukromá místa poskytovaná ubytováním",
+      "beach": "Přímý přístup na pláž Stomarica",
+      "summary": "Klidná zátoka dále podél pobřeží, která si zachovává základní vybavení, jako jsou plážové bary a restaurace. Je dostatečně daleko od centra, aby se vyhnula velkým davům, ale zůstává snadno dostupná po promenádě."
+    },
+    {
+      "name": "Jakiruša",
+      "bestFor": "Pro milovníky přírody a ty, kteří unikají davům",
+      "parking": "Soukromé parkování obvykle zahrnuto v ceně pobytu",
+      "beach": "Pláž Jakiruša (oblázky a skalnaté úseky)",
+      "summary": "Severozápadní okraj Brel nabízí nejodlehlejší prostředí. Zdejší pláže jsou klidnější, s hustým borovým stínem, ale tato oblast vyžaduje delší procházku k dosažení hlavního města."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Mnichov",
+      "car": "850 km, 9-10 hodin přes A8, A10 a A1. Vyžaduje rakouské a slovinské dálniční známky, plus rakouské tunely a chorvatské dálniční poplatky.",
+      "other": "Let do Splitu (SPU), poté hodinový autobus nebo soukromý transfer."
+    },
+    {
+      "from": "Vídeň",
+      "car": "750 km, 7.5-8.5 hodin přes A2 a chorvatskou A1. Vyžaduje rakouské a slovinské dálniční známky, plus chorvatské dálniční poplatky.",
+      "other": "Přímý let do Splitu (SPU) nebo noční vlak do Splitu, následovaný autobusem."
+    },
+    {
+      "from": "Budapešť",
+      "car": "770 km, 7.5-8.5 hodin přes M7 a chorvatskou A4/A1. Vyžaduje maďarskou e-známku a chorvatské dálniční poplatky.",
+      "other": "Přímý let do Splitu (SPU) nebo přímý FlixBus na Makarskou riviéru."
+    },
+    {
+      "from": "Lublaň",
+      "car": "470 km, 5-6 hodin přes A2 a chorvatskou A1. Vyžaduje slovinskou dálniční známku a chorvatské dálniční poplatky.",
+      "other": "Přímý autobus do Splitu nebo Makarské, se zastávkou v Brele nebo poblíž."
+    },
+    {
+      "from": "Praha",
+      "car": "1 070 km, 11-12 hodin přes Vídeň a Štýrský Hradec. Vyžaduje české, rakouské a slovinské dálniční známky, plus chorvatské mýtné.",
+      "other": "Let do Splitu (SPU), poté místní autobus nebo soukromý transfer do Brel."
+    },
+    {
+      "from": "Krakov",
+      "car": "1 100 km, 11-12 hodin přes Slovensko a Maďarsko (M7). Vyžaduje slovenské a maďarské dálniční známky, plus chorvatské mýtné.",
+      "other": "Let do Splitu (SPU) z Krakova nebo Katovic, následovaný transferem."
+    }
+  ],
+  "whenToGo": "Konec června až začátek září nabízí nejspolehlivější počasí, s průměrnými teplotami moře 24°C až 28°C v srpnu. Červenec a srpen jsou hlavními turistickými měsíci, přinášejícími nejvyšší ceny, plně otevřené vybavení a husté davy na úzkých plážích a pobřežních silnicích. Květen a říjen nabízejí nižší ceny a klidné ulice, ale moře je často příliš studené na koupání (kolem 18°C až 21°C) a mnoho místních restaurací se zavírá na sezónu. Září představuje nejlepší rovnováhu, poskytující teplou vodu, méně návštěvníků a mírné ceny ubytování.",
+  "faq": [
+    {
+      "question": "Stojí Brela za návštěvu?",
+      "answer": "Ano, nabízí jedny z nejčistších vod a nejmalebnějších oblázkových pláží lemovaných borovicemi v Chorvatsku. Je ideální pro návštěvníky hledající relaxační pobřežní dovolenou spíše než prohlídku historických měst."
+    },
+    {
+      "question": "Kolik dní bych měl strávit v Brele?",
+      "answer": "Pobyt na 4 až 7 dní je ideální pro většinu návštěvníků. Poskytuje dostatek času k vychutnání si různých zátok podél promenády a k výletu na horu Biokovo nebo do blízkých měst jako Omiš."
+    },
+    {
+      "question": "Která je nejlepší pláž v Brele?",
+      "answer": "Punta Rata je nejznámější pláž, proslulá svým ikonickým útesem a hustým borovým stínem. Nicméně, nedaleké Podrače a Stomarica nabízejí stejně čistou vodu s o něco menším počtem lidí."
+    },
+    {
+      "question": "Potřebuji v Brele auto?",
+      "answer": "Auto nepotřebujete, pokud se ubytujete v blízkosti pobřeží, jelikož hlavní pláže a restaurace jsou propojeny pěší promenádou. Auto je nutné pouze v případě, že plánujete prozkoumat širší dalmatské pobřeží, a řízení po místních strmých ulicích může být náročné."
+    },
+    {
+      "question": "Kde je nejlepší parkovat v Brele?",
+      "answer": "Důrazně se doporučuje rezervovat ubytování, které zahrnuje garantované soukromé parkovací místo. Veřejné parkování je velmi omezené a drahé, v centrálních oblastech jako Soline stojí kolem 4 € za hodinu."
+    },
+    {
+      "question": "Je Brela vhodná pro rodiny?",
+      "answer": "Ano, dlouhá promenáda bez aut, přírodní stín borovic a klidné vody ji činí vysoce vhodnou pro rodiny. Nicméně, strmé ulice vedoucí k některým ubytováním mohou být náročné při tlačení kočárků."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Přehledně",
+    "whereToStay": "Kde se ubytovat v Brele",
+    "gettingThere": "Jak se dostat do Brel",
+    "whenToGo": "Kdy jet",
+    "guides": "Průvodce Brela",
+    "faq": "Brela – Často kladené otázky",
+    "groups": {
+      "gettingAround": "Parkování a doprava po městě",
+      "planning": "Plánování a kde se ubytovat",
+      "timing": "Kdy jet",
+      "travelers": "Rodiny, páry a cestovní styly",
+      "activities": "Pláže a co dělat",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": "Praktické informace"
+    },
+    "car": "Autem",
+    "other": "Další možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "brela",
+  "language": "cz",
+  "updatedAt": "2026-10-16T10:22:41.699Z"
+}

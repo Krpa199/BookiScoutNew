@@ -1,0 +1,146 @@
+{
+  "title": "Guía de Viaje de Baška Voda: Playas, Estacionamiento y Dónde Alojarse",
+  "metaDescription": "Planifica tu viaje a Baška Voda en la Riviera de Makarska. Descubre rutas en coche, las mejores zonas para alojarse, detalles de las playas e información práctica sobre el estacionamiento.",
+  "intro": "Baška Voda es una ciudad balneario costera en la Riviera de Makarska, situada al pie de la cordillera de Biokovo. Es ideal para viajeros que buscan playas de guijarros organizadas, paseos sombreados por pinos y una amplia selección de restaurantes y cafeterías a poca distancia. La ciudad atrae a una mezcla de familias y parejas, principalmente de Europa Central y del Este.\n\nLa temporada principal va de junio a septiembre. Julio y agosto traen las temperaturas del mar más cálidas y los mayores niveles de afluencia. Mayo y octubre ofrecen un clima más fresco adecuado para el senderismo y el ciclismo, aunque muchos negocios de temporada permanecen cerrados. Los visitantes que conducen a la región encontrarán mucho tráfico a mediados del verano, lo que hace que los arreglos de estacionamiento anticipados sean esenciales.",
+  "quickFacts": [
+    {
+      "label": "Mejores meses",
+      "value": "Junio a septiembre"
+    },
+    {
+      "label": "Temperatura del mar en agosto",
+      "value": "25°C a 27°C"
+    },
+    {
+      "label": "Aeropuerto más cercano",
+      "value": "Aeropuerto de Split (SPU), 68 km"
+    },
+    {
+      "label": "Tipo de playa principal",
+      "value": "Guijarros blancos con sombra de pinos"
+    },
+    {
+      "label": "Nivel de precios",
+      "value": "Ligeramente por encima de la media para Croacia"
+    },
+    {
+      "label": "Centro peatonal",
+      "value": "Sí, paseo marítimo mayormente peatonal"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centro Urbano (Centar)",
+      "bestFor": "Viajeros que buscan acceso inmediato a restaurantes, ferries y vida nocturna",
+      "parking": "Difícil y caro; los estacionamientos públicos cobran por hora",
+      "beach": "Acceso directo a la Playa Nikolina",
+      "summary": "El corazón comercial de Baška Voda se centra alrededor del puerto deportivo. Ofrece la mayor concentración de restaurantes y servicios, aunque puede ser ruidoso durante los meses pico de verano."
+    },
+    {
+      "name": "Podluka",
+      "bestFor": "Familias y quienes buscan un acceso más tranquilo a la playa",
+      "parking": "A menudo incluido con los apartamentos, pero el acceso por la calle es estrecho",
+      "beach": "Directamente a lo largo de las playas de Podluka e Ikovac",
+      "summary": "Situado justo al norte del centro, hacia Brela, este barrio se compone principalmente de alquileres de apartamentos. El paseo marítimo pavimentado lo conecta fácilmente con la ciudad principal."
+    },
+    {
+      "name": "Promajna",
+      "bestFor": "Familias con niños pequeños que buscan una alternativa más tranquila",
+      "parking": "Más fácil que en Baška Voda, normalmente incluido con el alojamiento",
+      "beach": "Acceso directo a la Playa Promajna",
+      "summary": "Un pueblo más pequeño situado a 3.5 kilómetros al sur de Baška Voda. Ofrece un ambiente relajado, algunos restaurantes básicos y una amplia playa de guijarros bordeada de pinos."
+    },
+    {
+      "name": "Bratuš",
+      "bestFor": "Parejas y viajeros que buscan un ambiente de pueblo pesquero tradicional",
+      "parking": "Muy limitado; los visitantes deben usar un estacionamiento designado en la entrada del pueblo",
+      "beach": "Pequeña cala central de guijarros",
+      "summary": "Situado justo al sur de Promajna, Bratuš es un pequeño asentamiento con casas de piedra tradicionales. El pueblo tiene una actividad comercial mínima y un ambiente tranquilo y pausado."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Múnich",
+      "car": "880 km, 9.5-10.5 horas vía A8, A10 y A1. Requiere viñeta austriaca, peaje del túnel de Karawanken, viñeta eslovena y peajes de autopista croatas.",
+      "other": "Vuelo de MUC a Split (SPU), luego 1 hora en autobús o taxi."
+    },
+    {
+      "from": "Viena",
+      "car": "750 km, 7.5-8.5 horas vía A2 y A1. Requiere viñeta austriaca, viñeta eslovena y peajes de autopista croatas.",
+      "other": "Vuelo de VIE a Split, o autobús directo de larga distancia a Baška Voda."
+    },
+    {
+      "from": "Budapest",
+      "car": "780 km, 7.5-8.5 horas vía M7 y A1. Requiere viñeta húngara y peajes de autopista croatas.",
+      "other": "Vuelo de BUD a Split, o servicios de autobús directos durante el verano."
+    },
+    {
+      "from": "Liubliana",
+      "car": "500 km, 5-6 horas vía A2 y A1. Requiere viñeta eslovena y peajes de autopista croatas.",
+      "other": "Conexiones de autobús directas disponibles a la Riviera de Makarska."
+    },
+    {
+      "from": "Praga",
+      "car": "1050 km, 11-12 horas vía Brno, Viena y Zagreb. Requiere viñetas checa, austriaca y eslovena, además de peajes croatas.",
+      "other": "Vuelo de PRG a Split, luego autobús local o traslado al aeropuerto."
+    },
+    {
+      "from": "Cracovia",
+      "car": "1100 km, 11.5-12.5 horas vía A4, Brno, Viena y Zagreb. Requiere viñetas de varios países y peajes croatas.",
+      "other": "Vuelo de KRK a Split, o autobús de larga distancia nocturno."
+    }
+  ],
+  "whenToGo": "El momento óptimo para nadar y tomar el sol es entre finales de junio y principios de septiembre, cuando la temperatura del mar alcanza entre 24°C y 27°C y todas las instalaciones turísticas, restaurantes y chiringuitos están abiertos. Julio y agosto son los meses más concurridos y caros, conllevando un tráfico denso en la Autopista del Adriático y una alta demanda de alojamiento. Mayo y octubre ofrecen precios más bajos y menos aglomeraciones, lo que los hace adecuados para hacer senderismo en el cercano Parque Natural de Biokovo, pero el mar suele estar demasiado frío para nadar prolongadamente y muchos negocios locales cierran durante la temporada baja.",
+  "faq": [
+    {
+      "question": "¿Vale la pena visitar Baška Voda?",
+      "answer": "Sí, es muy valorada por sus playas de guijarros blancos y limpios y su extensa sombra de pinos. Sirve como una excelente base para unas vacaciones clásicas de playa en la Riviera de Makarska."
+    },
+    {
+      "question": "¿Cuántos días necesito en Baška Voda?",
+      "answer": "Cinco a siete días es ideal para unas vacaciones de playa estándar. Tres días son suficientes si lo usas como una parada corta en un viaje por carretera más largo por Dalmacia."
+    },
+    {
+      "question": "¿Cuál es la mejor playa de Baška Voda?",
+      "answer": "La Playa Nikolina es la opción central y más popular, galardonada con la Bandera Azul por su limpieza. La Playa Ikovac, situada ligeramente al norte, ofrece una alternativa más pequeña y pintoresca."
+    },
+    {
+      "question": "¿Necesito coche en Baška Voda?",
+      "answer": "No, no es necesario un coche si planeas quedarte en la ciudad, ya que las playas, restaurantes y supermercados están todos a poca distancia. Sin embargo, un vehículo es útil para excursiones de un día al Parque Natural de Biokovo o a la ciudad de Split."
+    },
+    {
+      "question": "¿Dónde puedo estacionar en Baška Voda?",
+      "answer": "El estacionamiento público se concentra cerca del puerto deportivo y las entradas de la ciudad, dividido en zonas de pago que son caras durante el verano. Se recomienda encarecidamente reservar alojamiento que incluya estacionamiento privado en el lugar."
+    },
+    {
+      "question": "¿Es Baška Voda buena para familias?",
+      "answer": "Sí, es uno de los destinos más familiares de la región. Las playas cuentan con guijarros de pendiente suave y sombra natural, mientras que el paseo marítimo ofrece un recorrido seguro y sin tráfico."
+    }
+  ],
+  "headings": {
+    "quickFacts": "En resumen",
+    "whereToStay": "Dónde alojarse en Baška Voda",
+    "gettingThere": "Cómo llegar a Baška Voda",
+    "whenToGo": "Cuándo ir",
+    "guides": "Guías de Baška Voda",
+    "faq": "Preguntas frecuentes de Baška Voda",
+    "groups": {
+      "gettingAround": "Estacionamiento y cómo moverse",
+      "planning": "Planificación y dónde alojarse",
+      "timing": "Cuándo ir",
+      "travelers": "Familias, parejas y estilos de viaje",
+      "activities": "Playas y cosas que hacer",
+      "food": "Comida y bebida",
+      "comparisons": "Comparaciones",
+      "practical": "Información práctica"
+    },
+    "car": "En coche",
+    "other": "Otras opciones",
+    "bestFor": "Ideal para",
+    "parking": "Estacionamiento",
+    "beach": "Playa"
+  },
+  "destination": "baska-voda",
+  "language": "es",
+  "updatedAt": "2026-10-16T13:25:34.117Z"
+}

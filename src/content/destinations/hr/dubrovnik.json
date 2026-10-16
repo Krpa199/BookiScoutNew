@@ -1,0 +1,153 @@
+{
+  "title": "Dubrovnik Vodič za putovanje: Područja, parking i kada posjetiti",
+  "metaDescription": "Planirajte svoje putovanje u Dubrovnik s konkretnim detaljima o najboljim područjima za boravak, rutama vožnje iz Srednje Europe, informacijama o parkiranju i lokalnim plažama.",
+  "intro": "Dubrovnik privlači prvenstveno ljubitelje povijesti i putnike koji traže dramatične obalne krajolike. Grad je poznat po svojoj snažno utvrđenoj Staroj gradskoj jezgri, smještenoj izravno uz Jadransko more, što ga čini glavnom postajom za mediteranska krstarenja i putnike cestom. Posjetitelji dolaze prošetati srednjovjekovnim zidinama, otići na izlete brodom do obližnjih Elafitskih otoka i istražiti okolne stjenovite uvale.\n\nBudući da je to najpoznatije odredište u Hrvatskoj, zahtijeva pažljivo planiranje kako bi se izbjegli visoki troškovi i velike ljetne gužve. Najbolje je posjetiti u predsezoni i posezoni, u svibnju, lipnju, rujnu ili listopadu, kada je vrijeme dovoljno toplo za kupanje, ali uskim kamenim ulicama je lakše kretati se.",
+  "quickFacts": [
+    {
+      "label": "Najbolji mjeseci",
+      "value": "Svibanj, lipanj, rujan, listopad"
+    },
+    {
+      "label": "Temperatura mora u kolovozu",
+      "value": "25°C do 27°C (77°F do 80°F)"
+    },
+    {
+      "label": "Najbliža zračna luka",
+      "value": "Zračna luka Dubrovnik (DBV), 20 km (12 milja)"
+    },
+    {
+      "label": "Glavna vrsta plaže",
+      "value": "Šljunčane i stjenovite terase"
+    },
+    {
+      "label": "Razina cijena",
+      "value": "Značajno viša od hrvatskog prosjeka"
+    },
+    {
+      "label": "Prohodnost Starog grada",
+      "value": "Potpuno pješačka zona, brojne strme stepenice"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Stari Grad (Grad)",
+      "bestFor": "Posjetitelje koji prvi put dolaze i razgledavanje",
+      "parking": "Automobili nisu dopušteni; parking izvan zidina je vrlo skup",
+      "beach": "10 minuta hoda do plaže Banje (šljunčana)",
+      "summary": "Boravak unutar zidina smješta vas na nekoliko koraka od glavnih znamenitosti i restorana. Međutim, prtljagu morate nositi preko kaldrme i svladati mnoge stepenice."
+    },
+    {
+      "name": "Lapad",
+      "bestFor": "Obitelji i boravak u odmaralištima",
+      "parking": "Lakše nego u centru, mnogi hoteli nude parkirališta",
+      "beach": "Uvala Lapad (šljunčana/pješčana) i stjenovite uvale",
+      "summary": "Veliki poluotok sjeverozapadno od centra s opuštenim, odmarališnim ugođajem. Povezan je sa Starim gradom 15-minutnom vožnjom autobusom."
+    },
+    {
+      "name": "Ploče",
+      "bestFor": "Luksuzne putnike koji žele pogled na more i Stari grad",
+      "parking": "Vrlo ograničen ulični parking; privatno mjesto je ključno",
+      "beach": "Nekoliko koraka od plaže Banje i Svetog Jakova (šljunčana)",
+      "summary": "Ovo luksuzno brdsko naselje s pogledom na istočnu stranu gradskih zidina. Pogledi su izvrsni, ali dolazak do područja uključuje hodanje uz strme stepenice."
+    },
+    {
+      "name": "Gruž",
+      "bestFor": "Putnike s ograničenim budžetom i one koji koriste trajekte",
+      "parking": "Dostupna su javna parkirališta i jeftinija su od centralnih opcija",
+      "beach": "15 do 20 minuta hoda do plaže Bellevue (šljunčana)",
+      "summary": "Glavna gradska luka i trgovački centar nudi lokalniju atmosferu i niže cijene. To je najbolja baza ako planirate rano ujutro ići trajektom na otoke."
+    },
+    {
+      "name": "Babin Kuk",
+      "bestFor": "Putnike koji traže mirne hotelske komplekse",
+      "parking": "Dostupan u izobilju u velikim hotelskim kompleksima",
+      "beach": "Plaže Copacabana i Cava (šljunčane)",
+      "summary": "Smješteno na sjevernom vrhu poluotoka Lapad, ovo područje dominiraju veliki hotelski kompleksi i zelene površine. Pruža miran bijeg od centra grada."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "940 km, 10-11 sati preko A8, austrijske A10, slovenske A2 i hrvatske A1. Potrebne su austrijska/slovenska vinjeta i hrvatska cestarina.",
+      "other": "Dostupni su izravni letovi iz MUC-a za DBV"
+    },
+    {
+      "from": "Beč",
+      "car": "800 km, 8.5-10 sati preko A2 do Graza, slovenske A1/A4 i hrvatske A1. Potrebne su austrijska/slovenska vinjeta i hrvatska cestarina.",
+      "other": "Dostupni su izravni letovi iz VIE-a za DBV"
+    },
+    {
+      "from": "Budimpešta",
+      "car": "740 km, 8-9 sati preko M7 do granice, zatim hrvatske A4 i A1 južno. Potrebna je mađarska vinjeta i hrvatska cestarina.",
+      "other": "Izravni letovi (Ryanair) ili FlixBus"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "620 km, 6.5-7.5 sati preko A2 do granice, zatim hrvatske A1 južno. Potrebna je slovenska vinjeta i hrvatska cestarina.",
+      "other": "FlixBus ili vožnja (nema izravnih letova)"
+    },
+    {
+      "from": "Prag",
+      "car": "1100 km, 11-13 sati preko D1 do Brna, Austrije, Slovenije i hrvatske A1. Potrebne su češka/austrijska/slovenska vinjeta i hrvatska cestarina.",
+      "other": "Dostupni su izravni letovi iz PRG-a za DBV"
+    },
+    {
+      "from": "Krakov",
+      "car": "1100 km, 11.5-13 sati preko Slovačke, Mađarske (M3/M7) i hrvatske A4/A1. Potrebne su slovačka/mađarska vinjeta i hrvatska cestarina.",
+      "other": "Izravni letovi (Ryanair) ili međugradski autobus"
+    }
+  ],
+  "whenToGo": "Srpanj i kolovoz su najgušći i najskuplji mjeseci, donoseći intenzivnu vrućinu i vrhunske temperature mora oko 26°C (79°F). Svibanj, lipanj, rujan i listopad nude ugodniju ravnotežu, s toplim vremenom, temperaturama mora pogodnim za kupanje (posebno u ranoj jeseni) i potpuno funkcionalnim trajektima i restoranima. Od studenog do travnja, Dubrovnik je miran i mnogo jeftiniji, ali more je prehladno za kupanje, mnogi obalni objekti zatvaraju se zimi, a rasporedi trajekata su znatno smanjeni.",
+  "faq": [
+    {
+      "question": "Isplati li se posjetiti?",
+      "answer": "Da, njegove netaknute srednjovjekovne zidine i povijesna arhitektura čine ga jedinstvenim u Europi. Međutim, zahtijeva veći budžet i toleranciju na gužve tijekom ljeta."
+    },
+    {
+      "question": "Koliko dana mi treba?",
+      "answer": "Dva do tri dana dovoljno je za šetnju zidinama, istraživanje povijesnog centra i posjet obližnjem otoku. Duži boravak omogućuje jednodnevne izlete u Crnu Goru ili Mostar."
+    },
+    {
+      "question": "Koja je najbolja plaža?",
+      "answer": "Sveti Jakov je najbolja opcija za izbjegavanje najvećih gužvi, zadržavajući pritom pogled na Stari grad. Zahtijeva spuštanje dugim stubištem jugoistočno od centra."
+    },
+    {
+      "question": "Trebam li auto?",
+      "answer": "Ne, automobil je u Dubrovniku mana zbog ozbiljnih ograničenja parkiranja i pješačkih zona. Ako se vozite u Dubrovnik, vjerojatno ćete ostaviti svoje vozilo parkirano tijekom cijelog boravka."
+    },
+    {
+      "question": "Gdje trebam parkirati?",
+      "answer": "Parkirajte kod smještaja ako nude namjenski prostor. Inače, koristite parkiralište luke Gruž ili javnu garažu Ilijina Glavica, iako potonja ljeti može koštati do 70 € dnevno."
+    },
+    {
+      "question": "Je li dobro za obitelji?",
+      "answer": "Da, starija djeca će uživati u istraživanju tvrđava i izletima brodom. Međutim, beskrajne stepenice Starog grada čine ga vrlo nepraktičnim za putnike s dječjim kolicima."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na prvi pogled",
+    "whereToStay": "Gdje odsjesti u Dubrovniku",
+    "gettingThere": "Dolazak u Dubrovnik",
+    "whenToGo": "Kada posjetiti",
+    "guides": "Vodiči za Dubrovnik",
+    "faq": "Česta pitanja o Dubrovniku",
+    "groups": {
+      "gettingAround": "Parking i kretanje po gradu",
+      "planning": "Planiranje i gdje odsjesti",
+      "timing": "Kada posjetiti",
+      "travelers": "Obitelji, parovi i stilovi putovanja",
+      "activities": "Plaže i stvari za raditi",
+      "food": "Hrana i piće",
+      "comparisons": "Usporedbe",
+      "practical": "Praktične informacije"
+    },
+    "car": "Automobilom",
+    "other": "Ostale opcije",
+    "bestFor": "Najbolje za",
+    "parking": "Parking",
+    "beach": "Plaža"
+  },
+  "destination": "dubrovnik",
+  "language": "hr",
+  "updatedAt": "2026-10-16T10:13:35.333Z"
+}

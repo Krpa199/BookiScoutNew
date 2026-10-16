@@ -1,0 +1,146 @@
+{
+  "title": "Vis Travel Guide: Towns, Beaches & Where to Stay",
+  "metaDescription": "Plan your trip to the Croatian island of Vis. Discover where to stay in Vis Town and Komiža, how to get there, ferry information, and beach details.",
+  "intro": "Vis is the furthest inhabited island off the Croatian mainland, accessible via a 2.5-hour ferry ride from Split. It caters to independent travelers looking for a quieter, less commercially developed alternative to neighboring Hvar or Brač. The island is known for its military history, agricultural interior, and rocky coves. It has no large resort hotels, relying instead on private apartments, villas, and a few small boutique accommodations.\n\nThe travel season is strictly seasonal, running from May to October, with peak ferry connections and restaurant operations in July and August. Visitors typically base themselves in one of the two main settlements—Vis Town or Komiža—and use a car or scooter to access remote beaches on the southern coast.",
+  "quickFacts": [
+    {
+      "label": "Best months",
+      "value": "June to September"
+    },
+    {
+      "label": "Sea temp in August",
+      "value": "24°C to 26°C"
+    },
+    {
+      "label": "Nearest airport",
+      "value": "Split Airport (SPU) + 2.5-hour ferry"
+    },
+    {
+      "label": "Main beach type",
+      "value": "Pebbles, flat rocks, isolated sandy coves"
+    },
+    {
+      "label": "Price level",
+      "value": "10-20% higher than the Croatian average"
+    },
+    {
+      "label": "Walkability",
+      "value": "Walkable; parts of Komiža and Kut are car-free"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Vis Town (Luka & Kut)",
+      "bestFor": "First-time visitors, ferry access, dining",
+      "parking": "Large paid lot near the ferry port; limited in Kut",
+      "beach": "Prirovo (pebble) is a 10-minute walk",
+      "summary": "The main port divided into the newer Luka and the historic, quieter Kut. It offers the best ferry connections and the highest concentration of restaurants."
+    },
+    {
+      "name": "Komiža",
+      "bestFor": "Sunsets, boat trips to the Blue Cave",
+      "parking": "Large paid municipal lot above the pedestrian center",
+      "beach": "Small pebble beaches (Gusarica, Kamenice) nearby",
+      "summary": "A traditional fishing town on the western coast with stone houses and a slightly more bohemian atmosphere. It serves as the primary departure point for Blue Cave excursions on Biševo."
+    },
+    {
+      "name": "Rukavac",
+      "bestFor": "Quiet beach holidays, nature",
+      "parking": "Usually included with private apartment rentals",
+      "beach": "Walking distance to Srebrna (flat rocks/pebbles)",
+      "summary": "A small, quiet resort village on the southeast coast composed mostly of private rental apartments. It lacks a true town center but offers close proximity to the island's best southern beaches."
+    },
+    {
+      "name": "Milna & Ženka",
+      "bestFor": "Travelers seeking sandy shores",
+      "parking": "Roadside or private driveways",
+      "beach": "Milna beach (sand) and Zaglav (sand) nearby",
+      "summary": "Coastal settlements on the southeastern shore, known for proximity to rare sandy beaches. The area is heavily residential with minimal commercial infrastructure."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Munich",
+      "car": "850 km to Split (approx 9.5 hours) + 2.5h ferry, via A10/A1, AT/SI vignettes, HR tolls",
+      "other": "Direct flights to Split (SPU)"
+    },
+    {
+      "from": "Vienna",
+      "car": "760 km to Split (approx 8 hours) + 2.5h ferry, via A2/A1, AT/SI vignettes, HR tolls",
+      "other": "Direct flights or sleeper train to Split"
+    },
+    {
+      "from": "Budapest",
+      "car": "750 km to Split (approx 7.5 hours) + 2.5h ferry, via M7/A4/A1, HU vignette, HR tolls",
+      "other": "Direct flights or seasonal trains to Split"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "470 km to Split (approx 5 hours) + 2.5h ferry, via A2/A1, SI vignette, HR tolls",
+      "other": "Direct bus to Split"
+    },
+    {
+      "from": "Prague",
+      "car": "1,090 km to Split (approx 11.5 hours) + 2.5h ferry, via CZ/AT/SI vignettes, HR tolls",
+      "other": "Direct flights to Split"
+    },
+    {
+      "from": "Kraków",
+      "car": "1,050 km to Split (approx 11 hours) + 2.5h ferry, via SK/HU vignettes, HR tolls",
+      "other": "Direct flights to Split"
+    }
+  ],
+  "whenToGo": "The tourist season runs from May to October. In May and October, the island is very quiet, some restaurants and boat tours do not operate, and the sea temperature is cool (18°C to 20°C). June and September offer the best balance for visitors, with sea temperatures around 23°C, fully open facilities, and moderate crowds. July and August are the busiest and most expensive months; daytime temperatures regularly exceed 30°C, the sea reaches 25°C, and advance booking for ferries, accommodations, and restaurants is mandatory. Outside of these months, Vis operates on a skeleton winter schedule with minimal tourist infrastructure open.",
+  "faq": [
+    {
+      "question": "Is Vis worth visiting?",
+      "answer": "Yes, if you prefer a quieter, less developed Dalmatian island with authentic fishing villages and nature. It is not recommended for those looking for large sandy beaches, all-inclusive resorts, or extensive nightlife."
+    },
+    {
+      "question": "How many days do I need in Vis?",
+      "answer": "Three to five days is optimal for a visit to Vis. This provides enough time to see Vis Town and Komiža, take a boat tour to the Blue Cave on Biševo, and spend a day or two at southern beaches like Stiniva or Srebrna."
+    },
+    {
+      "question": "What is the best beach on Vis?",
+      "answer": "Stiniva is the most famous for its dramatic enclosed pebble cove, but it requires a steep 30-minute hike or boat access. For easier access and all-day lounging, Srebrna offers smooth, flat rocks and pebbles, while Zaglav provides a rare sandy shoreline."
+    },
+    {
+      "question": "Do I need a car on Vis?",
+      "answer": "A car or scooter is highly recommended for reaching the island's secluded beaches, inland restaurants, and military sites. While a public bus connects the two main towns (Vis Town and Komiža) in sync with the ferry schedule, relying solely on public transport restricts exploration."
+    },
+    {
+      "question": "Where do I park in Vis?",
+      "answer": "Vis Town has a large paid parking lot adjacent to the ferry terminal, while Komiža features a large municipal paid lot just above its pedestrianized center. Street parking in both towns is severely restricted, and many private apartments in the historic cores do not offer on-site parking."
+    },
+    {
+      "question": "Is Vis good for families?",
+      "answer": "Vis is suitable for families seeking a quiet, nature-focused holiday, but it lacks dedicated family resorts and entertainment infrastructure. Most beaches are made of pebbles or rocks and drop off into deep water quickly, though Milna and Zaglav offer shallow sandy alternatives."
+    }
+  ],
+  "headings": {
+    "quickFacts": "At a glance",
+    "whereToStay": "Where to stay in Vis",
+    "gettingThere": "Getting to Vis",
+    "whenToGo": "When to go",
+    "guides": "Vis guides",
+    "faq": "Vis FAQ",
+    "groups": {
+      "gettingAround": "Parking & getting around",
+      "planning": "Planning & where to stay",
+      "timing": "When to go",
+      "travelers": "Families, couples & travel styles",
+      "activities": "Beaches & things to do",
+      "food": "Food & drink",
+      "comparisons": "Comparisons",
+      "practical": "Practical info"
+    },
+    "car": "By car",
+    "other": "Other options",
+    "bestFor": "Best for",
+    "parking": "Parking",
+    "beach": "Beach"
+  },
+  "destination": "vis",
+  "language": "en",
+  "updatedAt": "2026-10-16T14:13:28.374Z"
+}

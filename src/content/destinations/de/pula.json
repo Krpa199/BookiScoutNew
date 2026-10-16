@@ -1,0 +1,146 @@
+{
+  "title": "Pula Reiseführer: Strände, Parken & Unterkünfte",
+  "metaDescription": "Planen Sie eine Reise nach Pula, Kroatien. Erfahren Sie mehr über die besten Gegenden zum Übernachten, Anreiserouten aus Europa, Parkmöglichkeiten, Strände und die beste Reisezeit.",
+  "intro": "Pula dient als Haupttor zur istrischen Halbinsel und zieht Geschichtsliebhaber sowie Sommerurlauber an. Die Stadt wird durch ihr gut erhaltenes römisches Amphitheater und eine Küstenlinie mit felsigen Ufern und Kiesbuchten geprägt. Besucher, die eine Kombination aus archäologischen Stätten und zugänglichen Küstenresorts suchen, finden die Gegend gut geeignet für einen Kurzurlaub oder als Ausgangspunkt für umfassendere Erkundungen der Region.\n\nDie günstigsten Bedingungen herrschen von Ende Mai bis September, wenn die Fähren häufig verkehren und alle touristischen Einrichtungen geöffnet sind. Der Sommer bringt hohe Temperaturen und erhebliche Menschenmassen mit sich, insbesondere entlang der Verudela-Halbinsel. Besucher, die günstigere Übernachtungspreise und moderates Wetter bevorzugen, sollten Juni oder September ins Auge fassen, um die größte Überfüllung im Juli und August zu vermeiden.",
+  "quickFacts": [
+    {
+      "label": "Beste Monate",
+      "value": "Juni und September"
+    },
+    {
+      "label": "Meerestemperatur im August",
+      "value": "25°C bis 27°C"
+    },
+    {
+      "label": "Nächstgelegener Flughafen",
+      "value": "Flughafen Pula (PUY), 8 km vom Zentrum entfernt"
+    },
+    {
+      "label": "Hauptstrandtyp",
+      "value": "Kies, Fels und Betonplatten"
+    },
+    {
+      "label": "Preisniveau",
+      "value": "Durchschnittlich für Istrien, leicht unter Dubrovnik"
+    },
+    {
+      "label": "Begehbarkeit der Altstadt",
+      "value": "Fußgängerzone im Kern, für Autos gesperrt"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Pula Stadtzentrum / Altstadt",
+      "bestFor": "Geschichtsinteressierte Reisen, Gastronomie und Verkehrsverbindungen",
+      "parking": "Schwierig; erfordert große kostenpflichtige Parkplätze außerhalb der Fußgängerzone",
+      "beach": "2 bis 3 km entfernt (Busfahrt erforderlich)",
+      "summary": "Der historische Kern konzentriert sich um das römische Amphitheater und das Forum. Es fehlt ein direkter Strandzugang, bietet aber die höchste Konzentration an Restaurants, Bars und Museen."
+    },
+    {
+      "name": "Verudela-Halbinsel",
+      "bestFor": "Familien und Resort-Urlaube",
+      "parking": "Reichlich bei Hotels und ausgewiesenen Resort-Parkplätzen",
+      "beach": "Direkter Zugang zu Kiesbuchten (Hawaii Beach, Ambrela)",
+      "summary": "Dieses Gebiet liegt 5 km südlich des Zentrums und besteht hauptsächlich aus großen Resortanlagen und Ferienwohnungen. Es bietet einige der am besten zugänglichen Kiesstrände Pulas und das örtliche Aquarium."
+    },
+    {
+      "name": "Stoja-Halbinsel",
+      "bestFor": "Camper und Outdoor-Erholung",
+      "parking": "Einfaches Parken an der Straße und große Campingplatzanlagen",
+      "beach": "Direkter Zugang zu felsigen Küstenabschnitten und dem Kieselstrand Valkane",
+      "summary": "Stoja liegt westlich des Stadtzentrums und beherbergt einen großen Campingplatz, ein Einkaufszentrum und felsige Küstenpfade. Die Gegend ist ruhiger als Verudela und spricht Besucher an, die Selbstversorgung oder Camping bevorzugen."
+    },
+    {
+      "name": "Pješčana Uvala",
+      "bestFor": "Paare und Familien, die ein ruhigeres Dorfgefühl suchen",
+      "parking": "Begrenzte öffentliche Parkplätze; am besten über die Unterkunft sichern",
+      "beach": "Kurzer Fußweg zu einer geschützten Kies-/Sandbucht",
+      "summary": "Eine südlich von Pula gelegene Wohnsiedlung, die um eine geschützte Bucht herum gebaut ist. Sie bietet eine entspanntere Alternative zu den großen Resorts, mit einem hochwertigen lokalen Strand und mehreren Restaurants am Wasser."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "590 km, 6,5 Stunden über A10 und A1. Benötigt AT- und SI-Vignetten, plus Karawankentunnel und HR-Maut",
+      "other": "Direktflug mit Lufthansa oder saisonaler Flixbus"
+    },
+    {
+      "from": "Wien",
+      "car": "580 km, 6 Stunden über A2 und A1. Benötigt AT- und SI-Vignetten, plus HR-Maut",
+      "other": "Direkter saisonaler Flug mit Ryanair oder Austrian Airlines"
+    },
+    {
+      "from": "Budapest",
+      "car": "610 km, 6,5 Stunden über M7 und HR A4/A6. Benötigt HU E-Vignette und HR-Maut",
+      "other": "Direktbus über Flixbus"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "200 km, 2,5 Stunden über A1. Benötigt SI-Vignette und HR-Maut",
+      "other": "Direkter täglicher Bus über Nomago oder Flixbus"
+    },
+    {
+      "from": "Prag",
+      "car": "880 km, 10 Stunden über CZ D1, AT A9, SI A1. Benötigt CZ-, AT-, SI-Vignetten, plus Tunnel und HR-Maut",
+      "other": "Saisonaler Direktflug oder Zug nach Rijeka, gefolgt von Bus"
+    },
+    {
+      "from": "Krakau",
+      "car": "1050 km, 11 Stunden über PL A4, CZ D1, AT A1/A2, SI A1. Benötigt CZ-, AT-, SI-Vignetten, plus PL- und HR-Maut",
+      "other": "Saisonale Flüge über LOT/Ryanair oder mehrstufige Busverbindungen"
+    }
+  ],
+  "whenToGo": "Juni und September bieten die beste Balance aus warmen Meerestemperaturen (um 23°C), moderaten Preisen und weniger Menschenmassen. Im Juli und August erreichen die Meerestemperaturen ihren Höhepunkt zwischen 25°C und 27°C, was mit maximalen Übernachtungspreisen, starkem Verkehr und voll funktionsfähigen Fährplänen zusammenfällt. Mai und Oktober bieten kühlere Gewässer um 18°C bis 20°C, was das Schwimmen weniger zuverlässig macht, obwohl die wichtigsten archäologischen Stätten ohne die Sommerhitze geöffnet bleiben. In den Wintermonaten von November bis April sinken die Temperaturen erheblich, was zu erheblichen Preisnachlässen führt, aber viele Küstenunternehmen, Hotels und saisonale Flugrouten dazu veranlasst, den Betrieb vollständig einzustellen.",
+  "faq": [
+    {
+      "question": "Ist Pula einen Besuch wert?",
+      "answer": "Ja, besonders wegen seiner gut erhaltenen römischen Architektur und der zugänglichen Küstenresorts. Es eignet sich gut als eigenständiges Reiseziel oder als Ausgangspunkt für die Erkundung der istrischen Halbinsel."
+    },
+    {
+      "question": "Wie viele Tage brauche ich in Pula?",
+      "answer": "Zwei bis drei Tage reichen aus, um die Stadt zu erkunden. Dies ermöglicht einen Tag für die Besichtigung des Amphitheaters und der Altstadt sowie ein oder zwei weitere Tage für Strände oder einen Bootsausflug zu den Brijuni-Inseln."
+    },
+    {
+      "question": "Was ist der beste Strand in Pula?",
+      "answer": "Der Hawaii Beach auf der Verudela-Halbinsel gilt weithin als die beste Option. Er zeichnet sich durch ein sanft abfallendes Kieselstrandufer, klares Wasser und die Umrandung von hohen Felsklippen aus."
+    },
+    {
+      "question": "Brauche ich ein Auto in Pula?",
+      "answer": "Ein Auto ist nicht notwendig, wenn Sie in der Altstadt oder auf der Verudela-Halbinsel übernachten, da lokale Busse diese Gebiete zuverlässig verbinden. Ein Fahrzeug ist jedoch sehr empfehlenswert für den Besuch von Bergdörfern und abgelegenen Stränden in der weiteren Region Istrien."
+    },
+    {
+      "question": "Wo soll ich in Pula parken?",
+      "answer": "Die Parkplätze Karolina und Mandrač sind die praktischsten Optionen für einen Besuch des Zentrums. Beide sind große, kostenpflichtige Freiluftparkplätze, die sich direkt außerhalb der Fußgängerzone der Altstadt befinden und das Fahren durch enge Einbahnstraßen minimieren."
+    },
+    {
+      "question": "Ist Pula gut für Familien geeignet?",
+      "answer": "Ja, die Gegend bietet eine ausgezeichnete Infrastruktur für Reisen mit Kindern. Die Verudela-Halbinsel verfügt über ruhige, familienfreundliche Kieselstrände, flache Schwimmzonen und Attraktionen wie das Pula Aquarium."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Auf einen Blick",
+    "whereToStay": "Wo man in Pula übernachten sollte",
+    "gettingThere": "Anreise nach Pula",
+    "whenToGo": "Beste Reisezeit",
+    "guides": "Pula Reiseführer",
+    "faq": "Pula FAQ",
+    "groups": {
+      "gettingAround": "Parken & Fortbewegung",
+      "planning": "Planung & Unterkünfte",
+      "timing": "Beste Reisezeit",
+      "travelers": "Familien, Paare & Reisestile",
+      "activities": "Strände & Aktivitäten",
+      "food": "Essen & Trinken",
+      "comparisons": "Vergleiche",
+      "practical": "Praktische Infos"
+    },
+    "car": "Mit dem Auto",
+    "other": "Weitere Optionen",
+    "bestFor": "Am besten für",
+    "parking": "Parken",
+    "beach": "Strand"
+  },
+  "destination": "pula",
+  "language": "de",
+  "updatedAt": "2026-10-16T10:29:10.087Z"
+}

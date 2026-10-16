@@ -1,0 +1,146 @@
+{
+  "title": "Orebić Reisgids: Stranden, Wijn en Waar te Verblijven",
+  "metaDescription": "Plan je reis naar Orebić met deze praktische gids. Ontdek de beste stranden, lokale wijnregio's, autoroutes en de beste wijken om te verblijven.",
+  "intro": "Orebić is een historische maritieme stad aan de zuidwestkust van het Pelješac-schiereiland, direct aan de overkant van een smalle zeestraat van het eiland Korčula. Het dient als een uitstekende uitvalsbasis voor reizigers die de klassieke Dalmatische combinatie van door pijnbomen beschaduwde stranden, helder water en een prominente lokale wijncultuur zoeken, zonder de intense drukte van de grote steden. De stad ligt op het zuiden, beschut door de berg Ilija, die een dramatisch decor vormt en de kust beschermt tegen noordelijke winden.\n\nDe bestemming spreekt sterk aan gezinnen die op zoek zijn naar rustige zwemplekken met een zandbodem, zoals Trstenica, evenals stellen en groepen die geïnteresseerd zijn in een rondleiding door de nabijgelegen Dingač- en Postup-wijngaarden. De meest betrouwbare reistijd is van juni tot en met september, wanneer de zee warm genoeg is om te zwemmen en alle veerbootroutes en lokale restaurants volledig operationeel zijn.",
+  "quickFacts": [
+    {
+      "label": "Beste maanden",
+      "value": "Juni tot september"
+    },
+    {
+      "label": "Zeetemperatuur in augustus",
+      "value": "24°C - 26°C"
+    },
+    {
+      "label": "Dichtstbijzijnde luchthaven",
+      "value": "Dubrovnik (DBV), 130 km"
+    },
+    {
+      "label": "Hoofdstrandtype",
+      "value": "Fijn kiezelstrand met zanderige zeebodem"
+    },
+    {
+      "label": "Prijsniveau",
+      "value": "Gemiddeld (goedkoper dan Dubrovnik)"
+    },
+    {
+      "label": "Autovrij centrum",
+      "value": "Goed te voet te verkennen, maar auto's toegestaan in de meeste straten"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centrum van Orebić & Promenade",
+      "bestFor": "Nieuwkomers en zij die afhankelijk zijn van veerboten of openbaar vervoer",
+      "parking": "Betaald parkeren op straat en op parkeerplaatsen bij de veerboot; vaak druk",
+      "beach": "Kleine kiezelstranden langs de promenade",
+      "summary": "De historische kern omvat oude huizen van zeekapiteins, een lange strandpromenade en de belangrijkste veerhaven. Het biedt gemakkelijke toegang te voet tot de meeste restaurants, bakkerijen en de snelle passagiersveerboot naar Korčula."
+    },
+    {
+      "name": "Trstenica Gebied",
+      "bestFor": "Gezinnen met kinderen en strandliefhebbers",
+      "parking": "Beperkt parkeren op straat; accommodatie boeken met een eigen plek is essentieel",
+      "beach": "Trstenica Strand (zand en fijne kiezels, ondiepe toegang)",
+      "summary": "Gelegen aan de oostrand van de stad, is deze woonwijk gebouwd rond het beroemdste strand van Orebić. Het is rustiger dan het centrum, maar nog steeds op 15 minuten loopafstand van de hoofdpromenade."
+    },
+    {
+      "name": "Viganj & Kučište",
+      "bestFor": "Windsurfers, kitesurfers en actieve reizigers",
+      "parking": "Over het algemeen gemakkelijker, met grotere parkeerplaatsen bij campings en appartementen aan het strand",
+      "beach": "Lange stroken fijne kiezelstranden direct aan de weg",
+      "summary": "Deze kustdorpen, enkele kilometers ten westen van Orebić gelegen, staan bekend om hun betrouwbare middagmistralwinden. De sfeer is ontspannen en sportief, met talrijke surfscholen, strandbars en campings."
+    },
+    {
+      "name": "Mokalo & Postup",
+      "bestFor": "Wijnliefhebbers en stellen die rust zoeken",
+      "parking": "Gemakkelijk en veilig, meestal aangeboden door privé-villa's en resorts",
+      "beach": "Afgelegen kiezelbaaien omzoomd door steile wijngaarden",
+      "summary": "Deze kleine gehuchten ten oosten van Orebić liggen op heuvels die beroemd zijn om de Postup-wijnaanduiding. Ze bieden boetiekaccommodaties, weidse uitzichten over de archipel en een zeer rustige sfeer weg van de hoofdplaats."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "1.050 km, 11-12 uur via A8, Villach, Ljubljana, Zagreb, A1 naar Ploče en de tolvrije Pelješacbrug. Vereist Oostenrijkse en Sloveense vignetten, plus Kroatische snelwegtol.",
+      "other": "Vlucht naar Split (SPU) of Dubrovnik (DBV), daarna huurauto of bus."
+    },
+    {
+      "from": "Wenen",
+      "car": "860 km, 9-10 uur via Graz, Maribor, Zagreb, A1 naar Ploče en de Pelješacbrug. Vereist Oostenrijkse en Sloveense vignetten, plus Kroatische tolgelden.",
+      "other": "Directe vlucht naar Split (SPU) of Dubrovnik (DBV)."
+    },
+    {
+      "from": "Boedapest",
+      "car": "850 km, 9-10 uur via M7 naar Letenye, Zagreb, A1 zuid naar Ploče en de Pelješacbrug. Vereist Hongaars vignet en Kroatische tolgelden.",
+      "other": "Vlucht naar Split (SPU) of Dubrovnik (DBV) in de zomer."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "610 km, 6,5-7,5 uur via Novo Mesto, Zagreb, A1 zuid naar Ploče en de Pelješacbrug. Vereist Sloveens vignet en Kroatische tolgelden.",
+      "other": "Bus naar Split of Dubrovnik, daarna lokale bus of veerboot naar Orebić."
+    },
+    {
+      "from": "Praag",
+      "car": "1.150 km, 12-14 uur via Brno, Wenen, Graz, Zagreb en A1 zuid. Vereist Tsjechische, Oostenrijkse en Sloveense vignetten, plus Kroatische tolgelden.",
+      "other": "Directe vluchten naar Split (SPU) of Dubrovnik (DBV)."
+    },
+    {
+      "from": "Krakau",
+      "car": "1.200 km, 13-14 uur via Slowakije, Boedapest, Zagreb en A1 zuid. Vereist Slowaakse en Hongaarse vignetten, plus Kroatische tolgelden.",
+      "other": "Directe zomer vluchten naar Split (SPU) of Dubrovnik (DBV)."
+    }
+  ],
+  "whenToGo": "Het seizoen begint in mei, wanneer de kustrestaurants heropenen en de prijzen laag blijven, hoewel de zeetemperatuur een frisse 18°C is. Juni brengt warmer weer en zeetemperaturen rond de 22°C, waardoor het een geweldige tijd is voor vroege zomerzwemmen met gematigde drukte. Het hoogseizoen beslaat juli en augustus, wanneer de zee een zeer comfortabele 24°C tot 26°C bereikt; gedurende deze maanden is de stad het drukst, bereiken de accommodatieprijzen hun hoogtepunt en is strandparkeren zeer competitief. September wordt algemeen beschouwd als de optimale maand, met warm water (ongeveer 23°C), minder drukte en het begin van de lokale druivenoogst. Tegen eind oktober sluit de toeristische infrastructuur grotendeels voor de winter, en keert de stad terug naar een rustig, lokaal ritme.",
+  "faq": [
+    {
+      "question": "Is Orebić een bezoek waard?",
+      "answer": "Ja, Orebić is zeker een bezoek waard vanwege de uitstekende stranden en prominente wijncultuur. Het biedt een veel relaxter alternatief voor de drukke steden van Dalmatië, terwijl het nog steeds gemakkelijke toegang biedt tot het eiland Korčula."
+    },
+    {
+      "question": "Hoeveel dagen moet ik in Orebić doorbrengen?",
+      "answer": "Drie tot vijf dagen is een ideale verblijfsduur in Orebić. Dit geeft voldoende tijd om te genieten van het Trstenica-strand, de nabijgelegen Dingač-wijngaarden te bezoeken en een dagtocht te maken over de zeestraat naar Korčula."
+    },
+    {
+      "question": "Wat is het beste strand in Orebić?",
+      "answer": "Trstenica wordt algemeen beschouwd als het beste strand in Orebić, vooral voor gezinnen. Het beschikt over een fijne kiezeloever met een zanderige zeebodem en ondiep water, omzoomd door pijnbomen die natuurlijke schaduw bieden."
+    },
+    {
+      "question": "Heb ik een auto nodig in Orebić?",
+      "answer": "Hoewel de stad zelf gemakkelijk te voet te verkennen is, wordt het hebben van een auto ten zeerste aanbevolen. Een voertuig is essentieel voor het verkennen van de wijnmakerijen, landelijke dorpen en verborgen baaien van het Pelješac-schiereiland."
+    },
+    {
+      "question": "Waar is de beste plek om te parkeren in Orebić?",
+      "answer": "Er is een grote betaalde parkeerplaats bij de belangrijkste veerbootterminal, hoewel deze in juli en augustus snel vol raakt. Als u in het centrum of nabij het Trstenica-strand verblijft, is het cruciaal om accommodatie te boeken met een eigen parkeerplaats."
+    },
+    {
+      "question": "Is Orebić goed voor gezinnen?",
+      "answer": "Orebić is een uitstekende bestemming voor gezinnen vanwege de rustige sfeer en veilige zwemomstandigheden. De ondiepe wateren met zandbodem bij het Trstenica-strand zijn bijzonder geschikt voor jonge kinderen."
+    }
+  ],
+  "headings": {
+    "quickFacts": "In het kort",
+    "whereToStay": "Waar te verblijven in Orebić",
+    "gettingThere": "Reizen naar Orebić",
+    "whenToGo": "Wanneer te gaan",
+    "guides": "Orebić gidsen",
+    "faq": "Orebić Veelgestelde vragen",
+    "groups": {
+      "gettingAround": "Parkeren & rondreizen",
+      "planning": "Planning & waar te verblijven",
+      "timing": "Wanneer te gaan",
+      "travelers": "Gezinnen, stellen & reisstijlen",
+      "activities": "Stranden & dingen om te doen",
+      "food": "Eten & drinken",
+      "comparisons": "Vergelijkingen",
+      "practical": "Praktische informatie"
+    },
+    "car": "Met de auto",
+    "other": "Andere opties",
+    "bestFor": "Het beste voor",
+    "parking": "Parkeren",
+    "beach": "Strand"
+  },
+  "destination": "orebic",
+  "language": "nl",
+  "updatedAt": "2026-10-16T15:11:43.045Z"
+}

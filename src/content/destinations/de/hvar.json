@@ -1,0 +1,146 @@
+{
+  "title": "Hvar Reiseführer: Stadtteile, Fähren & Unterkünfte",
+  "metaDescription": "Planen Sie eine Reise nach Hvar, Kroatien. Entdecken Sie die besten Gegenden zum Übernachten, Anfahrtswege aus Mitteleuropa, Fährinformationen und praktische Tipps für Besucher.",
+  "intro": "Hvar ist eine Insel vor der dalmatinischen Küste Kroatiens, erreichbar mit Autofähren von Split und Drvenik. Sie spricht ein breites Spektrum von Besuchern an, von denen, die nächtliche Unterhaltung in Hvar-Stadt suchen, bis hin zu Familien und Paaren, die die ruhigeren, historischen Siedlungen Stari Grad und Jelsa bevorzugen. Die Landschaft besteht aus Pinienwäldern, Lavendelfeldern und einer felsigen Küste mit Kieselstränden.\n\nDie Insel hat ein typisch mediterranes Klima. Die Hauptreisezeit dauert von Mai bis Oktober, wobei Juli und August die höchsten Temperaturen, größten Menschenmengen und Spitzenpreise mit sich bringen. Der September bietet warme Meerestemperaturen und ruhigere Orte, was ihn zu einer praktischen Alternative für Reisende mit flexiblen Zeitplänen macht. In den Wintermonaten schließen viele Restaurants und Hotels komplett.",
+  "quickFacts": [
+    {
+      "label": "Beste Monate",
+      "value": "Juni bis September"
+    },
+    {
+      "label": "Meerestemperatur im August",
+      "value": "25°C bis 27°C"
+    },
+    {
+      "label": "Nächster Flughafen",
+      "value": "Flughafen Split (SPU), 24 km zum Hafen Split + 2 Stunden Fähre"
+    },
+    {
+      "label": "Hauptstrandtyp",
+      "value": "Kiesel- und Felsplatten"
+    },
+    {
+      "label": "Preisniveau",
+      "value": "Höher als der kroatische Durchschnitt (besonders Hvar-Stadt)"
+    },
+    {
+      "label": "Autofreie Zentren",
+      "value": "Ja, die Zentren von Hvar-Stadt und Stari Grad sind Fußgängerzonen"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Hvar-Stadt",
+      "bestFor": "Nachtleben, Luxushotels und Erstbesucher ohne Auto",
+      "parking": "Kostenpflichtige öffentliche Parkplätze außerhalb des autofreien Zentrums; im Sommer teuer",
+      "beach": "Pokonji Dol (Kiesel, 20 Min. Fußweg) oder Pakleni-Inseln per Wassertaxi",
+      "summary": "Die bekannteste und teuerste Siedlung der Insel, bekannt für historische Architektur, gehobene Restaurants und ein aktives Nachtleben. Das gesamte historische Zentrum ist eine Fußgängerzone."
+    },
+    {
+      "name": "Stari Grad",
+      "bestFor": "Familien, Geschichtsliebhaber und Reisende, die eine ruhigere Basis suchen",
+      "parking": "Zahlreiche kostenpflichtige Parkplätze am Stadtrand; einige Unterkünfte bieten private Stellplätze",
+      "beach": "Lanterna (Kiesel und Beton, 10 Min. Fußweg) oder nahe gelegene abgelegene Buchten",
+      "summary": "Eine der ältesten Städte Europas, die eine entspannte Atmosphäre mit engen Kopfsteinpflastergassen und traditionellen Konobas bietet. Sie liegt nahe am Hauptfährterminal für Autos, was die Anreise unkompliziert macht."
+    },
+    {
+      "name": "Jelsa",
+      "bestFor": "Familien mit kleinen Kindern und preisbewusste Reisende",
+      "parking": "Großer öffentlicher Parkplatz in der Nähe des Hafens; während der Saison meist kostenpflichtig",
+      "beach": "Strand Mina (flacher Sandboden, 10 Min. Fußweg vom Zentrum)",
+      "summary": "Eine Küstenstadt auf der Nordseite der Insel mit starkem lokalem Flair und niedrigeren Preisen als Hvar-Stadt. Sie verfügt über eine breite Promenade und Zugang zu flachen Buchten mit Sandboden."
+    },
+    {
+      "name": "Zavala",
+      "bestFor": "Paare, Naturliebhaber und Ruhesuchende",
+      "parking": "In der Regel von Pensionen zur Verfügung gestellt; nur minimale öffentliche Parkplätze vorhanden",
+      "beach": "Lange Abschnitte feiner Kieselstrände direkt entlang der Dorfküste",
+      "summary": "An der steilen Südküste gelegen und über einen schmalen, einspurigen Tunnel von Pitve aus erreichbar. Es bietet klares Wasser und Ruhe, mit begrenzten Essens- und Einkaufsmöglichkeiten."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "890 km, ~11-12 Stunden über A8, A10, A1 (HR) nach Split, dann 2-stündige Autofähre. Maut in AT, SLO, HR + Fährticket.",
+      "other": "Direktflüge nach Split (SPU), gefolgt von einem Passagierkatamaran nach Hvar."
+    },
+    {
+      "from": "Wien",
+      "car": "770 km, ~9-10 Stunden über A2, A9, A1 (HR) nach Split, dann 2-stündige Autofähre. Maut in AT, SLO, HR + Fährticket.",
+      "other": "Direktflüge nach Split oder Nachtzug (Nightjet/EuroNight) nach Split, dann Katamaran."
+    },
+    {
+      "from": "Budapest",
+      "car": "750 km, ~9-10 Stunden über M7, A4, A1 (HR) nach Split, dann 2-stündige Autofähre. Maut in HU, HR + Fährticket.",
+      "other": "Direktflüge nach Split oder saisonaler Schlafwagenzug von Budapest nach Split."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "520 km, ~7-8 Stunden über A2, A1 (HR) nach Split, dann 2-stündige Autofähre. Maut in SLO, HR + Fährticket.",
+      "other": "Direktbus (FlixBus) zum Busbahnhof Split, gefolgt von Fähre oder Katamaran."
+    },
+    {
+      "from": "Prag",
+      "car": "1.070 km, ~13-14 Stunden über D1, A9 (AT), A1 (HR) nach Split, dann Autofähre. Maut in CZ, AT, SLO, HR + Fährticket.",
+      "other": "Direktflüge nach Split oder saisonaler RegioJet-Zugdienst nach Split."
+    },
+    {
+      "from": "Krakau",
+      "car": "1.100 km, ~13-14 Stunden über die Slowakei (D1), Ungarn (M7), Kroatien (A1) nach Split, dann Autofähre. Maut in SK, HU, HR + Fährticket.",
+      "other": "Direktflüge nach Split von Krakau oder dem nahegelegenen Katowice, dann Katamaran."
+    }
+  ],
+  "whenToGo": "Im Mai wird das Wetter wärmer und die Touristensaison beginnt, obwohl das Meer noch kühl (ca. 18 °C) bleibt und einige Geschäfte noch nicht geöffnet haben. Der Juni bringt zuverlässigen Sonnenschein, Meerestemperaturen von bis zu 22 °C und moderate Menschenmengen. Juli und August sind die Spitzenmonate, gekennzeichnet durch Tageshöchstwerte von 30 °C bis 35 °C, Meerestemperaturen von bis zu 27 °C, vollen Fährbetrieb, aber auch Höchstpreise und starken Verkehr in den Häfen. Der September ist eine optimale Reisezeit, da das Meer die Sommerwärme speichert, die Lufttemperaturen auf angenehme 25 °C sinken und die Preise fallen. Von Oktober bis April tritt Hvar in eine ruhige Winterphase ein; die Fährpläne sind stark reduziert und die meisten touristisch orientierten Hotels und Restaurants schließen komplett.",
+  "faq": [
+    {
+      "question": "Lohnt sich ein Besuch?",
+      "answer": "Ja, Hvar ist einen Besuch wert aufgrund seiner Mischung aus historischer Architektur, klarem Mittelmeerwasser und zuverlässigem Sommerwetter. Je nachdem, wo Sie übernachten, bietet es unterschiedliche Erlebnisse, von gehobener Gastronomie in Hvar-Stadt bis hin zu ruhigen Rückzugsorten an der Südküste."
+    },
+    {
+      "question": "Wie viele Tage?",
+      "answer": "Ein Aufenthalt von 3 bis 5 Tagen ist ausreichend, um die wichtigsten Städte zu erkunden, einen Bootsausflug zu den Pakleni-Inseln zu machen und das Inselinnere zu durchfahren. Wenn Sie nur Hvar-Stadt sehen möchten, ist ein 1- bis 2-tägiger Ausflug ausreichend."
+    },
+    {
+      "question": "Bester Strand?",
+      "answer": "Dubovica gilt weithin als der beste Strand der Insel, mit einer breiten Kiesbucht und klarem Wasser. Er erfordert einen 10-minütigen Abstieg über einen steilen, felsigen Pfad von der Hauptstraße, daher ist festes Schuhwerk notwendig."
+    },
+    {
+      "question": "Brauche ich ein Auto?",
+      "answer": "Ein Auto ist notwendig, wenn Sie verschiedene Städte, Dörfer im Landesinneren und abgelegene Strände erkunden möchten. Wenn Sie ausschließlich in Hvar-Stadt oder Stari Grad bleiben möchten, ist ein Auto aufgrund von Fußgängerzonen und hohen Parkgebühren ein Hindernis."
+    },
+    {
+      "question": "Wo parken?",
+      "answer": "Parkplätze stehen auf großen, kostenpflichtigen kommunalen Parkplätzen am Rande der Fußgängerzonen in Hvar-Stadt und Stari Grad zur Verfügung. Im Juli und August füllen sich diese Parkplätze schnell, und die Tagespreise in Hvar-Stadt können 20 Euro übersteigen."
+    },
+    {
+      "question": "Ist es gut für Familien?",
+      "answer": "Ja, Hvar ist sehr gut für Familien geeignet, besonders in Orten wie Stari Grad und Jelsa, wo die Atmosphäre ruhiger ist. Diese Gegenden bieten flache Promenaden, leichteren Zugang zu flachen Stränden und familienfreundliche Apartmentvermietungen."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Auf einen Blick",
+    "whereToStay": "Wo übernachten in Hvar",
+    "gettingThere": "Anreise nach Hvar",
+    "whenToGo": "Beste Reisezeit",
+    "guides": "Hvar-Reiseführer",
+    "faq": "Hvar FAQ",
+    "groups": {
+      "gettingAround": "Parken & Fortbewegung",
+      "planning": "Planung & Unterkünfte",
+      "timing": "Wann reisen",
+      "travelers": "Familien, Paare & Reisestile",
+      "activities": "Strände & Aktivitäten",
+      "food": "Essen & Trinken",
+      "comparisons": "Vergleiche",
+      "practical": "Praktische Infos"
+    },
+    "car": "Mit dem Auto",
+    "other": "Weitere Optionen",
+    "bestFor": "Ideal für",
+    "parking": "Parken",
+    "beach": "Strand"
+  },
+  "destination": "hvar",
+  "language": "de",
+  "updatedAt": "2026-10-16T13:58:36.989Z"
+}

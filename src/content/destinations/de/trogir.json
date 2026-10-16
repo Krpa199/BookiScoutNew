@@ -1,0 +1,146 @@
+{
+  "title": "Trogir Reiseführer: Strände, Parken & Unterkünfte",
+  "metaDescription": "Planen Sie Ihre Reise nach Trogir, Kroatien. Vergleichen Sie Stadtteile, finden Sie Parkplätze und Strände und erfahren Sie die besten Anfahrtswege aus Mitteleuropa.",
+  "intro": "Trogir zieht Reisende an, die eine gut erhaltene mittelalterliche Küstenstadt mit direktem Zugang zu Kieselstränden und Inselausflügen suchen. Die Stadt liegt 30 Kilometer westlich von Split und fünf Kilometer vom Flughafen Split entfernt und dient als praktische Basis, um Mitteldalmatien zu erkunden, ohne eine Großstadt durchqueren zu müssen. Das UNESCO-geschützte Zentrum liegt auf einer kleinen Insel zwischen dem Festland und der Insel Čiovo, verbunden durch kurze Fahrzeug- und Fußgängerbrücken.\n\nDas Reiseziel eignet sich gut für Roadtripper und Familien, die Besichtigungen mit Badetagen auf der angrenzenden Insel Čiovo oder der Festland-Riviera verbinden möchten. Der Sommer bringt große Menschenmengen in die engen Gassen und an die Küstenstraßen, weshalb Juni und September optimal für wärmere Meerestemperaturen, geöffnete Einrichtungen und überschaubaren Verkehr sind.",
+  "quickFacts": [
+    {
+      "label": "Beste Monate",
+      "value": "Juni und September"
+    },
+    {
+      "label": "Meerestemperatur im August",
+      "value": "25°C bis 27°C"
+    },
+    {
+      "label": "Nächstgelegener Flughafen",
+      "value": "Flughafen Split (SPU), 5 km"
+    },
+    {
+      "label": "Hauptstrandtyp",
+      "value": "Kiesel- und Betonterrassen"
+    },
+    {
+      "label": "Preisniveau",
+      "value": "Leicht über dem kroatischen Durchschnitt"
+    },
+    {
+      "label": "Begehbarkeit",
+      "value": "Die Altstadtinsel ist komplett autofrei"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Altstadt (Inselchen)",
+      "bestFor": "Kurzaufenthalte und Sightseeing",
+      "parking": "Keine Parkplätze auf der Insel; kostenpflichtige Parkplätze auf dem Festland",
+      "beach": "1,5 km zu öffentlichen Kieselstränden",
+      "summary": "Das historische Zentrum bietet mittelalterliche Architektur, Restaurants und Marinas. Es ist Fußgängern vorbehalten, was bedeutet, dass Besucher mit Gepäck von den nahegelegenen Parkplätzen auf dem Festland laufen müssen."
+    },
+    {
+      "name": "Insel Čiovo (Okrug Gornji)",
+      "bestFor": "Badeurlaub und Familien",
+      "parking": "Private Parkplätze üblich, starker Sommerverkehr",
+      "beach": "0-1 km, größtenteils Kieselstrand (Copacabana Beach)",
+      "summary": "Dieses Gebiet ist durch Brücken mit Trogir verbunden und bietet einen 2 Kilometer langen Kieselstrand mit Bars und Wassersportmöglichkeiten. Die neuere Brücke ermöglicht es Autofahrern, das historische Zentrum zu umfahren."
+    },
+    {
+      "name": "Seget Donji",
+      "bestFor": "Ruhigere Aufenthalte und Resort-Annehmlichkeiten",
+      "parking": "Reichlich Parkplätze bei Hotels und privaten Apartments",
+      "beach": "0-1 km, langer Kieselstrand (Medena Beach)",
+      "summary": "Seget Donji liegt westlich von Trogir auf dem Festland und bietet eine entspannte Atmosphäre mit einer 3 Kilometer langen Strandpromenade. Es bietet einen einfacheren Straßenzugang in Richtung Primošten und Šibenik."
+    },
+    {
+      "name": "Mastrinka & Arbanija (Čiovo)",
+      "bestFor": "Preisbewusste Reisende und ruhiger Meerzugang",
+      "parking": "Normalerweise in der Unterkunft inbegriffen",
+      "beach": "0-500m, schmale Kiesel- und Felsküsten",
+      "summary": "An der Nordküste der Insel Čiovo gelegen, bieten diese ruhigen Wohngebiete ruhiges Wasser mit Blick auf das Festland. Die Unterkünfte bestehen größtenteils aus privaten Apartments mit niedrigeren Preisen als in Okrug Gornji."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "840 km, 9-10 Stunden über A8, A10 und A1. Erfordert AT-Vignette, Tauern-Tunnelticket, SI-Vignette und HR-Autobahngebühren.",
+      "other": "Direktflüge zum Flughafen Split (1,5 Std.), dann 10 Minuten mit dem Bus oder Taxi."
+    },
+    {
+      "from": "Wien",
+      "car": "740 km, 8 Stunden über A2, A4 und A1. Erfordert AT-Vignette, SI-Vignette und HR-Autobahngebühren.",
+      "other": "Direktflüge zum Flughafen Split (1,5 Std.) oder Nachtzug nach Split."
+    },
+    {
+      "from": "Budapest",
+      "car": "740 km, 7,5 Stunden über M7 und A4/A1. Erfordert HU-Vignette und HR-Autobahngebühren.",
+      "other": "Direktflüge zum Flughafen Split (1 Std.) oder saisonaler Sommerzug nach Split."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "450 km, 5 Stunden über A2 und A1. Erfordert SI-Vignette und HR-Autobahngebühren.",
+      "other": "Direktbus nach Trogir (8 Stunden) oder direkte Fahrt."
+    },
+    {
+      "from": "Prag",
+      "car": "1050 km, 11-12 Stunden über Wien, Graz und Zagreb. Erfordert CZ-, AT-, SI-Vignetten und HR-Mautgebühren.",
+      "other": "Direktflüge zum Flughafen Split (1,5 Std.)."
+    },
+    {
+      "from": "Krakau",
+      "car": "1050 km, 11-12 Stunden über die Slowakei und Ungarn. Erfordert SK-, HU-Vignetten und HR-Autobahngebühren.",
+      "other": "Direktflüge zum Flughafen Split (1,5 Std.) mit Billigfluggesellschaften."
+    }
+  ],
+  "whenToGo": "Juli und August sind die Hochsommermonate mit Meerestemperaturen um 26°C, langen sonnigen Tagen und voll funktionsfähigen Fähr- und Ausflugszeiten, aber auch den höchsten Unterkunftspreisen und starkem Verkehr auf den Küstenstraßen. Juni und September bieten ein ausgewogeneres Erlebnis mit Meerestemperaturen um 23°C bis 25°C, was das Schwimmen angenehm macht und die starke Hitze des Hochsommers und die größten Menschenmassen vermeidet. Mai und Oktober bringen deutliche Preisrückgänge und kühlere Gewässer (18°C bis 20°C); die meisten historischen Stätten bleiben geöffnet, aber Strandbars, Wassersport und häufige Bootstouren werden eingestellt oder verkehren nach reduziertem Fahrplan. Die Wintermonate sind ruhig und kalt, wobei viele Hotels und Restaurants in den Touristengebieten bis zum Frühling komplett schließen.",
+  "faq": [
+    {
+      "question": "Ist Trogir einen Besuch wert?",
+      "answer": "Ja, Trogir ist einen Besuch wert wegen seiner gut erhaltenen romanisch-gotischen Architektur und kompakten Anordnung. Es eignet sich hervorragend als Halb-Tages-Zwischenstopp oder als zentrale Basis zur Erkundung der umliegenden dalmatinischen Inseln."
+    },
+    {
+      "question": "Wie viele Tage brauche ich?",
+      "answer": "Zwei bis drei Tage reichen aus, um das historische Zentrum zu erkunden und Zeit an den örtlichen Stränden zu verbringen. Für diejenigen, die Trogir als Basis für Tagesausflüge nach Split, in den Krka-Nationalpark oder auf die Inseln nutzen, sind fünf bis sieben Tage ideal."
+    },
+    {
+      "question": "Welcher ist der beste Strand?",
+      "answer": "Okrug Gornji auf der Insel Čiovo ist der beliebteste Strand wegen seiner Einrichtungen, Bars und Wassersportmöglichkeiten. Für eine ruhigere Atmosphäre mit Kiefernschatten ist der Medena Beach in Seget Donji eine gute Alternative."
+    },
+    {
+      "question": "Brauche ich ein Auto?",
+      "answer": "Sie benötigen kein Auto, wenn Sie in der Altstadt bleiben oder sich auf Boote und Busse verlassen, um die Strände und Split zu erreichen. Ein Auto ist jedoch sehr empfehlenswert, wenn Sie die Küste weiter erkunden oder Tagesausflüge ins Landesinnere unternehmen möchten."
+    },
+    {
+      "question": "Wo kann ich parken?",
+      "answer": "Die Altstadt ist ausschließlich Fußgängern vorbehalten, daher müssen Besucher die großen kostenpflichtigen Parkplätze auf dem Festland direkt vor der Fußgängerbrücke nutzen. Die Parkplätze T1, T2 und T3 berechnen Stunden- oder Tagestarife, die im Sommer teuer werden."
+    },
+    {
+      "question": "Ist es gut für Familien?",
+      "answer": "Ja, Trogir ist aufgrund seiner ruhigen Kieselstrände, zugänglichen Annehmlichkeiten und der kurzen Transferzeit vom Flughafen Split für Familien geeignet. Ein Aufenthalt auf dem Festland in Seget Donji oder auf der Insel Čiovo bietet den praktischsten Zugang zu familienfreundlichen Badebereichen."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Auf einen Blick",
+    "whereToStay": "Wo in Trogir übernachten",
+    "gettingThere": "Anreise nach Trogir",
+    "whenToGo": "Beste Reisezeit",
+    "guides": "Trogir Reiseführer",
+    "faq": "Häufig gestellte Fragen zu Trogir",
+    "groups": {
+      "gettingAround": "Parken & Fortbewegung",
+      "planning": "Planung & Unterkünfte",
+      "timing": "Beste Reisezeit",
+      "travelers": "Familien, Paare & Reisestile",
+      "activities": "Strände & Aktivitäten",
+      "food": "Essen & Trinken",
+      "comparisons": "Vergleiche",
+      "practical": "Praktische Infos"
+    },
+    "car": "Mit dem Auto",
+    "other": "Weitere Optionen",
+    "bestFor": "Am besten für",
+    "parking": "Parken",
+    "beach": "Strand"
+  },
+  "destination": "trogir",
+  "language": "de",
+  "updatedAt": "2026-10-16T09:31:39.970Z"
+}

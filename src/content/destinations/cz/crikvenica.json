@@ -1,0 +1,146 @@
+{
+  "title": "Crikvenica: Průvodce plážemi, oblastmi a trasami autem",
+  "metaDescription": "Naplánujte si cestu do Crikvenice, Chorvatsko. Objevte nejlepší oblasti k pobytu, trasy autem ze střední Evropy, typy pláží a informace o parkování.",
+  "intro": "Crikvenica je pobřežní město v Kvarnerském zálivu, charakterizované dlouhou pobřežní promenádou a směsicí oblázkových a písečných pláží. Slouží jako praktická, snadno dostupná letní destinace pro rodiny a páry přijíždějící autem ze střední Evropy. Město plynule splývá se sousedními osadami jako Dramalj a Selce, čímž vytváří souvislý 28kilometrový pobřežní pás známý jako Crikvenická riviéra.\n\nDestinace vyhovuje cestovatelům hledajícím přímočarou dovolenou u moře s okamžitým přístupem k moři, spíše než těm, kteří hledají odlehlé zátoky nebo rozsáhlou historickou architekturu. Návštěvníci obvykle přijíždějí mezi červnem a zářím za koupáním a opalováním. Ubytování tvoří převážně soukromé apartmány, penziony a středně velké resortní hotely, umístěné přímo podél pobřežní silnice nebo na svahu s výhledem na vodu.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "Červen až září"
+    },
+    {
+      "label": "Teplota moře (srpen)",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Rijeka (RJK), 20 km"
+    },
+    {
+      "label": "Hlavní typ pláže",
+      "value": "Oblázková a částečně písečná"
+    },
+    {
+      "label": "Cenová úroveň",
+      "value": "Průměrná pro chorvatské pobřeží"
+    },
+    {
+      "label": "Pěší dostupnost centra",
+      "value": "Rovinaté, vhodné pro pěší"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centar (centrum)",
+      "bestFor": "Blízkost restaurací a dopravy",
+      "parking": "Vysoká poptávka, většinou placená veřejná parkoviště",
+      "beach": "5 minut chůze na Gradskou pláž (Městská pláž)",
+      "summary": "Komerční centrum Riviéry nabízí nejvyšší koncentraci restaurací, obchodů a dopravních spojení. Zůstává rušné až do večera a poskytuje rovinatou, pro pěší vhodnou základnu pro návštěvníky."
+    },
+    {
+      "name": "Crni Molo",
+      "bestFor": "Rodiny s malými dětmi",
+      "parking": "Parkování na ulici, v létě se rychle plní",
+      "beach": "Přímý přístup k mělké písčito-oblázkové pláži",
+      "summary": "Velmi oblíbená zóna soustředěná kolem jedné z mála mělkých písčitých pláží v regionu. Ubytování zde se v hlavní sezóně rychle rezervuje kvůli okamžité blízkosti pláže."
+    },
+    {
+      "name": "Dramalj",
+      "bestFor": "Klidnější pobyty a páry",
+      "parking": "Snadnější než v centru, často přímo u ubytování",
+      "beach": "Oblázkové a betonové terasy do 10 minut chůze",
+      "summary": "Dramalj, ležící severozápadně od centra, nabízí uvolněnější tempo a o něco levnější ubytování. Pobřežní promenáda ho přímo spojuje s Crikvenicí pro večerní procházky."
+    },
+    {
+      "name": "Selce",
+      "bestFor": "Atmosféra podobná vesnici",
+      "parking": "Omezené ve starém centru, lepší na okraji",
+      "beach": "Oblázkové a betonové, většinou 5-15 minut pěšky",
+      "summary": "Selce, kdysi samostatná rybářská vesnice jihovýchodně od Crikvenice, má odlišné, menší centrum. Nabízí vlastní přístav, kavárny a o něco méně komercializované pobřežní úseky."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Mnichov",
+      "car": "530 km, ~6,5 hodiny přes A8, A10 (Taury), Karavanky, Lublaň, Rijeku. Mýtné: AT dálniční známka, mýto Taury/Karavanky, SI dálniční známka, HR mýto.",
+      "other": "Přímý FlixBus do Crikvenice (cca 9 hodin) nebo let na letiště Rijeka."
+    },
+    {
+      "from": "Vídeň",
+      "car": "510 km, ~6 hodin přes A2 do Grazu, Maribor, Záhřeb, A6 do Rijeky. Mýtné: AT dálniční známka, SI dálniční známka, HR mýto.",
+      "other": "Přímý FlixBus do Crikvenice (cca 8-9 hodin)."
+    },
+    {
+      "from": "Budapešť",
+      "car": "510 km, ~5,5 hodiny přes M7 k hranicím Letenye, A4 do Záhřebu, A6 do Rijeky. Mýtné: HU dálniční známka, HR mýto.",
+      "other": "Přímý FlixBus (cca 7 hodin) nebo vlakem do Záhřebu a poté autobusem."
+    },
+    {
+      "from": "Lublaň",
+      "car": "130 km, ~2 hodiny přes A1 do Postojné, Ilirska Bistrica, hraniční přechod Rupa, Rijeka. Mýtné: SI dálniční známka, HR mýto.",
+      "other": "Přímý autobus z autobusového nádraží Lublaň (cca 3 hodiny)."
+    },
+    {
+      "from": "Praha",
+      "car": "830 km, ~9,5 hodiny přes Vídeň, Graz, Maribor, Záhřeb, Rijeku. Mýtné: CZ, AT, SI dálniční známky, HR mýto.",
+      "other": "Vlak RegioJet nebo kombinace autobusu do Rijeky, poté místní autobus."
+    },
+    {
+      "from": "Krakov",
+      "car": "900 km, ~10 hodin přes A4, Ostravu, Brno, Vídeň, Graz, Maribor, Záhřeb. Mýtné: PL mýto, CZ, AT, SI dálniční známky, HR mýto.",
+      "other": "Let do Záhřebu nebo Zadaru, následovaný vnitrostátním autobusem."
+    }
+  ],
+  "whenToGo": "Červen až září představují hlavní koupací sezónu, s teplotami moře v srpnu dosahujícími vrcholu kolem 26°C. Červenec a srpen přinášejí nejvyšší ceny, největší davy a plně fungující plážové bary, výlety lodí a restaurace. Červen a září nabízejí mírnější teploty a nižší náklady na ubytování, ačkoli moře je na začátku června o něco chladnější. Říjen až květen je mimosezóna; moře klesá pod 18°C, davy mizí a značná část sezónních restaurací a hotelů se zavírá, zůstávají otevřené pouze základní místní služby.",
+  "faq": [
+    {
+      "question": "Stojí Crikvenica za návštěvu?",
+      "answer": "Crikvenica stojí za návštěvu pro cestovatele hledající dostupnou, přímočarou plážovou dovolenou s dobře rozvinutou infrastrukturou. Je velmi praktická pro rodiny přijíždějící autem ze střední Evropy, ale méně vhodná pro ty, kteří hledají dramatickou historickou architekturu nebo izolovanou přírodu."
+    },
+    {
+      "question": "Kolik dní potřebuji v Crikvenici?",
+      "answer": "Tři až pět dní je dostatečných k prozkoumání Riviéry a užívání si pláží. Celý týden umožňuje čas na jednodenní výlety na ostrov Krk, Plitvická jezera nebo Istrijský poloostrov."
+    },
+    {
+      "question": "Která je nejlepší pláž v Crikvenici?",
+      "answer": "Crni Molo je nejoblíbenější pláž díky svému mělkému, písčitému mořskému dnu a rozsáhlému vybavení. Gradska kupalište (Městská pláž) je velký oblázkový úsek blízko centra, zatímco Podvorska je všeobecně uznávána jako vynikající pláž pro psy."
+    },
+    {
+      "question": "Potřebuji v Crikvenici auto?",
+      "answer": "Auto nepotřebujete, pokud bydlíte blízko centra nebo podél promenády, protože restaurace a pláže jsou v docházkové vzdálenosti. Auto je užitečné pro dosažení apartmánů na kopci, návštěvu velkých supermarketů nebo jednodenní výlety po Kvarnerském regionu."
+    },
+    {
+      "question": "Kde je nejlepší parkovat v Crikvenici?",
+      "answer": "Návštěvníci mohou parkovat na velkých placených veřejných parkovištích, například v oblastech poblíž náměstí Petak nebo Stjepana Radiće v centru. Během července a srpna se veřejná místa rychle plní, proto je vysoce doporučené rezervovat si ubytování, které zahrnuje soukromé parkoviště."
+    },
+    {
+      "question": "Je Crikvenica vhodná pro rodiny?",
+      "answer": "Crikvenica je velmi vhodná pro rodiny díky svým mělkým vodám, písčitým úsekům a široké, kočárkem přístupné pobřežní promenádě. Město nabízí četná dětská hřiště, snadný přístup k lékařským zařízením a obecně klidné mořské podmínky."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Stručné informace",
+    "whereToStay": "Kde se ubytovat v Crikvenici",
+    "gettingThere": "Jak se dostat do Crikvenice",
+    "whenToGo": "Kdy jet",
+    "guides": "Průvodci Crikvenica",
+    "faq": "Často kladené otázky o Crikvenici",
+    "groups": {
+      "gettingAround": "Parkování a doprava po městě",
+      "planning": "Plánování a kde se ubytovat",
+      "timing": "Kdy jet",
+      "travelers": "Rodiny, páry a styly cestování",
+      "activities": "Pláže a co dělat",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": "Praktické informace"
+    },
+    "car": "Autem",
+    "other": "Jiné možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "crikvenica",
+  "language": "cz",
+  "updatedAt": "2026-10-16T10:45:00.768Z"
+}

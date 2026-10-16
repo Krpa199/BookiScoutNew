@@ -1,0 +1,146 @@
+{
+  "title": "Umag: Cestovní průvodce – pláže, parkování a ubytování",
+  "metaDescription": "Naplánujte si cestu do Umagu, Chorvatsko. Získejte praktické informace o trasách jízdy, ubytování, parkování, rodinných resortech a nejlepších dobách k návštěvě.",
+  "intro": "Umag je nejsevernější pobřežní město v Istrii, což z něj činí první zastávku pro návštěvníky přijíždějící ze střední Evropy. Silně se zaměřuje na resortní turistiku, nabízí velké hotelové komplexy, kempy a rozsáhlá sportovní zařízení, z nichž nejvýznamnější je tenisový turnaj ATP Croatia Open. Pobřeží se pyšní dlážděnými terasami na opalování, skalnatými zátokami a borovými lesy, které se táhnou přímo k moři.\n\nHlavní sezóna trvá od konce června do srpna, přináší vysoké teploty a hlavní tenisové davy v červenci. Září je klidnější, moře je stále dostatečně teplé ke koupání, zatímco v zimě většina turistických zařízení zavírá. Umag vyhovuje rodinám a aktivním cestovatelům, kteří upřednostňují snadný přístup na pláž a sport před rozsáhlou historickou prohlídkou památek.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "Červen až září"
+    },
+    {
+      "label": "Teplota moře v srpnu",
+      "value": "25°C až 27°C"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Pula (PUY), 85 km jižně"
+    },
+    {
+      "label": "Hlavní typ pláže",
+      "value": "Betonové plošiny, skalnaté zátoky a umělé oblázky"
+    },
+    {
+      "label": "Cenová úroveň",
+      "value": "Průměrná pro Istrii, levnější než Rovinj"
+    },
+    {
+      "label": "Historické centrum pěšky dostupné",
+      "value": "Ano, historický poloostrov je pěší zóna"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centrum Umagu a Staré Město",
+      "bestFor": "Stravování, procházky a krátkodobé pobyty",
+      "parking": "Placené veřejné parkoviště mimo pěší zónu poloostrova",
+      "beach": "700m k Gradsko Kupalište (Městská pláž)",
+      "summary": "Historické srdce Umagu leží na malém poloostrově. Nabízí úzké uličky, restaurace a přístav, ale postrádá velké bazény resortů a přímý přístup na pláž, které najdete severněji."
+    },
+    {
+      "name": "Punta",
+      "bestFor": "Blízkost centra i pláží",
+      "parking": "Placené parkování na ulici a soukromá hotelová parkoviště",
+      "beach": "Přímý přístup k betonovým a skalnatým plážím",
+      "summary": "Obytná a hotelová oblast severně od přístavu. Spojuje centrum města se severními resorty pobřežní promenádou, čímž vyvažuje pohodlí s přístupem na pláž."
+    },
+    {
+      "name": "Stella Maris a Katoro",
+      "bestFor": "Rodiny, tenisoví fanoušci a resortní dovolené",
+      "parking": "Velká vyhrazená parkoviště pro hosty resortů a denní návštěvníky",
+      "beach": "Přímý přístup k Laguna (oblázky/písek) a Polynesia",
+      "summary": "Hlavní turistická zóna táhnoucí se severně od města. Dominuje jí velké hotely, apartmánové komplexy, tenisové kurty a dlouhá trasa turistického vláčku spojující se s centrem."
+    },
+    {
+      "name": "Savudrija",
+      "bestFor": "Páry, kempaři a klidnější pobyty",
+      "parking": "Obecně zdarma nebo zahrnuto v ubytování",
+      "beach": "Skalnaté pobřeží a dlážděné terasy",
+      "summary": "Klidnější vesnice ve stínu borovic 8 km severně od Umagu, známá svým aktivním majákem. Oblíbená u kempařů a těch, kteří hledají klidnější tempo mimo hlavní resorty."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Mnichov",
+      "car": "500 km, ~5,5 hodiny přes A8, A10 (Tauern), tunel Karawanken, Lublaň a Koper. Vyžaduje rakouskou a slovinskou dálniční známku, plus mýtné za tunely.",
+      "other": "FlixBus nebo noční vlak do Lublaně, poté autobusové spojení"
+    },
+    {
+      "from": "Vídeň",
+      "car": "510 km, ~5,5 hodiny přes A2 do Grazu, Maribor, Lublaň a Koper. Vyžaduje rakouskou a slovinskou dálniční známku.",
+      "other": "Přímý FlixBus k dispozici v létě, nebo vlak do Terstu/Lublaně"
+    },
+    {
+      "from": "Budapešť",
+      "car": "600 km, ~6 hodin přes M7 k hranici Letenye, A4/A6 přes Záhřeb a Rijeku, poté Istrijský Y. Vyžaduje maďarskou dálniční známku a chorvatské mýtné.",
+      "other": "Přímý FlixBus do Umagu (cca 9 hodin)"
+    },
+    {
+      "from": "Lublaň",
+      "car": "130 km, ~1,5 až 2 hodiny přes A1 do Koperu, poté trasa 11. Vyžaduje slovinskou dálniční známku. V létě jsou na hranici v Dragonji běžná zpoždění.",
+      "other": "Přímý autobus (cca 2,5 hodiny) nebo sdílený transfer (např. GoOpti)"
+    },
+    {
+      "from": "Praha",
+      "car": "800 km, ~9 až 10 hodin přes Linec, Salcburk a A10. Vyžaduje českou, rakouskou a slovinskou dálniční známku, plus rakouské mýtné za tunely.",
+      "other": "Vlak do Rijeky nebo Lublaně, poté autobus, nebo letní přímý autobus"
+    },
+    {
+      "from": "Krakov",
+      "car": "950 km, ~10,5 hodiny přes A4, Ostravu, Vídeň, Graz a Lublaň. Vyžaduje polské mýtné, plus české, rakouské a slovinské dálniční známky.",
+      "other": "Let do Vídně nebo Benátek, poté autobus, nebo letní přímý autobus"
+    }
+  ],
+  "whenToGo": "Turistická sezóna v Umagu trvá od května do října. Červenec a srpen jsou nejteplejší měsíce s denními teplotami kolem 30°C a teplotou moře dosahující 26°C. Toto je také nejrušnější a nejdražší období, zejména během tenisového turnaje ATP na konci července. Červen a září nabízejí lepší rovnováhu teplého počasí, nižších cen a menšího počtu lidí, přičemž teplota moře v září je stále příjemná ke koupání. Mezi listopadem a dubnem je město velmi klidné; většina resortních hotelů, plážových barů a sezónních restaurací zavírá, i když pobřežní stezky zůstávají otevřené pro procházky a cyklistiku.",
+  "faq": [
+    {
+      "question": "Stojí Umag za návštěvu?",
+      "answer": "Ano, zvláště pokud hledáte dovolenou v resortním stylu nebo přijíždíte autem ze střední Evropy. Postrádá sice rozsáhlou historickou architekturu Rovinje nebo Poreče, ale vyniká sportovními zařízeními, rodinnými resorty a přístupným pobřežím."
+    },
+    {
+      "question": "Kolik dní potřebuji v Umagu?",
+      "answer": "Tři až pět dní je ideálních pro běžný pobyt u moře a odpočinek. Pokud ho využijete jako základnu pro objevování vnitrozemí Istrie nebo okolních pobřežních měst, doporučuje se celý týden."
+    },
+    {
+      "question": "Která je nejlepší pláž v Umagu?",
+      "answer": "Laguna Stella Maris je nejoblíbenější, s půlměsíčnou oblázkovou a umělou písečnou pláží s mělkou vodou. Katoro a Polynesia nabízejí široké betonové terasy a skalnaté úseky s čistou vodou."
+    },
+    {
+      "question": "Potřebuji v Umagu auto?",
+      "answer": "Auto nepotřebujete, pokud zůstanete v hlavních resortních oblastech, protože turistický vláček spojuje Katoro a Stella Maris s centrem města. Nicméně auto je vysoce doporučeno pro jednodenní výlety po Istrii."
+    },
+    {
+      "question": "Kde mohu v Umagu parkovat?",
+      "answer": "Město provozuje zónový systém veřejného parkování s velkými placenými parkovišti u autobusového nádraží a přístavu, hned za pěší zónou starého města. Většina velkých hotelů a resortů dále na sever zahrnuje parkování, i když některé účtují denní poplatek."
+    },
+    {
+      "question": "Je Umag vhodný pro rodiny?",
+      "answer": "Ano, Umag je jednou z nejvíce rodinně zaměřených destinací v Istrii. Severní resorty nabízejí speciální dětskou animaci, mělké úseky pláží, dětská hřiště a velké bazénové komplexy přizpůsobené mladým návštěvníkům."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Přehled",
+    "whereToStay": "Kde se ubytovat v Umagu",
+    "gettingThere": "Jak se dostat do Umagu",
+    "whenToGo": "Kdy jet",
+    "guides": "Průvodce Umagem",
+    "faq": "Umag – Často kladené otázky",
+    "groups": {
+      "gettingAround": "Parkování a pohyb po městě",
+      "planning": "Plánování a kde se ubytovat",
+      "timing": "Kdy jet",
+      "travelers": "Rodiny, páry a styly cestování",
+      "activities": "Pláže a co dělat",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": "Praktické informace"
+    },
+    "car": "Autem",
+    "other": "Další možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "umag",
+  "language": "cz",
+  "updatedAt": "2026-10-16T11:37:22.880Z"
+}

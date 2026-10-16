@@ -1,0 +1,146 @@
+{
+  "title": "Labin: Przewodnik turystyczny – plaże, parking i noclegi",
+  "metaDescription": "Zaplanuj swoją podróż do Labinu w Chorwacji. Znajdź najlepsze trasy dojazdu, parking na starym mieście, pobliskie plaże w Rabacu oraz miejsca na nocleg.",
+  "intro": "Labin to średniowieczne miasto położone na wzgórzu, na wschodnim wybrzeżu półwyspu Istria w Chorwacji. Leży około trzech kilometrów w głąb lądu od popularnego nadmorskiego kurortu Rabac. Miasto przyciąga turystów, którzy preferują bazę historyczną z szybkim dostępem do Morza Adriatyckiego, unikając wyższych cen i intensywnego tłoku w obiektach noclegowych położonych bezpośrednio nad wodą.\n\nNajbardziej praktycznym sposobem dotarcia do Labinu jest samochód, co czyni go popularnym celem podróży dla osób podróżujących samochodem z Europy Środkowej. Główny sezon turystyczny trwa od czerwca do września, kiedy wszystkie restauracje są otwarte, a morze jest wystarczająco ciepłe do pływania. Ci, którzy stawiają na zwiedzanie bardziej niż na dni spędzone na plaży, często wybierają maj lub październik ze względu na łagodniejszą pogodę i łatwiejszy parking.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "Czerwiec do września"
+    },
+    {
+      "label": "Temp. morza w sierpniu",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Lotnisko Pula (PUY), 40 km"
+    },
+    {
+      "label": "Główny typ plaży",
+      "value": "Żwirowa (w pobliskim Rabacu)"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "Zgodny ze średnią chorwackiego wybrzeża"
+    },
+    {
+      "label": "Układ starego miasta",
+      "value": "Głównie strefa dla pieszych, strome brukowane ulice"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Stare Miasto Labin (Stari Grad)",
+      "bestFor": "Pary, miłośnicy historii, restauracje",
+      "parking": "Płatne parkingi publiczne na obrzeżach; ograniczony wjazd do środka",
+      "beach": "5 km (Rabac)",
+      "summary": "Historyczne centrum leży na wzgórzu z wąskimi, brukowanymi uliczkami i średniowieczną architekturą. Zakwaterowanie składa się wyłącznie z pensjonatów i apartamentów w odrestaurowanych kamiennych budynkach."
+    },
+    {
+      "name": "Podlabin (Dolne Miasto)",
+      "bestFor": "Dłuższe pobyty, podróżni z ograniczonym budżetem",
+      "parking": "Darmowy i obfity parking uliczny",
+      "beach": "5 km (Rabac)",
+      "summary": "Nowoczesna, mieszkalna część Labinu położona u podnóża wzgórza. Brakuje jej historycznego uroku, ale oferuje supermarkety, piekarnie i tańsze wynajmy apartamentów."
+    },
+    {
+      "name": "Rabac",
+      "bestFor": "Plażowicze, rodziny z dziećmi",
+      "parking": "Płatne parkingi publiczne; parkingi hotelowe często zarezerwowane dla gości",
+      "beach": "0 km (żwirowa)",
+      "summary": "Tętniący życiem nadmorski kurort położony pięć minut jazdy samochodem w dół wzgórza od Labinu. Oferuje duże hotele resortowe, kempingi i bezpośredni dostęp do popularnych żwirowych plaż."
+    },
+    {
+      "name": "Kapelica i Salakovci",
+      "bestFor": "Grupy, spokojne pobyty, podróżujący samochodem",
+      "parking": "Prywatne podjazdy wliczone w wynajem",
+      "beach": "6-8 km",
+      "summary": "Spokojne wioski mieszkalne bezpośrednio na południe od Labinu. Obszary te są gęsto zabudowane nowoczesnymi domami wakacyjnymi i willami oferującymi prywatne baseny."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monachium",
+      "car": "540 km, ok. 6,5 godziny przez A8, A10 i A2. Wymaga winiet austriackiej i słoweńskiej, plus opłata za tunel Karawanken.",
+      "other": "Lot do Puli (sezonowo), następnie lokalny autobus lub taksówka."
+    },
+    {
+      "from": "Wiedeń",
+      "car": "510 km, ok. 5,5 godziny przez A2 i słoweńską A1. Wymaga winiet austriackiej i słoweńskiej.",
+      "other": "Bezpośredni autobus przez Rijekę lub sezonowy lot do Puli."
+    },
+    {
+      "from": "Budapeszt",
+      "car": "570 km, ok. 6 godzin przez M7, chorwackie A4 i A6 do Rijeki, następnie droga przybrzeżna D66. Wymaga winiety węgierskiej i chorwackich opłat drogowych.",
+      "other": "Autobus (Flixbus) przez Zagrzeb i Rijekę."
+    },
+    {
+      "from": "Lublana",
+      "car": "130 km, ok. 2 godziny przez A1 do Črni Kal, następnie drogą lokalną 208 do granicy. Wymaga winiety słoweńskiej.",
+      "other": "Bezpośrednie połączenie autobusowe."
+    },
+    {
+      "from": "Praga",
+      "car": "840 km, ok. 9 godzin przez A9/A1 (AT) i A1 (SLO). Wymaga winiet czeskiej, austriackiej i słoweńskiej, plus austriackich opłat za tunele.",
+      "other": "Lot do Puli (sezonowo), następnie transfer z lotniska."
+    },
+    {
+      "from": "Kraków",
+      "car": "1000 km, ok. 11 godzin przez A4, czeską D1, austriackie A1/A9 i słoweńską A1. Wymaga polskich opłat drogowych, plus winiet czeskiej, austriackiej i słoweńskiej.",
+      "other": "Lot z Krakowa/Katowic do Puli (sezonowo)."
+    }
+  ],
+  "whenToGo": "Od czerwca do września temperatura morza osiąga od 24°C do 27°C, co czyni ten okres szczytem sezonu na pływanie i opalanie w pobliskim Rabacu. W lipcu i sierpniu liczba odwiedzających jest największa, co prowadzi do dużego ruchu na drodze łączącej Labin i Rabac, ograniczonej liczby miejsc parkingowych i najwyższych cen zakwaterowania. Maj i październik to mniej tłoczne miesiące z niższymi cenami, a dzienne temperatury wynoszą około 18°C do 22°C, co jest idealne do wędrówek pieszych lub rowerowych, choć morze jest często zbyt zimne do pływania. Większość restauracji i sezonowych sklepów na starym mieście zamyka się między listopadem a kwietniem, pozostawiając otwarte tylko podstawowe usługi w dolnej części miasta (Podlabin).",
+  "faq": [
+    {
+      "question": "Czy warto odwiedzić Labin?",
+      "answer": "Tak, Labin warto odwiedzić ze względu na jego zachowaną średniowieczną architekturę, galerie sztuki i wspaniałe widoki na Zatokę Kvarnerską. Stanowi spokojniejszą, bardziej historyczną alternatywę dla pobytu bezpośrednio w ruchliwych kurortach nadmorskich, jednocześnie zapewniając plaże w zasięgu krótkiej jazdy samochodem."
+    },
+    {
+      "question": "Ile dni potrzeba w Labinie?",
+      "answer": "Dwa do trzech dni wystarczą na zwiedzanie starego miasta, wizytę w lokalnym muzeum górnictwa i spędzenie czasu na plażach w Rabacu. Podróżni często wykorzystują go jako bazę na tydzień, aby odbywać jednodniowe wycieczki do Puli, na Przylądek Kamenjak i do centralnej Istrii."
+    },
+    {
+      "question": "Jaka jest najlepsza plaża w pobliżu Labinu?",
+      "answer": "Plaża Girandella w Rabacu jest najpopularniejsza, z białymi kamykami, czystą wodą i licznymi udogodnieniami. Jako spokojniejszą opcję, Sveta Marina znajduje się 15 minut jazdy samochodem na południe i jest ceniona za pływanie i nurkowanie."
+    },
+    {
+      "question": "Czy potrzebuję samochodu w Labinie?",
+      "answer": "Posiadanie samochodu jest wysoce zalecane do podróżowania między Labinem, plażami w Rabacu i okoliczną istryjską wsią. Chociaż lokalny autobus łączy stare miasto z wybrzeżem, pojazd zapewnia niezbędną elastyczność podczas jednodniowych wycieczek i zakupów spożywczych."
+    },
+    {
+      "question": "Gdzie mogę zaparkować w Labinie?",
+      "answer": "Główny parking dla starego miasta znajduje się przy Placu Titov Trg (Plac Tity), z dodatkowym parkingiem w pobliżu cmentarza. Parking tutaj podlega opłatom godzinowym lub dziennym w miesiącach letnich, a miejsca szybko zapełniają się do południa."
+    },
+    {
+      "question": "Czy Labin jest dobry dla rodzin?",
+      "answer": "Labin jest bardzo odpowiedni dla rodzin, zwłaszcza tych, które wynajmują willę z basenem na obrzeżach lub planują dojechać samochodem na plaże w Rabacu. Jednak rodziny podróżujące z wózkami dziecięcymi uznają, że poruszanie się po położonym na wzgórzu starym mieście jest trudne ze względu na strome, brukowane ulice i schody."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Gdzie zatrzymać się w Labinie",
+    "gettingThere": "Dojazd do Labinu",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Labinie",
+    "faq": "FAQ Labin",
+    "groups": {
+      "gettingAround": "Parking i poruszanie się",
+      "planning": "Planowanie i gdzie się zatrzymać",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróżowania",
+      "activities": "Plaże i atrakcje",
+      "food": "Jedzenie i napoje",
+      "comparisons": "Porównania",
+      "practical": "Praktyczne informacje"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "labin",
+  "language": "pl",
+  "updatedAt": "2026-10-16T12:15:12.787Z"
+}

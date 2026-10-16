@@ -1,0 +1,146 @@
+{
+  "title": "Guida di viaggio a Lovran: spiagge, parcheggio e dove alloggiare",
+  "metaDescription": "Pianifica il tuo viaggio a Lovran con la nostra guida pratica. Scopri le migliori zone dove alloggiare, percorsi stradali, consigli sul parcheggio e raccomandazioni sulle spiagge locali.",
+  "intro": "Lovran è una tranquilla città costiera sulla sponda orientale della penisola istriana, situata direttamente sulla Riviera di Opatija dove le pendici del Monte Učka incontrano il Mare Adriatico. È adatta ai viaggiatori che cercano un'alternativa più tranquilla e storica alla vicina Opatija. I visitatori vengono per il centro storico medievale ben conservato, le grandiose ville austro-ungariche e la famosa passeggiata costiera Lungomare di 12 chilometri che collega i villaggi costieri.\n\nIl periodo migliore per visitarla va da fine maggio a settembre. L'estate porta il clima ideale per la spiaggia e temperature del mare perfette per nuotare, mentre le stagioni intermedie di giugno e settembre offrono condizioni confortevoli per le escursioni e tariffe di alloggio più basse. La città attrae molto i guidatori europei che apprezzano la sua vicinanza, la pedonabilità e il ritmo rilassato mediterraneo.",
+  "quickFacts": [
+    {
+      "label": "Mesi migliori",
+      "value": "Giugno a settembre"
+    },
+    {
+      "label": "Temperatura del mare ad agosto",
+      "value": "25°C a 27°C"
+    },
+    {
+      "label": "Aeroporto più vicino",
+      "value": "Aeroporto di Rijeka (RJK), 50 km"
+    },
+    {
+      "label": "Tipo di spiaggia principale",
+      "value": "Terrazze di cemento e piccoli ciottoli"
+    },
+    {
+      "label": "Livello di prezzo",
+      "value": "Medio a leggermente sopra la media croata"
+    },
+    {
+      "label": "Pedonabilità del centro storico",
+      "value": "Senza auto e solo pedonale"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centro Storico (Stari Grad)",
+      "bestFor": "Coppie e appassionati di storia che cercano atmosfera",
+      "parking": "Parcheggi pubblici a pagamento fuori dalle mura",
+      "beach": "10 minuti a piedi dalle spiagge Cipera o Kvarner",
+      "summary": "Il nucleo storico presenta strade strette e acciottolate, antiche case in pietra e architettura medievale. È molto pedonabile e ricco di piccoli caffè locali, anche se non è possibile guidare direttamente alla maggior parte degli alloggi."
+    },
+    {
+      "name": "Peharovo",
+      "bestFor": "Famiglie e amanti della spiaggia",
+      "parking": "Parcheggio in strada e lotti di ville private",
+      "beach": "Accesso diretto alla spiaggia di Peharovo (ciottoli/ghiaia)",
+      "summary": "Situato appena a sud del centro città, questo quartiere circonda una delle spiagge per famiglie più popolari della riviera. Offre un'atmosfera più tranquilla e residenziale con molti appartamenti con angolo cottura."
+    },
+    {
+      "name": "Ika",
+      "bestFor": "Escursionisti e chi cerca una base tranquilla vicino a Opatija",
+      "parking": "Generalmente più facile che nel centro di Lovran; principalmente lotti privati",
+      "beach": "Piccole calette di ciottoli locali lungo il Lungomare",
+      "summary": "Un tranquillo villaggio vicino a nord, Ika si trova proprio sulla passeggiata del Lungomare. È un luogo rilassante che offre una passeggiata panoramica e pianeggiante fino al centro di Lovran."
+    },
+    {
+      "name": "Liganj & Lovranska Draga",
+      "bestFor": "Amanti della natura ed escursionisti con un'auto",
+      "parking": "Ampio parcheggio gratuito presso le pensioni",
+      "beach": "10 a 15 minuti di auto giù dalla montagna",
+      "summary": "Questi villaggi rurali si trovano in alto sulle pendici del Monte Učka dietro Lovran. Offrono ampie vedute sulla Baia del Quarnero, accesso immediato ai sentieri escursionistici e un clima più fresco."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monaco",
+      "car": "520 km, ~6 ore via A8, A10 e Slovenia (A2/A1). Vignette austriaca e slovena richieste, più il tunnel del Karawanken e i pedaggi croati.",
+      "other": "FlixBus per Opatija, o voli stagionali per Rijeka (RJK)"
+    },
+    {
+      "from": "Vienna",
+      "car": "510 km, ~5.5 ore via A2 per Graz, poi Maribor e Lubiana (Slovenia). Si applicano vignette austriache e slovene più pedaggi croati.",
+      "other": "Treno per Rijeka (spesso via Graz) o autobus a lunga percorrenza per Opatija"
+    },
+    {
+      "from": "Budapest",
+      "car": "515 km, ~5 ore via M7 fino al confine croato, poi A4 per Zagabria e A6 per Rijeka. Richiede una vignetta ungherese e pedaggi croati.",
+      "other": "FlixBus diretto per Rijeka, o treno stagionale per Rijeka"
+    },
+    {
+      "from": "Lubiana",
+      "car": "120 km, ~1.5 a 2 ore via A1 per Postojna, poi strada 6 per Ilirska Bistrica e il confine di Rupa. Vignetta slovena richiesta.",
+      "other": "Autobus diretto per Rijeka, poi autobus locale 32 per Lovran"
+    },
+    {
+      "from": "Praga",
+      "car": "840 km, ~9 ore via Brno, Vienna e Graz. Vignette ceche, austriache e slovene richieste.",
+      "other": "Voli stagionali per Zara o Zagabria, o treno RegioJet per Rijeka"
+    },
+    {
+      "from": "Cracovia",
+      "car": "910 km, ~10 ore via Ostrava, Brno, Vienna e Graz. Vignette ceche, austriache e slovene richieste.",
+      "other": "Voli per Vienna o Zagabria con una connessione in autobus"
+    }
+  ],
+  "whenToGo": "Le temperature del mare raggiungono il picco in agosto (una media di 25°C a 27°C), quando la città è più affollata di guidatori europei e i prezzi degli alloggi sono al massimo. Luglio è ugualmente caldo e vivace. Giugno e settembre sono i mesi migliori per visitare, offrendo un clima più mite, tariffe più basse e condizioni confortevoli per fare escursioni sul Monte Učka o passeggiare sul Lungomare. Maggio è tranquillo e fresco, ma il mare (circa 18°C) è generalmente troppo freddo per nuotare. La maggior parte dei ristoranti rimane aperta da Pasqua fino a ottobre, mentre l'inverno (novembre a marzo) vede la città rallentare notevolmente con molte attività stagionali che chiudono.",
+  "faq": [
+    {
+      "question": "Vale la pena visitare Lovran?",
+      "answer": "Sì, offre un'alternativa più tranquilla e rilassata alla vivace Opatija, con un affascinante centro storico medievale e la bellissima passeggiata del Lungomare. È ideale per una fuga costiera tranquilla senza le grandi folle delle città turistiche più grandi."
+    },
+    {
+      "question": "Quanti giorni servono a Lovran?",
+      "answer": "Tre-cinque giorni sono l'ideale. Questo ti dà abbastanza tempo per esplorare il centro storico, rilassarti sulle spiagge e fare una gita di un giorno al Monte Učka o alle vicine città istriane."
+    },
+    {
+      "question": "Qual è la migliore spiaggia a Lovran?",
+      "answer": "La spiaggia di Peharovo è la più popolare, offrendo un mix di piccoli ciottoli e un fondale sabbioso eccellente per le famiglie. La spiaggia di Kvarner è anche una buona opzione per le terrazze di cemento vicino al centro."
+    },
+    {
+      "question": "Serve un'auto a Lovran?",
+      "answer": "L'auto non è necessaria se prevedi di rimanere in città, poiché il centro, le spiagge e la passeggiata sono interamente pedonali. Gli autobus locali collegano facilmente Lovran a Rijeka e Opatija."
+    },
+    {
+      "question": "Dove posso parcheggiare a Lovran?",
+      "answer": "Ci sono parcheggi pubblici a pagamento designati intorno al perimetro del centro storico e vicino al porto. Trovare un posto in piena estate può essere difficile, quindi è altamente raccomandato verificare se il proprio alloggio include il parcheggio."
+    },
+    {
+      "question": "Lovran è adatta alle famiglie?",
+      "answer": "Sì, le acque calme, le aree pedonali sicure e le strutture adatte alle famiglie in spiagge come Peharovo la rendono una destinazione confortevole. La passeggiata del Lungomare è anche pianeggiante e adatta ai passeggini."
+    }
+  ],
+  "headings": {
+    "quickFacts": "A colpo d'occhio",
+    "whereToStay": "Dove alloggiare a Lovran",
+    "gettingThere": "Come arrivare a Lovran",
+    "whenToGo": "Quando andare",
+    "guides": "Guide di Lovran",
+    "faq": "FAQ di Lovran",
+    "groups": {
+      "gettingAround": "Parcheggio e spostamenti",
+      "planning": "Pianificazione e dove alloggiare",
+      "timing": "Quando andare",
+      "travelers": "Famiglie, coppie e stili di viaggio",
+      "activities": "Spiagge e cose da fare",
+      "food": "Cibo e bevande",
+      "comparisons": "Confronti",
+      "practical": "Info pratiche"
+    },
+    "car": "In auto",
+    "other": "Altre opzioni",
+    "bestFor": "Ideale per",
+    "parking": "Parcheggio",
+    "beach": "Spiaggia"
+  },
+  "destination": "lovran",
+  "language": "it",
+  "updatedAt": "2026-10-16T12:52:50.586Z"
+}

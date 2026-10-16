@@ -1,0 +1,146 @@
+{
+  "title": "Cavtat: Vodnik za potovanje – Plaže, parkiranje in namestitev",
+  "metaDescription": "Načrtujte svoje potovanje v Cavtat, Hrvaška. Ugotovite, kje prenočiti, kako priti z avtom iz Srednje Evrope, informacije o parkiranju in najboljše lokalne plaže.",
+  "intro": "Cavtat je obalno mesto v južni Dalmaciji, ki se nahaja 20 kilometrov južno od Dubrovnika. Služi obiskovalcem, ki iščejo tišje, bolj sproščeno obalno doživetje, hkrati pa ohranja enostaven dostop do zgodovinskega središča Dubrovnika z rednimi potniškimi ladjami in regionalnimi avtobusi. Mesto je osredotočeno okoli gozdnatega polotoka z ravno, pešcem prijazno promenado, ob kateri so restavracije, kavarne in borovci.\n\nDestinacija je primerna za družine, starejše popotnike in pare, ki imajo raje sproščene dni na plaži kot aktivno nočno življenje. Poletje je najpopularnejši čas za obisk, čeprav maj in september ponujata prijetno vreme za kopanje in nižje cene nastanitev. Avto ni potreben, če ostajate v mejah mesta, je pa uporaben za raziskovanje širše regije Konavle ali sosednje Črne gore.",
+  "quickFacts": [
+    {
+      "label": "Najboljši meseci",
+      "value": "Maj do september"
+    },
+    {
+      "label": "Temperatura morja v avgustu",
+      "value": "25°C do 27°C"
+    },
+    {
+      "label": "Najbližje letališče",
+      "value": "Letališče Dubrovnik (DBV), 6 km stran"
+    },
+    {
+      "label": "Glavni tip plaže",
+      "value": "Prod in betonske terase"
+    },
+    {
+      "label": "Cenovni razred",
+      "value": "Nadpovprečno, vendar 10-15% ceneje kot Dubrovnik"
+    },
+    {
+      "label": "Dostopnost peš",
+      "value": "Staro mesto je zelo dostopno peš in večinoma brez avtomobilov"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Staro mesto (polotok Rat)",
+      "bestFor": "Obiskovalci, ki pridejo prvič, in pari, ki imajo raje enostaven dostop do restavracij",
+      "parking": "Zelo omejeno; javno parkirišče pri vhodu v mesto",
+      "beach": "5-10 minut hoje do skalnatih in betonskih kopališč",
+      "summary": "Zgodovinsko središče ponuja tradicionalne kamnite hiše, restavracije in glavno promenado. Nastanitve so pogosto le nekaj korakov od vode, vendar običajno nimajo zasebnega parkirišča."
+    },
+    {
+      "name": "Zaliv Tiha (Uvala Tiha)",
+      "bestFor": "Družine in popotniki, ki iščejo neposreden dostop do plaže",
+      "parking": "Lažje najti, številni apartmaji ponujajo zasebna parkirna mesta",
+      "beach": "Neposredno na plaži Žal in okoliških prodnatih obalah",
+      "summary": "Nahaja se severno od polotoka in ponuja moderne apartmaje ter majhne hotele. Glavne prodnate plaže so vzdolž tega zaliva, kar je zelo priročno za kopanje."
+    },
+    {
+      "name": "Mećajac",
+      "bestFor": "Popotniki, ki so pozorni na proračun in so pripravljeni hoditi navkreber",
+      "parking": "Na splošno na voljo pri večini zasebnih nastanitev",
+      "beach": "10-15 minut hoje navzdol do glavnih zalivov",
+      "summary": "Ta soseska se nahaja na hribu nad starim mestom, ponuja nižje cene in pogosto dvignjene poglede na morje. Vrnitev iz centra ali s plaže zahteva strm vzpon."
+    },
+    {
+      "name": "Obod",
+      "bestFor": "Popotniki z avtomobilom, ki imajo raje mirnejšo bazo",
+      "parking": "Obilno in običajno vključeno v nastanitev",
+      "beach": "15-20 minut hoje navzdol ali kratka vožnja",
+      "summary": "Majhno naselje ob obalni cesti tik pred vstopom v Cavtat. Ponuja mirno okolico in enostaven dostop do glavne avtoceste za dnevne izlete, vendar je za dosego centra Cavtata potreben prevoz."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "980 km, 11-12 ur preko A8, A10, A1. Potrebni sta AT in SLO vinjeti, AT cestnine za tunele, HR cestnine za avtoceste.",
+      "other": "Neposredni leti na Letališče Dubrovnik (1,5 ure)"
+    },
+    {
+      "from": "Dunaj",
+      "car": "820 km, 9-10 ur preko A2, A4, A1. Potrebni sta AT in SLO vinjeti, HR cestnine za avtoceste. Pot poteka preko Pelješkega mostu.",
+      "other": "Neposredni leti na Letališče Dubrovnik (1,5 ure)"
+    },
+    {
+      "from": "Budimpešta",
+      "car": "750 km, 8-9 ur preko M7 in A1. Potrebna je HU vinjeta in HR cestnine za avtoceste. Pot poteka preko Pelješkega mostu.",
+      "other": "Sezonski neposredni leti (1,5 ure) ali avtobusne povezave"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "640 km, 7-8 ur preko A2 in A1. Potrebna je SLO vinjeta in HR cestnine za avtoceste. Pot poteka preko Pelješkega mostu.",
+      "other": "Sezonski leti v Dubrovnik ali avtobus preko Zagreba"
+    },
+    {
+      "from": "Praga",
+      "car": "1.150 km, 13-14 ur preko CZ D1, AT A9, SLO A2, HR A1. Potrebne so CZ, AT, SLO vinjete, AT cestnine za tunele, HR cestnine.",
+      "other": "Neposredni leti na Letališče Dubrovnik (2 uri)"
+    },
+    {
+      "from": "Krakov",
+      "car": "1.160 km, 13-14 ur preko SK D1, HU M1/M7, HR A1. Potrebne so PL cestnine, SK in HU vinjete, HR cestnine.",
+      "other": "Neposredni leti na Letališče Dubrovnik preko Ryanaira ali LOT-a"
+    }
+  ],
+  "whenToGo": "Poletje (julij in avgust) je vrhunec sezone, ko temperature morja dosežejo 27 °C, vse restavracije in trajekti delujejo s polno zmogljivostjo, cene nastanitev pa so najvišje. Junij in september ponujata udobnejše ravnovesje, z dnevnimi temperaturami okoli 25-28 °C, manj gneče in morje je še vedno dovolj toplo za kopanje. Maj in oktober sta precej mirnejša in cenejša, vendar se temperature morja gibljejo okoli 19-21 °C in nekatera sezonska podjetja ali trajektne linije lahko zmanjšajo svoje vozne rede ali se popolnoma zaprejo.",
+  "faq": [
+    {
+      "question": "Ali je Cavtat vreden obiska?",
+      "answer": "Da, zelo priporočljivo je za tiste, ki si želijo slikovito, sproščeno obalno mesto namesto živahnega velemesta. Ponuja čudovit pristan, čisto vodo in enostaven dostop do Dubrovnika brez velike turistične gneče."
+    },
+    {
+      "question": "Koliko dni potrebujem v Cavtatu?",
+      "answer": "Tri do pet dni je idealno za sproščen oddih na plaži in enodnevni izlet v Dubrovnik. Če nameravate raziskati Črno goro, polotok Pelješac in Elafitske otoke, je cel teden odlična baza."
+    },
+    {
+      "question": "Katera je najboljša plaža v Cavtatu?",
+      "answer": "Plaža Žal je najbolj priljubljena možnost, saj ponuja dolgo prodnato obalo, plitvo vodo in bližnje objekte. Za bolj divjo izkušnjo, Sustjepan ponuja betonske terase in skalnata kopališča, medtem ko je znana plaža Pasjača pod klifi oddaljena 15 minut vožnje."
+    },
+    {
+      "question": "Ali potrebujem avto v Cavtatu?",
+      "answer": "Ne, ne potrebujete avtomobila, če nameravate ostati lokalno in uporabljati pogoste avtobuse ali trajekte za obisk Dubrovnika. Avto je potreben le, če nameravate samostojno raziskovati širšo regijo Konavle, bližnje lokalne vasi ali Črno goro."
+    },
+    {
+      "question": "Kje lahko parkiram v Cavtatu?",
+      "answer": "Glavno javno parkirišče se nahaja pri vhodu v staro mesto, poleg avtobusne postaje, in zaračunava urne ali dnevne tarife. Ker je zgodovinski polotok večinoma prometno omejen, se prepričajte, da vaša nastanitev vključuje zasebno parkirišče, če prihajate z avtomobilom."
+    },
+    {
+      "question": "Ali je Cavtat primeren za družine?",
+      "answer": "Da, je ena izmed najbolj družinam prijaznih destinacij v regiji. Ravna, pešcem namenjena promenada je varna za otroke, mirne, plitve vode na lokalnih prodnatih plažah pa so odlične za mlajše plavalce."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na hitro",
+    "whereToStay": "Kje prenočiti v Cavtatu",
+    "gettingThere": "Kako priti v Cavtat",
+    "whenToGo": "Kdaj obiskati",
+    "guides": "Vodiči za Cavtat",
+    "faq": "Pogosto zastavljena vprašanja o Cavtatu",
+    "groups": {
+      "gettingAround": "Parkiranje in premikanje",
+      "planning": "Načrtovanje in kje prenočiti",
+      "timing": "Kdaj obiskati",
+      "travelers": "Družine, pari in načini potovanja",
+      "activities": "Plaže in stvari za početi",
+      "food": "Hrana in pijača",
+      "comparisons": "Primerjave",
+      "practical": "Praktične informacije"
+    },
+    "car": "Z avtom",
+    "other": "Druge možnosti",
+    "bestFor": "Najboljše za",
+    "parking": "Parkiranje",
+    "beach": "Plaža"
+  },
+  "destination": "cavtat",
+  "language": "sk",
+  "updatedAt": "2026-10-16T15:03:21.385Z"
+}

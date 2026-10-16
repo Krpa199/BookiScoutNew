@@ -1,0 +1,146 @@
+{
+  "title": "Makarska úti kalauz: Strandok, városrészek és utazási információk",
+  "metaDescription": "Tervezze meg utazását Makarskára, Horvátországba. Fedezze fel a legjobb kavicsos strandokat, a legnépszerűbb városrészeket, a Közép-Európából induló útvonalakat és a parkolási tippeket.",
+  "intro": "Makarska hosszú kavicsos strandokra, élénk éjszakai életre és a Biokovo-hegységhez való közvetlen hozzáférésre vágyó utazóknak nyújt kikapcsolódást. A Makarskai Riviéra kereskedelmi és közlekedési központjaként szolgál, nyáron Közép-Európából vonzza a tömegeket. A fő promenád kávézókkal, éttermekkel és terebélyes fenyőfákkal szegélyezett, bőséges természetes árnyékot biztosítva egészen a partig a forró nyári napokon.\n\nA város leginkább családok és csoportok számára ideális, akik a szervezett, számos létesítménnyel ellátott strandokat részesítik előnyben az eldugott öblökkel szemben. Azoknak, akik nyugodt pihenésre vágynak, érdemes a környező kisebb falvakat felkeresni, vagy májusban és októberben ellátogatni. A főszezonban erős parti forgalom és zsúfolt strandok jellemzőek, ezért június és szeptember az optimális hónap a meleg tengervíz hőmérséklete és a kezelhető látogatói szám közötti egyensúly érdekében.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Június és szeptember"
+    },
+    {
+      "label": "Tengervíz hőmérséklete augusztusban",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Split (SPU), 98 km"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Kavicsos"
+    },
+    {
+      "label": "Árszínvonal",
+      "value": "Kissé a horvát átlag felett"
+    },
+    {
+      "label": "Óváros",
+      "value": "Jól bejárható, nagyrészt autómentes mag"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Óváros (Centar)",
+      "bestFor": "Étkezéshez, éjszakai élethez és kulturális városnézéshez",
+      "parking": "Nagyon korlátozott, drága nyilvános parkolókra támaszkodik (Osejava, Városi Park)",
+      "beach": "10-15 perc séta a fő strandokhoz",
+      "summary": "A történelmi központra keskeny kőutcák, a főtér (Kačićev trg) és a kikötő jellemző. Itt található a legtöbb étterem, de éjszaka zajos lehet."
+    },
+    {
+      "name": "Donja Luka",
+      "bestFor": "Strandközeli elhelyezkedéshez és családoknak",
+      "parking": "Zsúfolt fizetős utcák; részesítse előnyben a saját parkolóval rendelkező szállodákat",
+      "beach": "Közvetlen hozzáférés Makarska fő 2 km-es kavicsos strandjához",
+      "summary": "Ez a terület a központtól északnyugatra fekvő fő öböl mentén húzódik. Sűrűn beépített szállodákkal, apartmanházakkal és tengerparti bárokkal."
+    },
+    {
+      "name": "Zelenka",
+      "bestFor": "Költségtudatos utazóknak és hosszabb tartózkodásra",
+      "parking": "Könnyebb ingyenes vagy a szálláshelyhez tartozó parkolót találni, mint a központban",
+      "beach": "10-20 perc séta lefelé a strandhoz (meredek visszaút)",
+      "summary": "Egy lakónegyed a főút feletti lejtőkön. Az itteni szállás általában olcsóbb, de a strandról visszafelé vezető út jelentős emelkedővel jár."
+    },
+    {
+      "name": "Veliko Brdo",
+      "bestFor": "Nyugodt pihenéshez, nagyobb csoportoknak és autós utazóknak",
+      "parking": "Bőséges saját parkolóhely a legtöbb szálláshelyen",
+      "beach": "3-5 km autózás a legközelebbi strandokhoz",
+      "summary": "Magasan a Biokovo-hegység lábánál található, ez a terület nagyrészt modern villákból áll, medencékkel. Az autó kötelező az élelmiszerbeszerzéshez és a strand megközelítéséhez."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "885 km, 9-10 óra az A8, A10 és A1 útvonalon keresztül. Osztrák és szlovén autópályamatrica, plusz horvát útdíjak szükségesek.",
+      "other": "Közvetlen járatok Splitbe (SPU), majd busz vagy transzfer."
+    },
+    {
+      "from": "Bécs",
+      "car": "765 km, 7.5-8.5 óra az A2 és HR A1 útvonalon keresztül. Osztrák és szlovén autópályamatrica, plusz horvát útdíjak szükségesek.",
+      "other": "Közvetlen járatok Splitbe (SPU) vagy éjszakai vonat Splitbe."
+    },
+    {
+      "from": "Budapest",
+      "car": "785 km, 7.5-8.5 óra az M7 és HR A1 útvonalon keresztül. Magyar autópályamatrica, plusz horvát útdíjak szükségesek.",
+      "other": "FlixBus közvetlenül Makarskára vagy repülőjárat Splitbe."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "515 km, 5.5-6 óra az A2 és HR A1 útvonalon keresztül. Szlovén autópályamatrica, plusz horvát útdíjak szükségesek.",
+      "other": "Közvetlen busz vagy vonat Zágrábba/Splitbe, majd busz Makarskára."
+    },
+    {
+      "from": "Prága",
+      "car": "1080 km, 11-12 óra a CZ D1, AT A1/A9 és HR A1 útvonalon keresztül. Cseh, osztrák, szlovén autópályamatrica, plusz horvát útdíjak szükségesek.",
+      "other": "Közvetlen járatok Splitbe (SPU) a Smartwings vagy Croatia Airlines légitársaságokkal."
+    },
+    {
+      "from": "Krakkó",
+      "car": "1060 km, 11-12 óra a SK D1, HU M7 és HR A1 útvonalon keresztül. Szlovák és magyar autópályamatrica, plusz horvát útdíjak szükségesek.",
+      "other": "Repülőjáratok Splitbe (SPU) a LOT vagy Wizz Air légitársaságokkal."
+    }
+  ],
+  "whenToGo": "Május a szezon kezdete, a nappali hőmérséklet 22°C körül mozog, de a tenger még hűvös, 18°C-os, és néhány strandbár még zárva tart. Június melegebb vizeket (22°C-24°C) és teljesen nyitott létesítményeket hoz extrém tömeg nélkül. Július és augusztus a főszezon, magas hőmérséklettel (30°C+), a tengervíz hőmérséklete 27°C-on tetőzik, erős forgalommal, zsúfolt strandokkal és csúcsárakkal. Szeptember visszatérést kínál a júniusi tömegszinthez, de a tengervíz még meleg a nyári hőségtől. Október végére a hőmérséklet csökken, a csapadék növekszik, és a legtöbb szezonális étterem és szálloda bezár télire.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni?",
+      "answer": "Igen, ha hosszú, szervezett strandokra és élénk esti hangulatra vágyik. Ez a Makarskai Riviéra fő központja, kiváló létesítményeket kínál, de nem ajánlott azoknak, akik nyugodt, elszigetelt nyaralásra vágynak a főszezonban."
+    },
+    {
+      "question": "Hány napra érdemes?",
+      "answer": "Öt-hét nap tipikus egy nyári tengerparti nyaraláshoz. Ha a dalmát tengerparton utazik, két-három nap elegendő a város megtekintéséhez és a Biokovo-hegység túrázásához."
+    },
+    {
+      "question": "Melyik a legjobb strand?",
+      "answer": "Donja Luka a fő, családbarát kavicsos strand napágyakkal és fenyőfák árnyékával. Természetesebb környezetért a Nugal strand egy festői 30 perces sétára található az Osejava erdőn keresztül, és vegyes/FKK strandként működik."
+    },
+    {
+      "question": "Szükségem van autóra?",
+      "answer": "Nincs szüksége autóra, ha a városközpontban vagy Donja Luka közelében száll meg, mivel a város jól bejárható gyalogosan. Azonban autó szükséges, ha a domboldali külvárosokban foglal szállást, vagy önállóan tervezi felfedezni a Biokovo Természetvédelmi Parkot."
+    },
+    {
+      "question": "Hol parkoljak?",
+      "answer": "A parkolás Makarskán hírhedten nehéz és drága nyáron. Keressen olyan szállást, amely garantált saját parkolóval rendelkezik; ellenkező esetben az Osejava-félsziget vagy a városi sportközpont közelében található fizetős nyilvános parkolókra kell támaszkodnia."
+    },
+    {
+      "question": "Jó családoknak?",
+      "answer": "Igen, Makarska nagyon népszerű a családok körében, enyhén lejtős kavicsos strandjainak és árnyékos fenyőerdőinek köszönhetően. A város számos családbarát tevékenységet, víziparkot, valamint könnyű hozzáférést biztosít szupermarketekhez és gyógyszertárakhoz."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Áttekintés",
+    "whereToStay": "Hol szálljon meg Makarskán",
+    "gettingThere": "Utazás Makarskára",
+    "whenToGo": "Mikor utazzon",
+    "guides": "Makarskai úti kalauzok",
+    "faq": "Makarska GYIK",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor érdemes utazni",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Ételek és italok",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb ide",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "makarska",
+  "language": "hu",
+  "updatedAt": "2026-10-16T10:17:03.028Z"
+}

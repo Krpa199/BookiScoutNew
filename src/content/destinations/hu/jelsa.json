@@ -1,0 +1,146 @@
+{
+  "title": "Jelsa utazási útmutató: Strandok, parkolás és hol szálljon meg",
+  "metaDescription": "Tervezze meg utazását Jelsára, Horvátországba részletes útmutatónkkal. Fedezze fel a legjobb strandokat, környékeket, vezetési útvonalakat és parkolási tippeket hvari nyaralásához.",
+  "intro": "Jelsa egy tengerparti város Hvar sziget északi oldalán, csendesebb, családbarát alternatívája a forgalmasabb Hvar városnak. Történelmi központja egy védett kikötő köré épült, fenyőerdőkkel övezve, szőlőültetvényekkel és olajfaligetekkel körülvéve. A városban egész évben működő közösség él, amely a csúcsidőszakon kívül is nyitva tartja a helyi szolgáltatásokat, mint a pékségek, gyógyszertárak és szupermarketek.\n\nA város ideális azoknak a látogatóknak, akik könnyű strandhozzáférést, sík tengerparti sétáló- és kerékpárutakat, valamint nyugodt esti légkört keresnek. A kisgyermekes családok gyakran választják Jelsát a homokos aljú öblei miatt. A látogatás optimális ideje júniustól szeptemberig tart, amikor a tenger hőmérséklete elég meleg az úszáshoz, és a katamaránjáratok a leggyakoribb nyári menetrendjük szerint közlekednek.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Júniustól szeptemberig"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "25°C és 27°C között"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Split (SPU), 24 km a kikötőig + 2 órás komp"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Homokos és kavicsos"
+    },
+    {
+      "label": "Árszínvonal",
+      "value": "Enyhén a horvát átlag felett"
+    },
+    {
+      "label": "Városközpont",
+      "value": "Csak gyalogos, autómentes"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Jelsa Központ (Óváros)",
+      "bestFor": "Étkezés, esti séták és autóval nem utazóknak",
+      "parking": "Fizetős önkormányzati parkolók a gyalogos zónán kívül",
+      "beach": "10 perces séta Mina strandra",
+      "summary": "A történelmi magban kőházak, kávézók és éttermek találhatók a főtér (Pjaca) és a kikötő körül. Az itt való tartózkodás azonnali hozzáférést biztosít a napi szolgáltatásokhoz és a katamaránjáratokhoz, bár júliusban és augusztusban este korlátozott lehet a nyugalom."
+    },
+    {
+      "name": "Mina Strand környéke",
+      "bestFor": "Kisgyermekes családoknak",
+      "parking": "A legtöbb apartmanhoz saját parkoló tartozik, plusz közeli fizetős parkolók",
+      "beach": "Azonnali hozzáférés a homokos aljú Mina strandhoz",
+      "summary": "A városközponttól keletre fekvő negyedet tengerparti fenyőfák uralják, és közvetlen hozzáférést biztosít Jelsa legnépszerűbb családi strandjához. A sétány a központba körülbelül 10 percet vesz igénybe egy sík, kivilágított tengerparti promenádon."
+    },
+    {
+      "name": "Vitarnja",
+      "bestFor": "Pároknak és csendet keresőknek",
+      "parking": "Általában a szálláshoz tartozik",
+      "beach": "Azonnali hozzáférés sziklás és kavicsos öblökhöz",
+      "summary": "Jelsától nyugatra, a szomszédos Vrboska falu felé húzódva Vitarnja egy csendes, lakóövezeti tengerparti szakasz. Privát fürdőhelyeket kínál sziklás platformokról és árnyékos tengerparti utat, amely összeköti a két várost."
+    },
+    {
+      "name": "Vrboska",
+      "bestFor": "Kerékpárosoknak és hosszabb tartózkodásra",
+      "parking": "Bőséges nyilvános és privát parkoló",
+      "beach": "2 km-re a Soline strandtól, vagy kerékpárral Jelsa strandjaihoz",
+      "summary": "Jelsától 4 kilométerre nyugatra található ez a különálló falu egy mély, keskeny öbölben, amelyet kőhidak szelnek át. Praktikus alternatív bázisként szolgál saját éttermeivel, kikötőjével és többnyire sík terepével, amely ideális a tengerparti kerékpározáshoz."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "870 km Split kikötőig + komp, összesen 11-12 óra (az A8, Villach, Ljubljana, Zágráb, A1 útvonalon). Osztrák és szlovén autópályamatrica, horvát útdíjak és Jadrolinija komp jegy szükséges.",
+      "other": "Közvetlen járatok Splitbe (SPU), majd reptéri busz a kikötőbe és katamarán közvetlenül Jelsára."
+    },
+    {
+      "from": "Bécs",
+      "car": "800 km Split kikötőig + komp, összesen 10-11 óra (Graz, Maribor, Zágráb, A1 útvonalon). Osztrák és szlovén autópályamatrica, horvát útdíjak és Jadrolinija komp jegy szükséges.",
+      "other": "Közvetlen járatok vagy szezonális éjszakai vonat Splitbe, majd katamarán közvetlenül Jelsára."
+    },
+    {
+      "from": "Budapest",
+      "car": "760 km Split kikötőig + komp, összesen 9-10 óra (M7, Letenye, Zágráb, A1 útvonalon). Magyar e-matrica, horvát útdíjak és Jadrolinija komp jegy szükséges.",
+      "other": "Közvetlen járatok Splitbe, majd reptéri busz a kikötőbe és katamarán közvetlenül Jelsára."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "480 km Split kikötőig + komp, összesen 7-8 óra (az A2-n Zágrábba, majd az A1-en Splitbe). Szlovén autópályamatrica, horvát útdíjak és Jadrolinija komp jegy szükséges.",
+      "other": "Busz vagy vonat Splitbe, majd katamarán közvetlenül Jelsára vagy komp Stari Gradba."
+    },
+    {
+      "from": "Prága",
+      "car": "1120 km Split kikötőig + komp, összesen 13-14 óra (Bécs, Graz, Maribor, Zágráb, A1 útvonalon). Cseh, osztrák, szlovén autópályamatrica, horvát útdíjak és Jadrolinija komp jegy szükséges.",
+      "other": "Közvetlen járatok Splitbe, majd reptéri busz a kikötőbe és katamarán közvetlenül Jelsára."
+    },
+    {
+      "from": "Krakkó",
+      "car": "1100 km Split kikötőig + komp, összesen 12-14 óra (Szlovákia, Budapest, Zágráb, A1 útvonalon). Szlovák és magyar autópályamatrica, horvát útdíjak és Jadrolinija komp jegy szükséges.",
+      "other": "Közvetlen járatok Splitbe, majd reptéri busz a kikötőbe és katamarán közvetlenül Jelsára."
+    }
+  ],
+  "whenToGo": "A tenger hőmérséklete általában május végére eléri a 21°C-ot, júliusban és augusztusban pedig 25°C és 27°C között tetőzik, egészen októberig elég meleg marad az úszáshoz. Július és augusztus a legzsúfoltabb és legdrágább hónapok, ekkor van a csúcsszezon, és ekkor működik az összes étterem, strandbár és hajókölcsönző. Június és szeptember kínálja a legjobb egyensúlyt a meleg tenger, a kezelhetőbb tömeg és az enyhén alacsonyabb szállásdíjak között, így optimálisak a strandolás és a kerékpározás vagy városnézés kombinálására. November és április között Jelsa jelentősen elcsendesedik; bár a helyi közösség megmarad, a legtöbb turistákra fókuszáló vállalkozás, szálloda és szezonális kompjárat bezár télire.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni?",
+      "answer": "Igen, Jelsát érdemes meglátogatni azoknak az utazóknak, akik csendesebb, családbarát alternatívát keresnek Hvar város helyett. Sima tengerparti ösvényeket, homokos aljú strandokat és egy jól megőrzött történelmi központot kínál intenzív éjszakai élet nélkül."
+    },
+    {
+      "question": "Hány napra érdemes menni?",
+      "answer": "Három-öt nap praktikus időkeret Jelsa és közvetlen környezetének felfedezésére. Ez elegendő időt biztosít a helyi strandokon való eltöltésre és rövid kirándulásokra a közeli Stari Gradba, Vrboskába vagy Hvar déli partjára."
+    },
+    {
+      "question": "Melyik a legjobb strand?",
+      "answer": "Mina és Grebišće széles körben Jelsa legjobb strandjainak számítanak sekély, homokos aljzatuk miatt, ami ritka Hvaron. Mina van legközelebb a központhoz (kb. 10 perces sétára), míg Grebišće 1,5 kilométerre keletre található, és több helyet kínál."
+    },
+    {
+      "question": "Szükségem van autóra?",
+      "answer": "Nincs szüksége autóra, ha Jelsán szeretne maradni és a helyi strandokon töltené idejét, mivel a város kompakt és kiválóan bejárható gyalogosan. Azonban autó vagy robogó bérlése ajánlott, ha eldugott öblöket, belső falvakat vagy a sziget más városait szeretné felfedezni."
+    },
+    {
+      "question": "Hol parkoljak?",
+      "answer": "Jelsán a parkolást az önkormányzati fizetős parkolók kezelik, amelyek a gyalogosforgalmú központ közvetlen közelében találhatók, a fő parkoló a központi park mellett van. A nyári csúcsszezonban a parkolás általában óránként 1,40 € vagy napi jegy esetén 14 €."
+    },
+    {
+      "question": "Jó-e családoknak?",
+      "answer": "Igen, Jelsát rendkívül családbarát úti célként tartják számon. A város gyalogos zónákkal, babakocsival is járható sík sétányokkal és biztonságos, sekély, homokos aljú strandokkal rendelkezik, amelyek kifejezetten a kisgyermekesek számára ideálisak."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Áttekintés",
+    "whereToStay": "Hol szálljon meg Jelsán",
+    "gettingThere": "Hogyan juthat el Jelsára",
+    "whenToGo": "Mikor utazzon",
+    "guides": "Jelsa útmutatók",
+    "faq": "Jelsa GYIK",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és hol szálljon meg",
+      "timing": "Mikor utazzon",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Étel és ital",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb erre",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "jelsa",
+  "language": "hu",
+  "updatedAt": "2026-10-16T14:53:57.332Z"
+}

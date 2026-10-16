@@ -1,0 +1,146 @@
+{
+  "title": "Lovran: Potovalni vodnik – plaže, parkiranje in nastanitve",
+  "metaDescription": "Načrtujte svoje potovanje v Lovran z našim praktičnim vodnikom. Odkrijte najboljše predele za bivanje, poti z avtomobilom, nasvete za parkiranje in priporočila za lokalne plaže.",
+  "intro": "Lovran je sproščeno obmorsko mesto na vzhodni obali Istrskega polotoka, ki leži neposredno na Opatijski rivieri, kjer se obronki Učke srečajo z Jadranskim morjem. Primeren je za popotnike, ki iščejo mirnejšo, bolj zgodovinsko alternativo sosednji Opatiji. Obiskovalce privabljajo dobro ohranjeno srednjeveško staro mestno jedro, velike avstro-ogrske vile in znamenita 12-kilometrska obalna promenada Lungomare, ki povezuje obmorske vasi.\n\nNajboljši čas za obisk je od konca maja do septembra. Poletje prinaša vrhunsko vreme za plažo in temperature morja, ki so kot nalašč za kopanje, medtem ko junij in september ponujata udobne pogoje za pohodništvo in nižje cene nastanitev. Mesto je zelo privlačno za evropske voznike, ki cenijo njegovo bližino, možnost sprehajanja in sproščen mediteranski ritem.",
+  "quickFacts": [
+    {
+      "label": "Najboljši meseci",
+      "value": "Junij do september"
+    },
+    {
+      "label": "Temperatura morja avgusta",
+      "value": "25°C do 27°C"
+    },
+    {
+      "label": "Najbližje letališče",
+      "value": "Letališče Reka (RJK), 50 km"
+    },
+    {
+      "label": "Glavna vrsta plaže",
+      "value": "Betonske terase in majhni prodniki"
+    },
+    {
+      "label": "Cenovni razred",
+      "value": "Povprečno do nekoliko nad hrvaškim povprečjem"
+    },
+    {
+      "label": "Prehodnost starega mestnega jedra",
+      "value": "Brez avtomobilov in samo za pešce"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Staro mestno jedro (Stari Grad)",
+      "bestFor": "Za pare in ljubitelje zgodovine, ki si želijo vzdušja",
+      "parking": "Javna plačljiva parkirišča zunaj obzidja",
+      "beach": "10 minut hoje do plaž Cipera ali Kvarner",
+      "summary": "Zgodovinsko jedro odlikujejo ozke, tlakovane ulice, starodavne kamnite hiše in srednjeveška arhitektura. Je zelo prehodno in polno majhnih lokalnih kavarn, čeprav do večine nastanitev ne morete pripeljati z avtomobilom."
+    },
+    {
+      "name": "Peharovo",
+      "bestFor": "Za družine in ljubitelje plaž",
+      "parking": "Parkiranje ob ulici in zasebna parkirišča pri vilah",
+      "beach": "Neposreden dostop do plaže Peharovo (prod/gramoz)",
+      "summary": "Nahaja se južno od mestnega središča, ta soseska obdaja eno najbolj priljubljenih družinskih plaž na rivieri. Ponuja mirnejše, stanovanjsko vzdušje z veliko apartmaji za samopostrežbo."
+    },
+    {
+      "name": "Ika",
+      "bestFor": "Za sprehajalce in tiste, ki si želijo mirno izhodišče blizu Opatije",
+      "parking": "Na splošno lažje kot v centru Lovrana; večinoma zasebna parkirišča",
+      "beach": "Majhni lokalni prodnati zalivi ob promenadi Lungomare",
+      "summary": "Mirna sosednja vas na severu, Ika leži neposredno ob promenadi Lungomare. Je sproščujoč kraj, ki ponuja slikovit, raven sprehod do centra Lovrana."
+    },
+    {
+      "name": "Liganj & Lovranska Draga",
+      "bestFor": "Za ljubitelje narave in pohodnike z avtomobilom",
+      "parking": "Veliko brezplačnih parkirišč pri penzionih",
+      "beach": "10 do 15 minut vožnje z avtomobilom po hribu navzdol",
+      "summary": "Te podeželske vasi ležijo visoko na pobočjih Učke za Lovranom. Ponujajo čudovite razglede na Kvarnerski zaliv, neposreden dostop do pohodniških poti in hladnejše podnebje."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "520 km, ~6 ur preko A8, A10 in Slovenije (A2/A1). Potrebne so avstrijska in slovenska vinjeta, poleg tega Karavanški predor in hrvaške cestnine.",
+      "other": "FlixBus do Opatije ali sezonski leti do Reke (RJK)"
+    },
+    {
+      "from": "Dunaj",
+      "car": "510 km, ~5,5 ur preko A2 do Gradca, nato Maribor in Ljubljana (Slovenija). Potrebne so avstrijska in slovenska vinjeta ter hrvaške cestnine.",
+      "other": "Vlak do Reke (pogosto preko Gradca) ali medkrajevni avtobus do Opatije"
+    },
+    {
+      "from": "Budimpešta",
+      "car": "515 km, ~5 ur preko M7 do hrvaške meje, nato A4 do Zagreba in A6 do Reke. Potrebna sta madžarska vinjeta in hrvaške cestnine.",
+      "other": "FlixBus neposredno do Reke ali sezonski vlak do Reke"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "120 km, ~1,5 do 2 uri preko A1 do Postojne, nato cesta 6 do Ilirske Bistrice in meje Rupa. Potrebna je slovenska vinjeta.",
+      "other": "Neposreden avtobus do Reke, nato lokalni avtobus 32 do Lovrana"
+    },
+    {
+      "from": "Praga",
+      "car": "840 km, ~9 ur preko Brna, Dunaja in Gradca. Potrebne so češka, avstrijska in slovenska vinjeta.",
+      "other": "Sezonski leti do Zadra ali Zagreba, ali vlak RegioJet do Reke"
+    },
+    {
+      "from": "Krakov",
+      "car": "910 km, ~10 ur preko Ostrave, Brna, Dunaja in Gradca. Potrebne so češka, avstrijska in slovenska vinjeta.",
+      "other": "Leti do Dunaja ali Zagreba z nadaljnjim avtobusnim prevozom"
+    }
+  ],
+  "whenToGo": "Temperatura morja doseže vrhunec avgusta (povprečno 25°C do 27°C), ko je mesto najbolj obljudeno z evropskimi vozniki in cene nastanitev najvišje. Julij je podobno topel in živahen. Junij in september sta najboljša meseca za obisk, saj ponujata blažje vreme, nižje cene in udobne pogoje za pohodništvo po Učki ali sprehod po Lungomare. Maj je miren in svež, vendar je morje (okoli 18°C) na splošno prehladno za kopanje. Večina restavracij je odprtih od velike noči do oktobra, medtem ko se pozimi (od novembra do marca) mesto precej umiri in številna sezonska podjetja zaprejo.",
+  "faq": [
+    {
+      "question": "Ali je Lovran vreden obiska?",
+      "answer": "Da, ponuja mirnejšo, bolj sproščeno alternativo živahni Opatiji s čudovitim srednjeveškim starim mestnim jedrom in prelepo promenado Lungomare. Idealen je za miren obmorski oddih brez velikih množic večjih letoviških mest."
+    },
+    {
+      "question": "Koliko dni potrebujem v Lovranu?",
+      "answer": "Tri do pet dni je idealno. To vam bo dalo dovolj časa za raziskovanje zgodovinskega središča, sprostitev na plažah in enodnevni izlet na Učko ali v bližnja istrska mesta."
+    },
+    {
+      "question": "Katera je najboljša plaža v Lovranu?",
+      "answer": "Plaža Peharovo je najbolj priljubljena, saj ponuja mešanico majhnih prodnikov in peščenega morskega dna, kar je odlično za družine. Plaža Kvarner je prav tako dobra možnost z betonskimi terasami blizu centra."
+    },
+    {
+      "question": "Ali potrebujem avto v Lovranu?",
+      "answer": "Avto ni nujen, če nameravate ostati v mestu, saj so center, plaže in promenada v celoti dosegljivi peš. Lokalni avtobusi enostavno povezujejo Lovran z Reko in Opatijo."
+    },
+    {
+      "question": "Kje lahko parkiram v Lovranu?",
+      "answer": "Obstajajo določena javna plačljiva parkirišča okoli oboda starega mestnega jedra in blizu pristanišča. Zagotoviti si prostor v času vrhunca poletne sezone je lahko težko, zato je zelo priporočljivo preveriti, ali vaša nastanitev vključuje parkirišče."
+    },
+    {
+      "question": "Ali je Lovran primeren za družine?",
+      "answer": "Da, mirne vode, varna območja za pešce in družinam prijazne zmogljivosti na plažah, kot je Peharovo, ga delajo udobno destinacijo. Promenada Lungomare je tudi ravna in primerna za vozičke."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na kratko",
+    "whereToStay": "Kje prenočiti v Lovranu",
+    "gettingThere": "Pot do Lovrana",
+    "whenToGo": "Kdaj obiskati",
+    "guides": "Vodniki po Lovranu",
+    "faq": "Lovran: Pogosto zastavljena vprašanja",
+    "groups": {
+      "gettingAround": "Parkiranje in premikanje po mestu",
+      "planning": "Načrtovanje in kje prenočiti",
+      "timing": "Kdaj obiskati",
+      "travelers": "Družine, pari in stili potovanja",
+      "activities": "Plaže in stvari za početi",
+      "food": "Hrana in pijača",
+      "comparisons": "Primerjave",
+      "practical": "Praktične informacije"
+    },
+    "car": "Z avtomobilom",
+    "other": "Druge možnosti",
+    "bestFor": "Najboljše za",
+    "parking": "Parkiranje",
+    "beach": "Plaža"
+  },
+  "destination": "lovran",
+  "language": "sk",
+  "updatedAt": "2026-10-16T12:54:01.676Z"
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Opatija: Guía de viaje, Zonas, Aparcamiento y Cómo llegar",
+  "metaDescription": "Planifica tu viaje a Opatija. Lee sobre las mejores zonas para alojarse, consejos de aparcamiento, playas, rutas en coche desde Europa y cuándo visitar.",
+  "intro": "Opatija es una ciudad costera en el golfo de Kvarner conocida por su arquitectura austrohúngara, parques históricos y el paseo marítimo Lungomare de 12 kilómetros. Se dirige principalmente a viajeros adultos, parejas y personas mayores interesadas en cenas, tratamientos de spa y paseos junto al mar, en lugar de discotecas nocturnas o playas de arena.\n\nLa ciudad desciende abruptamente hacia el Adriático, lo que significa que muchos alojamientos se encuentran en laderas por encima de la carretera costera principal. El verano trae altas temperaturas aptas para nadar desde las terrazas de hormigón y rocas de la ciudad, mientras que la primavera y el otoño atraen a los visitantes para practicar senderismo y escapadas de bienestar. Debido a que es un destino popular de fin de semana desde Europa Central, el tráfico y el aparcamiento requieren planificación anticipada durante los meses punta.",
+  "quickFacts": [
+    {
+      "label": "Mejores meses",
+      "value": "De mayo a septiembre"
+    },
+    {
+      "label": "Temperatura del mar en agosto",
+      "value": "24°C a 26°C"
+    },
+    {
+      "label": "Aeropuerto más cercano",
+      "value": "Aeropuerto de Rijeka (RJK), 42 km"
+    },
+    {
+      "label": "Tipo de playa principal",
+      "value": "Terrazas de hormigón y orillas rocosas"
+    },
+    {
+      "label": "Nivel de precios",
+      "value": "Más alto que la media croata"
+    },
+    {
+      "label": "Facilidad para caminar",
+      "value": "Paseo marítimo transitable a pie; la carretera principal no es peatonal"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centro de Opatija",
+      "bestFor": "Primeros visitantes y parejas que buscan acceso a restaurantes y parques históricos",
+      "parking": "Caro y escaso; utilice aparcamientos públicos como Slatina o Gorovo",
+      "beach": "Slatina (terrazas de hormigón) y Tomaševac (parcialmente de arena/hormigón)",
+      "summary": "El centro histórico cuenta con villas del siglo XIX, jardines cuidados y la mayor concentración de restaurantes y hoteles. La calle principal, Ulica Maršala Tita, atraviesa el centro y soporta un tráfico intenso en verano."
+    },
+    {
+      "name": "Volosko",
+      "bestFor": "Entusiastas de la comida y aquellos que buscan un ambiente más tranquilo y de pueblo",
+      "parking": "Aparcamientos públicos muy limitados; restringido principalmente a residentes",
+      "beach": "Pequeños lugares de baño de hormigón a lo largo del Lungomare",
+      "summary": "Un antiguo pueblo de pescadores justo al norte del centro, marcando el inicio del Lungomare. Es conocido por sus estrechas calles empedradas, restaurantes de marisco y tabernas locales construidas alrededor de un pequeño puerto."
+    },
+    {
+      "name": "Ičići",
+      "bestFor": "Familias y visitantes que buscan playas de guijarros estándar y acceso a puerto deportivo",
+      "parking": "Aparcamiento en la calle de pago cerca de la playa; a menudo lleno a media mañana en julio",
+      "beach": "Playa de Ičići (gran cala de guijarros con zonas de hormigón para tomar el sol)",
+      "summary": "Situado a tres kilómetros al sur del centro de Opatija, Ičići ofrece un ambiente de vacaciones de verano mediterráneo más típico. Cuenta con una gran Marina ACI y está conectado directamente con Opatija a través del paseo marítimo."
+    },
+    {
+      "name": "Lovran",
+      "bestFor": "Viajeros que buscan un ritmo más lento y arquitectura medieval",
+      "parking": "Varios aparcamientos municipales de pago cerca del casco antiguo y el puerto",
+      "beach": "Peharovo (guijarros) y Kvarner (hormigón)",
+      "summary": "Lovran es una ciudad separada en el extremo sur del Lungomare, a unos seis kilómetros de Opatija. Conserva un núcleo histórico medieval y ofrece una alternativa más relajada y ligeramente menos costosa que la propia Opatija."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Múnich",
+      "car": "510 km, ~6 horas vía A8, Tauern Autobahn (A10) y Eslovenia. Requiere viñeta austriaca, peajes de los túneles de Tauern/Karawanken, viñeta eslovena y peaje croata",
+      "other": "Tren nocturno directo (Nightjet) a Rijeka, luego autobús local"
+    },
+    {
+      "from": "Viena",
+      "car": "490 km, ~5 horas vía A2 hasta Graz, luego A9 y A1 eslovena. Requiere viñeta austriaca, viñeta eslovena y peaje croata",
+      "other": "Autobús directo (FlixBus) o tren (ÖBB) a Rijeka, luego autobús local"
+    },
+    {
+      "from": "Budapest",
+      "car": "510 km, ~5 horas vía M7 hasta la frontera, luego A4, A1 y A6 croatas hasta Rijeka. Requiere viñeta húngara y peajes croatas",
+      "other": "Tren directo o FlixBus a Rijeka, con conexión a Opatija"
+    },
+    {
+      "from": "Liubliana",
+      "car": "110 km, ~1.5 horas vía A1 hasta Postojna, luego Ruta 6 hasta Ilirska Bistrica/Rupa. Requiere viñeta eslovena y peaje croata",
+      "other": "Autobús directo o tren a Rijeka, luego autobús local"
+    },
+    {
+      "from": "Praga",
+      "car": "750 km, ~8.5 horas vía Viena y Graz (A2/A9). Requiere viñetas checa, austriaca y eslovena, además de peajes croatas",
+      "other": "Tren RegioJet a Rijeka (solo en verano) o vuelo a Viena/Zagreb"
+    },
+    {
+      "from": "Cracovia",
+      "car": "850 km, ~9.5 horas vía Brno, Viena y Graz. Requiere viñetas checa, austriaca y eslovena, además de peajes croatas",
+      "other": "Vuelo a Zagreb o Zadar, seguido de un autobús de larga distancia"
+    }
+  ],
+  "whenToGo": "De junio a septiembre ofrece el mejor clima para nadar, con temperaturas del mar que alcanzan los 26°C en agosto. Julio y agosto son los meses más concurridos y caros, trayendo paseos marítimos llenos de gente y tráfico intenso. Mayo y octubre ofrecen temperaturas más frescas, ideales para hacer senderismo en el Monte Učka o caminar por el Lungomare, aunque el mar suele estar demasiado frío para nadar. La mayoría de los principales hoteles y restaurantes permanecen abiertos todo el año, ya que Opatija también atiende escapadas de bienestar y conferencias en invierno, pero algunos establecimientos más pequeños cierran de noviembre a Semana Santa.",
+  "faq": [
+    {
+      "question": "¿Vale la pena visitar Opatija?",
+      "answer": "Sí, si aprecias la arquitectura histórica, los jardines cuidados y los paseos marítimos. Carece de playas de arena y zonas de fiesta, atrayendo principalmente a adultos que buscan una escapada relajada y de lujo junto al mar."
+    },
+    {
+      "question": "¿Cuántos días debo pasar en Opatija?",
+      "answer": "Dos o tres días son suficientes para recorrer el Lungomare, explorar el centro de la ciudad y visitar pueblos vecinos como Volosko o Lovran. También sirve como base conveniente para excursiones de un día a Istria o las islas de Kvarner."
+    },
+    {
+      "question": "¿Cuál es la mejor playa de Opatija?",
+      "answer": "Slatina es la playa más céntrica, con terrazas de hormigón y alquiler de tumbonas. Para una playa tradicional de guijarros, dirígete tres kilómetros al sur a Ičići o más abajo por la costa a Medveja."
+    },
+    {
+      "question": "¿Necesito un coche en Opatija?",
+      "answer": "No, un coche es innecesario si planeas quedarte en la ciudad, ya que el centro es transitable a pie y el Lungomare conecta los principales pueblos costeros. Los autobuses locales circulan con frecuencia entre Rijeka, Opatija y Lovran."
+    },
+    {
+      "question": "¿Dónde puedo aparcar en Opatija?",
+      "answer": "El aparcamiento en la calle está dividido en zonas de pago y se llena rápidamente durante los fines de semana de verano. Las opciones más fiables son los aparcamientos públicos de varias plantas, como Garage Slatina, Garage Gorovo o Garage Gervais, aunque se recomienda asegurar el aparcamiento a través de tu hotel."
+    },
+    {
+      "question": "¿Es Opatija buena para familias?",
+      "answer": "Es adecuada para familias, pero menos ideal para niños pequeños porque las playas son en su mayoría losas de hormigón o calas rocosas profundas en lugar de arena poco profunda. Los niños mayores pueden disfrutar de los deportes acuáticos, y los padres apreciarán el paseo marítimo pavimentado y apto para cochecitos."
+    }
+  ],
+  "headings": {
+    "quickFacts": "De un vistazo",
+    "whereToStay": "Dónde alojarse en Opatija",
+    "gettingThere": "Cómo llegar a Opatija",
+    "whenToGo": "Cuándo ir",
+    "guides": "Guías de Opatija",
+    "faq": "Preguntas frecuentes de Opatija",
+    "groups": {
+      "gettingAround": "Aparcamiento y cómo moverse",
+      "planning": "Planificación y dónde alojarse",
+      "timing": "Cuándo ir",
+      "travelers": "Familias, parejas y estilos de viaje",
+      "activities": "Playas y cosas que hacer",
+      "food": "Comida y bebida",
+      "comparisons": "Comparaciones",
+      "practical": "Información práctica"
+    },
+    "car": "En coche",
+    "other": "Otras opciones",
+    "bestFor": "Ideal para",
+    "parking": "Aparcamiento",
+    "beach": "Playa"
+  },
+  "destination": "opatija",
+  "language": "es",
+  "updatedAt": "2026-10-16T12:41:16.202Z"
+}

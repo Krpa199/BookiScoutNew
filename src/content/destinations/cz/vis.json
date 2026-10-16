@@ -1,0 +1,146 @@
+{
+  "title": "Vis: Průvodce městy, plážemi a ubytováním",
+  "metaDescription": "Naplánujte si cestu na chorvatský ostrov Vis. Objevte, kde se ubytovat ve městě Vis a v Komiži, jak se tam dostat, informace o trajektech a podrobnosti o plážích.",
+  "intro": "Vis je nejvzdálenější obydlený ostrov od chorvatské pevniny, dostupný 2,5hodinovou plavbou trajektem ze Splitu. Vyhovuje nezávislým cestovatelům hledajícím klidnější, méně komerčně rozvinutou alternativu k sousedním ostrovům Hvar nebo Brač. Ostrov je známý svou vojenskou historií, zemědělským vnitrozemím a skalnatými zátokami. Nemá žádné velké hotelové resorty, místo toho spoléhá na soukromé apartmány, vily a několik malých butikových ubytování.\n\nCestovní sezóna je striktně sezónní, trvá od května do října, s největší frekvencí trajektů a provozem restaurací v červenci a srpnu. Návštěvníci se obvykle ubytovávají v jedné ze dvou hlavních osad – městě Vis nebo v Komiži – a používají auto nebo skútr k dosažení odlehlých pláží na jižním pobřeží.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "Červen až září"
+    },
+    {
+      "label": "Teplota moře v srpnu",
+      "value": "24 °C až 26 °C"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Letiště Split (SPU) + 2,5 hodiny trajektem"
+    },
+    {
+      "label": "Hlavní typ pláží",
+      "value": "Oblázky, ploché skály, odlehlé písčité zátoky"
+    },
+    {
+      "label": "Cenová úroveň",
+      "value": "O 10-20 % vyšší než chorvatský průměr"
+    },
+    {
+      "label": "Pěší dostupnost",
+      "value": "Pěšky dostupná; části Komiže a Kutu jsou bez aut"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Město Vis (Luka & Kut)",
+      "bestFor": "Pro první návštěvníky, přístup trajektem, stravování",
+      "parking": "Velké placené parkoviště u trajektového přístavu; v Kutu omezené",
+      "beach": "Prirovo (oblázková) je 10 minut chůze",
+      "summary": "Hlavní přístav rozdělený na novější Luku a historický, klidnější Kut. Nabízí nejlepší trajektové spojení a nejvyšší koncentraci restaurací."
+    },
+    {
+      "name": "Komiža",
+      "bestFor": "Západy slunce, lodní výlety do Modré jeskyně",
+      "parking": "Velké placené obecní parkoviště nad pěší zónou",
+      "beach": "Malé oblázkové pláže (Gusarica, Kamenice) v okolí",
+      "summary": "Tradiční rybářské město na západním pobřeží s kamennými domy a lehce bohémskou atmosférou. Slouží jako hlavní výchozí bod pro výlety do Modré jeskyně na Biševu."
+    },
+    {
+      "name": "Rukavac",
+      "bestFor": "Klidná dovolená u pláže, příroda",
+      "parking": "Obvykle v ceně pronájmu soukromých apartmánů",
+      "beach": "V docházkové vzdálenosti k Srebrna (ploché skály/oblázky)",
+      "summary": "Malá, klidná rekreační vesnice na jihovýchodním pobřeží, složená převážně ze soukromých apartmánů k pronájmu. Postrádá skutečné centrum města, ale nabízí blízkost k nejlepším jižním plážím ostrova."
+    },
+    {
+      "name": "Milna a Ženka",
+      "bestFor": "Pro cestovatele hledající písčité pláže",
+      "parking": "Podél silnice nebo soukromé příjezdové cesty",
+      "beach": "Pláž Milna (písek) a Zaglav (písek) v okolí",
+      "summary": "Pobřežní osady na jihovýchodním pobřeží, známé blízkostí vzácných písčitých pláží. Oblast je převážně obytná s minimální komerční infrastrukturou."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Mnichov",
+      "car": "850 km do Splitu (cca 9,5 hodiny) + 2,5 hodiny trajektem, přes A10/A1, rakouské/slovinské dálniční známky, chorvatské mýto",
+      "other": "Přímé lety do Splitu (SPU)"
+    },
+    {
+      "from": "Vídeň",
+      "car": "760 km do Splitu (cca 8 hodin) + 2,5 hodiny trajektem, přes A2/A1, rakouské/slovinské dálniční známky, chorvatské mýto",
+      "other": "Přímé lety nebo lůžkový vlak do Splitu"
+    },
+    {
+      "from": "Budapešť",
+      "car": "750 km do Splitu (cca 7,5 hodiny) + 2,5 hodiny trajektem, přes M7/A4/A1, maďarská dálniční známka, chorvatské mýto",
+      "other": "Přímé lety nebo sezónní vlaky do Splitu"
+    },
+    {
+      "from": "Lublaň",
+      "car": "470 km do Splitu (cca 5 hodin) + 2,5 hodiny trajektem, přes A2/A1, slovinská dálniční známka, chorvatské mýto",
+      "other": "Přímý autobus do Splitu"
+    },
+    {
+      "from": "Praha",
+      "car": "1 090 km do Splitu (cca 11,5 hodiny) + 2,5 hodiny trajektem, přes české/rakouské/slovinské dálniční známky, chorvatské mýto",
+      "other": "Přímé lety do Splitu"
+    },
+    {
+      "from": "Krakov",
+      "car": "1 050 km do Splitu (cca 11 hodin) + 2,5 hodiny trajektem, přes slovenské/maďarské dálniční známky, chorvatské mýto",
+      "other": "Přímé lety do Splitu"
+    }
+  ],
+  "whenToGo": "Turistická sezóna trvá od května do října. V květnu a říjnu je ostrov velmi klidný, některé restaurace a lodní výlety nefungují a teplota moře je chladná (18 °C až 20 °C). Červen a září nabízejí nejlepší rovnováhu pro návštěvníky, s teplotami moře kolem 23 °C, plně otevřenými zařízeními a mírným množstvím lidí. Červenec a srpen jsou nejrušnější a nejdražší měsíce; denní teploty pravidelně přesahují 30 °C, moře dosahuje 25 °C a je nutná rezervace trajektů, ubytování a restaurací předem. Mimo tyto měsíce Vis funguje v zimním režimu s minimální otevřenou turistickou infrastrukturou.",
+  "faq": [
+    {
+      "question": "Stojí Vis za návštěvu?",
+      "answer": "Ano, pokud dáváte přednost klidnějšímu, méně rozvinutému dalmatskému ostrovu s autentickými rybářskými vesnicemi a přírodou. Nedoporučuje se pro ty, kteří hledají velké písčité pláže, all-inclusive resorty nebo bohatý noční život."
+    },
+    {
+      "question": "Kolik dní potřebuji na Visu?",
+      "answer": "Tři až pět dní je optimální pro návštěvu Visu. To poskytne dostatek času k prohlídce města Vis a Komiže, podniknutí lodního výletu do Modré jeskyně na Biševu a strávení dne nebo dvou na jižních plážích, jako je Stiniva nebo Srebrna."
+    },
+    {
+      "question": "Jaká je nejlepší pláž na Visu?",
+      "answer": "Stiniva je nejznámější pro svou dramatickou uzavřenou oblázkovou zátoku, ale vyžaduje strmou 30minutovou túru nebo přístup lodí. Pro snazší přístup a celodenní lenošení nabízí Srebrna hladké, ploché kameny a oblázky, zatímco Zaglav poskytuje vzácné písčité pobřeží."
+    },
+    {
+      "question": "Potřebuji auto na Visu?",
+      "answer": "Auto nebo skúter je velmi doporučené pro dosažení odlehlých pláží ostrova, vnitrozemských restaurací a vojenských lokalit. I když veřejný autobus spojuje dvě hlavní města (město Vis a Komiža) v souladu s jízdním řádem trajektů, spoléhání se pouze na veřejnou dopravu omezuje průzkum."
+    },
+    {
+      "question": "Kde zaparkuji na Visu?",
+      "answer": "Město Vis má velké placené parkoviště sousedící s trajektovým terminálem, zatímco Komiža má velké obecní placené parkoviště přímo nad svým pěším centrem. Parkování na ulici v obou městech je silně omezeno a mnoho soukromých apartmánů v historických jádrech nenabízí parkování na místě."
+    },
+    {
+      "question": "Je Vis vhodný pro rodiny?",
+      "answer": "Vis je vhodný pro rodiny hledající klidnou dovolenou zaměřenou na přírodu, ale postrádá specializované rodinné resorty a zábavní infrastrukturu. Většina pláží je z oblázků nebo kamenů a rychle se svažují do hluboké vody, i když Milna a Zaglav nabízejí mělké písčité alternativy."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Přehled",
+    "whereToStay": "Kde se ubytovat na Visu",
+    "gettingThere": "Jak se dostat na Vis",
+    "whenToGo": "Kdy jet",
+    "guides": "Průvodci po Visu",
+    "faq": "Časté dotazy o Visu",
+    "groups": {
+      "gettingAround": "Parkování a doprava po ostrově",
+      "planning": "Plánování a kde se ubytovat",
+      "timing": "Kdy jet",
+      "travelers": "Rodiny, páry a styly cestování",
+      "activities": "Pláže a aktivity",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": "Praktické informace"
+    },
+    "car": "Autem",
+    "other": "Jiné možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "vis",
+  "language": "cz",
+  "updatedAt": "2026-10-16T14:15:13.012Z"
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Novi Vinodolski – Průvodce: Pláže, parkování a ubytování",
+  "metaDescription": "Naplánujte si cestu do Novi Vinodolski, Chorvatsko. Objevte nejlepší pláže, čtvrti, trasy jízdy ze střední Evropy, podrobnosti o parkování a cestovní tipy.",
+  "intro": "Novi Vinodolski je pobřežní město v Kvarnerském zálivu, které kombinuje středověké staré město s rušnou riviérou. Oslovuje rodiny, páry a cestovatele, kteří hledají klasickou chorvatskou letní dovolenou s o něco nižší cenovou hladinou než sousední Crikvenica nebo Opatija. Město je známé svým historickým významem jako domov Vinodolského zákoníku ze 13. století a svou kombinací oblázkových pláží a betonových koupacích platforem.\n\nNejoblíbenější doba k návštěvě je od června do září, kdy je Jadran dostatečně teplý na koupání a sezónní restaurace a plážové bary jsou plně v provozu. Červenec a srpen přinášejí nejvyšší teploty a největší davy. Jaro a podzim jsou vhodné pro pěší turistiku a cyklistiku v nedalekém Vinodolském údolí, ačkoli moře je obvykle pro většinu plavců příliš studené.",
+  "quickFacts": [
+    {
+      "label": "Nejlepší měsíce",
+      "value": "Červen až září"
+    },
+    {
+      "label": "Teplota moře v srpnu",
+      "value": "24°C - 25°C"
+    },
+    {
+      "label": "Nejbližší letiště",
+      "value": "Rijeka (RJK), 30 km"
+    },
+    {
+      "label": "Hlavní typ pláže",
+      "value": "Oblázkové a betonové platformy"
+    },
+    {
+      "label": "Cenová úroveň",
+      "value": "Mírně pod chorvatským pobřežním průměrem"
+    },
+    {
+      "label": "Staré město",
+      "value": "Pěší, převážně bez aut se strmými ulicemi"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centrum města a Staré město",
+      "bestFor": "Historie, stravování a večerní procházky",
+      "parking": "Placené veřejné parkoviště na okraji; centrum bez aut",
+      "beach": "10-15 minut chůze z kopce k moři",
+      "summary": "Historické centrum leží na kopci s úzkými kamennými uličkami, Frankopanským hradem a hlavním kostelem. Nabízí okamžitý přístup k místním restauracím a obchodům, ale vyžaduje chůzi dolů k plážím."
+    },
+    {
+      "name": "Lišanj a pobřežní promenáda",
+      "bestFor": "Rodiny a milovníci pláží",
+      "parking": "Hotelové garáže a placené pouliční parkování",
+      "beach": "Přímý přístup na pláž Lišanj (oblázková/betonová)",
+      "summary": "Tato oblast, nacházející se jižně od starého města, je soustředěna kolem hlavních hotelových komplexů a nábřežní promenády. Poskytuje přímý přístup k vodním sportům, lehátkům a dětským hřištím."
+    },
+    {
+      "name": "Povile",
+      "bestFor": "Páry a ti, kteří hledají klidný pobyt",
+      "parking": "Obvykle zdarma soukromé parkoviště u ubytování",
+      "beach": "Přímý přístup k skalnatým a oblázkovým zátokám",
+      "summary": "Povile je malá pobřežní vesnice ležící asi 2 kilometry jižně od Novi Vinodolski. Nabízí mnohem klidnější atmosféru, přímý přístup k moři a méně davů během vrcholných letních měsíců."
+    },
+    {
+      "name": "Bribir a Vinodolské údolí",
+      "bestFor": "Pěší turisté, cyklisté a milovníci venkovské pohody",
+      "parking": "Dostatek bezplatného parkování",
+      "beach": "10-15 minut jízdy k pobřeží",
+      "summary": "Vinodolské údolí, ležící ve vnitrozemí od pobřeží, poskytuje hornatou kulisu s venkovskými domy a chladnějšími večerními teplotami. Je ideální pro aktivní cestovatele, kterým nevadí dojíždění na pláž."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Mnichov",
+      "car": "560 km, 6,5 hodiny přes A8, A10 a A2. Vyžaduje rakouskou a slovinskou dálniční známku, plus mýtné za tunel Karavanky.",
+      "other": "Sezónní lety do Rijeky nebo dálkový autobus"
+    },
+    {
+      "from": "Vídeň",
+      "car": "520 km, 5,5 hodiny přes A2 do Grazu, Mariboru a Lublaně. Vyžaduje rakouskou a slovinskou dálniční známku.",
+      "other": "Autobus do Rijeky, poté místní autobusové spojení"
+    },
+    {
+      "from": "Budapešť",
+      "car": "520 km, 5 hodin přes M7 do Záhřebu, poté A1/A6 do Rijeky. Vyžaduje maďarskou e-známku a chorvatské mýtné.",
+      "other": "Autobus nebo vlak do Záhřebu s přestupem do Novi Vinodolski"
+    },
+    {
+      "from": "Lublaň",
+      "car": "150 km, 2,5 hodiny přes A1 do Postojné, poté hraniční přechod Rupa. Vyžaduje slovinskou dálniční známku a malé chorvatské mýtné.",
+      "other": "Autobus do Rijeky, poté přímé místní autobusové spojení"
+    },
+    {
+      "from": "Praha",
+      "car": "850 km, 9 hodin přes Vídeň/Graz nebo Linec/Salzburg. Vyžaduje CZ, AT a SLO dálniční známky.",
+      "other": "Noční vlak nebo autobus do Rijeky"
+    },
+    {
+      "from": "Krakov",
+      "car": "930 km, 10 hodin přes Slovensko, Maďarsko (M1/M7) a Záhřeb. Vyžaduje SK a HU dálniční známky, plus chorvatské mýtné.",
+      "other": "Let z Krakova do Zadaru nebo Vídně, poté autobus"
+    }
+  ],
+  "whenToGo": "Letní sezóna od června do září je nejlepší dobou pro plážovou dovolenou, přičemž červenec a srpen zaznamenávají největší davy, vrcholné ceny a teploty moře dosahující 24-25°C. Červen a září nabízejí klidnější atmosféru, mírně nižší ceny ubytování a příjemné teploty moře kolem 22-23°C. Všechna plážová zařízení, restaurace a zájezdy jsou v těchto měsících plně v provozu. Od října do května je město velmi klidné, mnoho turisticky zaměřených podniků je zavřených a teplota moře klesá na 11-15°C, což ho činí vhodným pouze pro pěší turistiku nebo průjezd.",
+  "faq": [
+    {
+      "question": "Stojí Novi Vinodolski za návštěvu?",
+      "answer": "Ano, stojí za to ho navštívit pro klasický zážitek z Kvarnerského zálivu. Kombinuje historické staré město s dobře vybavenými oblázkovými a betonovýmu plážemi za o něco nižší cenu než nedaleká Opatija."
+    },
+    {
+      "question": "Kolik dní bych měl/a zůstat v Novi Vinodolski?",
+      "answer": "Tři až sedm dní je ideální. Třídenní pobyt vám umožní prozkoumat město a relaxovat na pláži, zatímco týden poskytne čas na jednodenní výlety na ostrov Krk nebo k Plitvickým jezerům."
+    },
+    {
+      "question": "Která je nejlepší pláž v Novi Vinodolski?",
+      "answer": "Pláž Lišanj je nejoblíbenější volbou. Nabízí kombinaci oblázků, písku a betonových platforem, spolu s borovicovým stínem, hřišti a vodními sporty."
+    },
+    {
+      "question": "Potřebuji auto v Novi Vinodolski?",
+      "answer": "Auto není nezbytně nutné, pokud se ubytujete v blízkosti centra nebo pláže Lišanj, protože hlavní oblasti jsou dostupné pěšky. Vozidlo se však důrazně doporučuje pro prozkoumávání okolních vesnic nebo vnitrozemí Vinodolu."
+    },
+    {
+      "question": "Kde mohu parkovat v Novi Vinodolski?",
+      "answer": "Město má asi 15 veřejných parkovacích zón, včetně přístavu a míst v blízkosti starého města, z nichž všechny účtují poplatky od června do září. Vždy si ověřte, zda vaše ubytování poskytuje vyhrazené místo, zejména proto, že staré město je bez aut."
+    },
+    {
+      "question": "Je Novi Vinodolski vhodné pro rodiny?",
+      "answer": "Ano, město je pro rodiny velmi vhodné. Hlavní pláže mají mělké vstupy a centra aktivit a pobřežní promenády jsou bezpečné a přístupné pro kočárky."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Stručný přehled",
+    "whereToStay": "Kde se ubytovat v Novi Vinodolski",
+    "gettingThere": "Jak se dostat do Novi Vinodolski",
+    "whenToGo": "Kdy jet",
+    "guides": "Průvodci Novi Vinodolski",
+    "faq": "Časté dotazy k Novi Vinodolski",
+    "groups": {
+      "gettingAround": "Parkování a doprava",
+      "planning": "Plánování a ubytování",
+      "timing": "Kdy jet",
+      "travelers": "Rodiny, páry a styly cestování",
+      "activities": "Pláže a aktivity",
+      "food": "Jídlo a pití",
+      "comparisons": "Srovnání",
+      "practical": "Praktické informace"
+    },
+    "car": "Autem",
+    "other": "Jiné možnosti",
+    "bestFor": "Nejlepší pro",
+    "parking": "Parkování",
+    "beach": "Pláž"
+  },
+  "destination": "novi-vinodolski",
+  "language": "cz",
+  "updatedAt": "2026-10-16T12:44:59.565Z"
+}

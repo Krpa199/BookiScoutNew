@@ -1,0 +1,146 @@
+{
+  "title": "Cres Reiseführer: Strände, Parken & Unterkünfte",
+  "metaDescription": "Planen Sie Ihre Reise nach Cres, Kroatien. Entdecken Sie die besten Gegenden zum Übernachten, nächstgelegene Strände, Fahrtrouten aus Mitteleuropa und praktische Parkinformationen.",
+  "intro": "Cres zieht Reisende an, die eine ruhigere, naturorientierte Alternative zu Kroatiens stark entwickelten Küstenorten suchen. Die Insel ist bekannt für ihre steilen Klippen, Kiesbuchten und dichten Wälder, während Cres-Stadt als Hauptzentrum mit ihrer venezianischen Architektur und ihrem aktiven Fischereihafen dient. Besucher nutzen die Stadt typischerweise als Basis, um abgelegene Strände und Wanderwege auf der Insel zu erkunden.\n\nDie Hauptsaison dauert von Juni bis September. Juli und August bringen die wärmsten Meerestemperaturen und die zuverlässigsten Fährpläne, aber auch die höchsten Preise und die größten Menschenmengen. Mai und Oktober bieten kühleres Wetter, das zum Wandern und Radfahren geeignet ist, obwohl die Meerestemperaturen oft zu niedrig zum Schwimmen sind und einige saisonale Restaurants schließen.",
+  "quickFacts": [
+    {
+      "label": "Beste Monate",
+      "value": "Juni bis September"
+    },
+    {
+      "label": "Meerestemperatur im August",
+      "value": "24°C bis 26°C"
+    },
+    {
+      "label": "Nächster Flughafen",
+      "value": "Flughafen Rijeka (RJK), 45 km (inkl. Fähre)"
+    },
+    {
+      "label": "Hauptstrandtyp",
+      "value": "Kies- und Felsbuchten"
+    },
+    {
+      "label": "Preisniveau",
+      "value": "Etwas unter dem kroatischen Inseldurchschnitt"
+    },
+    {
+      "label": "Altstadt",
+      "value": "Komplett fußgängerfreundlich / autofrei"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Altstadt Cres",
+      "bestFor": "Restaurants, Geschichte und Reisende ohne Auto",
+      "parking": "Kostenpflichtige öffentliche Parkplätze außerhalb der Fußgängerzone",
+      "beach": "10-15 Gehminuten nach Melin oder Grabar",
+      "summary": "Das historische Zentrum zeichnet sich durch enge Gassen, venezianische Fassaden und einen Hafen mit Cafés aus. Es bietet die höchste Konzentration an Restaurants und Geschäften, wobei die Unterkünfte größtenteils Apartments und keine großen Hotels sind."
+    },
+    {
+      "name": "Melin",
+      "bestFor": "Familien und Strandurlauber",
+      "parking": "Die meisten Apartments bieten private Parkplätze",
+      "beach": "Direkter Zugang zum Strand Melin (Kies/Beton)",
+      "summary": "Direkt nordwestlich der Altstadt gelegen, befindet sich dieses Wohnviertel entlang einer gepflegten Strandpromenade. Es bietet einfachen Zugang zu familienfreundlichen Kiesstränden und den Annehmlichkeiten des nahegelegenen Campingplatzes."
+    },
+    {
+      "name": "Grabar",
+      "bestFor": "Ruhigere Aufenthalte mit Meerblick",
+      "parking": "Private Zufahrten sind üblich",
+      "beach": "2-5 Gehminuten zu den Kiesbuchten von Grabar",
+      "summary": "Südlich des Stadtzentrums gelegen, ist Grabar ein Hangviertel, das hauptsächlich aus modernen Ferienwohnungen besteht. Es bietet die Nähe zu ruhigeren Kiesstränden, während die Altstadt über einen 15-minütigen Spaziergang entlang des Küstenwegs erreichbar ist."
+    },
+    {
+      "name": "Valun",
+      "bestFor": "Paare, Digital Detox, dem Trubel entfliehen",
+      "parking": "Großer kostenpflichtiger Parkplatz am Dorfeingang",
+      "beach": "Zwei Kiesstrände im Dorf",
+      "summary": "Ein kleines Fischerdorf, 15 Kilometer südlich von Cres-Stadt gelegen. Es ist komplett autofrei und verfügt über eine Handvoll Fischrestaurants, was es ideal für einen sehr entspannten, ruhigen Strandurlaub macht."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "550 km, ~6,5 Stunden über Salzburg, Villach, Ljubljana und die Fähre Brestova-Porozina. Erfordert AT-Vignette, Karawankentunnel-Maut, SLO-Vignette und Fährticket.",
+      "other": "Zug nach Rijeka, dann Katamaran nach Cres-Stadt"
+    },
+    {
+      "from": "Wien",
+      "car": "520 km, ~6 Stunden über Graz, Maribor, Zagreb, Krk-Brücke und die Fähre Valbiska-Merag. Erfordert AT- und SLO-Vignetten, HR-Maut und Fährticket.",
+      "other": "Direktflug nach Rijeka (Krk), dann Bus zur Fähre"
+    },
+    {
+      "from": "Budapest",
+      "car": "550 km, ~6 Stunden über Zagreb, Rijeka, Krk-Brücke und die Fähre Valbiska-Merag. Erfordert HU-Vignette, HR-Maut und Fährticket.",
+      "other": "FlixBus nach Rijeka, dann lokaler Katamaran nach Cres"
+    },
+    {
+      "from": "Ljubljana",
+      "car": "160 km, ~2,5 Stunden über Postojna, Ilirska Bistrica und die Fähre Brestova-Porozina. Erfordert SLO-Vignette und Fährticket.",
+      "other": "Bus nach Rijeka (~2,5 Stunden), dann Passagierfähre"
+    },
+    {
+      "from": "Prag",
+      "car": "850 km, ~9,5 Stunden über Brünn, Wien, Graz, Zagreb, Krk-Brücke und die Fähre Valbiska-Merag. Erfordert CZ-, AT-, SLO-Vignetten, HR-Maut und Fährticket.",
+      "other": "RegioJet Zug/Bus nach Rijeka (Sommer), dann Fähre"
+    },
+    {
+      "from": "Krakau",
+      "car": "950 km, ~10,5 Stunden über Ostrau, Brünn, Wien, Graz, Zagreb, Krk-Brücke und die Fähre Valbiska-Merag. Erfordert PL-Maut, CZ-, AT-, SLO-Vignetten, HR-Maut und Fährticket.",
+      "other": "Flug nach Wien/München, Umsteigen nach Rijeka, dann Fähre"
+    }
+  ],
+  "whenToGo": "Die Saison auf Cres erreicht ihren Höhepunkt im Juli und August und bringt das heißeste Wetter, Meerestemperaturen von bis zu 26°C, voll funktionsfähige touristische Einrichtungen und die höchsten Unterkunftspreise mit sich. Menschenmassen sind spürbar, aber im Allgemeinen kleiner als auf den benachbarten Inseln Krk oder Lošinj. Juni und September bieten eine ausgezeichnete Balance aus warmem Wetter, angenehmen Meerestemperaturen zum Schwimmen und niedrigeren Mietpreisen. Mai und Oktober verzeichnen einen deutlichen Rückgang der Besucherzahlen; während sie ideal zum Wandern und Radfahren im rauen Inselinneren sind, ist das Meer oft zu kalt zum Schwimmen und viele lokale Restaurants und Reiseveranstalter schließen für die Nebensaison.",
+  "faq": [
+    {
+      "question": "Ist Cres einen Besuch wert?",
+      "answer": "Ja, Cres ist sehr empfehlenswert für Reisende, die Natur, Wandern und ruhige Kiesbuchten dem Nachtleben und großen Resorts vorziehen. Im Vergleich zu Kroatiens kommerzielleren Inseln behält es einen wilden, unberührten Charakter."
+    },
+    {
+      "question": "Wie viele Tage brauche ich auf Cres?",
+      "answer": "Drei bis fünf Tage sind der ideale Zeitrahmen für einen normalen Besuch. Dies ermöglicht genügend Zeit, um Cres-Stadt zu erkunden, das Bergdorf Lubenice zu besuchen und ein paar Tage an abgelegenen Stränden wie Mali Bok oder Sveti Ivan zu entspannen."
+    },
+    {
+      "question": "Was ist der beste Strand auf Cres?",
+      "answer": "Sveti Ivan, unterhalb des Dorfes Lubenice gelegen, gilt weithin als der beste Strand der Insel. Er erfordert einen steilen 45-minütigen Fußweg, wodurch er selbst im Hochsommer selten überlaufen ist."
+    },
+    {
+      "question": "Brauche ich ein Auto auf Cres?",
+      "answer": "Ja, ein Auto ist praktisch unerlässlich, wenn Sie die abgelegenen Dörfer, Aussichtspunkte und berühmten versteckten Strände der Insel erkunden möchten. Öffentliche Busse existieren, fahren aber selten und erreichen nicht die malerischsten Küstenorte."
+    },
+    {
+      "question": "Wo kann man in Cres-Stadt parken?",
+      "answer": "Die Altstadt ist nur für Fußgänger zugänglich, daher müssen Besucher außerhalb des historischen Zentrums parken. Der Hauptparkplatz der Gemeinde befindet sich in der Nähe des Busbahnhofs und Hafens und erhebt in den Sommermonaten eine Stunden- oder Tagesgebühr."
+    },
+    {
+      "question": "Ist Cres gut für Familien?",
+      "answer": "Ja, besonders für Familien, die Camping und Outdoor-Aktivitäten genießen. Gegenden wie Melin bieten eine ausgezeichnete familienfreundliche Infrastruktur, flache Kiesstrände und sichere, autofreie Promenaden."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Auf einen Blick",
+    "whereToStay": "Wo übernachten in Cres",
+    "gettingThere": "Anreise nach Cres",
+    "whenToGo": "Beste Reisezeit",
+    "guides": "Cres Reiseführer",
+    "faq": "Cres FAQ",
+    "groups": {
+      "gettingAround": "Parken & Fortbewegung",
+      "planning": "Planung & Unterkünfte",
+      "timing": "Beste Reisezeit",
+      "travelers": "Familien, Paare & Reisestile",
+      "activities": "Strände & Aktivitäten",
+      "food": "Essen & Trinken",
+      "comparisons": "Vergleiche",
+      "practical": "Praktische Informationen"
+    },
+    "car": "Mit dem Auto",
+    "other": "Andere Optionen",
+    "bestFor": "Am besten für",
+    "parking": "Parken",
+    "beach": "Strand"
+  },
+  "destination": "cres",
+  "language": "de",
+  "updatedAt": "2026-10-16T13:05:54.294Z"
+}

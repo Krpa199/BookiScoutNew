@@ -1,0 +1,146 @@
+{
+  "title": "Rovinj útikönyv: Strandok, parkolás és szálláslehetőségek",
+  "metaDescription": "Tervezze meg rovinji utazását. Tényekkel teli útmutató az útvonalakról, parkolásról, városrészekről és strandokról az Isztriára (Horvátország) érkezők számára.",
+  "intro": "Rovinj vonzza a párokat, családokat és az autós utazókat, akik egy jól megőrzött történelmi központra és könnyen megközelíthető tengerparti természetre vágynak. A város sűrű, csak gyalogosok számára járható velencei magja egy kis félszigeten épült, fenyőerdők és sziklás tengerpart veszi körül.\n\nA fő turisztikai szezon májustól szeptemberig tart, júliusban és augusztusban éri el a csúcsát, amikor a mediterrán éghajlat forró, száraz napokat kínál, ideális az úszáshoz. A nyári hónapokon kívül sok étterem és szálloda bezár, így a város csendesebbé válik, de kevésbé alkalmas egy klasszikus tengerparti nyaraláshoz.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Júniustól szeptemberig"
+    },
+    {
+      "label": "Tenger hőmérséklete augusztusban",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Pulai Repülőtér (PUY), 40 km"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Kavicsos, sziklás és betonplatók"
+    },
+    {
+      "label": "Árszínvonal",
+      "value": "Magasabb a horvát átlagnál"
+    },
+    {
+      "label": "Óváros",
+      "value": "Szigorúan gyalogos (autómentes)"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Óváros (Poluotok)",
+      "bestFor": "Első alkalommal érkezőknek és pároknak, akik történelmet és étkezési lehetőségeket keresnek",
+      "parking": "Nincs a központban; használjon fizetős kereskedelmi parkolókat 10-15 percre",
+      "beach": "Monte strand (sziklás párkányok) a helyszínen; nagyobb strandok 20 perc sétára",
+      "summary": "A történelmi mag keskeny macskaköves utcákkal, velencei építészettel és számos étteremmel rendelkezik. Nyáron zsúfolt, és gyaloglást vagy golfkocsival való utazást igényel a szálláshely eléréséhez."
+    },
+    {
+      "name": "Lone-öböl és Punta Corrente (Dél)",
+      "bestFor": "Luxusutazók és strandolók, akik természetközeliséget szeretnének",
+      "parking": "Gyakori a privát szállodai parkoló; a nyilvános parkolók gyorsan megtelnek",
+      "beach": "0-10 perc séta kavicsos öblökhöz és árnyas sziklás partokhoz",
+      "summary": "Az óvárostól délre található ez a terület, amelyet előkelő szállodák és a Zlatni Rt erdőpark határoz meg. A látogatók közvetlen hozzáférést biztosító, fenyővel árnyékolt sétányokhoz és a város legnépszerűbb strandjaihoz."
+    },
+    {
+      "name": "Centener és Cuvi",
+      "bestFor": "Családok és költségtudatos utazók",
+      "parking": "Könnyebb utcai parkolás és lakóházi bejárók",
+      "beach": "10-15 perc séta a Cuvi strandig (kavicsos és homokos foltok)",
+      "summary": "Egy csendesebb lakónegyed a központtól délkeletre. Olcsóbb apartmanbérlést kínál, miközben sétatávolságra van a családbarát strandoktól és szupermarketektől."
+    },
+    {
+      "name": "Borik",
+      "bestFor": "Látogatóknak, akik csendesebb, külvárosi hangulatra vágynak tengerre néző kilátással",
+      "parking": "Általában az apartmanbérlés tartalmazza; utcai parkolás elérhető",
+      "beach": "5-10 perc séta a Valdaliso és Amarin strandokig",
+      "summary": "Borik a városközponttól északra fekszik, nyugodt környezetet biztosítva távol a nyári tömegtől. Az óváros elérése 30 perces sétát, kerékpározást vagy rövid vízitaxi utat igényel."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "600 km, ~6,5 óra az A8, A10, A11, SI A2 úton Koper felé, Isztriai Y. Osztrák autópálya-matrica, Tauern- és Karawanken-alagút díj, szlovén autópálya-matrica, horvát útdíj szükséges.",
+      "other": "Szezonális közvetlen járatok Pulába vagy közvetlen Flixbus."
+    },
+    {
+      "from": "Bécs",
+      "car": "500 km, ~5,5 óra az A2 úton Graz felé, SI A1 (Maribor-Ljubljana-Koper), Isztriai Y. Osztrák autópálya-matrica, szlovén autópálya-matrica, horvát útdíj szükséges.",
+      "other": "Közvetlen Flixbus vagy szezonális járatok Pulába."
+    },
+    {
+      "from": "Budapest",
+      "car": "600 km, ~6 óra az M7-en, HR A4 Zágráb felé, A6 Fiume felé, Učka alagút, Isztriai Y. Magyar e-matrica, horvát útdíjak szükségesek.",
+      "other": "Flixbus vagy vonat Fiumébe, majd helyi busz."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "180 km, ~2,5 óra az A1 úton Koper felé, Isztriai Y (A9). Szlovén autópálya-matrica, horvát útdíj szükséges.",
+      "other": "Közvetlen buszjáratok (Flixbus, Nomago)."
+    },
+    {
+      "from": "Prága",
+      "car": "850 km, ~9 óra Linz, Graz, Maribor, Ljubljana, Koper érintésével. Cseh, osztrák, szlovén autópálya-matricák, horvát útdíjak szükségesek.",
+      "other": "Szezonális RegioJet vonat/busz járatok vagy járatok Pulába."
+    },
+    {
+      "from": "Krakkó",
+      "car": "1000 km, ~10,5 óra CZ (Brno), AT (Bécs, Graz), SI (Maribor, Koper) érintésével. Cseh, osztrák, szlovén autópálya-matricák, horvát útdíjak szükségesek.",
+      "other": "Járatok Pulába (általában Varsón keresztül) vagy távolsági busz."
+    }
+  ],
+  "whenToGo": "A turisztikai szezon május végétől szeptemberig tart. Július és augusztus hozza a legmelegebb időt, a levegő hőmérséklete 30°C körül van, a tenger hőmérséklete pedig 25-27°C-on tetőzik, a legmagasabb árak és a csúcsforgalom mellett. Június és szeptember enyhébb hőmérsékletet (20-25°C), kissé hűvösebb fürdőzési feltételeket és jobb szálláslehetőségeket kínál. Októbertől áprilisig Rovinj csendes; a tenger túl hideg az úszáshoz (10-14°C-ra csökken), és sok turisztikai célú étterem, szálloda és kompjárat teljesen bezár.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni Rovinjt?",
+      "answer": "Igen, széles körben az Isztria egyik legvonzóbb tengerparti városának tartják. A látogatók a jól megőrzött velencei óvárosáért, a kiterjedt fenyőerdő parkjáért és a kiváló minőségű étkezési lehetőségeiért érkeznek."
+    },
+    {
+      "question": "Hány napra van szükségem Rovinjban?",
+      "answer": "Három-öt nap ideális a legtöbb látogató számára. Ez elegendő időt biztosít az óváros felfedezésére, egy nap eltöltésére a Punta Corrente strandjain, és egy hajókirándulásra vagy egy közeli isztriai hegyvidéki város meglátogatására."
+    },
+    {
+      "question": "Melyik a legjobb strand Rovinjban?",
+      "answer": "A Zlatni Rt (Punta Corrente) erdőpark strandjai, különösen a Lone-öböl, a legnépszerűbbek. Kavicsos és sziklás partszakaszokat kínálnak bőséges természetes árnyékkal a környező fenyőfákról."
+    },
+    {
+      "question": "Szükséges autó Rovinjban?",
+      "answer": "Nincs szüksége autóra, ha az óvárosban vagy annak közvetlen közelében száll meg, mivel minden gyalogosan elérhető. Azonban erősen ajánlott az autó, ha az Isztriai-félsziget többi részét szeretné felfedezni, vagy vidéki borászatokat és olajbogyó-ültetvényeket látogatna meg."
+    },
+    {
+      "question": "Hol parkoljak, amikor Rovinjba látogatok?",
+      "answer": "A legnagyobb nyilvános parkolók a Valdibora (Észak) és az Ampelea (Dél), amelyek közvetlenül a sétálóövezeten kívül helyezkednek el. Ezek a parkolók óránként vagy naponta fizetendők, és júliusban és augusztusban megtelhetnek, ezért javasolt a korai érkezés."
+    },
+    {
+      "question": "Alkalmas Rovinj családoknak?",
+      "answer": "Igen, különösen az óvároson kívüli üdülőhelyeken és lakóövezetekben. A strandok sekély kavicsos szakaszokkal rendelkeznek, amelyek gyermekek számára is alkalmasak, és a közeli családbarát kempingek medencéket, játszótereket és szervezett tevékenységeket kínálnak."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Áttekintés",
+    "whereToStay": "Hol szálljon meg Rovinjban",
+    "gettingThere": "Hogyan juthat el Rovinjba",
+    "whenToGo": "Mikor utazzon",
+    "guides": "Rovinj útmutatók",
+    "faq": "Rovinj GYIK",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor utazzon",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Ételek és italok",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Kinek ajánlott",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "rovinj",
+  "language": "hu",
+  "updatedAt": "2026-10-16T10:38:40.104Z"
+}

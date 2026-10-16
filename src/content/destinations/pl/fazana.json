@@ -1,0 +1,146 @@
+{
+  "title": "Fažana Przewodnik: Plaże, Parking i Noclegi",
+  "metaDescription": "Zaplanuj swoją podróż do Fažany w Chorwacji. Odkryj najlepsze plaże, okolice, trasy dojazdowe z Europy Środkowej oraz wskazówki dotyczące parkowania w tym nadmorskim miasteczku.",
+  "intro": "Fažana to nadmorskie miasteczko na południowo-zachodnim wybrzeżu półwyspu Istria w Chorwacji, znane przede wszystkim jako punkt wypadowy do Parku Narodowego Brijuni. Przyciąga rodziny i starsze pary szukające relaksującej atmosfery, dostępnych żwirowych plaż i płaskich ścieżek spacerowych. Miasteczko posiada działający port rybacki otoczony niskimi, zabytkowymi budynkami i szeroką, brukowaną promenadą.\n\nWiększość turystów przyjeżdża samochodem z Europy Środkowej, korzystając z licznych apartamentów do wynajęcia i dużych kempingów położonych na północ i południe od centrum. Główny sezon turystyczny trwa od czerwca do września, z lipcem i sierpniem przynoszącymi najwyższe temperatury i największe tłumy. Maj i październik oferują chłodniejszą pogodę odpowiednią do jazdy na rowerze i pieszych wędrówek, choć wiele sezonowych firm zamyka się na zimę.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "Czerwiec do września"
+    },
+    {
+      "label": "Temperatura morza w sierpniu",
+      "value": "25°C do 27°C"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Lotnisko Pula (PUY), 13 km"
+    },
+    {
+      "label": "Główny typ plaży",
+      "value": "Żwirowe i betonowe tarasy"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "Średnie jak na Istrię, tańsze niż Rovinj"
+    },
+    {
+      "label": "Stare miasto",
+      "value": "Strefa dla pieszych, centrum bez samochodów"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Centrum Fažany",
+      "bestFor": "Dla osób odwiedzających po raz pierwszy i par szukających opcji gastronomicznych",
+      "parking": "Płatne parkingi publiczne na obrzeżach; centrum bez samochodów",
+      "beach": "Plaża Dječje Igralište oddalona o 5 minut spacerem",
+      "summary": "Historyczne centrum otacza główny port i oferuje największe stężenie restauracji i kawiarni. Pobyt tutaj oznacza bliskość promu na Brijuni i wieczornej promenady, choć latem bywa tłoczno z powodu jednodniowych turystów."
+    },
+    {
+      "name": "Valbandon",
+      "bestFor": "Dla rodzin i podróżnych priorytetyzujących czas na plaży",
+      "parking": "Większość apartamentów i kempingów oferuje prywatny parking",
+      "beach": "Plaża Bi Val (długa żwirowa plaża z udogodnieniami)",
+      "summary": "Położona dwa kilometry na południe od Fažany, ta nadmorska wioska jest silnie ukierunkowana na turystykę z dużymi kempingami i kompleksami apartamentowymi. Szeroka, płaska ścieżka przybrzeżna łączy ją bezpośrednio z centrum Fažany."
+    },
+    {
+      "name": "Pineta",
+      "bestFor": "Dla miłośników natury i kempingowiczów",
+      "parking": "Duża ilość miejsc parkingowych na kempingach i w prywatnych wynajmach",
+      "beach": "Plaża Pineta (żwirowa z naturalnym cieniem sosnowym)",
+      "summary": "Położona na północ od Fažany, ta okolica charakteryzuje się gęstymi lasami sosnowymi, które zapewniają naturalny cień aż do linii brzegowej. Składa się głównie z dużego ośrodka kempingowego i rozproszonych domów prywatnych."
+    },
+    {
+      "name": "Peroj",
+      "bestFor": "Dla podróżnych z ograniczonym budżetem i szukających spokoju",
+      "parking": "Bezpłatny parking jest zazwyczaj wliczony w cenę zakwaterowania",
+      "beach": "Plaża Peroj (żwirowa, 10-15 minut spacerem od wioski)",
+      "summary": "Mała, śródlądowa wioska dwa kilometry na północ od Fažany. Zakwaterowanie tutaj jest nieco tańsze, choć dotarcie do plaży wymaga krótkiej jazdy samochodem lub zejścia w dół."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monachium",
+      "car": "590 km, 6.5 godziny przez A8, Tauern Autobahn (płatna autostrada w AT), tunel Karawanken (płatny AT/SLO), SLO A1 (winieta), CRO A9 (płatna Y Istrii).",
+      "other": "FlixBus bezpośrednio do Puli (9-10 godzin), następnie lokalny autobus do Fažany."
+    },
+    {
+      "from": "Wiedeń",
+      "car": "590 km, 6 godzin przez A2 (winieta AT), SLO A1 (winieta), CRO A9 (płatna Y Istrii).",
+      "other": "Bezpośredni lot Ryanair do Puli (1 godzina) lub FlixBus (8 godzin)."
+    },
+    {
+      "from": "Budapeszt",
+      "car": "600 km, 6 godzin przez M7 (winieta HU), CRO A4/A6 (opłaty), A8/A9 (opłaty Y Istrii).",
+      "other": "FlixBus do Puli przez Zagrzeb (8-10 godzin), następnie lokalny autobus."
+    },
+    {
+      "from": "Lublana",
+      "car": "200 km, 2.5 godziny przez A1 (winieta SLO) do Kopru, następnie CRO A9 (płatna Y Istrii).",
+      "other": "Bezpośredni autobus do Puli (3 godziny), następnie lokalny autobus do Fažany."
+    },
+    {
+      "from": "Praga",
+      "car": "870 km, 9.5 godziny przez CZ D1, AT A2 (winiety CZ i AT), SLO A1 (winieta), CRO A9 (opłata).",
+      "other": "FlixBus do Puli (13-15 godzin) lub sezonowy pociąg do Rijeki, następnie autobus."
+    },
+    {
+      "from": "Kraków",
+      "car": "1 000 km, 11 godzin przez A4, CZ D1 (winieta CZ), AT A2 (winieta AT), SLO A1 (winieta), CRO A9 (opłata).",
+      "other": "Sezonowe loty do Puli lub autobus przez Wiedeń/Zagrzeb (15+ godzin)."
+    }
+  ],
+  "whenToGo": "Główny sezon turystyczny trwa od czerwca do września. Lipiec i sierpień to najbardziej oblegane i najdroższe miesiące, z temperaturami morza osiągającymi szczyt między 25°C a 27°C, a dziennymi temperaturami regularnie przekraczającymi 30°C. Czerwiec i wrzesień oferują równowagę ciepłej wody, niższych cen zakwaterowania i umiarkowanych tłumów, co czyni je idealnymi do pływania i zwiedzania. Od października do maja Fažana jest bardzo spokojna; wiele restauracji, kempingów i operatorów wycieczek zamyka się na zimę, a temperatura morza spada poniżej 15°C, choć Park Narodowy Brijuni pozostaje otwarty przez cały rok.",
+  "faq": [
+    {
+      "question": "Czy warto odwiedzić Fažanę?",
+      "answer": "Tak, zwłaszcza jeśli szukasz spokojnego, rodzinnego miasteczka nadmorskiego. Oferuje doskonały dostęp do Parku Narodowego Brijuni i długie odcinki dostępnych żwirowych plaż, co sprawia, że jest mniej chaotyczna niż sąsiednie Pula czy Rovinj."
+    },
+    {
+      "question": "Ile dni należy poświęcić?",
+      "answer": "Trzy do pięciu dni to idealna ilość. Zapewnia to wystarczająco dużo czasu na wizytę na Wyspach Brijuni, spędzenie kilku dni na lokalnych plażach i półdniową wycieczkę w celu zwiedzania rzymskich ruin w Puli."
+    },
+    {
+      "question": "Najlepsza plaża?",
+      "answer": "Plaża Bi Val w Valbandonie jest ogólnie uważana za najlepszą ze względu na swoje liczne udogodnienia, płytką wodę i sporty wodne. Dla tych, którzy wolą naturalny cień, plaża Pineta na północy oferuje sosny tuż przy żwirowej plaży."
+    },
+    {
+      "question": "Czy potrzebuję samochodu?",
+      "answer": "Nie potrzebujesz samochodu, jeśli zatrzymujesz się w centrum miasta lub Valbandonie, ponieważ plaże, restauracje i prom na Brijuni są w zasięgu spaceru. Jednak samochód jest bardzo zalecany do zwiedzania reszty Istrii lub dojeżdżania do dużych supermarketów."
+    },
+    {
+      "question": "Gdzie zaparkować?",
+      "answer": "Płatny parking publiczny jest dostępny w wyznaczonych strefach na obrzeżach centrum dla pieszych. Główne parkingi to parking Badel oraz parking przy Vodnjanskiej Cestie, oba pobierają opłaty godzinowe lub dzienne w sezonie letnim."
+    },
+    {
+      "question": "Czy jest odpowiednie dla rodzin?",
+      "answer": "Tak, Fažana jest bardzo odpowiednia dla rodzin. Plaże są w większości z drobnego żwiru z płytkim wejściem do wody, główna promenada jest płaska i brukowana, a miasteczko nie posiada stromych schodów, które można znaleźć w wielu innych historycznych chorwackich miastach nadmorskich."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Gdzie się zatrzymać w Fažanie",
+    "gettingThere": "Dojazd do Fažany",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Fažanie",
+    "faq": "FAQ Fažana",
+    "groups": {
+      "gettingAround": "Parking i poruszanie się",
+      "planning": "Planowanie i noclegi",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróżowania",
+      "activities": "Plaże i atrakcje",
+      "food": "Jedzenie i picie",
+      "comparisons": "Porównania",
+      "practical": "Informacje praktyczne"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "fazana",
+  "language": "pl",
+  "updatedAt": "2026-10-16T11:58:59.141Z"
+}

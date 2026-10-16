@@ -1,0 +1,146 @@
+{
+  "title": "Brač Vodič za putovanja: Plaže, Trajekti i Smještaj",
+  "metaDescription": "Planirajte putovanje na Brač, Hrvatska. Pronađite najbolje lokacije za smještaj, rute vožnje do trajekta za Split, informacije o plažama i praktične savjete za putovanje.",
+  "intro": "Brač je velik dalmatinski otok prikladan za putnike koji traže pouzdane plaže, aktivne vodene sportove i tradicionalna kamena sela. Manje je orijentiran na zabavu od susjednog Hvara, privlačeći mješavinu obitelji, windsurfera i putnika automobilima koji istražuju hrvatsku obalu. Otok je najpoznatiji po plaži Zlatni Rat u Bolu i svojim povijesnim kamenolomima vapnenca.\n\nGlavna sezona posjeta traje od kraja svibnja do početka listopada, s najtoplijim temperaturama mora koje dosežu vrhunac u srpnju i kolovozu. Dolazak obično uključuje trajekt za automobile iz kopnene luke Split do Supetra, ili iz Makarske do Sumartina, što ga čini vrlo pristupačnim otokom za one koji putuju automobilom kroz Srednju Europu.",
+  "quickFacts": [
+    {
+      "label": "Najbolji mjeseci",
+      "value": "Lipanj do rujan za kupanje i toplo vrijeme"
+    },
+    {
+      "label": "Temperatura mora u kolovozu",
+      "value": "Oko 25°C"
+    },
+    {
+      "label": "Najbliža zračna luka",
+      "value": "Zračna luka Brač (BWK) je 15 km od Bola; Zračna luka Split (SPU) zahtijeva trajekt"
+    },
+    {
+      "label": "Glavna vrsta plaže",
+      "value": "Uglavnom šljunak i fini šljunak, s rijetkim pješčanim uvalama"
+    },
+    {
+      "label": "Razina cijena",
+      "value": "Malo iznad hrvatskog prosjeka, ali niže od Hvara ili Dubrovnika"
+    },
+    {
+      "label": "Pješačenje",
+      "value": "Stari gradovi su pješačke zone; automobil se preporučuje za istraživanje otoka"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Bol",
+      "bestFor": "Windsurferi, posjetitelji plaža i oni koji dolaze prvi put",
+      "parking": "Plaćeni javni parkinzi na rubu grada; središnje ulice su ograničene",
+      "beach": "15 minuta hoda do poznate plaže Zlatni Rat (fini šljunak)",
+      "summary": "Smješten na južnoj obali, Bol je najpoznatija destinacija otoka. Nudi dugu obalnu šetnicu, brojne restorane i izvrsne uvjete za jedrenje na dasci."
+    },
+    {
+      "name": "Supetar",
+      "bestFor": "Obitelji i oni koji žele jednostavan pristup trajektu za Split",
+      "parking": "Obilje plaćenih parkirnih mjesta u blizini trajektne luke i supermarketa",
+      "beach": "Nekoliko gradskih plaža sa šljunkom, betonskim terasama i borovom hladovinom",
+      "summary": "Kao glavna ulazna točka na Brač, Supetar je funkcionalan i živahan grad s izvrsnom infrastrukturom. Pruža jednostavne veze s kopnom i obiteljsku obalnu atmosferu."
+    },
+    {
+      "name": "Sutivan",
+      "bestFor": "Biciklisti i putnici koji traže mirno okruženje s malo prometa",
+      "parking": "Besplatan i plaćeni parking dostupan na periferiji sela",
+      "beach": "Male šljunčane uvale odmah dostupne iz centra mjesta",
+      "summary": "Mirno selo na sjeverozapadnoj obali poznato po svojim povijesnim kamenim kućama i strogim ljetnim prometnim ograničenjima. Dobro je povezano biciklističkim stazama s obližnjim skrivenim uvalama."
+    },
+    {
+      "name": "Postira",
+      "bestFor": "Parovi i obitelji koji traže poljoprivrednu baštinu i obližnji pijesak",
+      "parking": "Određena javna parkirališta; uske središnje ulice imaju ograničen pristup",
+      "beach": "3 km do uvale Lovrečina, jedne od rijetkih pješčanih plaža na otoku",
+      "summary": "Tradicionalno ribarsko i poljoprivredno selo na sjevernoj obali okruženo maslinicima. Služi kao mirna baza s pristupom pješčanim obalama Lovrečine."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "850 km do trajekta za Split, ~9 sati putem A8, A10 i hrvatske A1. Vinjete su potrebne za Austriju i Sloveniju; cestarine se naplaćuju u Hrvatskoj.",
+      "other": "Izravni letovi za Zračnu luku Split, zatim trajekt za Brač."
+    },
+    {
+      "from": "Beč",
+      "car": "710 km do trajekta za Split, ~8 sati putem A2 i hrvatske A1. Vinjete su potrebne za Austriju i Sloveniju; cestarine se naplaćuju u Hrvatskoj.",
+      "other": "EuroNight spavaći vlak ili izravni letovi za Split."
+    },
+    {
+      "from": "Budimpešta",
+      "car": "750 km do trajekta za Split, ~8 sati putem M7 i hrvatske A4/A1. Vinjeta je potrebna za Mađarsku; cestarine se naplaćuju u Hrvatskoj.",
+      "other": "Izravan Adria InterCity spavaći vlak za Split (samo ljeti)."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "470 km do trajekta za Split, ~5 sati putem A2 i hrvatske A1. Vinjeta je potrebna za Sloveniju; cestarine se naplaćuju u Hrvatskoj.",
+      "other": "Izravna autobusna linija do autobusnog kolodvora Split, smještenog pored trajektne luke."
+    },
+    {
+      "from": "Prag",
+      "car": "1.000 km do trajekta za Split, ~11 sati preko Beča i Graza. Vinjete su potrebne za Češku, Austriju, Sloveniju; cestarine se naplaćuju u Hrvatskoj.",
+      "other": "Izravni letovi za Split ili sezonski vlak RegioJet."
+    },
+    {
+      "from": "Krakov",
+      "car": "1.100 km do trajekta za Split, ~12 sati preko Slovačke, Mađarske (M7) i Hrvatske (A1). Vinjete su potrebne za Slovačku, Mađarsku; cestarine se naplaćuju u Hrvatskoj.",
+      "other": "Izravni niskotarifni letovi za Zračnu luku Split."
+    }
+  ],
+  "whenToGo": "Ljetna sezona od lipnja do rujna najpopularnije je vrijeme za posjet Braču, s prosječnim temperaturama mora u kolovozu oko 25°C. Srpanj i kolovoz donose najviše cijene, najveće gužve i potpunu operativnost svih trajektnih linija, restorana i barova na plaži. Svibanj i listopad nude hladnije vrijeme i niže cijene smještaja, ali more je obično prehladno za ugodno kupanje, a neki sezonski objekti bit će zatvoreni. Od studenog do travnja otok je vrlo miran, s mnogim hotelima zatvorenim za zimu i smanjenim rasporedom trajektnih linija.",
+  "faq": [
+    {
+      "question": "Je li vrijedno posjetiti?",
+      "answer": "Brač je vrijedan posjeta zbog svojih pouzdanih plaža, tradicionalne kamene arhitekture i izvrsnog jedrenja na dasci. Nudi opušteniju, obiteljski orijentiranu alternativu Hvaru, otoku poznatom po noćnom životu."
+    },
+    {
+      "question": "Koliko dana bih trebao provesti na Braču?",
+      "answer": "Tri do pet dana optimalno je za putovanje na Brač. To omogućuje dovoljno vremena za opuštanje na Zlatnom Ratu, istraživanje obalnih sela poput Supetra i Sutivana te vožnju do vidikovca Vidova Gora."
+    },
+    {
+      "question": "Koja je najbolja plaža na otoku?",
+      "answer": "Zlatni Rat u Bolu najpoznatija je po svom jedinstvenom obliku i glatkom šljunku. Za pješčanu alternativu, uvala Lovrečina blizu Postira toplo se preporučuje, dok Murvica nudi mirnije šljunčane obale."
+    },
+    {
+      "question": "Trebam li automobil na Braču?",
+      "answer": "Automobil je vrlo koristan za istraživanje unutrašnjosti otoka, udaljenih uvala i raznih mjesta. Iako lokalni autobusi povezuju glavna naselja, voze rijetko, što samostalni prijevoz čini mnogo praktičnijim."
+    },
+    {
+      "question": "Gdje je najbolje parkirati?",
+      "answer": "Većina mjesta na Braču ima određena, plaćena općinska parkirališta na svojim periferijama. Najbolje je koristiti njih, jer povijesni centri imaju uske, često samo pješačke kamene ulice kojima je teško navigirati."
+    },
+    {
+      "question": "Je li Brač dobra destinacija za obitelji?",
+      "answer": "Da, Brač je vrlo pogodan za obitelji, nudeći mirne vode, pristupačna mjesta i mnogo apartmana za samostalan boravak. Supetar i Postira su posebno popularni kod obitelji zbog jednostavnog pristupa sadržajima i plažama."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Ukratko",
+    "whereToStay": "Gdje odsjesti na Braču",
+    "gettingThere": "Dolazak na Brač",
+    "whenToGo": "Kada posjetiti",
+    "guides": "Brač vodiči",
+    "faq": "Česta pitanja o Braču",
+    "groups": {
+      "gettingAround": "Parking i kretanje po otoku",
+      "planning": "Planiranje i smještaj",
+      "timing": "Kada putovati",
+      "travelers": "Obitelji, parovi i stilovi putovanja",
+      "activities": "Plaže i aktivnosti",
+      "food": "Hrana i piće",
+      "comparisons": "Usporedbe",
+      "practical": "Praktične informacije"
+    },
+    "car": "Automobilom",
+    "other": "Ostale opcije",
+    "bestFor": "Najbolje za",
+    "parking": "Parking",
+    "beach": "Plaža"
+  },
+  "destination": "brac",
+  "language": "hr",
+  "updatedAt": "2026-10-16T14:12:43.981Z"
+}

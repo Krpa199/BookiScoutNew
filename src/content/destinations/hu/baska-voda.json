@@ -1,0 +1,146 @@
+{
+  "title": "Baška Voda útikalauz: Strandok, parkolás és szállás",
+  "metaDescription": "Tervezze meg utazását Baška Vodára, a Makarskai Riviérára. Fedezze fel az autós útvonalakat, a legjobb szálláshelyeket, a strandinformációkat és a hasznos parkolási tudnivalókat.",
+  "intro": "Baška Voda egy tengerparti üdülőváros a Makarskai Riviérán, a Biokovo-hegység lábánál található. Ideális azoknak az utazóknak, akik rendezett kavicsos strandokat, fenyőfák árnyékolta sétányokat, valamint sétatávolságra elérhető éttermek és kávézók széles választékát keresik. A várost családok és párok egyaránt látogatják, elsősorban Közép- és Kelet-Európából.\n\nA főszezon júniustól szeptemberig tart. Júliusban és augusztusban a legmelegebb a tenger, és ekkor van a legnagyobb tömeg. Május és október hűvösebb időt kínál, ideális a túrázáshoz és kerékpározáshoz, bár sok szezonális üzlet zárva tart. Az autóval érkezők a nyár közepén nagy forgalomra számíthatnak a régióban, ezért elengedhetetlen az előzetes parkolásfoglalás.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Júniustól szeptemberig"
+    },
+    {
+      "label": "Augusztusi tengerhőmérséklet",
+      "value": "25°C és 27°C között"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Spliti Repülőtér (SPU), 68 km"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Fehér kavicsos, fenyőfák árnyékában"
+    },
+    {
+      "label": "Árszínvonal",
+      "value": "Horvátországra vonatkozóan kissé átlag feletti"
+    },
+    {
+      "label": "Jól bejárható központ",
+      "value": "Igen, többnyire sétálóutcás tengerpart"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Városközpont (Centar)",
+      "bestFor": "Azoknak az utazóknak, akik azonnali hozzáférést szeretnének éttermekhez, kompokhoz és éjszakai élethez",
+      "parking": "Nehéz és drága; a nyilvános parkolók óránként díjat számolnak fel",
+      "beach": "Közvetlen hozzáférés a Nikolina strandhoz",
+      "summary": "Baška Voda kereskedelmi központja a kikötő körül helyezkedik el. Itt található a legtöbb étterem és szolgáltatás, bár a nyári főszezonban zajos lehet."
+    },
+    {
+      "name": "Podluka",
+      "bestFor": "Családoknak és azoknak, akik csendesebb strandhozzáférést keresnek",
+      "parking": "Gyakran benne van az apartman árában, de az utcai hozzáférés szűk",
+      "beach": "Közvetlenül a Podluka és Ikovac strandok mentén",
+      "summary": "Közvetlenül a központtól északra, Brela felé található ez a környék, amely főként apartmanokból áll. A burkolt tengerparti sétány könnyen összeköti a fővárossal."
+    },
+    {
+      "name": "Promajna",
+      "bestFor": "Kisgyermekes családoknak, akik csendesebb alternatívát keresnek",
+      "parking": "Könnyebb, mint Baška Vodán, általában benne van a szállás árában",
+      "beach": "Közvetlen hozzáférés a Promajna strandhoz",
+      "summary": "Egy kisebb falu 3,5 kilométerre délre Baška Vodától. Nyugodt hangulat jellemzi, néhány alapvető étteremmel és egy széles, fenyőfákkal övezett kavicsos stranddal."
+    },
+    {
+      "name": "Bratuš",
+      "bestFor": "Pároknak és utazóknak, akik hagyományos halászfalu hangulatot keresnek",
+      "parking": "Nagyon korlátozott; a látogatóknak a falu bejáratánál kijelölt parkolót kell használniuk",
+      "beach": "Kicsi, központi kavicsos öböl",
+      "summary": "Közvetlenül Promajna déli részén található Bratuš, egy apró település hagyományos kőházakkal. A faluban minimális a kereskedelmi tevékenység, és békés, lassú tempójú a környezet."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "880 km, 9.5-10.5 óra A8, A10 és A1 útvonalon. Szükséges osztrák autópályamatrica, Karawanken-alagút díj, szlovén autópályamatrica és horvát autópályadíjak.",
+      "other": "Repülőút MUC-ról Splitbe (SPU), majd 1 órás busz vagy taxi."
+    },
+    {
+      "from": "Bécs",
+      "car": "750 km, 7.5-8.5 óra A2 és A1 útvonalon. Szükséges osztrák autópályamatrica, szlovén autópályamatrica és horvát autópályadíjak.",
+      "other": "Repülőút VIE-ről Splitbe, vagy közvetlen távolsági busz Baška Vodára."
+    },
+    {
+      "from": "Budapest",
+      "car": "780 km, 7.5-8.5 óra M7 és A1 útvonalon. Szükséges magyar autópályamatrica és horvát autópályadíjak.",
+      "other": "Repülőút BUD-ról Splitbe, vagy közvetlen buszjáratok nyáron."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "500 km, 5-6 óra A2 és A1 útvonalon. Szükséges szlovén autópályamatrica és horvát autópályadíjak.",
+      "other": "Közvetlen buszjáratok elérhetők a Makarskai Riviérára."
+    },
+    {
+      "from": "Prága",
+      "car": "1050 km, 11-12 óra Brno, Bécs és Zágráb útvonalon. Szükséges cseh, osztrák és szlovén autópályamatricák, plusz horvát útdíjak.",
+      "other": "Repülőút PRG-ről Splitbe, majd helyi busz vagy reptéri transzfer."
+    },
+    {
+      "from": "Krakkó",
+      "car": "1100 km, 11.5-12.5 óra A4, Brno, Bécs és Zágráb útvonalon. Szükséges több ország autópályamatricája és horvát útdíjak.",
+      "other": "Repülőút KRK-ről Splitbe, vagy éjszakai távolsági busz."
+    }
+  ],
+  "whenToGo": "Az optimális idő úszásra és napozásra június végétől szeptember elejéig tart, amikor a tenger hőmérséklete eléri a 24°C-27°C-ot, és minden turisztikai létesítmény, étterem és strandbár nyitva van. Július és augusztus a legzsúfoltabb és legdrágább hónapok, sűrű forgalmat hozva az Adria főútra és nagy keresletet generálva a szállások iránt. Május és október alacsonyabb árakat és kevesebb tömeget kínál, ezáltal alkalmassá téve őket a közeli Biokovo Természetvédelmi Parkban való túrázásra, de a tenger általában túl hideg a hosszabb úszáshoz, és sok helyi vállalkozás bezár a szezonon kívül.",
+  "faq": [
+    {
+      "question": "Érdemes Baška Vodát meglátogatni?",
+      "answer": "Igen, nagyra értékelik tiszta, fehér kavicsos strandjai és kiterjedt fenyőfa árnyéka miatt. Kiváló kiindulópont egy klasszikus tengerparti nyaraláshoz a Makarskai Riviérán."
+    },
+    {
+      "question": "Hány napra van szükségem Baška Vodán?",
+      "answer": "Öt-hét nap ideális egy standard tengerparti nyaraláshoz. Három nap elegendő, ha egy hosszabb dalmát road trip rövid megállójaként használja."
+    },
+    {
+      "question": "Melyik a legjobb strand Baška Vodán?",
+      "answer": "A Nikolina strand a központi és legnépszerűbb opció, amely kék zászlóval rendelkezik tisztaságáért. Az Ikovac strand, amely kissé északabbra található, egy kisebb, festői alternatívát kínál."
+    },
+    {
+      "question": "Szükséges autó Baška Vodán?",
+      "answer": "Nem, nincs szükség autóra, ha a városban szeretne maradni, mivel a strandok, éttermek és szupermarketek mind sétatávolságra találhatók. Azonban egy jármű hasznos lehet egynapos kirándulásokhoz a Biokovo Természetvédelmi Parkba vagy Split városába."
+    },
+    {
+      "question": "Hol parkolhatok Baška Vodán?",
+      "answer": "A nyilvános parkolás a kikötő közelében és a város bejáratainál koncentrálódik, fizetős zónákra osztva, amelyek nyáron drágák. Erősen ajánlott olyan szállást foglalni, amely magán, helyszíni parkolót is tartalmaz."
+    },
+    {
+      "question": "Baška Voda jó családoknak?",
+      "answer": "Igen, ez a régió egyik leginkább családbarát célpontja. A strandokat enyhén lejtős kavicsok és természetes árnyék jellemzi, míg a tengerparti sétány biztonságos, autómentes sétálási lehetőséget kínál."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Áttekintés",
+    "whereToStay": "Hol szálljunk meg Baška Vodán",
+    "gettingThere": "Utazás Baška Vodára",
+    "whenToGo": "Mikor utazzunk",
+    "guides": "Baška Voda útmutatók",
+    "faq": "Baška Voda Gyakori kérdések",
+    "groups": {
+      "gettingAround": "Parkolás és közlekedés",
+      "planning": "Tervezés és hol szálljunk meg",
+      "timing": "Mikor utazzunk",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tennivalók",
+      "food": "Étel és ital",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb erre",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "baska-voda",
+  "language": "hu",
+  "updatedAt": "2026-10-16T13:22:59.455Z"
+}

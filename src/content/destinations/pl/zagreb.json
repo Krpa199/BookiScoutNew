@@ -1,0 +1,146 @@
+{
+  "title": "Zagrzeb Przewodnik Turystyczny: Jazda, Parking i Gdzie się Zatrzymać",
+  "metaDescription": "Praktyczny przewodnik turystyczny po Zagrzebiu, Chorwacja. Znajdź najlepsze dzielnice na pobyt, szczegóły parkowania, trasy dojazdu i najlepszą porę na wizytę.",
+  "intro": "Zagrzeb to środkowoeuropejska stolica, odpowiednia dla podróżnych zainteresowanych historią, muzeami i kulturą uliczną, a nie kurortami nadmorskimi. Miasto jest podzielone na historyczne, położone na wzgórzu Górne Miasto oraz płaskie austro-węgierskie Dolne Miasto, oba charakteryzujące się dużymi parkami publicznymi, strefami dla pieszych i silnym poleganiem na lokalnej sieci tramwajowej.\n\nOptymalny czas na wizytę to łagodne miesiące wiosenne i jesienne lub grudzień z powodu corocznych jarmarków adwentowych. Lato przynosi wysokie temperatury, co skłania wielu mieszkańców do wyjazdu na wybrzeże Adriatyku, co sprawia, że ulice są cichsze, ale niektóre mniejsze firmy są tymczasowo zamknięte.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "Maj, Czerwiec, Wrzesień, Grudzień"
+    },
+    {
+      "label": "Temperatura morza (sierpień)",
+      "value": "Nie dotyczy (miasto śródlądowe; Jezioro Jarun ~25°C)"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Lotnisko Zagrzeb (ZAG), 15 km od centrum"
+    },
+    {
+      "label": "Główny typ plaży",
+      "value": "Żwirowe/kamieniste plaże jeziorne (Jarun i Bundek)"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "Średnie do poniżej średniej w porównaniu do wybrzeża chorwackiego"
+    },
+    {
+      "label": "Starówka dostępna pieszo",
+      "value": "Tak, bardzo przyjazna dla pieszych z ograniczonym dostępem dla samochodów"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Donji Grad (Dolne Miasto)",
+      "bestFor": "Dla początkujących i zwiedzania",
+      "parking": "Drogi parking uliczny (Strefa 1); wymaga parkingów publicznych",
+      "beach": "6 km do Jeziora Jarun",
+      "summary": "Handlowe serce miasta, z muzeami, parkami i architekturą XIX wieku. Oferuje najszerszy wybór hoteli i bezpośredni dostęp do głównych linii tramwajowych."
+    },
+    {
+      "name": "Gornji Grad (Górne Miasto)",
+      "bestFor": "Historia i spokojne wieczory",
+      "parking": "Silnie ograniczone; osoby niebędące mieszkańcami muszą parkować w Dolnym Mieście",
+      "beach": "6,5 km do Jeziora Jarun",
+      "summary": "Najstarsza część Zagrzebia z brukowanymi uliczkami, budynkami rządowymi i kościołem św. Marka. Jest idealna dla odwiedzających, którzy przedkładają historyczną atmosferę nad bezpośredni dostęp do pojazdu."
+    },
+    {
+      "name": "Novi Zagrzeb",
+      "bestFor": "Dla podróżujących z ograniczonym budżetem i kierowców",
+      "parking": "Ogólnie bezpłatny lub bardzo tani parking uliczny",
+      "beach": "1 do 2 km do Jeziora Bundek",
+      "summary": "Położona na południe od rzeki Sawy, ta dzielnica składa się z bloków mieszkalnych z połowy wieku i centrów handlowych. Łatwo łączy się z centrum tramwajem i oferuje proste parkowanie."
+    },
+    {
+      "name": "Trešnjevka",
+      "bestFor": "Lokalne życie i dłuższe pobyty",
+      "parking": "Mieszany; głównie Strefa 3 (tańsza) lub bezpłatny w częściach mieszkalnych",
+      "beach": "3 km do Jeziora Jarun",
+      "summary": "Gęsto zaludniona dzielnica na zachód od centrum, znana z codziennego targu na świeżym powietrzu. Zapewnia bardziej codzienne doświadczenie mieszkalne z niższymi cenami zakwaterowania."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monachium",
+      "car": "540 km, 5,5-6,5 godziny via A8, A10 i A2. Wymaga winiety austriackiej, opłaty za tunel Karawanki, winiety słoweńskiej i opłat drogowych w Chorwacji.",
+      "other": "Bezpośredni lot (Croatia Airlines/Lufthansa) lub bezpośredni FlixBus."
+    },
+    {
+      "from": "Wiedeń",
+      "car": "370 km, 4-4,5 godziny via A2 i A9. Wymaga winiety austriackiej, winiety słoweńskiej i opłat drogowych w Chorwacji.",
+      "other": "Bezpośredni codzienny pociąg ÖBB lub FlixBus."
+    },
+    {
+      "from": "Budapeszt",
+      "car": "340 km, 3,5-4 godziny via M7 i A4. Wymaga węgierskiej e-winiety i opłat drogowych w Chorwacji.",
+      "other": "Bezpośredni codzienny pociąg lub FlixBus."
+    },
+    {
+      "from": "Lublana",
+      "car": "140 km, 1,5-2 godziny via A2 i A3. Wymaga winiety słoweńskiej i opłat drogowych w Chorwacji.",
+      "other": "Bezpośredni pociąg lub autobus (ok. 2,5 godziny)."
+    },
+    {
+      "from": "Praga",
+      "car": "690 km, 7,5-8,5 godziny via Wiedeń i Graz. Wymaga czeskiej, austriackiej i słoweńskiej winiety oraz opłat drogowych w Chorwacji.",
+      "other": "Bezpośredni lot (Smartwings/Ryanair) lub nocny pociąg przez Wiedeń."
+    },
+    {
+      "from": "Kraków",
+      "car": "750 km, 8-9 godzin przez Słowację i Węgry. Wymaga polskich opłat drogowych, słowackich i węgierskich e-winiet oraz opłat drogowych w Chorwacji.",
+      "other": "Bezpośredni lot (Ryanair/LOT) lub nocny autobus."
+    }
+  ],
+  "whenToGo": "Zima w Zagrzebiu jest zimna, z temperaturami często oscylującymi wokół 0°C do 5°C, choć grudzień pozostaje szczytowym miesiącem turystycznym dzięki rozległym jarmarkom adwentowym miasta. Wiosna (kwiecień do czerwca) i jesień (wrzesień do października) oferują najbardziej komfortową pogodę do zwiedzania, z dziennymi temperaturami między 15°C a 25°C, niższymi cenami zakwaterowania i w pełni działającymi udogodnieniami turystycznymi. Lato (lipiec i sierpień) przynosi temperatury regularnie przekraczające 30°C; choć miasto jest mniej zatłoczone, ponieważ mieszkańcy migrują na wybrzeże, brak morskiej bryzy sprawia, że miejskie upały są odczuwalne, chociaż plaże nad Jeziorem Jarun i Jeziorem Bundek oferują lokalne opcje kąpieli.",
+  "faq": [
+    {
+      "question": "Czy warto odwiedzić Zagrzeb?",
+      "answer": "Tak, Zagrzeb warto odwiedzić ze względu na jego austro-węgierską architekturę, bogatą kolekcję muzealną i silną kulturę kawiarnianą. Służy jako kulturowy i historyczny kontrapunkt dla chorwackich destynacji nadmorskich."
+    },
+    {
+      "question": "Ile dni potrzeba w Zagrzebiu?",
+      "answer": "Dwa do trzech dni wystarczą na zwiedzenie głównych atrakcji. Zapewnia to wystarczająco dużo czasu na zobaczenie Górnego i Dolnego Miasta, odwiedzenie głównych muzeów oraz spędzenie popołudnia w Parku Maksimir lub nad Jeziorem Jarun."
+    },
+    {
+      "question": "Jaka jest najlepsza plaża w Zagrzebiu?",
+      "answer": "Najlepsze miejsca do pływania to żwirowe plaże nad Jeziorem Jarun, położone w południowo-zachodniej części miasta. Jezioro Bundek oferuje również utrzymane żwirowe plaże i miejsca do kąpieli w miesiącach letnich."
+    },
+    {
+      "question": "Czy potrzebuję samochodu w Zagrzebiu?",
+      "answer": "Nie, samochód nie jest konieczny i często jest przeszkodą w centrum miasta. Zagrzeb ma wydajną i kompleksową sieć tramwajów i autobusów, które obejmują wszystkie główne obszary turystyczne."
+    },
+    {
+      "question": "Gdzie najlepiej zaparkować w Zagrzebiu?",
+      "answer": "Najbardziej niezawodne opcje to podziemne parkingi publiczne, takie jak Langov trg, Tuškanac lub Petrinjska. Parking uliczny w centrum (Strefa 1) jest drogi, ograniczony do maksymalnie dwóch godzin i ściśle egzekwowany."
+    },
+    {
+      "question": "Czy Zagrzeb jest dobry dla rodzin?",
+      "answer": "Tak, miasto jest bardzo przyjazne dla rodzin. Atrakcje takie jak Muzeum Iluzji, Zoo w Zagrzebiu w Parku Maksimir i krótka przejażdżka kolejką linową to niezawodne opcje dla młodszych odwiedzających."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Gdzie zatrzymać się w Zagrzebiu",
+    "gettingThere": "Dojazd do Zagrzebia",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Zagrzebiu",
+    "faq": "FAQ Zagrzeb",
+    "groups": {
+      "gettingAround": "Parking i poruszanie się",
+      "planning": "Planowanie i gdzie się zatrzymać",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróżowania",
+      "activities": "Plaże i rzeczy do zrobienia",
+      "food": "Jedzenie i napoje",
+      "comparisons": "Porównania",
+      "practical": "Praktyczne informacje"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "zagreb",
+  "language": "pl",
+  "updatedAt": "2026-10-16T11:29:47.559Z"
+}

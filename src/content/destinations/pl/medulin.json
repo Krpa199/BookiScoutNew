@@ -1,0 +1,146 @@
+{
+  "title": "Medulin: Przewodnik turystyczny – Plaże, parking i gdzie się zatrzymać",
+  "metaDescription": "Zaplanuj swoją podróż do Medulina, poznając trasy dojazdu, parking, najlepsze okolice i plaże. Dowiedz się, kiedy odwiedzić i gdzie zatrzymać się na wybrzeżu Istrii.",
+  "intro": "Medulin to nadmorska miejscowość położona na południowym krańcu półwyspu Istria, idealna przede wszystkim dla rodzin i podróżnych szukających prostych wakacji na plaży. Kiedyś tradycyjna wioska rybacka, rozwinęła się w ważny ośrodek turystyczny charakteryzujący się ruchliwą nadmorską promenadą, rozbudowanymi obiektami kempingowymi i płytką piaszczystą zatoką. Miasto służy jako funkcjonalna baza, a nie cel kulturowy, skupiając się w dużej mierze na turystyce letniej.\n\nOdwiedzający podróżujący samochodem z Europy Środkowej wykorzystują Medulin jako łatwo dostępny punkt wjazdu na Adriatyk, korzystając z jego bliskości do Puli i chronionego rezerwatu przyrody Przylądka Kamenjak. Infrastruktura jest dostosowana do szczytu letniego, co oznacza, że destynacja działa z pełną wydajnością od czerwca do początku września, zanim zimą powróci do spokojnego, mieszkalnego tempa.",
+  "quickFacts": [
+    {
+      "label": "Najlepsze miesiące",
+      "value": "Czerwiec i wrzesień"
+    },
+    {
+      "label": "Temperatura morza w sierpniu",
+      "value": "25°C do 27°C"
+    },
+    {
+      "label": "Najbliższe lotnisko",
+      "value": "Lotnisko w Puli (PUY), 13 km"
+    },
+    {
+      "label": "Główny typ plaży",
+      "value": "Płytka piaszczysta (Bijeca) i żwirowa"
+    },
+    {
+      "label": "Poziom cen",
+      "value": "Średnie dla Istrii, taniej niż w Rovinju"
+    },
+    {
+      "label": "Dostępność centrum pieszo",
+      "value": "Centrum dostępne pieszo, nadmorska promenada tylko dla pieszych"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Bijeca i Promenada Nadmorska",
+      "bestFor": "Rodziny z małymi dziećmi pragnące bezpośredniego dostępu do plaży.",
+      "parking": "Płatne parkingi miejskie; duży ruch w lecie.",
+      "beach": "Bezpośredni dostęp do Bijeca (płytki piasek).",
+      "summary": "Jest to najbardziej skomercjalizowana strefa, pełna restauracji, stoisk z pamiątkami i karuzel. Spodziewaj się dużego ruchu pieszego i hałasu w szczycie letniego sezonu."
+    },
+    {
+      "name": "Pošesi",
+      "bestFor": "Pary i rodziny szukające spokojniejszego pobytu.",
+      "parking": "Większość apartamentów i hoteli zapewnia prywatny parking.",
+      "beach": "100-300 metrów do Alba Chiara i Belvedere (żwir/skała).",
+      "summary": "Nowsza dzielnica mieszkalna na zachodnim krańcu Medulina, z nowoczesnymi budynkami apartamentowymi i dostępem do czystszych plaż żwirowych. Pozostaje w zasięgu spaceru od głównej promenady."
+    },
+    {
+      "name": "Stare Miasto Medulin (na wzgórzu)",
+      "bestFor": "Podróżni stawiający budżet ponad bezpośredni dostęp do morza.",
+      "parking": "Wąskie uliczki z ograniczonym parkingiem ulicznym; sprawdź w obiekcie zakwaterowania.",
+      "beach": "1 do 1,5 km spaceru w dół do Bijeca.",
+      "summary": "Skupione wokół kościoła św. Agnieszki, historyczne centrum jest cichsze i mniej nastawione na turystów niż pas nadmorski. Oferuje niższe ceny zakwaterowania, ale wymaga spaceru lub dojazdu samochodem do morza."
+    },
+    {
+      "name": "Premantura",
+      "bestFor": "Miłośnicy przyrody, turyści piesi i windsurferzy.",
+      "parking": "Dostępny bezpłatny parking publiczny, ale wjazd na Przylądek Kamenjak wymaga opłaty za samochody.",
+      "beach": "1 do 3 km do surowych, naturalnych skalistych plaż na Kamenjaku.",
+      "summary": "Mała wioska 10 km na południe od Medulina, służąca jako brama do rezerwatu przyrody Przylądka Kamenjak. Zastępuje komercyjne piaszczyste plaże chronionymi lasami sosnowymi i dramatycznymi skalistymi zatoczkami."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Monachium",
+      "car": "590 km, 6,5 godziny przez A10 i Słowenię A1. Wymaga austriackiej i słoweńskiej winiety, plus opłat za tunele Tauern/Karawanken i chorwackie autostrady.",
+      "other": "Bezpośredni sezonowy lot do Puli lub bezpośredni Flixbus."
+    },
+    {
+      "from": "Wiedeń",
+      "car": "510 km, 5,5 godziny przez A2, Maribor i Lublanę. Wymaga austriackiej i słoweńskiej winiety oraz chorwackich opłat drogowych.",
+      "other": "Bezpośredni sezonowy lot do Puli lub bezpośredni Flixbus."
+    },
+    {
+      "from": "Budapeszt",
+      "car": "610 km, 6,5 godziny przez M7, Zagrzeb i Rijekę. Wymaga węgierskiej winiety i chorwackich opłat drogowych.",
+      "other": "Bezpośredni Flixbus lub pociąg przez Zagrzeb."
+    },
+    {
+      "from": "Lublana",
+      "car": "210 km, 2,5 godziny przez A1 do Kopru i Istarski ipsilon. Wymaga słoweńskiej winiety i chorwackich opłat drogowych.",
+      "other": "Bezpośredni autobus przez Flixbus lub Nomago."
+    },
+    {
+      "from": "Praga",
+      "car": "850 km, 9,5 godziny przez Linz, Salzburg i Lublanę. Wymaga winiet CZ, AT, SI, opłat za tunele i chorwackich opłat drogowych.",
+      "other": "Lot do Puli przez Monachium/Frankfurt, lub połączenie pociąg/autobus RegioJet."
+    },
+    {
+      "from": "Kraków",
+      "car": "1000 km, 11 godzin przez A4, Ostrawę, Wiedeń i Graz. Wymaga polskich opłat drogowych, winiet CZ, AT, SI oraz chorwackich opłat drogowych.",
+      "other": "Lot do Puli przez Warszawę (LOT) lub sezonowe loty Ryanair."
+    }
+  ],
+  "whenToGo": "Sezon w Medulinie kręci się całkowicie wokół miesięcy letnich. Czerwiec przynosi przyjemne dzienne temperatury do 26°C i temperaturę morza 22°C, a wszystkie restauracje i obiekty turystyczne są w pełni otwarte, ale bez szczytowego tłoku. Lipiec i sierpień to najbardziej ruchliwe i najdroższe miesiące; morze osiąga ciepłe 25°C do 27°C, a plaże, zwłaszcza Bijeca, stają się niezwykle zatłoczone. Wrzesień jest często uważany za najlepszy czas na wizytę, oferując niższe ceny zakwaterowania, mniejsze tłumy i temperatury morza, które pozostają komfortowe do pływania. Od końca października do kwietnia Medulin praktycznie się zamyka, a większość hoteli, kempingów i obiektów nadmorskich całkowicie zamyka się na zimę.",
+  "faq": [
+    {
+      "question": "Czy warto odwiedzić Medulin?",
+      "answer": "Tak, jeśli podróżujesz z małymi dziećmi lub szukasz bazy wypadowej w pobliżu Przylądka Kamenjak. Jego główną atrakcją jest płytka piaszczysta plaża i obfita infrastruktura turystyczna, a nie urok historyczny."
+    },
+    {
+      "question": "Ile dni powinienem spędzić w Medulinie?",
+      "answer": "Trzy do pięciu dni wystarczy, aby zwiedzić miasto, spędzić czas na plażach i wybrać się na jednodniową wycieczkę na Przylądek Kamenjak. Cały tydzień to standard dla rodzin stawiających na spokojny wypoczynek na plaży."
+    },
+    {
+      "question": "Która plaża w Medulinie jest najlepsza?",
+      "answer": "Bijeca jest najbardziej znana z piasku i płytkiego wejścia, co czyni ją idealną dla maluchów. Dla czystszej wody i mniejszych tłumów, plaże żwirowe w Belvedere i Alba Chiara są lepszymi alternatywami."
+    },
+    {
+      "question": "Czy potrzebuję samochodu w Medulinie?",
+      "answer": "Nie potrzebujesz samochodu, jeśli planujesz pozostać wyłącznie w Medulinie, ponieważ plaże, supermarkety i restauracje są dostępne pieszo. Jednak samochód jest wysoce zalecany do zwiedzania pobliskiej Puli, Rovinja i plaż Przylądka Kamenjak."
+    },
+    {
+      "question": "Gdzie mogę zaparkować w Medulinie?",
+      "answer": "Medulin posiada kilka dużych, płatnych miejskich stref parkingowych wzdłuż nabrzeża i w pobliżu plaży Bijeca. Płatność jest wymagana w sezonie letnim i można ją uiścić za pomocą automatów ulicznych, SMS-ów lub aplikacji parkingowej PayDo."
+    },
+    {
+      "question": "Czy Medulin jest dobry dla rodzin?",
+      "answer": "Tak, Medulin jest powszechnie uważany za jeden z najbardziej przyjaznych rodzinom miejsc na Istrii. Piaszczysty odcinek plaży Bijeca o długości 1 kilometra charakteryzuje się wodą sięgającą kostek, rozciągającą się daleko w zatokę, a miasto oferuje liczne place zabaw, parki rozrywki i kurorty nastawione na rodziny."
+    }
+  ],
+  "headings": {
+    "quickFacts": "W skrócie",
+    "whereToStay": "Gdzie zatrzymać się w Medulinie",
+    "gettingThere": "Dojazd do Medulina",
+    "whenToGo": "Kiedy jechać",
+    "guides": "Przewodniki po Medulinie",
+    "faq": "Medulin – Najczęściej zadawane pytania",
+    "groups": {
+      "gettingAround": "Parking i poruszanie się",
+      "planning": "Planowanie i gdzie się zatrzymać",
+      "timing": "Kiedy jechać",
+      "travelers": "Rodziny, pary i style podróżowania",
+      "activities": "Plaże i atrakcje",
+      "food": "Jedzenie i napoje",
+      "comparisons": "Porównania",
+      "practical": "Praktyczne informacje"
+    },
+    "car": "Samochodem",
+    "other": "Inne opcje",
+    "bestFor": "Najlepsze dla",
+    "parking": "Parking",
+    "beach": "Plaża"
+  },
+  "destination": "medulin",
+  "language": "pl",
+  "updatedAt": "2026-10-16T11:07:19.099Z"
+}

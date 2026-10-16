@@ -1,0 +1,146 @@
+{
+  "title": "Mljet úti útmutató: Nemzeti Park, kompok és szálláslehetőségek",
+  "metaDescription": "Tervezzen utazást Mljetre, Horvátországba. Tényeken alapuló útmutató a Nemzeti Park megközelítéséről, autós útvonalakról, kompokról, a legjobb falvakról, ahol megszállhat, és gyakorlati tippekről.",
+  "intro": "Mljet egy sűrűn erdős adriai sziget, amely a természetet, túrázást és csendes tengerparti falvakat kereső utazóknak ideális. A sziget nyugati harmada védett Nemzeti Park, mely két sós vizű tavat rejt, vonzva az egynapos és a hosszabb tartózkodásra érkező látogatókat egyaránt. A keleti és középső részek elszigetelt öblöket és homokos strandokat kínálnak, eltérően a tipikus horvát kavicsos tengerparttól.\n\nA fő utazási szezon május végétől szeptemberig tart. Július és augusztus hozza a legmelegebb tengeri hőmérsékletet és a legnagyobb jachtforgalmat, különösen Pomenában és Polačében. Május és szeptember enyhébb időjárást kínál a kerékpározáshoz és a Nemzeti Park ösvényein való sétához, kevesebb tömeggel és alacsonyabb szállásárakkal.",
+  "quickFacts": [
+    {
+      "label": "Legjobb hónapok",
+      "value": "Május–szeptember"
+    },
+    {
+      "label": "Augusztusi tenger hőmérséklete",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Legközelebbi repülőtér",
+      "value": "Dubrovnik (DBV), 85 km (komppal együtt)"
+    },
+    {
+      "label": "Fő strandtípus",
+      "value": "Sós vizű tavak, sziklás öblök és ritka homok"
+    },
+    {
+      "label": "Árszint",
+      "value": "Átlag feletti (szigeti logisztika és parkdíjak)"
+    },
+    {
+      "label": "Falvak gyalogosan",
+      "value": "A falvak kicsik/gyalogosan bejárhatók; a Nemzeti Park autómentes"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Pomena",
+      "bestFor": "Nemzeti Park megközelítése és étkezés",
+      "parking": "Korlátozott utcai parkoló; fizetős parkoló a hotel közelében",
+      "beach": "10 perces séta a Malo Jezeróhoz (sós vizű tó)",
+      "summary": "Egy kis kikötőfalu a nyugati csúcson, amely a Nemzeti Park fő bejárataként szolgál. Itt található a sziget egyetlen nagy szállodája, nagy jachtforgalommal és számos tengeri étteremmel."
+    },
+    {
+      "name": "Polače",
+      "bestFor": "Történelmi romok és védett horgonyzóhely",
+      "parking": "Utcai parkoló elérhető, főszezonban zsúfolt",
+      "beach": "Sziklás part; 3 km séta/biciklizés a tavakhoz",
+      "summary": "Kiemelkedő római kori romokkal rendelkezik közvetlenül a tengerparton. Ez a Nemzeti Park másodlagos bejárata, és egy mély, védett öbölben fekszik, több kompjárattal."
+    },
+    {
+      "name": "Saplunara",
+      "bestFor": "Homokos strandok és csendes pihenés",
+      "parking": "Magán parkolóhelyek az apartmanoknál, kisebb burkolatlan parkolók",
+      "beach": "Közvetlen hozzáférés a ritka homokos strandokhoz",
+      "summary": "A sziget elszigetelt keleti csúcsán található, homokos öbleiről ismert. Itt nincsenek Nemzeti Park látnivalók, így csendesebb és teljesen a strandolásra összpontosít."
+    },
+    {
+      "name": "Sobra",
+      "bestFor": "Kompkapcsolat és gyakorlati bázis",
+      "parking": "Bőséges parkoló a komp kikötőnél és a falu központjában",
+      "beach": "Kisebb kavicsos és sziklás helyek a faluban",
+      "summary": "A fő kikötő, ahová a szárazföldi autókomp érkezik. Központi elhelyezkedésű, alacsonyabb árakat és stratégiai bázist kínál a sziget mindkét végéhez való autózáshoz."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Münchenből",
+      "car": "930 km Prapratno kikötőjéig, ~10 óra az A8, A10, HR A1 és Pelješac híd útvonalon. AT matrica/útdíjak, SI matrica, HR útdíjak. Plusz 45 perces autókomp Sobrába.",
+      "other": "Repülőút Dubrovnikba (DBV) vagy Splitbe (SPU), majd busz/taxi a kikötőbe és utasszállító katamarán."
+    },
+    {
+      "from": "Bécsből",
+      "car": "830 km Prapratno kikötőjéig, ~9 óra az A2 (AT), HR A1 és Pelješac híd útvonalon. AT matrica, SI matrica, HR útdíjak. Plusz 45 perces autókomp Sobrába.",
+      "other": "Repülőút Dubrovnikba (DBV), majd busz a Gruž kikötőbe és utasszállító katamarán."
+    },
+    {
+      "from": "Budapestről",
+      "car": "790 km Prapratno kikötőjéig, ~8,5 óra az M7 (HU), HR A1 és Pelješac híd útvonalon. HU matrica, HR útdíjak. Plusz 45 perces autókomp Sobrába.",
+      "other": "Repülőút Splitbe (SPU) vagy Dubrovnikba (DBV), majd utasszállító katamarán Mljetre."
+    },
+    {
+      "from": "Ljubljanából",
+      "car": "610 km Prapratno kikötőjéig, ~7 óra az A2 (SI), HR A1 és Pelješac híd útvonalon. SI matrica, HR útdíjak. Plusz 45 perces autókomp Sobrába.",
+      "other": "Busz Splitbe vagy Dubrovnikba, majd utasszállító katamarán Pomenába vagy Sobrába."
+    },
+    {
+      "from": "Prágából",
+      "car": "1150 km Prapratno kikötőjéig, ~12,5 óra az A9 (AT) és HR A1 útvonalon. CZ, AT, SI matricák, HR útdíjak. Plusz 45 perces autókomp Sobrába.",
+      "other": "Repülőút Dubrovnikba (DBV), majd busz a kikötőbe és utasszállító katamarán."
+    },
+    {
+      "from": "Krakkóból",
+      "car": "1120 km Prapratno kikötőjéig, ~12,5 óra az SK, HU (M7) és HR A1 útvonalon. SK, HU matricák, HR útdíjak. Plusz 45 perces autókomp Sobrába.",
+      "other": "Repülőút Splitbe (SPU) vagy Dubrovnikba (DBV), majd utasszállító katamarán."
+    }
+  ],
+  "whenToGo": "A turisztikai szezon Mljeten májustól októberig tart, igazodva a kibővített kompmenetrendekhez és a nyitva tartó éttermekhez. Július és augusztus a legforgalmasabb és legdrágább hónapok, a tenger hőmérséklete eléri a 27°C-ot, és nagyszámú jacht horgonyoz le Pomenában és Polačében. Május, június és szeptember kellemes léghőmérsékletet kínál 20–25°C körül, így ezek a hónapok ideálisak a kerékpározáshoz és a Nemzeti Parkban való túrázáshoz, bár a tenger május elején túl hűvös lehet a hosszas úszáshoz. November és április között a sziget nagyon csendes; az utasszállító katamaránok csökkentett menetrenddel közlekednek, és a legtöbb turisztikai létesítmény, beleértve sok éttermet és szállást is, télre bezár.",
+  "faq": [
+    {
+      "question": "Érdemes meglátogatni Mljetet?",
+      "answer": "Igen, azoknak az utazóknak, akik természetet, túrázást és tiszta vizet keresnek, távol a nagy üdülővárosoktól. A sziget Nemzeti Parkja és sós vizű tavai egyedi tájképet kínálnak más horvát szigetekhez képest, bár hiányzik belőle az éjszakai élet és a kiterjedt bevásárlási lehetőségek."
+    },
+    {
+      "question": "Hány napra van szükségem Mljeten?",
+      "answer": "Két-három nap elegendő a Nemzeti Park tavai körüli biciklizéshez, a Szent Mária-sziget meglátogatásához és néhány tengerparti falu felfedezéséhez. Dubrovnikból vagy Korčuláról népszerűek az egynapos kirándulások, de az éjszakai tartózkodás lehetővé teszi, hogy a parkot a déli tömeg nélkül élvezhesse."
+    },
+    {
+      "question": "Melyik a legjobb strand Mljeten?",
+      "answer": "A keleti csúcson található Velika Saplunara és Mala Saplunara a legjobb homokos strandok. A Nemzeti Parkban a Malo Jezero és Veliko Jezero (a sós vizű tavak) partjai nagyon népszerűek úszásra a meleg, nyugodt vizük és a fenyőárnyék miatt."
+    },
+    {
+      "question": "Szükségem van autóra Mljeten?",
+      "answer": "Erősen ajánlott autó vagy robogó, ha a szigetet felfedezni tervezi, mivel a Nemzeti Park nyugati része és Saplunara keleti része között több mint 40 kilométer a távolság. Ha csak Pomenában vagy Polačében szeretne maradni és a Nemzeti Parkot meglátogatni, akkor nincs szükség autóra."
+    },
+    {
+      "question": "Hol parkoljak a Mljeti Nemzeti Parkban?",
+      "answer": "Van egy kijelölt fizetős parkoló Vrbovica faluban (Mali Most közelében), közvetlenül a tó bejáratánál, valamint utcai parkoló Pomenában és Polačében. Járművek nem engedélyezettek a sós vizű tavakat közvetlenül körülvevő sétálóutakon."
+    },
+    {
+      "question": "Jó Mljet családoknak?",
+      "answer": "Igen, különösen az aktív családoknak, akik szeretik a kerékpározást, úszást és természetjárást. A sós vizű tavak nagyon biztonságosak a gyermekek számára a hullámok hiánya miatt, és a saplunara-i homokos strandok sekély, fokozatos bejárattal rendelkeznek."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Áttekintés",
+    "whereToStay": "Hol szálljon meg Mljeten",
+    "gettingThere": "Hogyan juthat el Mljetre",
+    "whenToGo": "Mikor utazzon",
+    "guides": "Mljet útmutatók",
+    "faq": "Gyakran ismételt kérdések Mljetről",
+    "groups": {
+      "gettingAround": "Közlekedés és parkolás",
+      "planning": "Tervezés és szállás",
+      "timing": "Mikor érdemes utazni",
+      "travelers": "Családok, párok és utazási stílusok",
+      "activities": "Strandok és tevékenységek",
+      "food": "Ételek és italok",
+      "comparisons": "Összehasonlítások",
+      "practical": "Gyakorlati információk"
+    },
+    "car": "Autóval",
+    "other": "Egyéb lehetőségek",
+    "bestFor": "Legjobb erre",
+    "parking": "Parkolás",
+    "beach": "Strand"
+  },
+  "destination": "mljet",
+  "language": "hu",
+  "updatedAt": "2026-10-16T14:23:13.691Z"
+}

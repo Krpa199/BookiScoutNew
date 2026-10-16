@@ -1,0 +1,146 @@
+{
+  "title": "Rab: Potovalni vodnik – Plaže, parkiranje in kje ostati",
+  "metaDescription": "Načrtujte svoje potovanje na Rab, Hrvaška. Primerjajte nastanitvena območja, poiščite vozne poti iz Srednje Evrope in pridobite praktične informacije o parkiranju in peščenih plažah.",
+  "intro": "Rab privablja popotnike, ki iščejo peščene plaže, borove gozdove in ohranjeno srednjeveško staro mestno jedro. Za razliko od mnogih hrvaških otokov, kjer prevladujejo skalnate ali prodnate obale, se Rab ponaša z obsežnimi peščenimi zalivi, zlasti na severnem polotoku Lopar, zaradi česar je zelo primeren za družine z majhnimi otroki. Jugozahodna obala ponuja goste borove gozdove in osamljene zalive, primerne za pare in aktivne popotnike.\n\nGlavna turistična sezona traja od junija do septembra. Julij in avgust prinašata najtoplejše temperature morja in polno delovanje restavracij, a tudi preobremenjene ceste in najdaljše čakalne dobe za trajekte na celino. Maj in oktober sta primerna za popotnike, osredotočene na pohodništvo in kolesarjenje, čeprav so temperature morja še vedno nizke in nekatere lokalne storitve delujejo s skrajšanim delovnim časom.",
+  "quickFacts": [
+    {
+      "label": "Najboljši meseci",
+      "value": "Junij do september"
+    },
+    {
+      "label": "Temperatura morja v avgustu",
+      "value": "25°C - 27°C"
+    },
+    {
+      "label": "Najbližje letališče",
+      "value": "Rijeka (RJK), 60 km (vključuje trajekt)"
+    },
+    {
+      "label": "Glavni tip plaže",
+      "value": "Pesek na severu, skale/prod drugod"
+    },
+    {
+      "label": "Cenovni nivo",
+      "value": "Zmeren (podobno Krku, ceneje kot Hvar)"
+    },
+    {
+      "label": "Staro mestno jedro",
+      "value": "Samo za pešce (brez avtomobilov)"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Mesto Rab",
+      "bestFor": "Zgodovina, kulinarika in večerno vzdušje",
+      "parking": "Plačljiva občinska parkirišča zunaj mestnega obzidja",
+      "beach": "Mestna plaža je majhna/prodnata; boljše plaže zahtevajo vožnjo ali taksi-čoln",
+      "summary": "Zgodovinsko in kulturno središče otoka. Bivanje tukaj pomeni takojšen dostop do restavracij in znamenitosti, vendar zahteva parkiranje zunaj peš cone."
+    },
+    {
+      "name": "Lopar",
+      "bestFor": "Družine z majhnimi otroki",
+      "parking": "Večina nastanitev ima brezplačno parkirišče na posestvu",
+      "beach": "Ob Rajski Plaži, 1,5 km dolgi peščeni plaži",
+      "summary": "Nahaja se na severu in deluje kot letovišče ob plaži. Manjka mu zgodovinska arhitektura, vendar ponuja najbolj dostopne plitve peščene obale na Hrvaškem."
+    },
+    {
+      "name": "Suha Punta",
+      "bestFor": "Pari, ljubitelji narave in iskalci sence",
+      "parking": "Običajno dovolj brezplačnih parkirišč pri hotelih in apartmajih",
+      "beach": "Skalni in prodnati zalivi, mnogi zasenčeni z borovci",
+      "summary": "Miren, gozdnat polotok z naravnimi potmi in čisto vodo. Za dosego glavnih restavracij v mestu Rab je potreben avto ali kolo."
+    },
+    {
+      "name": "Banjol & Barbat",
+      "bestFor": "Pogled na morje in popotniki s plovili",
+      "parking": "Običajno vključeno v zasebnih apartmajih",
+      "beach": "Prodnate plaže in majhni peščeni odseki",
+      "summary": "Ti sosednji obalni naselji se razprostirata južno od mesta Rab. S središčem sta povezani z obalno promenado, kar ponuja ravnotežje med dostopom do plaže in bližino mesta."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "München",
+      "car": "550 km, ~7,5 ure preko Salzburga, Beljaka, Ljubljane, Reke in trajekta Stinica. Zahteva AT in SI vinjete, cestnino za Karavanški predor, hrvaške cestnine.",
+      "other": "Vlak ali FlixBus do Reke, nato katamaran Jadrolinija do mesta Rab."
+    },
+    {
+      "from": "Dunaj",
+      "car": "530 km, ~6,5 ure preko Gradca, Maribora, Zagreba, A1 do Žute Lokve in trajekta Stinica. Zahteva AT in SI vinjete, hrvaške cestnine.",
+      "other": "Vlak ali avtobus do Zagreba, nato direkten avtobus do Raba."
+    },
+    {
+      "from": "Budimpešta",
+      "car": "520 km, ~6 ur preko M7 do Letenya, Zagreba, A1 do Žute Lokve in trajekta Stinica. Zahteva HU e-vinjeto, hrvaške cestnine.",
+      "other": "FlixBus do Zagreba, povezovalni avtobus do Raba."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "160 km, ~3 ure preko Postojne, Ilirske Bistrice, Reke in trajekta Stinica. Zahteva SI vinjeto, hrvaške cestnine.",
+      "other": "Avtobus do Reke, nato katamaran do mesta Rab."
+    },
+    {
+      "from": "Praga",
+      "car": "850 km, ~10 ur preko Brna, Dunaja, Gradca, Zagreba, A1 in trajekta Stinica. Zahteva CZ, AT in SI vinjete, hrvaške cestnine.",
+      "other": "Vlak ali avtobus do Reke/Zagreba, nato nadaljnji avtobus/katamaran do Raba."
+    },
+    {
+      "from": "Krakov",
+      "car": "920 km, ~10,5 ure preko Ostrave, Brna, Dunaja, Zagreba, A1 in trajekta Stinica. Zahteva PL, CZ, AT in SI vinjete/cestnine, hrvaške cestnine.",
+      "other": "Let do Zadra (ZAD), nato avtobus do Senja in trajekt, ali najem avtomobila."
+    }
+  ],
+  "whenToGo": "Junij do september so najbolj zanesljivi meseci za kopanje, z vrhuncem temperatur morja med 25°C in 27°C v avgustu. Julij in avgust prinašata najvišje cene, največje množice na Rajski Plaži in morebitne čakalne dobe za trajekte Stinica in Valbiska. Junij in september ponujata ravnotežje tople vode, nižjih cen nastanitev in popolnoma delujočih restavracij brez poletne gneče. Od novembra do aprila je otok miren, številne turistično usmerjene restavracije in hoteli so zaprti, vreme pa je pogosto prehladno ali vetrovno za aktivnosti na plaži.",
+  "faq": [
+    {
+      "question": "Ali je Rab vreden obiska?",
+      "answer": "Da, predvsem zaradi svoje edinstvene pokrajine peščenih plaž in gostih borovih gozdov. Poleg plitvih zalivov, ki so redki na drugih hrvaških otokih, ponuja tudi dobro ohranjeno srednjeveško mesto."
+    },
+    {
+      "question": "Koliko dni potrebujem na Rabu?",
+      "answer": "Štiri do sedem dni je idealno. To zagotavlja dovolj časa za raziskovanje mesta Rab, preživljanje nekaj dni na različnih plažah v Loparju in Suhi Punti ter za lokalni izlet z ladjo."
+    },
+    {
+      "question": "Katera je najboljša plaža na Rabu?",
+      "answer": "Rajska Plaža v Loparju je najbolj priljubljena zaradi svojih 1,5 kilometra plitvega peska. Za mirnejše, senčne kotičke so boljši skalnati in prodnati zalivi polotoka Suha Punta."
+    },
+    {
+      "question": "Ali potrebujem avto na Rabu?",
+      "answer": "Avto je zelo priporočljiv za potovanje med starim mestnim jedrom, peščenimi plažami na severu in gozdnatimi območji. Čeprav je mesto Rab primerno za pešce, zanašanje zgolj na lokalne avtobuse omejuje prilagodljivost."
+    },
+    {
+      "question": "Kje parkiram v mestu Rab?",
+      "answer": "Obiskovalci morajo uporabljati velika, plačljiva občinska parkirišča, ki se nahajajo tik pred mestnim obzidjem. Samo zgodovinsko središče je cona za pešce z omejenim dostopom vozil."
+    },
+    {
+      "question": "Je Rab primeren za družine?",
+      "answer": "Da, Rab je eden najbolj družinam prijaznih otokov na Hrvaškem. Plitve, peščene plaže v Loparju omogočajo majhnim otrokom varno brodenje, otok pa na splošno nima strmih, pečinskih dostopov, ki jih najdemo drugod."
+    }
+  ],
+  "headings": {
+    "quickFacts": "Na kratko",
+    "whereToStay": "Kje prenočiti na Rabu",
+    "gettingThere": "Pot do Raba",
+    "whenToGo": "Kdaj obiskati",
+    "guides": "Rab vodniki",
+    "faq": "Rab – pogosta vprašanja",
+    "groups": {
+      "gettingAround": "Parkiranje in premikanje po otoku",
+      "planning": "Načrtovanje in kje prenočiti",
+      "timing": "Kdaj obiskati",
+      "travelers": "Družine, pari in načini potovanja",
+      "activities": "Plaže in aktivnosti",
+      "food": "Hrana in pijača",
+      "comparisons": "Primerjave",
+      "practical": "Praktične informacije"
+    },
+    "car": "Z avtomobilom",
+    "other": "Druge možnosti",
+    "bestFor": "Najboljše za",
+    "parking": "Parkiranje",
+    "beach": "Plaža"
+  },
+  "destination": "rab",
+  "language": "sk",
+  "updatedAt": "2026-10-16T13:01:14.677Z"
+}

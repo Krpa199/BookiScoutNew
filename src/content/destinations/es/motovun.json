@@ -1,0 +1,146 @@
+{
+  "title": "Motovun: Guía de viaje, trufas, aparcamiento y dónde alojarse",
+  "metaDescription": "Planifica tu viaje a Motovun, Croacia. Encuentra los mejores lugares para alojarte, rutas en coche, información de aparcamiento y consejos para visitar esta ciudad en la cima de una colina en Istria.",
+  "intro": "Motovun es un pueblo medieval en la cima de una colina en el centro de Istria, situado sobre el valle del río Mirna. Atrae a entusiastas de la comida, amantes del vino y visitantes que buscan una base tranquila lejos de los complejos costeros. La ciudad es ampliamente conocida por los bosques de trufas circundantes, los viñedos locales que producen vinos Teran y Malvasia, y las intactas murallas defensivas del siglo XIII que ofrecen vistas de toda la región.\n\nLa ciudad requiere movilidad física para recorrerla, ya que el centro histórico está situado en una pendiente pronunciada y es estrictamente peatonal. La mayoría de los visitantes llegan entre finales de primavera y principios de otoño, siendo octubre particularmente popular para la cosecha de trufa blanca. Debido a que está ubicado tierra adentro, se recomienda encarecidamente un vehículo para llegar a la ciudad, explorar las fincas agrícolas vecinas y visitar la costa, que está a unos 40 minutos en coche.",
+  "quickFacts": [
+    {
+      "label": "Mejores meses",
+      "value": "Septiembre y octubre (temporada de trufas, menos gente)"
+    },
+    {
+      "label": "Temperatura del mar en agosto",
+      "value": "25°C a 27°C (en la costa, a 25 km)"
+    },
+    {
+      "label": "Aeropuerto más cercano",
+      "value": "Aeropuerto de Pula (PUY), 70 km"
+    },
+    {
+      "label": "Tipo de playa principal",
+      "value": "N/A (interior); las más cercanas son de guijarros y roca en Novigrad"
+    },
+    {
+      "label": "Nivel de precios",
+      "value": "Ligeramente más alto que el promedio del interior (premium por las trufas)"
+    },
+    {
+      "label": "Caminabilidad",
+      "value": "El casco antiguo es estrictamente peatonal con calles empinadas y empedradas"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Casco Antiguo de Motovun",
+      "bestFor": "Amantes de la historia y parejas",
+      "parking": "Ninguno en el alojamiento; use los aparcamientos municipales de abajo",
+      "beach": "25 km a las playas costeras",
+      "summary": "El centro medieval amurallado en la cima de la colina. El acceso requiere subir por un sendero empedrado y empinado o tomar un autobús lanzadera municipal desde las zonas de aparcamiento inferiores."
+    },
+    {
+      "name": "Kanal (Pie de Motovun)",
+      "bestFor": "Viajeros en coche y visitantes con problemas de movilidad",
+      "parking": "Fácil, la mayoría de las propiedades tienen aparcamiento privado gratuito",
+      "beach": "25 km a las playas costeras",
+      "summary": "El asentamiento situado en la base de la colina cerca del río Mirna. Ofrece aparcamiento sencillo, terreno llano y acceso rápido a las carreteras regionales mientras se mantiene la vista del casco antiguo."
+    },
+    {
+      "name": "Livade",
+      "bestFor": "Amantes de la gastronomía y compradores de trufas",
+      "parking": "Fácil, aparcamiento gratuito ampliamente disponible",
+      "beach": "30 km a las playas costeras",
+      "summary": "Un pequeño pueblo situado directamente al otro lado del valle de Motovun. Sirve como centro comercial de la industria de la trufa blanca de Istria y cuenta con notables restaurantes locales."
+    },
+    {
+      "name": "Kaldir",
+      "bestFor": "Agroturismo y estancias tranquilas",
+      "parking": "Amplio aparcamiento privado en granjas y fincas",
+      "beach": "35 km a las playas costeras",
+      "summary": "Un pueblo rural a 5 kilómetros al sureste de Motovun. Es reconocido por sus huertos frutales, viñedos y estancias rurales tradicionales (agroturismo)."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Múnich",
+      "car": "520 km, 6 horas vía A10 (Salzburgo, Villach, Liubliana, Koper). Se requiere viñeta AT, peajes de Tauern/Karavanke, viñeta SLO.",
+      "other": "Vuelo a Pula (PUY) o Venecia (VCE), luego alquilar un coche."
+    },
+    {
+      "from": "Viena",
+      "car": "500 km, 5.5 horas vía A2 (Graz, Maribor, Liubliana, Koper). Se requiere viñeta AT, viñeta SLO.",
+      "other": "Tren o autobús a Liubliana, luego autobús local a Buzet (a 15 km de Motovun)."
+    },
+    {
+      "from": "Budapest",
+      "car": "570 km, 6 horas vía M7 a Zagreb, A6 a Rijeka, A8 a Lupoglav. Se requiere viñeta HU, peajes de autopista HR y del túnel Učka.",
+      "other": "Vuelo a Zagreb (ZAG), luego alquilar un coche o tomar un autobús a Pazin."
+    },
+    {
+      "from": "Liubliana",
+      "car": "120 km, 1.5 - 2 horas vía A1 a Koper o vía Postojna y Buzet. Se requiere viñeta SLO.",
+      "other": "Autobús directo a Buzet (a 15 km) o Pazin."
+    },
+    {
+      "from": "Praga",
+      "car": "800 km, 9 horas vía Brno, Viena, Graz, Liubliana, Koper. Se requieren viñetas CZ, AT y SLO.",
+      "other": "Vuelo a Venecia (VCE) o Pula (PUY), luego alquilar un coche."
+    },
+    {
+      "from": "Cracovia",
+      "car": "940 km, 10 horas vía Ostrava, Brno, Viena, Graz, Liubliana. Se requieren peajes PL, viñetas CZ, AT y SLO.",
+      "other": "Vuelo a Viena (VIE) o Pula (PUY), luego alquilar un coche."
+    }
+  ],
+  "whenToGo": "Julio y agosto son los meses más calurosos con temperaturas diurnas que a menudo superan los 30°C, y representan la época de mayor afluencia para los excursionistas que visitan desde los centros turísticos costeros. Las temperaturas del mar en la costa cercana alcanzan un máximo de 25°C a 27°C. Mayo, junio y septiembre ofrecen temperaturas más suaves alrededor de 20°C a 25°C, precios de alojamiento más bajos y menos multitudes. Octubre y noviembre marcan la muy esperada temporada de trufa blanca, atrayendo a entusiastas de la comida a la región; la mayoría de los restaurantes permanecen abiertos, aunque los días son considerablemente más cortos y frescos. De diciembre a marzo, el clima es frío y húmedo, muchos hoteles y restaurantes cierran por la temporada, y la ciudad está muy tranquila.",
+  "faq": [
+    {
+      "question": "¿Vale la pena visitar Motovun?",
+      "answer": "Sí, Motovun merece la pena visitarlo por su arquitectura medieval bien conservada, las vistas panorámicas del Valle del Mirna y su distintiva cultura gastronómica local. Sirve como un excelente contraste interior a los más concurridos complejos costeros de Istria."
+    },
+    {
+      "question": "¿Cuántos días necesitas en Motovun?",
+      "answer": "Un día completo es suficiente para caminar por las murallas de la ciudad, explorar el centro histórico y comer en un restaurante local. Sin embargo, muchos visitantes se quedan de tres a cinco días utilizando el pueblo como base central para visitar viñedos locales, olivares y pueblos en la cima de colinas circundantes."
+    },
+    {
+      "question": "¿Cuál es la mejor playa cerca de Motovun?",
+      "answer": "Las playas más cercanas se encuentran en Novigrad y Poreč, a unos 25 a 30 kilómetros de distancia (un viaje de 30 a 40 minutos en coche). La playa de Karpinjan en Novigrad cuenta con guijarros y sombra de pinos, mientras que Poreč ofrece numerosas calas pavimentadas y rocosas."
+    },
+    {
+      "question": "¿Necesito un coche en Motovun?",
+      "answer": "Tener un coche es muy recomendable para una estancia en Motovun. Aunque la ciudad es pequeña y solo peatonal, un vehículo es necesario para llegar a las bodegas cercanas, las rutas de senderismo regionales y los pueblos vecinos."
+    },
+    {
+      "question": "¿Dónde aparcar en Motovun?",
+      "answer": "Debe aparcar en los aparcamientos municipales designados en la base de la colina o a mitad de camino cerca del cementerio. Desde estos aparcamientos, los visitantes pueden caminar por el empinado sendero empedrado o tomar un frecuente autobús lanzadera municipal hasta el casco antiguo."
+    },
+    {
+      "question": "¿Es Motovun bueno para familias?",
+      "answer": "Motovun puede ser un desafío para familias con bebés o niños pequeños debido a las pendientes pronunciadas y las calles empedradas que son difíciles para los cochecitos. Los niños mayores suelen disfrutar paseando por las murallas defensivas medievales y explorando los senderos naturales circundantes."
+    }
+  ],
+  "headings": {
+    "quickFacts": "De un vistazo",
+    "whereToStay": "Dónde alojarse en Motovun",
+    "gettingThere": "Cómo llegar a Motovun",
+    "whenToGo": "Cuándo ir",
+    "guides": "Guías de Motovun",
+    "faq": "Preguntas frecuentes de Motovun",
+    "groups": {
+      "gettingAround": "Aparcamiento y cómo moverse",
+      "planning": "Planificación y dónde alojarse",
+      "timing": "Cuándo ir",
+      "travelers": "Familias, parejas y estilos de viaje",
+      "activities": "Playas y cosas que hacer",
+      "food": "Comida y bebida",
+      "comparisons": "Comparaciones",
+      "practical": "Información práctica"
+    },
+    "car": "En coche",
+    "other": "Otras opciones",
+    "bestFor": "Mejor para",
+    "parking": "Aparcamiento",
+    "beach": "Playa"
+  },
+  "destination": "motovun",
+  "language": "es",
+  "updatedAt": "2026-10-16T12:26:47.701Z"
+}

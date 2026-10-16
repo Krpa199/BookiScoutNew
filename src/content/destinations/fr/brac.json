@@ -1,0 +1,146 @@
+{
+  "title": "Guide de voyage à Brač : Plages, ferries et où séjourner",
+  "metaDescription": "Planifiez un voyage à Brač, Croatie. Trouvez les meilleurs quartiers où séjourner, les itinéraires en voiture vers le ferry de Split, des informations sur les plages et des conseils de voyage pratiques.",
+  "intro": "Brač est une grande île dalmate idéale pour les voyageurs à la recherche de plages fiables, de sports nautiques actifs et de villages en pierre traditionnels. Moins axée sur la fête que l'île voisine de Hvar, elle attire un mélange de familles, de véliplanchistes et de voyageurs en road trip explorant la côte croate. L'île est surtout connue pour la plage de Zlatni Rat à Bol et ses carrières de calcaire historiques.\n\nLa saison principale pour les visiteurs s'étend de fin mai à début octobre, avec des températures de mer les plus chaudes en juillet et août. L'arrivée implique généralement un ferry-voiture depuis le port continental de Split vers Supetar, ou de Makarska vers Sumartin, ce qui en fait une île très accessible pour ceux qui descendent en voiture à travers l'Europe centrale.",
+  "quickFacts": [
+    {
+      "label": "Meilleurs mois",
+      "value": "De juin à septembre pour la baignade et le temps chaud"
+    },
+    {
+      "label": "Température de la mer en août",
+      "value": "Environ 25°C"
+    },
+    {
+      "label": "Aéroport le plus proche",
+      "value": "L'aéroport de Brač (BWK) est à 15 km de Bol ; l'aéroport de Split (SPU) nécessite un ferry"
+    },
+    {
+      "label": "Type de plage principal",
+      "value": "Principalement des galets et du gravier fin, avec de rares criques de sable"
+    },
+    {
+      "label": "Niveau de prix",
+      "value": "Légèrement au-dessus de la moyenne croate, mais inférieur à Hvar ou Dubrovnik"
+    },
+    {
+      "label": "Accessibilité à pied",
+      "value": "Les vieilles villes sont piétonnes ; une voiture est recommandée pour explorer l'île"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Bol",
+      "bestFor": "Véliplanchistes, amateurs de plage et nouveaux visiteurs",
+      "parking": "Parkings publics payants en périphérie de la ville ; les rues centrales sont restreintes",
+      "beach": "15 minutes à pied de la célèbre Zlatni Rat (galets fins)",
+      "summary": "Situé sur la côte sud, Bol est la destination la plus célèbre de l'île. Il offre une longue promenade en bord de mer, de nombreux restaurants et d'excellentes conditions de planche à voile."
+    },
+    {
+      "name": "Supetar",
+      "bestFor": "Familles et ceux qui veulent un accès facile en ferry à Split",
+      "parking": "Nombreuses zones de stationnement payantes près du port de ferry et des supermarchés",
+      "beach": "Plusieurs plages de ville avec des galets, des terrasses en béton et l'ombre des pins",
+      "summary": "En tant que principal point d'entrée de Brač, Supetar est une ville fonctionnelle et animée avec d'excellentes infrastructures. Elle offre des liaisons faciles avec le continent et une atmosphère côtière familiale."
+    },
+    {
+      "name": "Sutivan",
+      "bestFor": "Cyclistes et voyageurs recherchant un environnement calme et peu fréquenté",
+      "parking": "Parking gratuit et payant disponible en périphérie du village",
+      "beach": "Petites criques de galets immédiatement accessibles depuis le centre-ville",
+      "summary": "Un village paisible sur la côte nord-ouest connu pour ses maisons en pierre historiques et ses strictes restrictions de circulation estivales. Il est bien relié par des pistes cyclables aux baies isolées voisines."
+    },
+    {
+      "name": "Postira",
+      "bestFor": "Couples et familles recherchant un patrimoine agricole et du sable à proximité",
+      "parking": "Parkings publics désignés ; les rues centrales étroites ont un accès limité",
+      "beach": "À 3 km de la baie de Lovrečina, l'une des rares plages de sable de l'île",
+      "summary": "Un village traditionnel de pêcheurs et d'agriculteurs sur la côte nord, entouré d'oliviers. Il sert de base tranquille avec accès aux rives sablonneuses de Lovrečina."
+    }
+  ],
+  "gettingThere": [
+    {
+      "from": "Munich",
+      "car": "850 km jusqu'au ferry de Split, ~9 heures via A8, A10 et l'A1 croate. Vignettes requises pour l'Autriche et la Slovénie ; péages applicables en Croatie.",
+      "other": "Vols directs vers l'aéroport de Split, puis ferry pour Brač."
+    },
+    {
+      "from": "Vienne",
+      "car": "710 km jusqu'au ferry de Split, ~8 heures via A2 et l'A1 croate. Vignettes nécessaires pour l'Autriche et la Slovénie ; péages applicables en Croatie.",
+      "other": "Train de nuit EuroNight ou vols directs vers Split."
+    },
+    {
+      "from": "Budapest",
+      "car": "750 km jusqu'au ferry de Split, ~8 heures via M7 et les A4/A1 croates. Vignette requise pour la Hongrie ; péages applicables en Croatie.",
+      "other": "Train de nuit direct Adria InterCity vers Split (en été seulement)."
+    },
+    {
+      "from": "Ljubljana",
+      "car": "470 km jusqu'au ferry de Split, ~5 heures via A2 et l'A1 croate. Vignette requise pour la Slovénie ; péages applicables en Croatie.",
+      "other": "Service de bus direct vers la gare routière de Split, située à côté du port de ferry."
+    },
+    {
+      "from": "Prague",
+      "car": "1 000 km jusqu'au ferry de Split, ~11 heures via Vienne et Graz. Vignettes requises pour la Tchéquie, l'Autriche et la Slovénie ; péages applicables en Croatie.",
+      "other": "Vols directs vers Split ou train saisonnier RegioJet."
+    },
+    {
+      "from": "Cracovie",
+      "car": "1 100 km jusqu'au ferry de Split, ~12 heures via la Slovaquie, la Hongrie (M7) et la Croatie (A1). Vignettes requises pour la Slovaquie, la Hongrie ; péages applicables en Croatie.",
+      "other": "Vols directs low-cost vers l'aéroport de Split."
+    }
+  ],
+  "whenToGo": "La saison estivale de juin à septembre est la période la plus populaire pour visiter Brač, avec des températures de la mer en août avoisinant les 25°C. Juillet et août connaissent les prix les plus élevés, les plus grandes foules et le plein fonctionnement de toutes les lignes de ferry, restaurants et bars de plage. Mai et octobre offrent un temps plus frais et des tarifs d'hébergement plus bas, mais la mer est généralement trop froide pour une baignade confortable et certaines entreprises saisonnières seront fermées. De novembre à avril, l'île est très calme, de nombreux hôtels étant fermés pour l'hiver et les horaires des ferries réduits.",
+  "faq": [
+    {
+      "question": "Vaut-il la peine de visiter ?",
+      "answer": "Brač vaut la peine d'être visitée pour ses plages fiables, son architecture en pierre traditionnelle et ses excellentes conditions de planche à voile. Elle offre une alternative plus détendue et familiale à l'île de Hvar, très axée sur la vie nocturne."
+    },
+    {
+      "question": "Combien de jours devrais-je passer à Brač ?",
+      "answer": "Trois à cinq jours sont optimaux pour un voyage à Brač. Cela laisse suffisamment de temps pour se détendre à Zlatni Rat, explorer des villages côtiers comme Supetar et Sutivan, et se rendre au point de vue de Vidova Gora."
+    },
+    {
+      "question": "Quelle est la meilleure plage de l'île ?",
+      "answer": "Zlatni Rat à Bol est la plus célèbre pour sa forme unique et ses galets lisses. Pour une alternative sablonneuse, la baie de Lovrečina près de Postira est fortement recommandée, tandis que Murvica offre des rives de gravier plus calmes."
+    },
+    {
+      "question": "Ai-je besoin d'une voiture à Brač ?",
+      "answer": "Une voiture est très bénéfique pour explorer l'intérieur de l'île, les criques isolées et les différentes villes. Bien que les bus locaux relient les principales agglomérations, ils circulent peu fréquemment, rendant un transport indépendant beaucoup plus pratique."
+    },
+    {
+      "question": "Où est le meilleur endroit pour se garer ?",
+      "answer": "La plupart des villes de Brač disposent de parkings municipaux désignés et payants en périphérie. Il est préférable de les utiliser, car les centres historiques présentent des rues en pierre étroites, souvent piétonnes, difficiles à naviguer."
+    },
+    {
+      "question": "Brač est-elle une bonne destination pour les familles ?",
+      "answer": "Oui, Brač est très adaptée aux familles, offrant des eaux calmes, des villes faciles à gérer et de nombreux appartements avec cuisine. Supetar et Postira sont particulièrement populaires auprès des familles en raison de leur accès facile aux commodités et aux plages."
+    }
+  ],
+  "headings": {
+    "quickFacts": "En un coup d'œil",
+    "whereToStay": "Où séjourner à Brač",
+    "gettingThere": "Comment se rendre à Brač",
+    "whenToGo": "Quand partir",
+    "guides": "Guides de Brač",
+    "faq": "FAQ de Brač",
+    "groups": {
+      "gettingAround": "Parking et déplacements",
+      "planning": "Planification et où séjourner",
+      "timing": "Quand partir",
+      "travelers": "Familles, couples et styles de voyage",
+      "activities": "Plages et activités",
+      "food": "Restauration",
+      "comparisons": "Comparaisons",
+      "practical": "Infos pratiques"
+    },
+    "car": "En voiture",
+    "other": "Autres options",
+    "bestFor": "Idéal pour",
+    "parking": "Parking",
+    "beach": "Plage"
+  },
+  "destination": "brac",
+  "language": "fr",
+  "updatedAt": "2026-10-16T14:11:06.075Z"
+}
