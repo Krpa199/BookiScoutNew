@@ -25,8 +25,22 @@ function articlePath(lang: string, slug: string): string {
   return path.join(ARTICLES_DIR, lang, `${slug}-advent.json`);
 }
 
+// translateArticle occasionally hands back the English text unchanged (4 of 144
+// on the first run). Treat a translation with the EN title as missing.
+function dropUntranslated(slug: string, enTitle: string): void {
+  for (const lang of Object.keys(LANGUAGES)) {
+    if (lang === 'en' || !fs.existsSync(articlePath(lang, slug))) continue;
+    const t = JSON.parse(fs.readFileSync(articlePath(lang, slug), 'utf-8'));
+    if (t.title === enTitle) {
+      console.log(`  🔁 ${lang}/${slug}-advent is still English — retranslating`);
+      fs.unlinkSync(articlePath(lang, slug));
+    }
+  }
+}
+
 async function fillMissingTranslations(slug: string): Promise<void> {
   const en = JSON.parse(fs.readFileSync(articlePath('en', slug), 'utf-8'));
+  dropUntranslated(slug, en.title);
   const missing = (Object.keys(LANGUAGES) as LanguageCode[])
     .filter(lang => lang !== 'en' && !fs.existsSync(articlePath(lang, slug)));
 
@@ -67,6 +81,7 @@ async function main() {
         continue;
       }
       await generateSingleArticle(slug, 'advent', enOnly ? ['en'] : undefined);
+      if (!enOnly) await fillMissingTranslations(slug);
     } catch (error) {
       // One destination failing must not stop the rest
       console.error(`❌ ${slug}: ${(error as Error).message}`);
