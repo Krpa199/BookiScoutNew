@@ -11,6 +11,43 @@
  */
 
 import { GoogleGenerativeAI } from '@google/generative-ai';
+import { DESTINATIONS } from '../src/config/destinations';
+
+// Themes whose cover should simply show the place itself. Searching
+// "Sibenik stay nearby" or "Rab vs Krk" returned the OTHER town in the
+// article (Primošten, Krk), so these search by place name only.
+const PLACE_THEMES = new Set([
+  'is-it-worth-it', 'stay-nearby', 'overtourism-alternatives', 'where-to-stay',
+  'first-time-visitors', 'things-to-do', 'itinerary',
+]);
+const isPlaceTheme = (theme: string) => PLACE_THEMES.has(theme) || theme.startsWith('vs-');
+
+const fold = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+const destName = (slug?: string) => DESTINATIONS.find(d => d.slug === slug)?.name || slug || 'Croatia';
+
+// Stock captions often name the place ("coastal village of Primosten"). If a
+// caption names another destination and not this one, the photo is of the
+// wrong town — skip it without spending a validation call.
+function captionNamesOtherPlace(alt: string, slug?: string): string | null {
+  if (!slug) return null;
+  const caption = fold(alt);
+  if (captionNamesPlace(alt, slug)) return null;
+  for (const d of DESTINATIONS) {
+    if (d.slug === slug) continue;
+    const word = fold(d.name).split(/\s+/)[0];
+    if (word.length >= 3 && new RegExp(`\\b${word}\\b`).test(caption)) return d.name;
+  }
+  if (/zlatni rat/.test(caption) && slug !== 'bol' && slug !== 'brac') return 'Zlatni Rat (Bol)';
+  return null;
+}
+
+function captionNamesPlace(alt: string, slug: string): boolean {
+  const caption = fold(alt);
+  // Display name or slug: "Biograd na Moru" → "biograd"; the slug catches the
+  // English caption "Plitvice Lakes" for the display name "Plitvička Jezera".
+  const words = [fold(destName(slug)).split(/\s+/)[0], slug.split('-')[0]];
+  return words.some(w => caption.includes(w));
+}
 
 // ============================================================================
 // API Keys (read lazily for dotenv compatibility)
@@ -173,6 +210,12 @@ function getSearchQueries(theme: string, destination?: string): string[] {
   const dest = destination || 'croatia';
   const destCapitalized = dest.charAt(0).toUpperCase() + dest.slice(1);
   const isCoastal = isCoastalDestination(destination);
+
+  if (isPlaceTheme(theme) && destination) {
+    const name = destName(destination);
+    const slugName = destination.charAt(0).toUpperCase() + destination.slice(1).replace(/-/g, ' ');
+    return [...new Set([`${name} Croatia`, `${slugName} Croatia`, `${name} old town`, `${name} aerial view`, `${name} coast`])];
+  }
 
   if (theme === 'advent') {
     // Stock libraries have few Croatian Advent photos, and the validator rightly
@@ -708,7 +751,11 @@ async function validateImageWithAI(
     const base64Image = Buffer.from(imageBuffer).toString('base64');
     const mimeType = imageResponse.headers.get('content-type') || 'image/jpeg';
 
-    const themeRequirement = THEME_REQUIREMENTS[theme] || `should relate to ${theme.replace(/-/g, ' ')}`;
+    // Place-cover themes just need an attractive view of the place — demanding
+    // "accommodation" for where-to-stay rejected every Plitvice lake photo.
+    const themeRequirement = isPlaceTheme(theme)
+      ? `an attractive, recognisable view of ${destName(destination)} itself (town, coast, landmark or landscape)`
+      : THEME_REQUIREMENTS[theme] || `should relate to ${theme.replace(/-/g, ' ')}`;
     const isCoastal = isCoastalDestination(destination);
 
     // Generic themes don't need location-specific requirements
@@ -758,7 +805,11 @@ VALIDATION CHECKLIST (check ALL):
    - REJECT if image doesn't clearly match the theme!
 
 2. LOCATION MATCH (25% weight):
-${locationRules}
+${locationRules}${isGenericTheme ? '' : `
+   - PLACE IDENTITY: the image must plausibly show ${destName(destination)} itself.
+     If it is recognisably a DIFFERENT place — another Croatian town, island or
+     landmark (e.g. Zlatni Rat beach on Brač, Dubrovnik's city walls, Primošten's
+     peninsula) — REJECT, even if it is beautiful and on-theme.`}
 
 3. IMAGE QUALITY (15% weight):
    - No blurry or low-resolution images
@@ -842,7 +893,8 @@ export async function getArticleImage(
 
   // If not enough results, try more queries
   // Advent needs the whole query list: few stock photos survive validation.
-  const wideSearch = theme === 'advent';
+  // Place covers too: only photos whose caption names the place qualify.
+  const wideSearch = theme === 'advent' || isPlaceTheme(theme);
   if ((allCandidates.length < 10 || wideSearch) && queries.length > 1) {
     for (let i = 1; i < Math.min(queries.length, wideSearch ? queries.length : 3); i++) {
       const [p, u] = await Promise.all([
@@ -859,6 +911,16 @@ export async function getArticleImage(
       if (options.excludeUrls.has(allCandidates[i].url)) allCandidates.splice(i, 1);
     }
     console.log(`    Excluded ${before - allCandidates.length} already-used images`);
+  }
+
+  // Drop photos of the wrong place before spending validation calls on them;
+  // for place covers keep only photos whose caption names the place.
+  for (let i = allCandidates.length - 1; i >= 0; i--) {
+    const alt = allCandidates[i].alt || '';
+    if (captionNamesOtherPlace(alt, destination)
+      || (isPlaceTheme(theme) && destination && !captionNamesPlace(alt, destination))) {
+      allCandidates.splice(i, 1);
+    }
   }
 
   console.log(`    Found ${allCandidates.length} candidates from all providers`);
@@ -974,10 +1036,15 @@ export async function getArticleImage(
     fallbackPool.push(...pFallback, ...uFallback);
   }
 
-  if (fallbackPool.length > 0) {
-    const fallbackImg = fallbackPool[Math.floor(Math.random() * fallbackPool.length)];
+  // Prefer photos whose caption names this place; never one that names another.
+  const notOther = fallbackPool.filter(c => !captionNamesOtherPlace(c.alt || '', destination));
+  const named = destination ? notOther.filter(c => captionNamesPlace(c.alt || '', destination)) : [];
+  const pool = named.length ? named : notOther;
+
+  if (pool.length > 0) {
+    const fallbackImg = pool[Math.floor(Math.random() * pool.length)];
     const fallbackAlt = fallbackImg.alt || `${destination ? destination.charAt(0).toUpperCase() + destination.slice(1) + ', ' : ''}Croatia`;
-    console.log(`    🏛️ Using destination-specific scenic fallback from ${fallbackImg.source} (pool of ${fallbackPool.length})`);
+    console.log(`    🏛️ Using destination-specific scenic fallback from ${fallbackImg.source} (pool of ${pool.length}, ${named.length} named)`);
     return {
       imageUrl: fallbackImg.url,
       imageAlt: fallbackAlt,
