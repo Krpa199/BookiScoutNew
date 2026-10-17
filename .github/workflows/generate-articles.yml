@@ -3,9 +3,14 @@ name: Generate Daily Articles
 on:
   # Resumed 2026-10-17 (paused 2026-06-12): planner themes only, see
   # GENERATION_TIERS in src/config/destinations.ts.
+  # GitHub delays or silently drops scheduled runs (2026-10-17 never fired),
+  # so there are several slots. The first that actually runs generates; the
+  # rest see lastRun == today in generated.json and skip at no cost.
   schedule:
-    # Run every day at 8:05 AM UTC (9:05 Zagreb time, right after Google quota reset at 8:00 UTC)
+    - cron: '5 5 * * *'
     - cron: '5 8 * * *'
+    - cron: '5 11 * * *'
+    - cron: '5 14 * * *'
   workflow_dispatch: # Allow manual trigger
     inputs:
       articles_count:
