@@ -18,7 +18,7 @@
     },
     {
       "question": "Jaká měna se v Chorvatsku používá?",
-      "answer": "Chorvatsko přijalo euro (€) jako svou oficiální měnu 1. ledna 2023. Již není nutné směňovat peníze na chorvatské kuny (HRK). Kreditní karty jsou široce přijímány, ale je dobré mít u sebe nějakou hotovost na menší nákupy."
+      "answer": "Chorvatsko přijalo euro (€) jako svou oficiální měnu 1. ledna 2023. Chorvatské kuny již nejsou nikde přijímány. Kreditní karty jsou široce přijímány, ale je dobré mít u sebe nějakou hotovost na menší nákupy."
     },
     {
       "question": "Existují ve Splitu dobré možnosti nakupování pro teenagery?",
@@ -74,5 +74,6 @@
   "imageAlt": "woman in white hoodie carrying girl in pink jacket",
   "imageCredit": "Woody Kelly",
   "imageCreditUrl": "https://unsplash.com/@woodkell",
-  "imageSource": "unsplash"
+  "imageSource": "unsplash",
+  "updatedAt": "2026-10-16T21:31:00.470Z"
 }

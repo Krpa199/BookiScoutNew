@@ -10,7 +10,7 @@
     },
     {
       "question": "Katero valuto naj uporabljam v Vodici?",
-      "answer": "Uradna valuta je Hrvaška kuna (HRK). Bankomati so na voljo povsod, kreditne kartice pa sprejemajo v večini restavracij, trgovin in hotelov."
+      "answer": "Uradna valuta je Euro (€). Bankomati so na voljo povsod, kreditne kartice pa sprejemajo v večini restavracij, trgovin in hotelov."
     },
     {
       "question": "Ali obstajajo kakšne posebne zdravstvene skrbi za turiste?",
@@ -31,5 +31,6 @@
   "language": "sl",
   "generatedAt": "2026-05-31T11:05:55.919Z",
   "lat": 43.7608,
-  "lng": 15.7828
+  "lng": 15.7828,
+  "updatedAt": "2026-10-17T00:33:57.988Z"
 }

@@ -18,7 +18,7 @@
     },
     {
       "question": "Katera valuta se uporablja v Poreču?",
-      "answer": "Od 1. januarja 2023 je uradna valuta v Poreču in po vsej Hrvaški evro (€). Medtem ko so nekatere starejše cene še vedno prikazane v hrvaških kunah (HRK) za primerjavo, se vse transakcije izvajajo v evrih."
+      "answer": "Od 1. januarja 2023 je uradna valuta v Poreču in po vsej Hrvaški evro (€). Vse transakcije se izvajajo izključno v evrih."
     },
     {
       "question": "Ali je Poreč varen za turiste?",
@@ -74,5 +74,6 @@
   "language": "sl",
   "generatedAt": "2026-04-14T10:12:03.374Z",
   "lat": 45.2269,
-  "lng": 13.5958
+  "lng": 13.5958,
+  "updatedAt": "2026-10-17T00:28:09.386Z"
 }

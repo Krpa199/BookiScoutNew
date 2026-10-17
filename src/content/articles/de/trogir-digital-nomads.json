@@ -1,26 +1,26 @@
 {
-  "title": "Trogir Digital Nomad Guide 2026: WiFi, Coworking & Remote Work",
-  "metaDescription": "Essential digital nomad guide for Trogir, Croatia in 2026. Find WiFi, coworking spaces, and remote work tips. Sharp, direct advice for productive stays.",
+  "title": "Trogir-Guide für digitale Nomaden 2026: WLAN, Coworking & Remote Work",
+  "metaDescription": "Der ultimative Guide für digitale Nomaden in Trogir, Kroatien für 2026. Finde WLAN, Coworking-Spaces und Tipps für die Remote-Arbeit. Direkte Ratschläge für produktive Aufenthalte.",
   "slug": "trogir-digital-nomads",
-  "content": "## WiFi & Connectivity\nCroatia boasts reliable 4G/5G. Obtain a local SIM (A1, Hrvatski Telekom) for consistent data. This is usually not worth the extra cost if your existing EU roaming plan is robust.\n\n## Coworking & Workspaces\nTrogir lacks dedicated coworking spaces. Expect to work from cafes, your accommodation, or take day trips. Your best bet for a proper office environment is Split, a 30-45 minute bus or Uber ride away.\n\n## Remote Work Tips\n*   **Cafe Culture:** Caffe Bar Era or Caffe Bar Smokvica offer decent internet, but are not silent zones. Adapt your work to background noise.\n*   **Off-Season Advantage:** Work during the shoulder seasons (April-May, September-October) or winter. It's quieter, cheaper, and less tourist-dominated. Locals rarely do this, and for good reason; the summer crowds are immense.\n*   **Accommodation Check:** Always confirm internet speed directly with your host before booking. \"WiFi available\" doesn't always mean \"reliable for video calls.\"",
+  "content": "## WLAN & Konnektivität\nKroatien verfügt über ein zuverlässiges 4G/5G-Netz. Hol dir eine lokale SIM-Karte (A1, Hrvatski Telekom) für konstantes Datenvolumen. Das lohnt sich allerdings meistens nicht, wenn dein EU-Roaming-Tarif bereits gut ausgebaut ist.\n\n## Coworking & Arbeitsplätze\nTrogir hat keine speziellen Coworking-Spaces. Stell dich darauf ein, in Cafés oder deiner Unterkunft zu arbeiten oder Tagesausflüge zu machen. Die beste Option für eine richtige Büroatmosphäre ist Split, das du mit dem Bus oder Uber in 30 bis 45 Minuten erreichst.\n\n## Tipps für Remote Work\n*   **Café-Kultur:** Das Caffe Bar Era oder die Caffe Bar Smokvica bieten passendes Internet, sind aber keine ruhigen Zonen. Stell dich auf Hintergrundgeräusche ein.\n*   **Vorteil der Nebensaison:** Arbeite in den Übergangsmonaten (April-May, September-October) oder im Winter. Es ist ruhiger, günstiger und weniger touristisch. Einheimische machen das selten, und das aus gutem Grund: Die Sommerurlauber überrennen den Ort förmlich.\n*   **Unterkunft prüfen:** Lass dir die Internetgeschwindigkeit vor der Buchung unbedingt direkt vom Vermieter bestätigen. „WLAN verfügbar“ bedeutet nicht automatisch, dass es für Videocalls taugt.",
   "faq": [
     {
-      "question": "Is Trogir suitable for long-term digital nomads?",
-      "answer": "No. Trogir is better for shorter, focused stays due to limited coworking options and its small size. Consider it a charming stop, not a permanent base."
+      "question": "Eignet sich Trogir für langfristige digitale Nomaden?",
+      "answer": "Nein. Aufgrund begrenzter Coworking-Optionen und der geringen Größe eignet sich Trogir eher für kürzere, fokussierte Aufenthalte. Sie es als charmanten Zwischenstopp, nicht als dauerhafte Basis."
     },
     {
-      "question": "What's the typical internet speed in Trogir?",
-      "answer": "4G/5G mobile data is generally fast. Accommodation Wi-Fi varies significantly; always verify speeds with your host before booking."
+      "question": "Wie hoch ist die typische Internetgeschwindigkeit in Trogir?",
+      "answer": "Mobiles 4G/5G-Internet ist in der Regel schnell. Das WLAN in Unterkünften schwankt stark – lass dir die genaue Geschwindigkeit vor der Buchung unbedingt vom Gastgeber bestätigen."
     },
     {
-      "question": "Can I find a quiet place to work in Trogir?",
-      "answer": "During peak season, quiet is difficult. Off-season, you can find quieter spots in less central cafes or your apartment. Expect some background buzz."
+      "question": "Finde ich in Trogir einen ruhigen Arbeitsplatz?",
+      "answer": "In der Hauptsaison ist es schwer, Ruhe zu finden. In der Nebensaison gibt es in abgelegeneren Cafés oder im Apartment ruhigere Ecken. Ein gewisser Hintergrundlärm ist jedoch immer dabei."
     }
   ],
-  "quickAnswer": "Trogir offers a picturesque, historical backdrop for remote work, ideal for short-term stays and those prioritizing ambiance over extensive coworking infrastructure. WiFi is generally good, but dedicated coworking options are limited, requiring adaptability. It's a fantastic seasonal hub.",
+  "quickAnswer": "Trogir bietet eine malerische, historische Kulisse für die Remote-Arbeit – ideal für Kurzaufenthalte und alle, die Atmosphäre über eine ausgebaute Coworking-Infrastruktur stellen. Das WLAN ist im Allgemeinen gut, aber es mangelt an echten Coworking-Spaces, weshalb man flexibel sein muss. Ein fantastischer saisonaler Hotspot.",
   "tableData": [],
   "imageUrl": "https://images.pexels.com/photos/5721015/pexels-photo-5721015.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-  "imageAlt": "Side view of unrecognizable ethnic male executive taking notes near netbook at cafeteria table on veranda",
+  "imageAlt": "Seitenansicht eines unerkennbaren männlichen Geschäftsführers, der an einem Cafétisch auf der Veranda Notizen neben einem Netbook macht",
   "imageCredit": "Anete Lusina",
   "imageCreditUrl": "https://www.pexels.com/@anete-lusina",
   "imageSource": "pexels",
@@ -29,7 +29,8 @@
   "region": "split-dalmatia",
   "theme": "digital-nomads",
   "language": "de",
-  "generatedAt": "2026-02-19T10:50:32.446Z",
+  "generatedAt": "2026-02-19T10:50:27.154Z",
   "lat": 43.5167,
-  "lng": 16.25
+  "lng": 16.25,
+  "updatedAt": "2026-10-17T01:00:55.396Z"
 }

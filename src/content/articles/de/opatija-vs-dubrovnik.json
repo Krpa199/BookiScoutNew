@@ -51,13 +51,13 @@
     },
     {
       "name": "Eintritt Stadtmauern Dubrovnik (Erwachsener)",
-      "price": "35 € (ca. 260 HRK)",
+      "price": "35 €",
       "rating": "5.0★ (Erlebnis)",
       "distance": "N/A"
     },
     {
       "name": "Fähre Lokrum Insel (Hin- und Rückfahrt)",
-      "price": "20 € (ca. 150 HRK)",
+      "price": "20 €",
       "rating": "4.8★ (Ausflug)",
       "distance": "15 Min. vom Alten Hafen"
     }
@@ -74,5 +74,6 @@
   "language": "de",
   "generatedAt": "2026-02-15T09:29:01.466Z",
   "lat": 45.3378,
-  "lng": 14.3053
+  "lng": 14.3053,
+  "updatedAt": "2026-10-16T21:43:30.373Z"
 }

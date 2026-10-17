@@ -18,7 +18,7 @@
     },
     {
       "question": "Welke valuta wordt gebruikt in Poreč?",
-      "answer": "Sinds 1 januari 2023 is de officiële valuta in Poreč en heel Kroatië de Euro (€). Hoewel op sommige oudere prijskaartjes nog Kroatische Kuna (HRK) ter vergelijking staan, worden alle transacties in Euro's uitgevoerd."
+      "answer": "Sinds 1 januari 2023 is de officiële valuta in Poreč en heel Kroatië de Euro (€). Kroatische Kuna (HRK) wordt nergens meer geaccepteerd; alle transacties vinden plaats in Euro's."
     },
     {
       "question": "Is Poreč veilig voor toeristen?",
@@ -74,5 +74,6 @@
   "language": "nl",
   "generatedAt": "2026-04-14T10:11:30.096Z",
   "lat": 45.2269,
-  "lng": 13.5958
+  "lng": 13.5958,
+  "updatedAt": "2026-10-16T23:27:31.445Z"
 }
