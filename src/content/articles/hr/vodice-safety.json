@@ -10,7 +10,7 @@
     },
     {
       "question": "Koju valutu trebam koristiti u Vodicama?",
-      "answer": "Službena valuta je hrvatska kuna (HRK). Bankomati su široko dostupni, a kreditne kartice prihvaćaju se u većini restorana, trgovina i hotela."
+      "answer": "Službena valuta je euro (€). Bankomati su široko dostupni, a kreditne kartice prihvaćaju se u većini restorana, trgovina i hotela."
     },
     {
       "question": "Postoje li specifične zdravstvene zabrinutosti za turiste?",
@@ -31,5 +31,6 @@
   "language": "hr",
   "generatedAt": "2026-05-31T11:06:22.724Z",
   "lat": 43.7608,
-  "lng": 15.7828
+  "lng": 15.7828,
+  "updatedAt": "2026-10-17T03:03:59.551Z"
 }

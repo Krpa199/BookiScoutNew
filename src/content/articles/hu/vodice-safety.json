@@ -10,7 +10,7 @@
     },
     {
       "question": "Milyen pénznemet használjak Vodicében?",
-      "answer": "A horvát kuna (HRK) a hivatalos pénznem. ATM-ek széles körben elérhetők, és a hitelkártyákat a legtöbb étteremben, üzletben és szállodában elfogadják."
+      "answer": "Az euro (€) a hivatalos pénznem. ATM-ek széles körben elérhetők, és a hitelkártyákat a legtöbb étteremben, üzletben és szállodában elfogadják."
     },
     {
       "question": "Vannak-e különleges egészségügyi aggályok a turisták számára?",
@@ -31,5 +31,6 @@
   "language": "hu",
   "generatedAt": "2026-05-31T11:05:33.152Z",
   "lat": 43.7608,
-  "lng": 15.7828
+  "lng": 15.7828,
+  "updatedAt": "2026-10-17T03:16:40.858Z"
 }

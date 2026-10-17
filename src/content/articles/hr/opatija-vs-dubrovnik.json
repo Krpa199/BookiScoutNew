@@ -51,13 +51,13 @@
     },
     {
       "name": "Ulaznica za dubrovačke zidine (odrasla osoba)",
-      "price": "35 € (približno 260 HRK)",
+      "price": "35 €",
       "rating": "5.0★ (iskustvo)",
       "distance": "N/A"
     },
     {
       "name": "Trajekt za otok Lokrum (povratna karta)",
-      "price": "20 € (približno 150 HRK)",
+      "price": "20 €",
       "rating": "4.8★ (izlet)",
       "distance": "15 min od stare luke"
     }
@@ -75,5 +75,6 @@
   "language": "hr",
   "generatedAt": "2026-02-15T09:33:29.451Z",
   "lat": 45.3378,
-  "lng": 14.3053
+  "lng": 14.3053,
+  "updatedAt": "2026-10-17T02:54:49.619Z"
 }

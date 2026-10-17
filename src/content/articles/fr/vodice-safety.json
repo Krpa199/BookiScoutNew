@@ -10,7 +10,7 @@
     },
     {
       "question": "Quelle monnaie dois-je utiliser à Vodice ?",
-      "answer": "La Kuna croate (HRK) est la monnaie officielle. Les distributeurs automatiques sont largement disponibles et les cartes de crédit sont acceptées dans la plupart des restaurants, boutiques et hôtels."
+      "answer": "L'euro (€) est la monnaie officielle. Les distributeurs automatiques sont largement disponibles et les cartes de crédit sont acceptées dans la plupart des restaurants, boutiques et hôtels."
     },
     {
       "question": "Y a-t-il des préoccupations de santé spécifiques pour les touristes ?",
@@ -31,5 +31,6 @@
   "language": "fr",
   "generatedAt": "2026-05-31T11:06:01.472Z",
   "lat": 43.7608,
-  "lng": 15.7828
+  "lng": 15.7828,
+  "updatedAt": "2026-10-17T02:45:22.921Z"
 }
