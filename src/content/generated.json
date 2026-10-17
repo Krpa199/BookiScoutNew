@@ -2100,12 +2100,30 @@
     "pula-advent",
     "sibenik-advent",
     "split-stay-nearby",
-    "brela-vs-makarska"
+    "brela-vs-makarska",
+    "zadar-is-it-worth-it",
+    "split-is-it-worth-it",
+    "zadar-stay-nearby",
+    "plitvice-where-to-stay",
+    "dubrovnik-is-it-worth-it",
+    "rab-vs-krk",
+    "biograd-is-it-worth-it",
+    "porec-stay-nearby",
+    "trogir-stay-nearby",
+    "primosten-vs-sibenik",
+    "korcula-is-it-worth-it",
+    "vodice-vs-sibenik",
+    "korcula-vs-hvar",
+    "vodice-is-it-worth-it",
+    "cavtat-is-it-worth-it",
+    "rovinj-is-it-worth-it",
+    "sibenik-stay-nearby",
+    "rijeka-is-it-worth-it"
   ],
-  "lastRun": "2026-06-11T13:55:15.179Z",
-  "totalArticles": 88740,
+  "lastRun": "2026-10-17T13:15:32.397Z",
+  "totalArticles": 88974,
   "lastSessionStats": {
-    "articlesGenerated": 20,
-    "translationsGenerated": 240
+    "articlesGenerated": 18,
+    "translationsGenerated": 216
   }
 }
