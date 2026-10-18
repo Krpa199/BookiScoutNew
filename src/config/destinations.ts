@@ -1,4 +1,5 @@
 // Croatian destinations database - 200+ locations
+import { isRemovedGuide } from './removed-guides';
 export interface Destination {
   slug: string;
   name: string;
@@ -356,6 +357,7 @@ export const GENERATION_TIERS: readonly (readonly Theme[])[] = [
 ];
 
 export function isThemeAvailableFor(destinationSlug: string, theme: Theme): boolean {
+  if (isRemovedGuide(destinationSlug, theme)) return false;
   const only = THEME_DESTINATIONS[theme];
   return !only || only.includes(destinationSlug);
 }

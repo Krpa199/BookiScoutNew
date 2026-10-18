@@ -2,7 +2,9 @@ import { Metadata } from 'next';
 import { ADVENT_DESTINATIONS, isAdventSeason } from '@/lib/seasonal';
 import { localizedUrl, localeAlternates } from '@/lib/urls';
 import { DESTINATIONS } from '@/config/destinations';
-import { notFound } from 'next/navigation';
+import { notFound, permanentRedirect } from 'next/navigation';
+import { REMOVED_GUIDES } from '@/config/removed-guides';
+import { defaultLocale } from '@/i18n/config';
 import fs from 'fs';
 import path from 'path';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
@@ -676,6 +678,10 @@ export default async function GuidePage({ params }: Props) {
   const article = getArticle(locale, slug);
 
   if (!article) {
+    const destination = REMOVED_GUIDES[slug];
+    if (destination) {
+      permanentRedirect(`${locale === defaultLocale ? '' : `/${locale}`}/destinations/${destination}`);
+    }
     notFound();
   }
 
