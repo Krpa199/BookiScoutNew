@@ -67,6 +67,7 @@ jobs:
         run: npm ci || (sleep 30 && npm ci)
 
       - name: "Step 1 — Claude reviews the English"
+        id: claude_en
         if: steps.find.outputs.run == 'true'
         continue-on-error: true
         uses: anthropics/claude-code-action@v1
@@ -76,7 +77,11 @@ jobs:
             Follow the instructions in .claude/review-english.md exactly.
             The articles to review are listed in review-slugs.txt.
           claude_args: |
-            --allowedTools Read,Edit,Write,Glob,Grep,Bash(npx tsx scripts/add-missing-covers.ts:*),Bash(npx tsx scripts/find-commons-image.ts:*),Bash(curl:*),Bash(cat:*),Bash(node -e:*),Bash(git diff:*),Bash(git status:*)
+            --allowedTools Read,Edit,Write,Glob,Grep,Bash(npx tsx scripts/add-missing-covers.ts:*),Bash(npx tsx scripts/find-commons-image.ts:*),Bash(curl:*),Bash(cat:*),Bash(ls:*),Bash(mkdir:*),Bash(file:*),Bash(head:*),Bash(wc:*),Bash(jq:*),Bash(node -e:*),Bash(git diff:*),Bash(git status:*)
+
+      - name: Keep Claude's English review log
+        if: always() && steps.claude_en.outputs.execution_file != ''
+        run: mkdir -p review-logs && cp "${{ steps.claude_en.outputs.execution_file }}" review-logs/step1-english.json
 
       - name: "Step 2 — Gemini translates the reviewed English"
         if: steps.find.outputs.run == 'true'
@@ -84,6 +89,7 @@ jobs:
         run: npx tsx scripts/translate-articles.ts --file review-slugs.txt
 
       - name: "Step 3 — Claude reviews the translations"
+        id: claude_tr
         if: steps.find.outputs.run == 'true'
         continue-on-error: true
         uses: anthropics/claude-code-action@v1
@@ -93,13 +99,32 @@ jobs:
             Follow the instructions in .claude/daily-review.md exactly.
             The articles to review are listed in review-slugs.txt.
           claude_args: |
-            --allowedTools Read,Edit,Write,Glob,Grep,Bash(npx tsx scripts/check-daily-articles.ts:*),Bash(cat:*),Bash(node -e:*),Bash(git diff:*),Bash(git status:*)
+            --allowedTools Read,Edit,Write,Glob,Grep,Bash(npx tsx scripts/check-daily-articles.ts:*),Bash(cat:*),Bash(ls:*),Bash(head:*),Bash(wc:*),Bash(jq:*),Bash(node -e:*),Bash(git diff:*),Bash(git status:*)
+
+      - name: Keep Claude's translation review log
+        if: always() && steps.claude_tr.outputs.execution_file != ''
+        run: mkdir -p review-logs && cp "${{ steps.claude_tr.outputs.execution_file }}" review-logs/step3-translations.json
+
+      - name: Upload Claude review logs
+        if: always() && steps.find.outputs.run == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: claude-review-logs
+          path: review-logs/
+          if-no-files-found: ignore
 
       - name: Commit and push
         id: push
         if: always() && steps.find.outputs.run == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          rm -f review-slugs.txt
+          rm -rf review-slugs.txt review-logs
+          # The Claude action points git at its own app token and revokes it
+          # when its step ends ("Authentication failed" on push). Use the
+          # workflow's token again.
+          git config --local --unset-all http.https://github.com/.extraheader || true
+          git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add src/content
