@@ -23,6 +23,10 @@ Check for:
   contradict each other within the article (quickAnswer vs body vs table).
   If you are not sure about a fact, make the sentence less specific rather
   than inventing a new number. Do not add new facts.
+- **Invented places:** remove any business, venue, accommodation or person
+  the text admits is "hypothetical", "fictional", "a concept" or "an example",
+  and any named place you believe does not exist (readers have tried to visit
+  such places). Keep the advice, drop the name.
 - **Voice:** no claims of personal experience ("I visited…"), no hype words
   (breathtaking, nestled, hidden gem, tapestry), no filler intro.
 - **Title** must match what the article is about and fit ~60 characters.

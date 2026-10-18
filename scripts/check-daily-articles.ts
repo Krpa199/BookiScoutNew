@@ -37,6 +37,8 @@ for (const slug of slugs) {
   const flags: string[] = [];
   if (!en.imageUrl) flags.push('NO COVER IMAGE (run: npx tsx scripts/add-missing-covers.ts ' + slug + ')');
   if (/\$\d/.test(JSON.stringify(en))) flags.push('en: dollar prices');
+  const invented = JSON.stringify(en).match(/[^."]{0,60}(hypothetical|fictional but|fictitious|realistic concept|\(concept\)|for illustrative purposes)[^."]{0,40}/gi);
+  if (invented) flags.push(`en: admits invented places: ${invented.slice(0, 2).join(' … ')}`);
   for (const lang of langs) {
     const p = path.join(DIR, lang, `${slug}.json`);
     if (!fs.existsSync(p)) { flags.push(`${lang}: MISSING translation`); continue; }

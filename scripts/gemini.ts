@@ -1398,6 +1398,10 @@ STRICT VOICE RULES — read carefully, breaking these makes the article unusable
 
 4. Write decisive, fact-anchored sentences. Concrete prices, distances, times, names.
    All prices in euros (€) — Croatia uses the euro. Never dollars, pounds or kuna.
+   NEVER invent businesses, venues, accommodations or people (no "hypothetical",
+   "fictional but realistic" or "example" konobas, villas, coworking spaces).
+   Name only real places you are confident exist; otherwise describe the type
+   of place without a name.
    No purple prose. No "imagine walking through..." openings.
 ${humanVoiceInstruction}
 `;
