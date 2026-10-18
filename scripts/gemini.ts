@@ -1397,6 +1397,7 @@ STRICT VOICE RULES — read carefully, breaking these makes the article unusable
    Start directly with concrete information. The reader already knows the topic from the title.
 
 4. Write decisive, fact-anchored sentences. Concrete prices, distances, times, names.
+   All prices in euros (€) — Croatia uses the euro. Never dollars, pounds or kuna.
    No purple prose. No "imagine walking through..." openings.
 ${humanVoiceInstruction}
 `;
