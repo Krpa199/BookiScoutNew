@@ -1,0 +1,102 @@
+name: Review Daily Articles
+
+# After the daily generator finishes, Claude (via the Claude Code GitHub
+# Action, on Mario's Claude subscription) checks the new articles in all 13
+# languages, fixes broken translated titles/metas, wrong-language pages and
+# missing covers, then commits and deploys. Instructions: .claude/daily-review.md
+
+on:
+  workflow_run:
+    workflows: ["Generate Daily Articles"]
+    types: [completed]
+  workflow_dispatch:
+
+concurrency:
+  group: review-articles
+  cancel-in-progress: false
+
+jobs:
+  review:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    permissions:
+      contents: write
+      actions: write
+      id-token: write
+    env:
+      GEMINI_API_KEY_IMAGE: ${{ secrets.GEMINI_API_KEY_IMAGE }}
+      PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+      UNSPLASH_API_KEY: ${{ secrets.UNSPLASH_API_KEY }}
+      PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      # Find the newest generation commit; skip if a review already followed it
+      # (the generator also runs in several schedule slots that mostly skip).
+      - name: Find articles to review
+        id: find
+        run: |
+          GEN=$(git log -1 --format=%H --grep="Auto-generate daily articles")
+          REV=$(git log -1 --format=%H --grep="Review daily articles")
+          if [ -z "$GEN" ] || { [ -n "$REV" ] && git merge-base --is-ancestor "$GEN" "$REV"; }; then
+            echo "Nothing new to review"
+            echo "run=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          git show --name-only --format= "$GEN" | grep '^src/content/articles/en/' | xargs -n1 basename | sed 's/\.json$//' > review-slugs.txt
+          echo "Reviewing $(wc -l < review-slugs.txt) articles from $GEN"
+          echo "run=true" >> $GITHUB_OUTPUT
+
+      - uses: actions/setup-node@v4
+        if: steps.find.outputs.run == 'true'
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        if: steps.find.outputs.run == 'true'
+        run: npm ci || (sleep 30 && npm ci)
+
+      - name: Claude reviews and fixes
+        if: steps.find.outputs.run == 'true'
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            Follow the instructions in .claude/daily-review.md exactly.
+            The articles to review are listed in review-slugs.txt.
+          claude_args: |
+            --allowedTools Read,Edit,Write,Glob,Grep,Bash(npx tsx scripts/check-daily-articles.ts:*),Bash(npx tsx scripts/add-missing-covers.ts:*),Bash(cat:*),Bash(node -e:*),Bash(git diff:*),Bash(git status:*)
+
+      - name: Commit and push
+        id: push
+        if: steps.find.outputs.run == 'true'
+        run: |
+          rm -f review-slugs.txt
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add src/content
+          # Always record the review, even with no fixes, so later schedule
+          # slots don't review the same articles again.
+          git commit --allow-empty -m "🔍 Review daily articles $(date -u +'%Y-%m-%d')"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push origin main && echo "push_success=true" >> $GITHUB_OUTPUT && exit 0
+            echo "Push attempt $i failed, retrying..."
+            sleep 15
+          done
+          exit 1
+
+      - name: Trigger Hetzner deploy
+        if: steps.push.outputs.push_success == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if git diff --quiet HEAD~1 HEAD -- src/content; then
+            echo "No fixes — no deploy needed"
+          else
+            gh workflow run deploy-droplet.yml --ref main
+          fi

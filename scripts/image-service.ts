@@ -925,16 +925,18 @@ export async function getArticleImage(
 
   console.log(`    Found ${allCandidates.length} candidates from all providers`);
 
+  // No usable candidate: go straight to the destination fallback below
+  // (place covers often have no stock photo whose caption names the place).
   if (allCandidates.length === 0) {
     console.log(`    ⚠️ No images found`);
-    return null;
+    if (options.noFallback) return null;
   }
 
   // Shuffle for variety
   const shuffled = allCandidates.sort(() => Math.random() - 0.5);
 
   // If no AI validation or daily limit reached, return first result
-  if (!ENABLE_AI_VALIDATION || !getGeminiImageApiKey() || !canValidate()) {
+  if (shuffled.length && (!ENABLE_AI_VALIDATION || !getGeminiImageApiKey() || !canValidate())) {
     if (!canValidate()) {
       console.log(`    ⚠️ Daily validation limit reached (${MAX_DAILY_VALIDATIONS}), skipping AI validation`);
     }
