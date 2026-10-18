@@ -45,17 +45,29 @@ yourself from the English source: title, metaDescription, quickAnswer,
 content, faq, tableData. Keep every other field (images, dates, destination)
 unchanged.
 
-## 4. Cover images
+## 4. Cover images — every article must end up with a correct one
 
-If an English article has no `imageUrl`, run
+The cover must show the article's own place (for "X vs Y" articles: X; for
+"stay nearby": the main town). Check every article's cover, not only missing
+ones:
 
-    npx tsx scripts/add-missing-covers.ts <slug>
+1. If an English article has no `imageUrl`, first run
+   `npx tsx scripts/add-missing-covers.ts <slug>`.
+2. Look at the cover yourself: download it with
+   `curl -sL -A "Mozilla/5.0" "<imageUrl>" -o /tmp/<slug>.jpg` and open it with
+   the Read tool. Also read `imageAlt`. Reject it if it shows another
+   identifiable place (another town, island or landmark; boat registration
+   letters like "CS" = Cres, "UM" = Umag give it away), an off-topic subject
+   (a car, cables), or is low quality.
+3. If rejected or still missing, search Wikimedia Commons, which has photos of
+   nearly every Croatian town:
+   `npx tsx scripts/find-commons-image.ts "<Place name>"` (try the local name,
+   e.g. "Mali Lošinj", "Baška Voda"). Download 2–3 promising candidates, look at
+   them, and apply the best with
+   `npx tsx scripts/find-commons-image.ts --apply <slug> <n> "<same search>" --alt "<short English description of what the photo shows>"`.
+   This sets the cover and attribution in all 13 languages.
 
-The cover must show the article's own place. Accept the result only if the
-new `imageAlt` names that place or a place on the same island, or names no
-place at all. If it names a different town, remove the image fields again
-(imageUrl, imageAlt, imageCredit, imageCreditUrl, imageSource) in all 13
-languages: a page without a cover looks fine, a wrong town does not.
+Never leave an article without a cover, and never keep a cover of the wrong place.
 
 ## 5. Finish
 

@@ -70,7 +70,7 @@ jobs:
             Follow the instructions in .claude/daily-review.md exactly.
             The articles to review are listed in review-slugs.txt.
           claude_args: |
-            --allowedTools Read,Edit,Write,Glob,Grep,Bash(npx tsx scripts/check-daily-articles.ts:*),Bash(npx tsx scripts/add-missing-covers.ts:*),Bash(cat:*),Bash(node -e:*),Bash(git diff:*),Bash(git status:*)
+            --allowedTools Read,Edit,Write,Glob,Grep,Bash(npx tsx scripts/check-daily-articles.ts:*),Bash(npx tsx scripts/add-missing-covers.ts:*),Bash(npx tsx scripts/find-commons-image.ts:*),Bash(curl:*),Bash(cat:*),Bash(node -e:*),Bash(git diff:*),Bash(git status:*)
 
       - name: Commit and push
         id: push
