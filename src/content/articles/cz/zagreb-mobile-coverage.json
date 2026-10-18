@@ -33,35 +33,35 @@
       "answer": "Ano, Záhřeb nabízí bezplatnou veřejnou Wi-Fi ('Bežični ZG') na hlavních náměstích, v parcích a ve veřejné dopravě. Kromě toho téměř všechny kavárny, restaurace, hotely a nákupní centra poskytují svým zákazníkům bezplatnou Wi-Fi."
     }
   ],
-  "quickAnswer": "Záhřeb nabízí vynikající mobilní pokrytí s rozšířeným 5G a spolehlivými službami 4G LTE po celém městě. Hlavní poskytovatelé jako Hrvatski Telekom, A1 a Telemach poskytují spolehlivé sítě. Turisté si mohou snadno zakoupit předplacené SIM karty nebo eSIM na letišti či ve městě za přibližně 10–20 € (230–460 Kč).",
+  "quickAnswer": "Záhřeb nabízí vynikající mobilní pokrytí s rozšířeným 5G a spolehlivými službami 4G LTE po celém městě. Hlavní poskytovatelé jako Hrvatski Telekom, A1 a Telemach poskytují spolehlivé sítě. Turisté si mohou snadno zakoupit předplacené SIM karty nebo eSIM na letišti či ve městě za přibližně 10–20 €.",
   "tableData": [
     {
       "name": "Hrvatski Telekom Turistická SIM",
-      "price": "13,50 € (cca 330 Kč)",
+      "price": "13,50 €",
       "rating": "4.8★",
       "distance": "Dostupné na letišti v Záhřebu (ZAG)"
     },
     {
       "name": "A1 Croatia Turistická SIM",
-      "price": "10,00 € (cca 250 Kč)",
+      "price": "10,00 €",
       "rating": "4.7★",
       "distance": "Dostupné na letišti v Záhřebu (ZAG)"
     },
     {
       "name": "Telemach Croatia Turistická SIM",
-      "price": "13,00 € (cca 320 Kč)",
+      "price": "13,00 €",
       "rating": "4.5★",
       "distance": "Dostupné na letišti v Záhřebu (ZAG)"
     },
     {
       "name": "Airalo (eSIM) - 'Cro-Tel'",
-      "price": "12,50 € (cca 310 Kč) za 10GB",
+      "price": "12,50 € za 10GB",
       "rating": "4.6★",
       "distance": "Digitální nákup, aktivace po příletu"
     },
     {
       "name": "Holafly (eSIM) - Evropa",
-      "price": "29,00 € (cca 730 Kč) za neomezená data/7 dní",
+      "price": "29,00 € za neomezená data/7 dní",
       "rating": "4.7★",
       "distance": "Digitální nákup, aktivace po příletu"
     }

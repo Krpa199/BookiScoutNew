@@ -10,7 +10,7 @@
     },
     {
       "question": "Jakie są typowe opłaty za zwierzęta w apartamentach w Breli?",
-      "answer": "Opłaty za zwierzęta w apartamentach w Breli wynoszą zazwyczaj od 45 zł do 130 zł za noc za zwierzę, lub jednorazową opłatę w wysokości 130 zł do 300 zł za pobyt. Możliwe jest również zażądanie wyższego zwrotnego depozytu zabezpieczającego."
+      "answer": "Opłaty za zwierzęta w apartamentach w Breli wynoszą zazwyczaj od 10 € do 30 € za noc za zwierzę, lub jednorazową opłatę w wysokości 30 € do 70 € za pobyt. Możliwe jest również zażądanie wyższego zwrotnego depozytu zabezpieczającego."
     },
     {
       "question": "Czy mogę zabrać psa na promenadę w Breli?",
@@ -33,31 +33,31 @@
   "tableData": [
     {
       "name": "Apartamenty Lavanda",
-      "price": "540 zł/noc",
+      "price": "120 €/noc",
       "rating": "4.7★",
       "distance": "250 m od plaży"
     },
     {
       "name": "Villa Maestral Pet Retreat",
-      "price": "810 zł/noc",
+      "price": "180 €/noc",
       "rating": "4.9★",
       "distance": "400 m od centrum"
     },
     {
       "name": "Studio Oliva",
-      "price": "430 zł/noc",
+      "price": "95 €/noc",
       "rating": "4.5★",
       "distance": "150 m od plaży"
     },
     {
       "name": "Family House Ruzmarin",
-      "price": "990 zł/noc",
+      "price": "220 €/noc",
       "rating": "4.8★",
       "distance": "800 m od plaży"
     },
     {
       "name": "Seaside Haven Brela",
-      "price": "675 zł/noc",
+      "price": "150 €/noc",
       "rating": "4.6★",
       "distance": "100 m od plaży"
     }

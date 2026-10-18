@@ -33,13 +33,13 @@
   "tableData": [
     {
       "name": "Hotel Maestral",
-      "price": "2 800 Kč/noc",
+      "price": "120 €/noc",
       "rating": "4.2★",
       "distance": "150 m od pláže"
     },
     {
       "name": "Apartmány Riviera",
-      "price": "2 100 Kč/noc",
+      "price": "85 €/noc",
       "rating": "3.8★",
       "distance": "50 m od starého města"
     },
@@ -51,13 +51,13 @@
     },
     {
       "name": "Camping Porto Sole",
-      "price": "1 100 Kč/noc",
+      "price": "45 €/noc",
       "rating": "4.0★",
       "distance": "Přístup na pláž"
     },
     {
       "name": "ACI Marina Vrsar",
-      "price": "750 Kč/den (kotvení)",
+      "price": "30 €/den (kotvení)",
       "rating": "3.9★ (služby)",
       "distance": "Na vodě"
     }

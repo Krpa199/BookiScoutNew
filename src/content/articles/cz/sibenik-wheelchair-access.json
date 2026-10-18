@@ -29,31 +29,31 @@
   "tableData": [
     {
       "name": "Hotel Bellevue (Bezbariérový pokoj)",
-      "price": "4 600–9 000 Kč/noc",
+      "price": "180–350 €/noc",
       "rating": "4.6★",
       "distance": "50 m od promenády Riva"
     },
     {
       "name": "Šibenické akvárium (Vstupné)",
-      "price": "250 Kč dospělý",
+      "price": "10 € dospělý",
       "rating": "4.5★",
       "distance": "150 m od katedrály"
     },
     {
       "name": "Bezbariérové Taxi (Staré Město do Pláže Banj)",
-      "price": "375–500 Kč",
+      "price": "15–20 €",
       "rating": "N/A",
       "distance": "Přibližně 2,5 km"
     },
     {
       "name": "Pevnost Barone (Vstupné)",
-      "price": "200 Kč dospělý",
+      "price": "8 € dospělý",
       "rating": "4.4★",
       "distance": "1,2 km od centra"
     },
     {
       "name": "Bezbariérová restaurace (Střední třída)",
-      "price": "625–1 000 Kč/osoba",
+      "price": "25–40 €/osoba",
       "rating": "N/A",
       "distance": "Různé lokality"
     }

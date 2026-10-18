@@ -22,7 +22,7 @@
     },
     {
       "question": "Je Pula drahá pro rodinnou dovolenou?",
-      "answer": "Pula může být středně drahá. Náklady na ubytování a stravování jsou obecně nižší než v západní Evropě, ale o něco vyšší než v některých východoevropských zemích. Rodiny mohou ušetřit tím, že zvolí apartmány s kuchyní, budou jíst v místních konobách a využijí veřejnou dopravu. Očekávejte rozpočet kolem 6 000–10 000 Kč za den pro pohodlný rodinný zážitek, bez letenek."
+      "answer": "Pula může být středně drahá. Náklady na ubytování a stravování jsou obecně nižší než v západní Evropě, ale o něco vyšší než v některých východoevropských zemích. Rodiny mohou ušetřit tím, že zvolí apartmány s kuchyní, budou jíst v místních konobách a využijí veřejnou dopravu. Očekávejte rozpočet kolem 250–400 € za den pro pohodlný rodinný zážitek, bez letenek."
     },
     {
       "question": "Mohou teenageři v Pule snadno najít Wi-Fi a zůstat ve spojení?",
@@ -33,31 +33,31 @@
   "tableData": [
     {
       "name": "Vstupné do Pulské Arény (dospělý)",
-      "price": "250–375 Kč",
+      "price": "10–15 €",
       "rating": "4.7★",
       "info": "Přibližně 2–3 hodiny návštěva"
     },
     {
       "name": "Půldenní výlet na kajaku",
-      "price": "1 000–1 500 Kč/osoba",
+      "price": "40–60 €/osoba",
       "rating": "4.8★",
       "info": "3–4 hodinová prohlídka s průvodcem"
     },
     {
       "name": "Exkurze do Národního parku Brijuni",
-      "price": "700–900 Kč/osoba",
+      "price": "27–35 €/osoba",
       "rating": "4.6★",
       "info": "Celodenní zážitek (loď + vstupné)"
     },
     {
       "name": "Zipline v Pule (Jeskyně Pula)",
-      "price": "500–750 Kč/jízda",
+      "price": "20–30 €/jízda",
       "rating": "4.5★",
       "info": "Krátký, vzrušující zážitek"
     },
     {
       "name": "Pronájem E-skútru (24h)",
-      "price": "900–1 250 Kč",
+      "price": "35–50 €",
       "rating": "N/A",
       "info": "Prozkoumejte město samostatně"
     }

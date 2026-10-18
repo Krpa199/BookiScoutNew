@@ -33,31 +33,31 @@
   "tableData": [
     {
       "name": "Főszezon (Júl-Aug)",
-      "price": "90 000 - 180 000 Ft+/éj",
+      "price": "225 - 450 €+/éj",
       "rating": "4.2★ (Nagy kereslet)",
       "distance": "Nagy tömegek, 6+ hónappal előre foglaljon"
     },
     {
       "name": "Átmeneti szezon (Máj-Jún, Szept)",
-      "price": "55 000 - 110 000 Ft/éj",
+      "price": "130 - 300 €/éj",
       "rating": "4.8★ (Legjobb ár-érték)",
       "distance": "Kellemes tömegek, 2-4 hónappal előre foglaljon"
     },
     {
       "name": "Alacsony szezon (Okt-Ápr)",
-      "price": "30 000 - 60 000 Ft/éj",
+      "price": "80 - 150 €/éj",
       "rating": "4.5★ (Költségvetés-barát)",
       "distance": "Csekély tömegek, bármikor foglalható"
     },
     {
       "name": "Kék Barlang és Hvar túra",
-      "price": "35 000 - 50 000 Ft/fő",
+      "price": "90 - 130 €/fő",
       "rating": "4.9★",
       "distance": "Egész napos kirándulás, május-szeptember között a legjobb"
     },
     {
       "name": "Diocletianus Palota Belépő",
-      "price": "2500 Ft (Földalatti Csarnokok)",
+      "price": "6 € (Földalatti Csarnokok)",
       "rating": "4.7★",
       "distance": "0 m a Split óváros központjától"
     }
