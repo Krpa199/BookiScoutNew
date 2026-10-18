@@ -1158,18 +1158,20 @@ function formatHumanVoiceInstruction(phrases: string[]): string {
   if (phrases.length === 0) {
     return ''; // No human voice requirement for this article
   } else if (phrases.length === 1) {
+    // Gemini copied these examples word for word into hundreds of articles
+    // (a template fingerprint), so they are only a description of the tone now.
     return `
 HUMAN VOICE REQUIREMENT:
-Include ONE opinionated/decisive statement like this example:
+Include ONE opinionated/decisive statement specific to this place and topic, in the spirit of:
 "${phrases[0]}"
-This adds authenticity.`;
+Write it in your own words about a concrete thing in this article — NEVER copy the example sentence.`;
   } else {
     return `
 HUMAN VOICE REQUIREMENT:
-Include TWO opinionated/decisive statements. Examples:
+Include TWO opinionated/decisive statements specific to this place and topic, in the spirit of:
 - "${phrases[0]}"
 - "${phrases[1]}"
-Spread them naturally throughout the article.`;
+Write them in your own words about concrete things in this article — NEVER copy the example sentences. Spread them naturally.`;
   }
 }
 
@@ -1429,7 +1431,7 @@ OUTPUT FORMAT (JSON):
   "title": "Article title (60 chars max, include year ${seasonYear(theme)})",
   "metaDescription": "Meta description (155 chars max)",
   "quickAnswer": "30-50 word DIRECT answer - this is the main value",
-  "content": "Brief content with ## headings. 5 bullet points max. Include one opinionated statement.",
+  "content": "Brief content with ## headings. 5 bullet points max. Include one opinionated statement in your own words (no heading or label for it).",
   "faq": [
     {"question": "Question?", "answer": "1-2 sentence direct answer"}
   ]
@@ -1448,11 +1450,11 @@ This article challenges common misconceptions. Be direct and slightly contrarian
 TONE: Confident, slightly opinionated, helpful. NOT aggressive or dismissive.
 
 REQUIREMENTS:
-1. Quick Answer: Start with "Contrary to popular belief..." or "Most travelers get this wrong..."
+1. Quick Answer: open with the most common wrong assumption about this place and topic, stated in your own words (never the stock openers "Contrary to popular belief" or "Most travelers get this wrong")
 2. Structure content around 3-5 common myths/mistakes
 3. Each myth section: State the myth → Explain the reality → Give better alternative
 4. Include specific examples and numbers
-5. End with "What actually matters" section
+5. End with a short section saying what matters most for this reader, under a heading specific to this article (never "What Actually Matters", "Conclusion" or "Final Thoughts")
 6. Include 1-2 "insider perspective" statements
 
 OUTPUT FORMAT (JSON):
