@@ -14,6 +14,11 @@ on:
     workflows: ["Generate Daily Articles"]
     types: [completed]
   workflow_dispatch:
+    inputs:
+      force:
+        description: 'Review the latest generated articles again, even if already reviewed'
+        type: boolean
+        default: false
 
 concurrency:
   group: review-articles
@@ -47,7 +52,7 @@ jobs:
         run: |
           GEN=$(git log -1 --format=%H --grep="Auto-generate daily articles")
           REV=$(git log -1 --format=%H --grep="Review daily articles")
-          if [ -z "$GEN" ] || { [ -n "$REV" ] && git merge-base --is-ancestor "$GEN" "$REV"; }; then
+          if [ -z "$GEN" ] || { [ "${{ github.event.inputs.force }}" != "true" ] && [ -n "$REV" ] && git merge-base --is-ancestor "$GEN" "$REV"; }; then
             echo "Nothing new to review"
             echo "run=false" >> $GITHUB_OUTPUT
             exit 0
@@ -77,7 +82,7 @@ jobs:
             Follow the instructions in .claude/review-english.md exactly.
             The articles to review are listed in review-slugs.txt.
           claude_args: |
-            --allowedTools Read,Edit,Write,Glob,Grep,Bash(npx tsx scripts/add-missing-covers.ts:*),Bash(npx tsx scripts/find-commons-image.ts:*),Bash(curl:*),Bash(cat:*),Bash(ls:*),Bash(mkdir:*),Bash(file:*),Bash(head:*),Bash(wc:*),Bash(jq:*),Bash(node -e:*),Bash(git diff:*),Bash(git status:*)
+            --allowedTools "Read,Edit,Write,Glob,Grep,Bash(npx tsx scripts/add-missing-covers.ts:*),Bash(npx tsx scripts/find-commons-image.ts:*),Bash(curl:*),Bash(cat:*),Bash(ls:*),Bash(mkdir:*),Bash(file:*),Bash(head:*),Bash(wc:*),Bash(jq:*),Bash(node -e:*),Bash(python3:*),Bash(git diff:*),Bash(git status:*)"
 
       - name: Keep Claude's English review log
         if: always() && steps.claude_en.outputs.execution_file != ''
@@ -86,7 +91,17 @@ jobs:
       - name: "Step 2 — Gemini translates the reviewed English"
         if: steps.find.outputs.run == 'true'
         timeout-minutes: 150
-        run: npx tsx scripts/translate-articles.ts --file review-slugs.txt
+        run: |
+          # New articles have no translations yet: translate them.
+          npx tsx scripts/translate-articles.ts --file review-slugs.txt
+          # English that Claude corrected but that was already translated
+          # (e.g. a forced re-review): translate again so fixes reach all languages.
+          git diff --name-only -- src/content/articles/en | xargs -r -n1 basename | sed 's/\.json$//' > changed-en.txt
+          if [ -s changed-en.txt ]; then
+            echo "Re-translating $(wc -l < changed-en.txt) corrected articles"
+            npx tsx scripts/translate-articles.ts --force --file changed-en.txt
+          fi
+          rm -f changed-en.txt
 
       - name: "Step 3 — Claude reviews the translations"
         id: claude_tr
@@ -99,7 +114,7 @@ jobs:
             Follow the instructions in .claude/daily-review.md exactly.
             The articles to review are listed in review-slugs.txt.
           claude_args: |
-            --allowedTools Read,Edit,Write,Glob,Grep,Bash(npx tsx scripts/check-daily-articles.ts:*),Bash(cat:*),Bash(ls:*),Bash(head:*),Bash(wc:*),Bash(jq:*),Bash(node -e:*),Bash(git diff:*),Bash(git status:*)
+            --allowedTools "Read,Edit,Write,Glob,Grep,Bash(npx tsx scripts/check-daily-articles.ts:*),Bash(cat:*),Bash(ls:*),Bash(head:*),Bash(wc:*),Bash(jq:*),Bash(node -e:*),Bash(python3:*),Bash(git diff:*),Bash(git status:*)"
 
       - name: Keep Claude's translation review log
         if: always() && steps.claude_tr.outputs.execution_file != ''
