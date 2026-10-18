@@ -76,7 +76,7 @@ function saveArticle(article: ArticleData, language: LanguageCode, destination: 
 // can't be parsed. Saving that under another language is how ~600 "German"
 // pages ended up in English, so treat it as a failure and let the caller
 // retry; after the last attempt the language is simply left missing.
-async function translateChecked(enArticle: ArticleData, lang: LanguageCode): Promise<ArticleData> {
+export async function translateChecked(enArticle: ArticleData, lang: LanguageCode): Promise<ArticleData> {
   const translated = await translateArticle(enArticle, lang);
   if ((translated.content || '').slice(0, 200) === (enArticle.content || '').slice(0, 200)) {
     throw new Error('translation came back in English');
@@ -224,7 +224,13 @@ export async function generateDailyArticles(count: number = 10) {
       // Track translations for this article separately
       let thisArticleTranslations = 0;
 
-      for (const lang of allLanguages) {
+      // GENERATE_EN_ONLY=on (daily workflow): English only. The review
+      // workflow first has Claude fix the English, then translates the
+      // corrected text (scripts/translate-articles.ts), so errors in the
+      // source aren't copied into 12 languages.
+      const translateNow = process.env.GENERATE_EN_ONLY !== 'on';
+
+      for (const lang of translateNow ? allLanguages : []) {
         if (lang === 'en') continue;
 
         // Check if we should stop

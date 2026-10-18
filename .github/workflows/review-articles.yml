@@ -1,9 +1,13 @@
 name: Review Daily Articles
 
-# After the daily generator finishes, Claude (via the Claude Code GitHub
-# Action, on Mario's Claude subscription) checks the new articles in all 13
-# languages, fixes broken translated titles/metas, wrong-language pages and
-# missing covers, then commits and deploys. Instructions: .claude/daily-review.md
+# Runs after the daily generator, which writes English only. Pipeline:
+#   1. Claude reviews and fixes the English source and covers   (.claude/review-english.md)
+#   2. Gemini translates the corrected English into 12 languages (scripts/translate-articles.ts)
+#   3. Claude reviews and fixes the translations                (.claude/daily-review.md)
+#   4. commit, push, deploy — readers only ever see reviewed articles.
+# The Claude steps use the Claude Code GitHub Action on Mario's Claude
+# subscription (secret CLAUDE_CODE_OAUTH_TOKEN). If a Claude step fails, the
+# pipeline still translates and publishes, so articles never stay English-only.
 
 on:
   workflow_run:
@@ -19,12 +23,13 @@ jobs:
   review:
     if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 300
     permissions:
       contents: write
       actions: write
       id-token: write
     env:
+      GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
       GEMINI_API_KEY_IMAGE: ${{ secrets.GEMINI_API_KEY_IMAGE }}
       PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
       UNSPLASH_API_KEY: ${{ secrets.UNSPLASH_API_KEY }}
@@ -35,8 +40,8 @@ jobs:
           ref: main
           fetch-depth: 0
 
-      # Find the newest generation commit; skip if a review already followed it
-      # (the generator also runs in several schedule slots that mostly skip).
+      # Newest generation commit that no review has followed yet (the generator
+      # runs in several schedule slots; most of them skip).
       - name: Find articles to review
         id: find
         run: |
@@ -61,8 +66,26 @@ jobs:
         if: steps.find.outputs.run == 'true'
         run: npm ci || (sleep 30 && npm ci)
 
-      - name: Claude reviews and fixes
+      - name: "Step 1 — Claude reviews the English"
         if: steps.find.outputs.run == 'true'
+        continue-on-error: true
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            Follow the instructions in .claude/review-english.md exactly.
+            The articles to review are listed in review-slugs.txt.
+          claude_args: |
+            --allowedTools Read,Edit,Write,Glob,Grep,Bash(npx tsx scripts/add-missing-covers.ts:*),Bash(npx tsx scripts/find-commons-image.ts:*),Bash(curl:*),Bash(cat:*),Bash(node -e:*),Bash(git diff:*),Bash(git status:*)
+
+      - name: "Step 2 — Gemini translates the reviewed English"
+        if: steps.find.outputs.run == 'true'
+        timeout-minutes: 150
+        run: npx tsx scripts/translate-articles.ts --file review-slugs.txt
+
+      - name: "Step 3 — Claude reviews the translations"
+        if: steps.find.outputs.run == 'true'
+        continue-on-error: true
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
@@ -70,18 +93,18 @@ jobs:
             Follow the instructions in .claude/daily-review.md exactly.
             The articles to review are listed in review-slugs.txt.
           claude_args: |
-            --allowedTools Read,Edit,Write,Glob,Grep,Bash(npx tsx scripts/check-daily-articles.ts:*),Bash(npx tsx scripts/add-missing-covers.ts:*),Bash(npx tsx scripts/find-commons-image.ts:*),Bash(curl:*),Bash(cat:*),Bash(node -e:*),Bash(git diff:*),Bash(git status:*)
+            --allowedTools Read,Edit,Write,Glob,Grep,Bash(npx tsx scripts/check-daily-articles.ts:*),Bash(cat:*),Bash(node -e:*),Bash(git diff:*),Bash(git status:*)
 
       - name: Commit and push
         id: push
-        if: steps.find.outputs.run == 'true'
+        if: always() && steps.find.outputs.run == 'true'
         run: |
           rm -f review-slugs.txt
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add src/content
-          # Always record the review, even with no fixes, so later schedule
-          # slots don't review the same articles again.
+          # Always record the review (even with no changes) so later schedule
+          # slots don't process the same articles again.
           git commit --allow-empty -m "🔍 Review daily articles $(date -u +'%Y-%m-%d')"
           for i in 1 2 3 4 5; do
             git pull --rebase origin main && git push origin main && echo "push_success=true" >> $GITHUB_OUTPUT && exit 0
@@ -91,12 +114,7 @@ jobs:
           exit 1
 
       - name: Trigger Hetzner deploy
-        if: steps.push.outputs.push_success == 'true'
+        if: always() && steps.push.outputs.push_success == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          if git diff --quiet HEAD~1 HEAD -- src/content; then
-            echo "No fixes — no deploy needed"
-          else
-            gh workflow run deploy-droplet.yml --ref main
-          fi
+        run: gh workflow run deploy-droplet.yml --ref main

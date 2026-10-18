@@ -54,6 +54,10 @@ env:
   # fact-sensitive themes (GROUNDING_THEMES: prices, schedules, entry rules — ~33% of
   # themes). Stable topics (history, beaches) skip it. Billed ~$0.035/grounded call.
   GEMINI_GROUNDING: 'on'
+  # English only: review-articles.yml has Claude fix the English, translates
+  # it, reviews the translations and then deploys. Set to 'off' to go back to
+  # generating all 13 languages here.
+  GENERATE_EN_ONLY: 'on'
 
 jobs:
   # First job: Check if we should run
@@ -283,7 +287,8 @@ jobs:
           echo "⏰ **Next run:** Tomorrow at 8:05 UTC (after Google quota reset)" >> $GITHUB_STEP_SUMMARY
 
       - name: Trigger Hetzner deploy
-        if: steps.push.outputs.push_success == 'true'
+        # In English-only mode the review workflow deploys after review.
+        if: steps.push.outputs.push_success == 'true' && env.GENERATE_EN_ONLY != 'on'
         env:
           # The default GITHUB_TOKEN can dispatch workflows explicitly even though
           # it cannot trigger them via `push` (GitHub blocks push events from
@@ -296,7 +301,7 @@ jobs:
           echo "✅ Deploy workflow dispatched"
 
       - name: Revalidate new articles on Hetzner (ISR cache warm-up)
-        if: steps.push.outputs.push_success == 'true'
+        if: steps.push.outputs.push_success == 'true' && env.GENERATE_EN_ONLY != 'on'
         continue-on-error: true
         run: |
           # Find article JSON files added in this commit, extract slug from filename.

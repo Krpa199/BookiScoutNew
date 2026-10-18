@@ -1,7 +1,8 @@
-# Daily article review
+# Daily review, step 2: the translations
 
-You review the articles that the daily generator (`generate-articles.yml`) just
-published, and fix what is wrong. The slugs are listed in `review-slugs.txt`.
+The English source of these articles was already reviewed (step 1,
+`.claude/review-english.md`) and then translated by Gemini. You now review
+the translations and fix what is wrong. The slugs are listed in `review-slugs.txt`.
 Every article exists in 13 languages: `src/content/articles/<lang>/<slug>.json`
 (en, de, pl, cz, it, hu, sk, nl, sl, fr, es, ru, hr). English is the source.
 
@@ -45,29 +46,12 @@ yourself from the English source: title, metaDescription, quickAnswer,
 content, faq, tableData. Keep every other field (images, dates, destination)
 unchanged.
 
-## 4. Cover images — every article must end up with a correct one
+## 4. Cover images
 
-The cover must show the article's own place (for "X vs Y" articles: X; for
-"stay nearby": the main town). Check every article's cover, not only missing
-ones:
-
-1. If an English article has no `imageUrl`, first run
-   `npx tsx scripts/add-missing-covers.ts <slug>`.
-2. Look at the cover yourself: download it with
-   `curl -sL -A "Mozilla/5.0" "<imageUrl>" -o /tmp/<slug>.jpg` and open it with
-   the Read tool. Also read `imageAlt`. Reject it if it shows another
-   identifiable place (another town, island or landmark; boat registration
-   letters like "CS" = Cres, "UM" = Umag give it away), an off-topic subject
-   (a car, cables), or is low quality.
-3. If rejected or still missing, search Wikimedia Commons, which has photos of
-   nearly every Croatian town:
-   `npx tsx scripts/find-commons-image.ts "<Place name>"` (try the local name,
-   e.g. "Mali Lošinj", "Baška Voda"). Download 2–3 promising candidates, look at
-   them, and apply the best with
-   `npx tsx scripts/find-commons-image.ts --apply <slug> <n> "<same search>" --alt "<short English description of what the photo shows>"`.
-   This sets the cover and attribution in all 13 languages.
-
-Never leave an article without a cover, and never keep a cover of the wrong place.
+Covers were checked in step 1 on the English article. Every translation must
+carry the same image fields as English (imageUrl, imageAlt, imageCredit,
+imageCreditUrl, imageSource); the check script flags a mismatch. If one
+differs, copy the English values.
 
 ## 5. Finish
 

@@ -42,6 +42,7 @@ for (const slug of slugs) {
     if (!fs.existsSync(p)) { flags.push(`${lang}: MISSING translation`); continue; }
     const a = JSON.parse(fs.readFileSync(p, 'utf8'));
     const title: string = a.title || '';
+    if ((a.imageUrl || '') !== (en.imageUrl || '')) flags.push(`${lang}: cover differs from English`);
     const body = words(a.content || '');
     if (title.trim() === (en.title || '').trim()) flags.push(`${lang}: title identical to English`);
     else if (lang !== 'nl' && words(title).filter(w => EN.has(w)).length >= 2) flags.push(`${lang}: English words in title "${title}"`);
