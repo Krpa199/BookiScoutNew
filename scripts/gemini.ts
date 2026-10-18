@@ -1008,6 +1008,9 @@ Translate naturally, not word-for-word.
 - Headings: follow ${langName} capitalisation rules (in most languages only the first word and
   proper nouns are capitalised — do not copy English Title Case).
 - Inflect Croatian place names correctly for ${langName} grammar.
+- Translate "vs" / "vs." in titles and headings with the natural word for "or" in ${langName}
+  (Croatian "ili", German "oder", Polish "czy") — never "protiv", "naspram" or a bare "vs.".
+- Use "Plitvice Lakes" in its usual ${langName} form, not the Croatian "Plitvička Jezera".
 
 ${JSON.stringify(article)}
 

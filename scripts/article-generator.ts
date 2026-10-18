@@ -90,6 +90,12 @@ async function translateChecked(enArticle: ArticleData, lang: LanguageCode): Pro
   if (enWords.length >= 3 && kept / enWords.length > 0.5) {
     throw new Error(`title came back in English ("${translated.title}")`);
   }
+  // Other Flash-Lite glitches seen in titles: a doubled "Is" ("Isisplati li
+  // se…"), Greek letters inside a Slovak word ("dovolenής").
+  const t = translated.title || '';
+  if (/^Isis/.test(t) || (lang !== 'ru' && /[Ͱ-ϿЀ-ӿ]/.test(t))) {
+    throw new Error(`garbled title ("${t}")`);
+  }
   return translated;
 }
 
