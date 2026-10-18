@@ -1,0 +1,107 @@
+name: Review Old Articles
+
+# Every day Claude re-reads 10 articles that have been live for a while (most
+# valuable first: popular destinations, planner themes, parking) and fixes
+# factual errors in all 13 languages (.claude/review-old.md). New articles are
+# covered by review-articles.yml. Uses Mario's Claude subscription
+# (CLAUDE_CODE_OAUTH_TOKEN); no Gemini cost, because Claude carries its fixes
+# into the translations itself instead of re-translating.
+
+on:
+  schedule:
+    - cron: '30 2 * * *'
+  workflow_dispatch:
+    inputs:
+      count:
+        description: 'How many old articles to review'
+        default: '10'
+
+concurrency:
+  group: review-articles
+  cancel-in-progress: false
+
+jobs:
+  review-old:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    permissions:
+      contents: write
+      actions: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci || (sleep 30 && npm ci)
+
+      - name: Pick old articles
+        id: pick
+        run: |
+          npx tsx scripts/pick-old-articles.ts "${{ github.event.inputs.count || '10' }}" > old-slugs.txt
+          cat old-slugs.txt
+          if [ -s old-slugs.txt ]; then echo "run=true" >> $GITHUB_OUTPUT; else echo "run=false" >> $GITHUB_OUTPUT; fi
+
+      - name: Claude reviews the old articles
+        id: claude
+        if: steps.pick.outputs.run == 'true'
+        continue-on-error: true
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            Follow the instructions in .claude/review-old.md exactly.
+            The articles to review are listed in old-slugs.txt.
+          claude_args: |
+            --allowedTools "Read,Edit,Write,Glob,Grep,Bash(npx tsx scripts/find-commons-image.ts:*),Bash(curl:*),Bash(cat:*),Bash(ls:*),Bash(mkdir:*),Bash(file:*),Bash(head:*),Bash(wc:*),Bash(jq:*),Bash(node -e:*),Bash(python3:*),Bash(git diff:*),Bash(git status:*)"
+
+      - name: Keep Claude's log
+        if: always() && steps.claude.outputs.execution_file != ''
+        run: |
+          mkdir -p review-logs && cp "${{ steps.claude.outputs.execution_file }}" review-logs/old-review.json
+
+      - name: Upload log
+        if: always() && steps.pick.outputs.run == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: claude-old-review-log
+          path: review-logs/
+          if-no-files-found: ignore
+
+      - name: Validate, record progress, commit and push
+        id: push
+        if: steps.pick.outputs.run == 'true' && steps.claude.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Never publish broken JSON: revert any file Claude left invalid.
+          for f in $(git diff --name-only -- src/content); do
+            node -e "JSON.parse(require('fs').readFileSync('$f','utf8'))" 2>/dev/null || { echo "invalid JSON, reverting $f"; git checkout -- "$f"; }
+          done
+          npx tsx scripts/pick-old-articles.ts --mark old-slugs.txt
+          rm -rf old-slugs.txt review-logs
+          git config --local --unset-all http.https://github.com/.extraheader || true
+          git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add src/content
+          git commit -m "🔎 Review old articles $(date -u +'%Y-%m-%d')"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push origin main && echo "push_success=true" >> $GITHUB_OUTPUT && exit 0
+            echo "Push attempt $i failed, retrying..."
+            sleep 15
+          done
+          exit 1
+
+      - name: Trigger Hetzner deploy
+        if: steps.push.outputs.push_success == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy-droplet.yml --ref main
