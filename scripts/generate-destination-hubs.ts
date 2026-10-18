@@ -18,7 +18,7 @@ import fs from 'fs';
 import path from 'path';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import { DESTINATIONS } from '../src/config/destinations';
-import { LANGUAGES, LanguageCode } from '../src/config/languages';
+import { LANGUAGES, LanguageCode, PROMPT_LANGUAGE_NAMES } from '../src/config/languages';
 
 export const PRIORITY_HUBS = [
   'zadar', 'split', 'trogir', 'krk', 'rijeka', 'biograd', 'korcula', 'dubrovnik',
@@ -132,7 +132,7 @@ async function generateEnglish(slug: string): Promise<Record<string, unknown>> {
 }
 
 async function translate(hub: Record<string, unknown>, lang: LanguageCode): Promise<Record<string, unknown>> {
-  const langName = LANGUAGES[lang].name;
+  const langName = PROMPT_LANGUAGE_NAMES[lang];
   const model = new GoogleGenerativeAI(apiKey()).getGenerativeModel({
     model: TRANSLATE_MODEL,
     generationConfig: { responseMimeType: 'application/json' },

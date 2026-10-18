@@ -10,7 +10,7 @@ dotenv.config({ path: '.env.local' });
 
 import fs from 'fs';
 import { GoogleGenerativeAI } from '@google/generative-ai';
-import { LANGUAGES } from '../src/config/languages';
+import { LANGUAGES, PROMPT_LANGUAGE_NAMES } from '../src/config/languages';
 
 // Theme labels that had no translation (UI fell back to "Island Hopping" etc.)
 const THEME_LABELS: Record<string, string> = {
@@ -124,7 +124,7 @@ async function main() {
     const file = `messages/${lang}.json`;
     const raw = fs.readFileSync(file, 'utf-8');
     const messages = JSON.parse(raw);
-    const strings = lang === 'en' ? source : await translate(source, LANGUAGES[lang as keyof typeof LANGUAGES].name);
+    const strings = lang === 'en' ? source : await translate(source, PROMPT_LANGUAGE_NAMES[lang as keyof typeof LANGUAGES]);
 
     messages.guides.themes ??= {};
     messages.guides.detail.ui ??= {};

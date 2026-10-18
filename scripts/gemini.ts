@@ -2,7 +2,7 @@ import { config } from 'dotenv';
 config({ path: '.env.local' });
 
 import { GoogleGenerativeAI, GenerativeModel } from '@google/generative-ai';
-import { LANGUAGES, LanguageCode } from '../src/config/languages';
+import { LANGUAGES, LanguageCode, PROMPT_LANGUAGE_NAMES } from '../src/config/languages';
 import { Destination, Theme, GROUNDING_THEMES } from '../src/config/destinations';
 
 // =============================================================================
@@ -965,7 +965,7 @@ export async function generateArticle(
 
   const grounding = isGroundingEnabled(theme);
   const model = grounding ? getGroundedProModel(keyState.key) : getProModel(keyState.key);
-  const langName = LANGUAGES[language].name;
+  const langName = PROMPT_LANGUAGE_NAMES[language];
   const prompt = buildPrompt(destination, theme, langName);
 
   console.log(`  🔑 Using API key #${getKeyManager().keys.indexOf(keyState) + 1} (Pro calls today: ${keyState.proCallsToday}/${API_LIMITS.PRO_DAILY})${grounding ? ' 🔎 grounded' : ''}`);
@@ -998,7 +998,7 @@ export async function translateArticle(
 
   const flashModelName = await resolveFlashModelName(keyState.key);
   const model = getFlashModel(keyState.key, flashModelName);
-  const langName = LANGUAGES[targetLanguage].name;
+  const langName = PROMPT_LANGUAGE_NAMES[targetLanguage];
 
   const prompt = `
 Translate the following article to ${langName}. Keep the same JSON structure.

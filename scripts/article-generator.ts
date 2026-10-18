@@ -81,6 +81,15 @@ async function translateChecked(enArticle: ArticleData, lang: LanguageCode): Pro
   if ((translated.content || '').slice(0, 200) === (enArticle.content || '').slice(0, 200)) {
     throw new Error('translation came back in English');
   }
+  // Flash-Lite sometimes leaves the title English ("Isis Cavtat Worth Visiting
+  // in 2027? Honest Guide & Costs" on the Croatian page). Fail if most of the
+  // English title's words survive.
+  const words = (s: string) => s.toLowerCase().split(/[^\p{L}]+/u).filter(w => w.length >= 4);
+  const enWords = words(enArticle.title || '');
+  const kept = enWords.filter(w => words(translated.title || '').includes(w)).length;
+  if (enWords.length >= 3 && kept / enWords.length > 0.5) {
+    throw new Error(`title came back in English ("${translated.title}")`);
+  }
   return translated;
 }
 

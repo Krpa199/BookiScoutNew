@@ -17,6 +17,25 @@ export const LANGUAGES = {
 
 export type LanguageCode = keyof typeof LANGUAGES;
 
+// Language names for AI prompts. The native names above are ambiguous to the
+// model: "Slovenčina" (Slovak) vs "Slovenščina" (Slovenian) made it write
+// Slovenian on ~1,340 Slovak pages and all 60 Slovak hubs.
+export const PROMPT_LANGUAGE_NAMES: Record<LanguageCode, string> = {
+  en: 'English',
+  de: 'German',
+  pl: 'Polish',
+  cz: 'Czech',
+  it: 'Italian',
+  hu: 'Hungarian',
+  sk: 'Slovak (the language of Slovakia — NOT Slovenian)',
+  nl: 'Dutch',
+  sl: 'Slovenian (the language of Slovenia — NOT Slovak)',
+  fr: 'French',
+  es: 'Spanish',
+  ru: 'Russian',
+  hr: 'Croatian',
+};
+
 export const DEFAULT_LANGUAGE: LanguageCode = 'en';
 
 // Tourist percentage by country (2024 data)

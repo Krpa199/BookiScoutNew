@@ -21,7 +21,7 @@ import fs from 'fs';
 import path from 'path';
 import { execSync } from 'child_process';
 import { translateArticle, ArticleData, getRemainingCalls } from './gemini';
-import { LANGUAGES, LanguageCode } from '../src/config/languages';
+import { LANGUAGES, LanguageCode, PROMPT_LANGUAGE_NAMES } from '../src/config/languages';
 
 const CONTENT_DIR = path.join(process.cwd(), 'src', 'content', 'articles');
 
@@ -151,7 +151,7 @@ async function main() {
     }
     done++;
 
-    const langName = LANGUAGES[item.lang].name;
+    const langName = PROMPT_LANGUAGE_NAMES[item.lang];
     console.log(
       `\n[${done}/${Math.min(missing.length, LIMIT)}] ${item.lang} (${langName}) ← ${item.filename}`
     );
