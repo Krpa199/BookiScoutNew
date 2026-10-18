@@ -50,6 +50,10 @@ for (const slug of slugs) {
     if (/^Isis/.test(title) || (lang !== 'ru' && /[Ͱ-ϿЀ-ӿ]/.test(title))) flags.push(`${lang}: garbled title "${title}"`);
     if (/\b(vs\.?|protiv|naspram)\b/i.test(title) && lang === 'hr') flags.push(`hr: "vs/protiv/naspram" in title "${title}"`);
     if (/\$\d/.test(JSON.stringify(a))) flags.push(`${lang}: dollar prices`);
+    // Flash-Lite sometimes drops a Chinese/Japanese word into the text ("报考 Hvar").
+    const junk = JSON.stringify(a).match(/[぀-ヿ一-鿿가-힯؀-ۿ]+/g);
+    if (junk) flags.push(`${lang}: foreign-script junk in text: ${junk.slice(0, 3).join(' ')}`);
+    if (lang !== 'hr' && /Plitvička Jezera/.test(`${a.title} ${a.metaDescription} ${a.quickAnswer}`)) flags.push(`${lang}: Croatian name "Plitvička Jezera" instead of the local name`);
     if (lang === 'sk') {
       let sl = 0, sk = 0;
       for (const w of body) { if (SL.has(w)) sl++; if (SK.has(w)) sk++; }
