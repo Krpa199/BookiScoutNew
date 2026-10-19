@@ -8,6 +8,17 @@ already fixed on 2026-10-18/19. Your job is what tools cannot find: errors a
 careful local reader would notice. Readers are people PLANNING a holiday in
 Croatia; some rank in Google, so change only what is wrong.
 
+## 0. The articles were just moved to the 2027 season
+
+Right before you, a script changed every "2026" to "2027" in all 13
+languages (Advent articles and ETIAS/EES lines excepted). That is right for
+the planning season ("Split Parking Guide 2027", "prices for summer 2027"),
+but wrong where 2026 was a real past or fixed date (something that opened or
+happened in 2026, "since 2026", a 2026 event). Fix those back, in all 13
+languages. Also make sure nothing reads as outdated for a 2027 trip; where a
+price or rule may well have changed and you cannot verify it, say "around" /
+"check before you go" rather than inventing a new number.
+
 ## 1. Read each English article completely
 
 title, metaDescription, quickAnswer, content, faq, tableData. Look for:

@@ -1,6 +1,6 @@
 name: Review Old Articles
 
-# Every day Claude re-reads 10 articles that have been live for a while (most
+# Three times a day Claude re-reads 10 articles that have been live for a while (most
 # valuable first: popular destinations, planner themes, parking) and fixes
 # factual errors in all 13 languages (.claude/review-old.md). New articles are
 # covered by review-articles.yml. Uses Mario's Claude subscription
@@ -8,8 +8,12 @@ name: Review Old Articles
 # into the translations itself instead of re-translating.
 
 on:
+  # 3 x 10 a day: all ~2,050 old articles reviewed and moved to the 2027
+  # season by the end of 2026.
   schedule:
     - cron: '30 2 * * *'
+    - cron: '30 10 * * *'
+    - cron: '30 18 * * *'
   workflow_dispatch:
     inputs:
       count:
@@ -49,6 +53,10 @@ jobs:
           cat old-slugs.txt
           if [ -s old-slugs.txt ]; then echo "run=true" >> $GITHUB_OUTPUT; else echo "run=false" >> $GITHUB_OUTPUT; fi
 
+      - name: Move them to the 2027 season
+        if: steps.pick.outputs.run == 'true'
+        run: npx tsx scripts/bump-year.ts --file old-slugs.txt
+
       - name: Claude reviews the old articles
         id: claude
         if: steps.pick.outputs.run == 'true'
@@ -81,7 +89,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Never publish broken JSON: revert any file Claude left invalid.
+          # Never publish broken JSON: revert any file left invalid.
           for f in $(git diff --name-only -- src/content); do
             node -e "JSON.parse(require('fs').readFileSync('$f','utf8'))" 2>/dev/null || { echo "invalid JSON, reverting $f"; git checkout -- "$f"; }
           done
