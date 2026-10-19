@@ -77,9 +77,32 @@ export function getAllArticles(locale: string): ArticlePreview[] {
     // Guides directory doesn't exist yet
   }
 
-  return articles.sort((a, b) =>
+  const sorted = articles.sort((a, b) =>
     new Date(b.generatedAt).getTime() - new Date(a.generatedAt).getTime()
   );
+  return spreadRepeatedImages(sorted);
+}
+
+/**
+ * Some guides about the same place share a cover photo; on a grid sorted by
+ * date they can land side by side, which looks mass-produced. Keep the date
+ * order, but when a card's image is already among the previous few cards
+ * (about two rows), pull forward the next card with a different image.
+ */
+export function spreadRepeatedImages<T extends { imageUrl?: string }>(items: T[], window = 6, lookahead = 30): T[] {
+  const out = [...items];
+  for (let i = 1; i < out.length; i++) {
+    const recent = new Set(out.slice(Math.max(0, i - window), i).map(x => x.imageUrl).filter(Boolean));
+    if (!out[i].imageUrl || !recent.has(out[i].imageUrl)) continue;
+    for (let j = i + 1; j < Math.min(out.length, i + lookahead); j++) {
+      if (!out[j].imageUrl || !recent.has(out[j].imageUrl)) {
+        const [moved] = out.splice(j, 1);
+        out.splice(i, 0, moved);
+        break;
+      }
+    }
+  }
+  return out;
 }
 
 export function getTotalPages(articleCount: number): number {
