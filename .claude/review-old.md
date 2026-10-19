@@ -30,6 +30,10 @@ and that change from year to year, not for every sentence:
 - airport transfer / bus lines (the operator's own site),
 - whether a business named in the article exists and is where the text says.
 Prefer official sources (operator, park, city, tourist board) over blogs.
+Search results are often copies of travel blogs (or of our own articles); if
+a search finds no official page, find the operator's own website (e.g. the
+town's parking company or tourist board) and open its price/timetable page
+with WebFetch before giving up.
 When a source confirms a figure, keep or correct it; when the official
 figure differs, use the official one ("from €X in 2026; check for 2027" if
 2027 prices are not published yet). When nothing reliable is found, make the
@@ -57,7 +61,7 @@ inventing a new number. Do not add new facts. Do not rewrite style, do not
 shorten articles, and leave the intro sentence about "insights from hundreds
 of traveler reviews" as it is (the owner decided to keep it).
 
-Look at the cover too (`curl -sL -A "Mozilla/5.0" "<imageUrl>" -o /tmp/<slug>.jpg`,
+Always look at the cover — every article, no exceptions (`curl -sL -A "Mozilla/5.0" "<imageUrl>" -o /tmp/<slug>.jpg`,
 then Read it). If it clearly shows another place or something unrelated, or
 if another article of the same destination already uses the same imageUrl
 (search src/content/articles/en/ for that imageUrl with the Grep tool), find
