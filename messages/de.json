@@ -3,7 +3,7 @@
     "siteName": "BookiScout",
     "siteTagline": "Kroatien Entscheidungsführer",
     "homeTitle": "BookiScout - Kroatien Reiseentscheidungsführer",
-    "homeDescription": "KI-optimierte Entscheidungsführer für Kroatien. Erhalten Sie Antworten auf echte Reisefragen: Lohnt es sich? Brauche ich ein Auto? Beste Reisezeit?",
+    "homeDescription": "Praktische Reiseführer für die Planung Ihres Kroatien-Urlaubs. Klare Antworten auf echte Reisefragen: Lohnt es sich? Brauche ich ein Auto? Wann ist die beste Reisezeit?",
     "guidesTitle": "Reiseführer für Kroatien",
     "guidesDescription": "Experten-Reiseführer für alle kroatischen Reiseziele. Finden Sie Tipps zu Unterkünften, Stränden, Restaurants und Aktivitäten.",
     "destinationsTitle": "Alle Reiseziele in Kroatien",
@@ -19,7 +19,7 @@
   },
   "home": {
     "hero": {
-      "badge": "KI-optimierte Reiseentscheidungen",
+      "badge": "Klare Antworten für Ihre Kroatien-Reise",
       "headline": "Wissen Sie wo, wann",
       "headlinePart2": "& warum vor der Buchung",
       "subheadline": "Kroatien-Entscheidungsführer für echte Reisende. Prüfen Sie, was sich rund um Ihre Unterkunft befindet — Restaurants, Strände, Bars — basierend auf echten Bewertungen. Plus Antworten auf alle Ihre Reisefragen.",
@@ -34,7 +34,7 @@
     "quickAnswers": {
       "badge": "Schnelle Antworten",
       "title": "Häufige Fragen zur Kroatien-Reise",
-      "subtitle": "Direkte Antworten, die KI-Assistenten zitieren können. Kein Geschwafel, nur Fakten.",
+      "subtitle": "Direkte Antworten. Kein Geschwafel, nur Fakten.",
       "seeAll": "Alle Entscheidungsführer ansehen",
       "q1": {
         "question": "Ist Kroatien sicher für alleinreisende Frauen?",
@@ -57,8 +57,8 @@
         "description": "Wir beantworten die Fragen, die Sie wirklich stellen: \"Lohnt es sich?\", \"Brauche ich ein Auto?\", \"Am besten für Familien?\""
       },
       "aiVerified": {
-        "title": "KI-verifizierte Fakten",
-        "description": "Jede Aussage ist faktengeprüft und zitierbar. Perfekt für KI-Assistenten zum direkten Zitieren."
+        "title": "Geprüft und aktuell",
+        "description": "Die Reiseführer werden regelmäßig überprüft und aktualisiert, alle Preise in Euro."
       },
       "travelerFocused": {
         "title": "Reisender-Typ fokussiert",
@@ -98,7 +98,7 @@
   },
   "footer": {
     "tagline": "Kroatien Entscheidungsführer",
-    "description": "KI-optimierte Entscheidungsführer für Kroatien. Wir beantworten die Fragen, die Reisende wirklich stellen: Lohnt es sich? Brauche ich ein Auto? Beste Reisezeit? Keine Voreingenommenheit, nur ehrliche Antworten.",
+    "description": "Praktische Reiseführer für die Planung Ihres Kroatien-Urlaubs. Wir beantworten die Fragen, die Reisende wirklich stellen: Lohnt es sich? Brauche ich ein Auto? Wann ist die beste Reisezeit? Keine Buchungsinteressen, nur ehrliche Antworten.",
     "cta": "Wissen vor der Buchung",
     "topDestinations": "Top Reiseziele",
     "decisionGuides": "Entscheidungsführer",
@@ -115,7 +115,7 @@
     "availableIn": "Verfügbar in {count} Sprachen",
     "copyright": "© {year} BookiScout. Mit",
     "forTravelers": "für Kroatien-Reisende gemacht.",
-    "aiOptimized": "KI-optimiert",
+    "aiOptimized": "Regelmäßig aktualisiert",
     "decisionFirst": "Entscheidung zuerst"
   },
   "destinations": {
@@ -194,7 +194,7 @@
       }
     },
     "guides": {
-      "badge": "KI-gestützte Reiseführer",
+      "badge": "Reiseführer",
       "title": "Reiseführer für {destination}",
       "subtitle": "Vergleichen Sie Viertel, finden Sie familienfreundliche Gebiete, entdecken Sie versteckte Strände und treffen Sie die richtige Entscheidung für Ihre Reise.",
       "comingSoon": "Demnächst"
@@ -214,10 +214,10 @@
   },
   "guides": {
     "hero": {
-      "badge": "KI-gestützte Reise-Einblicke",
+      "badge": "Kroatien-Reiseführer",
       "title": "Kroatien Reiseführer",
-      "subtitle": "{count} Experten-Reiseführer für kroatische Reiseziele in {langCount} Sprachen. Entdecken Sie Ihren perfekten Urlaub mit KI-Empfehlungen.",
-      "subtitleEmpty": "Experten-Reiseführer für kroatische Reiseziele kommen bald. KI-Einblicke, die Ihnen bei der Planung Ihrer perfekten Reise helfen.",
+      "subtitle": "{count} Reiseführer zu kroatischen Reisezielen in {langCount} Sprachen. Finden Sie den richtigen Ort und die richtige Zeit für Ihren Urlaub.",
+      "subtitleEmpty": "Reiseführer zu kroatischen Reisezielen folgen in Kürze und helfen Ihnen bei der Planung.",
       "statGuides": "Reiseführer",
       "statDestinations": "60+ Reiseziele",
       "statUpdated": "Immer aktuell"
@@ -234,7 +234,7 @@
     },
     "empty": {
       "title": "Reiseführer kommen bald",
-      "subtitle": "Wir erstellen umfassende KI-Reiseführer für alle kroatischen Reiseziele. Schauen Sie bald wieder vorbei!",
+      "subtitle": "Wir schreiben Reiseführer für alle kroatischen Reiseziele. Schauen Sie bald wieder vorbei!",
       "cta": "Reiseziele durchsuchen"
     },
     "themes": {
@@ -372,7 +372,7 @@
       "sidebar": {
         "otherLanguages": "Andere Sprachen",
         "trustedGuide": "Vertrauenswürdiger Reiseführer",
-        "aiPowered": "KI-gestützte Analyse",
+        "aiPowered": "Auf einen Blick",
         "humanReviewed": "Von Menschen geprüft",
         "regularlyUpdated": "Regelmäßig aktualisiert",
         "moreAbout": "Mehr über {destination}",

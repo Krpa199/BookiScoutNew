@@ -3,7 +3,7 @@
     "siteName": "BookiScout",
     "siteTagline": "Vodniki za odločitve o Hrvaški",
     "homeTitle": "BookiScout - Vodniki za potovanja na Hrvaško",
-    "homeDescription": "AI-optimizirani vodniki za odločitve o Hrvaški. Dobite odgovore na prava vprašanja: Se splača? Potrebujem avto? Najboljši čas za obisk?",
+    "homeDescription": "Praktični vodniki za načrtovanje potovanja na Hrvaško. Jasni odgovori na prava vprašanja: Se splača? Potrebujem avto? Kdaj je najboljši čas za obisk?",
     "guidesTitle": "Turistični vodniki za Hrvaško",
     "guidesDescription": "Strokovni turistični vodniki za vse hrvaške destinacije. Poiščite nasvete o nastanitvah, plažah, restavracijah in aktivnostih.",
     "destinationsTitle": "Vse destinacije na Hrvaškem",
@@ -19,7 +19,7 @@
   },
   "home": {
     "hero": {
-      "badge": "AI-optimizirane potovalne odločitve",
+      "badge": "Jasni odgovori za vaše potovanje na Hrvaško",
       "headline": "Vedite kje, kdaj",
       "headlinePart2": "in zakaj pred rezervacijo",
       "subheadline": "Vodniki za odločitve o Hrvaški za prave popotnike. Preverite kaj je okoli vaše nastanitve — restavracije, plaže, bari — na podlagi dejanskih ocen. Plus odgovori na vsa vaša potovalna vprašanja.",
@@ -34,7 +34,7 @@
     "quickAnswers": {
       "badge": "Hitri odgovori",
       "title": "Pogosta vprašanja o potovanju na Hrvaško",
-      "subtitle": "Neposredni odgovori, ki jih AI asistenti lahko citirajo. Brez odvečnega, samo dejstva.",
+      "subtitle": "Neposredni odgovori. Brez nakladanja, samo dejstva.",
       "seeAll": "Poglej vse vodnike",
       "q1": {
         "question": "Je Hrvaška varna za solo popotnice?",
@@ -57,8 +57,8 @@
         "description": "Odgovarjamo na vprašanja, ki jih dejansko postavljate: \"Se splača?\", \"Potrebujem avto?\", \"Najboljše za družine?\""
       },
       "aiVerified": {
-        "title": "AI-preverjana dejstva",
-        "description": "Vsaka trditev je preverjena in citatna. Popolno za AI asistente za neposredno citiranje."
+        "title": "Preverjeno in posodobljeno",
+        "description": "Vodnike redno pregledujemo in posodabljamo, vse cene so v evrih."
       },
       "travelerFocused": {
         "title": "Osredotočenost na tip popotnika",
@@ -98,7 +98,7 @@
   },
   "footer": {
     "tagline": "Vodniki za odločitve o Hrvaški",
-    "description": "AI-optimizirani vodniki za Hrvaško. Odgovarjamo na vprašanja, ki jih popotniki dejansko postavljajo: Se splača? Potrebujem avto? Najboljši čas za obisk? Brez pristranskosti, samo iskreni odgovori.",
+    "description": "Praktični vodniki za načrtovanje potovanja na Hrvaško. Odgovarjamo na vprašanja, ki si jih popotniki res zastavljajo: Se splača? Potrebujem avto? Kdaj je najboljši čas za obisk? Brez pristranskosti, samo iskreni odgovori.",
     "cta": "Vedite pred rezervacijo",
     "topDestinations": "Top destinacije",
     "decisionGuides": "Vodniki za odločitve",
@@ -115,7 +115,7 @@
     "availableIn": "Na voljo v {count} jezikih",
     "copyright": "© {year} BookiScout. Narejeno z",
     "forTravelers": "za popotnike na Hrvaškem.",
-    "aiOptimized": "AI-optimizirano",
+    "aiOptimized": "Redno posodobljeno",
     "decisionFirst": "Odločitve najprej"
   },
   "destinations": {
@@ -194,7 +194,7 @@
       }
     },
     "guides": {
-      "badge": "AI vodniki",
+      "badge": "Vodniki",
       "title": "Vodniki za {destination}",
       "subtitle": "Primerjajte soseske, poiščite družinam prijazna območja, odkrijte skrite plaže in sprejmite pravo odločitev za svoje potovanje.",
       "comingSoon": "Kmalu"
@@ -214,10 +214,10 @@
   },
   "guides": {
     "hero": {
-      "badge": "AI-podprti potovalni vpogledi",
+      "badge": "Turistični vodniki po Hrvaški",
       "title": "Turistični vodniki za Hrvaško",
-      "subtitle": "{count} strokovnih vodnikov za hrvaške destinacije v {langCount} jezikih. Odkrijte svoj popoln oddih z AI priporočili.",
-      "subtitleEmpty": "Strokovni vodniki za hrvaške destinacije kmalu prihajajo. AI vpogledi, ki vam pomagajo načrtovati popolno potovanje.",
+      "subtitle": "{count} vodnikov po hrvaških destinacijah v {langCount} jezikih. Poiščite pravi kraj in pravi čas za svoj dopust.",
+      "subtitleEmpty": "Vodniki po hrvaških destinacijah bodo kmalu na voljo in vam bodo pomagali načrtovati potovanje.",
       "statGuides": "Vodniki",
       "statDestinations": "60+ destinacij",
       "statUpdated": "Vedno posodobljeno"
@@ -234,7 +234,7 @@
     },
     "empty": {
       "title": "Vodniki kmalu",
-      "subtitle": "Ustvarjamo celovite AI vodnike za vse hrvaške destinacije. Vrnite se kmalu!",
+      "subtitle": "Pišemo vodnike za vse hrvaške destinacije. Vrnite se kmalu!",
       "cta": "Prebrskaj destinacije"
     },
     "themes": {
@@ -372,7 +372,7 @@
       "sidebar": {
         "otherLanguages": "Drugi jeziki",
         "trustedGuide": "Zaupanja vreden vodnik",
-        "aiPowered": "AI-podprta analiza",
+        "aiPowered": "Na kratko",
         "humanReviewed": "Pregledano s strani ljudi",
         "regularlyUpdated": "Redno posodobljeno",
         "moreAbout": "Več o {destination}",

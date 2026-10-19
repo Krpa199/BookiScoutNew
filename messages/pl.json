@@ -3,7 +3,7 @@
     "siteName": "BookiScout",
     "siteTagline": "Przewodniki decyzyjne po Chorwacji",
     "homeTitle": "BookiScout - Przewodniki podróżnicze po Chorwacji",
-    "homeDescription": "Zoptymalizowane przez AI przewodniki decyzyjne po Chorwacji. Uzyskaj odpowiedzi na prawdziwe pytania podróżnicze: Czy warto? Czy potrzebuję samochodu? Najlepszy czas na wizytę?",
+    "homeDescription": "Praktyczne przewodniki do planowania podróży do Chorwacji. Jasne odpowiedzi na prawdziwe pytania: Czy warto? Czy potrzebuję samochodu? Kiedy najlepiej pojechać?",
     "guidesTitle": "Przewodniki turystyczne po Chorwacji",
     "guidesDescription": "Eksperckie przewodniki turystyczne do wszystkich chorwackich destynacji. Znajdź porady dotyczące zakwaterowania, plaż, restauracji i atrakcji.",
     "destinationsTitle": "Wszystkie destynacje w Chorwacji",
@@ -19,7 +19,7 @@
   },
   "home": {
     "hero": {
-      "badge": "Zoptymalizowane przez AI decyzje podróżnicze",
+      "badge": "Jasne odpowiedzi na Twoją podróż do Chorwacji",
       "headline": "Wiedz gdzie, kiedy",
       "headlinePart2": "i dlaczego przed rezerwacją",
       "subheadline": "Przewodniki decyzyjne po Chorwacji dla prawdziwych podróżników. Sprawdź co jest wokół Twojego noclegu — restauracje, plaże, bary — na podstawie prawdziwych recenzji. Plus odpowiedzi na wszystkie pytania o podróży.",
@@ -34,7 +34,7 @@
     "quickAnswers": {
       "badge": "Szybkie odpowiedzi",
       "title": "Częste pytania o podróż do Chorwacji",
-      "subtitle": "Bezpośrednie odpowiedzi, które asystenci AI mogą cytować. Bez lania wody, tylko fakty.",
+      "subtitle": "Konkretne odpowiedzi. Bez lania wody, same fakty.",
       "seeAll": "Zobacz wszystkie przewodniki",
       "q1": {
         "question": "Czy Chorwacja jest bezpieczna dla samotnie podróżujących kobiet?",
@@ -57,8 +57,8 @@
         "description": "Odpowiadamy na pytania, które naprawdę zadajesz: \"Czy warto?\", \"Czy potrzebuję samochodu?\", \"Najlepsze dla rodzin?\""
       },
       "aiVerified": {
-        "title": "Fakty zweryfikowane przez AI",
-        "description": "Każde twierdzenie jest sprawdzone i cytowalne. Idealne dla asystentów AI do bezpośredniego cytowania."
+        "title": "Sprawdzone i aktualne",
+        "description": "Przewodniki są regularnie sprawdzane i aktualizowane, wszystkie ceny w euro."
       },
       "travelerFocused": {
         "title": "Skupienie na typie podróżnika",
@@ -98,7 +98,7 @@
   },
   "footer": {
     "tagline": "Przewodniki decyzyjne po Chorwacji",
-    "description": "Zoptymalizowane przez AI przewodniki po Chorwacji. Odpowiadamy na pytania, które podróżnicy naprawdę zadają: Czy warto? Czy potrzebuję samochodu? Najlepszy czas na wizytę? Bez stronniczości, tylko szczere odpowiedzi.",
+    "description": "Praktyczne przewodniki do planowania podróży do Chorwacji. Odpowiadamy na pytania, które naprawdę zadają podróżni: Czy warto? Czy potrzebuję samochodu? Kiedy najlepiej pojechać? Bez stronniczości, tylko szczere odpowiedzi.",
     "cta": "Wiedz przed rezerwacją",
     "topDestinations": "Najlepsze destynacje",
     "decisionGuides": "Przewodniki decyzyjne",
@@ -115,7 +115,7 @@
     "availableIn": "Dostępne w {count} językach",
     "copyright": "© {year} BookiScout. Stworzone z",
     "forTravelers": "dla podróżników do Chorwacji.",
-    "aiOptimized": "Zoptymalizowane przez AI",
+    "aiOptimized": "Regularnie aktualizowane",
     "decisionFirst": "Decyzje na pierwszym miejscu"
   },
   "destinations": {
@@ -194,7 +194,7 @@
       }
     },
     "guides": {
-      "badge": "Przewodniki AI",
+      "badge": "Przewodniki",
       "title": "Przewodniki po {destination}",
       "subtitle": "Porównaj dzielnice, znajdź obszary przyjazne rodzinom, odkryj ukryte plaże i podejmij właściwą decyzję dla swojej podróży.",
       "comingSoon": "Wkrótce"
@@ -214,10 +214,10 @@
   },
   "guides": {
     "hero": {
-      "badge": "Wglądy podróżnicze wspierane przez AI",
+      "badge": "Przewodniki po Chorwacji",
       "title": "Przewodniki turystyczne po Chorwacji",
-      "subtitle": "{count} eksperckich przewodników po chorwackich destynacjach w {langCount} językach. Odkryj swój idealny urlop z rekomendacjami AI.",
-      "subtitleEmpty": "Eksperckie przewodniki po chorwackich destynacjach wkrótce. Wglądy AI, które pomogą ci zaplanować idealną podróż.",
+      "subtitle": "{count} przewodników po chorwackich miejscach w {langCount} językach. Znajdź właściwe miejsce i właściwy czas na swój urlop.",
+      "subtitleEmpty": "Przewodniki po chorwackich miejscach pojawią się wkrótce i pomogą Ci zaplanować podróż.",
       "statGuides": "Przewodniki",
       "statDestinations": "60+ destynacji",
       "statUpdated": "Zawsze aktualne"
@@ -234,7 +234,7 @@
     },
     "empty": {
       "title": "Przewodniki wkrótce",
-      "subtitle": "Tworzymy kompleksowe przewodniki AI dla wszystkich chorwackich destynacji. Wróć wkrótce!",
+      "subtitle": "Piszemy przewodniki po wszystkich chorwackich miejscach. Zajrzyj wkrótce!",
       "cta": "Przeglądaj destynacje"
     },
     "themes": {
@@ -372,7 +372,7 @@
       "sidebar": {
         "otherLanguages": "Inne języki",
         "trustedGuide": "Zaufany przewodnik",
-        "aiPowered": "Analiza wspierana przez AI",
+        "aiPowered": "W skrócie",
         "humanReviewed": "Sprawdzone przez ludzi",
         "regularlyUpdated": "Regularnie aktualizowane",
         "moreAbout": "Więcej o {destination}",

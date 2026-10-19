@@ -3,7 +3,7 @@
     "siteName": "BookiScout",
     "siteTagline": "Guide decisionali per la Croazia",
     "homeTitle": "BookiScout - Guide di viaggio per la Croazia",
-    "homeDescription": "Guide decisionali ottimizzate dall'AI per la Croazia. Ottieni risposte alle vere domande di viaggio: Ne vale la pena? Ho bisogno di un'auto? Il momento migliore per visitare?",
+    "homeDescription": "Guide pratiche per pianificare un viaggio in Croazia. Risposte chiare a domande reali: Ne vale la pena? Mi serve l'auto? Qual è il periodo migliore per andarci?",
     "guidesTitle": "Guide turistiche per la Croazia",
     "guidesDescription": "Guide turistiche esperte per tutte le destinazioni croate. Trova consigli su alloggi, spiagge, ristoranti e attività.",
     "destinationsTitle": "Tutte le destinazioni in Croazia",
@@ -19,7 +19,7 @@
   },
   "home": {
     "hero": {
-      "badge": "Decisioni di viaggio ottimizzate dall'AI",
+      "badge": "Risposte chiare per il tuo viaggio in Croazia",
       "headline": "Sappi dove, quando",
       "headlinePart2": "e perché prima di prenotare",
       "subheadline": "Guide decisionali per la Croazia per veri viaggiatori. Controlla cosa c'è intorno al tuo alloggio — ristoranti, spiagge, bar — basato su recensioni reali. Più risposte a tutte le tue domande di viaggio.",
@@ -34,7 +34,7 @@
     "quickAnswers": {
       "badge": "Risposte rapide",
       "title": "Domande frequenti sul viaggio in Croazia",
-      "subtitle": "Risposte dirette che gli assistenti AI possono citare. Niente fronzoli, solo fatti.",
+      "subtitle": "Risposte dirette. Niente fronzoli, solo fatti.",
       "seeAll": "Vedi tutte le guide",
       "q1": {
         "question": "La Croazia è sicura per le donne che viaggiano sole?",
@@ -57,8 +57,8 @@
         "description": "Rispondiamo alle domande che fai realmente: \"Ne vale la pena?\", \"Ho bisogno di un'auto?\", \"Il meglio per le famiglie?\""
       },
       "aiVerified": {
-        "title": "Fatti verificati dall'AI",
-        "description": "Ogni affermazione è verificata e citabile. Perfetto per gli assistenti AI da citare direttamente."
+        "title": "Verificate e aggiornate",
+        "description": "Le guide vengono riviste e aggiornate regolarmente, tutti i prezzi in euro."
       },
       "travelerFocused": {
         "title": "Focus sul tipo di viaggiatore",
@@ -98,7 +98,7 @@
   },
   "footer": {
     "tagline": "Guide decisionali per la Croazia",
-    "description": "Guide ottimizzate dall'AI per la Croazia. Rispondiamo alle domande che i viaggiatori fanno realmente: Ne vale la pena? Ho bisogno di un'auto? Il momento migliore per visitare? Nessun pregiudizio, solo risposte oneste.",
+    "description": "Guide pratiche per pianificare un viaggio in Croazia. Rispondiamo alle domande che i viaggiatori fanno davvero: Ne vale la pena? Mi serve l'auto? Qual è il periodo migliore per andarci? Nessun interesse di prenotazione, solo risposte oneste.",
     "cta": "Sappi prima di prenotare",
     "topDestinations": "Top destinazioni",
     "decisionGuides": "Guide decisionali",
@@ -115,7 +115,7 @@
     "availableIn": "Disponibile in {count} lingue",
     "copyright": "© {year} BookiScout. Fatto con",
     "forTravelers": "per i viaggiatori in Croazia.",
-    "aiOptimized": "Ottimizzato dall'AI",
+    "aiOptimized": "Aggiornate regolarmente",
     "decisionFirst": "Decisioni prima"
   },
   "destinations": {
@@ -194,7 +194,7 @@
       }
     },
     "guides": {
-      "badge": "Guide AI",
+      "badge": "Guide di viaggio",
       "title": "Guide per {destination}",
       "subtitle": "Confronta i quartieri, trova zone adatte alle famiglie, scopri spiagge nascoste e prendi la decisione giusta per il tuo viaggio.",
       "comingSoon": "Prossimamente"
@@ -214,10 +214,10 @@
   },
   "guides": {
     "hero": {
-      "badge": "Approfondimenti di viaggio potenziati dall'AI",
+      "badge": "Guide di viaggio sulla Croazia",
       "title": "Guide turistiche per la Croazia",
-      "subtitle": "{count} guide esperte per destinazioni croate in {langCount} lingue. Scopri la tua vacanza perfetta con raccomandazioni AI.",
-      "subtitleEmpty": "Guide esperte per destinazioni croate in arrivo. Approfondimenti AI per aiutarti a pianificare il viaggio perfetto.",
+      "subtitle": "{count} guide sulle destinazioni croate in {langCount} lingue. Trova il posto giusto e il momento giusto per la tua vacanza.",
+      "subtitleEmpty": "Le guide sulle destinazioni croate arriveranno presto per aiutarti a pianificare il viaggio.",
       "statGuides": "Guide",
       "statDestinations": "60+ destinazioni",
       "statUpdated": "Sempre aggiornato"
@@ -234,7 +234,7 @@
     },
     "empty": {
       "title": "Guide in arrivo",
-      "subtitle": "Stiamo creando guide AI complete per tutte le destinazioni croate. Torna presto!",
+      "subtitle": "Stiamo scrivendo guide per tutte le destinazioni croate. Torna presto!",
       "cta": "Sfoglia destinazioni"
     },
     "themes": {
@@ -372,7 +372,7 @@
       "sidebar": {
         "otherLanguages": "Altre lingue",
         "trustedGuide": "Guida affidabile",
-        "aiPowered": "Analisi potenziata dall'AI",
+        "aiPowered": "In breve",
         "humanReviewed": "Revisionato da umani",
         "regularlyUpdated": "Aggiornato regolarmente",
         "moreAbout": "Altro su {destination}",

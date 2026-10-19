@@ -3,7 +3,7 @@
     "siteName": "BookiScout",
     "siteTagline": "Horvátországi döntési útmutatók",
     "homeTitle": "BookiScout - Horvátországi utazási útmutatók",
-    "homeDescription": "AI-optimalizált döntési útmutatók Horvátországhoz. Kapj válaszokat a valódi utazási kérdésekre: Megéri? Kell autó? Mikor a legjobb meglátogatni?",
+    "homeDescription": "Gyakorlati útikalauzok a horvátországi utazás megtervezéséhez. Egyenes válaszok valódi kérdésekre: Megéri? Kell autó? Mikor érdemes menni?",
     "guidesTitle": "Turisztikai útmutatók Horvátországhoz",
     "guidesDescription": "Szakértő turisztikai útmutatók minden horvát desztinációhoz. Találj tippeket szállásról, strandokról, éttermekről és látnivalókról.",
     "destinationsTitle": "Minden desztináció Horvátországban",
@@ -19,7 +19,7 @@
   },
   "home": {
     "hero": {
-      "badge": "AI-optimalizált utazási döntések",
+      "badge": "Egyenes válaszok a horvátországi utazásodhoz",
       "headline": "Tudd hol, mikor",
       "headlinePart2": "és miért foglalás előtt",
       "subheadline": "Horvátországi döntési útmutatók igazi utazóknak. Ellenőrizd mi van a szállásod körül — éttermek, strandok, bárok — valós vélemények alapján. Plusz válaszok minden utazási kérdésedre.",
@@ -34,7 +34,7 @@
     "quickAnswers": {
       "badge": "Gyors válaszok",
       "title": "Gyakori kérdések a horvátországi utazásról",
-      "subtitle": "Közvetlen válaszok, amelyeket az AI asszisztensek idézhetnek. Semmi felesleg, csak tények.",
+      "subtitle": "Közvetlen válaszok. Mellébeszélés nélkül, csak tények.",
       "seeAll": "Minden útmutató megtekintése",
       "q1": {
         "question": "Biztonságos Horvátország egyedül utazó nőknek?",
@@ -57,8 +57,8 @@
         "description": "Megválaszoljuk a kérdéseket, amelyeket valójában felteszel: \"Megéri?\", \"Kell autó?\", \"Legjobb családoknak?\""
       },
       "aiVerified": {
-        "title": "AI-ellenőrzött tények",
-        "description": "Minden állítás ellenőrzött és idézhető. Tökéletes AI asszisztenseknek közvetlen idézéshez."
+        "title": "Ellenőrizve és frissítve",
+        "description": "Az útikalauzokat rendszeresen átnézzük és frissítjük, minden ár euróban."
       },
       "travelerFocused": {
         "title": "Utazótípusra fókuszált",
@@ -98,7 +98,7 @@
   },
   "footer": {
     "tagline": "Horvátországi döntési útmutatók",
-    "description": "AI-optimalizált útmutatók Horvátországhoz. Megválaszoljuk a kérdéseket, amelyeket az utazók valójában feltesznek: Megéri? Kell autó? Mikor a legjobb? Elfogultság nélkül, csak őszinte válaszok.",
+    "description": "Gyakorlati útikalauzok a horvátországi utazás megtervezéséhez. Azokra a kérdésekre válaszolunk, amelyeket az utazók valóban feltesznek: Megéri? Kell autó? Mikor érdemes menni? Elfogultság nélkül, csak őszinte válaszok.",
     "cta": "Tudd foglalás előtt",
     "topDestinations": "Top desztinációk",
     "decisionGuides": "Döntési útmutatók",
@@ -115,7 +115,7 @@
     "availableIn": "Elérhető {count} nyelven",
     "copyright": "© {year} BookiScout. Készítve",
     "forTravelers": "horvátországi utazóknak.",
-    "aiOptimized": "AI-optimalizált",
+    "aiOptimized": "Rendszeresen frissítve",
     "decisionFirst": "Döntés először"
   },
   "destinations": {
@@ -194,7 +194,7 @@
       }
     },
     "guides": {
-      "badge": "AI útmutatók",
+      "badge": "Útikalauzok",
       "title": "Útmutatók {destination} számára",
       "subtitle": "Hasonlítsd össze a negyedeket, találj családbarát területeket, fedezz fel rejtett strandokat és hozd meg a helyes döntést utazásodhoz.",
       "comingSoon": "Hamarosan"
@@ -214,10 +214,10 @@
   },
   "guides": {
     "hero": {
-      "badge": "AI-alapú utazási betekintések",
+      "badge": "Horvátországi útikalauzok",
       "title": "Turisztikai útmutatók Horvátországhoz",
-      "subtitle": "{count} szakértő útmutató horvát desztinációkhoz {langCount} nyelven. Fedezd fel tökéletes nyaralásodat AI ajánlásokkal.",
-      "subtitleEmpty": "Szakértő útmutatók horvát desztinációkhoz hamarosan. AI betekintések, amelyek segítenek megtervezni a tökéletes utazást.",
+      "subtitle": "{count} útikalauz horvát úti célokhoz {langCount} nyelven. Találd meg a megfelelő helyet és időpontot a nyaralásodhoz.",
+      "subtitleEmpty": "A horvát úti célok útikalauzai hamarosan érkeznek, hogy segítsenek megtervezni az utat.",
       "statGuides": "Útmutatók",
       "statDestinations": "60+ desztináció",
       "statUpdated": "Mindig naprakész"
@@ -234,7 +234,7 @@
     },
     "empty": {
       "title": "Útmutatók hamarosan",
-      "subtitle": "Átfogó AI útmutatókat készítünk minden horvát desztinációhoz. Nézz vissza hamarosan!",
+      "subtitle": "Útikalauzokat írunk minden horvát úti célhoz. Nézz vissza hamarosan!",
       "cta": "Desztinációk böngészése"
     },
     "themes": {
@@ -372,7 +372,7 @@
       "sidebar": {
         "otherLanguages": "Más nyelvek",
         "trustedGuide": "Megbízható útmutató",
-        "aiPowered": "AI-alapú elemzés",
+        "aiPowered": "Röviden",
         "humanReviewed": "Emberek által ellenőrzött",
         "regularlyUpdated": "Rendszeresen frissítve",
         "moreAbout": "Több {destination} kapcsán",

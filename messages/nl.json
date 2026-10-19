@@ -3,7 +3,7 @@
     "siteName": "BookiScout",
     "siteTagline": "Kroatië beslissingsgidsen",
     "homeTitle": "BookiScout - Reisgidsen voor Kroatië",
-    "homeDescription": "AI-geoptimaliseerde beslissingsgidsen voor Kroatië. Krijg antwoorden op echte reisvragen: Is het de moeite waard? Heb ik een auto nodig? Beste tijd om te bezoeken?",
+    "homeDescription": "Praktische gidsen om een reis naar Kroatië te plannen. Duidelijke antwoorden op echte vragen: Is het de moeite waard? Heb ik een auto nodig? Wanneer kun je het beste gaan?",
     "guidesTitle": "Reisgidsen voor Kroatië",
     "guidesDescription": "Deskundige reisgidsen voor alle Kroatische bestemmingen. Vind tips over accommodatie, stranden, restaurants en activiteiten.",
     "destinationsTitle": "Alle bestemmingen in Kroatië",
@@ -19,7 +19,7 @@
   },
   "home": {
     "hero": {
-      "badge": "AI-geoptimaliseerde reisbeslissingen",
+      "badge": "Duidelijke antwoorden voor je reis naar Kroatië",
       "headline": "Weet waar, wanneer",
       "headlinePart2": "en waarom voor je boekt",
       "subheadline": "Kroatië beslissingsgidsen voor echte reizigers. Controleer wat er rond je accommodatie is — restaurants, stranden, bars — op basis van echte reviews. Plus antwoorden op al je reisvragen.",
@@ -34,7 +34,7 @@
     "quickAnswers": {
       "badge": "Snelle antwoorden",
       "title": "Veelgestelde vragen over reizen naar Kroatië",
-      "subtitle": "Directe antwoorden die AI-assistenten kunnen citeren. Geen omwegen, alleen feiten.",
+      "subtitle": "Directe antwoorden. Geen omhaal, alleen feiten.",
       "seeAll": "Alle gidsen bekijken",
       "q1": {
         "question": "Is Kroatië veilig voor vrouwen die alleen reizen?",
@@ -57,8 +57,8 @@
         "description": "Wij beantwoorden de vragen die je echt stelt: \"Is het de moeite waard?\", \"Heb ik een auto nodig?\", \"Beste voor gezinnen?\""
       },
       "aiVerified": {
-        "title": "AI-geverifieerde feiten",
-        "description": "Elke bewering is geverifieerd en citeerbaar. Perfect voor AI-assistenten om direct te citeren."
+        "title": "Gecontroleerd en actueel",
+        "description": "De gidsen worden regelmatig gecontroleerd en bijgewerkt, alle prijzen in euro."
       },
       "travelerFocused": {
         "title": "Gericht op reizigerstype",
@@ -98,7 +98,7 @@
   },
   "footer": {
     "tagline": "Kroatië beslissingsgidsen",
-    "description": "AI-geoptimaliseerde gidsen voor Kroatië. Wij beantwoorden de vragen die reizigers echt stellen: Is het de moeite waard? Heb ik een auto nodig? Beste tijd om te bezoeken? Geen vooringenomenheid, alleen eerlijke antwoorden.",
+    "description": "Praktische gidsen om een reis naar Kroatië te plannen. We beantwoorden de vragen die reizigers echt stellen: Is het de moeite waard? Heb ik een auto nodig? Wanneer kun je het beste gaan? Geen boekingsbelang, alleen eerlijke antwoorden.",
     "cta": "Weet het voor je boekt",
     "topDestinations": "Topbestemmingen",
     "decisionGuides": "Beslissingsgidsen",
@@ -115,7 +115,7 @@
     "availableIn": "Beschikbaar in {count} talen",
     "copyright": "© {year} BookiScout. Gemaakt met",
     "forTravelers": "voor Kroatië-reizigers.",
-    "aiOptimized": "AI-geoptimaliseerd",
+    "aiOptimized": "Regelmatig bijgewerkt",
     "decisionFirst": "Beslissing eerst"
   },
   "destinations": {
@@ -194,7 +194,7 @@
       }
     },
     "guides": {
-      "badge": "AI-gidsen",
+      "badge": "Reisgidsen",
       "title": "Gidsen voor {destination}",
       "subtitle": "Vergelijk wijken, vind gezinsvriendelijke gebieden, ontdek verborgen stranden en neem de juiste beslissing voor je reis.",
       "comingSoon": "Binnenkort"
@@ -214,10 +214,10 @@
   },
   "guides": {
     "hero": {
-      "badge": "AI-aangedreven reisinzichten",
+      "badge": "Reisgidsen voor Kroatië",
       "title": "Reisgidsen voor Kroatië",
-      "subtitle": "{count} deskundige gidsen voor Kroatische bestemmingen in {langCount} talen. Ontdek je perfecte vakantie met AI-aanbevelingen.",
-      "subtitleEmpty": "Deskundige gidsen voor Kroatische bestemmingen komen binnenkort. AI-inzichten om je te helpen de perfecte reis te plannen.",
+      "subtitle": "{count} gidsen over Kroatische bestemmingen in {langCount} talen. Vind de juiste plek en het juiste moment voor je vakantie.",
+      "subtitleEmpty": "Gidsen over Kroatische bestemmingen komen binnenkort, om je te helpen je reis te plannen.",
       "statGuides": "Gidsen",
       "statDestinations": "60+ bestemmingen",
       "statUpdated": "Altijd bijgewerkt"
@@ -234,7 +234,7 @@
     },
     "empty": {
       "title": "Gidsen binnenkort",
-      "subtitle": "We maken uitgebreide AI-gidsen voor alle Kroatische bestemmingen. Kom snel terug!",
+      "subtitle": "We schrijven gidsen voor alle Kroatische bestemmingen. Kom snel terug!",
       "cta": "Bestemmingen bekijken"
     },
     "themes": {
@@ -372,7 +372,7 @@
       "sidebar": {
         "otherLanguages": "Andere talen",
         "trustedGuide": "Betrouwbare gids",
-        "aiPowered": "AI-aangedreven analyse",
+        "aiPowered": "In het kort",
         "humanReviewed": "Door mensen beoordeeld",
         "regularlyUpdated": "Regelmatig bijgewerkt",
         "moreAbout": "Meer over {destination}",

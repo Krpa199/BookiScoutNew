@@ -3,7 +3,7 @@
     "siteName": "BookiScout",
     "siteTagline": "Vodiči za odluke o Hrvatskoj",
     "homeTitle": "BookiScout - Vodiči za putovanja po Hrvatskoj",
-    "homeDescription": "AI-optimizirani vodiči za odluke o Hrvatskoj. Dobijte odgovore na prava pitanja: Isplati li se? Trebam li auto? Najbolje vrijeme za posjet?",
+    "homeDescription": "Praktični vodiči za planiranje putovanja u Hrvatsku. Jasni odgovori na prava pitanja: Isplati li se? Trebam li auto? Kada je najbolje vrijeme za posjet?",
     "guidesTitle": "Turistički vodiči za Hrvatsku",
     "guidesDescription": "Stručni turistički vodiči za sve hrvatske destinacije. Pronađite savjete o smještaju, plažama, restoranima i aktivnostima.",
     "destinationsTitle": "Sve destinacije u Hrvatskoj",
@@ -19,7 +19,7 @@
   },
   "home": {
     "hero": {
-      "badge": "AI-optimizirane odluke za putovanje",
+      "badge": "Jasni odgovori za vaše putovanje u Hrvatsku",
       "headline": "Saznajte gdje, kada",
       "headlinePart2": "i zašto prije rezervacije",
       "subheadline": "Vodiči za odluke o Hrvatskoj za prave putnike. Provjerite što se nalazi oko vašeg smještaja — restorani, plaže, barovi — na temelju stvarnih recenzija. Plus odgovori na sva vaša pitanja o putovanju.",
@@ -34,7 +34,7 @@
     "quickAnswers": {
       "badge": "Brzi odgovori",
       "title": "Česta pitanja o putovanju u Hrvatsku",
-      "subtitle": "Izravni odgovori koje AI asistenti mogu citirati. Bez okolišanja, samo činjenice.",
+      "subtitle": "Izravni odgovori. Bez okolišanja, samo činjenice.",
       "seeAll": "Pogledaj sve vodiče",
       "q1": {
         "question": "Je li Hrvatska sigurna za solo putnice?",
@@ -57,8 +57,8 @@
         "description": "Odgovaramo na pitanja koja zapravo postavljate: \"Isplati li se?\", \"Trebam li auto?\", \"Najbolje za obitelji?\""
       },
       "aiVerified": {
-        "title": "AI-provjerene činjenice",
-        "description": "Svaka tvrdnja je provjerena i citabilna. Savršeno za AI asistente da direktno citiraju."
+        "title": "Provjereno i ažurirano",
+        "description": "Vodiči se redovito pregledavaju i ažuriraju, a sve cijene su u eurima."
       },
       "travelerFocused": {
         "title": "Fokus na tip putnika",
@@ -98,7 +98,7 @@
   },
   "footer": {
     "tagline": "Vodiči za odluke o Hrvatskoj",
-    "description": "AI-optimizirani vodiči za Hrvatsku. Odgovaramo na pitanja koja putnici zapravo postavljaju: Isplati li se? Trebam li auto? Najbolje vrijeme za posjet? Bez pristrane promocije, samo iskreni odgovori.",
+    "description": "Praktični vodiči za planiranje putovanja u Hrvatsku. Odgovaramo na pitanja koja putnici stvarno postavljaju: Isplati li se? Trebam li auto? Kada je najbolje vrijeme za posjet? Bez pristranosti, samo iskreni odgovori.",
     "cta": "Saznajte prije rezervacije",
     "topDestinations": "Top destinacije",
     "decisionGuides": "Vodiči za odluke",
@@ -115,7 +115,7 @@
     "availableIn": "Dostupno na {count} jezika",
     "copyright": "© {year} BookiScout. Napravljeno s",
     "forTravelers": "za putnike u Hrvatskoj.",
-    "aiOptimized": "AI-optimizirano",
+    "aiOptimized": "Redovito ažurirano",
     "decisionFirst": "Odluke na prvom mjestu"
   },
   "destinations": {
@@ -194,7 +194,7 @@
       }
     },
     "guides": {
-      "badge": "AI vodiči",
+      "badge": "Vodiči",
       "title": "Vodiči za {destination}",
       "subtitle": "Usporedite četvrti, pronađite područja prikladna za obitelji, otkrijte skrivene plaže i donesite pravu odluku za svoje putovanje.",
       "comingSoon": "Uskoro"
@@ -214,10 +214,10 @@
   },
   "guides": {
     "hero": {
-      "badge": "AI-podržani uvidi za putovanje",
+      "badge": "Turistički vodiči za Hrvatsku",
       "title": "Turistički vodiči za Hrvatsku",
-      "subtitle": "{count} stručnih vodiča za hrvatske destinacije na {langCount} jezika. Otkrijte svoj savršeni odmor uz AI preporuke.",
-      "subtitleEmpty": "Stručni vodiči za hrvatske destinacije uskoro dolaze. AI uvidi koji vam pomažu planirati savršeno putovanje.",
+      "subtitle": "{count} vodiča za hrvatske destinacije na {langCount} jezika. Pronađite pravo mjesto i pravo vrijeme za svoj odmor.",
+      "subtitleEmpty": "Vodiči za hrvatske destinacije uskoro stižu kako bi vam pomogli isplanirati putovanje.",
       "statGuides": "Vodiči",
       "statDestinations": "60+ destinacija",
       "statUpdated": "Uvijek ažurirano"
@@ -234,7 +234,7 @@
     },
     "empty": {
       "title": "Vodiči uskoro",
-      "subtitle": "Kreiramo sveobuhvatne AI vodiče za sve hrvatske destinacije. Vratite se uskoro!",
+      "subtitle": "Pišemo vodiče za sve hrvatske destinacije. Svratite uskoro!",
       "cta": "Pregledaj destinacije"
     },
     "themes": {
@@ -372,7 +372,7 @@
       "sidebar": {
         "otherLanguages": "Drugi jezici",
         "trustedGuide": "Pouzdani vodič",
-        "aiPowered": "AI-podržana analiza",
+        "aiPowered": "Ukratko",
         "humanReviewed": "Pregledano od strane ljudi",
         "regularlyUpdated": "Redovito ažurirano",
         "moreAbout": "Više o {destination}",

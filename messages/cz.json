@@ -3,7 +3,7 @@
     "siteName": "BookiScout",
     "siteTagline": "Průvodci pro rozhodování o Chorvatsku",
     "homeTitle": "BookiScout - Cestovní průvodci po Chorvatsku",
-    "homeDescription": "AI-optimalizované průvodce pro rozhodování o Chorvatsku. Získejte odpovědi na skutečné cestovní otázky: Vyplatí se to? Potřebuji auto? Nejlepší doba pro návštěvu?",
+    "homeDescription": "Praktičtí průvodci pro plánování cesty do Chorvatska. Jasné odpovědi na skutečné otázky: Vyplatí se to? Potřebuji auto? Kdy je nejlepší doba k návštěvě?",
     "guidesTitle": "Turistické průvodce po Chorvatsku",
     "guidesDescription": "Odborné turistické průvodce pro všechny chorvatské destinace. Najděte tipy na ubytování, pláže, restaurace a aktivity.",
     "destinationsTitle": "Všechny destinace v Chorvatsku",
@@ -19,7 +19,7 @@
   },
   "home": {
     "hero": {
-      "badge": "AI-optimalizovaná cestovní rozhodnutí",
+      "badge": "Jasné odpovědi pro vaši cestu do Chorvatska",
       "headline": "Vědět kde, kdy",
       "headlinePart2": "a proč před rezervací",
       "subheadline": "Průvodce pro rozhodování o Chorvatsku pro skutečné cestovatele. Zkontrolujte co je kolem vašeho ubytování — restaurace, pláže, bary — na základě skutečných recenzí. Plus odpovědi na všechny vaše cestovatelské otázky.",
@@ -34,7 +34,7 @@
     "quickAnswers": {
       "badge": "Rychlé odpovědi",
       "title": "Časté otázky o cestování do Chorvatska",
-      "subtitle": "Přímé odpovědi, které AI asistenti mohou citovat. Bez keců, jen fakta.",
+      "subtitle": "Přímé odpovědi. Žádná vata, jen fakta.",
       "seeAll": "Zobrazit všechny průvodce",
       "q1": {
         "question": "Je Chorvatsko bezpečné pro ženy cestující samy?",
@@ -57,8 +57,8 @@
         "description": "Odpovídáme na otázky, které skutečně pokládáte: \"Vyplatí se to?\", \"Potřebuji auto?\", \"Nejlepší pro rodiny?\""
       },
       "aiVerified": {
-        "title": "AI-ověřená fakta",
-        "description": "Každé tvrzení je ověřeno a citovatelné. Perfektní pro AI asistenty k přímému citování."
+        "title": "Ověřeno a aktuální",
+        "description": "Průvodce pravidelně kontrolujeme a aktualizujeme, všechny ceny jsou v eurech."
       },
       "travelerFocused": {
         "title": "Zaměření na typ cestovatele",
@@ -98,7 +98,7 @@
   },
   "footer": {
     "tagline": "Průvodci pro rozhodování o Chorvatsku",
-    "description": "AI-optimalizované průvodce pro Chorvatsko. Odpovídáme na otázky, které cestovatelé skutečně pokládají: Vyplatí se to? Potřebuji auto? Nejlepší doba pro návštěvu? Bez zaujatosti, jen upřímné odpovědi.",
+    "description": "Praktičtí průvodci pro plánování cesty do Chorvatska. Odpovídáme na otázky, které cestovatelé opravdu kladou: Vyplatí se to? Potřebuji auto? Kdy je nejlepší doba k návštěvě? Bez zaujatosti, jen upřímné odpovědi.",
     "cta": "Vědět před rezervací",
     "topDestinations": "Top destinace",
     "decisionGuides": "Průvodci pro rozhodování",
@@ -115,7 +115,7 @@
     "availableIn": "Dostupné v {count} jazycích",
     "copyright": "© {year} BookiScout. Vytvořeno s",
     "forTravelers": "pro cestovatele do Chorvatska.",
-    "aiOptimized": "AI-optimalizované",
+    "aiOptimized": "Pravidelně aktualizováno",
     "decisionFirst": "Rozhodování nejdříve"
   },
   "destinations": {
@@ -194,7 +194,7 @@
       }
     },
     "guides": {
-      "badge": "AI průvodce",
+      "badge": "Průvodci",
       "title": "Průvodce pro {destination}",
       "subtitle": "Porovnejte čtvrti, najděte oblasti vhodné pro rodiny, objevte skryté pláže a udělejte správné rozhodnutí pro svou cestu.",
       "comingSoon": "Brzy"
@@ -214,10 +214,10 @@
   },
   "guides": {
     "hero": {
-      "badge": "AI-poháněné cestovní vhledy",
+      "badge": "Cestovní průvodci po Chorvatsku",
       "title": "Turistické průvodce po Chorvatsku",
-      "subtitle": "{count} odborných průvodců pro chorvatské destinace v {langCount} jazycích. Objevte svou perfektní dovolenou s AI doporučeními.",
-      "subtitleEmpty": "Odborné průvodce pro chorvatské destinace brzy přijdou. AI vhledy, které vám pomohou naplánovat perfektní cestu.",
+      "subtitle": "{count} průvodců po chorvatských destinacích v {langCount} jazycích. Najděte správné místo a správný čas pro svou dovolenou.",
+      "subtitleEmpty": "Průvodci po chorvatských destinacích brzy přibudou a pomohou vám naplánovat cestu.",
       "statGuides": "Průvodce",
       "statDestinations": "60+ destinací",
       "statUpdated": "Vždy aktuální"
@@ -234,7 +234,7 @@
     },
     "empty": {
       "title": "Průvodce brzy",
-      "subtitle": "Vytváříme komplexní AI průvodce pro všechny chorvatské destinace. Vraťte se brzy!",
+      "subtitle": "Píšeme průvodce pro všechny chorvatské destinace. Vraťte se brzy!",
       "cta": "Prohlížet destinace"
     },
     "themes": {
@@ -372,7 +372,7 @@
       "sidebar": {
         "otherLanguages": "Další jazyky",
         "trustedGuide": "Důvěryhodný průvodce",
-        "aiPowered": "AI-poháněná analýza",
+        "aiPowered": "Ve zkratce",
         "humanReviewed": "Kontrolováno lidmi",
         "regularlyUpdated": "Pravidelně aktualizováno",
         "moreAbout": "Více o {destination}",

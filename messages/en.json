@@ -3,7 +3,7 @@
     "siteName": "BookiScout",
     "siteTagline": "Croatia Decision Guides",
     "homeTitle": "BookiScout - Croatia Travel Decision Guides",
-    "homeDescription": "AI-optimized decision guides for Croatia. Get answers to real travel questions: Is it worth it? Do I need a car? Best time to visit?",
+    "homeDescription": "Practical guides for planning a trip to Croatia. Straight answers to real travel questions: Is it worth it? Do I need a car? When is the best time to visit?",
     "guidesTitle": "Travel Guides for Croatia",
     "guidesDescription": "Expert travel guides for all Croatian destinations. Find tips on apartments, beaches, restaurants, and things to do.",
     "destinationsTitle": "All Destinations in Croatia",
@@ -19,7 +19,7 @@
   },
   "home": {
     "hero": {
-      "badge": "AI-Optimized Travel Decisions",
+      "badge": "Straight answers for your Croatia trip",
       "headline": "Know Where, When",
       "headlinePart2": "& Why Before You Book",
       "subheadline": "Croatia decision guides for real travelers. Check what's around your accommodation — restaurants, beaches, bars — based on real reviews. Plus answers to all your travel questions.",
@@ -34,7 +34,7 @@
     "quickAnswers": {
       "badge": "Quick Answers",
       "title": "Common Croatia Travel Questions",
-      "subtitle": "Direct answers AI assistants can cite. No fluff, just facts.",
+      "subtitle": "Direct answers. No fluff, just facts.",
       "seeAll": "See all decision guides",
       "q1": {
         "question": "Is Croatia safe for solo female travelers?",
@@ -57,8 +57,8 @@
         "description": "We answer the questions you actually ask: \"Is it worth it?\", \"Do I need a car?\", \"Best for families?\""
       },
       "aiVerified": {
-        "title": "AI-Verified Facts",
-        "description": "Every claim is fact-checked and citable. Perfect for AI assistants to quote directly."
+        "title": "Checked and updated",
+        "description": "Guides are reviewed and updated regularly, with prices in euros."
       },
       "travelerFocused": {
         "title": "Traveler-Type Focused",
@@ -98,7 +98,7 @@
   },
   "footer": {
     "tagline": "Croatia Decision Guides",
-    "description": "AI-optimized decision guides for Croatia. We answer the questions travelers actually ask: Is it worth it? Do I need a car? Best time to visit? No booking bias, just honest answers.",
+    "description": "Practical guides for planning a trip to Croatia. We answer the questions travelers actually ask: Is it worth it? Do I need a car? When is the best time to visit? No booking bias, just honest answers.",
     "cta": "Know Before You Book",
     "topDestinations": "Top Destinations",
     "decisionGuides": "Decision Guides",
@@ -115,7 +115,7 @@
     "availableIn": "Available in {count} languages",
     "copyright": "© {year} BookiScout. Made with",
     "forTravelers": "for Croatia travelers.",
-    "aiOptimized": "AI-Optimized",
+    "aiOptimized": "Regularly updated",
     "decisionFirst": "Decision-First"
   },
   "destinations": {
@@ -198,7 +198,7 @@
       "subtitle": "Beaches, restaurants, parking, noise & real scores for families, couples and solo travelers"
     },
     "guides": {
-      "badge": "AI-Powered Guides",
+      "badge": "Travel guides",
       "title": "Travel Guides for {destination}",
       "subtitle": "Compare neighborhoods, find family-friendly areas, discover hidden beaches, and make the right decision for your trip.",
       "comingSoon": "Coming Soon"
@@ -218,10 +218,10 @@
   },
   "guides": {
     "hero": {
-      "badge": "AI-Powered Travel Insights",
+      "badge": "Croatia travel guides",
       "title": "Croatia Travel Guides",
-      "subtitle": "{count} expert guides for Croatian destinations in {langCount} languages. Discover your perfect vacation with AI-powered recommendations.",
-      "subtitleEmpty": "Expert guides for Croatian destinations coming soon. AI-powered insights to help you plan your perfect trip.",
+      "subtitle": "{count} guides to Croatian destinations in {langCount} languages. Find the right place and the right time for your holiday.",
+      "subtitleEmpty": "Guides to Croatian destinations are coming soon, to help you plan your trip.",
       "statGuides": "Guides",
       "statDestinations": "60+ Destinations",
       "statUpdated": "Always Updated"
@@ -238,7 +238,7 @@
     },
     "empty": {
       "title": "Guides Coming Soon",
-      "subtitle": "We're creating comprehensive AI-powered travel guides for all Croatian destinations. Check back soon!",
+      "subtitle": "We're writing travel guides for every Croatian destination. Check back soon!",
       "cta": "Browse Destinations"
     },
     "themes": {
@@ -376,7 +376,7 @@
       "sidebar": {
         "otherLanguages": "Other Languages",
         "trustedGuide": "Trusted Guide",
-        "aiPowered": "AI-Powered Analysis",
+        "aiPowered": "At a glance",
         "humanReviewed": "Human Reviewed",
         "regularlyUpdated": "Regularly Updated",
         "moreAbout": "More about {destination}",
