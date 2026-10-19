@@ -30,38 +30,7 @@
     }
   ],
   "quickAnswer": "Parkiranje v Dubrovniku je drago in težko, še posebej blizu starega mesta. Najbolj zanesljiva možnost je javna garaža Ilijina Glavica (€7-€10/uro). Ulično parkiranje je conirano (€2-€10/uro). Najboljša strategija je rezervacija apartmaja z vključenim zasebnim parkiriščem, da se izognete visokim stroškom in stresu.",
-  "tableData": [
-    {
-      "name": "Villa Adria View",
-      "price": "€250-€450/noč",
-      "rating": "4.9★",
-      "distance": "1.2 km do starega mesta"
-    },
-    {
-      "name": "Lapad Sunset Apartments",
-      "price": "€180-€300/noč",
-      "rating": "4.8★",
-      "distance": "3.5 km do starega mesta"
-    },
-    {
-      "name": "Old Town Proximity Studio",
-      "price": "€220-€380/noč",
-      "rating": "4.7★",
-      "distance": "800m do starega mesta"
-    },
-    {
-      "name": "Babin Kuk Garden Flat",
-      "price": "€150-€250/noč",
-      "rating": "4.6★",
-      "distance": "4.5 km do starega mesta"
-    },
-    {
-      "name": "Gruž Harbor Hideaway",
-      "price": "€170-€280/noč",
-      "rating": "4.7★",
-      "distance": "2.5 km do starega mesta"
-    }
-  ],
+  "tableData": [],
   "imageUrl": "https://images.pexels.com/photos/13629582/pexels-photo-13629582.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   "imageAlt": "Front view of an Alfa Romeo parked in a modern underground garage, illuminated by cool lighting.",
   "imageCredit": "Adrian Regeci",

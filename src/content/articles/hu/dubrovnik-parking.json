@@ -30,38 +30,7 @@
     }
   ],
   "quickAnswer": "A parkolás Dubrovnikban drága és nehézkes, különösen az Óváros közelében. A legmegbízhatóbb lehetőség az Ilijina Glavica nyilvános garázs (€7-€10/óra). Az utcai parkolás zónákra osztott (€2-€10/óra). A legjobb stratégia, ha olyan apartmant foglal, amely tartalmazza a privát parkolást, hogy elkerülje a magas költségeket és a stresszt.",
-  "tableData": [
-    {
-      "name": "Villa Adria View",
-      "price": "€250-€450/éj",
-      "rating": "4.9★",
-      "distance": "1.2 km az Óvároshoz"
-    },
-    {
-      "name": "Lapad Sunset Apartments",
-      "price": "€180-€300/éj",
-      "rating": "4.8★",
-      "distance": "3.5 km az Óvároshoz"
-    },
-    {
-      "name": "Old Town Proximity Studio",
-      "price": "€220-€380/éj",
-      "rating": "4.7★",
-      "distance": "800m az Óvároshoz"
-    },
-    {
-      "name": "Babin Kuk Garden Flat",
-      "price": "€150-€250/éj",
-      "rating": "4.6★",
-      "distance": "4.5 km az Óvároshoz"
-    },
-    {
-      "name": "Gruž Harbor Hideaway",
-      "price": "€170-€280/éj",
-      "rating": "4.7★",
-      "distance": "2.5 km az Óvároshoz"
-    }
-  ],
+  "tableData": [],
   "imageUrl": "https://images.pexels.com/photos/13629582/pexels-photo-13629582.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   "imageAlt": "Front view of an Alfa Romeo parked in a modern underground garage, illuminated by cool lighting.",
   "imageCredit": "Adrian Regeci",

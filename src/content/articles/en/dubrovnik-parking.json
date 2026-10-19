@@ -30,38 +30,7 @@
     }
   ],
   "quickAnswer": "Parking in Dubrovnik is expensive and difficult, especially near the Old Town. The most reliable option is the Ilijina Glavica public garage (€7-€10/hour). Street parking is zoned (€2-€10/hour). The best strategy is booking an apartment with included private parking to avoid high costs and stress.",
-  "tableData": [
-    {
-      "name": "Villa Adria View",
-      "price": "€250-€450/night",
-      "rating": "4.9★",
-      "distance": "1.2 km to Old Town"
-    },
-    {
-      "name": "Lapad Sunset Apartments",
-      "price": "€180-€300/night",
-      "rating": "4.8★",
-      "distance": "3.5 km to Old Town"
-    },
-    {
-      "name": "Old Town Proximity Studio",
-      "price": "€220-€380/night",
-      "rating": "4.7★",
-      "distance": "800m to Old Town"
-    },
-    {
-      "name": "Babin Kuk Garden Flat",
-      "price": "€150-€250/night",
-      "rating": "4.6★",
-      "distance": "4.5 km to Old Town"
-    },
-    {
-      "name": "Gruž Harbor Hideaway",
-      "price": "€170-€280/night",
-      "rating": "4.7★",
-      "distance": "2.5 km to Old Town"
-    }
-  ],
+  "tableData": [],
   "imageUrl": "https://images.pexels.com/photos/13629582/pexels-photo-13629582.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   "imageAlt": "Front view of an Alfa Romeo parked in a modern underground garage, illuminated by cool lighting.",
   "imageCredit": "Adrian Regeci",

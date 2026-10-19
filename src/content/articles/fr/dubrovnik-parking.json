@@ -30,38 +30,7 @@
     }
   ],
   "quickAnswer": "Le stationnement à Dubrovnik est cher et difficile, surtout près de la vieille ville. L'option la plus fiable est le garage public Ilijina Glavica (7 € - 10 €/heure). Le stationnement dans la rue est zoné (2 € - 10 €/heure). La meilleure stratégie est de réserver un appartement avec parking privé inclus pour éviter les coûts élevés et le stress.",
-  "tableData": [
-    {
-      "name": "Villa Adria View",
-      "price": "250 € - 450 €/nuit",
-      "rating": "4.9★",
-      "distance": "1.2 km de la vieille ville"
-    },
-    {
-      "name": "Lapad Sunset Apartments",
-      "price": "180 € - 300 €/nuit",
-      "rating": "4.8★",
-      "distance": "3.5 km de la vieille ville"
-    },
-    {
-      "name": "Old Town Proximity Studio",
-      "price": "220 € - 380 €/nuit",
-      "rating": "4.7★",
-      "distance": "800m de la vieille ville"
-    },
-    {
-      "name": "Babin Kuk Garden Flat",
-      "price": "150 € - 250 €/nuit",
-      "rating": "4.6★",
-      "distance": "4.5 km de la vieille ville"
-    },
-    {
-      "name": "Gruž Harbor Hideaway",
-      "price": "170 € - 280 €/nuit",
-      "rating": "4.7★",
-      "distance": "2.5 km de la vieille ville"
-    }
-  ],
+  "tableData": [],
   "imageUrl": "https://images.pexels.com/photos/13629582/pexels-photo-13629582.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   "imageAlt": "Front view of an Alfa Romeo parked in a modern underground garage, illuminated by cool lighting.",
   "imageCredit": "Adrian Regeci",

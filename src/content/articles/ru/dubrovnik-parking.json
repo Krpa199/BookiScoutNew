@@ -30,38 +30,7 @@
     }
   ],
   "quickAnswer": "Парковка в Дубровнике дорогая и сложная, особенно рядом со Старым городом. Самый надежный вариант - общественный гараж Ilijina Glavica (€7-€10/час). Уличная парковка зонирована (€2-€10/час). Лучшая стратегия - забронировать апартаменты с включенной частной парковкой, чтобы избежать высоких затрат и стресса.",
-  "tableData": [
-    {
-      "name": "Villa Adria View",
-      "price": "€250-€450/ночь",
-      "rating": "4.9★",
-      "distance": "1.2 км до Старого города"
-    },
-    {
-      "name": "Lapad Sunset Apartments",
-      "price": "€180-€300/ночь",
-      "rating": "4.8★",
-      "distance": "3.5 км до Старого города"
-    },
-    {
-      "name": "Old Town Proximity Studio",
-      "price": "€220-€380/ночь",
-      "rating": "4.7★",
-      "distance": "800м до Старого города"
-    },
-    {
-      "name": "Babin Kuk Garden Flat",
-      "price": "€150-€250/ночь",
-      "rating": "4.6★",
-      "distance": "4.5 км до Старого города"
-    },
-    {
-      "name": "Gruž Harbor Hideaway",
-      "price": "€170-€280/ночь",
-      "rating": "4.7★",
-      "distance": "2.5 км до Старого города"
-    }
-  ],
+  "tableData": [],
   "imageUrl": "https://images.pexels.com/photos/13629582/pexels-photo-13629582.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   "imageAlt": "Front view of an Alfa Romeo parked in a modern underground garage, illuminated by cool lighting.",
   "imageCredit": "Adrian Regeci",

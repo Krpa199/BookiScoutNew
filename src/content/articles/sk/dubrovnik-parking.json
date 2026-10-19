@@ -30,38 +30,7 @@
     }
   ],
   "quickAnswer": "Parkovanie v Dubrovníku je drahé a náročné, najmä v blízkosti Starého Mesta. Najspoľahlivejšou možnosťou je verejná garáž Ilijina Glavica (€7-€10/hodina). Parkovanie na ulici je zónované (€2-€10/hodina). Najlepšia stratégia je rezervovať si apartmán s bezplatným súkromným parkovaním, aby ste sa vyhli vysokým nákladom a stresu.",
-  "tableData": [
-    {
-      "name": "Villa Adria View",
-      "price": "€250-€450/noc",
-      "rating": "4.9★",
-      "distance": "1.2 km do Starého Mesta"
-    },
-    {
-      "name": "Lapad Sunset Apartments",
-      "price": "€180-€300/noc",
-      "rating": "4.8★",
-      "distance": "3.5 km do Starého Mesta"
-    },
-    {
-      "name": "Old Town Proximity Studio",
-      "price": "€220-€380/noc",
-      "rating": "4.7★",
-      "distance": "800m do Starého Mesta"
-    },
-    {
-      "name": "Babin Kuk Garden Flat",
-      "price": "€150-€250/noc",
-      "rating": "4.6★",
-      "distance": "4.5 km do Starého Mesta"
-    },
-    {
-      "name": "Gruž Harbor Hideaway",
-      "price": "€170-€280/noc",
-      "rating": "4.7★",
-      "distance": "2.5 km do Starého Mesta"
-    }
-  ],
+  "tableData": [],
   "imageUrl": "https://images.pexels.com/photos/13629582/pexels-photo-13629582.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   "imageAlt": "Front view of an Alfa Romeo parked in a modern underground garage, illuminated by cool lighting.",
   "imageCredit": "Adrian Regeci",

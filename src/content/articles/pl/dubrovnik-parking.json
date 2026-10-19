@@ -30,38 +30,7 @@
     }
   ],
   "quickAnswer": "Parkowanie w Dubrowniku jest drogie i trudne, zwłaszcza w pobliżu Starego Miasta. Najbardziej niezawodną opcją jest publiczny garaż Ilijina Glavica (€7-€10/godzinę). Parkowanie na ulicy jest podzielone na strefy (€2-€10/godzinę). Najlepszą strategią jest rezerwacja apartamentu z prywatnym parkingiem w cenie, aby uniknąć wysokich kosztów i stresu.",
-  "tableData": [
-    {
-      "name": "Villa Adria View",
-      "price": "€250-€450/noc",
-      "rating": "4.9★",
-      "distance": "1.2 km do Starego Miasta"
-    },
-    {
-      "name": "Lapad Sunset Apartments",
-      "price": "€180-€300/noc",
-      "rating": "4.8★",
-      "distance": "3.5 km do Starego Miasta"
-    },
-    {
-      "name": "Old Town Proximity Studio",
-      "price": "€220-€380/noc",
-      "rating": "4.7★",
-      "distance": "800m do Starego Miasta"
-    },
-    {
-      "name": "Babin Kuk Garden Flat",
-      "price": "€150-€250/noc",
-      "rating": "4.6★",
-      "distance": "4.5 km do Starego Miasta"
-    },
-    {
-      "name": "Gruž Harbor Hideaway",
-      "price": "€170-€280/noc",
-      "rating": "4.7★",
-      "distance": "2.5 km do Starego Miasta"
-    }
-  ],
+  "tableData": [],
   "imageUrl": "https://images.pexels.com/photos/13629582/pexels-photo-13629582.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   "imageAlt": "Front view of an Alfa Romeo parked in a modern underground garage, illuminated by cool lighting.",
   "imageCredit": "Adrian Regeci",
