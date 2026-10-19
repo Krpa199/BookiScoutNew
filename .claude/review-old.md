@@ -34,7 +34,10 @@ if another article of the same destination already uses the same imageUrl
 (search src/content/articles/en/ for that imageUrl with the Grep tool), find
 a different correct one: `npx tsx scripts/find-commons-image.ts "<Place>"`, look at
 2–3 candidates, apply with `--apply <slug> <n> "<same search>" --alt "<text>"`
-(that updates all 13 languages).
+(that updates all 13 languages). Priority: right place first, then not
+repeated. For small places with few photos a neutral on-topic photo (no
+identifiable other place) is fine, and keeping a correct repeated photo is
+better than a wrong or poor one.
 
 ## 2. Carry every English fix into the 12 translations
 

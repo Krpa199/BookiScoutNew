@@ -39,9 +39,13 @@ The cover must show the article's own place (for "X vs Y": X; for "stay
 nearby": the main town). It is copied to all translations, so fix it here.
 
 1. If there is no `imageUrl`, run `npx tsx scripts/add-missing-covers.ts <slug>`.
-2. The cover must not be one another article already uses
+2. The cover should not be one another article already uses
    (search src/content/articles/en/ for that imageUrl with the Grep tool); if it is,
-   treat it as rejected (step 3).
+   look for a different one (step 3). Order of priority: (a) the right place,
+   (b) not used elsewhere. Small places (Fažana, Biograd, Rabac) have few
+   photos: then a neutral on-topic photo with no identifiable other place
+   (a local dish, a pebble beach, a parking sign) is fine, and reusing a
+   correct photo is better than a wrong place or a poor photo.
    Look at the cover yourself: `curl -sL -A "Mozilla/5.0" "<imageUrl>" -o /tmp/<slug>.jpg`,
    open it with the Read tool, and read `imageAlt`. Reject it if it shows
    another identifiable place (another town, island or landmark; boat
