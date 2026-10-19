@@ -48,6 +48,18 @@ function saveTracker(tracker: GeneratedTracker) {
   fs.renameSync(tempFile, TRACKING_FILE);
 }
 
+// Covers already used by any article: a new article never gets one of these,
+// so two guides about the same place don't show the same photo side by side.
+function usedCoverUrls(): Set<string> {
+  const dir = path.join(CONTENT_DIR, 'en');
+  const used = new Set<string>();
+  if (!fs.existsSync(dir)) return used;
+  for (const f of fs.readdirSync(dir)) {
+    try { const u = JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')).imageUrl; if (u) used.add(u); } catch { /* skip */ }
+  }
+  return used;
+}
+
 function saveArticle(article: ArticleData, language: LanguageCode, destination: Destination, theme: Theme) {
   const langDir = path.join(CONTENT_DIR, language);
   ensureDirectoryExists(langDir);
@@ -199,7 +211,7 @@ export async function generateDailyArticles(count: number = 10) {
       console.log(`  ├─ Finding stock image...`);
       let imageData = null;
       try {
-        imageData = await getArticleImage(theme, destination.slug);
+        imageData = await getArticleImage(theme, destination.slug, { excludeUrls: usedCoverUrls() });
         if (imageData) {
           console.log(`  │  ✅ Found validated image from ${imageData.imageSource}`);
         } else {
@@ -364,7 +376,7 @@ export async function generateSingleArticle(
   console.log(`  ├─ Finding stock image...`);
   let imageData = null;
   try {
-    imageData = await getArticleImage(theme, destination.slug);
+    imageData = await getArticleImage(theme, destination.slug, { excludeUrls: usedCoverUrls() });
     if (imageData) {
       console.log(`  │  ✅ Found validated image from ${imageData.imageSource}`);
     } else {

@@ -39,7 +39,10 @@ The cover must show the article's own place (for "X vs Y": X; for "stay
 nearby": the main town). It is copied to all translations, so fix it here.
 
 1. If there is no `imageUrl`, run `npx tsx scripts/add-missing-covers.ts <slug>`.
-2. Look at the cover yourself: `curl -sL -A "Mozilla/5.0" "<imageUrl>" -o /tmp/<slug>.jpg`,
+2. The cover must not be one another article already uses
+   (search src/content/articles/en/ for that imageUrl with the Grep tool); if it is,
+   treat it as rejected (step 3).
+   Look at the cover yourself: `curl -sL -A "Mozilla/5.0" "<imageUrl>" -o /tmp/<slug>.jpg`,
    open it with the Read tool, and read `imageAlt`. Reject it if it shows
    another identifiable place (another town, island or landmark; boat
    registration letters such as "CS" = Cres, "UM" = Umag give it away), an

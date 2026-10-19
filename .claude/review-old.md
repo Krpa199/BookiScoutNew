@@ -29,8 +29,10 @@ shorten articles, and leave the intro sentence about "insights from hundreds
 of traveler reviews" as it is (the owner decided to keep it).
 
 Look at the cover too (`curl -sL -A "Mozilla/5.0" "<imageUrl>" -o /tmp/<slug>.jpg`,
-then Read it). If it clearly shows another place or something unrelated, find
-a correct one: `npx tsx scripts/find-commons-image.ts "<Place>"`, look at
+then Read it). If it clearly shows another place or something unrelated, or
+if another article of the same destination already uses the same imageUrl
+(search src/content/articles/en/ for that imageUrl with the Grep tool), find
+a different correct one: `npx tsx scripts/find-commons-image.ts "<Place>"`, look at
 2–3 candidates, apply with `--apply <slug> <n> "<same search>" --alt "<text>"`
 (that updates all 13 languages).
 

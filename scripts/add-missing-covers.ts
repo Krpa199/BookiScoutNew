@@ -22,8 +22,11 @@ async function main() {
     .map(f => JSON.parse(fs.readFileSync(path.join(enDir, f), 'utf8')))
     .filter(a => (only.length ? only.includes(a.slug) : !a.imageUrl));
   console.log(`${todo.length} article(s) need a cover`);
+  // never reuse a cover another article already shows
+  const used = new Set(fs.readdirSync(enDir).map(f => JSON.parse(fs.readFileSync(path.join(enDir, f), 'utf8')).imageUrl).filter(Boolean));
   for (const a of todo) {
-    const img = await getArticleImage(a.theme, a.destination);
+    const img = await getArticleImage(a.theme, a.destination, { excludeUrls: used });
+    if (img) used.add(img.imageUrl);
     if (!img) { console.log(`  ⚠️ ${a.slug}: still no image`); continue; }
     for (const lang of fs.readdirSync(DIR)) {
       const f = path.join(DIR, lang, `${a.slug}.json`);
