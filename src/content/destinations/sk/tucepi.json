@@ -1,146 +1,146 @@
 {
-  "title": "Tučepi Potovalni vodnik: Plaže, parkiranje in kje bivati",
-  "metaDescription": "Načrtujte potovanje v Tučepe z našim informativnim vodnikom. Odkrijte najboljše soseske, nasvete za parkiranje, prodnate plaže in poti iz Srednje Evrope.",
-  "intro": "Tučepi je obmorsko mesto na Makarski rivieri, znano po najdaljši neprekinjeni prodnati plaži v regiji. Obalni pas, ki se razteza štiri kilometre, je obdan z borovo senčno promenado in strmimi apnenčastimi pečinami gorovja Biokovo. Privablja predvsem družine in pare, ki iščejo počitnice v letoviškem stilu z neposrednim dostopom do plaže, preprostimi ugodnostmi in poudarkom na sprostitvi ob morju namesto ogledovanja zgodovinskih znamenitosti.\n\nMesto je večinoma zgrajeno pod obalno avtocesto D8, zaradi česar so obalna območja zelo primerna za sprehajanje in večinoma ločena od tranzitnega prometa. Poletje prinaša goste množice in najvišje cene, zaradi česar sta junij in september optimalna meseca za kopanje z manj obiskovalci. Tisti, ki prispejo z avtomobilom, bodo ugotovili, da je parkiranje omejeno in iskano, zato je priporočljiva namestitev z lastnimi zasebnimi parkirnimi mesti.",
+  "title": "Sprievodca po Tučepi: pláže, parkovanie a ubytovanie",
+  "metaDescription": "Naplánujte si cestu do Tučepi s naším vecným sprievodcom. Objavte najlepšie štvrte, tipy na parkovanie, štrkové pláže a trasy zo strednej Európy.",
+  "intro": "Tučepi je pobrežné mestečko na Makarskej riviére, známe najdlhšou súvislou štrkovou plážou v regióne. Pobrežie sa tiahne na štyri kilometre, za ktorými sa rozprestiera promenáda v tieni borovíc a strmé vápencové útesy pohoria Biokovo. Lákavé je najmä pre rodiny a páry, ktoré hľadajú oddych v štýle letoviska s priamym prístupom na pláž, jednoduchými službami a dôrazom na relax pri mori, nie na pamiatky.\n\nMesto je väčšinou postavené pod pobrežnou cestou D8, vďaka čomu sú pobrežné časti veľmi pešo prístupné a z veľkej časti oddelené od tranzitnej dopravy. V lete sa tu sústredia husté davy a vysoké ceny, preto sú jún a september ideálnymi mesiacmi na kúpanie s menším počtom návštevníkov. Tí, ktorí prichádzajú autom, zistia, že parkovanie je vzácne, a preto sa oplatí vybrať ubytovanie s vlastným parkovacím miestom.",
   "quickFacts": [
     {
-      "label": "Najboljši meseci",
-      "value": "Junij in september (toplo morje, manj množice)"
+      "label": "Najlepšie mesiace",
+      "value": "jún a september (teplé more, menej turistov)"
     },
     {
-      "label": "Temperatura morja avgusta",
-      "value": "25°C do 27°C"
+      "label": "Teplota mora v auguste",
+      "value": "25 °C až 27 °C"
     },
     {
-      "label": "Najbližje letališče",
+      "label": "Najbližšie letisko",
       "value": "Split (SPU), 83 km"
     },
     {
-      "label": "Glavna vrsta plaže",
-      "value": "Neprekinjena 4 km prodnata plaža"
+      "label": "Hlavný typ pláže",
+      "value": "Súvislá štrková pláž, 4 km"
     },
     {
-      "label": "Raven cen",
-      "value": "Nekoliko nad hrvaškim povprečjem"
+      "label": "Cenová úroveň",
+      "value": "mierne nad chorvátskym priemerom"
     },
     {
-      "label": "Primernost za hojo",
-      "value": "Zelo primerna za hojo, obalna promenada brez avtomobilov"
+      "label": "Pešia dostupnosť",
+      "value": "veľmi dobrá, pobrežná promenáda bez áut"
     }
   ],
   "areas": [
     {
-      "name": "Kraj (center in marina)",
-      "bestFor": "Pare in tiste, ki prihajajo prvič",
-      "parking": "Plačljiva občinska parkirišča, zelo omejeno",
-      "beach": "Neposredno na plaži Kraj",
-      "summary": "Živahno središče Tučepov okoli marine, polno restavracij, kavarn in izletniških ladij. To je najudobnejše območje, če želite imeti vse na dosegu roke, vendar je poleti tudi najbolj živahno in hrupno."
+      "name": "Kraj (centrum a marina)",
+      "bestFor": "páry a prvonávštevníci",
+      "parking": "platené mestské parkoviská, veľmi obmedzené",
+      "beach": "priamo na pláži Kraj",
+      "summary": "rušné centrum Tučepi okolo mariny, plné reštaurácií, kaviarní a výletných lodí. Je to najpohodlnejšia štvrť, ak chcete mať všetko na dosah, no v lete je zároveň najrušnejšia a najhlučnejšia."
     },
     {
       "name": "Slatina",
-      "bestFor": "Družine z otroki",
-      "parking": "Velika hotelska parkirišča, lažje kot v centru",
-      "beach": "Plaža Slatina (široka, plitva prodnata)",
-      "summary": "Nahaja se v zahodnem delu mesta. Slatino zaznamujejo veliki družinski resorti in športni center Slatina. Plaža je tukaj zelo široka, senčena z borovci, in ponuja številne vodne športe ter napihljiva igrišča."
+      "bestFor": "rodiny s deťmi",
+      "parking": "veľké hotelové parkoviská, jednoduchšie ako v centre",
+      "beach": "pláž Slatina (široká, plytká, so štrkom)",
+      "summary": "Slatina leží v západnej časti mesta a charakterizujú ju veľké rodinné hotely a Športové centrum Slatina. Pláž je tu veľmi široká, tienená borovicami, a ponúka množstvo vodných športov a nafukovacích detských ihrísk."
     },
     {
       "name": "Kamena",
-      "bestFor": "Pare in tiste, ki iščejo mir",
-      "parking": "Zasebno parkirišče za apartmaje je običajno na voljo",
-      "beach": "Plaža Kamena (tišja, blizu poti Nugal)",
-      "summary": "Najbolj vzhodna soseska Tučepov, ki ponuja bolj sproščeno vzdušje stran od glavnih množic v marini. Je bližje gozdni poti, ki vodi do naturistične plaže Nugal."
+      "bestFor": "páry a tí, ktorí hľadajú pokoj",
+      "parking": "zvyčajne zabezpečené súkromné parkovanie pri apartmánoch",
+      "beach": "pláž Kamena (tichšia, pri chodníku na Nugal)",
+      "summary": "Najvýchodnejšia štvrť Tučepi ponúka uvoľnenejšiu atmosféru ďaleko od hlavných davov pri marine. Je bližšie k lesnej cestičke vedúcej na naturistickú pláž Nugal."
     },
     {
       "name": "Gornji Tučepi",
-      "bestFor": "Tisti, ki želijo mir, razglede in imajo avto",
-      "parking": "Enostavno in brezplačno pri vilah",
-      "beach": "5-6 km vožnje navzdol po gori",
-      "summary": "Zgodovinska zgornja vas, ki se nahaja v podnožju gore Biokovo. Ponaša se s tradicionalnimi kamnitimi hišami, oljčnimi nasadi in panoramskimi pogledi na Jadran, kot nalašč za miren oddih."
+      "bestFor": "tí, ktorí chcú pokoj, výhľady a majú auto",
+      "parking": "jednoduché a bezplatné pri vilách",
+      "beach": "5 – 6 km jazdy dolu horou",
+      "summary": "Historická horná dedina ležiaca na úpätí hory Biokovo. Vyznačuje sa tradičnými kamennými domami, olivovými hájmi a panoramatickými výhľadmi na Jadran, ideálna na tiché pobyty."
     }
   ],
   "gettingThere": [
     {
-      "from": "München",
-      "car": "~860 km, 9-10 ur preko A8, A10 (Tauern), Karavanke in hrvaške A1; potrebna AT vinjeta, SLO vinjeta in HR cestnina",
-      "other": "Direkten let do Splita (SPU), nato 1,5-urna vožnja z avtobusom ali taksijem"
+      "from": "Mníchov",
+      "car": "~860 km, 9 – 10 hodín cez diaľnice A8, A10 (Tauern), Karavanky a chorvátsku A1; vyžaduje rakúsku diaľničnú známku, slovinskú diaľničnú známku a chorvátske mýto",
+      "other": "Priamy let do Splitu (SPU), potom 1,5-hodinový autobus alebo taxík"
     },
     {
-      "from": "Dunaj",
-      "car": "~740 km, 7,5-8,5 ur preko A2, Gradca, Maribora in hrvaške A1; potrebni AT in SLO vinjeti ter HR cestnina",
-      "other": "Direkten let ali FlixBus do Splita, nato lokalni avtobus"
+      "from": "Viedeň",
+      "car": "~740 km, 7,5 – 8,5 hodiny cez A2, Gratz, Maribor a chorvátsku A1; vyžaduje rakúsku a slovinskú diaľničnú známku a chorvátske mýto",
+      "other": "Priamy let alebo autobus FlixBus do Splitu, potom miestny autobus"
     },
     {
-      "from": "Budimpešta",
-      "car": "~770 km, 7,5-8 ur preko M7, Letenja in hrvaške A4/A1; potrebna HU vinjeta in HR cestnina",
-      "other": "Poletni nočni vlak ali FlixBus do Splita, nato lokalni prevoz"
+      "from": "Budapešť",
+      "car": "~770 km, 7,5 – 8 hodín cez M7, Letenye a chorvátsku A4/A1; vyžaduje maďarskú diaľničnú známku a chorvátske mýto",
+      "other": "Letný nočný vlak alebo autobus FlixBus do Splitu, potom miestny prestup"
     },
     {
-      "from": "Ljubljana",
-      "car": "~540 km, 5,5-6,5 ur preko Novega mesta, Bosiljeva in hrvaške A1; potrebna SLO vinjeta in HR cestnina",
-      "other": "Direkten FlixBus do Makarske ali Tučepov"
+      "from": "Ľubľana",
+      "car": "~540 km, 5,5 – 6,5 hodiny cez Novo Mesto, Bosiljevo a chorvátsku A1; vyžaduje slovinskú diaľničnú známku a chorvátske mýto",
+      "other": "Priamy autobus FlixBus do Makarskej alebo Tučepi"
     },
     {
-      "from": "Praga",
-      "car": "~1.070 km, 11-12 ur preko Dunaja, Maribora in hrvaške A1; potrebne CZ, AT in SLO vinjete ter HR cestnina",
-      "other": "Let do Splita (Smartwings) ali vlak RegioJet do Splita"
+      "from": "Praha",
+      "car": "~1 070 km, 11 – 12 hodín cez Viedeň, Maribor a chorvátsku A1; vyžaduje českú, rakúsku a slovinskú diaľničnú známku a chorvátske mýto",
+      "other": "Let do Splitu (Smartwings) alebo vlak RegioJet do Splitu"
     },
     {
       "from": "Krakov",
-      "car": "~1.100 km, 11,5-12,5 ur preko Slovaške, Madžarske (M7) in hrvaške A1; potrebne SK in HU vinjete ter HR cestnina",
-      "other": "Let iz Krakova ali Katowic do Splita, nato avtobus do Tučepov"
+      "car": "~1 100 km, 11,5 – 12,5 hodiny cez Slovensko, Maďarsko (M7) a chorvátsku A1; vyžaduje slovenskú a maďarskú diaľničnú známku a chorvátske mýto",
+      "other": "Let z Krakova alebo Katovíc do Splitu, potom autobus do Tučepi"
     }
   ],
-  "whenToGo": "Poletje prevladuje v Tučepih. Julij in avgust prinašata najtoplejše vreme, najvišje temperature morja od 25°C do 27°C, najvišje cene in goste množice vzdolž promenade. Junij in september ponujata najboljše ravnovesje tople vode za kopanje, več prostora na plažah in nekoliko nižje cene namestitev. Od oktobra do aprila je mesto izjemno mirno; večina sezonskih hotelov, restavracij in barov na plaži se zapre za zimo, ostane le nekaj bistvenih storitev odprtih za domačine.",
+  "whenToGo": "V Tučepi dominuje leto. Júl a august prinášajú najteplejšie počasie, teploty mora až 25 °C až 27 °C, najvyššie ceny a husté davy na promenáde. Jún a september ponúkajú najlepšiu kombináciu teplej vody na kúpanie, väčšieho priestoru na plážach a mierne nižších cien ubytovania. Od októbra do apríla je mesto mimoriadne tiché; väčšina sezónnych hotelov, reštaurácií a pláž­nych barov sa na zimu zatvára a otvorených zostáva len zopár základných služieb pre miestnych obyvateľov.",
   "faq": [
     {
-      "question": "Ali je Tučepi vreden obiska?",
-      "answer": "Da, vreden je obiska, če želite počitnice v letoviškem stilu z dolgo, neprekinjeno prodnato plažo in gorskimi ozadji. Manj je primeren za tiste, ki iščejo zgodovinsko staro mestno jedro, saj je predvsem sodobna plažna destinacija."
+      "question": "Oplatí sa navštíviť Tučepi?",
+      "answer": "Áno, oplatí sa, ak hľadáte dovolenku v štýle letoviska s dlhou súvislou štrkovou plážou a horským pozadím. Menej je vhodné pre tých, ktorí hľadajú historické staré mesto, pretože ide hlavne o moderné plážové destinácie."
     },
     {
-      "question": "Koliko dni potrebujem v Tučepih?",
-      "answer": "Bivanje 5 do 7 dni je standardno za poletne počitnice na plaži. To omogoča dovolj časa za sprostitev ob morju, pohodništvo v Parku narave Biokovo in izlet z ladjo na bližnje otoke Brač ali Hvar."
+      "question": "Koľko dní potrebujem v Tučepi?",
+      "answer": "Pobyt 5 až 7 dní je pre letnú plážovú dovolenku štandardný. Stačí to na oddych pri mori, výlet po chránenej krajinnej oblasti Biokovo a plavbu loďou na blízke ostrovy Brač alebo Hvar."
     },
     {
-      "question": "Katera je najboljša plaža v Tučepih?",
-      "answer": "Glavna obala je bistvu ena dolga 4-kilometrska prodnata plaža. Plaža Slatina na zahodu je najboljša za družine zaradi svoje širine in borove sence, medtem ko je plaža Kamena na vzhodu tišja."
+      "question": "Aká je najlepšia pláž v Tučepi?",
+      "answer": "Hlavné pobrežie tvorí v podstate jedna dlhá 4-kilometrová štrková pláž. Pláž Slatina na západe je najvhodnejšia pre rodiny vďaka svojej šírke a tieňu borovíc, zatiaľ čo pláž Kamena na východe je tichšia."
     },
     {
-      "question": "Potrebujem avto v Tučepih?",
-      "answer": "Ne potrebujete avtomobila, če nameravate ostati ob plaži in uporabljati lokalne avtobuse ali ladje za izlete. Avto je zelo uporaben, če najemate vilo v Gornjih Tučepih ali želite samostojno raziskati širšo Makarsko riviero."
+      "question": "Potrebujem v Tučepi auto?",
+      "answer": "Auto nepotrebujete, ak plánujete zostať pri mori a na výlety využívať miestne autobusy alebo lode. Auto sa veľmi hodí, ak si prenajímate vilu v Gornjom Tučepi alebo chcete samostatne spoznávať širšiu Makarskú riviéru."
     },
     {
-      "question": "Kje lahko parkiram v Tučepih?",
-      "answer": "Parkiranje je v centru znano omejeno in drago, večinoma temelji na plačljivih občinskih parkiriščih ob avtocesti D8. Pred rezervacijo vedno preverite, ali vaša namestitev vključuje namensko parkirno mesto."
+      "question": "Kde môžem v Tučepi parkovať?",
+      "answer": "Parkovanie je v centre známe ako mimoriadne stiesnené a drahé, väčšinou sa spolieha na platené mestské parkoviská pozdĺž cesty D8. Pred rezerváciou vždy overte, či ubytovanie zahŕňa vyhradené parkovacie miesto."
     },
     {
-      "question": "Je Tučepi primeren za družine?",
-      "answer": "Da, Tučepi je ena najbolj družinam prijaznih destinacij na Makarski rivieri. Plaže imajo plitvo čisto vodo, 4-kilometrska promenada je ravna in primerna za vozičke, in na voljo so številna igrišča."
+      "question": "Je Tučepi vhodné pre rodiny?",
+      "answer": "Áno, Tučepi je jednou z najvhodnejších destinácií pre rodiny na Makarskej riviére. Pláže majú plytkú a čistú vodu, 4-kilometrová promenáda je rovinatá a vhodná aj pre kočíky a k dispozícii sú početné detské ihriská."
     }
   ],
   "headings": {
-    "quickFacts": "Na kratko",
-    "whereToStay": "Kje bivati v Tučepih",
-    "gettingThere": "Prihod v Tučepe",
-    "whenToGo": "Kdaj obiskati",
-    "guides": "Vodiči za Tučepe",
-    "faq": "Pogosta vprašanja o Tučepih",
+    "quickFacts": "Na prvý pohľad",
+    "whereToStay": "Kde bývať v Tučepi",
+    "gettingThere": "Ako sa dostať do Tučepi",
+    "whenToGo": "Kedy cestovať",
+    "guides": "Sprievodcovia po Tučepi",
+    "faq": "Časté otázky o Tučepi",
     "groups": {
-      "gettingAround": "Parkiranje in premikanje",
-      "planning": "Načrtovanje in kje bivati",
-      "timing": "Kdaj obiskati",
-      "travelers": "Družine, pari in načini potovanja",
-      "activities": "Plaže in stvari za početi",
-      "food": "Hrana in pijača",
-      "comparisons": "Primerjave",
-      "practical": "Praktične informacije"
+      "gettingAround": "Parkovanie a doprava na mieste",
+      "planning": "Plánovanie a ubytovanie",
+      "timing": "Kedy cestovať",
+      "travelers": "Rodiny, páry a štýly cestovania",
+      "activities": "Pláže a aktivity",
+      "food": "Jedlo a pitie",
+      "comparisons": "Porovnania",
+      "practical": "Praktické informácie"
     },
-    "car": "Z avtomobilom",
-    "other": "Druge možnosti",
-    "bestFor": "Najboljše za",
-    "parking": "Parkiranje",
-    "beach": "Plaža"
+    "car": "Autom",
+    "other": "Ostatné možnosti",
+    "bestFor": "Najvhodnejšie pre",
+    "parking": "Parkovanie",
+    "beach": "Pláž"
   },
   "destination": "tucepi",
   "language": "sk",
-  "updatedAt": "2026-10-16T13:31:17.751Z"
+  "updatedAt": "2026-10-19T11:44:36.004Z"
 }

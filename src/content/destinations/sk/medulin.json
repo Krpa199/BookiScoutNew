@@ -1,146 +1,146 @@
 {
-  "title": "Medulin Potovalni Vodnik: Plaže, Parkiranje in Kje Bivati",
-  "metaDescription": "Načrtujte svoje potovanje v Medulin z informacijami o voznih poteh, parkiranju, najboljših predelih in plažah. Odkrijte, kdaj obiskati in kje bivati na istrski obali.",
-  "intro": "Medulin je obalno mesto na južnem delu istrskega polotoka, predvsem primerno za družine in popotnike, ki iščejo enostavne počitnice na plaži. Nekoč tradicionalna ribiška vasica se je razvila v pomembno turistično središče, za katerega so značilni živahna obalna promenada, obsežni kampi in plitev peščen zaliv. Mesto služi bolj kot funkcionalna baza kot pa kulturna destinacija, s poudarkom na poletnem turizmu.\n\nObiskovalci, ki prihajajo z avtom iz Srednje Evrope, Medulin uporabljajo kot dostopno vstopno točko na Jadran, saj izkoriščajo njegovo bližino Pulju in zavarovanemu naravnemu rezervatu Kamenjak. Infrastruktura je zgrajena okoli poletne konice, kar pomeni, da destinacija deluje s polno zmogljivostjo od junija do začetka septembra, preden se pozimi vrne v miren, bivalni ritem.",
+  "title": "Sprievodca po Medulíne: pláže, parkovanie a kde sa ubytovať",
+  "metaDescription": "Naplánujte si pobyt v Medulíne vďaka informáciám o trasách dojazdu, parkovaní, najlepších oblastiach a plážach. Zistite, kedy navštíviť a kde sa ubytovať na istrijskom pobreží.",
+  "intro": "Medulín je pobrežné mestečko na južnom cípe Istrijského polostrova, ktoré je predovšetkým vhodné pre rodiny a cestovateľov, ktorí hľadajú jednoduchú dovolenku na pláži. Kedysi tradičná rybárska dedina sa vyvinula do významného turistického centra s rušnou nábrežnou promenádou, rozsiahlymi kempingmi a plytkou piesočnatou zátokou. Mesto slúži skôr ako praktická základňa než ako kultúrna destinácia a sústreďuje sa najmä na letnú turistiku.\n\nNávštevníci, ktorí cestujú zo strednej Európy, využívajú Medulín ako ľahko dostupný vstup k Jadranu, pričom výhodou je jeho blízkosť k Pule a chránenej prírodnej rezervácii mys Kamenjak. Infraštruktúra je postavená okolo letnej špičky, takže destinácia funguje na plnú kapacitu od júna do začiatku septembra a potom sa v zime vráti k pokojnému tempu obytnej obce.",
   "quickFacts": [
     {
-      "label": "Najboljši meseci",
-      "value": "Junij in september"
+      "label": "Najlepšie mesiace",
+      "value": "jún a september"
     },
     {
-      "label": "Temperatura morja v avgustu",
-      "value": "25°C do 27°C"
+      "label": "Teplota mora v auguste",
+      "value": "25 °C až 27 °C"
     },
     {
-      "label": "Najbližje letališče",
-      "value": "Letališče Pula (PUY), 13 km"
+      "label": "Najbližšie letisko",
+      "value": "letisko Pula (PUY), 13 km"
     },
     {
-      "label": "Glavni tip plaže",
-      "value": "Plitev pesek (Bijeca) in prod"
+      "label": "Hlavný typ pláže",
+      "value": "plytký piesok (Bijeca) a štrk"
     },
     {
-      "label": "Cenovni razred",
-      "value": "Povprečen za Istro, cenejši kot Rovinj"
+      "label": "Cenová úroveň",
+      "value": "priemerná pre Istriu, lacnejšie ako Rovinj"
     },
     {
-      "label": "Dostopnost središča mesta peš",
-      "value": "Središče dostopno peš, obalna promenada samo za pešce"
+      "label": "Pešia dostupnosť centra",
+      "value": "centrum dostupné pešo, pešia zóna pri mori"
     }
   ],
   "areas": [
     {
-      "name": "Bijeca & Obalna promenada",
-      "bestFor": "Družine z majhnimi otroki, ki si želijo takojšnjega dostopa do plaže.",
-      "parking": "Plačljiva občinska parkirišča; močan promet poleti.",
-      "beach": "Neposreden dostop do Bijeca (plitv pesek).",
-      "summary": "To je najbolj komercializirano območje, polno restavracij, stojnic s spominki in zabaviščnih naprav. Pričakujte veliko pešcev in hrup v vrhuncu poletnih mesecev."
+      "name": "Bijeca a nábrežná promenáda",
+      "bestFor": "Rodiny s malými deťmi, ktoré chcú mať okamžitý prístup na pláž.",
+      "parking": "Platené mestské parkoviská; v lete intenzívna doprava.",
+      "beach": "Priamy prístup na pláž Bijeca (plytký piesok).",
+      "summary": "Toto je najkomerčnejšia zóna, plná reštaurácií, stánkov so suvenírmi a atrakcií. V najvyťaženejších letných mesiacoch počítajte s veľkým množstvom ľudí a hlukom."
     },
     {
       "name": "Pošesi",
-      "bestFor": "Pari in družine, ki iščejo mirnejše bivanje.",
-      "parking": "Večina apartmajev in hotelov ponuja zasebno parkirišče.",
-      "beach": "100-300 metrov do Alba Chiara in Belvedere (prod/skale).",
-      "summary": "Novejša stanovanjska soseska na zahodnem robu Medulina, z modernimi apartmajskimi zgradbami in dostopom do čistejših prodnatih plaž. Še vedno je dosegljiva peš od glavne promenade."
+      "bestFor": "Páry a rodiny, ktoré hľadajú tichší pobyt.",
+      "parking": "Väčšina apartmánov a hotelov poskytuje súkromné parkovanie.",
+      "beach": "100 až 300 metrov k plážam Alba Chiara a Belvedere (štrk/skala).",
+      "summary": "Novšia obytná štvrť na západnom okraji Medulína s modernými bytovými domami a prístupom k čistejším štrkovým plážam. Stále je v pešej vzdialenosti od hlavnej promenády."
     },
     {
-      "name": "Staro mestno jedro Medulina (Na hribu)",
-      "bestFor": "Popotniki, ki dajejo prednost proračunu pred neposrednim dostopom do morja.",
-      "parking": "Ozke ulice z omejenim parkiranjem na ulici; preverite pri nastanitvi.",
-      "beach": "1 do 1,5 km sprehoda navzdol do Bijeca.",
-      "summary": "Zbrano okoli cerkve sv. Agneze, je zgodovinsko jedro mirnejše in manj turistično osredotočeno kot obalni pas. Ponuja nižje cene nastanitev, vendar zahteva hojo ali vožnjo do morja."
+      "name": "Staré mesto Medulín (na kopci)",
+      "bestFor": "Cestovatelia, ktorí uprednostňujú nižšie náklady pred priamym prístupom k moru.",
+      "parking": "Úzke ulice s obmedzeným parkovaním na ulici; informujte sa u ubytovateľa.",
+      "beach": "1 až 1,5 km pešo z kopca k pláži Bijeca.",
+      "summary": "Historické jadro sa točí okolo kostola svätej Agnesy. Je tichšie a menej turisticky orientované ako pobrežný pás. Ponúka nižšie ceny ubytovania, ale na cestu k moru treba ísť pešo alebo autom."
     },
     {
       "name": "Premantura",
-      "bestFor": "Ljubitelji narave, pohodniki in deskarji na veter.",
-      "parking": "Na voljo je brezplačno javno parkirišče, vendar vstop na Kamenjak za avtomobile zahteva cestnino.",
-      "beach": "1 do 3 km do razgibanih, naravnih skalnatih plaž na Kamenjaku.",
-      "summary": "Majhna vasica 10 km južno od Medulina, ki služi kot vstopna točka v naravni rezervat Kamenjak. Komercialne peščene plaže nadomešča z zaščitenimi borovimi gozdovi in dramatičnimi skalnatimi zalivi."
+      "bestFor": "Milovníci prírody, turisti a windsurfisti.",
+      "parking": "Bezplatné verejné parkovanie, ale vstup na mys Kamenjak je pre autá spoplatnený.",
+      "beach": "1 až 3 km k divokým, prírodným skalnatým plážam na Kamenjaku.",
+      "summary": "Malá dedina 10 km južne od Medulína, ktorá slúži ako brána do prírodnej rezervácie mys Kamenjak. Namiesto komerčných piesočnatých pláží tu nájdete chránené borovicové lesy a dramatické skalnaté zátoky."
     }
   ],
   "gettingThere": [
     {
-      "from": "München",
-      "car": "590 km, 6,5 ure preko A10 in slovenske A1. Zahteva avstrijsko in slovensko vinjeto, ter predore Tauern/Karavanke in hrvaške cestnine.",
-      "other": "Direkten sezonski let v Pulo ali direkten Flixbus."
+      "from": "Mníchov",
+      "car": "590 km, 6,5 hodiny cez diaľnicu A10 a slovinskú A1. Vyžaduje rakúske (AT) a slovinské (SI) diaľničné známky, ako aj mýto na tuneloch Tauern/Karawanken a chorvátske mýto (HR).",
+      "other": "Sezónny priamy let do Puly alebo priamy autobus Flixbus."
     },
     {
-      "from": "Dunaj",
-      "car": "510 km, 5,5 ure preko A2, Maribora in Ljubljane. Zahteva avstrijsko in slovensko vinjeto, ter hrvaške cestnine.",
-      "other": "Direkten sezonski let v Pulo ali direkten Flixbus."
+      "from": "Viedeň",
+      "car": "510 km, 5,5 hodiny cez diaľnicu A2, Maribor a Ľubľanu. Vyžaduje rakúske (AT) a slovinské (SI) diaľničné známky a chorvátske mýto (HR).",
+      "other": "Sezónny priamy let do Puly alebo priamy autobus Flixbus."
     },
     {
-      "from": "Budimpešta",
-      "car": "610 km, 6,5 ure preko M7, Zagreba in Reke. Zahteva madžarsko vinjeto in hrvaške cestnine.",
-      "other": "Direkten Flixbus ali vlak preko Zagreba."
+      "from": "Budapešť",
+      "car": "610 km, 6,5 hodiny cez diaľnicu M7, Záhreb a Rijeku. Vyžaduje maďarskú diaľničnú známku (HU) a chorvátske mýto (HR).",
+      "other": "Priamy autobus Flixbus alebo vlak cez Záhreb."
     },
     {
-      "from": "Ljubljana",
-      "car": "210 km, 2,5 ure preko A1 do Kopra in Istrskega ipsilona. Zahteva slovensko vinjeto in hrvaške cestnine.",
-      "other": "Direkten avtobus preko Flixbusa ali Nomago."
+      "from": "Ľubľana",
+      "car": "210 km, 2,5 hodiny cez diaľnicu A1 do Kopra a istrijskou diaľnicou Y. Vyžaduje slovinskú diaľničnú známku (SI) a chorvátske mýto (HR).",
+      "other": "Priamy autobus Flixbus alebo Nomago."
     },
     {
-      "from": "Praga",
-      "car": "850 km, 9,5 ure preko Linza, Salzburga in Ljubljane. Zahteva češko, avstrijsko, slovensko vinjeto, cestnine za predore in hrvaške cestnine.",
-      "other": "Let v Pulo preko Münchna/Frankfurta ali kombinacija vlak/avtobus RegioJet."
+      "from": "Praha",
+      "car": "850 km, 9,5 hodiny cez Linz, Salzburg a Ľubľanu. Vyžaduje české (CZ), rakúske (AT) a slovinské (SI) diaľničné známky, mýto na tuneloch a chorvátske mýto (HR).",
+      "other": "Let do Puly cez Mníchov alebo Frankfurt, alebo kombinácia vlaku a autobusu RegioJet."
     },
     {
       "from": "Krakov",
-      "car": "1000 km, 11 ur preko A4, Ostrave, Dunaja in Gradca. Zahteva poljske cestnine, češko, avstrijsko, slovensko vinjeto in hrvaške cestnine.",
-      "other": "Let v Pulo preko Varšave (LOT) ali sezonski leti Ryanair."
+      "car": "1000 km, 11 hodín cez diaľnicu A4, Ostravu, Viedeň a Graz. Vyžaduje poľské mýto, české (CZ), rakúske (AT) a slovinské (SI) diaľničné známky a chorvátske mýto (HR).",
+      "other": "Let do Puly cez Varšavu (LOT) alebo sezónne lety spoločnosti Ryanair."
     }
   ],
-  "whenToGo": "Sezona v Medulinu se v celoti vrti okoli poletnih mesecev. Junij prinaša prijetne dnevne temperature do 26°C in temperaturo morja 22°C, z vsemi restavracijami in turističnimi objekti popolnoma odprtimi, vendar brez vrhunske gneče. Julij in avgust sta najbolj prometna in najdražja meseca; morje doseže toplo temperaturo od 25°C do 27°C, plaže, še posebej Bijeca, pa postanejo izjemno polne. September se pogosto šteje za najboljši čas za obisk, saj ponuja nižje cene nastanitev, manj gneče in temperature morja, ki ostajajo prijetne za kopanje. Od konca oktobra do aprila se Medulin dejansko zapre, saj večina hotelov, kampov in obalnih podjetij popolnoma zapre svoja vrata za zimo.",
+  "whenToGo": "Sezóna v Medulíne sa úplne točí okolo letných mesiacov. Jún prináša príjemné denné teploty okolo 26 °C a teplotu mora 22 °C, pričom všetky reštaurácie a turistické zariadenia sú plne otvorené, ale bez vrcholného návalu ľudí. Júl a august sú najvyťaženejšie a najdrahšie mesiace; more sa ohreje na príjemných 25 °C až 27 °C a pláže, najmä Bijeca, sa výrazne zaplnia. September sa často považuje za najlepší čas na návštevu, pretože ponúka nižšie ceny ubytovania, menej ľudí a teploty mora, ktoré sú stále príjemné na kúpanie. Od konca októbra do apríla Medulín prakticky zamrie, pričom väčšina hotelov, kempov a podnikov pri mori na zimu úplne zatvára.",
   "faq": [
     {
-      "question": "Je Medulin vreden obiska?",
-      "answer": "Da, če potujete z majhnimi otroki ali iščete bazo blizu Kamenjaka. Njegova glavna privlačnost je plitva peščena plaža in bogata turistična infrastruktura, ne pa zgodovinski čar."
+      "question": "Oplatí sa navštíviť Medulín?",
+      "answer": "Áno, ak cestujete s malými deťmi alebo hľadáte základňu blízko mysu Kamenjak. Jeho hlavnou devízou je plytká piesočnatá pláž a bohatá turistická infraštruktúra, a nie historické pamiatky."
     },
     {
-      "question": "Koliko dni naj preživim v Medulinu?",
-      "answer": "Tri do pet dni je dovolj za raziskovanje mesta, preživljanje časa na plažah in enodnevni izlet na Kamenjak. Cel teden je običajen za družine, ki dajejo prednost sproščenim počitnicam na plaži."
+      "question": "Koľko dní by som mal stráviť v Medulíne?",
+      "answer": "Na prehliadku mesta, pobyt na pláži a výlet na mys Kamenjak stačia tri až päť dní. Pre rodiny, ktoré uprednostňujú pomalú dovolenku pri mori, je štandardom celý týždeň."
     },
     {
-      "question": "Katera je najboljša plaža v Medulinu?",
-      "answer": "Bijeca je najbolj znana po pesku in plitvem vstopu, zaradi česar je idealna za malčke. Za čistejšo vodo in manj gneče so prodnate plaže pri Belvedere in Alba Chiara boljše alternative."
+      "question": "Ktorá je najlepšia pláž v Medulíne?",
+      "answer": "Bijeca je najznámejšia vďaka piesku a plytkému vstupu do mora, takže je ideálna pre batoľatá. Pre čistejšiu vodu a menej ľudí sú lepšou alternatívou štrkové pláže Belvedere a Alba Chiara."
     },
     {
-      "question": "Potrebujem avto v Medulinu?",
-      "answer": "Avtomobila ne potrebujete, če nameravate ostati izključno v Medulinu, saj so plaže, supermarketi in restavracije dosegljivi peš. Vendar pa je avto zelo priporočljiv za raziskovanje bližnjega Pulja, Rovinja in plaž Kamenjaka."
+      "question": "Potrebujem v Medulíne auto?",
+      "answer": "Auto nepotrebujete, ak zostanete výhradne v Medulíne, pretože pláže, supermarkety a reštaurácie sú dostupné pešo. Auto sa však veľmi odporúča na výlety do blízkej Puly, Rovinja a na pláže mysu Kamenjak."
     },
     {
-      "question": "Kje lahko parkiram v Medulinu?",
-      "answer": "Medulin ima več velikih, plačljivih občinskih parkirnih con ob obali in blizu plaže Bijeca. Plačilo je obvezno v poletni sezoni in se lahko izvede preko uličnih avtomatov, SMS-a ali aplikacije za parkiranje PayDo."
+      "question": "Kde môžem v Medulíne parkovať?",
+      "answer": "Medulín má niekoľko veľkých platených mestských parkovacích zón pozdĺž nábrežia a v blízkosti pláže Bijeca. V letnej sezóne je potrebné platiť, a to cez parkovacie automaty na ulici, SMS alebo aplikáciu PayDo."
     },
     {
-      "question": "Je Medulin primeren za družine?",
-      "answer": "Da, Medulin na splošno velja za eno najbolj družinam prijaznih destinacij v Istri. 1 kilometer dolga peščena plaža Bijeca ponuja vodo do gležnjev, ki sega daleč v zaliv, mesto pa ponuja številna igrišča, zabaviščne parke in družinam prijazna letovišča."
+      "question": "Je Medulín vhodný pre rodiny?",
+      "answer": "Áno, Medulín sa všeobecne považuje za jednu z najprístupnejších destinácií pre rodiny v Istrii. Piesočnatý úsek pláže Bijeca dlhý 1 kilometer má vodu po kolená, ktorá sa ďaleko tiahne do zátoky, a mesto ponúka množstvo detských ihrísk, zábavných parkov a rodinne orientovaných rezortov."
     }
   ],
   "headings": {
-    "quickFacts": "Na kratko",
-    "whereToStay": "Kje bivati v Medulinu",
-    "gettingThere": "Pot do Medulina",
-    "whenToGo": "Kdaj obiskati",
-    "guides": "Medulinski vodniki",
-    "faq": "Pogosta vprašanja o Medulinu",
+    "quickFacts": "Na prvý pohľad",
+    "whereToStay": "Kde sa ubytovať v Medulíne",
+    "gettingThere": "Ako sa dostať do Medulína",
+    "whenToGo": "Kedy navštíviť",
+    "guides": "Sprievodcovia po Medulíne",
+    "faq": "Časté otázky o Medulíne",
     "groups": {
-      "gettingAround": "Parkiranje & premikanje po mestu",
-      "planning": "Načrtovanje & kje bivati",
-      "timing": "Kdaj obiskati",
-      "travelers": "Družine, pari & stili potovanja",
-      "activities": "Plaže & stvari za početi",
-      "food": "Hrana & pijača",
-      "comparisons": "Primerjave",
-      "practical": "Praktične informacije"
+      "gettingAround": "Parkovanie a doprava",
+      "planning": "Plánovanie a ubytovanie",
+      "timing": "Kedy navštíviť",
+      "travelers": "Rodiny, páry a štýly cestovania",
+      "activities": "Pláže a aktivity",
+      "food": "Jedlo a pitie",
+      "comparisons": "Porovnania",
+      "practical": "Praktické informácie"
     },
-    "car": "Z avtom",
-    "other": "Druge možnosti",
-    "bestFor": "Najboljše za",
-    "parking": "Parkiranje",
-    "beach": "Plaža"
+    "car": "Autom",
+    "other": "Ďalšie možnosti",
+    "bestFor": "Najvhodnejšie pre",
+    "parking": "Parkovanie",
+    "beach": "Pláž"
   },
   "destination": "medulin",
   "language": "sk",
-  "updatedAt": "2026-10-16T11:09:41.695Z"
+  "updatedAt": "2026-10-19T11:44:36.057Z"
 }

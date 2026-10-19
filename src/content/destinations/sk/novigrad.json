@@ -1,146 +1,146 @@
 {
-  "title": "Novigrad potovalni vodnik: Plaže, območja in poti z avtomobilom",
-  "metaDescription": "Načrtujte potovanje v Novigrad, Hrvaška. Odkrijte najboljše kraje za bivanje, poti z avtomobilom iz Evrope, nasvete za parkiranje in podrobnosti o plažah v tem istrskem mestu.",
-  "intro": "Novigrad privablja družine in pare, ki iščejo mirnejšo obalno destinacijo v Istri, saj se izogiba velikim množicam, značilnim za Rovinj ali Poreč. Ponaša se z ohranjenim zgodovinskim središčem, ki leži na majhnem polotoku, obsežnimi obalnimi promenadami ter čistimi prodnatimi in tlakovanimi plažami. Mesto služi kot priročna baza za raziskovanje severne Istre in bližnje doline reke Mirne.\n\nGlavna turistična sezona traja od konca junija do začetka septembra, ko so temperature morja tople in restavracije ter objekti v celoti delujejo. Pomlad in zgodnja jesen ponujata milejše vreme, primerno za kolesarjenje in raziskovanje istrske notranjosti, čeprav se številna obmorska podjetja zaprejo med novembrom in aprilom. Obiskovalci, ki pridejo poleti, bodo našli sproščeno vzdušje, osredotočeno na kulinariko in aktivnosti na prostem.",
+  "title": "Sprievodca po Novigrade: pláže, oblasti a trasy autom",
+  "metaDescription": "Naplánujte si cestu do Novigradu v Chorvátsku. Objavte najlepšie miesta na ubytovanie, trasy autom z Európy, tipy na parkovanie a informácie o plážach v tomto istrijskom mestečku.",
+  "intro": "Novigrad osloví rodiny aj páry, ktoré hľadajú pokojnejšiu pobrežnú destináciu v Istrii, bez hustého davu turistov typického pre Rovinj či Poreč. Má zachované historické centrum na malom polostrove, rozľahlé nábrežné promenády a čisté štrkové pláže aj betónové terasy pri mori. Mesto je pohodlným východiskom na spoznávanie severnej Istrie a neďalekého údolia rieky Mirna.\n\nHlavná turistická sezóna trvá od konca júna do začiatku septembra, keď je more teplé a všetky reštaurácie a zariadenia sú v plnej prevádzke. Jar a skorá jeseň ponúkajú miernejšie počasie vhodné na cyklistiku a objavovanie istrijského vnútrozemia, hoci mnohé pobrežné prevádzky sa medzi novembrom a aprílom zatvárajú. Návštevníci, ktorí prídu v lete, nájdu uvoľnenú atmosféru zameranú na stolovanie a aktivity pod holým nebom.",
   "quickFacts": [
     {
-      "label": "Najboljši meseci",
-      "value": "Junij do september"
+      "label": "Najlepšie mesiace",
+      "value": "jún až september"
     },
     {
-      "label": "Temperatura morja avgusta",
-      "value": "25°C - 27°C"
+      "label": "Teplota mora v auguste",
+      "value": "25 °C - 27 °C"
     },
     {
-      "label": "Najbližje letališče",
-      "value": "Pula (PUY), 75 km stran"
+      "label": "Najbližšie letisko",
+      "value": "Pula (PUY), 75 km"
     },
     {
-      "label": "Glavni tip plaže",
-      "value": "Prod, kamni in tlakovane terase"
+      "label": "Hlavný typ pláže",
+      "value": "Štrkové, skalnaté a betónové terasy"
     },
     {
-      "label": "Raven cen",
-      "value": "Povprečna za Istro, nekoliko nad hrvaškim povprečjem"
+      "label": "Cenová úroveň",
+      "value": "Priemer pre Istriu, mierne nad chorvátskym priemerom"
     },
     {
-      "label": "Dostopnost peš",
-      "value": "Staro mestno jedro je izjemno primerno za hojo in poleti večinoma brez avtomobilov"
+      "label": "Pešia dostupnosť",
+      "value": "Staré mesto je veľmi dobre prístupné pešo a v lete je väčšinou bez áut"
     }
   ],
   "areas": [
     {
-      "name": "Staro mestno jedro",
-      "bestFor": "Kulinarika, zgodovina in pari",
-      "parking": "Parkirati je treba zunaj centra na plačljivih parkiriščih",
-      "beach": "Tlakovane mestne plaže in Rivarela tik pred obzidjem",
-      "summary": "Zgodovinsko jedro leži na polotoku, obdanem s srednjeveškim obzidjem. Ponuja največjo koncentracijo restavracij in kavarn, vendar med turistično sezono omejuje dostop vozil."
+      "name": "Staré mesto",
+      "bestFor": "Stolovanie, história a páry",
+      "parking": "Parkovať musíte mimo centra na spoplatnených parkoviskách",
+      "beach": "Betónové mestské pláže a Rivarela tesne za hradbami",
+      "summary": "Historické jadro leží na polostrove obklopenom stredovekými hradbami. Ponúka najvyššiu koncentráciu reštaurácií a kaviarní, no počas turistickej sezóny obmedzuje vjazd vozidiel."
     },
     {
       "name": "Karpinjan",
-      "bestFor": "Družine in dostop do plaže",
-      "parking": "Brezplačno in plačljivo ulično parkiranje pri večini apartmajev",
-      "beach": "500-metrski odsek prodnate plaže s senco borovcev",
-      "summary": "Stanovanjska soseska, oddaljena 15 minut hoje severno od starega mestnega jedra. Ponuja priljubljeno, družinam prijazno prodnato plažo in mirne apartmaje."
+      "bestFor": "Rodiny a prístup k moru",
+      "parking": "Bezplatné a spoplatnené parkovanie pri ulici pri väčšine apartmánov",
+      "beach": "500 m dlhý štrkový úsek pláže v tieni borovíc",
+      "summary": "Obytná štvrť, ktorá sa nachádza 15-minútovou pešou chôdzou severne od starého mesta. Má obľúbenú štrkovú pláž vhodnú pre rodiny a pokojné apartmány na prenájom."
     },
     {
-      "name": "Območje Maestral & Sirena",
-      "bestFor": "Letoviške storitve, kampiranje in bazeni",
-      "parking": "Namensko parkirišče hotela in kampa",
-      "beach": "Modra zastava prodnate in tlakovane plaže na območju",
-      "summary": "Nahaja se južno od mestnega središča, to območje obvladujejo veliki hoteli in velik kamp. Ponuja urejene plažne objekte, bazene in športna igrišča."
+      "name": "Maestral a oblasť Sirena",
+      "bestFor": "Rezortné služby, kempovanie a bazény",
+      "parking": "Vyhradené parkoviská hotelov a kempu",
+      "beach": "Štrkové a betónové pláže s Modrou vlajkou priamo v areáli",
+      "summary": "Nachádza sa hneď južne od centra mesta a dominujú jej veľké hotely a veľký kemp. Ponúka organizované pláže, plavecké bazény a športové ihriská."
     },
     {
       "name": "Mareda",
-      "bestFor": "Narava, kampiranje in cenovno ugodna bivanja",
-      "parking": "Vključeno v počitniški park ali kamp",
-      "beach": "Kamnite in tlakovane plaže na območju",
-      "summary": "Nahaja se približno 4 kilometre severno od Novigrada, to območje sestavljajo predvsem velika počitniška vas in kamp. Obdano je z vinogradi, hrastovimi gozdovi in obalnimi potmi."
+      "bestFor": "Príroda, kempovanie a ubytovanie za priaznivú cenu",
+      "parking": "Zahrnuté v cene rekreačného areálu alebo kempu",
+      "beach": "Skalnaté a betónové pláže priamo v areáli",
+      "summary": "Nachádza sa asi 4 kilometre severne od Novigradu a pozostáva hlavne z veľkej rekreačnej dediny a kempu. Obklopujú ju vinice, dubové lesy a pobrežné chodníky."
     }
   ],
   "gettingThere": [
     {
-      "from": "Munich",
-      "car": "520 km, 6 ur preko A8, A10 (Tauern), Karavanškega predora, SI A2/A1. Cestnine: AT vinjeta, cestnine Tauern & Karavanke, SI vinjeta, HR cestnina.",
-      "other": "FlixBus direktno ali z enim postankom preko Ljubljane"
+      "from": "Mníchov",
+      "car": "520 km, 6 hodín cez A8, A10 (Tauern), Karavanský tunel, SI A2/A1. Mýto: rakúska diaľničná známka, mýto za tunely Tauern a Karavanky, slovinská diaľničná známka, chorvátske mýto.",
+      "other": "Priamy autobus FlixBus alebo s jedným prestupom cez Ľubľanu"
     },
     {
-      "from": "Vienna",
-      "car": "510 km, 5,5 ur preko A2, A9 do Gradca, SI A1 do Kopra. Cestnine: AT vinjeta, SI vinjeta, HR cestnina.",
-      "other": "Direktni FlixBus ali let v Pulo"
+      "from": "Viedeň",
+      "car": "510 km, 5,5 hodiny cez A2, A9 do Grazu, SI A1 do Kopra. Mýto: rakúska diaľničná známka, slovinská diaľničná známka, chorvátske mýto.",
+      "other": "Priamy autobus FlixBus alebo let do Puly"
     },
     {
-      "from": "Budapest",
-      "car": "600 km, 6 ur preko M7, A4 do Zagreba, A6 do Reke, Istrski ipsilon (A8/A9). Cestnine: HU vinjeta, HR cestnine.",
-      "other": "FlixBus ali vlak do Reke, nato lokalni avtobus"
+      "from": "Budapešť",
+      "car": "600 km, 6 hodín cez M7, A4 do Záhrebu, A6 do Rijeky, istrijské Y (A8/A9). Mýto: maďarská diaľničná známka, chorvátske mýtne poplatky.",
+      "other": "Autobus FlixBus alebo vlak do Rijeky, potom miestny autobus"
     },
     {
-      "from": "Ljubljana",
-      "car": "135 km, 1,5 ure preko A1 do Kopra, cesta 111, Istrski ipsilon. Cestnine: SI vinjeta, HR cestnina.",
-      "other": "Direkten avtobus, ki traja približno 2,5 ure"
+      "from": "Ľubľana",
+      "car": "135 km, 1,5 hodiny cez A1 do Kopra, cesta 111, istrijské Y. Mýto: slovinská diaľničná známka, chorvátske mýto.",
+      "other": "Priamy autobus, cesta trvá približne 2,5 hodiny"
     },
     {
-      "from": "Prague",
-      "car": "830 km, 9 ur preko AT A1/A10, Karavanškega predora, SI A2/A1. Cestnine: CZ, AT, SI vinjete, cestnine za predore, HR cestnina.",
-      "other": "Let v Pulo ali nočni FlixBus"
+      "from": "Praha",
+      "car": "830 km, 9 hodín cez rakúsku A1/A10, Karavanský tunel, SI A2/A1. Mýto: české, rakúske a slovinské diaľničné známky, poplatky za tunely, chorvátske mýto.",
+      "other": "Let do Puly alebo nočný autobus FlixBus"
     },
     {
-      "from": "Kraków",
-      "car": "1000 km, 10,5 ur preko A4, CZ D1, AT A2/A9, SI A1. Cestnine: PL, CZ, AT, SI vinjete, HR cestnina.",
-      "other": "Sezonski leti v Zadar ali Pulo"
+      "from": "Krakov",
+      "car": "1000 km, 10,5 hodiny cez A4, české D1, rakúske A2/A9, SI A1. Mýto: poľské, české, rakúske a slovinské diaľničné známky, chorvátske mýto.",
+      "other": "Sezónne lety do Zadaru alebo Puly"
     }
   ],
-  "whenToGo": "Glavna turistična sezona poteka julija in avgusta, ko so temperature morja okoli 25°C do 27°C, cene nastanitev najvišje in množice največje. Junij in september ponujata dobro ravnovesje toplega vremena za kopanje, nižjih cen sob in obvladljivega števila obiskovalcev, pri čemer so skoraj vsi objekti odprti. Maj in oktober ponujata hladnejše temperature, primerne za kolesarjenje in pokušino vin, čeprav je morje na splošno prehladno za kopanje. Od novembra do aprila je Novigrad zelo miren; temperature morja padejo pod 15°C, in pomemben del hotelov, kampov in turistično usmerjenih restavracij se zapre za zimsko sezono.",
+  "whenToGo": "Hlavná turistická sezóna pripadá na júl a august, s teplotou mora okolo 25 °C až 27 °C, najvyššími cenami ubytovania a najväčším počtom návštevníkov. Jún a september ponúkajú dobrú rovnováhu medzi teplým počasím na kúpanie, nižšími cenami izieb a zvládnuteľným počtom turistov, pričom takmer všetky zariadenia sú otvorené. Máj a október sú chladnejšie a vhodné na cyklistiku a degustáciu vína, hoci more je zvyčajne príliš studené na kúpanie. Od novembra do apríla je Novigrad veľmi tichý; teplota mora klesne pod 15 °C a veľká časť hotelov, kempov a turistických reštaurácií sa na zimnú sezónu zatvára.",
   "faq": [
     {
-      "question": "Ali je Novigrad vreden obiska?",
-      "answer": "Da, Novigrad je vreden obiska za popotnike, ki iščejo sproščeno, zgodovinsko obalno mesto brez intenzivnih množic večjih istrskih letovišč. Ponuja odlično morsko hrano, čiste plaže in dobro ohranjeno srednjeveško obrambno obzidje."
+      "question": "Oplatí sa navštíviť Novigrad?",
+      "answer": "Áno, Novigrad stojí za návštevu pre cestovateľov, ktorí hľadajú uvoľnené, historické pobrežné mestečko bez intenzívneho davu turistov, aký je v väčších istrijských letoviskách. Ponúka výborné morské plody, čisté pláže a dobre zachovanú stredoveký obranný múr."
     },
     {
-      "question": "Koliko dni potrebujem v Novigradu?",
-      "answer": "Tri do pet dni je idealno za običajen obisk. To omogoča dovolj časa za raziskovanje starega mestnega jedra, preživljanje nekaj dni na plaži in obisk bližnjega vodnega parka Istralandia ali notranjih vasi."
+      "question": "Koľko dní potrebujem v Novigrade?",
+      "answer": "Ideálne sú tri až päť dní na štandardnú návštevu. Dostatok času na prehliadku starého mesta, niekoľko dní na pláži a výlet do blízkeho zábavného parku Istralandia alebo do vidieckych dedín vo vnútrozemí."
     },
     {
-      "question": "Katera je najboljša plaža v Novigradu?",
-      "answer": "Plaža Karpinjan velja za najboljšo možnost za družine zaradi plitvega prodnatega vstopa in naravne sence borovcev. Za organizirane objekte in najem ležalnikov je plaža Maestral južno od centra visoko ocenjena."
+      "question": "Ktorá pláž je v Novigrade najlepšia?",
+      "answer": "Pláž Karpinjan sa všeobecne považuje za najlepšiu možnosť pre rodiny vďaka plytkému vstupu do mora na štrku a prirodzenému tieňu borovíc. Pre organizované zariadenia a prenájom slnečníkov je vysoko hodnotená pláž Maestral južne od centra."
     },
     {
-      "question": "Potrebujem avto v Novigradu?",
-      "answer": "Avtomobila ne potrebujete, če nameravate ostati strogo v Novigradu, saj je mesto majhno in lahko dostopno peš. Vendar pa je avto zelo priporočljiv za enodnevne izlete v istrska mesta v notranjosti, kot sta Motovun ali Grožnjan."
+      "question": "Potrebujem v Novigrade auto?",
+      "answer": "Auto nepotrebujete, ak sa plánujete zdržiavať výlučne v Novigrade, keďže mesto je malé a dá sa po ňom ľahko prejsť pešo. Auto sa však veľmi odporúča na jednodňové výlety do istrijských mestečiek vo vnútrozemí, ako sú Motovun alebo Grožnjan."
     },
     {
-      "question": "Kje lahko parkiram v Novigradu?",
-      "answer": "Obiskovalci lahko parkirajo na več velikih javnih parkiriščih tik pred starim mestnim jedrom, saj zgodovinsko središče omejuje promet vozil. Največja plačljiva občinska parkirišča se nahajajo v bližini marine in mestne športne dvorane."
+      "question": "Kde môžem v Novigrade parkovať?",
+      "answer": "Návštevníci môžu parkovať na niekoľkých veľkých verejných parkoviskách tesne pred starým mestom, keďže historické centrum obmedzuje dopravu. Najväčšie spoplatnené mestské parkoviská sa nachádzajú pri prístavisku a mestskej športovej hale."
     },
     {
-      "question": "Je Novigrad primeren za družine?",
-      "answer": "Da, Novigrad je zelo primeren za družine zaradi svojega mirnega vzdušja, ravnih obalnih sprehajalnih in kolesarskih poti ter varnih prodnatih plaž. Nahaja se tudi manj kot 10 kilometrov od Istralandie, enega največjih vodnih parkov na Hrvaškem."
+      "question": "Je Novigrad vhodný pre rodiny?",
+      "answer": "Áno, Novigrad je veľmi vhodný pre rodiny vďaka pokojnej atmosfére, rovným pobrežným chodníkom na chôdzu a jazdu na bicykli a bezpečným štrkovým plážam. Nachádza sa tiež menej ako 10 kilometrov od Istralandie, jedného z najväčších zábavných parkov na vodu v Chorvátsku."
     }
   ],
   "headings": {
-    "quickFacts": "Na prvi pogled",
-    "whereToStay": "Kje bivati v Novigradu",
-    "gettingThere": "Pot do Novigrada",
-    "whenToGo": "Kdaj obiskati",
-    "guides": "Vodiči za Novigrad",
-    "faq": "Pogosta vprašanja o Novigradu",
+    "quickFacts": "Na prvý pohľad",
+    "whereToStay": "Kde sa ubytovať v Novigrade",
+    "gettingThere": "Ako sa dostať do Novigradu",
+    "whenToGo": "Kedy cestovať",
+    "guides": "Sprievodcovia po Novigrade",
+    "faq": "Časté otázky o Novigrade",
     "groups": {
-      "gettingAround": "Parkiranje in premikanje po mestu",
-      "planning": "Načrtovanje in kje bivati",
-      "timing": "Kdaj obiskati",
-      "travelers": "Družine, pari in načini potovanja",
-      "activities": "Plaže in stvari za početi",
-      "food": "Hrana in pijača",
-      "comparisons": "Primerjave",
-      "practical": "Praktične informacije"
+      "gettingAround": "Parkovanie a pohyb po meste",
+      "planning": "Plánovanie a ubytovanie",
+      "timing": "Kedy cestovať",
+      "travelers": "Rodiny, páry a štýly cestovania",
+      "activities": "Pláže a aktivity",
+      "food": "Jedlo a pitie",
+      "comparisons": "Porovnania",
+      "practical": "Praktické informácie"
     },
-    "car": "Z avtomobilom",
-    "other": "Druge možnosti",
-    "bestFor": "Najboljše za",
-    "parking": "Parkiranje",
-    "beach": "Plaža"
+    "car": "Autom",
+    "other": "Ďalšie možnosti",
+    "bestFor": "Najlepšie pre",
+    "parking": "Parkovanie",
+    "beach": "Pláž"
   },
   "destination": "novigrad",
   "language": "sk",
-  "updatedAt": "2026-10-16T11:46:10.003Z"
+  "updatedAt": "2026-10-19T11:44:36.071Z"
 }

@@ -1,146 +1,146 @@
 {
-  "title": "Zagreb: Potovalni vodnik – Vožnja, parkiranje in namestitev",
-  "metaDescription": "Informativen potovalni vodnik za Zagreb, Hrvaška. Poiščite najboljše soseske za vaše bivanje, podrobnosti o parkiranju, poti vožnje in najboljši čas za obisk.",
-  "intro": "Zagreb je srednjeevropska prestolnica, primerna za popotnike, ki jih zanimajo zgodovina, muzeji in ulična kultura, ne pa obmorska letovišča. Mesto je razdeljeno na zgodovinski Gornji grad na hribu in ravninski avstro-ogrski Donji grad, oba pa zaznamujejo veliki javni parki, cone za pešce in močna odvisnost od lokalne tramvajske mreže.\n\nOptimalen čas za obisk so blagi pomladni in jesenski meseci ali december zaradi letnih adventnih sejmov. Poletje prinaša visoke temperature, zaradi česar se mnogi prebivalci odpravijo na jadransko obalo, kar pomeni tišje ulice, vendar pa so nekatera manjša podjetja začasno zaprta.",
+  "title": "Sprievodca po Záhrebe: jazda autom, parkovanie a ubytovanie",
+  "metaDescription": "Faktický sprievodca po Záhrebe v Chorvátsku. Nájdite najlepšie štvrte na ubytovanie, informácie o parkovaní, trasy pre vodičov a najvhodnejší čas na návštevu.",
+  "intro": "Záhreb je stredoeurópske hlavné mesto, ktoré si získa cestovateľov so záujmom o históriu, múzeá a uličnú kultúru, nie o pobrežné letoviská. Mesto sa delí na historické Horné mesto na svahu a rovinaté Dolné mesto z čias Rakúsko-Uhorska. Obe časti charakterizujú veľké verejné parky, pešie zóny a silná závislosť od miestnej siete električiek.\n\nNajvhodnejší čas na návštevu sú mierne jarné a jesenné mesiace alebo december, keď sa konajú každoročné adventné trhy. V lete prichádzajú veľké horúčavy, a preto mnohí obyvatelia odchádzajú na jadranské pobrežie. Ulice sú vtedy tichšie, no niektoré menšie podniky sú dočasne zatvorené.",
   "quickFacts": [
     {
-      "label": "Najboljši meseci",
-      "value": "Maj, junij, september, december"
+      "label": "Najlepšie mesiace",
+      "value": "máj, jún, september, december"
     },
     {
-      "label": "Temperatura morja (avgust)",
-      "value": "Ni relevantno (celinsko mesto; Jezero Jarun ima ~25°C)"
+      "label": "Teplota mora (august)",
+      "value": "Nie je k dispozícii (vnútrozemské mesto; jazero Jarun má asi 25 °C)"
     },
     {
-      "label": "Najbližje letališče",
-      "value": "Letališče Zagreb (ZAG), 15 km od centra"
+      "label": "Najbližšie letisko",
+      "value": "Letisko Záhreb (ZAG), 15 km od centra"
     },
     {
-      "label": "Glavni tip plaže",
-      "value": "Prodno/gramozne jezerske plaže (Jarun & Bundek)"
+      "label": "Hlavný typ pláže",
+      "value": "Oblázkové a štrkové pláže pri jazerách (Jarun a Bundek)"
     },
     {
-      "label": "Cenovni nivo",
-      "value": "Povprečno do podpovprečno v primerjavi s hrvaško obalo"
+      "label": "Úroveň cien",
+      "value": "Priemerná až podpriemerná v porovnaní s chorvátskym pobrežím"
     },
     {
-      "label": "Stari del mesta peš dostopen",
-      "value": "Da, zelo prehodno z omejenim dostopom avtomobilov"
+      "label": "Staré mesto je pešo dostupné",
+      "value": "Áno, veľmi dobre pešo dostupné, s obmedzeným vjazdom áut"
     }
   ],
   "areas": [
     {
-      "name": "Donji Grad (Spodnje mesto)",
-      "bestFor": "Prvič obiskovalce in oglede",
-      "parking": "Drago ulično parkiranje (Cona 1); zahteva javne garaže",
-      "beach": "6 km do jezera Jarun",
-      "summary": "Komercialno srce mesta, s muzeji, parki in arhitekturo 19. stoletja. Ponuja najširšo izbiro hotelov in neposreden dostop do glavnih tramvajskih prog."
+      "name": "Dolné mesto (Donji Grad)",
+      "bestFor": "Prvonávštevníci a pamiatky",
+      "parking": "Drahé parkovanie na ulici (zóna 1); potrebné verejné garáže",
+      "beach": "6 km k jazeru Jarun",
+      "summary": "Obchodné srdce mesta s múzeami, parkami a architektúrou 19. storočia. Ponúka najširší výber hotelov a priamy prístup k hlavným linkám električiek."
     },
     {
-      "name": "Gornji Grad (Zgornje mesto)",
-      "bestFor": "Zgodovino in mirne večere",
-      "parking": "Močno omejeno; ne-prebivalci morajo parkirati v Spodnjem mestu",
-      "beach": "6,5 km do jezera Jarun",
-      "summary": "Najstarejši del Zagreba s tlakovanimi ulicami, vladnimi stavbami in cerkvijo sv. Marka. Idealen je za obiskovalce, ki dajejo prednost zgodovinskemu vzdušju pred neposrednim dostopom z vozilom."
+      "name": "Horné mesto (Gornji Grad)",
+      "bestFor": "História a pokojné večery",
+      "parking": "Silno obmedzené; nerezidenti musia parkovať v Dolnom meste",
+      "beach": "6,5 km k jazeru Jarun",
+      "summary": "Najstaršia časť Záhrebu s dlaždicovými uličkami, vládnymi budovami a kostolom sv. Marka. Je ideálna pre návštevníkov, ktorí uprednostňujú historickú atmosféru pred bezprostredným prístupom autom."
     },
     {
-      "name": "Novi Zagreb",
-      "bestFor": "Popotnike z omejenim proračunom in voznike",
-      "parking": "Na splošno brezplačno ali zelo poceni ulično parkiranje",
-      "beach": "1 do 2 km do jezera Bundek",
-      "summary": "Nahaja se južno od reke Save, to območje sestavljajo srednjeveški stanovanjski bloki in nakupovalna središča. Enostavno se poveže s centrom preko tramvaja in ponuja preprosto parkiranje."
+      "name": "Nový Záhreb",
+      "bestFor": "Cestovatelia s nízkym rozpočtom a vodiči",
+      "parking": "Väčšinou bezplatné alebo veľmi lacné parkovanie na ulici",
+      "beach": "1 až 2 km k jazeru Bundek",
+      "summary": "Nachádza sa južne od rieky Sava a tvoria ho obytné bloky z polovice 20. storočia a nákupné centrá. Do centra sa dostanete pohodlne električkou a parkovanie je tu jednoduché."
     },
     {
       "name": "Trešnjevka",
-      "bestFor": "Lokalno življenje in daljša bivanja",
-      "parking": "Mešano; večinoma Cona 3 (ceneje) ali brezplačno v stanovanjskih delih",
-      "beach": "3 km do jezera Jarun",
-      "summary": "Gosto naseljena soseska zahodno od centra, znana po svoji dnevni odprti tržnici. Zagotavlja bolj vsakodnevno stanovanjsko izkušnjo z nižjimi cenami namestitve."
+      "bestFor": "Miestny život a dlhšie pobyty",
+      "parking": "Zmiešané; väčšinou zóna 3 (lacnejšie) alebo bezplatné v obytných častiach",
+      "beach": "3 km k jazeru Jarun",
+      "summary": "Husto obývaná štvrť západne od centra, známa svojím každodenným pouličným trhom. Ponúka bežnejší obytný zážitok a nižšie ceny ubytovania."
     }
   ],
   "gettingThere": [
     {
-      "from": "München",
-      "car": "540 km, 5,5-6,5 ure preko A8, A10 in A2. Zahteva avstrijsko vinjeto, cestnino za predor Karavanke, slovensko vinjeto in hrvaške cestnine.",
-      "other": "Direkten let (Croatia Airlines/Lufthansa) ali direkten FlixBus."
+      "from": "Mníchov",
+      "car": "540 km, 5,5–6,5 hodiny cez A8, A10 a A2. Vyžaduje rakúsku diaľničnú známku, mýto za tunel Karavanky, slovinskú diaľničnú známku a chorvátske mýto.",
+      "other": "Priame letenie (Croatia Airlines/Lufthansa) alebo priamy spoj FlixBusom."
     },
     {
-      "from": "Dunaj",
-      "car": "370 km, 4-4,5 ure preko A2 in A9. Zahteva avstrijsko vinjeto, slovensko vinjeto in hrvaške cestnine.",
-      "other": "Direkten dnevni vlak ÖBB ali FlixBus."
+      "from": "Viedeň",
+      "car": "370 km, 4–4,5 hodiny cez A2 a A9. Vyžaduje rakúsku diaľničnú známku, slovinskú diaľničnú známku a chorvátske mýto.",
+      "other": "Priamy denný vlak ÖBB alebo FlixBus."
     },
     {
-      "from": "Budimpešta",
-      "car": "340 km, 3,5-4 ure preko M7 in A4. Zahteva madžarsko e-vinjeto in hrvaške cestnine.",
-      "other": "Direkten dnevni vlak ali FlixBus."
+      "from": "Budapešť",
+      "car": "340 km, 3,5–4 hodiny cez M7 a A4. Vyžaduje maďarskú elektronickú známku a chorvátske mýto.",
+      "other": "Priamy denný vlak alebo FlixBus."
     },
     {
-      "from": "Ljubljana",
-      "car": "140 km, 1,5-2 uri preko A2 in A3. Zahteva slovensko vinjeto in hrvaške cestnine.",
-      "other": "Direkten vlak ali avtobus (približno 2,5 ure)."
+      "from": "Ľubľana",
+      "car": "140 km, 1,5–2 hodiny cez A2 a A3. Vyžaduje slovinskú diaľničnú známku a chorvátske mýto.",
+      "other": "Priamy vlak alebo autobus (asi 2,5 hodiny)."
     },
     {
-      "from": "Praga",
-      "car": "690 km, 7,5-8,5 ure preko Dunaja in Gradca. Zahteva češko, avstrijsko in slovensko vinjeto ter hrvaške cestnine.",
-      "other": "Direkten let (Smartwings/Ryanair) ali nočni vlak preko Dunaja."
+      "from": "Praha",
+      "car": "690 km, 7,5–8,5 hodiny cez Viedeň a Gráz. Vyžaduje české, rakúske a slovinské diaľničné známky a chorvátske mýto.",
+      "other": "Priame letenie (Smartwings/Ryanair) alebo nočný vlak cez Viedeň."
     },
     {
       "from": "Krakov",
-      "car": "750 km, 8-9 ur preko Slovaške in Madžarske. Zahteva poljske cestnine, slovaške in madžarske e-vinjete ter hrvaške cestnine.",
-      "other": "Direkten let (Ryanair/LOT) ali nočni avtobus."
+      "car": "750 km, 8–9 hodín cez Slovensko a Maďarsko. Vyžaduje poľské mýto, slovenskú a maďarskú elektronickú známku a chorvátske mýto.",
+      "other": "Priame letenie (Ryanair/LOT) alebo nočný autobus."
     }
   ],
-  "whenToGo": "Zima v Zagrebu je hladna, s temperaturami, ki pogosto nihajo okoli 0°C do 5°C, čeprav december ostaja vrhunec turistične sezone zaradi obsežnih mestnih adventnih sejmov. Pomlad (april do junij) in jesen (september do oktober) ponujata najbolj udobno vreme za oglede, z dnevnimi temperaturami med 15°C in 25°C, nižjimi cenami namestitev in popolnoma delujočimi turističnimi objekti. Poletje (julij in avgust) prinaša temperature, ki redno presegajo 30°C; čeprav je mesto manj obljudeno, ker se prebivalci selijo na obalo, je pomanjkanje morskega vetra mestno vročino opazno, čeprav plaže na jezeru Jarun in jezeru Bundek ponujajo lokalne možnosti kopanja.",
+  "whenToGo": "Zima v Záhrebe je studená, teploty sa často pohybujú okolo 0 až 5 °C, hoci december zostáva vrcholom turistickej sezóny vďaka rozsiahlym adventným trhom mesta. Jar (apríl až jún) a jeseň (september až október) ponúkajú najpríjemnejšie počasie na prehliadku pamiatok, s dennými maximami medzi 15 a 25 °C, nižšími cenami ubytovania a plne fungujúcimi turistickými službami. Leto (júl a august) prináša teploty, ktoré pravidelne presahujú 30 °C. Hoci je mesto menej preplnené, pretože obyvatelia odchádzajú k moru, absencia morských vánkov robí mestské horúčavy citeľnými. Pláže pri jazerách Jarun a Bundek však ponúkajú miestne možnosti kúpania.",
   "faq": [
     {
-      "question": "Ali je Zagreb vreden obiska?",
-      "answer": "Da, Zagreb je vreden obiska zaradi svoje avstro-ogrske arhitekture, obsežne muzejske zbirke in močne kavarniške kulture. Služi kot kulturno in zgodovinsko protipoint hrvaškim obalnim destinacijam."
+      "question": "Oplatí sa navštíviť Záhreb?",
+      "answer": "Áno, Záhreb stojí za návštevu vďaka architektúre z čias Rakúsko-Uhorska, rozsiahlej zbierke múzeí a silnej kaviarenskej kultúre. Predstavuje kultúrny a historický protipól k chorvátskym pobrežným destináciám."
     },
     {
-      "question": "Koliko dni potrebujem v Zagrebu?",
-      "answer": "Dva do tri dni zadostujejo za raziskovanje glavnih znamenitosti. To zagotavlja dovolj časa za ogled Gornjega in Donjega grada, obisk glavnih muzejev in preživljanje popoldneva v parku Maksimir ali ob jezeru Jarun."
+      "question": "Koľko dní potrebujem v Záhrebe?",
+      "answer": "Na prehliadku hlavných pamiatok stačia dva až tri dni. Tento čas vám postačí na návštevu Horného a Dolného mesta, hlavných múzeí a popoludnie v parku Maksimir alebo pri jazere Jarun."
     },
     {
-      "question": "Katera je najboljša plaža v Zagrebu?",
-      "answer": "Najboljša kopališča so prodnate plaže ob jezeru Jarun, ki se nahaja na jugozahodu mesta. Jezero Bundek ponuja tudi urejene gramozne plaže in kopališča v poletnih mesecih."
+      "question": "Aká je najlepšia pláž v Záhrebe?",
+      "answer": "Najlepšie miesta na kúpanie sú oblázkové pláže pri jazere Jarun v juhozápadnej časti mesta. Jazero Bundek ponúka počas letných mesiacov aj udržiavané štrkové pláže a kúpacie priestory."
     },
     {
-      "question": "Ali potrebujem avto v Zagrebu?",
-      "answer": "Ne, avto ni potreben in je pogosto ovira v mestnem središču. Zagreb ima učinkovito in obsežno mrežo tramvajev in avtobusov, ki pokrivajo vsa glavna turistična območja."
+      "question": "Potrebujem auto v Záhrebe?",
+      "answer": "Nie, auto nie je potrebné a v centre mesta je často na prekážku. Záhreb má efektívnu a rozsiahlu sieť električiek a autobusov, ktorá pokrýva všetky hlavné turistické oblasti."
     },
     {
-      "question": "Kje je najbolje parkirati v Zagrebu?",
-      "answer": "Najbolj zanesljive možnosti so podzemne javne garaže, kot so Langov trg, Tuškanac ali Petrinjska. Ulično parkiranje v centru (Cona 1) je drago, omejeno na največ dve uri in strogo nadzorovano."
+      "question": "Kde je najlepšie miesto na parkovanie v Záhrebe?",
+      "answer": "Najspoľahlivejšími možnosťami sú podzemné verejné garáže ako Langov trg, Tuškanac alebo Petrinjska. Parkovanie na ulici v centre (zóna 1) je drahé, obmedzené na maximálne dve hodiny a prísne kontrolované."
     },
     {
-      "question": "Je Zagreb primeren za družine?",
-      "answer": "Da, mesto je zelo prilagodljivo družinam. Atrakcije, kot so Muzej iluzij, Živalski vrt Zagreb v parku Maksimir in kratka vožnja z vzpenjačo, so zanesljive možnosti za mlajše obiskovalce."
+      "question": "Je Záhreb vhodný pre rodiny?",
+      "answer": "Áno, mesto je veľmi prívetivé k rodinám. Atrakcie ako Múzeum ilúzií, zoo v parku Maksimir a krátka jazda lanovkou (Uspinjača) sú spoľahlivou voľbou pre mladších návštevníkov."
     }
   ],
   "headings": {
-    "quickFacts": "Na kratko",
-    "whereToStay": "Kje prenočiti v Zagrebu",
-    "gettingThere": "Prihod v Zagreb",
-    "whenToGo": "Kdaj obiskati",
-    "guides": "Zagrebski vodniki",
-    "faq": "Pogosta vprašanja o Zagrebu",
+    "quickFacts": "Na prvý pohľad",
+    "whereToStay": "Kde sa ubytovať v Záhrebe",
+    "gettingThere": "Ako sa dostať do Záhrebu",
+    "whenToGo": "Kedy ísť",
+    "guides": "Sprievodcovia po Záhrebe",
+    "faq": "Časté otázky o Záhrebe",
     "groups": {
-      "gettingAround": "Parkiranje in gibanje po mestu",
-      "planning": "Načrtovanje in kje prenočiti",
-      "timing": "Kdaj obiskati",
-      "travelers": "Družine, pari in načini potovanja",
-      "activities": "Plaže in stvari za početi",
-      "food": "Hrana in pijača",
-      "comparisons": "Primerjave",
-      "practical": "Praktične informacije"
+      "gettingAround": "Parkovanie a pohyb po meste",
+      "planning": "Plánovanie a kde sa ubytovať",
+      "timing": "Kedy ísť",
+      "travelers": "Rodiny, páry a štýly cestovania",
+      "activities": "Pláže a aktivity",
+      "food": "Jedlo a pitie",
+      "comparisons": "Porovnania",
+      "practical": "Praktické informácie"
     },
-    "car": "Z avtom",
-    "other": "Druge možnosti",
-    "bestFor": "Najboljše za",
-    "parking": "Parkiranje",
-    "beach": "Plaža"
+    "car": "Autom",
+    "other": "Ďalšie možnosti",
+    "bestFor": "Najlepšie pre",
+    "parking": "Parkovanie",
+    "beach": "Pláž"
   },
   "destination": "zagreb",
   "language": "sk",
-  "updatedAt": "2026-10-16T11:31:51.369Z"
+  "updatedAt": "2026-10-19T11:44:36.048Z"
 }

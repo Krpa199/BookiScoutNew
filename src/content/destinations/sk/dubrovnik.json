@@ -1,153 +1,153 @@
 {
-  "title": "Dubrovnik Potovalni Vodnik: Območja, Parkiranje in Kdaj Obiskati",
-  "metaDescription": "Načrtujte svoje potovanje v Dubrovnik s podrobnimi informacijami o najboljših predelih za bivanje, voznih poteh iz Srednje Evrope, dejstvih o parkiranju in lokalnih plažah.",
-  "intro": "Dubrovnik privablja predvsem ljubitelje zgodovine in popotnike, ki iščejo dramatično obalno pokrajino. Mesto je znano po močno utrjenem Starem mestnem jedru, ki leži ob Jadranskem morju, zaradi česar je pomembna postaja tako za mediteranske križarjenja kot za cestne popotnike. Obiskovalci prihajajo, da bi se sprehodili po srednjeveškem obzidju, se podali na izlete z ladjo do bližnjih Elafitskih otokov in raziskovali okoliške skalnate zalive.\n\nKer je to najbolj znana hrvaška destinacija, zahteva skrbno načrtovanje za obvladovanje visokih stroškov in goste poletne množice. Najbolje je obiskati mesto v pred- ali posezoni, v maju, juniju, septembru ali oktobru, ko je vreme še vedno dovolj toplo za plavanje, ozke kamnite ulice pa so lažje prehodne.",
+  "title": "Sprievodca po Dubrovníku: oblasti, parkovanie a kedy ísť",
+  "metaDescription": "Naplánujte si cestu do Dubrovníka s konkrétnymi informáciami o najlepších oblastiach na ubytovanie, trasách zo strednej Európy, parkovaní a miestnych plážach.",
+  "intro": "Dubrovník osloví predovšetkým milovníkov histórie a cestovateľov, ktorí hľadajú dramatickú pobrežnú krajinu. Mesto je známe svojím mohutne opevneným Starým mestom, ktoré leží priamo pri Jadranskom mori, a preto je dôležitou zastávkou pre výletné lode v Stredozemí aj pre cestovateľov na výletoch autom. Návštevníci sem chodia prechádzať sa po stredovekých hradbách, podniknúť plavbu loďou k neďalekým Elafitským ostrovom a preskúmať okolité skalnaté zátoky.\n\nKeďže ide o najznámejšiu chorvátsku destináciu, treba ju starostlivo naplánovať, aby ste sa vyhli vysokým cenám a hustému letnému náporu turistov. Najlepšie je navštíviť ju v prechodných obdobiach, teda v máji, júni, septembri alebo októbri, keď je počasie dosť teplé na kúpanie, no úzke kamenné uličky sa ľahšie prechádzajú.",
   "quickFacts": [
     {
-      "label": "Najboljši meseci",
-      "value": "Maj, junij, september, oktober"
+      "label": "Najlepšie mesiace",
+      "value": "máj, jún, september, október"
     },
     {
-      "label": "Temperatura morja v avgustu",
-      "value": "25°C do 27°C (77°F do 80°F)"
+      "label": "Teplota mora v auguste",
+      "value": "25 °C až 27 °C (77 °F až 80 °F)"
     },
     {
-      "label": "Najbližje letališče",
-      "value": "Letališče Dubrovnik (DBV), 20 km (12 milj)"
+      "label": "Najbližšie letisko",
+      "value": "letisko Dubrovník (DBV), 20 km (12 míľ)"
     },
     {
-      "label": "Glavna vrsta plaže",
-      "value": "Prod in skalnate terase"
+      "label": "Hlavný typ pláže",
+      "value": "Oblázkové pláže a skalnaté terasy"
     },
     {
-      "label": "Raven cen",
-      "value": "Občutno višje od hrvaškega povprečja"
+      "label": "Cenová úroveň",
+      "value": "Výrazne vyššia ako chorvátsky priemer"
     },
     {
-      "label": "Prehodnost Starega mestnega jedra",
-      "value": "Popolnoma peš cona, številne strme stopnice"
+      "label": "Prechádzka Starým mestom",
+      "value": "Úplne pešia zóna, mnoho strmých schodov"
     }
   ],
   "areas": [
     {
-      "name": "Staro mesto (Grad)",
-      "bestFor": "Obiskovalci, ki so prvič v mestu, in ogled znamenitosti",
-      "parking": "Avtomobili niso dovoljeni; zunanje parkiranje je zelo drago",
-      "beach": "10 minut hoje do plaže Banje (prod)",
-      "summary": "Bivanje znotraj obzidja vas postavi le nekaj korakov od glavnih znamenitosti in restavracij. Vendar pa boste morali prtljago nositi čez tlakovce in se prebiti čez številne stopnice."
+      "name": "Staré mesto (Grad)",
+      "bestFor": "Prvonávštevníci a pamätihodnosti",
+      "parking": "Vjazd autám zakázaný; parkovanie mimo mesta je veľmi drahé",
+      "beach": "10-minútová chôdza na pláž Banje (oblázková)",
+      "summary": "Ubytovanie vnútri hradieb vás postaví priamo k hlavným pamätihodnostiam a reštauráciám. Musíte však niesť batožinu po dlažbe z kocky a zdolávať množstvo schodov."
     },
     {
       "name": "Lapad",
-      "bestFor": "Družine in bivanje v letoviščih",
-      "parking": "Lažje kot v centru, mnogi hoteli ponujajo parkirišča",
-      "beach": "Uvala Lapad (prod/pesek) in skalnati zalivi",
-      "summary": "Velik polotok severozahodno od centra s sproščenim vzdušjem počitniškega kraja. Z njim je Staro mesto povezano s 15-minutno vožnjo z avtobusom."
+      "bestFor": "Rodiny a pobytové dovolenky",
+      "parking": "Jednoduchšie ako v centre, mnohé hotely ponúkajú veľké parkoviská",
+      "beach": "Záliv Lapad (oblázky/piesok) a skalnaté zátoky",
+      "summary": "Veľký polostrov severozápadne od centra s uvoľnenou atmosférou prímorského letoviska. S Starým mestom ho spája 15-minútová jazda autobusom."
     },
     {
       "name": "Ploče",
-      "bestFor": "Luksuzni popotniki, ki si želijo pogled na morje in Staro mesto",
-      "parking": "Zelo omejeno ulično parkiranje; zasebno mesto je nujno",
-      "beach": "Le nekaj korakov od plaže Banje in Sveti Jakov (prod)",
-      "summary": "Ta prestižna soseska na pobočju ponuja pogled na vzhodno stran mestnega obzidja. Razgledi so odlični, vendar dostop do območja vključuje hojo po strmih stopniščih."
+      "bestFor": "Luxusní cestovatelia, ktorí chcú výhľad na more a Staré mesto",
+      "parking": "Veľmi obmedzené parkovanie na ulici; nevyhnutné súkromné miesto",
+      "beach": "Kúsok od pláže Banje a pláže Sveti Jakov (oblázková)",
+      "summary": "Táto luxusná štvrť na svahu sa týči nad východnou stranou mestských hradieb. Výhľady sú výborné, no dostať sa sem znamená vystupovať strmými schodiskami."
     },
     {
       "name": "Gruž",
-      "bestFor": "Popotniki z omejenim proračunom in tisti, ki uporabljajo trajekte",
-      "parking": "Na voljo so javna parkirišča, ki so cenejša od centralnih možnosti",
-      "beach": "15 do 20 minut hoje do plaže Bellevue (prod)",
-      "summary": "Glavno mestno pristanišče in trgovsko središče ponuja bolj lokalno vzdušje in nižje cene. Je najboljše izhodišče, če nameravate zgodaj zjutraj s trajektom na otoke."
+      "bestFor": "Cestovatelia s malým rozpočtom a tí, ktorí využívajú trajekty",
+      "parking": "Dostupné verejné parkoviská, lacnejšie ako v centre",
+      "beach": "15 až 20-minútová chôdza na pláž Bellevue (oblázková)",
+      "summary": "Hlavný prístav a obchodné centrum mesta ponúka autentickejšiu miestnu atmosféru a nižšie ceny. Je to najlepšia základňa, ak plánujete skoré trajekty na ostrovy."
     },
     {
       "name": "Babin Kuk",
-      "bestFor": "Popotniki, ki iščejo mirne hotelske komplekse",
-      "parking": "Veliko parkirišč v velikih hotelskih kompleksih",
-      "beach": "Plaži Copacabana in Cava (prod)",
-      "summary": "Nahaja se na severnem rtu polotoka Lapad in je območje, kjer prevladujejo veliki resorti in zelene površine. Ponuja miren pobeg iz mestnega središča."
+      "bestFor": "Cestovatelia hľadajúci pokojné rezortné komplexy",
+      "parking": "Dostatok miesta pri veľkých hotelových komplexoch",
+      "beach": "Pláže Copacabana a Cava (oblázkové)",
+      "summary": "Táto oblasť leží na severnom výbežku polostrova Lapad a dominujú v nej veľké rezorty a zelené plochy. Ponúka pokojný únik od mestského centra."
     }
   ],
   "gettingThere": [
     {
-      "from": "München",
-      "car": "940 km, 10-11 ur preko A8, avstrijske A10, slovenske A2 in hrvaške A1. Potrebne so avstrijska/slovenska vinjeta in hrvaške cestnine.",
-      "other": "Na voljo so direktni leti z MUC na DBV"
+      "from": "Mníchov",
+      "car": "940 km, 10 až 11 hodín cez A8, rakúsku A10, slovinskú diaľnicu A2 a chorvátsku diaľnicu A1. Vyžaduje rakúsku a slovinskú diaľničnú známku a chorvátske mýto.",
+      "other": "Priame lety z MUC do DBV"
     },
     {
-      "from": "Dunaj",
-      "car": "800 km, 8.5-10 ur preko A2 do Gradca, slovenske A1/A4 in hrvaške A1. Potrebne so avstrijska/slovenska vinjeta in hrvaške cestnine.",
-      "other": "Na voljo so direktni leti z VIE na DBV"
+      "from": "Viedeň",
+      "car": "800 km, 8,5 až 10 hodín cez A2 do Gratzu, slovinskú A1/A4 a chorvátsku A1. Vyžaduje rakúsku a slovinskú diaľničnú známku a chorvátske mýto.",
+      "other": "Priame lety z VIE do DBV"
     },
     {
-      "from": "Budimpešta",
-      "car": "740 km, 8-9 ur preko M7 do meje, nato hrvaške A4 in A1 proti jugu. Potrebna je madžarska vinjeta in hrvaške cestnine.",
-      "other": "Direktni leti (Ryanair) ali FlixBus"
+      "from": "Budapešť",
+      "car": "740 km, 8 až 9 hodín cez M7 k hranici, potom chorvátsku A4 a A1 na juh. Vyžaduje maďarskú diaľničnú známku a chorvátske mýto.",
+      "other": "Priame lety (Ryanair) alebo FlixBus"
     },
     {
-      "from": "Ljubljana",
-      "car": "620 km, 6.5-7.5 ur preko A2 do meje, nato hrvaške A1 proti jugu. Potrebna je slovenska vinjeta in hrvaške cestnine.",
-      "other": "FlixBus ali vožnja (ni direktnih letov)"
+      "from": "Ľubľana",
+      "car": "620 km, 6,5 až 7,5 hodiny cez A2 k hranici, potom chorvátsku A1 na juh. Vyžaduje slovinskú diaľničnú známku a chorvátske mýto.",
+      "other": "FlixBus alebo vlastné auto (bez priamych letov)"
     },
     {
-      "from": "Praga",
-      "car": "1100 km, 11-13 ur preko D1 do Brna, Avstrije, Slovenije in hrvaške A1. Potrebne so češka/avstrijska/slovenska vinjeta in hrvaške cestnine.",
-      "other": "Na voljo so direktni leti z PRG na DBV"
+      "from": "Praha",
+      "car": "1100 km, 11 až 13 hodín cez D1 do Brna, Rakúsko, Slovinsko a chorvátsku A1. Vyžaduje české, rakúske a slovinské diaľničné známky a chorvátske mýto.",
+      "other": "Priame lety z PRG do DBV"
     },
     {
       "from": "Krakov",
-      "car": "1100 km, 11.5-13 ur preko Slovaške, Madžarske (M3/M7) in hrvaške A4/A1. Potrebne so slovaška/madžarska vinjeta in hrvaške cestnine.",
-      "other": "Direktni leti (Ryanair) ali medkrajevni avtobus"
+      "car": "1100 km, 11,5 až 13 hodín cez Slovensko, Maďarsko (M3/M7) a chorvátsku A4/A1. Vyžaduje slovenskú a maďarskú diaľničnú známku a chorvátske mýto.",
+      "other": "Priame lety (Ryanair) alebo diaľkový autobus"
     }
   ],
-  "whenToGo": "Julij in avgust sta najbolj prometna in draga meseca, prinašata intenzivno vročino in najvišje temperature morja okoli 26°C. Maj, junij, september in oktober ponujajo boljše ravnovesje, s toplim vremenom, temperaturami morja primernimi za kopanje (še posebej zgodaj jeseni) ter popolnoma delujočimi trajekti in restavracijami. Od novembra do aprila je Dubrovnik miren in veliko cenejši, vendar je morje prehladno za plavanje, številna obalna podjetja so pozimi zaprta, vozni redi trajektov pa so močno okrnjeni.",
+  "whenToGo": "Júl a august sú najpreplnenejšie a najdrahšie mesiace, s intenzívnym horúčavami a špičkovými teplotami mora okolo 26 °C (79 °F). Máj, jún, september a október ponúkajú pohodlnejšiu rovnováhu s teplým počasím, teplotami mora vhodnými na kúpanie (najmä na začiatku jesene) a plne fungujúcimi trajektmi a reštauráciami. Od novembra do apríla je Dubrovník tichý a oveľa lacnejší, no more je na kúpanie príliš studené, mnohé pobrežné prevádzky sa na zimu zatvárajú a trajektové spoje sú výrazne obmedzené.",
   "faq": [
     {
-      "question": "Ali je vredno obiskati?",
-      "answer": "Da, njegovo ohranjeno srednjeveško obzidje in zgodovinska arhitektura ga delata edinstvenega v Evropi. Vendar pa zahteva višji proračun in toleranco za množice med poletjem."
+      "question": "Oplatí sa to navštíviť?",
+      "answer": "Áno, jeho zachované stredoveké hradby a historická architektúra ho robia v Európe jedinečným. Vyžaduje to však vyšší rozpočet a toleranciu k davom turistov v lete."
     },
     {
-      "question": "Koliko dni potrebujem?",
-      "answer": "Dva do tri dni sta dovolj za sprehod po obzidju, raziskovanje zgodovinskega središča in obisk bližnjega otoka. Daljše bivanje omogoča enodnevne izlete v Črno goro ali Mostar."
+      "question": "Koľko dní potrebujem?",
+      "answer": "Dva až tri dni stačia na prechádzku hradbami, prehliadku historického centra a návštevu jedného z blízkych ostrovov. Dlhší pobyt umožňuje jednodenné výlety do Čiernej Hory alebo do Mostaru."
     },
     {
-      "question": "Katera je najboljša plaža?",
-      "answer": "Sveti Jakov je najboljša možnost za izogibanje največjim množicam, hkrati pa ohranja pogled na Staro mesto. Zahteva hojo po dolgih stopnicah jugovzhodno od centra."
+      "question": "Ktorá pláž je najlepšia?",
+      "answer": "Sveti Jakov je najlepšou voľbou, ak sa chcete vyhnúť najhustejším davom a zároveň si zachovať výhľad na Staré mesto. Treba sa k nej dostať dlhým schodiskom na juhovýchod od centra."
     },
     {
-      "question": "Ali potrebujem avto?",
-      "answer": "Ne, avto je v Dubrovniku ovira zaradi hudih omejitev parkiranja in con, namenjenih samo pešcem. Če se pripeljete v Dubrovnik z avtom, boste vozilo verjetno pustili parkirano za celotno obdobje bivanja."
+      "question": "Potrebujem auto?",
+      "answer": "Nie, auto je v Dubrovníku skôr prekážkou kvôli veľmi obmedzenému parkovaniu a zónam určeným len pre chodcov. Ak sem prídete autom, pravdepodobne ho budete mať zaparkované počas celého pobytu."
     },
     {
-      "question": "Kje naj parkiram?",
-      "answer": "Parkirajte pri svoji nastanitvi, če ponuja namensko parkirno mesto. Sicer uporabite parkirišče v pristanišču Gruž ali javno garažo Ilijina Glavica, čeprav slednja lahko poleti stane do 70 € na dan."
+      "question": "Kde mám parkovať?",
+      "answer": "Parkujte na mieste vášho ubytovania, ak vám ho poskytuje. V opačnom prípade využite parkovisko v prístave Gruž alebo verejnú garáž Ilijina Glavica, hoci tá môže v lete stáť až 70 € na deň."
     },
     {
-      "question": "Je primerno za družine?",
-      "answer": "Da, starejši otroci bodo uživali v raziskovanju trdnjav in izletih z ladjo. Vendar pa so neskončne stopnice v Starem mestu zelo nepraktične za potnike z vozički."
+      "question": "Je to vhodné pre rodiny?",
+      "answer": "Áno, staršie deti si užijú prehliadku pevností a plavby loďou. Nekonečné schody v Starom meste však robia mesto veľmi nepraktickým pre cestovateľov s kočíkmi."
     }
   ],
   "headings": {
-    "quickFacts": "Na kratko",
-    "whereToStay": "Kje bivati v Dubrovniku",
-    "gettingThere": "Pot do Dubrovnika",
-    "whenToGo": "Kdaj obiskati",
-    "guides": "Dubrovniški vodniki",
-    "faq": "Pogosta vprašanja o Dubrovniku",
+    "quickFacts": "Na prvý pohľad",
+    "whereToStay": "Kde sa ubytovať v Dubrovníku",
+    "gettingThere": "Ako sa dostať do Dubrovníka",
+    "whenToGo": "Kedy ísť",
+    "guides": "Sprievodcovia po Dubrovníku",
+    "faq": "Časté otázky o Dubrovníku",
     "groups": {
-      "gettingAround": "Parkiranje in premikanje po mestu",
-      "planning": "Načrtovanje in kje bivati",
-      "timing": "Kdaj obiskati",
-      "travelers": "Družine, pari in načini potovanja",
-      "activities": "Plaže in stvari za početi",
-      "food": "Hrana in pijača",
-      "comparisons": "Primerjave",
-      "practical": "Praktične informacije"
+      "gettingAround": "Parkovanie a doprava po meste",
+      "planning": "Plánovanie a kde sa ubytovať",
+      "timing": "Kedy ísť",
+      "travelers": "Rodiny, páry a štýly cestovania",
+      "activities": "Pláže a aktivity",
+      "food": "Jedlo a pitie",
+      "comparisons": "Porovnania",
+      "practical": "Praktické informácie"
     },
-    "car": "Z avtom",
-    "other": "Druge možnosti",
-    "bestFor": "Najboljše za",
-    "parking": "Parkiranje",
-    "beach": "Plaža"
+    "car": "Autom",
+    "other": "Iné možnosti",
+    "bestFor": "Najvhodnejšie pre",
+    "parking": "Parkovanie",
+    "beach": "Pláž"
   },
   "destination": "dubrovnik",
   "language": "sk",
-  "updatedAt": "2026-10-16T10:10:27.046Z"
+  "updatedAt": "2026-10-19T11:44:36.062Z"
 }

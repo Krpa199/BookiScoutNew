@@ -1,146 +1,146 @@
 {
-  "title": "Rovinj – Potovalni vodnik: Plaže, parkiranje in nastanitve",
-  "metaDescription": "Načrtujte vaše potovanje v Rovinj. Dejanski vodnik za poti, parkiranje, soseske in plaže za obiskovalce, ki prihajajo v Istro, Hrvaško.",
-  "intro": "Rovinj privablja pare, družine in popotnike z avtomobilom, ki iščejo dobro ohranjeno zgodovinsko središče in dostopno obalno naravo. Mesto ima gosto, izključno pešcem namenjeno beneško jedro, zgrajeno na majhnem polotoku, obkroženo z borovimi gozdovi in skalnato obalo.\n\nGlavna turistična sezona traja od maja do septembra, vrhunec pa doseže julija in avgusta, ko sredozemsko podnebje ponuja vroče, suhe dni, idealne za kopanje. Izven poletnih mesecev so številne restavracije in hoteli zaprti, kar mesto naredi tišje, a manj primerno za klasične počitnice na plaži.",
+  "title": "Sprievodca po Rovinji: pláže, parkovanie a kde sa ubytovať",
+  "metaDescription": "Naplánujte si pobyt v Rovinji. Vecný sprievodca trasami, parkovaním, štvrťami a plážami pre návštevníkov, ktorí prichádzajú do Istrie v Chorvátsku.",
+  "intro": "Rovinj priťahuje páry, rodiny aj cestovateľov na road tripoch, ktorí hľadajú zachovalé historické centrum a ľahko dostupnú pobrežnú prírodu. Mesto má husté, pre autá uzavreté benátske jadro postavené na malom polostrove, obklopené borovicovými lesmi a skalnatým pobrežím.\n\nHlavná návštevnícka sezóna trvá od mája do septembra a vrcholí v júli a auguste, keď horúce a suché dni stredomorského podnebia ponúkajú ideálne podmienky na kúpanie. Mimo letných mesiacov sa mnohé reštaurácie a hotely zatvárajú. Mesto je vtedy tichšie, no klasickú plážovú dovolenku tu nájdete len ťažko.",
   "quickFacts": [
     {
-      "label": "Najboljši meseci",
-      "value": "Junij do september"
+      "label": "Najlepšie mesiace",
+      "value": "jún až september"
     },
     {
-      "label": "Temperatura morja avgusta",
+      "label": "Teplota mora v auguste",
       "value": "25°C - 27°C"
     },
     {
-      "label": "Najbližje letališče",
-      "value": "Letališče Pula (PUY), 40 km"
+      "label": "Najbližšie letisko",
+      "value": "letisko Pula (PUY), 40 km"
     },
     {
-      "label": "Glavni tipi plaž",
-      "value": "Prod, skale in betonske ploščadi"
+      "label": "Hlavný typ pláže",
+      "value": "kamienky, skaly a betónové plošiny"
     },
     {
-      "label": "Cenovni nivo",
-      "value": "Višji od hrvaškega povprečja"
+      "label": "Cenová úroveň",
+      "value": "vyššia ako chorvátsky priemer"
     },
     {
-      "label": "Staro mestno jedro",
-      "value": "Izključno za pešce (brez avtomobilov)"
+      "label": "Staré mesto",
+      "value": "prísne len pre chodcov (bez áut)"
     }
   ],
   "areas": [
     {
-      "name": "Staro mestno jedro (Poluotok)",
-      "bestFor": "Za obiskovalce, ki prihajajo prvič, in pare, ki si želijo zgodovine in kulinarike",
-      "parking": "V centru ni parkirišč; uporabite plačljiva komercialna parkirišča 10-15 minut stran",
-      "beach": "Plaža Monte (skalnate police) na lokaciji; večje plaže 20 minut hoje",
-      "summary": "Zgodovinsko jedro odlikujejo ozke tlakovane ulice, beneška arhitektura in številne restavracije. Poleti je živahno in zahteva hojo ali uporabo golf vozička do vaše namestitve."
+      "name": "Staré mesto (Poluotok)",
+      "bestFor": "prvonávštevníkov a páry, ktoré hľadajú históriu a gastronómiu",
+      "parking": "v centre žiadne; využite platené komerčné parkoviská vzdialené 10 – 15 minút",
+      "beach": "Monte Beach (skalné terasy) priamo na mieste; väčšie pláže 20 minút chôdze",
+      "summary": "Historické jadro má úzke dláždené uličky, benátsku architektúru a množstvo reštaurácií. V lete je preplnené a na cestu k ubytovaniu treba ísť pešo alebo použiť golfový vozík."
     },
     {
-      "name": "Zaliv Lone & Punta Corrente (Jug)",
-      "bestFor": "Za luksuzne popotnike in ljubitelje plaž, ki si želijo dostopa do narave",
-      "parking": "Pogosto so na voljo zasebna hotelska parkirišča; javna parkirišča se hitro zapolnijo",
-      "beach": "0-10 minut hoje do prodnatih zalivov in senčnih skalnatih obal",
-      "summary": "To območje, ki se nahaja južno od starega mestnega jedra, zaznamujejo prestižni hoteli in gozdni park Zlatni Rt. Obiskovalci imajo takojšen dostop do sprehajalnih poti v senci borovcev in najbolj priljubljenih mestnih plaž."
+      "name": "Záliv Lone a Punta Corrente (juh)",
+      "bestFor": "luxusných cestovateľov a milovníkov pláží, ktorí chcú mať prístup k prírode",
+      "parking": "bežné je súkromné parkovanie pri hoteloch; verejné parkoviská sa rýchlo zapĺňajú",
+      "beach": "0 – 10 minút chôdze k kamienkovým zátokám a tienistým skalnatým brehom",
+      "summary": "Oblasť južne od starého mesta sa vyznačuje luxusnými hotelmi a lesoparkom Zlatni Rt. Návštevníci majú okamžitý prístup k peším chodníkom v tieni borovíc a k najobľúbenejším plážam mesta."
     },
     {
-      "name": "Centener & Cuvi",
-      "bestFor": "Za družine in popotnike z omejenim proračunom",
-      "parking": "Lažje parkiranje na ulici in na dovozih stanovanjskih hiš",
-      "beach": "10-15 minut hoje do plaže Cuvi (prod in peščene zaplate)",
-      "summary": "Tišja stanovanjska soseska, ki se nahaja jugovzhodno od centra. Ponuja apartmaje po nižjih cenah, hkrati pa je v hoje oddaljena od družinam prijaznih plaž in supermarketov."
+      "name": "Centener a Cuvi",
+      "bestFor": "rodiny a cestovateľov s obmedzeným rozpočtom",
+      "parking": "jednoduchšie parkovanie na uliciach a pri rodinných domoch",
+      "beach": "10 – 15 minút chôdze na pláž Cuvi (kamienky a piesočnaté úseky)",
+      "summary": "Tichšia obytná štvrť juhovýchodne od centra. Ponúka prenájmy apartmánov za nižšie ceny a zároveň je v pešej vzdialenosti od pláží vhodných pre rodiny a od supermarketov."
     },
     {
       "name": "Borik",
-      "bestFor": "Za obiskovalce, ki iščejo mirnejše, predmestno vzdušje s pogledom na morje",
-      "parking": "Ponavadi vključeno v najem apartmaja; na voljo tudi parkiranje na ulici",
-      "beach": "5-10 minut hoje do plaž Valdaliso in Amarin",
-      "summary": "Borik leži severno od mestnega središča in ponuja sproščeno okolje stran od poletne gneče. Do starega mestnega jedra je potrebno 30 minut hoje, vožnja s kolesom ali kratka vožnja z vodnim taksijem."
+      "bestFor": "návštevníkov, ktorí hľadajú pokojnejšie predmestie s výhľadom na more",
+      "parking": "zvyčajne súčasťou prenájmu apartmánu; k dispozícii je parkovanie na ulici",
+      "beach": "5 – 10 minút chôdze na pláže Valdaliso a Amarin",
+      "summary": "Borik leží severne od centra mesta a ponúka uvoľnené prostredie mimo letných davov. Na dostanie sa do starého mesta treba 30 minút chôdze, jazdu na bicykli alebo krátku plavbu vodným taxíkom."
     }
   ],
   "gettingThere": [
     {
-      "from": "München",
-      "car": "600 km, ~6.5 ure preko A8, A10, A11, SI A2 do Kopra, Istrski ipsilon. Zahteva AT vinjeto, cestnine za predora Tauern & Karavanke, SI vinjeto, HR cestnino.",
-      "other": "Sezonski direktni leti do Pule ali direktni Flixbus."
+      "from": "Mníchov",
+      "car": "600 km, ~6,5 hodiny cez A8, A10, A11, slovinskú A2 do Kopra, istrijské Y. Vyžaduje rakúsku diaľničnú známku, mýto za tunely Tauern a Karavanky, slovinskú diaľničnú známku, chorvátske mýto.",
+      "other": "Sezónne priame lety do Puly alebo priamy Flixbus."
     },
     {
-      "from": "Dunaj",
-      "car": "500 km, ~5.5 ure preko A2 do Gradca, SI A1 (Maribor-Ljubljana-Koper), Istrski ipsilon. Zahteva AT vinjeto, SI vinjeto, HR cestnino.",
-      "other": "Direktni Flixbus ali sezonski leti do Pule."
+      "from": "Viedeň",
+      "car": "500 km, ~5,5 hodiny cez A2 do Grazu, slovinskú A1 (Maribor – Ľubľana – Koper), istrijské Y. Vyžaduje rakúsku diaľničnú známku, slovinskú diaľničnú známku, chorvátske mýto.",
+      "other": "Priamy Flixbus alebo sezónne lety do Puly."
     },
     {
-      "from": "Budimpešta",
-      "car": "600 km, ~6 ur preko M7, HR A4 do Zagreba, A6 do Reke, predor Učka, Istrski ipsilon. Zahteva HU e-vinjeto, HR cestnine.",
-      "other": "Flixbus ali vlak do Reke, nato lokalni avtobus."
+      "from": "Budapešť",
+      "car": "600 km, ~6 hodín cez M7, chorvátsku A4 do Záhrebu, A6 do Rijeky, tunel Učka, istrijské Y. Vyžaduje maďarskú elektronickú diaľničnú známku, chorvátske mýtne poplatky.",
+      "other": "Flixbus alebo vlak do Rijeky, nasledovaný miestnym autobusom."
     },
     {
-      "from": "Ljubljana",
-      "car": "180 km, ~2.5 ure preko A1 do Kopra, Istrski ipsilon (A9). Zahteva SI vinjeto, HR cestnino.",
-      "other": "Direktne avtobusne linije (Flixbus, Nomago)."
+      "from": "Ľubľana",
+      "car": "180 km, ~2,5 hodiny cez A1 do Kopra, istrijské Y (A9). Vyžaduje slovinskú diaľničnú známku, chorvátske mýto.",
+      "other": "Priame autobusové spoje (Flixbus, Nomago)."
     },
     {
-      "from": "Praga",
-      "car": "850 km, ~9 ur preko Linza, Gradca, Maribora, Ljubljane, Kopra. Zahteva CZ, AT, SI vinjete, HR cestnine.",
-      "other": "Sezonske RegioJet vlakovne/avtobusne povezave ali leti do Pule."
+      "from": "Praha",
+      "car": "850 km, ~9 hodín cez Linz, Graz, Maribor, Ľubľanu, Koper. Vyžaduje české, rakúske a slovinské diaľničné známky, chorvátske mýto.",
+      "other": "Sezónne vlakové alebo autobusové spoje RegioJet alebo lety do Puly."
     },
     {
       "from": "Krakov",
-      "car": "1.000 km, ~10.5 ure preko CZ (Brno), AT (Dunaj, Gradec), SI (Maribor, Koper). Zahteva CZ, AT, SI vinjete, HR cestnine.",
-      "other": "Leti do Pule (običajno preko Varšave) ali medkrajevni avtobus."
+      "car": "1 000 km, ~10,5 hodiny cez Česko (Brno), Rakúsko (Viedeň, Graz), Slovinsko (Maribor, Koper). Vyžaduje české, rakúske a slovinské diaľničné známky, chorvátske mýto.",
+      "other": "Lety do Puly (zvyčajne cez Varšavu) alebo diaľkový autobus."
     }
   ],
-  "whenToGo": "Turistična sezona traja od konca maja do septembra. Julij in avgust prinašata najtoplejše vreme z zračnimi temperaturami okoli 30°C in temperaturami morja, ki dosežejo vrhunec pri 25-27°C, skupaj z najvišjimi cenami in največjo gnečo. Junij in september ponujata blažje temperature (med 20 in 25°C), nekoliko hladnejše razmere za kopanje in boljšo razpoložljivost nastanitev. Od oktobra do aprila je Rovinj miren; morje je prehladno za kopanje (pade na 10-14°C), in številne turistično usmerjene restavracije, hoteli in trajektne linije se popolnoma zaprejo.",
+  "whenToGo": "Návštevnícka sezóna trvá od konca mája do septembra. Júl a august prinášajú najteplejšie počasie s teplotami vzduchu okolo 30°C a teplotami mora vrcholiacimi na 25 – 27°C, ale aj najvyššie ceny a najväčšie davy. Jún a september ponúkajú miernejšie teploty (nízke až stredné 20-te stupne), o niečo chladnejšie podmienky na kúpanie a lepšiu dostupnosť ubytovania. Od októbra do apríla je Rovinj tichý. More je na kúpanie príliš studené (klesá na 10 – 14°C) a mnohé reštaurácie, hotely a lode zamerané na turistov sa úplne zatvárajú.",
   "faq": [
     {
-      "question": "Ali je Rovinj vreden obiska?",
-      "answer": "Da, splošno velja za eno najprivlačnejših obalnih mest v Istri. Obiskovalci prihajajo zaradi dobro ohranjenega beneškega starega mestnega jedra, obsežnega borovega gozdnega parka in visokokakovostnih restavracij."
+      "question": "Oplatí sa navštíviť Rovinj?",
+      "answer": "Áno, všeobecne sa považuje za jedno z najatraktívnejších pobrežných miest v Istrii. Návštevníci sem prichádzajú kvôli zachovalému benátskemu starému mestu, rozsiahlemu lesoparku s borovicami a kvalitným gastronomickým možnostiam."
     },
     {
-      "question": "Koliko dni potrebujem v Rovinju?",
-      "answer": "Tri do pet dni je idealno za večino obiskovalcev. To omogoča dovolj časa za raziskovanje starega mestnega jedra, preživljanje dneva na plažah v Punta Corrente ter izlet z ladjo ali obisk bližnjega istrskega mesteca na hribu."
+      "question": "Koľko dní potrebujem v Rovinji?",
+      "answer": "Pre väčšinu návštevníkov sú ideálne tri až päť dní. Máte tak dosť času na prehliadku starého mesta, na deň strávený na plážach v Punta Corrente a na plavbu loďou alebo návštevu blízkeho mestečka na kopci v Istrii."
     },
     {
-      "question": "Katera je najboljša plaža v Rovinju?",
-      "answer": "Plaže v gozdnem parku Zlatni Rt (Punta Corrente), še posebej zaliv Lone, so najbolj priljubljene. Ponujajo mešanico prodnatih in skalnatih površin z obsežno naravno senco okoliških borovcev."
+      "question": "Ktorá pláž je v Rovinji najlepšia?",
+      "answer": "Najobľúbenejšie sú pláže v lesoparku Zlatni Rt (Punta Corrente), najmä záliv Lone. Ponúkajú kombináciu kamienkov a skál s rozsiahlym prirodzeným tieňom od okolitých borovíc."
     },
     {
-      "question": "Potrebujem avto v Rovinju?",
-      "answer": "Avtomobila ne potrebujete, če bivate v starem mestnem jedru ali njegovi neposredni okolici, saj je vse dostopno peš. Vendar je avto zelo priporočljiv, če nameravate raziskati preostanek Istrskega polotoka ali obiskati podeželske vinske kleti in posestva z oljčnim oljem."
+      "question": "Potrebujem v Rovinji auto?",
+      "answer": "Auto nepotrebujete, ak bývate v starom meste alebo v jeho bezprostrednom okolí, pretože všetko sa dá prejsť pešo. Auto sa však veľmi odporúča, ak plánujete preskúmať zvyšok istrijského polostrova alebo navštíviť vidiecke vinárstva a olivové farmy."
     },
     {
-      "question": "Kje naj parkiram ob obisku Rovinja?",
-      "answer": "Največja javna parkirišča sta Valdibora (sever) in Ampelea (jug), ki se nahajata tik ob peš coni. Ta parkirišča so plačljiva po uri ali dnevu in se lahko med julijem in avgustom popolnoma zapolnijo, zato je priporočljiv zgodnji prihod."
+      "question": "Kde mám parkovať, keď navštívim Rovinj?",
+      "answer": "Najväčšie verejné parkoviská sú Valdibora (sever) a Ampelea (juh), ktoré sa nachádzajú tesne mimo pešej zóny. Tieto parkoviská sú spoplatnené za hodinu alebo deň a v júli a auguste sa môžu zaplniť, preto sa odporúča prísť skoro."
     },
     {
-      "question": "Je Rovinj primeren za družine?",
-      "answer": "Da, še posebej v letoviščih in stanovanjskih območjih izven starega mestnega jedra. Plaže imajo plitve prodnate dele, primerne za otroke, bližnji družinsko usmerjeni kampi pa ponujajo bazene, igrišča in organizirane dejavnosti."
+      "question": "Je Rovinj vhodný pre rodiny?",
+      "answer": "Áno, najmä v rezortoch a obytných oblastiach mimo starého mesta. Pláže majú plytké úseky s kamienkami vhodné pre deti a neďaleké kempy zamerané na rodiny ponúkajú bazény, detské ihriská a organizované aktivity."
     }
   ],
   "headings": {
-    "quickFacts": "Na hitro",
-    "whereToStay": "Kje bivati v Rovinju",
-    "gettingThere": "Pot do Rovinja",
-    "whenToGo": "Kdaj obiskati",
-    "guides": "Vodiči za Rovinj",
-    "faq": "Pogosta vprašanja o Rovinju",
+    "quickFacts": "Na prvý pohľad",
+    "whereToStay": "Kde sa ubytovať v Rovinji",
+    "gettingThere": "Ako sa dostať do Rovinja",
+    "whenToGo": "Kedy ísť",
+    "guides": "Sprievodcovia po Rovinji",
+    "faq": "Časté otázky o Rovinji",
     "groups": {
-      "gettingAround": "Parkiranje in premikanje",
-      "planning": "Načrtovanje in kje bivati",
-      "timing": "Kdaj obiskati",
-      "travelers": "Družine, pari in načini potovanja",
-      "activities": "Plaže in aktivnosti",
-      "food": "Hrana in pijača",
-      "comparisons": "Primerjave",
-      "practical": "Praktične informacije"
+      "gettingAround": "Parkovanie a doprava po meste",
+      "planning": "Plánovanie a ubytovanie",
+      "timing": "Kedy ísť",
+      "travelers": "Rodiny, páry a štýly cestovania",
+      "activities": "Pláže a aktivity",
+      "food": "Jedlo a pitie",
+      "comparisons": "Porovnania",
+      "practical": "Praktické informácie"
     },
-    "car": "Z avtomobilom",
-    "other": "Druge možnosti",
-    "bestFor": "Najboljše za",
-    "parking": "Parkiranje",
-    "beach": "Plaža"
+    "car": "Autom",
+    "other": "Ďalšie možnosti",
+    "bestFor": "Ideálne pre",
+    "parking": "Parkovanie",
+    "beach": "Pláž"
   },
   "destination": "rovinj",
   "language": "sk",
-  "updatedAt": "2026-10-16T10:39:19.463Z"
+  "updatedAt": "2026-10-19T11:44:36.009Z"
 }

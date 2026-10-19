@@ -1,146 +1,146 @@
 {
-  "title": "Rab: Potovalni vodnik – Plaže, parkiranje in kje ostati",
-  "metaDescription": "Načrtujte svoje potovanje na Rab, Hrvaška. Primerjajte nastanitvena območja, poiščite vozne poti iz Srednje Evrope in pridobite praktične informacije o parkiranju in peščenih plažah.",
-  "intro": "Rab privablja popotnike, ki iščejo peščene plaže, borove gozdove in ohranjeno srednjeveško staro mestno jedro. Za razliko od mnogih hrvaških otokov, kjer prevladujejo skalnate ali prodnate obale, se Rab ponaša z obsežnimi peščenimi zalivi, zlasti na severnem polotoku Lopar, zaradi česar je zelo primeren za družine z majhnimi otroki. Jugozahodna obala ponuja goste borove gozdove in osamljene zalive, primerne za pare in aktivne popotnike.\n\nGlavna turistična sezona traja od junija do septembra. Julij in avgust prinašata najtoplejše temperature morja in polno delovanje restavracij, a tudi preobremenjene ceste in najdaljše čakalne dobe za trajekte na celino. Maj in oktober sta primerna za popotnike, osredotočene na pohodništvo in kolesarjenje, čeprav so temperature morja še vedno nizke in nekatere lokalne storitve delujejo s skrajšanim delovnim časom.",
+  "title": "Sprievodca po Rabe: pláže, parkovanie a ubytovanie",
+  "metaDescription": "Naplánujte si cestu na Rab v Chorvátsku. Porovnajte oblasti ubytovania, nájdite trasy zo strednej Európy a získajte praktické informácie o parkovaní a piesočnatých plážach.",
+  "intro": "Rab láka cestovateľov, ktorí hľadajú piesočnaté pláže, borovicové lesy a zachované stredoveké staré mesto. Na rozdiel od mnohých chorvátskych ostrovov, na ktorých dominujú skalnaté alebo štrkové pobrežia, Rab ponúka rozsiahle piesočnaté zátoky, najmä na severnom polostrove Lopar, vďaka čomu je veľmi praktický pre rodiny s malými deťmi. Juhozápadné pobrežie ponúka husté borovicové háje a odľahlé zátoky vhodné pre páry a aktívnych cestovateľov.\n\nHlavná návštevnícka sezóna trvá od júna do septembra. Júl a august prinášajú najteplejšiu morskú vodu a plnú prevádzku reštaurácií, no aj preplnené cesty a dlhé čakacie časy na trajekty na pevninu. Máj a október sú vhodné pre cestovateľov zameraných na turistiku a cykloturistiku, hoci morská voda zostáva chladná a niektoré miestne podniky fungujú v skrátenom režime.",
   "quickFacts": [
     {
-      "label": "Najboljši meseci",
-      "value": "Junij do september"
+      "label": "Najlepšie mesiace",
+      "value": "jún až september"
     },
     {
-      "label": "Temperatura morja v avgustu",
+      "label": "Teplota mora v auguste",
       "value": "25°C - 27°C"
     },
     {
-      "label": "Najbližje letališče",
-      "value": "Rijeka (RJK), 60 km (vključuje trajekt)"
+      "label": "Najbližšie letisko",
+      "value": "Rijeka (RJK), 60 km (vrátane trajektu)"
     },
     {
-      "label": "Glavni tip plaže",
-      "value": "Pesek na severu, skale/prod drugod"
+      "label": "Hlavný typ pláže",
+      "value": "Piesok na severe, skaly/štrk inde"
     },
     {
-      "label": "Cenovni nivo",
-      "value": "Zmeren (podobno Krku, ceneje kot Hvar)"
+      "label": "Cenová úroveň",
+      "value": "Stredná (podobná ako na Krku, lacnejšia ako na Hvare)"
     },
     {
-      "label": "Staro mestno jedro",
-      "value": "Samo za pešce (brez avtomobilov)"
+      "label": "Centrum starého mesta",
+      "value": "Len pre peších (bez áut)"
     }
   ],
   "areas": [
     {
       "name": "Mesto Rab",
-      "bestFor": "Zgodovina, kulinarika in večerno vzdušje",
-      "parking": "Plačljiva občinska parkirišča zunaj mestnega obzidja",
-      "beach": "Mestna plaža je majhna/prodnata; boljše plaže zahtevajo vožnjo ali taksi-čoln",
-      "summary": "Zgodovinsko in kulturno središče otoka. Bivanje tukaj pomeni takojšen dostop do restavracij in znamenitosti, vendar zahteva parkiranje zunaj peš cone."
+      "bestFor": "História, gastronómia a večerná atmosféra",
+      "parking": "Platené mestské parkoviská mimo hradieb",
+      "beach": "Mestská pláž je malá a štrková; lepšie pláže vyžadujú cestu autom alebo taxi loďou",
+      "summary": "Historické a kultúrne centrum ostrova. Ubytovanie tu znamená okamžitý prístup k reštauráciám a pamiatkam, ale vyžaduje parkovanie mimo zóny pre peších."
     },
     {
       "name": "Lopar",
-      "bestFor": "Družine z majhnimi otroki",
-      "parking": "Večina nastanitev ima brezplačno parkirišče na posestvu",
-      "beach": "Ob Rajski Plaži, 1,5 km dolgi peščeni plaži",
-      "summary": "Nahaja se na severu in deluje kot letovišče ob plaži. Manjka mu zgodovinska arhitektura, vendar ponuja najbolj dostopne plitve peščene obale na Hrvaškem."
+      "bestFor": "Rodiny s malými deťmi",
+      "parking": "Väčšina ubytovaní má parkovanie priamo na mieste zadarmo",
+      "beach": "Susedí s Rajskou plážou (Paradise Beach), 1,5 km dlhou piesočnatou plážou",
+      "summary": "Táto oblasť na severe funguje ako plážové letovisko. Nemá historickú architektúru, no ponúka najprístupnejšie plytké piesočnaté pobrežie v Chorvátsku."
     },
     {
       "name": "Suha Punta",
-      "bestFor": "Pari, ljubitelji narave in iskalci sence",
-      "parking": "Običajno dovolj brezplačnih parkirišč pri hotelih in apartmajih",
-      "beach": "Skalni in prodnati zalivi, mnogi zasenčeni z borovci",
-      "summary": "Miren, gozdnat polotok z naravnimi potmi in čisto vodo. Za dosego glavnih restavracij v mestu Rab je potreben avto ali kolo."
+      "bestFor": "Páry, milovníci prírody a tí, ktorí hľadajú tieň",
+      "parking": "Zvyčajne dostatok bezplatných parkovacích miest pri hoteloch a apartmánoch",
+      "beach": "Skalnaté a štrkové zátoky, mnohé v tieni borovíc",
+      "summary": "Tichý, zalesnený polostrov s prírodnými chodníkmi a čistou vodou. Na dosiahnutie hlavných reštaurácií mesta Rab je potrebné auto alebo bicykel."
     },
     {
-      "name": "Banjol & Barbat",
-      "bestFor": "Pogled na morje in popotniki s plovili",
-      "parking": "Običajno vključeno v zasebnih apartmajih",
-      "beach": "Prodnate plaže in majhni peščeni odseki",
-      "summary": "Ti sosednji obalni naselji se razprostirata južno od mesta Rab. S središčem sta povezani z obalno promenado, kar ponuja ravnotežje med dostopom do plaže in bližino mesta."
+      "name": "Banjol a Barbat",
+      "bestFor": "Výhľad na more a cestovatelia s loďami",
+      "parking": "Zvyčajne zahrnuté pri súkromných apartmánoch",
+      "beach": "Štrkové pláže a menšie piesočnaté úseky",
+      "summary": "Tieto susediace pobrežné sídla sa tiahnu južne od mesta Rab. S centrom ich spája pobrežná promenáda a ponúkajú vyvážený prístup k pláži a blízkosť mesta."
     }
   ],
   "gettingThere": [
     {
-      "from": "München",
-      "car": "550 km, ~7,5 ure preko Salzburga, Beljaka, Ljubljane, Reke in trajekta Stinica. Zahteva AT in SI vinjete, cestnino za Karavanški predor, hrvaške cestnine.",
-      "other": "Vlak ali FlixBus do Reke, nato katamaran Jadrolinija do mesta Rab."
+      "from": "Mníchov",
+      "car": "550 km, ~7,5 hodiny cez Salzburg, Villach, Ľubľanu, Rijeku a trajekt Stinica. Vyžaduje rakúsku a slovinskú diaľničnú známku, mýto za tunel Karavanky a chorvátske mýto.",
+      "other": "Vlak alebo FlixBus do Rijeky, potom katamarán Jadrolinije do mesta Rab."
     },
     {
-      "from": "Dunaj",
-      "car": "530 km, ~6,5 ure preko Gradca, Maribora, Zagreba, A1 do Žute Lokve in trajekta Stinica. Zahteva AT in SI vinjete, hrvaške cestnine.",
-      "other": "Vlak ali avtobus do Zagreba, nato direkten avtobus do Raba."
+      "from": "Viedeň",
+      "car": "530 km, ~6,5 hodiny cez Graz, Maribor, Záhreb, diaľnicou A1 do Žutej Lokvy a trajekt Stinica. Vyžaduje rakúsku a slovinskú diaľničnú známku a chorvátske mýto.",
+      "other": "Vlak alebo autobus do Záhrebu, potom priamy autobus do mesta Rab."
     },
     {
-      "from": "Budimpešta",
-      "car": "520 km, ~6 ur preko M7 do Letenya, Zagreba, A1 do Žute Lokve in trajekta Stinica. Zahteva HU e-vinjeto, hrvaške cestnine.",
-      "other": "FlixBus do Zagreba, povezovalni avtobus do Raba."
+      "from": "Budapešť",
+      "car": "520 km, ~6 hodín cez diaľnicu M7 do Letenye, Záhreb, diaľnicou A1 do Žutej Lokvy a trajekt Stinica. Vyžaduje maďarskú elektronickú diaľničnú známku a chorvátske mýto.",
+      "other": "FlixBus do Záhrebu, potom nadväzujúci autobus do mesta Rab."
     },
     {
-      "from": "Ljubljana",
-      "car": "160 km, ~3 ure preko Postojne, Ilirske Bistrice, Reke in trajekta Stinica. Zahteva SI vinjeto, hrvaške cestnine.",
-      "other": "Avtobus do Reke, nato katamaran do mesta Rab."
+      "from": "Ľubľana",
+      "car": "160 km, ~3 hodiny cez Postojnu, Ilirsku Bystricu, Rijeku a trajekt Stinica. Vyžaduje slovinskú diaľničnú známku a chorvátske mýto.",
+      "other": "Autobus do Rijeky, potom katamarán do mesta Rab."
     },
     {
-      "from": "Praga",
-      "car": "850 km, ~10 ur preko Brna, Dunaja, Gradca, Zagreba, A1 in trajekta Stinica. Zahteva CZ, AT in SI vinjete, hrvaške cestnine.",
-      "other": "Vlak ali avtobus do Reke/Zagreba, nato nadaljnji avtobus/katamaran do Raba."
+      "from": "Praha",
+      "car": "850 km, ~10 hodín cez Brno, Viedeň, Graz, Záhreb, diaľnicu A1 a trajekt Stinica. Vyžaduje českú, rakúsku a slovinskú diaľničnú známku a chorvátske mýto.",
+      "other": "Vlak alebo autobus do Rijeky/Záhrebu, potom ďalší autobus alebo katamarán do mesta Rab."
     },
     {
       "from": "Krakov",
-      "car": "920 km, ~10,5 ure preko Ostrave, Brna, Dunaja, Zagreba, A1 in trajekta Stinica. Zahteva PL, CZ, AT in SI vinjete/cestnine, hrvaške cestnine.",
-      "other": "Let do Zadra (ZAD), nato avtobus do Senja in trajekt, ali najem avtomobila."
+      "car": "920 km, ~10,5 hodiny cez Ostravu, Brno, Viedeň, Záhreb, diaľnicu A1 a trajekt Stinica. Vyžaduje poľské, české, rakúske a slovinské diaľničné známky alebo mýtne poplatky a chorvátske mýto.",
+      "other": "Let do Zadaru (ZAD), potom autobus do Senja a trajekt, alebo požičané auto."
     }
   ],
-  "whenToGo": "Junij do september so najbolj zanesljivi meseci za kopanje, z vrhuncem temperatur morja med 25°C in 27°C v avgustu. Julij in avgust prinašata najvišje cene, največje množice na Rajski Plaži in morebitne čakalne dobe za trajekte Stinica in Valbiska. Junij in september ponujata ravnotežje tople vode, nižjih cen nastanitev in popolnoma delujočih restavracij brez poletne gneče. Od novembra do aprila je otok miren, številne turistično usmerjene restavracije in hoteli so zaprti, vreme pa je pogosto prehladno ali vetrovno za aktivnosti na plaži.",
+  "whenToGo": "Jún až september sú najspoľahlivejšie mesiace na kúpanie, pričom teplota mora dosahuje vrchol medzi 25°C a 27°C v auguste. Júl a august prinášajú najvyššie ceny, najväčší nápor ľudí na Rajskej pláži a možné čakacie časy na trajekty Stinica a Valbiska. Jún a september ponúkajú vyváženú kombináciu teplej vody, nižších cien ubytovania a plne fungujúcich reštaurácií bez letného šialenstva. Od novembra do apríla je ostrov tichý, mnohé reštaurácie a hotely pre turistov zatvárajú a počasie je často príliš chladné alebo veterné na plážové aktivity.",
   "faq": [
     {
-      "question": "Ali je Rab vreden obiska?",
-      "answer": "Da, predvsem zaradi svoje edinstvene pokrajine peščenih plaž in gostih borovih gozdov. Poleg plitvih zalivov, ki so redki na drugih hrvaških otokih, ponuja tudi dobro ohranjeno srednjeveško mesto."
+      "question": "Oplatí sa navštíviť Rab?",
+      "answer": "Áno, predovšetkým pre svoju výraznú krajinu s piesočnatými plážami a hustými borovicovými lesmi. Ponúka zachované stredoveké mesto spolu s plytkými zátokami, ktoré sú na iných chorvátskych ostrovoch nezvyčajné."
     },
     {
-      "question": "Koliko dni potrebujem na Rabu?",
-      "answer": "Štiri do sedem dni je idealno. To zagotavlja dovolj časa za raziskovanje mesta Rab, preživljanje nekaj dni na različnih plažah v Loparju in Suhi Punti ter za lokalni izlet z ladjo."
+      "question": "Koľko dní potrebujem na Rabe?",
+      "answer": "Ideálne sú štyri až sedem dní. To poskytuje dostatok času na prehliadku mesta Rab, na niekoľko dní na rôznych plážach v Lopare a Suhej Punte a na miestny výlet loďou."
     },
     {
-      "question": "Katera je najboljša plaža na Rabu?",
-      "answer": "Rajska Plaža v Loparju je najbolj priljubljena zaradi svojih 1,5 kilometra plitvega peska. Za mirnejše, senčne kotičke so boljši skalnati in prodnati zalivi polotoka Suha Punta."
+      "question": "Aká je najlepšia pláž na Rabe?",
+      "answer": "Rajská pláž (Paradise Beach) v Lopare je najobľúbenejšia vďaka svojmu 1,5 kilometra dlhému plytkému piesku. Na tichšie miesta v tieni sa uprednostňujú skalnaté a štrkové zátoky polostrova Suha Punta."
     },
     {
-      "question": "Ali potrebujem avto na Rabu?",
-      "answer": "Avto je zelo priporočljiv za potovanje med starim mestnim jedrom, peščenimi plažami na severu in gozdnatimi območji. Čeprav je mesto Rab primerno za pešce, zanašanje zgolj na lokalne avtobuse omejuje prilagodljivost."
+      "question": "Potrebujem na Rabe auto?",
+      "answer": "Auto sa veľmi odporúča na cestovanie medzi starým mestom, piesočnatými plážami na severe a zalesnenými oblasťami. Hoci sa mestom Rab dá prejsť pešo, spoliehanie sa len na miestne autobusy obmedzuje flexibilitu."
     },
     {
-      "question": "Kje parkiram v mestu Rab?",
-      "answer": "Obiskovalci morajo uporabljati velika, plačljiva občinska parkirišča, ki se nahajajo tik pred mestnim obzidjem. Samo zgodovinsko središče je cona za pešce z omejenim dostopom vozil."
+      "question": "Kde parkovať v meste Rab?",
+      "answer": "Návštevníci musia využiť veľké platené mestské parkoviská ležiace tesne mimo hradieb. Historické centrum je samo osebe zónou len pre peších s obmedzeným vjazdom motorových vozidiel."
     },
     {
-      "question": "Je Rab primeren za družine?",
-      "answer": "Da, Rab je eden najbolj družinam prijaznih otokov na Hrvaškem. Plitve, peščene plaže v Loparju omogočajo majhnim otrokom varno brodenje, otok pa na splošno nima strmih, pečinskih dostopov, ki jih najdemo drugod."
+      "question": "Je Rab vhodný pre rodiny?",
+      "answer": "Áno, Rab patrí k najpriateľskejším ostrovom pre rodiny v Chorvátsku. Plytké piesočnaté pláže v Lopare umožňujú malým deťom bezpečne sa brodiť a ostrov zvyčajne nemá strmé útesové prístupy, aké sa vyskytujú inde."
     }
   ],
   "headings": {
-    "quickFacts": "Na kratko",
-    "whereToStay": "Kje prenočiti na Rabu",
-    "gettingThere": "Pot do Raba",
-    "whenToGo": "Kdaj obiskati",
-    "guides": "Rab vodniki",
-    "faq": "Rab – pogosta vprašanja",
+    "quickFacts": "Na prvý pohľad",
+    "whereToStay": "Kde sa ubytovať na Rabe",
+    "gettingThere": "Ako sa dostať na Rab",
+    "whenToGo": "Kedy cestovať",
+    "guides": "Sprievodcovia po Rabe",
+    "faq": "Časté otázky o Rabe",
     "groups": {
-      "gettingAround": "Parkiranje in premikanje po otoku",
-      "planning": "Načrtovanje in kje prenočiti",
-      "timing": "Kdaj obiskati",
-      "travelers": "Družine, pari in načini potovanja",
-      "activities": "Plaže in aktivnosti",
-      "food": "Hrana in pijača",
-      "comparisons": "Primerjave",
-      "practical": "Praktične informacije"
+      "gettingAround": "Parkovanie a doprava na mieste",
+      "planning": "Plánovanie a ubytovanie",
+      "timing": "Kedy cestovať",
+      "travelers": "Rodiny, páry a štýly cestovania",
+      "activities": "Pláže a aktivity",
+      "food": "Jedlo a pitie",
+      "comparisons": "Porovnania",
+      "practical": "Praktické informácie"
     },
-    "car": "Z avtomobilom",
-    "other": "Druge možnosti",
-    "bestFor": "Najboljše za",
-    "parking": "Parkiranje",
-    "beach": "Plaža"
+    "car": "Autom",
+    "other": "Iné možnosti",
+    "bestFor": "Najlepšie pre",
+    "parking": "Parkovanie",
+    "beach": "Pláž"
   },
   "destination": "rab",
   "language": "sk",
-  "updatedAt": "2026-10-16T13:01:14.677Z"
+  "updatedAt": "2026-10-19T11:44:36.080Z"
 }

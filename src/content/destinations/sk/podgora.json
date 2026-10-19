@@ -1,139 +1,139 @@
 {
-  "title": "Podgora Potovalni vodnik: Plaže, parkiranje in kje bivati",
-  "metaDescription": "Načrtujte svoje potovanje v Podgoro, Hrvaška. Odkrijte najboljše prodnate plaže, kje parkirati, vodnike po soseskah Čaklje in Centar ter prometne poti.",
-  "intro": "Podgora je obmorsko letoviško mesto na Makarski rivieri, ki leži neposredno med Jadranskim morjem in pobočji gore Biokovo. Zgodovinsko je bila ribiška vas, zdaj pa je skoraj v celoti usmerjena v poletni turizem. Obala se ponaša z dolgo promenado, ki jo senčijo borovci, ob njej pa so kavarne, restavracije in dolgi odseki belih prodnatih plaž.\n\nPrimerna je za družine in pare, ki iščejo preproste počitnice na plaži brez živahnega nočnega življenja v bližnji Makarski. Obiskovalci, ki imajo raje mirnejše predele, pogosto izberejo zgornjo vas Gornja Podgora. Glavna sezona traja od junija do septembra, julij in avgust pa prinašata najvišje temperature morja skupaj z največjo gnečo in cenami.",
+  "title": "Sprievodca po Podgore: pláže, parkovanie a kde sa ubytovať",
+  "metaDescription": "Naplánujte si cestu do Podgory v Chorvátsku. Objavte najlepšie kamienkové pláže, zistite, kde parkovať, a prečítajte si sprievodcu po štvrtiach Čaklje a Centar a trasy pre vodičov.",
+  "intro": "Podgora je prímorské letovisko na Makarskej riviére, ležiace priamo medzi Jadranským morom a svahmi pohoria Biokovo. Historicky to bola rybárska dedina, dnes však takmer výlučne slúži letnej turistike. Pobrežie lemuje dlhá promenáda tienená borovicami, s kaviarňami, reštauráciami a dlhými úsekmi bielych kamienkových pláží.\n\nVhodná je pre rodiny a páry, ktoré hľadajú jednoduchú dovolenku pri mori bez silného nočného života susednej Makarskej. Návštevníci, ktorí uprednostňujú tiché miesta, si často vyberú hornú dedinu Gornja Podgora. Hlavná sezóna trvá od júna do septembra, pričom júl a august prinášajú najteplejšie more, ale aj najväčšie davy a najvyššie ceny.",
   "quickFacts": [
     {
-      "label": "Najboljši meseci",
-      "value": "Junij do september"
+      "label": "Najlepšie mesiace",
+      "value": "Jún až september"
     },
     {
-      "label": "Temperatura morja v avgustu",
+      "label": "Teplota mora v auguste",
       "value": "25°C - 27°C"
     },
     {
-      "label": "Najbližje letališče",
+      "label": "Najbližšie letisko",
       "value": "Split (SPU), 107 km"
     },
     {
-      "label": "Glavni tip plaže",
-      "value": "Beli prod z borovo senco"
+      "label": "Hlavný typ pláže",
+      "value": "Biele kamienky v tieni borovíc"
     },
     {
-      "label": "Cenovni nivo",
-      "value": "Povprečno do nekoliko nadpovprečno"
+      "label": "Cenová úroveň",
+      "value": "Priemerná až mierne nadpriemerná"
     },
     {
-      "label": "Dostopnost peš",
-      "value": "Ravna obmorska promenada; zgornja vas zahteva avto"
+      "label": "Pešia dostupnosť",
+      "value": "Rovná prímorská promenáda; horná dedina vyžaduje auto"
     }
   ],
   "areas": [
     {
       "name": "Centar / Luka",
-      "bestFor": "Za tiste, ki prvič obiščejo, in želijo biti v bližini restavracij in izletov z ladjo",
-      "parking": "Izjemno omejeno; plačljiva javna parkirišča se hitro zapolnijo",
-      "beach": "Neposredno ob glavni prodnati plaži Podgore",
-      "summary": "Živahno središče Podgore se ponaša z dolgo obmorsko promenado, glavno marino in večino mestnih restavracij. Poleti je živahno, ponoči pa je lahko hrupno zaradi mimoidočih množic."
+      "bestFor": "Prví návštevníci, ktorí chcú mať reštaurácie a výlety loďou na dosah ruky",
+      "parking": "Mimoriadne obmedzené; platené verejné parkoviská sa zapĺňajú skoro",
+      "beach": "Priamo susedí s hlavnou kamienkovou plážou Podgory",
+      "summary": "Rušné srdce Podgory s dlhou prímorskou promenádou, hlavnou marinou a väčšinou stravovacích možností v meste. V lete je živé, no v noci môže byť hlučné kvôli prechádzajúcim davom."
     },
     {
       "name": "Čaklje",
-      "bestFor": "Za družine in obiskovalce, ki iščejo mirnejše doživetje na plaži",
-      "parking": "Večinoma na voljo pri zasebnih apartmajih; malo javnih parkirišč",
-      "beach": "Neposredno spredaj; mirnejša prodnata plaža z blagim naklonom",
-      "summary": "Nahaja se v južnem delu Podgore, ta soseska je v veliki meri stanovanjska z zasebnimi apartmaji. Ponuja bolj sproščeno okolje, hkrati pa je povezana s centrom po obalni sprehajalni poti."
+      "bestFor": "Rodiny a návštevníci, ktorí hľadajú pokojnejšiu pláž",
+      "parking": "Väčšinou zabezpečované súkromnými apartmánmi; málo verejných parkovacích miest",
+      "beach": "Hneď pred štvrťou; pokojnejšia kamienková pláž s miernym sklonom",
+      "summary": "Nachádza sa v južnej časti Podgory a je z veľkej časti obytná, s množstvom súkromných apartmánov. Ponúka uvoľnenejšie prostredie a zároveň je s centrom spojená pobrežným peším chodníkom."
     },
     {
       "name": "Gornja Podgora",
-      "bestFor": "Za pare, pohodnike in tiste, ki najamejo zasebne vile",
-      "parking": "Ponavadi vključeno in obilno v počitniških hišah",
-      "beach": "2 do 3 km po strmi, ovinkasti cesti do obale",
-      "summary": "Prvotno zgodovinsko naselje leži visoko na pobočjih gore Biokovo. Ponaša se z obnovljenimi kamnitimi hišami, oljčnimi nasadi in jasnim pogledom na morje, zaradi česar je idealno za tiste, ki se želijo izogniti obalni gneči."
+      "bestFor": "Páry, turisti na túry a ľudia, ktorí si prenajímajú súkromné vily",
+      "parking": "Zvyčajne zahrnuté a dostatočné pri domoch na prenájom",
+      "beach": "2 až 3 km dolu k pobrežiu strmou a zákrutovitou cestou",
+      "summary": "Pôvodná historická osada sa týči vysoko na svahoch pohoria Biokovo. Nachádzajú sa tu zrekonštruované kamenné domy, olivové háje a pekné výhľady na more, vďaka čomu je ideálna pre tých, ktorí chcú uniknúť davom pri pobreží."
     }
   ],
   "gettingThere": [
     {
-      "from": "München",
-      "car": "~880 km, 9.5 ur preko A8, A10 (cestnina Tauern), Karavanškega predora in hrvaške A1. Potrebni avstrijska in slovenska vinjeta.",
-      "other": "Let do Splita (SPU), nato letališki transfer ali avtobus do Podgore"
+      "from": "Mníchov",
+      "car": "~880 km, 9,5 hodiny cez A8, A10 (tauerný tunel), Karavanský tunel a chorvátsku diaľnicu A1. Potrebné sú rakúska a slovinská diaľničná známka.",
+      "other": "Let do Splitu (SPU), potom letištná preprava alebo autobus do Podgory"
     },
     {
-      "from": "Dunaj",
-      "car": "~780 km, 8-9 ur preko Gradca, Maribora (SI vinjeta) in hrvaške A1.",
-      "other": "Let do Splita (SPU) ali neposreden FlixBus do Makarske/Podgore"
+      "from": "Viedeň",
+      "car": "~780 km, 8-9 hodín cez Graz, Maribor (slovinská diaľničná známka) a chorvátsku diaľnicu A1.",
+      "other": "Let do Splitu (SPU) alebo priamy autobus FlixBus do Makarskej/Podgory"
     },
     {
-      "from": "Budimpešta",
-      "car": "~830 km, 8-9 ur preko M7 do Letenya, nato hrvaške A4 in A1. Potrebna madžarska vinjeta in hrvaške cestnine.",
-      "other": "Neposreden FlixBus do Podgore (pribl. 15 ur) ali let do Splita"
+      "from": "Budapešť",
+      "car": "~830 km, 8-9 hodín cez diaľnicu M7 do Letenye, potom chorvátske diaľnice A4 a A1. Maďarská diaľničná známka a chorvátske mýto.",
+      "other": "Priamy autobus FlixBus do Podgory (cca 15 hodín) alebo let do Splitu"
     },
     {
-      "from": "Ljubljana",
-      "car": "~500 km, 5.5 ur preko Novega Mesta in hrvaške A1. Potrebna SI vinjeta in HR cestnine.",
-      "other": "Avtobus ali vlak do Zagreba, nato prestop na avtobus do Podgore"
+      "from": "Ľubľana",
+      "car": "~500 km, 5,5 hodiny cez Nové Mesto a chorvátsku diaľnicu A1. Slovinská diaľničná známka a chorvátske mýto.",
+      "other": "Autobus alebo vlak do Záhrebu, s prestupom na autobus do Podgory"
     },
     {
-      "from": "Praga",
-      "car": "~1.100 km, 11-12 ur preko Dunaja, Gradca in Zagreba. Potrebne CZ, AT, SI vinjete in HR cestnine.",
-      "other": "Let do Splita ali sezonski vlak RegioJet do Splita"
+      "from": "Praha",
+      "car": "~1 100 km, 11-12 hodín cez Viedeň, Graz a Záhreb. České, rakúske a slovinské diaľničné známky a chorvátske mýto.",
+      "other": "Let do Splitu alebo sezónny vlak RegioJet do Splitu"
     },
     {
       "from": "Krakov",
-      "car": "~1.150 km, 12-13 ur preko Slovaške, Budimpešte in hrvaške A1. Potrebne SK, HU vinjete in HR cestnine.",
-      "other": "Let iz Krakova ali Katowic do Splita, nato avtobus"
+      "car": "~1 150 km, 12-13 hodín cez Slovensko, Budapešť a chorvátsku diaľnicu A1. Slovenská a maďarská diaľničná známka a chorvátske mýto.",
+      "other": "Let z Krakova alebo Katovíc do Splitu, potom autobus"
     }
   ],
-  "whenToGo": "Junij prinaša toplo vreme (25-28°C) in udobne temperature morja okoli 22°C, z odprtimi vsemi restavracijami in zmernimi množicami. Julij in avgust sta vrhunec sezone, ko morje doseže 25-27°C, promenade so živahne, cene pa najvišje na Makarski rivieri. September je zelo priporočljiv, saj morje ostane dovolj toplo za kopanje do poznega meseca, medtem ko se množice redčijo in parkiranje postane lažje. Od oktobra do maja je izven sezone; morje je prehladno za kopanje, večina turističnih objektov in restavracij v Podgori pa se popolnoma zapre.",
+  "whenToGo": "Jún prináša teplé počasie (25-28°C) a príjemnú teplotu mora okolo 22°C, všetky reštaurácie sú otvorené a davy sú mierne. Júl a august sú špičkovou sezónou, more dosahuje 25-27°C, promenády sú preplnené a ceny na Makarskej riviére sú najvyššie. September sa veľmi odporúča, pretože more zostáva dostatočne teplé na kúpanie až do konca mesiaca, davy rednú a parkovanie sa uľahčuje. Obdobie od októbra do mája je mimosezóna; more je na kúpanie príliš studené a väčšina turistických zariadení a reštaurácií v Podgore úplne zatvára.",
   "faq": [
     {
-      "question": "Je Podgora vredna obiska?",
-      "answer": "Da, Podgora je odlična izbira za klasične počitnice na plaži na Makarski rivieri. Ponuja dolge prodnate plaže in strmo gorsko pokrajino brez velike gneče, ki jo najdemo v mestu Makarska."
+      "question": "Oplatí sa navštíviť Podgoru?",
+      "answer": "Áno, Podgora je výborná voľba pre klasickú dovolenku na pláži na Makarskej riviére. Ponúka dlhé kamienkové pláže a strmú horskú scenériu bez veľkých davov, ktoré sa nachádzajú v meste Makarska."
     },
     {
-      "question": "Koliko dni naj preživim v Podgori?",
-      "answer": "Pet do sedem dni je običajno za poletno potovanje. To nudi dovolj časa za vsakodnevno kopanje, sprehajanje po promenadi in enodnevni izlet na goro Biokovo ali bližnje otoke."
+      "question": "Koľko dní by som mal stráviť v Podgore?",
+      "answer": "Pre letný pobyt je typických päť až sedem dní. Tento čas stačí na denné kúpanie, prechádzky po promenáde a jednodenný výlet na Biokovo alebo na susedné ostrovy."
     },
     {
-      "question": "Katera je najboljša plaža v Podgori?",
-      "answer": "Plaža Čaklje v južnem delu mesta velja za najboljšo, ker je mirnejša in ima zelo čisto vodo. Glavna plaža Podgore v centru je prav tako dobra, vendar je julija in avgusta veliko bolj zasedena."
+      "question": "Ktorá je najlepšia pláž v Podgore?",
+      "answer": "Pláž Čaklje v južnej časti mesta sa všeobecne považuje za najlepšiu, pretože je pokojnejšia a voda je v nej veľmi čistá. Hlavná pláž Podgory v centre je tiež dobrá, no v júli a auguste je oveľa preplnenejšia."
     },
     {
-      "question": "Potrebujem avto v Podgori?",
-      "answer": "Ne, avta ne potrebujete, če bivate v obmorskih predelih, saj so plaže in restavracije dosegljive peš. Vendar pa je vozilo nujno, če rezervirate nastanitev v Gornji Podgori ali načrtujete obsežne dnevne izlete."
+      "question": "Potrebujem v Podgore auto?",
+      "answer": "Nie, ak sa ubytujete v prímorských častiach, auto nepotrebujete, pretože pláže a reštaurácie sú v dosahu pešo. Vozidlo je však nevyhnutné, ak si rezervujete ubytovanie v Gornjej Podgore alebo plánujete rozsiahlejšie výlety."
     },
     {
-      "question": "Kje lahko parkiram v Podgori?",
-      "answer": "Javno parkiranje je zelo omejeno in strogo plačljivo, še posebej ob obali in na občinskih parkiriščih. Obiskovalci naj rezervirajo nastanitev, ki izrecno vključuje zasebno parkirno mesto."
+      "question": "Kde môžem v Podgore parkovať?",
+      "answer": "Verejné parkovanie je veľmi obmedzené a prísne spoplatnené, najmä pri nábreží a na mestských parkoviskách. Návštevníci by si mali rezervovať ubytovanie, ktoré výslovne zahŕňa súkromné parkovacie miesto."
     },
     {
-      "question": "Je Podgora dobra destinacija za družine?",
-      "answer": "Da, Podgora je zelo priljubljena pri družinah, ki potujejo z otroki. Prodante plaže imajo blag vstop v morje, borovci nudijo naravno senco, obalna promenada pa je v celoti asfaltirana za vozičke."
+      "question": "Je Podgora vhodná destinácia pre rodiny?",
+      "answer": "Áno, Podgora je veľmi obľúbená u rodín s deťmi. Kamienkové pláže majú pozvoľný vstup do mora, borovice poskytujú prirodzený tieň a prímorská promenáda je celá vydláždená, takže sa po nej dobre prechádza s kočíkmi."
     }
   ],
   "headings": {
-    "quickFacts": "Na hitro",
-    "whereToStay": "Kje bivati v Podgori",
-    "gettingThere": "Pot do Podgore",
-    "whenToGo": "Kdaj obiskati",
-    "guides": "Vodniki po Podgori",
-    "faq": "Pogosta vprašanja o Podgori",
+    "quickFacts": "Na prvý pohľad",
+    "whereToStay": "Kde sa ubytovať v Podgore",
+    "gettingThere": "Ako sa dostať do Podgory",
+    "whenToGo": "Kedy cestovať",
+    "guides": "Sprievodca po Podgore",
+    "faq": "Časté otázky o Podgore",
     "groups": {
-      "gettingAround": "Parkiranje in gibanje",
-      "planning": "Načrtovanje in kje bivati",
-      "timing": "Kdaj obiskati",
-      "travelers": "Družine, pari in načini potovanja",
-      "activities": "Plaže in aktivnosti",
-      "food": "Hrana in pijača",
-      "comparisons": "Primerjave",
-      "practical": "Praktične informacije"
+      "gettingAround": "Parkovanie a pohyb po okolí",
+      "planning": "Plánovanie a ubytovanie",
+      "timing": "Kedy cestovať",
+      "travelers": "Rodiny, páry a štýly cestovania",
+      "activities": "Pláže a aktivity",
+      "food": "Jedlo a pitie",
+      "comparisons": "Porovnania",
+      "practical": "Praktické informácie"
     },
-    "car": "Z avtomobilom",
-    "other": "Druge možnosti",
-    "bestFor": "Najboljše za",
-    "parking": "Parkiranje",
-    "beach": "Plaža"
+    "car": "Autom",
+    "other": "Iné možnosti",
+    "bestFor": "Najvhodnejšie pre",
+    "parking": "Parkovanie",
+    "beach": "Pláž"
   },
   "destination": "podgora",
   "language": "sk",
-  "updatedAt": "2026-10-16T13:39:20.271Z"
+  "updatedAt": "2026-10-19T11:44:36.054Z"
 }

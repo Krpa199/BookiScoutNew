@@ -1,146 +1,146 @@
 {
-  "title": "Samobor Potovalni Vodnik: Pohodništvo, Parkiranje in Kje Ostati",
-  "metaDescription": "Načrtujte potovanje v Samobor, Hrvaška z našim informativnim vodnikom. Odkrijte najboljše soseske za bivanje, potovalne poti, nasvete za parkiranje in lokalne informacije o pohodništvu.",
-  "intro": "Samobor je zgodovinsko tržno mesto, ki leži 25 kilometrov zahodno od Zagreba, v vzhodnem vznožju gorovja Samoborsko Gorje. Privablja pohodnike, ljubitelje kulinarike in tiste, ki iščejo mirno alternativo živahnemu hrvaškemu glavnemu mestu. Mesto se ponaša z baročno arhitekturo, pešcem prijaznim središčem in potokom Gradna, ki teče skozenj. Obiskovalci prihajajo zaradi tradicionalne kremšnite, ruševin gradu iz 13. stoletja in dostopa do številnih gozdnih poti.\n\nNajboljši čas za obisk je od maja do septembra, ko je vreme dovolj toplo za obedovanje na prostem in raziskovanje okoliškega naravnega parka. Zime so mirne, vendar privabijo množice med letnim karnevalom Fašnik februarja.",
+  "title": "Sprievodca po Samobore: turistika, parkovanie a ubytovanie",
+  "metaDescription": "Naplánujte si výlet do Samobora v Chorvátsku s naším vecným sprievodcom. Objavte najlepšie štvrte na ubytovanie, trasy autom, tipy na parkovanie a miestne informácie o turistike.",
+  "intro": "Samobor je historické trhové mestečko ležiace 25 kilometrov západne od Záhrebu, na východnom úpätí pohoria Samoborské pohorie. Osloví turistov, milovníkov gastronómie aj tých, ktorí hľadajú pokojnú alternatívu k rušnému chorvátskemu hlavnému mestu. Mestom prechádza potok Gradna a nájdete tu barokovú architektúru aj centrum prístupné pre chodcov. Návštevníci sem prichádzajú pre tradičnú šťavnatú zákusku kremšnitu, zrúcaniny hradu zo 13. storočia a prístup k množstvu lesných chodníkov.\n\nNajlepší čas na návštevu je od mája do septembra, keď je počasie dostatočne teplé na sedenie vonku a objavovanie okolitého prírodného parku. Zima je tichá, no v februári sa mesto zaplní návštevníkmi počas každoročného karnevalu Fašnik.",
   "quickFacts": [
     {
-      "label": "Najboljši meseci",
-      "value": "Maj, Junij, September"
+      "label": "Najlepšie mesiace",
+      "value": "máj, jún, september"
     },
     {
-      "label": "Temperatura morja avgusta",
-      "value": "Ni podatka (celinsko mesto)"
+      "label": "Teplota mora v auguste",
+      "value": "Nie je k dispozícii (vnútrozemské mesto)"
     },
     {
-      "label": "Najbližje letališče",
-      "value": "Zagreb (ZAG), 35 km"
+      "label": "Najbližšie letisko",
+      "value": "Záhreb (ZAG), 35 km"
     },
     {
-      "label": "Glavna vrsta plaže",
-      "value": "Ni (lokalni zunanji bazen)"
+      "label": "Hlavný typ pláže",
+      "value": "Žiadna (miestne vonkajšie kúpalisko)"
     },
     {
-      "label": "Cenovni nivo",
-      "value": "Zmeren (cenejše kot na obali)"
+      "label": "Cenová úroveň",
+      "value": "Stredná (lacnejšie ako na pobreží)"
     },
     {
-      "label": "Peš dostopnost",
-      "value": "Visoka peš dostopnost, peš cona v centru"
+      "label": "Pešia dostupnosť",
+      "value": "Veľmi dobrá, centrum je pre peších"
     }
   ],
   "areas": [
     {
-      "name": "Center (Staro mesto)",
-      "bestFor": "Za prvič obiskovalce in kavarniško kulturo",
-      "parking": "Plačljiva javna parkirišča izven peš con",
-      "beach": "Ni podatka (celinsko)",
-      "summary": "Zgodovinsko srce Samobora, zgrajeno okoli Trga kralja Tomislava. Ponuja neposreden dostop do tradicionalnih pekarn, restavracij in glavne promenade ob potoku Gradna."
+      "name": "Centar (staré mesto)",
+      "bestFor": "Prvonávštevníci a kaviarenská kultúra",
+      "parking": "Platené verejné parkoviská mimo pešej zóny",
+      "beach": "Nie je k dispozícii (vnútrozemie)",
+      "summary": "Historické srdce Samobora, vybudované okolo Námestia kráľa Tomislava. Ponúka okamžitý prístup k tradičným pekárňam, reštauráciám a hlavnej promenáde pozdĺž potoka Gradna."
     },
     {
       "name": "Giznik",
-      "bestFor": "Za mirno bivanje in stanovanjsko udobje",
-      "parking": "Zasebno parkirišče široko dostopno",
-      "beach": "Ni podatka (celinsko)",
-      "summary": "Prestižna, hribovita stanovanjska soseska, takoj nad starim mestom. Ponuja mirno okolje in panoramske razglede, hkrati pa ostaja le kratek sprehod od centra."
+      "bestFor": "Pokojné pobyty a obytný komfort",
+      "parking": "Súkromné parkovanie je široko dostupné",
+      "beach": "Nie je k dispozícii (vnútrozemie)",
+      "summary": "Luxusná, kopcovitá obytná štvrť priamo nad starým mestom. Poskytuje pokojné prostredie a panoramatické výhľady, pričom centrum je len krátku chôdzu vzdialené."
     },
     {
       "name": "Vrhovčak",
-      "bestFor": "Za ljubitelje narave in popolno zasebnost",
-      "parking": "Veliko brezplačnih zasebnih parkirišč",
-      "beach": "Ni podatka (celinsko)",
-      "summary": "Majhno naselje, ki se nahaja višje v hribih, obdano z gozdovi. Primerno je za obiskovalce, ki si želijo neposrednega dostopa do pohodniških poti in podeželskega vzdušja."
+      "bestFor": "Milovníci prírody a úplné súkromie",
+      "parking": "Dostatok bezplatného súkromného parkovania",
+      "beach": "Nie je k dispozícii (vnútrozemie)",
+      "summary": "Malá osada ležiaca vyššie v kopcoch, obklopená lesmi. Je vhodná pre návštevníkov, ktorí chcú priamy prístup k turistickým chodníkom a vidiecku atmosféru."
     },
     {
       "name": "Rude",
-      "bestFor": "Za ljubitelje zgodovine in rustikalnega vzdušja",
-      "parking": "Enostavno ulično ali zasebno parkiranje",
-      "beach": "Ni podatka (celinsko)",
-      "summary": "Tradicionalna vas 5 kilometrov jugozahodno od Samobora, znana po zgodovini rudarjenja bakra. Obiskovalci bivajo tukaj, da raziščejo rudnik Sv. Barbare in lokalne gorske poti."
+      "bestFor": "Milovníci histórie a rustikálnej atmosféry",
+      "parking": "Jednoduché parkovanie na ulici alebo súkromné",
+      "beach": "Nie je k dispozícii (vnútrozemie)",
+      "summary": "Tradičná dedina ležiaca 5 kilometrov juhozápadne od Samobora, známa svojou históriou ťažby medi. Návštevníci sa tu ubytujú, aby preskúmali baňu sv. Barbory a miestne horské trasy."
     }
   ],
   "gettingThere": [
     {
-      "from": "München",
-      "car": "540 km, 5,5 do 6 ur preko A8, A10 in A2. Zahteva avstrijsko in slovensko vinjeto ter cestnine.",
-      "other": "Nočni vlak ali medkrajevni avtobus do Zagreba, nato lokalni avtobus do Samobora."
+      "from": "Mníchov",
+      "car": "540 km, 5,5 až 6 hodín po diaľniciach A8, A10 a A2. Vyžaduje rakúsku a slovinskú diaľničnú známku a navyše mýto",
+      "other": "Nočný vlak alebo diaľkový autobus do Záhrebu, potom miestny autobus do Samobora"
     },
     {
-      "from": "Dunaj",
-      "car": "370 km, 4 ure preko A2, A9 in slovenske A1. Zahteva avstrijsko in slovensko vinjeto ter hrvaške cestnine.",
-      "other": "Vlak ali avtobus do Zagreba, nato lokalni avtobus do Samobora."
+      "from": "Viedeň",
+      "car": "370 km, 4 hodiny po diaľniciach A2, A9 a slovinskej A1. Vyžaduje rakúsku a slovinskú diaľničnú známku a navyše chorvátske mýto",
+      "other": "Vlak alebo autobus do Záhrebu, potom miestny autobus do Samobora"
     },
     {
-      "from": "Budimpešta",
-      "car": "370 km, 3,5 do 4 ure preko M7 in A4. Zahteva madžarsko vinjeto in hrvaške cestnine.",
-      "other": "Vlak ali avtobus do Zagreba, nato lokalni avtobus do Samobora."
+      "from": "Budapešť",
+      "car": "370 km, 3,5 až 4 hodiny po diaľniciach M7 a A4. Vyžaduje maďarskú diaľničnú známku a chorvátske mýto",
+      "other": "Vlak alebo autobus do Záhrebu, potom miestny autobus do Samobora"
     },
     {
-      "from": "Ljubljana",
-      "car": "115 km, 1,5 ure preko A2 do mejnega prehoda Bregana. Zahteva slovensko vinjeto.",
-      "other": "Vlak ali avtobus do Zagreba, nato lokalni avtobus do Samobora."
+      "from": "Ľubľana",
+      "car": "115 km, 1,5 hodiny po diaľnici A2 k hraničnému priechodu Bregana. Vyžaduje slovinskú diaľničnú známku",
+      "other": "Vlak alebo autobus do Záhrebu, potom miestny autobus do Samobora"
     },
     {
-      "from": "Praga",
-      "car": "650 km, 7,5 ure preko D1 do Brna, nato avstrijska A2 in slovenska A1. Zahteva češko, avstrijsko in slovensko vinjeto.",
-      "other": "Letalo ali avtobus do Zagreba, nato lokalni avtobus do Samobora."
+      "from": "Praha",
+      "car": "650 km, 7,5 hodiny po ceste D1 do Brna, potom rakúskou A2 a slovinskou A1. Vyžaduje českú, rakúsku a slovinskú diaľničnú známku",
+      "other": "Let alebo autobus do Záhrebu, potom miestny autobus do Samobora"
     },
     {
       "from": "Krakov",
-      "car": "710 km, 8 do 9 ur preko A4, Slovaške (D3) in Madžarske (M7). Zahteva slovaško in madžarsko vinjeto.",
-      "other": "Letalo ali avtobus do Zagreba, nato lokalni avtobus do Samobora."
+      "car": "710 km, 8 až 9 hodín po diaľnici A4, cez Slovensko (D3) a Maďarsko (M7). Vyžaduje slovenskú a maďarskú diaľničnú známku",
+      "other": "Let alebo autobus do Záhrebu, potom miestny autobus do Samobora"
     }
   ],
-  "whenToGo": "Samobor je celoletna celinska destinacija brez morja. Maj in junij prinašata prijetno pohodniško vreme (15°C do 25°C), cvetoče pokrajine in zmerne cene. Julij in avgust sta najtoplejša meseca s temperaturami, ki pogosto presegajo 30°C, privabljata več domačih izletnikov iz Zagreba; vse restavracije in planinske koče so v polnem obratovanju. September ponuja hladnejše, udobno vreme in nekoliko nižje cene namestitev. Od oktobra do aprila je mesto precej mirnejše in hladnejše, čeprav so pekarne in glavne mestne restavracije še vedno odprte. Februar kratkotrajno dvigne cene in množice zaradi letnega karnevala Samobor Fašnik.",
+  "whenToGo": "Samobor je vnútrozemská destinácia otvorená po celý rok, bez mora. Máj a jún prinášajú príjemné počasie na turistiku (15 °C až 25 °C), rozkvitnutú krajinu a stredné ceny. Júl a august sú najteplejšie mesiace s teplotami, ktoré často presahujú 30 °C, a prilákajú viac domácich návštevníkov na jednodňové výlety zo Záhrebu; všetky reštaurácie a horské chaty sú plne v prevádzke. September ponúka chladnejšie a príjemnejšie počasie a mierne nižšie ceny ubytovania. Od októbra do apríla je mesto oveľa tichšie a chladnejšie, no pekárne a hlavné reštaurácie v centre zostávajú otvorené. Vo februári sa na krátky čas zvýšia ceny a počet ľudí kvôli každoročnému karnevalu Samobor Fašnik.",
   "faq": [
     {
-      "question": "Je Samobor vreden obiska?",
-      "answer": "Da, še posebej zaradi dobro ohranjene baročne arhitekture in slavne kremšnite. Služi kot odlična pohodniška baza za gorovje Samoborsko Gorje ali sproščen enodnevni izlet iz Zagreba."
+      "question": "Oplatí sa navštíviť Samobor?",
+      "answer": "Áno, najmä kvôli dobre zachovanej barokovej architektúre a známej zákuske kremšnite. Slúži ako výborná základňa pre turistiku v Samoborskom pohorí alebo ako uvoľnený jednodňový výlet zo Záhrebu."
     },
     {
-      "question": "Koliko dni potrebujem v Samoboru?",
-      "answer": "En do dva dni je dovolj za raziskovanje starega mestnega jedra, obisk grajskih ruševin in uživanje v lokalnih kavarnah. Dodajte dodaten dan, če načrtujete obsežno pohodništvo v okoliškem naravnem parku."
+      "question": "Koľko dní potrebujem v Samobore?",
+      "answer": "Na prehliadku starého mesta, návštevu zrúcanín hradu a užitie si miestnych kaviarní postačujú jeden až dva dni. Ak plánujete rozsiahlu turistiku v okolitom prírodnom parku, pridajte ešte jeden deň."
     },
     {
-      "question": "Katera je najboljša plaža v Samoboru?",
-      "answer": "Samobor je celinska destinacija in nima morskih plaž. Obiskovalci se ohladijo v zunanjem bazenu Vugrinščak ali pa potujejo vsaj dve uri do Jadranske obale."
+      "question": "Aká je najlepšia pláž v Samobore?",
+      "answer": "Samobor je vnútrozemská destinácia a nemá morské pláže. Návštevníci sa osviežia na vonkajšom kúpalisku Vugrinščak alebo musia cestovať aspoň dve hodiny k Jadranskému pobrežiu."
     },
     {
-      "question": "Potrebujem avto v Samoboru?",
-      "answer": "Avto ni potreben za peš dostopno mestno središče ali za potovanje v in iz Zagreba z lokalnim avtobusom. Vendar je vozilo zelo priporočljivo za dosego bližnjih gorskih izhodišč in podeželskih vasi."
+      "question": "Potrebujem auto v Samobore?",
+      "answer": "Auto nie je potrebné pre pešo prístupné centrum mesta ani na cestu do Záhrebu a späť miestnym autobusom. Na dosiahnutie blízkych horských začiatkov turistických trás a vidieckych dedín sa však vozidlo veľmi odporúča."
     },
     {
-      "question": "Kje je najboljše parkirati v Samoboru?",
-      "answer": "Parkiranje na osrednjem trgu je omejeno, vendar se velika plačljiva javna parkirišča nahajajo tik izven peš cone. Parkirišča blizu glavne avtobusne postaje in za kinom so najprimernejša."
+      "question": "Kde je najlepšie miesto na parkovanie v Samobore?",
+      "answer": "Parkovanie na centrálnom námestí je obmedzené, no veľké platené verejné parkoviská sa nachádzajú hneď za pešou zónou. Najvýhodnejšie sú parkoviská pri hlavnej autobusovej stanici a za kinom."
     },
     {
-      "question": "Je Samobor dobra destinacija za družine?",
-      "answer": "Da, je zelo varno, ravno in sproščeno mesto za družine z otroki. Enostaven gozdni sprehod do ruševin Samoborskega gradu in bližnja Grgosova jama so priljubljene otrokom prijazne aktivnosti."
+      "question": "Je Samobor dobrou destináciou pre rodiny?",
+      "answer": "Áno, je to veľmi bezpečné, rovinaté a pokojné mesto pre rodiny s deťmi. Obľúbenými aktivitami vhodnými pre deti sú ľahká lesná prechádzka k zrúcaninám hradu Samobor a blízka jaskyňa Grgos."
     }
   ],
   "headings": {
-    "quickFacts": "Na kratko",
-    "whereToStay": "Kje ostati v Samoboru",
-    "gettingThere": "Prihod v Samobor",
-    "whenToGo": "Kdaj obiskati",
-    "guides": "Samoborski vodniki",
-    "faq": "Pogosta vprašanja o Samoboru",
+    "quickFacts": "Na prvý pohľad",
+    "whereToStay": "Kde sa ubytovať v Samobore",
+    "gettingThere": "Ako sa dostať do Samobora",
+    "whenToGo": "Kedy ísť",
+    "guides": "Sprievodcovia po Samobore",
+    "faq": "Časté otázky o Samobore",
     "groups": {
-      "gettingAround": "Parkiranje in premikanje",
-      "planning": "Načrtovanje in namestitev",
-      "timing": "Kdaj obiskati",
-      "travelers": "Družine, pari in stili potovanj",
-      "activities": "Plaže in aktivnosti",
-      "food": "Hrana in pijača",
-      "comparisons": "Primerjave",
-      "practical": "Praktične informacije"
+      "gettingAround": "Parkovanie a pohyb po okolí",
+      "planning": "Plánovanie a ubytovanie",
+      "timing": "Kedy ísť",
+      "travelers": "Rodiny, páry a štýly cestovania",
+      "activities": "Pláže a aktivity",
+      "food": "Jedlo a pitie",
+      "comparisons": "Porovnania",
+      "practical": "Praktické informácie"
     },
-    "car": "Z avtom",
-    "other": "Druge možnosti",
-    "bestFor": "Najboljše za",
-    "parking": "Parkiranje",
-    "beach": "Plaža"
+    "car": "Autom",
+    "other": "Iné možnosti",
+    "bestFor": "Najlepšie pre",
+    "parking": "Parkovanie",
+    "beach": "Pláž"
   },
   "destination": "samobor",
   "language": "sk",
-  "updatedAt": "2026-10-16T21:16:22.072Z"
+  "updatedAt": "2026-10-19T11:44:36.014Z"
 }

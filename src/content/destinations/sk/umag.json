@@ -1,146 +1,146 @@
 {
-  "title": "Umag Potovalni vodnik: Plaže, parkirišča in nastanitve",
-  "metaDescription": "Načrtujte potovanje v Umag, Hrvaška. Preberite praktične podrobnosti o voznih poteh, nastanitvah, parkiranju, družinskih letoviščih in najboljših časih za obisk.",
-  "intro": "Umag je najsevernejše obalno mesto v Istri, zato je prva postaja za obiskovalce, ki prihajajo iz Srednje Evrope. Močno se osredotoča na letoviški turizem, saj ponuja velike hotelske komplekse, kampe in obsežne športne objekte, med katerimi izstopa teniški turnir ATP Croatia Open. Obala ponuja tlakovane terase za sončenje, skalnate zalivčke in borove gozdove, ki se razprostirajo tik ob morju.\n\nGlavna sezona traja od konca junija do avgusta, prinaša visoke temperature in glavno množico obiskovalcev zaradi teniškega turnirja julija. September je mirnejši, morje pa je še vedno dovolj toplo za kopanje, medtem ko se pozimi večina turističnih objektov zapre. Umag je primeren za družine in aktivne popotnike, ki imajo raje udoben dostop do plaže in športa kot pa obsežne zgodovinske oglede.",
+  "title": "Sprievodca po Umagu: pláže, parkovanie a ubytovanie",
+  "metaDescription": "Naplánujte si cestu do Umagu v Chorvátsku. Získajte praktické informácie o trasách autom, ubytovaní, parkovaní, rodinných rezortoch a najlepšom čase na návštevu.",
+  "intro": "Umag je najsevernejšie pobrežné mesto na Istrii, a preto je prvou zastávkou pre návštevníkov, ktorí cestujú autom zo strednej Európy. Je zamerané najmä na rezortový cestovný ruch a ponúka veľké hotelové komplexy, kempy a rozsiahle športové zariadenia, najmä tenisový turnaj ATP Croatia Open. Pobrežie tvoria dláždené opaľovacie terasy, skalnaté zátoky a borovicové lesy priamo pri mori.\n\nHlavná sezóna trvá od konca júna do augusta, s vysokými teplotami a najväčším počtom tenisových fanúšikov v júli. September je pokojnejší, more je stále dostatočne teplé na kúpanie, kým v zime väčšina turistických zariadení zatvára. Umag vyhovuje rodinám a aktívnym cestovateľom, ktorí uprednostňujú pohodlný prístup na pláž a šport pred rozsiahlym poznávaním historických pamiatok.",
   "quickFacts": [
     {
-      "label": "Najboljši meseci",
-      "value": "Od junija do septembra"
+      "label": "Najlepšie mesiace",
+      "value": "jún až september"
     },
     {
-      "label": "Temperatura morja avgusta",
-      "value": "25°C do 27°C"
+      "label": "Teplota mora v auguste",
+      "value": "25 °C až 27 °C"
     },
     {
-      "label": "Najbližje letališče",
-      "value": "Pulj (PUY), 85 km južno"
+      "label": "Najbližšie letisko",
+      "value": "Pula (PUY), 85 km južne"
     },
     {
-      "label": "Glavna vrsta plaže",
-      "value": "Betonske ploščadi, skalnati zalivčki in umetni prod"
+      "label": "Typ hlavnej pláže",
+      "value": "Betónové plošiny, skalnaté zátoky a umelé oblázky"
     },
     {
-      "label": "Cenovni nivo",
-      "value": "Povprečen za Istro, cenejši kot Rovinj"
+      "label": "Cenová úroveň",
+      "value": "Priemerná pre Istriu, lacnejšia ako Rovinj"
     },
     {
-      "label": "Staro mestno jedro primerno za hojo",
-      "value": "Da, zgodovinski polotok je cona za pešce"
+      "label": "Staré mesto prejditeľné pešo",
+      "value": "Áno, historický polostrov je pešia zóna"
     }
   ],
   "areas": [
     {
-      "name": "Center Umaga in staro mestno jedro",
-      "bestFor": "Kulinarika, sprehodi in krajša bivanja",
-      "parking": "Plačljiva javna parkirišča izven polotoka za pešce",
-      "beach": "700m do Mestnega kopališča (Mestna plaža)",
-      "summary": "Zgodovinsko srce Umaga leži na majhnem polotoku. Ponuja ozke ulice, restavracije in marino, vendar nima velikih bazenov letovišč in neposrednega dostopa do plaže, ki jih najdemo severneje."
+      "name": "Centrum Umagu a staré mesto",
+      "bestFor": "Stravovanie, prechádzky a krátke pobyty",
+      "parking": "Platené verejné parkoviská mimo pešieho polostrova",
+      "beach": "700 m na Gradsko Kupalište (Mestskú pláž)",
+      "summary": "Historické srdce Umagu sa nachádza na malom polostrove. Ponúka úzke uličky, reštaurácie a prístav, no chýbajú mu veľké rezortné bazény a priamy prístup k pláži, aké sa nachádzajú ďalej na severe."
     },
     {
       "name": "Punta",
-      "bestFor": "Bližina centra in plaž",
-      "parking": "Plačljiva parkirišča na ulici in zasebna hotelska parkirišča",
-      "beach": "Neposreden dostop do betonskih in skalnatih plaž",
-      "summary": "Stanovanjsko in hotelsko območje severno od marine. Povezuje mestno središče s severnimi letovišči preko obalne promenade, združuje udobje z dostopom do plaže."
+      "bestFor": "Blízkosť centra aj pláží",
+      "parking": "Platené parkovanie na ulici a súkromné parkoviská hotelov",
+      "beach": "Priamy prístup k betónovým a skalnatým plážam",
+      "summary": "Obytná a hotelová oblasť hneď severne od prístavu. Pobrežnou promenádou spája centrum mesta so severnými rezortmi a vyvažuje pohodlie s prístupom k pláži."
     },
     {
-      "name": "Stella Maris & Katoro",
-      "bestFor": "Družine, ljubitelji tenisa in počitnice v letoviščih",
-      "parking": "Velika namenska parkirišča za goste letovišč in dnevne obiskovalce",
-      "beach": "Neposreden dostop do Lagune (prod/pesek) in Polinezije",
-      "summary": "Glavno turistično območje, ki se razprostira severno od mesta. Prevladujejo veliki hoteli, apartmajski kompleksi, teniška igrišča in dolga proga turističnega vlaka, ki povezuje s centrom."
+      "name": "Stella Maris a Katoro",
+      "bestFor": "Rodiny, fanúšikov tenisu a rezortnú dovolenku",
+      "parking": "Veľké vyhradené parkoviská pre hostí rezortov a návštevníkov na jeden deň",
+      "beach": "Priamy prístup k Laguna (oblázky/piesok) a Polynesia",
+      "summary": "Hlavná turistická zóna rozprestierajúca sa severne od mesta. Dominujú jej veľké hotely, apartmánové komplexy, tenisové kurty a dlhá trasa turistického vláčika spájajúceho ju s centrom."
     },
     {
       "name": "Savudrija",
-      "bestFor": "Pari, kampisti in mirnejše počitnice",
-      "parking": "Na splošno brezplačno ali vključeno v nastanitev",
-      "beach": "Skalnate obale in tlakovane terase",
-      "summary": "Mirnejša vasica v senci borovcev 8 km severno od Umaga, znana po svojem aktivnem svetilniku. Priljubljena med kampisti in tistimi, ki iščejo bolj sproščen ritem stran od glavnih letovišč."
+      "bestFor": "Páry, kempujúcich a pokojnejšie pobyty",
+      "parking": "Väčšinou bezplatné alebo súčasť ubytovania",
+      "beach": "Skalnaté brehy a dláždené terasy",
+      "summary": "Tichšia dedina obklopená borovicami, vzdialená 8 km severne od Umagu, známa svojím funkčným majákom. Obľúbená u kempujúcich a tých, ktorí hľadajú pokojnejšie tempo mimo hlavných rezortov."
     }
   ],
   "gettingThere": [
     {
-      "from": "München",
-      "car": "500 km, ~5,5 ure preko A8, A10 (Tauern), Karavanškega predora, Ljubljane in Kopra. Zahteva avstrijsko in slovensko vinjeto ter cestnine za predore.",
-      "other": "FlixBus ali nočni vlak do Ljubljane, nato avtobusna povezava"
+      "from": "Mníchov",
+      "car": "500 km, asi 5,5 hodiny cez A8, A10 (Tauern), tunel Karawanken, Ľubľanu a Koper. Vyžaduje rakúsku a slovinskú diaľničnú známku, plus mýto v tuneloch.",
+      "other": "FlixBus alebo nočný vlak do Ľubľany, potom autobusové spojenie"
     },
     {
-      "from": "Dunaj",
-      "car": "510 km, ~5,5 ure preko A2 do Gradca, Maribora, Ljubljane in Kopra. Zahteva avstrijsko in slovensko vinjeto.",
-      "other": "Neposredni FlixBus na voljo poleti, ali vlak do Trsta/Ljubljane"
+      "from": "Viedeň",
+      "car": "510 km, asi 5,5 hodiny cez A2 do Grazu, Maribor, Ľubľanu a Koper. Vyžaduje rakúsku a slovinskú diaľničnú známku.",
+      "other": "Priamy FlixBus v lete alebo vlak do Terstu/Ľubľany"
     },
     {
-      "from": "Budimpešta",
-      "car": "600 km, ~6 ur preko M7 do mejnega prehoda Letenye, A4/A6 preko Zagreba in Reke, nato Istrski ipsilon. Zahteva madžarsko vinjeto in hrvaške cestnine.",
-      "other": "Neposredni FlixBus do Umaga (približno 9 ur)"
+      "from": "Budapešť",
+      "car": "600 km, asi 6 hodín cez M7 k hraničnému priechodu Letenye, A4/A6 cez Záhreb a Rijeku, potom istrijský Y. Vyžaduje maďarskú diaľničnú známku a chorvátske mýto.",
+      "other": "Priamy FlixBus do Umagu (asi 9 hodín)"
     },
     {
-      "from": "Ljubljana",
-      "car": "130 km, ~1,5 do 2 uri preko A1 do Kopra, nato cesta 11. Zahteva slovensko vinjeto. Poleti so pogoste mejne zamude na Dragonji.",
-      "other": "Neposredni avtobus (približno 2,5 ure) ali skupinski prevoz (npr. GoOpti)"
+      "from": "Ľubľana",
+      "car": "130 km, asi 1,5 až 2 hodiny cez A1 do Kopra, potom cesta 11. Vyžaduje slovinskú diaľničnú známku. Letné čakanie na hraničnom priechode Dragonja je bežné.",
+      "other": "Priamy autobus (asi 2,5 hodiny) alebo zdieľaný transfer (napr. GoOpti)"
     },
     {
-      "from": "Praga",
-      "car": "800 km, ~9 do 10 ur preko Linza, Salzburga in A10. Zahteva češko, avstrijsko in slovensko vinjeto ter avstrijske cestnine za predore.",
-      "other": "Vlak do Reke ali Ljubljane, nato avtobus, ali poleti neposredni avtobus"
+      "from": "Praha",
+      "car": "800 km, asi 9 až 10 hodín cez Linec, Salzburg a A10. Vyžaduje české, rakúske a slovinské diaľničné známky, plus rakúske mýto v tuneloch.",
+      "other": "Vlak do Rijeky alebo Ľubľany, potom autobus, alebo v lete priamy autobus"
     },
     {
       "from": "Krakov",
-      "car": "950 km, ~10,5 ure preko A4, Ostrave, Dunaja, Gradca in Ljubljane. Zahteva poljske cestnine ter češko, avstrijsko in slovensko vinjeto.",
-      "other": "Let do Dunaja ali Benetk, nato avtobus, ali poleti neposredni avtobus"
+      "car": "950 km, asi 10,5 hodiny cez A4, Ostravu, Viedeň, Graz a Ľubľanu. Vyžaduje poľské mýto, plus české, rakúske a slovinské diaľničné známky.",
+      "other": "Let do Viedne alebo Benátok a potom autobus, alebo v lete priamy autobus"
     }
   ],
-  "whenToGo": "Turistična sezona v Umagu traja od maja do oktobra. Julij in avgust sta najtoplejša meseca z dnevnimi temperaturami okoli 30°C in temperaturami morja, ki dosežejo 26°C. To je tudi najbolj obiskovan in najdražji čas, zlasti med teniškim turnirjem ATP konec julija. Junij in september ponujata boljše ravnovesje toplega vremena, nižjih cen in manjše gneče, s temperaturami morja v septembru, ki so še vedno udobne za kopanje. Med novembrom in aprilom je mesto zelo mirno; večina hotelskih letovišč, plažnih barov in sezonskih restavracij je zaprtih, čeprav so obalne poti odprte za sprehajanje in kolesarjenje.",
+  "whenToGo": "Turistická sezóna v Umagu trvá od mája do októbra. Júl a august sú najteplejšie mesiace s dennými teplotami okolo 30 °C a teplota mora dosahuje vrchol na úrovni 26 °C. Je to zároveň najrušnejší a najdrahší čas, najmä počas tenisového turnaja ATP koncom júla. Jún a september ponúkajú lepšiu rovnováhu teplého počasia, nižších cien a menej turistov, pričom teplota mora v septembri je stále príjemná na kúpanie. Medzi novembrom a aprílom je mesto veľmi tiché; väčšina rezortných hotelov, plážových barov a sezónnych reštaurácií zatvára, hoci pobrežné chodníky zostávajú otvorené na chôdzu a cyklistiku.",
   "faq": [
     {
-      "question": "Ali je Umag vreden obiska?",
-      "answer": "Da, še posebej, če si želite počitnic v letoviškem stilu ali prihajate z avtom iz Srednje Evrope. Manjka mu obsežna zgodovinska arhitektura Rovinja ali Poreča, vendar je odličen glede športnih objektov, družinskih letovišč in dostopnih obal."
+      "question": "Stojí Umag za návštevu?",
+      "answer": "Áno, najmä ak chcete rezortnú dovolenku alebo cestujete autom zo strednej Európy. Chýbajú mu rozsiahle historické stavby Rovinja alebo Poreča, no vyniká športovými zariadeniami, rodinnými rezortmi a dostupnými pobrežiami."
     },
     {
-      "question": "Koliko dni potrebujem v Umagu?",
-      "answer": "Tri do pet dni je idealno za standardno potovanje na plažo in sprostitev. Če ga uporabite kot bazo za raziskovanje notranjosti Istre ali bližnjih obalnih mest, je priporočljiv cel teden."
+      "question": "Koľko dní potrebujem v Umagu?",
+      "answer": "Tri až päť dní je ideálnych na štandardný pobyt na pláži a oddych. Ak ho použijete ako základňu na spoznávanie vnútrozemskej Istrie alebo blízkych pobrežných miest, odporúča sa celý týždeň."
     },
     {
-      "question": "Katera je najboljša plaža v Umagu?",
-      "answer": "Laguna Stella Maris je najbolj priljubljena, saj ima prodnato in umetno peščeno obalo v obliki polmeseca s plitko vodo. Katoro in Polinezija ponujata široke betonske terase in skalnate dele s čisto vodo."
+      "question": "Aká je najlepšia pláž v Umagu?",
+      "answer": "Laguna Stella Maris je najobľúbenejšia, má polmesiacovité pobrežie s oblázkmi a umelým pieskom a plytkú vodu. Katoro a Polynesia ponúkajú široké betónové terasy a skalnaté úseky s čistou vodou."
     },
     {
-      "question": "Ali potrebujem avto v Umagu?",
-      "answer": "Ne potrebujete avtomobila, če bivate znotraj glavnih letoviških območij, saj turistični vlak povezuje Katoro in Stella Maris z mestnim središčem. Vendar pa je avto zelo priporočljiv za enodnevne izlete po Istri."
+      "question": "Potrebujem v Umagu auto?",
+      "answer": "Auto nepotrebujete, ak zostanete v hlavných rezortných oblastiach, pretože turistický vláčik spája Katoro a Stella Maris s centrom mesta. Auto je však veľmi odporúčané na jednodňové výlety po Istrii."
     },
     {
-      "question": "Kje lahko parkiram v Umagu?",
-      "answer": "Mesto upravlja s sistemom coniranega javnega parkiranja, z velikimi plačljivimi parkirišči, ki se nahajajo v bližini avtobusne postaje in marine, tik izven starega mestnega jedra za pešce. Večina velikih hotelov in letovišč severneje vključuje parkirišče, čeprav nekateri zaračunajo dnevno pristojbino."
+      "question": "Kde môžem v Umagu parkovať?",
+      "answer": "Mesto prevádzkuje zónový systém verejného parkovania s veľkými platenými parkoviskami v blízkosti autobusovej stanice a prístavu, hneď mimo pešieho starého mesta. Väčšina veľkých hotelov a rezortov ďalej na severe má parkovanie v cene, hoci niektoré účtujú denný poplatok."
     },
     {
-      "question": "Ali je Umag primeren za družine?",
-      "answer": "Da, Umag je ena najbolj družinam prijaznih destinacij v Istri. Severna letovišča ponujajo namensko otroško animacijo, plitke dele plaž, igrišča in velike bazenske komplekse, prilagojene mladim obiskovalcem."
+      "question": "Je Umag vhodný pre rodiny?",
+      "answer": "Áno, Umag je jednou z najpriateľskejších destinácií pre rodiny v Istrii. Severné rezorty ponúkajú detskú animáciu, plytké úseky pláže, detské ihriská a veľké bazénové komplexy prispôsobené mladším návštevníkom."
     }
   ],
   "headings": {
-    "quickFacts": "Na hitro",
-    "whereToStay": "Kje prenočiti v Umagu",
-    "gettingThere": "Pot do Umaga",
-    "whenToGo": "Kdaj obiskati",
-    "guides": "Vodniki za Umag",
-    "faq": "Pogosta vprašanja o Umagu",
+    "quickFacts": "Na prvý pohľad",
+    "whereToStay": "Kde sa ubytovať v Umagu",
+    "gettingThere": "Ako sa dostať do Umagu",
+    "whenToGo": "Kedy ísť",
+    "guides": "Sprievodcovia po Umagu",
+    "faq": "Časté otázky o Umagu",
     "groups": {
-      "gettingAround": "Parkiranje in premikanje po mestu",
-      "planning": "Načrtovanje in kje prenočiti",
-      "timing": "Kdaj obiskati",
-      "travelers": "Družine, pari in načini potovanja",
-      "activities": "Plaže in stvari za početi",
-      "food": "Hrana in pijača",
-      "comparisons": "Primerjave",
-      "practical": "Praktične informacije"
+      "gettingAround": "Parkovanie a doprava na mieste",
+      "planning": "Plánovanie a ubytovanie",
+      "timing": "Kedy ísť",
+      "travelers": "Rodiny, páry a štýly cestovania",
+      "activities": "Pláže a aktivity",
+      "food": "Jedlo a pitie",
+      "comparisons": "Porovnania",
+      "practical": "Praktické informácie"
     },
-    "car": "Z avtomobilom",
-    "other": "Druge možnosti",
-    "bestFor": "Najboljše za",
-    "parking": "Parkiranje",
-    "beach": "Plaža"
+    "car": "Autom",
+    "other": "Ostatné možnosti",
+    "bestFor": "Najvhodnejšie pre",
+    "parking": "Parkovanie",
+    "beach": "Pláž"
   },
   "destination": "umag",
   "language": "sk",
-  "updatedAt": "2026-10-16T11:38:43.468Z"
+  "updatedAt": "2026-10-19T11:44:36.019Z"
 }

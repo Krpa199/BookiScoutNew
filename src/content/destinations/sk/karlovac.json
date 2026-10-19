@@ -1,146 +1,146 @@
 {
-  "title": "Karlovac: Plaže, parkiranje in nastanitve",
-  "metaDescription": "Načrtujte potovanje v Karlovac na Hrvaškem. Odkrijte najboljše soseske, poti iz Evrope z avtom, nasvete za parkiranje, rečne plaže in kdaj obiskati.",
-  "intro": "Karlovac služi kot osrednja tranzitna točka in destinacija za turizem na prostem, ki leži ob sotočju štirih rek: Kupa, Korana, Mrežnica in Dobra. Obiskovalci, ki prihajajo iz Srednje Evrope, se pogosto ustavijo tukaj na poti do Jadranske obale ali ostanejo, da raziščejo okoliško naravo in mestno renesančno trdnjavo v obliki zvezde iz 16. stoletja.\n\nMesto je namenjeno popotnikom, ki iščejo kopanje v reki, kajakaštvo in pohodništvo stran od obalnih množic. Poletja so topla in idealna za vodne aktivnosti, medtem ko pomlad in jesen ponujata hladnejše temperature za raziskovanje Starega mesta in bližnjih gradov. Nastanitve segajo od centralnih hotelov v zgodovinskem jedru do penzionov ob rečnih bregovih v zunanjih predmestjih.",
+  "title": "Sprievodca po Karlovaci: pláže, parkovanie a kde bývať",
+  "metaDescription": "Naplánujte si cestu do Karlovaca v Chorvátsku. Objavte najlepšie štvrte, trasy z Európy, tipy na parkovanie, riečne pláže a najvhodnejší čas na návštevu.",
+  "intro": "Karlovac slúži ako centrálny dopravný uzol a cieľ pre turistiku v prírode. Leží na sútoku štyroch riek: Kupy, Korany, Mrežnice a Dobry. Návštevníci prichádzajúci zo strednej Európy sa sem často zastavia na ceste k Jadranskému pobrežiu alebo tu zostanú, aby spoznali okolitú prírodu a renesančnú hviezdicovú pevnosť zo 16. storočia.\n\nMesto ponúka cestovateľom, ktorí hľadajú plávanie v riekach, kajakovanie a turistiku mimo pobrežných davov, veľa možností. Leto je teplé a ideálne na vodné aktivity, kým jar a jeseň prinášajú chladnejšie počasie na prehliadku Starého mesta a okolitých hradov. Ubytovanie siaha od centrálnych hotelov v historickom jadre po penzióny pozdĺž riečnych brehov vo vonkajších predmestiach.",
   "quickFacts": [
     {
-      "label": "Najboljši meseci",
-      "value": "Junij do september"
+      "label": "Najlepšie mesiace",
+      "value": "Jún až september"
     },
     {
-      "label": "Temperatura morja v avgustu",
-      "value": "Ni relevantno - Celina (reka Korana je ~24°C)"
+      "label": "Teplota mora v auguste",
+      "value": "Nie je relevantné – vnútrozemie (rieka Korana má približne ~24 °C)"
     },
     {
-      "label": "Najbližje letališče",
-      "value": "Zagreb (ZAG), 60 km"
+      "label": "Najbližšie letisko",
+      "value": "Záhreb (ZAG), 60 km"
     },
     {
-      "label": "Glavni tip plaže",
-      "value": "Rečne plaže (travnate in tlakovane)"
+      "label": "Hlavný typ pláže",
+      "value": "Riečne pláže (trávnaté a spevnené)"
     },
     {
-      "label": "Cenovni nivo",
-      "value": "Pod hrvaškim povprečjem na obali"
+      "label": "Cenová úroveň",
+      "value": "Pod priemerom chorvátskeho pobrežia"
     },
     {
-      "label": "Primernost za hojo",
-      "value": "Staro mestno jedro (Zvijezda) je zelo primerno za hojo"
+      "label": "Pešia dostupnosť",
+      "value": "Staré mesto (Zvijezda) je veľmi vhodné na prechádzky pešo"
     }
   ],
   "areas": [
     {
-      "name": "Zvijezda (Staro mestno jedro)",
-      "bestFor": "Obiskovalci, ki prvič prihajajo, in ljubitelji zgodovine",
-      "parking": "Plačljivo parkiranje na ulici, nekatera območja samo za pešce",
-      "beach": "1,5 km do rečne plaže Foginovo",
-      "summary": "Zgodovinsko središče v obliki šesterokrake zvezde vsebuje glavne znamenitosti, kavarne in muzeje. Omogoča enostaven dostop do urbanih dobrin in zgodovinske arhitekture."
+      "name": "Zvijezda (Staré mesto)",
+      "bestFor": "Prví návštevníci a milovníci histórie",
+      "parking": "Spoplatnené parkovanie na uliciach, niektoré zóny len pre chodcov",
+      "beach": "1,5 km k riečnej pláži Foginovo",
+      "summary": "Historické centrum v tvare šesťcípej hviezdy ukrýva významné pamiatky, kaviarne a múzeá. Poskytuje jednoduchý prístup k mestským službám a historickej architektúre."
     },
     {
-      "name": "Rakovac in Korana ob reki",
-      "bestFor": "Plavalci in družine",
-      "parking": "Namenska brezplačna in plačljiva parkirišča v bližini športne dvorane",
-      "beach": "0-500 metrov do Foginova",
-      "summary": "To območje meji na reko Korano in vključuje glavne rekreacijske cone mesta. Obiskovalci ostanejo tukaj zaradi neposrednega dostopa do rečnih plaž, tekaških prog in akvarija Aquatika."
+      "name": "Rakovac a nábrežie Korany",
+      "bestFor": "Plavci a rodiny",
+      "parking": "Vyhradené bezplatné a spoplatnené parkoviská pri športovej hale",
+      "beach": "0 – 500 metrov k pláži Foginovo",
+      "summary": "Táto oblasť leží na brehu rieky Korana a zahŕňa hlavné rekreačné zóny mesta. Návštevníci tu zostávajú pre priamy prístup k riečnym plážam, bežeckým dráham a akváriu Aquatika."
     },
     {
       "name": "Dubovac",
-      "bestFor": "Mirnejša bivanja in razgled na grad",
-      "parking": "Široko dostopno brezplačno parkiranje na ulici",
-      "beach": "2,5 km do reke Korane",
-      "summary": "Ta stanovanjska soseska, ki se nahaja zahodno od centra, leži pod gradom Dubovac iz 13. stoletja. Ponuja mirnejše okolje, hkrati pa ostaja blizu glavnih mestnih znamenitosti."
+      "bestFor": "Pokojnejšie pobyty a výhľady na hrad",
+      "parking": "Bezplatné parkovanie na uliciach je široko dostupné",
+      "beach": "2,5 km k rieke Korana",
+      "summary": "Obytná štvrť na západ od centra leží pod hradom Dubovac zo 13. storočia. Ponúka pokojnejšie prostredie a zároveň je blízko hlavných atrakcií mesta."
     },
     {
       "name": "Duga Resa",
-      "bestFor": "Ljubitelji narave in kajakaši",
-      "parking": "Običajno brezplačno v penzionih in kampih",
-      "beach": "Neposreden dostop do rečnih plaž Mrežnice",
-      "summary": "To sosednje mesto, ki se nahaja 10 km južno od Karlovca, leži ob reki Mrežnici. Je priljubljeno izhodišče za športe na prostem in ponuja številne kampe in apartmaje ob reki."
+      "bestFor": "Milovníci prírody a kajakári",
+      "parking": "Zvyčajne bezplatné pri penziónoch a kempoch",
+      "beach": "Priamy prístup k plážam na rieke Mrežnica",
+      "summary": "Susedné mestečko leží 10 km južne od Karlovca na rieke Mrežnica. Je obľúbeným východiskom pre outdoorové športy a má množstvo kempov a apartmánov pri rieke."
     }
   ],
   "gettingThere": [
     {
-      "from": "München",
-      "car": "530 km, ~6 ur preko A10 (Avstrija) in A2 (Slovenija). Vinjete za Avstrijo in Slovenijo, cestnine na Hrvaškem.",
-      "other": "Na voljo direkten avtobus (FlixBus)"
+      "from": "Mníchov",
+      "car": "530 km, cca 6 hod. cez diaľnice A10 (Rakúsko) a A2 (Slovinsko). Diaľničné známky pre Rakúsko a Slovinsko, mýto v Chorvátsku.",
+      "other": "Priame autobusové spojenie (FlixBus)"
     },
     {
-      "from": "Dunaj",
-      "car": "390 km, ~4,5 ure preko A2 (Avstrija) in Maribora. Vinjete za Avstrijo in Slovenijo, cestnine na Hrvaškem.",
-      "other": "Vlak ali avtobus preko Zagreba"
+      "from": "Viedeň",
+      "car": "390 km, cca 4,5 hod. cez A2 (Rakúsko) a Maribor. Diaľničné známky pre Rakúsko a Slovinsko, mýto v Chorvátsku.",
+      "other": "Vlak alebo autobus cez Záhreb"
     },
     {
-      "from": "Budimpešta",
-      "car": "390 km, ~4 ure preko M7 (Madžarska) in A4 (Hrvaška). Vinjeta za Madžarsko, cestnine na Hrvaškem.",
-      "other": "Avtobus ali vlak preko Zagreba"
+      "from": "Budapešť",
+      "car": "390 km, cca 4 hod. cez M7 (Maďarsko) a A4 (Chorvátsko). Diaľničná známka pre Maďarsko, mýto v Chorvátsku.",
+      "other": "Autobus alebo vlak cez Záhreb"
     },
     {
-      "from": "Ljubljana",
-      "car": "110 km, ~1,5 ure preko A2 do Novega mesta, nato Metlike. Za Slovenijo je potrebna vinjeta.",
-      "other": "Neposreden vlak ali avtobus"
+      "from": "Ľubľana",
+      "car": "110 km, cca 1,5 hod. cez A2 do Novo Mesta, potom cez Metliku. Pre Slovinsko je potrebná diaľničná známka.",
+      "other": "Priamy vlak alebo autobus"
     },
     {
-      "from": "Praga",
-      "car": "720 km, ~8,5 ure preko Dunaja in Gradca. Vinjete za Češko, Avstrijo, Slovenijo; cestnine na Hrvaškem.",
-      "other": "Let do Zagreba, nato avtobus ali vlak"
+      "from": "Praha",
+      "car": "720 km, cca 8,5 hod. cez Viedeň a Gracu. Diaľničné známky pre Česko, Rakúsko a Slovinsko; mýto v Chorvátsku.",
+      "other": "Let do Záhrebu, potom autobus alebo vlak"
     },
     {
       "from": "Krakov",
-      "car": "820 km, ~9,5 ure preko Slovaške in Madžarske. Vinjete za Slovaško, Madžarsko; cestnine na Hrvaškem.",
-      "other": "Let do Zagreba, nato avtobus"
+      "car": "820 km, cca 9,5 hod. cez Slovensko a Maďarsko. Diaľničné známky pre Slovensko a Maďarsko; mýto v Chorvátsku.",
+      "other": "Let do Záhrebu, potom autobus"
     }
   ],
-  "whenToGo": "Poletje (junij do avgust) prinaša najtoplejše vreme, z dnevnimi temperaturami okoli 28-30°C in reko Korano, ki doseže primernih 24°C za kopanje. To je najbolj obremenjena sezona, čeprav so množice bistveno manjše in cene nižje kot na Jadranski obali. Večina zunanjih objektov, vodnih parkov in obrečnih barov je v celoti delujočih. Pomlad (april do maj) in jesen (september do oktober) ponujata hladnejše dnevne temperature okoli 15-20°C, primerne za kolesarjenje in obisk zgodovinskih znamenitosti, kot je grad Dubovac, čeprav so reke na splošno prehladne za kopanje. Zima je mirna in hladna, nekatera turistično usmerjena podjetja se zaprejo, vendar glavni muzeji in centralni hoteli ostajajo odprti skozi vse leto.",
+  "whenToGo": "Leto (jún až august) prináša najteplejšie počasie s denným maximom okolo 28 – 30 °C a rieka Korana dosahuje príjemných 24 °C na kúpanie. Je to najrušnejšie obdobie, hoci davy sú výrazne redšie a ceny nižšie ako na Jadranskom pobreží. Väčšina vonkajších zariadení, vodných parkov a riečnych barov je plne v prevádzke. Jar (apríl až máj) a jeseň (september až október) ponúkajú chladnejšie denné teploty okolo 15 – 20 °C, vhodné na cyklistiku a návštevu historických miest ako hrad Dubovac, hoci rieky sú zvyčajne príliš studené na kúpanie. Zima je tichá a chladná, niektoré podniky zamerané na turistov zatvárajú, ale hlavné múzeá a centrálne hotely sú otvorené celoročne.",
   "faq": [
     {
-      "question": "Ali je Karlovac vreden obiska?",
-      "answer": "Da, Karlovac je vreden obiska za popotnike, ki jih zanima rečna rekreacija, vojaška zgodovina in renesančna arhitektura. Ponuja tišjo, cenovno ugodno alternativo obalnim mestom, še posebej za družine in ljubitelje narave."
+      "question": "Oplatí sa navštíviť Karlovac?",
+      "answer": "Áno, Karlovac stojí za návštevu pre cestovateľov, ktorí sa zaujímajú o rekreáciu na riekach, vojenskú históriu a renesančnú architektúru. Predstavuje pokojnejšiu a cenovo výhodnejšiu alternatívu k pobrežným mestám, najmä pre rodiny a milovníkov outdoorových aktivít."
     },
     {
-      "question": "Koliko dni potrebujem v Karlovcu?",
-      "answer": "En do dva dni sta dovolj za ogled glavnih znamenitosti in kopanje v rekah. Daljše bivanje treh do štirih dni je praktično, če mesto uporabljate kot izhodišče za dnevne izlete na Plitviška jezera ali v naravni park Žumberak."
+      "question": "Koľko dní potrebujem v Karlovaci?",
+      "answer": "Na pozretie hlavných pamiatok a kúpanie v riekach stačí jeden až dva dni. Dlhší pobyt tri až štyri dni sa oplatí, ak mesto využijete ako základňu na jednodňové výlety k Plitvickým jazerám alebo do prírodného parku Žumberak."
     },
     {
-      "question": "Katera je najboljša plaža v Karlovcu?",
-      "answer": "Foginovo na reki Korani je uradna in najbolje opremljena mestna plaža. Ponaša se s skakalnimi deskami, tlakovanimi površinami za sončenje, igriščem za vaterpolo in bližnjimi kavarnami."
+      "question": "Ktorá je najlepšia pláž v Karlovaci?",
+      "answer": "Foginovo na rieke Korana je oficiálna a najlepšie vybavená pláž mesta. Ponúka skokanské plošiny, spevnené plochy na opaľovanie, ihrisko na vodné pólo a neďaleké kaviarne."
     },
     {
-      "question": "Ali potrebujem avto v Karlovcu?",
-      "answer": "Avto ni nujen za raziskovanje osrednjega okrožja Zvijezda ali za dosego glavnih rečnih plaž Korane. Vendar je vozilo zelo priporočljivo za obisk reke Mrežnice, okoliških gradov ali Muzeja domovinske vojne v Turanju."
+      "question": "Potrebujem v Karlovaci auto?",
+      "answer": "Auto nie je nevyhnutné na prechádzku centrálnou štvrťou Zvijezda ani na cestu k hlavným plážam na rieke Korana. Vozidlo však odporúčame najmä na návštevu rieky Mrežnica, okolitých hradov alebo Múzea vlasteneckej vojny v Turnji."
     },
     {
-      "question": "Kje naj parkiram v Karlovcu?",
-      "answer": "Parkiranje je organizirano v plačljive cone v centru mesta (Zvijezda), običajno z uporabo parkomatov ali SMS plačila. Brezplačno parkiranje je na voljo na velikih parkiriščih v bližini Športne dvorane Karlovac ob reki Korani, kratek sprehod od centra."
+      "question": "Kde mám parkovať v Karlovaci?",
+      "answer": "Parkovanie je v centre mesta (Zvijezda) organizované v spoplatnených zónach, zvyčajne cez parkovacie automaty alebo platbu SMS správou. Bezplatné parkovanie je k dispozícii na veľkých parkoviskách pri športovej hale Karlovac pri rieke Korana, len krátku chôdzu od centra."
     },
     {
-      "question": "Ali je Karlovac primeren za družine?",
-      "answer": "Da, mesto je zelo primerno za družine zaradi svojega ravnega terena, obsežnih parkov in rečnih kopališč. Znamenitosti, kot sta sladkovodni akvarij Aquatika in opremljena plaža Foginovo, so neposredno namenjene otrokom."
+      "question": "Je Karlovac vhodný pre rodiny?",
+      "answer": "Áno, mesto je veľmi vhodné pre rodiny vďaka rovinatému terénu, rozsiahlym parkom a oblastiam na kúpanie v riekach. Atrakcie ako sladkovodné akvárium Aquatika a vybavená pláž Foginovo sú priamo určené deťom."
     }
   ],
   "headings": {
-    "quickFacts": "Na kratko",
-    "whereToStay": "Kje prenočiti v Karlovcu",
-    "gettingThere": "Kako priti do Karlovca",
-    "whenToGo": "Kdaj obiskati",
-    "guides": "Vodiči za Karlovac",
-    "faq": "Pogosta vprašanja o Karlovcu",
+    "quickFacts": "Na prvý pohľad",
+    "whereToStay": "Kde bývať v Karlovaci",
+    "gettingThere": "Ako sa dostať do Karlovaca",
+    "whenToGo": "Kedy ísť",
+    "guides": "Sprievodcovia po Karlovaci",
+    "faq": "Karlovac – časté otázky",
     "groups": {
-      "gettingAround": "Parkiranje in gibanje po mestu",
-      "planning": "Načrtovanje in kje prenočiti",
-      "timing": "Kdaj obiskati",
-      "travelers": "Družine, pari in načini potovanja",
-      "activities": "Plaže in aktivnosti",
-      "food": "Hrana in pijača",
-      "comparisons": "Primerjave",
-      "practical": "Praktične informacije"
+      "gettingAround": "Parkovanie a doprava na mieste",
+      "planning": "Plánovanie a ubytovanie",
+      "timing": "Kedy ísť",
+      "travelers": "Rodiny, páry a štýly cestovania",
+      "activities": "Pláže a aktivity",
+      "food": "Jedlo a pitie",
+      "comparisons": "Porovnania",
+      "practical": "Praktické informácie"
     },
-    "car": "Z avtom",
-    "other": "Druge možnosti",
-    "bestFor": "Najboljše za",
-    "parking": "Parkiranje",
-    "beach": "Plaža"
+    "car": "Autom",
+    "other": "Iné možnosti",
+    "bestFor": "Najvhodnejšie pre",
+    "parking": "Parkovanie",
+    "beach": "Pláž"
   },
   "destination": "karlovac",
   "language": "sk",
-  "updatedAt": "2026-10-16T21:09:19.293Z"
+  "updatedAt": "2026-10-19T11:44:36.061Z"
 }

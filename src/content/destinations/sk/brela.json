@@ -1,146 +1,146 @@
 {
-  "title": "Brela: Plaže, parkiranje in nastanitev – turistični vodnik",
-  "metaDescription": "Načrtujte potovanje v Brelo na Makarski rivieri. Odkrijte najboljše plaže, soseske, pravila parkiranja, poti in najboljši čas za obisk.",
-  "intro": "Brela je obmorsko mesto na Makarski rivieri, ki ga zaznamujejo gosti borovi gozdovi, ki se raztezajo neposredno do belih prodnatih plaž. Leži ob vznožju Biokovskega gorovja in je namenjeno obiskovalcem, ki iščejo čisto vodo, naravno senco in mirno letoviško vzdušje, ne pa mestnega nočnega življenja. Naselje je zgrajeno na strmem terenu, kar pomeni, da dostop do šestkilometrskega pešpoti ob morju običajno vključuje premagovanje hribovitih ulic.\n\nGlavna turistična sezona poteka julija in avgusta, ko privablja družine in pare, ki si želijo zagotovljeno kopališko vreme in popolnoma delujoče storitve. Vendar pa pozni junij in september ponujata udobnejšo izkušnjo. V teh mesecih je morje še vedno dovolj toplo za kopanje, vendar je na znameniti plaži Punta Rata bistveno manj gneče in manj zastojev na lokalnih cestah.",
+  "title": "Sprievodca Brelou: pláže, parkovanie a kde bývať",
+  "metaDescription": "Naplánujte si cestu do Brely na Makarskej riviére. Objavte najlepšie pláže, časti mesta, pravidlá parkovania, trasy na aute a najvhodnejší čas na návštevu.",
+  "intro": "Brela je pobrežné mestečko na Makarskej riviére, ktoré charakterizujú husté borovicové lesy siahajúce priamo k bielym štrkovým plážam. Nachádza sa na úpätí pohoria Biokovo a ponúka návštevníkom čisté more, prirodzený tieň a pokojnú letoviskovú atmosféru namiesto mestského nočného života. Osada je postavená na strmom teréne, takže prístup k šesťkilometrovej pešej promenáde zvyčajne znamená zdolávanie kopcovitých ulíc.\n\nVrcholová turistická sezóna trvá v júli a auguste a láka rodiny a páry, ktoré chcú isté plávanie a plne funkčné služby. Pohodlnejší zážitok však ponúka koniec júna a september. Počas týchto mesiacov je more dostatočne teplé na kúpanie, no na známej pláži Punta Rata je oveľa menej ľudí a na miestnych cestách menej dopravy.",
   "quickFacts": [
     {
-      "label": "Najboljši meseci",
-      "value": "Junij do september"
+      "label": "Najlepšie mesiace",
+      "value": "jún až september"
     },
     {
-      "label": "Temperatura morja avgusta",
-      "value": "24°C do 28°C"
+      "label": "Teplota mora v auguste",
+      "value": "24°C až 28°C"
     },
     {
-      "label": "Najbližje letališče",
+      "label": "Najbližšie letisko",
       "value": "Split (SPU), 68 km"
     },
     {
-      "label": "Glavni tip plaže",
-      "value": "Beli prod z borovo senco"
+      "label": "Hlavný typ pláže",
+      "value": "biele oblázky s tienom borovíc"
     },
     {
-      "label": "Cenovni razred",
-      "value": "Premium (nad hrvaškim povprečjem)"
+      "label": "Cenová úroveň",
+      "value": "prémiová (nad chorvátskym priemerom)"
     },
     {
-      "label": "Prehodnost",
-      "value": "Sprehajalna promenada, strme ulice"
+      "label": "Pešia dostupnosť",
+      "value": "pešia promenáda, strmé ulice"
     }
   ],
   "areas": [
     {
-      "name": "Soline (Center)",
-      "bestFor": "Za prve obiskovalce in tiste, ki želijo bližino storitev",
-      "parking": "Zelo omejeno, javna parkirišča zaračunavajo 4 €/uro",
-      "beach": "Neposreden dostop do plaže Soline",
-      "summary": "Soline so glavno središče Brele, z največjo koncentracijo hotelov, restavracij in kavarn. Ponuja najlažji dostop do obmorske promenade, vendar je tudi najprometnejši del mesta."
+      "name": "Soline (centrum)",
+      "bestFor": "Prvonávštevníci a ľudia, ktorí chcú mať služby na dosah",
+      "parking": "Extrémne obmedzené, verejné parkoviská účtujú 4 € za hodinu",
+      "beach": "Priamy prístup na pláž Soline",
+      "summary": "Soline je hlavným centrom Brely s najväčším počtom hotelov, reštaurácií a kaviarní. Ponúka najjednoduchší prístup k morskej promenáde, no je to najrušnejšia časť mesta."
     },
     {
       "name": "Podrače",
-      "bestFor": "Za ljubitelje plaž in pare",
-      "parking": "Strme, ozke ceste; nujno je zasebno parkirišče",
-      "beach": "Le nekaj korakov od plaž Podrače in Punta Rata",
-      "summary": "Ta slikovita soseska, ki se nahaja severozahodno od centra, ponuja neposreden dostop do najbolj fotografiranih zalivov v Breli. Teren je strm, kar pomeni, da je za večino nastanitev potrebno hoditi navzgor."
+      "bestFor": "Milovníci pláží a páry",
+      "parking": "Strmé a úzke cesty; súkromné parkovanie je nevyhnutné",
+      "beach": "Pár krokov od pláží Podrače a Punta Rata",
+      "summary": "Táto malebná oblasť, ležiaca hneď severozápadne od centra, poskytuje okamžitý prístup k najfotografovanejším zátokám Brely. Terén je strmý, takže k väčšine ubytovaní je potrebné ísť do kopca."
     },
     {
       "name": "Stomarica",
-      "bestFor": "Za družine in obiskovalce, ki iščejo mirnejše okolje",
-      "parking": "Večinoma zasebna parkirišča, ki jih nudijo nastanitve",
-      "beach": "Neposreden dostop do plaže Stomarica",
-      "summary": "Miren zaliv ob obali, ki ohranja bistvene storitve, kot so bari na plaži in restavracije. Dovolj je oddaljen od centra, da se izognete večji gneči, vendar je kljub temu lahko dostopen prek promenade."
+      "bestFor": "Rodiny a návštevníci hľadajúci pokojnejšie okolie",
+      "parking": "Väčšinou súkromné miesta, ktoré poskytujú ubytovacie zariadenia",
+      "beach": "Priamy prístup na pláž Stomarica",
+      "summary": "Tichá zátoka ďalej pozdĺž pobrežia, ktorá si zachováva základné služby, ako sú plážové bary a reštaurácie. Je dostatočne ďaleko od centra, aby sa vyhla väčšiemu náporu, no stále je ľahko dostupná po promenáde."
     },
     {
       "name": "Jakiruša",
-      "bestFor": "Za ljubitelje narave in tiste, ki se želijo izogniti gneči",
-      "parking": "Zasebno parkirišče običajno vključeno v ceno nastanitve",
-      "beach": "Plaža Jakiruša (prodnate in skalnate sekcije)",
-      "summary": "Severozahodni rob Brele ponuja najbolj osamljeno okolje. Plaže so tu mirnejše, z gosto borovo senco, vendar območje zahteva daljši sprehod do glavnega mesta."
+      "bestFor": "Milovníci prírody a ľudia, ktorí chcú uniknúť od davov",
+      "parking": "Súkromné parkovanie je zvyčajne zahrnuté v cene pobytu",
+      "beach": "Pláž Jakiruša (oblázky a skalnaté úseky)",
+      "summary": "Severozápadný okraj Brely ponúka najodľahlejšie prostredie. Pláže sú tu tichšie, s hustým tienom borovíc, no na dostanie sa do hlavnej časti mesta je potrebná dlhšia prechádzka."
     }
   ],
   "gettingThere": [
     {
-      "from": "München",
-      "car": "850 km, 9-10 ur preko A8, A10 in A1. Potrebni so avstrijska in slovenska vinjeta ter avstrijske tunelske in hrvaške cestninske pristojbine.",
-      "other": "Let v Split (SPU), nato 1-urna vožnja z avtobusom ali zasebnim prevozom."
+      "from": "Mníchov",
+      "car": "850 km, 9 – 10 hodín cez diaľnice A8, A10 a A1. Vyžaduje rakúsku a slovinskú diaľničnú známku, plus mýto za rakúske tunely a chorvátske diaľničné mýto.",
+      "other": "Let do Splitu (SPU), potom 1-hodinový autobus alebo súkromný transfer."
     },
     {
-      "from": "Dunaj",
-      "car": "750 km, 7.5-8.5 ure preko A2 in hrvaške A1. Potrebni so avstrijska in slovenska vinjeta ter hrvaške cestninske pristojbine.",
-      "other": "Direkten let v Split (SPU) ali nočni vlak do Splita, nato avtobus."
+      "from": "Viedeň",
+      "car": "750 km, 7,5 – 8,5 hodiny cez diaľnicu A2 a chorvátsku diaľnicu A1. Vyžaduje rakúsku a slovinskú diaľničnú známku, plus chorvátske diaľničné mýto.",
+      "other": "Priamy let do Splitu (SPU) alebo nočný vlak do Splitu, nasledovaný autobusom."
     },
     {
-      "from": "Budimpešta",
-      "car": "770 km, 7.5-8.5 ure preko M7 in hrvaške A4/A1. Potrebna je madžarska e-vinjeta in hrvaške cestninske pristojbine.",
-      "other": "Direkten let v Split (SPU) ali direkten FlixBus do Makarske riviere."
+      "from": "Budapešť",
+      "car": "770 km, 7,5 – 8,5 hodiny cez diaľnicu M7 a chorvátske diaľnice A4/A1. Vyžaduje maďarskú elektronickú diaľničnú známku a chorvátske diaľničné mýto.",
+      "other": "Priamy let do Splitu (SPU) alebo priamy autobus FlixBus na Makarskú riviéru."
     },
     {
-      "from": "Ljubljana",
-      "car": "470 km, 5-6 ur preko A2 in hrvaške A1. Potrebna je slovenska vinjeta in hrvaške cestninske pristojbine.",
-      "other": "Direkten avtobus do Splita ali Makarske, z postankom v Breli ali blizu nje."
+      "from": "Ľubľana",
+      "car": "470 km, 5 – 6 hodín cez diaľnicu A2 a chorvátsku diaľnicu A1. Vyžaduje slovinskú diaľničnú známku a chorvátske diaľničné mýto.",
+      "other": "Priamy autobus do Splitu alebo Makarskej, ktorý zastavuje v Brele alebo v jej blízkosti."
     },
     {
-      "from": "Praga",
-      "car": "1.070 km, 11-12 ur preko Dunaja in Gradca. Potrebne so češka, avstrijska in slovenska vinjeta ter hrvaške cestnine.",
-      "other": "Let v Split (SPU), nato lokalni avtobus ali zasebni prevoz do Brele."
+      "from": "Praha",
+      "car": "1 070 km, 11 – 12 hodín cez Viedeň a Graz. Vyžaduje českú, rakúsku a slovinskú diaľničnú známku, plus chorvátske mýto.",
+      "other": "Let do Splitu (SPU), potom miestny autobus alebo súkromný transfer do Brely."
     },
     {
       "from": "Krakov",
-      "car": "1.100 km, 11-12 ur preko Slovaške in Madžarske (M7). Potrebne so slovaška in madžarska vinjeta ter hrvaške cestnine.",
-      "other": "Let v Split (SPU) iz Krakova ali Katowic, nato nadaljnji prevoz."
+      "car": "1 100 km, 11 – 12 hodín cez Slovensko a Maďarsko (M7). Vyžaduje slovenskú a maďarskú diaľničnú známku, plus chorvátske mýto.",
+      "other": "Let do Splitu (SPU) z Krakova alebo Katovíc, potom ďalší transfer."
     }
   ],
-  "whenToGo": "Pozni junij do začetka septembra ponuja najbolj zanesljivo vreme, s povprečnimi temperaturami morja med 24°C in 28°C avgusta. Julij in avgust sta vrhunca turistične sezone, kar prinaša najvišje cene, popolnoma odprte storitve in veliko gnečo na ozkih plažah in obalnih cestah. Maj in oktober ponujata nižje cene in mirne ulice, vendar je morje pogosto prehladno za kopanje (okoli 18°C do 21°C) in številne lokalne restavracije se zaprejo za sezono. September ponuja najboljše ravnovesje, saj zagotavlja toplo vodo, manj obiskovalcev in zmerne cene nastanitev.",
+  "whenToGo": "Koniec júna až začiatok septembra prinášajú najspoľahlivejšie počasie, pričom teplota mora sa v auguste pohybuje priemerne od 24°C do 28°C. Júl a august sú vrcholnými mesiacmi cestovného ruchu, ktoré prinášajú najvyššie ceny, plne otvorené služby a husté davy na úzkych plážach a pobrežných cestách. Máj a október ponúkajú nižšie ceny a tiché ulice, no more je často príliš studené na kúpanie (okolo 18°C až 21°C) a mnohé miestne reštaurácie sa na sezónu zatvárajú. September je najlepším kompromisom: teplá voda, menej návštevníkov a primerané ceny ubytovania.",
   "faq": [
     {
-      "question": "Ali je Brela vredna obiska?",
-      "answer": "Da, ponuja eno najčistejših voda in najslikovitejših prodnatih plaž, obdanih z borovci na Hrvaškem. Idealna je za obiskovalce, ki iščejo sproščujoče obmorske počitnice namesto ogledovanja zgodovinskih mest."
+      "question": "Oplatí sa navštíviť Brelu?",
+      "answer": "Áno, ponúka jedny z najčistejších vôd a najkrajších pláží s oblázkami lemovanými borovicami v Chorvátsku. Je ideálna pre návštevníkov, ktorí hľadajú oddych pri mori, a nie prehliadku historických miest."
     },
     {
-      "question": "Koliko dni naj preživim v Breli?",
-      "answer": "Bivanje od 4 do 7 dni je idealno za večino obiskovalcev. To omogoča dovolj časa za uživanje v različnih zalivih ob promenadi in za enodnevni izlet na Biokovo ali v bližnja mesta, kot je Omiš."
+      "question": "Koľko dní by som mal stráviť v Brele?",
+      "answer": "Pobyt 4 až 7 dní je ideálny pre väčšinu návštevníkov. Poskytuje dostatok času na prechádzku medzi jednotlivými zátokami pozdĺž promenády a na jednodňový výlet na horu Biokovo alebo do okolitých mestečiek, ako je Omiš."
     },
     {
-      "question": "Katera je najboljša plaža v Breli?",
-      "answer": "Punta Rata je najbolj znana plaža, znana po svoji ikonični skali in gosto borovo senco. Vendar pa bližnji Podrače in Stomarica ponujata enako čisto vodo z nekoliko manj gneče."
+      "question": "Aká je najlepšia pláž v Brele?",
+      "answer": "Punta Rata je najznámejšia pláž, pozoruhodná svojou ikonickou skalou a hustým tienom borovíc. Blízke Podrače a Stomarica však ponúkajú rovnako čistú vodu s o niečo menším počtom ľudí."
     },
     {
-      "question": "Ali potrebujem avto v Breli?",
-      "answer": "Avtomobila ne potrebujete, če bivate blizu obale, saj so glavne plaže in restavracije povezane s sprehajalno promenado. Avto je potreben le, če nameravate raziskovati širšo dalmatinsko obalo, vožnja po lokalnih strmih ulicah pa je lahko izziv."
+      "question": "Potrebujem auto v Brele?",
+      "answer": "Auto nepotrebujete, ak bývate v blízkosti pobrežia, pretože hlavné pláže a reštaurácie spája pešia promenáda. Auto je potrebné len vtedy, ak plánujete objavovať širšie dalmatínske pobrežie, a jazda po miestnych strmých uliciach môže byť náročná."
     },
     {
-      "question": "Kje je najbolje parkirati v Breli?",
-      "answer": "Zelo priporočljivo je rezervirati nastanitev, ki vključuje zagotovljeno zasebno parkirno mesto. Javno parkiranje je zelo omejeno in drago, saj v osrednjih predelih, kot so Soline, stane okoli 4 € na uro."
+      "question": "Kde je najlepšie miesto na parkovanie v Brele?",
+      "answer": "Dôrazne sa odporúča rezervovať ubytovanie, ktoré zahŕňa garantované súkromné parkovacie miesto. Verejné parkovanie je veľmi obmedzené a drahé, v centrálnych oblastiach, ako je Soline, stojí približne 4 € za hodinu."
     },
     {
-      "question": "Ali je Brela primerna za družine?",
-      "answer": "Da, dolga, avtomobilska prostorna promenada, naravna senca borovcev in mirne vode so zelo primerne za družine. Vendar pa so strme ulice, ki vodijo do nekaterih nastanitev, lahko izziv pri potiskanju vozičkov."
+      "question": "Je Brela vhodná pre rodiny?",
+      "answer": "Áno, dlhá promenáda bez áut, prirodzený tieň borovíc a pokojné more ju robia veľmi vhodnou pre rodiny. Strmé uličky vedúce k niektorým ubytovaniam však môžu byť náročné pri tlačení kočíkov."
     }
   ],
   "headings": {
-    "quickFacts": "Na kratko",
-    "whereToStay": "Kje prenočiti v Breli",
-    "gettingThere": "Kako priti do Brele",
-    "whenToGo": "Kdaj obiskati",
-    "guides": "Vodiči za Brelo",
-    "faq": "Pogosta vprašanja o Breli",
+    "quickFacts": "Na prvý pohľad",
+    "whereToStay": "Kde bývať v Brele",
+    "gettingThere": "Ako sa dostať do Brely",
+    "whenToGo": "Kedy ísť",
+    "guides": "Sprievodcovia po Brele",
+    "faq": "Brela – časté otázky",
     "groups": {
-      "gettingAround": "Parkiranje in premikanje",
-      "planning": "Načrtovanje in nastanitev",
-      "timing": "Kdaj obiskati",
-      "travelers": "Družine, pari in stili potovanja",
-      "activities": "Plaže in aktivnosti",
-      "food": "Hrana in pijača",
-      "comparisons": "Primerjave",
-      "practical": "Praktične informacije"
+      "gettingAround": "Parkovanie a pohyb po okolí",
+      "planning": "Plánovanie a kde bývať",
+      "timing": "Kedy ísť",
+      "travelers": "Rodiny, páry a štýly cestovania",
+      "activities": "Pláže a aktivity",
+      "food": "Jedlo a pitie",
+      "comparisons": "Porovnania",
+      "practical": "Praktické informácie"
     },
-    "car": "Z avtomobilom",
-    "other": "Druge možnosti",
-    "bestFor": "Najboljše za",
-    "parking": "Parkiranje",
-    "beach": "Plaža"
+    "car": "Autom",
+    "other": "Iné možnosti",
+    "bestFor": "Najlepšie pre",
+    "parking": "Parkovanie",
+    "beach": "Pláž"
   },
   "destination": "brela",
   "language": "sk",
-  "updatedAt": "2026-10-16T10:25:07.240Z"
+  "updatedAt": "2026-10-19T11:44:36.044Z"
 }

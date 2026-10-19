@@ -1,146 +1,146 @@
 {
-  "title": "Mljet: Potovalni vodnik, Narodni park, Trajekti in Kje prenočiti",
-  "metaDescription": "Načrtujte potovanje na Mljet, Hrvaška. Stvarni vodnik, ki zajema dostop do Narodnega parka, vozne poti, trajekte, najboljše vasi za bivanje in praktične nasvete.",
-  "intro": "Mljet je močno gozdnat jadranski otok, primeren za popotnike, ki iščejo naravo, pohodništvo in mirne obalne vasi. Zahodna tretjina otoka je zaščiten Narodni park, ki se ponaša z dvema slanima jezeroma, ki privabljata tako enodnevne izletnike kot tudi obiskovalce za daljše bivanje. Vzhodni in osrednji deli ponujajo osamljene zalive in peščene plaže, ki se razlikujejo od tipične hrvaške prodnate obale.\n\nGlavna turistična sezona traja od konca maja do septembra. Julij in avgust prinašata najtoplejše morske temperature in največji obseg jahtnega prometa, še posebej v Pomeni in Polačah. Maj in september ponujata blažje vreme za kolesarjenje in sprehajanje po poteh Narodnega parka, z manj gneče in nižjimi cenami namestitev.",
+  "title": "Sprievodca po Mljete: národný park, trajekty a kde sa ubytovať",
+  "metaDescription": "Naplánujte si výlet na Mljet v Chorvátsku. Vecný sprievodca o vstupe do národného parku, trasách autom, trajektoch, najlepších dedinách na ubytovanie a praktických tipoch.",
+  "intro": "Mljet je hustо zalesnený jadranský ostrov, ktorý je ideálny pre cestovateľov hľadajúcich prírodu, turistiku a tiché pobrežné dedinky. Západná tretina ostrova je chránený národný park s dvoma slanými jazerami, ktoré priťahujú denných výletníkov aj návštevníkov, ktorí zostávajú dlhšie. Východná a stredná časť ponúkajú odľahlé zátoky a piesočnaté pláže, čo je odlišné od typického chorvátskeho kamenistého pobrežia.\n\nHlavná sezóna trvá od konca mája do septembra. Júl a august prinášajú najteplejšie more a najväčší nápor jachtových plavidiel, najmä v Pomene a Polačách. Máj a september ponúkajú miernejšie počasie na cyklistiku a prechádzky turistickými chodníkmi národného parku, s menším počtom ľudí a nižšími cenami ubytovania.",
   "quickFacts": [
     {
-      "label": "Najboljši meseci",
-      "value": "Maj do september"
+      "label": "Najlepšie mesiace",
+      "value": "máj až september"
     },
     {
-      "label": "Avgustovska temp. morja",
+      "label": "Teplota mora v auguste",
       "value": "25°C - 27°C"
     },
     {
-      "label": "Najbližje letališče",
-      "value": "Dubrovnik (DBV), 85 km (vključuje trajekt)"
+      "label": "Najbližšie letisko",
+      "value": "Dubrovník (DBV), 85 km (vrátane trajektu)"
     },
     {
-      "label": "Glavni tip plaže",
-      "value": "Slani jezeri, skalnati zalivi in redke peščene plaže"
+      "label": "Hlavný typ pláže",
+      "value": "Slané jazerá, skalnaté zátoky a zriedkavý piesok"
     },
     {
-      "label": "Raven cen",
-      "value": "Nadpovprečno (logistika otoka in višje cene v parku)"
+      "label": "Cenová úroveň",
+      "value": "Nadpriemerná (logistika ostrova a poplatky za park)"
     },
     {
-      "label": "Peš dostopnost centra",
-      "value": "Vasi so majhne/peš dostopne; Narodni park je brez avtomobilov"
+      "label": "Pešia dostupnosť centra",
+      "value": "Dediny sú malé a dostupné pešo; národný park je bez áut"
     }
   ],
   "areas": [
     {
       "name": "Pomena",
-      "bestFor": "Dostop do Narodnega parka in kulinarika",
-      "parking": "Omejeno ulično parkiranje; plačljivo parkirišče blizu hotela",
-      "beach": "10 minut hoje do Malega jezera (slano jezero)",
-      "summary": "Majhna pristaniška vasica na zahodnem delu, ki služi kot glavni vhod v Narodni park. Ima edini večji hotel na otoku, veliko jahtnega prometa in številne restavracije z morsko hrano."
+      "bestFor": "Vstup do národného parku a stravovanie",
+      "parking": "Obmedzené parkovanie na ulici; platené parkovisko pri hoteli",
+      "beach": "10 minút pešo k Malému jazeru (slané jazero)",
+      "summary": "Malá prístavná dedina na západnom cípe ostrova, ktorá slúži ako hlavný vstup do národného parku. Má jediný veľký hotel na ostrove, veľký nápor jácht a množstvo reštaurácií s morskými plodmi."
     },
     {
       "name": "Polače",
-      "bestFor": "Zgodovinske ruševine in zaščiteno sidrišče",
-      "parking": "Na voljo ulično parkiranje, v glavni sezoni preobremenjeno",
-      "beach": "Skalnato obrežje; 3 km hoje/kolesarjenja do jezer",
-      "summary": "Ponaša se z izrazitimi rimskimi ruševinami tik ob morju. Deluje kot drugi vhod v Narodni park in leži v globokem, zaščitenem zalivu z več trajektnimi povezavami."
+      "bestFor": "Historické ruiny a chránené kotvisko",
+      "parking": "Parkovanie na ulici k dispozícii, v špičkovej sezóne preplnené",
+      "beach": "Skalnaté nábrežie; 3 km pešo alebo na bicykli k jazerám",
+      "summary": "Na nábreží sa nachádzajú výrazné rímske ruiny. Slúži ako druhý vstup do národného parku a leží v hlbokej, chránenej zátoke s niekoľkými trajektovými spojeniami."
     },
     {
       "name": "Saplunara",
-      "bestFor": "Peščene plaže in mirno sproščanje",
-      "parking": "Zasebna parkirišča pri apartmajih, majhna neasfaltirana parkirišča",
-      "beach": "Neposreden dostop do redkih peščenih plaž",
-      "summary": "Nahaja se na osamljenem vzhodnem delu otoka, znana po peščenih zalivih. Tukaj ni znamenitosti Narodnega parka, zaradi česar je bolj mirno in v celoti usmerjeno v uživanje na plaži."
+      "bestFor": "Piesočnaté pláže a pokojný oddych",
+      "parking": "Súkromné miesta pri apartmánoch, malé nespevnené parkoviská",
+      "beach": "Priamy prístup k zriedkavým piesočnatým plážam",
+      "summary": "Nachádza sa na odľahlom východnom cípe ostrova a je známa piesočnatými zátokami. Nie sú tu žiadne atrakcie národného parku, takže je tichšia a celá zameraná na pláž."
     },
     {
       "name": "Sobra",
-      "bestFor": "Dostop s trajektom in praktično izhodišče",
-      "parking": "Veliko parkirnih mest blizu trajektnega pristanišča in centra vasi",
-      "beach": "Majhne prodnate in skalnate točke v vasi",
-      "summary": "Glavno pristanišče, kamor prispe avtomobilski trajekt s kopnega. Je centralno locirano, ponuja nižje cene in strateško izhodišče za vožnjo do obeh koncev otoka."
+      "bestFor": "Trajektové spojenie a praktická základňa",
+      "parking": "Dostatok parkovacích miest pri trajektovom prístave a v centre dediny",
+      "beach": "Malé oblázkové a skalnaté miesta v dedine",
+      "summary": "Hlavný prístav, kam prichádza autotrajekt z pevniny. Nachádza sa v centrálnej polohe, ponúka nižšie ceny a je strategickou základňou pre cesty na oba konce ostrova."
     }
   ],
   "gettingThere": [
     {
-      "from": "Munich",
-      "car": "930 km do pristanišča Prapratno, ~10 ur preko A8, A10, HR A1 in Pelješkega mostu. Avstrijska vinjeta/cestnina, slovenska vinjeta, hrvaška cestnina. Plus 45-minutni avtomobilski trajekt do Sobre.",
-      "other": "Let do Dubrovnika (DBV) ali Splita (SPU), nato avtobus/taksi do pristanišča in potniški katamaran."
+      "from": "Mníchov",
+      "car": "930 km do prístavu Prapratno, približne 10 hodín cez A8, A10, HR A1 a Pelješacký most. Rakúska diaľničná známka, slovinská známka, chorvátske mýto. Plus 45-minútový autotrajekt do Sobry.",
+      "other": "Let do Dubrovníka (DBV) alebo Splitu (SPU), potom autobusom alebo taxíkom do prístavu a osobným katamaránom."
     },
     {
-      "from": "Vienna",
-      "car": "830 km do pristanišča Prapratno, ~9 ur preko A2 (AT), HR A1 in Pelješkega mostu. Avstrijska vinjeta, slovenska vinjeta, hrvaška cestnina. Plus 45-minutni avtomobilski trajekt do Sobre.",
-      "other": "Let do Dubrovnika (DBV), nato avtobus do pristanišča Gruž in potniški katamaran."
+      "from": "Viedeň",
+      "car": "830 km do prístavu Prapratno, približne 9 hodín cez A2 (AT), HR A1 a Pelješacký most. Rakúska diaľničná známka, slovinská známka, chorvátske mýto. Plus 45-minútový autotrajekt do Sobry.",
+      "other": "Let do Dubrovníka (DBV), potom autobusom do prístavu Gruž a osobným katamaránom."
     },
     {
-      "from": "Budapest",
-      "car": "790 km do pristanišča Prapratno, ~8.5 ur preko M7 (HU), HR A1 in Pelješkega mostu. Madžarska vinjeta, hrvaška cestnina. Plus 45-minutni avtomobilski trajekt do Sobre.",
-      "other": "Let do Splita (SPU) ali Dubrovnika (DBV), nato potniški katamaran do Mljeta."
+      "from": "Budapešť",
+      "car": "790 km do prístavu Prapratno, približne 8,5 hodiny cez M7 (HU), HR A1 a Pelješacký most. Maďarská diaľničná známka, chorvátske mýto. Plus 45-minútový autotrajekt do Sobry.",
+      "other": "Let do Splitu (SPU) alebo Dubrovníka (DBV), potom osobným katamaránom na Mljet."
     },
     {
-      "from": "Ljubljana",
-      "car": "610 km do pristanišča Prapratno, ~7 ur preko A2 (SI), HR A1 in Pelješkega mostu. Slovenska vinjeta, hrvaška cestnina. Plus 45-minutni avtomobilski trajekt do Sobre.",
-      "other": "Avtobus do Splita ali Dubrovnika, nato potniški katamaran do Pomene ali Sobre."
+      "from": "Ľubľana",
+      "car": "610 km do prístavu Prapratno, približne 7 hodín cez A2 (SI), HR A1 a Pelješacký most. Slovinská diaľničná známka, chorvátske mýto. Plus 45-minútový autotrajekt do Sobry.",
+      "other": "Autobusom do Splitu alebo Dubrovníka, potom osobným katamaránom do Pomeny alebo Sobry."
     },
     {
-      "from": "Prague",
-      "car": "1.150 km do pristanišča Prapratno, ~12.5 ur preko A9 (AT) in HR A1. Češka, avstrijska, slovenska vinjeta, hrvaška cestnina. Plus 45-minutni avtomobilski trajekt do Sobre.",
-      "other": "Let do Dubrovnika (DBV), nato avtobus do pristanišča in potniški katamaran."
+      "from": "Praha",
+      "car": "1 150 km do prístavu Prapratno, približne 12,5 hodiny cez A9 (AT) a HR A1. České, rakúske a slovinské diaľničné známky, chorvátske mýto. Plus 45-minútový autotrajekt do Sobry.",
+      "other": "Let do Dubrovníka (DBV), potom autobusom do prístavu a osobným katamaránom."
     },
     {
-      "from": "Kraków",
-      "car": "1.120 km do pristanišča Prapratno, ~12.5 ur preko SK, HU (M7) in HR A1. Slovaška, madžarska vinjeta, hrvaška cestnina. Plus 45-minutni avtomobilski trajekt do Sobre.",
-      "other": "Let do Splita (SPU) ali Dubrovnika (DBV), nato potniški katamaran."
+      "from": "Krakov",
+      "car": "1 120 km do prístavu Prapratno, približne 12,5 hodiny cez SK, HU (M7) a HR A1. Slovenská a maďarská diaľničná známka, chorvátske mýto. Plus 45-minútový autotrajekt do Sobry.",
+      "other": "Let do Splitu (SPU) alebo Dubrovníka (DBV), potom osobným katamaránom."
     }
   ],
-  "whenToGo": "Turistična sezona na Mljetu traja od maja do oktobra, kar sovpada z razširjenimi voznimi redi trajektov in odprtimi restavracijami. Julij in avgust sta najbolj obiskana in najdražja meseca, z morskimi temperaturami do 27°C in velikim številom jaht, ki pristajajo v Pomeni in Polačah. Maj, junij in september ponujajo prijetne temperature zraka okoli 20–25°C, zaradi česar so ti meseci idealni za kolesarjenje in pohodništvo v Narodnem parku, čeprav je morje v začetku maja lahko prehladno za daljše plavanje. Med novembrom in aprilom je otok zelo miren; potniški katamarani vozijo po zmanjšanem voznem redu, večina turističnih objektov, vključno s številnimi restavracijami in namestitvami, pa se za zimo zapre.",
+  "whenToGo": "Turistická sezóna na Mljete trvá od mája do októbra a zhoduje sa s rozšírenými trajektovými plánmi a otvorenými reštauráciami. Júl a august sú najrušnejšie a najdrahšie mesiace, s teplotou mora až 27°C a veľkým počtom jácht kotviacich v Pomene a Polačách. Máj, jún a september ponúkajú príjemné teploty vzduchu okolo 20–25°C, vďaka čomu sú tieto mesiace ideálne na cyklistiku a turistiku v národnom parku, hoci more môže byť na začiatku mája príliš chladné na dlhšie kúpanie. Medzi novembrom a aprílom je ostrov veľmi tichý; osobné katamarány premávajú v obmedzenom režime a väčšina turistických zariadení vrátane mnohých reštaurácií a ubytovaní počas zimy zatvorí.",
   "faq": [
     {
-      "question": "Ali je Mljet vreden obiska?",
-      "answer": "Da, za popotnike, ki iščejo naravo, pohodništvo in čisto vodo, stran od velikih turističnih letovišč. Narodni park in slani jezeri otoka ponujajo edinstveno pokrajino v primerjavi z drugimi hrvaškimi otoki, čeprav mu primanjkuje nočnega življenja in obsežnih nakupovalnih možnosti."
+      "question": "Oplatí sa navštíviť Mljet?",
+      "answer": "Áno, pre cestovateľov hľadajúcich prírodu, turistiku a čistú vodu mimo veľkých letoviskových miest. Národný park a slané jazerá ponúkajú odlišnú krajinu v porovnaní s inými chorvátskymi ostrovmi, hoci tu chýba nočný život a rozsiahle nakupovanie."
     },
     {
-      "question": "Koliko dni potrebujem na Mljetu?",
-      "answer": "Dva do tri dni so dovolj za kolesarjenje okoli jezer Narodnega parka, obisk otoka sv. Marije in raziskovanje nekaj obalnih vasic. Enodnevni izleti iz Dubrovnika ali Korčule so priljubljeni, a prenočitev vam omogoča, da doživite park brez opoldanske gneče."
+      "question": "Koľko dní potrebujem na Mljete?",
+      "answer": "Na objazd jazier národného parku, návštevu ostrova Svätá Mária a prechádzku niekoľkými pobrežnými dedinami stačia dva až tri dni. Denné výlety z Dubrovníka alebo Korčuly sú obľúbené, no prenocovanie vám umožní zažiť park bez poludňajšieho davu."
     },
     {
-      "question": "Katera je najboljša plaža na Mljetu?",
-      "answer": "Velika Saplunara in Mala Saplunara na vzhodnem delu sta najboljše peščene plaže. V Narodnem parku so obale Malega jezera in Velikega jezera (slanih jezer) zelo priljubljene za kopanje zaradi tople, mirne vode in sence borovcev."
+      "question": "Ktorá je najlepšia pláž na Mljete?",
+      "answer": "Veľká Saplunara a Malá Saplunara na východnom cípe sú najlepšie piesočnaté pláže. V národnom parku sú pobrežia Malého jazera a Veľkého jazera (slané jazerá) veľmi obľúbené na kúpanie vďaka teplej, pokojnej vode a tieňu borovíc."
     },
     {
-      "question": "Potrebujem avto na Mljetu?",
-      "answer": "Avto ali skuter je zelo priporočljiv, če nameravate raziskovati otok, saj je razdalja med Narodnim parkom na zahodu in Saplunaro na vzhodu več kot 40 kilometrov. Če nameravate ostati samo v Pomeni ali Polačah in obiskati Narodni park, avto ni potreben."
+      "question": "Potrebujem na Mljete auto?",
+      "answer": "Auto alebo skúter sa veľmi odporúča, ak chcete ostrov preskúmať, pretože vzdialenosť medzi národným parkom na západe a Saplunarou na východe je viac ako 40 kilometrov. Ak plánujete zostať iba v Pomene alebo Polačách a navštíviť národný park, auto nie je potrebné."
     },
     {
-      "question": "Kje parkiram v Narodnem parku Mljet?",
-      "answer": "V vasi Vrbovica (blizu Malega mostu) je urejeno plačljivo parkirišče tik ob vstopu v jezero, na voljo pa je tudi ulično parkiranje v Pomeni in Polačah. Vozila niso dovoljena na sprehajalnih poteh, ki neposredno obkrožajo slani jezeri."
+      "question": "Kde parkovať v národnom parku Mljet?",
+      "answer": "Vo dedine Vrbovica (pri Mali Most) priamo pri vstupe k jazeru je vyznačené platené parkovisko, rovnako ako parkovanie na ulici v Pomene a Polačách. Vozidlá nesmú vjazdiť na pešie chodníky priamo okolo slaných jazier."
     },
     {
-      "question": "Je Mljet primeren za družine?",
-      "answer": "Da, še posebej za aktivne družine, ki uživajo v kolesarjenju, plavanju in sprehodih v naravi. Slani jezeri sta zelo varni za otroke zaradi pomanjkanja valov, peščene plaže v Saplunari pa imajo plitke, postopne vhode v morje."
+      "question": "Je Mljet vhodný pre rodiny?",
+      "answer": "Áno, najmä pre aktívne rodiny, ktoré si užívajú cyklistiku, kúpanie a prechádzky prírodou. Slané jazerá sú pre deti veľmi bezpečné vďaka absencii vĺn a piesočnaté pláže v Saplunare majú plytký, pozvoľný vstup do vody."
     }
   ],
   "headings": {
-    "quickFacts": "Na kratko",
-    "whereToStay": "Kje prenočiti na Mljetu",
-    "gettingThere": "Kako priti na Mljet",
-    "whenToGo": "Kdaj obiskati",
-    "guides": "Vodiči za Mljet",
-    "faq": "Pogosta vprašanja o Mljetu",
+    "quickFacts": "Na prvý pohľad",
+    "whereToStay": "Kde sa ubytovať na Mljete",
+    "gettingThere": "Ako sa dostať na Mljet",
+    "whenToGo": "Kedy ísť",
+    "guides": "Sprievodcovia po Mljete",
+    "faq": "Časté otázky o Mljete",
     "groups": {
-      "gettingAround": "Parkiranje in premikanje po otoku",
-      "planning": "Načrtovanje in kje prenočiti",
-      "timing": "Kdaj obiskati",
-      "travelers": "Družine, pari in stili potovanja",
-      "activities": "Plaže in aktivnosti",
-      "food": "Hrana in pijača",
-      "comparisons": "Primerjave",
-      "practical": "Praktične informacije"
+      "gettingAround": "Parkovanie a pohyb po ostrove",
+      "planning": "Plánovanie a ubytovanie",
+      "timing": "Kedy ísť",
+      "travelers": "Rodiny, páry a štýly cestovania",
+      "activities": "Pláže a aktivity",
+      "food": "Jedlo a pitie",
+      "comparisons": "Porovnania",
+      "practical": "Praktické informácie"
     },
-    "car": "Z avtom",
-    "other": "Druge možnosti",
-    "bestFor": "Najboljše za",
-    "parking": "Parkiranje",
-    "beach": "Plaža"
+    "car": "Autom",
+    "other": "Ďalšie možnosti",
+    "bestFor": "Najlepšie pre",
+    "parking": "Parkovanie",
+    "beach": "Pláž"
   },
   "destination": "mljet",
   "language": "sk",
-  "updatedAt": "2026-10-16T14:24:35.276Z"
+  "updatedAt": "2026-10-19T11:44:36.095Z"
 }

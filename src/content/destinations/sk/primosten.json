@@ -1,146 +1,146 @@
 {
-  "title": "Primošten: Turistični vodnik – Plaže, parkiranje in nastanitev",
-  "metaDescription": "Načrtujte potovanje v Primošten na Hrvaškem. Odkrijte najboljše prodnate plaže, kje parkirati v bližini starega mestnega jedra brez avtomobilov, in sosednja območja za družine in pare.",
-  "intro": "Primošten je obmorsko mesto v Srednji Dalmaciji, ki leži 28 kilometrov južno od Šibenika. Znan po svojem zgodovinskem polotoku in velikih prodnatih plažah, privablja družine, pare in popotnike, ki iščejo tradicionalno sredozemsko okolje brez masivnega urbanega obsega bližnjega Splita. Glavna privlačnost je dostopnost obale, saj plaže neposredno mejijo na mestno središče.\n\nGlavna sezona traja od junija do septembra. Julij in avgust prinašata najvišje temperature in največje množice, ki zapolnjujejo osrednje plaže in glavna parkirišča. Maj in konec septembra ponujata nižje cene nastanitev in mirnejše ulice, čeprav so temperature morja lahko prenizke za kopanje.",
+  "title": "Sprievodca Primoštenom: pláže, parkovanie a kde bývať",
+  "metaDescription": "Naplánujte si cestu do Primoštena v Chorvátsku. Objavte najlepšie šotolinové pláže, kde zaparkovať pri starom meste bez áut a okolité oblasti pre rodiny a páry.",
+  "intro": "Primošten je pobrežné mestečko v Strednej Dalmácii, ležiace 28 km južne od Šibenika. Je známe svojím historickým poloostrovom a rozľahlými šotolinovými plážami, osloví rodiny, páry aj cestovateľov na road tripe, ktorí hľadajú tradičnú stredomorskú atmosféru bez masívneho mestského ruchu blízkeho Splitu. Hlavnou devízou je dostupnosť pobrežia, pretože pláže priamo lemujú stred mesta.\n\nHlavná sezóna trvá od júna do septembra. Júl a august prinášajú najvyššie teploty a najväčší nápor turistov, ktorí zaplnia centrálne pláže aj hlavné parkoviská. Máj a koniec septembra ponúkajú nižšie ceny ubytovania a tichšie ulice, no teplota mora môže byť na kúpanie príliš nízka.",
   "quickFacts": [
     {
-      "label": "Najboljši meseci",
-      "value": "Junij do september"
+      "label": "Najlepšie mesiace",
+      "value": "jún až september"
     },
     {
-      "label": "Temperatura morja v avgustu",
-      "value": "25°C do 27°C"
+      "label": "Teplota mora v auguste",
+      "value": "25°C až 27°C"
     },
     {
-      "label": "Najbližje letališče",
-      "value": "Letališče Split (SPU), 39 km"
+      "label": "Najbližšie letisko",
+      "value": "Letisko Split (SPU), 39 km"
     },
     {
-      "label": "Glavna vrsta plaže",
-      "value": "Prodnata in skalnata"
+      "label": "Hlavný typ pláže",
+      "value": "Šotolinová a skalnatá"
     },
     {
-      "label": "Cenovni nivo",
-      "value": "Povprečen za dalmatinsko obalo"
+      "label": "Cenová úroveň",
+      "value": "Priemerná pre dalmatínske pobrežie"
     },
     {
-      "label": "Dostopnost starega mestnega jedra",
-      "value": "Brez avtomobilov, samo za pešce"
+      "label": "Pohyb v starom meste",
+      "value": "Bez áut, len pre chodcov"
     }
   ],
   "areas": [
     {
-      "name": "Staro mestno jedro (polotok)",
-      "bestFor": "Pari, kulinarika in zgodovinsko vzdušje",
-      "parking": "Prepovedano znotraj; zahteva uporabo plačljivih parkirišč na celini",
-      "beach": "200m do 500m hoje do Male Raduče",
-      "summary": "Zgodovinsko središče leži na polotoku, ki je namenjen samo pešcem. Ponuja največjo koncentracijo restavracij in barov, vendar zahteva prenašanje prtljage od parkirišč na celini."
+      "name": "Staré mesto (poloostrov)",
+      "bestFor": "Páry, gastronómia a historická atmosféra",
+      "parking": "Zakázané v centre; treba použiť platené parkoviská na pevnine",
+      "beach": "200 m až 500 m pešo k pláži Mala Raduča",
+      "summary": "Historické centrum leží na poloostrove, kam je vstup len pre peších. Ponúka najvyššiu koncentráciu reštaurácií a barov, no batožinu treba nosiť z parkovísk na pevnine."
     },
     {
       "name": "Raduča",
-      "bestFor": "Družine in dostop do plaže",
-      "parking": "Pogosto vključeno v hotelih; velika javna plačljiva parkirišča v bližini",
-      "beach": "Neposreden dostop do prodnatih plaž Velika in Mala Raduča",
-      "summary": "To območje obdaja glavne prodnate plaže in borove gozdove na celini. Namestitve so tukaj bližje vodi in na splošno zagotavljajo lažji dostop z vozilom v primerjavi s starim mestnim jedrom."
+      "bestFor": "Rodiny a jednoduchý prístup k pláži",
+      "parking": "Často zahrnuté v cene ubytovania; neďaleko veľké verejné platené parkoviská",
+      "beach": "Priamy prístup k šotolinovým plážam Velika Raduča a Mala Raduča",
+      "summary": "Táto oblasť obklopuje hlavné šotolinové pláže a borovicové háje na pevnine. Ubytovanie tu je bližšie k vode a vo všeobecnosti ponúka jednoduchší prístup autom než staré mesto."
     },
     {
       "name": "Bilo",
-      "bestFor": "Mirno bivanje in pari",
-      "parking": "Običajno zagotovljeno pri zasebnih apartmajih",
-      "beach": "Neposreden dostop do skalnatih zalivov in majhnih prodnatih delov",
-      "summary": "Majhno obalno naselje, ki se nahaja 5 kilometrov severno od Primoštena. Ponuja mirnejšo alternativo z dostopom do skalnate obale, vendar zahteva vozilo ali lokalni avtobus za dosego restavracij v Primoštenu."
+      "bestFor": "Pokojné pobyty a páry",
+      "parking": "Zvyčajne poskytujú súkromné apartmány",
+      "beach": "Priamy prístup k skalnatým zátokám a malým šotolinovým úsekom",
+      "summary": "Malá pobrežná osada 5 km severne od Primoštena. Ponúka tichšiu alternatívu so skalnatým pobrežím, no na dostanie sa k reštauráciám v Primoštene potrebujete auto alebo miestny autobus."
     },
     {
       "name": "Dolac",
-      "bestFor": "Popotniki z omejenim proračunom in mirno družinsko bivanje",
-      "parking": "Običajno vključeno v namestitev",
-      "beach": "Prodnatne uvale in betonske terase v razdalji 100m do 400m",
-      "summary": "Predmestna vas 3 kilometre severno, povezana s Primoštenom z obalno avtocesto. Ponuja stanovanjske apartmaje in nekaj lokalnih kavarn, primernih za tiste, ki se izogibajo živahnemu središču."
+      "bestFor": "Rozpočtoví cestovatelia a pokojné rodinné pobyty",
+      "parking": "Zvyčajne zahrnuté v cene ubytovania",
+      "beach": "Šotolinové zátoky a betónové terasy vo vzdialenosti 100 m až 400 m",
+      "summary": "Predmestská dedina 3 km severne, s Primoštenom spojená pobrežnou cestou. Má obytné apartmány a pár miestnych kaviarní, vhodná pre tých, ktorí sa chcú vyhnúť rušnému centru."
     }
   ],
   "gettingThere": [
     {
-      "from": "München",
-      "car": "820 km, ~9 ur preko Salzburga, Beljaka, Ljubljane, Zagreba in avtoceste A1. Zahteva avstrijsko in slovensko vinjeto ter hrvaške cestnine.",
-      "other": "Direktni leti v Split (SPU) trajajo 1,5 ure."
+      "from": "Mníchov",
+      "car": "820 km, ~9 hodín cez Salzburg, Villach, Ľubľanu, Záhreb a diaľnicu A1. Vyžaduje rakúsku a slovinskú diaľničnú známku, plus chorvátske mýto.",
+      "other": "Priame lety do Splitu (SPU) trvajú 1,5 hodiny."
     },
     {
-      "from": "Dunaj",
-      "car": "640 km, ~6.5 ur preko Gradca, Maribora, Zagreba in avtoceste A1. Zahteva avstrijsko in slovensko vinjeto ter hrvaške cestnine.",
-      "other": "Direktni leti v Split (SPU) trajajo 1 uro."
+      "from": "Viedeň",
+      "car": "640 km, ~6,5 hodiny cez Graz, Maribor, Záhreb a diaľnicu A1. Vyžaduje rakúsku a slovinskú diaľničnú známku, plus chorvátske mýto.",
+      "other": "Priame lety do Splitu (SPU) trvajú 1 hodinu."
     },
     {
-      "from": "Budimpešta",
-      "car": "680 km, ~6.5 ur preko Letenya, Zagreba in avtoceste A1. Zahteva madžarsko vinjeto ter hrvaške cestnine.",
-      "other": "Sezonski leti v Split ali FlixBus povezave preko Zagreba."
+      "from": "Budapešť",
+      "car": "680 km, ~6,5 hodiny cez Letenye, Záhreb a diaľnicu A1. Vyžaduje maďarskú diaľničnú známku, plus chorvátske mýto.",
+      "other": "Sezónne lety do Splitu alebo spoje FlixBusom cez Záhreb."
     },
     {
-      "from": "Ljubljana",
-      "car": "400 km, ~4.5 ure preko Novega mesta, Karlovca in avtoceste A1. Zahteva slovensko vinjeto ter hrvaške cestnine.",
-      "other": "Obstajajo direktne avtobusne povezave, vendar trajajo 8 do 10 ur."
+      "from": "Ľubľana",
+      "car": "400 km, ~4,5 hodiny cez Novo Mesto, Karlovac a diaľnicu A1. Vyžaduje slovinskú diaľničnú známku, plus chorvátske mýto.",
+      "other": "Existujú priame autobusové spojenia, ale trvajú 8 až 10 hodín."
     },
     {
-      "from": "Praga",
-      "car": "970 km, ~10 ur preko Linza, Gradca, Maribora, Zagreba in avtoceste A1. Zahteva češko, avstrijsko in slovensko vinjeto ter hrvaške cestnine.",
-      "other": "Sezonski direktni leti v Split trajajo 1,5 ure."
+      "from": "Praha",
+      "car": "970 km, ~10 hodín cez Linec, Graz, Maribor, Záhreb a diaľnicu A1. Vyžaduje českú, rakúsku a slovinskú diaľničnú známku, plus chorvátske mýto.",
+      "other": "Sezónne priame lety do Splitu trvajú 1,5 hodiny."
     },
     {
       "from": "Krakov",
-      "car": "1050 km, ~11 ur preko Ostrave, Brna, Dunaja, Gradca, Zagreba in avtoceste A1. Zahteva češko, avstrijsko in slovensko vinjeto ter hrvaške cestnine.",
-      "other": "Sezonski leti v Split preko LOT Polish Airlines ali nizkocenovnih prevoznikov."
+      "car": "1050 km, ~11 hodín cez Ostravu, Brno, Viedeň, Graz, Záhreb a diaľnicu A1. Vyžaduje českú, rakúsku a slovinskú diaľničnú známku, plus chorvátske mýto.",
+      "other": "Sezónne lety do Splitu s LOT Polish Airlines alebo nízkonákladovými leteckými spoločnosťami."
     }
   ],
-  "whenToGo": "Turistična sezona v Primoštenu traja od konca maja do začetka oktobra. Julij in avgust sta vrhunca sezone, s temperaturami morja okoli 26°C, zanesljivim soncem in vsemi lokalnimi podjetji, ki delujejo s polno kapaciteto. Ti meseci prinašajo tudi najvišje cene in največje množice na plaži Mala Raduča. Junij in september ponujata blažje dnevne temperature (23°C do 28°C) in znižane cene namestitev, čeprav konec septembra prinaša večjo verjetnost dežja. Od oktobra do aprila se Primošten spremeni v mirno stanovanjsko mesto; večina hotelov, sezonskih restavracij in barov na plaži se zapre, temperature morja pa padejo pod 18°C.",
+  "whenToGo": "Turistická sezóna v Primoštene trvá od konca mája do začiatku októbra. Júl a august sú špičkové mesiace s teplotou mora okolo 26°C, spoľahlivým slnečným počasím a všetkými miestnymi podnikmi v plnej prevádzke. Tieto mesiace prinášajú aj najvyššie ceny a najväčší nápor na pláži Mala Raduča. Jún a september ponúkajú miernejšie denné teploty (23°C až 28°C) a nižšie ceny ubytovania, hoci koncom septembra je väčšia pravdepodobnosť dažďa. Od októbra do apríla sa Primošten mení na tiché obytné mestečko; väčšina hotelov, sezónnych reštaurácií a plážových barov zatvára a teplota mora klesá pod 18°C.",
   "faq": [
     {
-      "question": "Ali je Primošten vreden obiska?",
-      "answer": "Da, Primošten je vreden obiska za popotnike, ki iščejo tradicionalno obalno mesto z obsežnimi prodnatimi plažami. Služi kot odlično izhodišče za raziskovanje Srednje Dalmacije, vključno z bližnjim Nacionalnim parkom Krka in mestom Šibenik."
+      "question": "Oplatí sa navštíviť Primošten?",
+      "answer": "Áno, Primošten stojí za návštevu pre cestovateľov, ktorí hľadajú tradičné pobrežné mestečko s rozsiahlymi šotolinovými plážami. Je výborným východiskom na objavovanie Strednej Dalmácie vrátane blízkeho Národného parku Krka a mesta Šibenik."
     },
     {
-      "question": "Koliko dni potrebujem v Primoštenu?",
-      "answer": "Tri do pet dni je dovolj za raziskovanje mesta, preživljanje časa na plažah in enodnevni izlet v okolico. Obiskovalci, ki iščejo izključno dopust na plaži, pogosto ostanejo en do dva tedna."
+      "question": "Koľko dní potrebujem v Primoštene?",
+      "answer": "Na prehliadku mestečka, pobyt na pláži a jeden výlet do okolia postačia tri až päť dní. Návštevníci, ktorí hľadajú čisto plážovú dovolenku, často zostávajú jeden až dva týždne."
     },
     {
-      "question": "Katera je najboljša plaža v Primoštenu?",
-      "answer": "Mala Raduča velja za najboljšo in najbolj priljubljeno plažo zaradi svoje osrednje lokacije, gladkih prodnikov in čiste vode. Velika Raduča je večja alternativa čez polotok, ki ponuja vodne športe in senco borovcev."
+      "question": "Ktorá pláž je v Primoštene najlepšia?",
+      "answer": "Mala Raduča sa považuje za najlepšiu a najobľúbenejšiu pláž vďaka svojej centrálnej polohe, hladkým kamienkom a čistej vode. Velika Raduča je väčšou alternatívou hneď cez poloostrov, ponúka vodné športy a tieň borovíc."
     },
     {
-      "question": "Ali potrebujem avto v Primoštenu?",
-      "answer": "Avto ni nujen, če bivate v središču mesta ali v bližini plaž Raduča, saj so dnevne potrebščine dosegljive peš. Vendar pa je vozilo zelo priporočljivo za raziskovanje bližnjih vasi, nacionalnih parkov ali večjih mest, kot sta Split in Zadar."
+      "question": "Potrebujem v Primoštene auto?",
+      "answer": "Auto nie je nutné, ak bývate v centre mesta alebo blízko pláží Raduča, pretože na každodenné potreby sa dostanete pešo. Vozidlo je však veľmi odporúčané na výlety do okolitých dedín, národných parkov či väčších miest ako Split a Zadar."
     },
     {
-      "question": "Kje naj parkiram v Primoštenu?",
-      "answer": "Parkiranje znotraj polotoka starega mestnega jedra je za nerezidente prepovedano. Obiskovalci morajo uporabiti velika plačljiva parkirišča, ki se nahajajo tik pred mestnimi vrati polotoka, ali potrditi namensko parkirišče zunaj ulice pri svojem ponudniku nastanitve."
+      "question": "Kde mám v Primoštene parkovať?",
+      "answer": "Parkovanie na poloostrove starého mesta je pre nerezidentov zakázané. Návštevníci musia použiť veľké platené parkoviská hneď za bránami poloostrova alebo si vopred overiť vyhradené parkovanie u poskytovateľa ubytovania."
     },
     {
-      "question": "Je Primošten primeren za družine?",
-      "answer": "Da, Primošten je zelo primeren za družine zaradi mirnih voda in dostopnih, čistih prodnatih plaž. Prisotnost borovcev, ki nudijo senco, najem pedalov in ravne sprehajalne poti omogočajo udobje za otroke vseh starosti."
+      "question": "Je Primošten vhodný pre rodiny?",
+      "answer": "Áno, Primošten je veľmi vhodný pre rodiny vďaka pokojnému moru a dostupným, čistým šotolinovým plážam. Tieňom poskytujúce borovice, požičovne šliapadlových člnov a rovné chodníky pre peších robia pobyt pohodlným pre deti všetkých vekových kategórií."
     }
   ],
   "headings": {
-    "quickFacts": "Na hitro",
-    "whereToStay": "Kje prenočiti v Primoštenu",
-    "gettingThere": "Kako priti v Primošten",
-    "whenToGo": "Kdaj obiskati",
-    "guides": "Vodiči za Primošten",
-    "faq": "Pogosta vprašanja o Primoštenu",
+    "quickFacts": "Stručne",
+    "whereToStay": "Kde bývať v Primoštene",
+    "gettingThere": "Ako sa dostať do Primoštena",
+    "whenToGo": "Kedy ísť",
+    "guides": "Sprievodcovia po Primoštene",
+    "faq": "Časté otázky o Primoštene",
     "groups": {
-      "gettingAround": "Parkiranje in premikanje",
-      "planning": "Načrtovanje in kje prenočiti",
-      "timing": "Kdaj obiskati",
-      "travelers": "Družine, pari in stili potovanja",
-      "activities": "Plaže in aktivnosti",
-      "food": "Hrana in pijača",
-      "comparisons": "Primerjave",
-      "practical": "Praktične informacije"
+      "gettingAround": "Parkovanie a doprava",
+      "planning": "Plánovanie a kde bývať",
+      "timing": "Kedy ísť",
+      "travelers": "Rodiny, páry a štýly cestovania",
+      "activities": "Pláže a aktivity",
+      "food": "Jedlo a pitie",
+      "comparisons": "Porovnania",
+      "practical": "Praktické informácie"
     },
-    "car": "Z avtom",
-    "other": "Druge možnosti",
-    "bestFor": "Najboljše za",
-    "parking": "Parkiranje",
-    "beach": "Plaža"
+    "car": "Autom",
+    "other": "Iné možnosti",
+    "bestFor": "Najlepšie pre",
+    "parking": "Parkovanie",
+    "beach": "Pláž"
   },
   "destination": "primosten",
   "language": "sk",
-  "updatedAt": "2026-10-16T13:46:17.926Z"
+  "updatedAt": "2026-10-19T11:44:36.074Z"
 }

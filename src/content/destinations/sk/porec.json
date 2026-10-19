@@ -1,146 +1,146 @@
 {
-  "title": "Poreč Turistični vodnik: Plaže, parkiranje in prenočišča",
-  "metaDescription": "Načrtujte svoje potovanje v Poreč, Hrvaška. Poiščite najboljše nastanitve, potovalne poti iz Srednje Evrope, vrste plaž in možnosti parkiranja v tem istrskem mestu.",
-  "intro": "Poreč privablja popotnike, ki iščejo organizirana obmorska letovišča, bogato rimsko zgodovino in aktivne kolesarske počitnice. Mesto se osredotoča na majhen polotok, kjer se nahajata Evfrazijeva bazilika, uvrščena na seznam UNESCO-a, in izvirne rimske ulične mreže, medtem ko obalnemu pasu na severu in jugu prevladujejo veliki hotelski kompleksi, obdani z borovci. Teren je večinoma raven, zato je zelo primeren za sprehajanje in kolesarjenje po obalnih promenadah.\n\nGlavna sezona traja od konca junija do avgusta, ko temperatura morja doseže 26°C in velika družinska letovišča delujejo s polno zmogljivostjo. Maj, september in začetek oktobra ponujajo milejše vreme in nižje cene nastanitev, primerno za oglede, degustacijo vin in kolesarjenje, čeprav je morje morda prehladno za kopanje izven osrednjih poletnih mesecev.",
+  "title": "Sprievodca po Poreči: pláže, parkovanie a ubytovanie",
+  "metaDescription": "Naplánujte si cestu do Poreča v Chorvátsku. Nájdite najlepšie ubytovanie, trasy autom zo strednej Európy, typy pláží a možnosti parkovania v tomto istrijskom meste.",
+  "intro": "Poreč láka cestovateľov, ktorí hľadajú organizované plážové resorty, bohatú rímsku históriu a aktívnu dovolenku na bicykli. Mesto sa rozkladá na malom polostrove, na ktorom stojí Eufrazijská bazilika zapísaná v zozname UNESCO a pôvodné rímske uličné siete, zatiaľ čo pobrežie na severe aj na juhu ovládajú veľké hotelové komplexy v tieni borovíc. Terén je väčšinou rovinatý, takže je veľmi vhodný na chôdzu a jazdu na bicykli po pobrežných promenádach.\n\nVrchol sezóny trvá od konca júna do augusta, keď teplota mora dosahuje 26°C a veľké rodinné resorty fungujú na plnú kapacitu. Máj, september a začiatok októbra ponúkajú miernejšie počasie a nižšie ceny ubytovania, vhodné na prehliadku pamiatok, degustáciu vína a jazdu na bicykli, hoci mimo hlavných letných mesiacov môže byť more na kúpanie príliš studené.",
   "quickFacts": [
     {
-      "label": "Najboljši meseci",
-      "value": "Junij do september"
+      "label": "Najlepšie mesiace",
+      "value": "jún až september"
     },
     {
-      "label": "Temperatura morja avgusta",
-      "value": "25°C do 27°C"
+      "label": "Teplota mora v auguste",
+      "value": "25°C až 27°C"
     },
     {
-      "label": "Najbližje letališče",
-      "value": "Pulj (PUY), 58 km"
+      "label": "Najbližšie letisko",
+      "value": "Pula (PUY), 58 km"
     },
     {
-      "label": "Glavni tipi plaž",
-      "value": "Betonirane ploščadi, skale in prod"
+      "label": "Hlavný typ pláže",
+      "value": "Dláždené terasy, skaly a štrk"
     },
     {
-      "label": "Raven cen",
-      "value": "Nekoliko nad hrvaškim povprečjem"
+      "label": "Cenová úroveň",
+      "value": "Mierne nad chorvátskym priemerom"
     },
     {
-      "label": "Prehodnost starega mestnega jedra",
-      "value": "Popolnoma zaprto za promet (brez avtomobilov)"
+      "label": "Pešia dostupnosť starého mesta",
+      "value": "Úplne pešia zóna (bez áut)"
     }
   ],
   "areas": [
     {
-      "name": "Staro mestno jedro (Center)",
-      "bestFor": "Ogledi, kulinarika in kratka zgodovinska bivanja",
-      "parking": "Plačljiva občinska parkirišča izven peš cone (npr. Veliki gradski parking)",
-      "beach": "10-15 minut hoje do Mestne plaže ali Brula",
-      "summary": "Zgodovinski polotok gosti glavne znamenitosti, restavracije in trajektne povezave. Nastanitve so večinoma apartmaji in butične sobe v starejših zgradbah, brez neposrednega dostopa za vozila."
+      "name": "Staré mesto (centrum)",
+      "bestFor": "Prehliadka pamiatok, gastronómia a krátke pobyty s históriou",
+      "parking": "Platené mestské parkoviská mimo pešej zóny (napr. Veliki gradski parking)",
+      "beach": "10 – 15 minút pešo na Mestskú pláž alebo na Brulo",
+      "summary": "Historický polostrov ukrýva hlavné pamiatky, reštaurácie a trajektové spojenia. Ubytovanie tvoria najmä apartmány a butikové izby v starších budovách, bez priameho prístupu autom."
     },
     {
       "name": "Brulo",
-      "bestFor": "Pari in družine, ki si želijo bližine starega mestnega jedra",
-      "parking": "Na voljo je zasebno hotelsko parkirišče; ulično parkiranje je strogo omejeno",
-      "beach": "2-5 minut hoje do plaže Brulo (prodnata in betonirana, Modra zastava)",
-      "summary": "Letoviško območje, obdano z borovci, takoj južno od centra. Ponuja velike hotele in enostaven dostop do zgodovinskih znamenitosti ter plaž preko obalne promenade."
+      "bestFor": "Páry a rodiny, ktoré chcú byť blízko starého mesta",
+      "parking": "Súkromné parkovanie pri hoteloch; parkovanie na uliciach je prísne obmedzené",
+      "beach": "2 – 5 minút pešo na pláž Brulo (štrková a dláždená, s Modrou vlajkou)",
+      "summary": "Oblasť resortov v tieni borovíc hneď južne od centra. Ponúka veľké hotely a jednoduchý peší prístup k historickým pamiatkam aj k plážam po pobrežnej promenáde."
     },
     {
       "name": "Zelena Laguna",
-      "bestFor": "Gostje letovišč, aktivne družine in športni navdušenci",
-      "parking": "Namenska parkirišča v letovišču, običajno ob dnevnem plačilu",
-      "beach": "Neposreden dostop do skalnatih, prodnatih in betoniranih letoviških plaž",
-      "summary": "Ogromno, samozadostno turistično letovišče, ki se nahaja 5 kilometrov južno od centra. Ponuja velike hotelske komplekse, kampe, teniška igrišča, vodne športe in številne možnosti prehrane."
+      "bestFor": "Milovníkov resortov, aktívne rodiny a športové nadšencov",
+      "parking": "Vyhradené parkovanie v resorte, zvyčajne za denný poplatok",
+      "beach": "Okamžitý prístup ku skalnatým, štrkovým a dláždeným resortným plážam",
+      "summary": "Rozsiahly, samostatne fungujúci turistický resort vzdialený 5 kilometrov južne od centra. Ponúka veľké hotelové komplexy, kempy, tenisové kurty, vodné športy a množstvo reštaurácií."
     },
     {
-      "name": "Špadići & Materada",
-      "bestFor": "Družine in pari, ki iščejo mirnejša stanovanjska območja",
-      "parking": "Zasebna parkirišča običajno zagotavljajo najemodajalci apartmajev",
-      "beach": "5-10 minut hoje do plaže Materada ali prodnatih zalivov Špadići",
-      "summary": "Nahaja se severno od starega mestnega jedra in je v veliki meri sestavljeno iz zasebnih apartmajev in penzionov. S centrom je povezano s turističnim vlakcem in slikovito sprehajalno potjo."
+      "name": "Špadići a Materada",
+      "bestFor": "Rodiny a páry, ktoré hľadajú tichšie obytné štvrte",
+      "parking": "Súkromné parkovanie zvyčajne zabezpečujú hostitelia apartmánov",
+      "beach": "5 – 10 minút pešo na pláž Materada alebo na štrkové zátoky Špadići",
+      "summary": "Štvrť ležiaca hneď severne od starého mesta sa skladá najmä zo súkromných apartmánov a penziónov. S centrom ju spája turistický vláčik a malebný pešej chodník."
     }
   ],
   "gettingThere": [
     {
-      "from": "München",
-      "car": "580 km, ~6.5 ure preko A8, A10 in slovenske A1. Potrebna avstrijska vinjeta, cestnina za tunele Tauern/Karavanke, slovenska vinjeta in hrvaška cestnina.",
-      "other": "Neposreden avtobus ali skupni prevoz (~8 ur)."
+      "from": "Mníchov",
+      "car": "580 km, ~6,5 hodiny cez diaľnice A8, A10 a slovinskú A1. Vyžaduje rakúsku diaľničnú známku, mýto za tunely Tauern a Karawanky, slovinskú diaľničnú známku a chorvátske mýto.",
+      "other": "Priamy autobus alebo zdieľaný transfer (~8 hodín)."
     },
     {
-      "from": "Dunaj",
-      "car": "520 km, ~5.5 ure preko A2, A9 in slovenske A1. Potrebna avstrijska in slovenska vinjeta ter hrvaška cestnina.",
-      "other": "Neposreden avtobus (~7.5 ure) ali sezonski let do Pulja."
+      "from": "Viedeň",
+      "car": "520 km, ~5,5 hodiny cez diaľnice A2, A9 a slovinskú A1. Vyžaduje rakúsku a slovinskú diaľničnú známku a chorvátske mýto.",
+      "other": "Priamy autobus (~7,5 hodiny) alebo sezónny let do Pule."
     },
     {
-      "from": "Budimpešta",
-      "car": "600 km, ~6 ur preko M7, A4 in A6. Potrebna madžarska e-vinjeta in hrvaške cestnine.",
-      "other": "Neposreden avtobus (~10 ur) ali prevoz preko Zagreba."
+      "from": "Budapešť",
+      "car": "600 km, ~6 hodín cez M7, A4 a A6. Vyžaduje maďarskú elektronickú známku a chorvátske mýto.",
+      "other": "Priamy autobus (~10 hodín) alebo prestup v Záhrebe."
     },
     {
-      "from": "Ljubljana",
-      "car": "160 km, ~2 uri preko A1 do Kopra in A9. Potrebna slovenska vinjeta in hrvaška cestnina.",
-      "other": "Neposreden avtobus ali skupni prevoz (~2.5 ure)."
+      "from": "Ľubľana",
+      "car": "160 km, ~2 hodiny cez A1 do Kopra a A9. Vyžaduje slovinskú diaľničnú známku a chorvátske mýto.",
+      "other": "Priamy autobus alebo zdieľaný transfer (~2,5 hodiny)."
     },
     {
-      "from": "Praga",
-      "car": "730 km, ~8.5 ure preko Brna, Dunaja in Maribora. Potrebne češka, avstrijska in slovenska vinjeta ter hrvaška cestnina.",
-      "other": "Neposreden nočni avtobus (~13 ur)."
+      "from": "Praha",
+      "car": "730 km, ~8,5 hodiny cez Brno, Viedeň a Maribor. Vyžaduje české, rakúske a slovinské diaľničné známky a chorvátske mýto.",
+      "other": "Priamy nočný autobus (~13 hodín)."
     },
     {
       "from": "Krakov",
-      "car": "910 km, ~10.5 ure preko Brna, Dunaja in Maribora. Potrebne poljske cestnine, češka, avstrijska in slovenska vinjeta ter hrvaška cestnina.",
-      "other": "Avtobus preko Dunaja ali Zagreba (~15 ur) ali let do Benetk/Trsta."
+      "car": "910 km, ~10,5 hodiny cez Brno, Viedeň a Maribor. Vyžaduje poľské mýto, české, rakúske a slovinské diaľničné známky a chorvátske mýto.",
+      "other": "Autobus cez Viedeň alebo Záhreb (~15 hodín) alebo let do Benátok či Terstu."
     }
   ],
-  "whenToGo": "Maj odpira sezono z blagimi temperaturami okoli 20°C in nižjimi cenami, čeprav morje ostaja hladnih 17°C in nekatere hotelske storitve so morda še zaprte. Junij prinaša toplejše razmere za kopanje (22°C), večje množice in odprtje vseh vodnih parkov in turističnih vlakcev. Julij in avgust sta vrhunca sezone, za katera so značilne visoke cene nastanitev, polne plaže in temperature morja, ki dosegajo med 25°C in 27°C. September je verjetno najboljši čas za obisk, saj ponuja toplo morje (23°C), manjše množice in ugodnejše cene hotelov, medtem ko vse ostaja odprto. Do oktobra cene znatno padejo in množice izginejo, vendar pa temperature morja padejo pod 20°C in mnoge sezonske restavracije in bari na plaži se začnejo zapirati za zimo.",
+  "whenToGo": "Máj otvára sezónu s miernymi teplotami okolo 20°C a nižšími cenami, hoci more má stále chladných 17°C a niektoré resortné zariadenia môžu byť ešte zatvorené. Jún prináša príjemnejšie podmienky na kúpanie (22°C), rastúci počet návštevníkov a otvorenie všetkých aquaparkov a turistických vláčikov. Júl a august sú vrcholné mesiace s vysokými cenami ubytovania, preplnenými plážami a teplotou mora, ktorá dosahuje 25°C až 27°C. September je asi najlepší čas na návštevu: teplé more (23°C), redšie davy a rozumnejšie ceny hotelov, pričom všetko zostáva otvorené. Do októbra ceny výrazne klesnú a davy zmiznú, no teplota mora klesne pod 20°C a mnohé sezónne reštaurácie a plážové bary sa na zimu začnú zatvárať.",
   "faq": [
     {
-      "question": "Ali je Poreč vreden obiska?",
-      "answer": "Da, Poreč je zelo vreden obiska zaradi ravnovesja med zgodovino, ki je na Unescovem seznamu, in obsežnimi storitvami letovišč. Ponuja odlične kolesarske poti, varne plaže in služi kot odlična baza za raziskovanje preostanka Istre."
+      "question": "Oplatí sa navštíviť Poreč?",
+      "answer": "Áno, Poreč stojí za návštevu vďaka vyváženosti medzi históriou zapísanou v zozname UNESCO a rozsiahlym resortným zázemím. Ponúka výborné cyklistické trasy, bezpečné pláže a je skvelým východiskovým bodom na objavovanie zvyšku Istrie."
     },
     {
-      "question": "Koliko dni naj preživim v Poreču?",
-      "answer": "Tri do pet dni je idealno za bivanje v Poreču. To vam omogoča dovolj časa za raziskovanje zgodovinskega centra, sprostitev na bližnjih plažah in enodnevni izlet v istrska mesta v notranjosti, kot je Motovun."
+      "question": "Koľko dní by som mal stráviť v Poreči?",
+      "answer": "Pre pobyt v Poreči sú ideálne tri až päť dní. Máte tak dosť času na prehliadku historického centra, oddych na okolitých plážach a jednodňový výlet do vnútrozemských istrijských mestečiek, ako je Motovun."
     },
     {
-      "question": "Katera je najboljša plaža v Poreču?",
-      "answer": "Zelena Laguna in plaža Brulo veljata za najboljše možnosti. Obe imata status Modre zastave, čisto vodo, veliko sence borovcev in odlične storitve, vključno z najemom ležalnikov in tuši."
+      "question": "Ktorá je najlepšia pláž v Poreči?",
+      "answer": "Za najlepšie možnosti sa považujú Zelena Laguna a pláž Brulo. Obe majú Modrú vlajku, čisté vody, dostatok tieňa borovíc a výborné zázemie vrátane prenájmu lehátok a sprchy."
     },
     {
-      "question": "Potrebujem avto v Poreču?",
-      "answer": "Avtomobila ne potrebujete, če nameravate bivati v mestnem jedru ali glavnih obmorskih letoviščih. Območje je zelo primerno za hojo in dobro povezano s turističnimi vlakci, čeprav je avto koristen za raziskovanje širšega istrskega polotoka."
+      "question": "Potrebujem v Poreči auto?",
+      "answer": "Auto nepotrebujete, ak plánujete ubytovanie v centre mesta alebo v hlavných pobrežných resortoch. Oblasť je veľmi vhodná na chôdzu a dobre prepojená turistickými vláčikmi, hoci auto sa zíde na objavovanie širšieho istrijského polostrova."
     },
     {
-      "question": "Kje naj parkiram v Poreču?",
-      "answer": "Najboljše mesto za parkiranje je veliko občinsko parkirišče (Veliki gradski parking), ki se nahaja tik ob peš coni. Hoteli v starem mestnem jedru običajno zahtevajo, da parkirate tukaj in ponujajo prevoze do vaše nastanitve."
+      "question": "Kde by som mal parkovať v Poreči?",
+      "answer": "Najlepším miestom na parkovanie je veľké mestské parkovisko (Veliki gradski parking), ktoré leží tesne mimo pešej zóny. Hotely v starom meste zvyčajne vyžadujú, aby ste parkovali práve tu, a ponúkajú prepravu k vášmu ubytovaniu."
     },
     {
-      "question": "Je Poreč primeren za družine?",
-      "answer": "Da, Poreč je izjemno prijazen družinam. Velika letovišča južno od mesta ponujajo mirne, nadzorovane plaže, otroške klube in enostaven dostop do priljubljenega vodnega parka Aquacolors."
+      "question": "Je Poreč vhodný pre rodiny?",
+      "answer": "Áno, Poreč je mimoriadne prívetivý pre rodiny. Veľké resorty južne od mesta ponúkajú pokojné pláže pod dohľadom, detské kluby a jednoduchý prístup do obľúbeného aquaparku Aquacolors."
     }
   ],
   "headings": {
-    "quickFacts": "Na kratko",
-    "whereToStay": "Kje prenočiti v Poreču",
-    "gettingThere": "Pot do Poreča",
-    "whenToGo": "Kdaj obiskati",
-    "guides": "Vodnik za Poreč",
-    "faq": "Pogosta vprašanja o Poreču",
+    "quickFacts": "Stručný prehľad",
+    "whereToStay": "Kde sa ubytovať v Poreči",
+    "gettingThere": "Ako sa dostať do Poreča",
+    "whenToGo": "Kedy ísť",
+    "guides": "Sprievodcovia po Poreči",
+    "faq": "Časté otázky o Poreči",
     "groups": {
-      "gettingAround": "Parkiranje in gibanje po mestu",
-      "planning": "Načrtovanje in nastanitve",
-      "timing": "Kdaj potovati",
-      "travelers": "Družine, pari in stili potovanj",
-      "activities": "Plaže in dejavnosti",
-      "food": "Hrana in pijača",
-      "comparisons": "Primerjave",
-      "practical": "Praktične informacije"
+      "gettingAround": "Parkovanie a doprava po meste",
+      "planning": "Plánovanie a ubytovanie",
+      "timing": "Kedy ísť",
+      "travelers": "Rodiny, páry a štýly cestovania",
+      "activities": "Pláže a aktivity",
+      "food": "Jedlo a pitie",
+      "comparisons": "Porovnania",
+      "practical": "Praktické informácie"
     },
-    "car": "Z avtom",
-    "other": "Druge možnosti",
-    "bestFor": "Najboljše za",
-    "parking": "Parkiranje",
-    "beach": "Plaža"
+    "car": "Autom",
+    "other": "Iné možnosti",
+    "bestFor": "Najvhodnejšie pre",
+    "parking": "Parkovanie",
+    "beach": "Pláž"
   },
   "destination": "porec",
   "language": "sk",
-  "updatedAt": "2026-10-16T11:01:14.094Z"
+  "updatedAt": "2026-10-19T11:44:36.050Z"
 }
