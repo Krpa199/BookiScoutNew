@@ -1,35 +1,36 @@
 {
-  "title": "Vremenski vodnik po Trogirju 2026: Najboljši čas za obisk",
-  "metaDescription": "Načrtujte svoje potovanje v Trogir 2026. Odkrijte najboljši čas za obisk za idealno vreme in manj gneče. Konkretni nasveti za nepozabni hrvaški pobeg.",
-  "slug": "trogir-weather",
-  "content": "## Trogirska letni časi: Pregled\n\nIzberite pametno. Čar Trogirja se spreminja z letnim časom.\n\n*   **Pomlad (april–maj):** Mil, sončni dnevi. Idealno za oglede in sprehode. Manj turistov. Cene so nižje.\n*   **Zgodnje poletje (junij):** Toplo, morje idealno za kopanje. Še vedno zasedeno, a obvladljivo. Dolgi dnevi.\n*   **Glavna sezona (julij–avgust):** Vroče, vlažno in izjemno prenatrpano. Pričakujte visoke cene in polne plaže. To je eden tistih časov, ko si vsi želijo biti tam, a je realnost pogosto manj čarobna zaradi velike množice.\n*   **Jesen (september–oktober):** Prijetna toplota, morje je še vedno primerno za kopanje. Število turistov se občutno zmanjša. Odlična vrednost.\n*   **Zima (november–marec):** Hladno, deževno. Številne dejavnosti so zaprte. Ni primerno za tipične turistične dejavnosti.",
+  "title": "Trogir: sprievodca počasím na rok 2026 – kedy ho najlepšie navštíviť",
+  "metaDescription": "Naplánujte si cestu do Trogiru na rok 2026. Zistite, kedy je počasie najlepšie a turistov najmenej. Praktické rady pre nezabudnuteľný chorvátsky únik.",
+  "quickAnswer": "Navštívte Trogir koncom mája, začiatkom júna alebo v septembri. Tieto mesiace ponúkajú teplé a slnečné počasie ideálne na prechádzky bez vrcholnej letnej návštevnosti. Ak neznášate silné horúčavy a preplnené uličky, vyhnite sa júlu a augustu. Je to jednoducho fakt.",
+  "content": "## Ročné obdobia v Trogire: stručný prehľad\n\nVyberajte rozumne. Čaro Trogiru sa mení podľa ročného obdobia.\n\n*   **Jar (apríl – máj):** Mierne, slnečné dni. Ideálne na prehliadku pamiatok a prechádzky. Menej turistov. Ceny sú nižšie. \n*   **Skoré leto (jún):** Teplo, more je ideálne na kúpanie. Stále rušno, ale zvládnuteľne. Dlhé denné svetlo.\n*   **Vrcholné leto (júl – august):** Horúco, vlhko a mimoriadne preplnené. Počítajte s vysokými cenami a plnými plážami. Je to jeden z tých časov, keď tam chce byť každý, no realita je často menej očarujúca kvôli množstvu ľudí.\n*   **Jeseň (september – október):** Príjemné teplo, more je stále vhodné na kúpanie. Návštevníkov výrazne ubúda. Výborný pomer ceny a kvality.\n*   **Zima (november – marec):** Chladno, daždivo. Mnohé podniky sú zatvorené. Nevhodné pre typické turistické aktivity.",
   "faq": [
     {
-      "question": "Ali je Trogir poleti prevroč?",
-      "answer": "Da, julij in avgust sta pogosto zelo vroča, z temperaturami nad 30 °C, kar otežuje dnevno raziskovanje."
+      "question": "Je v Trogire v lete príliš horúco?",
+      "answer": "Áno, júl a august bývajú veľmi horúce, s teplotami nad 30 °C (86 °F), čo sťažuje prechádzky cez deň."
     },
     {
-      "question": "Kdaj se lahko kopam v Trogirju?",
-      "answer": "Temperaturam morja so udobne za kopanje od konca maja do začetka oktobra. Junij in september sta idealna."
+      "question": "Kedy sa v Trogire môžem kúpať?",
+      "answer": "Teplota mora je na kúpanie príjemná od konca mája až do začiatku októbra. Ideálne sú jún a september."
     },
     {
-      "question": "Kako zaseden je Trogir oktobra?",
-      "answer": "Znatno manj zaseden kot poleti. Vreme je splošno prijetno, vendar nekatere turistične storitve začnejo zmanjševati obseg delovanja."
+      "question": "Koľko ľudí je v Trogire v októbri?",
+      "answer": "Výrazne menej ako v lete. Počasie je zvyčajne príjemné, no niektoré turistické služby sa začínajú obmedzovať."
     }
   ],
-  "quickAnswer": "Obiščite Trogir konec maja, v začetku junija ali septembra. Ti meseci ponujajo toplo, sončno vreme, idealno za raziskovanje brez poletne gneče. Izogibajte se juliju in avgustu, če ne marate intenzivne vročine in polnih ulic; to je preprosto dejstvo.",
   "tableData": [],
+  "imageAlt": "Panoramatický pohľad na nábrežie Trogiru so zvonicou katedrály sv. Vavrinca na pozadí hôr.",
   "imageUrl": "https://images.pexels.com/photos/37762125/pexels-photo-37762125.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-  "imageAlt": "Scenic view of Trogir waterfront with the bell tower of St. Lawrence Cathedral against a mountainous backdrop.",
   "imageCredit": "Zivoslav Ilic",
   "imageCreditUrl": "https://www.pexels.com/@zivoslav-ilic-1218490",
   "imageSource": "pexels",
+  "generatedAt": "2026-02-20T10:35:10.163Z",
   "destination": "trogir",
   "destinationName": "Trogir",
   "region": "split-dalmatia",
   "theme": "weather",
-  "language": "sk",
-  "generatedAt": "2026-02-20T10:35:44.272Z",
   "lat": 43.5167,
-  "lng": 16.25
+  "lng": 16.25,
+  "slug": "trogir-weather",
+  "language": "sk",
+  "updatedAt": "2026-10-19T11:04:50.955Z"
 }

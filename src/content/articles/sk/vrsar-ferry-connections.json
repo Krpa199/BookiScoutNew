@@ -1,35 +1,36 @@
 {
-  "title": "Vrsar: Vodnik po trajektnih linijah in povezavah z otoki 2026",
-  "metaDescription": "Realnost trajektov v Vrsarju za leto 2026. Odkrijte lokalne izlete z ladjo, dostop do Svetega Jurija in kje najti glavne trajektne povezave do Benetk ali drugih hrvaških otokov.",
-  "slug": "vrsar-ferry-connections",
-  "content": "## Omejene pomorske povezave Vrsarja 2026\n\nVrsar ni trajektno vozlišče. Razumevanje njegovih specifičnih pomorskih zmogljivosti.\n\n*   **Brez avto-trajekta:** Pristanišče Vrsar ne ponuja storitev avto-trajekta na noben hrvaški otok ali celinska območja.\n*   **Lokalni izleti:** Osredotočite se na lokalne izlete z ladjo. Dnevni izleti povezujejo Vrsar z bližnjim, nenaseljenim otokom Sveti Juraj za kopanje in sončenje.\n*   **Vodna taksija:** Na voljo so zasebni vodni taksiji za krajše prevoze do skritih plaž ali zalivov ob obali Vrsarja.\n*   **Dostop do glavnih pristanišč:** Za mednarodne povezave (npr. Benetke, Trst) ali medotoške poti do večjih hrvaških otokov uporabite pristanišča v Poreču (10 km severno) ali Rovinju (25 km južno).\n*   **Mnenje:** Naročanje zasebnega prevoza na dolge razdalje neposredno iz Vrsarja za večje otoke je drago in nepotrebno; domačini to redko počnejo, in to z dobrim razlogom. Raje uporabite redne trajektne linije iz večjih pristanišč.\n",
+  "title": "Sprievodca trajektovými trasami a spojeniami ostrovov vo Vrsare 2026",
+  "metaDescription": "Realita trajektov vo Vrsare pre rok 2026. Objavte miestne výlety loďou, prístup na Sveti Juraj a kde nájsť hlavné trajektové spojenia do Benátok alebo na ďalšie chorvátske ostrovy.",
+  "quickAnswer": "Vo Vrsare nie sú veľké trajektové prístavy. Hlavným spojením s ostrovmi sú miestne výlety loďou k blízkym ostrovom, ako je Sveti Juraj, alebo súkromné prenájmy plavidiel. Pre významnejšie spojenia medzi ostrovmi alebo s pevninou musia cestujúci využiť väčšie prístavy neďaleko, v Poreči alebo Rovinji.",
+  "content": "## Obmedzené námorné spojenia Vrsaru 2026\n\nVrsar nie je trajektové centrum. Pozrite si, aké má konkrétne námorné možnosti.\n\n*   **Žiadne trajekty pre autá:** Prístav vo Vrsare neponúka trajektové služby pre autá na žiadny chorvátsky ostrov ani do cieľov na pevnine.\n*   **Miestne výlety:** Zamerajte sa na miestne plavby loďou. Denné výlety spájajú Vrsar s blízkym neobývaným ostrovom Sveti Juraj, kde sa dá kúpať a opaľovať.\n*   **Vodné taxíky:** Súkromné vodné taxíky ponúkajú krátke prepravy na odľahlé pláže alebo zátoky pozdĺž pobrežia Vrsaru.\n*   **Prístup k väčším prístavom:** Na medzinárodné spojenia (napr. do Benátok, Terstu) alebo na cesty medzi väčšími chorvátskymi ostrovmi využite prístavy v Poreči (10 km na sever) alebo v Rovinji (25 km na juh).\n*   **Názor:** Objednať dlhú súkromnú prepravu priamo z Vrsaru na veľké ostrovy je drahé a zbytočné. Miestni to takmer nerobia, a to s dobrým dôvodom. Namiesto toho použite pravidelné trajektové linky z väčších prístavov.",
   "faq": [
     {
-      "question": "Ali lahko iz Vrsarja potujem s trajektom v Benetke?",
-      "answer": "Ne. Odpravite se v Poreč ali Rovinj, da bi se vkrcali na direktne katamaranske linije v Benetke."
+      "question": "Môžem sa z Vrsaru dostať trajektom do Benátok?",
+      "answer": "Nie. Choďte do Poreče alebo Rovinja, kde nastúpite na priame katamaránové linky do Benátok."
     },
     {
-      "question": "Ali ima Vrsar povezave z avto-trajekti na druge hrvaške otoke?",
-      "answer": "Ne. Vrsar ne izvaja storitev avto-trajekta na druge hrvaške otoke."
+      "question": "Má Vrsar trajektové spojenia s inými chorvátskymi ostrovmi pre autá?",
+      "answer": "Nie. Vrsar neprevádzkuje trajekty pre autá na iné chorvátske ostrovy."
     },
     {
-      "question": "Kako obiščem otok Sveti Juraj iz Vrsarja?",
-      "answer": "Uporabite pogoste lokalne izlete z ladjo, ki odplujejo neposredno iz pristanišča Vrsar."
+      "question": "Ako sa dostanem z Vrsaru na ostrov Sveti Juraj?",
+      "answer": "Využite časté miestne výlety loďou, ktoré odchádzajú priamo z vrsarského prístavu."
     }
   ],
-  "quickAnswer": "Vrsarju manjkajo velika pristanišča za avto-trajekte. Glavne otoške povezave so lokalni izleti z ladjo na bližnje otoke, kot je Sveti Juraj, ali zasebni najemi. Za pomembne medotoške ali celinske povezave morajo potniki uporabiti večja bližnja pristanišča v Poreču ali Rovinju.",
   "tableData": [],
+  "imageAlt": "Pohľad na trajekt Isola di Procida v prístave v Neapole v Taliansku so stredomorskou architektúrou.",
   "imageUrl": "https://images.pexels.com/photos/35485757/pexels-photo-35485757.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-  "imageAlt": "View of Isola di Procida ferry at a port in Naples, Italy with Mediterranean architecture.",
   "imageCredit": "Magda Ehlers",
   "imageCreditUrl": "https://www.pexels.com/@magda-ehlers-pexels",
   "imageSource": "pexels",
+  "generatedAt": "2026-03-03T10:02:35.076Z",
   "destination": "vrsar",
   "destinationName": "Vrsar",
   "region": "istria",
   "theme": "ferry-connections",
-  "language": "sk",
-  "generatedAt": "2026-03-03T10:03:14.087Z",
   "lat": 45.15,
-  "lng": 13.6
+  "lng": 13.6,
+  "slug": "vrsar-ferry-connections",
+  "language": "sk",
+  "updatedAt": "2026-10-19T11:04:50.868Z"
 }

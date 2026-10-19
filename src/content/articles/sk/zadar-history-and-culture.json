@@ -1,35 +1,36 @@
 {
-  "title": "Zadar Zgodovina & Kultura: Bistveni Vodnik 2026",
-  "metaDescription": "Odkrijte starodavno preteklost Zadra in njegovo živahno kulturo. Raziščite rimske ruševine, beneške obzidja in sodobno umetnost. Bistveni nasveti za poglobljeno spoznavanje hrvaškega zgodovinskega dragulja.",
-  "slug": "zadar-history-and-culture",
-  "content": "## Zadrov Trajen Zapuščina\n\nZadrov zgodovinski sloj je viden v vsakem kamnu. Njegova kultura je dokaz odpornosti in inovativnosti.\n\n*   **Rimski forum:** Raziščite monumentalno srce antičnega Iaderja, ki ga je ustanovil cesar Avgust. To je največji na hrvaški obali.\n*   **Cerkev sv. Donata:** Ikonasta krožna predromanska cerkev iz 9. stoletja. Zgrajena na ruševinah Rimskega foruma, je arhitekturno edinstvena.\n*   **Mestno obzidje in vrata:** Benečanske utrdbe, uvrščene na Unescov seznam. Sprehodite se po njih. Pripovedujejo zgodbe o obrambi in moči.\n*   **Morske orgle in Pozdrav soncu:** Doživite ti edinstveni sodobni umetniški instalaciji. Lokalni prebivalci redko obiščejo Morske orgle ob sončnem zahodu zaradi 'predstave'; raje si privoščijo mirne jutranje razmisleke.\n*   **Muzej antičnega stekla:** Svetovna zbirka rimskega stekla. Zelo priporočljivo.",
+  "title": "Zadar – história a kultúra: základný sprievodca 2026",
+  "metaDescription": "Objavte starobylú minulosť a živú kultúru Zadaru. Rímske pamiatky, benátske hradby a moderné umenie. Praktické tipy na hlbší ponor do historického klenotu Chorvátska.",
+  "quickAnswer": "Zadar je historický palimpsest. Rímske základy, benátske opevnenie a moderné umelecké inštalácie určujú jeho kultúru. Zažite tisícročia zmien, od antického fóra po súčasné Morské organy, ktoré odrážajú odolného ducha Jadranu.",
+  "content": "## Trvalé dedičstvo Zadaru\n\nHistória Zadaru je vrstvená a viditeľná v každom kameni. Jeho kultúra je dôkazom odolnosti a inovácie.\n\n*   **Rímske fórum:** Prejdite si monumentálne srdce antického Iadru, ktorý založil cisár Augustus. Je to najväčšie fórum na chorvátskom pobreží.\n*   **Kostol sv. Donáta:** Ikonický kruhový predromanský kostol z 9. storočia. Postavený na pozostatkoch rímskeho fóra je architektonicky jedinečný.\n*   **Mestské hradby a brány:** Benátske opevnenie zapísané v zozname UNESCO. Prejdite sa po nich. Rozprávajú príbehy o obrane a moci.\n*   **Morské organy a Pozdrav slnku:** Zažite tieto jedinečné inštalácie moderného umenia. Miestni obyvatelia zriedka navštevujú Morské organy pri západe slnka kvôli „šou“; uprednostňujú tiché ranné zamyslenia.\n*   **Múzeum antického skla:** Zbierka rímskeho skla svetovej úrovne. Vysoko odporúčame.",
   "faq": [
     {
-      "question": "Katere zgodovinska obdobja so najbolj zaznamovala Zadar?",
-      "answer": "Rimsko, bizantinsko in beneško obdobje so močno zaznamovala Zadar, kar je pustilo pomembne arhitekturne in kulturne dediščine, vidne še danes."
+      "question": "Ktoré historické obdobia najviac formovali Zadar?",
+      "answer": "Rímske, byzantské a benátske obdobie výrazne formovali Zadar a zanechali významné architektonické a kultúrne dedičstvo, ktoré je viditeľné dodnes."
     },
     {
-      "question": "Je Zadrov kultura bolj italijanska ali hrvaška?",
-      "answer": "Zadrov kultura je izrazito hrvaška, čeprav je stoletja beneške vladavine pustila neizbrisen italijanski arhitekturni in kulinarični vpliv."
+      "question": "Je kultúra Zadaru skôr talianska, alebo chorvátska?",
+      "answer": "Kultúra Zadaru je jednoznačne chorvátska, hoci storočia benátskej nadvlády zanechali nezmazateľný taliansky architektonický a kulinársky vplyv."
     },
     {
-      "question": "Kakšno je edinstveno kulturno doživetje v Zadru?",
-      "answer": "Morske orgle ponujajo edinstveno čutno izkušnjo, saj morske valove preoblikujejo v glasbo, medtem ko Pozdrav soncu ustvarja očarljivo svetlobno predstavo."
+      "question": "Aký je jeden jedinečný kultúrny zážitok v Zadare?",
+      "answer": "Morské organy ponúkajú jedinečný zmyslový zážitok, keď menia vlnobitie mora na hudbu, zatiaľ čo Pozdrav slnku vytvára očarujúcu svetelnú šou."
     }
   ],
-  "quickAnswer": "Zadar je zgodovinski palimpsest. Rimski temelji, benečanske utrdbe in sodobne umetniške instalacije določajo njegovo kulturo. Doživite tisočletja sprememb, od antičnega foruma do sodobnih Morskih orgel, ki odražajo odpornega jadranskega duha.",
   "tableData": [],
+  "imageAlt": "Pohľad na exteriér starobylého kostola sv. Donáta v Zadare v Chorvátsku pod jasnou modrou oblohou.",
   "imageUrl": "https://images.pexels.com/photos/27041337/pexels-photo-27041337.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-  "imageAlt": "Exterior view of the ancient Church of St. Donatus in Zadar, Croatia, under a clear blue sky.",
   "imageCredit": "Laura Paredis",
   "imageCreditUrl": "https://www.pexels.com/@laura-paredis-1047081",
   "imageSource": "pexels",
+  "generatedAt": "2026-04-13T13:14:02.635Z",
   "destination": "zadar",
   "destinationName": "Zadar",
   "region": "dalmatia",
   "theme": "history-and-culture",
-  "language": "sk",
-  "generatedAt": "2026-04-13T13:14:44.304Z",
   "lat": 44.1194,
-  "lng": 15.2314
+  "lng": 15.2314,
+  "slug": "zadar-history-and-culture",
+  "language": "sk",
+  "updatedAt": "2026-10-19T11:04:50.894Z"
 }

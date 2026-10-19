@@ -1,35 +1,36 @@
 {
-  "title": "Novigrad, Hrvaška: Vodnik po prevozu 2026",
-  "metaDescription": "Kako se premikati po Novigradu na Hrvaškem. Strokovni vodnik o lokalnem prevozu, hoji, kolesih, taksijih in najemu avtomobilov za leto 2026. Premajajte se učinkovito.",
-  "slug": "novigrad-transport",
-  "content": "## Prevoz po Novigradu: Bistvene informacije\nStaro mestno jedro Novigrada je majhno. Raziščite ga peš. Javni prevoz je minimalen; spoznajte svoje možnosti.\n\n*   **Pohodite vse naokoli:** Zgodovinsko jedro je prijazno do pešcev. Večina znamenitosti je le kratek sprehod stran.\n*   **Najemite kolesa:** Idealno za obalne poti in bližnja območja. Številne nastanitve ponujajo najem. To je najpametnejši način za ogled okolice brez avtomobila.\n*   **Uporabite taksije za izlete:** Na voljo so za prevoze na letališča ali v večja mesta, kot sta Poreč/Umag. Vedno se prej dogovorite za ceno.\n*   **Razmislite o najemu avtomobila za Istro:** Nujen za enodnevne izlete v notranjost ali na določene plaže. Parkiranje znotraj Novigrada je lahko težavno, še posebej poleti.\n*   **Minimalna avtobusna povezava:** Ne zanašajte se na lokalne avtobuse za vsakodnevno potovanje ali raziskovanje zunaj neposredne bližine Novigrada.",
+  "title": "Novigrad, Chorvátsko: sprievodca dopravou 2026 – ako sa pohybovať",
+  "metaDescription": "Ako sa orientovať v Novigrade v Chorvátsku. Odborný sprievodca miestnou dopravou, chôdzou, bicyklami, taxíkmi a požičiavaním áut pre rok 2026. Presúvajte sa efektívne.",
+  "quickAnswer": "Novigrad najlepšie spoznáte pešo v jeho starom meste. Na väčšie výlety sa dôrazne odporúčajú bicykle. Taxíky sú pohodlné na dlhšie trasy alebo večerné cesty. Na jednodňové výlety mimo bezprostredného okolia Novigradu je nevyhnutné požičať si auto. Verejná doprava je obmedzená, preto si cestu dobre naplánujte.",
+  "content": "## Ako sa pohybovať v Novigrade: základné informácie\nStaré mesto v Novigrade je kompaktné. Preskúmajte ho pešo. Verejná doprava je obmedzená, preto si dobre premyslite, aké máte možnosti.\n\n*   **Miestne presuny pešo:** Historické jadro je priateľské k chodcom. Väčšina atrakcií je len kúsok cesty.\n*   **Požičajte si bicykel:** Ideálny na pobrežné cesty a do okolia. Mnohé ubytovania ponúkajú požičanie. Je to najrozumnejší spôsob, ako spoznať okolie bez auta.\n*   **Využite taxíky na výlety:** Dostupné na transfery na letisko alebo do väčších miest, ako sú Poreč a Umag. Ceny si vždy vopred potvrďte.\n*   **Zvážte požičanie auta pre Istriu:** Nevyhnutné na jednodňové výlety do vnútrozemských dedín alebo na konkrétne pláže. Parkovanie v Novigrade môže byť náročné, najmä v lete.\n*   **Minimálna autobusová doprava:** Nespoliehajte sa na miestne autobusy pri každodenných cestách ani pri výletoch mimo bezprostredného okolia Novigradu.",
   "faq": [
     {
-      "question": "Ali je Novigrad primeren za hojo?",
-      "answer": "Da, staro mesto je v celoti prehodno. Večina znamenitosti je v 15-minutnem sprehodu."
+      "question": "Dá sa po Novigrade chodiť pešo?",
+      "answer": "Áno, staré mesto je celé prístupné pešo. Väčšina atrakcií je od seba vzdialená najviac 15-minútovou prechádzkou."
     },
     {
-      "question": "Ali potrebujem avto v Novigradu?",
-      "answer": "Ne za sam Novigrad, vendar je nujen za učinkovito raziskovanje širše Istrske regije."
+      "question": "Potrebujem auto v Novigrade?",
+      "answer": "Pre samotný Novigrad nie, ale na efektívne spoznávanie širšieho istrijského regiónu je nevyhnutné."
     },
     {
-      "question": "Ali so v Novigradu dobre kolesarske poti?",
-      "answer": "Vsekakor. Novigrad ponuja odlične, dobro vzdrževane kolesarske poti ob obali in v zaledje."
+      "question": "Sú v Novigrade dobré cyklotrasy?",
+      "answer": "Určite. Novigrad ponúka výborné, dobre udržiavané cyklistické trasy pozdĺž pobrežia aj do vnútrozemia."
     }
   ],
-  "quickAnswer": "Novigrad je najbolje raziskati peš znotraj starega mestnega jedra. Za širše raziskovanje so kolesa zelo priporočljiva. Taksiji ponujajo udobje za daljše razdalje ali večerne izlete. Najem avtomobila je nujen za enodnevne izlete zunaj neposredne bližine Novigrada. Javni prevoz je minimalen; temu prilagodite svoje načrte.",
   "tableData": [],
+  "imageAlt": "Námestie s kaviarňami v starom meste Novigradu",
   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/00009_Novigrad_%2817%29.jpg/1280px-00009_Novigrad_%2817%29.jpg",
-  "imageAlt": "Café-lined square in Novigrad old town",
   "imageCredit": "Wolfgang Holzem (CC BY-SA 4.0)",
   "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:00009_Novigrad_(17).jpg",
   "imageSource": "wikimedia",
+  "generatedAt": "2026-03-03T08:59:26.920Z",
   "destination": "novigrad",
   "destinationName": "Novigrad",
   "region": "istria",
   "theme": "transport",
-  "language": "sk",
-  "generatedAt": "2026-03-03T08:59:59.041Z",
   "lat": 45.3167,
-  "lng": 13.5667
+  "lng": 13.5667,
+  "slug": "novigrad-transport",
+  "language": "sk",
+  "updatedAt": "2026-10-19T11:04:44.208Z"
 }

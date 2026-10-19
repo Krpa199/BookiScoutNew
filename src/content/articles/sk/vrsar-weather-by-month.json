@@ -1,35 +1,36 @@
 {
-  "title": "Vrsar vreme 2026: Mesečna napoved in pričakovanja",
-  "metaDescription": "Vrsar, Hrvaška: Vaš jedrnat mesečni vodnik po vremenu za leto 2026. Vedite, kaj pričakovati za sonce, kopanje ali mirno raziskovanje. Neposredna dejstva za vsako sezono.",
-  "slug": "vrsar-weather-by-month",
-  "content": "## Glavne točke vremena v Vrsarju po mesecih\n\n-   **Junij-Avgust**: Najtoplejše, najbolj sušno obdobje. Vrhunec turistične sezone. Pričakujte temperature med 28-32°C, polne plaže in višje cene. Idealno za plavanje in sončenje.\n-   **Maj in September**: Toplo in udobno. Temperature 20-25°C. Manj turistov, popolno za kolesarjenje, pohodništvo in raziskovanje. Morje ostaja primerno za kopanje.\n-   **April in Oktober**: Blagi dnevi, hladnejši večeri. Temperature 15-20°C. Povečana verjetnost dežja. Dobro za mirne izlete; manj za dejavnosti, osredotočene na plažo.\n-   **November-Marec**: Najhladnejša, najbolj deževna sezona. Temperature 4-10°C. Številna podjetja so zaprta. **Izognite se novembru do februarju, razen če iščete popolno samoto in vam dež ter mraz ne predstavljata ovire.**\n-   **Splošni nasvet**: Plastje oblačil so bistvena v prehodnih obdobjih. Zaščita pred soncem je ključna poleti.",
+  "title": "Počasie vo Vrsare 2026: mesačná predpoveď a očakávania",
+  "metaDescription": "Vrsar, Chorvátsko: váš stručný sprievodca počasím na rok 2026 podľa mesiacov. Zistite, čo očakávať pre slnko, kúpanie alebo pokojné objavovanie. Priame informácie pre každé ročné obdobie.",
+  "quickAnswer": "Vrsar v Chorvátsku ponúka horúce a suché letá (jún – august), ideálne na plážové aktivity, zatiaľ čo máj a september prinášajú príjemné teplo a menej turistov, vhodné pre aktívne dovolenky. Zimy (november – marec) sú chladné a často daždivé. Plánujte cestu podľa slnečného počasia a teploty mora; mimo sezóny počítajte s dažďom.",
+  "content": "## Mesačné prehľady počasia vo Vrsare\n\n-   **Jún – august**: Najteplejšie a najsuchšie obdobie. Vrchol turistickej sezóny. Očakávajte teploty 28 – 32 °C, preplnené pláže a vyššie ceny. Ideálne na kúpanie a opaľovanie.\n-   **Máj a september**: Teplo a príjemne. Teploty 20 – 25 °C. Menej turistov, ideálne na cyklistiku, turistiku a objavovanie. More zostáva vhodné na kúpanie.\n-   **Apríl a október**: Mierne dni, chladnejšie večery. Teploty 15 – 20 °C. Väčšia pravdepodobnosť dažďa. Vhodné na pokojné výlety, menej na aktivity zamerané na pláž.\n-   **November – marec**: Najchladnejšie a najdaždivejšie obdobie. Teploty 4 – 10 °C. Mnohé podniky sú zatvorené. **Vyhnite sa november až február, pokiaľ nehľadáte absolútny pokoj a nevadí vám dážď a chlad.**\n-   **Všeobecná rada**: V prechodnom období sú nevyhnutné vrstvy oblečenia. V lete je nevyhnutná ochrana pred slnkom.",
   "faq": [
     {
-      "question": "Kdaj je najboljši čas za kopanje v Vrsarju?",
-      "answer": "Od junija do septembra ponuja najtoplejše temperature morja, zaradi česar so ta meseca idealna za kopanje in vodne športe."
+      "question": "Kedy je najlepší čas na kúpanie vo Vrsare?",
+      "answer": "Najteplejšia morská voda je od júna do septembra, takže tieto mesiace sú ideálne na kúpanie a vodné športy."
     },
     {
-      "question": "Ali je Vrsar poleti poln ljudi?",
-      "answer": "Da, julij in avgust sta vrhunca turističnih mesecev; pričakujte precejšnjo gnečo, zlasti na plažah in v središčih mest."
+      "question": "Je Vrsar v lete preplnený?",
+      "answer": "Áno, júl a august sú vrcholom turistickej sezóny; očakávajte značný počet ľudí, najmä na plážach a v centre mesta."
     },
     {
-      "question": "Kaj naj spakiram za Vrsar spomladi?",
-      "answer": "Spakirajte vsestranska oblačila v plasteh, vključno s svetlo jakno, puloverjem in opremo za dež; dnevi so blagi, a večeri lahko biti hladni in vlažni."
+      "question": "Čo si mám na jar zbaliť do Vrsaru?",
+      "answer": "Zbaľte si univerzálne vrstvy oblečenia vrátane ľahkej bundy, svetra a pršiplášťa; dni sú mierne, ale večery môžu byť chladné a vlhké."
     }
   ],
-  "quickAnswer": "Vrsar, Hrvaška, ponuja vroča, suha poletja (junij-avgust), idealna za dejavnosti na plaži, medtem ko maj in september nudita prijetno toploto z manj gneče za aktivne počitnice. Zime (november-marec) so hladne in pogosto deževne. Načrtujte svoje potovanje glede na sonce in temperature morja; izven sezone pričakujte dež.",
   "tableData": [],
+  "imageAlt": "Malebná kamenná ulička lemovaná historickými domami vo Vrsare v Chorvátsku.",
   "imageUrl": "https://images.pexels.com/photos/32065452/pexels-photo-32065452.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-  "imageAlt": "Picturesque stone street lined with historic houses in Vrsar, Croatia.",
   "imageCredit": "Geert Willemarck",
   "imageCreditUrl": "https://www.pexels.com/@geertwil",
   "imageSource": "pexels",
+  "generatedAt": "2026-03-03T10:29:34.130Z",
   "destination": "vrsar",
   "destinationName": "Vrsar",
   "region": "istria",
   "theme": "weather-by-month",
-  "language": "sk",
-  "generatedAt": "2026-03-03T10:30:08.777Z",
   "lat": 45.15,
-  "lng": 13.6
+  "lng": 13.6,
+  "slug": "vrsar-weather-by-month",
+  "language": "sk",
+  "updatedAt": "2026-10-19T11:04:50.954Z"
 }

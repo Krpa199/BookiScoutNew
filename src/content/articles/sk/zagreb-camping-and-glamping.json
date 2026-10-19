@@ -1,35 +1,36 @@
 {
-  "title": "Vodič po kampiranju in glampingu v Zagrebu 2026: Narava v bližini mesta",
-  "metaDescription": "Odkrijte najboljše možnosti za kampiranje in glamping v Zagrebu v letu 2026. Hiter pregled objektov, lokacij in nasvetov za bivanje v naravi blizu hrvaške prestolnice.",
-  "slug": "zagreb-camping-and-glamping",
-  "content": "## Namestitev v naravi v okolici Zagreba 2026\n\n*   **Camp Zagreb**: Nahaja se v Rakitju, 15 km zahodno od mesta. Ponuja parcele, mobilne hišice in osnovno infrastrukturo. Vaša glavna izbira za tradicionalno kampiranje.\n*   **Glamping v bližini Zagreba**: Pravi luksuzni glamping je v neposredni bližini Zagreba precej omejen. Za bolj prefinjeno bivanje v naravi razmislite o eko-kočah ali bolje opremljenih mobilnih hišicah v regionalnih parkih, ki so le kratko vožnjo stran.\n*   **Dostopnost**: Obe možnosti nudita neposreden stik z naravo, do središča Zagreba pa je le kratek skok z avtomobilom ali javnim prevozom.\n*   **Rezervacije so nujne**: Zagotovite si svoje mesto vnaprej, zlasti za julij in avgust. Glavna sezona zahteva zgodnje rezervacije, zato ne tvegajte z iskanjem v zadnjem trenutku.\n*   Iskreno povedano, če pričakujete vrhunski glamping v samem Zagrebu, boste morda razočarani; prilagodite pričakovanja ali pa poglejte izven mestnih meja.",
+  "title": "Sprievodca kempovaním a glampingom v Záhrebe 2026: príroda blízko mesta",
+  "metaDescription": "Objavte najlepšie možnosti kempovania a glampingu v Záhrebe pre rok 2026. Stručný sprievodca vybavením, lokalitami a základnými tipmi na pobyt v prírode blízko chorvátskeho hlavného mesta.",
+  "quickAnswer": "Záhreb ponúka obmedzené, no rastúce možnosti kempovania a glampingu. Tieto možnosti existujú hlavne mimo centra mesta a ponúkajú únik do prírody s blízkosťou mestských služieb. Na kempoch čakajte základné vybavenie a viac pohodlia na glampingových miestach, často pri jazere alebo v prírodných parkoch. Plánujte vopred, najmä v sezóne.",
+  "content": "## Ubytovanie v prírode v Záhrebe v roku 2026\n\n*   **Camp Zagreb**: Nachádza sa v Rakitje, 15 km východne od mesta. Ponúka plochy pre stany, mobilné domy a základné služby. Vaša hlavná tradičná možnosť kempovania.\n*   **Glamping v okolí Záhrebu**: Skutočný luxusný glamping priamo v Záhrebe je veľmi obmedzený. Zvážte ekologické ubytovanie alebo vybavenejšie mobilné domy v regionálnych parkoch, kúsok jazdy autom, ak hľadáte prepychový pobyt v prírode.\n*   **Dostupnosť**: Obe možnosti poskytujú priamy prístup k prírode s krátkou dochádzkou do centra Záhrebu autom alebo verejnou dopravou.\n*   **Rezervácia je nevyhnutná**: Zabezpečte si miesto včas, najmä na júl/august. Špička sezóny si vyžaduje skoré rezervácie. Nerizikujte rezerváciu na poslednú chvíľu.\n*   Úprimne povedané, ak hľadáte luxusný glamping priamo v Záhrebe, budete sklamaní; upravte očakávania alebo sa pozrite mimo hraníc mesta.",
   "faq": [
     {
-      "question": "Ali je v okolici Zagreba dovoljeno divje kampiranje?",
-      "answer": "Ne. Divje kampiranje je na Hrvaškem prepovedano. Uporabljajte izključno za to namenjene kampe."
+      "question": "Je divoké kempovanie v okolí Záhrebu povolené?",
+      "answer": "Nie. Divoké kempovanie je v Chorvátsku nezákonné. Držte sa vyznačených kempov."
     },
     {
-      "question": "Kakšno opremo nudi Camp Zagreb?",
-      "answer": "Pričakujete lahko standardno ponudbo kampa: parcele z elektriko, sanitarne objekte, restavracijo in dostop do jezera."
+      "question": "Aké služby ponúka Camp Zagreb?",
+      "answer": "Čakajte štandardné vybavenie kempu: miesta s elektrickou prípojkou, sociálne zariadenia, reštauráciu a prístup k jazeru."
     },
     {
-      "question": "Kdaj je najboljši čas za kampiranje v Zagrebu?",
-      "answer": "Pozna pomlad (maj–junij) in zgodnja jesen (september–oktober) ponujata prijetno vreme in manj gneče."
+      "question": "Kedy je najlepší čas na kempovanie v Záhrebe?",
+      "answer": "Neskorá jar (máj–jún) a skorá jeseň (september–október) ponúkajú príjemné počasie a menej návštevníkov."
     }
   ],
-  "quickAnswer": "Zagreb ponuja omejene, a rastoče možnosti za kampiranje in glamping. Ponudba se večinoma nahaja izven mestnega središča in omogoča pobeg v naravo, hkrati pa ostaja blizu mestnih znamenitosti. V kampih pričakujte osnovno infrastrukturo, medtem ko glamping lokacije, pogosto ob jezerih ali v naravnih parkih, nudijo več udobja. Načrtujte vnaprej, še posebej med glavno sezono.",
   "tableData": [],
+  "imageAlt": "Malebný kemp so stanmi v bujnom lese vysokých borovíc.",
   "imageUrl": "https://images.pexels.com/photos/4994138/pexels-photo-4994138.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-  "imageAlt": "Picturesque campsite with tents nestled in a lush forest of towering pine trees.",
   "imageCredit": "Anastasia  Shuraeva",
   "imageCreditUrl": "https://www.pexels.com/@anastasia-shuraeva",
   "imageSource": "pexels",
+  "generatedAt": "2026-04-13T10:33:01.122Z",
   "destination": "zagreb",
   "destinationName": "Zagreb",
   "region": "zagreb",
   "theme": "camping-and-glamping",
-  "language": "sk",
-  "generatedAt": "2026-07-11T09:46:35.087Z",
   "lat": 45.815,
-  "lng": 15.9819
+  "lng": 15.9819,
+  "slug": "zagreb-camping-and-glamping",
+  "language": "sk",
+  "updatedAt": "2026-10-19T11:04:50.395Z"
 }

@@ -1,35 +1,36 @@
 {
-  "title": "Prevozi z letališča Zadar: Vaš hiter vodnik za leto 2026",
-  "metaDescription": "Vodnik, kako priti z letališča Zadar (ZAD) do mestnega središča. Zajema letališki avtobus, Uber, Bolt in taksije za hiter in učinkovit prevoz.",
-  "slug": "zadar-airport-access",
-  "content": "## Prevoz z letališča Zadar do mesta\n\nPotovanje z letališča Zadar (ZAD) do mesta je preprosto. Letališče je oddaljeno le 12 km od centra. Ne komplicirajte si. Tukaj so vaše možnosti.\n\n*   **Letališki avtobus (Liburnija):** To je vaša privzeta izbira. Avtobus je usklajen s prihajajočimi leti in vas čaka tik pred terminalom. Izstopite na glavni avtobusni postaji (Avtobusni Kolodvor) in nato pri vhodu v Staromestno jedro.\n\n*   **Prevoz preko aplikacij (Uber in Bolt):** Obe aplikaciji dobro delujeta v Zadru in sta običajno cenejši od taksijev. Odprite obe ob prihodu in izberite cenejšo možnost. Pričakujte ceno med 20 in 25 EUR.\n\n*   **Taksiji:** Taksiji so na voljo neposredno pred izhodom za prispeli promet. To je najdražja izbira, pogosto stane med 30 in 40 EUR. Preden začnete pot, potrdite ceno ali se prepričajte, da je vključen števec.\n\n*   **Zasebni prevozi:** Vnaprej rezervirani zasebni prevozi so pregrešno draga rešitev za 20-minutno potovanje. Druge možnosti so enostavnejše in učinkovitejše, da bi upravičile visoke stroške.\n\n*   **Najem avtomobila:** Vse večje družbe poslujejo na ZAD. Za poletno potovanje rezervirajte bistveno vnaprej. To ima smisel le, če nameravate raziskovati regijo zunaj samega mesta.",
+  "title": "Transfer z letiska Zadar: rýchly sprievodca pre rok 2026",
+  "metaDescription": "Ako sa dostať z letiska Zadar (ZAD) do centra mesta. Sprievodca popisuje letiskový autobus, Uber, Bolt a taxíky pre rýchly a pohodlný transfer.",
+  "quickAnswer": "Oficiálny letiskový autobus je najlepšia voľba. Je lacný, zosúladený s príletmi lietadiel a vezme vás priamo na hlavnú autobusovú stanicu a k bráne Starého mesta. Ostatné možnosti zvažujte len vtedy, ak cestujete vo veľkej skupine alebo s nadmernou batožinou.",
+  "content": "## Ako sa dostať z letiska Zadar do mesta\n\nDostať sa z letiska Zadar do mesta je jednoduché. Letisko je od centra vzdialené len 12 km. Nekomplikujte si to. Tu sú vaše možnosti.\n\n*   **Letiskový autobus (Liburnija):** Toto je vaša predvolená voľba. Autobus je zosúladený s prilietavajúcimi lietadlami a čaká hneď pred terminálom. Vysadí vás na hlavnej autobusovej stanici (Autobusová stanica) a potom pri vstupe do Starého mesta.\n\n*   **Zdieľaná jazda (Uber a Bolt):** Obe aplikácie v Zadare fungujú dobre a sú vo všeobecnosti lacnejšie ako taxíky. Po príchode si otvorte obe a vyberte lacnejšiu. Očakávajte platbu €20-€25.\n\n*   **Taxíky:** Taxíky čakajú priamo pred halou príletov. Je to najdrahšia možnosť, ktorá často stojí €30-€40. Pred začiatkom jazdy si potvrďte cenu alebo sa uistite, že taxameter beží.\n\n*   **Súkromné transfery:** Vopred objednané súkromné transfery sú pre 20-minútovú cestu predražené riešenie. Ostatné možnosti sú dostatočne jednoduché a efektívne, takže vysoká cena sa neoplatí.\n\n*   **Požičanie auta:** Na letisku ZAD pôsobia všetky veľké spoločnosti. Na letnú sezónu si rezervujte s veľkým predstihom. Dáva to zmysel len vtedy, ak plánujete preskúmať región aj mimo samotného mesta.",
   "faq": [
     {
-      "question": "Kje kupim vozovnico za letališki avtobus Zadar?",
-      "answer": "Vozovnico kupite neposredno pri vozniku avtobusa, ko vstopite. Imejte pripravljen gotovino (evre), saj kartično plačilo ni vedno na voljo."
+      "question": "Kde si kúpim lístok na letiskový autobus do Zadaru?",
+      "answer": "Lístok si kúpte priamo od vodiča pri nástupe. Pripravte si hotovosť (eurá), pretože platba kartou nie je vždy k dispozícii."
     },
     {
-      "question": "Ali obstaja prevoz za pozne prihodnje lete?",
-      "answer": "Da. Vozni red letališkega avtobusa je sinhroniziran z vsemi prileti, vključno s pozni. Taksiji in prevozi preko aplikacij delujejo tudi 24/7."
+      "question": "Existuje doprava pre neskoré nočné prílety?",
+      "answer": "Áno. Špeciálny rozvrh letiskového autobusu je zosúladený so všetkými príletmi vrátane neskorých. Taxíky a služby zdieľanej jazdy fungujú aj nonstop, 24 hodín denne."
     },
     {
-      "question": "Koliko časa traja prevoz z letališča Zadar do mesta?",
-      "answer": "Vožnja traja približno 20 do 25 minut z avtobusom ali avtomobilom. Promet na tej poti redko predstavlja resno težavo."
+      "question": "Ako dlho trvá transfer z letiska Zadar do mesta?",
+      "answer": "Cesta trvá približne 20-25 minút autobusom alebo autom. Dopravná zápcha na tejto trase je zriedkavo významným problémom."
     }
   ],
-  "quickAnswer": "Uradni letališki avtobus je najboljša možnost. Je poceni, usklajen s prileti in vas popelje neposredno na glavno avtobusno postajo in do vhoda v Staromestno jedro. Ne razmišljajte o drugih možnostih, razen če ste velika skupina ali imate veliko prtljage.",
   "tableData": [],
+  "imageAlt": "Stará kamenná fasáda domu s drevenými okenicami v Chorvátsku.",
   "imageUrl": "https://images.pexels.com/photos/7727758/pexels-photo-7727758.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-  "imageAlt": "Old stone house facade with wooden shutters in Croatia.",
   "imageCredit": "Ruza Leko",
   "imageCreditUrl": "https://www.pexels.com/@ruza",
   "imageSource": "pexels",
+  "generatedAt": "2026-02-06T09:42:22.930Z",
   "destination": "zadar",
   "destinationName": "Zadar",
   "region": "dalmatia",
   "theme": "airport-access",
-  "language": "sk",
-  "generatedAt": "2026-02-06T09:42:55.067Z",
   "lat": 44.1194,
-  "lng": 15.2314
+  "lng": 15.2314,
+  "slug": "zadar-airport-access",
+  "language": "sk",
+  "updatedAt": "2026-10-19T11:04:51.047Z"
 }

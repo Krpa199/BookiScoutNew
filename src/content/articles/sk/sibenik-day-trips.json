@@ -1,35 +1,36 @@
 {
-  "title": "Najboljši enodnevni izleti iz Šibenika 2026: Neposredni vodnik",
-  "metaDescription": "Odkrijte najboljše enodnevne izlete iz Šibenika na Hrvaškem za leto 2026. Krka, Kornati, Trogir, Split, Primošten.",
-  "slug": "sibenik-day-trips",
-  "content": "## Najboljši enodnevni izleti iz Šibenika\n*   **Narodni park Krka:** Obvezno. Slapovi, naravne poti. Pojdite zgodaj. Izognite se gneči.\n*   **Narodni park Kornati:** Obvezna ladijska tura. Osupljiv arhipelag, nedotaknjen. Rezervirajte zgodaj.\n*   **Trogir in Split:** UNESCO dediščina. Bogata zgodovina. Združite le, če je nujno potrebno; *čeprav je mamljivo združiti Krko in Trogir v enem samem dnevu, to bistveno zmanjša kakovost izkušnje. Izberite eno in se popolnoma potopite vanjo.*\n*   **Skradin:** Šarmanten, neposreden dostop do Krke. Kopanje, uživanje v svežih morskih sadežih.\n*   **Primošten:** Obalna lepota, plaže, ikonična cerkev. Idealen za sproščeno popoldne. *Večina popotnikov močno preceni enostavnost javnega prevoza za enodnevne izlete z več postajami; avto ali vnaprej rezervirana tura nedvomno poenostavi logistiko in prepreči frustracije.*",
+  "title": "Najlepšie jednodňové výlety zo Šibenika 2026: Stručný sprievodca",
+  "metaDescription": "Objavte najlepšie jednodňové výlety zo Šibenika v Chorvátsku na rok 2026. Krka, Kornati, Trogir, Split, Primošten. Stručné a efektívne rady.",
+  "quickAnswer": "Pri jednodňových výletoch zo Šibenika uprednostnite Národný park Krka pre prírodu a Kornatské ostrovy pre more. Spoznajte starobylý Trogir alebo Split kvôli histórii. Nezabudnite ani na šarm Skradína. Ide o definitívne voľby pre bohatý chorvátsky zážitok, ktorý čo najefektívnejšie využije váš čas.",
+  "content": "## Najlepšie jednodňové výlety zo Šibenika\n*   **Národný park Krka:** Absolútne nevyhnutný. Vodopády, prírodné chodníky. Choďte skoro ráno. Vyhnite sa davom.\n*   **Národný park Kornati:** Výlet loďou je nevyhnutný. Úchvatné súostrovie, neporušená príroda. Rezervujte si včas.\n*   **Trogir a Split:** Lokality UNESCO. Bohatá história. Kombinujte ich, iba ak je to naozaj nutné; *hoci je lákavé zbaliť Krku aj Trogir do jedného dňa, zásadne to oberie zážitok o kvalitu. Vyberte si jedno a naplno sa ponorte do neho.*\n*   **Skradín:** Očarujúci, s priamym prístupom ku Krke. Kúpte sa a vychutnajte si čerstvé morské plody.\n*   **Primošten:** Pobrežná krása, pláže, ikonický kostol. Ideálny na pokojné popoludnie. *Väčšina cestovateľov výrazne preceňuje jednoduchosť verejnej dopravy pri viaczastávkových jednodňových výletoch; auto alebo vopred zarezervovaný zájazd jednoznačne zjednodušia logistiku a predídu sklamaniu.*",
   "faq": [
     {
-      "question": "Ali potrebujem avto za enodnevne izlete iz Šibenika?",
-      "answer": "Avto ponuja največjo prilagodljivost. Za Krko/Kornate so organizirane ture pogosto učinkovitejše brez njega."
+      "question": "Potrebujem auto na jednodňové výlety zo Šibenika?",
+      "answer": "Auto poskytuje maximálnu flexibilitu. Na Krku alebo Kornati sú organizované zájazdy bez auta často efektívnejšie."
     },
     {
-      "question": "Ali je v Narodnem parku Krka dovoljeno kopanje?",
-      "answer": "Kopanje pri Skalinskem buku je prepovedano. Na drugih lokacijah v parku so določena območja za kopanje."
+      "question": "Môžem sa kúpať v Národnom parku Krka?",
+      "answer": "Kúpanie je zakázané pri Skradinskom buku. Určené kúpacie miesta sú k dispozícii inde v rámci parku."
     },
     {
-      "question": "Kako dolgo traja izlet na Kornate?",
-      "answer": "Pričakujte cel dan, običajno 8–10 ur, vključno s potovanjem z ladjo in več postanki."
+      "question": "Ako dlho trvá výlet na Kornatské ostrovy?",
+      "answer": "Počítajte s celým dňom, zvyčajne 8-10 hodinami vrátane plavby loďou a viacerých zastávok."
     }
   ],
-  "quickAnswer": "Za enodnevne izlete iz Šibenika dajte prednost Narodnemu parku Krka zaradi narave in Kornatskemu otočju zaradi morja. Za zgodovino raziščite starodavni Trogir ali Split. Ne spreglejte čara Skradina. To so dokončne izbire za bogato hrvaško izkušnjo, ki vam omogočajo učinkovito izrabo časa.",
   "tableData": [],
+  "imageAlt": "Turisti si užívajú malebnú plavbu loďou za slnečného dňa v Šibeniku, Chorvátsko.",
   "imageUrl": "https://images.pexels.com/photos/36061901/pexels-photo-36061901.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-  "imageAlt": "Tourists enjoy a scenic boat ride on a sunny day in Šibenik, Croatia.",
   "imageCredit": "Margo Evardson",
   "imageCreditUrl": "https://www.pexels.com/@margo-evardson-2158292018",
   "imageSource": "pexels",
+  "generatedAt": "2026-02-19T09:35:59.140Z",
   "destination": "sibenik",
   "destinationName": "Šibenik",
   "region": "dalmatia",
   "theme": "day-trips",
-  "language": "sk",
-  "generatedAt": "2026-02-19T09:36:32.552Z",
   "lat": 43.735,
-  "lng": 15.8952
+  "lng": 15.8952,
+  "slug": "sibenik-day-trips",
+  "language": "sk",
+  "updatedAt": "2026-10-19T11:04:50.557Z"
 }

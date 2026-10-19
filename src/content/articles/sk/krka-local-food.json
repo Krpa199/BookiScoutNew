@@ -1,35 +1,36 @@
 {
-  "title": "Kulinarični vodnik po Krki 2026: Jedi kot domačin v Dalmaciji",
-  "metaDescription": "Odkrijte bistvene lokalne jedi in tradicionalno hrano pri Krki. Hitri, neposredni nasveti za avtentično hrvaško kulinariko v bližini NP Krka.",
-  "slug": "krka-local-food",
-  "content": "## Avtentična kulinarika pri Krki: Onkraj meja parka\nNarodni park Krka nima lastne, specifične kuhinje. Črpa iz bogate gastronomske dediščine Šibensko-kninske županije. Pravi okus se skriva zunaj neposrednega območja parka. Ne nasedajte na 'parkovsko hrano' – za avtentičnost raje poiščite vaške konobe.\n\n*   **Peka:** Obvezno. Jagnjetina ali teletina, počasno pečena 'pod peko' z zelenjavo. Obvezno predhodno naročilo.\n*   **Skradinski rižot:** Obvezno ga poskusite v bližnjem Skradinu. Telečji rižot, kuhan več ur. Ikonično.\n*   **Pršut in sir:** Dalmatinski sušeni pršut in lokalni trdi siri so popolni predjedi.\n*   **Olivno olje in vino:** Lokalna oljčna olja so izjemna. Vinske kleti, zlasti okoli Plastova, ponujajo močna rdeča vina (Babić).\n*   **Rekaške ribe:** Čeprav je območje obalno, reka Krka pomeni, da nekateri kraji ponujajo odlično postrv ali jeguljo.",
+  "title": "Sprievodca gastronómiou Krky 2026: Jedzte ako miestni v Dalmácii",
+  "metaDescription": "Objavte základné miestne jedlá a tradičnú kuchyňu v okolí Krky. Rýchle a priame tipy na autentickú chorvátsku kuchyňu v blízkosti Národného parku Krka.",
+  "quickAnswer": "Gastronomická scéna Národného parku Krka ponúka čerstvé regionálne dalmatínske chute. Očakávajte pomaly pripravované mäso, remeselné syry a stredomorské bylinky. Nečakajte jedinečné „krkské jedlo“, ale výnimočné špeciality Šibenicko-kninskej župy. Zamerajte sa na kvalitné, miestne suroviny, aby ste zažili autentickú kuchyňu.",
+  "content": "## Autentická kuchyňa Krky: Za bránami parku\nNárodný park Krka nemá vlastnú osobitnú kuchyňu. Čerpá z bohatého gastronomického dedičstva Šibenicko-kninskej župy. Skutočná chuť sa nachádza mimo bezprostredného okolia parku. Nenechajte sa zviesť reklamou na „parkové jedlo“ – vyhľadajte dedinské konoby, kde zažijete autentickú atmosféru.\n\n*   **Peka:** Nevyhnutnosť. Jahňacie alebo teľacie mäso „pod zvonom“ pomaly pripravované so zeleninou. Predobjednávka je nutná.\n*   **Skradinské rizoto:** Musíte ochutnať rizoto z neďalekého Skradinu. Teľacie rizoto, varené hodiny. Ikonické.\n*   **Pršut a syry:** Dalmatínska údená šunka a miestne tvrdé syry sú ideálnym predjedlom.\n*   **Olivový olej a víno:** Miestne olivové oleje sú výnimočné. Vinárstva, najmä v okolí Plastova, ponúkajú výrazné červené vína (Babić).\n*   **Sladkovodné ryby:** Hoci ide o pobrežný región, rieka Krka znamená, že niektoré miesta ponúkajú výborného pstruha alebo úhora.",
   "faq": [
     {
-      "question": "Kje lahko jem tradicionalno hrano blizu Krke?",
-      "answer": "Iščite napise 'konoba' (gostilna) v mestih, kot so Skradin, Lozovac ali Drniš. Ti običajno ponujajo avtentične lokalne jedi."
+      "question": "Kde môžem ochutnať tradičné jedlá v okolí Krky?",
+      "answer": "Hľadajte označenia „konoba“ (krčma) v mestách ako Skradin, Lozovac alebo Drniš. Ponúkajú zvyčajne autentické miestne jedlá."
     },
     {
-      "question": "Ali je na voljo vegetarijanska hrana?",
-      "answer": "Tradicionalnih možnosti je malo. Na jedilnikih so običajno na voljo solate, žar zelenjava in nekatere jedi s sirom."
+      "question": "Je dostupná vegetariánska strava?",
+      "answer": "Tradičných možností je obmedzene. Šaláty, grilovaná zelenina a niektoré syrové jedlá sa zvyčajne nachádzajú na jedálnych lístkoch."
     },
     {
-      "question": "Katera pijača se najbolje ujema s hrano pri Krki?",
-      "answer": "Najboljša izbira je lokalno rdeče vino Babić. Za digestiv poskusite osvežilno grappo (rakijo)."
+      "question": "Ktorý nápoj sa najlepšie hodí k jedlám z Krky?",
+      "answer": "Najlepšie sa hodí miestne červené víno Babić. Na digestív skúste osviežujúcu grappu (rakiju)."
     }
   ],
-  "quickAnswer": "Kulinarična scena NP Krka vključuje sveže, regionalne dalmatinske okuse. Pričakujte počasi kuhana mesa, obrtniške sire in sredozemske zelišča. Ne pričakujte edinstvene 'Krke jedi', temveč izjemne specialitete Šibensko-kninske županije. Za avtentično izkušnjo se osredotočite na kakovostne, lokalno pridelane sestavine.",
   "tableData": [],
+  "imageAlt": "Predavač v rukaviciach podáva vyprážané jedlo v papierovom kornúte na pouličnom trhu.",
   "imageUrl": "https://images.pexels.com/photos/8250344/pexels-photo-8250344.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-  "imageAlt": "A vendor wearing gloves serves fried food in a paper cone at a street market.",
   "imageCredit": "Julia Filirovska",
   "imageCreditUrl": "https://www.pexels.com/@filirovska",
   "imageSource": "pexels",
+  "generatedAt": "2026-03-01T11:27:28.051Z",
   "destination": "krka",
   "destinationName": "Krka",
   "region": "dalmatia",
   "theme": "local-food",
-  "language": "sk",
-  "generatedAt": "2026-03-01T11:28:04.110Z",
   "lat": 43.8,
-  "lng": 16
+  "lng": 16,
+  "slug": "krka-local-food",
+  "language": "sk",
+  "updatedAt": "2026-10-19T11:04:37.347Z"
 }

@@ -1,35 +1,36 @@
 {
-  "title": "Najem avtomobila v Fažani proti javnemu prevozu 2026: Sodba",
-  "metaDescription": "Odločate se med najemom avtomobila in javnim prevozom v Fažani na Hrvaškem? Izvedite surovo resnico za učinkovito raziskovanje Istre v letu 2026.",
-  "slug": "fazana-car-vs-no-car",
-  "content": "## Zakaj potrebujete avto v Fažani\nSistem avtobusov v Fažani je osnoven. Če se zanašate nanj, si močno omejite istrsko avanturo.\n\n*   Neposredne avtobusne linije iz Fažane so redke. Povezave pogosto zahtevajo prestopanje v Pulju.\n*   Obiskovanje istrskih biserov, kot so Rovinj, Poreč ali Motovun, je brez avtomobila nepraktično. Avtobusi so počasni in redki.\n*   Vozni rede avtobusov so redki, še posebej zvečer in ob vikendih. Ure boste preživeli v čakanju.\n*   Taksi prevozi za dnevne izlete hitro presežejo stroške najema avtomobila. Preračunajte pametno.\n*   Parkiranje v Fažani je običajno obvladljivo, tudi poleti. Večina popotnikov ta vidik preceni.",
+  "title": "Fažana: požičanie auta alebo verejná doprava 2026: verdikt",
+  "metaDescription": "Rozhodujete sa medzi požičaním auta a verejnou dopravou vo Fažane v Chorvátsku? Získajte nekompromisnú pravdu pre efektívne spoznávanie Istrie v roku 2026.",
+  "quickAnswer": "Vo Fažane je verejná doprava na skutočné objavovanie ďaleko od miestnych výletov veľmi nedostatočná. Na efektívne spoznanie Istrie je auto nevyhnutné. Nestrácajte čas čakaním na autobusy; siahnite po volante.",
+  "content": "## Prečo vo Fažane potrebujete auto\nAutobusová doprava vo Fažane je základná. Spoliehanie sa na ňu výrazne obmedzuje vaše dobrodružstvo v Istrii.\n\n*   Priame autobusové linky z Fažany sú vzácne. Spojenia často vyžadujú prestup v Pule.\n*   Navštíviť klenoty Istrie, ako sú Rovinj, Poreč alebo Motovun, je bez auta nepraktické. Autobusy sú pomalé a jazdia zriedka.\n*   Rozvrhy verejnej dopravy sú riedke, najmä večer a cez víkendy. Strávite hodiny čakaním.\n*   Taxi na jednodňové výlety rýchlo prekročí náklady na prenájom auta. Počítajte rozumne.\n* Parkovanie vo Fažane je zvyčajne zvládnuteľné, a to aj v lete.",
   "faq": [
     {
-      "question": "Ali lahko obiščem Pulj iz Fažane z javnim prevozom?",
-      "answer": "Da, vendar se povezave razlikujejo. Bodite pripravljeni na daljši čas potovanja in odvisnost od voznega reda."
+      "question": "Môžem sa z Fažany do Pule dostať verejnou dopravou?",
+      "answer": "Áno, ale spojenia sa líšia. Počítajte s dlhším cestovaním a závislosťou od časového rozvrhu."
     },
     {
-      "question": "Je parkiranje v Fažani lahko dostopno?",
-      "answer": "Na voljo je plačljivo parkiranje. Številne nastanitve ponujajo zasebno parkirišče; preverite vnaprej."
+      "question": "Je vo Fažane ľahko dostupné parkovanie?",
+      "answer": "Parkovanie je spoplatnené. Mnohé ubytovania ponúkajú vlastné parkovanie; overte si to vopred."
     },
     {
-      "question": "Ali so storitve delitve prevozov, kot je Uber, pogoste v Fažani?",
-      "answer": "Uber deluje, vendar je razpoložljivost lahko neenakomerna, še posebej izven glavnih turističnih ur."
+      "question": "Sú vo Fažane bežné služby zdieľania jázd, ako Uber?",
+      "answer": "Uber funguje, ale dostupnosť môže byť nestála, najmä mimo špičky turistickej sezóny."
     }
   ],
-  "quickAnswer": "V Fažani je javni prevoz resnično neustrezen za pravo raziskovanje zunaj lokalnih izletov. Najem avtomobila je obvezen za učinkovito doživljanje Istre. Ne zapravljajte časa s čakanjem na avtobuse; vozite se.",
   "tableData": [],
+  "imageAlt": "Klasický vínovočervený Cadillac De Ville zaparkovaný pred bujnou zelenou scenériou s ďalšími vintage autami.",
   "imageUrl": "https://images.pexels.com/photos/13554945/pexels-photo-13554945.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-  "imageAlt": "Classic maroon Cadillac De Ville parked against a lush green backdrop featuring other vintage cars.",
   "imageCredit": "Vitali Adutskevich",
   "imageCreditUrl": "https://www.pexels.com/@vadutskevich",
   "imageSource": "pexels",
+  "generatedAt": "2026-03-04T09:27:46.214Z",
   "destination": "fazana",
   "destinationName": "Fažana",
   "region": "istria",
   "theme": "car-vs-no-car",
-  "language": "sk",
-  "generatedAt": "2026-03-04T09:28:24.144Z",
   "lat": 44.9289,
-  "lng": 13.805
+  "lng": 13.805,
+  "slug": "fazana-car-vs-no-car",
+  "language": "sk",
+  "updatedAt": "2026-10-19T11:04:37.411Z"
 }

@@ -1,35 +1,36 @@
 {
-  "title": "Omiš: Zgodovina in kultura - Bistveni vodnik 2026",
-  "metaDescription": "Odkrijte Omiš na Hrvaškem, njegovo gusarsko zgodovino, beneško arhitekturo in živo klapo kulturo. Hiter, neposreden vodnik po ključnih zgodovinskih znamenitostih in tradicijah.",
-  "slug": "omis-history-and-culture",
-  "content": "## Gusarska dediščina in kulturne dragulje\n*   **Gusarsko središče:** Omiš je v 13.-15. stoletju prevladoval nad Jadranom kot gusarska republika. Njegova lega ob delti reke Cetine je bila ključna za njegovo nepremagljivost.\n*   **Tvrđava Mirabela (Peovica):** Ta trdnjava iz 13. stoletja ponuja hiter dostop in razglede na mesto. Izpustite Mirabelo, če niste navdušeni nad stopnicami; Fortica ponuja boljšo panoramo za vložen trud.\n*   **Tvrđava Starigrad (Fortica):** Zahteven vzpon vodi do dramatičnih panoramskih razgledov na celotno regijo. Bistvenega pomena za strateško zgodovino in razglede.\n*   **Beneško staro mestno jedro:** Raziščite ozke tlakovane ulice, starodavne cerkve, kot je cerkev sv. Mihovila, in ohranjene kamnite hiše. Neposredna povezava s stoletji vpliva.\n*   **Festival klap:** Omiš gosti premierni Festival dalmatinskih klap. To tradicionalno petje a cappella, priznano s strani Unesca, je kulturni temelj.",
+  "title": "Omiš – história a kultúra: základný sprievodca 2026",
+  "metaDescription": "Objavte pirátsku minulosť Omiša v Chorvátsku, benátsku architektúru a živú klapa kultúru. Stručný a priamy sprievodca jeho kľúčovými historickými pamiatkami a tradíciami.",
+  "quickAnswer": "Omiš v Chorvátsku je určený svojou povestnou pirátskou minulosťou a strategickou polohou pri ústí rieky Cetina. Benátska architektúra, stredoveké pevnosti a živé miestne tradície vrátane známeho festivalu klapa ukazujú jedinečné spojenie dedičstva a kultúry, formované storočiami námornej moci.",
+  "content": "## Pirátske dedičstvo a kultúrne klenoty\n*   **Pirátske stredisko:** Omiš ovládal Jadran ako pirátska republika v 13. až 15. storočí. Jeho poloha v delte rieky Cetina bola kľúčová pre jeho nedobytnosť.\n*   **Pevnosť Mirabella (Peovica):** Táto pevnosť z 13. storočia ponúka rýchly prístup a výhľady na mesto. Ak nemáte radi schody, Mirabellu preskočte; Fortica za námahu ponúka lepší panoramatický výhľad.\n*   **Pevnosť Starigrad (Fortica):** Náročný výstup vedie k dramatickým panoramatickým výhľadom na celý región. Nevyhnutné pre strategickú históriu a výhľady.\n*   **Benátske staré mesto:** Prechádzajte úzkymi dláždenými uličkami, starobylými kostolmi, napríklad kostolom sv. Michala, a zachovanými kamennými domami. Priama väzba na storočia benátskeho vplyvu.\n*   **Festival klap:** Omiš hostí prestížny Festival dalmatínskych klap. Tento tradičný a cappella spev, uznaný UNESCO, je kultúrnym pilierom.",
   "faq": [
     {
-      "question": "Ali je Omiš primeren za ljubitelje zgodovine?",
-      "answer": "Da, njegova edinstvena gusarska preteklost, dobro ohranjene trdnjave in arhitektura iz beneške dobe ponujajo bogate zgodovinske vpoglede."
+      "question": "Je Omiš vhodný pre milovníkov histórie?",
+      "answer": "Áno, jeho jedinečná pirátska minulosť, dobre zachované pevnosti a architektúra z benátskeho obdobia ponúkajú bohaté historické poznatky."
     },
     {
-      "question": "Kakšen je glavni kulturni dogodek v Omišu?",
-      "answer": "Festival dalmatinskih klap je najpomembnejši kulturni dogodek, mednarodno priznan zaradi tradicionalne glasbe a cappella."
+      "question": "Aká je hlavná kultúrna udalosť v Omiši?",
+      "answer": "Festival dalmatínskych klap je najvýznamnejšou kultúrnou udalosťou a medzinárodne oslavovanou tradičnou a cappella hudbou."
     },
     {
-      "question": "Katero trdnjavo naj obiščem?",
-      "answer": "Za lažji dostop in razglede na mesto obiščite Mirabelo. Za zahteven vzpon in neprimerljive panoramske razglede izberite Fortico."
+      "question": "Ktorú pevnosť by som mal navštíviť?",
+      "answer": "Pre dostupnosť a výhľady na mesto navštívte Mirabellu. Pre náročný výstup a výnimočné panoramatické výhľady zvoľte Forticu."
     }
   ],
-  "quickAnswer": "Omiš na Hrvaškem zaznamuje njegova zloglasna gusarska zgodovina in strateška lega ob izlivu reke Cetine. Beneška arhitektura, srednjeveške trdnjave in žive lokalne tradicije, vključno z znamenitim festivalom klap, prikazujejo edinstveno mešanico dediščine in kulture, oblikovane s stoletji pomorske moči.",
   "tableData": [],
+  "imageAlt": "Historický kláštorný ambit Eufraziovej baziliky s pradávnymi kamennými oblúkmi a stĺpmi.",
   "imageUrl": "https://images.pexels.com/photos/33487993/pexels-photo-33487993.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-  "imageAlt": "Historic cloister of the Euphrasian Basilica, showcasing ancient stone arches and columns.",
   "imageCredit": "Evi Fernengel",
   "imageCreditUrl": "https://www.pexels.com/@fernengel",
   "imageSource": "pexels",
+  "generatedAt": "2026-04-18T11:23:04.824Z",
   "destination": "omis",
   "destinationName": "Omiš",
   "region": "split-dalmatia",
   "theme": "history-and-culture",
-  "language": "sk",
-  "generatedAt": "2026-04-18T11:23:39.253Z",
   "lat": 43.4447,
-  "lng": 16.6881
+  "lng": 16.6881,
+  "slug": "omis-history-and-culture",
+  "language": "sk",
+  "updatedAt": "2026-10-19T11:04:44.181Z"
 }

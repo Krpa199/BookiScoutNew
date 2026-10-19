@@ -39,3 +39,25 @@ next-env.d.ts
 .vscode/
 *.swp
 *.swo
+
+# Local caches & one-off report artifacts
+.cache/
+*-report.json
+*-report.txt
+.ai-image-usage.json
+broken-images.json
+duplicate-images-report.json
+temp-original.json
+build-output.txt
+package-lock.json.windows-backup
+
+# Local review/scratch output dirs (image QA runs)
+review-fixed/
+review-images/
+review-today/
+test-images/
+
+# Stray Windows-escaped path artifacts
+nul
+c:Users*
+haiku-batches.txt

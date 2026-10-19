@@ -1,35 +1,36 @@
 {
-  "title": "Prometni vodnik po Fažani 2026: Kako potovati po Hrvaški",
-  "metaDescription": "Potujete po Fažani na Hrvaškem? Tukaj so direktni nasveti za leto 2026 o avtomobilih, kolesih, avtobusih in trajektih. Bistveni prometni nasveti za turiste in raziskovalce.",
-  "slug": "fazana-transport",
-  "content": "## Premikanje po mestu Fažana\n*   **Peš:** Vaše primarno prevozno sredstvo. Fažana je kompaktna; do pristanišča, restavracij in plaž se pride hitro.\n*   **Kolesa:** Najem koles je široko dostopen. Odlično za raziskovanje obalnega sprehajališča in kratke razdalje do bližnjih vasi.\n*   **Trajekti za Brijone:** Edini prehod do Narodnega parka Brijuni odpelje iz pristanišča Fažana. Vozovnice rezervirajte vnaprej, še posebej v sezoni.\n\n## Raziskovanje izven Fažane\n*   **Najem avtomobila:** Nedvomno najboljša izbira za regionalno raziskovanje. Prevzemite ga na letališču Pula (PUY) ob prihodu za največjo prilagodljivost.\n*   **Lokalni avtobusi:** Povezujejo Fažano predvsem s Pulo. Izpustite to možnost, razen če potrebujete neposreden prevoz v Pulo; širši regionalni avtobusni prevoz je neučinkovit in omejujoč.\n",
+  "title": "Sprievodca dopravou vo Fažane 2026: Ako sa pohybovať po Chorvátsku",
+  "metaDescription": "Plánujete cestu do Fažany v Chorvátsku? Získajte aktuálne rady pre rok 2026 o autách, bicykloch, autobusoch a trajektoch. Základné dopravné tipy pre turistov aj objaviteľov.",
+  "quickAnswer": "Vo Fažane sa miestne presuny dajú pohodlne zvládnuť pešo; trajekty sú vaším priamym spojením s Národným parkom Brijuni. Na efektívne spoznávanie bohatej mozaiky istrijských mestečiek, vinohradov a pobrežia je prenájom auta nielen odporúčaný, ale prakticky nevyhnutný.",
+  "content": "## Pohyb po Fažane\n*   **Chôdza pešo:** Váš hlavný spôsob pohybu. Fažana je kompaktná; prístav, reštaurácie a pláže sú na dosah niekoľkých krokov.\n*   **Bicykle:** Požičovne sú široko dostupné. Ideálne na prechádzky po pobrežnej promenáde a na krátke trasy do blízkych dedín.\n*   **Trajekty na Brijuni:** Jediná brána do Národného parku Brijuni odchádza z prístavu vo Fažane. Lístky si kupujte vopred, najmä v sezóne.\n\n## Výlety mimo Fažany\n*   **Prenájom auta:** Jednoznačne najlepšia voľba na objavovanie regiónu. Vyzdvihnite ho na letisku v Pule (PUY) hneď po príchode, aby ste mali maximálnu flexibilitu.\n*   **Miestne autobusy:** Spájajú Fažanu hlavne s Pulou. Preskočte ich, ak nepotrebujete priame spojenie do Puly; autobusová doprava po širšom okolí je neefektívna a obmedzujúca.\n",
   "faq": [
     {
-      "question": "Je Fažana primerna za hojo?",
-      "answer": "Da, popolnoma. Do centra mesta, pristanišča in večine znamenitosti se lahko prijetno sprehodite."
+      "question": "Dá sa vo Fažane chodiť pešo?",
+      "answer": "Áno, rozhodne. Centrum, prístav a väčšinu služieb sa dajú ľahko obísť pešo."
     },
     {
-      "question": "Kako priti do Brijunskih otokov?",
-      "answer": "Trajekti odplujejo izključno iz pristanišča Fažana. Vozovnice kupite vnaprej, še posebej v glavni sezoni."
+      "question": "Ako sa dostanem na ostrovy Brijuni?",
+      "answer": "Trajekty odchádzajú výhradne z prístavu vo Fažane. Lístky si kúpte vopred, najmä v špičkovej sezóne."
     },
     {
-      "question": "Ali potrebujem avto v Fažani?",
-      "answer": "Ne za samo Fažano, ampak da, če nameravate učinkovito in uspešno raziskovati širšo regijo Istre."
+      "question": "Potrebujem auto vo Fažane?",
+      "answer": "Nie kvôli samotnej Fažane, ale áno, ak plánujete efektívne a pohodlne spoznávať širší istrijský región."
     }
   ],
-  "quickAnswer": "Fažana je zelo prijazna za pešce za lokalno premikanje; trajekti so vaša neposredna povezava do Narodnega parka Brijuni. Za učinkovito raziskovanje bogate tapiserije istrskih mest, vinogradov in obal je najem avtomobila ne le priporočljiv, temveč skorajda nujen.",
   "tableData": [],
+  "imageAlt": "Malebné prístavné mestečko s priviazanými loďami, farebnými budovami a cyklistom pod jasnou oblohou.",
   "imageUrl": "https://images.pexels.com/photos/11189994/pexels-photo-11189994.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-  "imageAlt": "Charming harbor town with docked boats, vibrant buildings, and a cyclist under a clear sky.",
   "imageCredit": "Gildo Cancelli",
   "imageCreditUrl": "https://www.pexels.com/@mmg-cancelli",
   "imageSource": "pexels",
+  "generatedAt": "2026-03-04T12:10:08.970Z",
   "destination": "fazana",
   "destinationName": "Fažana",
   "region": "istria",
   "theme": "transport",
-  "language": "sk",
-  "generatedAt": "2026-03-04T12:10:43.999Z",
   "lat": 44.9289,
-  "lng": 13.805
+  "lng": 13.805,
+  "slug": "fazana-transport",
+  "language": "sk",
+  "updatedAt": "2026-10-19T11:04:37.222Z"
 }
