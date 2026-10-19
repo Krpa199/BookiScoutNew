@@ -82,7 +82,7 @@ jobs:
             Follow the instructions in .claude/review-english.md exactly.
             The articles to review are listed in review-slugs.txt.
           claude_args: |
-            --allowedTools "Read,Edit,Write,Glob,Grep,Bash(npx tsx scripts/add-missing-covers.ts:*),Bash(npx tsx scripts/find-commons-image.ts:*),Bash(curl:*),Bash(cat:*),Bash(ls:*),Bash(mkdir:*),Bash(file:*),Bash(head:*),Bash(wc:*),Bash(jq:*),Bash(node -e:*),Bash(python3:*),Bash(git diff:*),Bash(git status:*)"
+            --allowedTools "Read,Edit,Write,Glob,Grep,WebSearch,WebFetch,Bash(npx tsx scripts/add-missing-covers.ts:*),Bash(npx tsx scripts/find-commons-image.ts:*),Bash(curl:*),Bash(cat:*),Bash(ls:*),Bash(mkdir:*),Bash(file:*),Bash(head:*),Bash(wc:*),Bash(jq:*),Bash(node -e:*),Bash(python3:*),Bash(git diff:*),Bash(git status:*)"
 
       - name: Keep Claude's English review log
         if: always() && steps.claude_en.outputs.execution_file != ''

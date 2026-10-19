@@ -33,6 +33,18 @@ Check for:
 - The `slug`, `destination`, `theme` and image fields must stay unchanged
   unless you are fixing the cover (below).
 
+## Checking facts on the web
+
+You have WebSearch and WebFetch. Check the few facts a traveller acts on and
+that change yearly — parking prices and zones, ferry routes and fares
+(jadrolinija.hr, krilo.hr), national park and sight tickets
+(np-plitvicka-jezera.hr, np-krka.hr, citywallsdubrovnik.hr), bus/airport
+lines, and whether named businesses exist where the text puts them. Prefer
+official sources. Correct figures that the official source contradicts; if
+2027 prices are not published, say "from €X in 2026" or "around"; if nothing
+reliable is found, make the sentence less specific. Never invent numbers, do
+not copy text from websites, and do not add links to the article.
+
 ## 2. Cover image — every article must end up with a correct one
 
 The cover must show the article's own place (for "X vs Y": X; for "stay

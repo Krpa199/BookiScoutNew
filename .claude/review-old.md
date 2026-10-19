@@ -19,6 +19,24 @@ languages. Also make sure nothing reads as outdated for a 2027 trip; where a
 price or rule may well have changed and you cannot verify it, say "around" /
 "check before you go" rather than inventing a new number.
 
+## Checking facts on the web
+
+You have WebSearch and WebFetch. Use them for the facts a traveller acts on
+and that change from year to year, not for every sentence:
+- prices and rules of public parking (the city's parking company site),
+- ferry and catamaran routes and fares (jadrolinija.hr, krilo.hr, tp-line.hr),
+- national park and major sight tickets and opening periods
+  (np-plitvicka-jezera.hr, np-krka.hr, np-mljet.hr, citywallsdubrovnik.hr),
+- airport transfer / bus lines (the operator's own site),
+- whether a business named in the article exists and is where the text says.
+Prefer official sources (operator, park, city, tourist board) over blogs.
+When a source confirms a figure, keep or correct it; when the official
+figure differs, use the official one ("from €X in 2026; check for 2027" if
+2027 prices are not published yet). When nothing reliable is found, make the
+sentence less specific — never invent a number. Write the facts in your own
+words; do not copy text from websites. Do not add links or source lists to
+the article.
+
 ## 1. Read each English article completely
 
 title, metaDescription, quickAnswer, content, faq, tableData. Look for:
