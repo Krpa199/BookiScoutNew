@@ -2,7 +2,8 @@ name: Review Daily Articles
 
 # Runs after the daily generator, which writes English only. Pipeline:
 #   1. Claude reviews and fixes the English source and covers   (.claude/review-english.md)
-#   2. Gemini translates the corrected English into 12 languages (scripts/translate-articles.ts)
+#   2. Claude Haiku translates the corrected English into 12 languages
+#      (scripts/translate-haiku-batch.ts; Gemini fills any gap)
 #   3. Claude reviews and fixes the translations                (.claude/daily-review.md)
 #   4. commit, push, deploy — readers only ever see reviewed articles.
 # The Claude steps use the Claude Code GitHub Action on Mario's Claude
@@ -88,20 +89,29 @@ jobs:
         if: always() && steps.claude_en.outputs.execution_file != ''
         run: mkdir -p review-logs && cp "${{ steps.claude_en.outputs.execution_file }}" review-logs/step1-english.json
 
-      - name: "Step 2 — Gemini translates the reviewed English"
+      - name: "Step 2 — translate the reviewed English (Claude Haiku, Gemini as fallback)"
         if: steps.find.outputs.run == 'true'
-        timeout-minutes: 150
+        timeout-minutes: 280
+        env:
+          ANTHROPIC_TRANSLATE_KEY: ${{ secrets.ANTHROPIC_TRANSLATE_KEY }}
         run: |
-          # New articles have no translations yet: translate them.
-          npx tsx scripts/translate-articles.ts --file review-slugs.txt
           # English that Claude corrected but that was already translated
-          # (e.g. a forced re-review): translate again so fixes reach all languages.
+          # (e.g. a forced re-review) must be translated again.
           git diff --name-only -- src/content/articles/en | xargs -r -n1 basename | sed 's/\.json$//' > changed-en.txt
-          if [ -s changed-en.txt ]; then
-            echo "Re-translating $(wc -l < changed-en.txt) corrected articles"
-            npx tsx scripts/translate-articles.ts --force --file changed-en.txt
+          # 1. Claude Haiku 5.5 via the Batch API (~3x cheaper than Gemini Flash-Lite).
+          #    Every result is checked (language, euros, length, title) before it is saved.
+          if [ -n "$ANTHROPIC_TRANSLATE_KEY" ]; then
+            npx tsx scripts/translate-haiku-batch.ts run --lang all --slugs review-slugs.txt --max-minutes 150 || echo "Haiku step failed; Gemini takes over"
+            if [ -s changed-en.txt ]; then
+              npx tsx scripts/translate-haiku-batch.ts run --lang all --force --slugs changed-en.txt --max-minutes 60 || true
+            fi
+          else
+            echo "No ANTHROPIC_TRANSLATE_KEY secret: translating with Gemini only"
+            if [ -s changed-en.txt ]; then npx tsx scripts/translate-articles.ts --force --file changed-en.txt; fi
           fi
-          rm -f changed-en.txt
+          # 2. Gemini fills every language Haiku did not deliver (translates only missing files).
+          npx tsx scripts/translate-articles.ts --file review-slugs.txt
+          rm -f changed-en.txt haiku-batches.txt
 
       - name: "Step 3 — Claude reviews the translations"
         id: claude_tr
