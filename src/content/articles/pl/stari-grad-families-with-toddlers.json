@@ -37,7 +37,7 @@
       "distance": "50 m od plaży"
     },
     {
-      "name": "Hotel [PLACES] Hvar",
+      "name": "Hotel Places Hvar",
       "price": "160 €/noc",
       "rating": "4,5★",
       "distance": "50 m od plaży"
@@ -61,11 +61,11 @@
       "distance": "500 m od plaży"
     }
   ],
-  "imageAlt": "Zobacz malowniczy widok z lotu ptaka na urokliwy port w Starym Gradzie.",
-  "imageUrl": "https://images.pexels.com/photos/18585871/pexels-photo-18585871.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-  "imageCredit": "Stefan Prutsch",
-  "imageCreditUrl": "https://www.pexels.com/@stefanprutschphotography",
-  "imageSource": "pexels",
+  "imageAlt": "Small boats in the harbour of Stari Grad on Hvar",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Stari_Grad%2C_Hvar_20251012_01.jpg/1280px-Stari_Grad%2C_Hvar_20251012_01.jpg",
+  "imageCredit": "Argo Navis (CC BY-SA 4.0)",
+  "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Stari_Grad,_Hvar_20251012_01.jpg",
+  "imageSource": "wikimedia",
   "generatedAt": "2026-10-22T10:18:11.189Z",
   "destination": "stari-grad",
   "destinationName": "Stari Grad",
