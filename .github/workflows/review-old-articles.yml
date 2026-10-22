@@ -19,6 +19,14 @@ on:
       count:
         description: 'How many old articles to review'
         default: '10'
+      # Catch-up runs: review exactly these slugs (space separated) instead of
+      # picking, without the year bump, with an extra instruction for Claude.
+      slugs:
+        description: 'Optional: exact slugs to review (no year bump)'
+        default: ''
+      note:
+        description: 'Optional: extra instruction for Claude'
+        default: ''
 
 concurrency:
   group: review-articles
@@ -48,13 +56,21 @@ jobs:
 
       - name: Pick old articles
         id: pick
+        env:
+          SLUGS: ${{ github.event.inputs.slugs }}
         run: |
-          npx tsx scripts/pick-old-articles.ts "${{ github.event.inputs.count || '10' }}" > old-slugs.txt
+          if [ -n "$SLUGS" ]; then
+            echo "$SLUGS" | tr ', ' '\n\n' | grep -v '^$' > old-slugs.txt
+            echo "bump=false" >> $GITHUB_OUTPUT
+          else
+            npx tsx scripts/pick-old-articles.ts "${{ github.event.inputs.count || '10' }}" > old-slugs.txt
+            echo "bump=true" >> $GITHUB_OUTPUT
+          fi
           cat old-slugs.txt
           if [ -s old-slugs.txt ]; then echo "run=true" >> $GITHUB_OUTPUT; else echo "run=false" >> $GITHUB_OUTPUT; fi
 
       - name: Move them to the 2027 season
-        if: steps.pick.outputs.run == 'true'
+        if: steps.pick.outputs.run == 'true' && steps.pick.outputs.bump == 'true'
         run: npx tsx scripts/bump-year.ts --file old-slugs.txt
 
       - name: Claude reviews the old articles
@@ -67,8 +83,10 @@ jobs:
           prompt: |
             Follow the instructions in .claude/review-old.md exactly.
             The articles to review are listed in old-slugs.txt.
+            ${{ github.event.inputs.note }}
           claude_args: |
             --allowedTools "Read,Edit,Write,Glob,Grep,WebSearch,WebFetch,Bash(npx tsx scripts/find-commons-image.ts:*),Bash(curl:*),Bash(cat:*),Bash(ls:*),Bash(mkdir:*),Bash(file:*),Bash(head:*),Bash(wc:*),Bash(jq:*),Bash(node -e:*),Bash(python3:*),Bash(git diff:*),Bash(git status:*)"
+            --disallowedTools "Agent,Task"
 
       - name: Keep Claude's log
         if: always() && steps.claude.outputs.execution_file != ''
