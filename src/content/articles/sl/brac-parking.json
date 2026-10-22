@@ -29,32 +29,8 @@
       "answer": "Najboljši način za parkiranje v bližini plaže Zlatni Rat je, da pridete zgodaj (pred 9. uro) na eno izmed velikih plačljivih zasebnih parkirišč. Druga možnost je, da parkirate v mestu Bol in se z ladjico pripeljete do plaže, da se izognete gneči in visokim stroškom parkiranja."
     }
   ],
-  "quickAnswer": "Parkiranje na Braču, Hrvaška, je lahko zahtevno, zlasti v glavni sezoni. Večina mest ponuja plačljiva javna parkirišča (1–3 €/uro, 10–25 €/dan), z omejenimi brezplačnimi možnostmi. Za resnično brezskrbno izkušnjo je zelo priporočljivo zagotoviti si namestitev, ki vključuje zasebno, namensko parkirišče, kar je pogosto najbolj priročna rešitev, saj prihrani čas in potencialne globe.",
+  "quickAnswer": "Parkiranje na Braču, Hrvaška, je lahko zahtevno, zlasti v glavni sezoni. Večina mest ponuja plačljiva javna parkirišča (1–3 €/uro, 10–35 €/dan), z omejenimi brezplačnimi možnostmi. Za resnično brezskrbno izkušnjo je zelo priporočljivo zagotoviti si namestitev, ki vključuje zasebno, namensko parkirišče, kar je pogosto najbolj priročna rešitev, saj prihrani čas in potencialne globe.",
   "tableData": [
-    {
-      "name": "Apartma Oliva (Supetar)",
-      "price": "120 €/noč",
-      "rating": "4.7★",
-      "distance": "500 m od trajekta"
-    },
-    {
-      "name": "Villa Zlatni (Bol)",
-      "price": "180 €/noč",
-      "rating": "4.6★",
-      "distance": "800 m od Zlatnega Rata"
-    },
-    {
-      "name": "Studio Lavanda (Milna)",
-      "price": "95 €/noč",
-      "rating": "4.8★",
-      "distance": "150 m od marine"
-    },
-    {
-      "name": "Apartma Port View (Postira)",
-      "price": "110 €/noč",
-      "rating": "4.5★",
-      "distance": "50 m od pristanišča"
-    },
     {
       "name": "Javno parkirišče Center Supetar",
       "price": "2,50 €/uro",

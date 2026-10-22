@@ -29,32 +29,8 @@
       "answer": "Nejlepší způsob, jak zaparkovat blízko pláže Zlatni Rat, je dorazit brzy (před 9:00) na jedno z velkých placených soukromých parkovišť. Alternativně zvažte zaparkování v centru Bolu a využití kyvadlového člunu na pláž, abyste se vyhnuli přetížení a vysokým parkovacím poplatkům."
     }
   ],
-  "quickAnswer": "Parkování na Brači v Chorvatsku může být náročné, zejména v hlavní sezóně. Většina měst nabízí placená veřejná parkoviště (1–3 EUR/hod., 10–25 EUR/den), s omezenými bezplatnými možnostmi. Pro skutečně bezproblémový zážitek je vysoce doporučeno zajistit si ubytování se soukromým vyhrazeným parkováním, což je často nejpohodlnější řešení, které šetří čas a potenciální pokuty.",
+  "quickAnswer": "Parkování na Brači v Chorvatsku může být náročné, zejména v hlavní sezóně. Většina měst nabízí placená veřejná parkoviště (1–3 EUR/hod., 10–35 EUR/den), s omezenými bezplatnými možnostmi. Pro skutečně bezproblémový zážitek je vysoce doporučeno zajistit si ubytování se soukromým vyhrazeným parkováním, což je často nejpohodlnější řešení, které šetří čas a potenciální pokuty.",
   "tableData": [
-    {
-      "name": "Apartmán Oliva (Supetar)",
-      "price": "120 €/noc",
-      "rating": "4.7★",
-      "distance": "500 m od trajektu"
-    },
-    {
-      "name": "Villa Zlatni (Bol)",
-      "price": "180 €/noc",
-      "rating": "4.6★",
-      "distance": "800 m od Zlatni Rat"
-    },
-    {
-      "name": "Studio Lavanda (Milna)",
-      "price": "95 €/noc",
-      "rating": "4.8★",
-      "distance": "150 m od Mariny"
-    },
-    {
-      "name": "Apartmán Port View (Postira)",
-      "price": "110 €/noc",
-      "rating": "4.5★",
-      "distance": "50 m od přístavu"
-    },
     {
       "name": "Veřejné parkoviště Supetar Centrum",
       "price": "2,50 €/hod.",
