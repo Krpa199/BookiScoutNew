@@ -10,7 +10,7 @@
     },
     {
       "question": "Are there large hotels within Grožnjan?",
-      "answer": "There are no large resort hotels inside Grožnjan. Accommodation consists entirely of small bed-and-breakfasts, restored stone houses, and private private apartments."
+      "answer": "There are no large resort hotels inside Grožnjan. Accommodation consists entirely of small bed-and-breakfasts, restored stone houses, and private apartments."
     },
     {
       "question": "Is Grožnjan wheelchair accessible for overnight stays?",
@@ -61,11 +61,11 @@
       "distance": "120m from main square"
     }
   ],
-  "imageAlt": "Charming vintage buildings beside a clear sea with rustic facades and scenic views.",
-  "imageUrl": "https://images.pexels.com/photos/6125713/pexels-photo-6125713.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-  "imageCredit": "Rachel Claire",
-  "imageCreditUrl": "https://www.pexels.com/@rachel-claire",
-  "imageSource": "pexels",
+  "imageAlt": "Aerial view of the hilltop town of Grožnjan in Istria",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Gro%C5%BEnjan_aerial_view.jpg/1280px-Gro%C5%BEnjan_aerial_view.jpg",
+  "imageCredit": "Arne Müseler (CC BY-SA 3.0 de)",
+  "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gro%C5%BEnjan_aerial_view.jpg",
+  "imageSource": "wikimedia",
   "generatedAt": "2026-10-20T10:26:23.237Z",
   "destination": "groznjan",
   "destinationName": "Grožnjan",
