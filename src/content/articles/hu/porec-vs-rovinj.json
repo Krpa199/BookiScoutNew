@@ -10,11 +10,11 @@
     },
     {
       "question": "Hol könnyebb a parkolás, Porečben vagy Rovinjban?",
-      "answer": "Porečben sokkal könnyebben találni parkolóhelyet közvetlenül a történelmi központ mellett, óránként körülbelül €1.50-ért. Rovinj központi parkolói már délelőtt 9:00-re megtelnek, és óránként akár €3.00-be is kerülhetnek."
+      "answer": "Porečben sokkal könnyebben találni parkolóhelyet közvetlenül a történelmi központ mellett, óránként körülbelül €1.50-ért. Rovinj központi parkolói már délelőtt 9:00-re megtelnek, és nyáron óránként €3.50-be vagy többe kerülnek."
     },
     {
       "question": "Könnyen át lehet látogatni az egyikből a másikba?",
-      "answer": "Igen, a Poreč és Rovinj közötti autóút 40 percet vesz igénybe a D75-ös úton. Júliusban és augusztusban naponta közlekedő személyszállító komp is összeköti a két várost."
+      "answer": "Igen, a Poreč és Rovinj közötti autóút 40 percet vesz igénybe a D75-ös úton. Nyáron szezonális hajójárat is közlekedhet a két város között; indulás előtt ellenőrizze a menetrendet."
     },
     {
       "question": "Hogyan juthatok el a Plitvicei-tavakhoz Porečből?",
@@ -23,11 +23,11 @@
   ],
   "quickAnswer": "Válassza Porečt a sík terep, a könnyen elérhető üdülőstrandok és a pénztárcabarát családi lehetőségek miatt. Válassza Rovinjet, ha csúcskategóriás romantikára, lenyűgöző hegytetőre épült építészetre és prémium gasztronómiára vágyik. Rovinj 20-30%-kal drágább, és nyáron jelentősen zsúfoltabb.",
   "tableData": [],
-  "imageUrl": "https://images.pexels.com/photos/14964365/pexels-photo-14964365.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-  "imageAlt": "Idilli naplemente Porečben, Horvátországban, fákkal keretezett csendes tengerparttal és a távoli várossal.",
-  "imageCredit": "Peter Mikl",
-  "imageCreditUrl": "https://www.pexels.com/@peter-mikl-410167466",
-  "imageSource": "pexels",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Panorama_of_Porec_-_Parenzo_at_dawn.jpg/1280px-Panorama_of_Porec_-_Parenzo_at_dawn.jpg",
+  "imageAlt": "Old town of Poreč with the Euphrasian Basilica bell tower at sunrise",
+  "imageCredit": "Ekaterina Polischuk (CC BY-SA 4.0)",
+  "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Panorama_of_Porec_-_Parenzo_at_dawn.jpg",
+  "imageSource": "wikimedia",
   "destination": "porec",
   "destinationName": "Poreč",
   "region": "istria",
