@@ -4,7 +4,7 @@ import { generateArticle, translateArticle, ArticleData, getRemainingCalls } fro
 import { LANGUAGES, LanguageCode } from '../src/config/languages';
 import { Destination, Theme, DESTINATIONS, THEMES, GENERATION_TIERS, isThemeAvailableFor } from '../src/config/destinations';
 import { getArticleImage } from './image-service';
-import { generateArticleClaude } from './claude-writer';
+import { generateArticleClaude, writeArticlesBatch } from './claude-writer';
 
 const CONTENT_DIR = path.join(process.cwd(), 'src', 'content', 'articles');
 const TRACKING_FILE = path.join(process.cwd(), 'src', 'content', 'generated.json');
@@ -204,6 +204,13 @@ export async function generateDailyArticles(count: number = 10) {
 
   console.log(`\n📝 Generating ${pendingTopics.length} articles in ${allLanguages.length} languages...\n`);
 
+  // CLAUDE_BATCH=on: write every English article in one Message Batch first
+  // (half the token price); any article missing from it is written one by one
+  // below (normal Claude call, then Gemini).
+  const batchArticles = process.env.EN_WRITER === 'claude' && process.env.CLAUDE_BATCH === 'on'
+    ? await writeArticlesBatch(pendingTopics)
+    : new Map<string, ArticleData>();
+
   for (const { destination, theme } of pendingTopics) {
     // Check if we should stop
     if (shouldStop) {
@@ -238,7 +245,7 @@ export async function generateDailyArticles(count: number = 10) {
 
       // Generate in English first (uses Pro model)
       console.log(`  ├─ Generating EN...`);
-      const enArticle = await generateEnglish(destination, theme);
+      const enArticle = batchArticles.get(`${destination.slug}-${theme}`) ?? await generateEnglish(destination, theme);
 
       // Add image data to article
       const enArticleWithImages = imageData
