@@ -58,6 +58,11 @@ env:
   # it, reviews the translations and then deploys. Set to 'off' to go back to
   # generating all 13 languages here.
   GENERATE_EN_ONLY: 'on'
+  # English is written by Claude Sonnet with web search (scripts/claude-writer.ts;
+  # won a blind fact-checked test 2026-10-23). Any Claude failure, e.g. no API
+  # credit, falls back to Gemini per article. Set to 'gemini' to switch back.
+  EN_WRITER: 'claude'
+  ANTHROPIC_TRANSLATE_KEY: ${{ secrets.ANTHROPIC_TRANSLATE_KEY }}
 
 jobs:
   # First job: Check if we should run
@@ -166,6 +171,7 @@ jobs:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           UNSPLASH_API_KEY: ${{ secrets.UNSPLASH_API_KEY }}
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          ANTHROPIC_TRANSLATE_KEY: ${{ secrets.ANTHROPIC_TRANSLATE_KEY }}
           ARTICLES_PER_RUN: ${{ env.ARTICLES_PER_RUN }}
 
       - name: Check for changes

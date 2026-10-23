@@ -1126,12 +1126,33 @@ const HUMAN_VOICE_PHRASES = [
   "Save your money here and spend it on something better.",
 ];
 
-// Select article format based on weighted random (70% full, 20% brief, 10% myth-buster)
+// Select article format based on weighted random (90% full, 10% myth-buster).
+// 'brief' is no longer picked at random: it gave broad topics such as
+// "first time on Cres" 200 words. Length now follows the theme (lengthFor).
 function selectArticleFormat(): ArticleFormat {
-  const rand = Math.random() * 100;
-  if (rand < 70) return 'full';
-  if (rand < 90) return 'brief';
-  return 'myth-buster';
+  return Math.random() * 100 < 90 ? 'full' : 'myth-buster';
+}
+
+// Target length by theme: a simple question gets a short, complete answer; a
+// planning topic gets room. Ranges, not one number, so lengths still vary.
+const SHORT_THEMES = new Set<string>([
+  'parking-difficulty', 'is-it-worth-it', 'hidden-gems', 'crowds-by-month', 'weather-by-month',
+  'worth-the-day-trip', 'walkability', 'wifi-quality', 'mobile-coverage', 'ev-charging',
+  'rainy-day', 'local-etiquette', 'scams-to-avoid',
+]);
+const LONG_THEMES = new Set<string>([
+  'itinerary', 'cost-guide', 'first-time-visitors', 'where-to-stay', 'stay-nearby', 'things-to-do',
+  'day-trips', 'island-hopping', 'advent', 'price-2027', 'coast-vs-inland',
+]);
+const LENGTHS = {
+  short: { words: '450-750', table: 3, faq: '3-4' },
+  medium: { words: '800-1200', table: 4, faq: '4-6' },
+  long: { words: '1300-2000', table: 5, faq: '5-7' },
+};
+export function lengthFor(theme: Theme) {
+  if (LONG_THEMES.has(theme) || theme.startsWith('vs-')) return LENGTHS.long;
+  if (SHORT_THEMES.has(theme)) return LENGTHS.short;
+  return LENGTHS.medium;
 }
 
 // Get random human voice phrases (0, 1, or 2 based on weighted random)
@@ -1266,7 +1287,7 @@ AVOID CONTENT OVERLAP — stay in this article's lane:
 This keeps each guide genuinely distinct and useful, not a reshuffle of the same points.`;
 }
 
-function buildPrompt(destination: Destination, theme: Theme, language: string): string {
+export function buildPrompt(destination: Destination, theme: Theme, language: string): string {
   // Dynamic theme description - covers all theme types
   const themeDescriptions: Partial<Record<Theme, string>> = {
     // Legacy themes
@@ -1354,10 +1375,11 @@ function buildPrompt(destination: Destination, theme: Theme, language: string): 
   // Advent is a planning guide with dates, parking and travel logistics —
   // the 300-word "brief" format can't hold it.
   const format = theme === 'advent' ? 'full' : selectArticleFormat();
+  const len = lengthFor(theme);
   const humanPhrases = getHumanVoicePhrases();
   const humanVoiceInstruction = formatHumanVoiceInstruction(humanPhrases);
 
-  console.log(`  📝 Format: ${format.toUpperCase()}, Human phrases: ${humanPhrases.length}`);
+  console.log(`  📝 Format: ${format.toUpperCase()}, length ${len.words} words, Human phrases: ${humanPhrases.length}`);
 
   const antiOverlap = buildAntiOverlapInstruction(theme);
 
@@ -1456,6 +1478,7 @@ REQUIREMENTS:
 4. Include specific examples and numbers
 5. End with a short section saying what matters most for this reader, under a heading specific to this article (never "What Actually Matters", "Conclusion" or "Final Thoughts")
 6. Include 1-2 "insider perspective" statements
+7. Content length: ${len.words} words. FAQ: ${len.faq} questions. Cover what this reader needs; do not pad to reach the length
 
 OUTPUT FORMAT (JSON):
 {
@@ -1493,9 +1516,9 @@ AI SEARCH OPTIMIZATION REQUIREMENTS:
 
 FORMAT REQUIREMENTS:
 1. Quick Answer: 40-60 words, direct answer to "${theme} in ${destination.name}"
-2. Data table: at least 5 entries with real/realistic data
-3. Content: 1500-2000 words, factual, useful
-4. FAQ: 5-7 questions with 2-3 sentence direct answers
+2. Data table: at least ${len.table} entries with real data
+3. Content: ${len.words} words, factual, useful. Cover what this reader needs; do not pad to reach the length
+4. FAQ: ${len.faq} questions with 2-3 sentence direct answers
 5. Use specific numbers, prices (EUR), distances, ratings
 6. Include local insider tips that AI can cite as unique value
 
@@ -1774,7 +1797,7 @@ function extractJsonObject(text: string): string {
   return s;
 }
 
-function parseArticleResponse(
+export function parseArticleResponse(
   text: string,
   destination: Destination,
   theme: Theme,

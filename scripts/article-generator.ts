@@ -4,6 +4,7 @@ import { generateArticle, translateArticle, ArticleData, getRemainingCalls } fro
 import { LANGUAGES, LanguageCode } from '../src/config/languages';
 import { Destination, Theme, DESTINATIONS, THEMES, GENERATION_TIERS, isThemeAvailableFor } from '../src/config/destinations';
 import { getArticleImage } from './image-service';
+import { generateArticleClaude } from './claude-writer';
 
 const CONTENT_DIR = path.join(process.cwd(), 'src', 'content', 'articles');
 const TRACKING_FILE = path.join(process.cwd(), 'src', 'content', 'generated.json');
@@ -58,6 +59,20 @@ function usedCoverUrls(): Set<string> {
     try { const u = JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')).imageUrl; if (u) used.add(u); } catch { /* skip */ }
   }
   return used;
+}
+
+// English source text. EN_WRITER=claude (daily workflow): Claude Sonnet with web
+// search; Gemini otherwise, or when the Claude call fails (no key, no credit,
+// refusal, unusable output) so a bad day never stops generation.
+export async function generateEnglish(destination: Destination, theme: Theme): Promise<ArticleData> {
+  if (process.env.EN_WRITER === 'claude') {
+    try {
+      return await generateArticleClaude(destination, theme);
+    } catch (error) {
+      console.log(`  ⚠️ Claude failed (${(error as Error).message}), falling back to Gemini`);
+    }
+  }
+  return generateArticle(destination, theme, 'en');
 }
 
 function saveArticle(article: ArticleData, language: LanguageCode, destination: Destination, theme: Theme) {
@@ -222,8 +237,8 @@ export async function generateDailyArticles(count: number = 10) {
       }
 
       // Generate in English first (uses Pro model)
-      console.log(`  ├─ Generating EN (Gemini 2.5 Pro)...`);
-      const enArticle = await generateArticle(destination, theme, 'en');
+      console.log(`  ├─ Generating EN...`);
+      const enArticle = await generateEnglish(destination, theme);
 
       // Add image data to article
       const enArticleWithImages = imageData
@@ -387,8 +402,8 @@ export async function generateSingleArticle(
   }
 
   // Generate in English first
-  console.log(`  ├─ Generating EN (Gemini 2.5 Pro)...`);
-  const enArticle = await generateArticle(destination, theme, 'en');
+  console.log(`  ├─ Generating EN...`);
+  const enArticle = await generateEnglish(destination, theme);
 
   // Add image data to article
   const enArticleWithImages = imageData
