@@ -85,6 +85,7 @@ jobs:
           claude_args: |
             --allowedTools "Read,Edit,Write,Glob,Grep,WebSearch,WebFetch,Bash(npx tsx scripts/add-missing-covers.ts:*),Bash(npx tsx scripts/find-commons-image.ts:*),Bash(curl:*),Bash(cat:*),Bash(ls:*),Bash(mkdir:*),Bash(file:*),Bash(head:*),Bash(wc:*),Bash(jq:*),Bash(node -e:*),Bash(python3:*),Bash(git diff:*),Bash(git status:*)"
             --disallowedTools "Agent,Task"
+            --model claude-sonnet-5-5
 
       - name: Keep Claude's English review log
         if: always() && steps.claude_en.outputs.execution_file != ''
@@ -127,6 +128,7 @@ jobs:
           claude_args: |
             --allowedTools "Read,Edit,Write,Glob,Grep,Bash(npx tsx scripts/check-daily-articles.ts:*),Bash(cat:*),Bash(ls:*),Bash(head:*),Bash(wc:*),Bash(jq:*),Bash(node -e:*),Bash(python3:*),Bash(git diff:*),Bash(git status:*)"
             --disallowedTools "Agent,Task"
+            --model claude-sonnet-5-5
 
       - name: Keep Claude's translation review log
         if: always() && steps.claude_tr.outputs.execution_file != ''

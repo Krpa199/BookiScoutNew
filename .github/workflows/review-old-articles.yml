@@ -87,6 +87,7 @@ jobs:
           claude_args: |
             --allowedTools "Read,Edit,Write,Glob,Grep,WebSearch,WebFetch,Bash(npx tsx scripts/find-commons-image.ts:*),Bash(curl:*),Bash(cat:*),Bash(ls:*),Bash(mkdir:*),Bash(file:*),Bash(head:*),Bash(wc:*),Bash(jq:*),Bash(node -e:*),Bash(python3:*),Bash(git diff:*),Bash(git status:*)"
             --disallowedTools "Agent,Task"
+            --model claude-sonnet-5-5
 
       - name: Keep Claude's log
         if: always() && steps.claude.outputs.execution_file != ''
