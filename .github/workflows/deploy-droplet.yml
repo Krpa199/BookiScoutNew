@@ -93,6 +93,12 @@ jobs:
                 echo ""
                 echo "Active image: $(docker inspect --format='{{.Config.Image}}' bookiscout)"
                 echo "Container uptime: $(docker inspect --format='{{.State.StartedAt}}' bookiscout)"
+                # Every build leaves a ~4 GB cache layer (disk reached 69% by
+                # 2026-10-25). Keep the newest 12 GB, which the next build reuses,
+                # and drop untagged old images. Never fails the deploy.
+                docker builder prune -f --keep-storage 12GB >/dev/null 2>&1 || true
+                docker image prune -f >/dev/null 2>&1 || true
+                echo "Disk after cleanup: $(df -h / | tail -1 | awk '{print $3" used, "$4" free"}')"
                 exit 0
               fi
               echo "⏳ Waiting for healthcheck... ($i/10)"
