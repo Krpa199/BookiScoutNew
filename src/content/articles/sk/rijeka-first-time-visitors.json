@@ -17,29 +17,29 @@
       "distance": "Prečo na tom záleží: Prichádzate o najautentickejšiu mestskú atmosféru Chorvátska."
     },
     {
-      "name": "Mýtus 2: Musíte sa zdržiavať na Korze.",
-      "price": "Realita: Je hlučné, predražené a všedné.",
-      "rating": "Lepšia alternatíva: Ubytujte sa v bočných uličkách Starého mesta alebo na Trsate.",
-      "distance": "Prečo na tom záleží: Autentickosť a dobrý nočný spánok nájdete len 5 minút odtiaľ."
-    },
-    {
-      "name": "Mýtus 3: Mestské pláže sú hlavnou atrakciou.",
+      "name": "Mýtus 2: Mestské pláže sú hlavnou atrakciou.",
       "price": "Realita: Sú preplnené a len priemerné.",
       "rating": "Lepšia alternatíva: Vezmite autobus na 15 minút do Pećín alebo Kantridy.",
       "distance": "Prečo na tom záleží: Malé úsilie prinesie oveľa lepšie miesta na kúpanie."
     },
     {
-      "name": "Mýtus 4: Na pohyb potrebujete auto.",
+      "name": "Mýtus 3: Na pohyb potrebujete auto.",
       "price": "Realita: Parkovanie je nočná mora; mesto je kompaktné.",
       "rating": "Lepšia alternatíva: Využite výbornú a lacnú mestskú autobusovú dopravu.",
       "distance": "Prečo na tom záleží: Ušetríte peniaze, čas a stres chôdzou a autobusmi."
+    },
+    {
+      "name": "Mýtus 4: Morské plody musíte jesť na hlavnej Rive.",
+      "price": "Realita: Mnohé podniky na Rive sú pasce na turistov s nafúknutými cenami.",
+      "rating": "Lepšia alternatíva: Najedzte sa v malej konobe o ulicu či dve ďalej, blízko trhu.",
+      "distance": "Prečo na tom záleží: Čerstvejšie ryby, férovejšie ceny a miestnejšia atmosféra."
     }
   ],
-  "imageAlt": "Pamätihodnosti mesta Rijeka",
-  "imageUrl": "https://images.pexels.com/photos/29025434/pexels-photo-29025434.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-  "imageCredit": "Kristina Kutleša",
-  "imageCreditUrl": "https://www.pexels.com/@kristina001",
-  "imageSource": "pexels",
+  "imageAlt": "Trsat Castle in Rijeka",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Croatia_Trsat_Castle_BW_2014-10-14_12-19-23.jpg/1280px-Croatia_Trsat_Castle_BW_2014-10-14_12-19-23.jpg",
+  "imageCredit": "Berthold Werner (CC BY-SA 3.0)",
+  "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Croatia_Trsat_Castle_BW_2014-10-14_12-19-23.jpg",
+  "imageSource": "wikimedia",
   "generatedAt": "2026-02-07T08:54:21.718Z",
   "destination": "rijeka",
   "destinationName": "Rijeka",

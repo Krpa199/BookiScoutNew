@@ -18,29 +18,29 @@
       "distance": "Warum es wichtig ist: Sie verpassen die authentischste städtische Atmosphäre Kroatiens."
     },
     {
-      "name": "Mythos 2: Man muss am Korzo bleiben.",
-      "price": "Realität: Es ist laut, überteuert und generisch.",
-      "rating": "Bessere Alternative: In den Seitenstraßen der Altstadt oder in Trsat übernachten.",
-      "distance": "Warum es wichtig ist: Authentizität und eine gute Nachtruhe finden sich nur 5 Minuten entfernt."
-    },
-    {
-      "name": "Mythos 3: Die Stadtstrände sind die Hauptattraktion.",
+      "name": "Mythos 2: Die Stadtstrände sind die Hauptattraktion.",
       "price": "Realität: Sie sind überfüllt und nur mittelmäßig.",
       "rating": "Bessere Alternative: Nehmen Sie einen 15-minütigen Bus nach Pećine oder Kantrida.",
       "distance": "Warum es wichtig ist: Eine kleine Anstrengung führt zu viel besseren Badeplätzen."
     },
     {
-      "name": "Mythos 4: Man braucht ein Auto, um sich fortzubewegen.",
+      "name": "Mythos 3: Man braucht ein Auto, um sich fortzubewegen.",
       "price": "Realität: Parken ist ein Albtraum; die Stadt ist kompakt.",
       "rating": "Bessere Alternative: Nutzen Sie das ausgezeichnete und günstige öffentliche Bussystem.",
       "distance": "Warum es wichtig ist: Sie sparen Geld, Zeit und Stress, indem Sie zu Fuß gehen und Busse nutzen."
+    },
+    {
+      "name": "Mythos 4: Meeresfrüchte muss man an der Riva essen.",
+      "price": "Realität: Viele Lokale an der Riva sind Touristenfallen mit überhöhten Preisen.",
+      "rating": "Bessere Alternative: Essen Sie in einer kleinen Konoba ein bis zwei Straßen weiter, in der Nähe des Marktes.",
+      "distance": "Warum es wichtig ist: Frischerer Fisch, fairere Preise und mehr lokales Flair."
     }
   ],
-  "imageUrl": "https://images.pexels.com/photos/29025434/pexels-photo-29025434.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-  "imageAlt": "Rijeka city landmarks",
-  "imageCredit": "Kristina Kutleša",
-  "imageCreditUrl": "https://www.pexels.com/@kristina001",
-  "imageSource": "pexels",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Croatia_Trsat_Castle_BW_2014-10-14_12-19-23.jpg/1280px-Croatia_Trsat_Castle_BW_2014-10-14_12-19-23.jpg",
+  "imageAlt": "Trsat Castle in Rijeka",
+  "imageCredit": "Berthold Werner (CC BY-SA 3.0)",
+  "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Croatia_Trsat_Castle_BW_2014-10-14_12-19-23.jpg",
+  "imageSource": "wikimedia",
   "destination": "rijeka",
   "destinationName": "Rijeka",
   "region": "kvarner",
