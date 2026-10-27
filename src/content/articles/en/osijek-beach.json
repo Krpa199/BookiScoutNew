@@ -62,11 +62,11 @@
       "distance": "About 15 min drive from the city"
     }
   ],
-  "imageUrl": "https://images.pexels.com/photos/20217458/pexels-photo-20217458.png?auto=compress&cs=tinysrgb&h=650&w=940",
-  "imageAlt": "Aerial view of a crosswalk nestled in lush greenery, Osijek, Croatia.",
-  "imageCredit": "Andrea Music",
-  "imageCreditUrl": "https://www.pexels.com/@amusic",
-  "imageSource": "pexels",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Drava_in_Osijek.jpg",
+  "imageAlt": "The Drava river in Osijek",
+  "imageCredit": "Radio Tonreg (CC BY 2.0)",
+  "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Drava_in_Osijek.jpg",
+  "imageSource": "wikimedia",
   "destination": "osijek",
   "destinationName": "Osijek",
   "region": "continental",
