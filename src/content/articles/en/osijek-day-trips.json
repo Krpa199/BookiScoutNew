@@ -33,7 +33,7 @@
       "answer": "April to June and September to October are the best months, with mild weather and good light. July and August are hot and mosquito-heavy in wetland areas."
     }
   ],
-  "quickAnswer": "The best day trips from Osijek are Kopački Rit Nature Park (12 km), Đakovo (35 km), Vukovar (35 km), the Baranja wine road (20–50 km) and Ilok (about 75 km). Kopački Rit and Vukovar work without a car. Ilok and Baranja wineries are easier with a car or a tour.",
+  "quickAnswer": "The best day trips from Osijek are Kopački Rit Nature Park (12 km), Đakovo (35 km), Vukovar (35 km), the Baranja wine road (20–50 km) and Ilok (about 75 km). Vukovar and Đakovo work by bus. Ilok and Baranja wineries are easier with a car or a tour.",
   "tableData": [
     {
       "name": "Kopački Rit Nature Park",
@@ -78,11 +78,11 @@
       "distance": "95 km, 1 hr 30 min"
     }
   ],
-  "imageUrl": "https://images.pexels.com/photos/20217458/pexels-photo-20217458.png?auto=compress&cs=tinysrgb&h=650&w=940",
-  "imageAlt": "Aerial view of a crosswalk nestled in lush greenery, Osijek, Croatia.",
-  "imageCredit": "Andrea Music",
-  "imageCreditUrl": "https://www.pexels.com/@amusic",
-  "imageSource": "pexels",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Osijek_from_Pje%C5%A1a%C4%8Dki_most%2C_Osijek%2C_2025_%281%29.jpg/1280px-Osijek_from_Pje%C5%A1a%C4%8Dki_most%2C_Osijek%2C_2025_%281%29.jpg",
+  "imageAlt": "View of Osijek from the pedestrian bridge over the Drava",
+  "imageCredit": "Antimuonium (CC BY-SA 4.0)",
+  "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Osijek_from_Pje%C5%A1a%C4%8Dki_most,_Osijek,_2025_(1).jpg",
+  "imageSource": "wikimedia",
   "destination": "osijek",
   "destinationName": "Osijek",
   "region": "continental",
