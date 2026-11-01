@@ -53,7 +53,7 @@
       "name": "Bus Cres to Mali Lošinj (Autotrans/Arriva)",
       "price": "From about €8 one way",
       "rating": "Direct, about 55 min",
-      "distance": "About 48 km"
+      "distance": "Along the island's main road"
     },
     {
       "name": "Bus Rijeka to Cres",
@@ -68,11 +68,11 @@
       "distance": "Turion 26, Cres Town"
     }
   ],
-  "imageUrl": "https://images.unsplash.com/photo-1779088469699-03208ca59730?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njg0MTh8MHwxfHNlYXJjaHw4fHxDcm9hdGlhJTIwaGlzdG9yaWMlMjB0b3duJTIwZXVyb3BlfGVufDB8MHx8fDE3OTM1MzQwMTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-  "imageAlt": "Old european buildings with tiled roofs under a blue sky",
-  "imageCredit": "Margo Evardson",
-  "imageCreditUrl": "https://unsplash.com/@stadinstudio",
-  "imageSource": "unsplash",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Cres_croatia.jpg/1280px-Cres_croatia.jpg",
+  "imageAlt": "Aerial view of Cres town and harbour on the island of Cres",
+  "imageCredit": "Arne Müseler (CC BY-SA 3.0 de)",
+  "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Cres_croatia.jpg",
+  "imageSource": "wikimedia",
   "destination": "cres",
   "destinationName": "Cres",
   "region": "kvarner",
