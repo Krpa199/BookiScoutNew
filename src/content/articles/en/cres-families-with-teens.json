@@ -29,7 +29,7 @@
       "answer": "A car is strongly recommended. Public transport is limited, and the best beaches, villages and trailheads are away from the main road."
     }
   ],
-  "quickAnswer": "Cres suits active teenagers who like kayaking, cycling, hiking and swimming in clear water. Reach it by a 20-minute Brestova–Porozina ferry (€4.40 per adult or teen). Base the family in Cres town or Beli, rent bikes and kayaks, and add a day trip to Lošinj for dolphins. Nightlife is minimal.",
+  "quickAnswer": "Cres suits active teenagers who like kayaking, cycling, hiking and swimming in clear water. Reach it by a 20-minute Brestova–Porozina ferry (€4.40 per adult or teen). Base the family in Cres town, rent bikes and kayaks, and add a day trip to Lošinj for dolphins. Nightlife is minimal.",
   "tableData": [
     {
       "name": "Brestova–Porozina ferry (Jadrolinija)",
@@ -68,11 +68,11 @@
       "distance": "About 50 km from Cres town"
     }
   ],
-  "imageUrl": "https://images.unsplash.com/photo-1482790197944-0bd99292659b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njg0MTh8MHwxfHNlYXJjaHw4fHxDcmVzJTIwY2l0eXNjYXBlfGVufDB8MHx8fDE3OTM4ODQwODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-  "imageAlt": "city buildings under sunny sky",
-  "imageCredit": "Kate Trysh",
-  "imageCreditUrl": "https://unsplash.com/@katetrysh",
-  "imageSource": "unsplash",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Cres_Panorama.jpg/1280px-Cres_Panorama.jpg",
+  "imageAlt": "Panoramic view of Cres town and its harbour",
+  "imageCredit": "Groundtorpedo (CC BY-SA 4.0)",
+  "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Cres_Panorama.jpg",
+  "imageSource": "wikimedia",
   "destination": "cres",
   "destinationName": "Cres",
   "region": "kvarner",
