@@ -1,8 +1,8 @@
 {
-  "title": "Vodič za otočnu avanturu po Mljetu 2026: Zelena oaza Hrvatske",
-  "metaDescription": "Istražite mljetska jezera, Odisejevu špilju i susjedne otoke u 2026. godini. Dobijte izravne informacije o trajektnim linijama, cijenama i glavnim atrakcijama za učinkovito otočno preskakanje.",
+  "title": "Vodič za otočnu avanturu po Mljetu 2027: Zelena oaza Hrvatske",
+  "metaDescription": "Istražite mljetska jezera, Odisejevu špilju i susjedne otoke u 2027. godini. Dobijte izravne informacije o trajektnim linijama, cijenama i glavnim atrakcijama za učinkovito otočno preskakanje.",
   "slug": "mljet-island-hopping",
-  "content": "## Osnove otočne avanture po Mljetu\n\n*   Ulaznice za Nacionalni park Mljet koštaju otprilike 20-25 € (procjena za 2026.) i uključuju prijevoz brodom do otočića Sv. Marija. Ovo predstavlja glavnu aktivnost 'otočnog preskakanja' unutar granica Mljeta.\n*   Na otočiću Sv. Marija, smještenom u Velikom jezeru, nalazi se benediktinski samostan iz 12. stoljeća. Odvojite 1-2 sata za istraživanje otočića i njegovih sadržaja.\n*   Odisejeva špilja dostupna je brodskom turom iz Polača ili Pomena (sezonski) ili 30-minutnom šetnjom od Babinog Polja. Ulaz je besplatan. Kupanje unutra popularna je ljetna aktivnost.\n*   Dnevni katamarani povezuju Mljet (Pomena, Polače, Sobra) s Dubrovnikom, Korčulom i Lastovom. Jadrolinija i G&V Line su glavni prijevoznici. Provjerite trenutne redove vožnje za 2026.\n*   Izravni višestruki otočni izleti *s* Mljeta rijetki su. Za šire otočno preskakanje po Hrvatskoj, potrebno je premjestiti se u Dubrovnik ili na Korčulu. Izbjegavajte izravne vanjske otočne ture s Mljeta; to je neučinkovito.\n",
+  "content": "## Osnove otočne avanture po Mljetu\n\n*   Ulaznice za Nacionalni park Mljet koštaju otprilike 15-30 € ovisno o sezoni (provjerite cjenik parka) i uključuju prijevoz brodom do otočića Sv. Marija. Ovo predstavlja glavnu aktivnost 'otočnog preskakanja' unutar granica Mljeta.\n*   Na otočiću Sv. Marija, smještenom u Velikom jezeru, nalazi se benediktinski samostan iz 12. stoljeća. Odvojite 1-2 sata za istraživanje otočića i njegovih sadržaja.\n*   Odisejeva špilja dostupna je brodskom turom iz Polača ili Pomena (sezonski) ili 30-minutnom šetnjom od Babinog Polja. Ulaz je besplatan. Kupanje unutra popularna je ljetna aktivnost.\n*   Dnevni katamarani povezuju Mljet (Pomena, Polače, Sobra) s Dubrovnikom i Korčulom. Jadrolinija i G&V Line su glavni prijevoznici. Provjerite trenutne redove vožnje za 2027.\n*   Izravni višestruki otočni izleti *s* Mljeta rijetki su. Za šire otočno preskakanje po Hrvatskoj, potrebno je premjestiti se u Dubrovnik ili na Korčulu. Izbjegavajte izravne vanjske otočne ture s Mljeta; to je neučinkovito.\n",
   "faq": [
     {
       "question": "Koji je najbolji način za kretanje po Mljetu?",
@@ -19,11 +19,11 @@
   ],
   "quickAnswer": "Otočno preskakanje po Mljetu prvenstveno uključuje istraživanje dva slana jezera Nacionalnog parka i otočića Sv. Marija. Mogućnosti vanjskog otočnog preskakanja izravno s Mljeta su ograničene, obično zahtijevaju povratak u Dubrovnik ili na Korčulu za šire izlete. Fokusirajte se na mljetske unutarnje atrakcije za usredotočeno iskustvo.",
   "tableData": [],
-  "imageUrl": "https://images.pexels.com/photos/5877918/pexels-photo-5877918.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-  "imageAlt": "Serene seascape showing islands in Istanbul viewed from a boat, ideal for travel or tranquility themes.",
-  "imageCredit": "Julia Volk",
-  "imageCreditUrl": "https://www.pexels.com/@julia-volk",
-  "imageSource": "pexels",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Canal_between_the_Adriatic_Sea_and_the_lake_Veliko_Jezero_on_Mljet%2C_Croatia_%2848738559823%29.jpg/1280px-Canal_between_the_Adriatic_Sea_and_the_lake_Veliko_Jezero_on_Mljet%2C_Croatia_%2848738559823%29.jpg",
+  "imageAlt": "Canal between the open sea and the lake Veliko Jezero on Mljet",
+  "imageCredit": "dronepicr (CC BY 2.0)",
+  "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Canal_between_the_Adriatic_Sea_and_the_lake_Veliko_Jezero_on_Mljet,_Croatia_(48738559823).jpg",
+  "imageSource": "wikimedia",
   "destination": "mljet",
   "destinationName": "Mljet",
   "region": "dubrovnik",
@@ -31,5 +31,6 @@
   "language": "hr",
   "generatedAt": "2026-06-08T13:54:40.402Z",
   "lat": 42.7431,
-  "lng": 17.5431
+  "lng": 17.5431,
+  "updatedAt": "2026-11-06T09:43:55.488Z"
 }

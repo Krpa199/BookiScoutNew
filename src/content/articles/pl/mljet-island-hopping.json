@@ -1,8 +1,8 @@
 {
-  "title": "Przewodnik po rejsach między wyspami Mljet 2026: Zielona Oaza Chorwacji",
-  "metaDescription": "Odkryj jeziora Mljet, Jaskinię Odyseusza i sąsiednie wyspy w 2026 roku. Uzyskaj bezpośrednie informacje o trasach promów, cenach i głównych atrakcjach dla efektywnego podróżowania między wyspami.",
+  "title": "Przewodnik po rejsach między wyspami Mljet 2027: Zielona Oaza Chorwacji",
+  "metaDescription": "Odkryj jeziora Mljet, Jaskinię Odyseusza i sąsiednie wyspy w 2027 roku. Uzyskaj bezpośrednie informacje o trasach promów, cenach i głównych atrakcjach dla efektywnego podróżowania między wyspami.",
   "slug": "mljet-island-hopping",
-  "content": "## Podstawowe informacje o rejsach między wyspami na Mljet\n\n*   Bilety do Parku Narodowego Mljet kosztują około 20-25 euro (szacunkowo na 2026 rok) i obejmują transfer łodzią na wysepkę Św. Marii. Stanowi to główną atrakcję „rejsu między wyspami” w granicach Mljet.\n*   Na wysepce Św. Marii, położonej w Veliko Jezero, znajduje się benedyktyńskie opactwo z XII wieku. Na zwiedzanie wysepki i jej obiektów przeznacz 1-2 godziny.\n*   Jaskinia Odyseusza jest dostępna łodzią wycieczkową z Polače lub Pomeny (sezonowo) lub po 30-minutowym spacerze z Babino Polje. Wstęp jest bezpłatny. Pływanie w środku to popularna letnia aktywność.\n*   Codzienne katamarany łączą Mljet (Pomena, Polače, Sobra) z Dubrownikiem, Korčulą i Lastovem. Głównymi przewoźnikami są Jadrolinija i G&V Line. Sprawdź aktualne rozkłady na 2026 rok.\n*   Bezpośrednie wycieczki obejmujące wiele wysp *z* Mljet są rzadkością. Aby odbyć szersze rejsy po chorwackich wyspach, konieczne jest przemieszczenie się do Dubrownika lub Korčuli. Unikaj bezpośrednich zewnętrznych wycieczek z Mljet; jest to nieefektywne.\n",
+  "content": "## Podstawowe informacje o rejsach między wyspami na Mljet\n\n*   Bilety do Parku Narodowego Mljet kosztują około 15-30 euro zależnie od sezonu (sprawdź cennik parku) i obejmują transfer łodzią na wysepkę Św. Marii. Stanowi to główną atrakcję „rejsu między wyspami” w granicach Mljet.\n*   Na wysepce Św. Marii, położonej w Veliko Jezero, znajduje się benedyktyńskie opactwo z XII wieku. Na zwiedzanie wysepki i jej obiektów przeznacz 1-2 godziny.\n*   Jaskinia Odyseusza jest dostępna łodzią wycieczkową z Polače lub Pomeny (sezonowo) lub po 30-minutowym spacerze z Babino Polje. Wstęp jest bezpłatny. Pływanie w środku to popularna letnia aktywność.\n*   Codzienne katamarany łączą Mljet (Pomena, Polače, Sobra) z Dubrownikiem i Korčulą. Głównymi przewoźnikami są Jadrolinija i G&V Line. Sprawdź aktualne rozkłady na 2027 rok.\n*   Bezpośrednie wycieczki obejmujące wiele wysp *z* Mljet są rzadkością. Aby odbyć szersze rejsy po chorwackich wyspach, konieczne jest przemieszczenie się do Dubrownika lub Korčuli. Unikaj bezpośrednich zewnętrznych wycieczek z Mljet; jest to nieefektywne.\n",
   "faq": [
     {
       "question": "Jaki jest najlepszy sposób poruszania się po Mljet?",
@@ -19,11 +19,11 @@
   ],
   "quickAnswer": "Rejsy między wyspami na Mljet polegają głównie na zwiedzaniu dwóch słonych jezior Parku Narodowego i wysepki Św. Marii. Opcje rejsów poza wyspę są ograniczone bezpośrednio z samego Mljet, zazwyczaj wymagają powrotu do Dubrownika lub Korčuli w celu dalszych wycieczek. Skoncentruj się na atrakcjach wewnętrznych Mljet dla skoncentrowanego doświadczenia.",
   "tableData": [],
-  "imageUrl": "https://images.pexels.com/photos/5877918/pexels-photo-5877918.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-  "imageAlt": "Serene seascape showing islands in Istanbul viewed from a boat, ideal for travel or tranquility themes.",
-  "imageCredit": "Julia Volk",
-  "imageCreditUrl": "https://www.pexels.com/@julia-volk",
-  "imageSource": "pexels",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Canal_between_the_Adriatic_Sea_and_the_lake_Veliko_Jezero_on_Mljet%2C_Croatia_%2848738559823%29.jpg/1280px-Canal_between_the_Adriatic_Sea_and_the_lake_Veliko_Jezero_on_Mljet%2C_Croatia_%2848738559823%29.jpg",
+  "imageAlt": "Canal between the open sea and the lake Veliko Jezero on Mljet",
+  "imageCredit": "dronepicr (CC BY 2.0)",
+  "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Canal_between_the_Adriatic_Sea_and_the_lake_Veliko_Jezero_on_Mljet,_Croatia_(48738559823).jpg",
+  "imageSource": "wikimedia",
   "destination": "mljet",
   "destinationName": "Mljet",
   "region": "dubrovnik",
@@ -31,5 +31,6 @@
   "language": "pl",
   "generatedAt": "2026-06-08T13:53:29.423Z",
   "lat": 42.7431,
-  "lng": 17.5431
+  "lng": 17.5431,
+  "updatedAt": "2026-11-06T09:43:55.488Z"
 }
