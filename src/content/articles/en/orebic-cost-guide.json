@@ -57,7 +57,7 @@
       "name": "Passenger ferry Orebić–Korčula Town (G&V Line Iadera)",
       "price": "€2.50 off-season / €3.40–3.50 peak",
       "rating": "Hourly, about 15 min",
-      "distance": "Crossing of about 2 mi (3 km)"
+      "distance": "Crossing of about 3 km"
     },
     {
       "name": "Car ferry Orebić–Dominče (Jadrolinija, standard car)",
@@ -78,11 +78,11 @@
       "distance": "7 km"
     }
   ],
-  "imageUrl": "https://images.unsplash.com/photo-1502542210750-7c978b400449?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njg0MTh8MHwxfHNlYXJjaHwxfHxDcm9hdGlhJTIwaGlzdG9yaWMlMjB0b3duJTIwZXVyb3BlfGVufDB8MHx8fDE3OTQxMzg3ODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-  "imageAlt": "aerial photo of body of water and buildings at daytime",
-  "imageCredit": "Grant Ritchie",
-  "imageCreditUrl": "https://unsplash.com/@grantritchie",
-  "imageSource": "unsplash",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Orebi%C4%87_0169_D.jpg/1280px-Orebi%C4%87_0169_D.jpg",
+  "imageAlt": "Aerial view of Orebić, its marina and seafront at sunrise",
+  "imageCredit": "Quahadi (CC BY-SA 4.0)",
+  "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Orebi%C4%87_0169_D.jpg",
+  "imageSource": "wikimedia",
   "destination": "orebic",
   "destinationName": "Orebić",
   "region": "dubrovnik",
