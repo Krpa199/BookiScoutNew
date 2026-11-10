@@ -29,7 +29,7 @@
       "answer": "Trstenica is walkable from most accommodation in town. A car or taxi is needed for Viganj (7 km), Lovište (13 km) and Divna (20 km). Mokalo, at 3–4 km, can be reached by bike."
     }
   ],
-  "quickAnswer": "Trstenica is the best beach in Orebić. It is a pebble-and-sand beach a short walk from the center, with shallow water, pine shade and rentals. Viganj suits windsurfing, Mokalo suits quiet swimming, and Lovište and Divna are calmer. Beachfront apartments cost about €40–150 per night depending on season.",
+  "quickAnswer": "Trstenica is the best beach in Orebić. It is a pebble-and-sand beach a short walk from the center, with shallow water, pine shade and rentals. Viganj suits windsurfing, Mokalo suits quiet swimming, and Lovište and Divna are calmer. Beachfront apartments cost about €30–150 per night depending on season.",
   "tableData": [
     {
       "name": "Trstenica Beach (Orebić)",
@@ -74,11 +74,11 @@
       "distance": "Seafront"
     }
   ],
-  "imageUrl": "https://images.pexels.com/photos/38351455/pexels-photo-38351455.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-  "imageAlt": "Picturesque landscape of Gradac, Croatia with coastal buildings and mountains in the background.",
-  "imageCredit": "Živoslav Ilić",
-  "imageCreditUrl": "https://www.pexels.com/@zivoslav-ilic-1218490",
-  "imageSource": "pexels",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Orebi%C4%87%2C_pohled_na_m%C4%9Bsto.jpg/1280px-Orebi%C4%87%2C_pohled_na_m%C4%9Bsto.jpg",
+  "imageAlt": "View across the channel to Orebić and Mount Sveti Ilija, Pelješac",
+  "imageCredit": "Wikimedia Commons (CC BY 3.0)",
+  "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Orebi%C4%87,_pohled_na_m%C4%9Bsto.jpg",
+  "imageSource": "wikimedia",
   "destination": "orebic",
   "destinationName": "Orebić",
   "region": "dubrovnik",
