@@ -1,8 +1,8 @@
 {
-  "title": "Zadar Repülőtéri Transzferek: Gyors Útmutató 2026-ra",
+  "title": "Zadar Repülőtéri Transzferek: Gyors Útmutató 2027-ra",
   "metaDescription": "Hogyan juthat el a zadari repülőtérről (ZAD) a városközpontba. Ez az útmutató bemutatja a repülőtéri buszt, az Uber-t, a Boltot és a taxikat a gyors és hatékony transzferhez.",
   "slug": "zadar-airport-access",
-  "content": "## Utazás a Zadar Repülőtérről a Városközpontba\n\nA Zadar Repülőtérről (ZAD) a városba jutás egyszerű. A repülőtér mindössze 12 km-re van a központtól. Ne bonyolítsa túl. Íme a lehetőségei.\n\n*   **Repülőtéri Busz (Liburnija):** Ez az alapértelmezett választás. A busz a járatokhoz igazodik, és a terminálon kívül várja az utasokat. A fő buszpályaudvaron (Autobusni Kolodvor), majd a Régi Város bejáratánál teszi le Önt.\n\n*   **Telekocsi Szolgáltatások (Uber & Bolt):** Mindkét alkalmazás jól működik Zadarnál, és általában olcsóbbak, mint a taxik. Érkezéskor nyissa meg mindkettőt, és válassza az olcsóbbat. Számítson körülbelül 20-25 eurós díjra.\n\n*   **Taxik:** A taxik közvetlenül a kijáratnál állnak rendelkezésre. Ez a legdrágább lehetőség, gyakran 30-40 euróba kerül. Indulás előtt erősítse meg az árat, vagy győződjön meg róla, hogy a taxióra be van kapcsolva.\n\n*   **Magán Transzferek:** Az előre lefoglalt magán transzferek túlárazott megoldást jelentenek egy 20 perces útra. A többi lehetőség túl egyszerű és hatékony ahhoz, hogy indokolja a magas költséget.\n\n*   **Autóbérlés:** Minden nagyobb cég jelen van a ZAD repülőtéren. Nyári utazáshoz foglaljon jóval előre. Ez csak akkor éri meg, ha a városon kívüli felfedezést tervezi.",
+  "content": "## Utazás a Zadar Repülőtérről a Városközpontba\n\nA Zadar Repülőtérről (ZAD) a városba jutás egyszerű. A repülőtér mindössze 12 km-re van a központtól. Ne bonyolítsa túl. Íme a lehetőségei.\n\n*   **Repülőtéri Busz:** Ez az alapértelmezett választás. A busz a járatokhoz igazodik, és a terminálon kívül várja az utasokat. A fő buszpályaudvaron (Autobusni Kolodvor), majd a Régi Város bejáratánál teszi le Önt.\n\n*   **Telekocsi Szolgáltatások (Uber & Bolt):** Mindkét alkalmazás jól működik Zadarnál, és általában olcsóbbak, mint a taxik. Érkezéskor nyissa meg mindkettőt, és válassza az olcsóbbat. Számítson körülbelül 20-25 eurós díjra.\n\n*   **Taxik:** A taxik közvetlenül a kijáratnál állnak rendelkezésre. Ez a legdrágább lehetőség, gyakran 30-40 euróba kerül. Indulás előtt erősítse meg az árat, vagy győződjön meg róla, hogy a taxióra be van kapcsolva.\n\n*   **Magán Transzferek:** Az előre lefoglalt magán transzferek túlárazott megoldást jelentenek egy 20 perces útra. A többi lehetőség túl egyszerű és hatékony ahhoz, hogy indokolja a magas költséget.\n\n*   **Autóbérlés:** Minden nagyobb cég jelen van a ZAD repülőtéren. Nyári utazáshoz foglaljon jóval előre. Ez csak akkor éri meg, ha a városon kívüli felfedezést tervezi.",
   "faq": [
     {
       "question": "Hol vásárolhatok jegyet a zadari repülőtéri buszra?",
@@ -19,11 +19,11 @@
   ],
   "quickAnswer": "A hivatalos repülőtéri transzferbusz a legjobb megoldás. Olcsó, a járataidhoz igazított menetrenddel közlekedik, és közvetlenül a fő buszpályaudvarhoz és a Régi Város kapujához visz. Csak akkor vegye fontolóra más opciókat, ha nagy csoporttal utazik, vagy sok csomagja van.",
   "tableData": [],
-  "imageUrl": "https://images.pexels.com/photos/7727758/pexels-photo-7727758.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-  "imageAlt": "Old stone house facade with wooden shutters in Croatia.",
-  "imageCredit": "Ruza Leko",
-  "imageCreditUrl": "https://www.pexels.com/@ruza",
-  "imageSource": "pexels",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Ryanair%27s_aircraft%2C_Zadar_Airport.jpg/1280px-Ryanair%27s_aircraft%2C_Zadar_Airport.jpg",
+  "imageAlt": "Passengers boarding a plane at Zadar Airport",
+  "imageCredit": "Tromber (CC BY-SA 4.0)",
+  "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Ryanair%27s_aircraft,_Zadar_Airport.jpg",
+  "imageSource": "wikimedia",
   "destination": "zadar",
   "destinationName": "Zadar",
   "region": "dalmatia",
@@ -31,5 +31,6 @@
   "language": "hu",
   "generatedAt": "2026-02-06T09:42:49.481Z",
   "lat": 44.1194,
-  "lng": 15.2314
+  "lng": 15.2314,
+  "updatedAt": "2026-11-10T18:08:45.039Z"
 }

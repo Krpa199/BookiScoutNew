@@ -1,8 +1,8 @@
 {
-  "title": "Transfer z letiska Zadar: rýchly sprievodca pre rok 2026",
+  "title": "Transfer z letiska Zadar: rýchly sprievodca pre rok 2027",
   "metaDescription": "Ako sa dostať z letiska Zadar (ZAD) do centra mesta. Sprievodca popisuje letiskový autobus, Uber, Bolt a taxíky pre rýchly a pohodlný transfer.",
   "quickAnswer": "Oficiálny letiskový autobus je najlepšia voľba. Je lacný, zosúladený s príletmi lietadiel a vezme vás priamo na hlavnú autobusovú stanicu a k bráne Starého mesta. Ostatné možnosti zvažujte len vtedy, ak cestujete vo veľkej skupine alebo s nadmernou batožinou.",
-  "content": "## Ako sa dostať z letiska Zadar do mesta\n\nDostať sa z letiska Zadar do mesta je jednoduché. Letisko je od centra vzdialené len 12 km. Nekomplikujte si to. Tu sú vaše možnosti.\n\n*   **Letiskový autobus (Liburnija):** Toto je vaša predvolená voľba. Autobus je zosúladený s prilietavajúcimi lietadlami a čaká hneď pred terminálom. Vysadí vás na hlavnej autobusovej stanici (Autobusová stanica) a potom pri vstupe do Starého mesta.\n\n*   **Zdieľaná jazda (Uber a Bolt):** Obe aplikácie v Zadare fungujú dobre a sú vo všeobecnosti lacnejšie ako taxíky. Po príchode si otvorte obe a vyberte lacnejšiu. Očakávajte platbu €20-€25.\n\n*   **Taxíky:** Taxíky čakajú priamo pred halou príletov. Je to najdrahšia možnosť, ktorá často stojí €30-€40. Pred začiatkom jazdy si potvrďte cenu alebo sa uistite, že taxameter beží.\n\n*   **Súkromné transfery:** Vopred objednané súkromné transfery sú pre 20-minútovú cestu predražené riešenie. Ostatné možnosti sú dostatočne jednoduché a efektívne, takže vysoká cena sa neoplatí.\n\n*   **Požičanie auta:** Na letisku ZAD pôsobia všetky veľké spoločnosti. Na letnú sezónu si rezervujte s veľkým predstihom. Dáva to zmysel len vtedy, ak plánujete preskúmať región aj mimo samotného mesta.",
+  "content": "## Ako sa dostať z letiska Zadar do mesta\n\nDostať sa z letiska Zadar do mesta je jednoduché. Letisko je od centra vzdialené len 12 km. Nekomplikujte si to. Tu sú vaše možnosti.\n\n*   **Letiskový autobus:** Toto je vaša predvolená voľba. Autobus je zosúladený s prilietavajúcimi lietadlami a čaká hneď pred terminálom. Vysadí vás na hlavnej autobusovej stanici (Autobusová stanica) a potom pri vstupe do Starého mesta.\n\n*   **Zdieľaná jazda (Uber a Bolt):** Obe aplikácie v Zadare fungujú dobre a sú vo všeobecnosti lacnejšie ako taxíky. Po príchode si otvorte obe a vyberte lacnejšiu. Očakávajte platbu €20-€25.\n\n*   **Taxíky:** Taxíky čakajú priamo pred halou príletov. Je to najdrahšia možnosť, ktorá často stojí €30-€40. Pred začiatkom jazdy si potvrďte cenu alebo sa uistite, že taxameter beží.\n\n*   **Súkromné transfery:** Vopred objednané súkromné transfery sú pre 20-minútovú cestu predražené riešenie. Ostatné možnosti sú dostatočne jednoduché a efektívne, takže vysoká cena sa neoplatí.\n\n*   **Požičanie auta:** Na letisku ZAD pôsobia všetky veľké spoločnosti. Na letnú sezónu si rezervujte s veľkým predstihom. Dáva to zmysel len vtedy, ak plánujete preskúmať región aj mimo samotného mesta.",
   "faq": [
     {
       "question": "Kde si kúpim lístok na letiskový autobus do Zadaru?",
@@ -18,11 +18,11 @@
     }
   ],
   "tableData": [],
-  "imageAlt": "Stará kamenná fasáda domu s drevenými okenicami v Chorvátsku.",
-  "imageUrl": "https://images.pexels.com/photos/7727758/pexels-photo-7727758.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-  "imageCredit": "Ruza Leko",
-  "imageCreditUrl": "https://www.pexels.com/@ruza",
-  "imageSource": "pexels",
+  "imageAlt": "Passengers boarding a plane at Zadar Airport",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Ryanair%27s_aircraft%2C_Zadar_Airport.jpg/1280px-Ryanair%27s_aircraft%2C_Zadar_Airport.jpg",
+  "imageCredit": "Tromber (CC BY-SA 4.0)",
+  "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Ryanair%27s_aircraft,_Zadar_Airport.jpg",
+  "imageSource": "wikimedia",
   "generatedAt": "2026-02-06T09:42:22.930Z",
   "destination": "zadar",
   "destinationName": "Zadar",
@@ -32,5 +32,5 @@
   "lng": 15.2314,
   "slug": "zadar-airport-access",
   "language": "sk",
-  "updatedAt": "2026-10-19T11:04:51.047Z"
+  "updatedAt": "2026-11-10T18:08:45.039Z"
 }
