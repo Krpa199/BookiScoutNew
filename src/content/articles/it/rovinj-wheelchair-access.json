@@ -1,8 +1,8 @@
 {
-  "title": "Guida alla Mobilità e Accessibilità in Carrozzina a Rovigno 2026",
-  "metaDescription": "Il centro storico di Rovigno è impegnativo per chi usa la sedia a rotelle. Questa guida offre informazioni dirette sull'accessibilità a Rovigno nel 2026, coprendo lungomare, trasporti e hotel.",
+  "title": "Guida alla Mobilità e Accessibilità in Carrozzina a Rovigno 2027",
+  "metaDescription": "Il centro storico di Rovigno è impegnativo per chi usa la sedia a rotelle. Questa guida offre informazioni dirette sull'accessibilità a Rovigno nel 2027, coprendo lungomare, trasporti e hotel.",
   "slug": "rovinj-wheelchair-access",
-  "content": "## Panoramica sull'Accessibilità a Rovigno 2026\nRovigno, pur essendo splendida, richiede aspettative realistiche per gli utenti di sedie a rotelle.\n\n*   **Città Vecchia:** Estremamente inaccessibile. Le ripide strade acciottolate, le superfici irregolari e la presenza pervasiva di scalini rendono la navigazione indipendente quasi impossibile. I residenti raramente si muovono in questo modo, e per ottime ragioni.\n*   **Lungomare:** Per lo più pianeggiante e pavimentato, offre percorsi piacevoli e accessibili lungo il porto e verso le aree più nuove della città.\n*   **Quartieri Nuovi:** Le zone oltre il perimetro immediato della Città Vecchia hanno generalmente marciapiedi più lisci e terreni più pianeggianti. Concentrate le vostre attività qui.\n*   **Trasporti:** I taxi accessibili sono rari. Considerate di prenotare in anticipo trasferimenti privati o di noleggiare un'auto con comandi adattivi per una mobilità ottimale.\n*   **Alloggio:** Pochi hotel offrono una vera accessibilità completa. Verificate sempre le dimensioni specifiche della stanza, la configurazione del bagno e le rampe d'ingresso direttamente prima di prenotare.",
+  "content": "## Panoramica sull'Accessibilità a Rovigno 2027\nRovigno, pur essendo splendida, richiede aspettative realistiche per gli utenti di sedie a rotelle.\n\n*   **Città Vecchia:** Estremamente inaccessibile. Le ripide strade acciottolate, le superfici irregolari e la presenza pervasiva di scalini rendono la navigazione indipendente quasi impossibile. I residenti raramente si muovono in questo modo, e per ottime ragioni.\n*   **Lungomare:** Per lo più pianeggiante e pavimentato, offre percorsi piacevoli e accessibili lungo il porto e verso le aree più nuove della città.\n*   **Quartieri Nuovi:** Le zone oltre il perimetro immediato della Città Vecchia hanno generalmente marciapiedi più lisci e terreni più pianeggianti. Concentrate le vostre attività qui.\n*   **Trasporti:** I taxi accessibili sono rari. Considerate di prenotare in anticipo trasferimenti privati o di noleggiare un'auto con comandi adattivi per una mobilità ottimale.\n*   **Alloggio:** Pochi hotel offrono una vera accessibilità completa. Verificate sempre le dimensioni specifiche della stanza, la configurazione del bagno e le rampe d'ingresso direttamente prima di prenotare.",
   "faq": [
     {
       "question": "È possibile accedere a qualche parte della Città Vecchia di Rovigno in sedia a rotelle?",
@@ -19,11 +19,11 @@
   ],
   "quickAnswer": "La storica Città Vecchia di Rovigno è notoriamente difficile per le sedie a rotelle a causa delle strade ripide e acciottolate e delle numerose scale. Le sezioni più nuove della città e il lungomare principale sono significativamente più accessibili. Preparatevi a infrastrutture limitate e privilegiate le attività a livello del suolo.",
   "tableData": [],
-  "imageUrl": "https://images.unsplash.com/photo-1763568321881-eaf01c7d7af4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njg0MTh8MHwxfHNlYXJjaHw3fHx3aGVlbGNoYWlyJTIwdXNlciUyMHRyYXZlbGluZ3xlbnwwfDB8fHwxNzcwODAyNjQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-  "imageAlt": "People at a starbucks in a modern airport terminal.",
-  "imageCredit": "Alexander Schimmeck",
-  "imageCreditUrl": "https://unsplash.com/@alschim",
-  "imageSource": "unsplash",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Rovinj_-_ku%C4%87e_na_rivi.jpg/1280px-Rovinj_-_ku%C4%87e_na_rivi.jpg",
+  "imageAlt": "Houses along the waterfront in Rovinj",
+  "imageCredit": "Silverije (CC BY-SA 4.0)",
+  "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Rovinj_-_ku%C4%87e_na_rivi.jpg",
+  "imageSource": "wikimedia",
   "destination": "rovinj",
   "destinationName": "Rovinj",
   "region": "istria",
@@ -31,5 +31,6 @@
   "language": "it",
   "generatedAt": "2026-02-12T09:20:43.353Z",
   "lat": 45.0812,
-  "lng": 13.6387
+  "lng": 13.6387,
+  "updatedAt": "2026-11-13T23:45:56.299Z"
 }

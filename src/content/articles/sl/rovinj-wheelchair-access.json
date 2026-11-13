@@ -1,8 +1,8 @@
 {
-  "title": "Vodič po dostopnosti za invalidske vozičke v Rovinju 2026",
-  "metaDescription": "Rovinjsko staro mesto je zahtevno za invalidske vozičke. Ta vodnik ponuja neposredna dejstva o dostopnosti v Rovinju 2026, ki pokrivajo obalo, prevoz in hotele.",
+  "title": "Vodič po dostopnosti za invalidske vozičke v Rovinju 2027",
+  "metaDescription": "Rovinjsko staro mesto je zahtevno za invalidske vozičke. Ta vodnik ponuja neposredna dejstva o dostopnosti v Rovinju 2027, ki pokrivajo obalo, prevoz in hotele.",
   "slug": "rovinj-wheelchair-access",
-  "content": "## Pregled dostopnosti v Rovinju 2026\nRovinj, čeprav čudovit, zahteva realna pričakovanja za uporabnike invalidskih vozičkov.\n\n*   **Staro mesto:** Izjemno nedostopno. Strme tlakovane ulice, neravne površine in vseprisotne stopnice skoraj onemogočajo samostojno premikanje. Lokalni prebivalci se po teh poteh redko vozijo in to z dobrim razlogom.\n*   **Obala (Promenada):** Večinoma ravna in tlakovana, ponuja prijetne, dostopne poti ob pristanišču in proti novejšim delom mesta.\n*   **Novejši predeli:** Območja zunaj neposrednega obroča starega mesta imajo običajno gladkejše pločnike in ravninsko lego. Osredotočite svoje aktivnosti na ta območja.\n*   **Prevoz:** Dostopni taksiji so redki. Za optimalno mobilnost razmislite o predhodnem naročanju zasebnih prevozov ali najemu avtomobila s prilagojeno opremo.\n*   **Nastanitev:** Le malo hotelov ponuja resnično popolno dostopnost. Pred rezervacijo neposredno preverite dimenzije sob, kopalniške ureditve in dostopne klančine.",
+  "content": "## Pregled dostopnosti v Rovinju 2027\nRovinj, čeprav čudovit, zahteva realna pričakovanja za uporabnike invalidskih vozičkov.\n\n*   **Staro mesto:** Izjemno nedostopno. Strme tlakovane ulice, neravne površine in vseprisotne stopnice skoraj onemogočajo samostojno premikanje. Lokalni prebivalci se po teh poteh redko vozijo in to z dobrim razlogom.\n*   **Obala (Promenada):** Večinoma ravna in tlakovana, ponuja prijetne, dostopne poti ob pristanišču in proti novejšim delom mesta.\n*   **Novejši predeli:** Območja zunaj neposrednega obroča starega mesta imajo običajno gladkejše pločnike in ravninsko lego. Osredotočite svoje aktivnosti na ta območja.\n*   **Prevoz:** Dostopni taksiji so redki. Za optimalno mobilnost razmislite o predhodnem naročanju zasebnih prevozov ali najemu avtomobila s prilagojeno opremo.\n*   **Nastanitev:** Le malo hotelov ponuja resnično popolno dostopnost. Pred rezervacijo neposredno preverite dimenzije sob, kopalniške ureditve in dostopne klančine.",
   "faq": [
     {
       "question": "Ali lahko z invalidskim vozičkom dostopim do katerega koli dela rovinjskega starega mesta?",
@@ -19,11 +19,11 @@
   ],
   "quickAnswer": "Zgodovinsko staro mesto Rovinja je zaradi strmih, tlakovanih ulic in številnih stopnic za invalidske vozičke znano zahtevno. Novejši deli mesta in glavna obalna promenada so bistveno dostopnejši. Pripravite se na omejeno infrastrukturo in dajte prednost dejavnostim na ravni tal.",
   "tableData": [],
-  "imageUrl": "https://images.unsplash.com/photo-1763568321881-eaf01c7d7af4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njg0MTh8MHwxfHNlYXJjaHw3fHx3aGVlbGNoYWlyJTIwdXNlciUyMHRyYXZlbGluZ3xlbnwwfDB8fHwxNzcwODAyNjQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-  "imageAlt": "People at a starbucks in a modern airport terminal.",
-  "imageCredit": "Alexander Schimmeck",
-  "imageCreditUrl": "https://unsplash.com/@alschim",
-  "imageSource": "unsplash",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Rovinj_-_ku%C4%87e_na_rivi.jpg/1280px-Rovinj_-_ku%C4%87e_na_rivi.jpg",
+  "imageAlt": "Houses along the waterfront in Rovinj",
+  "imageCredit": "Silverije (CC BY-SA 4.0)",
+  "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Rovinj_-_ku%C4%87e_na_rivi.jpg",
+  "imageSource": "wikimedia",
   "destination": "rovinj",
   "destinationName": "Rovinj",
   "region": "istria",
@@ -31,5 +31,6 @@
   "language": "sl",
   "generatedAt": "2026-02-12T09:21:06.704Z",
   "lat": 45.0812,
-  "lng": 13.6387
+  "lng": 13.6387,
+  "updatedAt": "2026-11-13T23:45:56.299Z"
 }

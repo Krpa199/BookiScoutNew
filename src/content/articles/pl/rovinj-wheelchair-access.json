@@ -1,8 +1,8 @@
 {
-  "title": "Przewodnik po dostępności i mobilności w Rovinj 2026",
-  "metaDescription": "Stare Miasto w Rovinj jest trudne dla osób na wózkach inwalidzkich. Ten przewodnik zawiera rzetelne informacje o dostępności w Rovinj w 2026 roku, obejmujące nabrzeże, transport i hotele.",
+  "title": "Przewodnik po dostępności i mobilności w Rovinj 2027",
+  "metaDescription": "Stare Miasto w Rovinj jest trudne dla osób na wózkach inwalidzkich. Ten przewodnik zawiera rzetelne informacje o dostępności w Rovinj w 2027 roku, obejmujące nabrzeże, transport i hotele.",
   "slug": "rovinj-wheelchair-access",
-  "content": "## Ogólna dostępność w Rovinj 2026\nRovinj, choć zachwycający, wymaga realistycznych oczekiwań od osób poruszających się na wózkach inwalidzkich.\n\n*   **Stare Miasto:** Skrajnie niedostępne. Strome, brukowane uliczki, nierówne nawierzchnie i wszechobecne schody sprawiają, że samodzielne poruszanie się jest niemal niemożliwe. Mieszkańcy rzadko poruszają się tam w ten sposób i nie bez powodu.\n*   **Promenada nadmorska:** W większości płaska i utwardzona, oferuje przyjemne, dostępne trasy wzdłuż portu i w kierunku nowszych części miasta.\n*   **Nowsze dzielnice:** Obszary poza bezpośrednim obwodem Starego Miasta mają zazwyczaj gładsze chodniki i bardziej płaski teren. Skup swoje aktywności w tych rejonach.\n*   **Transport:** Taksówki przystosowane dla osób na wózkach są rzadkością. Rozważ wcześniejszą rezerwację prywatnych transferów lub wynajęcie samochodu ze zmodyfikowanym sterowaniem dla optymalnej mobilności.\n*   **Zakwaterowanie:** Niewiele hoteli oferuje prawdziwą pełną dostępność. Przed rezerwacją należy dokładnie zweryfikować wymiary konkretnych pokoi, układ łazienek i obecność podjazdów.",
+  "content": "## Ogólna dostępność w Rovinj 2027\nRovinj, choć zachwycający, wymaga realistycznych oczekiwań od osób poruszających się na wózkach inwalidzkich.\n\n*   **Stare Miasto:** Skrajnie niedostępne. Strome, brukowane uliczki, nierówne nawierzchnie i wszechobecne schody sprawiają, że samodzielne poruszanie się jest niemal niemożliwe. Mieszkańcy rzadko poruszają się tam w ten sposób i nie bez powodu.\n*   **Promenada nadmorska:** W większości płaska i utwardzona, oferuje przyjemne, dostępne trasy wzdłuż portu i w kierunku nowszych części miasta.\n*   **Nowsze dzielnice:** Obszary poza bezpośrednim obwodem Starego Miasta mają zazwyczaj gładsze chodniki i bardziej płaski teren. Skup swoje aktywności w tych rejonach.\n*   **Transport:** Taksówki przystosowane dla osób na wózkach są rzadkością. Rozważ wcześniejszą rezerwację prywatnych transferów lub wynajęcie samochodu ze zmodyfikowanym sterowaniem dla optymalnej mobilności.\n*   **Zakwaterowanie:** Niewiele hoteli oferuje prawdziwą pełną dostępność. Przed rezerwacją należy dokładnie zweryfikować wymiary konkretnych pokoi, układ łazienek i obecność podjazdów.",
   "faq": [
     {
       "question": "Czy mogę wjechać wózkiem inwalidzkim do jakiejkolwiek części Starego Miasta w Rovinj?",
@@ -19,11 +19,11 @@
   ],
   "quickAnswer": "Historyczne Stare Miasto w Rovinj jest notorycznie trudne dla osób na wózkach inwalidzkich ze względu na strome, brukowane uliczki i liczne schody. Nowsze części miasta i główna promenada są znacznie bardziej dostępne. Przygotuj się na ograniczoną infrastrukturę i skup się na aktywnościach na poziomie gruntu.",
   "tableData": [],
-  "imageUrl": "https://images.unsplash.com/photo-1763568321881-eaf01c7d7af4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njg0MTh8MHwxfHNlYXJjaHw3fHx3aGVlbGNoYWlyJTIwdXNlciUyMHRyYXZlbGluZ3xlbnwwfDB8fHwxNzcwODAyNjQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-  "imageAlt": "People at a starbucks in a modern airport terminal.",
-  "imageCredit": "Alexander Schimmeck",
-  "imageCreditUrl": "https://unsplash.com/@alschim",
-  "imageSource": "unsplash",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Rovinj_-_ku%C4%87e_na_rivi.jpg/1280px-Rovinj_-_ku%C4%87e_na_rivi.jpg",
+  "imageAlt": "Houses along the waterfront in Rovinj",
+  "imageCredit": "Silverije (CC BY-SA 4.0)",
+  "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Rovinj_-_ku%C4%87e_na_rivi.jpg",
+  "imageSource": "wikimedia",
   "destination": "rovinj",
   "destinationName": "Rovinj",
   "region": "istria",
@@ -31,5 +31,6 @@
   "language": "pl",
   "generatedAt": "2026-02-12T09:20:33.155Z",
   "lat": 45.0812,
-  "lng": 13.6387
+  "lng": 13.6387,
+  "updatedAt": "2026-11-13T23:45:56.299Z"
 }

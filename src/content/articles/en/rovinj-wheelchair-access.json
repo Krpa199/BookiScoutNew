@@ -1,8 +1,8 @@
 {
-  "title": "Rovinj Wheelchair Accessibility & Mobility Guide 2026",
-  "metaDescription": "Rovinj's Old Town is challenging for wheelchairs. This guide offers direct facts on accessibility in Rovinj 2026, covering waterfront, transport, and hotels.",
+  "title": "Rovinj Wheelchair Accessibility & Mobility Guide 2027",
+  "metaDescription": "Rovinj's Old Town is challenging for wheelchairs. This guide offers direct facts on accessibility in Rovinj 2027, covering waterfront, transport, and hotels.",
   "slug": "rovinj-wheelchair-access",
-  "content": "## Rovinj Accessibility Overview 2026\nRovinj, while stunning, demands realistic expectations for wheelchair users.\n\n*   **Old Town:** Brutally inaccessible. Steep cobblestone streets, uneven surfaces, and pervasive stairs make independent navigation nearly impossible. Locals rarely navigate it this way, and for good reason.\n*   **Waterfront Promenade:** Mostly flat and paved, offering pleasant, accessible routes along the harbor and towards newer parts of town.\n*   **Newer Districts:** Areas beyond the Old Town's immediate perimeter typically have smoother sidewalks and flatter terrain. Focus your activities here.\n*   **Transportation:** Accessible taxis are rare. Consider pre-booking private transfers or renting a car with adaptive controls for optimal mobility.\n*   **Accommodation:** Few hotels offer true full accessibility. Verify specific room dimensions, bathroom setups, and entrance ramps directly before booking.",
+  "content": "## Rovinj Accessibility Overview 2027\nRovinj, while stunning, demands realistic expectations for wheelchair users.\n\n*   **Old Town:** Brutally inaccessible. Steep cobblestone streets, uneven surfaces, and pervasive stairs make independent navigation nearly impossible. Locals rarely navigate it this way, and for good reason.\n*   **Waterfront Promenade:** Mostly flat and paved, offering pleasant, accessible routes along the harbor and towards newer parts of town.\n*   **Newer Districts:** Areas beyond the Old Town's immediate perimeter typically have smoother sidewalks and flatter terrain. Focus your activities here.\n*   **Transportation:** Accessible taxis are rare. Consider pre-booking private transfers or renting a car with adaptive controls for optimal mobility.\n*   **Accommodation:** Few hotels offer true full accessibility. Verify specific room dimensions, bathroom setups, and entrance ramps directly before booking.",
   "faq": [
     {
       "question": "Can I access any part of Rovinj's Old Town in a wheelchair?",
@@ -19,11 +19,11 @@
   ],
   "quickAnswer": "Rovinj's historic Old Town is notoriously challenging for wheelchairs due to steep, cobbled streets and numerous stairs. Newer town sections and the main waterfront are significantly more accessible. Prepare for limited infrastructure and prioritize ground-level activities.",
   "tableData": [],
-  "imageUrl": "https://images.unsplash.com/photo-1763568321881-eaf01c7d7af4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njg0MTh8MHwxfHNlYXJjaHw3fHx3aGVlbGNoYWlyJTIwdXNlciUyMHRyYXZlbGluZ3xlbnwwfDB8fHwxNzcwODAyNjQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-  "imageAlt": "People at a starbucks in a modern airport terminal.",
-  "imageCredit": "Alexander Schimmeck",
-  "imageCreditUrl": "https://unsplash.com/@alschim",
-  "imageSource": "unsplash",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Rovinj_-_ku%C4%87e_na_rivi.jpg/1280px-Rovinj_-_ku%C4%87e_na_rivi.jpg",
+  "imageAlt": "Houses along the waterfront in Rovinj",
+  "imageCredit": "Silverije (CC BY-SA 4.0)",
+  "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Rovinj_-_ku%C4%87e_na_rivi.jpg",
+  "imageSource": "wikimedia",
   "destination": "rovinj",
   "destinationName": "Rovinj",
   "region": "istria",
@@ -31,5 +31,6 @@
   "language": "en",
   "generatedAt": "2026-02-12T09:20:22.540Z",
   "lat": 45.0812,
-  "lng": 13.6387
+  "lng": 13.6387,
+  "updatedAt": "2026-11-13T23:45:56.299Z"
 }
