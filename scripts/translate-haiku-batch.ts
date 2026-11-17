@@ -159,7 +159,11 @@ async function collect(id: string, dry: boolean, only?: Set<string>) {
       if (lang !== 'ru' && /[Ͱ-ϿЀ-ӿ]/.test(t.title || '')) throw new Error('garbled title');
       if (/[぀-ヿ一-鿿가-힯؀-ۿ]/.test(JSON.stringify(t))) throw new Error('foreign-script junk');
       // a number followed by a non-euro unit ("kníh" = books is not "kn")
-      if (/\d\s?(kn|HRK|Kč|zł|Ft)(?!\p{L})|\d\s?\$|\$\s?\d/u.test(JSON.stringify(t))) throw new Error('non-euro price');
+      // The English may legitimately quote an old kuna price ("before the euro a
+      // ticket was 200 kn", price-2027 guides), so only reject a translation
+      // that has MORE non-euro amounts than its source.
+      const nonEuro = (x: unknown) => (JSON.stringify(x).match(/\d\s?(kn|HRK|Kč|zł|Ft)(?!\p{L})|\d\s?\$|\$\s?\d/gu) || []).length;
+      if (nonEuro(t) > nonEuro(en)) throw new Error('non-euro price');
       if (!hub) t.content = trimEnding(t.content) ?? t.content;
       const keep = hub ? ['destination'] : KEEP;
       const out = { ...t, ...Object.fromEntries(keep.filter(k => en[k] !== undefined).map(k => [k, en[k]])), language: lang, updatedAt: new Date().toISOString() };
