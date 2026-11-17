@@ -30,12 +30,6 @@
       "distance": "50 min crossing, up to 14 sailings/day in summer"
     },
     {
-      "name": "Krilo catamaran Split–Supetar",
-      "price": "~€10 one way",
-      "rating": "Fastest",
-      "distance": "~20 min crossing, foot passengers only"
-    },
-    {
       "name": "Seasonal catamaran Split–Bol (Jadrolinija / Krilo)",
       "price": "€10–€25 one way",
       "rating": "Most direct for Zlatni Rat",
@@ -54,11 +48,11 @@
       "distance": "~7 hours including transfers"
     }
   ],
-  "imageUrl": "https://images.pexels.com/photos/27518977/pexels-photo-27518977.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-  "imageAlt": "Scenic view of Supetar's historic waterfront with people strolling, palm trees, and boats on Brac Island.",
-  "imageCredit": "Vladimir Srajber",
-  "imageCreditUrl": "https://www.pexels.com/@vladimirsrajber",
-  "imageSource": "pexels",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Aerial_view_of_Zlatni_rat_%28Golden_Horn%29_Beach_in_Bol%2C_Croatia_%2848608813081%29.jpg/1280px-Aerial_view_of_Zlatni_rat_%28Golden_Horn%29_Beach_in_Bol%2C_Croatia_%2848608813081%29.jpg",
+  "imageAlt": "Aerial view of Zlatni Rat beach near Bol on Brač",
+  "imageCredit": "dronepicr (CC BY 2.0)",
+  "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Zlatni_rat_(Golden_Horn)_Beach_in_Bol,_Croatia_(48608813081).jpg",
+  "imageSource": "wikimedia",
   "destination": "brac",
   "destinationName": "Brač",
   "region": "split-dalmatia",
