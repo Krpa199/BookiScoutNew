@@ -1,0 +1,27 @@
+name: Topic Queue Alert
+
+# Once a day: counts the topics the daily generator still has queued and FAILS
+# when fewer than 100 are left (~5 days). A failed run makes GitHub email the
+# repo owner, so the generator never sits idle unnoticed again (it did
+# 2026-11-13 → 11-17). Separate workflow on purpose: failing inside
+# generate-articles.yml would stop the review/translate/deploy chain.
+
+on:
+  schedule:
+    - cron: '0 18 * * *'
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      - run: npm ci || (sleep 30 && npm ci)
+      - name: Count queued topics
+        env:
+          TOPIC_ALERT_MIN: '100'
+        run: npx tsx scripts/check-topic-queue.ts
