@@ -19,6 +19,7 @@ import { DESTINATIONS } from '../src/config/destinations';
 const PLACE_THEMES = new Set([
   'is-it-worth-it', 'stay-nearby', 'overtourism-alternatives', 'where-to-stay',
   'first-time-visitors', 'things-to-do', 'itinerary',
+  'worth-the-day-trip', 'price-2027',
 ]);
 const isPlaceTheme = (theme: string) => PLACE_THEMES.has(theme) || theme.startsWith('vs-');
 

@@ -354,6 +354,15 @@ export const GENERATION_TIERS: readonly (readonly Theme[])[] = [
     'best-time-to-visit', 'crowds-by-month', 'cost-guide',
     'things-to-do', 'beach', 'day-trips', 'itinerary', 'island-hopping',
   ],
+  // 2026-11-17: tiers 1–2 were fully drained (generator idle since 11-13).
+  // Planner themes that already existed in the code but were never queued.
+  // Tier 3 = decisions people make before booking.
+  ['worth-the-day-trip', 'price-2027', 'car-vs-no-car'],
+  // Tier 4 = when to go and what to plan the trip around.
+  [
+    'off-season', 'peak-season', 'weather-by-month',
+    'sailing', 'hiking', 'food-and-wine', 'camping-and-glamping', 'snorkeling-and-diving',
+  ],
 ];
 
 export function isThemeAvailableFor(destinationSlug: string, theme: Theme): boolean {
