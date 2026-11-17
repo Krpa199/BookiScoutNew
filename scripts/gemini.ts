@@ -1266,6 +1266,14 @@ const OVERLAP_GROUPS: Record<string, { focus: string; leaveTo: string }> = {
     focus: 'how busy each month is and when to avoid the crowds',
     leaveTo: 'weather specifics and the overall best-time verdict',
   },
+  'sandy-beaches': {
+    focus: 'beach surface (sand vs pebble vs rock) and which beaches really are sandy',
+    leaveTo: 'a general overview of every beach and beach bars (covered by the beach guide)',
+  },
+  'how-many-days': {
+    focus: 'deciding how long to stay and how the place fits into a wider route',
+    leaveTo: 'a detailed day-by-day plan (covered by the itinerary guide)',
+  },
 };
 
 // The season an article is written for. From October on people plan NEXT
@@ -1348,7 +1356,7 @@ export function buildPrompt(destination: Destination, theme: Theme, language: st
     'remote-work-cafes': 'best cafes and spots to work from remotely, with wifi and atmosphere notes',
     'ev-charging': 'electric vehicle charging stations and EV-friendly road trip planning',
     'rainy-day': 'things to do on a rainy day and indoor activities',
-    'with-a-dog': 'traveling with a dog: dog-friendly beaches, ferries, and accommodation',
+    'with-a-dog': `planning a holiday with a dog: named dog beaches (official dog beaches / "plaža za pse" where they exist), whether dogs are allowed on other beaches, in the old town, in restaurants, in national parks and on ferries and catamarans, what accommodation typically charges for a dog, summer heat and the best months to come with a dog, vet basics, and EU pet passport rules for driving in. End with a clear verdict on how dog-friendly ${destination.name} is`,
     'local-etiquette': 'local etiquette, tipping norms, and cultural tips visitors should know',
     // Seasonal events
     'advent': 'the Advent / Christmas market season (late November to early January) for visitors planning a trip: exact 2026 dates and main market locations, what to see, eat and drink with typical prices (mulled wine, fritule, sausages), best days and times to avoid crowds, where to park during Advent and parking prices, getting there by car or train from Budapest, Vienna, Graz, Ljubljana and Munich (drive times, vignettes, tolls), and which area to stay in',
@@ -1367,6 +1375,13 @@ export function buildPrompt(destination: Destination, theme: Theme, language: st
     'vs-sibenik': 'choosing between this place and Šibenik as a holiday base: beaches, old town, crowds, price level, Krka and Kornati access, ending with a clear "choose X if…, choose Šibenik if…" verdict',
     'vs-opatija': 'choosing between this place and Opatija for a Kvarner holiday: seafront, beaches, atmosphere, price level, families vs seniors vs couples, ending with a clear "choose X if…, choose Opatija if…" verdict',
     'vs-krk': 'choosing between this island and Krk for a Kvarner island holiday: beaches, getting there (bridge vs ferry), crowds, price level and who each suits, ending with a clear "choose X if…, choose Krk if…" verdict',
+    // Planner 2027 (2026-11-17) — from Search Console + Keyword Planner demand
+    'sandy-beaches': `sandy and fine-pebble beaches in and near ${destination.name} for travelers choosing where to go: name the real beaches with their surface (sand, fine pebble, pebble, rock or concrete), how shallow the water is for children, shade, crowds, parking and how to get there. Most Croatian beaches are pebble — if ${destination.name} has no true sandy beach, say so plainly in the first paragraph and point to the nearest real sandy beaches with travel time. End with a verdict on whether ${destination.name} suits people who want sand`,
+    'all-inclusive': `all-inclusive holidays: whether real all-inclusive hotels or resorts exist in ${destination.name} (name a resort only if current sources confirm it sells all-inclusive), what is typically included, a rough price per person per night in peak and in shoulder season compared with half-board and with a private apartment, and who all-inclusive suits here (families with small children, short stays) versus who is better off self-catering. If ${destination.name} has no all-inclusive offer, say so plainly and name the nearest places that have it`,
+    'how-many-days': `how many days to spend in ${destination.name} for travelers planning a Croatia trip: give a clear recommended number of days in the first paragraph, then what 1 day, 2–3 days and a longer stay each let you see, whether ${destination.name} works as a day trip from a nearby base, and how to fit it into a 7- or 10-day Croatia route. End with a recommendation by traveler type (first-timers, families, couples, beach holiday)`,
+    'vs-krka': 'choosing between this national park and Krka National Park when there is time for only one: scenery, the walking routes and how strenuous they are, swimming rules (check current rules), crowds, ticket prices and advance booking, time needed, best base towns and how to get there, ending with a clear "choose X if…, choose Krka if…" verdict',
+    'vs-porec': 'choosing between this place and Poreč as an Istria holiday base: beaches, old town, crowds, price level, resorts vs private apartments, families vs couples and day trips, ending with a clear "choose X if…, choose Poreč if…" verdict',
+    'vs-pula': 'choosing between this place and Pula as a holiday base: beaches, sights (the Arena), airport access, crowds, price level and day trips, ending with a clear "choose X if…, choose Pula if…" verdict',
   };
 
   // Fallback for any theme not explicitly defined

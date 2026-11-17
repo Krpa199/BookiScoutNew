@@ -232,6 +232,22 @@ export const PLANNER_DECISIONS = [
   'vs-krk',
 ] as const;
 
+// Phase 13: Planner themes from Search Console + Keyword Planner (2026-11-17)
+// Monthly volume across DE/AT/PL/HU/CZ/SK/SI/IT/UK/US: "croatia sandy beaches",
+// "kroatien sandstrand", "croazia spiagge di sabbia" 1k–10k each; "kroatien
+// all inclusive", "chorwacja all inclusive" 1k–10k; "how many days in
+// split/dubrovnik" 100–1k; "plitvice or krka" 100–1k. GSC already shows us at
+// pos 3–10 for "<place> homokos strand", "<place> mit Hund", "novigrad oder
+// porec", "rijeka czy pula" without dedicated pages. Limited via THEME_DESTINATIONS.
+export const PLANNER_2027 = [
+  'sandy-beaches',
+  'all-inclusive',
+  'how-many-days',
+  'vs-krka',
+  'vs-porec',
+  'vs-pula',
+] as const;
+
 // Legacy themes - NOT generated for new destinations, but kept for type compatibility
 // (these already exist for completed destinations and remain indexed by Google)
 // 2026-05: moved high-traffic themes back into active categories — see PRACTICAL_DECISIONS,
@@ -265,6 +281,7 @@ export const THEMES = [
   ...MODERN_PRACTICAL,
   ...SEASONAL_EVENTS,
   ...PLANNER_DECISIONS,
+  ...PLANNER_2027,
 ] as const;
 
 // All themes including legacy (for type compatibility with existing articles)
@@ -292,6 +309,8 @@ export const GROUNDING_THEMES: ReadonlySet<string> = new Set([
   'best-time-to-visit', 'crowds-by-month', 'peak-season', 'off-season',
   // Event dates, locations and prices change every year
   'advent',
+  // Planner 2027: resort offers and dog rules change
+  'all-inclusive', 'with-a-dog',
 ]);
 
 export type TravelerType = typeof TRAVELER_TYPES[number];
@@ -306,6 +325,7 @@ export type DecisionTheme = typeof DECISION_THEMES[number];
 export type ModernPractical = typeof MODERN_PRACTICAL[number];
 export type SeasonalEvent = typeof SEASONAL_EVENTS[number];
 export type PlannerDecision = typeof PLANNER_DECISIONS[number];
+export type Planner2027 = typeof PLANNER_2027[number];
 export type LegacyTheme = typeof LEGACY_THEMES[number];
 export type Theme = typeof ALL_THEMES[number];
 
@@ -335,6 +355,29 @@ export const THEME_DESTINATIONS: Partial<Record<Theme, readonly string[]>> = {
   'vs-sibenik': ['vodice', 'primosten', 'zadar'],
   'vs-opatija': ['lovran', 'crikvenica', 'rijeka'],
   'vs-krk': ['rab', 'losinj', 'cres'],
+  // Planner 2027 (see PLANNER_2027)
+  'sandy-beaches': [
+    'split', 'dubrovnik', 'zadar', 'rijeka', 'pula', 'rovinj', 'porec', 'umag', 'novigrad',
+    'vrsar', 'fazana', 'medulin', 'rabac', 'opatija', 'crikvenica', 'novi-vinodolski', 'lovran',
+    'krk', 'rab', 'cres', 'losinj', 'sibenik', 'trogir', 'makarska', 'omis', 'baska-voda',
+    'brela', 'tucepi', 'podgora', 'biograd', 'vodice', 'primosten', 'nin', 'hvar', 'brac',
+    'korcula', 'vis', 'mljet', 'bol', 'supetar', 'stari-grad', 'jelsa', 'cavtat', 'orebic',
+    'ston', 'slano', 'lopud',
+  ],
+  // Resort towns where all-inclusive is a real booking choice.
+  'all-inclusive': [
+    'porec', 'umag', 'novigrad', 'vrsar', 'rabac', 'medulin', 'pula', 'crikvenica',
+    'novi-vinodolski', 'krk', 'rab', 'losinj', 'biograd', 'vodice', 'sibenik', 'primosten',
+    'makarska', 'tucepi', 'podgora', 'baska-voda', 'bol', 'dubrovnik', 'cavtat',
+  ],
+  'how-many-days': [
+    'split', 'dubrovnik', 'zagreb', 'zadar', 'pula', 'rovinj', 'porec', 'opatija', 'rijeka',
+    'sibenik', 'trogir', 'makarska', 'hvar', 'brac', 'korcula', 'vis', 'krk', 'losinj', 'cres',
+    'mljet', 'plitvice', 'krka',
+  ],
+  'vs-krka': ['plitvice'],
+  'vs-porec': ['novigrad', 'umag'],
+  'vs-pula': ['rijeka', 'medulin'],
 };
 
 // What the daily generator writes. The site's goal is trip PLANNERS, so only
@@ -353,6 +396,12 @@ export const GENERATION_TIERS: readonly (readonly Theme[])[] = [
     'family', 'families-with-teens', 'first-time-visitors', 'couples', 'seniors',
     'best-time-to-visit', 'crowds-by-month', 'cost-guide',
     'things-to-do', 'beach', 'day-trips', 'itinerary', 'island-hopping',
+  ],
+  // 2026-11-17: new planner themes with the most demand (PLANNER_2027 + the
+  // never-generated with-a-dog), approved by Mario after 7 sample articles.
+  [
+    'sandy-beaches', 'with-a-dog', 'all-inclusive',
+    'vs-krka', 'vs-porec', 'vs-pula', 'how-many-days',
   ],
   // 2026-11-17: tiers 1–2 were fully drained (generator idle since 11-13).
   // Planner themes that already existed in the code but were never queued.
