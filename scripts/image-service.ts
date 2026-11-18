@@ -10,6 +10,7 @@
  * 3. AI validates that image actually matches the theme
  */
 
+import Anthropic from '@anthropic-ai/sdk';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import { DESTINATIONS } from '../src/config/destinations';
 
@@ -726,31 +727,75 @@ function isCoastalDestination(destination?: string): boolean {
   return !CONTINENTAL_DESTINATIONS.includes(destination.toLowerCase());
 }
 
+// Image validation runs on Claude Haiku first (paid from the Anthropic API
+// credit, key ANTHROPIC_TRANSLATE_KEY); Gemini Flash is the backup when Haiku
+// errors (no key, no credit, API down, unsupported image) — 2026-11-18.
+const HAIKU_VISION_MODEL = process.env.HAIKU_MODEL || 'claude-haiku-5-5';
+const HAIKU_IMAGE_TYPES = new Set(['image/jpeg', 'image/png', 'image/gif', 'image/webp']);
+const HAIKU_MAX_IMAGE_BYTES = 5 * 1024 * 1024; // API limit per image
+let anthropicClient: Anthropic | null = null;
+
+function parseVerdict(text: string): { valid: boolean; reason: string } {
+  const json = text.trim().replace(/^```(json)?\s*/, '').replace(/```\s*$/, '');
+  const start = json.indexOf('{');
+  const end = json.lastIndexOf('}');
+  const v = JSON.parse(start >= 0 && end > start ? json.slice(start, end + 1) : json);
+  return { valid: v.valid === true, reason: v.reason || 'Unknown' };
+}
+
+async function validateWithHaiku(prompt: string, base64Image: string, mimeType: string, bytes: number) {
+  const key = process.env.ANTHROPIC_TRANSLATE_KEY;
+  if (!key) throw new Error('no ANTHROPIC_TRANSLATE_KEY');
+  if (!HAIKU_IMAGE_TYPES.has(mimeType)) throw new Error(`unsupported image type ${mimeType}`);
+  if (bytes > HAIKU_MAX_IMAGE_BYTES) throw new Error(`image too large (${bytes} bytes)`);
+  anthropicClient ??= new Anthropic({ apiKey: key });
+  const message = await anthropicClient.messages.create({
+    model: HAIKU_VISION_MODEL,
+    max_tokens: 4000,
+    output_config: { effort: 'low' },
+    messages: [{
+      role: 'user',
+      content: [
+        { type: 'image', source: { type: 'base64', media_type: mimeType as 'image/jpeg', data: base64Image } },
+        { type: 'text', text: prompt },
+      ],
+    }],
+  } as Anthropic.MessageCreateParamsNonStreaming);
+  if (message.stop_reason === 'refusal') throw new Error('Haiku refused');
+  const text = message.content.map(b => (b.type === 'text' ? b.text : '')).join('');
+  return parseVerdict(text);
+}
+
+async function validateWithGemini(prompt: string, base64Image: string, mimeType: string) {
+  const apiKey = getGeminiImageApiKey();
+  if (!apiKey) throw new Error('no GEMINI_API_KEY_IMAGE');
+  const genAI = new GoogleGenerativeAI(apiKey);
+  // Use the rolling "latest flash" alias: Google retired gemini-2.0-flash
+  // (404 "no longer available") around 2026-06-02, which silently made EVERY
+  // validation throw → every image rejected → every article fell back to a
+  // generic stock photo (cause of mass-duplicated cover images). The alias
+  // tracks the current flash model so it survives future retirements.
+  const model = genAI.getGenerativeModel({ model: 'gemini-flash-latest' });
+  const result = await model.generateContent([prompt, { inlineData: { mimeType, data: base64Image } }]);
+  return parseVerdict(result.response.text());
+}
+
 async function validateImageWithAI(
   imageUrl: string,
   theme: string,
   destination?: string
 ): Promise<{ valid: boolean; reason: string }> {
-  const apiKey = getGeminiImageApiKey();
-  if (!apiKey) {
+  if (!process.env.ANTHROPIC_TRANSLATE_KEY && !getGeminiImageApiKey()) {
     console.log('    ⚠️ No AI validation key, skipping validation');
     return { valid: false, reason: 'No API key - rejecting to be safe' };
   }
 
   try {
-    const genAI = new GoogleGenerativeAI(apiKey);
-    // Use the rolling "latest flash" alias: Google retired gemini-2.0-flash
-    // (404 "no longer available") around 2026-06-02, which silently made EVERY
-    // validation throw → every image rejected → every article fell back to a
-    // generic stock photo (cause of mass-duplicated cover images). The alias
-    // tracks the current flash model so it survives future retirements.
-    const model = genAI.getGenerativeModel({ model: 'gemini-flash-latest' });
-
     // Fetch image as base64
     const imageResponse = await fetch(imageUrl);
     const imageBuffer = await imageResponse.arrayBuffer();
     const base64Image = Buffer.from(imageBuffer).toString('base64');
-    const mimeType = imageResponse.headers.get('content-type') || 'image/jpeg';
+    const mimeType = (imageResponse.headers.get('content-type') || 'image/jpeg').split(';')[0].trim();
 
     // Place-cover themes just need an attractive view of the place — demanding
     // "accommodation" for where-to-stay rejected every Plitvice lake photo.
@@ -837,19 +882,12 @@ Be STRICT. A mediocre image is worse than no image. When in doubt, REJECT.
 Respond ONLY with valid JSON (no markdown, no code blocks):
 {"valid": true/false, "reason": "specific explanation why accepted or rejected"}`;
 
-    const result = await model.generateContent([
-      prompt,
-      { inlineData: { mimeType, data: base64Image } },
-    ]);
-
-    const responseText = result.response.text().trim();
-    let cleanText = responseText;
-    if (cleanText.startsWith('```json')) cleanText = cleanText.slice(7);
-    if (cleanText.startsWith('```')) cleanText = cleanText.slice(3);
-    if (cleanText.endsWith('```')) cleanText = cleanText.slice(0, -3);
-
-    const validation = JSON.parse(cleanText.trim());
-    return { valid: validation.valid === true, reason: validation.reason || 'Unknown' };
+    try {
+      return await validateWithHaiku(prompt, base64Image, mimeType, imageBuffer.byteLength);
+    } catch (haikuError) {
+      console.log(`    ↪️ Haiku validation failed (${(haikuError as Error).message}), using Gemini`);
+      return await validateWithGemini(prompt, base64Image, mimeType);
+    }
   } catch (error) {
     console.log(`    ⚠️ Validation error: ${(error as Error).message}`);
     // On error, REJECT to be safe (don't allow potentially bad images)

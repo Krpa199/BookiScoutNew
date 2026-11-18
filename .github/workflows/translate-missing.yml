@@ -32,6 +32,7 @@ on:
 env:
   GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
   GEMINI_API_KEY_IMAGE: ${{ secrets.GEMINI_API_KEY_IMAGE }}
+  ANTHROPIC_TRANSLATE_KEY: ${{ secrets.ANTHROPIC_TRANSLATE_KEY }}
 
 jobs:
   translate:
@@ -64,6 +65,7 @@ jobs:
         env:
           GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
           GEMINI_API_KEY_IMAGE: ${{ secrets.GEMINI_API_KEY_IMAGE }}
+          ANTHROPIC_TRANSLATE_KEY: ${{ secrets.ANTHROPIC_TRANSLATE_KEY }}
           LIMIT: ${{ github.event.inputs.limit }}
           LANG_FILTER: ${{ github.event.inputs.lang }}
           DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && '1' || '' }}

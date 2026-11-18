@@ -45,6 +45,7 @@ on:
 
 env:
   GEMINI_API_KEY_IMAGE: ${{ secrets.GEMINI_API_KEY_IMAGE }}
+  ANTHROPIC_TRANSLATE_KEY: ${{ secrets.ANTHROPIC_TRANSLATE_KEY }}
   PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
   UNSPLASH_API_KEY: ${{ secrets.UNSPLASH_API_KEY }}
 
@@ -73,6 +74,7 @@ jobs:
         run: npx tsx scripts/refix-fallback-images.ts
         env:
           GEMINI_API_KEY_IMAGE: ${{ secrets.GEMINI_API_KEY_IMAGE }}
+          ANTHROPIC_TRANSLATE_KEY: ${{ secrets.ANTHROPIC_TRANSLATE_KEY }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           UNSPLASH_API_KEY: ${{ secrets.UNSPLASH_API_KEY }}
           LIMIT: ${{ github.event.inputs.limit }}
