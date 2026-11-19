@@ -29,7 +29,7 @@ const SL = new Set('kje splača prenočiti hrvaški hrvaškem lahko zelo vendar 
 const SK = new Set('kde oplatí ubytovať chorvátsky chorvátskom môžete veľmi však ak ktoré bude roku návšteva more tiež alebo sprievodca'.split(' '));
 
 const slugs = slugsFromArgs();
-const langs = fs.readdirSync(DIR).filter(l => l !== 'en');
+const langs = fs.readdirSync(DIR, { withFileTypes: true }).filter(d => d.isDirectory() && d.name !== 'en').map(d => d.name);
 let problems = 0;
 
 for (const slug of slugs) {
