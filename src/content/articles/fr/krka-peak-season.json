@@ -1,6 +1,6 @@
 {
-  "title": "Saison Haute du Parc de Krka et Guide d'Été 2026",
-  "metaDescription": "Naviguez la haute saison 2026 du Parc National de Krka. Conseils d'experts pour votre voyage d'été, comment éviter la foule et optimiser votre visite. Conseils directs et sans fard.",
+  "title": "Saison Haute du Parc de Krka et Guide d'Été 2027",
+  "metaDescription": "Naviguez la haute saison 2027 du Parc National de Krka. Conseils d'experts pour votre voyage d'été, comment éviter la foule et optimiser votre visite. Conseils directs et sans fard.",
   "slug": "krka-peak-season",
   "content": "## Aperçu de la Haute Saison à Krka\n\nLe Parc National de Krka en juillet et août est un véritable aimant à touristes. Attendez-vous à une foule dense, surtout à Skradinski Buk. L'entrée au parc peut être lente, et les parkings se remplissent rapidement. C'est une de ces choses qui semble géniale en théorie, mais qui l'est moins en pratique. De plus, comme la baignade est désormais interdite à Skradinski Buk, l'attrait principal se limite à l'observation, rendant la foule encore plus préjudiciable à votre plaisir.\n\n## Conseils Essentiels pour Voyager en Été\n\n*   **Arrivez Tôt ou Tard :** Visez une entrée au parc avant 8h00 ou après 16h00. C'est non négociable pour une visite supportable.\n*   **Réservez vos Billets en Ligne :** Sécurisez vos entrées sur le site officiel de Krka des *semaines* à l'avance. Les billets achetés sur place sont peu fiables.\n*   **Explorez au-delà de Skradinski Buk :** Visitez Roski Slap ou le Monastère de Visovac. Ces zones offrent une beauté stupéfiante avec beaucoup moins de monde.\n*   **Portez des Chaussures Adaptées :** Les sentiers sont longs et peuvent être inégaux. Des chaussures de marche solides sont indispensables.\n*   **Hydratation et Protection :** Emportez de l'eau, de la crème solaire et un chapeau. Les températures estivales sont élevées.\n",
   "faq": [
@@ -17,13 +17,13 @@
       "answer": "Arrivez à l'ouverture, visitez les zones moins populaires comme Roski Slap, et privilégiez les visites en milieu de semaine plutôt que les week-ends."
     }
   ],
-  "quickAnswer": "La haute saison du Parc National de Krka (juillet-août) est extrêmement bondée. Pour vraiment apprécier Krka sans foule envahissante, vous devez arriver avant 8h00 ou après 16h00. La réservation en ligne des billets est obligatoire. La baignade à Skradinski Buk n'est plus autorisée.",
+  "quickAnswer": "La haute saison du Parc National de Krka (juillet-août) est extrêmement bondée. Pour vraiment apprécier Krka sans foule envahissante, vous devez arriver avant 8h00 ou après 16h00. Il est fortement conseillé de réserver ses billets en ligne à l'avance. La baignade à Skradinski Buk n'est plus autorisée.",
   "tableData": [],
-  "imageUrl": "https://images.unsplash.com/photo-1761773538858-5a51e5c9b0bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njg0MTh8MHwxfHNlYXJjaHw3fHxDcm9hdGlhJTIwYWRyaWF0aWMlMjBjb2FzdCUyMHRvd258ZW58MHwwfHx8MTc4MTMwNjIwNnww&ixlib=rb-4.1.0&q=80&w=1080",
-  "imageAlt": "Boat sails past lighthouse on sunny day",
-  "imageCredit": "Levi Ari Pronk",
-  "imageCreditUrl": "https://unsplash.com/@leviaripronk",
-  "imageSource": "unsplash",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Skradinski_buk_Krka_National_Park_2.jpg/1280px-Skradinski_buk_Krka_National_Park_2.jpg",
+  "imageAlt": "Skradinski Buk waterfall, Krka National Park",
+  "imageCredit": "kallerna (CC BY-SA 4.0)",
+  "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Skradinski_buk_Krka_National_Park_2.jpg",
+  "imageSource": "wikimedia",
   "destination": "krka",
   "destinationName": "Krka",
   "region": "dalmatia",
@@ -31,5 +31,6 @@
   "language": "fr",
   "generatedAt": "2026-03-01T10:18:36.440Z",
   "lat": 43.8,
-  "lng": 16
+  "lng": 16,
+  "updatedAt": "2026-11-20T00:46:18.383Z"
 }

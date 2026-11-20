@@ -1,6 +1,6 @@
 {
-  "title": "Krka Vrchol sezóny a Letní průvodce 2026",
-  "metaDescription": "Proplujte sezónou 2026 v Národním parku Krka. Získejte expertní tipy pro letní cestování, vyhněte se davům a maximalizujte svůj zážitek. Brutálně upřímné rady.",
+  "title": "Krka Vrchol sezóny a Letní průvodce 2027",
+  "metaDescription": "Proplujte sezónou 2027 v Národním parku Krka. Získejte expertní tipy pro letní cestování, vyhněte se davům a maximalizujte svůj zážitek. Brutálně upřímné rady.",
   "slug": "krka-peak-season",
   "content": "## Přehled vrcholné sezóny Krky\n\nNárodní park Krka je v červenci a srpnu turistickým centrem. Počítejte se značnými davy, zejména u Skradinského buku. Vstup do parku může být pomalý, parkoviště plná. Toto je jedna z těch věcí, která zní skvěle, dokud to nezkusíte. Nyní, když je koupání u Skradinského buku zakázáno, je hlavní atrakcí pouze vyhlídka, což situaci s davy ještě zhoršuje pro požitek z návštěvy.\n\n## Základní tipy pro letní cestování\n\n*   **Přijeďte brzy/pozdě:** Cílem je vjezd do parku před 8:00 nebo po 16:00. Pro snesitelnou návštěvu je to nepřekročitelné.\n*   **Rezervujte vstupenky online:** Zajistěte si vstupenky na oficiálních stránkách Krky *týdny* předem. Vstupenky na místě jsou nespolehlivé.\n*   **Prozkoumejte i jiné oblasti než Skradinský buk:** Navštivte Roški slap nebo klášter Visovac. Tyto oblasti nabízejí ohromující krásu s výrazně menším počtem lidí.\n*   **Noste vhodnou obuv:** Stezky jsou rozsáhlé a mohou být nerovné. Pevná vycházková obuv je nezbytná.\n*   **Zůstaňte hydratovaní a chránění:** Mějte s sebou vodu, opalovací krém a klobouk. Letní teploty jsou vysoké.\n",
   "faq": [
@@ -17,13 +17,13 @@
       "answer": "Přijďte při otevření, navštivte méně populární oblasti jako Roški slap a zvažte návštěvu uprostřed týdne namísto víkendů."
     }
   ],
-  "quickAnswer": "Vrchol sezóny v Národním parku Krka (červenec–srpen) je extrémně přeplněný. Chcete-li Krku skutečně zažít bez ohromných davů, musíte dorazit před 8:00 nebo po 16:00. Předrezervace vstupenek online je povinná. Koupání u Skradinského buku již není povoleno.",
+  "quickAnswer": "Vrchol sezóny v Národním parku Krka (červenec–srpen) je extrémně přeplněný. Chcete-li Krku skutečně zažít bez ohromných davů, musíte dorazit před 8:00 nebo po 16:00. Vstupenky doporučujeme koupit předem online. Koupání u Skradinského buku již není povoleno.",
   "tableData": [],
-  "imageUrl": "https://images.unsplash.com/photo-1761773538858-5a51e5c9b0bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njg0MTh8MHwxfHNlYXJjaHw3fHxDcm9hdGlhJTIwYWRyaWF0aWMlMjBjb2FzdCUyMHRvd258ZW58MHwwfHx8MTc4MTMwNjIwNnww&ixlib=rb-4.1.0&q=80&w=1080",
-  "imageAlt": "Boat sails past lighthouse on sunny day",
-  "imageCredit": "Levi Ari Pronk",
-  "imageCreditUrl": "https://unsplash.com/@leviaripronk",
-  "imageSource": "unsplash",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Skradinski_buk_Krka_National_Park_2.jpg/1280px-Skradinski_buk_Krka_National_Park_2.jpg",
+  "imageAlt": "Skradinski Buk waterfall, Krka National Park",
+  "imageCredit": "kallerna (CC BY-SA 4.0)",
+  "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Skradinski_buk_Krka_National_Park_2.jpg",
+  "imageSource": "wikimedia",
   "destination": "krka",
   "destinationName": "Krka",
   "region": "dalmatia",
@@ -31,5 +31,6 @@
   "language": "cz",
   "generatedAt": "2026-03-01T10:18:01.045Z",
   "lat": 43.8,
-  "lng": 16
+  "lng": 16,
+  "updatedAt": "2026-11-20T00:46:18.383Z"
 }

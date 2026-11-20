@@ -1,6 +1,6 @@
 {
-  "title": "Krka Főszezon és Nyári Útikalauz 2026",
-  "metaDescription": "Navigáljon a Krka Nemzeti Park 2026-os főszezonjában. Szerezzen szakértői tippeket a nyári utazáshoz, kerülje el a tömegeket, és hozza ki a legtöbbet látogatásából. Brutálisan őszinte tanácsok.",
+  "title": "Krka Főszezon és Nyári Útikalauz 2027",
+  "metaDescription": "Navigáljon a Krka Nemzeti Park 2027-os főszezonjában. Szerezzen szakértői tippeket a nyári utazáshoz, kerülje el a tömegeket, és hozza ki a legtöbbet látogatásából. Brutálisan őszinte tanácsok.",
   "slug": "krka-peak-season",
   "content": "## A Krka Főszezon Áttekintése\n\nA Krka Nemzeti Park júliusban és augusztusban sűrű turisztikai csomóponttá válik. Jelentős tömegekre számítson, különösen a Skradinski Buk-nál. A parkba való belépés lassú lehet, a parkolók megtelnek. Ez az egyik olyan dolog, ami remeknek hangzik, amíg meg nem próbálja, és mivel a fürdés a Skradinski Buk-nál már tilos, a fő vonzerő már csak a megtekintés, ami a tömeghelyzetet még kritikusabbá teszi az élvezhetőség szempontjából.\n\n## Alapvető Nyári Utazási Tippek\n\n*   **Érkezzen Korán/Későn:** Célozza meg a parkba való belépést 8 óra előtt vagy 16 óra után. Ez nem alku kérdése egy elviselhető látogatáshoz.\n*   **Foglaljon Jegyeket Online:** Biztosítsa belépőjegyeit a hivatalos Krka weboldalon *hetekkel* előre. A helyszíni jegyvásárlás megbízhatatlan.\n*   **Fedezze Fel a Skradinski Buk-ot Túl:** Látogasson el a Roski Slap-hoz vagy a Visovac kolostorhoz. Ezek a területek lenyűgöző szépséget kínálnak jelentősen kevesebb emberrel.\n*   **Viseljen Megfelelő Lábbelit:** Az ösvények kiterjedtek és egyenetlenek lehetnek. Robusztus túracipő elengedhetetlen.\n*   **Maradjon Hidratált és Védett:** Vigyen magával vizet, fényvédő krémet és kalapot. A nyári hőmérséklet magas.\n",
   "faq": [
@@ -17,13 +17,13 @@
       "answer": "Érkezzen nyitáskor, látogasson el kevésbé népszerű területekre, mint a Roski Slap, és fontolja meg a hétközi látogatásokat a hétvégékkel szemben."
     }
   ],
-  "quickAnswer": "A Krka Nemzeti Park főszezonja (július-augusztus) intenzíven zsúfolt. Ahhoz, hogy valóban élvezhesse a Krka-t túlzsúfoltság nélkül, reggel 8 óra előtt vagy délután 4 óra után kell megérkeznie. A jegyek online előre foglalása kötelező. A fürdés a Skradinski Buk-nál már nem engedélyezett.",
+  "quickAnswer": "A Krka Nemzeti Park főszezonja (július-augusztus) intenzíven zsúfolt. Ahhoz, hogy valóban élvezhesse a Krka-t túlzsúfoltság nélkül, reggel 8 óra előtt vagy délután 4 óra után kell megérkeznie. A jegyeket érdemes online előre megvásárolni. A fürdés a Skradinski Buk-nál már nem engedélyezett.",
   "tableData": [],
-  "imageUrl": "https://images.unsplash.com/photo-1761773538858-5a51e5c9b0bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njg0MTh8MHwxfHNlYXJjaHw3fHxDcm9hdGlhJTIwYWRyaWF0aWMlMjBjb2FzdCUyMHRvd258ZW58MHwwfHx8MTc4MTMwNjIwNnww&ixlib=rb-4.1.0&q=80&w=1080",
-  "imageAlt": "Boat sails past lighthouse on sunny day",
-  "imageCredit": "Levi Ari Pronk",
-  "imageCreditUrl": "https://unsplash.com/@leviaripronk",
-  "imageSource": "unsplash",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Skradinski_buk_Krka_National_Park_2.jpg/1280px-Skradinski_buk_Krka_National_Park_2.jpg",
+  "imageAlt": "Skradinski Buk waterfall, Krka National Park",
+  "imageCredit": "kallerna (CC BY-SA 4.0)",
+  "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Skradinski_buk_Krka_National_Park_2.jpg",
+  "imageSource": "wikimedia",
   "destination": "krka",
   "destinationName": "Krka",
   "region": "dalmatia",
@@ -31,5 +31,6 @@
   "language": "hu",
   "generatedAt": "2026-03-01T10:18:12.529Z",
   "lat": 43.8,
-  "lng": 16
+  "lng": 16,
+  "updatedAt": "2026-11-20T00:46:18.383Z"
 }
