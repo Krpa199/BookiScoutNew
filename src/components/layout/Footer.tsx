@@ -51,7 +51,8 @@ export default function Footer() {
           <Link href="/" className="inline-flex flex-col items-center gap-3 group">
             <div className="w-14 h-14 group-hover:scale-105 transition-transform">
               <Image
-                src="/icon.png"
+                src="/logo-128.png"
+                unoptimized
                 alt="BookiScout"
                 width={56}
                 height={56}
@@ -143,7 +144,8 @@ export default function Footer() {
             <Link href="/" className="flex items-center gap-3 mb-6 group">
               <div className="w-12 h-12 group-hover:scale-105 transition-transform">
                 <Image
-                  src="/icon.png"
+                  src="/logo-128.png"
+                  unoptimized
                   alt="BookiScout"
                   width={48}
                   height={48}

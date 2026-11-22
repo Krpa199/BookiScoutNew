@@ -52,12 +52,13 @@ export default function Header() {
         <Link href="/" className="flex items-center gap-3 group">
           <div className="relative w-12 h-12 transition-all duration-300 group-hover:scale-105">
             <Image
-              src="/icon.png"
+              src="/logo-128.png"
               alt="BookiScout"
               width={48}
               height={48}
               className="w-full h-full object-contain"
               priority
+              unoptimized
             />
           </div>
           <div className="flex flex-col">
