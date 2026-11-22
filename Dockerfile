@@ -65,6 +65,16 @@ COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
 COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
 COPY --from=builder --chown=nextjs:nodejs /app/public ./public
 
+# Next 15.1 standalone tracing pulls sharp's deps (color, semver, detect-libc) but
+# not sharp itself, so /_next/image fell back to the very slow WASM path (8s+ per
+# image, Cloudflare timeouts → broken header icon). Copy sharp + its native binaries.
+COPY --from=deps --chown=nextjs:nodejs /app/node_modules/sharp ./node_modules/sharp
+COPY --from=deps --chown=nextjs:nodejs /app/node_modules/@img ./node_modules/@img
+
+# Image/ISR cache dir must be writable by nextjs. A fresh named volume mounted here
+# inherits this ownership (the old root-owned volume was chowned by hand 2026-11-22).
+RUN mkdir -p /app/.next/cache && chown -R nextjs:nodejs /app/.next/cache
+
 USER nextjs
 
 EXPOSE 3000

@@ -24,6 +24,13 @@ const nextConfig = {
 
   // Image optimization
   images: {
+    // Optimized images are cached on disk (.next/cache/images) and sent with this
+    // max-age. Default is 60s, which made every visit re-optimize and kept Cloudflare
+    // from caching. Source images never change under the same URL, so 30 days is safe.
+    minimumCacheTTL: 2592000,
+    // Drop the 2048/3840 defaults: no layout is wider than 1920px and the huge
+    // variants were the slowest to generate on the 2-vCPU server.
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920],
     remotePatterns: [
       {
         protocol: 'https',
