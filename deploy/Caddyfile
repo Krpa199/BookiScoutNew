@@ -33,6 +33,14 @@ bookiscout.com, www.bookiscout.com {
         -Server
     }
 
+    # Never let Cloudflare/browsers cache a 404. next.config's catch-all header gives
+    # every response s-maxage=86400, 404s included, so a URL requested before it
+    # existed stayed "not found" at Cloudflare for a day (logo-128.png, 2026-11-22).
+    header {
+        match status 404
+        Cache-Control "no-store"
+    }
+
     # Logging — rotate daily, keep 14 days
     log {
         output file /var/log/caddy/bookiscout.log {
