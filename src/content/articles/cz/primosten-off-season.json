@@ -1,8 +1,8 @@
 {
-  "title": "Průvodce mimo sezónu a zimou v Primoštenu 2026",
-  "metaDescription": "Prozkoumejte Primošten, Chorvatsko mimo sezónu nebo v zimě 2026. Objevte méně davů, nižší náklady, mírné počasí a autentické místní zážitky. Zahrnuty jsou důležité cestovní tipy.",
+  "title": "Průvodce mimo sezónu a zimou v Primoštenu 2027",
+  "metaDescription": "Prozkoumejte Primošten, Chorvatsko mimo sezónu nebo v zimě 2027. Objevte méně davů, nižší náklady, mírné počasí a autentické místní zážitky. Zahrnuty jsou důležité cestovní tipy.",
   "slug": "primosten-off-season",
-  "content": "## Proč navštívit Primošten mimo sezónu (2026)?\n*   Od listopadu do března jsou běžné výrazně nižší náklady na ubytování a aktivity. Většina návštěvníků opomíjí značné úspory, které jsou k dispozici.\n*   Počet turistů je minimální, což zajišťuje přímý kontakt s místním životem a nerušené prozkoumávání historického města.\n*   Mírné středomořské zimy s průměrnými teplotami mezi 8-12 °C podporují pobřežní procházky, cyklistiku a průzkum nedalekých národních parků.\n\n## Důležité plánování mimo sezónu\n*   Předem si ověřte otevírací dobu konkrétních restaurací, obchodů a atrakcí; některé sezónní podniky zavírají.\n*   Jízdní řády veřejné dopravy jsou omezené; pronájem auta poskytuje maximální flexibilitu při prozkoumávání Primoštenu a širšího dalmatského pobřeží.",
+  "content": "## Proč navštívit Primošten mimo sezónu (2027)?\n*   Od listopadu do března jsou běžné výrazně nižší náklady na ubytování a aktivity. Většina návštěvníků opomíjí značné úspory, které jsou k dispozici.\n*   Počet turistů je minimální, což zajišťuje přímý kontakt s místním životem a nerušené prozkoumávání historického města.\n*   Mírné středomořské zimy s průměrnými teplotami mezi 8-12 °C podporují pobřežní procházky, cyklistiku a průzkum nedalekých národních parků.\n\n## Důležité plánování mimo sezónu\n*   Předem si ověřte otevírací dobu konkrétních restaurací, obchodů a atrakcí; některé sezónní podniky zavírají.\n*   Jízdní řády veřejné dopravy jsou omezené; pronájem auta poskytuje maximální flexibilitu při prozkoumávání Primoštenu a širšího dalmatského pobřeží.",
   "faq": [
     {
       "question": "Jaká je průměrná zimní teplota v Primoštenu?",
@@ -17,13 +17,13 @@
       "answer": "Letiště Split (SPU) je nejbližší velké letiště, které funguje celoročně; pronájem auta z letiště poskytuje nejsnazší přístup do Primoštenu."
     }
   ],
-  "quickAnswer": "Primošten mimo sezónu, včetně zimy 2026, nabízí klidnou a cenově dostupnou alternativu. Očekávejte mírné počasí, výrazně méně davů a nižší ceny za ubytování a služby. Je ideální pro prozkoumávání historického města, vychutnávání místní kuchyně a zažívání autentického dalmatského života bez letního ruchu.",
+  "quickAnswer": "Primošten mimo sezónu, včetně zimy 2027, nabízí klidnou a cenově dostupnou alternativu. Očekávejte mírné počasí, výrazně méně davů a nižší ceny za ubytování a služby. Je ideální pro prozkoumávání historického města, vychutnávání místní kuchyně a zažívání autentického dalmatského života bez letního ruchu.",
   "tableData": [],
-  "imageUrl": "https://images.unsplash.com/photo-1761773538858-5a51e5c9b0bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njg0MTh8MHwxfHNlYXJjaHw3fHxDcm9hdGlhJTIwYWRyaWF0aWMlMjBjb2FzdCUyMHRvd258ZW58MHwwfHx8MTc4MTMwNjIwNnww&ixlib=rb-4.1.0&q=80&w=1080",
-  "imageAlt": "Boat sails past lighthouse on sunny day",
-  "imageCredit": "Levi Ari Pronk",
-  "imageCreditUrl": "https://unsplash.com/@leviaripronk",
-  "imageSource": "unsplash",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Primo%C5%A1ten%2C_Croatia_02.jpg/1280px-Primo%C5%A1ten%2C_Croatia_02.jpg",
+  "imageAlt": "View of the old town of Primošten on its peninsula, Croatia",
+  "imageCredit": "Bernard Gagnon (CC BY-SA 4.0)",
+  "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Primo%C5%A1ten,_Croatia_02.jpg",
+  "imageSource": "wikimedia",
   "destination": "primosten",
   "destinationName": "Primošten",
   "region": "dalmatia",
@@ -31,5 +31,6 @@
   "language": "cz",
   "generatedAt": "2026-06-03T13:01:47.605Z",
   "lat": 43.5847,
-  "lng": 15.9256
+  "lng": 15.9256,
+  "updatedAt": "2026-11-25T20:05:39.203Z"
 }
