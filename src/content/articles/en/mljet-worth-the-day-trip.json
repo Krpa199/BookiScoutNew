@@ -31,7 +31,7 @@
     },
     {
       "name": "Myth 2: The tour is the cheap option",
-      "price": "Tours €65–150; DIY is about €17 return on the catamaran plus the park ticket",
+      "price": "Tours €65–150; DIY is about €17–25 return on the catamaran plus the park ticket",
       "rating": "DIY catamaran, or a tour with a bike or boat stops",
       "distance": "A tour saves hassle, not money"
     },
@@ -48,11 +48,11 @@
       "distance": "A wrong port costs an hour or more"
     }
   ],
-  "imageUrl": "https://images.unsplash.com/photo-1779088469699-03208ca59730?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njg0MTh8MHwxfHNlYXJjaHw3fHxDcm9hdGlhJTIwaGlzdG9yaWMlMjB0b3duJTIwZXVyb3BlfGVufDB8MHx8fDE3OTU3MDQ4NTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-  "imageAlt": "Old european buildings with tiled roofs under a blue sky",
-  "imageCredit": "Margo Evardson",
-  "imageCreditUrl": "https://unsplash.com/@stadinstudio",
-  "imageSource": "unsplash",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Great_Lake%2C_Island_of_Mljet%2C_Croatia.JPG/1280px-Great_Lake%2C_Island_of_Mljet%2C_Croatia.JPG",
+  "imageAlt": "Great Lake on the island of Mljet, Croatia",
+  "imageCredit": "Neoneo13 (Public domain)",
+  "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Great_Lake,_Island_of_Mljet,_Croatia.JPG",
+  "imageSource": "wikimedia",
   "destination": "mljet",
   "destinationName": "Mljet",
   "region": "dubrovnik",
