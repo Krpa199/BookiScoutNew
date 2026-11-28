@@ -1,8 +1,8 @@
 {
-  "title": "Najboljše restavracije in kulinarični vodnik Opatije 2026",
-  "metaDescription": "Odkrijte bistvena opatijska kulinarična prizorišča in lokalno hrvaško kuhinjo. Hitri vodnik po morskih sadežih, tartufih in najboljših restavracijah za pristen okus leta 2026.",
+  "title": "Najboljše restavracije in kulinarični vodnik Opatije 2027",
+  "metaDescription": "Odkrijte bistvena opatijska kulinarična prizorišča in lokalno hrvaško kuhinjo. Hitri vodnik po morskih sadežih, tartufih in najboljših restavracijah za pristen okus leta 2027.",
   "slug": "opatija-restaurants",
-  "content": "Opatija ponuja edinstveno kulinarično potovanje. Pričakujte izjemne morske sadeže, regionalne specialitete in polirano postrežbo. Izogibajte se turističnim pastem; osredotočite se na kakovost.\n\n## Najboljše kulinarične izkušnje\n*   **Restavracija Nebo (Hilton Costabella):** Michelinova zvezdica. Inovativna hrvaška visoka kulinarika z neprekosljivim panoramskim razgledom. Rezervirajte veliko vnaprej.\n*   **Konoba Tramerka:** Avtentična, rustikalna gostilna. Specializirana za ribe z žara in tradicionalne krbarske jedi. Nujen obisk za pristen domač okus.\n*   **R&B Food & Wine (Ribarnica):** Dnevno sveže ribe, preprosto pripravljene. Dobrih sestavin ne zakomplicirajo. To se sliši priročno, a v praksi lahko zanašanje izključno na dnevne specialitete včasih omeji izbiro.\n*   **Bevanda:** Opatijska institucija. Vrhunski morski sadeži in obsežen izbor vin. Klasika z razlogom, dosledno odlična.\n*   **Kvarner Scampi:** Regionalna delikatesa. Na žaru ali v rižoti, to je bistveno. Dajte prednost restavracijam, ki poudarjajo lokalno ulovljene ribe.\n\n## Bistvo lokalne kuhinje\nKuhinjo Opatije definira njena bližina Jadranu in istrskemu zaledju. Pričakujte bogata olivna olja, avtohtone začimbe in sezonsko zelenjavo. Tartufi so izraziti. Pogoste so jedi s testeninami, kot sta fuži in pljukanci, pa tudi bogati mesni golaži.",
+  "content": "Opatija ponuja edinstveno kulinarično potovanje. Pričakujte izjemne morske sadeže, regionalne specialitete in polirano postrežbo. Izogibajte se turističnim pastem; osredotočite se na kakovost.\n\n## Najboljše kulinarične izkušnje\n*   **Restavracija Nebo (Hilton Costabella, Rijeka):** Michelinova zvezdica. Inovativna hrvaška visoka kulinarika z neprekosljivim panoramskim razgledom. Rezervirajte veliko vnaprej.\n*   **Konoba Tramerka:** Avtentična, rustikalna gostilna. Specializirana za ribe z žara in tradicionalne krbarske jedi. Nujen obisk za pristen domač okus.\n*   **R&B Food & Wine (Ribarnica):** Dnevno sveže ribe, preprosto pripravljene. Dobrih sestavin ne zakomplicirajo.\n*   **Bevanda:** Opatijska institucija. Vrhunski morski sadeži in obsežen izbor vin. Klasika z razlogom, dosledno odlična.\n*   **Kvarner Scampi:** Regionalna delikatesa. Na žaru ali v rižoti, to je bistveno. Dajte prednost restavracijam, ki poudarjajo lokalno ulovljene ribe.\n\n## Bistvo lokalne kuhinje\nKuhinjo Opatije definira njena bližina Jadranu in istrskemu zaledju. Pričakujte bogata olivna olja, avtohtone začimbe in sezonsko zelenjavo. Tartufi so izraziti. Pogoste so jedi s testeninami, kot sta fuži in pljukanci, pa tudi bogati mesni golaži.",
   "faq": [
     {
       "question": "Katero lokalno jed *moram* poskusiti v Opatiji?",
@@ -19,11 +19,11 @@
   ],
   "quickAnswer": "Kulinarična scena Opatije daje prednost svežim jadranskim morskim sadežem, istrskim tartufom in kvarnerskemu jagnjetu. Za pristen doživetje se osredotočite na konobe in luksuzne hotele. Ne spreglejte lokalnega oljčnega olja. To je kraj, kjer se kakovostne sestavine srečajo z rafinirano pripravo in dosledno ustvarijo izjemne jedi.",
   "tableData": [],
-  "imageUrl": "https://images.unsplash.com/photo-1575540291670-8d3b26f7d327?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Njg0MTh8MHwxfHNlYXJjaHwxfHxDcm9hdGlhJTIwbWVkaXRlcnJhbmVhbiUyMGFyY2hpdGVjdHVyZXxlbnwwfDB8fHwxNzgxMzA2MTI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-  "imageAlt": "aerial photo of city",
-  "imageCredit": "Matthias Mullie",
-  "imageCreditUrl": "https://unsplash.com/@matthiasmullie",
-  "imageSource": "unsplash",
+  "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Port_of_Volosko_in_Opatija_%2852829688488%29.jpg/1280px-Port_of_Volosko_in_Opatija_%2852829688488%29.jpg",
+  "imageAlt": "Boats in the harbour of Volosko near Opatija",
+  "imageCredit": "Jernej Furman from Slovenia (CC BY 2.0)",
+  "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Port_of_Volosko_in_Opatija_(52829688488).jpg",
+  "imageSource": "wikimedia",
   "destination": "opatija",
   "destinationName": "Opatija",
   "region": "kvarner",
@@ -31,5 +31,6 @@
   "language": "sl",
   "generatedAt": "2026-02-15T10:25:38.481Z",
   "lat": 45.3378,
-  "lng": 14.3053
+  "lng": 14.3053,
+  "updatedAt": "2026-11-28T10:46:50.736Z"
 }
